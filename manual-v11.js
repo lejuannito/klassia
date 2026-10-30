@@ -1,12 +1,11 @@
 (() => {
   'use strict';
-  const PART_COUNT = 7;
   let manualPack = null;
   const escM = value => String(value ?? '').replace(/[&<>\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
   const nlM = value => escM(value).replace(/\n/g, '<br>');
 
   async function loadPack(){
-    const names = Array.from({length:PART_COUNT}, (_,i)=>`./data/manual/part-${String(i+1).padStart(2,'0')}.txt`);
+    const names = ["./data/manual/part-01.txt", "./data/manual/part-02.txt", "./data/manual/part-03.txt", "./data/manual/part-04.txt", "./data/manual/part-05a.txt", "./data/manual/part-05b.txt", "./data/manual/part-05c.txt", "./data/manual/part-06a.txt", "./data/manual/part-06b-1.txt", "./data/manual/part-06b-2.txt", "./data/manual/part-06c-1.txt", "./data/manual/part-06c-2.txt", "./data/manual/part-07.txt"];
     const parts = await Promise.all(names.map(u => fetch(u).then(r => { if(!r.ok) throw new Error(`Supplément manuel indisponible: ${u}`); return r.text(); })));
     if(typeof DecompressionStream !== 'function') throw new Error('Ce navigateur ne prend pas en charge la décompression du manuel enrichi. Le parcours de base reste disponible.');
     const bin = Uint8Array.from(atob(parts.join('')), c => c.charCodeAt(0));

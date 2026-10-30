@@ -1,17 +1,14 @@
-# Klassia PWA v8 — CE2 complet
+# Klassia PWA v9 — CE2 pilote réel
 
-Version PWA issue de Klassia v7 consolidée.
+Cette version conserve le moteur v8 validé sur smartphone et ajoute une couche v9 non destructive.
 
-- 8 unités CE2
-- 347 leçons riches
-- 80 évaluations
-- 1 548 QCM fusionnés
-- profils de démonstration Élève / Parent / Administrateur
-- installation smartphone
-- fonctionnement hors connexion après le premier chargement
-- stockage local de la progression
+- 8 unités CE2, 347 leçons, 80 évaluations, 1 548 QCM
+- PWA installable et utilisable hors connexion
+- sauvegarde/restauration de la progression en JSON
+- demande de stockage persistant au navigateur
+- journal d’activité pédagogique local
+- plan du jour en 3 étapes
+- espace parent enrichi par l’activité récente
+- format de sauvegarde versionné, prêt pour une future synchronisation serveur
 
-## Vérification locale
-Pour tester sur ordinateur : servir ce dossier avec un serveur HTTP local (par exemple `python -m http.server 8080`) puis ouvrir `http://localhost:8080/`.
-
-Pour installer sur un smartphone, publier le dossier sur une URL HTTPS. Voir `INSTALLATION_SMARTPHONE.md`.
+Aucune progression n’est envoyée vers un serveur Klassia dans cette version.

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'klassia-ce2-v9-20261030';
+const CACHE_NAME = 'klassia-ce2-v11-20261031';
 const APP_SHELL = [
   "./app.js",
   "./data/catalog.json",
@@ -20,6 +20,13 @@ const APP_SHELL = [
   "./data/qcm-u7.json",
   "./data/qcm-u8.json",
   "./data/qcm.json",
+  "./data/manual/part-01.txt",
+  "./data/manual/part-02.txt",
+  "./data/manual/part-03.txt",
+  "./data/manual/part-04.txt",
+  "./data/manual/part-05.txt",
+  "./data/manual/part-06.txt",
+  "./data/manual/part-07.txt",
   "./icons/apple-touch-icon.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
@@ -31,7 +38,9 @@ const APP_SHELL = [
   "./screenshots/mobile-parent.png",
   "./style.css",
   "./v9.css",
-  "./v9.js"
+  "./v9.js",
+  "./manual-v11.css",
+  "./manual-v11.js"
 ];
 
 self.addEventListener('install', event => {

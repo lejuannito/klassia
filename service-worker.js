@@ -1,4 +1,4 @@
-const CACHE_NAME = 'klassia-ce2-v8-20261030';
+const CACHE_NAME = 'klassia-ce2-v9-20261030';
 const APP_SHELL = [
   "./app.js",
   "./data/catalog.json",
@@ -29,7 +29,9 @@ const APP_SHELL = [
   "./pwa.js",
   "./screenshots/mobile-home.png",
   "./screenshots/mobile-parent.png",
-  "./style.css"
+  "./style.css",
+  "./v9.css",
+  "./v9.js"
 ];
 
 self.addEventListener('install', event => {

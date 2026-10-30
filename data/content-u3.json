@@ -1,0 +1,1964 @@
+{
+  "format": "klassia-content",
+  "version": 1,
+  "metadata": {
+    "product": "Klassia",
+    "class": "CE2",
+    "unit": 3,
+    "unit_title": "L’école",
+    "country": "Cameroun",
+    "curriculum": "Curriculum de l’enseignement primaire francophone camerounais - Niveau 2 (CE1-CE2), MINEDUB, 2018",
+    "editorial_status": "DRAFT_FOR_PEDAGOGICAL_REVIEW",
+    "created": "2026-10-30",
+    "source_file": "Curriculum-CE.pdf"
+  },
+  "pedagogy": {
+    "unit_cycle": [
+      "Acquisitions - semaine 1",
+      "Acquisitions - semaine 2",
+      "Acquisitions - semaine 3",
+      "Intégration, évaluation et remédiation - semaine 4"
+    ],
+    "lesson_flow": [
+      "Je découvre",
+      "Je comprends",
+      "Je retiens",
+      "Je m’exerce",
+      "Correction",
+      "Remédiation ciblée"
+    ],
+    "validation_workflow": [
+      "IA / rédaction initiale",
+      "Revue enseignant ou expert",
+      "Validation éditoriale",
+      "Publication"
+    ]
+  },
+  "subjects": [
+    {
+      "id": "FR",
+      "name": "Français et littérature",
+      "source_pages": "27, 32, 35, 39, 43, 47, 49",
+      "lessons": [
+        {
+          "id": "FR-U3-L1",
+          "title": "Raconter une situation vécue à l’école",
+          "objectives": [
+            "Raconter une situation vécue.",
+            "Adapter le débit, le volume, l’intonation et le registre de langue."
+          ],
+          "discover": "Tu veux raconter à la classe ce qui s’est passé pendant la récréation. Pour être compris, tu dois présenter les faits dans un ordre clair et parler d’une voix adaptée.",
+          "learn": [
+            "Un récit vécu répond souvent à quelques questions simples : quand ? où ? qui ? que s’est-il passé ? comment cela s’est-il terminé ?",
+            "Le débit ne doit être ni trop rapide ni trop lent. Le volume doit permettre aux autres d’entendre. L’intonation aide à faire comprendre les moments importants.",
+            "À l’école, on choisit des mots corrects et respectueux, adaptés à la personne à qui l’on parle."
+          ],
+          "takeaway": "Je raconte les faits dans l’ordre et j’adapte ma voix et mes mots à la situation.",
+          "exercises": [
+            {
+              "prompt": "Raconte en quatre phrases une activité vécue en classe.",
+              "answer": "Réponse personnelle : vérifier l’ordre des faits, la clarté et un langage adapté.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi faut-il éviter de parler trop vite ?",
+              "answer": "Parce que les auditeurs risquent de ne pas comprendre le récit.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, expression orale, Unité 3, p.27.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "FR-U3-L2",
+          "title": "Débattre, écouter et réciter",
+          "objectives": [
+            "Argumenter ses idées dans un débat ou un dialogue.",
+            "Réagir efficacement à ce qui est entendu.",
+            "Réciter un texte en prose ou un poème relatif à l’école."
+          ],
+          "discover": "La classe discute de la question : « Faut-il garder la cour propre même après la récréation ? » Chacun peut donner son avis, mais il faut écouter les autres et expliquer pourquoi on pense ainsi.",
+          "learn": [
+            "Argumenter, c’est donner une idée et au moins une raison qui la soutient.",
+            "Dans un débat, on attend son tour, on répond à ce qui a été dit et on évite les attaques contre les personnes.",
+            "Pour réciter, on articule, on respecte les pauses et on adapte l’intonation au sens."
+          ],
+          "takeaway": "Je donne mon avis avec une raison, j’écoute avant de répondre et je récite avec expression.",
+          "exercises": [
+            {
+              "prompt": "Donne un argument en faveur d’une cour d’école propre.",
+              "answer": "Exemple : « Il faut garder la cour propre parce que cela protège la santé et rend l’école agréable. »",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Récite deux phrases sur l’école en marquant une pause entre les idées.",
+              "answer": "Évaluer articulation, pauses, volume et intonation.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, expression orale, Unité 3, p.27.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "FR-U3-L3",
+          "title": "Écrire proprement et produire un texte sur l’école",
+          "objectives": [
+            "Calligraphier correctement les lettres.",
+            "Reproduire sous dictée des mots et des phrases en cursive et en script.",
+            "Écrire un texte à la demande."
+          ],
+          "discover": "Avant d’afficher un texte dans la classe, il faut pouvoir le lire facilement. Une écriture régulière, des mots bien séparés et une relecture rendent le message plus clair.",
+          "learn": [
+            "En dictée, on écoute toute la phrase, puis on écrit en respectant les espaces, la majuscule initiale et la ponctuation.",
+            "Pour écrire un petit texte, on prépare les idées, on rédige, puis on relit."
+          ],
+          "takeaway": "J’écris lisiblement, je respecte les mots dictés et je relis mon texte.",
+          "exercises": [
+            {
+              "prompt": "Écris quatre phrases pour présenter ta salle de classe.",
+              "answer": "Réponse personnelle : vérifier lisibilité, cohérence, majuscules et ponctuation.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Recopie correctement : « Notre classe respecte les règles de vie. »",
+              "answer": "La phrase doit être reproduite sans omission ni modification.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, écriture et production d’écrits, Unité 3, p.32.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "FR-U3-L4",
+          "title": "Lire une aventure et donner son avis",
+          "objectives": [
+            "Lire une œuvre intégrale ou de larges extraits.",
+            "Rendre compte de la lecture.",
+            "Donner son point de vue."
+          ],
+          "discover": "Dans une histoire scolaire, un élève trouve un cahier oublié et cherche son propriétaire au lieu de le garder. Que s’est-il passé ? Que penses-tu de son choix ?",
+          "learn": [
+            "Rendre compte d’une lecture, c’est présenter les personnages, le lieu, le problème, les actions importantes et la fin.",
+            "Un avis est plus solide lorsqu’il s’appuie sur un fait du texte."
+          ],
+          "takeaway": "Je résume les faits essentiels et je justifie mon avis par un élément du texte.",
+          "exercises": [
+            {
+              "prompt": "Quel problème rencontre l’élève dans l’exemple ?",
+              "answer": "Il trouve un cahier oublié et doit décider quoi en faire.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Donne ton avis sur son choix et justifie-le.",
+              "answer": "Exemple : « Son choix est bon parce qu’il cherche à rendre le cahier à son propriétaire. »",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, littérature, Unité 3, p.35.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "FR-U3-L5",
+          "title": "Articles et adjectifs possessifs ou démonstratifs",
+          "objectives": [
+            "Identifier les articles définis, indéfinis, élidés et contractés.",
+            "Utiliser les adjectifs possessifs.",
+            "Utiliser les adjectifs démonstratifs."
+          ],
+          "discover": "Dans « l’école », « un cahier », « au tableau », « ma règle » et « cette classe », les petits mots placés devant les noms donnent des informations différentes.",
+          "learn": [
+            "Articles définis : le, la, les ; indéfinis : un, une, des. L’article élidé apparaît devant certaines voyelles : l’école. Les articles contractés associent une préposition et un article : au, aux, du, des selon le contexte.",
+            "Les adjectifs possessifs indiquent une relation de possession : mon, ma, mes, notre… Les démonstratifs montrent ou désignent : ce, cet, cette, ces."
+          ],
+          "takeaway": "Je choisis le déterminant qui convient au nom et au sens de la phrase.",
+          "exercises": [
+            {
+              "prompt": "Complète : ___ école de mon quartier est grande.",
+              "answer": "L’école de mon quartier est grande.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Choisis : « (mon / cette) cahier » si tu montres un cahier précis.",
+              "answer": "Ce cahier. Remarque : devant « cahier », on utilise « ce ».",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, grammaire, Unité 3, p.39.",
+          "practical": [],
+          "notes": [
+            "L’exercice rappelle l’accord du déterminant avec le nom ; les formes doivent rester adaptées au nom choisi."
+          ]
+        },
+        {
+          "id": "FR-U3-L6",
+          "title": "Trouver le sujet et distinguer mots variables et invariables",
+          "objectives": [
+            "Identifier le sujet d’un verbe.",
+            "Définir les notions de mots variables et invariables."
+          ],
+          "discover": "Dans « Les élèves rangent la classe », qui fait l’action de ranger ? Le groupe « les élèves » commande la forme du verbe.",
+          "learn": [
+            "Le sujet peut être un nom propre, un nom commun ou un pronom personnel. On peut souvent le trouver en demandant « qui est-ce qui ? » avant le verbe.",
+            "Un mot variable peut changer de forme selon le genre, le nombre, la personne ou le temps. Un mot invariable garde la même forme."
+          ],
+          "takeaway": "Je cherche qui fait l’action et je reconnais les mots qui changent ou ne changent pas de forme.",
+          "exercises": [
+            {
+              "prompt": "Trouve le sujet : « Amina lit au tableau. »",
+              "answer": "Amina.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Le mot « souvent » change-t-il de forme dans « il vient souvent / ils viennent souvent » ?",
+              "answer": "Non, « souvent » est invariable.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, grammaire, Unité 3, p.39.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "FR-U3-L7",
+          "title": "Le vocabulaire de l’école et les termes exacts",
+          "objectives": [
+            "Utiliser les termes exacts correspondant aux notions étudiées.",
+            "Expliquer des mots usuels.",
+            "Utiliser le champ lexical de l’école."
+          ],
+          "discover": "Dire seulement « le truc pour écrire au tableau » est moins précis que dire « la craie » ou « le marqueur », selon le matériel utilisé.",
+          "learn": [
+            "Dans chaque matière, certains mots ont un sens précis : addition, phrase, racine, clavier, règlement… Les employer correctement aide à mieux comprendre et expliquer.",
+            "Le champ lexical de l’école peut contenir : classe, tableau, cahier, cour, enseignant, élève, bibliothèque, règlement."
+          ],
+          "takeaway": "J’utilise le mot précis correspondant à l’objet ou à la notion étudiée.",
+          "exercises": [
+            {
+              "prompt": "Donne cinq mots du champ lexical de l’école.",
+              "answer": "Exemples : classe, cahier, tableau, cour, enseignant.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Quel terme est plus précis en mathématiques : « calcul » ou « addition » si l’on réunit deux nombres ?",
+              "answer": "« addition » est plus précis.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, vocabulaire, Unité 3, p.43.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "FR-U3-L8",
+          "title": "Mots invariables et verbes fréquents au présent",
+          "objectives": [
+            "Orthographier des mots invariables fréquemment rencontrés.",
+            "Conjuguer aller, dire, faire et pouvoir au présent de l’indicatif."
+          ],
+          "discover": "Dans une consigne scolaire, des mots comme « souvent », « toujours », « avec » ou « dans » gardent la même forme. Certains verbes très fréquents changent beaucoup selon la personne.",
+          "learn": [
+            "Exemples de formes au présent : je vais / nous allons ; je dis / nous disons ; je fais / nous faisons ; je peux / nous pouvons.",
+            "Les mots invariables doivent être mémorisés et réutilisés correctement dans les phrases."
+          ],
+          "takeaway": "Je mémorise l’orthographe des mots invariables et les formes des verbes fréquents.",
+          "exercises": [
+            {
+              "prompt": "Conjugue « faire » avec nous et ils au présent.",
+              "answer": "Nous faisons ; ils font.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Complète : « Nous ___ à la bibliothèque. » avec aller.",
+              "answer": "Nous allons à la bibliothèque.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, orthographe p.47 et conjugaison p.49, Unité 3.",
+          "practical": [],
+          "notes": []
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - Français - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 4,
+            "prompt": "Raconte oralement une situation vécue à l’école en respectant l’ordre des faits.",
+            "answer": "Évaluer ordre, débit, volume, intonation et vocabulaire adapté."
+          },
+          {
+            "points": 4,
+            "prompt": "Dans « cette grande école », identifie le déterminant, l’adjectif et le nom.",
+            "answer": "Déterminant : cette ; adjectif : grande ; nom : école."
+          },
+          {
+            "points": 4,
+            "prompt": "Trouve le sujet : « Les élèves préparent la bibliothèque. » puis remplace-le par un pronom.",
+            "answer": "Sujet : Les élèves ; pronom : ils."
+          },
+          {
+            "points": 4,
+            "prompt": "Conjugue au présent : nous (faire), ils (pouvoir), je (aller), vous (dire).",
+            "answer": "Nous faisons ; ils peuvent ; je vais ; vous dites."
+          },
+          {
+            "points": 4,
+            "prompt": "Écris quatre phrases cohérentes sur ta classe et emploie au moins trois mots précis du vocabulaire scolaire.",
+            "answer": "Évaluer cohérence, vocabulaire précis, orthographe et ponctuation."
+          }
+        ]
+      },
+      "remediation": [
+        "Reprendre le récit avec une frise « début - action - fin ».",
+        "Manipuler des groupes nominaux pour revoir articles et adjectifs.",
+        "Utiliser de courtes cartes de conjugaison pour aller, dire, faire et pouvoir."
+      ]
+    },
+    {
+      "id": "EN",
+      "name": "English Language",
+      "source_pages": "55-63",
+      "lessons": [
+        {
+          "id": "EN-U3-L1",
+          "title": "Present people, greet and state school rules",
+          "objectives": [
+            "Present people.",
+            "Greet people at different times of the day and respond appropriately.",
+            "State school rules and regulations."
+          ],
+          "discover": "At school, you may meet a teacher, a new pupil or a visitor. You need simple polite expressions to introduce a person, greet and state a rule.",
+          "learn": [
+            "Useful models: “This is my classmate, Amina.” “Good morning, Sir/Madam.” “Good afternoon.”",
+            "A school rule can be expressed simply: “We keep the classroom clean.” “We listen when someone is speaking.”"
+          ],
+          "takeaway": "I use polite greetings, introduce people clearly and state simple school rules.",
+          "exercises": [
+            {
+              "prompt": "Introduce your classmate named Paul.",
+              "answer": "Example: “This is my classmate, Paul.”",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Give one simple school rule in English.",
+              "answer": "Example: “We keep the classroom clean.”",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, English Listening and Speaking, Unit 3, pp.55-56.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "EN-U3-L2",
+          "title": "Read about the classroom and school-year feasts",
+          "objectives": [
+            "Read short paragraphs about the classroom aloud.",
+            "Read names of feasts of the school year."
+          ],
+          "discover": "A short paragraph can describe a classroom: “Our classroom is clean. There are desks and a board. We read and write here.”",
+          "learn": [
+            "Read in groups of meaning, not word by word. Stop briefly at full stops.",
+            "Names of school-year feasts or events should be introduced with examples familiar to the school context and validated locally."
+          ],
+          "takeaway": "I read short school texts aloud with clear pronunciation and sensible pauses.",
+          "exercises": [
+            {
+              "prompt": "Read aloud: “Our classroom is clean. We keep our books on the shelf.”",
+              "answer": "Assess pronunciation, pauses and understanding.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "What should you do at a full stop while reading aloud?",
+              "answer": "Make a brief pause.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, English Reading, Unit 3, p.58.",
+          "practical": [],
+          "notes": [
+            "Local examples of school-year feasts/events should be selected by the teacher or editorial reviewer."
+          ]
+        },
+        {
+          "id": "EN-U3-L3",
+          "title": "Write a description of the school and copy school rules",
+          "objectives": [
+            "Write a simple description of the school.",
+            "Copy school rules and regulations accurately."
+          ],
+          "discover": "A school description can say where the school is, what it has and what pupils do there.",
+          "learn": [
+            "Example structure: “My school is in … It has … We learn … I like …”",
+            "When copying a rule, keep the same spelling, capital letters and punctuation."
+          ],
+          "takeaway": "I write a short, clear school description and copy rules accurately.",
+          "exercises": [
+            {
+              "prompt": "Write three simple sentences about your school.",
+              "answer": "Example: “My school is near my home. It has several classrooms. We learn many subjects.”",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Copy correctly: “We respect our teachers and classmates.”",
+              "answer": "The sentence should be copied without changes.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, English Writing, Unit 3, p.60.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "EN-U3-L4",
+          "title": "Opposites, comparative adjectives and time expressions",
+          "objectives": [
+            "Use opposites of one- and two-syllable words.",
+            "Use comparative adjectives to compare things.",
+            "Use prepositions of time to tell when activities took place."
+          ],
+          "discover": "You can compare two school objects: “This ruler is longer than that ruler.” You can also say when an activity happened: “The lesson starts at eight o’clock.”",
+          "learn": [
+            "Common opposites include big/small, old/new, fast/slow.",
+            "For many short adjectives, the comparative uses -er + than: taller than, smaller than. Some forms are irregular and should be taught separately.",
+            "Common time words include at, on and in, depending on the expression."
+          ],
+          "takeaway": "I compare things clearly and use simple time expressions correctly.",
+          "exercises": [
+            {
+              "prompt": "Complete: “A desk is ___ than a pencil.” Choose a sensible adjective.",
+              "answer": "Example: “A desk is bigger than a pencil.”",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Complete: “The lesson starts ___ eight o’clock.”",
+              "answer": "at",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, English Grammar and Vocabulary, Unit 3, p.63.",
+          "practical": [],
+          "notes": [
+            "Irregular comparatives are editorial enrichment and should be introduced progressively."
+          ]
+        }
+      ],
+      "assessment": {
+        "title": "Assessment - English - Unit 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 5,
+            "prompt": "Introduce a classmate and greet a teacher in the morning.",
+            "answer": "Use a clear introduction and an appropriate morning greeting."
+          },
+          {
+            "points": 5,
+            "prompt": "Read a short paragraph about a classroom aloud.",
+            "answer": "Assess pronunciation, pace and pauses."
+          },
+          {
+            "points": 5,
+            "prompt": "Write three sentences describing your school and one school rule.",
+            "answer": "Assess clarity, basic spelling and sentence structure."
+          },
+          {
+            "points": 5,
+            "prompt": "Complete: “This bag is ___ than that bag.” and “School starts ___ 7:30.”",
+            "answer": "A suitable comparative, e.g. bigger/smaller; at 7:30."
+          }
+        ]
+      },
+      "remediation": [
+        "Use short oral models before writing.",
+        "Read one sentence at a time and repeat with correct pronunciation.",
+        "Practise comparatives with real classroom objects."
+      ]
+    },
+    {
+      "id": "BA",
+      "name": "Langues et cultures nationales – Bassa",
+      "source_pages": "70",
+      "lessons": [
+        {
+          "id": "BA-U3-L1",
+          "title": "Raconter en Bassa des activités passées à l’école - contenu à valider",
+          "objectives": [
+            "Dire en cinq phrases maximum des activités qui se sont déroulées au passé.",
+            "Respecter l’orthographe et les tons retenus pour le Bassa scolaire."
+          ],
+          "discover": "L’élève prépare un très court récit d’une activité scolaire passée : arrivée à l’école, activité en classe, récréation, travail de groupe ou autre situation réellement vécue.",
+          "learn": [
+            "Le curriculum demande une production de cinq phrases maximum portant sur des activités passées à l’école.",
+            "Klassia ne fournit pas ici de phrases Bassa inventées : les formes verbales, le lexique scolaire, les tons et la prononciation doivent être fournis et validés par un spécialiste Bassa selon le référentiel orthographique retenu.",
+            "La progression pédagogique peut suivre : écouter un modèle validé → remettre les événements dans l’ordre → répéter → produire 3 à 5 phrases."
+          ],
+          "takeaway": "Je raconte brièvement une activité passée à l’école avec des formes Bassa validées.",
+          "exercises": [
+            {
+              "prompt": "À partir d’un audio validé, remets trois activités scolaires dans l’ordre où elles se sont déroulées.",
+              "answer": "Correction liée au support Bassa validé.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Produis oralement trois à cinq phrases sur une activité scolaire passée.",
+              "answer": "Évaluation par un enseignant/référent Bassa : sens, ordre, formes verbales, tons et prononciation.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, Langues et cultures nationales, Unité 3, p.70.",
+          "practical": [],
+          "notes": [
+            "REQUIRES_BASSA_EXPERT_REVIEW",
+            "Aucune forme lexicale ou grammaticale Bassa nouvelle n’est publiée sans validation."
+          ]
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - LCN/Bassa - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 5,
+            "prompt": "Comprendre un court récit audio validé sur une activité scolaire passée.",
+            "answer": "Identifier correctement les actions essentielles."
+          },
+          {
+            "points": 5,
+            "prompt": "Remettre des activités scolaires entendues dans leur ordre chronologique.",
+            "answer": "Ordre conforme au support validé."
+          },
+          {
+            "points": 5,
+            "prompt": "Produire oralement trois à cinq phrases au passé sur l’école.",
+            "answer": "Évaluer sens, ordre, prononciation et tons selon référentiel validé."
+          },
+          {
+            "points": 5,
+            "prompt": "Reprendre une production après correction du référent linguistique.",
+            "answer": "Amélioration effective des formes signalées."
+          }
+        ]
+      },
+      "remediation": [
+        "Réécouter les modèles validés à débit ralenti puis normal.",
+        "Faire répéter phrase par phrase avant la production autonome.",
+        "Toute correction linguistique doit être validée par le référent Bassa."
+      ],
+      "editorial_status": "REQUIRES_BASSA_EXPERT_REVIEW"
+    },
+    {
+      "id": "MA",
+      "name": "Mathématiques",
+      "source_pages": "77, 85, 90",
+      "lessons": [
+        {
+          "id": "MA-U3-L1",
+          "title": "Les nombres jusqu’à 5 000",
+          "objectives": [
+            "Composer et décomposer les nombres ≤ 5 000.",
+            "Lire et écrire les nombres en chiffres et en lettres.",
+            "Comparer et ranger des nombres entiers."
+          ],
+          "discover": "Le nombre 4 327 contient 4 milliers, 3 centaines, 2 dizaines et 7 unités.",
+          "learn": [
+            "La valeur d’un chiffre dépend de sa position. 4 327 = 4 000 + 300 + 20 + 7.",
+            "Pour comparer deux nombres, on compare d’abord les milliers, puis les centaines, les dizaines et les unités."
+          ],
+          "takeaway": "Je décompose les nombres par rang et je compare de gauche à droite.",
+          "exercises": [
+            {
+              "prompt": "Décompose 4 508.",
+              "answer": "4 000 + 500 + 8.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Range 3 905, 4 035 et 3 950 du plus petit au plus grand.",
+              "answer": "3 905 < 3 950 < 4 035.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, nombres et calculs, Unité 3, p.77.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "MA-U3-L2",
+          "title": "Utiliser l’associativité pour calculer plus facilement",
+          "objectives": [
+            "Utiliser les propriétés des opérations et de la numération, notamment l’associativité.",
+            "Résoudre des problèmes de la vie courante."
+          ],
+          "discover": "Pour calculer 25 + 75 + 40, il est pratique de regrouper d’abord 25 + 75 = 100, puis d’ajouter 40.",
+          "learn": [
+            "L’associativité permet de regrouper différemment certains termes d’une addition ou certains facteurs d’une multiplication sans changer le résultat.",
+            "Elle sert à rendre un calcul plus simple lorsque les regroupements sont bien choisis."
+          ],
+          "takeaway": "Je cherche un regroupement qui rend le calcul plus facile sans changer le résultat.",
+          "exercises": [
+            {
+              "prompt": "Calcule facilement 18 + 82 + 35.",
+              "answer": "18 + 82 = 100 ; 100 + 35 = 135.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Explique pourquoi (2×5)×3 et 2×(5×3) donnent le même résultat.",
+              "answer": "Les deux donnent 30 ; le regroupement des facteurs change mais pas leur produit.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, nombres et calculs, Unité 3, p.77.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "MA-U3-L3",
+          "title": "Estimer et comparer des capacités",
+          "objectives": [
+            "Estimer l’ordre de grandeur des objets selon leur capacité.",
+            "Ranger des récipients suivant leur capacité."
+          ],
+          "discover": "Une tasse, une bouteille et un seau ne peuvent pas contenir la même quantité de liquide. Avant de mesurer, on peut faire une estimation.",
+          "learn": [
+            "La capacité indique ce qu’un récipient peut contenir.",
+            "Pour comparer, on peut d’abord estimer puis vérifier par mesure ou transvasement dans une situation adaptée."
+          ],
+          "takeaway": "J’estime d’abord la capacité, puis je vérifie avec une mesure adaptée.",
+          "exercises": [
+            {
+              "prompt": "Range probablement du plus petit au plus grand : tasse, seau, bouteille.",
+              "answer": "Tasse < bouteille < seau.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi une estimation n’est-elle pas toujours suffisante ?",
+              "answer": "Parce qu’elle donne une approximation ; la mesure permet de vérifier précisément.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, mesures et grandeurs, Unité 3, p.85.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "MA-U3-L4",
+          "title": "Le litre, le décalitre et les conversions simples",
+          "objectives": [
+            "Utiliser les multiples et sous-multiples du litre.",
+            "Utiliser le décalitre pour mesurer des capacités."
+          ],
+          "discover": "Pour de grandes quantités de liquide, on peut utiliser une unité plus grande que le litre : le décalitre.",
+          "learn": [
+            "1 décalitre (daL) = 10 litres (L).",
+            "Les conversions doivent toujours conserver le même volume : 3 daL = 30 L."
+          ],
+          "takeaway": "1 daL = 10 L. Je vérifie toujours l’unité avant de répondre.",
+          "exercises": [
+            {
+              "prompt": "Convertis 4 daL en litres.",
+              "answer": "40 L.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Combien de décalitres représentent 20 L ?",
+              "answer": "2 daL.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, mesures et grandeurs, Unité 3, p.85.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "MA-U3-L5",
+          "title": "Construire un parallélogramme et un losange",
+          "objectives": [
+            "Construire un parallélogramme.",
+            "Construire un losange."
+          ],
+          "discover": "Des figures peuvent avoir des propriétés communes : dans un parallélogramme, les côtés opposés sont parallèles ; dans un losange, les quatre côtés ont la même longueur.",
+          "learn": [
+            "Un parallélogramme a deux paires de côtés opposés parallèles.",
+            "Un losange est un quadrilatère dont les quatre côtés sont de même longueur. Pour construire précisément, on utilise les instruments de géométrie."
+          ],
+          "takeaway": "Je construis en contrôlant parallélisme et longueurs.",
+          "exercises": [
+            {
+              "prompt": "Quelle propriété principale vérifies-tu pour un losange ?",
+              "answer": "Ses quatre côtés ont la même longueur.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Construis un parallélogramme à partir de mesures données par l’enseignant.",
+              "answer": "Vérifier côtés opposés parallèles et mesures respectées.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, géométrie et espace, Unité 3, p.90.",
+          "practical": [
+            "Utiliser règle et équerre sous supervision pédagogique."
+          ],
+          "notes": []
+        },
+        {
+          "id": "MA-U3-L6",
+          "title": "Construire un cercle",
+          "objectives": [
+            "Construire un cercle.",
+            "Résoudre une situation simple utilisant une figure géométrique."
+          ],
+          "discover": "Un cercle peut être tracé à partir d’un centre et d’une même distance appelée rayon.",
+          "learn": [
+            "Le compas permet de garder une distance constante entre le centre et tous les points du cercle.",
+            "Avant de tracer, on place le centre et on règle l’ouverture du compas sur le rayon demandé."
+          ],
+          "takeaway": "Tous les points du cercle sont à la même distance du centre.",
+          "exercises": [
+            {
+              "prompt": "Que faut-il fixer avant de tracer un cercle au compas ?",
+              "answer": "Le centre et le rayon.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Trace un cercle de rayon 3 cm.",
+              "answer": "Vérifier centre marqué et rayon de 3 cm.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, géométrie et espace, Unité 3, p.90.",
+          "practical": [
+            "Manipuler le compas avec prudence et sous la supervision de l’enseignant."
+          ],
+          "notes": []
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - Mathématiques - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 4,
+            "prompt": "Décompose 4 286 puis écris-le en lettres.",
+            "answer": "4 000 + 200 + 80 + 6 ; quatre mille deux cent quatre-vingt-six."
+          },
+          {
+            "points": 4,
+            "prompt": "Calcule 35 + 65 + 48 en choisissant un regroupement efficace.",
+            "answer": "35 + 65 = 100 ; 100 + 48 = 148."
+          },
+          {
+            "points": 4,
+            "prompt": "Convertis 6 daL en litres puis 30 L en daL.",
+            "answer": "60 L ; 3 daL."
+          },
+          {
+            "points": 4,
+            "prompt": "Donne une propriété du parallélogramme et une du losange.",
+            "answer": "Parallélogramme : côtés opposés parallèles ; losange : quatre côtés égaux."
+          },
+          {
+            "points": 4,
+            "prompt": "Construis un cercle de rayon 2 cm et indique son centre.",
+            "answer": "Cercle correct, rayon 2 cm, centre identifié."
+          }
+        ]
+      },
+      "remediation": [
+        "Revenir à la numération positionnelle avec des cartes milliers-centaines-dizaines-unités.",
+        "Manipuler des récipients pour comparer les capacités.",
+        "Reprendre les constructions géométriques étape par étape."
+      ]
+    },
+    {
+      "id": "SC",
+      "name": "Sciences et technologies",
+      "source_pages": "97, 101, 102, 104, 105, 108",
+      "lessons": [
+        {
+          "id": "SC-U3-L1",
+          "title": "Modes de respiration des animaux - intitulé officiel à valider",
+          "objectives": [
+            "Justifier des modes de respiration chez les animaux.",
+            "Observer les adaptations liées au milieu de vie."
+          ],
+          "discover": "Les animaux ont besoin d’échanges gazeux pour vivre, mais les organes utilisés ne sont pas les mêmes chez tous.",
+          "learn": [
+            "Le tableau officiel associe l’intitulé « La reproduction des animaux » au savoir-faire « Justifier chaque mode de respiration ». Klassia conserve le savoir-faire mais signale cette incohérence pour validation.",
+            "Comme enrichissement pédagogique à contrôler, on peut comparer des animaux respirant principalement avec des poumons, des branchies, des trachées ou à travers une peau humide."
+          ],
+          "takeaway": "Les animaux respirent de façons différentes selon leur organisme et leur milieu.",
+          "exercises": [
+            {
+              "prompt": "Pourquoi un poisson ne respire-t-il pas comme un mammifère terrestre ?",
+              "answer": "Leurs organes respiratoires et leur milieu de vie diffèrent.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Que faut-il faire de l’intitulé officiel incohérent ?",
+              "answer": "Le signaler à la revue pédagogique plutôt que le corriger silencieusement.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, sciences de la vie, Unité 3, p.97.",
+          "practical": [],
+          "notes": [
+            "ANOMALIE_SOURCE: le savoir acquis est intitulé « reproduction des animaux », mais le savoir-faire porte sur la respiration.",
+            "Les exemples d’organes respiratoires sont un enrichissement pédagogique et doivent être validés avant publication."
+          ]
+        },
+        {
+          "id": "SC-U3-L2",
+          "title": "Feuilles et racines des plantes",
+          "objectives": [
+            "Décrire les parties d’une feuille.",
+            "Identifier différentes racines d’une plante."
+          ],
+          "discover": "En observant plusieurs plantes de l’environnement scolaire, on remarque que les feuilles et les racines n’ont pas toujours la même forme.",
+          "learn": [
+            "Une feuille peut être décrite par des parties visibles comme le limbe, le pétiole et les nervures selon l’espèce observée.",
+            "Les systèmes racinaires présentent des formes différentes. L’observation d’échantillons permet de comparer sans arracher inutilement les plantes."
+          ],
+          "takeaway": "J’observe une plante et je décris ce que je vois avec un vocabulaire précis.",
+          "exercises": [
+            {
+              "prompt": "Cite deux éléments que l’on peut observer sur une feuille.",
+              "answer": "Exemples : limbe, pétiole, nervures.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi faut-il observer plusieurs plantes ?",
+              "answer": "Pour comparer les formes et reconnaître qu’elles ne sont pas toutes identiques.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, sciences de la vie, Unité 3, p.97.",
+          "practical": [
+            "Observer des feuilles tombées ou des plants disponibles sans dégrader l’environnement."
+          ],
+          "notes": []
+        },
+        {
+          "id": "SC-U3-L3",
+          "title": "Germination et types de fruits",
+          "objectives": [
+            "Expliquer le phénomène de germination.",
+            "Identifier différents types de fruits."
+          ],
+          "discover": "Une graine placée dans des conditions favorables peut commencer à se transformer et donner une jeune plante.",
+          "learn": [
+            "La germination correspond au démarrage du développement d’une graine. Elle dépend de conditions favorables comme l’eau, l’air et une température adaptée selon l’espèce.",
+            "Les fruits peuvent être comparés selon des caractéristiques observables ; la classification détaillée doit être adaptée au niveau et aux exemples locaux."
+          ],
+          "takeaway": "Une graine germe lorsque les conditions nécessaires sont réunies ; j’observe les étapes sans tirer de conclusion trop vite.",
+          "exercises": [
+            {
+              "prompt": "Que peux-tu observer au début de la germination d’une graine de haricot ?",
+              "answer": "L’apparition d’une petite racine puis d’une jeune pousse, selon les conditions.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi faut-il garder les mêmes conditions quand on compare deux expériences ?",
+              "answer": "Pour savoir quelle différence explique le résultat observé.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, sciences de la vie, Unité 3, p.97.",
+          "practical": [
+            "Faire germer quelques graines dans un dispositif simple et propre ; observer plusieurs jours."
+          ],
+          "notes": []
+        },
+        {
+          "id": "SC-U3-L4",
+          "title": "Appareils, formes d’énergie et sources d’énergie",
+          "objectives": [
+            "Associer des appareils à la nature de l’énergie qu’ils consomment.",
+            "Identifier les principales sources d’énergie."
+          ],
+          "discover": "Une lampe, un ventilateur, un vélo ou un appareil à piles ne fonctionnent pas tous de la même façon.",
+          "learn": [
+            "Pour fonctionner, un appareil reçoit ou transforme une forme d’énergie. On peut rencontrer l’électricité, l’énergie chimique stockée dans une pile, l’énergie musculaire, l’énergie solaire, etc.",
+            "Une source d’énergie est ce qui fournit l’énergie utilisable. Les exemples doivent être reliés à des situations familières."
+          ],
+          "takeaway": "Je demande : quelle énergie fait fonctionner l’objet et d’où vient-elle ?",
+          "exercises": [
+            {
+              "prompt": "Quelle énergie fait fonctionner un ventilateur branché ?",
+              "answer": "L’énergie électrique.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Cite une source d’énergie renouvelable.",
+              "answer": "Exemple : le Soleil.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, sciences physiques et chimiques, Unité 3, p.101.",
+          "practical": [],
+          "notes": [
+            "Les exemples de formes/sources d’énergie précisent le savoir-faire sans remplacer la formulation officielle."
+          ]
+        },
+        {
+          "id": "SC-U3-L5",
+          "title": "Les leviers dans la vie quotidienne",
+          "objectives": [
+            "Expliquer le principe de fonctionnement d’un levier.",
+            "Utiliser des leviers simples de façon sûre."
+          ],
+          "discover": "Quand on utilise une barre pour soulever plus facilement un objet, on profite d’un levier.",
+          "learn": [
+            "Un levier est une machine simple qui peut pivoter autour d’un point d’appui. La position du point d’appui et l’endroit où l’on exerce l’effort influencent le résultat.",
+            "Des objets courants peuvent fonctionner comme des leviers. On les manipule uniquement dans des activités sans danger."
+          ],
+          "takeaway": "Un levier aide à transmettre ou amplifier un effort autour d’un point d’appui.",
+          "exercises": [
+            {
+              "prompt": "Quel élément est indispensable au principe d’un levier ?",
+              "answer": "Un point d’appui autour duquel le levier peut pivoter.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi ne faut-il pas utiliser un objet lourd pour expérimenter ?",
+              "answer": "Pour éviter les blessures ; une démonstration scolaire doit rester sûre.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, technologies, Unité 3, p.102.",
+          "practical": [
+            "Utiliser une règle et une gomme comme levier miniature, sans charge dangereuse."
+          ],
+          "notes": []
+        },
+        {
+          "id": "SC-U3-L6",
+          "title": "Reconnaître les sols et les roches",
+          "objectives": [
+            "Identifier différents types de sols.",
+            "Différencier les roches selon leurs caractéristiques physiques.",
+            "Associer certaines caractéristiques d’une roche à son usage."
+          ],
+          "discover": "Le sol de la cour, la terre d’un jardin et les roches observées dans la région peuvent avoir des textures, couleurs et duretés différentes.",
+          "learn": [
+            "On peut comparer les sols par leur texture visible et leur comportement avec l’eau, sans chercher une classification trop complexe au CE2.",
+            "Les roches peuvent être observées selon la couleur, la dureté apparente, la taille des grains ou d’autres caractères visibles. Ces propriétés influencent certains usages."
+          ],
+          "takeaway": "J’observe, je compare et je décris avant de classer.",
+          "exercises": [
+            {
+              "prompt": "Cite deux caractéristiques physiques que l’on peut observer sur une roche.",
+              "answer": "Exemples : couleur, dureté apparente, grain.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi comparer plusieurs échantillons de sol ?",
+              "answer": "Pour repérer leurs différences et mieux les identifier.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, sciences de la terre, Unité 3, p.104.",
+          "practical": [
+            "Observer de petits échantillons propres de sols et roches de la région."
+          ],
+          "notes": []
+        },
+        {
+          "id": "SC-U3-L7",
+          "title": "Reproduction des plantes et création d’un jardin",
+          "objectives": [
+            "Classer des plantes selon leur mode de reproduction.",
+            "Décrire les activités de création d’un jardin ou d’une plantation."
+          ],
+          "discover": "À l’école, un jardin peut devenir un petit laboratoire vivant pour observer comment certaines plantes se multiplient et grandissent.",
+          "learn": [
+            "Les plantes peuvent être multipliées par graines ou, pour certaines, par des parties végétatives. Les exemples précis doivent être choisis parmi les plantes locales connues.",
+            "Créer un jardin demande de choisir l’emplacement ou des récipients, préparer le support, planter ou semer, arroser avec mesure et entretenir."
+          ],
+          "takeaway": "Je relie le mode de reproduction à la plante et je décris les étapes d’un jardin scolaire.",
+          "exercises": [
+            {
+              "prompt": "Donne une première étape avant de semer dans un jardin scolaire.",
+              "answer": "Choisir/préparer l’emplacement ou le récipient et le sol adapté.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi faut-il choisir des exemples de plantes locales ?",
+              "answer": "Parce qu’ils sont observables et adaptés au milieu de l’élève.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, sciences agropastorales et piscicoles, Unité 3, p.105.",
+          "practical": [
+            "Participer à un mini-jardin scolaire ou à une culture en pot selon les possibilités de l’école."
+          ],
+          "notes": []
+        },
+        {
+          "id": "SC-U3-L8",
+          "title": "Réchauffement climatique : conséquences",
+          "objectives": [
+            "Définir la notion de réchauffement climatique à un niveau adapté.",
+            "Donner des conséquences du réchauffement climatique."
+          ],
+          "discover": "Lorsque la température moyenne du climat augmente durablement, cela peut modifier les conditions de vie des personnes, des animaux, des plantes et des milieux.",
+          "learn": [
+            "Au CE2, on peut retenir l’idée d’une hausse durable de la température moyenne du climat, sans confondre climat et météo d’un seul jour.",
+            "Parmi les conséquences possibles : perturbation des saisons, sécheresses ou pluies extrêmes dans certaines régions, effets sur l’eau, l’agriculture et les êtres vivants. Les exemples doivent rester adaptés au contexte local."
+          ],
+          "takeaway": "La météo d’un jour n’est pas le climat ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants.",
+          "exercises": [
+            {
+              "prompt": "Pourquoi une journée très chaude ne suffit-elle pas à prouver un changement du climat ?",
+              "answer": "Parce que le climat s’observe sur une longue durée, pas sur une seule journée.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Cite une conséquence possible du réchauffement climatique.",
+              "answer": "Exemple : perturbation des saisons ou augmentation de certains épisodes de sécheresse.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, environnement et développement durable, Unité 3, p.108.",
+          "practical": [],
+          "notes": []
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - Sciences et technologies - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 4,
+            "prompt": "Explique pourquoi le curriculum de l’Unité 3 nécessite une validation éditoriale sur la respiration des animaux.",
+            "answer": "L’intitulé « reproduction des animaux » est associé au savoir-faire « justifier chaque mode de respiration »."
+          },
+          {
+            "points": 4,
+            "prompt": "Décris deux éléments observables d’une feuille et explique brièvement la germination.",
+            "answer": "Exemples : limbe/pétiole/nervures ; germination = démarrage du développement de la graine dans des conditions favorables."
+          },
+          {
+            "points": 4,
+            "prompt": "Associe un ventilateur branché à son énergie et cite une source renouvelable.",
+            "answer": "Énergie électrique ; exemple de source renouvelable : Soleil."
+          },
+          {
+            "points": 4,
+            "prompt": "Explique le rôle du point d’appui d’un levier et cite deux caractéristiques d’une roche.",
+            "answer": "Le levier pivote autour du point d’appui ; ex. couleur, dureté apparente, grain."
+          },
+          {
+            "points": 4,
+            "prompt": "Donne deux étapes de création d’un jardin scolaire et une conséquence possible du réchauffement climatique.",
+            "answer": "Ex. préparer le sol/récipient, semer/planter, arroser/entretenir ; ex. perturbation des saisons."
+          }
+        ]
+      },
+      "remediation": [
+        "Revenir à l’observation concrète avant le vocabulaire scientifique.",
+        "Comparer des objets/appareils familiers pour les notions d’énergie et de levier.",
+        "Utiliser un carnet d’observation pour graines, sols et jardin scolaire."
+      ]
+    },
+    {
+      "id": "TI",
+      "name": "Technologies de l’information et de la communication",
+      "source_pages": "113, 116",
+      "lessons": [
+        {
+          "id": "TI-U3-L1",
+          "title": "Le bureau de l’ordinateur",
+          "objectives": [
+            "Expliquer la notion de bureau sur un ordinateur.",
+            "Rechercher un élément sur le bureau."
+          ],
+          "discover": "Après le démarrage d’un ordinateur, l’écran principal peut afficher des icônes, des dossiers et une barre permettant d’accéder à des programmes.",
+          "learn": [
+            "Le bureau est un espace de travail graphique. Son apparence varie selon le système d’exploitation et les réglages.",
+            "Pour rechercher un élément, on observe les icônes, les noms et, si nécessaire, on utilise les fonctions de recherche disponibles."
+          ],
+          "takeaway": "Le bureau organise l’accès aux fichiers, dossiers et applications ; son apparence peut varier.",
+          "exercises": [
+            {
+              "prompt": "Qu’est-ce qu’une icône sur le bureau ?",
+              "answer": "Une petite représentation graphique donnant accès à un fichier, dossier, application ou fonction.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi ne faut-il pas mémoriser uniquement la position d’une icône ?",
+              "answer": "Parce que l’organisation du bureau peut changer.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, production avec les outils TIC, Unité 3, p.113.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "TI-U3-L2",
+          "title": "Utiliser la souris et le clavier",
+          "objectives": [
+            "Utiliser les fonctions courantes d’une souris.",
+            "Écrire des mots, symboles et chiffres avec un clavier."
+          ],
+          "discover": "Pour ouvrir un dossier, sélectionner un élément ou saisir une phrase, on combine souvent la souris et le clavier.",
+          "learn": [
+            "La souris permet notamment de pointer, sélectionner, cliquer, double-cliquer ou faire défiler selon l’interface.",
+            "Le clavier permet de saisir lettres, chiffres, espaces et symboles. On utilise les touches avec soin sans frapper fortement."
+          ],
+          "takeaway": "Je choisis l’outil adapté : souris pour pointer et sélectionner, clavier pour saisir.",
+          "exercises": [
+            {
+              "prompt": "Quel outil est le plus adapté pour écrire ton nom dans un champ ?",
+              "answer": "Le clavier.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "À quoi sert un clic simple dans de nombreuses interfaces ?",
+              "answer": "À sélectionner un élément ou activer un contrôle, selon l’interface.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, production avec les outils TIC, Unité 3, p.113.",
+          "practical": [
+            "S’exercer sur un poste de démonstration ou une simulation sans supprimer de fichiers."
+          ],
+          "notes": []
+        },
+        {
+          "id": "TI-U3-L3",
+          "title": "Sécurité avec un appareil branché au courant",
+          "objectives": [
+            "Expliquer les précautions à prendre avec un appareil électronique branché.",
+            "Adopter un comportement prudent et intègre."
+          ],
+          "discover": "Un ordinateur, un téléviseur ou un chargeur branché au courant ne se manipule pas comme un jouet.",
+          "learn": [
+            "On garde les mains sèches, on évite de toucher les prises ou câbles abîmés et on demande l’aide d’un adulte en cas de problème.",
+            "On ne démonte pas un appareil branché et on ne place pas de liquide à proximité."
+          ],
+          "takeaway": "Avec l’électricité, je ne prends pas de risque : je m’éloigne et j’appelle un adulte en cas d’anomalie.",
+          "exercises": [
+            {
+              "prompt": "Que faire si tu vois un câble électrique abîmé ?",
+              "answer": "Ne pas le toucher et prévenir immédiatement un adulte responsable.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi éloigner une boisson d’un ordinateur branché ?",
+              "answer": "Pour éviter qu’un liquide atteigne l’appareil et crée un danger électrique ou l’endommage.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, santé, éthique et sécurité TIC, Unité 3, p.116.",
+          "practical": [],
+          "notes": []
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - TIC - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 5,
+            "prompt": "Explique ce qu’est le bureau d’un ordinateur et donne un exemple d’élément qu’on peut y trouver.",
+            "answer": "Espace graphique de travail ; ex. icône, dossier, raccourci."
+          },
+          {
+            "points": 5,
+            "prompt": "Donne deux fonctions courantes de la souris.",
+            "answer": "Exemples : pointer, cliquer, sélectionner, faire défiler."
+          },
+          {
+            "points": 5,
+            "prompt": "Écris une phrase simple au clavier en utilisant une majuscule et un chiffre.",
+            "answer": "Évaluer saisie correcte."
+          },
+          {
+            "points": 5,
+            "prompt": "Cite trois précautions avec un appareil branché au courant.",
+            "answer": "Mains sèches, pas de liquide, ne pas toucher câble abîmé/prise, prévenir un adulte."
+          }
+        ]
+      },
+      "remediation": [
+        "Utiliser une simulation du bureau pour les élèves sans poste individuel.",
+        "Reprendre souris et clavier avec des tâches très courtes.",
+        "Faire identifier des situations sûres/dangereuses sans manipulation électrique réelle."
+      ]
+    },
+    {
+      "id": "SH",
+      "name": "Sciences humaines et sociales",
+      "source_pages": "122, 125, 127, 130, 131, 135, 138",
+      "lessons": [
+        {
+          "id": "SH-U3-L1",
+          "title": "Propreté, endurance et obéissance à l’école",
+          "objectives": [
+            "Caractériser la propreté.",
+            "Mettre en pratique la propreté de la classe.",
+            "Montrer de l’endurance dans des activités en classe.",
+            "Expliquer les avantages de l’obéissance aux consignes de l’enseignant."
+          ],
+          "discover": "Une classe agréable dépend des gestes de chacun : ranger, éviter les déchets, terminer une tâche et suivre les consignes utiles.",
+          "learn": [
+            "La propreté contribue à un cadre de travail sain et ordonné.",
+            "L’endurance scolaire consiste à persévérer dans une activité adaptée malgré une difficulté, sans confondre effort et mise en danger.",
+            "Obéir à une consigne légitime de l’enseignant aide à organiser la vie collective et la sécurité."
+          ],
+          "takeaway": "Je prends soin de la classe, je persévère et je respecte les consignes scolaires légitimes.",
+          "exercises": [
+            {
+              "prompt": "Cite deux actions pour garder la classe propre.",
+              "answer": "Exemples : jeter les déchets dans la poubelle, ranger le matériel.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Que signifie persévérer dans un exercice ?",
+              "answer": "Continuer à faire un effort raisonnable et demander de l’aide si nécessaire.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, éducation morale, Unité 3, p.122.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "SH-U3-L2",
+          "title": "Droit à l’éducation et devoirs de l’enfant à l’école",
+          "objectives": [
+            "Mettre en scène le droit de l’enfant à l’éducation.",
+            "Expliquer les devoirs de l’enfant à l’école."
+          ],
+          "discover": "Aller à l’école est un droit. La vie scolaire implique aussi des devoirs : respecter autrui, le matériel et les règles nécessaires au travail collectif.",
+          "learn": [
+            "Le droit à l’éducation permet à l’enfant d’apprendre et de développer ses capacités.",
+            "Les devoirs à l’école ne suppriment pas les droits de l’enfant : ils organisent la vie commune dans le respect de la dignité et de la sécurité de chacun."
+          ],
+          "takeaway": "J’ai droit à l’éducation et je contribue à la vie scolaire par des comportements responsables.",
+          "exercises": [
+            {
+              "prompt": "Donne un exemple de devoir d’un élève à l’école.",
+              "answer": "Exemple : respecter les autres et le matériel scolaire.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi droits et devoirs peuvent-ils aller ensemble ?",
+              "answer": "Parce que les règles de vie collective permettent à chacun d’exercer ses droits dans le respect des autres.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, droits et devoirs de l’enfant, Unité 3, p.125.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "SH-U3-L3",
+          "title": "Paix et sécurité en classe et à l’école",
+          "objectives": [
+            "Mettre en scène le vivre-ensemble à l’école et en classe.",
+            "Mettre en scène des mesures de sécurité à l’école."
+          ],
+          "discover": "Un désaccord entre camarades peut être réglé sans violence : parler calmement, écouter, chercher une solution ou demander l’aide d’un adulte.",
+          "learn": [
+            "Le vivre-ensemble repose sur le respect, la tolérance, la coopération et la résolution pacifique des désaccords.",
+            "La sécurité implique de respecter les consignes dans la classe, les escaliers, la cour et lors des déplacements."
+          ],
+          "takeaway": "Je cherche une solution pacifique et j’applique les règles de sécurité.",
+          "exercises": [
+            {
+              "prompt": "Que peux-tu faire si deux camarades se disputent ?",
+              "answer": "Éviter d’aggraver la situation, encourager le calme et appeler un adulte si nécessaire.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Donne une règle de sécurité dans la cour.",
+              "answer": "Exemple : éviter les bousculades et respecter les zones de jeu.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, éducation à la paix et à la sécurité, Unité 3, p.127.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "SH-U3-L4",
+          "title": "Démocratie, emblèmes et pouvoirs de l’État",
+          "objectives": [
+            "Mettre en scène des règles simples de démocratie.",
+            "Analyser les couleurs du drapeau, chanter l’hymne en anglais et dire la devise du Cameroun selon le curriculum.",
+            "Décrire les rôles des pouvoirs exécutif, judiciaire et législatif et nommer les institutions qui les incarnent à un niveau adapté."
+          ],
+          "discover": "Dans la vie collective, une décision peut être préparée par l’écoute, la discussion et un vote lorsque cela est approprié.",
+          "learn": [
+            "Au CE2, la démocratie peut être approchée par des règles simples : chacun peut s’exprimer dans le respect des autres et les décisions collectives suivent des règles connues.",
+            "Les trois fonctions de l’État peuvent être présentées simplement : faire appliquer les lois, juger les litiges selon la loi, élaborer les lois. Les appellations institutionnelles détaillées doivent être vérifiées avant publication."
+          ],
+          "takeaway": "Je distingue une règle démocratique simple et les grandes fonctions des pouvoirs de l’État.",
+          "exercises": [
+            {
+              "prompt": "Pourquoi faut-il écouter les avis avant un vote de classe ?",
+              "answer": "Pour permettre à chacun d’exprimer son point de vue avant la décision.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Quelle fonction de l’État est liée à l’élaboration des lois ?",
+              "answer": "Le pouvoir législatif.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, éducation à la citoyenneté, Unité 3, p.130.",
+          "practical": [],
+          "notes": [
+            "Les institutions et titulaires sont susceptibles d’évoluer ; vérifier les formulations contemporaines avant publication."
+          ]
+        },
+        {
+          "id": "SH-U3-L5",
+          "title": "Les règles de vie en classe et à l’école",
+          "objectives": [
+            "Appliquer les règles de vie en classe et à l’école.",
+            "Comprendre leur utilité."
+          ],
+          "discover": "Une règle n’est utile que si elle est comprise, connue et appliquée de façon cohérente.",
+          "learn": [
+            "Les règles scolaires organisent les temps de travail, les déplacements, l’utilisation du matériel et le respect des personnes.",
+            "Une bonne règle doit être formulée clairement et être compatible avec les droits et la sécurité des élèves."
+          ],
+          "takeaway": "Je connais les règles de mon école et je comprends ce qu’elles protègent.",
+          "exercises": [
+            {
+              "prompt": "Explique l’utilité d’une règle interdisant les bousculades dans l’escalier.",
+              "answer": "Elle protège la sécurité des élèves.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Donne un exemple de règle liée au matériel scolaire.",
+              "answer": "Exemple : ranger et utiliser le matériel sans le détériorer.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, règles et règlements, Unité 3, p.131.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "SH-U3-L6",
+          "title": "Les premiers hommes et l’Afrique berceau de l’humanité",
+          "objectives": [
+            "Comparer la vie des premiers hommes à celle des contemporains.",
+            "Indiquer le lieu de la première apparition de l’homme en Afrique selon le cadre du curriculum."
+          ],
+          "discover": "Les modes de vie ont beaucoup changé : outils, habitat, alimentation, déplacements et organisation sociale ne sont pas les mêmes selon les périodes.",
+          "learn": [
+            "Comparer ne signifie pas juger une époque comme « meilleure » : on repère des différences de techniques et de modes de vie.",
+            "Le curriculum présente l’Afrique comme berceau de l’humanité ; les formulations précises doivent rester compatibles avec les connaissances scientifiques et les ressources pédagogiques validées."
+          ],
+          "takeaway": "J’observe des différences entre périodes et j’évite les simplifications historiques.",
+          "exercises": [
+            {
+              "prompt": "Cite une différence possible entre la vie des premiers humains et aujourd’hui.",
+              "answer": "Exemple : outils, habitat, moyens de transport ou techniques de production.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Que signifie ici « berceau de l’humanité » ?",
+              "answer": "Un espace majeur associé aux origines anciennes de l’humanité selon les connaissances scientifiques étudiées.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, histoire, Unité 3, p.135.",
+          "practical": [],
+          "notes": [
+            "La précision paléoanthropologique dépasse le tableau du curriculum ; toute carte ou datation ajoutée doit être vérifiée par des sources scientifiques."
+          ]
+        },
+        {
+          "id": "SH-U3-L7",
+          "title": "S’orienter dans l’espace",
+          "objectives": [
+            "Utiliser le vocabulaire relatif à l’orientation.",
+            "Indiquer différents moyens de s’orienter."
+          ],
+          "discover": "Pour expliquer où se trouve la bibliothèque par rapport à la classe, il faut utiliser des repères clairs.",
+          "learn": [
+            "On peut employer devant/derrière, gauche/droite, près/loin et, progressivement, les points cardinaux selon le contexte d’apprentissage.",
+            "On s’oriente grâce à des repères du milieu, un plan, une boussole ou d’autres moyens adaptés."
+          ],
+          "takeaway": "Je décris une position avec des repères précis et j’utilise des moyens d’orientation adaptés.",
+          "exercises": [
+            {
+              "prompt": "Donne deux moyens de s’orienter.",
+              "answer": "Exemples : repères du milieu, plan, boussole.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi un plan peut-il aider ?",
+              "answer": "Il représente l’organisation d’un espace et permet de repérer des positions ou des directions.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, géographie physique, Unité 3, p.138.",
+          "practical": [],
+          "notes": []
+        },
+        {
+          "id": "SH-U3-L8",
+          "title": "Relief du Cameroun et principaux sommets",
+          "objectives": [
+            "Déterminer les grands traits du relief du Cameroun.",
+            "Situer les principaux sommets du Cameroun sur une carte."
+          ],
+          "discover": "Une carte physique utilise des signes, des couleurs et des noms pour représenter montagnes, plateaux, plaines et autres formes du relief.",
+          "learn": [
+            "Le relief désigne les formes de la surface terrestre.",
+            "Pour ce niveau, l’objectif est surtout de reconnaître les grands ensembles et de situer quelques sommets sur une carte validée, sans apprendre une liste exhaustive."
+          ],
+          "takeaway": "Je lis une carte physique pour reconnaître les grands traits du relief et situer quelques sommets.",
+          "exercises": [
+            {
+              "prompt": "Qu’appelle-t-on le relief ?",
+              "answer": "L’ensemble des formes de la surface terrestre.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Quel support faut-il utiliser pour situer précisément des sommets ?",
+              "answer": "Une carte géographique validée et adaptée au niveau.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, géographie physique, Unité 3, p.138.",
+          "practical": [],
+          "notes": [
+            "Les localisations exactes doivent s’appuyer sur une carte publiée/validée ; ne pas inventer de coordonnées."
+          ]
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - Sciences humaines et sociales - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 4,
+            "prompt": "Donne deux comportements qui favorisent une classe propre et harmonieuse.",
+            "answer": "Exemples : ranger, jeter les déchets correctement, respecter les autres, suivre les consignes."
+          },
+          {
+            "points": 4,
+            "prompt": "Explique un droit et un devoir de l’enfant à l’école.",
+            "answer": "Droit à l’éducation ; devoirs possibles : respect d’autrui, du matériel et des règles légitimes."
+          },
+          {
+            "points": 4,
+            "prompt": "Donne une règle de paix/sécurité à l’école et explique son utilité.",
+            "answer": "Exemple cohérent et justification liée à la sécurité ou au vivre-ensemble."
+          },
+          {
+            "points": 4,
+            "prompt": "Associe les fonctions : élaborer les lois / les appliquer / juger les litiges aux trois pouvoirs.",
+            "answer": "Législatif / exécutif / judiciaire."
+          },
+          {
+            "points": 4,
+            "prompt": "Explique le relief puis cite deux moyens de s’orienter.",
+            "answer": "Relief = formes de la surface terrestre ; ex. plan, boussole, repères du milieu."
+          }
+        ]
+      },
+      "remediation": [
+        "Faire jouer des petites scènes de vie scolaire pour droits, devoirs, paix et règles.",
+        "Utiliser des cartes simples et légendées pour l’orientation et le relief.",
+        "Revenir à des comparaisons concrètes pour l’histoire des modes de vie."
+      ]
+    },
+    {
+      "id": "AR",
+      "name": "Éducation artistique",
+      "source_pages": "144, 145, 148",
+      "lessons": [
+        {
+          "id": "AR-U3-L1",
+          "title": "Concevoir une mosaïque ou un carrelage coloré",
+          "objectives": [
+            "Concevoir des mosaïques et des carrelages colorés.",
+            "Développer le goût du beau et la créativité."
+          ],
+          "discover": "Une mosaïque est composée de petites formes ou surfaces colorées organisées pour créer un motif.",
+          "learn": [
+            "On peut préparer un motif simple à partir de carrés, triangles ou autres formes géométriques.",
+            "Le choix des couleurs, la répétition et la symétrie peuvent donner une organisation visuelle harmonieuse."
+          ],
+          "takeaway": "Je construis un motif régulier et soigné en combinant formes et couleurs.",
+          "exercises": [
+            {
+              "prompt": "Crée un motif de 4×4 cases utilisant deux couleurs selon une règle répétitive.",
+              "answer": "Production graphique : vérifier régularité et respect de la règle choisie.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi préparer le motif avant de coller ou colorier ?",
+              "answer": "Pour vérifier l’organisation et éviter des corrections difficiles ensuite.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, arts visuels, Unité 3, p.144.",
+          "practical": [
+            "Utiliser papier, crayons ou formes découpées avec du matériel adapté à l’âge."
+          ],
+          "notes": []
+        },
+        {
+          "id": "AR-U3-L2",
+          "title": "Reconnaître et placer la clé de fa",
+          "objectives": [
+            "Identifier la clé de fa.",
+            "Placer la clé de fa sur une portée."
+          ],
+          "discover": "Sur une partition, une clé placée au début de la portée donne un repère pour lire les notes.",
+          "learn": [
+            "Le curriculum demande au CE2 de reconnaître la clé de fa et de savoir la placer sur une portée.",
+            "La lecture musicale détaillée associée à cette clé peut être introduite progressivement selon les supports disponibles."
+          ],
+          "takeaway": "Je reconnais le signe de la clé de fa et je sais où il se place sur la portée.",
+          "exercises": [
+            {
+              "prompt": "Où place-t-on une clé musicale sur une portée ?",
+              "answer": "Au début de la portée, avant les notes.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Trace une portée puis reproduis une clé de fa à partir d’un modèle validé.",
+              "answer": "Vérifier la position et la forme par comparaison avec le modèle.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, musique, Unité 3, p.145.",
+          "practical": [
+            "Utiliser une portée imprimée et un modèle graphique exact de clé de fa."
+          ],
+          "notes": []
+        },
+        {
+          "id": "AR-U3-L3",
+          "title": "Exécuter une danse traditionnelle de sa localité",
+          "objectives": [
+            "Exécuter une danse traditionnelle de sa localité.",
+            "Développer le sens du rythme, de l’esthétique et de l’harmonie corporelle."
+          ],
+          "discover": "Une danse traditionnelle appartient à un contexte culturel précis. Elle ne doit pas être réduite à quelques gestes inventés.",
+          "learn": [
+            "L’apprentissage doit s’appuyer sur une danse réellement documentée dans la localité ou la communauté étudiée.",
+            "On observe le rythme, les déplacements et les gestes avant de reproduire une courte séquence adaptée aux enfants."
+          ],
+          "takeaway": "Je respecte l’origine culturelle de la danse et j’exécute une séquence adaptée au rythme.",
+          "exercises": [
+            {
+              "prompt": "Quel est le premier réflexe avant d’enseigner une danse traditionnelle ?",
+              "answer": "Identifier une danse réellement documentée et un référent compétent.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Exécute une courte séquence validée au rythme indiqué.",
+              "answer": "Évaluer rythme, coordination et respect du modèle validé.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, danse, Unité 3, p.148.",
+          "practical": [],
+          "notes": [
+            "Les pas et significations culturelles doivent être documentés localement ; ne pas inventer."
+          ]
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - Éducation artistique - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 7,
+            "prompt": "Conçois un petit motif de mosaïque régulier avec au moins deux formes ou couleurs.",
+            "answer": "Évaluer organisation, soin, régularité et créativité."
+          },
+          {
+            "points": 6,
+            "prompt": "Identifie et reproduis une clé de fa sur une portée à partir d’un modèle.",
+            "answer": "Identification correcte et reproduction reconnaissable."
+          },
+          {
+            "points": 7,
+            "prompt": "Exécute une courte séquence de danse traditionnelle validée.",
+            "answer": "Évaluer rythme, coordination et respect du modèle culturel."
+          }
+        ]
+      },
+      "remediation": [
+        "Réduire le motif de mosaïque à une règle simple puis l’agrandir.",
+        "Reproduire la clé de fa par étapes à partir d’un modèle.",
+        "Travailler d’abord le rythme de la danse avant les déplacements."
+      ]
+    },
+    {
+      "id": "EP",
+      "name": "Éducation physique et sportive",
+      "source_pages": "154, 157",
+      "lessons": [
+        {
+          "id": "EP-U3-L1",
+          "title": "Gymnastique au sol : déplacements, enchaînement et stabilité",
+          "objectives": [
+            "Se déplacer de différentes façons sur des appuis manuels et pédestres.",
+            "Réaliser un enchaînement de 3 à 4 éléments au sol.",
+            "Adopter des attitudes posturales en maintenant sa stabilité."
+          ],
+          "discover": "Un petit parcours de gymnastique peut demander de se déplacer, tourner, se renverser dans une forme adaptée et terminer en position stable.",
+          "learn": [
+            "La priorité est la maîtrise du corps, la sécurité et la qualité des enchaînements, non la performance acrobatique.",
+            "Les éléments au sol doivent être choisis par l’enseignant selon l’âge, le matériel et le niveau réel des élèves."
+          ],
+          "takeaway": "Je réalise des mouvements adaptés en restant maître de mon corps et en respectant les consignes de sécurité.",
+          "exercises": [
+            {
+              "prompt": "Pourquoi faut-il terminer un enchaînement par une position stable ?",
+              "answer": "Pour montrer la maîtrise du mouvement et éviter une chute.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Qui choisit les éléments de gymnastique adaptés ?",
+              "answer": "L’enseignant, selon le niveau, l’espace et les règles de sécurité.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, EPS - gymnastique au sol, Unité 3, p.154.",
+          "practical": [
+            "Activité uniquement dans un espace sécurisé, avec tapis si nécessaire et supervision de l’enseignant."
+          ],
+          "notes": []
+        },
+        {
+          "id": "EP-U3-L2",
+          "title": "Autodéfense : feintes et dégagements en simulation sûre",
+          "objectives": [
+            "Mettre en scène des feintes dans une situation d’autodéfense.",
+            "Simuler le dégagement d’une main tenue.",
+            "Comprendre que l’objectif est de se protéger et d’alerter."
+          ],
+          "discover": "Le curriculum mentionne des feintes, le dégagement d’une main tenue et le blocage d’un coup. Pour Klassia, ces notions sont traitées uniquement sous forme de simulation pédagogique contrôlée.",
+          "learn": [
+            "L’objectif n’est pas d’apprendre à se battre mais de reconnaître une situation dangereuse, créer de la distance, se dégager si cela est possible sans augmenter le danger, s’éloigner et appeler un adulte ou un service compétent.",
+            "Aucune frappe réelle ni exercice douloureux ne doit être pratiqué."
+          ],
+          "takeaway": "Je privilégie l’évitement, l’éloignement et l’alerte ; toute technique physique reste une simulation encadrée.",
+          "exercises": [
+            {
+              "prompt": "Quelle est la priorité en cas de danger ?",
+              "answer": "S’éloigner si possible, chercher de l’aide et alerter un adulte ou un service compétent.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Faut-il pratiquer des frappes réelles pendant cette leçon ?",
+              "answer": "Non. Les activités sont simulées et encadrées.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, techniques élémentaires d’autodéfense, Unité 3, p.157.",
+          "practical": [],
+          "notes": [
+            "SAFETY_REFRAMING: aucune frappe réelle ; priorité à l’évitement, la fuite et l’alerte."
+          ]
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - EPS - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 10,
+            "prompt": "Réalise un enchaînement sécurisé de 3 à 4 éléments au sol adapté par l’enseignant et termine en position stable.",
+            "answer": "Évaluer maîtrise, continuité, stabilité et respect des consignes."
+          },
+          {
+            "points": 10,
+            "prompt": "Explique puis joue une simulation d’autoprotection sans frappe réelle : créer de la distance, se dégager si possible et alerter.",
+            "answer": "Évaluer priorité donnée à la sécurité, à l’éloignement et à l’alerte."
+          }
+        ]
+      },
+      "remediation": [
+        "Simplifier l’enchaînement et travailler un élément à la fois.",
+        "Répéter verbalement les étapes de sécurité avant toute simulation."
+      ]
+    },
+    {
+      "id": "DP",
+      "name": "Développement personnel",
+      "source_pages": "161, 162, 166",
+      "lessons": [
+        {
+          "id": "DP-U3-L1",
+          "title": "Construire des figures géométriques et des jouets",
+          "objectives": [
+            "Construire des figures géométriques à partir de données exactes.",
+            "Mobiliser mesures, couleurs et créativité dans une réalisation."
+          ],
+          "discover": "Une construction réussie commence par des données précises : dimensions, formes, couleurs et ordre des étapes.",
+          "learn": [
+            "On lit d’abord les mesures, on prépare le matériel, puis on trace ou assemble avec soin.",
+            "Le curriculum associe en CE2 les figures géométriques et les jouets ; les réalisations doivent utiliser des matériaux sans danger et disponibles."
+          ],
+          "takeaway": "Je mesure avant de construire et je respecte les données du modèle.",
+          "exercises": [
+            {
+              "prompt": "Pourquoi faut-il vérifier les mesures avant de découper ?",
+              "answer": "Pour éviter les erreurs et limiter le gaspillage de matériau.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Construis une figure à partir de dimensions données par l’enseignant.",
+              "answer": "Évaluer respect des mesures, soin et sécurité.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, artisanat et constructions artistiques, Unité 3, p.161.",
+          "practical": [
+            "Privilégier carton, papier et matériaux sans bords coupants ; outils sous supervision."
+          ],
+          "notes": []
+        },
+        {
+          "id": "DP-U3-L2",
+          "title": "Créer un jardin scolaire",
+          "objectives": [
+            "Créer un jardin scolaire ou une culture en récipient.",
+            "Développer initiative et esprit d’entreprise à un niveau adapté."
+          ],
+          "discover": "Même sans grand terrain, une école peut organiser de petites cultures dans des pots ou des récipients adaptés.",
+          "learn": [
+            "Créer un jardin demande de choisir l’espace ou le contenant, préparer le sol, choisir des plantes adaptées, semer ou planter puis organiser l’entretien.",
+            "Le matériel doit être adapté à l’âge et son utilisation expliquée avant l’activité."
+          ],
+          "takeaway": "Je prépare, je plante et j’organise l’entretien d’un petit espace de culture.",
+          "exercises": [
+            {
+              "prompt": "Cite trois étapes de création d’un jardin scolaire.",
+              "answer": "Exemple : choisir l’emplacement/récipient, préparer le sol, semer ou planter.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Pourquoi le matériel doit-il être adapté à l’âge ?",
+              "answer": "Pour réduire les risques et permettre une utilisation correcte par les élèves.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, activités agropastorales et piscicoles, Unité 3, p.162.",
+          "practical": [
+            "Mini-jardin ou culture en pots ; outils adaptés et supervision adulte."
+          ],
+          "notes": []
+        },
+        {
+          "id": "DP-U3-L3",
+          "title": "Entretenir un espace de vie avec des produits adaptés",
+          "objectives": [
+            "Utiliser des produits d’entretien pour maintenir un espace propre.",
+            "Développer la notion de salubrité et l’attention."
+          ],
+          "discover": "Nettoyer une salle ou un espace scolaire ne consiste pas à mélanger plusieurs produits. Il faut utiliser le bon produit, à la bonne dose, avec les précautions indiquées par l’adulte.",
+          "learn": [
+            "Le curriculum demande d’utiliser des produits d’entretien pour maintenir un espace propre. Pour des enfants de CE2, toute utilisation de produit potentiellement irritant ou dangereux reste sous contrôle adulte.",
+            "On ne mélange jamais des produits ménagers et on respecte les étiquettes et les consignes."
+          ],
+          "takeaway": "Je garde l’espace propre sans improviser avec les produits : je suis les consignes d’un adulte.",
+          "exercises": [
+            {
+              "prompt": "Pourquoi ne faut-il jamais mélanger deux produits ménagers ?",
+              "answer": "Parce que certaines associations peuvent produire des réactions ou vapeurs dangereuses.",
+              "explanation": "",
+              "type": "open"
+            },
+            {
+              "prompt": "Que faire si un produit est sans étiquette ou inconnu ?",
+              "answer": "Ne pas l’utiliser et prévenir un adulte responsable.",
+              "explanation": "",
+              "type": "open"
+            }
+          ],
+          "source": "Curriculum CE2, activités domestiques, Unité 3, p.166.",
+          "practical": [],
+          "notes": [
+            "SAFETY: aucune manipulation autonome de produits dangereux ; ne jamais mélanger des produits ménagers."
+          ]
+        }
+      ],
+      "assessment": {
+        "title": "Évaluation - Développement personnel - Unité 3",
+        "total": 20,
+        "items": [
+          {
+            "points": 7,
+            "prompt": "Réalise une petite construction géométrique à partir de mesures imposées.",
+            "answer": "Évaluer respect des mesures, soin et sécurité."
+          },
+          {
+            "points": 7,
+            "prompt": "Présente les principales étapes de création d’un jardin scolaire.",
+            "answer": "Emplacement/récipient, préparation, plantation/semis, entretien."
+          },
+          {
+            "points": 6,
+            "prompt": "Explique trois règles de sécurité lors de l’entretien d’un espace.",
+            "answer": "Ex. suivre les consignes, ne pas mélanger les produits, ne pas utiliser un produit inconnu, se laver les mains selon les consignes."
+          }
+        ]
+      },
+      "remediation": [
+        "Faire une construction en papier avant un objet plus complexe.",
+        "Utiliser une fiche illustrée des étapes du jardin.",
+        "Faire classer des situations d’entretien en “sûr / dangereux” sans manipuler de produits."
+      ]
+    }
+  ],
+  "integration_project": {
+    "title": "Notre école : apprendre, coopérer et prendre soin de notre milieu",
+    "context": "La classe prépare une présentation collective de son école : ses règles, ses espaces, ses apprentissages et une action concrète pour améliorer le cadre de vie.",
+    "tasks": [
+      "Français : raconter une situation vécue à l’école et rédiger un court texte de présentation.",
+      "English : présenter une personne, écrire quelques phrases sur l’école et rappeler une school rule.",
+      "Mathématiques : utiliser des nombres jusqu’à 5 000, comparer des capacités et produire une figure géométrique.",
+      "Sciences : observer une plante ou un sol, expliquer une source d’énergie ou un levier, et contribuer au jardin scolaire.",
+      "TIC : décrire le bureau de l’ordinateur et présenter une règle de sécurité électrique.",
+      "SHS : présenter un droit/devoir, une règle de vivre-ensemble et un repère d’orientation ou de relief.",
+      "Arts : produire un motif de mosaïque ou un élément musical/dansé validé.",
+      "EPS : réaliser un petit enchaînement sécurisé et rappeler les principes d’éloignement/alerte.",
+      "Développement personnel : contribuer au jardin ou à une petite construction utile à l’exposition.",
+      "LCN/Bassa : ajouter uniquement un court récit scolaire passé validé par le référent linguistique."
+    ],
+    "rubric": [
+      [
+        "Exactitude et respect des consignes",
+        6
+      ],
+      [
+        "Mobilisation de plusieurs matières",
+        5
+      ],
+      [
+        "Clarté de la présentation",
+        4
+      ],
+      [
+        "Créativité et soin",
+        3
+      ],
+      [
+        "Coopération et respect",
+        2
+      ]
+    ],
+    "total": 20
+  },
+  "editorial_notes": [
+    "Tous les contenus sont originaux et indexés sur le curriculum officiel ; ils ne reproduisent pas un manuel scolaire commercial.",
+    "Sciences de la vie p.97 : le tableau CE2 intitule la ressource « La reproduction des animaux » mais le savoir-faire indique « Justifier chaque mode de respiration ». Klassia suit le savoir-faire tout en conservant l’anomalie comme point de validation.",
+    "Bassa : aucune nouvelle forme lexicale ou grammaticale n’est inventée. Le récit au passé, l’orthographe, les tons et les audios doivent être validés par un spécialiste/enseignant compétent.",
+    "Histoire : le curriculum demande de traiter l’Afrique comme berceau de l’humanité ; toute carte, datation ou précision paléoanthropologique ajoutée doit être vérifiée par des sources scientifiques adaptées.",
+    "SHS/citoyenneté : les institutions et leurs appellations détaillées doivent être vérifiées avant publication si des exemples contemporains sont ajoutés.",
+    "EPS autodéfense : aucune frappe réelle ; priorité à l’évitement, l’éloignement et l’alerte.",
+    "Développement personnel / TIC : produits ménagers, outils et appareils électriques uniquement sous responsabilité adulte."
+  ]
+}

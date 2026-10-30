@@ -1,0 +1,109 @@
+{
+  "format": "klassia-unit-catalog",
+  "version": 2,
+  "class": "CE2",
+  "default_unit": "U1",
+  "units": [
+    {
+      "id": "U1",
+      "number": 1,
+      "title": "La maison",
+      "content": "data/content-u1.json",
+      "qcm": "data/qcm-u1.json",
+      "status": "PILOT_VALIDATED_UX",
+      "lesson_count": 46,
+      "qcm_count": 190,
+      "essential_qcm": 50,
+      "complementary_qcm": 140
+    },
+    {
+      "id": "U2",
+      "number": 2,
+      "title": "Le village et la ville",
+      "content": "data/content-u2.json",
+      "qcm": "data/qcm-u2.json",
+      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "lesson_count": 50,
+      "qcm_count": 193,
+      "essential_qcm": 50,
+      "complementary_qcm": 143
+    },
+    {
+      "id": "U3",
+      "number": 3,
+      "title": "L’école",
+      "content": "data/content-u3.json",
+      "qcm": "data/qcm-u3.json",
+      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "lesson_count": 46,
+      "qcm_count": 194,
+      "essential_qcm": 50,
+      "complementary_qcm": 144
+    },
+    {
+      "id": "U4",
+      "number": 4,
+      "title": "Les métiers",
+      "content": "data/content-u4.json",
+      "qcm": "data/qcm-u4.json",
+      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "lesson_count": 51,
+      "qcm_count": 194,
+      "essential_qcm": 50,
+      "complementary_qcm": 144
+    },
+    {
+      "id": "U5",
+      "number": 5,
+      "title": "Les voyages",
+      "content": "data/content-u5.json",
+      "qcm": "data/qcm-u5.json",
+      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "lesson_count": 41,
+      "qcm_count": 196,
+      "essential_qcm": 50,
+      "complementary_qcm": 146
+    },
+    {
+      "id": "U6",
+      "number": 6,
+      "title": "La santé",
+      "content": "data/content-u6.json",
+      "qcm": "data/qcm-u6.json",
+      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "lesson_count": 42,
+      "qcm_count": 194,
+      "essential_qcm": 50,
+      "complementary_qcm": 144
+    },
+    {
+      "id": "U7",
+      "number": 7,
+      "title": "Les jeux",
+      "content": "data/content-u7.json",
+      "qcm": "data/qcm-u7.json",
+      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "lesson_count": 39,
+      "qcm_count": 195,
+      "essential_qcm": 50,
+      "complementary_qcm": 145
+    },
+    {
+      "id": "U8",
+      "number": 8,
+      "title": "Les communications",
+      "content": "data/content-u8.json",
+      "qcm": "data/qcm-u8.json",
+      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "lesson_count": 32,
+      "qcm_count": 192,
+      "essential_qcm": 50,
+      "complementary_qcm": 142
+    }
+  ],
+  "summary": {
+    "lesson_count": 347,
+    "qcm_count": 1548,
+    "assessment_count": 80
+  }
+}

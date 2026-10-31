@@ -62,3 +62,7 @@ Le dépôt ne comporte aucun serveur de comptes, paiement, synchronisation ou t�
 ### SIL bilingue (première unité)
 
 Une première unité SIL « La maison / My home » est accessible à `/sil/`. Elle distingue les compétences de français (oral, lecture du son /m/, écriture, numération) et d’anglais (compréhension et expression orales), puis relie les autres domaines au même centre d’intérêt. Les références de curricula et pages sont affichées dans l’application.
+
+### Navigation des profils et des classes
+
+Le bouton **Profil : …** ouvre le choix de l’enfant et de l’espace affiché (Enfant, Parent, Enseignant ou Administration). Le menu **Classe : …**, présent dans les espaces CE2, MS et SIL, permet de passer d’un parcours à l’autre. Depuis un affichage Enseignant/Administration, il propose aussi les accès à la revue éditoriale et à l’atelier Bassa. Klassia ne possède pas de connexion à un compte ni de déconnexion serveur : les profils et rôles sont locaux à l’appareil.

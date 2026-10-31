@@ -32,7 +32,7 @@ Aucune date de livraison pédagogique fiable ne peut être annoncée sans conna�
 
 ## Couverture SIL bilingue
 
-Les huit centres d’intérêt SIL sont structurés en 10 leçons chacun, soit 80 leçons principales. Huit activités pilotes sont conservées comme suppléments. Les objectifs français suivent la progression SIL propre et les objectifs anglophones sont distincts. Les propositions bassa utilisent le lexique documentaire intégré et restent non validées.
+Les huit centres d’intérêt SIL sont structurés en 10 leçons chacun, soit 80 leçons principales. Huit activités pilotes sont conservées comme suppléments. Les objectifs français suivent la progression SIL propre. Le parcours anglais garde ses objectifs oraux, de lecture débutante, de copie de noms/phrases et de numéraux 0–50 selon la colonne Class 1; Class 2 est exclue. Les propositions bassa utilisent le lexique documentaire intégré et restent non validées.
 
 ## Démarrage CE1
 

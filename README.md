@@ -61,7 +61,7 @@ Le dépôt ne comporte aucun serveur de comptes, paiement, synchronisation ou t�
 
 ### SIL bilingue
 
-Huit centres d’intérêt sont accessibles à `/sil/` : maison, village/ville, école, métiers, voyages, santé, jeux et communications. Chaque centre propose dix séquences principales couvrant les matières et une tâche de réinvestissement ; les huit séquences pilotes précédentes restent consultables comme compléments. La progression française SIL suit sa colonne propre (alphabet, sons, syllabes, phrases, texte) et les objectifs d’anglais gardent leur propre cheminement. Les séquences contiennent exemples, activités guidées, exercices, corrections, remédiations et prolongements. La navigation propose **Par unité**, **Par matière** et **Par domaine**.
+Huit centres d’intérêt sont accessibles à `/sil/` : maison, village/ville, école, métiers, voyages, santé, jeux et communications. Chaque centre propose dix séquences principales couvrant les matières et une tâche de réinvestissement ; les huit séquences pilotes précédentes restent consultables comme compléments. La progression française SIL suit sa colonne propre (alphabet, sons, syllabes, phrases, texte). L’anglais suit séparément les attendus Class 1 de lecture débutante, copie de noms/phrases et numéraux 0–50, en plus de l’oral; la progression Class 2 est exclue. Les séquences contiennent exemples, activités guidées, exercices, corrections, remédiations et prolongements. La navigation propose **Par unité**, **Par matière** et **Par domaine**.
 
 Les propositions de mots bassa proviennent du lexique documentaire du dépôt. Les variantes et notes restent consultables et explicitement non validées ; aucun score officiel de langue n’est attribué.
 

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "3fbfa873311a4714f9852b8f53f5e8bf819010e2d104f1f97eb1dfc1f40b5c45",
+  "version": "316a114890eaf2eda91798022a4590853bf978f3f16e1aac24b3fbaabea96e0c",
   "files": [
     {
       "url": "./app.js",
@@ -75,7 +75,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "93fc8fa6b7887f3c9ee22630dea5d111bcf7e50f3e41159ac6f32921e390d288"
+      "sha256": "3a6072e3567183adae10f323ca787030357d3e357e42866b9b0a98e9de4a4530"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -211,39 +211,39 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/curriculum.json",
-      "sha256": "a879336e9466176b9add6ec2ee474673cf9b83a5f8a8a38c147d03862fecd49c"
+      "sha256": "170b0b6dd4244741aac94bb84869103498285aaa1eeae83d79732e41b80436c3"
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "1440195acc3a3e5f7498eaa74e1a3e5bac2bcfaa8f32e6706722994818d16c84"
+      "sha256": "11746155d9eaaf14fe175ec46e9da4eb0716fb6b1173c242a0ca040fe8d1febe"
     },
     {
       "url": "./sil/data/sil-u2.json",
-      "sha256": "22467b51a829f2a8e2a0ebfb14e3e23c60cc5174afae81174fb5bc245e5129fe"
+      "sha256": "126d7e0f5a7683d8219601222809160aebdefad09f4ec00d599523f014da430d"
     },
     {
       "url": "./sil/data/sil-u3.json",
-      "sha256": "2fbbc242d37f7155f3de38c23ea363a78c2e8a408afc5bb3b4a5c855ee3fac70"
+      "sha256": "3b2f24342a4ff4a77c7d32a0e94d9dc4e4d1d3007e1590a29c40f999516934ac"
     },
     {
       "url": "./sil/data/sil-u4.json",
-      "sha256": "aea976ce4ff5d3fe745f641cb200ed6a8a8b2cda9646fd41082a07ace227d717"
+      "sha256": "b986435111a6c705bc11f16a1472c683f54f2696956104f718a88f71c4b56e01"
     },
     {
       "url": "./sil/data/sil-u5.json",
-      "sha256": "ac118833edb350ba0d4027074dae43d89de5b7d86d65b53b6d951e7615941701"
+      "sha256": "5c4ccb4082443a781c59463dc655641bb243aefb9e46d8c19a3e9d4258bbf212"
     },
     {
       "url": "./sil/data/sil-u6.json",
-      "sha256": "576bc25863dc765f40992d68515a59a1805e17290489d81de79a06ccd40aac6c"
+      "sha256": "04e62dccd83da9ea738edfd63b24988ef887b9c25ed87395acc55efa8368ef2b"
     },
     {
       "url": "./sil/data/sil-u7.json",
-      "sha256": "6acaeacbcc45f79b187c19bf8e299fb72bf8460afc481755191ca0404b458700"
+      "sha256": "1f15ee35a342088cc3a391ded9381423d93949b476f6475ea7be1736b648326d"
     },
     {
       "url": "./sil/data/sil-u8.json",
-      "sha256": "c12be6216cbd4cc10ddf039e3c1ce1a03455ef38a1b550043732254733073ee6"
+      "sha256": "62b1c0cead6f39ad6394141f236de79943b3702aa7dfe5162d31d7335c707c88"
     },
     {
       "url": "./sil/index.html",

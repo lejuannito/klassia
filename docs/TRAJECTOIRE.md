@@ -17,8 +17,8 @@ La v15 traite les défauts techniques prioritaires et fournit une première tran
 | Classe | Préparation nécessaire | Première tranche à construire | Conditions de sortie |
 |---|---|---|---|
 | Grande section bilingue | Référentiel maternel et progression MS→GS ; objectifs FR/EN distincts | Un thème avec oral, phonologie, nombres, graphisme et observation | Relecture GS, test accompagné, supports complets |
-| SIL bilingue | Référentiel SIL et progression de lecture propre à chaque langue | Une séquence de décodage/écriture et de numération | Correspondances graphèmes-phonèmes validées, audios et exercices testés |
-| CE1 bilingue | Référentiel CE1 et prérequis, articulation avec le CP | Une unité thématique multi-disciplines | Traçabilité, tâches d’intégration, correction et remédiation |
+| SIL bilingue | Huit centres rédigés et progression française explicitée | 80 leçons et 8 séquences pilotes conservées | Revue enseignante/linguistique, validation phonologique et audios |
+| CE1 bilingue | Première unité thématique, objectifs CE1 distincts du CE2 | 10 leçons dans l’unité 1 | Écrire les unités restantes et valider Class 3 |
 
 La présence du CP dans la progression doit être reconnue, même si son contenu est livré ultérieurement. La traduction de l’interface ne vaut pas alignement sur les deux sous-systèmes scolaires.
 
@@ -30,6 +30,10 @@ Aucune date de livraison pédagogique fiable ne peut être annoncée sans conna�
 
 
 
-## Première unité SIL bilingue
+## Couverture SIL bilingue
 
-L’unité « La maison / My home » propose huit séquences : français oral, lecture du son /m/, écriture de ma, dénombrement à 10 ; anglais oral distinct ; observation scientifique et vie courante. Les références de niveau 1 francophone (SIL-CP) et anglophone (Level I, Class 1–2) sont affichées dans la page. L’alignement fin reste une matrice de travail à établir leçon par leçon ; le contenu anglophone s’appuie sur le niveau anglophone, et non sur une traduction des objectifs français.
+Les huit centres d’intérêt SIL sont structurés en 10 leçons chacun, soit 80 leçons principales. Huit activités pilotes sont conservées comme suppléments. Les objectifs français suivent la progression SIL propre et les objectifs anglophones sont distincts. Les propositions bassa utilisent le lexique documentaire intégré et restent non validées.
+
+## Démarrage CE1
+
+Le CE1 dispose d’une première unité thématique de dix leçons. Elle utilise uniquement les objectifs CE1 du curriculum Niveau 2 et limite l’alignement anglophone à Class 3. L’année reste à compléter. Le CP intervient entre la SIL et le CE1.

@@ -1,0 +1,85 @@
+{
+  "format": "klassia-grade-catalog",
+  "schemaVersion": 1,
+  "grade": "CE1",
+  "releaseStatus": "in_review",
+  "availableUnits": [
+    "CE1-U1"
+  ],
+  "domains": [
+    {
+      "id": "knowledge",
+      "weight": 60,
+      "title": "Connaissances fondamentales",
+      "subjects": [
+        "Français",
+        "English",
+        "Mathématiques",
+        "Sciences et technologies",
+        "TIC"
+      ]
+    },
+    {
+      "id": "community",
+      "weight": 5,
+      "title": "Vie communautaire et intégration nationale",
+      "subjects": [
+        "Sciences humaines et sociales",
+        "Langues et cultures nationales"
+      ]
+    },
+    {
+      "id": "daily-life",
+      "weight": 20,
+      "title": "Vie courante",
+      "subjects": [
+        "Développement personnel",
+        "Éducation artistique",
+        "Éducation physique et sportive"
+      ]
+    },
+    {
+      "id": "identity",
+      "weight": 5,
+      "title": "Identité culturelle",
+      "subjects": [
+        "Langues et cultures nationales",
+        "Éducation artistique"
+      ]
+    },
+    {
+      "id": "digital",
+      "weight": 10,
+      "title": "Culture numérique",
+      "subjects": [
+        "TIC",
+        "Mathématiques",
+        "Sciences et technologies",
+        "Français",
+        "English",
+        "Éducation artistique"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "CE1-U1",
+      "title_fr": "La maison",
+      "title_en": "The home",
+      "path": "unit1.json",
+      "status": "in_review"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+      "pages": "CE1–CE2 level 2",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+    },
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+      "pages": "Level II — CE1 alignment uses Class 3 objectives only; the Class 4 column is excluded",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "format": "klassia-grade-unit",
+  "schemaVersion": 1,
+  "grade": "CE1",
+  "classTitle": "CE1 bilingue",
+  "sourceLevel": {
+    "fr": "Niveau 2, CE1–CE2 (MINEDUB 2018), objectifs CE1 uniquement.",
+    "en": "English Subsystem Level II; align only to the Class 3 objectives for CE1. Class 4 objectives are excluded. English remains a separate subject strand, not a literal translation of French."
+  },
+  "releaseStatus": "in_review",
+  "statusNote": "Première unité proposée pour revue. La progression annuelle CE1 reste à couvrir avant de présenter la classe comme complète.",
+  "sources": [
+    {
+      "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+      "pages": "CE1–CE2 level 2",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+    },
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+      "pages": "Level II — CE1 alignment uses Class 3 objectives only; the Class 4 column is excluded",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+    }
+  ],
+  "id": "CE1-U1",
+  "title_fr": "La maison",
+  "title_en": "The home",
+  "subcentres": [
+    "La famille",
+    "La vie à la maison",
+    "Les objets domestiques familiers"
+  ],
+  "project": "Préparer un livret fictif « une maison sûre et accueillante » en mobilisant lecture, nombres, observation et règles de vie.",
+  "lessons": [
+    {
+      "id": "CE1-U1-L01",
+      "domain": "Français",
+      "title": "Lire une petite aventure de la vie familiale",
+      "objective": "Lire ou écouter une courte œuvre de quelques pages mettant en scène un enfant et des relations familiales ; restituer personnages et événement principal.",
+      "course": "Une histoire raconte des événements dans un ordre. Avant de lire, on observe le titre et l’image ; après, on repère qui agit, ce qui se passe et ce que le personnage ressent.",
+      "model": "Texte original Klassia : « Aïcha range les livres avec son frère. Ils trouvent un album sous la table. Ils le remettent à sa place et le lisent ensemble. » Personnages : Aïcha et son frère ; action : ils rangent puis lisent l’album.",
+      "guided": "Lire le texte phrase par phrase, entourer les prénoms, puis remettre trois images de l’histoire dans l’ordre.",
+      "exercise": "Qui trouve l’album ? Que font les enfants après l’avoir trouvé ?",
+      "answer": "Aïcha et son frère le trouvent ; ils le remettent à sa place puis le lisent ensemble.",
+      "remediation": "Relire une phrase à la fois, montrer les prénoms, puis demander à l’élève de choisir entre deux images.",
+      "transfer": "Raconter une courte aventure familiale fictive ; respecter la vie privée des enfants.",
+      "materials": "Texte original court, cartes-image.",
+      "source": {
+        "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+        "pages": "CE1–CE2 level 2",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Texte d’auteur créé pour l’exercice ; à relire."
+      },
+      "competencies": [
+        "lecture",
+        "compréhension",
+        "littérature"
+      ]
+    },
+    {
+      "id": "CE1-U1-L02",
+      "domain": "English",
+      "title": "Talk about people and things at home",
+      "objective": "Listen to and use simple English sentences about familiar people and objects, keeping the English goal distinct from French reading.",
+      "course": "English phrases are modelled in context. The learner listens, points, then completes a short sentence; translating word by word is not required.",
+      "model": "“This is my sister.” “The book is on the table.” Adult points to a picture for each sentence.",
+      "guided": "Use family and object cards; learner answers “Who is this?” and “Where is the book?” with a word or a short phrase.",
+      "exercise": "Choose the picture that matches “The book is on the table.”",
+      "answer": "Book placed on the table; a point, gesture or short English response is accepted.",
+      "remediation": "Reduce the choices to two pictures and repeat the whole phrase naturally.",
+      "transfer": "Use one phrase in a pretend family scene.",
+      "materials": "Illustrated cards, no personal family photographs.",
+      "source": {
+        "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+        "pages": "Level II — CE1 alignment uses Class 3 objectives only; the Class 4 column is excluded",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      }
+    },
+    {
+      "id": "CE1-U1-L03",
+      "domain": "Mathématiques",
+      "title": "Classer des ensembles et composer les nombres jusqu’à 200",
+      "objective": "Employer le vocabulaire d’ensembles (fini, égal, équivalent) et composer, lire ou écrire des nombres de 100 à 200 avec dizaines et centaines.",
+      "course": "Un ensemble fini contient un nombre déterminé d’éléments. Deux collections sont équivalentes si elles ont le même nombre d’éléments, même si les objets diffèrent. Un nombre comme 143 se décompose en 1 centaine, 4 dizaines et 3 unités.",
+      "model": "143 = 100 + 40 + 3. Un groupe de trois livres et trois crayons est équivalent en nombre : chaque collection contient trois objets.",
+      "guided": "Construire 126 avec des cartes centaines/dizaines/unités, puis comparer deux collections par correspondance.",
+      "exercise": "Décompose 154 ; une boîte contient 4 cuillères et une autre 4 assiettes : les collections sont-elles équivalentes en nombre ?",
+      "answer": "154 = 100 + 50 + 4 ; oui, elles ont quatre objets chacune.",
+      "remediation": "Représenter 154 avec un tableau C-D-U et faire une correspondance un à un pour les collections.",
+      "transfer": "Résoudre un problème de rangement ou de partage lié à la maison.",
+      "materials": "Jetons, cartes C-D-U ou matériel dessiné.",
+      "source": {
+        "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+        "pages": "CE1–CE2 level 2",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      },
+      "competencies": [
+        "ensembles",
+        "nombres 100–200",
+        "calcul mental",
+        "opérations en ligne"
+      ]
+    },
+    {
+      "id": "CE1-U1-L04",
+      "domain": "Sciences et technologies",
+      "title": "Observer un besoin, une matière et un usage domestique",
+      "objective": "Décrire un objet de la maison et relier une propriété observable à un usage, sans manipulation dangereuse.",
+      "course": "On distingue l’objet, la matière et son usage. Une explication s’appuie sur une observation : une matière souple peut se plier, un récipient solide garde sa forme.",
+      "model": "Le tissu est souple et peut servir à essuyer ; un récipient propre et intact peut contenir de l’eau.",
+      "guided": "Comparer deux images d’objets et compléter « Je vois… ; cela sert à… ».",
+      "exercise": "Choisis un objet et nomme une propriété puis un usage.",
+      "answer": "Réponse fondée sur une propriété visible et un usage plausible.",
+      "remediation": "Proposer deux exemples contrastés et guider avec les mots « matière », « propriété », « usage ».",
+      "transfer": "Réaliser une mini-enquête domestique uniquement avec un adulte.",
+      "materials": "Objets propres, non cassants et non coupants.",
+      "source": {
+        "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+        "pages": "CE1–CE2 level 2",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      }
+    },
+    {
+      "id": "CE1-U1-L05",
+      "domain": "TIC",
+      "title": "Protéger les informations d’une famille",
+      "objective": "Repérer une information personnelle et appliquer une règle de confidentialité avant de la partager.",
+      "course": "Un nom complet, une adresse, un numéro de téléphone ou une photo identifiante sont des informations personnelles. L’enfant demande l’accord d’un adulte avant de les saisir ou de les publier.",
+      "model": "Une affiche fictive peut montrer une maison sans adresse précise ; un vrai numéro de téléphone n’est pas utilisé dans l’exercice.",
+      "guided": "Trier des cartes « dessin d’une maison imaginaire » / « adresse réelle » et expliquer pourquoi l’une ne se partage pas librement.",
+      "exercise": "Une application demande l’adresse de ton domicile : que fais-tu ?",
+      "answer": "Je n’écris rien et je demande à un adulte de confiance.",
+      "remediation": "Dire la règle en trois temps : j’arrête, je ne saisis pas, je demande.",
+      "transfer": "Appliquer la même prudence à une feuille papier laissée dans un lieu public.",
+      "materials": "Cartes fictives sans donnée personnelle.",
+      "source": {
+        "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+        "pages": "CE1–CE2 level 2",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      }
+    },
+    {
+      "id": "CE1-U1-L06",
+      "domain": "Sciences humaines et sociales",
+      "title": "Règles, rôles et droits au sein de la famille",
+      "objective": "Décrire une responsabilité adaptée à l’enfant, distinguer droit et règle, et savoir vers quel adulte se tourner en cas de danger.",
+      "course": "Les tâches familiales doivent être adaptées à l’âge et ne mettent pas l’enfant en danger. Les droits protègent l’enfant ; les règles organisent la vie commune.",
+      "model": "Ranger ses livres est une tâche adaptée ; manipuler un outil coupant ou un médicament n’en est pas une.",
+      "guided": "Classer des cartes en « règle », « responsabilité sûre », « danger » puis expliquer le classement.",
+      "exercise": "Qui peut t’aider si une règle te fait peur ou te met en danger ?",
+      "answer": "Un adulte de confiance hors de la situation, un enseignant ou un professionnel identifié.",
+      "remediation": "Proposer des situations neutres et laisser l’enfant choisir un interlocuteur sûr sans révéler de vécu personnel.",
+      "transfer": "Construire une règle de rangement comprise par tous.",
+      "materials": "Cartes de situations fictives.",
+      "source": {
+        "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+        "pages": "CE1–CE2 level 2",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      }
+    },
+    {
+      "id": "CE1-U1-L07",
+      "domain": "Éducation artistique",
+      "title": "Créer une image narrative sur la maison",
+      "objective": "Composer une scène avec premier plan, personnages et objets, puis expliquer une intention ou une émotion.",
+      "course": "Une image narrative fait comprendre qui est présent et ce qui se passe. Les formes, couleurs et positions peuvent aider à distinguer les personnages et les objets.",
+      "model": "Dans un dessin, les personnages occupent l’espace central ; un objet utilisé par l’action est dessiné près d’eux.",
+      "guided": "Créer une scène fictive de rangement ou de lecture à la maison et l’expliquer à un partenaire.",
+      "exercise": "Quel détail de ton dessin montre l’action principale ?",
+      "answer": "L’élève cite ou montre un élément cohérent avec son intention.",
+      "remediation": "Commencer par deux personnages et un seul objet, puis ajouter un détail.",
+      "transfer": "Présenter une œuvre originale sans dessiner des données identifiantes de sa maison.",
+      "materials": "Papier, crayons, exemples originaux.",
+      "source": {
+        "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+        "pages": "CE1–CE2 level 2",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      }
+    },
+    {
+      "id": "CE1-U1-L08",
+      "domain": "Éducation physique et sportive",
+      "title": "Imiter et enchaîner des mouvements simples",
+      "objective": "Enchaîner une marche, un arrêt et un mouvement d’équilibre dans un espace dégagé.",
+      "course": "Un enchaînement comporte plusieurs actions réalisées dans l’ordre. On travaille lentement et on adapte le mouvement à chaque enfant.",
+      "model": "Marcher quatre pas, s’arrêter, puis tendre les bras près d’un appui stable.",
+      "guided": "Répéter l’enchaînement avec un signal sonore doux et un partenaire observateur.",
+      "exercise": "Effectue les trois actions sans courir et arrête-toi si tu ressens une gêne.",
+      "answer": "Les trois actions sont réalisées dans l’ordre et à une vitesse sûre.",
+      "remediation": "Faire seulement marcher-arrêter avant de réintroduire le troisième mouvement.",
+      "transfer": "Choisir une variante assise ou debout selon le besoin de l’enfant.",
+      "materials": "Espace dégagé, repères au sol.",
+      "source": {
+        "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+        "pages": "CE1–CE2 level 2",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      }
+    },
+    {
+      "id": "CE1-U1-L09",
+      "domain": "Développement personnel",
+      "title": "Réaliser une petite tâche et expliquer ses étapes",
+      "objective": "Planifier une tâche familiale ou artisanale adaptée à l’âge, l’exécuter avec aide puis vérifier le résultat.",
+      "course": "Une tâche se prépare, s’exécute et se vérifie. Les outils, produits ménagers, chaleur et objets lourds restent sous contrôle adulte.",
+      "model": "Préparer un coin lecture : choisir trois livres, les ranger sur une étagère basse, vérifier que le passage reste libre.",
+      "guided": "Faire la tâche avec une liste d’étapes dessinées et expliquer ce qui est déjà terminé.",
+      "exercise": "Quelle étape vérifies-tu à la fin du rangement ?",
+      "answer": "Vérifier que les livres sont stables et que le passage est libre.",
+      "remediation": "Réduire le nombre d’étapes et faire une démonstration pour chaque geste.",
+      "transfer": "Choisir une tâche utile mais non dangereuse avec sa famille.",
+      "materials": "Livres légers, pictogrammes, adulte présent.",
+      "source": {
+        "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
+        "pages": "CE1–CE2 level 2",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      }
+    },
+    {
+      "id": "CE1-U1-L10",
+      "domain": "Langues et cultures nationales",
+      "title": "Lire les propositions bassa autour de la maison et de la famille",
+      "objective": "Consulter des formes documentées pour maison, parents et enfants, avec sens, variantes et sources.",
+      "course": "Les données distinguent maison-bâtiment et unité domestique-sociale. Les noms de famille sont des propositions issues du lexique documentaire ; l’enfant n’a pas à exposer sa famille personnelle et aucune forme n’est proclamée normative.",
+      "model": "Comparer l’entrée « ndap » (bâtiment) à « mbai » (unité domestique-sociale) puis ouvrir les entrées relatives à maman, papa et enfant.",
+      "guided": "Associer les entrées à une illustration fictive puis justifier la différence de sens entre bâtiment et foyer.",
+      "exercise": "Quelle entrée désigne le bâtiment ?",
+      "answer": "« ndap / ndáp » selon le lexique ; « mbai » correspond à l’unité domestique-sociale.",
+      "remediation": "Relire le sens et la note source, puis laisser visibles les variantes non arbitrées.",
+      "transfer": "Utiliser la revue Bassa pour retenir ou écarter une proposition sans la publier automatiquement.",
+      "materials": "Illustrations fictives et lexique bassa documenté.",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "56–64",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire par un enseignant de la classe."
+      },
+      "proposedWords": [
+        {
+          "concept": "maison (bâtiment)",
+          "forms": [
+            "ndap",
+            "ndáp"
+          ],
+          "sources": [
+            "Likoda Li-Mbog",
+            "sources linguistiques antérieures"
+          ],
+          "notes": [
+            "Variation de marquage tonal."
+          ],
+          "status": "proposition_non_validee"
+        },
+        {
+          "concept": "maison / unité domestique-sociale",
+          "forms": [
+            "mbai"
+          ],
+          "sources": [
+            "Likoda Li-Mbog"
+          ],
+          "notes": [
+            "Sens social distinct de la maison physique selon le glossaire."
+          ],
+          "status": "proposition_non_validee"
+        },
+        {
+          "concept": "maman / mère",
+          "forms": [
+            "Ínī",
+            "Ínī"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020"
+          ],
+          "notes": [
+            "Même forme avec encodages diacritiques légèrement différents."
+          ],
+          "status": "proposition_non_validee"
+        },
+        {
+          "concept": "papa / père",
+          "forms": [
+            "Tâ",
+            "Tâ",
+            "isaŋ",
+            "ngwal"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020",
+            "Likoda Li-Mbog"
+          ],
+          "notes": [
+            "Tâ est le terme familier donné pour papa/père ; isaŋ et ngwal sont relevés comme père / géniteur dans le glossaire."
+          ],
+          "status": "proposition_non_validee"
+        },
+        {
+          "concept": "enfant",
+          "forms": [
+            "mǎn",
+            "maaŋgɛ́"
+          ],
+          "sources": [
+            "Afranaph Basaa sentences"
+          ],
+          "notes": [
+            "Formes relevées dans différents exemples/notations."
+          ],
+          "status": "proposition_non_validee"
+        }
+      ],
+      "scoring": "Aucun score linguistique officiel."
+    }
+  ]
+}

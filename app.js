@@ -114,6 +114,7 @@ function login() { Klassia.openProfiles(); home(); }
 function shell(body, active = 'home') {
   const u = currentUser();
   const isAdmin = u?.role === 'ADMIN';
+  const isTeacher = u?.role === 'ENSEIGNANT';
   const isParent = u?.role === 'PARENT';
   const nav = isParent ? [
     ['home', '⌂', 'Synthèse'],
@@ -125,6 +126,7 @@ function shell(body, active = 'home') {
     ['project', '◆', 'Projet'],
     ['progress', '◎', 'Suivi']
   ];
+  if (isAdmin || isTeacher) nav.push(['coverage', '☷', 'Revue éditoriale'], ['bassa', '🗣', 'Bassa']);
   app.innerHTML = `
     <div class="shell">
       <header class="topbar">
@@ -135,7 +137,7 @@ function shell(body, active = 'home') {
         </nav>
         <div class="spacer"></div>
         <label class="unit-switch" title="Changer d’unité"><span>Unité</span><select id="unitSelect">${catalog.units.map(x => `<option value="${x.id}" ${x.id===currentUnit.id?'selected':''}>${x.number} · ${esc(x.title)}</option>`).join('')}</select></label>
-        <div class="who"><b>${esc(u?.name || '')}</b><span>${isAdmin ? 'Administrateur' : isParent ? 'Espace parent · CE2' : `CE2 · Unité ${unitNumber()}`}</span></div>
+        <div class="who"><b>${esc(u?.name || '')}</b><span>${isAdmin ? 'Administrateur local' : isTeacher ? 'Enseignant · appareil local' : isParent ? 'Espace parent · CE2' : `CE2 · Unité ${unitNumber()}`}</span></div>
         <button id="logout" class="iconBtn" title="Déconnexion" aria-label="Déconnexion">↪</button>
       </header>
       <main class="main">${body}</main>

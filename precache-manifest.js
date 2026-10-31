@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "5ce4e49ec5e41af03d03a2d0d30efe7bf0383f952bcb5801c319c28a75e01085",
+  "version": "dee50af542113f3aafe93ac1d2c716ac5beb7c3f72861ea7bc931e1d4892cb05",
   "files": [
     {
       "url": "./app.js",
-      "sha256": "1227ae41e2ec3b19076db800eb4e408c1b6a5dab8f48600eb2613e075189ca9e"
+      "sha256": "9b43d6739c6b622a3eeee3f88084aa4ba776433fd597fc9b792ea13a2abb8e01"
     },
     {
       "url": "./assets/count-school.svg",
@@ -16,6 +16,10 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./class-switch-v12.js",
       "sha256": "fa8768a4422864c58d975887b438c550fb56ed82018c5d54668fe0e2f303cfd8"
+    },
+    {
+      "url": "./data/bassa-lexicon-variants.json",
+      "sha256": "b304dfbec85e78a0a9ca7a2493c8f271795c64773a8dc899e9433eb8e5eb7419"
     },
     {
       "url": "./data/catalog.json",
@@ -183,11 +187,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "9ec20fed9cceebaf4a24ec748e6096ddf0dc17a3cb54fb098943b6fd2a107260"
+      "sha256": "0c69667e7dd9fa3ee2131133d868d0637a003092f23c8466db72ad937a6ef049"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "6a65743190d97c7c819bc4a9b44c362768b9b2a05e89865a153192235a2e1122"
+      "sha256": "19d31d3894f0a68229a472cee8c2c6235da6a9b2edf5ccf650f551b045580d08"
     },
     {
       "url": "./sil/app.js",
@@ -215,7 +219,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.js",
-      "sha256": "6c9ec40245ee39a988fea04eb0cee09477f14a21d5b14f8b452970139b9f5a85"
+      "sha256": "401c43e7dc49a0100d6102225e2830752e0a741ef7455724dd873d029a886f07"
     },
     {
       "url": "./v9.css",

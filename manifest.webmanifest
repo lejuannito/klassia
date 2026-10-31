@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Klassia CE2",
+  "name": "Klassia · CE2 et Moyenne Section",
   "short_name": "Klassia",
-  "description": "Parcours CE2 interactif : leçons, exercices, évaluations, révisions et suivi, disponible hors connexion après le premier chargement.",
+  "description": "Manuel interactif pilote accompagné. CE2 et MS disponibles hors connexion après téléchargement vérifié.",
   "lang": "fr",
   "dir": "ltr",
   "start_url": "./#home",
@@ -75,22 +75,6 @@
           "type": "image/png"
         }
       ]
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "./screenshots/mobile-home.png",
-      "sizes": "390x1531",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Accueil élève Klassia"
-    },
-    {
-      "src": "./screenshots/mobile-parent.png",
-      "sizes": "390x1668",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Suivi parent Klassia"
     }
   ]
 }

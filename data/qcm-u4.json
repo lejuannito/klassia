@@ -1,12 +1,12 @@
 {
   "format": "klassia-qcm-bank",
-  "version": 2,
+  "version": "15.0",
   "metadata": {
     "class": "CE2",
     "unit": 4,
     "center_of_interest": "Les métiers",
     "essential_questions": 50,
-    "complementary_questions": 144,
+    "complementary_questions": 99,
     "deduplicated_exact_questions": 0,
     "editorial_note": "La banque complémentaire provient du prototype historique et doit rester soumise à revue pédagogique avant publication."
   },
@@ -20,65 +20,80 @@
       "titre": "Klassia CE2 - Unité 4 - Français et littérature",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Écouter, réagir et réciter autour des métiers » ?",
+          "enonce": "Quel est l'adjectif qualificatif dans « un lourd marteau » ?",
           "choix": [
-            "J’écoute jusqu’au bout avant de répondre.",
-            "Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements.",
-            "Je repère les personnages, le problème, les actions importantes et la fin.",
-            "Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive."
+            "lourd",
+            "un",
+            "marteau",
+            "un lourd"
           ],
           "bonne": 0,
-          "corrige": "J’écoute jusqu’au bout avant de répondre."
+          "corrige": "« Lourd » donne une précision sur le marteau : c'est l'adjectif.",
+          "methode": "L'adjectif dit comment est le nom.",
+          "id": "U4-FR-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Reconnaître les principaux types d’écrits » ?",
+          "enonce": "Dans « une couturière habile », quel nom l'adjectif précise-t-il ?",
           "choix": [
-            "Je repère les personnages, le problème, les actions importantes et la fin.",
-            "Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements.",
-            "Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive.",
-            "Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre."
-          ],
-          "bonne": 1,
-          "corrige": "Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Lire une aventure sur les métiers et donner son avis » ?",
-          "choix": [
-            "Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive.",
-            "Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre.",
-            "Je repère les personnages, le problème, les actions importantes et la fin.",
-            "Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif."
-          ],
-          "bonne": 2,
-          "corrige": "Je repère les personnages, le problème, les actions importantes et la fin."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Identifier et utiliser les adjectifs qualificatifs » ?",
-          "choix": [
-            "Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre.",
-            "Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif.",
-            "L’accord dépend du sujet et du groupe nominal.",
-            "Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive."
-          ],
-          "bonne": 3,
-          "corrige": "Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Accorder le nom, le déterminant et l’adjectif » ?",
-          "choix": [
-            "Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre.",
-            "Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif.",
-            "L’accord dépend du sujet et du groupe nominal.",
-            "Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons."
+            "couturière",
+            "une",
+            "habile",
+            "aucun"
           ],
           "bonne": 0,
-          "corrige": "Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre."
+          "corrige": "« Habile » dit comment est la couturière.",
+          "methode": "Cherche le nom du groupe.",
+          "id": "U4-FR-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Accorde : « des machines (neuf) »",
+          "choix": [
+            "neuves",
+            "neufs",
+            "neuve",
+            "neufes"
+          ],
+          "bonne": 0,
+          "corrige": "Machines est féminin pluriel : neuf → neuve → neuves.",
+          "methode": "Les adjectifs en -f font -ve au féminin.",
+          "id": "U4-FR-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Accorde : « des outils (solide) »",
+          "choix": [
+            "solides",
+            "solide",
+            "solidex",
+            "solident"
+          ],
+          "bonne": 0,
+          "corrige": "Outils est au pluriel : l'adjectif prend un -s.",
+          "methode": "L'adjectif s'accorde avec le nom.",
+          "id": "U4-FR-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quel groupe nominal est bien accordé ?",
+          "choix": [
+            "des filets troués",
+            "des filet troués",
+            "des filets troué",
+            "un filets troués"
+          ],
+          "bonne": 0,
+          "corrige": "Déterminant, nom et adjectif sont tous au pluriel.",
+          "methode": "Tous les mots du GN doivent être au même nombre.",
+          "id": "U4-FR-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "FR",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -90,65 +105,80 @@
       "titre": "Klassia CE2 - Unité 4 - English Language",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Talking about occupations » ?",
+          "enonce": "Who teaches children?",
           "choix": [
-            "An occupation is work done by a person. We can describe how a job helps people or provides a service.",
-            "Read short sentences carefully and identify the occupation and its advantage.",
-            "Copy words and sentences accurately, leaving spaces and using capital letters where needed.",
-            "Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words."
+            "a teacher",
+            "a farmer",
+            "a mechanic",
+            "a driver"
           ],
           "bonne": 0,
-          "corrige": "An occupation is work done by a person. We can describe how a job helps people or provides a service."
+          "corrige": "A teacher teaches children to read, write and count.",
+          "methode": "teach = enseigner.",
+          "id": "U4-EN-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Reading about occupations » ?",
+          "enonce": "Who repairs cars and motorbikes?",
           "choix": [
-            "Copy words and sentences accurately, leaving spaces and using capital letters where needed.",
-            "Read short sentences carefully and identify the occupation and its advantage.",
-            "Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words.",
-            "An occupation is work done by a person. We can describe how a job helps people or provides a service."
-          ],
-          "bonne": 1,
-          "corrige": "Read short sentences carefully and identify the occupation and its advantage."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Writing about occupations » ?",
-          "choix": [
-            "Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words.",
-            "An occupation is work done by a person. We can describe how a job helps people or provides a service.",
-            "Copy words and sentences accurately, leaving spaces and using capital letters where needed.",
-            "Read short sentences carefully and identify the occupation and its advantage."
-          ],
-          "bonne": 2,
-          "corrige": "Copy words and sentences accurately, leaving spaces and using capital letters where needed."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Opposites and adverbs » ?",
-          "choix": [
-            "An occupation is work done by a person. We can describe how a job helps people or provides a service.",
-            "Read short sentences carefully and identify the occupation and its advantage.",
-            "Copy words and sentences accurately, leaving spaces and using capital letters where needed.",
-            "Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words."
-          ],
-          "bonne": 3,
-          "corrige": "Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Talking about occupations » ?",
-          "choix": [
-            "An occupation is work done by a person. We can describe how a job helps people or provides a service.",
-            "Read short sentences carefully and identify the occupation and its advantage.",
-            "Copy words and sentences accurately, leaving spaces and using capital letters where needed.",
-            "Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words."
+            "a mechanic",
+            "a tailor",
+            "a nurse",
+            "a fisherman"
           ],
           "bonne": 0,
-          "corrige": "An occupation is work done by a person. We can describe how a job helps people or provides a service."
+          "corrige": "A mechanic repairs vehicles.",
+          "methode": "repair = réparer.",
+          "id": "U4-EN-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Who sews clothes?",
+          "choix": [
+            "a tailor",
+            "a carpenter",
+            "a police officer",
+            "a trader"
+          ],
+          "bonne": 0,
+          "corrige": "A tailor sews clothes.",
+          "methode": "sew = coudre.",
+          "id": "U4-EN-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Who makes tables and chairs?",
+          "choix": [
+            "a carpenter",
+            "a doctor",
+            "a farmer",
+            "a driver"
+          ],
+          "bonne": 0,
+          "corrige": "A carpenter makes furniture: tables, chairs, doors.",
+          "methode": "carpenter = menuisier.",
+          "id": "U4-EN-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "What is an advantage of a farmer's job?",
+          "choix": [
+            "He gives us food.",
+            "He repairs cars.",
+            "He teaches children.",
+            "He drives a bus."
+          ],
+          "bonne": 0,
+          "corrige": "A farmer grows crops: he gives us food and earns money.",
+          "methode": "farmer = cultivateur.",
+          "id": "U4-EN-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "EN",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -168,7 +198,9 @@
             "La bonne méthode consiste à ignorer les consignes et les exemples."
           ],
           "bonne": 0,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U4-BA-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle affirmation correspond le mieux à la leçon « Comparer des activités de différents métiers » ?",
@@ -179,7 +211,9 @@
             "La bonne méthode consiste à ignorer les consignes et les exemples."
           ],
           "bonne": 1,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U4-BA-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle affirmation correspond le mieux à la leçon « Comparer des activités de différents métiers » ?",
@@ -190,7 +224,9 @@
             "La bonne méthode consiste à ignorer les consignes et les exemples."
           ],
           "bonne": 2,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U4-BA-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle affirmation correspond le mieux à la leçon « Comparer des activités de différents métiers » ?",
@@ -201,7 +237,9 @@
             "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
           ],
           "bonne": 3,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U4-BA-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle affirmation correspond le mieux à la leçon « Comparer des activités de différents métiers » ?",
@@ -212,14 +250,17 @@
             "La bonne méthode consiste à ignorer les consignes et les exemples."
           ],
           "bonne": 0,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U4-BA-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "BA",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
       "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
-      "source_bank": "KLASSIA_STRUCTURED_V1"
+      "source_bank": "KLASSIA_STRUCTURED_V1",
+      "editorial_status": "linguistic_review_required"
     },
     {
       "id": "CE2-U4-MA",
@@ -230,65 +271,80 @@
       "titre": "Klassia CE2 - Unité 4 - Mathématiques",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Nombres de 5 000 à 7 000 » ?",
+          "enonce": "Arrondis 6 348 à la centaine.",
           "choix": [
-            "La valeur d’un chiffre dépend de sa position : milliers, centaines, dizaines, unités.",
-            "Je pose correctement la multiplication et je contrôle l’ordre de grandeur avant la vérification.",
-            "Je relie multiplication et additions répétées, puis je mémorise progressivement les résultats.",
-            "Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur)."
+            "6 300",
+            "6 400",
+            "6 000",
+            "6 350"
           ],
           "bonne": 0,
-          "corrige": "La valeur d’un chiffre dépend de sa position : milliers, centaines, dizaines, unités."
+          "corrige": "Le chiffre des dizaines est 4 (moins de 5) : on garde 6 300.",
+          "methode": "Regarde le chiffre des dizaines.",
+          "id": "U4-MA-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Multiplier par un nombre de deux chiffres et vérifier par 9 » ?",
+          "enonce": "Arrondis 6 950 à la centaine.",
           "choix": [
-            "Je relie multiplication et additions répétées, puis je mémorise progressivement les résultats.",
-            "Je pose correctement la multiplication et je contrôle l’ordre de grandeur avant la vérification.",
-            "Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur).",
-            "Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement."
-          ],
-          "bonne": 1,
-          "corrige": "Je pose correctement la multiplication et je contrôle l’ordre de grandeur avant la vérification."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Tables de multiplication par 6, 7 et 8 » ?",
-          "choix": [
-            "Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur).",
-            "Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement.",
-            "Je relie multiplication et additions répétées, puis je mémorise progressivement les résultats.",
-            "En symétrie axiale, les points correspondants sont à même distance de l’axe."
-          ],
-          "bonne": 2,
-          "corrige": "Je relie multiplication et additions répétées, puis je mémorise progressivement les résultats."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Périmètre du carré et du rectangle » ?",
-          "choix": [
-            "Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement.",
-            "En symétrie axiale, les points correspondants sont à même distance de l’axe.",
-            "La valeur d’un chiffre dépend de sa position : milliers, centaines, dizaines, unités.",
-            "Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur)."
-          ],
-          "bonne": 3,
-          "corrige": "Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur)."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Construire un triangle » ?",
-          "choix": [
-            "Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement.",
-            "En symétrie axiale, les points correspondants sont à même distance de l’axe.",
-            "La valeur d’un chiffre dépend de sa position : milliers, centaines, dizaines, unités.",
-            "Je pose correctement la multiplication et je contrôle l’ordre de grandeur avant la vérification."
+            "7 000",
+            "6 900",
+            "6 000",
+            "6 950"
           ],
           "bonne": 0,
-          "corrige": "Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement."
+          "corrige": "Le chiffre des dizaines est 5 : on passe à la centaine du dessus, 7 000.",
+          "methode": "De 5 à 9, on arrondit au-dessus.",
+          "id": "U4-MA-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Encadre 5 418 entre deux centaines.",
+          "choix": [
+            "5 400 < 5 418 < 5 500",
+            "5 000 < 5 418 < 5 100",
+            "5 410 < 5 418 < 5 420",
+            "5 300 < 5 418 < 5 400"
+          ],
+          "bonne": 0,
+          "corrige": "5 418 a 54 centaines : il est entre 5 400 et 5 500.",
+          "methode": "Deux centaines qui se suivent.",
+          "id": "U4-MA-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Comment écrit-on 6 271 en lettres ?",
+          "choix": [
+            "six mille deux cent soixante et onze",
+            "six mille deux cent soixante-onze",
+            "six mille deux cents soixante et onze",
+            "six milles deux cent soixante et onze"
+          ],
+          "bonne": 0,
+          "corrige": "71 se dit « soixante et onze », avec « et ».",
+          "methode": "21, 31, 41, 51, 61 et 71 prennent « et ».",
+          "id": "U4-MA-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "7 × 8 = ?",
+          "choix": [
+            "56",
+            "54",
+            "48",
+            "64"
+          ],
+          "bonne": 0,
+          "corrige": "7 × 8 = 56.",
+          "methode": "5, 6, 7, 8 : 56 = 7 × 8.",
+          "id": "U4-MA-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "MA",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -300,65 +356,80 @@
       "titre": "Klassia CE2 - Unité 4 - Sciences et technologies",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Alimentation équilibrée selon l’activité » ?",
+          "enonce": "Qui a besoin de plus d'aliments d'énergie ?",
           "choix": [
-            "Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité.",
-            "Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés.",
-            "Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant.",
-            "Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision."
+            "le maçon",
+            "la secrétaire",
+            "la couturière",
+            "le caissier"
           ],
           "bonne": 0,
-          "corrige": "Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité."
+          "corrige": "Le maçon fait un travail de force qui dépense beaucoup d'énergie.",
+          "methode": "Plus on se dépense, plus on a besoin d'aliments d'énergie.",
+          "id": "U4-SC-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Respiration : maladies et hygiène » ?",
+          "enonce": "Un enfant qui grandit a surtout besoin d'aliments…",
           "choix": [
-            "Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant.",
-            "Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés.",
-            "Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision.",
-            "Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique."
-          ],
-          "bonne": 1,
-          "corrige": "Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Prévention du VIH/Sida à un niveau adapté » ?",
-          "choix": [
-            "Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision.",
-            "Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique.",
-            "Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant.",
-            "Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité."
-          ],
-          "bonne": 2,
-          "corrige": "Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Enquêter sur le travail d’un artisan » ?",
-          "choix": [
-            "Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique.",
-            "Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité.",
-            "Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants.",
-            "Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision."
-          ],
-          "bonne": 3,
-          "corrige": "Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Conducteurs et isolants du courant électrique » ?",
-          "choix": [
-            "Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique.",
-            "Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité.",
-            "Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants.",
-            "Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité."
+            "de construction",
+            "d'énergie seulement",
+            "très sucrés",
+            "frits"
           ],
           "bonne": 0,
-          "corrige": "Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique."
+          "corrige": "Le lait, les œufs, le poisson et le haricot l'aident à construire ses os et ses muscles.",
+          "methode": "Grandir = construire son corps.",
+          "id": "U4-SC-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Une alimentation équilibrée est…",
+          "choix": [
+            "variée, régulière et adaptée à l'âge et à l'activité",
+            "la même pour tout le monde",
+            "faite d'un seul aliment",
+            "un seul grand repas par jour"
+          ],
+          "bonne": 0,
+          "corrige": "On mange les trois groupes d'aliments, trois fois par jour, selon son âge et son travail.",
+          "methode": "Variée, régulière, adaptée.",
+          "id": "U4-SC-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quelle maladie respiratoire est contagieuse ?",
+          "choix": [
+            "la tuberculose",
+            "la fracture",
+            "le rachitisme",
+            "l'entorse"
+          ],
+          "bonne": 0,
+          "corrige": "La tuberculose passe d'une personne à l'autre ; une toux de plus de deux semaines doit être montrée au centre de santé.",
+          "methode": "Les trois autres ne touchent pas la respiration.",
+          "id": "U4-SC-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quand tu éternues, tu le fais…",
+          "choix": [
+            "dans ton coude ou dans un mouchoir",
+            "dans ta main sans te laver",
+            "vers tes camarades",
+            "au-dessus de la nourriture"
+          ],
+          "bonne": 0,
+          "corrige": "Ainsi, tu ne transmets pas tes microbes aux autres.",
+          "methode": "Pense à protéger les autres.",
+          "id": "U4-SC-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "SC",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -370,65 +441,80 @@
       "titre": "Klassia CE2 - Unité 4 - TIC",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Organiser le bureau de l’ordinateur » ?",
+          "enonce": "Quel métier écrit des programmes et des applications ?",
           "choix": [
-            "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple.",
-            "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel.",
-            "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
+            "le programmeur",
+            "le cultivateur",
+            "le tailleur",
+            "le boulanger"
           ],
           "bonne": 0,
-          "corrige": "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple."
+          "corrige": "Le programmeur écrit des programmes pour les ordinateurs et les téléphones.",
+          "methode": "Programme → programmeur.",
+          "id": "U4-TI-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Saisir et traiter un texte ; insérer un tableau » ?",
+          "enonce": "Quel métier crée des affiches et des logos sur ordinateur ?",
           "choix": [
-            "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable.",
-            "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel.",
-            "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
-          ],
-          "bonne": 1,
-          "corrige": "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Sécurité des TIC au travail » ?",
-          "choix": [
-            "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple.",
-            "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel.",
-            "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
-          ],
-          "bonne": 2,
-          "corrige": "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Organiser le bureau de l’ordinateur » ?",
-          "choix": [
-            "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel.",
-            "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple."
-          ],
-          "bonne": 3,
-          "corrige": "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Saisir et traiter un texte ; insérer un tableau » ?",
-          "choix": [
-            "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel.",
-            "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable.",
-            "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
+            "l'infographiste",
+            "le caissier",
+            "le journaliste",
+            "le mécanicien"
           ],
           "bonne": 0,
-          "corrige": "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel."
+          "corrige": "L'infographiste utilise des logiciels de dessin.",
+          "methode": "Info + graphiste (dessin).",
+          "id": "U4-TI-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "À quoi sert le lecteur de code-barres du caissier ?",
+          "choix": [
+            "à trouver le prix sans erreur",
+            "à imprimer des photos",
+            "à écouter la radio",
+            "à réparer les téléphones"
+          ],
+          "bonne": 0,
+          "corrige": "Le prix s'affiche tout seul : le caissier calcule sans erreur.",
+          "methode": "Pense à la pharmacie.",
+          "id": "U4-TI-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Comment le cultivateur utilise-t-il les TIC ?",
+          "choix": [
+            "avec le téléphone, pour connaître les prix et la météo",
+            "avec un vidéoprojecteur pour labourer",
+            "avec une imprimante pour semer",
+            "il ne peut pas les utiliser"
+          ],
+          "bonne": 0,
+          "corrige": "Le téléphone portable lui donne des informations utiles.",
+          "methode": "Le téléphone est partout.",
+          "id": "U4-TI-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Comment sélectionne-t-on un seul mot ?",
+          "choix": [
+            "par un double-clic sur le mot",
+            "en appuyant sur Entrée",
+            "en éteignant l'écran",
+            "par un clic droit sur le bureau"
+          ],
+          "bonne": 0,
+          "corrige": "Un double-clic sélectionne un mot ; on peut aussi glisser la souris, bouton appuyé.",
+          "methode": "Le mot se colore.",
+          "id": "U4-TI-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "TI",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -440,65 +526,80 @@
       "titre": "Klassia CE2 - Unité 4 - Sciences humaines et sociales",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Honnêteté » ?",
+          "enonce": "Lina trouve un porte-monnaie au marché. Que doit-elle faire ?",
           "choix": [
-            "Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître.",
-            "Rendre service signifie aider de façon respectueuse sans exiger une récompense.",
-            "Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents.",
-            "Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux."
+            "le rendre à son propriétaire ou au responsable du marché",
+            "le garder",
+            "dépenser l'argent",
+            "le jeter"
           ],
           "bonne": 0,
-          "corrige": "Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître."
+          "corrige": "Être honnête, c'est rendre ce qu'on trouve et respecter le bien des autres.",
+          "methode": "« Bien mal acquis ne profite jamais. »",
+          "id": "U4-SH-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Serviabilité » ?",
+          "enonce": "Quelle action est malhonnête ?",
           "choix": [
-            "Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents.",
-            "Rendre service signifie aider de façon respectueuse sans exiger une récompense.",
-            "Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux.",
-            "Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation."
-          ],
-          "bonne": 1,
-          "corrige": "Rendre service signifie aider de façon respectueuse sans exiger une récompense."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Protection de l’enfant contre violence, maltraitance et exploitation » ?",
-          "choix": [
-            "Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux.",
-            "Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation.",
-            "Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents.",
-            "Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats."
-          ],
-          "bonne": 2,
-          "corrige": "Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Vivre ensemble dans les lieux de travail » ?",
-          "choix": [
-            "Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation.",
-            "Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats.",
-            "Les règles protègent les personnes, organisent les activités et définissent des comportements attendus.",
-            "Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux."
-          ],
-          "bonne": 3,
-          "corrige": "Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Sécurité dans les lieux de travail » ?",
-          "choix": [
-            "Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation.",
-            "Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats.",
-            "Les règles protègent les personnes, organisent les activités et définissent des comportements attendus.",
-            "Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées."
+            "trafiquer sa balance pour tromper les clients",
+            "rendre la monnaie juste",
+            "rendre le reste du tissu au client",
+            "tenir sa promesse"
           ],
           "bonne": 0,
-          "corrige": "Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation."
+          "corrige": "Tromper sur le poids, c'est voler le client.",
+          "methode": "L'honnêteté garde les clients.",
+          "id": "U4-SH-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Être serviable, c'est…",
+          "choix": [
+            "aider les autres sans attendre de récompense",
+            "aider seulement si on est payé",
+            "refuser d'aider",
+            "se moquer de ceux qui demandent de l'aide"
+          ],
+          "bonne": 0,
+          "corrige": "La personne serviable rend service volontiers : porter un panier, aider un camarade…",
+          "methode": "« Un service rendu n'est jamais perdu. »",
+          "id": "U4-SH-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quel exemple est une exploitation des enfants ?",
+          "choix": [
+            "travailler dans une carrière au lieu d'aller à l'école",
+            "aider à mettre la table",
+            "ranger sa chambre",
+            "arroser le jardin après l'école"
+          ],
+          "bonne": 0,
+          "corrige": "Un travail dangereux ou qui empêche d'aller à l'école est de l'exploitation ; aider un peu à la maison ne l'est pas.",
+          "methode": "École d'abord, travaux adaptés à l'âge.",
+          "id": "U4-SH-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Un enfant est victime de violence. Que doit-il faire ?",
+          "choix": [
+            "en parler à un adulte de confiance ou appeler le 116",
+            "garder le secret",
+            "penser que c'est sa faute",
+            "ne rien dire à personne"
+          ],
+          "bonne": 0,
+          "corrige": "Il dit non, s'éloigne et en parle à un parent, à l'enseignant ou au directeur ; le 116 est un numéro vert. Ce n'est jamais sa faute.",
+          "methode": "Un adulte de confiance peut l'aider.",
+          "id": "U4-SH-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "SH",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -510,65 +611,80 @@
       "titre": "Klassia CE2 - Unité 4 - Éducation artistique",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Peinture et tableaux » ?",
+          "enonce": "Que veut dire « modeler » ?",
           "choix": [
-            "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation.",
-            "Je modèle progressivement les volumes avec un matériau propre et adapté.",
-            "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme.",
-            "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres."
+            "Donner une forme à une matière molle avec ses mains",
+            "Peindre une feuille",
+            "Découper du papier",
+            "Chanter en groupe"
           ],
           "bonne": 0,
-          "corrige": "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation."
+          "corrige": "On modèle l'argile ou la pâte à modeler avec les mains.",
+          "methode": "",
+          "id": "U4-AR-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Figurines par modelage » ?",
+          "enonce": "Qui fabrique des canaris et des jarres en argile ?",
           "choix": [
-            "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme.",
-            "Je modèle progressivement les volumes avec un matériau propre et adapté.",
-            "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres.",
-            "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation."
-          ],
-          "bonne": 1,
-          "corrige": "Je modèle progressivement les volumes avec un matériau propre et adapté."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Lire des notes simples en 2, 3 et 4 temps » ?",
-          "choix": [
-            "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres.",
-            "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation.",
-            "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme.",
-            "Je modèle progressivement les volumes avec un matériau propre et adapté."
-          ],
-          "bonne": 2,
-          "corrige": "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Danse moderne » ?",
-          "choix": [
-            "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation.",
-            "Je modèle progressivement les volumes avec un matériau propre et adapté.",
-            "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme.",
-            "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres."
-          ],
-          "bonne": 3,
-          "corrige": "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Peinture et tableaux » ?",
-          "choix": [
-            "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation.",
-            "Je modèle progressivement les volumes avec un matériau propre et adapté.",
-            "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme.",
-            "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres."
+            "Le potier",
+            "Le forgeron",
+            "Le pêcheur",
+            "Le menuisier"
           ],
           "bonne": 0,
-          "corrige": "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation."
+          "corrige": "Le potier façonne l'argile puis la cuit au feu.",
+          "methode": "",
+          "id": "U4-AR-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Pourquoi le potier cuit-il ses objets au feu ?",
+          "choix": [
+            "Pour les rendre solides",
+            "Pour les rendre mous",
+            "Pour les colorier",
+            "Pour les rendre plus légers"
+          ],
+          "bonne": 0,
+          "corrige": "La cuisson rend l'argile dure et solide.",
+          "methode": "",
+          "id": "U4-AR-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Qui taille le bois pour faire des statues et des masques ?",
+          "choix": [
+            "Le sculpteur",
+            "Le potier",
+            "Le tailleur",
+            "Le chanteur"
+          ],
+          "bonne": 0,
+          "corrige": "Le sculpteur taille le bois ou la pierre.",
+          "methode": "",
+          "id": "U4-AR-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "En modelage, comment s'appelle un long boudin d'argile ?",
+          "choix": [
+            "Un colombin",
+            "Une plaque",
+            "Une boule",
+            "Un pinceau"
+          ],
+          "bonne": 0,
+          "corrige": "On roule l'argile sur la table pour faire un colombin.",
+          "methode": "",
+          "id": "U4-AR-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "AR",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -580,65 +696,80 @@
       "titre": "Klassia CE2 - Unité 4 - Éducation physique et sportive",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Principes et règles élémentaires du football » ?",
+          "enonce": "Qu'est-ce qu'une course de relais ?",
           "choix": [
-            "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
+            "Une course d'équipe où chaque coureur fait une partie du parcours",
+            "Une course où l'on court seul très longtemps",
+            "Une course en sautant des obstacles",
+            "Une course où l'on marche à reculons"
           ],
           "bonne": 0,
-          "corrige": "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+          "corrige": "Au relais, chaque coureur fait une portion puis donne le témoin au suivant.",
+          "methode": "",
+          "id": "U4-EP-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Se déplacer, passer et recevoir au football » ?",
+          "enonce": "Au relais, quel objet les coureurs se transmettent-ils ?",
           "choix": [
-            "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
-          ],
-          "bonne": 1,
-          "corrige": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Principes et règles élémentaires du football » ?",
-          "choix": [
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
-          ],
-          "bonne": 2,
-          "corrige": "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Se déplacer, passer et recevoir au football » ?",
-          "choix": [
-            "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation.",
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
-          ],
-          "bonne": 3,
-          "corrige": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Principes et règles élémentaires du football » ?",
-          "choix": [
-            "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
+            "Le témoin",
+            "Un ballon de football",
+            "Un foulard rouge",
+            "Une chaussure"
           ],
           "bonne": 0,
-          "corrige": "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+          "corrige": "Le témoin est un bâton que les coureurs se transmettent.",
+          "methode": "",
+          "id": "U4-EP-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Où doit se faire la passe du témoin ?",
+          "choix": [
+            "Dans la zone de passage",
+            "N'importe où sur la piste",
+            "Après la ligne d'arrivée",
+            "En dehors de la piste"
+          ],
+          "bonne": 0,
+          "corrige": "Une passe en dehors de la zone de passage fait disqualifier l'équipe.",
+          "methode": "",
+          "id": "U4-EP-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Comment le receveur tend-il la main pour prendre le témoin ?",
+          "choix": [
+            "En arrière, paume ouverte, en commençant à courir",
+            "En avant, poing fermé, immobile",
+            "Vers le haut, en sautant",
+            "Il ne tend pas la main, il attend qu'on lui lance"
+          ],
+          "bonne": 0,
+          "corrige": "Le receveur part avant de recevoir et tend la main en arrière, paume ouverte.",
+          "methode": "",
+          "id": "U4-EP-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Le témoin tombe pendant la passe. Qui le ramasse ?",
+          "choix": [
+            "Le coureur qui l'a fait tomber",
+            "L'arbitre",
+            "Le dernier coureur de l'équipe",
+            "Personne : la course s'arrête"
+          ],
+          "bonne": 0,
+          "corrige": "C'est le coureur qui a fait tomber le témoin qui le ramasse.",
+          "methode": "",
+          "id": "U4-EP-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "EP",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -650,65 +781,80 @@
       "titre": "Klassia CE2 - Unité 4 - Développement personnel",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Tissage / vannerie » ?",
+          "enonce": "Qu'est-ce qu'un motif dans un collier de perles ?",
           "choix": [
-            "Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants.",
-            "Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu.",
-            "Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité.",
-            "Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision."
+            "Un groupe de perles qui se répète dans le même ordre",
+            "Une seule grosse perle",
+            "Le fil du collier",
+            "Le nœud de fermeture"
           ],
           "bonne": 0,
-          "corrige": "Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants."
+          "corrige": "Par exemple : 2 rouges, 1 jaune, 2 rouges, 1 jaune…",
+          "methode": "",
+          "id": "U4-DP-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Outils et techniques culturales » ?",
+          "enonce": "Le motif est : 2 rouges, 1 jaune. Après « rouge, rouge, jaune, rouge, rouge », quelle perle vient ?",
           "choix": [
-            "Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité.",
-            "Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu.",
-            "Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision.",
-            "Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité."
-          ],
-          "bonne": 1,
-          "corrige": "Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Cultiver un jardin scolaire et élever un animal » ?",
-          "choix": [
-            "Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision.",
-            "Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité.",
-            "Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité.",
-            "Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants."
-          ],
-          "bonne": 2,
-          "corrige": "Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Tricotage avec aiguilles » ?",
-          "choix": [
-            "Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité.",
-            "Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants.",
-            "Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu.",
-            "Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision."
-          ],
-          "bonne": 3,
-          "corrige": "Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Broderie au point de bourdon » ?",
-          "choix": [
-            "Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité.",
-            "Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants.",
-            "Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu.",
-            "Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité."
+            "Jaune",
+            "Rouge",
+            "Bleue",
+            "Verte"
           ],
           "bonne": 0,
-          "corrige": "Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité."
+          "corrige": "Après deux rouges vient une jaune.",
+          "methode": "Récite le motif depuis le début.",
+          "id": "U4-DP-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Comment ferme-t-on le collier ?",
+          "choix": [
+            "Par un double nœud",
+            "Avec de l'eau",
+            "En coupant le fil",
+            "Avec une perle de plus"
+          ],
+          "bonne": 0,
+          "corrige": "Le double nœud empêche les perles de s'échapper.",
+          "methode": "",
+          "id": "U4-DP-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Avec quoi peut-on fabriquer des perles soi-même ?",
+          "choix": [
+            "Des bandes de papier enroulées et collées",
+            "Des morceaux de verre cassé",
+            "Des clous",
+            "Du savon"
+          ],
+          "bonne": 0,
+          "corrige": "On enroule une bande de papier autour d'un bâtonnet et on colle la pointe.",
+          "methode": "",
+          "id": "U4-DP-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Comment appelle-t-on le petit de la poule ?",
+          "choix": [
+            "Le poussin",
+            "Le caneton",
+            "Le chevreau",
+            "L'alevin"
+          ],
+          "bonne": 0,
+          "corrige": "Coq, poule et poussin.",
+          "methode": "",
+          "id": "U4-DP-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "DP",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -716,66 +862,6 @@
       "titre": "Unité 4 · Les métiers",
       "dureeMinutes": 18,
       "questions": [
-        {
-          "enonce": "Quel est l'adjectif qualificatif dans « un lourd marteau » ?",
-          "choix": [
-            "lourd",
-            "un",
-            "marteau",
-            "un lourd"
-          ],
-          "bonne": 0,
-          "corrige": "« Lourd » donne une précision sur le marteau : c'est l'adjectif.",
-          "methode": "L'adjectif dit comment est le nom."
-        },
-        {
-          "enonce": "Dans « une couturière habile », quel nom l'adjectif précise-t-il ?",
-          "choix": [
-            "couturière",
-            "une",
-            "habile",
-            "aucun"
-          ],
-          "bonne": 0,
-          "corrige": "« Habile » dit comment est la couturière.",
-          "methode": "Cherche le nom du groupe."
-        },
-        {
-          "enonce": "Accorde : « des machines (neuf) »",
-          "choix": [
-            "neuves",
-            "neufs",
-            "neuve",
-            "neufes"
-          ],
-          "bonne": 0,
-          "corrige": "Machines est féminin pluriel : neuf → neuve → neuves.",
-          "methode": "Les adjectifs en -f font -ve au féminin."
-        },
-        {
-          "enonce": "Accorde : « des outils (solide) »",
-          "choix": [
-            "solides",
-            "solide",
-            "solidex",
-            "solident"
-          ],
-          "bonne": 0,
-          "corrige": "Outils est au pluriel : l'adjectif prend un -s.",
-          "methode": "L'adjectif s'accorde avec le nom."
-        },
-        {
-          "enonce": "Quel groupe nominal est bien accordé ?",
-          "choix": [
-            "des filets troués",
-            "des filet troués",
-            "des filets troué",
-            "un filets troués"
-          ],
-          "bonne": 0,
-          "corrige": "Déterminant, nom et adjectif sont tous au pluriel.",
-          "methode": "Tous les mots du GN doivent être au même nombre."
-        },
         {
           "enonce": "Qui soigne les dents ?",
           "choix": [
@@ -786,7 +872,9 @@
           ],
           "bonne": 0,
           "corrige": "Dentiste vient de « dent ».",
-          "methode": "Cherche le métier formé sur le mot « dent »."
+          "methode": "Cherche le métier formé sur le mot « dent ».",
+          "id": "U4-FR-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel outil utilise le forgeron ?",
@@ -798,7 +886,9 @@
           ],
           "bonne": 0,
           "corrige": "Le forgeron frappe le fer sur l'enclume.",
-          "methode": "Pense à l'atelier du forgeron dans la lecture."
+          "methode": "Pense à l'atelier du forgeron dans la lecture.",
+          "id": "U4-FR-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un texte avec une liste d'ingrédients et des étapes numérotées est…",
@@ -810,7 +900,9 @@
           ],
           "bonne": 0,
           "corrige": "La recette donne le matériel puis les étapes à suivre.",
-          "methode": "Quel texte explique comment faire ?"
+          "methode": "Quel texte explique comment faire ?",
+          "id": "U4-FR-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une lettre commence souvent par…",
@@ -822,7 +914,9 @@
           ],
           "bonne": 0,
           "corrige": "En haut d'une lettre, on écrit le lieu et la date, puis « Cher… ».",
-          "methode": "Pense à une lettre écrite à un membre de ta famille."
+          "methode": "Pense à une lettre écrite à un membre de ta famille.",
+          "id": "U4-FR-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complète : « Le forgeron … lève tôt. »",
@@ -834,7 +928,9 @@
           ],
           "bonne": 0,
           "corrige": "On peut dire « je me lève » : c'est le pronom se.",
-          "methode": "Devant un verbe, on écrit se."
+          "methode": "Devant un verbe, on écrit se.",
+          "id": "U4-FR-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complète : « Le pêcheur répare … filets. » (les siens)",
@@ -846,7 +942,9 @@
           ],
           "bonne": 0,
           "corrige": "Les filets qui sont à lui : ses (au singulier : son filet).",
-          "methode": "ses = les siens ; ces = ceux-là."
+          "methode": "ses = les siens ; ces = ceux-là.",
+          "id": "U4-FR-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complète : « … un métier difficile. »",
@@ -858,7 +956,9 @@
           ],
           "bonne": 0,
           "corrige": "On peut dire « cela est un métier difficile » : c'est.",
-          "methode": "c'est = cela est."
+          "methode": "c'est = cela est.",
+          "id": "U4-FR-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Présent : « Les apprentis (prendre) leurs outils. »",
@@ -870,7 +970,9 @@
           ],
           "bonne": 0,
           "corrige": "Prendre au présent : ils prennent (deux n).",
-          "methode": "je prends, il prend, nous prenons, ils prennent."
+          "methode": "je prends, il prend, nous prenons, ils prennent.",
+          "id": "U4-FR-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Présent : « Nous (voir) le forgeron. »",
@@ -882,7 +984,9 @@
           ],
           "bonne": 0,
           "corrige": "Voir au présent : nous voyons (avec un y).",
-          "methode": "je vois, nous voyons, ils voient."
+          "methode": "je vois, nous voyons, ils voient.",
+          "id": "U4-FR-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Présent : « Tu (vouloir) devenir pilote. »",
@@ -894,7 +998,9 @@
           ],
           "bonne": 0,
           "corrige": "Vouloir au présent : je veux, tu veux, il veut.",
-          "methode": "Avec je et tu : -x."
+          "methode": "Avec je et tu : -x.",
+          "id": "U4-FR-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans un dictionnaire, que signifie l'abréviation « adj. » ?",
@@ -906,7 +1012,9 @@
           ],
           "bonne": 0,
           "corrige": "adj. = adjectif ; adv. = adverbe ; n. f. = nom féminin.",
-          "methode": "Regarde le début du mot abrégé."
+          "methode": "Regarde le début du mot abrégé.",
+          "id": "U4-FR-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que donne le forgeron aux enfants ?",
@@ -918,7 +1026,9 @@
           ],
           "bonne": 0,
           "corrige": "Il sort de son coffret une petite clé de fer toute rouillée.",
-          "methode": "Relis ce que le forgeron sort du coffret."
+          "methode": "Relis ce que le forgeron sort du coffret.",
+          "id": "U4-FR-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que disait Grand-père à propos des métiers ?",
@@ -930,7 +1040,9 @@
           ],
           "bonne": 0,
           "corrige": "C'est la couturière qui rapporte cette phrase de Grand-père.",
-          "methode": "Relis ce qu'ajoute la couturière."
+          "methode": "Relis ce qu'ajoute la couturière.",
+          "id": "U4-FR-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-FR-U4-HIST",
@@ -949,66 +1061,6 @@
       "dureeMinutes": 16,
       "questions": [
         {
-          "enonce": "Who teaches children?",
-          "choix": [
-            "a teacher",
-            "a farmer",
-            "a mechanic",
-            "a driver"
-          ],
-          "bonne": 0,
-          "corrige": "A teacher teaches children to read, write and count.",
-          "methode": "teach = enseigner."
-        },
-        {
-          "enonce": "Who repairs cars and motorbikes?",
-          "choix": [
-            "a mechanic",
-            "a tailor",
-            "a nurse",
-            "a fisherman"
-          ],
-          "bonne": 0,
-          "corrige": "A mechanic repairs vehicles.",
-          "methode": "repair = réparer."
-        },
-        {
-          "enonce": "Who sews clothes?",
-          "choix": [
-            "a tailor",
-            "a carpenter",
-            "a police officer",
-            "a trader"
-          ],
-          "bonne": 0,
-          "corrige": "A tailor sews clothes.",
-          "methode": "sew = coudre."
-        },
-        {
-          "enonce": "Who makes tables and chairs?",
-          "choix": [
-            "a carpenter",
-            "a doctor",
-            "a farmer",
-            "a driver"
-          ],
-          "bonne": 0,
-          "corrige": "A carpenter makes furniture: tables, chairs, doors.",
-          "methode": "carpenter = menuisier."
-        },
-        {
-          "enonce": "What is an advantage of a farmer's job?",
-          "choix": [
-            "He gives us food.",
-            "He repairs cars.",
-            "He teaches children.",
-            "He drives a bus."
-          ],
-          "bonne": 0,
-          "corrige": "A farmer grows crops: he gives us food and earns money.",
-          "methode": "farmer = cultivateur."
-        },
-        {
           "enonce": "Why is a doctor's job important?",
           "choix": [
             "Because doctors save lives.",
@@ -1018,7 +1070,9 @@
           ],
           "bonne": 0,
           "corrige": "Doctors and nurses treat sick people and save lives.",
-          "methode": "save lives = sauver des vies."
+          "methode": "save lives = sauver des vies.",
+          "id": "U4-EN-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "A police officer…",
@@ -1030,7 +1084,9 @@
           ],
           "bonne": 0,
           "corrige": "A police officer protects people.",
-          "methode": "safe = en sécurité."
+          "methode": "safe = en sécurité.",
+          "id": "U4-EN-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "What do you want to be? — …",
@@ -1042,7 +1098,9 @@
           ],
           "bonne": 0,
           "corrige": "I want to be + an occupation.",
-          "methode": "want to be = vouloir devenir."
+          "methode": "want to be = vouloir devenir.",
+          "id": "U4-EN-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Adverb from quick:",
@@ -1054,7 +1112,9 @@
           ],
           "bonne": 0,
           "corrige": "Most adverbs: adjective + ly. quick → quickly.",
-          "methode": "Adjectif + -ly."
+          "methode": "Adjectif + -ly.",
+          "id": "U4-EN-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Adverb from happy:",
@@ -1066,7 +1126,9 @@
           ],
           "bonne": 0,
           "corrige": "y becomes ily: happy → happily.",
-          "methode": "-y → -ily."
+          "methode": "-y → -ily.",
+          "id": "U4-EN-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Adverb from good:",
@@ -1078,7 +1140,9 @@
           ],
           "bonne": 0,
           "corrige": "good → well (irregular).",
-          "methode": "good → well."
+          "methode": "good → well.",
+          "id": "U4-EN-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complete: The baby is sleeping. Speak … (quiet)",
@@ -1090,7 +1154,9 @@
           ],
           "bonne": 0,
           "corrige": "An adverb tells how we do something: speak quietly.",
-          "methode": "Comment parler ? → adverbe."
+          "methode": "Comment parler ? → adverbe.",
+          "id": "U4-EN-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "In The tailor sews carefully, which word is an adverb?",
@@ -1102,7 +1168,9 @@
           ],
           "bonne": 0,
           "corrige": "carefully tells how the tailor sews.",
-          "methode": "L'adverbe dit comment."
+          "methode": "L'adverbe dit comment.",
+          "id": "U4-EN-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "What is the opposite of strong?",
@@ -1114,7 +1182,9 @@
           ],
           "bonne": 0,
           "corrige": "strong ≠ weak.",
-          "methode": "fort ≠ faible."
+          "methode": "fort ≠ faible.",
+          "id": "U4-EN-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "What is the opposite of careful?",
@@ -1126,7 +1196,9 @@
           ],
           "bonne": 0,
           "corrige": "careful ≠ careless.",
-          "methode": "soigneux ≠ négligent."
+          "methode": "soigneux ≠ négligent.",
+          "id": "U4-EN-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "What is the opposite of polite?",
@@ -1138,7 +1210,9 @@
           ],
           "bonne": 0,
           "corrige": "polite ≠ rude.",
-          "methode": "poli ≠ impoli."
+          "methode": "poli ≠ impoli.",
+          "id": "U4-EN-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-EN-U4-HIST",
@@ -1166,7 +1240,9 @@
           ],
           "bonne": 0,
           "corrige": "Une voyelle longue s'écrit deux fois : aa, ee, oo…",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une voyelle courte devient longue. Que peut-il se passer ?",
@@ -1178,7 +1254,9 @@
           ],
           "bonne": 0,
           "corrige": "Dans beaucoup de langues, la longueur de la voyelle change le sens.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment compte-t-on les syllabes d'un mot ?",
@@ -1190,7 +1268,9 @@
           ],
           "bonne": 0,
           "corrige": "Chaque frappe correspond à une syllabe.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Combien de syllabes a le mot « ba-la-fon » si on le découpe ainsi ?",
@@ -1202,7 +1282,9 @@
           ],
           "bonne": 0,
           "corrige": "ba, la, fon : trois syllabes.",
-          "methode": "Compte les morceaux séparés par des tirets."
+          "methode": "Compte les morceaux séparés par des tirets.",
+          "id": "U4-BA-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quelle aire culturelle le tissu ndop, bleu et blanc, est-il connu ?",
@@ -1214,7 +1296,9 @@
           ],
           "bonne": 0,
           "corrige": "Le ndop est un tissu des Grassfields.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quelle ville les artisans bamoun fondent-ils le bronze et le laiton ?",
@@ -1226,7 +1310,9 @@
           ],
           "bonne": 0,
           "corrige": "Foumban est la ville des Bamoun, connue pour ses fondeurs.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel savoir-faire est connu dans l'aire Sawa, au bord de l'eau ?",
@@ -1238,7 +1324,9 @@
           ],
           "bonne": 0,
           "corrige": "Au bord de la mer et des fleuves, on construit des pirogues et des filets.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel matériau est beaucoup travaillé dans l'aire soudano-sahélienne ?",
@@ -1250,7 +1338,9 @@
           ],
           "bonne": 0,
           "corrige": "Le travail du cuir est un artisanat important du Nord.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le mvet est fabriqué et joué surtout dans quelle aire culturelle ?",
@@ -1262,7 +1352,9 @@
           ],
           "bonne": 0,
           "corrige": "Le mvet est l'instrument des Fang-Béti.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment les artisans transmettent-ils leur savoir-faire ?",
@@ -1274,7 +1366,9 @@
           ],
           "bonne": 0,
           "corrige": "Les anciens apprennent leur métier aux jeunes.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans les Grassfields, que sculpte-t-on souvent ?",
@@ -1286,7 +1380,9 @@
           ],
           "bonne": 0,
           "corrige": "La sculpture sur bois est un art important des Grassfields.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-BA-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quelle aire culturelle appartient surtout la région du Sud-Ouest ?",
@@ -1298,7 +1394,9 @@
           ],
           "bonne": 0,
           "corrige": "Sawa : Littoral, Sud-Ouest.",
-          "methode": "Revois le tableau des quatre aires culturelles."
+          "methode": "Revois le tableau des quatre aires culturelles.",
+          "id": "U4-BA-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-LN-U4-HIST",
@@ -1309,73 +1407,14 @@
       "serie_type": "COMPLEMENTAIRE",
       "serie_label": "Banque complémentaire",
       "description": "Questions issues de la banque historique du prototype, conservées comme entraînement complémentaire et soumises à revue pédagogique.",
-      "source_bank": "PREPA237_HISTORICAL"
+      "source_bank": "PREPA237_HISTORICAL",
+      "editorial_status": "linguistic_review_required"
     },
     {
       "matiere": "Mathématiques",
       "titre": "Unité 4 · Les métiers",
       "dureeMinutes": 15,
       "questions": [
-        {
-          "enonce": "Arrondis 6 348 à la centaine.",
-          "choix": [
-            "6 300",
-            "6 400",
-            "6 000",
-            "6 350"
-          ],
-          "bonne": 0,
-          "corrige": "Le chiffre des dizaines est 4 (moins de 5) : on garde 6 300.",
-          "methode": "Regarde le chiffre des dizaines."
-        },
-        {
-          "enonce": "Arrondis 6 950 à la centaine.",
-          "choix": [
-            "7 000",
-            "6 900",
-            "6 000",
-            "6 950"
-          ],
-          "bonne": 0,
-          "corrige": "Le chiffre des dizaines est 5 : on passe à la centaine du dessus, 7 000.",
-          "methode": "De 5 à 9, on arrondit au-dessus."
-        },
-        {
-          "enonce": "Encadre 5 418 entre deux centaines.",
-          "choix": [
-            "5 400 < 5 418 < 5 500",
-            "5 000 < 5 418 < 5 100",
-            "5 410 < 5 418 < 5 420",
-            "5 300 < 5 418 < 5 400"
-          ],
-          "bonne": 0,
-          "corrige": "5 418 a 54 centaines : il est entre 5 400 et 5 500.",
-          "methode": "Deux centaines qui se suivent."
-        },
-        {
-          "enonce": "Comment écrit-on 6 271 en lettres ?",
-          "choix": [
-            "six mille deux cent soixante et onze",
-            "six mille deux cent soixante-onze",
-            "six mille deux cents soixante et onze",
-            "six milles deux cent soixante et onze"
-          ],
-          "bonne": 0,
-          "corrige": "71 se dit « soixante et onze », avec « et ».",
-          "methode": "21, 31, 41, 51, 61 et 71 prennent « et »."
-        },
-        {
-          "enonce": "7 × 8 = ?",
-          "choix": [
-            "56",
-            "54",
-            "48",
-            "64"
-          ],
-          "bonne": 0,
-          "corrige": "7 × 8 = 56.",
-          "methode": "5, 6, 7, 8 : 56 = 7 × 8."
-        },
         {
           "enonce": "6 × 9 = ?",
           "choix": [
@@ -1386,7 +1425,9 @@
           ],
           "bonne": 0,
           "corrige": "6 × 9 = 54.",
-          "methode": "6 × 10 = 60, moins 6 = 54."
+          "methode": "6 × 10 = 60, moins 6 = 54.",
+          "id": "U4-MA-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "8 × 9 = ?",
@@ -1398,7 +1439,9 @@
           ],
           "bonne": 0,
           "corrige": "8 × 9 = 72.",
-          "methode": "8 × 10 = 80, moins 8 = 72."
+          "methode": "8 × 10 = 80, moins 8 = 72.",
+          "id": "U4-MA-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Calcule : 245 × 23",
@@ -1410,7 +1453,9 @@
           ],
           "bonne": 0,
           "corrige": "245 × 3 = 735 ; 245 × 20 = 4 900 ; 735 + 4 900 = 5 635.",
-          "methode": "N'oublie pas le 0 quand tu multiplies par les dizaines."
+          "methode": "N'oublie pas le 0 quand tu multiplies par les dizaines.",
+          "id": "U4-MA-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Calcule : 132 × 24",
@@ -1422,7 +1467,9 @@
           ],
           "bonne": 0,
           "corrige": "132 × 4 = 528 ; 132 × 20 = 2 640 ; 528 + 2 640 = 3 168.",
-          "methode": "Multiplie par 4, puis par 20, et additionne."
+          "methode": "Multiplie par 4, puis par 20, et additionne.",
+          "id": "U4-MA-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pour la preuve par 9, quel chiffre obtient-on pour 245 ?",
@@ -1434,7 +1481,9 @@
           ],
           "bonne": 0,
           "corrige": "2 + 4 + 5 = 11, puis 1 + 1 = 2.",
-          "methode": "Additionne les chiffres jusqu'à n'en avoir qu'un ; 9 compte pour 0."
+          "methode": "Additionne les chiffres jusqu'à n'en avoir qu'un ; 9 compte pour 0.",
+          "id": "U4-MA-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Périmètre d'un carré de 12 cm de côté ?",
@@ -1446,7 +1495,9 @@
           ],
           "bonne": 0,
           "corrige": "Côté × 4 = 12 × 4 = 48 cm.",
-          "methode": "Le carré a 4 côtés égaux."
+          "methode": "Le carré a 4 côtés égaux.",
+          "id": "U4-MA-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Périmètre d'un rectangle de 18 m sur 12 m ?",
@@ -1458,7 +1509,9 @@
           ],
           "bonne": 0,
           "corrige": "(18 + 12) × 2 = 60 m.",
-          "methode": "(longueur + largeur) × 2."
+          "methode": "(longueur + largeur) × 2.",
+          "id": "U4-MA-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Combien d'axes de symétrie a un rectangle ?",
@@ -1470,7 +1523,9 @@
           ],
           "bonne": 0,
           "corrige": "Un axe vertical et un axe horizontal passant par le milieu des côtés.",
-          "methode": "Pense au pliage."
+          "methode": "Pense au pliage.",
+          "id": "U4-MA-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une translation…",
@@ -1482,7 +1537,9 @@
           ],
           "bonne": 0,
           "corrige": "Dans une translation, la figure glisse ; elle garde son orientation.",
-          "methode": "Glisser, pas tourner."
+          "methode": "Glisser, pas tourner.",
+          "id": "U4-MA-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un triangle équilatéral a…",
@@ -1494,7 +1551,9 @@
           ],
           "bonne": 0,
           "corrige": "Équilatéral : 3 côtés égaux.",
-          "methode": "Isocèle : 2 côtés égaux ; équilatéral : 3."
+          "methode": "Isocèle : 2 côtés égaux ; équilatéral : 3.",
+          "id": "U4-MA-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-MA-U4-HIST",
@@ -1513,66 +1572,6 @@
       "dureeMinutes": 17,
       "questions": [
         {
-          "enonce": "Qui a besoin de plus d'aliments d'énergie ?",
-          "choix": [
-            "le maçon",
-            "la secrétaire",
-            "la couturière",
-            "le caissier"
-          ],
-          "bonne": 0,
-          "corrige": "Le maçon fait un travail de force qui dépense beaucoup d'énergie.",
-          "methode": "Plus on se dépense, plus on a besoin d'aliments d'énergie."
-        },
-        {
-          "enonce": "Un enfant qui grandit a surtout besoin d'aliments…",
-          "choix": [
-            "de construction",
-            "d'énergie seulement",
-            "très sucrés",
-            "frits"
-          ],
-          "bonne": 0,
-          "corrige": "Le lait, les œufs, le poisson et le haricot l'aident à construire ses os et ses muscles.",
-          "methode": "Grandir = construire son corps."
-        },
-        {
-          "enonce": "Une alimentation équilibrée est…",
-          "choix": [
-            "variée, régulière et adaptée à l'âge et à l'activité",
-            "la même pour tout le monde",
-            "faite d'un seul aliment",
-            "un seul grand repas par jour"
-          ],
-          "bonne": 0,
-          "corrige": "On mange les trois groupes d'aliments, trois fois par jour, selon son âge et son travail.",
-          "methode": "Variée, régulière, adaptée."
-        },
-        {
-          "enonce": "Quelle maladie respiratoire est contagieuse ?",
-          "choix": [
-            "la tuberculose",
-            "la fracture",
-            "le rachitisme",
-            "l'entorse"
-          ],
-          "bonne": 0,
-          "corrige": "La tuberculose passe d'une personne à l'autre ; une toux de plus de deux semaines doit être montrée au centre de santé.",
-          "methode": "Les trois autres ne touchent pas la respiration."
-        },
-        {
-          "enonce": "Quand tu éternues, tu le fais…",
-          "choix": [
-            "dans ton coude ou dans un mouchoir",
-            "dans ta main sans te laver",
-            "vers tes camarades",
-            "au-dessus de la nourriture"
-          ],
-          "bonne": 0,
-          "corrige": "Ainsi, tu ne transmets pas tes microbes aux autres.",
-          "methode": "Pense à protéger les autres."
-        },
-        {
           "enonce": "Quel vaccin protège de la tuberculose ?",
           "choix": [
             "le BCG",
@@ -1582,7 +1581,9 @@
           ],
           "bonne": 0,
           "corrige": "Le BCG, donné aux bébés, protège de la tuberculose.",
-          "methode": "BCG = tuberculose."
+          "methode": "BCG = tuberculose.",
+          "id": "U4-SC-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le sida est causé par…",
@@ -1594,7 +1595,9 @@
           ],
           "bonne": 0,
           "corrige": "Le VIH est un virus qui détruit peu à peu les défenses du corps.",
-          "methode": "VIH : virus de l'immunodéficience humaine."
+          "methode": "VIH : virus de l'immunodéficience humaine.",
+          "id": "U4-SC-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment savoir si une personne a le VIH ?",
@@ -1606,7 +1609,9 @@
           ],
           "bonne": 0,
           "corrige": "On ne voit pas le virus : seul un test au centre de santé le dit.",
-          "methode": "Le virus est invisible."
+          "methode": "Le virus est invisible.",
+          "id": "U4-SC-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le VIH peut se transmettre par…",
@@ -1618,7 +1623,9 @@
           ],
           "bonne": 0,
           "corrige": "Le virus passe par le sang : on ne partage jamais lame, rasoir ni aiguille.",
-          "methode": "Il ne passe pas par les gestes de tous les jours."
+          "methode": "Il ne passe pas par les gestes de tous les jours.",
+          "id": "U4-SC-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle est la matière première du potier ?",
@@ -1630,7 +1637,9 @@
           ],
           "bonne": 0,
           "corrige": "Le potier façonne l'argile pour faire des canaris et des pots.",
-          "methode": "Matière première = ce que l'artisan transforme."
+          "methode": "Matière première = ce que l'artisan transforme.",
+          "id": "U4-SC-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui fabrique les houes et les machettes ?",
@@ -1642,7 +1651,9 @@
           ],
           "bonne": 0,
           "corrige": "Le forgeron travaille le fer.",
-          "methode": "Vannier : paniers ; cordonnier : chaussures."
+          "methode": "Vannier : paniers ; cordonnier : chaussures.",
+          "id": "U4-SC-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel objet est un conducteur du courant électrique ?",
@@ -1654,7 +1665,9 @@
           ],
           "bonne": 0,
           "corrige": "Les métaux comme le fer laissent passer le courant : l'ampoule s'allume.",
-          "methode": "Plastique, caoutchouc, bois sec : isolants."
+          "methode": "Plastique, caoutchouc, bois sec : isolants.",
+          "id": "U4-SC-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi les fils électriques sont-ils entourés de plastique ?",
@@ -1666,7 +1679,9 @@
           ],
           "bonne": 0,
           "corrige": "Le plastique ne laisse pas passer le courant : il nous protège quand on touche le fil.",
-          "methode": "Cuivre dedans (conducteur), plastique autour (isolant)."
+          "methode": "Cuivre dedans (conducteur), plastique autour (isolant).",
+          "id": "U4-SC-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce qu'un calendrier agricole ?",
@@ -1678,7 +1693,9 @@
           ],
           "bonne": 0,
           "corrige": "Il indique quand semer, entretenir et récolter dans une région.",
-          "methode": "Il dépend des saisons de la région."
+          "methode": "Il dépend des saisons de la région.",
+          "id": "U4-SC-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle technique aide à augmenter le rendement ?",
@@ -1690,7 +1707,9 @@
           ],
           "bonne": 0,
           "corrige": "Le fumier et le compost enrichissent le sol, comme les bonnes semences.",
-          "methode": "Ce qui nourrit le sol aide la récolte."
+          "methode": "Ce qui nourrit le sol aide la récolte.",
+          "id": "U4-SC-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que mangent les lapins d'élevage ?",
@@ -1702,7 +1721,9 @@
           ],
           "bonne": 0,
           "corrige": "Le lapin est herbivore.",
-          "methode": "Pense au tableau des élevages."
+          "methode": "Pense au tableau des élevages.",
+          "id": "U4-SC-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle est une cause du réchauffement climatique ?",
@@ -1714,7 +1735,9 @@
           ],
           "bonne": 0,
           "corrige": "Les fumées rejettent des gaz qui retiennent la chaleur ; la déforestation aggrave le problème.",
-          "methode": "Planter des arbres aide au contraire à le limiter."
+          "methode": "Planter des arbres aide au contraire à le limiter.",
+          "id": "U4-SC-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-ST-U4-HIST",
@@ -1733,66 +1756,6 @@
       "dureeMinutes": 13,
       "questions": [
         {
-          "enonce": "Quel métier écrit des programmes et des applications ?",
-          "choix": [
-            "le programmeur",
-            "le cultivateur",
-            "le tailleur",
-            "le boulanger"
-          ],
-          "bonne": 0,
-          "corrige": "Le programmeur écrit des programmes pour les ordinateurs et les téléphones.",
-          "methode": "Programme → programmeur."
-        },
-        {
-          "enonce": "Quel métier crée des affiches et des logos sur ordinateur ?",
-          "choix": [
-            "l'infographiste",
-            "le caissier",
-            "le journaliste",
-            "le mécanicien"
-          ],
-          "bonne": 0,
-          "corrige": "L'infographiste utilise des logiciels de dessin.",
-          "methode": "Info + graphiste (dessin)."
-        },
-        {
-          "enonce": "À quoi sert le lecteur de code-barres du caissier ?",
-          "choix": [
-            "à trouver le prix sans erreur",
-            "à imprimer des photos",
-            "à écouter la radio",
-            "à réparer les téléphones"
-          ],
-          "bonne": 0,
-          "corrige": "Le prix s'affiche tout seul : le caissier calcule sans erreur.",
-          "methode": "Pense à la pharmacie."
-        },
-        {
-          "enonce": "Comment le cultivateur utilise-t-il les TIC ?",
-          "choix": [
-            "avec le téléphone, pour connaître les prix et la météo",
-            "avec un vidéoprojecteur pour labourer",
-            "avec une imprimante pour semer",
-            "il ne peut pas les utiliser"
-          ],
-          "bonne": 0,
-          "corrige": "Le téléphone portable lui donne des informations utiles.",
-          "methode": "Le téléphone est partout."
-        },
-        {
-          "enonce": "Comment sélectionne-t-on un seul mot ?",
-          "choix": [
-            "par un double-clic sur le mot",
-            "en appuyant sur Entrée",
-            "en éteignant l'écran",
-            "par un clic droit sur le bureau"
-          ],
-          "bonne": 0,
-          "corrige": "Un double-clic sélectionne un mot ; on peut aussi glisser la souris, bouton appuyé.",
-          "methode": "Le mot se colore."
-        },
-        {
           "enonce": "Quel bouton met un texte en gras ?",
           "choix": [
             "G",
@@ -1802,7 +1765,9 @@
           ],
           "bonne": 0,
           "corrige": "G = gras ; I = italique ; S = souligné.",
-          "methode": "G comme gras."
+          "methode": "G comme gras.",
+          "id": "U4-TI-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que fait le bouton I ?",
@@ -1814,7 +1779,9 @@
           ],
           "bonne": 0,
           "corrige": "I = italique : les lettres penchent.",
-          "methode": "I comme italique."
+          "methode": "I comme italique.",
+          "id": "U4-TI-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment met-on un titre au milieu de la ligne ?",
@@ -1826,7 +1793,9 @@
           ],
           "bonne": 0,
           "corrige": "Les boutons d'alignement placent le texte à gauche, au centre ou à droite.",
-          "methode": "Centrer = au milieu."
+          "methode": "Centrer = au milieu.",
+          "id": "U4-TI-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi regarde-t-on l'aperçu avant d'imprimer ?",
@@ -1838,7 +1807,9 @@
           ],
           "bonne": 0,
           "corrige": "On vérifie que tout est bien placé avant d'imprimer.",
-          "methode": "Économiser."
+          "methode": "Économiser.",
+          "id": "U4-TI-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce qu'une boucle en programmation ?",
@@ -1850,7 +1821,9 @@
           ],
           "bonne": 0,
           "corrige": "« Répète 4 fois : ↑ » remplace ↑ ↑ ↑ ↑.",
-          "methode": "Boucle = répéter."
+          "methode": "Boucle = répéter.",
+          "id": "U4-TI-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment écrire plus court ↑ ↑ ↑ ↑ ?",
@@ -1862,7 +1835,9 @@
           ],
           "bonne": 0,
           "corrige": "Quatre fois la même flèche vers le haut.",
-          "methode": "Compte les flèches."
+          "methode": "Compte les flèches.",
+          "id": "U4-TI-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur le quadrillage (A1 en bas à gauche), on part de A1 et on suit le programme répète 3 fois : (→ ↑). Où arrive-t-on ?",
@@ -1874,7 +1849,9 @@
           ],
           "bonne": 0,
           "corrige": "On avance case par case : on arrive en D4.",
-          "methode": "Fais le groupe (→ ↑) trois fois de suite."
+          "methode": "Fais le groupe (→ ↑) trois fois de suite.",
+          "id": "U4-TI-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur le quadrillage (A1 en bas à gauche), on part de A1 et on suit le programme répète 2 fois : (↑ ↑ →). Où arrive-t-on ?",
@@ -1886,7 +1863,9 @@
           ],
           "bonne": 0,
           "corrige": "On avance case par case : on arrive en C5.",
-          "methode": "Fais le groupe (↑ ↑ →) deux fois de suite."
+          "methode": "Fais le groupe (↑ ↑ →) deux fois de suite.",
+          "id": "U4-TI-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-TI-U4-HIST",
@@ -1905,66 +1884,6 @@
       "dureeMinutes": 17,
       "questions": [
         {
-          "enonce": "Lina trouve un porte-monnaie au marché. Que doit-elle faire ?",
-          "choix": [
-            "le rendre à son propriétaire ou au responsable du marché",
-            "le garder",
-            "dépenser l'argent",
-            "le jeter"
-          ],
-          "bonne": 0,
-          "corrige": "Être honnête, c'est rendre ce qu'on trouve et respecter le bien des autres.",
-          "methode": "« Bien mal acquis ne profite jamais. »"
-        },
-        {
-          "enonce": "Quelle action est malhonnête ?",
-          "choix": [
-            "trafiquer sa balance pour tromper les clients",
-            "rendre la monnaie juste",
-            "rendre le reste du tissu au client",
-            "tenir sa promesse"
-          ],
-          "bonne": 0,
-          "corrige": "Tromper sur le poids, c'est voler le client.",
-          "methode": "L'honnêteté garde les clients."
-        },
-        {
-          "enonce": "Être serviable, c'est…",
-          "choix": [
-            "aider les autres sans attendre de récompense",
-            "aider seulement si on est payé",
-            "refuser d'aider",
-            "se moquer de ceux qui demandent de l'aide"
-          ],
-          "bonne": 0,
-          "corrige": "La personne serviable rend service volontiers : porter un panier, aider un camarade…",
-          "methode": "« Un service rendu n'est jamais perdu. »"
-        },
-        {
-          "enonce": "Quel exemple est une exploitation des enfants ?",
-          "choix": [
-            "travailler dans une carrière au lieu d'aller à l'école",
-            "aider à mettre la table",
-            "ranger sa chambre",
-            "arroser le jardin après l'école"
-          ],
-          "bonne": 0,
-          "corrige": "Un travail dangereux ou qui empêche d'aller à l'école est de l'exploitation ; aider un peu à la maison ne l'est pas.",
-          "methode": "École d'abord, travaux adaptés à l'âge."
-        },
-        {
-          "enonce": "Un enfant est victime de violence. Que doit-il faire ?",
-          "choix": [
-            "en parler à un adulte de confiance ou appeler le 116",
-            "garder le secret",
-            "penser que c'est sa faute",
-            "ne rien dire à personne"
-          ],
-          "bonne": 0,
-          "corrige": "Il dit non, s'éloigne et en parle à un parent, à l'enseignant ou au directeur ; le 116 est un numéro vert. Ce n'est jamais sa faute.",
-          "methode": "Un adulte de confiance peut l'aider."
-        },
-        {
           "enonce": "Dans un atelier de menuiserie, quelle mesure de sécurité faut-il respecter ?",
           "choix": [
             "porter des gants et des lunettes",
@@ -1974,7 +1893,9 @@
           ],
           "bonne": 0,
           "corrige": "Les équipements de protection évitent les blessures.",
-          "methode": "Protège tes mains et tes yeux."
+          "methode": "Protège tes mains et tes yeux.",
+          "id": "U4-SH-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que faut-il faire d'un bidon vide de pesticide ?",
@@ -1986,7 +1907,9 @@
           ],
           "bonne": 0,
           "corrige": "Les restes de produit sont toxiques : on ne réutilise jamais ces bidons.",
-          "methode": "Les pesticides sont des poisons."
+          "methode": "Les pesticides sont des poisons.",
+          "id": "U4-SH-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À partir de quel âge vote-t-on au Cameroun ?",
@@ -1998,7 +1921,9 @@
           ],
           "bonne": 0,
           "corrige": "Au Cameroun, on vote à partir de 20 ans, après s'être inscrit sur les listes électorales.",
-          "methode": "20 ans."
+          "methode": "20 ans.",
+          "id": "U4-SH-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel organisme organise les élections au Cameroun ?",
@@ -2010,7 +1935,9 @@
           ],
           "bonne": 0,
           "corrige": "Elections Cameroon (ELECAM) organise les élections.",
-          "methode": "Elec… comme élection."
+          "methode": "Elec… comme élection.",
+          "id": "U4-SH-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi passe-t-on seul dans l'isoloir ?",
@@ -2022,7 +1949,9 @@
           ],
           "bonne": 0,
           "corrige": "Le vote est personnel et secret : personne ne peut te forcer.",
-          "methode": "Isoloir = seul."
+          "methode": "Isoloir = seul.",
+          "id": "U4-SH-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce qu'un mouvement migratoire ?",
@@ -2034,7 +1963,9 @@
           ],
           "bonne": 0,
           "corrige": "Les peuples ont migré pour trouver des terres, des pâturages, de l'eau ou fuir les guerres.",
-          "methode": "Migrer = partir s'installer ailleurs."
+          "methode": "Migrer = partir s'installer ailleurs.",
+          "id": "U4-SH-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel groupe est considéré comme le plus ancien habitant des forêts du Cameroun ?",
@@ -2046,7 +1977,9 @@
           ],
           "bonne": 0,
           "corrige": "Les Pygmées (Baka, Bakola, Bedzang) sont les plus anciens habitants connus des forêts du Sud et de l'Est.",
-          "methode": "Forêts du Sud et de l'Est."
+          "methode": "Forêts du Sud et de l'Est.",
+          "id": "U4-SH-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quelles régions vivent surtout les Peuls (Foulbé) ?",
@@ -2058,7 +1991,9 @@
           ],
           "bonne": 0,
           "corrige": "Venus de l'ouest aux 18e et 19e siècles, ils ont fondé les lamidats de Ngaoundéré, Garoua et Maroua.",
-          "methode": "Pense aux lamidats."
+          "methode": "Pense aux lamidats.",
+          "id": "U4-SH-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Exporter, c'est…",
@@ -2070,7 +2005,9 @@
           ],
           "bonne": 0,
           "corrige": "Le Cameroun exporte du pétrole, du cacao, du café, du coton, du bois et de la banane.",
-          "methode": "Ex- : vers l'extérieur."
+          "methode": "Ex- : vers l'extérieur.",
+          "id": "U4-SH-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Où cultive-t-on surtout le coton ?",
@@ -2082,7 +2019,9 @@
           ],
           "bonne": 0,
           "corrige": "Le coton pousse dans les régions sèches du Nord et de l'Extrême-Nord.",
-          "methode": "Le coton aime la savane."
+          "methode": "Le coton aime la savane.",
+          "id": "U4-SH-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Lequel de ces produits est une culture de rente ?",
@@ -2094,7 +2033,9 @@
           ],
           "bonne": 0,
           "corrige": "Le cacao est cultivé surtout pour être vendu ; manioc, macabo et plantain sont surtout des cultures vivrières.",
-          "methode": "Rente = pour vendre."
+          "methode": "Rente = pour vendre.",
+          "id": "U4-SH-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avec quelle monnaie paie-t-on au Cameroun ?",
@@ -2106,7 +2047,9 @@
           ],
           "bonne": 0,
           "corrige": "Au Cameroun, on paie en francs CFA.",
-          "methode": "C'est la monnaie de la CEMAC."
+          "methode": "C'est la monnaie de la CEMAC.",
+          "id": "U4-SH-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-SH-U4-HIST",
@@ -2125,66 +2068,6 @@
       "dureeMinutes": 12,
       "questions": [
         {
-          "enonce": "Que veut dire « modeler » ?",
-          "choix": [
-            "Donner une forme à une matière molle avec ses mains",
-            "Peindre une feuille",
-            "Découper du papier",
-            "Chanter en groupe"
-          ],
-          "bonne": 0,
-          "corrige": "On modèle l'argile ou la pâte à modeler avec les mains.",
-          "methode": ""
-        },
-        {
-          "enonce": "Qui fabrique des canaris et des jarres en argile ?",
-          "choix": [
-            "Le potier",
-            "Le forgeron",
-            "Le pêcheur",
-            "Le menuisier"
-          ],
-          "bonne": 0,
-          "corrige": "Le potier façonne l'argile puis la cuit au feu.",
-          "methode": ""
-        },
-        {
-          "enonce": "Pourquoi le potier cuit-il ses objets au feu ?",
-          "choix": [
-            "Pour les rendre solides",
-            "Pour les rendre mous",
-            "Pour les colorier",
-            "Pour les rendre plus légers"
-          ],
-          "bonne": 0,
-          "corrige": "La cuisson rend l'argile dure et solide.",
-          "methode": ""
-        },
-        {
-          "enonce": "Qui taille le bois pour faire des statues et des masques ?",
-          "choix": [
-            "Le sculpteur",
-            "Le potier",
-            "Le tailleur",
-            "Le chanteur"
-          ],
-          "bonne": 0,
-          "corrige": "Le sculpteur taille le bois ou la pierre.",
-          "methode": ""
-        },
-        {
-          "enonce": "En modelage, comment s'appelle un long boudin d'argile ?",
-          "choix": [
-            "Un colombin",
-            "Une plaque",
-            "Une boule",
-            "Un pinceau"
-          ],
-          "bonne": 0,
-          "corrige": "On roule l'argile sur la table pour faire un colombin.",
-          "methode": ""
-        },
-        {
           "enonce": "Comment colle-t-on deux morceaux d'argile ensemble ?",
           "choix": [
             "On les mouille un peu",
@@ -2194,7 +2077,9 @@
           ],
           "bonne": 0,
           "corrige": "Un peu d'eau permet de souder deux morceaux d'argile.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-AR-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Où fait-on sécher les objets en argile de la classe ?",
@@ -2206,7 +2091,9 @@
           ],
           "bonne": 0,
           "corrige": "L'argile sèche lentement à l'ombre, sans se fendre.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-AR-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment appelle-t-on le fait qu'un son dure longtemps ou peu de temps ?",
@@ -2218,7 +2105,9 @@
           ],
           "bonne": 0,
           "corrige": "Un son peut être long ou court : c'est sa durée.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-AR-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans le code de la classe, un trait (—) veut dire :",
@@ -2230,7 +2119,9 @@
           ],
           "bonne": 0,
           "corrige": "Le trait représente un son long ; le point, un son court.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-AR-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quoi sert un chant de travail ?",
@@ -2242,7 +2133,9 @@
           ],
           "bonne": 0,
           "corrige": "On pile, on rame ou on défriche ensemble, sur le même rythme.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-AR-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Beaucoup de danses traditionnelles reprennent :",
@@ -2254,7 +2147,9 @@
           ],
           "bonne": 0,
           "corrige": "La danse raconte la vie des gens : piler, pêcher, cultiver.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-AR-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pour qu'une danse de groupe soit belle, on fait les gestes :",
@@ -2266,7 +2161,9 @@
           ],
           "bonne": 0,
           "corrige": "On répète les gestes ensemble, toujours sur le rythme.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-AR-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-AR-U4-HIST",
@@ -2285,66 +2182,6 @@
       "dureeMinutes": 12,
       "questions": [
         {
-          "enonce": "Qu'est-ce qu'une course de relais ?",
-          "choix": [
-            "Une course d'équipe où chaque coureur fait une partie du parcours",
-            "Une course où l'on court seul très longtemps",
-            "Une course en sautant des obstacles",
-            "Une course où l'on marche à reculons"
-          ],
-          "bonne": 0,
-          "corrige": "Au relais, chaque coureur fait une portion puis donne le témoin au suivant.",
-          "methode": ""
-        },
-        {
-          "enonce": "Au relais, quel objet les coureurs se transmettent-ils ?",
-          "choix": [
-            "Le témoin",
-            "Un ballon de football",
-            "Un foulard rouge",
-            "Une chaussure"
-          ],
-          "bonne": 0,
-          "corrige": "Le témoin est un bâton que les coureurs se transmettent.",
-          "methode": ""
-        },
-        {
-          "enonce": "Où doit se faire la passe du témoin ?",
-          "choix": [
-            "Dans la zone de passage",
-            "N'importe où sur la piste",
-            "Après la ligne d'arrivée",
-            "En dehors de la piste"
-          ],
-          "bonne": 0,
-          "corrige": "Une passe en dehors de la zone de passage fait disqualifier l'équipe.",
-          "methode": ""
-        },
-        {
-          "enonce": "Comment le receveur tend-il la main pour prendre le témoin ?",
-          "choix": [
-            "En arrière, paume ouverte, en commençant à courir",
-            "En avant, poing fermé, immobile",
-            "Vers le haut, en sautant",
-            "Il ne tend pas la main, il attend qu'on lui lance"
-          ],
-          "bonne": 0,
-          "corrige": "Le receveur part avant de recevoir et tend la main en arrière, paume ouverte.",
-          "methode": ""
-        },
-        {
-          "enonce": "Le témoin tombe pendant la passe. Qui le ramasse ?",
-          "choix": [
-            "Le coureur qui l'a fait tomber",
-            "L'arbitre",
-            "Le dernier coureur de l'équipe",
-            "Personne : la course s'arrête"
-          ],
-          "bonne": 0,
-          "corrige": "C'est le coureur qui a fait tomber le témoin qui le ramasse.",
-          "methode": ""
-        },
-        {
           "enonce": "Au football, le ballon sort sur le côté du terrain. Comment le remet-on en jeu ?",
           "choix": [
             "Par une touche, avec les deux mains au-dessus de la tête",
@@ -2354,7 +2191,9 @@
           ],
           "bonne": 0,
           "corrige": "La touche se fait avec les deux mains, au-dessus de la tête, les deux pieds au sol.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-EP-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Au football, quelle action est une faute ?",
@@ -2366,7 +2205,9 @@
           ],
           "bonne": 0,
           "corrige": "Pousser, retenir, faire un croche-pied ou toucher le ballon de la main sont des fautes.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-EP-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Après une faute au football, que reçoit l'équipe adverse ?",
@@ -2378,7 +2219,9 @@
           ],
           "bonne": 0,
           "corrige": "Une faute donne un coup franc à l'équipe adverse.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-EP-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pendant un match, pourquoi ne faut-il pas rester tous autour du ballon ?",
@@ -2390,7 +2233,9 @@
           ],
           "bonne": 0,
           "corrige": "Bien répartis sur le terrain, les joueurs peuvent se faire des passes.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-EP-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelqu'un me tient le poignet. Par où dois-je tirer pour me dégager ?",
@@ -2402,7 +2247,9 @@
           ],
           "bonne": 0,
           "corrige": "La main qui tient est plus faible du côté du pouce : je tourne et je tire d'un coup sec.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-EP-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une fois mon poignet libéré, que fais-je ?",
@@ -2414,7 +2261,9 @@
           ],
           "bonne": 0,
           "corrige": "Se dégager, puis s'éloigner et alerter : l'autodéfense sert à partir.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-EP-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pendant l'entraînement du dégagement de poignet, le partenaire doit :",
@@ -2426,7 +2275,9 @@
           ],
           "bonne": 0,
           "corrige": "On ne serre jamais fort et on ne tord jamais le bras du partenaire.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-EP-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-EP-U4-HIST",
@@ -2445,66 +2296,6 @@
       "dureeMinutes": 12,
       "questions": [
         {
-          "enonce": "Qu'est-ce qu'un motif dans un collier de perles ?",
-          "choix": [
-            "Un groupe de perles qui se répète dans le même ordre",
-            "Une seule grosse perle",
-            "Le fil du collier",
-            "Le nœud de fermeture"
-          ],
-          "bonne": 0,
-          "corrige": "Par exemple : 2 rouges, 1 jaune, 2 rouges, 1 jaune…",
-          "methode": ""
-        },
-        {
-          "enonce": "Le motif est : 2 rouges, 1 jaune. Après « rouge, rouge, jaune, rouge, rouge », quelle perle vient ?",
-          "choix": [
-            "Jaune",
-            "Rouge",
-            "Bleue",
-            "Verte"
-          ],
-          "bonne": 0,
-          "corrige": "Après deux rouges vient une jaune.",
-          "methode": "Récite le motif depuis le début."
-        },
-        {
-          "enonce": "Comment ferme-t-on le collier ?",
-          "choix": [
-            "Par un double nœud",
-            "Avec de l'eau",
-            "En coupant le fil",
-            "Avec une perle de plus"
-          ],
-          "bonne": 0,
-          "corrige": "Le double nœud empêche les perles de s'échapper.",
-          "methode": ""
-        },
-        {
-          "enonce": "Avec quoi peut-on fabriquer des perles soi-même ?",
-          "choix": [
-            "Des bandes de papier enroulées et collées",
-            "Des morceaux de verre cassé",
-            "Des clous",
-            "Du savon"
-          ],
-          "bonne": 0,
-          "corrige": "On enroule une bande de papier autour d'un bâtonnet et on colle la pointe.",
-          "methode": ""
-        },
-        {
-          "enonce": "Comment appelle-t-on le petit de la poule ?",
-          "choix": [
-            "Le poussin",
-            "Le caneton",
-            "Le chevreau",
-            "L'alevin"
-          ],
-          "bonne": 0,
-          "corrige": "Coq, poule et poussin.",
-          "methode": ""
-        },
-        {
           "enonce": "Pendant combien de jours environ une poule couve-t-elle ses œufs ?",
           "choix": [
             "21 jours",
@@ -2514,7 +2305,9 @@
           ],
           "bonne": 0,
           "corrige": "Après environ 21 jours de couvaison, les poussins sortent des œufs.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-DP-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi ferme-t-on le poulailler la nuit ?",
@@ -2526,7 +2319,9 @@
           ],
           "bonne": 0,
           "corrige": "La nuit, les poules sont protégées dans un poulailler fermé.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-DP-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que doit-on changer chaque jour pour les poules ?",
@@ -2538,7 +2333,9 @@
           ],
           "bonne": 0,
           "corrige": "Les poules boivent de l'eau propre changée chaque jour.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-DP-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui soigne les animaux malades ?",
@@ -2550,7 +2347,9 @@
           ],
           "bonne": 0,
           "corrige": "Le vétérinaire est le médecin des animaux.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-DP-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que fait-on juste avant de préparer une salade de fruits ?",
@@ -2562,7 +2361,9 @@
           ],
           "bonne": 0,
           "corrige": "L'hygiène vient en premier.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-DP-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Où coupe-t-on les fruits ?",
@@ -2574,7 +2375,9 @@
           ],
           "bonne": 0,
           "corrige": "Sur une planche, lame tournée vers la planche et doigts repliés.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-DP-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'apportent les fruits au corps ?",
@@ -2586,7 +2389,9 @@
           ],
           "bonne": 0,
           "corrige": "Les fruits apportent des vitamines.",
-          "methode": ""
+          "methode": "",
+          "id": "U4-DP-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-DP-U4-HIST",

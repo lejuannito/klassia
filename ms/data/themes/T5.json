@@ -1,0 +1,693 @@
+{
+  "id": "T5",
+  "title_fr": "Les plantes",
+  "title_en": "Plants",
+  "duration": "4 semaines",
+  "project": {
+    "title_fr": "Notre mini-jardin d’observation / Our mini observation garden",
+    "title_en": "Our mini observation garden",
+    "description_fr": "Notre mini-jardin d’observation / Our mini observation garden : une réalisation simple qui mobilise langage, manipulation, autonomie, création et mouvement.",
+    "description_en": "Our mini observation garden: a simple project combining language, hands-on discovery, independence, creativity and movement."
+  },
+  "domains": [
+    {
+      "id": "LC",
+      "name_fr": "Langage et communication",
+      "name_en": "Literacy & communication",
+      "weight": "35%",
+      "icon": "💬",
+      "activities": [
+        {
+          "id": "T5-LC1",
+          "type": "vocabulary",
+          "title_fr": "Les parties d’une plante",
+          "title_en": "Parts of a plant",
+          "goal_fr": "Nommer quelques parties visibles d’une plante.",
+          "goal_en": "Name visible parts of a plant.",
+          "table": {
+            "headers": [
+              "Image",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "🌱",
+                "racine",
+                "root"
+              ],
+              [
+                "🌿",
+                "tige",
+                "stem"
+              ],
+              [
+                "🍃",
+                "feuille",
+                "leaf"
+              ],
+              [
+                "🌼",
+                "fleur",
+                "flower"
+              ],
+              [
+                "🍅",
+                "fruit",
+                "fruit"
+              ],
+              [
+                "🫘",
+                "graine",
+                "seed"
+              ]
+            ]
+          },
+          "observe": [
+            "Associe 4 mots.",
+            "Montre sur une vraie plante sans l’abîmer.",
+            "Comprend que toutes les plantes n’ont pas une fleur visible."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-LC2",
+          "type": "instructions",
+          "title_fr": "Je plante une graine",
+          "title_en": "I plant a seed",
+          "goal_fr": "Comprendre une suite de consignes courtes.",
+          "goal_en": "Understand a short sequence of instructions.",
+          "steps_fr": [
+            "Mets un peu de terre.",
+            "Fais un petit trou.",
+            "Pose la graine.",
+            "Recouvre doucement.",
+            "Ajoute un peu d’eau."
+          ],
+          "steps_en": [
+            "Add some soil.",
+            "Make a small hole.",
+            "Put in the seed.",
+            "Cover gently.",
+            "Add a little water."
+          ],
+          "observe": [
+            "Suit 3 étapes dans l’ordre.",
+            "Comprend les verbes d’action.",
+            "Manipule sans gaspiller."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-LC3",
+          "type": "description",
+          "title_fr": "Je décris une feuille",
+          "title_en": "I describe a leaf",
+          "goal_fr": "Employer couleur, taille et forme pour décrire.",
+          "goal_en": "Use colour, size and shape words to describe.",
+          "table": {
+            "headers": [
+              "Je peux dire…",
+              "I can say…"
+            ],
+            "rows": [
+              [
+                "verte / jaune",
+                "green / yellow"
+              ],
+              [
+                "grande / petite",
+                "big / small"
+              ],
+              [
+                "longue / ronde",
+                "long / round"
+              ],
+              [
+                "lisse / rugueuse",
+                "smooth / rough"
+              ]
+            ]
+          },
+          "activity_fr": "Comparer deux feuilles déjà tombées ou prélevées avec autorisation.",
+          "activity_en": "Compare two fallen leaves or leaves collected with permission.",
+          "observe": [
+            "Utilise 2 critères.",
+            "Compare sans arracher inutilement.",
+            "Accepte plusieurs réponses descriptives."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-LC4",
+          "type": "story",
+          "title_fr": "Petite histoire : La graine patiente",
+          "title_en": "Little story: The patient seed",
+          "goal_fr": "Comprendre qu’une plante grandit progressivement.",
+          "goal_en": "Understand that plants grow over time.",
+          "story_fr": "Mina met une graine dans la terre et regarde aussitôt : rien. Le lendemain : rien encore. Elle veut creuser pour vérifier, mais grand-père lui dit d’attendre. Mina arrose un peu, place le pot à la lumière et observe. Quelques jours plus tard, une petite pousse verte apparaît. « Elle travaillait sous la terre ! », s’étonne Mina.",
+          "story_en": "Mina puts a seed in the soil and looks immediately: nothing. The next day: still nothing. She wants to dig it up, but Grandpa tells her to wait. Mina adds a little water, places the pot in the light and watches. A few days later, a tiny green shoot appears. “It was working under the soil!” Mina says.",
+          "questions": [
+            {
+              "fr": "Pourquoi Mina doit-elle attendre ?",
+              "en": "Why must Mina wait?",
+              "answer": "la graine a besoin de temps / the seed needs time"
+            },
+            {
+              "fr": "Que fait-elle pour aider la plante ?",
+              "en": "How does she help?",
+              "answer": "un peu d’eau et de lumière / water and light"
+            }
+          ],
+          "observe": [
+            "Comprend la notion de temps.",
+            "Évite de déterrer pour vérifier.",
+            "Répond à une question."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-LC5",
+          "type": "prewriting",
+          "title_fr": "Tiges, feuilles et spirales",
+          "title_en": "Stems, leaves and spirals",
+          "goal_fr": "Développer le graphisme à partir de formes végétales.",
+          "goal_en": "Develop pre-writing through plant-inspired shapes.",
+          "visual": {
+            "kind": "traces",
+            "items": [
+              "│││ tiges",
+              "◜◝ feuilles",
+              "🌀 spirale",
+              "〰️ liane"
+            ]
+          },
+          "observe": [
+            "Trace de haut en bas.",
+            "Répète un motif.",
+            "Décore librement."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-LC6",
+          "type": "poem",
+          "title_fr": "Petite comptine de la graine",
+          "title_en": "Little seed rhyme",
+          "goal_fr": "Mémoriser une courte comptine bilingue.",
+          "goal_en": "Memorise a short bilingual rhyme.",
+          "prompt_fr": "« Petite graine dans la terre, un peu d’eau, un peu de lumière. / Little seed under the ground, water and light all around. »",
+          "prompt_en": "Repeat slowly with gestures: seed, water, light, grow.",
+          "observe": [
+            "Reprend quelques mots.",
+            "Associe gestes et sens.",
+            "Prend plaisir à répéter."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-LC7",
+          "type": "bassa",
+          "title_fr": "Bassa : quelques repères autour des plantes",
+          "title_en": "Bassa: a few plant-related guides",
+          "goal_fr": "Conserver des formes attestées liées à l’environnement végétal, sans extrapoler.",
+          "goal_en": "Keep attested forms linked to plants without guessing.",
+          "bassa_variants": [
+            {
+              "concept": "eau / water",
+              "forms": [
+                "Màlép"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "mango / terme donné comme « le mango »",
+              "forms": [
+                "dìɓâ"
+              ],
+              "sources": [
+                "Edu-Kultur, alphabet ɓàsàá"
+              ],
+              "note": "La source donne « dìɓâ (le mango) » ; Klassia conserve exactement ce libellé, sans décider ici s’il vise le fruit, l’arbre ou un usage local."
+            },
+            {
+              "concept": "bois (pluriel / woods)",
+              "forms": [
+                "bìkék"
+              ],
+              "sources": [
+                "Edu-Kultur, alphabet ɓàsàá"
+              ],
+              "note": "Exemple orthographique de la lettre b."
+            }
+          ],
+          "activity_fr": "Montrer l’eau, du bois et, si disponible, un exemple réel ou photo de mango ; demander à un locuteur d’ajouter les mots locaux pour feuille, fleur, graine et arbre.",
+          "activity_en": "Use real objects/pictures and invite a speaker to add local words for leaf, flower, seed and tree.",
+          "source_note": "Le lexique botanique est encore incomplet : Klassia préfère laisser une lacune visible plutôt qu’inventer.",
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name_fr": "Sciences, mathématiques et perception",
+      "name_en": "Science, maths & perception",
+      "weight": "25%",
+      "icon": "🔢",
+      "activities": [
+        {
+          "id": "T5-ST1",
+          "type": "experiment",
+          "title_fr": "De quoi une plante a-t-elle besoin ?",
+          "title_en": "What does a plant need?",
+          "goal_fr": "Observer les besoins essentiels d’une plante avec une expérience simple.",
+          "goal_en": "Observe basic plant needs through a simple experiment.",
+          "diagram": {
+            "kind": "plant_needs",
+            "labels": [
+              "🌱 plante",
+              "💧 eau",
+              "☀️ lumière",
+              "🪴 support/terre"
+            ]
+          },
+          "steps_fr": [
+            "Préparer deux petits pots identiques.",
+            "Arroser les deux pareil.",
+            "Placer l’un à la lumière, l’autre dans un endroit moins lumineux mais sûr.",
+            "Observer plusieurs jours sans conclure trop vite."
+          ],
+          "steps_en": [
+            "Prepare two similar pots.",
+            "Water both similarly.",
+            "Put one in light and one in a less-lit safe place.",
+            "Observe over several days."
+          ],
+          "observe": [
+            "Observe sans arracher.",
+            "Compare après plusieurs jours.",
+            "Comprend qu’une expérience demande du temps."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-ST2",
+          "type": "cycle",
+          "title_fr": "De la graine à la plante",
+          "title_en": "From seed to plant",
+          "goal_fr": "Ordonner quelques étapes de croissance.",
+          "goal_en": "Order simple growth stages.",
+          "diagram": {
+            "kind": "plant_cycle",
+            "labels": [
+              "🫘 graine",
+              "🌱 pousse",
+              "🌿 jeune plante",
+              "🌼 plante fleurie"
+            ]
+          },
+          "game_fr": "Remettre 4 cartes dans l’ordre.",
+          "game_en": "Put 4 cards in order.",
+          "observe": [
+            "Ordonne 3 ou 4 étapes.",
+            "Utilise avant/après.",
+            "Comprend que toutes les plantes ne suivent pas exactement le même rythme."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-ST3",
+          "type": "classification",
+          "title_fr": "Plante ou pas plante ?",
+          "title_en": "Plant or not?",
+          "goal_fr": "Distinguer grossièrement une plante d’un objet non vivant.",
+          "goal_en": "Roughly distinguish a plant from a non-living object.",
+          "visual": {
+            "kind": "sort",
+            "items": [
+              "🌳 arbre ✅",
+              "🌿 herbe ✅",
+              "🌵 cactus ✅",
+              "🪑 chaise ❌",
+              "🚗 voiture ❌",
+              "🪨 pierre ❌"
+            ]
+          },
+          "observe": [
+            "Classe la plupart des exemples.",
+            "Cherche des critères simples : pousse, feuilles, racines.",
+            "Accepte les questions plutôt que mémoriser une définition rigide."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-ST4",
+          "type": "measurement",
+          "title_fr": "Je mesure la pousse sans règle compliquée",
+          "title_en": "I compare plant growth",
+          "goal_fr": "Comparer des hauteurs avec des unités informelles.",
+          "goal_en": "Compare heights using informal units.",
+          "activity_fr": "Comparer deux pousses avec des cubes identiques ou des bandes de papier : « celle-ci est plus haute / plus basse ».",
+          "activity_en": "Compare two seedlings using identical blocks or paper strips: taller/shorter.",
+          "observe": [
+            "Aligne à la base.",
+            "Compare plus haut/plus bas.",
+            "Compte quelques unités si possible."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PV",
+      "name_fr": "Vie pratique, autonomie et sécurité",
+      "name_en": "Practical life, autonomy & safety",
+      "weight": "25%",
+      "icon": "🧼",
+      "activities": [
+        {
+          "id": "T5-PV1",
+          "type": "care",
+          "title_fr": "Je prends soin d’une plante",
+          "title_en": "I care for a plant",
+          "goal_fr": "Adopter une routine de soin sans excès d’eau.",
+          "goal_en": "Care for a plant without overwatering.",
+          "steps_fr": [
+            "Toucher la terre avec l’adulte.",
+            "Ajouter un peu d’eau si nécessaire.",
+            "Placer le pot correctement.",
+            "Observer sans tirer sur les feuilles."
+          ],
+          "steps_en": [
+            "Check soil with the adult.",
+            "Add a little water if needed.",
+            "Place the pot well.",
+            "Observe without pulling leaves."
+          ],
+          "observe": [
+            "Dose mieux l’eau.",
+            "Manipule doucement.",
+            "Se souvient d’une étape."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-PV2",
+          "type": "food_hygiene",
+          "title_fr": "Je lave les fruits et légumes",
+          "title_en": "I wash fruits and vegetables",
+          "goal_fr": "Comprendre qu’on nettoie certains aliments avant de les manger.",
+          "goal_en": "Understand that some foods are washed before eating.",
+          "activity_fr": "Avec un aliment réel adapté et un adulte, montrer lavage puis séchage/égouttage selon le produit.",
+          "activity_en": "With a suitable real food and an adult, demonstrate washing and draining/drying as appropriate.",
+          "observe": [
+            "Comprend avant/après.",
+            "Évite de manger pendant la manipulation sans autorisation.",
+            "Participe à l’hygiène."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-PV3",
+          "type": "tool_safety",
+          "title_fr": "Les outils du jardin ne sont pas des jouets",
+          "title_en": "Garden tools are not toys",
+          "goal_fr": "Différencier petit matériel enfant et outils réservés aux adultes.",
+          "goal_en": "Distinguish child-safe tools from adult tools.",
+          "table": {
+            "headers": [
+              "Je peux utiliser avec adulte",
+              "Réservé à l’adulte"
+            ],
+            "rows": [
+              [
+                "petit arrosoir",
+                "machette"
+              ],
+              [
+                "petite pelle adaptée",
+                "sécateur"
+              ],
+              [
+                "gants",
+                "produits chimiques"
+              ]
+            ]
+          },
+          "observe": [
+            "Choisit l’outil adapté.",
+            "Demande avant d’utiliser.",
+            "Respecte la zone de travail."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-PV4",
+          "type": "environment",
+          "title_fr": "Je protège les plantes",
+          "title_en": "I protect plants",
+          "goal_fr": "Développer une attitude de respect de l’environnement proche.",
+          "goal_en": "Care for nearby plants.",
+          "game_fr": "Classer gestes : arroser raisonnablement, piétiner une jeune pousse, arracher une fleur sans raison, ramasser un déchet, planter.",
+          "game_en": "Sort actions that help or harm plants.",
+          "observe": [
+            "Repère les gestes nuisibles.",
+            "Propose un geste utile.",
+            "Comprend qu’on peut récolter certaines plantes avec autorisation."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AR",
+      "name_fr": "Création artistique",
+      "name_en": "Creative arts",
+      "weight": "10%",
+      "icon": "🎨",
+      "activities": [
+        {
+          "id": "T5-AR1",
+          "type": "printing",
+          "title_fr": "Empreintes de feuilles",
+          "title_en": "Leaf prints",
+          "goal_fr": "Créer une composition à partir de formes de feuilles.",
+          "goal_en": "Create art from leaf shapes.",
+          "materials": [
+            "feuilles tombées",
+            "peinture lavable",
+            "papier"
+          ],
+          "activity_fr": "Utiliser des feuilles tombées, pas arracher systématiquement.",
+          "activity_en": "Use fallen leaves rather than pulling fresh ones.",
+          "observe": [
+            "Explore texture/forme.",
+            "Varie les empreintes.",
+            "Nettoie après l’activité."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-AR2",
+          "type": "drawing",
+          "title_fr": "Je dessine une plante en 4 étapes",
+          "title_en": "I draw a plant in 4 steps",
+          "goal_fr": "Représenter une plante avec plusieurs parties.",
+          "goal_en": "Draw a plant with several parts.",
+          "steps_fr": [
+            "sol",
+            "tige",
+            "feuilles",
+            "fleur ou fruit au choix"
+          ],
+          "steps_en": [
+            "ground",
+            "stem",
+            "leaves",
+            "flower or fruit if desired"
+          ],
+          "observe": [
+            "Ajoute plusieurs parties.",
+            "Nomme 2 éléments.",
+            "Crée librement."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-AR3",
+          "type": "collage",
+          "title_fr": "Mon jardin de papier",
+          "title_en": "My paper garden",
+          "goal_fr": "Composer un jardin imaginaire avec formes et couleurs.",
+          "goal_en": "Create an imaginary paper garden.",
+          "materials": [
+            "papier de récupération",
+            "colle",
+            "crayons"
+          ],
+          "observe": [
+            "Organise l’espace.",
+            "Mélange formes/couleurs.",
+            "Raconte ce qui pousse dans son jardin."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MT",
+      "name_fr": "Motricité",
+      "name_en": "Motor skills",
+      "weight": "5%",
+      "icon": "🏃",
+      "activities": [
+        {
+          "id": "T5-MT1",
+          "type": "mime",
+          "title_fr": "Je grandis comme une plante",
+          "title_en": "I grow like a plant",
+          "goal_fr": "Explorer haut/bas, lent/rapide par le mouvement.",
+          "goal_en": "Explore high/low and slow/fast through movement.",
+          "course": [
+            "graine accroupie",
+            "petite pousse",
+            "tige qui grandit",
+            "feuilles qui s’ouvrent",
+            "fleur immobile"
+          ],
+          "observe": [
+            "Change de niveau.",
+            "Bouge lentement.",
+            "Garde son espace."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T5-MT2",
+          "type": "garden_course",
+          "title_fr": "Parcours du petit jardinier",
+          "title_en": "Little gardener course",
+          "goal_fr": "Transporter une petite quantité d’eau ou un objet léger avec contrôle.",
+          "goal_en": "Carry a small amount of water or a light item with control.",
+          "course": [
+            "prendre un gobelet presque vide",
+            "marcher sur une ligne",
+            "contourner un cône",
+            "verser dans un pot ou récipient"
+          ],
+          "observe": [
+            "Marche avec contrôle.",
+            "Verse avec moins de débordement.",
+            "Ne court pas avec le contenant."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "title_fr": "Grille d’observation du thème",
+    "title_en": "Theme observation grid",
+    "scale": [
+      {
+        "code": "D",
+        "label_fr": "Découvre",
+        "label_en": "Discovering",
+        "description": "L’enfant entre dans l’activité, observe ou essaie avec beaucoup d’accompagnement."
+      },
+      {
+        "code": "EC",
+        "label_fr": "En cours",
+        "label_en": "Developing",
+        "description": "L’enfant réussit partiellement ou avec rappel, modèle ou aide ponctuelle."
+      },
+      {
+        "code": "A",
+        "label_fr": "Acquis",
+        "label_en": "Acquired",
+        "description": "L’enfant mobilise la compétence dans une situation familière avec peu ou pas d’aide."
+      }
+    ],
+    "indicators": [
+      "Nomme quelques parties de plante.",
+      "Suit une séquence de plantation.",
+      "Observe une croissance dans le temps.",
+      "Prend soin d’une plante.",
+      "Compare et classe des éléments naturels.",
+      "Réalise une création inspirée des plantes."
+    ]
+  },
+  "editorial_notes": [],
+  "sources": [
+    "Resulam/Bitjaa Kody 2020",
+    "Edu-Kultur, alphabet ɓàsàá",
+    "SIL Basaa dictionary"
+  ],
+  "editorial": {
+    "status": "in_review",
+    "validation": "pending",
+    "curriculum_reference": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier"
+  }
+}

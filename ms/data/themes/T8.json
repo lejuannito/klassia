@@ -1,0 +1,697 @@
+{
+  "id": "T8",
+  "title_fr": "Les voyages",
+  "title_en": "Travel",
+  "duration": "4 semaines",
+  "project": {
+    "title_fr": "Notre grande carte des petits trajets / Our big map of little journeys",
+    "title_en": "Our big map of little journeys",
+    "description_fr": "Notre grande carte des petits trajets / Our big map of little journeys : une réalisation simple qui mobilise langage, manipulation, autonomie, création et mouvement.",
+    "description_en": "Our big map of little journeys: a simple project combining language, hands-on discovery, independence, creativity and movement."
+  },
+  "domains": [
+    {
+      "id": "LC",
+      "name_fr": "Langage et communication",
+      "name_en": "Literacy & communication",
+      "weight": "35%",
+      "icon": "💬",
+      "activities": [
+        {
+          "id": "T8-LC1",
+          "type": "vocabulary",
+          "title_fr": "Comment se déplace-t-on ?",
+          "title_en": "How do we travel?",
+          "goal_fr": "Nommer quelques moyens de déplacement.",
+          "goal_en": "Name simple means of transport.",
+          "table": {
+            "headers": [
+              "Image",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "🚶",
+                "à pied",
+                "on foot"
+              ],
+              [
+                "🚲",
+                "vélo",
+                "bicycle"
+              ],
+              [
+                "🚗",
+                "voiture",
+                "car"
+              ],
+              [
+                "🚌",
+                "bus / car",
+                "bus"
+              ],
+              [
+                "🚤",
+                "bateau",
+                "boat"
+              ],
+              [
+                "✈️",
+                "avion",
+                "aeroplane / airplane"
+              ]
+            ]
+          },
+          "observe": [
+            "Nomme 4 moyens.",
+            "Associe à une image.",
+            "Comprend que le choix dépend du lieu et de la distance."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-LC2",
+          "type": "direction",
+          "title_fr": "Où allons-nous ?",
+          "title_en": "Where are we going?",
+          "goal_fr": "Employer aller/go et quelques lieux familiers.",
+          "goal_en": "Use go and familiar destinations.",
+          "table": {
+            "headers": [
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "Je vais à l’école.",
+                "I go to school."
+              ],
+              [
+                "Nous allons au marché.",
+                "We go to the market."
+              ],
+              [
+                "Je vais chez grand-mère.",
+                "I go to Grandma’s."
+              ],
+              [
+                "Nous allons à la maison.",
+                "We go home."
+              ]
+            ]
+          },
+          "game_fr": "Placer 4 cartes lieux autour de la pièce et suivre une consigne.",
+          "game_en": "Place 4 destination cards and follow an instruction.",
+          "observe": [
+            "Comprend aller/go.",
+            "Se dirige vers la bonne carte.",
+            "Produit une phrase courte."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-LC3",
+          "type": "position",
+          "title_fr": "Devant, derrière, près, loin",
+          "title_en": "Front, behind, near, far",
+          "goal_fr": "Comprendre quelques mots de position et distance.",
+          "goal_en": "Understand simple position and distance words.",
+          "visual": {
+            "kind": "position",
+            "items": [
+              "⬆️ devant / in front",
+              "⬇️ derrière / behind",
+              "🤏 près / near",
+              "🔭 loin / far"
+            ]
+          },
+          "game_fr": "Placer une petite voiture devant/derrière une boîte, puis près/loin.",
+          "game_en": "Place a toy car in front/behind and near/far.",
+          "observe": [
+            "Comprend 3 relations.",
+            "Manipule correctement.",
+            "Utilise un mot de position."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-LC4",
+          "type": "story",
+          "title_fr": "Petite histoire : Le trajet de Nia",
+          "title_en": "Little story: Nia’s journey",
+          "goal_fr": "Suivre un petit itinéraire narratif.",
+          "goal_en": "Follow a simple narrated route.",
+          "story_fr": "Nia quitte la maison avec sa tante. Elles marchent jusqu’à l’arrêt de bus. Le bus les conduit près du marché. Elles traversent seulement au passage indiqué avec l’adulte. Au retour, il pleut : elles attendent sous un abri plutôt que de courir sur la route. Nia raconte ensuite les trois étapes de son trajet.",
+          "story_en": "Nia leaves home with her aunt. They walk to the bus stop. The bus takes them near the market. They cross only at the marked place with the adult. On the way back it rains, so they wait under shelter instead of running on the road. Later Nia tells the three steps of her journey.",
+          "questions": [
+            {
+              "fr": "Comment Nia va-t-elle jusqu’à l’arrêt ?",
+              "en": "How does Nia get to the stop?",
+              "answer": "à pied / on foot"
+            },
+            {
+              "fr": "Pourquoi attend-elle sous un abri ?",
+              "en": "Why does she wait under shelter?",
+              "answer": "il pleut / it is raining"
+            }
+          ],
+          "observe": [
+            "Retient 2 étapes.",
+            "Identifie une règle de sécurité.",
+            "Raconte avec avant/après."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-LC5",
+          "type": "ticket",
+          "title_fr": "Mon faux billet de voyage",
+          "title_en": "My pretend ticket",
+          "goal_fr": "Reconnaître quelques informations simples sur un support symbolique.",
+          "goal_en": "Recognise simple information on a pretend ticket.",
+          "table": {
+            "headers": [
+              "🎫 Billet",
+              "Exemple"
+            ],
+            "rows": [
+              [
+                "Nom / Name",
+                "NIA"
+              ],
+              [
+                "Départ / From",
+                "Maison"
+              ],
+              [
+                "Arrivée / To",
+                "Marché"
+              ],
+              [
+                "Image moyen / Transport",
+                "🚌"
+              ]
+            ]
+          },
+          "activity_fr": "Créer un billet fictif, sans données personnelles réelles.",
+          "activity_en": "Make a pretend ticket with fictional information.",
+          "observe": [
+            "Repère nom et destination.",
+            "Comprend départ/arrivée.",
+            "Ne donne pas d’adresse réelle."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-LC6",
+          "type": "prewriting",
+          "title_fr": "Je trace des routes",
+          "title_en": "I trace roads",
+          "goal_fr": "Suivre des lignes droites, courbes et carrefours simples.",
+          "goal_en": "Trace straight, curved and simple branching paths.",
+          "visual": {
+            "kind": "roads",
+            "items": [
+              "──── route droite",
+              "〰〰 route courbe",
+              "┬ carrefour",
+              "○ rond-point simplifié"
+            ]
+          },
+          "observe": [
+            "Reste dans un chemin large.",
+            "Choisit une direction.",
+            "Coordonne œil et main."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-LC7",
+          "type": "bassa",
+          "title_fr": "Bassa : déplacement et transport, variantes",
+          "title_en": "Bassa: travel and transport variants",
+          "goal_fr": "Conserver des formes modernes et anciennes repérées dans les ressources.",
+          "goal_en": "Keep modern and older forms found in sources.",
+          "bassa_variants": [
+            {
+              "concept": "voiture / car",
+              "forms": [
+                "lìtóà",
+                "litoa"
+              ],
+              "sources": [
+                "Edu-Kultur, alphabet ɓàsàá",
+                "Cameroon Basaa course (ancienne transcription/OCR)"
+              ],
+              "note": "Même emprunt avec conventions graphiques différentes."
+            },
+            {
+              "concept": "route / road",
+              "forms": [
+                "nloo",
+                "Nloo"
+              ],
+              "sources": [
+                "Cameroon Basaa course (ancienne transcription/OCR)"
+              ],
+              "note": "Forme issue de la transcription du manuel ; tons à vérifier."
+            },
+            {
+              "concept": "aller / go (forme verbale observée)",
+              "forms": [
+                "ke",
+                "kɛ́ / formes apparentées à confirmer"
+              ],
+              "sources": [
+                "Cameroon Basaa course",
+                "formes modernes à contrôler"
+              ],
+              "note": "Le manuel ancien fournit plusieurs phrases avec « ke » ; la normalisation moderne doit être vérifiée."
+            },
+            {
+              "concept": "allons / let’s go",
+              "forms": [
+                "Dí kɛ́nɛ̄k!"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "voiture dans une phrase ancienne",
+              "forms": [
+                "ni litoa"
+              ],
+              "sources": [
+                "Cameroon Basaa course"
+              ],
+              "note": "« en voiture / by car » dans la source ancienne."
+            }
+          ],
+          "activity_fr": "Comparer les graphies puis demander à un locuteur comment il écrit et prononce aujourd’hui « voiture » et « route ».",
+          "activity_en": "Compare spellings and ask a speaker how they write/pronounce “car” and “road” today.",
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name_fr": "Sciences, mathématiques et perception",
+      "name_en": "Science, maths & perception",
+      "weight": "25%",
+      "icon": "🔢",
+      "activities": [
+        {
+          "id": "T8-ST1",
+          "type": "classification",
+          "title_fr": "Sur terre, sur l’eau, dans l’air",
+          "title_en": "Land, water, air",
+          "goal_fr": "Classer quelques moyens de transport par milieu principal.",
+          "goal_en": "Sort transport by main environment.",
+          "table": {
+            "headers": [
+              "Terre / Land",
+              "Eau / Water",
+              "Air"
+            ],
+            "rows": [
+              [
+                "🚶 🚲 🚗 🚌",
+                "🚤",
+                "✈️"
+              ]
+            ]
+          },
+          "observe": [
+            "Classe les exemples.",
+            "Comprend qu’il existe des véhicules particuliers.",
+            "N’invente pas une règle universelle."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-ST2",
+          "type": "math",
+          "title_fr": "Combien de voyageurs ?",
+          "title_en": "How many travellers?",
+          "goal_fr": "Compter jusqu’à 5 dans une scène de transport.",
+          "goal_en": "Count up to 5 in a transport scene.",
+          "visual": {
+            "kind": "count",
+            "items": [
+              "🧍🧍 = 2",
+              "🧍🧍🧍 = 3",
+              "🧍🧍🧍🧍🧍 = 5"
+            ]
+          },
+          "observe": [
+            "Compte une fois chaque personnage.",
+            "Donne le cardinal final.",
+            "Compare deux petites collections."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-ST3",
+          "type": "map",
+          "title_fr": "Mon premier petit plan",
+          "title_en": "My first simple map",
+          "goal_fr": "Suivre un itinéraire sur un plan très simplifié.",
+          "goal_en": "Follow a route on a very simple map.",
+          "diagram": {
+            "kind": "map",
+            "labels": [
+              "🏠 maison",
+              "➡️ route",
+              "🚌 arrêt",
+              "🏫 école"
+            ]
+          },
+          "activity_fr": "Avec le doigt, suivre maison → arrêt → école. Puis changer le départ ou l’arrivée.",
+          "activity_en": "Follow home → stop → school with a finger, then change start/end.",
+          "observe": [
+            "Suit un chemin.",
+            "Comprend départ/arrivée.",
+            "Repère un symbole."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-ST4",
+          "type": "distance",
+          "title_fr": "Près ou loin ?",
+          "title_en": "Near or far?",
+          "goal_fr": "Comparer des distances de façon qualitative.",
+          "goal_en": "Compare distances qualitatively.",
+          "game_fr": "Placer deux destinations fictives sur le sol : une près, une loin. Demander quel trajet est le plus court.",
+          "game_en": "Place two pretend destinations: near and far. Ask which route is shorter.",
+          "observe": [
+            "Utilise près/loin.",
+            "Comprend plus court/plus long de manière intuitive.",
+            "Ne vise pas la mesure formelle."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PV",
+      "name_fr": "Vie pratique, autonomie et sécurité",
+      "name_en": "Practical life, autonomy & safety",
+      "weight": "25%",
+      "icon": "🧼",
+      "activities": [
+        {
+          "id": "T8-PV1",
+          "type": "road_safety",
+          "title_fr": "Je traverse avec un adulte",
+          "title_en": "I cross with an adult",
+          "goal_fr": "Acquérir une première routine de sécurité routière.",
+          "goal_en": "Learn a basic road-crossing routine.",
+          "steps_fr": [
+            "Je reste avec l’adulte.",
+            "Je m’arrête au bord sécurisé.",
+            "Je regarde et j’écoute avec l’adulte.",
+            "Je traverse en marchant quand l’adulte l’indique."
+          ],
+          "steps_en": [
+            "Stay with the adult.",
+            "Stop at a safe edge.",
+            "Look and listen with the adult.",
+            "Walk across when the adult says it is safe."
+          ],
+          "observe": [
+            "Ne part pas seul.",
+            "S’arrête avant la zone de circulation.",
+            "Suit la consigne de l’adulte."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-PV2",
+          "type": "vehicle_safety",
+          "title_fr": "Dans le véhicule, je m’installe correctement",
+          "title_en": "I sit safely in a vehicle",
+          "goal_fr": "Comprendre qu’on reste assis et attaché quand le dispositif existe.",
+          "goal_en": "Understand sitting safely and using restraints where provided.",
+          "prompt_fr": "Je m’assois à la place indiquée. J’utilise la ceinture ou le dispositif adapté quand il est disponible. Je ne mets pas la tête ou les bras dehors.",
+          "prompt_en": "Sit in the proper place. Use the appropriate restraint when available. Keep head and arms inside.",
+          "observe": [
+            "Identifie la posture sûre.",
+            "Ne joue pas avec portes/ceintures.",
+            "Suit l’adulte responsable."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-PV3",
+          "type": "lost",
+          "title_fr": "Si je me perds",
+          "title_en": "If I get lost",
+          "goal_fr": "Savoir rester dans une zone sûre et demander de l’aide.",
+          "goal_en": "Know to stay safe and ask for help.",
+          "activity_fr": "Jeu de rôle : rester visible, chercher un adulte identifié (personnel du lieu, policier/gendarme en service, enseignant, agent clairement identifié), dire son prénom mais ne pas inventer d’adresse à mémoriser publiquement.",
+          "activity_en": "Role-play staying visible and asking identified staff for help.",
+          "observe": [
+            "Ne s’éloigne pas davantage.",
+            "Sait demander de l’aide.",
+            "Peut dire son prénom."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-PV4",
+          "type": "packing",
+          "title_fr": "Je prépare un petit sac",
+          "title_en": "I pack a small bag",
+          "goal_fr": "Choisir quelques objets utiles pour une sortie courte.",
+          "goal_en": "Choose useful items for a short outing.",
+          "game_fr": "Parmi des cartes, choisir eau, chapeau selon météo, mouchoir, vêtement léger adapté ; écarter objets lourds/dangereux.",
+          "game_en": "Choose suitable items for a short outing.",
+          "observe": [
+            "Choisit 2-3 objets utiles.",
+            "Explique un choix.",
+            "Évite de surcharger."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AR",
+      "name_fr": "Création artistique",
+      "name_en": "Creative arts",
+      "weight": "10%",
+      "icon": "🎨",
+      "activities": [
+        {
+          "id": "T8-AR1",
+          "type": "vehicle_art",
+          "title_fr": "Mon véhicule imaginaire",
+          "title_en": "My imaginary vehicle",
+          "goal_fr": "Créer un véhicule avec formes simples.",
+          "goal_en": "Create a vehicle from simple shapes.",
+          "materials": [
+            "papier",
+            "formes",
+            "crayons",
+            "boîtes propres facultatives"
+          ],
+          "observe": [
+            "Combine plusieurs formes.",
+            "Ajoute roues/ailes selon son idée.",
+            "Explique où va son véhicule."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-AR2",
+          "type": "map_art",
+          "title_fr": "Je dessine un chemin",
+          "title_en": "I draw a route",
+          "goal_fr": "Représenter un trajet simple par une ligne et des repères.",
+          "goal_en": "Represent a route with a line and landmarks.",
+          "activity_fr": "Dessiner un point de départ fictif, une route et une destination avec 2 repères.",
+          "activity_en": "Draw a pretend start, route and destination with 2 landmarks.",
+          "observe": [
+            "Trace un trajet continu.",
+            "Ajoute des repères.",
+            "Raconte le parcours."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-AR3",
+          "type": "rhythm",
+          "title_fr": "Le rythme du train imaginaire",
+          "title_en": "Pretend train rhythm",
+          "goal_fr": "Répéter et varier un motif rythmique.",
+          "goal_en": "Repeat and vary a rhythm pattern.",
+          "visual": {
+            "kind": "rhythm",
+            "items": [
+              "👏-👏 / tchou-tchou",
+              "🦶-🦶 / go-go",
+              "🤫 arrêt / stop"
+            ]
+          },
+          "observe": [
+            "Reproduit un motif.",
+            "S’arrête au signal.",
+            "Propose une variation."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MT",
+      "name_fr": "Motricité",
+      "name_en": "Motor skills",
+      "weight": "5%",
+      "icon": "🏃",
+      "activities": [
+        {
+          "id": "T8-MT1",
+          "type": "traffic_game",
+          "title_fr": "Feu rouge, feu vert",
+          "title_en": "Red light, green light",
+          "goal_fr": "Contrôler départ et arrêt sur signal.",
+          "goal_en": "Control starting and stopping on a signal.",
+          "game_fr": "Vert : marcher ; orange : ralentir ; rouge : s’arrêter. Utiliser uniquement dans un espace de jeu, pas comme simulation complète de circulation.",
+          "game_en": "Green: walk; amber: slow; red: stop. Use only as a movement game.",
+          "observe": [
+            "Réagit aux signaux.",
+            "Contrôle l’arrêt.",
+            "Respecte l’espace."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T8-MT2",
+          "type": "route_course",
+          "title_fr": "Petit parcours de voyage",
+          "title_en": "Little travel course",
+          "goal_fr": "Suivre plusieurs étapes motrices dans l’ordre.",
+          "goal_en": "Follow a multi-step movement route.",
+          "course": [
+            "maison : départ",
+            "marcher sur une ligne",
+            "contourner un cône « rond-point »",
+            "s’arrêter à l’« arrêt »",
+            "arriver à l’école"
+          ],
+          "observe": [
+            "Suit l’ordre.",
+            "Attend le signal.",
+            "Se repère dans l’espace."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "title_fr": "Grille d’observation du thème",
+    "title_en": "Theme observation grid",
+    "scale": [
+      {
+        "code": "D",
+        "label_fr": "Découvre",
+        "label_en": "Discovering",
+        "description": "L’enfant entre dans l’activité, observe ou essaie avec beaucoup d’accompagnement."
+      },
+      {
+        "code": "EC",
+        "label_fr": "En cours",
+        "label_en": "Developing",
+        "description": "L’enfant réussit partiellement ou avec rappel, modèle ou aide ponctuelle."
+      },
+      {
+        "code": "A",
+        "label_fr": "Acquis",
+        "label_en": "Acquired",
+        "description": "L’enfant mobilise la compétence dans une situation familière avec peu ou pas d’aide."
+      }
+    ],
+    "indicators": [
+      "Nomme plusieurs moyens de transport.",
+      "Suit un itinéraire très simple.",
+      "Utilise près/loin, devant/derrière.",
+      "Applique des règles élémentaires de sécurité en déplacement.",
+      "Crée une représentation d’un trajet."
+    ]
+  },
+  "editorial_notes": [],
+  "sources": [
+    "Edu-Kultur alphabet ɓàsàá",
+    "Cameroon Basaa course (Peace Corps/ERIC)",
+    "Resulam/Bitjaa Kody 2020"
+  ],
+  "editorial": {
+    "status": "in_review",
+    "validation": "pending",
+    "curriculum_reference": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier"
+  }
+}

@@ -27,13 +27,13 @@ const SUBJECT_META = {
 
 const load = (k, d = {}) => {
   try {
-    const raw = localStorage.getItem(k);
+    const raw = Klassia.storage.getItem(k);
     return raw ? JSON.parse(raw) : d;
   } catch {
     return d;
   }
 };
-const save = (k, v) => localStorage.setItem(k, JSON.stringify(v));
+const save = (k, v) => Klassia.storage.setItem(k, JSON.stringify(v));
 const esc = s => String(s ?? '').replace(/[&<>\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const nl = s => esc(s).replace(/\n/g, '<br>');
 const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
@@ -43,7 +43,7 @@ async function boot() {
     if (!r.ok) throw new Error('Catalogue des unités indisponible');
     return r.json();
   });
-  const preferred = localStorage.getItem(S.unit) || catalog.default_unit || catalog.units[0].id;
+  const preferred = Klassia.storage.getItem(S.unit) || catalog.default_unit || catalog.units[0].id;
   await loadUnit(catalog.units.some(u => u.id === preferred) ? preferred : catalog.units[0].id);
   route();
 }
@@ -57,15 +57,15 @@ async function loadUnit(id) {
   currentUnit = unit;
   content = newContent;
   qcm = newQcm;
-  localStorage.setItem(S.unit, unit.id);
+  Klassia.storage.setItem(S.unit, unit.id);
 }
 
 function unitNumber() { return currentUnit?.number || content?.metadata?.unit || 1; }
 function unitTitle() { return currentUnit?.title || content?.metadata?.unit_title || content?.metadata?.center_of_interest || ''; }
 function unitCaption() { return `Unité ${unitNumber()} · ${unitTitle()}`; }
-function qcmTotal() { return qcm.epreuves.reduce((n, e) => n + e.questions.length, 0); }
+function qcmTotal() { return qcm.epreuves.filter(e=>e.subject_id!=='BA').reduce((n, e) => n + e.questions.length, 0); }
 
-function currentUser() { return load(S.user, null); }
+function currentUser() { return {role: load(S.user, {})?.role || 'ELEVE', name: Klassia.profile().name}; }
 function progressData() { return load(S.progress, {}); }
 function evalData() {
   const k = `${S.evals}:${currentUnit.id}`;
@@ -84,7 +84,7 @@ function currentLessonIds() { return new Set(allLessons().map(x => x.lesson.id))
 function masteredCount() { const ids=currentLessonIds(), p=progressData(); return Object.entries(p).filter(([id,st]) => ids.has(id) && st === 'MAITRISEE').length; }
 function subjectMeta(id) { return SUBJECT_META[id] || { icon: '📘', short: id }; }
 function statusLabel(st) {
-  if (st === 'MAITRISEE') return ['Maîtrisée', 'ok'];
+  if (st === 'MAITRISEE') return ['Je me sens prêt', 'ok'];
   if (st === 'A_REVOIR') return ['À revoir', 'warn'];
   if (st === 'EN_COURS') return ['En cours', 'active'];
   return ['À faire', ''];
@@ -109,49 +109,7 @@ function recommendedLesson() {
   return lessons.find(x => p[x.lesson.id] !== 'MAITRISEE') || lessons[0];
 }
 
-function login() {
-  app.innerHTML = `
-    <div class="login">
-      <div class="loginCard">
-        <div class="brand brand-large"><span class="brandMark">K</span><span>Klassia</span></div>
-        <div class="eyebrow">CE2 · PILOTE PÉDAGOGIQUE</div>
-        <h1>Bienvenue</h1>
-        <p class="muted">${esc(unitCaption())}</p>
-        <form id="loginForm">
-          <div class="field"><label for="phone">Téléphone</label><input id="phone" autocomplete="username" inputmode="numeric" value="677123456"></div>
-          <div class="field"><label for="pass">Mot de passe</label><input id="pass" type="password" autocomplete="current-password" value="eleve237"></div>
-          <button class="btn primary full">Se connecter</button>
-          <div id="err" class="error" role="alert"></div>
-        </form>
-        <button id="quickDemo" class="btn soft full">Entrer directement dans la démo élève</button>
-        <div class="note">
-          <b>Élève :</b> 677 12 34 56 / eleve237<br>
-          <b>Parent :</b> 699 00 00 00 / parent237<br>
-          <b>Administrateur :</b> 600 00 00 00 / admin237
-        </div>
-      </div>
-    </div>`;
-
-  const doLogin = (phone, pass) => {
-    const p = String(phone || '').replace(/\s/g, '');
-    let role = null, name = '';
-    if (p === '677123456' && pass === 'eleve237') { role = 'ELEVE'; name = 'Junior'; }
-    if (p === '600000000' && pass === 'admin237') { role = 'ADMIN'; name = 'Administrateur'; }
-    if (p === '699000000' && pass === 'parent237') { role = 'PARENT'; name = 'Parent de Junior'; }
-    if (!role) return false;
-    save(S.user, { role, name, phone: p });
-    location.hash = '#home';
-    return true;
-  };
-
-  document.getElementById('loginForm').onsubmit = e => {
-    e.preventDefault();
-    if (!doLogin(document.getElementById('phone').value, document.getElementById('pass').value)) {
-      document.getElementById('err').textContent = 'Identifiants incorrects.';
-    }
-  };
-  document.getElementById('quickDemo').onclick = () => doLogin('677123456', 'eleve237');
-}
+function login() { Klassia.openProfiles(); home(); }
 
 function shell(body, active = 'home') {
   const u = currentUser();
@@ -185,6 +143,7 @@ function shell(body, active = 'home') {
         ${nav.map(([id, icon, label]) => `<button data-go="${id}" class="${active === id ? 'active' : ''}"><span class="mobile-nav-icon">${icon}</span><span>${label}</span></button>`).join('')}
       </nav>
     </div>`;
+  document.querySelectorAll('[role=button][tabindex]').forEach(el=>el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click();}});
   document.querySelectorAll('[data-go]').forEach(b => b.onclick = () => location.hash = '#' + b.dataset.go);
   const unitSelect = document.getElementById('unitSelect');
   if (unitSelect) unitSelect.onchange = async () => {
@@ -193,9 +152,10 @@ function shell(body, active = 'home') {
     route();
   };
   document.getElementById('logout').onclick = () => {
-    localStorage.removeItem(S.user);
+    Klassia.storage.removeItem(S.user);
     location.hash = '#login';
   };
+  Klassia.rendered();
 }
 
 function progressRing(pct) {
@@ -212,11 +172,11 @@ function parentHome() {
   const unitsStarted = catalog.units.filter(u => Object.keys(p).some(id => id.includes(`-U${u.number}-`) && p[id] !== undefined)).length;
   let body = `
     <section class="hero hero-dashboard parent-hero">
-      <div class="hero-copy"><div class="eyebrow light">ESPACE PARENT · CE2</div><h1>Progression de Junior</h1><p>Vue locale de démonstration : le parent suit les acquis sans modifier les contenus.</p></div>
+      <div class="hero-copy"><div class="eyebrow light">ESPACE PARENT · CE2</div><h1>Progression de ${esc(Klassia.profile().name)}</h1><p>Suivi local de cet enfant : les déclarations de confiance et les résultats sont présentés séparément.</p></div>
       ${progressRing(pct)}
     </section>
     <section class="stats-row four">
-      <div class="mini-stat"><span class="mini-icon">✓</span><div><strong>${mastered}/${total}</strong><span>leçons maîtrisées</span></div></div>
+      <div class="mini-stat"><span class="mini-icon">✓</span><div><strong>${mastered}/${total}</strong><span>leçons déclarées comprises</span></div></div>
       <div class="mini-stat"><span class="mini-icon">↻</span><div><strong>${review}</strong><span>à revoir</span></div></div>
       <div class="mini-stat"><span class="mini-icon">▦</span><div><strong>${unitsStarted}/8</strong><span>unités commencées</span></div></div>
       <div class="mini-stat"><span class="mini-icon">🧩</span><div><strong>${catalog.summary?.qcm_count || '—'}</strong><span>QCM disponibles</span></div></div>
@@ -231,9 +191,9 @@ function parentHome() {
     const ev = load(`${S.evals}:${u.id}`, u.id === 'U1' ? load(S.evals,{}) : {});
     const scores = Object.values(ev).map(x=>Number(x.score)).filter(Number.isFinite);
     const avg = scores.length ? (scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(1) : '—';
-    body += `<button class="parent-unit-card" data-parent-unit="${u.id}"><div class="row between"><div><span class="unit-number">U${u.number}</span><strong>${esc(u.title)}</strong></div><span class="parent-unit-pct">${upct}%</span></div><div class="progress"><span style="width:${upct}%"></span></div><div class="parent-unit-meta"><span>${done}/${u.lesson_count} maîtrisées</span><span>${rev ? `${rev} à revoir` : 'aucune à revoir'}</span><span>moy. ${avg}/20</span></div></button>`;
+    body += `<button class="parent-unit-card" data-parent-unit="${u.id}"><div class="row between"><div><span class="unit-number">U${u.number}</span><strong>${esc(u.title)}</strong></div><span class="parent-unit-pct">${upct}%</span></div><div class="progress"><span style="width:${upct}%"></span></div><div class="parent-unit-meta"><span>${done}/${u.lesson_count} déclarées comprises</span><span>${rev ? `${rev} à revoir` : 'aucune à revoir'}</span><span>moy. ${avg}/20</span></div></button>`;
   });
-  body += `</div><section class="source-note always"><h3>À propos de cette vue</h3><p>Cette v7 conserve toutes les données localement sur le poste. Il s’agit d’un prototype de l’espace parent ; la synchronisation entre appareils et les vrais comptes seront traités dans l’architecture en ligne.</p></section>`;
+  body += `</div><section class="source-note always"><h3>À propos de cette vue</h3><p>Les données appartiennent au profil actif sur cet appareil. Exportez une sauvegarde avant de changer d’appareil. Les états de confiance sont déclaratifs et ne remplacent pas une évaluation accompagnée.</p></section>`;
   shell(body, 'home');
   document.querySelectorAll('[data-parent-unit]').forEach(b => b.onclick = async () => {
     await loadUnit(b.dataset.parentUnit);
@@ -264,7 +224,7 @@ function home() {
     </section>
 
     <section class="stats-row">
-      <div class="mini-stat"><span class="mini-icon">📘</span><div><strong>${done}/${total}</strong><span>leçons maîtrisées</span></div></div>
+      <div class="mini-stat"><span class="mini-icon">📘</span><div><strong>${done}/${total}</strong><span>leçons déclarées comprises</span></div></div>
       <div class="mini-stat"><span class="mini-icon">🎯</span><div><strong>${nev}/10</strong><span>évaluations</span></div></div>
       <div class="mini-stat"><span class="mini-icon">🧩</span><div><strong>${qcmTotal()}</strong><span>QCM disponibles</span></div></div>
     </section>
@@ -293,7 +253,7 @@ function home() {
       <button class="subject-card" onclick="location.hash='#subject:${encodeURIComponent(s.id)}'">
         <div class="subject-card-top"><span class="subject-icon">${m.icon}</span><span class="subject-pct">${sp}%</span></div>
         <strong>${esc(m.short)}</strong>
-        <span>${d}/${ids.length} leçons maîtrisées</span>
+        <span>${d}/${ids.length} leçons déclarées comprises</span>
         <div class="progress"><span style="width:${sp}%"></span></div>
       </button>`;
   });
@@ -315,7 +275,7 @@ function learn() {
       <button class="subject-card subject-card-rich" onclick="location.hash='#subject:${encodeURIComponent(s.id)}'">
         <div class="subject-card-top"><span class="subject-icon large">${m.icon}</span><span class="subject-pct">${pct}%</span></div>
         <strong>${esc(s.name)}</strong>
-        <span>${s.lessons.length} leçon${s.lessons.length > 1 ? 's' : ''} · ${d} maîtrisée${d > 1 ? 's' : ''}${r ? ` · ${r} à revoir` : ''}</span>
+        <span>${s.lessons.length} leçon${s.lessons.length > 1 ? 's' : ''} · ${d} déclarée comprise${d > 1 ? 's' : ''}${r ? ` · ${r} à revoir` : ''}</span>
         <div class="progress"><span style="width:${pct}%"></span></div>
       </button>`;
   });
@@ -334,7 +294,7 @@ function subject(id) {
     <div class="crumb"><a onclick="location.hash='#learn'">Apprendre</a><span>›</span>${esc(m.short)}</div>
     <section class="subject-hero">
       <div class="subject-icon xlarge">${m.icon}</div>
-      <div class="grow"><div class="eyebrow">UNITÉ ${unitNumber()} · ${esc(unitTitle().toUpperCase())}</div><h1>${esc(s.name)}</h1><p>${done}/${s.lessons.length} leçons maîtrisées</p><div class="progress"><span style="width:${pct}%"></span></div></div>
+      <div class="grow"><div class="eyebrow">UNITÉ ${unitNumber()} · ${esc(unitTitle().toUpperCase())}</div><h1>${esc(s.name)}</h1><p>${done}/${s.lessons.length} leçons déclarées comprises</p><div class="progress"><span style="width:${pct}%"></span></div></div>
       <div class="subject-score">${pct}%</div>
     </section>
     <div class="lessonList">`;
@@ -386,12 +346,13 @@ function lesson(id) {
     <article class="lesson-page">
       <header class="lesson-header">
         <div class="row"><span class="pill">${m.icon} ${esc(m.short)}</span><span class="badge ${cls}">${label}</span></div>
-        <h1>${esc(l.title)}</h1>
+        <h1>${esc(l.title)}</h1><span class="editorial-status">${l.editorial?.status==='draft'?'Trame en cours de rédaction · accompagnement nécessaire':'Contenu pilote · relecture pédagogique à confirmer'}</span>
         <p>${esc(l.objectives?.[0] || '')}</p>
         <div class="lesson-step"><span style="width:${Math.round((index + 1) * 100 / s.lessons.length)}%"></span></div>
       </header>
       <section class="learning-block discover"><div class="block-kicker"><span>👀</span> JE DÉCOUVRE</div><p>${nl(l.discover || '')}</p></section>
       <section class="learning-block"><div class="block-kicker"><span>🧠</span> JE COMPRENDS</div>${(l.learn || []).map(x => `<p>${nl(x)}</p>`).join('')}</section>
+      ${renderManualSections(l)}
       <section class="learning-block takeaway"><div class="block-kicker"><span>💡</span> JE RETIENS</div><p>${nl(l.takeaway || '')}</p></section>`;
 
   if ((l.practical || []).length) {
@@ -401,7 +362,7 @@ function lesson(id) {
   body += `<section class="learning-block practice"><div class="block-kicker"><span>✍️</span> JE M’EXERCE</div>${(l.exercises || []).map((e, i) => exerciseHtml(e, id, i)).join('')}</section>
       <section class="mastery-card">
         <div><div class="eyebrow">MON SUIVI</div><h3>Comment te sens-tu après cette leçon ?</h3><p id="masteryMsg">Klassia utilisera ce choix pour te proposer la suite.</p></div>
-        <div class="mastery-actions"><button class="btn review" onclick="setStatus('${id}','A_REVOIR')">↻ À revoir</button><button class="btn success" onclick="setStatus('${id}','MAITRISEE')">✓ Maîtrisée</button></div>
+        <div class="mastery-actions"><button class="btn review" onclick="setStatus('${id}','A_REVOIR')">↻ À revoir</button><button class="btn success" onclick="setStatus('${id}','MAITRISEE')">✓ Je me sens prêt</button></div>
       </section>
       <nav class="lesson-nav">
         ${prev ? `<button class="btn soft" onclick="location.hash='#lesson:${encodeURIComponent(prev.id)}'">‹ Leçon précédente</button>` : '<span></span>'}
@@ -410,15 +371,19 @@ function lesson(id) {
       <details class="source-note"><summary>Référence pédagogique</summary><p>${esc(l.source || '')}</p>${(l.notes || []).map(n => `<p>${esc(n)}</p>`).join('')}</details>
     </article>`;
 
+  if(l.teacher_guide)body+=teacherGuideHtml(l.teacher_guide);
   shell(body, 'learn');
+  document.querySelectorAll('.numeric-check').forEach(button=>button.onclick=()=>{const e=l.exercises[Number(button.dataset.exercise)],raw=document.getElementById('num_'+button.dataset.feedback).value.trim().replace(/\s/g,'').replace(',','.');const box=document.getElementById(button.dataset.feedback);box.classList.remove('hidden');if(raw===''||!/^[-+]?\d+(\.\d+)?$/.test(raw)){box.textContent='Écris un nombre avant de vérifier.';return;}const ok=Number(raw)===e.answer;box.textContent=(ok?'Bravo ! ':'Essaie encore. ')+e.explanation;const key=l.id+':'+button.dataset.exercise;const d=exerciseData();d[key]={ok,at:new Date().toISOString()};save(S.exercises,d);Klassia.append('klassia_attempts',{kind:'number',exercise:e.id,ok});});
+  if(s.id==='EN')Klassia.addSpeech(document.querySelector('.lesson-header'),[l.title,l.discover,...l.learn].join('. '),'en-GB');
 }
 
 function exerciseHtml(e, lid, i) {
   const ansId = `ans_${lid.replace(/\W/g, '')}_${i}`;
   const key = `${lid}:${i}`;
   const history = exerciseData()[key];
+  if(e.type==='number')return `<div class="exercise-card"><div class="grow"><label for="num_${ansId}"><b>${esc(e.prompt)}</b></label><input id="num_${ansId}" inputmode="decimal" autocomplete="off"><button class="btn soft numeric-check" data-lesson="${lid}" data-exercise="${i}" data-feedback="${ansId}">Vérifier le nombre</button><div id="${ansId}" class="feedback hidden" role="status"></div></div></div>`;
   if (e.type === 'mcq' && e.choices) {
-    return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${e.choices.map((c, j) => `<label class="choice"><input type="radio" name="q_${ansId}" value="${esc(c)}"><span>${esc(c)}</span></label>`).join('')}<button class="btn soft" onclick="checkMcq('${ansId}',${JSON.stringify(e.answer)},'${key}')">Vérifier ma réponse</button><div id="${ansId}" class="feedback hidden"></div>${history ? `<div class="exercise-history">Dernière tentative : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
+    return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${e.choices.map((c, j) => `<label class="choice"><input type="radio" name="q_${ansId}" value="${j}"><span>${esc(c)}</span></label>`).join('')}<button class="btn soft" onclick="checkMcq('${ansId}',${e.correct_choice},'${key}')">Vérifier ma réponse</button><div id="${ansId}" class="feedback hidden"></div>${history ? `<div class="exercise-history">Dernière tentative : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
   }
   return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b><p class="exercise-hint">Réfléchis d’abord, puis compare avec la correction.</p><button class="btn soft" onclick="showOpenCorrection('${ansId}')">Voir la correction</button><div id="${ansId}" class="feedback hidden"><b>Correction proposée</b><p>${nl(e.answer || '')}</p>${e.explanation ? `<p class="muted">${nl(e.explanation)}</p>` : ''}<div class="self-check"><span>As-tu réussi seul ?</span><button class="btn mini review" onclick="rateOpen('${key}',false,'${ansId}')">Pas encore</button><button class="btn mini success" onclick="rateOpen('${key}',true,'${ansId}')">Oui ✓</button></div><div class="remediation hidden" data-remed="${ansId}"><b>Remédiation</b><p>${nl(e.explanation || 'Relis « Je retiens », reprends l’exemple puis essaie de résoudre la question une seconde fois.')}</p></div></div>${history ? `<div class="exercise-history">Auto-évaluation : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
 }
@@ -428,6 +393,7 @@ window.rateOpen = (key, ok, id) => {
   const d = exerciseData();
   d[key] = { ok, at: new Date().toISOString() };
   save(S.exercises, d);
+  Klassia.append('klassia_attempts',{kind:'self_report',exercise:key,ok});
   const box = document.getElementById(id);
   const remed = box?.querySelector(`[data-remed="${id}"]`);
   if (remed) remed.classList.toggle('hidden', ok);
@@ -439,14 +405,15 @@ window.checkMcq = (id, answer, key) => {
   const box = document.getElementById(id);
   box.classList.remove('hidden');
   if (!r) { box.innerHTML = '<b>Choisis d’abord une réponse.</b>'; return; }
-  const ok = r.value === answer;
+  const ok = Number(r.value) === answer;
   const d = exerciseData(); d[key] = { ok, at: new Date().toISOString() }; save(S.exercises, d);
-  box.innerHTML = ok ? `<div class="feedback-good"><b>Bravo ! 🎉</b><p>Bonne réponse.</p></div>` : `<div class="feedback-retry"><b>Pas encore.</b><p>Réponse attendue : <strong>${esc(answer)}</strong></p><div class="remediation visible"><b>Remédiation Klassia</b><p>Relis « Je retiens », observe l’exemple puis réessaie avant de poursuivre.</p></div></div>`;
+  Klassia.append('klassia_attempts',{kind:'mcq',exercise:key,ok});
+  box.innerHTML = ok ? `<div class="feedback-good"><b>Bravo ! 🎉</b><p>Bonne réponse.</p></div>` : `<div class="feedback-retry"><b>Pas encore.</b><p>Réponse attendue : <strong>${esc(document.querySelector(`input[name="q_${id}"][value="${answer}"]`)?.nextElementSibling?.textContent || '')}</strong></p><div class="remediation visible"><b>Remédiation Klassia</b><p>Relis « Je retiens », observe l’exemple puis réessaie avant de poursuivre.</p></div></div>`;
 };
 window.setStatus = (id, st) => {
   const p = progressData(); p[id] = st; save(S.progress, p);
   const msg = document.getElementById('masteryMsg');
-  if (msg) msg.innerHTML = st === 'MAITRISEE' ? '<strong>Leçon maîtrisée ✓</strong> Ta progression a été mise à jour.' : '<strong>Ajoutée aux révisions.</strong> Klassia te reproposera cette notion.';
+  if (msg) msg.innerHTML = st === 'MAITRISEE' ? '<strong>Leçon déclarée comprise ✓</strong> Ta progression a été mise à jour.' : '<strong>Ajoutée aux révisions.</strong> Klassia te reproposera cette notion.';
   setTimeout(() => lesson(id), 450);
 };
 
@@ -479,7 +446,7 @@ function evalFeedback(score) {
 window.toggle = id => document.getElementById(id)?.classList.toggle('hidden');
 window.saveEval = id => {
   const input = document.getElementById('score');
-  const v = Number(input.value);
+  const v = input.value.trim()==='' ? NaN : Number(input.value);
   const msg = document.getElementById('evalMsg');
   if (!Number.isFinite(v) || v < 0 || v > 20) { msg.textContent = 'Entre un score compris entre 0 et 20.'; return; }
   const e = evalData(); e[id] = { score: v, date: new Date().toISOString() }; saveEvalData(e);
@@ -493,9 +460,10 @@ function seriesKey(e, i) { return e.id || e.cle || `${e.subject_id || 'Q'}-${i}`
 
 function revise() {
   let body = `<div class="page-head"><div><div class="eyebrow">ENTRAÎNEMENT</div><h1>Réviser avec les QCM</h1><p>Commence par la série essentielle, puis utilise la banque complémentaire pour t’entraîner davantage.</p></div><span class="pill">${qcmTotal()} QCM</span></div>
-    <section class="bank-note"><div><strong>${qcm.metadata?.essential_questions || 50} questions essentielles</strong><span> directement alignées sur les nouvelles leçons</span></div><div><strong>${qcm.metadata?.complementary_questions || Math.max(0,qcmTotal()-50)} complémentaires</strong><span> issues de la banque historique, à conserver sous revue pédagogique</span></div></section>
+    <section class="bank-note"><div><strong>${qcm.epreuves.filter(e=>e.subject_id!=='BA'&&e.serie_type==='ESSENTIELLE').reduce((n,e)=>n+e.questions.length,0)} questions essentielles</strong><span> à relire et mettre en correspondance avec les leçons</span></div><div><strong>${qcm.epreuves.filter(e=>e.subject_id!=='BA'&&e.serie_type==='COMPLEMENTAIRE').reduce((n,e)=>n+e.questions.length,0)} complémentaires</strong><span> issues de la banque historique, à conserver sous revue pédagogique</span></div></section>
     <div class="subject-grid wide">`;
   content.subjects.forEach(s => {
+    if(s.id==='BA')return;
     const m = subjectMeta(s.id); const series = seriesForSubject(s.id); const total = series.reduce((n,x)=>n+x.e.questions.length,0);
     const essential = series.find(x=>x.e.serie_type==='ESSENTIELLE')?.e.questions.length || 0;
     const extra = total-essential;
@@ -520,10 +488,11 @@ function reviseSubject(id) {
 function qcmPage(i) {
   const e = qcm.epreuves[Number(i)];
   if (!e) return revise();
+  if(e.subject_id==='BA'){ shell('<h1>Langues et cultures nationales</h1><p class="review-notice">Les QCM Bassa sont suspendus jusqu’à validation linguistique. Les ressources de travail restent accessibles avec un adulte.</p>','revise'); return; }
   const s = content.subjects.find(x=>x.id===e.subject_id); const m=subjectMeta(e.subject_id || s?.id || '');
   let body = `<div class="crumb"><a onclick="location.hash='#reviseSubject:${encodeURIComponent(e.subject_id || '')}'">Réviser · ${esc(m.short)}</a><span>›</span>${esc(e.serie_label || 'Série')}</div><div class="page-head"><div><div class="eyebrow">${esc(e.serie_label || 'QCM')} · UNITÉ ${unitNumber()}</div><h1>${m.icon} ${esc(s?.name || e.matiere)}</h1><p>${esc(e.description || e.titre)}</p></div><span class="pill">${e.questions.length} questions</span></div><div class="qcm-list" id="qcmBox">`;
   e.questions.forEach((q, qi) => {
-    body += `<article class="qcmQuestion"><div class="eval-head"><span class="eval-number">${qi + 1}</span><span class="points">1 pt</span></div><b>${esc(q.enonce)}</b>${q.choix.map((c, ci) => `<label class="choice"><input type="radio" name="qq${qi}" value="${ci}"><span>${esc(c)}</span></label>`).join('')}<div id="qc${qi}" class="feedback hidden"></div></article>`;
+    body += `<article class="qcmQuestion"><div class="eval-head"><span class="eval-number">${qi + 1}</span><span class="points">1 pt</span></div><b>${esc(q.enonce)}</b>${Klassia.shuffleOptions(q).map(c => `<label class="choice"><input type="radio" name="qq${qi}" value="${c.id}"><span>${esc(c.text)}</span></label>`).join('')}<div id="qc${qi}" class="feedback hidden"></div></article>`;
   });
   body += `</div><button class="btn primary large-action" onclick="correctQcm(${Number(i)})">Corriger la série</button><div id="scoreQcm" class="scoreBox"></div>`;
   shell(body, 'revise');
@@ -537,6 +506,7 @@ window.correctQcm = i => {
     b.innerHTML = `${ok ? '<div class="feedback-good"><b>Correct ✓</b>' : '<div class="feedback-retry"><b>À revoir</b>'}<p>${esc(q.corrige || '')}</p>${q.methode?`<p class="muted"><b>Méthode :</b> ${esc(q.methode)}</p>`:''}</div>`;
   });
   const pct = Math.round(score * 100 / e.questions.length);
+  Klassia.append('klassia_attempts',{kind:'qcm',unit:currentUnit.id,series:seriesKey(e,i),score,total:e.questions.length});
   const scores=qcmScoreData(); const key=seriesKey(e,i); scores[key]={score,total:e.questions.length,pct,date:new Date().toISOString(),type:e.serie_type}; saveQcmScoreData(scores);
   document.getElementById('scoreQcm').innerHTML = `<strong>${score}/${e.questions.length}</strong><span>${pct >= 80 ? 'Très bien !' : pct >= 50 ? 'Bon début. Reprends les corrections.' : 'Revois les leçons correspondantes avant de réessayer.'}</span>`;
 };
@@ -576,8 +546,8 @@ function progressPage() {
   const scores = Object.values(ev).map(x => Number(x.score)).filter(Number.isFinite);
   const avg = scores.length ? (scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(1) : '—';
   let body = `
-    <div class="page-head"><div><div class="eyebrow">MON PARCOURS</div><h1>Suivi de progression</h1><p>Une vue simple pour savoir ce qui est acquis et ce qu’il faut reprendre.</p></div></div>
-    <section class="stats-row four"><div class="mini-stat"><span class="mini-icon">✓</span><div><strong>${done}</strong><span>maîtrisées</span></div></div><div class="mini-stat"><span class="mini-icon">↻</span><div><strong>${review}</strong><span>à revoir</span></div></div><div class="mini-stat"><span class="mini-icon">▶</span><div><strong>${inProgress}</strong><span>en cours</span></div></div><div class="mini-stat"><span class="mini-icon">★</span><div><strong>${avg}</strong><span>moyenne /20</span></div></div></section>
+    <div class="page-head"><div><div class="eyebrow">MON PARCOURS</div><h1>Suivi de progression</h1><p>Confiance déclarée par l’enfant, scores des exercices et notes accompagnées. Une déclaration ne prouve pas une compétence acquise.</p></div></div>
+    <section class="stats-row four"><div class="mini-stat"><span class="mini-icon">✓</span><div><strong>${done}</strong><span>déclarées comprises</span></div></div><div class="mini-stat"><span class="mini-icon">↻</span><div><strong>${review}</strong><span>à revoir</span></div></div><div class="mini-stat"><span class="mini-icon">▶</span><div><strong>${inProgress}</strong><span>en cours</span></div></div><div class="mini-stat"><span class="mini-icon">★</span><div><strong>${avg}</strong><span>moyenne /20</span></div></div></section>
     <div class="progress-subjects">`;
   content.subjects.forEach(s => {
     const m = subjectMeta(s.id);
@@ -585,9 +555,9 @@ function progressPage() {
     const reviser = s.lessons.filter(l => p[l.id] === 'A_REVOIR').length;
     const pct = Math.round(mastered * 100 / s.lessons.length);
     const score = ev[s.id]?.score;
-    body += `<article class="progress-subject"><div class="subject-icon">${m.icon}</div><div class="grow"><div class="row between"><strong>${esc(m.short)}</strong><span>${pct}%</span></div><div class="progress"><span style="width:${pct}%"></span></div><div class="progress-details"><span>${mastered}/${s.lessons.length} maîtrisées</span>${reviser ? `<span class="warn-text">${reviser} à revoir</span>` : ''}${score !== undefined ? `<span>Évaluation : ${esc(score)}/20</span>` : '<span>Évaluation non faite</span>'}</div></div></article>`;
+    body += `<article class="progress-subject"><div class="subject-icon">${m.icon}</div><div class="grow"><div class="row between"><strong>${esc(m.short)}</strong><span>${pct}%</span></div><div class="progress"><span style="width:${pct}%"></span></div><div class="progress-details"><span>${mastered}/${s.lessons.length} déclarées comprises</span>${reviser ? `<span class="warn-text">${reviser} à revoir</span>` : ''}${score !== undefined ? `<span>Évaluation : ${esc(score)}/20</span>` : '<span>Évaluation non faite</span>'}</div></div></article>`;
   });
-  body += `</div><section class="reset-card"><div><h3>Réinitialiser la démonstration</h3><p>Efface uniquement la progression, les scores et les exercices enregistrés dans ce navigateur.</p></div><button class="btn danger-soft" onclick="resetDemo()">Réinitialiser</button></section>`;
+  body += `</div><section class="reset-card"><div><h3>Réinitialiser cette unité</h3><p>Efface uniquement cette unité CE2 pour le profil actif. Les autres enfants et la MS sont conservés.</p></div><button class="btn danger-soft" onclick="resetDemo()">Réinitialiser</button></section>`;
   shell(body, 'progress');
 }
 window.resetDemo = () => {
@@ -595,11 +565,11 @@ window.resetDemo = () => {
   const ids = currentLessonIds();
   const p = progressData(); Object.keys(p).forEach(id => { if (ids.has(id)) delete p[id]; }); save(S.progress,p);
   const ex = exerciseData(); Object.keys(ex).forEach(k => { if ([...ids].some(id => k.startsWith(id+':'))) delete ex[k]; }); save(S.exercises,ex);
-  localStorage.removeItem(`${S.evals}:${currentUnit.id}`);
-  localStorage.removeItem(`${S.project}:${currentUnit.id}`);
-  localStorage.removeItem(`${S.qcmScores}:${currentUnit.id}`);
-  if(currentUnit.id==='U1') localStorage.removeItem(S.evals);
-  const recent=load(S.recent,null); if(recent?.lessonId && ids.has(recent.lessonId)) localStorage.removeItem(S.recent);
+  Klassia.storage.removeItem(`${S.evals}:${currentUnit.id}`);
+  Klassia.storage.removeItem(`${S.project}:${currentUnit.id}`);
+  Klassia.storage.removeItem(`${S.qcmScores}:${currentUnit.id}`);
+  if(currentUnit.id==='U1') Klassia.storage.removeItem(S.evals);
+  const recent=load(S.recent,null); if(recent?.lessonId && ids.has(recent.lessonId)) Klassia.storage.removeItem(S.recent);
   progressPage();
 };
 
@@ -608,7 +578,7 @@ function adminPage() {
   const lessonCount = lessonTotal();
   const qcmCount = qcm.epreuves.reduce((n,e)=>n+e.questions.length,0);
   const exerciseCount = content.subjects.reduce((n,s)=>n+s.lessons.reduce((x,l)=>x+(l.exercises||[]).length,0),0);
-  let body = `<div class="page-head"><div><div class="eyebrow">MODE PILOTE</div><h1>Administration éditoriale</h1><p>Vue de contrôle du corpus de l’unité actuellement sélectionnée.</p></div></div>
+  let body = `<p><a href="#coverage">Consulter la couverture et les statuts éditoriaux</a></p><div class="page-head"><div><div class="eyebrow">MODE PILOTE</div><h1>Administration éditoriale</h1><p>Vue de contrôle du corpus de l’unité actuellement sélectionnée.</p></div></div>
     <section class="stats-row four"><div class="mini-stat"><span class="mini-icon">📚</span><div><strong>10</strong><span>matières</span></div></div><div class="mini-stat"><span class="mini-icon">📘</span><div><strong>${lessonCount}</strong><span>leçons</span></div></div><div class="mini-stat"><span class="mini-icon">✍️</span><div><strong>${exerciseCount}</strong><span>exercices</span></div></div><div class="mini-stat"><span class="mini-icon">✓</span><div><strong>${qcmCount}</strong><span>QCM</span></div></div></section>
     <section class="admin-table"><div class="admin-row admin-head"><span>Matière</span><span>Leçons</span><span>Évaluation</span><span>Source</span></div>`;
   content.subjects.forEach(s => body += `<div class="admin-row"><span>${subjectMeta(s.id).icon} ${esc(subjectMeta(s.id).short)}</span><span>${s.lessons.length}</span><span>${s.assessment?.total || 20}/20</span><span>${esc(s.source_pages || 'Référentiel U1')}</span></div>`);
@@ -622,6 +592,7 @@ function route() {
   if (h === 'login') { login(); return; }
   if (currentUser()?.role === 'PARENT' && !['home','progress'].includes(h)) { location.hash='#home'; home(); return; }
   if (h === 'home') home();
+  else if (Klassia.specialRoute('CE2', '#'+h)) return;
   else if (h === 'learn') learn();
   else if (h === 'revise') revise();
   else if (h === 'project') project();
@@ -640,3 +611,10 @@ window.addEventListener('hashchange', route);
 boot().catch(e => {
   app.innerHTML = `<div class="login"><div class="loginCard"><div class="brand brand-large"><span class="brandMark">K</span>Klassia</div><h1>Erreur de chargement</h1><p class="error">${esc(e.message)}</p><pre class="technical-error">${esc(e.stack || '')}</pre></div></div>`;
 });
+
+
+function renderManualSections(l){
+ return `${l.figure?`<img class="lesson-figure" src="${esc(l.figure.src)}" alt="${esc(l.figure.alt)}">`:''}<section class="manual-chapter">${(l.manual_sections||[]).map((sec,i)=>`<details class="manual-section" ${i===0?'open':''}><summary>${esc(sec.title)}</summary><div class="manual-section-body">${sec.body?`<p>${nl(sec.body)}</p>`:''}${sec.items?`<ul>${sec.items.map(x=>`<li>${nl(x)}</li>`).join('')}</ul>`:''}${sec.table?`<div class="manual-table-wrap"><table><thead><tr>${sec.table.headers.map(x=>`<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${sec.table.rows.map(row=>`<tr>${row.map(x=>`<td>${esc(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}</div></details>`).join('')}</section>`;
+}
+
+function teacherGuideHtml(g){return `<details class="adult-guide"><summary>Guide de l’adulte</summary><p>${esc(g.preparation)}</p><ul>${(g.observation||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p>${esc(g.adaptation||'')}</p><p>${esc(g.follow_up||'')}</p></details>`;}

@@ -1,0 +1,812 @@
+{
+  "id": "T3",
+  "title_fr": "La famille et la maison",
+  "title_en": "Family and home",
+  "duration": "4 semaines",
+  "project": {
+    "title_fr": "Notre maison des familles / Our family home",
+    "title_en": "Our family home",
+    "description_fr": "Notre maison des familles / Our family home : une réalisation simple qui mobilise langage, manipulation, autonomie, création et mouvement.",
+    "description_en": "Our family home: a simple project combining language, hands-on discovery, independence, creativity and movement."
+  },
+  "domains": [
+    {
+      "id": "LC",
+      "name_fr": "Langage et communication",
+      "name_en": "Literacy & communication",
+      "weight": "35%",
+      "icon": "💬",
+      "activities": [
+        {
+          "id": "T3-LC1",
+          "type": "vocabulary",
+          "title_fr": "Ma famille",
+          "title_en": "My family",
+          "goal_fr": "Nommer quelques membres de la famille en français et en anglais.",
+          "goal_en": "Name a few family members in French and English.",
+          "table": {
+            "headers": [
+              "👪",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "👩",
+                "maman / mère",
+                "mum / mother"
+              ],
+              [
+                "👨",
+                "papa / père",
+                "dad / father"
+              ],
+              [
+                "👦",
+                "frère",
+                "brother"
+              ],
+              [
+                "👧",
+                "sœur",
+                "sister"
+              ],
+              [
+                "👶",
+                "bébé",
+                "baby"
+              ],
+              [
+                "👵",
+                "grand-mère",
+                "grandmother"
+              ],
+              [
+                "👴",
+                "grand-père",
+                "grandfather"
+              ]
+            ]
+          },
+          "game_fr": "Utiliser des photos fictives, poupées ou dessins. L’enfant peut parler de sa famille réelle s’il le souhaite, sans obligation.",
+          "game_en": "Use fictional pictures, dolls or drawings. The child may talk about their real family if they wish, but is never required.",
+          "observe": [
+            "Nomme au moins 4 relations.",
+            "Comprend que les familles peuvent être différentes.",
+            "Utilise français ou anglais puis découvre l’autre langue."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-LC2",
+          "type": "oral",
+          "title_fr": "Qui est-ce ?",
+          "title_en": "Who is this?",
+          "goal_fr": "Poser et répondre à une question simple sur une personne.",
+          "goal_en": "Ask and answer a simple question about a person.",
+          "prompt_fr": "« Qui est-ce ? — C’est la maman. » / « C’est mon frère. »",
+          "prompt_en": "“Who is this? — This is the mother.” / “This is my brother.”",
+          "game_fr": "Piocher une carte personnage et la faire deviner.",
+          "game_en": "Pick a character card and let others guess.",
+          "observe": [
+            "Utilise qui/who.",
+            "Répond par un groupe nominal ou une phrase.",
+            "Attend son tour."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-LC3",
+          "type": "home_vocab",
+          "title_fr": "Dans la maison",
+          "title_en": "At home",
+          "goal_fr": "Nommer quelques espaces et objets de la maison.",
+          "goal_en": "Name a few rooms and home objects.",
+          "table": {
+            "headers": [
+              "Image",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "🛏️",
+                "chambre",
+                "bedroom"
+              ],
+              [
+                "🍳",
+                "cuisine",
+                "kitchen"
+              ],
+              [
+                "🛋️",
+                "salon",
+                "living room"
+              ],
+              [
+                "🚿",
+                "salle d’eau",
+                "bathroom / washroom"
+              ],
+              [
+                "🚪",
+                "porte",
+                "door"
+              ],
+              [
+                "🪟",
+                "fenêtre",
+                "window"
+              ]
+            ]
+          },
+          "observe": [
+            "Associe 4 mots à une image.",
+            "Classe un objet dans une pièce logique.",
+            "Accepte plusieurs organisations de maison."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-LC4",
+          "type": "story",
+          "title_fr": "Petite histoire : Le panier de la famille",
+          "title_en": "Little story: The family basket",
+          "goal_fr": "Comprendre une histoire sur l’entraide familiale.",
+          "goal_en": "Understand a story about helping at home.",
+          "story_fr": "Après le marché, la famille de Lila porte un panier. Papa range les bouteilles d’eau. Maman lave les tomates. Lila apporte les cuillères et son frère range les fruits. Le bébé ne range rien : il regarde tout le monde et rit. Quand le travail est fini, chacun s’assoit. « Merci ! », dit maman.",
+          "story_en": "After the market, Lila’s family carries a basket. Dad puts away the water bottles. Mum washes the tomatoes. Lila brings the spoons and her brother puts away the fruit. The baby does not tidy anything; he watches everyone and laughs. When the work is done, everyone sits down. “Thank you!” says Mum.",
+          "questions": [
+            {
+              "fr": "Que lave maman ?",
+              "en": "What does Mum wash?",
+              "answer": "les tomates / tomatoes"
+            },
+            {
+              "fr": "Que fait Lila ?",
+              "en": "What does Lila do?",
+              "answer": "elle apporte les cuillères / she brings spoons"
+            }
+          ],
+          "observe": [
+            "Repère une action d’entraide.",
+            "Répond à une question factuelle.",
+            "Peut proposer une petite aide adaptée à son âge."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-LC5",
+          "type": "prewriting",
+          "title_fr": "Je dessine une maison avec des formes",
+          "title_en": "I draw a house with shapes",
+          "goal_fr": "Associer graphisme et formes géométriques.",
+          "goal_en": "Combine pre-writing and simple shapes.",
+          "visual": {
+            "kind": "house",
+            "items": [
+              "□ maison / house",
+              "△ toit / roof",
+              "▯ porte / door",
+              "□ fenêtre / window"
+            ]
+          },
+          "steps_fr": [
+            "Tracer un grand carré ou rectangle.",
+            "Ajouter un toit triangulaire.",
+            "Ajouter porte et fenêtres.",
+            "Décorer librement."
+          ],
+          "steps_en": [
+            "Draw a large square or rectangle.",
+            "Add a triangle roof.",
+            "Add a door and windows.",
+            "Decorate freely."
+          ],
+          "observe": [
+            "Assemble plusieurs formes.",
+            "Contrôle mieux son tracé.",
+            "Décrit 2 éléments."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-LC6",
+          "type": "politeness",
+          "title_fr": "Les mots qui aident à vivre ensemble",
+          "title_en": "Helpful family words",
+          "goal_fr": "Utiliser merci, s’il te plaît et excuse-moi.",
+          "goal_en": "Use thank you, please and sorry/excuse me.",
+          "table": {
+            "headers": [
+              "Français",
+              "English",
+              "Situation"
+            ],
+            "rows": [
+              [
+                "S’il te plaît.",
+                "Please.",
+                "demander"
+              ],
+              [
+                "Merci.",
+                "Thank you.",
+                "remercier"
+              ],
+              [
+                "Excuse-moi.",
+                "Sorry / Excuse me.",
+                "réparer ou passer"
+              ],
+              [
+                "Bonjour.",
+                "Hello / Good morning.",
+                "saluer"
+              ]
+            ]
+          },
+          "game_fr": "Jouer 4 petites scènes de la vie quotidienne.",
+          "game_en": "Role-play 4 short everyday scenes.",
+          "observe": [
+            "Choisit une formule pertinente.",
+            "Emploie un ton respectueux.",
+            "Comprend que la politesse vaut pour adultes et enfants."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-LC7",
+          "type": "bassa",
+          "title_fr": "Bassa : famille et maison, variantes",
+          "title_en": "Bassa: family and home, variants",
+          "goal_fr": "Découvrir plusieurs formes attestées autour de la famille et de la maison.",
+          "goal_en": "Discover attested forms around family and home.",
+          "bassa_variants": [
+            {
+              "concept": "maman / mère",
+              "forms": [
+                "Ínī",
+                "Ínī"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ],
+              "note": "Même forme avec encodages diacritiques légèrement différents."
+            },
+            {
+              "concept": "papa / père",
+              "forms": [
+                "Tâ",
+                "Tâ",
+                "isaŋ",
+                "ngwal"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020",
+                "Likoda Li-Mbog"
+              ],
+              "note": "Tâ est le terme familier donné pour papa/père ; isaŋ et ngwal sont relevés comme père / géniteur dans le glossaire."
+            },
+            {
+              "concept": "enfant",
+              "forms": [
+                "mǎn",
+                "maaŋgɛ́"
+              ],
+              "sources": [
+                "Afranaph Basaa sentences"
+              ],
+              "note": "Formes relevées dans différents exemples/notations."
+            },
+            {
+              "concept": "frère",
+              "forms": [
+                "Mǎnkéé nú mùnlóm"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "sœur",
+              "forms": [
+                "Mǎnkéé nú mùdàá"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "maison (bâtiment)",
+              "forms": [
+                "ndap",
+                "ndáp"
+              ],
+              "sources": [
+                "Likoda Li-Mbog",
+                "sources linguistiques antérieures"
+              ],
+              "note": "Variation de marquage tonal."
+            },
+            {
+              "concept": "maison / unité domestique-sociale",
+              "forms": [
+                "mbai"
+              ],
+              "sources": [
+                "Likoda Li-Mbog"
+              ],
+              "note": "Sens social distinct de la maison physique selon le glossaire."
+            }
+          ],
+          "activity_fr": "Faire correspondre les mots à un dessin de famille ou de maison. Conserver les variantes côte à côte.",
+          "activity_en": "Match words to family or house drawings. Keep variants side by side.",
+          "source_note": "Les variantes ne sont pas fusionnées : Klassia garde le sens précis et la source.",
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name_fr": "Sciences, mathématiques et perception",
+      "name_en": "Science, maths & perception",
+      "weight": "25%",
+      "icon": "🔢",
+      "activities": [
+        {
+          "id": "T3-ST1",
+          "type": "math",
+          "title_fr": "Combien sommes-nous ?",
+          "title_en": "How many are we?",
+          "goal_fr": "Compter une petite collection de personnages jusqu’à 5.",
+          "goal_en": "Count a small set of people up to 5.",
+          "visual": {
+            "kind": "count",
+            "items": [
+              "👩👨👧 = 3",
+              "👩👨👧👦 = 4",
+              "👵👩👨👧👦 = 5"
+            ]
+          },
+          "game_fr": "Construire des familles fictives avec 1 à 5 figurines et les compter.",
+          "game_en": "Build pretend families with 1 to 5 figures and count them.",
+          "observe": [
+            "Compte sans doubler un personnage.",
+            "Répond combien/how many.",
+            "Compare plus/moins à l’oral."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-ST2",
+          "type": "shapes",
+          "title_fr": "Les formes de la maison",
+          "title_en": "Shapes at home",
+          "goal_fr": "Repérer cercle, carré, rectangle et triangle dans une scène domestique.",
+          "goal_en": "Find circle, square, rectangle and triangle in a home scene.",
+          "table": {
+            "headers": [
+              "Forme",
+              "Exemple dans la maison"
+            ],
+            "rows": [
+              [
+                "○ cercle",
+                "assiette"
+              ],
+              [
+                "□ carré",
+                "carreau"
+              ],
+              [
+                "▭ rectangle",
+                "porte / table"
+              ],
+              [
+                "△ triangle",
+                "toit dessiné"
+              ]
+            ]
+          },
+          "observe": [
+            "Nomme 3 formes.",
+            "Trouve un exemple réel.",
+            "Distingue carré et rectangle avec aide."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-ST3",
+          "type": "classification",
+          "title_fr": "Où range-t-on cet objet ?",
+          "title_en": "Where does it go?",
+          "goal_fr": "Classer des objets selon leur usage ou lieu habituel.",
+          "goal_en": "Sort objects by use or usual place.",
+          "game_fr": "Cartes : brosse à dents, cuillère, oreiller, savon, casserole, livre. Choisir une pièce possible et expliquer.",
+          "game_en": "Cards: toothbrush, spoon, pillow, soap, pot, book. Choose a possible room and explain.",
+          "observe": [
+            "Classe selon un critère.",
+            "Accepte qu’un objet puisse avoir plusieurs lieux.",
+            "Justifie par un mot ou geste."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-ST4",
+          "type": "materials",
+          "title_fr": "Bois, métal, tissu, plastique",
+          "title_en": "Wood, metal, fabric, plastic",
+          "goal_fr": "Observer quelques matériaux courants sans viser une nomenclature exhaustive.",
+          "goal_en": "Observe common materials without requiring exhaustive terminology.",
+          "table": {
+            "headers": [
+              "Matériau",
+              "Je peux trouver…"
+            ],
+            "rows": [
+              [
+                "bois / wood",
+                "cuillère, meuble"
+              ],
+              [
+                "métal / metal",
+                "casserole, clé"
+              ],
+              [
+                "tissu / fabric",
+                "vêtement, drap"
+              ],
+              [
+                "plastique / plastic",
+                "seau, boîte"
+              ]
+            ]
+          },
+          "activity_fr": "Toucher 4 objets sûrs et les regrouper par ressemblance.",
+          "activity_en": "Touch 4 safe objects and group by material.",
+          "observe": [
+            "Observe texture/poids.",
+            "Compare deux objets.",
+            "Utilise au moins un mot de matériau."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PV",
+      "name_fr": "Vie pratique, autonomie et sécurité",
+      "name_en": "Practical life, autonomy & safety",
+      "weight": "25%",
+      "icon": "🧼",
+      "activities": [
+        {
+          "id": "T3-PV1",
+          "type": "chores",
+          "title_fr": "J’aide à la maison",
+          "title_en": "I help at home",
+          "goal_fr": "Identifier de petites responsabilités adaptées à l’âge.",
+          "goal_en": "Identify age-appropriate ways to help.",
+          "visual": {
+            "kind": "chores",
+            "items": [
+              "🧸 ranger les jouets",
+              "🧺 mettre le linge sale au panier",
+              "🥄 poser des cuillères",
+              "🪴 arroser avec aide"
+            ]
+          },
+          "observe": [
+            "Choisit une tâche réaliste.",
+            "La réalise avec sécurité.",
+            "Comprend que les tâches ne dépendent pas du sexe."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-PV2",
+          "type": "kitchen_safety",
+          "title_fr": "Dans la cuisine, je demande avant",
+          "title_en": "Kitchen safety",
+          "goal_fr": "Reconnaître quelques dangers domestiques.",
+          "goal_en": "Recognise a few home hazards.",
+          "table": {
+            "headers": [
+              "Objet/situation",
+              "Conduite sûre"
+            ],
+            "rows": [
+              [
+                "🔥 feu / cuisinière",
+                "ne pas toucher ; appeler un adulte"
+              ],
+              [
+                "🔪 couteau",
+                "ne pas manipuler seul"
+              ],
+              [
+                "♨️ liquide chaud",
+                "garder ses distances"
+              ],
+              [
+                "🔌 prise électrique",
+                "ne rien introduire dedans"
+              ]
+            ]
+          },
+          "observe": [
+            "Repère au moins 3 dangers.",
+            "Dit ou montre l’adulte à appeler.",
+            "Ne transforme pas l’activité en manipulation réelle de danger."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-PV3",
+          "type": "tidy",
+          "title_fr": "Un passage dégagé",
+          "title_en": "A clear walkway",
+          "goal_fr": "Comprendre que ranger améliore aussi la sécurité.",
+          "goal_en": "Understand that tidying also improves safety.",
+          "game_fr": "Sur une image ou une scène préparée, repérer sac, jouet ou chaussure qui bloque le passage et les ranger.",
+          "game_en": "In a prepared scene or picture, find items blocking the walkway and put them away.",
+          "observe": [
+            "Repère l’obstacle.",
+            "Range à un endroit logique.",
+            "Explique « pour ne pas tomber »."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-PV4",
+          "type": "trusted_adults",
+          "title_fr": "Les adultes qui peuvent m’aider",
+          "title_en": "Adults who can help me",
+          "goal_fr": "Identifier des adultes de confiance dans différents lieux.",
+          "goal_en": "Identify trusted adults in different settings.",
+          "activity_fr": "Avec des personnages fictifs : parent/tuteur, enseignant, professionnel de santé, agent de sécurité identifié. Discuter de qui demander de l’aide selon la situation.",
+          "activity_en": "Use fictional characters: parent/carer, teacher, health worker, identified safety officer. Discuss whom to ask for help.",
+          "observe": [
+            "Identifie au moins deux adultes de confiance.",
+            "Ne suit pas un inconnu simplement parce qu’il se dit adulte.",
+            "Sait qu’il peut raconter une situation inquiétante."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AR",
+      "name_fr": "Création artistique",
+      "name_en": "Creative arts",
+      "weight": "10%",
+      "icon": "🎨",
+      "activities": [
+        {
+          "id": "T3-AR1",
+          "type": "portrait",
+          "title_fr": "Portrait de famille imaginaire",
+          "title_en": "An imaginary family portrait",
+          "goal_fr": "Composer une scène avec plusieurs personnages.",
+          "goal_en": "Create a scene with several people.",
+          "materials": [
+            "papier",
+            "crayons",
+            "formes autocollantes facultatives"
+          ],
+          "activity_fr": "Dessiner sa famille réelle ou une famille inventée, au choix.",
+          "activity_en": "Draw one’s real family or an invented family, by choice.",
+          "observe": [
+            "Crée plusieurs personnages.",
+            "Respecte la diversité familiale.",
+            "Explique un détail de sa création."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-AR2",
+          "type": "craft",
+          "title_fr": "Je construis une petite maison",
+          "title_en": "I build a little house",
+          "goal_fr": "Assembler des formes ou boîtes pour créer une maison.",
+          "goal_en": "Assemble shapes or boxes to create a house.",
+          "materials": [
+            "petite boîte propre",
+            "papier",
+            "ruban adhésif/colle sous surveillance",
+            "crayons"
+          ],
+          "steps_fr": [
+            "Choisir la base.",
+            "Ajouter porte/fenêtres.",
+            "Créer un toit ou une terrasse.",
+            "Décorer."
+          ],
+          "steps_en": [
+            "Choose a base.",
+            "Add door/windows.",
+            "Make a roof or terrace.",
+            "Decorate."
+          ],
+          "observe": [
+            "Assemble avec intention.",
+            "Résout un petit problème de construction.",
+            "Demande de l’aide au bon moment."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-AR3",
+          "type": "song",
+          "title_fr": "Bonjour chez nous",
+          "title_en": "Hello at our home",
+          "goal_fr": "Inventer une courte comptine bilingue autour de la maison.",
+          "goal_en": "Invent a short bilingual home chant.",
+          "prompt_fr": "Exemple : « Bonjour maman, hello Mum / Bonjour papa, hello Dad / Dans notre maison, we help and we smile. »",
+          "prompt_en": "Use a simple repeated rhythm; children may replace family words.",
+          "observe": [
+            "Reprend un refrain.",
+            "Propose un mot.",
+            "Respecte le rythme collectif."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MT",
+      "name_fr": "Motricité",
+      "name_en": "Motor skills",
+      "weight": "5%",
+      "icon": "🏃",
+      "activities": [
+        {
+          "id": "T3-MT1",
+          "type": "mime",
+          "title_fr": "Je mime les gestes de la maison",
+          "title_en": "I mime home actions",
+          "goal_fr": "Coordonner gestes et verbes d’action.",
+          "goal_en": "Coordinate movement with action words.",
+          "course": [
+            "balayer sans balai réel",
+            "porter un panier léger",
+            "plier un tissu",
+            "ranger un jouet",
+            "s’asseoir puis se relever"
+          ],
+          "observe": [
+            "Mime sans objet dangereux.",
+            "Comprend 3 verbes.",
+            "Contrôle l’espace."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T3-MT2",
+          "type": "indoor_course",
+          "title_fr": "Parcours maison",
+          "title_en": "Home obstacle course",
+          "goal_fr": "Se déplacer dans un petit parcours sécurisé.",
+          "goal_en": "Move through a safe indoor course.",
+          "course": [
+            "passer autour d’une chaise",
+            "marcher sur une ligne",
+            "passer sous un ruban haut",
+            "déposer un objet dans un panier"
+          ],
+          "observe": [
+            "Adapte sa vitesse.",
+            "Suit l’ordre.",
+            "Attend que le passage soit libre."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "title_fr": "Grille d’observation du thème",
+    "title_en": "Theme observation grid",
+    "scale": [
+      {
+        "code": "D",
+        "label_fr": "Découvre",
+        "label_en": "Discovering",
+        "description": "L’enfant entre dans l’activité, observe ou essaie avec beaucoup d’accompagnement."
+      },
+      {
+        "code": "EC",
+        "label_fr": "En cours",
+        "label_en": "Developing",
+        "description": "L’enfant réussit partiellement ou avec rappel, modèle ou aide ponctuelle."
+      },
+      {
+        "code": "A",
+        "label_fr": "Acquis",
+        "label_en": "Acquired",
+        "description": "L’enfant mobilise la compétence dans une situation familière avec peu ou pas d’aide."
+      }
+    ],
+    "indicators": [
+      "Nomme plusieurs membres de la famille et espaces de la maison.",
+      "Compte jusqu’à 5 dans une scène familiale.",
+      "Identifie de petites responsabilités et quelques dangers domestiques.",
+      "Utilise des mots de politesse.",
+      "Réalise une production artistique liée au thème."
+    ]
+  },
+  "editorial_notes": [],
+  "sources": [
+    "Resulam/Bitjaa Kody 2020",
+    "Afranaph Basaa",
+    "Likoda Li-Mbog glossary",
+    "SIL dictionary"
+  ],
+  "editorial": {
+    "status": "in_review",
+    "validation": "pending",
+    "curriculum_reference": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier"
+  }
+}

@@ -1,0 +1,684 @@
+{
+  "id": "T7",
+  "title_fr": "Les métiers",
+  "title_en": "Jobs",
+  "duration": "4 semaines",
+  "project": {
+    "title_fr": "Notre village des métiers / Our jobs village",
+    "title_en": "Our jobs village",
+    "description_fr": "Notre village des métiers / Our jobs village : une réalisation simple qui mobilise langage, manipulation, autonomie, création et mouvement.",
+    "description_en": "Our jobs village: a simple project combining language, hands-on discovery, independence, creativity and movement."
+  },
+  "domains": [
+    {
+      "id": "LC",
+      "name_fr": "Langage et communication",
+      "name_en": "Literacy & communication",
+      "weight": "35%",
+      "icon": "💬",
+      "activities": [
+        {
+          "id": "T7-LC1",
+          "type": "vocabulary",
+          "title_fr": "Les personnes qui travaillent autour de nous",
+          "title_en": "People who work around us",
+          "goal_fr": "Nommer quelques métiers en français et anglais.",
+          "goal_en": "Name a few jobs in French and English.",
+          "table": {
+            "headers": [
+              "Image",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "🧑‍🏫",
+                "enseignant(e)",
+                "teacher"
+              ],
+              [
+                "🧑‍⚕️",
+                "médecin / soignant(e)",
+                "doctor / health worker"
+              ],
+              [
+                "🧑‍🌾",
+                "agriculteur / agricultrice",
+                "farmer"
+              ],
+              [
+                "🧑‍🍳",
+                "cuisinier / cuisinière",
+                "cook"
+              ],
+              [
+                "🧑‍🔧",
+                "mécanicien(ne)",
+                "mechanic"
+              ],
+              [
+                "🚌",
+                "conducteur / conductrice",
+                "driver"
+              ]
+            ]
+          },
+          "observe": [
+            "Nomme 4 métiers.",
+            "Comprend qu’un métier peut être exercé par une femme ou un homme.",
+            "Associe métier et service rendu."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-LC2",
+          "type": "tools",
+          "title_fr": "Quel outil pour quel métier ?",
+          "title_en": "Which tool for which job?",
+          "goal_fr": "Associer quelques outils simples à une activité professionnelle.",
+          "goal_en": "Match simple tools to jobs.",
+          "table": {
+            "headers": [
+              "Métier",
+              "Outil/objet"
+            ],
+            "rows": [
+              [
+                "enseignant(e)",
+                "livre, tableau"
+              ],
+              [
+                "soignant(e)",
+                "stéthoscope, thermomètre"
+              ],
+              [
+                "agriculteur/trice",
+                "arrosoir, houe (adulte)"
+              ],
+              [
+                "mécanicien(ne)",
+                "clé, tournevis"
+              ],
+              [
+                "cuisinier/ère",
+                "casserole, cuillère"
+              ]
+            ]
+          },
+          "game_fr": "Faire correspondre cartes métiers et objets, en rappelant que les professionnels utilisent plusieurs outils.",
+          "game_en": "Match job cards and tools, remembering each job uses many tools.",
+          "observe": [
+            "Associe plusieurs paires.",
+            "N’utilise pas les vrais outils dangereux.",
+            "Explique le service rendu."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-LC3",
+          "type": "roleplay",
+          "title_fr": "Je joue au métier",
+          "title_en": "I role-play a job",
+          "goal_fr": "Prendre un rôle et produire quelques phrases simples.",
+          "goal_en": "Take a role and use simple phrases.",
+          "prompt_fr": "« Bonjour, je suis… Je peux vous aider ? »",
+          "prompt_en": "“Hello, I am the… How can I help?”",
+          "game_fr": "Coin symbolique : école, clinique de poupées, petit marché, garage en carton.",
+          "game_en": "Pretend-play corners: school, doll clinic, mini market, cardboard garage.",
+          "observe": [
+            "Entre dans le jeu symbolique.",
+            "Utilise 1 ou 2 phrases.",
+            "Change de rôle sans stéréotype."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-LC4",
+          "type": "story",
+          "title_fr": "Petite histoire : La panne du vélo",
+          "title_en": "Little story: The bicycle problem",
+          "goal_fr": "Comprendre la coopération entre plusieurs métiers.",
+          "goal_en": "Understand cooperation between different jobs.",
+          "story_fr": "Le vélo de Toma fait un bruit étrange. Sa tante ne le laisse pas continuer. Ils vont voir une mécanicienne. Elle regarde la roue et explique qu’une pièce doit être resserrée. Pendant qu’elle travaille, Toma observe sans toucher aux outils. Plus tard, il raconte à son enseignant comment la mécanicienne a sécurisé le vélo.",
+          "story_en": "Toma’s bicycle makes a strange noise. His aunt does not let him continue riding. They visit a mechanic. She checks the wheel and explains that a part needs tightening. Toma watches without touching the tools. Later he tells his teacher how the mechanic made the bicycle safe.",
+          "questions": [
+            {
+              "fr": "Pourquoi Toma s’arrête-t-il ?",
+              "en": "Why does Toma stop?",
+              "answer": "le vélo fait un bruit / the bicycle makes a noise"
+            },
+            {
+              "fr": "Qui répare ?",
+              "en": "Who repairs it?",
+              "answer": "la mécanicienne / the mechanic"
+            }
+          ],
+          "observe": [
+            "Repère le métier.",
+            "Comprend la règle de sécurité.",
+            "Raconte un élément."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-LC5",
+          "type": "interview",
+          "title_fr": "Je pose une question à un professionnel",
+          "title_en": "I ask a worker a question",
+          "goal_fr": "Préparer une question simple et respectueuse.",
+          "goal_en": "Prepare a simple respectful question.",
+          "table": {
+            "headers": [
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "Que faites-vous ?",
+                "What do you do?"
+              ],
+              [
+                "Avec quoi travaillez-vous ?",
+                "What do you work with?"
+              ],
+              [
+                "Pourquoi ce travail est-il utile ?",
+                "Why is this work useful?"
+              ]
+            ]
+          },
+          "activity_fr": "Interviewer un adulte de l’entourage ou jouer avec une marionnette si personne n’est disponible.",
+          "activity_en": "Interview a familiar adult or use a puppet role-play.",
+          "observe": [
+            "Pose une question.",
+            "Écoute la réponse.",
+            "Remercie."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-LC6",
+          "type": "prewriting",
+          "title_fr": "Les chemins des outils",
+          "title_en": "Tool paths",
+          "goal_fr": "Tracer des lignes et boucles associées à des objets du thème.",
+          "goal_en": "Trace lines and loops linked to job tools.",
+          "visual": {
+            "kind": "traces",
+            "items": [
+              "🔧 ———",
+              "🩺 〰️〰️",
+              "🧵 ∿∿∿",
+              "🚗 ⟶⟶"
+            ]
+          },
+          "observe": [
+            "Suit un modèle.",
+            "Varie lignes droites/courbes.",
+            "Contrôle progressivement."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-LC7",
+          "type": "bassa",
+          "title_fr": "Bassa : enseignant et professionnel de santé",
+          "title_en": "Bassa: teacher and health worker",
+          "goal_fr": "Comparer des formes attestées dans des sources anciennes et modernes.",
+          "goal_en": "Compare attested forms in older and modern sources.",
+          "bassa_variants": [
+            {
+              "concept": "enseignant(e) / teacher",
+              "forms": [
+                "málêt",
+                "malet",
+                "mhiet (OCR/transcription ancienne incertaine)"
+              ],
+              "sources": [
+                "MDPI 2026 / Hyman examples",
+                "Cameroon Basaa course (ancienne transcription/OCR)"
+              ],
+              "note": "málêt est nettement attesté dans des sources linguistiques modernes ; les anciennes graphies sont conservées comme témoins."
+            },
+            {
+              "concept": "médecin / travailleur clinique",
+              "forms": [
+                "dòktà",
+                "dokta",
+                "dokte"
+              ],
+              "sources": [
+                "Cameroon Basaa course / ERIC OCR"
+              ],
+              "note": "Emprunt adapté, avec variations de transcription dans les éditions/OCR."
+            },
+            {
+              "concept": "élève / student",
+              "forms": [
+                "ɲúdú",
+                "Ñudu sukulu"
+              ],
+              "sources": [
+                "Afranaph Basaa",
+                "lexique scolaire communautaire"
+              ],
+              "note": "ɲúdú est attesté pour student ; Ñudu sukulu est donné pour élève/écolier dans une ressource scolaire."
+            }
+          ],
+          "activity_fr": "Lire les variantes comme des traces de différentes conventions d’écriture. Pour l’usage scolaire, demander validation au spécialiste/local speaker.",
+          "activity_en": "Treat variants as evidence of different writing conventions. Validate school use with a specialist/speaker.",
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name_fr": "Sciences, mathématiques et perception",
+      "name_en": "Science, maths & perception",
+      "weight": "25%",
+      "icon": "🔢",
+      "activities": [
+        {
+          "id": "T7-ST1",
+          "type": "classification",
+          "title_fr": "Qui aide dans cette situation ?",
+          "title_en": "Who helps in this situation?",
+          "goal_fr": "Relier une situation simple à un professionnel possible.",
+          "goal_en": "Link a simple situation to a possible worker.",
+          "table": {
+            "headers": [
+              "Situation",
+              "Profession possible"
+            ],
+            "rows": [
+              [
+                "apprendre à lire",
+                "enseignant(e)"
+              ],
+              [
+                "maladie / blessure",
+                "professionnel de santé"
+              ],
+              [
+                "cultiver des légumes",
+                "agriculteur/trice"
+              ],
+              [
+                "réparer une moto",
+                "mécanicien(ne)"
+              ],
+              [
+                "conduire un bus",
+                "conducteur/trice"
+              ]
+            ]
+          },
+          "observe": [
+            "Choisit une réponse plausible.",
+            "Comprend qu’il peut y avoir plusieurs professionnels.",
+            "Ne confond pas urgence et jeu de rôle."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-ST2",
+          "type": "math",
+          "title_fr": "Je compte les outils",
+          "title_en": "I count tools",
+          "goal_fr": "Dénombrer jusqu’à 5 avec des objets du thème.",
+          "goal_en": "Count up to 5 using job objects.",
+          "visual": {
+            "kind": "count",
+            "items": [
+              "🔧🔧 = 2",
+              "📚📚📚 = 3",
+              "🥄🥄🥄🥄 = 4",
+              "🧱🧱🧱🧱🧱 = 5"
+            ]
+          },
+          "observe": [
+            "Compte 1 à 5.",
+            "Associe nombre et quantité.",
+            "Compare plus/moins."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-ST3",
+          "type": "shapes",
+          "title_fr": "Les formes des outils et bâtiments",
+          "title_en": "Shapes in tools and buildings",
+          "goal_fr": "Repérer des formes dans des objets techniques.",
+          "goal_en": "Find simple shapes in technical objects.",
+          "game_fr": "Chercher cercle (roue), rectangle (livre/porte), triangle (panneau/toit), carré (carreau).",
+          "game_en": "Find circle, rectangle, triangle and square in job-related scenes.",
+          "observe": [
+            "Repère 3 formes.",
+            "Explique où elle se trouve.",
+            "Dessine une forme."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-ST4",
+          "type": "sequence",
+          "title_fr": "Une tâche a des étapes",
+          "title_en": "A task has steps",
+          "goal_fr": "Ordonner 3 ou 4 étapes d’une tâche simple.",
+          "goal_en": "Order 3 or 4 steps in a simple task.",
+          "activity_fr": "Exemples : cuisiner un fruit simple (laver-couper par adulte-servir), planter (trou-graine-couvrir-arroser), enseigner (préparer-expliquer-faire essayer-ranger).",
+          "activity_en": "Use safe simple task sequences.",
+          "observe": [
+            "Ordonne 3 étapes.",
+            "Comprend début/fin.",
+            "Repère l’étape réservée à l’adulte si elle est dangereuse."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PV",
+      "name_fr": "Vie pratique, autonomie et sécurité",
+      "name_en": "Practical life, autonomy & safety",
+      "weight": "25%",
+      "icon": "🧼",
+      "activities": [
+        {
+          "id": "T7-PV1",
+          "type": "respect",
+          "title_fr": "Tous les métiers utiles méritent respect",
+          "title_en": "All useful jobs deserve respect",
+          "goal_fr": "Développer une attitude respectueuse envers différents métiers.",
+          "goal_en": "Respect different kinds of work.",
+          "activity_fr": "Présenter des métiers visibles et moins visibles : nettoyage, agriculture, soin, enseignement, sécurité, réparation, commerce. Discuter : « Qu’est-ce que ce travail apporte ? »",
+          "activity_en": "Discuss how different jobs help the community.",
+          "observe": [
+            "Évite de se moquer d’un métier.",
+            "Identifie un service rendu.",
+            "Comprend que la valeur d’une personne ne dépend pas de son métier."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-PV2",
+          "type": "tool_safety",
+          "title_fr": "Je ne touche pas aux outils professionnels",
+          "title_en": "I do not touch work tools without permission",
+          "goal_fr": "Reconnaître qu’un outil peut être dangereux ou fragile.",
+          "goal_en": "Recognise that work tools may be dangerous or delicate.",
+          "table": {
+            "headers": [
+              "Objet",
+              "Conduite"
+            ],
+            "rows": [
+              [
+                "🔪 outil coupant",
+                "adulte seulement"
+              ],
+              [
+                "💊 médicament",
+                "ne pas toucher/prendre sans adulte"
+              ],
+              [
+                "🔧 outil mécanique",
+                "demander avant"
+              ],
+              [
+                "💻 ordinateur de travail",
+                "demander avant"
+              ]
+            ]
+          },
+          "observe": [
+            "Demande la permission.",
+            "Reconnaît plusieurs objets sensibles.",
+            "Observe à distance."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-PV3",
+          "type": "help",
+          "title_fr": "Je sais à qui demander de l’aide",
+          "title_en": "I know who to ask for help",
+          "goal_fr": "Identifier le bon type d’aide dans quelques situations.",
+          "goal_en": "Identify suitable help in simple situations.",
+          "game_fr": "Cartes : perdu à l’école, petite blessure, objet cassé, fumée/incendie. Choisir l’adulte/professionnel à alerter.",
+          "game_en": "Choose whom to alert in simple scenarios.",
+          "observe": [
+            "Cherche d’abord un adulte responsable.",
+            "Ne tente pas de réparer un danger seul.",
+            "Sait appeler à l’aide."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-PV4",
+          "type": "gender",
+          "title_fr": "Un métier n’a pas de sexe",
+          "title_en": "Jobs are for everyone",
+          "goal_fr": "Remettre en cause les stéréotypes simples.",
+          "goal_en": "Challenge simple gender stereotypes.",
+          "activity_fr": "Présenter femme mécanicienne, homme infirmier, femme conductrice, homme cuisinier, etc. Demander : « Est-ce possible ? » — oui.",
+          "activity_en": "Show diverse workers and reinforce that jobs are not limited by gender.",
+          "observe": [
+            "Accepte différents exemples.",
+            "Utilise professionnel/professionnelle sans moquerie.",
+            "Choisit librement un rôle."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AR",
+      "name_fr": "Création artistique",
+      "name_en": "Creative arts",
+      "weight": "10%",
+      "icon": "🎨",
+      "activities": [
+        {
+          "id": "T7-AR1",
+          "type": "costume",
+          "title_fr": "Mon badge de métier imaginaire",
+          "title_en": "My pretend job badge",
+          "goal_fr": "Créer un badge ou accessoire symbolique.",
+          "goal_en": "Create a pretend job badge/accessory.",
+          "materials": [
+            "papier",
+            "crayons",
+            "ruban adhésif sous supervision"
+          ],
+          "observe": [
+            "Choisit symbole/couleur.",
+            "Explique son métier imaginaire.",
+            "Ne copie pas obligatoirement un métier familial."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-AR2",
+          "type": "construction",
+          "title_fr": "Je construis un petit outil en carton",
+          "title_en": "I build a cardboard tool",
+          "goal_fr": "Créer un objet symbolique non fonctionnel.",
+          "goal_en": "Make a non-functional pretend tool.",
+          "activity_fr": "Exemples : stéthoscope en papier, livre, volant, arrosoir dessiné. Aucun outil dangereux réel.",
+          "activity_en": "Make safe symbolic props only.",
+          "observe": [
+            "Assemble des formes.",
+            "Comprend que c’est un jouet symbolique.",
+            "Utilise le matériel correctement."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-AR3",
+          "type": "song",
+          "title_fr": "La chanson des métiers",
+          "title_en": "Jobs song",
+          "goal_fr": "Créer une suite rythmée avec noms de métiers.",
+          "goal_en": "Create a rhythmic sequence with job names.",
+          "prompt_fr": "« Teacher, teacher, montre et explique / Doctor, doctor, soigne et conseille… » Adapter sans caricaturer.",
+          "prompt_en": "Use short respectful action phrases for different jobs.",
+          "observe": [
+            "Suit le refrain.",
+            "Propose un métier.",
+            "Associe une action pertinente."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MT",
+      "name_fr": "Motricité",
+      "name_en": "Motor skills",
+      "weight": "5%",
+      "icon": "🏃",
+      "activities": [
+        {
+          "id": "T7-MT1",
+          "type": "mime",
+          "title_fr": "Mime le métier",
+          "title_en": "Mime the job",
+          "goal_fr": "Utiliser le corps pour représenter une activité professionnelle.",
+          "goal_en": "Use movement to represent a job.",
+          "game_fr": "Mimer écrire au tableau, arroser, conduire en restant sur place, porter un plateau vide, balayer.",
+          "game_en": "Mime safe work actions.",
+          "observe": [
+            "Mime clairement.",
+            "Devine un camarade.",
+            "Évite les gestes dangereux."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T7-MT2",
+          "type": "delivery_course",
+          "title_fr": "Le petit parcours du livreur",
+          "title_en": "Delivery course",
+          "goal_fr": "Transporter un objet léger d’un point à un autre avec contrôle.",
+          "goal_en": "Carry a light object through a short route.",
+          "course": [
+            "prendre une enveloppe vide",
+            "contourner deux cônes",
+            "marcher sur une ligne",
+            "déposer dans une boîte"
+          ],
+          "observe": [
+            "Garde l’objet.",
+            "Suit le parcours.",
+            "Se déplace sans collision."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "title_fr": "Grille d’observation du thème",
+    "title_en": "Theme observation grid",
+    "scale": [
+      {
+        "code": "D",
+        "label_fr": "Découvre",
+        "label_en": "Discovering",
+        "description": "L’enfant entre dans l’activité, observe ou essaie avec beaucoup d’accompagnement."
+      },
+      {
+        "code": "EC",
+        "label_fr": "En cours",
+        "label_en": "Developing",
+        "description": "L’enfant réussit partiellement ou avec rappel, modèle ou aide ponctuelle."
+      },
+      {
+        "code": "A",
+        "label_fr": "Acquis",
+        "label_en": "Acquired",
+        "description": "L’enfant mobilise la compétence dans une situation familière avec peu ou pas d’aide."
+      }
+    ],
+    "indicators": [
+      "Nomme plusieurs métiers et services.",
+      "Associe quelques outils sans les manipuler dangereusement.",
+      "Compte des objets liés aux métiers.",
+      "Respecte la diversité des professions.",
+      "Participe à un jeu de rôle professionnel."
+    ]
+  },
+  "editorial_notes": [],
+  "sources": [
+    "MDPI 2026 Basaá examples",
+    "Hyman Basaa chapter",
+    "Cameroon Basaa course/ERIC",
+    "Afranaph"
+  ],
+  "editorial": {
+    "status": "in_review",
+    "validation": "pending",
+    "curriculum_reference": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier"
+  }
+}

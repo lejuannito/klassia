@@ -1,130 +1,45 @@
-const CACHE_NAME = 'klassia-v14-20261031';
-const APP_SHELL = [
-  "./app.js",
-  "./data/catalog.json",
-  "./data/content-u1.json",
-  "./data/content-u2.json",
-  "./data/content-u3.json",
-  "./data/content-u4.json",
-  "./data/content-u5.json",
-  "./data/content-u6.json",
-  "./data/content-u7.json",
-  "./data/content-u8.json",
-  "./data/content.json",
-  "./data/qcm-u1.json",
-  "./data/qcm-u2.json",
-  "./data/qcm-u3.json",
-  "./data/qcm-u4.json",
-  "./data/qcm-u5.json",
-  "./data/qcm-u6.json",
-  "./data/qcm-u7.json",
-  "./data/qcm-u8.json",
-  "./data/qcm.json",
-  "./data/manual/part-01.txt",
-  "./data/manual/part-02.txt",
-  "./data/manual/part-03.txt",
-  "./data/manual/part-04.txt",
-  "./data/manual/part-05a.txt",
-  "./data/manual/part-05b.txt",
-  "./data/manual/part-05c.txt",
-  "./data/manual/part-06a.txt",
-  "./data/manual/part-06b-1.txt",
-  "./data/manual/part-06b-2.txt",
-  "./data/manual/part-06c-1.txt",
-  "./data/manual/part-06c-2.txt",
-  "./data/manual/part-07.txt",
-  "./data/ce2-practice-v14.json",
-  "./icons/apple-touch-icon.png",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
-  "./icons/icon-maskable-512.png",
-  "./index.html",
-  "./manifest.webmanifest",
-  "./pwa.js",
-  "./screenshots/mobile-home.png",
-  "./screenshots/mobile-parent.png",
-  "./style.css",
-  "./v9.css",
-  "./v9.js",
-  "./manual-v11.css",
-  "./manual-v11.js",
-  "./class-switch-v12.js",
-  "./v14.css",
-  "./v14.js",
-  "./ms/index.html",
-  "./ms/style-v13.css",
-  "./ms/app-core-v13.js",
-  "./ms/app-ui-v13.js",
-  "./ms/ms-v14.css",
-  "./ms/ms-v14.js",
-  "./ms/practice-v14.json",
-  "./ms/data/catalog-v13.json",
-  "./ms/data/theme-pack/index.json",
-  "./ms/data/theme-pack/part-01.txt",
-  "./ms/data/theme-pack/part-02.txt",
-  "./ms/data/theme-pack/part-03.txt",
-  "./ms/data/theme-pack/part-04.txt",
-  "./ms/data/theme-pack/part-05.txt",
-  "./ms/data/theme-pack/part-06.txt",
-  "./ms/data/theme-pack/part-07.txt",
-  "./ms/data/theme-pack/part-08.txt",
-  "./ms/data/theme-pack/part-09.txt",
-  "./ms/data/theme-pack/part-10.txt",
-  "./ms/data/theme-pack/part-11.txt",
-  "./data/bassa-lexicon-variants.json"
-];
-
-self.addEventListener('install', event => {
-  event.waitUntil((async () => {
-    const cache = await caches.open(CACHE_NAME);
-    await Promise.allSettled(APP_SHELL.map(async url => {
-      const response = await fetch(url, { cache: 'reload' });
-      if (response.ok) await cache.put(url, response.clone());
-    }));
-    await self.skipWaiting();
-  })());
+/* Release-level atomic offline installation. A failed release never replaces the old one. */
+importScripts('./precache-manifest.js');
+const CACHE_NAME='klassia-v15-'+self.KLASSIA_RELEASE.version;
+const urls=self.KLASSIA_RELEASE.files;
+self.addEventListener('install',event=>event.waitUntil((async()=>{
+ const cache=await caches.open(CACHE_NAME);
+ try{
+  // Bounded concurrency avoids opening dozens of connections on a mobile link.
+  let index=0;
+  const workers=await Promise.allSettled(Array.from({length:4},async()=>{
+   while(index<urls.length){const file=urls[index++],response=await fetch(new URL(file.url,self.registration.scope),{cache:'reload'});
+    if(!response.ok)throw Error('Téléchargement incomplet : '+file.url);
+    const bytes=await response.clone().arrayBuffer();const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
+    if(hash!==file.sha256)throw Error('Version incohérente : '+file.url);
+    await cache.put(new URL(file.url,self.registration.scope),response);
+   }
+  }));
+  const failed=workers.find(x=>x.status==='rejected');if(failed)throw failed.reason;
+ }catch(error){await caches.delete(CACHE_NAME);throw error;}
+ // Do not force takeover in the middle of a lesson. User chooses a safe reload.
+})()));
+self.addEventListener('message',event=>{
+ if(event.data?.type==='ACTIVATE_RELEASE')self.skipWaiting();
+ if(event.data?.type==='OFFLINE_STATUS')event.waitUntil((async()=>{
+  const cache=await caches.open(CACHE_NAME);let count=0;
+  for(const f of urls)if(await cache.match(new URL(f.url,self.registration.scope)))count++;
+  event.ports[0]?.postMessage({ready:count===urls.length,count,total:urls.length,version:self.KLASSIA_RELEASE.version});
+ })());
 });
-
-self.addEventListener('activate', event => {
-  event.waitUntil((async () => {
-    const keys = await caches.keys();
-    await Promise.all(keys.filter(k => k.startsWith('klassia-') && k !== CACHE_NAME).map(k => caches.delete(k)));
-    await self.clients.claim();
-  })());
-});
-
-self.addEventListener('fetch', event => {
-  if (event.request.method !== 'GET') return;
-  const url = new URL(event.request.url);
-  if (url.origin !== self.location.origin) return;
-
-  if (event.request.mode === 'navigate') {
-    event.respondWith((async () => {
-      try {
-        const network = await fetch(event.request);
-        const cache = await caches.open(CACHE_NAME);
-        if (network.ok) cache.put(event.request, network.clone());
-        return network;
-      } catch (_) {
-        return (await caches.match(event.request)) || (await caches.match('./index.html')) || (await caches.match('./'));
-      }
-    })());
-    return;
-  }
-
-  event.respondWith((async () => {
-    const cached = await caches.match(event.request);
-    const networkPromise = fetch(event.request).then(async response => {
-      if (response && response.ok) {
-        const cache = await caches.open(CACHE_NAME);
-        cache.put(event.request, response.clone());
-      }
-      return response;
-    }).catch(() => null);
-    if (cached) {
-      networkPromise.catch(() => null);
-      return cached;
-    }
-    return (await networkPromise) || new Response('Ressource indisponible hors connexion', { status: 503, headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
-  })());
+self.addEventListener('activate',event=>event.waitUntil((async()=>{
+ // Installation has already verified every critical file. Keep one previous release
+ // for recovery, but never mix it with current code in fetch handling.
+ const keys=(await caches.keys()).filter(k=>k.startsWith('klassia-')&&k!==CACHE_NAME);
+ await Promise.all(keys.slice(0,-1).map(k=>caches.delete(k)));
+ await self.clients.claim();
+})()));
+self.addEventListener('fetch',event=>{
+ const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin||!url.pathname.startsWith(new URL(self.registration.scope).pathname))return;
+ event.respondWith((async()=>{
+  const cache=await caches.open(CACHE_NAME);const clean=new URL(url);clean.search='';clean.hash='';
+  if(clean.pathname.endsWith('/'))clean.pathname+='index.html';
+  const cached=await cache.match(clean);if(cached)return cached;
+  try{return await fetch(event.request);}catch{return new Response('Cette ressource ne fait pas partie de l’édition téléchargée. Reconnectez-vous pour la mettre à jour.',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8'}});}
+ })());
 });

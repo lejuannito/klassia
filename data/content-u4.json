@@ -1,6 +1,6 @@
 {
   "format": "klassia-content",
-  "version": 1,
+  "version": "15.0",
   "metadata": {
     "product": "Klassia",
     "class": "CE2",
@@ -8,7 +8,7 @@
     "unit_title": "Les métiers",
     "country": "Cameroun",
     "curriculum": "Curriculum de l’enseignement primaire francophone camerounais - Niveau 2 (CE1-CE2), MINEDUB, 2018",
-    "editorial_status": "DRAFT_FOR_PEDAGOGICAL_REVIEW",
+    "editorial_status": "PILOT_REVIEW_REQUIRED",
     "created": "2026-10-30",
     "source_file": "Curriculum-CE.pdf"
   },
@@ -58,18 +58,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Écouter, réagir et réciter autour des métiers » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’écoute jusqu’au bout avant de répondre. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écouter, réagir et réciter autour des métiers ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’écoute jusqu’au bout avant de répondre.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U4, p.28.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Écouter, réagir et réciter autour des métiers » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écouter, réagir et réciter autour des métiers » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : J’écoute jusqu’au bout avant de répondre. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, expression orale, U4, p.28.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U4-L2",
@@ -88,18 +123,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Reconnaître les principaux types d’écrits » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Reconnaître les principaux types d’écrits ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U4, p.32.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Construire son texte avant d’écrire",
+              "kind": "method",
+              "body": "Avant de rédiger sur « les métiers », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+            },
+            {
+              "title": "Améliorer une première version",
+              "kind": "example",
+              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Reconnaître les principaux types d’écrits » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, production d’écrits, U4, p.32.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U4-L3",
@@ -119,18 +184,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure sur les métiers et donner son avis » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère les personnages, le problème, les actions importantes et la fin. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure sur les métiers et donner son avis ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère les personnages, le problème, les actions importantes et la fin.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U4, p.35.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Lire comme un détective",
+              "kind": "method",
+              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure sur les métiers et donner son avis », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
+            },
+            {
+              "title": "Rendre compte de sa lecture",
+              "kind": "text",
+              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure sur les métiers et donner son avis » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je repère les personnages, le problème, les actions importantes et la fin. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, littérature, U4, p.35.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U4-L4",
@@ -150,18 +245,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Identifier et utiliser les adjectifs qualificatifs » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Identifier et utiliser les adjectifs qualificatifs ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U4, p.39.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Identifier et utiliser les adjectifs qualificatifs » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Identifier et utiliser les adjectifs qualificatifs » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, grammaire, U4, p.39.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U4-L5",
@@ -180,18 +310,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Accorder le nom, le déterminant et l’adjectif » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Accorder le nom, le déterminant et l’adjectif ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U4, p.39.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Accorder le nom, le déterminant et l’adjectif » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Accorder le nom, le déterminant et l’adjectif » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, grammaire, U4, p.39.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U4-L6",
@@ -211,18 +376,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Abréviations du dictionnaire et vocabulaire des métiers » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Abréviations du dictionnaire et vocabulaire des métiers ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U4, p.43.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Choisir le mot juste",
+              "kind": "text",
+              "body": "Le vocabulaire de « les métiers » aide à parler et écrire avec précision. Pour apprendre un mot, ne mémorise pas seulement sa définition : observe un exemple, sa famille éventuelle, sa nature grammaticale et un contexte où tu peux l’utiliser. Le dictionnaire sert à vérifier l’orthographe, le sens et certaines informations grammaticales."
+            },
+            {
+              "title": "Créer son petit lexique",
+              "kind": "activity",
+              "body": "Sur une page de cahier, prépare trois colonnes : « mot », « ce qu’il veut dire », « ma phrase ». Ajoute au moins cinq mots du chapitre. Relis ce lexique avant une production écrite et essaie d’employer deux de ces mots."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Abréviations du dictionnaire et vocabulaire des métiers » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, vocabulaire, U4, p.43.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U4-L7",
@@ -243,20 +438,55 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Accords et homophones grammaticaux » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’accord dépend du sujet et du groupe nominal. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L7-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Accords et homophones grammaticaux ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’accord dépend du sujet et du groupe nominal.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe, U4, p.47.",
           "practical": [],
           "notes": [
             "Le curriculum imprime « c’ést/s’est » ; Klassia retient la forme correcte « c’est/s’est » tout en signalant la coquille source."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Accords et homophones grammaticaux » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Accords et homophones grammaticaux » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : L’accord dépend du sujet et du groupe nominal. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, orthographe, U4, p.47.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U4-L8",
@@ -274,18 +504,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Partir, prendre, venir, voir et vouloir au présent » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L8-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Partir, prendre, venir, voir et vouloir au présent ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U4-L8-E2"
             }
           ],
           "source": "Curriculum CE2, conjugaison, U4, p.49.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Partir, prendre, venir, voir et vouloir au présent » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Partir, prendre, venir, voir et vouloir au présent » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, conjugaison, U4, p.49.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -323,7 +588,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Français et littérature développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "EN",
@@ -336,28 +602,50 @@
           "objectives": [
             "Describe the advantages of an occupation."
           ],
-          "discover": "Think about the theme “Les métiers”. Listen, read or observe a short example before using English yourself.",
+          "discover": "At the workshop\nAmina: What does your aunt do?\nBiko: She is a tailor. She makes clothes.\nAmina: Does she work carefully?\nBiko: Yes. She measures the cloth carefully and cuts it slowly.\nAmina: My uncle is a farmer. He grows vegetables.",
           "learn": [
-            "An occupation is work done by a person. We can describe how a job helps people or provides a service."
+            "My aunt is a tailor. She makes clothes.",
+            "Useful words: tailor = couturier/couturière; farmer = agriculteur/agricultrice; measure = mesurer; carefully = avec soin; slowly = lentement"
           ],
           "takeaway": "An occupation is work done by a person. We can describe how a job helps people or provides a service.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Talking about occupations”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: An occupation is work done by a person. We can describe how a job helps people or provides a service.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U4-L1-E1",
+              "type": "open",
+              "prompt": "What does Biko’s aunt make?",
+              "answer": "She makes clothes.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Talking about occupations ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : An occupation is work done by a person. We can describe how a job helps people or provides a service.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U4-L1-E2",
+              "type": "open",
+              "prompt": "Who grows vegetables?",
+              "answer": "Amina’s uncle grows vegetables.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U4, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "My aunt is a tailor. She makes clothes. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U4, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U4-L2",
@@ -365,28 +653,50 @@
           "objectives": [
             "Read the advantages of occupations."
           ],
-          "discover": "Think about the theme “Les métiers”. Listen, read or observe a short example before using English yourself.",
+          "discover": "At the workshop\nAmina: What does your aunt do?\nBiko: She is a tailor. She makes clothes.\nAmina: Does she work carefully?\nBiko: Yes. She measures the cloth carefully and cuts it slowly.\nAmina: My uncle is a farmer. He grows vegetables.",
           "learn": [
-            "Read short sentences carefully and identify the occupation and its advantage."
+            "My aunt is a tailor. She makes clothes.",
+            "Useful words: tailor = couturier/couturière; farmer = agriculteur/agricultrice; measure = mesurer; carefully = avec soin; slowly = lentement"
           ],
           "takeaway": "Read short sentences carefully and identify the occupation and its advantage.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Reading about occupations”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Read short sentences carefully and identify the occupation and its advantage.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U4-L2-E1",
+              "type": "open",
+              "prompt": "What does Biko’s aunt make?",
+              "answer": "She makes clothes.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Reading about occupations ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Read short sentences carefully and identify the occupation and its advantage.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U4-L2-E2",
+              "type": "open",
+              "prompt": "Who grows vegetables?",
+              "answer": "Amina’s uncle grows vegetables.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U4, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "My aunt is a tailor. She makes clothes. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U4, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U4-L3",
@@ -394,28 +704,43 @@
           "objectives": [
             "Copy the advantages of occupations legibly."
           ],
-          "discover": "Think about the theme “Les métiers”. Listen, read or observe a short example before using English yourself.",
+          "discover": "At the workshop\nAmina: What does your aunt do?\nBiko: She is a tailor. She makes clothes.\nAmina: Does she work carefully?\nBiko: Yes. She measures the cloth carefully and cuts it slowly.\nAmina: My uncle is a farmer. He grows vegetables.",
           "learn": [
-            "Copy words and sentences accurately, leaving spaces and using capital letters where needed."
+            "My aunt is a tailor. She makes clothes.",
+            "Useful words: tailor = couturier/couturière; farmer = agriculteur/agricultrice; measure = mesurer; carefully = avec soin; slowly = lentement"
           ],
           "takeaway": "Copy words and sentences accurately, leaving spaces and using capital letters where needed.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Writing about occupations”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Copy words and sentences accurately, leaving spaces and using capital letters where needed.",
-              "explanation": "",
-              "type": "open"
-            },
-            {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Writing about occupations ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Copy words and sentences accurately, leaving spaces and using capital letters where needed.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U4-L3-E1",
+              "type": "open",
+              "prompt": "Write two short sentences using the model. Change the names or details.",
+              "answer": "My aunt is a tailor. She makes clothes.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U4, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "My aunt is a tailor. She makes clothes. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U4, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U4-L4",
@@ -423,28 +748,43 @@
           "objectives": [
             "Use opposites and form adverbs from adjectives to describe how things are done."
           ],
-          "discover": "Think about the theme “Les métiers”. Listen, read or observe a short example before using English yourself.",
+          "discover": "At the workshop\nAmina: What does your aunt do?\nBiko: She is a tailor. She makes clothes.\nAmina: Does she work carefully?\nBiko: Yes. She measures the cloth carefully and cuts it slowly.\nAmina: My uncle is a farmer. He grows vegetables.",
           "learn": [
-            "Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words."
+            "Careful is an adjective: She is careful. Carefully is an adverb: She cuts carefully. Slow → slowly; quick → quickly. Not every adverb ends in -ly: good → well. Opposites: clean/dirty, big/small, fast/slow.",
+            "Useful words: tailor = couturier/couturière; farmer = agriculteur/agricultrice; measure = mesurer; carefully = avec soin; slowly = lentement"
           ],
           "takeaway": "Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Opposites and adverbs”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words.",
-              "explanation": "",
-              "type": "open"
-            },
-            {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Opposites and adverbs ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Adverbs can tell how an action is done. Some are formed from adjectives; examples must be taught with age-appropriate words.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U4-L4-E1",
+              "type": "open",
+              "prompt": "Complete with careful or carefully: The tailor is ____. She works ____.",
+              "answer": "careful; carefully",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U4, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "Careful is an adjective: She is careful. Carefully is an adverb: She cuts carefully. Slow → slowly; quick → quickly. Not every adverb ends in -ly: good → well. Opposites: clean/dirty, big/small, fast/slow."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U4, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         }
       ],
       "assessment": {
@@ -482,7 +822,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de English Language développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "BA",
@@ -506,20 +847,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Comparer des activités de différents métiers » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U4-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Comparer des activités de différents métiers ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U4, pp.70-72.",
           "practical": [],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Parcours oral → lecture → écriture",
+              "kind": "method",
+              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
+            },
+            {
+              "title": "Travailler avec un locuteur compétent",
+              "kind": "activity",
+              "body": "À partir du thème « Les métiers », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Comparer des activités de différents métiers ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
+            },
+            {
+              "title": "Comparer sans mélanger",
+              "kind": "warning",
+              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, langues et cultures nationales, U4, pp.70-72.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -557,7 +923,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "MA",
@@ -570,7 +937,7 @@
           "objectives": [
             "Composer, décomposer, lire, écrire, encadrer et arrondir des entiers jusqu’à 7 000."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Nombres de 5 000 à 7 000 ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un menuisier vend une table à 6 348 F. Quelle somme représente le chiffre 3 ?",
           "learn": [
             "La valeur d’un chiffre dépend de sa position : milliers, centaines, dizaines, unités.",
             "Encadrer place un nombre entre deux repères ; arrondir donne une valeur proche selon la précision demandée."
@@ -578,21 +945,46 @@
           "takeaway": "La valeur d’un chiffre dépend de sa position : milliers, centaines, dizaines, unités.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Nombres de 5 000 à 7 000 » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La valeur d’un chiffre dépend de sa position : milliers, centaines, dizaines, unités. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L1-E1",
+              "type": "open",
+              "prompt": "Décompose 5 672 et arrondis-le à la centaine la plus proche.",
+              "answer": "5 000 + 600 + 70 + 2 ; 5 700.",
+              "explanation": "5 672 est à 28 de 5 700 et à 72 de 5 600."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Nombres de 5 000 à 7 000 ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La valeur d’un chiffre dépend de sa position : milliers, centaines, dizaines, unités.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L1-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "5 672 est à 28 de 5 700 et à 72 de 5 600.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U4, p.78.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "6 348 = 6 000 + 300 + 40 + 8. Le 3 est au rang des centaines : il vaut 300. À la centaine la plus proche, 6 348 devient 6 300 car il est à 48 de 6 300 et à 52 de 6 400. On encadre : 6 300 < 6 348 < 6 400."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U4, p.78.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U4-L2",
@@ -601,7 +993,7 @@
             "Multiplier une quantité par un nombre de deux chiffres.",
             "Vérifier une multiplication par la preuve par 9."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Multiplier par un nombre de deux chiffres et vérifier par 9 ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un atelier fabrique 24 objets par jour pendant 13 jours. Combien fabrique-t-il d’objets ?",
           "learn": [
             "Je pose correctement la multiplication et je contrôle l’ordre de grandeur avant la vérification.",
             "La preuve par 9 est un contrôle ; elle ne remplace pas le calcul."
@@ -609,21 +1001,46 @@
           "takeaway": "Je pose correctement la multiplication et je contrôle l’ordre de grandeur avant la vérification.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Multiplier par un nombre de deux chiffres et vérifier par 9 » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je pose correctement la multiplication et je contrôle l’ordre de grandeur avant la vérification. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L2-E1",
+              "type": "open",
+              "prompt": "Un artisan range 36 boutons dans chacun de 12 sachets. Combien de boutons range-t-il ?",
+              "answer": "432 boutons.",
+              "explanation": "36 × 12 = 36 × 10 + 36 × 2 = 360 + 72 = 432."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Multiplier par un nombre de deux chiffres et vérifier par 9 ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je pose correctement la multiplication et je contrôle l’ordre de grandeur avant la vérification.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L2-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "36 × 12 = 36 × 10 + 36 × 2 = 360 + 72 = 432.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U4, p.78.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "24 × 13 = 24 × (10 + 3). Le produit par 3 vaut 72 ; le produit par 10 vaut 240. On additionne 72 + 240 = 312 objets. Dans la multiplication posée, la ligne des dizaines est décalée d’un rang. Contrôle : 24 × 10 = 240 et 24 × 15 = 360 ; 312 est plausible. Preuve par 9 : 24 donne 6 et 13 donne 4 ; 6 × 4 = 24 donne 6. Le résultat 312 donne aussi 6. Une différence détecte une erreur ; une égalité ne prouve pas à elle seule que le calcul est juste."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U4, p.78.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U4-L3",
@@ -631,28 +1048,53 @@
           "objectives": [
             "Construire les tables de multiplication par 6, 7 et 8."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Tables de multiplication par 6, 7 et 8 ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une couturière pose 7 boutons sur chacune de 6 chemises. Compte sans additionner six fois 7.",
           "learn": [
             "Je relie multiplication et additions répétées, puis je mémorise progressivement les résultats."
           ],
           "takeaway": "Je relie multiplication et additions répétées, puis je mémorise progressivement les résultats.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Tables de multiplication par 6, 7 et 8 » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je relie multiplication et additions répétées, puis je mémorise progressivement les résultats. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L3-E1",
+              "type": "open",
+              "prompt": "Calcule 8 × 7 en utilisant 8 × 5, puis 6 × 9 en utilisant 6 × 10.",
+              "answer": "56 ; 54.",
+              "explanation": "8 × 7 = 40 + 16 = 56. 6 × 9 = 60 − 6 = 54."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Tables de multiplication par 6, 7 et 8 ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je relie multiplication et additions répétées, puis je mémorise progressivement les résultats.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L3-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "8 × 7 = 40 + 16 = 56. 6 × 9 = 60 − 6 = 54.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U4, p.78.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "6 × 7 = (5 × 7) + 7 = 35 + 7 = 42. Pour construire la table de 8 : 8 × 4 = 32, puis 8 × 5 = 32 + 8 = 40. Les produits augmentent toujours de 8. La commutativité permet de retrouver 7 × 6 à partir de 6 × 7."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U4, p.78.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U4-L4",
@@ -660,28 +1102,53 @@
           "objectives": [
             "Construire et appliquer les formules de calcul du périmètre du carré et du rectangle."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Périmètre du carré et du rectangle ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un jardin rectangulaire mesure 8 m de long et 5 m de large. Quelle longueur de clôture faut-il sans ouverture ?",
           "learn": [
             "Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur)."
           ],
           "takeaway": "Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur).",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Périmètre du carré et du rectangle » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur). L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L4-E1",
+              "type": "open",
+              "prompt": "Calcule le périmètre d’un rectangle de 9 cm sur 4 cm.",
+              "answer": "26 cm.",
+              "explanation": "2 × (9 + 4) = 2 × 13 = 26 cm. L’unité reste une longueur."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Périmètre du carré et du rectangle ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le périmètre est la longueur du contour. Carré : 4 × côté. Rectangle : 2 × (longueur + largeur).",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L4-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "2 × (9 + 4) = 2 × 13 = 26 cm. L’unité reste une longueur.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, U4, p.86.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Le périmètre est le tour, pas la surface. On additionne les quatre côtés : 8 + 5 + 8 + 5 = 26 m. On peut aussi calculer 2 × (8 + 5). Pour un carré de côté 6 m, les quatre côtés sont égaux : 4 × 6 = 24 m."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, mesures et grandeurs, U4, p.86.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U4-L5",
@@ -689,28 +1156,53 @@
           "objectives": [
             "Construire un triangle avec les instruments adaptés."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Construire un triangle ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour décorer une enseigne, trace un triangle dont les côtés mesurent 4 cm, 5 cm et 6 cm.",
           "learn": [
             "Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement."
           ],
           "takeaway": "Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Construire un triangle » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L5-E1",
+              "type": "open",
+              "prompt": "Trace un triangle de côtés 3 cm, 4 cm et 5 cm. Quels segments contrôles-tu ?",
+              "answer": "Un triangle dont les trois côtés mesurent 3 cm, 4 cm et 5 cm.",
+              "explanation": "Choisis 5 cm pour la base ; les rayons des arcs sont 3 cm et 4 cm. Vérifie avec une règle."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Construire un triangle ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un triangle a trois côtés et trois sommets. Je respecte les mesures données et je trace proprement.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L5-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "Choisis 5 cm pour la base ; les rayons des arcs sont 3 cm et 4 cm. Vérifie avec une règle.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, géométrie, U4, p.89.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Trace AB = 6 cm. Avec le compas, trace un arc de centre A et de rayon 4 cm. Trace un arc de centre B et de rayon 5 cm. Leur intersection est C. Relie A à C et B à C, puis mesure les trois côtés pour contrôler. Utilise le compas assis et sous la surveillance de l’adulte."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, géométrie, U4, p.89.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U4-L6",
@@ -719,7 +1211,7 @@
             "Reproduire des figures par rapport à un axe de symétrie ou par translation.",
             "Trouver l’axe de symétrie d’une figure."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Symétrie et translation ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur un quadrillage, une forme doit être retournée comme dans un miroir puis déplacée sans être tournée. Est-ce la même transformation ?",
           "learn": [
             "En symétrie axiale, les points correspondants sont à même distance de l’axe.",
             "Une translation déplace une figure sans la déformer."
@@ -727,21 +1219,46 @@
           "takeaway": "En symétrie axiale, les points correspondants sont à même distance de l’axe.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Symétrie et translation » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : En symétrie axiale, les points correspondants sont à même distance de l’axe. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L6-E1",
+              "type": "open",
+              "prompt": "Un point B est à un carreau à gauche d’un axe vertical. Où est son symétrique ? Puis décris une translation de deux carreaux vers le haut.",
+              "answer": "À un carreau à droite de l’axe, sur la même ligne. La translation déplace chaque point de deux carreaux vers le haut.",
+              "explanation": "La symétrie conserve la distance à l’axe ; la translation utilise le même déplacement pour tous les points."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Symétrie et translation ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : En symétrie axiale, les points correspondants sont à même distance de l’axe.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U4-L6-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "La symétrie conserve la distance à l’axe ; la translation utilise le même déplacement pour tous les points.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, géométrie, U4, p.89.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "La symétrie axiale place chaque point de l’autre côté de l’axe à la même distance. Si A est deux carreaux à gauche d’un axe vertical, son image est deux carreaux à droite, sur la même ligne. Une translation de trois carreaux vers la droite déplace tous les points de trois carreaux, sans tourner ni déformer la figure."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, géométrie, U4, p.89.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         }
       ],
       "assessment": {
@@ -779,7 +1296,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Mathématiques développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "SC",
@@ -803,18 +1321,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Alimentation équilibrée selon l’activité » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Alimentation équilibrée selon l’activité ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Alimentation équilibrée selon l’activité », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Alimentation équilibrée selon l’activité » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « alimentation équilibrée selon l’activité ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U4-L2",
@@ -833,18 +1381,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Respiration : maladies et hygiène » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Respiration : maladies et hygiène ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Respiration : maladies et hygiène », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Respiration : maladies et hygiène » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « respiration : maladies et hygiène ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U4-L3",
@@ -863,20 +1441,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Prévention du VIH/Sida à un niveau adapté » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Prévention du VIH/Sida à un niveau adapté ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
           "practical": [],
           "notes": [
             "Contenu santé à valider avec un référent pédagogique/santé ; éviter toute stigmatisation."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Prévention du VIH/Sida à un niveau adapté », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Prévention du VIH/Sida à un niveau adapté » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « prévention du vih/sida à un niveau adapté ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U4-L4",
@@ -894,18 +1502,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Enquêter sur le travail d’un artisan » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Enquêter sur le travail d’un artisan ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, technologies, U4, p.103.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Enquêter sur le travail d’un artisan », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Enquêter sur le travail d’un artisan » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « enquêter sur le travail d’un artisan ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, technologies, U4, p.103.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U4-L5",
@@ -924,20 +1562,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Conducteurs et isolants du courant électrique » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Conducteurs et isolants du courant électrique ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L5-E2"
             }
           ],
           "source": "Curriculum CE2, technologies, U4, p.103.",
           "practical": [],
           "notes": [
             "Sécurité : aucune expérimentation sur une prise secteur ; utiliser seulement des dispositifs scolaires basse tension sous supervision."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Conducteurs et isolants du courant électrique », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Conducteurs et isolants du courant électrique » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « conducteurs et isolants du courant électrique ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, technologies, U4, p.103.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U4-L6",
@@ -957,18 +1625,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Calendrier agricole, techniques culturales, jardin et élevage » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Calendrier agricole, techniques culturales, jardin et élevage ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L6-E2"
             }
           ],
           "source": "Curriculum CE2, sciences agropastorales, U4, p.106.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Calendrier agricole, techniques culturales, jardin et élevage », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Calendrier agricole, techniques culturales, jardin et élevage » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « calendrier agricole, techniques culturales, jardin et élevage ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences agropastorales, U4, p.106.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U4-L7",
@@ -987,18 +1685,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Action de l’homme et réchauffement climatique » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L7-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Action de l’homme et réchauffement climatique ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U4-L7-E2"
             }
           ],
           "source": "Curriculum CE2, environnement et développement durable, U4, p.108.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Action de l’homme et réchauffement climatique », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Action de l’homme et réchauffement climatique » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « action de l’homme et réchauffement climatique ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, environnement et développement durable, U4, p.108.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1036,7 +1764,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Sciences et technologies développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "TI",
@@ -1059,18 +1788,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Organiser le bureau de l’ordinateur » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U4-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Organiser le bureau de l’ordinateur ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, production avec les outils TIC, U4, p.113.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Organiser le bureau de l’ordinateur », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Organiser le bureau de l’ordinateur » et donne un exemple adapté au thème « Les métiers ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « Les métiers » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, production avec les outils TIC, U4, p.113.",
+            "reviewer": null
+          }
         },
         {
           "id": "TI-U4-L2",
@@ -1090,20 +1854,55 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Saisir et traiter un texte ; insérer un tableau » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U4-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Saisir et traiter un texte ; insérer un tableau ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production avec les outils TIC, U4, p.113.",
           "practical": [],
           "notes": [
             "Ne pas rendre la compétence dépendante d’un seul éditeur ; Word est l’exemple explicitement cité dans la source."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Saisir et traiter un texte ; insérer un tableau », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Saisir et traiter un texte ; insérer un tableau » et donne un exemple adapté au thème « Les métiers ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « Les métiers » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, production avec les outils TIC, U4, p.113.",
+            "reviewer": null
+          }
         },
         {
           "id": "TI-U4-L3",
@@ -1121,18 +1920,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité des TIC au travail » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U4-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité des TIC au travail ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, santé, sécurité et éthique TIC, U4, p.116.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Sécurité des TIC au travail », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Sécurité des TIC au travail » et donne un exemple adapté au thème « Les métiers ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « Les métiers » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, santé, sécurité et éthique TIC, U4, p.116.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1170,7 +2004,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de TIC développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "SH",
@@ -1193,18 +2028,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Honnêteté » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Honnêteté ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U4, p.123.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Honnêteté » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Honnêteté » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, éducation morale, U4, p.123.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L2",
@@ -1222,18 +2087,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Serviabilité » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Rendre service signifie aider de façon respectueuse sans exiger une récompense. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Serviabilité ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Rendre service signifie aider de façon respectueuse sans exiger une récompense.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U4, p.123.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Serviabilité » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Serviabilité » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Rendre service signifie aider de façon respectueuse sans exiger une récompense. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, éducation morale, U4, p.123.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L3",
@@ -1251,20 +2146,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Protection de l’enfant contre violence, maltraitance et exploitation » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Protection de l’enfant contre violence, maltraitance et exploitation ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’enfant, U4, p.126.",
           "practical": [],
           "notes": [
             "Ne pas demander aux enfants de raconter publiquement une expérience personnelle de violence."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Protection de l’enfant contre violence, maltraitance et exploitation » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Protection de l’enfant contre violence, maltraitance et exploitation » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, droits de l’enfant, U4, p.126.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L4",
@@ -1282,18 +2207,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Vivre ensemble dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vivre ensemble dans les lieux de travail ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U4, p.128.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Vivre ensemble dans les lieux de travail » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Vivre ensemble dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, paix et sécurité, U4, p.128.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L5",
@@ -1311,18 +2266,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité dans les lieux de travail ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L5-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U4, p.128.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Sécurité dans les lieux de travail » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Sécurité dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, paix et sécurité, U4, p.128.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L6",
@@ -1340,18 +2325,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Mettre en scène une élection » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Mettre en scène une élection ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L6-E2"
             }
           ],
           "source": "Curriculum CE2, citoyenneté, U4, p.130.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Mettre en scène une élection » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Mettre en scène une élection » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, citoyenneté, U4, p.130.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L7",
@@ -1369,18 +2384,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Règles dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les règles protègent les personnes, organisent les activités et définissent des comportements attendus. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L7-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Règles dans les lieux de travail ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les règles protègent les personnes, organisent les activités et définissent des comportements attendus.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L7-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U4, p.132.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Règles dans les lieux de travail » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Règles dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les règles protègent les personnes, organisent les activités et définissent des comportements attendus. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, règles et règlements, U4, p.132.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L8",
@@ -1399,18 +2444,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Peuplement du Cameroun et mouvements migratoires » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L8-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Peuplement du Cameroun et mouvements migratoires ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L8-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U4, p.135.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Peuplement du Cameroun et mouvements migratoires » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Peuplement du Cameroun et mouvements migratoires » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, histoire, U4, p.135.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L9",
@@ -1428,18 +2503,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Activités économiques du village » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les activités économiques fournissent des biens, des services, des revenus et des échanges dans la communauté. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L9-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Activités économiques du village ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les activités économiques fournissent des biens, des services, des revenus et des échanges dans la communauté.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L9-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U4, p.139.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Activités économiques du village » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Activités économiques du village » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les activités économiques fournissent des biens, des services, des revenus et des échanges dans la communauté. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, géographie économique, U4, p.139.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L10",
@@ -1458,18 +2563,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Commerce intérieur et extérieur » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le commerce intérieur se déroule à l’intérieur du pays ; le commerce extérieur concerne des échanges avec d’autres pays. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L10-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Commerce intérieur et extérieur ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le commerce intérieur se déroule à l’intérieur du pays ; le commerce extérieur concerne des échanges avec d’autres pays.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L10-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U4, p.139.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Commerce intérieur et extérieur » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Commerce intérieur et extérieur » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le commerce intérieur se déroule à l’intérieur du pays ; le commerce extérieur concerne des échanges avec d’autres pays. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, géographie économique, U4, p.139.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U4-L11",
@@ -1488,18 +2623,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Agriculture et principaux produits commercialisés » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les productions agricoles varient selon les régions et les conditions du milieu ; les cartes et exemples doivent être validés. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L11-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Agriculture et principaux produits commercialisés ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les productions agricoles varient selon les régions et les conditions du milieu ; les cartes et exemples doivent être validés.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U4-L11-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U4, p.139.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Agriculture et principaux produits commercialisés » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Agriculture et principaux produits commercialisés » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les productions agricoles varient selon les régions et les conditions du milieu ; les cartes et exemples doivent être validés. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, géographie économique, U4, p.139.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1537,7 +2702,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Sciences humaines et sociales développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "AR",
@@ -1560,18 +2726,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Peinture et tableaux » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U4-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Peinture et tableaux ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, arts visuels, U4, p.144.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Peinture et tableaux », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les métiers ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, arts visuels, U4, p.144.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U4-L2",
@@ -1589,18 +2780,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Figurines par modelage » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je modèle progressivement les volumes avec un matériau propre et adapté. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U4-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Figurines par modelage ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je modèle progressivement les volumes avec un matériau propre et adapté.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, arts visuels, U4, p.144.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Figurines par modelage », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les métiers ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, arts visuels, U4, p.144.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U4-L3",
@@ -1618,18 +2834,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Lire des notes simples en 2, 3 et 4 temps » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U4-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire des notes simples en 2, 3 et 4 temps ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U4, p.146.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Lire des notes simples en 2, 3 et 4 temps », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les métiers ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, musique, U4, p.146.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U4-L4",
@@ -1647,18 +2888,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Danse moderne » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U4-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Danse moderne ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U4, p.149.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Danse moderne », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les métiers ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, danse, U4, p.149.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1696,7 +2962,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "EP",
@@ -1721,18 +2988,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Principes et règles élémentaires du football » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U4-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Principes et règles élémentaires du football ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U4, pp.155-156.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer le corps",
+              "kind": "method",
+              "body": "Avant l’activité « Principes et règles élémentaires du football », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
+            },
+            {
+              "title": "Apprendre le geste en étapes",
+              "kind": "activity",
+              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
+            },
+            {
+              "title": "Sécurité et respect",
+              "kind": "warning",
+              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sports collectifs, U4, pp.155-156.",
+            "reviewer": null
+          }
         },
         {
           "id": "EP-U4-L2",
@@ -1751,20 +3043,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Se déplacer, passer et recevoir au football » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U4-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Se déplacer, passer et recevoir au football ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U4, pp.155-156.",
           "practical": [
             "Échauffement, espace dégagé, ballon adapté à l’âge et consignes de sécurité."
           ],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer le corps",
+              "kind": "method",
+              "body": "Avant l’activité « Se déplacer, passer et recevoir au football », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
+            },
+            {
+              "title": "Apprendre le geste en étapes",
+              "kind": "activity",
+              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
+            },
+            {
+              "title": "Sécurité et respect",
+              "kind": "warning",
+              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sports collectifs, U4, pp.155-156.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1802,7 +3119,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "DP",
@@ -1825,18 +3143,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Tissage / vannerie » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Tissage / vannerie ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, artisanat et constructions artistiques, U4, p.162.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Tissage / vannerie », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, artisanat et constructions artistiques, U4, p.162.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U4-L2",
@@ -1855,20 +3198,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Outils et techniques culturales » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Outils et techniques culturales ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U4, p.163.",
           "practical": [],
           "notes": [
             "Outils uniquement sous supervision adulte."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Outils et techniques culturales », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités agropastorales, U4, p.163.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U4-L3",
@@ -1887,18 +3255,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Cultiver un jardin scolaire et élever un animal » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Cultiver un jardin scolaire et élever un animal ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U4, p.163.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Cultiver un jardin scolaire et élever un animal », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités agropastorales, U4, p.163.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U4-L4",
@@ -1916,20 +3309,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Tricotage avec aiguilles » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Tricotage avec aiguilles ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U4, p.166.",
           "practical": [],
           "notes": [
             "Matériel potentiellement piquant : supervision adulte obligatoire."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Tricotage avec aiguilles », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités domestiques et familiales, U4, p.166.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U4-L5",
@@ -1947,20 +3365,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Broderie au point de bourdon » et donne un exemple adapté au thème « Les métiers ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Broderie au point de bourdon ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U4-L5-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U4, p.166.",
           "practical": [],
           "notes": [
             "Aiguille sous supervision adulte."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Broderie au point de bourdon », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités domestiques et familiales, U4, p.166.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1998,7 +3441,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     }
   ],
   "integration_project": {

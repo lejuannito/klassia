@@ -1,12 +1,12 @@
 {
   "format": "klassia-qcm-bank",
-  "version": 2,
+  "version": "15.0",
   "metadata": {
     "class": "CE2",
     "unit": 5,
     "center_of_interest": "Les voyages",
     "essential_questions": 50,
-    "complementary_questions": 146,
+    "complementary_questions": 101,
     "deduplicated_exact_questions": 0,
     "editorial_note": "La banque complémentaire provient du prototype historique et doit rester soumise à revue pédagogique avant publication."
   },
@@ -20,65 +20,80 @@
       "titre": "Klassia CE2 - Unité 5 - Français et littérature",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Présenter clairement ses idées pendant un voyage » ?",
+          "enonce": "Dans « Le car roule vite », quelle est la classe du mot « vite » ?",
           "choix": [
-            "Je prépare mon idée principale, je parle distinctement et j’adapte mes mots à la situation.",
-            "Le but du texte aide à reconnaître sa nature : raconter, décrire, informer, expliquer, donner des consignes ou défendre une idée.",
-            "Je résume sans raconter tous les détails et je justifie mon avis avec le texte.",
-            "Les mots variables changent parfois de forme ; les mots invariables gardent leur forme."
+            "adverbe",
+            "adjectif",
+            "nom",
+            "verbe"
           ],
           "bonne": 0,
-          "corrige": "Je prépare mon idée principale, je parle distinctement et j’adapte mes mots à la situation."
+          "corrige": "« Vite » précise le verbe « roule » et ne change jamais : c'est un adverbe.",
+          "methode": "Un adverbe est invariable et précise souvent un verbe.",
+          "id": "U5-FR-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Reconnaître les principaux types d’écrits » ?",
+          "enonce": "Quel mot est une préposition ?",
           "choix": [
-            "Je résume sans raconter tous les détails et je justifie mon avis avec le texte.",
-            "Le but du texte aide à reconnaître sa nature : raconter, décrire, informer, expliquer, donner des consignes ou défendre une idée.",
-            "Les mots variables changent parfois de forme ; les mots invariables gardent leur forme.",
-            "L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés."
-          ],
-          "bonne": 1,
-          "corrige": "Le but du texte aide à reconnaître sa nature : raconter, décrire, informer, expliquer, donner des consignes ou défendre une idée."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Lire une aventure de voyage et rendre compte de sa lecture » ?",
-          "choix": [
-            "Les mots variables changent parfois de forme ; les mots invariables gardent leur forme.",
-            "L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés.",
-            "Je résume sans raconter tous les détails et je justifie mon avis avec le texte.",
-            "Voyage, trajet, départ, arrivée, route, gare, billet, bagage, passager appartiennent au champ lexical du voyage selon le contexte."
-          ],
-          "bonne": 2,
-          "corrige": "Je résume sans raconter tous les détails et je justifie mon avis avec le texte."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Classes de mots variables et invariables » ?",
-          "choix": [
-            "L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés.",
-            "Voyage, trajet, départ, arrivée, route, gare, billet, bagage, passager appartiennent au champ lexical du voyage selon le contexte.",
-            "La prononciation et l’orthographe de certaines lettres changent selon les lettres voisines.",
-            "Les mots variables changent parfois de forme ; les mots invariables gardent leur forme."
-          ],
-          "bonne": 3,
-          "corrige": "Les mots variables changent parfois de forme ; les mots invariables gardent leur forme."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Adjectif épithète et adjectif attribut » ?",
-          "choix": [
-            "L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés.",
-            "Voyage, trajet, départ, arrivée, route, gare, billet, bagage, passager appartiennent au champ lexical du voyage selon le contexte.",
-            "La prononciation et l’orthographe de certaines lettres changent selon les lettres voisines.",
-            "L’infinitif est la forme de référence du verbe."
+            "vers",
+            "mais",
+            "très",
+            "valise"
           ],
           "bonne": 0,
-          "corrige": "L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés."
+          "corrige": "« Vers » introduit un complément : vers Kribi. C'est une préposition.",
+          "methode": "Prépositions : à, de, dans, sur, vers, pour…",
+          "id": "U5-FR-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quel mot est une conjonction de coordination ?",
+          "choix": [
+            "mais",
+            "vers",
+            "souvent",
+            "celui"
+          ],
+          "bonne": 0,
+          "corrige": "Mais, ou, et, donc, or, ni, car sont les conjonctions de coordination.",
+          "methode": "Pense à la phrase « Mais où est donc Ornicar ? ».",
+          "id": "U5-FR-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quel mot est un pronom possessif ?",
+          "choix": [
+            "le mien",
+            "mon",
+            "celui-ci",
+            "très"
+          ],
+          "bonne": 0,
+          "corrige": "« Le mien » remplace un nom (mon sac) : c'est un pronom possessif.",
+          "methode": "« Mon » est un déterminant, il accompagne un nom.",
+          "id": "U5-FR-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quel mot est un pronom démonstratif ?",
+          "choix": [
+            "celle-ci",
+            "cette",
+            "la mienne",
+            "ma"
+          ],
+          "bonne": 0,
+          "corrige": "« Celle-ci » remplace un nom et sert à montrer.",
+          "methode": "« Cette » est un déterminant : il est toujours suivi d'un nom.",
+          "id": "U5-FR-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "FR",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -90,65 +105,80 @@
       "titre": "Klassia CE2 - Unité 5 - English Language",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Recounting a short journey » ?",
+          "enonce": "Which word helps you tell the end of a journey?",
           "choix": [
-            "Tell the journey in a simple order: departure, travel and arrival.",
-            "Read words, sentences and numbers clearly.",
-            "Write legibly and keep the order of the journey.",
-            "Choose a pronoun that fits the sentence and the person or thing referred to."
+            "Finally",
+            "First",
+            "Then",
+            "Next"
           ],
           "bonne": 0,
-          "corrige": "Tell the journey in a simple order: departure, travel and arrival."
+          "corrige": "First, Then, Next, After that, Finally: Finally comes at the end.",
+          "methode": "Finally = enfin.",
+          "id": "U5-EN-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Reading a short journey and numbers » ?",
+          "enonce": "Put in order: (1) Then the bus left. (2) Finally, we arrived. (3) First, we bought our tickets.",
           "choix": [
-            "Write legibly and keep the order of the journey.",
-            "Read words, sentences and numbers clearly.",
-            "Choose a pronoun that fits the sentence and the person or thing referred to.",
-            "Tell the journey in a simple order: departure, travel and arrival."
-          ],
-          "bonne": 1,
-          "corrige": "Read words, sentences and numbers clearly."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Writing a short journey and numbers » ?",
-          "choix": [
-            "Choose a pronoun that fits the sentence and the person or thing referred to.",
-            "Tell the journey in a simple order: departure, travel and arrival.",
-            "Write legibly and keep the order of the journey.",
-            "Read words, sentences and numbers clearly."
-          ],
-          "bonne": 2,
-          "corrige": "Write legibly and keep the order of the journey."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Pronouns for travel sentences » ?",
-          "choix": [
-            "Tell the journey in a simple order: departure, travel and arrival.",
-            "Read words, sentences and numbers clearly.",
-            "Write legibly and keep the order of the journey.",
-            "Choose a pronoun that fits the sentence and the person or thing referred to."
-          ],
-          "bonne": 3,
-          "corrige": "Choose a pronoun that fits the sentence and the person or thing referred to."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Recounting a short journey » ?",
-          "choix": [
-            "Tell the journey in a simple order: departure, travel and arrival.",
-            "Read words, sentences and numbers clearly.",
-            "Write legibly and keep the order of the journey.",
-            "Choose a pronoun that fits the sentence and the person or thing referred to."
+            "3 – 1 – 2",
+            "1 – 2 – 3",
+            "2 – 3 – 1",
+            "3 – 2 – 1"
           ],
           "bonne": 0,
-          "corrige": "Tell the journey in a simple order: departure, travel and arrival."
+          "corrige": "First, we bought our tickets. Then the bus left. Finally, we arrived.",
+          "methode": "First → Then → Finally.",
+          "id": "U5-EN-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Complete: Last holiday, I … to Kribi by bus. (travel)",
+          "choix": [
+            "travelled",
+            "travel",
+            "will travel",
+            "travelling"
+          ],
+          "bonne": 0,
+          "corrige": "We tell a past journey in the simple past: travelled.",
+          "methode": "Last holiday = passé.",
+          "id": "U5-EN-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "How did Grace travel to Buea?",
+          "choix": [
+            "by car",
+            "by train",
+            "by plane",
+            "on foot"
+          ],
+          "bonne": 0,
+          "corrige": "They went by car.",
+          "methode": "Relis la deuxième phrase du texte.",
+          "id": "U5-EN-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "How do you write 304 in words?",
+          "choix": [
+            "three hundred and four",
+            "three hundred and forty",
+            "three hundred and fourteen",
+            "four hundred and three"
+          ],
+          "bonne": 0,
+          "corrige": "304 = three hundred and four.",
+          "methode": "Le zéro des dizaines : three hundred and four.",
+          "id": "U5-EN-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "EN",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -168,7 +198,9 @@
             "La bonne méthode consiste à ignorer les consignes et les exemples."
           ],
           "bonne": 0,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U5-BA-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle affirmation correspond le mieux à la leçon « Expliquer le choix d’un moyen de locomotion » ?",
@@ -179,7 +211,9 @@
             "La bonne méthode consiste à ignorer les consignes et les exemples."
           ],
           "bonne": 1,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U5-BA-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle affirmation correspond le mieux à la leçon « Expliquer le choix d’un moyen de locomotion » ?",
@@ -190,7 +224,9 @@
             "La bonne méthode consiste à ignorer les consignes et les exemples."
           ],
           "bonne": 2,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U5-BA-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle affirmation correspond le mieux à la leçon « Expliquer le choix d’un moyen de locomotion » ?",
@@ -201,7 +237,9 @@
             "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
           ],
           "bonne": 3,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U5-BA-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle affirmation correspond le mieux à la leçon « Expliquer le choix d’un moyen de locomotion » ?",
@@ -212,14 +250,17 @@
             "La bonne méthode consiste à ignorer les consignes et les exemples."
           ],
           "bonne": 0,
-          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+          "corrige": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "id": "U5-BA-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "BA",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
       "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
-      "source_bank": "KLASSIA_STRUCTURED_V1"
+      "source_bank": "KLASSIA_STRUCTURED_V1",
+      "editorial_status": "linguistic_review_required"
     },
     {
       "id": "CE2-U5-MA",
@@ -230,65 +271,80 @@
       "titre": "Klassia CE2 - Unité 5 - Mathématiques",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Nombres de 7 000 à 8 000 et droite graduée » ?",
+          "enonce": "48 × 100 = ?",
           "choix": [
-            "Je décompose selon les milliers, centaines, dizaines et unités et je respecte l’échelle de la droite graduée.",
-            "Un nombre pair se termine par 0, 2, 4, 6 ou 8.",
-            "Je pars de la formule du périmètre et j’utilise les informations connues pour retrouver la dimension manquante.",
-            "1 heure = 60 minutes. Une demi-heure = 30 minutes ; un quart d’heure = 15 minutes."
+            "4 800",
+            "480",
+            "48 000",
+            "4 080"
           ],
           "bonne": 0,
-          "corrige": "Je décompose selon les milliers, centaines, dizaines et unités et je respecte l’échelle de la droite graduée."
+          "corrige": "On écrit deux 0 à droite : 4 800.",
+          "methode": "× 100 : deux zéros.",
+          "id": "U5-MA-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Multiplier par 10 et 100 ; nombres pairs et impairs » ?",
+          "enonce": "790 × 10 = ?",
           "choix": [
-            "Je pars de la formule du périmètre et j’utilise les informations connues pour retrouver la dimension manquante.",
-            "Un nombre pair se termine par 0, 2, 4, 6 ou 8.",
-            "1 heure = 60 minutes. Une demi-heure = 30 minutes ; un quart d’heure = 15 minutes.",
-            "Je compare l’ouverture de l’angle à l’angle droit pour distinguer les cas étudiés."
-          ],
-          "bonne": 1,
-          "corrige": "Un nombre pair se termine par 0, 2, 4, 6 ou 8."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Retrouver les dimensions à partir du périmètre » ?",
-          "choix": [
-            "1 heure = 60 minutes. Une demi-heure = 30 minutes ; un quart d’heure = 15 minutes.",
-            "Je compare l’ouverture de l’angle à l’angle droit pour distinguer les cas étudiés.",
-            "Je pars de la formule du périmètre et j’utilise les informations connues pour retrouver la dimension manquante.",
-            "Je repère les données utiles, choisis l’opération, calcule et vérifie si la réponse est plausible."
-          ],
-          "bonne": 2,
-          "corrige": "Je pars de la formule du périmètre et j’utilise les informations connues pour retrouver la dimension manquante."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Lire l’heure et convertir heures/minutes » ?",
-          "choix": [
-            "Je compare l’ouverture de l’angle à l’angle droit pour distinguer les cas étudiés.",
-            "Je repère les données utiles, choisis l’opération, calcule et vérifie si la réponse est plausible.",
-            "Je décompose selon les milliers, centaines, dizaines et unités et je respecte l’échelle de la droite graduée.",
-            "1 heure = 60 minutes. Une demi-heure = 30 minutes ; un quart d’heure = 15 minutes."
-          ],
-          "bonne": 3,
-          "corrige": "1 heure = 60 minutes. Une demi-heure = 30 minutes ; un quart d’heure = 15 minutes."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Identifier et tracer des angles » ?",
-          "choix": [
-            "Je compare l’ouverture de l’angle à l’angle droit pour distinguer les cas étudiés.",
-            "Je repère les données utiles, choisis l’opération, calcule et vérifie si la réponse est plausible.",
-            "Je décompose selon les milliers, centaines, dizaines et unités et je respecte l’échelle de la droite graduée.",
-            "Un nombre pair se termine par 0, 2, 4, 6 ou 8."
+            "7 900",
+            "790",
+            "79 000",
+            "7 090"
           ],
           "bonne": 0,
-          "corrige": "Je compare l’ouverture de l’angle à l’angle droit pour distinguer les cas étudiés."
+          "corrige": "On écrit un 0 à droite : 7 900.",
+          "methode": "× 10 : un zéro.",
+          "id": "U5-MA-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quel nombre est pair ?",
+          "choix": [
+            "7 996",
+            "7 509",
+            "7 861",
+            "7 001"
+          ],
+          "bonne": 0,
+          "corrige": "7 996 se termine par 6.",
+          "methode": "Pair : chiffre des unités 0, 2, 4, 6 ou 8.",
+          "id": "U5-MA-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quel nombre est impair ?",
+          "choix": [
+            "7 345",
+            "7 998",
+            "8 000",
+            "7 456"
+          ],
+          "bonne": 0,
+          "corrige": "7 345 se termine par 5.",
+          "methode": "Impair : chiffre des unités 1, 3, 5, 7 ou 9.",
+          "id": "U5-MA-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Droite graduée de 100 en 100 qui commence à 7 000 : quel nombre est sur la 3e graduation ?",
+          "choix": [
+            "7 300",
+            "7 030",
+            "7 003",
+            "10 000"
+          ],
+          "bonne": 0,
+          "corrige": "7 000 + 3 × 100 = 7 300.",
+          "methode": "Ajoute le pas à chaque graduation.",
+          "id": "U5-MA-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "MA",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -300,65 +356,80 @@
       "titre": "Klassia CE2 - Unité 5 - Sciences et technologies",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Effets des parasites sur la santé de l’enfant » ?",
+          "enonce": "Qu'est-ce qu'un parasite ?",
           "choix": [
-            "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés.",
-            "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse.",
-            "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
+            "un être vivant qui vit sur ou dans un autre et se nourrit à ses dépens",
+            "un animal domestique",
+            "une plante qui fabrique sa nourriture",
+            "un vaccin"
           ],
           "bonne": 0,
-          "corrige": "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés."
+          "corrige": "Le parasite vit aux dépens d'un autre être vivant, comme les vers dans l'intestin.",
+          "methode": "Il prend sans rien donner.",
+          "id": "U5-SC-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Fonctionnement d’un moteur à deux temps » ?",
+          "enonce": "Lequel est un parasite intestinal ?",
           "choix": [
-            "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication.",
-            "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse.",
-            "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
-          ],
-          "bonne": 1,
-          "corrige": "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Aires protégées du Cameroun » ?",
-          "choix": [
-            "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés.",
-            "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse.",
-            "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
-          ],
-          "bonne": 2,
-          "corrige": "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Effets des parasites sur la santé de l’enfant » ?",
-          "choix": [
-            "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse.",
-            "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés."
-          ],
-          "bonne": 3,
-          "corrige": "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Fonctionnement d’un moteur à deux temps » ?",
-          "choix": [
-            "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse.",
-            "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication.",
-            "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
+            "l'ascaris",
+            "le pou",
+            "la puce chique",
+            "la gale"
           ],
           "bonne": 0,
-          "corrige": "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse."
+          "corrige": "L'ascaris est un ver qui vit dans l'intestin.",
+          "methode": "Intestin : vers et amibes ; peau : poux, gale, chiques.",
+          "id": "U5-SC-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Lequel est un parasite de la peau ?",
+          "choix": [
+            "la gale",
+            "l'ascaris",
+            "le ténia",
+            "l'amibe"
+          ],
+          "bonne": 0,
+          "corrige": "La gale donne des boutons qui grattent surtout la nuit.",
+          "methode": "Ascaris, ténia, amibe : intestin.",
+          "id": "U5-SC-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Comment attrape-t-on les vers intestinaux ?",
+          "choix": [
+            "avec des mains sales ou de l'eau non potable",
+            "en dormant sous moustiquaire",
+            "en se lavant les mains",
+            "en portant des chaussures"
+          ],
+          "bonne": 0,
+          "corrige": "Les œufs de vers entrent par la bouche avec les mains sales, l'eau ou les fruits non lavés.",
+          "methode": "Les trois autres gestes protègent.",
+          "id": "U5-SC-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quel est un effet des vers intestinaux sur l'enfant ?",
+          "choix": [
+            "la fatigue et le manque d'attention",
+            "une meilleure mémoire",
+            "une croissance plus rapide",
+            "plus de force"
+          ],
+          "bonne": 0,
+          "corrige": "Les vers prennent une partie de la nourriture : l'enfant est fatigué, anémié et a du mal à se concentrer.",
+          "methode": "Le parasite vit à ses dépens.",
+          "id": "U5-SC-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "SC",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -370,65 +441,80 @@
       "titre": "Klassia CE2 - Unité 5 - TIC",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Créer un tableau et calculer avec un tableur » ?",
+          "enonce": "Qu'est-ce qu'internet ?",
           "choix": [
-            "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées.",
-            "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
+            "un immense réseau qui relie des ordinateurs et des téléphones du monde entier",
+            "un logiciel de dessin",
+            "une partie du clavier",
+            "un câble électrique"
           ],
           "bonne": 0,
-          "corrige": "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées."
+          "corrige": "Sur internet, on trouve des sites avec des textes, des images et des vidéos.",
+          "methode": "Réseau mondial.",
+          "id": "U5-TI-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Sécurité des TIC pendant un voyage » ?",
+          "enonce": "Comment s'appelle le logiciel qui affiche les sites internet ?",
           "choix": [
-            "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées.",
-            "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
-          ],
-          "bonne": 1,
-          "corrige": "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Créer un tableau et calculer avec un tableur » ?",
-          "choix": [
-            "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
-          ],
-          "bonne": 2,
-          "corrige": "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Sécurité des TIC pendant un voyage » ?",
-          "choix": [
-            "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation.",
-            "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes."
-          ],
-          "bonne": 3,
-          "corrige": "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Créer un tableau et calculer avec un tableur » ?",
-          "choix": [
-            "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées.",
-            "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
+            "le navigateur",
+            "le traitement de texte",
+            "l'antivirus",
+            "la corbeille"
           ],
           "bonne": 0,
-          "corrige": "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées."
+          "corrige": "Il faut un appareil, une connexion et un navigateur.",
+          "methode": "On navigue sur internet.",
+          "id": "U5-TI-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Que faut-il pour aller sur internet ?",
+          "choix": [
+            "un appareil, une connexion et un navigateur",
+            "seulement une imprimante",
+            "seulement une souris",
+            "un pot de peinture"
+          ],
+          "bonne": 0,
+          "corrige": "Ordinateur, tablette ou téléphone + réseau mobile ou wifi + navigateur.",
+          "methode": "Trois éléments.",
+          "id": "U5-TI-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Que signifie souvent la fin « .cm » d'une adresse de site ?",
+          "choix": [
+            "un site camerounais",
+            "un site de cinéma",
+            "un site de calcul mental",
+            "un site interdit"
+          ],
+          "bonne": 0,
+          "corrige": ".cm est l'extension du Cameroun.",
+          "methode": "cm comme Cameroun.",
+          "id": "U5-TI-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Avec qui un enfant fait-il des recherches sur internet ?",
+          "choix": [
+            "avec un adulte",
+            "seul la nuit",
+            "avec un inconnu",
+            "avec personne"
+          ],
+          "bonne": 0,
+          "corrige": "Les recherches se font avec l'enseignant ou un parent, sur des sites choisis.",
+          "methode": "Toujours accompagné.",
+          "id": "U5-TI-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "TI",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -440,65 +526,80 @@
       "titre": "Klassia CE2 - Unité 5 - Sciences humaines et sociales",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Respecter l’opinion d’autrui » ?",
+          "enonce": "Qu'est-ce qu'une opinion ?",
           "choix": [
-            "Une opinion est un point de vue ; je peux ne pas être d’accord tout en respectant la personne.",
-            "Je respecte les autres voyageurs, les files, les règles et les espaces communs.",
-            "Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent.",
-            "Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication."
+            "ce qu'une personne pense d'une chose, son avis",
+            "un fait que l'on peut vérifier",
+            "une loi votée par le Parlement",
+            "une maladie"
           ],
           "bonne": 0,
-          "corrige": "Une opinion est un point de vue ; je peux ne pas être d’accord tout en respectant la personne."
+          "corrige": "Chacun a le droit d'avoir son opinion ; on l'exprime poliment, avec ses raisons.",
+          "methode": "Opinion = avis.",
+          "id": "U5-SH-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Vivre ensemble pendant les voyages » ?",
+          "enonce": "Laquelle de ces phrases est une opinion ?",
           "choix": [
-            "Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent.",
-            "Je respecte les autres voyageurs, les files, les règles et les espaces communs.",
-            "Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication.",
-            "Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation."
-          ],
-          "bonne": 1,
-          "corrige": "Je respecte les autres voyageurs, les files, les règles et les espaces communs."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Sécurité pendant les voyages » ?",
-          "choix": [
-            "Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication.",
-            "Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation.",
-            "Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent.",
-            "Cette leçon d’histoire doit s’appuyer sur une carte et des sources historiques validées, sans simplifier excessivement les contacts entre populations."
-          ],
-          "bonne": 2,
-          "corrige": "Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Institutions internationales pour l’éducation des enfants » ?",
-          "choix": [
-            "Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation.",
-            "Cette leçon d’histoire doit s’appuyer sur une carte et des sources historiques validées, sans simplifier excessivement les contacts entre populations.",
-            "L’analyse historique distingue les objectifs, les itinéraires, les effets et le contexte de l’époque à partir de sources fiables.",
-            "Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication."
-          ],
-          "bonne": 3,
-          "corrige": "Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Règles à respecter pendant les voyages » ?",
-          "choix": [
-            "Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation.",
-            "Cette leçon d’histoire doit s’appuyer sur une carte et des sources historiques validées, sans simplifier excessivement les contacts entre populations.",
-            "L’analyse historique distingue les objectifs, les itinéraires, les effets et le contexte de l’époque à partir de sources fiables.",
-            "Le climat se décrit sur une longue durée à partir de facteurs et d’observations comme températures et précipitations ; les saisons varient selon les régions."
+            "Le voyage en train est plus agréable qu'en car.",
+            "Yaoundé est la capitale du Cameroun.",
+            "Le train va de Douala à Ngaoundéré.",
+            "Kribi est au bord de la mer."
           ],
           "bonne": 0,
-          "corrige": "Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation."
+          "corrige": "Une opinion se discute ; un fait se vérifie.",
+          "methode": "Peut-on vérifier la phrase ?",
+          "id": "U5-SH-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Un camarade n'a pas le même avis que toi. Quelle est la bonne attitude ?",
+          "choix": [
+            "l'écouter jusqu'au bout et donner mon avis poliment",
+            "me moquer de lui",
+            "crier plus fort que lui",
+            "refuser de lui parler"
+          ],
+          "bonne": 0,
+          "corrige": "On écoute l'opinion d'autrui, on cherche ses raisons, puis on répond avec respect.",
+          "methode": "« Qui n'entend qu'une cloche n'entend qu'un son. »",
+          "id": "U5-SH-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Dans un car, quelle règle de sécurité faut-il respecter ?",
+          "choix": [
+            "attacher sa ceinture",
+            "se pencher par la fenêtre",
+            "distraire le chauffeur",
+            "voyager dans un car surchargé"
+          ],
+          "bonne": 0,
+          "corrige": "La ceinture protège en cas d'accident.",
+          "methode": "Les trois autres comportements sont dangereux.",
+          "id": "U5-SH-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Dans une pirogue ou un bateau, que faut-il porter ?",
+          "choix": [
+            "un gilet de sauvetage",
+            "un casque de moto",
+            "des bottes en caoutchouc",
+            "un manteau épais"
+          ],
+          "bonne": 0,
+          "corrige": "Le gilet de sauvetage permet de flotter si l'on tombe à l'eau.",
+          "methode": "Pense au risque de noyade.",
+          "id": "U5-SH-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "SH",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -510,65 +611,80 @@
       "titre": "Klassia CE2 - Unité 5 - Éducation artistique",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Lire des notes altérées » ?",
+          "enonce": "Qu'est-ce qu'un collage ?",
           "choix": [
-            "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples.",
-            "Je garde le rythme et maîtrise mes déplacements sans gêner les autres.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
+            "Une image faite en collant des morceaux de matériaux sur un support",
+            "Un dessin au crayon",
+            "Une chanson apprise par cœur",
+            "Une danse en cercle"
           ],
           "bonne": 0,
-          "corrige": "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples."
+          "corrige": "On assemble et on colle des morceaux de papier, tissu, feuilles…",
+          "methode": "",
+          "id": "U5-AR-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Danse moderne et déplacement » ?",
+          "enonce": "Quelle est la différence entre découper et déchirer ?",
           "choix": [
-            "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples.",
-            "Je garde le rythme et maîtrise mes déplacements sans gêner les autres.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
-          ],
-          "bonne": 1,
-          "corrige": "Je garde le rythme et maîtrise mes déplacements sans gêner les autres."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Lire des notes altérées » ?",
-          "choix": [
-            "Je garde le rythme et maîtrise mes déplacements sans gêner les autres.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
-          ],
-          "bonne": 2,
-          "corrige": "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Danse moderne et déplacement » ?",
-          "choix": [
-            "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation.",
-            "Je garde le rythme et maîtrise mes déplacements sans gêner les autres."
-          ],
-          "bonne": 3,
-          "corrige": "Je garde le rythme et maîtrise mes déplacements sans gêner les autres."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Lire des notes altérées » ?",
-          "choix": [
-            "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples.",
-            "Je garde le rythme et maîtrise mes déplacements sans gêner les autres.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
+            "Découper se fait aux ciseaux, déchirer se fait à la main",
+            "Découper se fait à la main, déchirer aux ciseaux",
+            "C'est la même chose",
+            "Déchirer se fait avec la colle"
           ],
           "bonne": 0,
-          "corrige": "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples."
+          "corrige": "Découper donne des bords nets ; déchirer donne des bords irréguliers.",
+          "methode": "",
+          "id": "U5-AR-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Combien de colle faut-il mettre ?",
+          "choix": [
+            "Peu, et bien appuyer",
+            "Beaucoup, partout sur la feuille",
+            "Pas du tout",
+            "Seulement sur ses doigts"
+          ],
+          "bonne": 0,
+          "corrige": "Un peu de colle suffit si l'on appuie bien.",
+          "methode": "",
+          "id": "U5-AR-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Comment passe-t-on des ciseaux à un camarade ?",
+          "choix": [
+            "Par le manche, pointes vers le bas",
+            "En les lançant",
+            "Pointes vers son visage",
+            "En courant"
+          ],
+          "bonne": 0,
+          "corrige": "On tient les pointes vers le bas et on tend le manche.",
+          "methode": "",
+          "id": "U5-AR-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Le chant d'un petit oiseau est un son :",
+          "choix": [
+            "Aigu",
+            "Grave",
+            "Long et très bas",
+            "Silencieux"
+          ],
+          "bonne": 0,
+          "corrige": "Un son aigu est haut et fin, comme le chant d'un petit oiseau.",
+          "methode": "",
+          "id": "U5-AR-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "AR",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -580,65 +696,80 @@
       "titre": "Klassia CE2 - Unité 5 - Éducation physique et sportive",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Principes et règles élémentaires du handball » ?",
+          "enonce": "Avant un lancer, où est mon bras de lancer ?",
           "choix": [
-            "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
+            "Tendu en arrière",
+            "Plié contre ma poitrine",
+            "Levé tout droit vers le ciel",
+            "Croisé devant mon ventre"
           ],
           "bonne": 0,
-          "corrige": "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+          "corrige": "Le bras tendu en arrière permet de lancer loin.",
+          "methode": "",
+          "id": "U5-EP-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Se déplacer, passer et recevoir au handball » ?",
+          "enonce": "Je lance avec le bras droit. Quel pied est devant ?",
           "choix": [
-            "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
-          ],
-          "bonne": 1,
-          "corrige": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Principes et règles élémentaires du handball » ?",
-          "choix": [
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
-          ],
-          "bonne": 2,
-          "corrige": "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Se déplacer, passer et recevoir au handball » ?",
-          "choix": [
-            "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation.",
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
-          ],
-          "bonne": 3,
-          "corrige": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Principes et règles élémentaires du handball » ?",
-          "choix": [
-            "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "Il suffit toujours de répondre au hasard sans observer la situation."
+            "Le pied gauche",
+            "Le pied droit",
+            "Les deux pieds sont joints",
+            "Aucun : je saute"
           ],
           "bonne": 0,
-          "corrige": "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+          "corrige": "Le pied opposé au bras de lancer est devant : bras droit, pied gauche devant.",
+          "methode": "",
+          "id": "U5-EP-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Dans quelle direction dois-je lancer pour aller loin ?",
+          "choix": [
+            "Vers le haut et vers l'avant",
+            "Droit vers le sol",
+            "Derrière moi",
+            "Sur le côté, très bas"
+          ],
+          "bonne": 0,
+          "corrige": "Je lance vers le haut et vers l'avant, le bras passe au-dessus de l'épaule.",
+          "methode": "",
+          "id": "U5-EP-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Mon pied dépasse la ligne de lancer. Que se passe-t-il ?",
+          "choix": [
+            "L'essai ne compte pas : c'est un essai nul",
+            "On ajoute 1 mètre à mon lancer",
+            "Je gagne le concours",
+            "Rien du tout"
+          ],
+          "bonne": 0,
+          "corrige": "Dépasser la ligne de lancer, c'est un essai nul.",
+          "methode": "",
+          "id": "U5-EP-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Quand peut-on aller ramasser les balles lancées ?",
+          "choix": [
+            "Au signal de l'enseignant, en marchant",
+            "Dès que sa balle est tombée, en courant",
+            "Pendant que les autres lancent",
+            "Jamais"
+          ],
+          "bonne": 0,
+          "corrige": "Personne ne va dans la zone de chute tant que tout le monde n'a pas lancé.",
+          "methode": "",
+          "id": "U5-EP-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "EP",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -650,65 +781,80 @@
       "titre": "Klassia CE2 - Unité 5 - Développement personnel",
       "questions": [
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Entretenir le jardin scolaire » ?",
+          "enonce": "Qu'est-ce qu'une maquette ?",
           "choix": [
-            "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux.",
-            "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte.",
-            "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
+            "La reproduction d'un objet en plus petit",
+            "Un objet plus grand que le vrai",
+            "Une liste de matériel",
+            "Un moyen de transport réel"
           ],
           "bonne": 0,
-          "corrige": "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux."
+          "corrige": "La maquette reproduit un car, une pirogue ou un train en petit.",
+          "methode": "",
+          "id": "U5-DP-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Entretenir un animal en élevage » ?",
+          "enonce": "Comment appelle-t-on la tige qui relie deux roues ?",
           "choix": [
-            "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau.",
-            "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte.",
-            "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
-          ],
-          "bonne": 1,
-          "corrige": "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Réaliser un menu pour la ration de croissance » ?",
-          "choix": [
-            "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux.",
-            "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte.",
-            "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
-          ],
-          "bonne": 2,
-          "corrige": "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Entretenir le jardin scolaire » ?",
-          "choix": [
-            "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte.",
-            "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante.",
-            "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux."
-          ],
-          "bonne": 3,
-          "corrige": "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux."
-        },
-        {
-          "enonce": "Quelle affirmation correspond le mieux à la leçon « Entretenir un animal en élevage » ?",
-          "choix": [
-            "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte.",
-            "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau.",
-            "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux.",
-            "Cette notion n’a aucune règle et ne s’applique jamais dans la vie courante."
+            "L'essieu",
+            "Le montant",
+            "Le chas",
+            "Le poquet"
           ],
           "bonne": 0,
-          "corrige": "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte."
+          "corrige": "L'essieu doit tourner librement pour que le véhicule roule.",
+          "methode": "",
+          "id": "U5-DP-ESSENTIELLE-2",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Ma maquette ne roule pas droit. Que dois-je faire ?",
+          "choix": [
+            "L'essayer, chercher le problème et la corriger",
+            "La jeter tout de suite",
+            "Dire qu'elle est parfaite",
+            "La peindre d'une autre couleur"
+          ],
+          "bonne": 0,
+          "corrige": "Les constructeurs essaient et corrigent leurs objets.",
+          "methode": "",
+          "id": "U5-DP-ESSENTIELLE-3",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Avant de construire une maquette, que fait le groupe ?",
+          "choix": [
+            "Un dessin du projet et la liste du matériel",
+            "Il commence à coller au hasard",
+            "Il attend que l'enseignant la construise",
+            "Il achète une maquette"
+          ],
+          "bonne": 0,
+          "corrige": "Le projet aide à savoir quoi faire et avec quoi.",
+          "methode": "",
+          "id": "U5-DP-ESSENTIELLE-4",
+          "editorial_status": "in_review"
+        },
+        {
+          "enonce": "Qu'est-ce que la pisciculture ?",
+          "choix": [
+            "L'élevage des poissons",
+            "L'élevage des poules",
+            "La culture du maïs",
+            "La fabrication des paniers"
+          ],
+          "bonne": 0,
+          "corrige": "Celui qui élève des poissons est le pisciculteur.",
+          "methode": "",
+          "id": "U5-DP-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "DP",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
-      "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
+      "description": "Cinq situations concrètes sélectionnées pour la revue pédagogique.",
       "source_bank": "KLASSIA_STRUCTURED_V1"
     },
     {
@@ -716,66 +862,6 @@
       "titre": "Unité 5 · Les voyages",
       "dureeMinutes": 18,
       "questions": [
-        {
-          "enonce": "Dans « Le car roule vite », quelle est la classe du mot « vite » ?",
-          "choix": [
-            "adverbe",
-            "adjectif",
-            "nom",
-            "verbe"
-          ],
-          "bonne": 0,
-          "corrige": "« Vite » précise le verbe « roule » et ne change jamais : c'est un adverbe.",
-          "methode": "Un adverbe est invariable et précise souvent un verbe."
-        },
-        {
-          "enonce": "Quel mot est une préposition ?",
-          "choix": [
-            "vers",
-            "mais",
-            "très",
-            "valise"
-          ],
-          "bonne": 0,
-          "corrige": "« Vers » introduit un complément : vers Kribi. C'est une préposition.",
-          "methode": "Prépositions : à, de, dans, sur, vers, pour…"
-        },
-        {
-          "enonce": "Quel mot est une conjonction de coordination ?",
-          "choix": [
-            "mais",
-            "vers",
-            "souvent",
-            "celui"
-          ],
-          "bonne": 0,
-          "corrige": "Mais, ou, et, donc, or, ni, car sont les conjonctions de coordination.",
-          "methode": "Pense à la phrase « Mais où est donc Ornicar ? »."
-        },
-        {
-          "enonce": "Quel mot est un pronom possessif ?",
-          "choix": [
-            "le mien",
-            "mon",
-            "celui-ci",
-            "très"
-          ],
-          "bonne": 0,
-          "corrige": "« Le mien » remplace un nom (mon sac) : c'est un pronom possessif.",
-          "methode": "« Mon » est un déterminant, il accompagne un nom."
-        },
-        {
-          "enonce": "Quel mot est un pronom démonstratif ?",
-          "choix": [
-            "celle-ci",
-            "cette",
-            "la mienne",
-            "ma"
-          ],
-          "bonne": 0,
-          "corrige": "« Celle-ci » remplace un nom et sert à montrer.",
-          "methode": "« Cette » est un déterminant : il est toujours suivi d'un nom."
-        },
         {
           "enonce": "Dans « La mer est immense », l'adjectif « immense » est…",
           "choix": [
@@ -786,7 +872,9 @@
           ],
           "bonne": 0,
           "corrige": "Il est séparé du nom par le verbe d'état « est » : il est attribut.",
-          "methode": "Y a-t-il un verbe d'état entre le nom et l'adjectif ?"
+          "methode": "Y a-t-il un verbe d'état entre le nom et l'adjectif ?",
+          "id": "U5-FR-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans « une pirogue rouge », l'adjectif « rouge » est…",
@@ -798,7 +886,9 @@
           ],
           "bonne": 0,
           "corrige": "Il est placé juste à côté du nom, sans verbe : il est épithète.",
-          "methode": "L'épithète est collé au nom."
+          "methode": "L'épithète est collé au nom.",
+          "id": "U5-FR-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel mot n'appartient pas au champ lexical du voyage ?",
@@ -810,7 +900,9 @@
           ],
           "bonne": 0,
           "corrige": "Le cartable appartient au champ lexical de l'école.",
-          "methode": "Cherche le mot qu'on n'emporte pas en voyage."
+          "methode": "Cherche le mot qu'on n'emporte pas en voyage.",
+          "id": "U5-FR-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur une carte postale, on écrit en haut…",
@@ -822,7 +914,9 @@
           ],
           "bonne": 0,
           "corrige": "Comme une lettre, la carte postale commence par le lieu et la date.",
-          "methode": "Regarde le modèle de Lina."
+          "methode": "Regarde le modèle de Lina.",
+          "id": "U5-FR-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complète : « un gar…on »",
@@ -834,7 +928,9 @@
           ],
           "bonne": 0,
           "corrige": "Devant o, il faut une cédille pour faire [s] : garçon.",
-          "methode": "c + a, o, u = [k] ; ç + a, o, u = [s]."
+          "methode": "c + a, o, u = [k] ; ç + a, o, u = [s].",
+          "id": "U5-FR-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complète : « nous voya…ons »",
@@ -846,7 +942,9 @@
           ],
           "bonne": 0,
           "corrige": "Devant o, on écrit ge pour garder le son [j] : voyageons.",
-          "methode": "g + a, o = [g] ; ge + a, o = [j]."
+          "methode": "g + a, o = [g] ; ge + a, o = [j].",
+          "id": "U5-FR-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complète : « un pa…ager »",
@@ -858,7 +956,9 @@
           ],
           "bonne": 0,
           "corrige": "Entre deux voyelles, un seul s fait [z] ; pour faire [s], on double : passager.",
-          "methode": "Pense à « valise » (un s) et « passager » (ss)."
+          "methode": "Pense à « valise » (un s) et « passager » (ss).",
+          "id": "U5-FR-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est l'infinitif de « ils choisissent » ?",
@@ -870,7 +970,9 @@
           ],
           "bonne": 0,
           "corrige": "L'infinitif est le nom du verbe : choisir.",
-          "methode": "Cherche la forme du dictionnaire."
+          "methode": "Cherche la forme du dictionnaire.",
+          "id": "U5-FR-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Futur simple : « Nous (finir) le voyage. »",
@@ -882,7 +984,9 @@
           ],
           "bonne": 0,
           "corrige": "Futur du 2e groupe : infinitif + -ons : nous finirons.",
-          "methode": "Garde l'infinitif entier, puis ajoute la terminaison."
+          "methode": "Garde l'infinitif entier, puis ajoute la terminaison.",
+          "id": "U5-FR-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Futur simple : « L'avion (atterrir) à Douala. »",
@@ -894,7 +998,9 @@
           ],
           "bonne": 0,
           "corrige": "Infinitif + -a : il atterrira.",
-          "methode": "-ai, -as, -a, -ons, -ez, -ont."
+          "methode": "-ai, -as, -a, -ons, -ez, -ont.",
+          "id": "U5-FR-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "La « destination » d'un voyage, c'est…",
@@ -906,7 +1012,9 @@
           ],
           "bonne": 0,
           "corrige": "La destination est le lieu où l'on se rend.",
-          "methode": "Kribi était la destination de Lina et Moussa."
+          "methode": "Kribi était la destination de Lina et Moussa.",
+          "id": "U5-FR-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce qui ouvre le cadenas du coffre de Ndoumbé ?",
@@ -918,7 +1026,9 @@
           ],
           "bonne": 0,
           "corrige": "Lina sort la clé du forgeron, elle tourne : clic !",
-          "methode": "Souviens-toi de l'objet trouvé dans l'épisode 4."
+          "methode": "Souviens-toi de l'objet trouvé dans l'épisode 4.",
+          "id": "U5-FR-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que contient le coffre ?",
@@ -930,7 +1040,9 @@
           ],
           "bonne": 0,
           "corrige": "Les enfants découvrent un jeu de songo en bois sculpté et un petit mot.",
-          "methode": "Relis la fin du texte."
+          "methode": "Relis la fin du texte.",
+          "id": "U5-FR-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-FR-U5-HIST",
@@ -949,66 +1061,6 @@
       "dureeMinutes": 19,
       "questions": [
         {
-          "enonce": "Which word helps you tell the end of a journey?",
-          "choix": [
-            "Finally",
-            "First",
-            "Then",
-            "Next"
-          ],
-          "bonne": 0,
-          "corrige": "First, Then, Next, After that, Finally: Finally comes at the end.",
-          "methode": "Finally = enfin."
-        },
-        {
-          "enonce": "Put in order: (1) Then the bus left. (2) Finally, we arrived. (3) First, we bought our tickets.",
-          "choix": [
-            "3 – 1 – 2",
-            "1 – 2 – 3",
-            "2 – 3 – 1",
-            "3 – 2 – 1"
-          ],
-          "bonne": 0,
-          "corrige": "First, we bought our tickets. Then the bus left. Finally, we arrived.",
-          "methode": "First → Then → Finally."
-        },
-        {
-          "enonce": "Complete: Last holiday, I … to Kribi by bus. (travel)",
-          "choix": [
-            "travelled",
-            "travel",
-            "will travel",
-            "travelling"
-          ],
-          "bonne": 0,
-          "corrige": "We tell a past journey in the simple past: travelled.",
-          "methode": "Last holiday = passé."
-        },
-        {
-          "enonce": "How did Grace travel to Buea?",
-          "choix": [
-            "by car",
-            "by train",
-            "by plane",
-            "on foot"
-          ],
-          "bonne": 0,
-          "corrige": "They went by car.",
-          "methode": "Relis la deuxième phrase du texte."
-        },
-        {
-          "enonce": "How do you write 304 in words?",
-          "choix": [
-            "three hundred and four",
-            "three hundred and forty",
-            "three hundred and fourteen",
-            "four hundred and three"
-          ],
-          "bonne": 0,
-          "corrige": "304 = three hundred and four.",
-          "methode": "Le zéro des dizaines : three hundred and four."
-        },
-        {
           "enonce": "How do you write 327 in words?",
           "choix": [
             "three hundred and twenty-seven",
@@ -1018,7 +1070,9 @@
           ],
           "bonne": 0,
           "corrige": "327 = three hundred and twenty-seven.",
-          "methode": "3 centaines, 2 dizaines, 7 unités."
+          "methode": "3 centaines, 2 dizaines, 7 unités.",
+          "id": "U5-EN-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "How do you write 349 in words?",
@@ -1030,7 +1084,9 @@
           ],
           "bonne": 0,
           "corrige": "349 = three hundred and forty-nine.",
-          "methode": "forty-nine prend un trait d'union."
+          "methode": "forty-nine prend un trait d'union.",
+          "id": "U5-EN-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Write in figures: three hundred and twelve.",
@@ -1042,7 +1098,9 @@
           ],
           "bonne": 0,
           "corrige": "three hundred and twelve = 312.",
-          "methode": "three hundred = 3 ; twelve = 12."
+          "methode": "three hundred = 3 ; twelve = 12.",
+          "id": "U5-EN-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Write in figures: three hundred and forty-one.",
@@ -1054,7 +1112,9 @@
           ],
           "bonne": 0,
           "corrige": "three hundred and forty-one = 341.",
-          "methode": "forty-one = 41."
+          "methode": "forty-one = 41.",
+          "id": "U5-EN-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Count on: 336, 337, 338, …",
@@ -1066,7 +1126,9 @@
           ],
           "bonne": 0,
           "corrige": "After 338 comes 339 (three hundred and thirty-nine).",
-          "methode": "On ajoute 1."
+          "methode": "On ajoute 1.",
+          "id": "U5-EN-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Interrogative pronoun: … is your teacher?",
@@ -1078,7 +1140,9 @@
           ],
           "bonne": 0,
           "corrige": "Who asks about a person.",
-          "methode": "Who = qui (une personne)."
+          "methode": "Who = qui (une personne).",
+          "id": "U5-EN-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "… shoes are these? — They are Paul's.",
@@ -1090,7 +1154,9 @@
           ],
           "bonne": 0,
           "corrige": "Whose asks about the owner.",
-          "methode": "Whose = à qui."
+          "methode": "Whose = à qui.",
+          "id": "U5-EN-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "This book belongs to me. It is …",
@@ -1102,7 +1168,9 @@
           ],
           "bonne": 0,
           "corrige": "Possessive pronoun: mine. (my goes before a noun: my book.)",
-          "methode": "mine = le mien."
+          "methode": "mine = le mien.",
+          "id": "U5-EN-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "This house belongs to my parents. It is …",
@@ -1114,7 +1182,9 @@
           ],
           "bonne": 0,
           "corrige": "Possessive pronoun for they: theirs.",
-          "methode": "theirs = le leur."
+          "methode": "theirs = le leur.",
+          "id": "U5-EN-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Reflexive pronoun: Paul cut … with a knife.",
@@ -1126,7 +1196,9 @@
           ],
           "bonne": 0,
           "corrige": "Paul = he → himself.",
-          "methode": "he → himself ; she → herself."
+          "methode": "he → himself ; she → herself.",
+          "id": "U5-EN-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Reflexive pronoun: We enjoyed … on the trip.",
@@ -1138,7 +1210,9 @@
           ],
           "bonne": 0,
           "corrige": "we → ourselves.",
-          "methode": "we → ourselves."
+          "methode": "we → ourselves.",
+          "id": "U5-EN-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Relative pronoun: The man … drives the bus is my uncle.",
@@ -1150,7 +1224,9 @@
           ],
           "bonne": 0,
           "corrige": "who is for people.",
-          "methode": "Personne → who ; chose → which."
+          "methode": "Personne → who ; chose → which.",
+          "id": "U5-EN-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Relative pronoun: The bus … goes to Garoua is full.",
@@ -1162,7 +1238,9 @@
           ],
           "bonne": 0,
           "corrige": "which is for things and animals.",
-          "methode": "Chose → which."
+          "methode": "Chose → which.",
+          "id": "U5-EN-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "What is the opposite of arrive?",
@@ -1174,7 +1252,9 @@
           ],
           "bonne": 0,
           "corrige": "arrive ≠ leave.",
-          "methode": "arriver ≠ partir."
+          "methode": "arriver ≠ partir.",
+          "id": "U5-EN-COMPLEMENTAIRE-14",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-EN-U5-HIST",
@@ -1202,7 +1282,9 @@
           ],
           "bonne": 0,
           "corrige": "Le ndolè est un plat de l'aire Sawa, autour de Douala.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le taro à la sauce jaune est un plat de quelle aire culturelle ?",
@@ -1214,7 +1296,9 @@
           ],
           "bonne": 0,
           "corrige": "On le mange sur les hauts plateaux de l'Ouest ; dans le Nord-Ouest, on dit achu.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce que le kossam ?",
@@ -1226,7 +1310,9 @@
           ],
           "bonne": 0,
           "corrige": "Le kossam est le lait caillé de l'aire soudano-sahélienne.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le nnam ngon est un plat de quelle aire culturelle ?",
@@ -1238,7 +1324,9 @@
           ],
           "bonne": 0,
           "corrige": "Le nnam ngon est fait de graines de courge, chez les Fang-Béti.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avec quelle céréale fait-on souvent le couscous dans le Nord ?",
@@ -1250,7 +1338,9 @@
           ],
           "bonne": 0,
           "corrige": "Le couscous de mil ou de maïs est un plat de l'aire soudano-sahélienne.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi les plats changent-ils d'une région à l'autre ?",
@@ -1262,7 +1352,9 @@
           ],
           "bonne": 0,
           "corrige": "Poisson près de la côte, taro sur les plateaux, mil et lait dans la savane.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quelle aire culturelle trouve-t-on la savane, les troupeaux et les lamidats ?",
@@ -1274,7 +1366,9 @@
           ],
           "bonne": 0,
           "corrige": "Le Nord est le pays de la savane et de l'élevage.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quelle aire culturelle se trouve le port de Douala ?",
@@ -1286,7 +1380,9 @@
           ],
           "bonne": 0,
           "corrige": "Douala est au bord du fleuve Wouri, près de la mer, dans l'aire Sawa.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Partager le repas de ses hôtes est une marque de :",
@@ -1298,7 +1394,9 @@
           ],
           "bonne": 0,
           "corrige": "Accepter le repas offert, c'est respecter ceux qui nous reçoivent.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans certaines langues, le mot d'un nombre change selon :",
@@ -1310,7 +1408,9 @@
           ],
           "bonne": 0,
           "corrige": "L'enseignant précise la règle de la langue de l'école.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-BA-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quelle aire culturelle appartient surtout la région du Sud ?",
@@ -1322,7 +1422,9 @@
           ],
           "bonne": 0,
           "corrige": "Fang-Béti : Centre, Sud, Est.",
-          "methode": "Revois le tableau des quatre aires culturelles."
+          "methode": "Revois le tableau des quatre aires culturelles.",
+          "id": "U5-BA-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quelle aire culturelle appartient surtout la région de l'Est ?",
@@ -1334,7 +1436,9 @@
           ],
           "bonne": 0,
           "corrige": "Fang-Béti : Centre, Sud, Est.",
-          "methode": "Revois le tableau des quatre aires culturelles."
+          "methode": "Revois le tableau des quatre aires culturelles.",
+          "id": "U5-BA-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-LN-U5-HIST",
@@ -1345,73 +1449,14 @@
       "serie_type": "COMPLEMENTAIRE",
       "serie_label": "Banque complémentaire",
       "description": "Questions issues de la banque historique du prototype, conservées comme entraînement complémentaire et soumises à revue pédagogique.",
-      "source_bank": "PREPA237_HISTORICAL"
+      "source_bank": "PREPA237_HISTORICAL",
+      "editorial_status": "linguistic_review_required"
     },
     {
       "matiere": "Mathématiques",
       "titre": "Unité 5 · Les voyages",
       "dureeMinutes": 14,
       "questions": [
-        {
-          "enonce": "48 × 100 = ?",
-          "choix": [
-            "4 800",
-            "480",
-            "48 000",
-            "4 080"
-          ],
-          "bonne": 0,
-          "corrige": "On écrit deux 0 à droite : 4 800.",
-          "methode": "× 100 : deux zéros."
-        },
-        {
-          "enonce": "790 × 10 = ?",
-          "choix": [
-            "7 900",
-            "790",
-            "79 000",
-            "7 090"
-          ],
-          "bonne": 0,
-          "corrige": "On écrit un 0 à droite : 7 900.",
-          "methode": "× 10 : un zéro."
-        },
-        {
-          "enonce": "Quel nombre est pair ?",
-          "choix": [
-            "7 996",
-            "7 509",
-            "7 861",
-            "7 001"
-          ],
-          "bonne": 0,
-          "corrige": "7 996 se termine par 6.",
-          "methode": "Pair : chiffre des unités 0, 2, 4, 6 ou 8."
-        },
-        {
-          "enonce": "Quel nombre est impair ?",
-          "choix": [
-            "7 345",
-            "7 998",
-            "8 000",
-            "7 456"
-          ],
-          "bonne": 0,
-          "corrige": "7 345 se termine par 5.",
-          "methode": "Impair : chiffre des unités 1, 3, 5, 7 ou 9."
-        },
-        {
-          "enonce": "Droite graduée de 100 en 100 qui commence à 7 000 : quel nombre est sur la 3e graduation ?",
-          "choix": [
-            "7 300",
-            "7 030",
-            "7 003",
-            "10 000"
-          ],
-          "bonne": 0,
-          "corrige": "7 000 + 3 × 100 = 7 300.",
-          "methode": "Ajoute le pas à chaque graduation."
-        },
         {
           "enonce": "Comment écrit-on 7 081 en lettres ?",
           "choix": [
@@ -1422,7 +1467,9 @@
           ],
           "bonne": 0,
           "corrige": "81 = quatre-vingt-un, sans « et » et sans s.",
-          "methode": "Quatre-vingt suivi d'un nombre ne prend pas de s."
+          "methode": "Quatre-vingt suivi d'un nombre ne prend pas de s.",
+          "id": "U5-MA-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un carré a 48 m de périmètre. Quel est son côté ?",
@@ -1434,7 +1481,9 @@
           ],
           "bonne": 0,
           "corrige": "Côté = périmètre ÷ 4 = 12 m.",
-          "methode": "Le périmètre du carré, c'est 4 côtés."
+          "methode": "Le périmètre du carré, c'est 4 côtés.",
+          "id": "U5-MA-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un rectangle a 60 m de périmètre et 18 m de longueur. Quelle est sa largeur ?",
@@ -1446,7 +1495,9 @@
           ],
           "bonne": 0,
           "corrige": "Demi-périmètre : 60 ÷ 2 = 30 ; largeur : 30 − 18 = 12 m.",
-          "methode": "Calcule d'abord le demi-périmètre."
+          "methode": "Calcule d'abord le demi-périmètre.",
+          "id": "U5-MA-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "1 h 30 min = … min",
@@ -1458,7 +1509,9 @@
           ],
           "bonne": 0,
           "corrige": "1 h = 60 min ; 60 + 30 = 90 min.",
-          "methode": "1 heure = 60 minutes."
+          "methode": "1 heure = 60 minutes.",
+          "id": "U5-MA-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "75 min = …",
@@ -1470,7 +1523,9 @@
           ],
           "bonne": 0,
           "corrige": "75 = 60 + 15 : 1 h 15 min.",
-          "methode": "Retire 60 minutes pour faire 1 heure."
+          "methode": "Retire 60 minutes pour faire 1 heure.",
+          "id": "U5-MA-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "La petite aiguille est entre 9 et 10, la grande sur 6. Il est…",
@@ -1482,7 +1537,9 @@
           ],
           "bonne": 0,
           "corrige": "Grande aiguille sur 6 = et demie ; la petite a dépassé 9 : 9 h 30.",
-          "methode": "Grande aiguille : minutes ; petite : heures."
+          "methode": "Grande aiguille : minutes ; petite : heures.",
+          "id": "U5-MA-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le car part à 6 h 45 et roule 1 h 30 min. Il arrive à…",
@@ -1494,7 +1551,9 @@
           ],
           "bonne": 0,
           "corrige": "6 h 45 + 1 h = 7 h 45 ; + 30 min = 8 h 15.",
-          "methode": "Ajoute d'abord les heures, puis les minutes."
+          "methode": "Ajoute d'abord les heures, puis les minutes.",
+          "id": "U5-MA-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À 3 h, les aiguilles forment un angle…",
@@ -1506,7 +1565,9 @@
           ],
           "bonne": 0,
           "corrige": "À 3 h, les aiguilles forment le coin d'une équerre.",
-          "methode": "Compare avec l'équerre."
+          "methode": "Compare avec l'équerre.",
+          "id": "U5-MA-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un angle plus grand qu'un angle droit et plus petit qu'un angle plat est…",
@@ -1518,7 +1579,9 @@
           ],
           "bonne": 0,
           "corrige": "C'est la définition de l'angle obtus.",
-          "methode": "Aigu < droit < obtus < plat."
+          "methode": "Aigu < droit < obtus < plat.",
+          "id": "U5-MA-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-MA-U5-HIST",
@@ -1537,66 +1600,6 @@
       "dureeMinutes": 17,
       "questions": [
         {
-          "enonce": "Qu'est-ce qu'un parasite ?",
-          "choix": [
-            "un être vivant qui vit sur ou dans un autre et se nourrit à ses dépens",
-            "un animal domestique",
-            "une plante qui fabrique sa nourriture",
-            "un vaccin"
-          ],
-          "bonne": 0,
-          "corrige": "Le parasite vit aux dépens d'un autre être vivant, comme les vers dans l'intestin.",
-          "methode": "Il prend sans rien donner."
-        },
-        {
-          "enonce": "Lequel est un parasite intestinal ?",
-          "choix": [
-            "l'ascaris",
-            "le pou",
-            "la puce chique",
-            "la gale"
-          ],
-          "bonne": 0,
-          "corrige": "L'ascaris est un ver qui vit dans l'intestin.",
-          "methode": "Intestin : vers et amibes ; peau : poux, gale, chiques."
-        },
-        {
-          "enonce": "Lequel est un parasite de la peau ?",
-          "choix": [
-            "la gale",
-            "l'ascaris",
-            "le ténia",
-            "l'amibe"
-          ],
-          "bonne": 0,
-          "corrige": "La gale donne des boutons qui grattent surtout la nuit.",
-          "methode": "Ascaris, ténia, amibe : intestin."
-        },
-        {
-          "enonce": "Comment attrape-t-on les vers intestinaux ?",
-          "choix": [
-            "avec des mains sales ou de l'eau non potable",
-            "en dormant sous moustiquaire",
-            "en se lavant les mains",
-            "en portant des chaussures"
-          ],
-          "bonne": 0,
-          "corrige": "Les œufs de vers entrent par la bouche avec les mains sales, l'eau ou les fruits non lavés.",
-          "methode": "Les trois autres gestes protègent."
-        },
-        {
-          "enonce": "Quel est un effet des vers intestinaux sur l'enfant ?",
-          "choix": [
-            "la fatigue et le manque d'attention",
-            "une meilleure mémoire",
-            "une croissance plus rapide",
-            "plus de force"
-          ],
-          "bonne": 0,
-          "corrige": "Les vers prennent une partie de la nourriture : l'enfant est fatigué, anémié et a du mal à se concentrer.",
-          "methode": "Le parasite vit à ses dépens."
-        },
-        {
           "enonce": "Pourquoi faut-il porter des chaussures ?",
           "choix": [
             "pour éviter les puces chiques et les ankylostomes",
@@ -1606,7 +1609,9 @@
           ],
           "bonne": 0,
           "corrige": "Ces parasites entrent par la peau des pieds nus.",
-          "methode": "Pense aux pieds nus dans la poussière."
+          "methode": "Pense aux pieds nus dans la poussière.",
+          "id": "U5-SC-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment attrape-t-on les poux ?",
@@ -1618,7 +1623,9 @@
           ],
           "bonne": 0,
           "corrige": "Les poux passent d'une tête à l'autre.",
-          "methode": "On ne partage pas peigne ni bonnet."
+          "methode": "On ne partage pas peigne ni bonnet.",
+          "id": "U5-SC-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel engin utilise souvent un moteur à deux temps ?",
@@ -1630,7 +1637,9 @@
           ],
           "bonne": 0,
           "corrige": "Tronçonneuses, débroussailleuses, mobylettes et moteurs de pirogue ont souvent un moteur à deux temps.",
-          "methode": "Le vélo avance avec la force des muscles."
+          "methode": "Le vélo avance avec la force des muscles.",
+          "id": "U5-SC-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avec quel carburant fonctionne un moteur à deux temps ?",
@@ -1642,7 +1651,9 @@
           ],
           "bonne": 0,
           "corrige": "L'huile mélangée à l'essence graisse le moteur.",
-          "methode": "Essence + huile."
+          "methode": "Essence + huile.",
+          "id": "U5-SC-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est le rôle de la bougie dans le moteur ?",
@@ -1654,7 +1665,9 @@
           ],
           "bonne": 0,
           "corrige": "L'étincelle de la bougie fait exploser le mélange comprimé.",
-          "methode": "Bougie = étincelle."
+          "methode": "Bougie = étincelle.",
+          "id": "U5-SC-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelles pièces transforment la montée et la descente du piston en rotation ?",
@@ -1666,7 +1679,9 @@
           ],
           "bonne": 0,
           "corrige": "La bielle relie le piston au vilebrequin, qui tourne et entraîne la roue ou l'hélice.",
-          "methode": "Piston → bielle → vilebrequin."
+          "methode": "Piston → bielle → vilebrequin.",
+          "id": "U5-SC-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi parle-t-on de moteur « à deux temps » ?",
@@ -1678,7 +1693,9 @@
           ],
           "bonne": 0,
           "corrige": "Le piston monte (premier temps) puis descend (deuxième temps) : un tour de vilebrequin.",
-          "methode": "Compte les mouvements du piston."
+          "methode": "Compte les mouvements du piston.",
+          "id": "U5-SC-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quel parc national peut-on voir des girafes ?",
@@ -1690,7 +1707,9 @@
           ],
           "bonne": 0,
           "corrige": "Waza, dans la savane sèche de l'Extrême-Nord, abrite girafes, éléphants et lions.",
-          "methode": "Girafe = savane."
+          "methode": "Girafe = savane.",
+          "id": "U5-SC-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quelle région se trouve le parc national de Waza ?",
@@ -1702,7 +1721,9 @@
           ],
           "bonne": 0,
           "corrige": "Waza se trouve entre Maroua et Kousséri.",
-          "methode": "Situe-le sur la carte du Cameroun."
+          "methode": "Situe-le sur la carte du Cameroun.",
+          "id": "U5-SC-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle aire protégée de forêt est inscrite au patrimoine mondial de l'UNESCO ?",
@@ -1714,7 +1735,9 @@
           ],
           "bonne": 0,
           "corrige": "La réserve du Dja, à l'Est et au Sud, abrite gorilles, chimpanzés et éléphants de forêt.",
-          "methode": "Waza et la Bénoué sont des savanes."
+          "methode": "Waza et la Bénoué sont des savanes.",
+          "id": "U5-SC-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-il interdit de faire dans une aire protégée ?",
@@ -1726,7 +1749,9 @@
           ],
           "bonne": 0,
           "corrige": "On y interdit la chasse, la coupe des arbres et les feux.",
-          "methode": "On protège les animaux et les plantes."
+          "methode": "On protège les animaux et les plantes.",
+          "id": "U5-SC-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quel parc trouve-t-on des tortues marines ?",
@@ -1738,7 +1763,9 @@
           ],
           "bonne": 0,
           "corrige": "Campo-Ma'an est au Sud, au bord de la mer.",
-          "methode": "Tortue marine = bord de mer."
+          "methode": "Tortue marine = bord de mer.",
+          "id": "U5-SC-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-ST-U5-HIST",
@@ -1757,66 +1784,6 @@
       "dureeMinutes": 12,
       "questions": [
         {
-          "enonce": "Qu'est-ce qu'internet ?",
-          "choix": [
-            "un immense réseau qui relie des ordinateurs et des téléphones du monde entier",
-            "un logiciel de dessin",
-            "une partie du clavier",
-            "un câble électrique"
-          ],
-          "bonne": 0,
-          "corrige": "Sur internet, on trouve des sites avec des textes, des images et des vidéos.",
-          "methode": "Réseau mondial."
-        },
-        {
-          "enonce": "Comment s'appelle le logiciel qui affiche les sites internet ?",
-          "choix": [
-            "le navigateur",
-            "le traitement de texte",
-            "l'antivirus",
-            "la corbeille"
-          ],
-          "bonne": 0,
-          "corrige": "Il faut un appareil, une connexion et un navigateur.",
-          "methode": "On navigue sur internet."
-        },
-        {
-          "enonce": "Que faut-il pour aller sur internet ?",
-          "choix": [
-            "un appareil, une connexion et un navigateur",
-            "seulement une imprimante",
-            "seulement une souris",
-            "un pot de peinture"
-          ],
-          "bonne": 0,
-          "corrige": "Ordinateur, tablette ou téléphone + réseau mobile ou wifi + navigateur.",
-          "methode": "Trois éléments."
-        },
-        {
-          "enonce": "Que signifie souvent la fin « .cm » d'une adresse de site ?",
-          "choix": [
-            "un site camerounais",
-            "un site de cinéma",
-            "un site de calcul mental",
-            "un site interdit"
-          ],
-          "bonne": 0,
-          "corrige": ".cm est l'extension du Cameroun.",
-          "methode": "cm comme Cameroun."
-        },
-        {
-          "enonce": "Avec qui un enfant fait-il des recherches sur internet ?",
-          "choix": [
-            "avec un adulte",
-            "seul la nuit",
-            "avec un inconnu",
-            "avec personne"
-          ],
-          "bonne": 0,
-          "corrige": "Les recherches se font avec l'enseignant ou un parent, sur des sites choisis.",
-          "methode": "Toujours accompagné."
-        },
-        {
           "enonce": "Quels mots-clés tapes-tu pour connaître les animaux du parc de Waza ?",
           "choix": [
             "parc Waza animaux",
@@ -1826,7 +1793,9 @@
           ],
           "bonne": 0,
           "corrige": "On tape seulement les mots les plus importants.",
-          "methode": "Mots-clés = mots importants."
+          "methode": "Mots-clés = mots importants.",
+          "id": "U5-TI-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi vérifie-t-on une information sur un deuxième site ?",
@@ -1838,7 +1807,9 @@
           ],
           "bonne": 0,
           "corrige": "On compare deux sources sérieuses.",
-          "methode": "Vérifier = comparer."
+          "methode": "Vérifier = comparer.",
+          "id": "U5-TI-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que montre souvent le point bleu sur une carte numérique ?",
@@ -1850,7 +1821,9 @@
           ],
           "bonne": 0,
           "corrige": "Le GPS de l'appareil indique où l'on est.",
-          "methode": "Le point bleu, c'est toi."
+          "methode": "Le point bleu, c'est toi.",
+          "id": "U5-TI-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quoi sert le GPS ?",
@@ -1862,7 +1835,9 @@
           ],
           "bonne": 0,
           "corrige": "Le GPS utilise des satellites.",
-          "methode": "Localisation."
+          "methode": "Localisation.",
+          "id": "U5-TI-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Laquelle est une information personnelle à ne pas donner à un inconnu ?",
@@ -1874,7 +1849,9 @@
           ],
           "bonne": 0,
           "corrige": "Nom complet, adresse, école, téléphone, photos et mots de passe sont personnels.",
-          "methode": "Ce qui permet de te trouver."
+          "methode": "Ce qui permet de te trouver.",
+          "id": "U5-TI-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un message dit « Tu as gagné un téléphone, clique ici ! ». Que fais-tu ?",
@@ -1886,7 +1863,9 @@
           ],
           "bonne": 0,
           "corrige": "Ces messages sont des pièges.",
-          "methode": "Trop beau pour être vrai."
+          "methode": "Trop beau pour être vrai.",
+          "id": "U5-TI-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Tu vois une image qui te fait peur sur internet. Que fais-tu ?",
@@ -1898,7 +1877,9 @@
           ],
           "bonne": 0,
           "corrige": "Ce n'est pas ta faute : un adulte de confiance peut t'aider.",
-          "methode": "Toujours en parler."
+          "methode": "Toujours en parler.",
+          "id": "U5-TI-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-TI-U5-HIST",
@@ -1917,66 +1898,6 @@
       "dureeMinutes": 18,
       "questions": [
         {
-          "enonce": "Qu'est-ce qu'une opinion ?",
-          "choix": [
-            "ce qu'une personne pense d'une chose, son avis",
-            "un fait que l'on peut vérifier",
-            "une loi votée par le Parlement",
-            "une maladie"
-          ],
-          "bonne": 0,
-          "corrige": "Chacun a le droit d'avoir son opinion ; on l'exprime poliment, avec ses raisons.",
-          "methode": "Opinion = avis."
-        },
-        {
-          "enonce": "Laquelle de ces phrases est une opinion ?",
-          "choix": [
-            "Le voyage en train est plus agréable qu'en car.",
-            "Yaoundé est la capitale du Cameroun.",
-            "Le train va de Douala à Ngaoundéré.",
-            "Kribi est au bord de la mer."
-          ],
-          "bonne": 0,
-          "corrige": "Une opinion se discute ; un fait se vérifie.",
-          "methode": "Peut-on vérifier la phrase ?"
-        },
-        {
-          "enonce": "Un camarade n'a pas le même avis que toi. Quelle est la bonne attitude ?",
-          "choix": [
-            "l'écouter jusqu'au bout et donner mon avis poliment",
-            "me moquer de lui",
-            "crier plus fort que lui",
-            "refuser de lui parler"
-          ],
-          "bonne": 0,
-          "corrige": "On écoute l'opinion d'autrui, on cherche ses raisons, puis on répond avec respect.",
-          "methode": "« Qui n'entend qu'une cloche n'entend qu'un son. »"
-        },
-        {
-          "enonce": "Dans un car, quelle règle de sécurité faut-il respecter ?",
-          "choix": [
-            "attacher sa ceinture",
-            "se pencher par la fenêtre",
-            "distraire le chauffeur",
-            "voyager dans un car surchargé"
-          ],
-          "bonne": 0,
-          "corrige": "La ceinture protège en cas d'accident.",
-          "methode": "Les trois autres comportements sont dangereux."
-        },
-        {
-          "enonce": "Dans une pirogue ou un bateau, que faut-il porter ?",
-          "choix": [
-            "un gilet de sauvetage",
-            "un casque de moto",
-            "des bottes en caoutchouc",
-            "un manteau épais"
-          ],
-          "bonne": 0,
-          "corrige": "Le gilet de sauvetage permet de flotter si l'on tombe à l'eau.",
-          "methode": "Pense au risque de noyade."
-        },
-        {
           "enonce": "Dans le car, à qui cède-t-on sa place ?",
           "choix": [
             "à une personne âgée ou à une femme enceinte",
@@ -1986,7 +1907,9 @@
           ],
           "bonne": 0,
           "corrige": "Céder sa place est une marque de respect et de vivre-ensemble.",
-          "methode": "Pense aux personnes fragiles."
+          "methode": "Pense aux personnes fragiles.",
+          "id": "U5-SH-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle institution des Nations unies s'occupe de l'éducation, de la science et de la culture ?",
@@ -1998,7 +1921,9 @@
           ],
           "bonne": 0,
           "corrige": "L'UNESCO aide à développer l'école pour tous et l'alphabétisation.",
-          "methode": "É de UNESCO = éducation."
+          "methode": "É de UNESCO = éducation.",
+          "id": "U5-SH-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle institution est le Fonds des Nations unies pour l'enfance ?",
@@ -2010,7 +1935,9 @@
           ],
           "bonne": 0,
           "corrige": "L'UNICEF défend les droits de l'enfant et soutient l'école, la vaccination et la protection des enfants.",
-          "methode": "UNICEF = enfance."
+          "methode": "UNICEF = enfance.",
+          "id": "U5-SH-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que doit-on présenter aux contrôles de police ou de gendarmerie pendant un voyage ?",
@@ -2022,7 +1949,9 @@
           ],
           "bonne": 0,
           "corrige": "On présente calmement ses papiers d'identité ; à une frontière, on passe aussi la douane.",
-          "methode": "Règles du voyage."
+          "methode": "Règles du voyage.",
+          "id": "U5-SH-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quels Européens sont arrivés les premiers sur la côte du Cameroun ?",
@@ -2034,7 +1963,9 @@
           ],
           "bonne": 0,
           "corrige": "Les Portugais arrivent vers 1472 avec le navigateur Fernando Póo.",
-          "methode": "Vers 1472."
+          "methode": "Vers 1472.",
+          "id": "U5-SH-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "D'où vient le nom « Cameroun » ?",
@@ -2046,7 +1977,9 @@
           ],
           "bonne": 0,
           "corrige": "Les Portugais virent beaucoup de crevettes dans l'estuaire du Wouri.",
-          "methode": "Camarões = crevettes."
+          "methode": "Camarões = crevettes.",
+          "id": "U5-SH-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel était l'un des objectifs des explorateurs européens ?",
@@ -2058,7 +1991,9 @@
           ],
           "bonne": 0,
           "corrige": "Ils voulaient aussi dessiner des cartes, trouver des produits pour le commerce et signer des traités.",
-          "methode": "Revois le tableau des explorateurs."
+          "methode": "Revois le tableau des explorateurs.",
+          "id": "U5-SH-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui a fondé le poste de Yaoundé en 1889 ?",
@@ -2070,7 +2005,9 @@
           ],
           "bonne": 0,
           "corrige": "Les Allemands Kund et Tappenbeck fondent le poste de Yaoundé en 1889.",
-          "methode": "Deux explorateurs allemands."
+          "methode": "Deux explorateurs allemands.",
+          "id": "U5-SH-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Combien de saisons y a-t-il dans le Sud du Cameroun ?",
@@ -2082,7 +2019,9 @@
           ],
           "bonne": 0,
           "corrige": "Grande saison sèche, petite saison des pluies, petite saison sèche, grande saison des pluies.",
-          "methode": "Deux saisons sèches et deux saisons des pluies."
+          "methode": "Deux saisons sèches et deux saisons des pluies.",
+          "id": "U5-SH-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce que l'harmattan ?",
@@ -2094,7 +2033,9 @@
           ],
           "bonne": 0,
           "corrige": "L'harmattan souffle dans le Nord pendant la saison sèche.",
-          "methode": "Il vient du désert."
+          "methode": "Il vient du désert.",
+          "id": "U5-SH-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avec quel instrument mesure-t-on la pluie ?",
@@ -2106,7 +2047,9 @@
           ],
           "bonne": 0,
           "corrige": "Le pluviomètre mesure la quantité de pluie en millimètres.",
-          "methode": "Pluvio- = pluie."
+          "methode": "Pluvio- = pluie.",
+          "id": "U5-SH-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est le port le plus important du Cameroun ?",
@@ -2118,7 +2061,9 @@
           ],
           "bonne": 0,
           "corrige": "Le port de Douala fait passer la plupart des marchandises, aussi pour le Tchad et la Centrafrique.",
-          "methode": "La capitale économique."
+          "methode": "La capitale économique.",
+          "id": "U5-SH-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur quel fleuve se trouvent les barrages d'Edéa et de Song Loulou ?",
@@ -2130,7 +2075,9 @@
           ],
           "bonne": 0,
           "corrige": "Ces barrages hydroélectriques sont sur la Sanaga ; Lagdo est sur la Bénoué, Memve'ele sur le Ntem.",
-          "methode": "Le plus long fleuve du pays."
+          "methode": "Le plus long fleuve du pays.",
+          "id": "U5-SH-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-SH-U5-HIST",
@@ -2149,66 +2096,6 @@
       "dureeMinutes": 12,
       "questions": [
         {
-          "enonce": "Qu'est-ce qu'un collage ?",
-          "choix": [
-            "Une image faite en collant des morceaux de matériaux sur un support",
-            "Un dessin au crayon",
-            "Une chanson apprise par cœur",
-            "Une danse en cercle"
-          ],
-          "bonne": 0,
-          "corrige": "On assemble et on colle des morceaux de papier, tissu, feuilles…",
-          "methode": ""
-        },
-        {
-          "enonce": "Quelle est la différence entre découper et déchirer ?",
-          "choix": [
-            "Découper se fait aux ciseaux, déchirer se fait à la main",
-            "Découper se fait à la main, déchirer aux ciseaux",
-            "C'est la même chose",
-            "Déchirer se fait avec la colle"
-          ],
-          "bonne": 0,
-          "corrige": "Découper donne des bords nets ; déchirer donne des bords irréguliers.",
-          "methode": ""
-        },
-        {
-          "enonce": "Combien de colle faut-il mettre ?",
-          "choix": [
-            "Peu, et bien appuyer",
-            "Beaucoup, partout sur la feuille",
-            "Pas du tout",
-            "Seulement sur ses doigts"
-          ],
-          "bonne": 0,
-          "corrige": "Un peu de colle suffit si l'on appuie bien.",
-          "methode": ""
-        },
-        {
-          "enonce": "Comment passe-t-on des ciseaux à un camarade ?",
-          "choix": [
-            "Par le manche, pointes vers le bas",
-            "En les lançant",
-            "Pointes vers son visage",
-            "En courant"
-          ],
-          "bonne": 0,
-          "corrige": "On tient les pointes vers le bas et on tend le manche.",
-          "methode": ""
-        },
-        {
-          "enonce": "Le chant d'un petit oiseau est un son :",
-          "choix": [
-            "Aigu",
-            "Grave",
-            "Long et très bas",
-            "Silencieux"
-          ],
-          "bonne": 0,
-          "corrige": "Un son aigu est haut et fin, comme le chant d'un petit oiseau.",
-          "methode": ""
-        },
-        {
           "enonce": "La corne d'un gros bateau donne un son :",
           "choix": [
             "Grave",
@@ -2218,7 +2105,9 @@
           ],
           "bonne": 0,
           "corrige": "Un son grave est bas et profond.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-AR-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "En général, un petit instrument donne un son plus :",
@@ -2230,7 +2119,9 @@
           ],
           "bonne": 0,
           "corrige": "Petit tambour, son aigu ; grand tambour, son grave.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-AR-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Au jeu de l'ascenseur, la main de l'enseignant monte. Que fait ma voix ?",
@@ -2242,7 +2133,9 @@
           ],
           "bonne": 0,
           "corrige": "Main qui monte, voix qui monte vers l'aigu.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-AR-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce qu'une marionnette ?",
@@ -2254,7 +2147,9 @@
           ],
           "bonne": 0,
           "corrige": "La marionnette est un personnage animé par quelqu'un.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-AR-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment s'appelle le petit théâtre derrière lequel on fait jouer les marionnettes ?",
@@ -2266,7 +2161,9 @@
           ],
           "bonne": 0,
           "corrige": "Celui qui fait jouer les marionnettes se cache derrière le castelet.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-AR-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment le public sait-il quelle marionnette parle ?",
@@ -2278,7 +2175,9 @@
           ],
           "bonne": 0,
           "corrige": "Seule la marionnette qui parle bouge un peu.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-AR-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une marionnette fabriquée avec une chaussette enfilée sur la main est une marionnette :",
@@ -2290,7 +2189,9 @@
           ],
           "bonne": 0,
           "corrige": "La marionnette à gaine s'enfile sur la main comme un gant.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-AR-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-AR-U5-HIST",
@@ -2309,66 +2210,6 @@
       "dureeMinutes": 12,
       "questions": [
         {
-          "enonce": "Avant un lancer, où est mon bras de lancer ?",
-          "choix": [
-            "Tendu en arrière",
-            "Plié contre ma poitrine",
-            "Levé tout droit vers le ciel",
-            "Croisé devant mon ventre"
-          ],
-          "bonne": 0,
-          "corrige": "Le bras tendu en arrière permet de lancer loin.",
-          "methode": ""
-        },
-        {
-          "enonce": "Je lance avec le bras droit. Quel pied est devant ?",
-          "choix": [
-            "Le pied gauche",
-            "Le pied droit",
-            "Les deux pieds sont joints",
-            "Aucun : je saute"
-          ],
-          "bonne": 0,
-          "corrige": "Le pied opposé au bras de lancer est devant : bras droit, pied gauche devant.",
-          "methode": ""
-        },
-        {
-          "enonce": "Dans quelle direction dois-je lancer pour aller loin ?",
-          "choix": [
-            "Vers le haut et vers l'avant",
-            "Droit vers le sol",
-            "Derrière moi",
-            "Sur le côté, très bas"
-          ],
-          "bonne": 0,
-          "corrige": "Je lance vers le haut et vers l'avant, le bras passe au-dessus de l'épaule.",
-          "methode": ""
-        },
-        {
-          "enonce": "Mon pied dépasse la ligne de lancer. Que se passe-t-il ?",
-          "choix": [
-            "L'essai ne compte pas : c'est un essai nul",
-            "On ajoute 1 mètre à mon lancer",
-            "Je gagne le concours",
-            "Rien du tout"
-          ],
-          "bonne": 0,
-          "corrige": "Dépasser la ligne de lancer, c'est un essai nul.",
-          "methode": ""
-        },
-        {
-          "enonce": "Quand peut-on aller ramasser les balles lancées ?",
-          "choix": [
-            "Au signal de l'enseignant, en marchant",
-            "Dès que sa balle est tombée, en courant",
-            "Pendant que les autres lancent",
-            "Jamais"
-          ],
-          "bonne": 0,
-          "corrige": "Personne ne va dans la zone de chute tant que tout le monde n'a pas lancé.",
-          "methode": ""
-        },
-        {
           "enonce": "Au handball, avec quelle partie du corps joue-t-on le ballon ?",
           "choix": [
             "Avec les mains",
@@ -2378,7 +2219,9 @@
           ],
           "bonne": 0,
           "corrige": "Au handball, on joue avec les mains ; toucher le ballon du pied est une faute.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-EP-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Au handball, j'ai arrêté de dribbler et je tiens le ballon. Que puis-je faire ?",
@@ -2390,7 +2233,9 @@
           ],
           "bonne": 0,
           "corrige": "Après l'arrêt du dribble, on n'a plus le droit de redribbler : on passe ou on tire.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-EP-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Au handball, après un but, comment reprend le jeu ?",
@@ -2402,7 +2247,9 @@
           ],
           "bonne": 0,
           "corrige": "Après un but, on fait un engagement au milieu du terrain.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-EP-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Au handball, quelle action est une faute ?",
@@ -2414,7 +2261,9 @@
           ],
           "bonne": 0,
           "corrige": "On ne pousse pas, on ne tient pas l'adversaire et on n'arrache pas le ballon.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-EP-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Au match de 5 contre 5 en handball, combien de joueurs de champ a chaque équipe ?",
@@ -2426,7 +2275,9 @@
           ],
           "bonne": 0,
           "corrige": "5 contre 5 : 4 joueurs de champ et 1 gardien dans chaque équipe.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-EP-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelqu'un tient mon habit. Que fais-je pour me dégager ?",
@@ -2438,7 +2289,9 @@
           ],
           "bonne": 0,
           "corrige": "Pas en arrière et rotation des épaules, comme une porte qui pivote, en écartant son bras.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-EP-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi ne frappe-t-on pas en autodéfense ?",
@@ -2450,7 +2303,9 @@
           ],
           "bonne": 0,
           "corrige": "L'autodéfense sert à se libérer, s'éloigner et alerter un adulte.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-EP-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-EP-U5-HIST",
@@ -2469,66 +2324,6 @@
       "dureeMinutes": 12,
       "questions": [
         {
-          "enonce": "Qu'est-ce qu'une maquette ?",
-          "choix": [
-            "La reproduction d'un objet en plus petit",
-            "Un objet plus grand que le vrai",
-            "Une liste de matériel",
-            "Un moyen de transport réel"
-          ],
-          "bonne": 0,
-          "corrige": "La maquette reproduit un car, une pirogue ou un train en petit.",
-          "methode": ""
-        },
-        {
-          "enonce": "Comment appelle-t-on la tige qui relie deux roues ?",
-          "choix": [
-            "L'essieu",
-            "Le montant",
-            "Le chas",
-            "Le poquet"
-          ],
-          "bonne": 0,
-          "corrige": "L'essieu doit tourner librement pour que le véhicule roule.",
-          "methode": ""
-        },
-        {
-          "enonce": "Ma maquette ne roule pas droit. Que dois-je faire ?",
-          "choix": [
-            "L'essayer, chercher le problème et la corriger",
-            "La jeter tout de suite",
-            "Dire qu'elle est parfaite",
-            "La peindre d'une autre couleur"
-          ],
-          "bonne": 0,
-          "corrige": "Les constructeurs essaient et corrigent leurs objets.",
-          "methode": ""
-        },
-        {
-          "enonce": "Avant de construire une maquette, que fait le groupe ?",
-          "choix": [
-            "Un dessin du projet et la liste du matériel",
-            "Il commence à coller au hasard",
-            "Il attend que l'enseignant la construise",
-            "Il achète une maquette"
-          ],
-          "bonne": 0,
-          "corrige": "Le projet aide à savoir quoi faire et avec quoi.",
-          "methode": ""
-        },
-        {
-          "enonce": "Qu'est-ce que la pisciculture ?",
-          "choix": [
-            "L'élevage des poissons",
-            "L'élevage des poules",
-            "La culture du maïs",
-            "La fabrication des paniers"
-          ],
-          "bonne": 0,
-          "corrige": "Celui qui élève des poissons est le pisciculteur.",
-          "methode": ""
-        },
-        {
           "enonce": "Dans quoi élève-t-on les poissons ?",
           "choix": [
             "Dans un étang",
@@ -2538,7 +2333,9 @@
           ],
           "bonne": 0,
           "corrige": "L'étang est un bassin creusé dans la terre et rempli d'eau.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-DP-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment appelle-t-on les bébés poissons ?",
@@ -2550,7 +2347,9 @@
           ],
           "bonne": 0,
           "corrige": "On met des alevins dans l'étang, puis on les nourrit jusqu'à la récolte.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-DP-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quels poissons élève-t-on surtout au Cameroun ?",
@@ -2562,7 +2361,9 @@
           ],
           "bonne": 0,
           "corrige": "Le tilapia et le silure sont les poissons les plus élevés.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-DP-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Peut-on s'approcher seul d'un étang ?",
@@ -2574,7 +2375,9 @@
           ],
           "bonne": 0,
           "corrige": "Un étang est profond : on y va toujours avec un adulte.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-DP-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans un sac de voyage, où met-on les objets lourds ?",
@@ -2586,7 +2389,9 @@
           ],
           "bonne": 0,
           "corrige": "Lourd en bas, utile et fragile en haut.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-DP-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que met-on sur l'étiquette du sac ?",
@@ -2598,7 +2403,9 @@
           ],
           "bonne": 0,
           "corrige": "On peut ainsi retrouver le propriétaire si le sac se perd.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-DP-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui s'occupe des médicaments et des papiers pendant le voyage ?",
@@ -2610,7 +2417,9 @@
           ],
           "bonne": 0,
           "corrige": "Les médicaments et les papiers de voyage sont gérés par les parents.",
-          "methode": ""
+          "methode": "",
+          "id": "U5-DP-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-DP-U5-HIST",

@@ -1,0 +1,702 @@
+{
+  "id": "T6",
+  "title_fr": "Les animaux",
+  "title_en": "Animals",
+  "duration": "4 semaines",
+  "project": {
+    "title_fr": "Notre petit musée des animaux / Our little animal museum",
+    "title_en": "Our little animal museum",
+    "description_fr": "Notre petit musée des animaux / Our little animal museum : une réalisation simple qui mobilise langage, manipulation, autonomie, création et mouvement.",
+    "description_en": "Our little animal museum: a simple project combining language, hands-on discovery, independence, creativity and movement."
+  },
+  "domains": [
+    {
+      "id": "LC",
+      "name_fr": "Langage et communication",
+      "name_en": "Literacy & communication",
+      "weight": "35%",
+      "icon": "💬",
+      "activities": [
+        {
+          "id": "T6-LC1",
+          "type": "vocabulary",
+          "title_fr": "Les animaux autour de nous",
+          "title_en": "Animals around us",
+          "goal_fr": "Nommer quelques animaux familiers en français et anglais.",
+          "goal_en": "Name familiar animals in French and English.",
+          "table": {
+            "headers": [
+              "Image",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "🐕",
+                "chien",
+                "dog"
+              ],
+              [
+                "🐈",
+                "chat",
+                "cat"
+              ],
+              [
+                "🐔",
+                "poule",
+                "chicken"
+              ],
+              [
+                "🐟",
+                "poisson",
+                "fish"
+              ],
+              [
+                "🐦",
+                "oiseau",
+                "bird"
+              ],
+              [
+                "🐐",
+                "chèvre",
+                "goat"
+              ],
+              [
+                "🐘",
+                "éléphant",
+                "elephant"
+              ]
+            ]
+          },
+          "observe": [
+            "Nomme 5 animaux.",
+            "Distingue animal familier et animal vu surtout en image.",
+            "Ne confond pas sauvage avec dangereux dans toutes les situations."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-LC2",
+          "type": "sounds",
+          "title_fr": "Qui fait ce bruit ?",
+          "title_en": "Who makes this sound?",
+          "goal_fr": "Associer quelques sons à des animaux.",
+          "goal_en": "Match simple animal sounds.",
+          "game_fr": "L’adulte imite ou fait écouter un son court ; l’enfant choisit une carte animal.",
+          "game_en": "The adult imitates or plays a short sound; the child picks the animal card.",
+          "observe": [
+            "Associe plusieurs sons.",
+            "Imite librement.",
+            "Comprend qu’un même animal peut produire plusieurs sons."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-LC3",
+          "type": "description",
+          "title_fr": "Grand, petit, vite, lentement",
+          "title_en": "Big, small, fast, slow",
+          "goal_fr": "Décrire un animal avec un adjectif ou une action.",
+          "goal_en": "Describe an animal using a simple adjective/action.",
+          "table": {
+            "headers": [
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "un grand éléphant",
+                "a big elephant"
+              ],
+              [
+                "un petit poussin",
+                "a small chick"
+              ],
+              [
+                "le chien court",
+                "the dog runs"
+              ],
+              [
+                "la tortue marche lentement",
+                "the tortoise moves slowly"
+              ]
+            ]
+          },
+          "observe": [
+            "Combine nom + propriété.",
+            "Comprend vite/lentement.",
+            "Évite les généralisations absolues."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-LC4",
+          "type": "story",
+          "title_fr": "Petite histoire : Où est Koki ?",
+          "title_en": "Little story: Where is Koki?",
+          "goal_fr": "Suivre une recherche simple dans une histoire.",
+          "goal_en": "Follow a simple search in a story.",
+          "story_fr": "Koki le petit chien n’est pas devant la maison. Ayo regarde sous la chaise : rien. Elle écoute près du portail : elle entend un petit bruit. Koki est derrière un panier, occupé à sentir une feuille. Ayo ne crie pas. Elle l’appelle doucement et Koki revient.",
+          "story_en": "Koki the little dog is not in front of the house. Ayo looks under the chair: nothing. She listens near the gate and hears a small sound. Koki is behind a basket, smelling a leaf. Ayo does not shout. She calls him gently and Koki comes back.",
+          "questions": [
+            {
+              "fr": "Où est Koki ?",
+              "en": "Where is Koki?",
+              "answer": "derrière un panier / behind a basket"
+            },
+            {
+              "fr": "Comment Ayo l’appelle-t-elle ?",
+              "en": "How does Ayo call him?",
+              "answer": "doucement / gently"
+            }
+          ],
+          "observe": [
+            "Comprend sous/derrière.",
+            "Repère le comportement calme.",
+            "Répond avec mot ou phrase."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-LC5",
+          "type": "prewriting",
+          "title_fr": "Je suis les traces",
+          "title_en": "I follow tracks",
+          "goal_fr": "Développer le graphisme avec des trajectoires variées.",
+          "goal_en": "Develop pre-writing with different paths.",
+          "visual": {
+            "kind": "tracks",
+            "items": [
+              "🐾 • • •",
+              "〰️ serpent",
+              "↗️ oiseau",
+              "— — — chemin"
+            ]
+          },
+          "activity_fr": "Tracer le chemin de chaque animal vers son abri.",
+          "activity_en": "Trace each animal’s path to its shelter.",
+          "observe": [
+            "Suit une trajectoire.",
+            "Contrôle la pression.",
+            "Différencie plusieurs lignes."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-LC6",
+          "type": "classification_language",
+          "title_fr": "À la ferme, à la maison, dans la forêt…",
+          "title_en": "Farm, home, forest…",
+          "goal_fr": "Utiliser des mots de lieu pour parler des animaux.",
+          "goal_en": "Use place words to talk about animals.",
+          "table": {
+            "headers": [
+              "Lieu",
+              "Quelques exemples"
+            ],
+            "rows": [
+              [
+                "maison / home",
+                "chat, chien"
+              ],
+              [
+                "ferme / farm",
+                "poule, chèvre"
+              ],
+              [
+                "eau / water",
+                "poisson"
+              ],
+              [
+                "forêt / forest",
+                "plusieurs oiseaux, singes, etc."
+              ]
+            ]
+          },
+          "observe": [
+            "Associe un exemple plausible.",
+            "Comprend que certains animaux vivent dans plusieurs milieux.",
+            "Utilise « dans / in »."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-LC7",
+          "type": "bassa",
+          "title_fr": "Bassa : animaux, toutes les formes trouvées",
+          "title_en": "Bassa: animals, all forms found",
+          "goal_fr": "Découvrir des noms d’animaux attestés dans des ressources écrites.",
+          "goal_en": "Discover animal names attested in written sources.",
+          "bassa_variants": [
+            {
+              "concept": "chien / dog",
+              "forms": [
+                "Ŋgwɔ́"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "serpent / snake",
+              "forms": [
+                "Nyɔ̀ɔ́",
+                "iɲɔk"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020",
+                "exemple linguistique Basaá (MDPI, 2026)"
+              ],
+              "note": "Deux formes relevées dans des sources différentes ; elles peuvent refléter lexèmes, notation ou variété distincte. À ne pas fusionner sans validation."
+            },
+            {
+              "concept": "souris / mouse",
+              "forms": [
+                "Tòlò"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "chat / cat",
+              "forms": [
+                "Síŋgî"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "gorille / gorilla",
+              "forms": [
+                "pàgí"
+              ],
+              "sources": [
+                "Edu-Kultur, alphabet ɓàsàá"
+              ],
+              "note": "La source signale une réalisation orale avec consonne différente."
+            }
+          ],
+          "activity_fr": "Associer chaque forme à l’image correspondante, puis ajouter les variantes connues par la famille ou l’enseignant.",
+          "activity_en": "Match each form to a picture and add variants known by the family or teacher.",
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name_fr": "Sciences, mathématiques et perception",
+      "name_en": "Science, maths & perception",
+      "weight": "25%",
+      "icon": "🔢",
+      "activities": [
+        {
+          "id": "T6-ST1",
+          "type": "classification",
+          "title_fr": "Avec poils, plumes ou écailles ?",
+          "title_en": "Fur, feathers or scales?",
+          "goal_fr": "Observer quelques revêtements corporels.",
+          "goal_en": "Observe simple animal body coverings.",
+          "table": {
+            "headers": [
+              "Couverture",
+              "Exemples"
+            ],
+            "rows": [
+              [
+                "poils / fur",
+                "chien, chat, chèvre"
+              ],
+              [
+                "plumes / feathers",
+                "poule, oiseau"
+              ],
+              [
+                "écailles / scales",
+                "poisson ; certains reptiles"
+              ]
+            ]
+          },
+          "observe": [
+            "Classe quelques images.",
+            "Observe avant de répondre.",
+            "Comprend qu’il existe des exceptions/variétés."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-ST2",
+          "type": "math",
+          "title_fr": "Combien de pattes ?",
+          "title_en": "How many legs?",
+          "goal_fr": "Dénombrer 0, 2 ou 4 pattes sur des exemples familiers.",
+          "goal_en": "Count 0, 2 or 4 legs on familiar examples.",
+          "visual": {
+            "kind": "legs",
+            "items": [
+              "🐟 0",
+              "🐔 2",
+              "🐕 4",
+              "🐈 4"
+            ]
+          },
+          "observe": [
+            "Compte sur l’image.",
+            "Associe 2 et 4.",
+            "Comprend que tous les animaux ne se classent pas seulement par nombre de pattes."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-ST3",
+          "type": "habitat",
+          "title_fr": "Où l’animal trouve-t-il ce dont il a besoin ?",
+          "title_en": "Where does an animal find what it needs?",
+          "goal_fr": "Relier animal, eau, nourriture et abri.",
+          "goal_en": "Link animals with water, food and shelter.",
+          "diagram": {
+            "kind": "needs",
+            "labels": [
+              "💧 eau",
+              "🍽️ nourriture",
+              "🏠 abri",
+              "🌿 espace adapté"
+            ]
+          },
+          "game_fr": "Choisir une carte animal puis construire son « kit de besoins » avec pictogrammes.",
+          "game_en": "Pick an animal card and build its “needs kit” using icons.",
+          "observe": [
+            "Choisit eau/nourriture/abri.",
+            "Explique un choix.",
+            "Comprend qu’un animal n’est pas un jouet."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-ST4",
+          "type": "sorting",
+          "title_fr": "Domestique, sauvage : première distinction",
+          "title_en": "Domestic and wild: first distinction",
+          "goal_fr": "Découvrir une distinction simple sans en faire une règle absolue.",
+          "goal_en": "Explore a basic domestic/wild distinction.",
+          "activity_fr": "Classer quelques exemples puis discuter : certains animaux domestiques peuvent redevenir errants ; certains animaux sauvages sont observés dans des parcs.",
+          "activity_en": "Sort a few examples and discuss that categories are not always simple.",
+          "observe": [
+            "Classe des exemples familiers.",
+            "Évite de vouloir toucher un animal sauvage.",
+            "Comprend qu’on observe à distance."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PV",
+      "name_fr": "Vie pratique, autonomie et sécurité",
+      "name_en": "Practical life, autonomy & safety",
+      "weight": "25%",
+      "icon": "🧼",
+      "activities": [
+        {
+          "id": "T6-PV1",
+          "type": "animal_safety",
+          "title_fr": "Je demande avant de toucher un animal",
+          "title_en": "I ask before touching an animal",
+          "goal_fr": "Adopter une conduite prudente avec un animal.",
+          "goal_en": "Behave safely around animals.",
+          "steps_fr": [
+            "Je demande à l’adulte/propriétaire.",
+            "Je reste calme.",
+            "Je ne tire ni queue ni oreilles.",
+            "Je me lave les mains après le contact."
+          ],
+          "steps_en": [
+            "Ask the adult/owner.",
+            "Stay calm.",
+            "Do not pull tails or ears.",
+            "Wash hands after contact."
+          ],
+          "observe": [
+            "Demande avant.",
+            "Garde une distance si l’animal est inconnu.",
+            "Respecte l’animal."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-PV2",
+          "type": "hygiene",
+          "title_fr": "Après l’animal, je me lave les mains",
+          "title_en": "After animals, I wash my hands",
+          "goal_fr": "Relier contact animal et hygiène.",
+          "goal_en": "Link animal contact and hygiene.",
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              "🐾 contact",
+              "🧼 savon",
+              "🤲 frotter",
+              "🚿 rincer",
+              "🧻 sécher"
+            ]
+          },
+          "observe": [
+            "Suit l’ordre.",
+            "Comprend le moment du lavage.",
+            "Ne met pas les mains au visage avant nettoyage."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-PV3",
+          "type": "care",
+          "title_fr": "Prendre soin sans faire souffrir",
+          "title_en": "Care without causing harm",
+          "goal_fr": "Développer empathie et responsabilité envers les animaux.",
+          "goal_en": "Develop empathy and responsibility.",
+          "game_fr": "Comparer des gestes : donner de l’eau, frapper, enfermer sans raison, nourrir correctement, crier près de l’animal.",
+          "game_en": "Compare caring and harmful actions.",
+          "observe": [
+            "Repère les gestes qui font souffrir.",
+            "Propose un geste de soin.",
+            "Comprend que les soins dépendent aussi de l’espèce."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-PV4",
+          "type": "environment",
+          "title_fr": "Laisser un habitat propre",
+          "title_en": "Keep habitats clean",
+          "goal_fr": "Comprendre que les déchets peuvent nuire aux animaux.",
+          "goal_en": "Understand that litter can harm animals.",
+          "activity_fr": "Sur une image de rivière/terrain, repérer plastiques, ficelles, boîtes et discuter de leur retrait par un adulte/avec équipement adapté.",
+          "activity_en": "Spot litter in a picture of a river/field and discuss safe clean-up.",
+          "observe": [
+            "Repère plusieurs déchets.",
+            "Comprend le risque d’ingestion/enchevêtrement sans détails anxiogènes.",
+            "Propose « ne pas jeter »."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AR",
+      "name_fr": "Création artistique",
+      "name_en": "Creative arts",
+      "weight": "10%",
+      "icon": "🎨",
+      "activities": [
+        {
+          "id": "T6-AR1",
+          "type": "mask",
+          "title_fr": "Masque d’animal en papier",
+          "title_en": "Paper animal mask",
+          "goal_fr": "Créer un visage d’animal à partir de formes.",
+          "goal_en": "Create an animal face from shapes.",
+          "materials": [
+            "assiette en carton ou papier",
+            "crayons",
+            "formes",
+            "élastique uniquement sous supervision ou bâtonnet"
+          ],
+          "observe": [
+            "Choisit des caractéristiques.",
+            "Nomme l’animal.",
+            "Utilise le matériel en sécurité."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-AR2",
+          "type": "collage",
+          "title_fr": "Pelage, plumes, écailles en motifs",
+          "title_en": "Patterns: fur, feathers, scales",
+          "goal_fr": "Explorer textures et motifs sans utiliser de matières animales réelles.",
+          "goal_en": "Explore textures and patterns without real animal materials.",
+          "activity_fr": "Dessiner/peindre points, rayures, plumes stylisées, écailles.",
+          "activity_en": "Draw or paint spots, stripes, stylised feathers and scales.",
+          "observe": [
+            "Varie les motifs.",
+            "Observe une référence.",
+            "Crée sans viser le réalisme."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-AR3",
+          "type": "sound",
+          "title_fr": "L’orchestre des animaux",
+          "title_en": "Animal sound orchestra",
+          "goal_fr": "Organiser des sons et silences dans un jeu collectif.",
+          "goal_en": "Organise sounds and silences in a group game.",
+          "game_fr": "Chaque groupe choisit un animal et un son. Le chef montre une carte : un groupe joue, puis deux, puis silence.",
+          "game_en": "Each group chooses an animal and sound. The leader cues groups and silence.",
+          "observe": [
+            "Attend le signal.",
+            "Contrôle le volume.",
+            "S’arrête ensemble."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MT",
+      "name_fr": "Motricité",
+      "name_en": "Motor skills",
+      "weight": "5%",
+      "icon": "🏃",
+      "activities": [
+        {
+          "id": "T6-MT1",
+          "type": "animal_walk",
+          "title_fr": "Je me déplace comme…",
+          "title_en": "Move like an animal",
+          "goal_fr": "Explorer différentes locomotions en sécurité.",
+          "goal_en": "Explore different ways of moving safely.",
+          "course": [
+            "marcher lourd comme un éléphant",
+            "petits pas comme un oiseau",
+            "ramper doucement comme un serpent sur tapis",
+            "sautiller comme un petit animal"
+          ],
+          "observe": [
+            "Adapte le mouvement.",
+            "Évite les collisions.",
+            "Ne force pas une posture inconfortable."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T6-MT2",
+          "type": "jump",
+          "title_fr": "Je saute par-dessus les « flaques »",
+          "title_en": "I jump over puddles",
+          "goal_fr": "Sauter pieds joints sur une petite distance.",
+          "goal_en": "Jump with feet together over a short distance.",
+          "visual": {
+            "kind": "course",
+            "items": [
+              "🟦 flaque",
+              "➡️ saut",
+              "🟦 flaque",
+              "🏁 arrivée"
+            ]
+          },
+          "observe": [
+            "Prépare son saut.",
+            "Atterrit avec contrôle.",
+            "Progresse sans comparer les performances."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "title_fr": "Grille d’observation du thème",
+    "title_en": "Theme observation grid",
+    "scale": [
+      {
+        "code": "D",
+        "label_fr": "Découvre",
+        "label_en": "Discovering",
+        "description": "L’enfant entre dans l’activité, observe ou essaie avec beaucoup d’accompagnement."
+      },
+      {
+        "code": "EC",
+        "label_fr": "En cours",
+        "label_en": "Developing",
+        "description": "L’enfant réussit partiellement ou avec rappel, modèle ou aide ponctuelle."
+      },
+      {
+        "code": "A",
+        "label_fr": "Acquis",
+        "label_en": "Acquired",
+        "description": "L’enfant mobilise la compétence dans une situation familière avec peu ou pas d’aide."
+      }
+    ],
+    "indicators": [
+      "Nomme plusieurs animaux en deux langues.",
+      "Classe quelques animaux selon un critère observable.",
+      "Adopte une conduite sûre avec un animal.",
+      "Compte des pattes sur des exemples.",
+      "Crée et mime un animal."
+    ]
+  },
+  "editorial_notes": [],
+  "sources": [
+    "Resulam/Bitjaa Kody 2020",
+    "Edu-Kultur alphabet ɓàsàá",
+    "MDPI Basaá examples",
+    "SIL dictionary"
+  ],
+  "editorial": {
+    "status": "in_review",
+    "validation": "pending",
+    "curriculum_reference": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier"
+  }
+}

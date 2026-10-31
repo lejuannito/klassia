@@ -1,83 +1,22 @@
 (() => {
-  const tools = document.getElementById('pwaTools');
-  if (!tools) return;
-
-  let deferredPrompt = null;
-  const isStandalone = () => window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
-  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
-
-  function show(message, actionLabel, action) {
-    tools.innerHTML = '';
-    const bar = document.createElement('div');
-    bar.className = 'pwa-banner';
-    const text = document.createElement('span');
-    text.textContent = message;
-    bar.appendChild(text);
-    if (actionLabel && action) {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'pwa-action';
-      button.textContent = actionLabel;
-      button.addEventListener('click', action);
-      bar.appendChild(button);
-    }
-    const close = document.createElement('button');
-    close.type = 'button';
-    close.className = 'pwa-close';
-    close.setAttribute('aria-label', 'Fermer');
-    close.textContent = '×';
-    close.addEventListener('click', () => { tools.innerHTML = ''; });
-    bar.appendChild(close);
-    tools.appendChild(bar);
-  }
-
-  function showInstallHelp() {
-    if (isStandalone()) return;
-    if (isIOS) {
-      show('Pour installer Klassia : dans Safari, touchez Partager puis « Sur l’écran d’accueil ».');
-    } else if (!deferredPrompt) {
-      show('Klassia peut être installée depuis le menu du navigateur : « Installer l’application » ou « Ajouter à l’écran d’accueil ».');
-    }
-  }
-
-  window.addEventListener('beforeinstallprompt', (event) => {
-    event.preventDefault();
-    deferredPrompt = event;
-    if (!isStandalone()) {
-      show('Installez Klassia sur ce téléphone pour l’utiliser comme une application.', 'Installer', async () => {
-        if (!deferredPrompt) return showInstallHelp();
-        deferredPrompt.prompt();
-        try { await deferredPrompt.userChoice; } catch (_) {}
-        deferredPrompt = null;
-        tools.innerHTML = '';
-      });
-    }
-  });
-
-  window.addEventListener('appinstalled', () => {
-    deferredPrompt = null;
-    show('Klassia est installée. Les contenus CE2 restent disponibles hors connexion après synchronisation.');
-    setTimeout(() => { tools.innerHTML = ''; }, 4500);
-  });
-
-  function updateNetworkBanner() {
-    if (!navigator.onLine) show('Mode hors connexion : les contenus déjà synchronisés restent disponibles.');
-    else if (!isStandalone() && isIOS) setTimeout(showInstallHelp, 1200);
-  }
-  window.addEventListener('offline', updateNetworkBanner);
-  window.addEventListener('online', () => { tools.innerHTML = ''; });
-
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', async () => {
-      try {
-        const reg = await navigator.serviceWorker.register('./service-worker.js', { scope: './' });
-        reg.update().catch(() => {});
-      } catch (error) {
-        console.warn('Service Worker Klassia non disponible', error);
-      }
-      updateNetworkBanner();
-    });
-  } else {
-    show('Ce navigateur ne permet pas le mode hors connexion. Utilisez une version récente de Chrome, Edge ou Safari.');
-  }
+'use strict';const root=document.getElementById('pwaTools');if(!root)return;
+const base=new URL('.',document.currentScript.src);let registration;
+function show(message,action,label){root.replaceChildren();const bar=document.createElement('div');bar.className='offline-state offline-tools';const text=document.createElement('span');text.textContent=message;bar.append(text);if(action){const b=document.createElement('button');b.textContent=label;b.onclick=action;bar.append(b);}root.append(bar);}
+function status(worker){return new Promise(resolve=>{if(!worker)return resolve(null);const c=new MessageChannel(),timer=setTimeout(()=>resolve(null),5000);c.port1.onmessage=e=>{clearTimeout(timer);resolve(e.data)};worker.postMessage({type:'OFFLINE_STATUS'},[c.port2]);});}
+async function refresh(){
+ if(registration?.waiting){show('Nouvelle édition téléchargée et vérifiée.',()=>{registration.waiting.postMessage({type:'ACTIVATE_RELEASE'});},'Recharger avec la nouvelle édition');return;}
+ const s=await status(registration?.active);if(s?.ready)show('CE2 et MS disponibles hors connexion · édition '+s.version.slice(0,8),()=>registration.update().catch(()=>show('Mise à jour impossible. L’édition téléchargée reste disponible.')),'Vérifier les mises à jour');
+ else show('Téléchargement incomplet : le mode hors connexion n’est pas encore garanti.',()=>location.reload(),'Réessayer');
+}
+if(!('serviceWorker'in navigator)){show('Le mode hors connexion nécessite un navigateur compatible.');return;}
+let reloading=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(registration?.active&&navigator.serviceWorker.controller&&!reloading){reloading=true;location.reload();}});
+window.addEventListener('load',async()=>{
+ show('Préparation du CE2 et de la MS hors connexion…');
+ try{registration=await navigator.serviceWorker.register(new URL('service-worker.js',base),{scope:base.pathname,updateViaCache:'none'});
+  registration.addEventListener('updatefound',()=>{const w=registration.installing;w?.addEventListener('statechange',()=>{if(w.state==='installed'||w.state==='redundant')refresh();});});
+  if(registration.installing){const w=registration.installing;w.addEventListener('statechange',()=>{if(w.state==='installed'||w.state==='redundant')refresh();});}else await refresh();
+ }catch{show('Téléchargement interrompu. Les contenus déjà installés sont conservés.',()=>location.reload(),'Réessayer');}
+});
+window.addEventListener('offline',refresh);window.addEventListener('online',refresh);
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();const b=document.createElement('button');b.textContent='Installer Klassia';b.onclick=()=>event.prompt();root.append(b);});
 })();

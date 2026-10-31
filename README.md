@@ -58,3 +58,7 @@ La CI vérifie structure, stockage, service worker, navigation mobile, impressio
 - [Métriques calculées](docs/metrics.json)
 
 Le dépôt ne comporte aucun serveur de comptes, paiement, synchronisation ou télémétrie. Les données d’apprentissage restent sur l’appareil ; les sauvegardes téléchargées contiennent les observations saisies par l’adulte et doivent être conservées avec soin.
+
+### SIL bilingue (première unité)
+
+Une première unité SIL « La maison / My home » est accessible à `/sil/`. Elle distingue les compétences de français (oral, lecture du son /m/, écriture, numération) et d’anglais (compréhension et expression orales), puis relie les autres domaines au même centre d’intérêt. Les références de curricula et pages sont affichées dans l’application.

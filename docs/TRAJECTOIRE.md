@@ -18,7 +18,7 @@ La v15 traite les défauts techniques prioritaires et fournit une première tran
 |---|---|---|---|
 | Grande section bilingue | Référentiel maternel et progression MS→GS ; objectifs FR/EN distincts | Un thème avec oral, phonologie, nombres, graphisme et observation | Relecture GS, test accompagné, supports complets |
 | SIL bilingue | Huit centres rédigés et progression française explicitée | 80 leçons et 8 séquences pilotes conservées | Revue enseignante/linguistique, validation phonologique et audios |
-| CE1 bilingue | Première unité thématique, objectifs CE1 distincts du CE2 | 10 leçons dans l’unité 1 | Écrire les unités restantes et valider Class 3 |
+| CE1 bilingue | Huit unités thématiques, objectifs CE1 distincts du CE2 et anglais Class 3 | 87 leçons proposées, encore en revue | Relecture par enseignants; arbitrage des propositions de langues nationales |
 
 La présence du CP dans la progression doit être reconnue, même si son contenu est livré ultérieurement. La traduction de l’interface ne vaut pas alignement sur les deux sous-systèmes scolaires.
 
@@ -37,3 +37,12 @@ Les huit centres d’intérêt SIL sont structurés en 10 leçons chacun, soit 8
 ## Démarrage CE1
 
 Le CE1 dispose d’une première unité thématique de dix leçons. Elle utilise uniquement les objectifs CE1 du curriculum Niveau 2 et limite l’alignement anglophone à Class 3. L’année reste à compléter. Le CP intervient entre la SIL et le CE1.
+
+
+## Accès à la revue pédagogique
+
+Depuis n’importe quelle classe, le lien permanent « Revue pédagogique » ouvre l’inventaire; le bouton « Changer d’espace » ouvre les vues Enfant, Parent, Enseignant et Administration locale. L’espace enseignant est un mode d’affichage local, sans compte ni authentification. Les décisions de revue sont enregistrées sur l’appareil et exportables, sans publier automatiquement les contenus.
+
+## Complément CE1
+
+Les unités U2–U8 ajoutent 77 leçons réparties entre français, anglais Class 3, mathématiques, sciences/technologies, TIC, sciences humaines et sociales, arts, EPS, développement personnel et langues nationales. Les objectifs de langues nationales s’appuient sur la colonne CE1; les formes proposées restent provisoires et toutes les variantes visibles peuvent être acceptées jusqu’à arbitrage. Les sept nouvelles unités demeurent `in_review`.

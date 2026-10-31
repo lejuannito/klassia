@@ -1,0 +1,344 @@
+{
+  "format": "klassia-grade-unit",
+  "schemaVersion": 1,
+  "grade": "CE1",
+  "classTitle": "CE1 bilingue",
+  "sourceLevel": {
+    "fr": "Niveau 2, CE1–CE2 (MINEDUB 2018), objectifs CE1 uniquement.",
+    "en": "English Subsystem Level II; align only to the Class 3 objectives for CE1. Class 4 objectives are excluded. English remains a separate subject strand, not a literal translation of French."
+  },
+  "releaseStatus": "in_review",
+  "statusNote": "Unité proposée pour revue pédagogique. Exemples originaux; ne constitue pas une validation officielle. Objectifs de langue nationale à arbitrer avec un locuteur/enseignant compétent.",
+  "sources": [
+    {
+      "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+      "pages": "CE1 uniquement · tableau tableaux CE1 de l’unité; voir chaque leçon pour la correspondance précise · p. 26–156",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+    },
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+      "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+    }
+  ],
+  "id": "CE1-U4",
+  "title_fr": "Les métiers",
+  "title_en": "Jobs and occupations",
+  "subcentres": [
+    "Les artisans et leurs outils",
+    "Les matières et objets fabriqués",
+    "Les services rendus dans la communauté"
+  ],
+  "project": "Présenter le travail d’un artisan fictif par une fiche illustrée : activité, outils, étapes et règle de sécurité.",
+  "lessons": [
+    {
+      "id": "CE1-U4-L01",
+      "domain": "Français",
+      "title": "Reconnaître quelques formes d’écrits liés aux métiers",
+      "objective": "Identifier les caractéristiques simples d’une liste, d’une courte description et d’un message liés à un métier.",
+      "course": "Un écrit a un but : la liste aide à ne rien oublier, la description informe et le message transmet une information courte.",
+      "model": "Une liste fictive d’outils porte un titre et chaque outil apparaît sur une ligne.",
+      "guided": "Comparer deux petits écrits et choisir celui qui convient pour retrouver les outils nécessaires.",
+      "exercise": "Quel écrit aide le mieux à vérifier qu’aucun outil prévu n’a été oublié ?",
+      "answer": "La liste, car elle énumère les éléments.",
+      "remediation": "Souligner le titre et les éléments d’une liste modèle.",
+      "transfer": "Rédiger une mini-liste d’outils fictifs avec un adulte.",
+      "materials": "Exemples de listes et descriptions créées pour la séance",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau production d’écrits · p. 32–33",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "production d’écrits"
+      ]
+    },
+    {
+      "id": "CE1-U4-L02",
+      "domain": "Français",
+      "title": "Employer un adjectif pour préciser un nom",
+      "objective": "Identifier un adjectif qualificatif et l’associer au nom qu’il décrit dans une phrase simple.",
+      "course": "L’adjectif donne une précision sur un nom. On vérifie à l’oral quel nom il décrit avant de travailler l’accord.",
+      "model": "« L’artisan fabrique un panier solide. » « Solide » précise « panier ».",
+      "guided": "Remplacer un adjectif par un autre qui reste logique et entourer le nom qu’il qualifie.",
+      "exercise": "Dans « La tisserande choisit un fil épais », quel mot décrit le fil ?",
+      "answer": "« Épais ».",
+      "remediation": "Utiliser une flèche entre l’adjectif et le nom.",
+      "transfer": "Décrire un objet artisanal fictif avec un adjectif choisi.",
+      "materials": "Étiquettes de mots, images d’objets",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau grammaire · p. 40",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "grammaire"
+      ]
+    },
+    {
+      "id": "CE1-U4-L03",
+      "domain": "English",
+      "title": "Describe a worker and a familiar job",
+      "objective": "Use a short English sentence to name a worker and describe one simple action, while listening to a partner’s description.",
+      "course": "Use “A … makes/helps/works …” with a familiar occupation. Focus on meaning and clear speech, not on memorising a long list.",
+      "model": "“A carpenter makes a table.” “A farmer grows food.”",
+      "guided": "Match three worker cards to action cards and say one sentence aloud.",
+      "exercise": "What does a baker make?",
+      "answer": "“A baker makes bread.” Accept a clear spoken phrase and a sensible picture match.",
+      "remediation": "Offer the worker and action cards as choices.",
+      "transfer": "Describe a fictional worker using one sentence.",
+      "materials": "Occupation/action picture cards",
+      "source": {
+        "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+        "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "Class 3 English"
+      ]
+    },
+    {
+      "id": "CE1-U4-L04",
+      "domain": "Mathématiques",
+      "title": "Encadrer des nombres entre 500 et 700 et multiplier par un chiffre",
+      "objective": "Lire et décomposer des nombres de 500 à 700, les encadrer avec des repères connus et résoudre une multiplication simple en contexte.",
+      "course": "On compare d’abord les centaines puis les dizaines. Une multiplication peut représenter des groupes de même taille; on garde les unités visibles.",
+      "model": "542 = 500 + 40 + 2; 4 paniers de 3 mangues représentent 3 + 3 + 3 + 3 = 12.",
+      "guided": "Placer 587 sur une droite graduée de 500 à 600, puis représenter 3 paquets de 4 objets.",
+      "exercise": "Encadre 587 entre les dizaines consécutives et calcule 3 × 4 avec des objets.",
+      "answer": "580 < 587 < 590; 3 × 4 = 12.",
+      "remediation": "Faire construire les groupes avec des jetons avant d’écrire le signe ×.",
+      "transfer": "Résoudre un problème fictif de petites fournitures regroupées.",
+      "materials": "Droite graduée, jetons, cartes C-D-U",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau nombres et calculs · p. 78–79",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "nombres et calculs"
+      ]
+    },
+    {
+      "id": "CE1-U4-L05",
+      "domain": "Sciences et technologies",
+      "title": "Comparer des aliments et parler d’équilibre sans jugement",
+      "objective": "Classer des exemples d’aliments selon des catégories simples et expliquer qu’un repas varié répond à différents besoins du corps.",
+      "course": "Les aliments contribuent à la vie du corps. Les besoins et les repas dépendent de plusieurs facteurs; on parle de variété sans qualifier les personnes ou leur famille.",
+      "model": "Des cartes montrent une céréale, un fruit, un légume et une source de protéines; elles ne prescrivent pas de ration médicale.",
+      "guided": "Composer un repas fictif varié avec des cartes puis dire ce que l’on observe, sans juger un repas réel.",
+      "exercise": "Que peut-on observer dans un repas fictif varié ?",
+      "answer": "Il réunit des aliments de différentes catégories; d’autres réponses descriptives sont acceptées.",
+      "remediation": "Proposer trois cartes, puis demander d’en ajouter une différente.",
+      "transfer": "Présenter une idée de repas équilibré en respectant les habitudes de chacun.",
+      "materials": "Images d’aliments, sans demande de données de santé",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau sciences de la vie · p. 98",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "sciences de la vie"
+      ]
+    },
+    {
+      "id": "CE1-U4-L06",
+      "domain": "TIC",
+      "title": "Utiliser les fonctions de base d’un logiciel de texte",
+      "objective": "Identifier des fonctions simples d’un logiciel de traitement de texte et les éléments principaux de sa barre de menu.",
+      "course": "Un logiciel de texte permet d’écrire et de modifier un document. On repère les commandes montrées par l’enseignant; on ne partage pas de données personnelles.",
+      "model": "Sur un document fictif, l’icône de feuille correspond à « nouveau » et la commande enregistrer est montrée par l’adulte.",
+      "guided": "Sur écran accompagné ou maquette papier, associer « écrire », « corriger », « enregistrer » aux commandes montrées.",
+      "exercise": "Quelle fonction permet de corriger un mot dans un texte ?",
+      "answer": "La fonction de modification/correction du texte; l’élève peut la montrer sur la maquette.",
+      "remediation": "Utiliser une banque de trois commandes avec pictogrammes.",
+      "transfer": "Créer un titre fictif pour la fiche du métier étudié, avec l’adulte.",
+      "materials": "Ordinateur accompagné ou maquette papier des commandes",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 31 · p. 113–114",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "TIC",
+        "tableau 31"
+      ]
+    },
+    {
+      "id": "CE1-U4-L07",
+      "domain": "Sciences humaines et sociales",
+      "title": "Appliquer une règle dans un lieu de travail fictif",
+      "objective": "Jouer une courte scène où un enfant respecte une consigne simple dans un lieu de travail représenté.",
+      "course": "Les règles protègent les personnes et les objets. Les lieux de travail ont des consignes différentes, expliquées par un adulte responsable.",
+      "model": "Dans un atelier dessiné, on reste derrière la ligne et on écoute avant d’approcher une table.",
+      "guided": "Un élève joue le visiteur, un autre l’adulte qui montre la zone d’observation; le groupe relève la règle respectée.",
+      "exercise": "Pourquoi le visiteur attend-il avant d’entrer dans la zone de travail ?",
+      "answer": "Pour respecter la consigne et rester en sécurité.",
+      "remediation": "Faire reformuler la règle avec un pictogramme stop/attendre.",
+      "transfer": "Créer une règle de visite pour une exposition scolaire.",
+      "materials": "Plan dessiné et cartes de rôles",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau règles et règlements · p. 132",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "règles et règlements"
+      ]
+    },
+    {
+      "id": "CE1-U4-L08",
+      "domain": "Éducation artistique",
+      "title": "Peindre ou assembler une image d’un objet fabriqué",
+      "objective": "Choisir des formes et couleurs ou assembler des morceaux de papier pour représenter un objet artisanal original.",
+      "course": "On peut exprimer une idée avec peinture, collage ou assemblage de matériaux simples. L’outil est adapté et utilisé selon la consigne adulte.",
+      "model": "Un panier imaginaire se compose de bandes de papier et d’une anse dessinée.",
+      "guided": "Réaliser un assemblage à plat, puis expliquer quelle partie représente la forme ou l’usage de l’objet.",
+      "exercise": "Quel matériau de papier convient pour faire une bande souple ?",
+      "answer": "Un papier qui se plie sans se déchirer immédiatement; plusieurs choix sont possibles.",
+      "remediation": "Faire d’abord un collage de deux formes faciles à découper par l’adulte.",
+      "transfer": "Présenter une production originale et expliquer son utilité fictive.",
+      "materials": "Papier, colle non toxique, ciseaux confiés à l’adulte",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau arts visuels · p. 144–145",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "arts visuels"
+      ]
+    },
+    {
+      "id": "CE1-U4-L09",
+      "domain": "Éducation physique et sportive",
+      "title": "Coopérer dans un jeu de passes à pied",
+      "objective": "Comprendre un principe simple du football scolaire : se placer, faire une passe à un partenaire et respecter une règle de jeu adaptée.",
+      "course": "Le jeu se pratique avec un ballon adapté, des limites claires et un adulte. On joue sans contact violent et on accepte les décisions de l’arbitre.",
+      "model": "Deux équipes réduites se font des passes dans une zone large, sans gardien ni but rigide.",
+      "guided": "Répéter passe-réception-déplacement puis jouer une séquence courte en changeant les rôles.",
+      "exercise": "Que peut faire un partenaire pour aider à recevoir une passe ?",
+      "answer": "Se rendre visible, se placer dans l’espace libre et appeler calmement.",
+      "remediation": "Rapprocher les partenaires et utiliser un ballon plus léger.",
+      "transfer": "Expliquer une règle de coopération à un nouveau joueur.",
+      "materials": "Ballon souple, plots, espace contrôlé, adulte",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau EPS · p. 155",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "EPS"
+      ]
+    },
+    {
+      "id": "CE1-U4-L10",
+      "domain": "Développement personnel",
+      "title": "Fabriquer un objet simple à partir de matériaux sûrs",
+      "objective": "Planifier et réaliser avec l’adulte une fabrication simple en réutilisant des matériaux propres et légers.",
+      "course": "Un projet suit des étapes : imaginer, choisir le matériel, fabriquer, vérifier. Les outils coupants, la chaleur et les machines sont réservés à l’adulte.",
+      "model": "Créer un porte-étiquette en pliant un carton propre et en le décorant.",
+      "guided": "Dessiner le résultat souhaité, cocher les matériaux, puis réaliser les étapes de pliage et décoration.",
+      "exercise": "Quelle étape vient avant de commencer à coller ou décorer ?",
+      "answer": "Choisir et préparer les matériaux après avoir imaginé le projet.",
+      "remediation": "Fournir une fiche visuelle avec trois étapes à remettre en ordre.",
+      "transfer": "Présenter l’objet et dire quelle amélioration serait possible.",
+      "materials": "Carton propre, crayons, colle; adulte",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau développement personnel · p. 26–45",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "développement personnel"
+      ]
+    },
+    {
+      "id": "CE1-U4-L11",
+      "domain": "Langues et cultures nationales",
+      "title": "Décrire l’activité d’un artisan de sa communauté",
+      "objective": "Décrire oralement une activité artisanale en nommant le métier, un geste ou un outil observé et un objet fabriqué.",
+      "course": "Le curriculum CE1 invite à décrire le travail d’un artisan de sa communauté. Les mots et exemples peuvent varier selon la localité; on s’appuie sur une observation autorisée.",
+      "model": "Exemple fictif : « Cette artisane tisse. Elle prépare les fils et fabrique un tissu. »",
+      "guided": "Associer une carte métier à une activité; l’enseignant choisit une proposition lexicale documentée et garde les variantes visibles.",
+      "exercise": "Que peut-on dire d’un artisan après avoir observé son activité ?",
+      "answer": "Son métier, un geste ou outil observable, et un objet fabriqué.",
+      "remediation": "Utiliser trois cartes « métier / action / objet » et laisser choisir l’ordre des phrases.",
+      "transfer": "Faire une présentation courte à partir d’une visite accompagnée ou d’une image.",
+      "materials": "Cartes métier et lexique documenté avec variantes",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 17 · p. 70–72",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "proposition documentaire et médiation locale"
+      ]
+    }
+  ]
+}

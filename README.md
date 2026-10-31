@@ -4,7 +4,7 @@ Manuel interactif camerounais pour un usage **accompagné**. Cette branche conso
 
 ## Utiliser
 
-Ouvrir la racine du site pour le CE2, `ms/` pour la moyenne section, `sil/` pour la SIL ou `ce1/` pour le CE1. Le bouton portant le prénom permet de créer un profil par enfant, de choisir l’affichage adulte et d’exporter/restaurer ses progrès. Aucun téléphone ni mot de passe n’est demandé ; il ne s’agit pas de comptes sécurisés.
+Ouvrir la racine du site pour le CE2, `ms/` pour la moyenne section, `sil/` pour la SIL ou `ce1/` pour le CE1. Le bouton « Changer d’espace » permet de passer aux vues enfant, parent, enseignant ou administration locale. Le lien « Validation pédagogique » reste visible dans toutes les classes. Ces espaces sont des vues locales sans compte sécurisé; les décisions de revue restent sur l’appareil et sont exportables. Le lien « Revue pédagogique » reste visible dans toutes les classes. Ces espaces sont des vues locales sans compte sécurisé; les décisions de revue restent sur l’appareil et sont exportables. Aucun téléphone ni mot de passe n’est demandé ; il ne s’agit pas de comptes sécurisés.
 
 Attendre le message **« CE2, MS, SIL et CE1 disponibles hors connexion »** avant de couper la connexion. Une mise à jour incomplète n’active pas une édition partielle. Une nouvelle édition vérifiée propose un rechargement explicite. L’export manuel reste nécessaire avant de changer d’appareil ou de vider les données du navigateur.
 
@@ -25,7 +25,7 @@ Attendre le message **« CE2, MS, SIL et CE1 disponibles hors connexion »** ava
 
 347 leçons CE2, 160 activités MS, 80 évaluations CE2. La banque contient 1 323 questions après remplacement de 225 questions essentielles génériques par des questions concrètes déjà présentes dans les compléments, dont les copies ont été retirées. **1 187 questions sont accessibles ; 136 QCM Bassa sont suspendus** jusqu’à validation linguistique. Les anciens contenus restent dans l’historique Git.
 
-Les 88 séquences SIL (8 centres d’intérêt) et 10 séquences CE1 (unité 1) sont des propositions éditoriales en attente de revue ; elles ne constituent pas des programmes annuels complets pour ces classes. Aucune ressource n’est déclarée validée par un enseignant ou un linguiste. Le CP reste une étape entre la SIL et le CE1. La correspondance exhaustive avec les programmes reste à compléter, notamment en maternelle et pour la progression annuelle CE1.
+Les contenus SIL (8 centres d’intérêt) et CE1 (8 unités) sont des propositions éditoriales en attente de revue; ils ne sont pas déclarés validés par un enseignant ou un linguiste. Le CE1 suit les objectifs CE1 de Niveau 2 en français et la colonne Class 3 en anglais. Le CP reste une étape entre la SIL et le CE1. Les propositions de langues nationales restent visibles et provisoires jusqu’à arbitrage linguistique.
 
 ## Développer et vérifier
 

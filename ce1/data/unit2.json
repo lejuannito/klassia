@@ -1,0 +1,344 @@
+{
+  "format": "klassia-grade-unit",
+  "schemaVersion": 1,
+  "grade": "CE1",
+  "classTitle": "CE1 bilingue",
+  "sourceLevel": {
+    "fr": "Niveau 2, CE1–CE2 (MINEDUB 2018), objectifs CE1 uniquement.",
+    "en": "English Subsystem Level II; align only to the Class 3 objectives for CE1. Class 4 objectives are excluded. English remains a separate subject strand, not a literal translation of French."
+  },
+  "releaseStatus": "in_review",
+  "statusNote": "Unité proposée pour revue pédagogique. Exemples originaux; ne constitue pas une validation officielle. Objectifs de langue nationale à arbitrer avec un locuteur/enseignant compétent.",
+  "sources": [
+    {
+      "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+      "pages": "CE1 uniquement · tableau tableaux CE1 de l’unité; voir chaque leçon pour la correspondance précise · p. 26–156",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+    },
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+      "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+    }
+  ],
+  "id": "CE1-U2",
+  "title_fr": "Le village et la ville",
+  "title_en": "Village and town",
+  "subcentres": [
+    "Les salutations et services",
+    "Les lieux et personnes de la communauté",
+    "Les déplacements dans le quartier"
+  ],
+  "project": "Créer un plan illustré fictif du quartier et présenter un lieu utile avec des mots de politesse.",
+  "lessons": [
+    {
+      "id": "CE1-U2-L01",
+      "domain": "Français",
+      "title": "Échanger poliment dans un lieu de la communauté",
+      "objective": "Prendre la parole pour saluer, exprimer un besoin et demander un service avec un vocabulaire simple et adapté.",
+      "course": "Une demande claire commence par une formule de salutation, nomme le besoin et se termine par une formule de politesse.",
+      "model": "Au marché fictif, dire : « Bonjour. Où puis-je trouver les mangues, s’il vous plaît ? Merci. »",
+      "guided": "Choisir une carte-lieu et jouer une demande de renseignement; écouter puis répondre à son partenaire.",
+      "exercise": "Dans un dialogue de trois répliques, comment demander où se trouve la poste ?",
+      "answer": "« Bonjour, où se trouve la poste, s’il vous plaît ? » Toute formulation polie et compréhensible est acceptée.",
+      "remediation": "Rejouer avec une carte « bonjour », une carte « besoin » et une carte « merci ».",
+      "transfer": "Demander un objet dans un jeu de rôle sans utiliser de lieu réel personnel.",
+      "materials": "Cartes de lieux fictifs, pictogrammes de salutation",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau expression orale · p. 26–30",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "expression orale"
+      ]
+    },
+    {
+      "id": "CE1-U2-L02",
+      "domain": "Français",
+      "title": "Construire une phrase et ponctuer une demande",
+      "objective": "Repérer le groupe nominal et le verbe dans une phrase simple; employer le point, le point d’interrogation et le point d’exclamation.",
+      "course": "La phrase peut nommer une personne ou un lieu et dire ce qui s’y passe. Le point termine une information; le point d’interrogation marque une question.",
+      "model": "« Le vendeur ouvre l’étal. » Le groupe nominal est « le vendeur »; le verbe est « ouvre ».",
+      "guided": "Remplacer le lieu dans une phrase puis transformer « Tu connais la mairie. » en question.",
+      "exercise": "Ajoute la ponctuation : « Où est la mairie »",
+      "answer": "« Où est la mairie ? »",
+      "remediation": "Lire la phrase à voix haute pour entendre si elle pose une question.",
+      "transfer": "Écrire une question sur un lieu fictif du plan.",
+      "materials": "Étiquettes-mots, ardoise",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau grammaire · p. 38",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "grammaire"
+      ]
+    },
+    {
+      "id": "CE1-U2-L03",
+      "domain": "English",
+      "title": "Ask for a place in a town",
+      "objective": "Listen and respond to a short question about a familiar community place using a simple modelled phrase.",
+      "course": "Use a greeting, a place name and a polite question. Listen to the whole question before answering; a point to a picture can support speech.",
+      "model": "“Hello. Where is the school, please?” “It is near the market.”",
+      "guided": "Practise with picture cards for school, market and clinic; switch speaker roles.",
+      "exercise": "Ask where the library is using a polite question.",
+      "answer": "“Where is the library, please?” Accept a clear spoken answer or matching picture.",
+      "remediation": "Offer two place cards and repeat the question slowly.",
+      "transfer": "Use the same question in a pretend town map.",
+      "materials": "Place cards, a simple fictional map",
+      "source": {
+        "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+        "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "Class 3 English"
+      ]
+    },
+    {
+      "id": "CE1-U2-L04",
+      "domain": "Mathématiques",
+      "title": "Lire et comparer les nombres de 200 à 300",
+      "objective": "Composer, décomposer, lire, écrire, comparer et ranger des nombres de 200 à 300; additionner ou soustraire avec un algorithme adapté.",
+      "course": "Dans 247, il y a 2 centaines, 4 dizaines et 7 unités. On compare d’abord les centaines, puis les dizaines, puis les unités.",
+      "model": "247 = 200 + 40 + 7; 286 > 268 car 8 dizaines > 6 dizaines.",
+      "guided": "Construire 235 avec des cartes C-D-U, puis calculer 128 + 36 en explicitant les échanges.",
+      "exercise": "Range 218, 281 et 208 du plus petit au plus grand.",
+      "answer": "208 < 218 < 281.",
+      "remediation": "Représenter chaque nombre avec centaines, dizaines et unités avant de comparer.",
+      "transfer": "Résoudre un petit problème fictif de fréquentation d’un lieu public.",
+      "materials": "Cartes C-D-U, jetons",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau nombres et calculs · p. 76",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "nombres et calculs"
+      ]
+    },
+    {
+      "id": "CE1-U2-L05",
+      "domain": "Sciences et technologies",
+      "title": "Relier les êtres vivants à leurs milieux",
+      "objective": "Distinguer différents milieux de vie d’animaux et de végétaux et repérer des facteurs de pollution dans une scène locale fictive.",
+      "course": "Un milieu de vie apporte des conditions nécessaires aux êtres vivants. Des déchets ou une eau souillée peuvent dégrader un milieu; on observe avant de conclure.",
+      "model": "Un poisson vit dans l’eau; jeter des déchets dans un cours d’eau peut le salir.",
+      "guided": "Classer des images d’êtres vivants selon un milieu et entourer un geste qui pollue dans une scène dessinée.",
+      "exercise": "Cite un milieu où l’on peut observer une plante et un animal.",
+      "answer": "Par exemple, le sol d’un jardin : une plante et un insecte; d’autres réponses justifiées sont admises.",
+      "remediation": "Réduire le tri à deux milieux et faire nommer une caractéristique observable.",
+      "transfer": "Proposer un geste collectif de propreté sans toucher de déchets dangereux.",
+      "materials": "Images de milieux et de déchets dessinés",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau environnement · p. 107–108",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "environnement"
+      ]
+    },
+    {
+      "id": "CE1-U2-L06",
+      "domain": "TIC",
+      "title": "Respecter les outils numériques d’autrui",
+      "objective": "Expliquer une règle de respect lorsqu’on utilise un téléphone ou un appareil qui appartient à une autre personne et reconnaître que l’enfant ne branche ni ne débranche seul un appareil.",
+      "course": "Un appareil reste sous la responsabilité de son propriétaire et de l’adulte. On demande l’autorisation avant de le toucher. Un appareil relié au courant n’est jamais manipulé par un enfant.",
+      "model": "Dans une scène dessinée, l’élève demande l’autorisation avant de regarder le téléphone d’un adulte et attend qu’il le lui montre.",
+      "guided": "Trier des cartes : demander l’autorisation, prendre l’appareil sans prévenir, toucher un câble électrique. Expliquer le choix sûr.",
+      "exercise": "Que fais-tu si tu veux voir le téléphone d’une autre personne ?",
+      "answer": "Je lui demande la permission et j’attends l’accord; je ne touche pas à un câble ou à une prise.",
+      "remediation": "Rejouer la scène avec deux cartes « demander » et « attendre l’accord ».",
+      "transfer": "Appliquer la même règle aux objets numériques de l’école.",
+      "materials": "Cartes de situation; aucun branchement réel par l’enfant",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 33 · p. 115–116",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "TIC",
+        "tableau 33"
+      ]
+    },
+    {
+      "id": "CE1-U2-L07",
+      "domain": "Sciences humaines et sociales",
+      "title": "Nommer quelques repères de l’organisation locale",
+      "objective": "Énumérer des repères administratifs proches — chefferie, commune, arrondissement — et distinguer un rôle administratif local d’un lieu.",
+      "course": "Une communauté peut être décrite par des lieux et des institutions. Le nom et l’organisation exacte varient selon la localité; l’exercice utilise un exemple fictif.",
+      "model": "Sur la carte inventée, « quartier des Manguiers » est dans la commune de Ntem; l’école et la mairie sont des lieux.",
+      "guided": "Placer trois étiquettes de lieux sur un plan fictif et expliquer qui peut renseigner sur un service communal.",
+      "exercise": "La mairie est-elle un lieu, une personne ou un service/institution ?",
+      "answer": "C’est un lieu qui accueille des services de la commune.",
+      "remediation": "Faire associer chaque carte à un pictogramme, sans demander d’informations personnelles.",
+      "transfer": "Comparer deux plans fictifs en respectant leurs différences.",
+      "materials": "Plan fictif, cartes-lieux",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau citoyenneté · p. 129–130",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "citoyenneté"
+      ]
+    },
+    {
+      "id": "CE1-U2-L08",
+      "domain": "Éducation artistique",
+      "title": "Dessiner des formes fines d’un lieu imaginé",
+      "objective": "Utiliser des tracés simples et des formes fines pour produire une image reconnaissable d’un espace collectif.",
+      "course": "Les traits, contours et détails aident à distinguer les bâtiments et les chemins. Une image peut simplifier le réel sans représenter une adresse personnelle.",
+      "model": "Une école dessinée peut être reconnue par sa porte, ses fenêtres et un panneau sans nom réel.",
+      "guided": "Dessiner une place de village imaginaire avec trois formes fines et la présenter à un camarade.",
+      "exercise": "Quel détail aide à reconnaître le lieu dessiné ?",
+      "answer": "L’élève montre un détail pertinent; réponses variées acceptées.",
+      "remediation": "Commencer par des formes larges puis ajouter un seul détail.",
+      "transfer": "Ajouter une légende illustrée à un plan fictif.",
+      "materials": "Papier, crayons, règles non coupantes",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau arts visuels · p. 144",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "arts visuels"
+      ]
+    },
+    {
+      "id": "CE1-U2-L09",
+      "domain": "Éducation physique et sportive",
+      "title": "Lancer un objet léger vers une cible",
+      "objective": "Manipuler un objet souple, construire une trajectoire de lancer et respecter un signal de départ dans un espace dégagé.",
+      "course": "On lance seulement vers une cible libre, quand l’adulte donne le signal. On attend que tous aient terminé avant de ramasser les objets.",
+      "model": "Un lancer à deux mains d’une balle en mousse vers un grand cercle tracé au sol.",
+      "guided": "S’entraîner par petits groupes, un lanceur à la fois; les autres restent derrière la ligne.",
+      "exercise": "Que fais-tu avant d’aller récupérer la balle ?",
+      "answer": "J’attends le signal et je vérifie que les lancers sont terminés.",
+      "remediation": "Réduire la distance et utiliser une balle plus légère.",
+      "transfer": "Expliquer à un partenaire une règle de lancer sûr.",
+      "materials": "Balles souples, cible au sol, adulte encadrant",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau EPS · p. 154",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "EPS"
+      ]
+    },
+    {
+      "id": "CE1-U2-L10",
+      "domain": "Développement personnel",
+      "title": "Réaliser une petite expérience de filtration avec un adulte",
+      "objective": "Suivre une suite d’étapes, coopérer et décrire le résultat d’une expérience non destinée à produire de l’eau potable.",
+      "course": "On prépare le matériel, on observe, puis on range. Les expériences avec l’eau sont supervisées et l’eau utilisée n’est jamais bue.",
+      "model": "Le groupe observe une eau colorée traverser un filtre préparé par l’adulte, puis compare les aspects avant et après.",
+      "guided": "Distribuer les rôles d’observateur, de dessinateur et de rapporteur; dessiner deux observations.",
+      "exercise": "Que peux-tu conclure après avoir observé l’eau filtrée ?",
+      "answer": "On peut décrire son aspect; on ne peut pas conclure qu’elle est potable.",
+      "remediation": "Utiliser des images séquentielles si la manipulation n’est pas possible.",
+      "transfer": "Expliquer une observation sans toucher le matériel utilisé.",
+      "materials": "Démonstration adulte, fiche d’observation",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau développement personnel · p. 26–45",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "développement personnel"
+      ]
+    },
+    {
+      "id": "CE1-U2-L11",
+      "domain": "Langues et cultures nationales",
+      "title": "Employer des salutations et demandes documentées en langue nationale",
+      "objective": "S’exercer à écouter puis à employer des formules de salutation, de politesse et une demande de service en contexte fictif; respecter les tons simples enseignés localement.",
+      "course": "Le curriculum CE1 demande des formules et un usage convenable des tons simples. Les formes varient selon la langue, le locuteur et la région : une traduction éditoriale n’est pas une forme validée.",
+      "model": "Écouter deux propositions documentées dans la langue étudiée, avec leurs variantes, leur sens et leur source affichés; l’enseignant peut arbitrer.",
+      "guided": "Associer une formule à la situation fictive correspondante; l’enseignant accompagne la prononciation sans imposer une variante non validée.",
+      "exercise": "Quelle formule documentée conviendrait pour demander poliment un service ?",
+      "answer": "Toutes les propositions visibles associées à ce sens sont acceptées pendant la relecture; aucune variante n’est notée comme incorrecte.",
+      "remediation": "Réécouter la source et faire correspondre le sens avant de répéter.",
+      "transfer": "Présenter une courte scène en indiquant la langue et la variante consultée.",
+      "materials": "Cartes de situations et propositions sourcées; enregistrement humain facultatif",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 17 · p. 70–72",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "proposition documentaire et médiation locale"
+      ]
+    }
+  ]
+}

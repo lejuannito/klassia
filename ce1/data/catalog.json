@@ -4,7 +4,14 @@
   "grade": "CE1",
   "releaseStatus": "in_review",
   "availableUnits": [
-    "CE1-U1"
+    "CE1-U1",
+    "CE1-U2",
+    "CE1-U3",
+    "CE1-U4",
+    "CE1-U5",
+    "CE1-U6",
+    "CE1-U7",
+    "CE1-U8"
   ],
   "domains": [
     {
@@ -68,12 +75,61 @@
       "title_en": "The home",
       "path": "unit1.json",
       "status": "in_review"
+    },
+    {
+      "id": "CE1-U2",
+      "title_fr": "Le village et la ville",
+      "title_en": "Village and town",
+      "path": "unit2.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CE1-U3",
+      "title_fr": "L’école",
+      "title_en": "School",
+      "path": "unit3.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CE1-U4",
+      "title_fr": "Les métiers",
+      "title_en": "Jobs and occupations",
+      "path": "unit4.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CE1-U5",
+      "title_fr": "Les voyages",
+      "title_en": "Travel",
+      "path": "unit5.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CE1-U6",
+      "title_fr": "La santé",
+      "title_en": "Health and well-being",
+      "path": "unit6.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CE1-U7",
+      "title_fr": "Les jeux",
+      "title_en": "Games",
+      "path": "unit7.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CE1-U8",
+      "title_fr": "Les communications",
+      "title_en": "Communication",
+      "path": "unit8.json",
+      "status": "in_review"
     }
   ],
   "sources": [
     {
-      "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
-      "pages": "CE1–CE2 level 2",
+      "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+      "pages": "Niveau 2 — les objectifs CE1 des huit unités sont retenus; les objectifs CE2 sont exclus.",
       "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
     },
     {

@@ -27,3 +27,9 @@ La présence du CP dans la progression doit être reconnue, même si son contenu
 Chaque classe apporte catalogue, contenu, référentiel et évaluations, avec identifiants stables. Réutiliser profils, sauvegarde, impression, tests et service worker. Ajouter un type d’activité quand il répond à un besoin pédagogique réel : association image/son, classement, séquence, numération manipulable, lecture accompagnée. Les nouvelles classes doivent avoir leurs migrations et jeux d’essais avant de rejoindre un pack hors ligne.
 
 Aucune date de livraison pédagogique fiable ne peut être annoncée sans connaître les relecteurs, les sources, les médias et le périmètre validé. La branche n’affiche pas des classes vides comme si elles étaient disponibles.
+
+
+
+## Première unité SIL bilingue
+
+L’unité « La maison / My home » propose huit séquences : français oral, lecture du son /m/, écriture de ma, dénombrement à 10 ; anglais oral distinct ; observation scientifique et vie courante. Les références de niveau 1 francophone (SIL-CP) et anglophone (Level I, Class 1–2) sont affichées dans la page. L’alignement fin reste une matrice de travail à établir leçon par leçon ; le contenu anglophone s’appuie sur le niveau anglophone, et non sur une traduction des objectifs français.

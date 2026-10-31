@@ -61,7 +61,7 @@ Le dépôt ne comporte aucun serveur de comptes, paiement, synchronisation ou t�
 
 ### SIL bilingue (première unité)
 
-Une première unité SIL « La maison / My home » est accessible à `/sil/`. Elle distingue les compétences de français (oral, lecture du son /m/, écriture, numération) et d’anglais (compréhension et expression orales), puis relie les autres domaines au même centre d’intérêt. Les références de curricula et pages sont affichées dans l’application.
+Une première unité SIL « La maison / My home » est accessible à `/sil/`. Elle distingue les compétences de français (oral, lecture du son /m/, écriture, numération) et d’anglais (compréhension et expression orales), puis relie les autres domaines au même centre d’intérêt. Les références de curricula et pages sont affichées dans l’application. Les deux entrées de navigation sont disponibles dans la même barre : **Par unité** (centre d’intérêt) et **Par domaine** (matières et domaines associés). La première unité est unique pour le moment ; le sélecteur de domaines permet déjà de parcourir séparément ses séquences.
 
 ### Navigation des profils et des classes
 

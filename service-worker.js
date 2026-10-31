@@ -1,4 +1,4 @@
-const CACHE_NAME = 'klassia-v13-20261031';
+const CACHE_NAME = 'klassia-v14-20261031';
 const APP_SHELL = [
   "./app.js",
   "./data/catalog.json",
@@ -33,6 +33,7 @@ const APP_SHELL = [
   "./data/manual/part-06c-1.txt",
   "./data/manual/part-06c-2.txt",
   "./data/manual/part-07.txt",
+  "./data/ce2-practice-v14.json",
   "./icons/apple-touch-icon.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
@@ -48,10 +49,15 @@ const APP_SHELL = [
   "./manual-v11.css",
   "./manual-v11.js",
   "./class-switch-v12.js",
+  "./v14.css",
+  "./v14.js",
   "./ms/index.html",
   "./ms/style-v13.css",
   "./ms/app-core-v13.js",
   "./ms/app-ui-v13.js",
+  "./ms/ms-v14.css",
+  "./ms/ms-v14.js",
+  "./ms/practice-v14.json",
   "./ms/data/catalog-v13.json",
   "./ms/data/theme-pack/index.json",
   "./ms/data/theme-pack/part-01.txt",

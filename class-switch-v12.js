@@ -11,7 +11,6 @@
     const logout=document.getElementById('logout');
     if(logout) top.insertBefore(b,logout); else top.appendChild(b);
   }
-  const root=document.getElementById('app');
-  if(root)new MutationObserver(()=>requestAnimationFrame(decorate)).observe(root,{childList:true,subtree:true});
-  window.addEventListener('load',()=>setTimeout(decorate,100));
+  document.addEventListener('klassia:render',decorate);
 })();
+

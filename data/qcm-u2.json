@@ -1,6 +1,6 @@
 {
   "format": "klassia-qcm-bank",
-  "version": 2,
+  "version": "15.0",
   "metadata": {
     "class": "CE2",
     "unit": 2,
@@ -28,7 +28,9 @@
             "dans"
           ],
           "bonne": 1,
-          "corrige": "« rue » est le nom principal du groupe nominal."
+          "corrige": "« rue » est le nom principal du groupe nominal.",
+          "id": "U2-FR-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel verbe est un verbe d’action ?",
@@ -39,7 +41,9 @@
             "devenir"
           ],
           "bonne": 2,
-          "corrige": "« marcher » exprime une action."
+          "corrige": "« marcher » exprime une action.",
+          "id": "U2-FR-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle phrase est interrogative ?",
@@ -50,7 +54,9 @@
             "Quelle longue route !"
           ],
           "bonne": 1,
-          "corrige": "Le point d’interrogation et la construction indiquent une question."
+          "corrige": "Le point d’interrogation et la construction indiquent une question.",
+          "id": "U2-FR-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Nous ___ notre travail. (finir)",
@@ -61,7 +67,9 @@
             "finissez"
           ],
           "bonne": 1,
-          "corrige": "Au présent : nous finissons."
+          "corrige": "Au présent : nous finissons.",
+          "id": "U2-FR-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel mot appartient au champ lexical de la ville ?",
@@ -72,7 +80,9 @@
             "savon"
           ],
           "bonne": 0,
-          "corrige": "Un carrefour est un élément de l’espace urbain."
+          "corrige": "Un carrefour est un élément de l’espace urbain.",
+          "id": "U2-FR-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "FR",
@@ -98,7 +108,9 @@
             "slow"
           ],
           "bonne": 0,
-          "corrige": "Near / far are opposites."
+          "corrige": "Near / far are opposites.",
+          "id": "U2-EN-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Yesterday we ___ to town.",
@@ -109,7 +121,9 @@
             "going"
           ],
           "bonne": 1,
-          "corrige": "The simple past of go is went."
+          "corrige": "The simple past of go is went.",
+          "id": "U2-EN-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Which place can be found in a town?",
@@ -120,7 +134,9 @@
             "blanket"
           ],
           "bonne": 0,
-          "corrige": "A market is a common town place."
+          "corrige": "A market is a common town place.",
+          "id": "U2-EN-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "A paragraph should be read…",
@@ -131,7 +147,9 @@
             "backwards"
           ],
           "bonne": 2,
-          "corrige": "Punctuation helps reading fluency."
+          "corrige": "Punctuation helps reading fluency.",
+          "id": "U2-EN-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Tomorrow at 8, they ___ travelling.",
@@ -142,7 +160,9 @@
             "went"
           ],
           "bonne": 0,
-          "corrige": "Future continuous uses will be + -ing form."
+          "corrige": "Future continuous uses will be + -ing form.",
+          "id": "U2-EN-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "EN",
@@ -168,7 +188,9 @@
             "ignorer les tons"
           ],
           "bonne": 1,
-          "corrige": "Les formes linguistiques doivent être authentifiées."
+          "corrige": "Les formes linguistiques doivent être authentifiées.",
+          "id": "U2-BA-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pour interpréter un jeu traditionnel, on doit connaître…",
@@ -179,7 +201,9 @@
             "aucune règle"
           ],
           "bonne": 1,
-          "corrige": "Le jeu doit être documenté dans son contexte culturel."
+          "corrige": "Le jeu doit être documenté dans son contexte culturel.",
+          "id": "U2-BA-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Les pratiques culturelles…",
@@ -190,7 +214,9 @@
             "n’ont pas de contexte"
           ],
           "bonne": 1,
-          "corrige": "Il faut éviter les généralisations."
+          "corrige": "Il faut éviter les généralisations.",
+          "id": "U2-BA-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "En ville multilingue, une demande de service doit rester…",
@@ -201,7 +227,9 @@
             "sans interlocuteur"
           ],
           "bonne": 1,
-          "corrige": "La politesse reste essentielle."
+          "corrige": "La politesse reste essentielle.",
+          "id": "U2-BA-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pour apprendre les tons, Klassia doit privilégier…",
@@ -212,14 +240,17 @@
             "des symboles aléatoires"
           ],
           "bonne": 0,
-          "corrige": "L’écoute de locuteurs compétents est nécessaire."
+          "corrige": "L’écoute de locuteurs compétents est nécessaire.",
+          "id": "U2-BA-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "BA",
       "serie_type": "ESSENTIELLE",
       "serie_label": "Série essentielle",
       "description": "5 questions de contrôle directement alignées sur le nouveau parcours pédagogique Klassia.",
-      "source_bank": "KLASSIA_STRUCTURED_V1"
+      "source_bank": "KLASSIA_STRUCTURED_V1",
+      "editorial_status": "linguistic_review_required"
     },
     {
       "id": "CE2-U2-MA",
@@ -238,7 +269,9 @@
             "2 700+50"
           ],
           "bonne": 0,
-          "corrige": "2 milliers, 7 centaines et 5 unités."
+          "corrige": "2 milliers, 7 centaines et 5 unités.",
+          "id": "U2-MA-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "A={1,2}; B={2,3}. A∩B vaut…",
@@ -249,7 +282,9 @@
             "{}"
           ],
           "bonne": 1,
-          "corrige": "L’intersection garde l’élément commun."
+          "corrige": "L’intersection garde l’élément commun.",
+          "id": "U2-MA-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "1 475 + 867 =",
@@ -260,7 +295,9 @@
             "2 442"
           ],
           "bonne": 1,
-          "corrige": "Le total est 2 342."
+          "corrige": "Le total est 2 342.",
+          "id": "U2-MA-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "1 kg =",
@@ -271,7 +308,9 @@
             "10 000 g"
           ],
           "bonne": 2,
-          "corrige": "Un kilogramme vaut 1 000 grammes."
+          "corrige": "Un kilogramme vaut 1 000 grammes.",
+          "id": "U2-MA-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "L’empreinte d’une face d’un cube est…",
@@ -282,7 +321,9 @@
             "une ligne"
           ],
           "bonne": 1,
-          "corrige": "Chaque face d’un cube est carrée."
+          "corrige": "Chaque face d’un cube est carrée.",
+          "id": "U2-MA-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "MA",
@@ -308,7 +349,9 @@
             "évaporation"
           ],
           "bonne": 0,
-          "corrige": "Solide → liquide : fusion."
+          "corrige": "Solide → liquide : fusion.",
+          "id": "U2-SC-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une eau filtrée est-elle forcément potable ?",
@@ -319,7 +362,9 @@
             "seulement si elle est froide"
           ],
           "bonne": 1,
-          "corrige": "La filtration ne retire pas tous les dangers."
+          "corrige": "La filtration ne retire pas tous les dangers.",
+          "id": "U2-SC-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une girouette indique surtout…",
@@ -330,7 +375,9 @@
             "la longueur"
           ],
           "bonne": 1,
-          "corrige": "La girouette indique la direction du vent."
+          "corrige": "La girouette indique la direction du vent.",
+          "id": "U2-SC-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui soigne professionnellement les animaux malades ?",
@@ -341,7 +388,9 @@
             "un menuisier"
           ],
           "bonne": 0,
-          "corrige": "Le vétérinaire est le professionnel de santé animale."
+          "corrige": "Le vétérinaire est le professionnel de santé animale.",
+          "id": "U2-SC-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pour protéger un milieu, on peut…",
@@ -352,7 +401,9 @@
             "détruire la végétation"
           ],
           "bonne": 2,
-          "corrige": "Garder le milieu propre contribue à sa protection."
+          "corrige": "Garder le milieu propre contribue à sa protection.",
+          "id": "U2-SC-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "SC",
@@ -378,7 +429,9 @@
             "une souris"
           ],
           "bonne": 0,
-          "corrige": "C’est un logiciel d’application."
+          "corrige": "C’est un logiciel d’application.",
+          "id": "U2-TI-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pour retrouver un fichier, on peut utiliser…",
@@ -389,7 +442,9 @@
             "la batterie"
           ],
           "bonne": 0,
-          "corrige": "La recherche aide à localiser un fichier."
+          "corrige": "La recherche aide à localiser un fichier.",
+          "id": "U2-TI-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une source crédible est de préférence…",
@@ -400,7 +455,9 @@
             "choisie au hasard"
           ],
           "bonne": 1,
-          "corrige": "L’auteur et la fiabilité doivent pouvoir être appréciés."
+          "corrige": "L’auteur et la fiabilité doivent pouvoir être appréciés.",
+          "id": "U2-TI-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Peut-on lire le téléphone d’autrui sans permission ?",
@@ -411,7 +468,9 @@
             "seulement la nuit"
           ],
           "bonne": 1,
-          "corrige": "Il faut respecter la vie privée."
+          "corrige": "Il faut respecter la vie privée.",
+          "id": "U2-TI-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un câble abîmé doit être…",
@@ -422,7 +481,9 @@
             "mis dans l’eau"
           ],
           "bonne": 2,
-          "corrige": "Un câble endommagé présente un risque."
+          "corrige": "Un câble endommagé présente un risque.",
+          "id": "U2-TI-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "TI",
@@ -448,7 +509,9 @@
             "la peur"
           ],
           "bonne": 0,
-          "corrige": "La sincérité aide à construire la confiance."
+          "corrige": "La sincérité aide à construire la confiance.",
+          "id": "U2-SH-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "L’enfant a droit…",
@@ -459,7 +522,9 @@
             "de prendre les biens d’autrui"
           ],
           "bonne": 0,
-          "corrige": "Le curriculum traite du droit à l’école."
+          "corrige": "Le curriculum traite du droit à l’école.",
+          "id": "U2-SH-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur la route, il faut…",
@@ -470,7 +535,9 @@
             "ignorer les consignes"
           ],
           "bonne": 0,
-          "corrige": "La prudence est essentielle."
+          "corrige": "La prudence est essentielle.",
+          "id": "U2-SH-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel niveau administratif est plus large ?",
@@ -481,7 +548,9 @@
             "quartier"
           ],
           "bonne": 0,
-          "corrige": "La région est un niveau plus large parmi ces choix."
+          "corrige": "La région est un niveau plus large parmi ces choix.",
+          "id": "U2-SH-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pour étudier l’histoire locale, on peut utiliser…",
@@ -492,7 +561,9 @@
             "des nombres au hasard"
           ],
           "bonne": 0,
-          "corrige": "Des sources datées permettent de comparer les évolutions."
+          "corrige": "Des sources datées permettent de comparer les évolutions.",
+          "id": "U2-SH-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "SH",
@@ -518,7 +589,9 @@
             "effacer tout"
           ],
           "bonne": 0,
-          "corrige": "On construit d’abord les formes générales."
+          "corrige": "On construit d’abord les formes générales.",
+          "id": "U2-AR-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une portée musicale usuelle comporte…",
@@ -529,7 +602,9 @@
             "8 lignes"
           ],
           "bonne": 2,
-          "corrige": "Une portée comporte cinq lignes."
+          "corrige": "Une portée comporte cinq lignes.",
+          "id": "U2-AR-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un silence musical indique…",
@@ -540,7 +615,9 @@
             "un lieu"
           ],
           "bonne": 0,
-          "corrige": "Le silence représente une durée sans son."
+          "corrige": "Le silence représente une durée sans son.",
+          "id": "U2-AR-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une danse traditionnelle doit être présentée…",
@@ -551,7 +628,9 @@
             "sans rythme"
           ],
           "bonne": 1,
-          "corrige": "Le contexte culturel doit être respecté."
+          "corrige": "Le contexte culturel doit être respecté.",
+          "id": "U2-AR-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans une danse collective, il faut respecter…",
@@ -562,7 +641,9 @@
             "le bruit maximal"
           ],
           "bonne": 0,
-          "corrige": "Respect de l’espace et coordination sont importants."
+          "corrige": "Respect de l’espace et coordination sont importants.",
+          "id": "U2-AR-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "AR",
@@ -588,7 +669,9 @@
             "aucune consigne"
           ],
           "bonne": 0,
-          "corrige": "Le lancer se fait au signal."
+          "corrige": "Le lancer se fait au signal.",
+          "id": "U2-EP-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans le saut en hauteur, après l’élan vient notamment…",
@@ -599,7 +682,9 @@
             "le lancer"
           ],
           "bonne": 0,
-          "corrige": "L’impulsion prépare le franchissement."
+          "corrige": "L’impulsion prépare le franchissement.",
+          "id": "U2-EP-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "La zone de réception doit être…",
@@ -610,7 +695,9 @@
             "glissante"
           ],
           "bonne": 0,
-          "corrige": "La réception doit être sécurisée."
+          "corrige": "La réception doit être sécurisée.",
+          "id": "U2-EP-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "En autodéfense scolaire, on pratique…",
@@ -621,7 +708,9 @@
             "des défis dangereux"
           ],
           "bonne": 1,
-          "corrige": "La sécurité prime."
+          "corrige": "La sécurité prime.",
+          "id": "U2-EP-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Face à un danger réel, la priorité est…",
@@ -632,7 +721,9 @@
             "rester seul"
           ],
           "bonne": 1,
-          "corrige": "Éviter le danger et demander de l’aide."
+          "corrige": "Éviter le danger et demander de l’aide.",
+          "id": "U2-EP-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "EP",
@@ -658,7 +749,9 @@
             "métal et eau"
           ],
           "bonne": 0,
-          "corrige": "La barbotine est un mélange d’argile et d’eau."
+          "corrige": "La barbotine est un mélange d’argile et d’eau.",
+          "id": "U2-DP-ESSENTIELLE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Après moulage, on doit…",
@@ -669,7 +762,9 @@
             "le tremper dans un produit ménager"
           ],
           "bonne": 0,
-          "corrige": "Le démoulage doit être soigneux."
+          "corrige": "Le démoulage doit être soigneux.",
+          "id": "U2-DP-ESSENTIELLE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Peut-on mélanger des produits ménagers ?",
@@ -680,7 +775,9 @@
             "toujours"
           ],
           "bonne": 1,
-          "corrige": "Ne jamais mélanger des produits ménagers."
+          "corrige": "Ne jamais mélanger des produits ménagers.",
+          "id": "U2-DP-ESSENTIELLE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Une action simple d’entretien est…",
@@ -691,7 +788,9 @@
             "mélanger des produits"
           ],
           "bonne": 0,
-          "corrige": "Balayer aide à garder l’espace propre."
+          "corrige": "Balayer aide à garder l’espace propre.",
+          "id": "U2-DP-ESSENTIELLE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Les produits d’entretien doivent être utilisés…",
@@ -702,7 +801,9 @@
             "sans lire les consignes"
           ],
           "bonne": 0,
-          "corrige": "La sécurité et les consignes priment."
+          "corrige": "La sécurité et les consignes priment.",
+          "id": "U2-DP-ESSENTIELLE-5",
+          "editorial_status": "in_review"
         }
       ],
       "subject_id": "DP",
@@ -726,7 +827,9 @@
           ],
           "bonne": 0,
           "corrige": "Le nom noyau est le nom autour duquel le groupe est construit : manguier.",
-          "methode": "Cherche le nom, pas l'adjectif ni le déterminant."
+          "methode": "Cherche le nom, pas l'adjectif ni le déterminant.",
+          "id": "U2-FR-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel groupe de mots est un groupe nominal ?",
@@ -738,7 +841,9 @@
           ],
           "bonne": 0,
           "corrige": "« La grande ville » contient un déterminant, un adjectif et un nom : c'est un groupe nominal.",
-          "methode": "Un GN contient au moins un déterminant et un nom."
+          "methode": "Un GN contient au moins un déterminant et un nom.",
+          "id": "U2-FR-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Lequel de ces verbes est un verbe d'état ?",
@@ -750,7 +855,9 @@
           ],
           "bonne": 0,
           "corrige": "Devenir dit ce que devient le sujet : c'est un verbe d'état.",
-          "methode": "Les verbes d'état : être, paraître, sembler, devenir, rester…"
+          "methode": "Les verbes d'état : être, paraître, sembler, devenir, rester…",
+          "id": "U2-FR-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Lequel de ces verbes est un verbe d'action ?",
@@ -762,7 +869,9 @@
           ],
           "bonne": 0,
           "corrige": "Cultiver dit ce que fait le sujet : c'est un verbe d'action.",
-          "methode": "Un verbe d'action indique ce que fait le sujet."
+          "methode": "Un verbe d'action indique ce que fait le sujet.",
+          "id": "U2-FR-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "« Comme la ville est grande ! » est une phrase…",
@@ -774,7 +883,9 @@
           ],
           "bonne": 0,
           "corrige": "Elle exprime un sentiment et se termine par un point d'exclamation.",
-          "methode": "Regarde le signe de ponctuation final."
+          "methode": "Regarde le signe de ponctuation final.",
+          "id": "U2-FR-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "« Ferme la porte de la case. » est une phrase…",
@@ -786,7 +897,9 @@
           ],
           "bonne": 0,
           "corrige": "Elle donne un ordre : c'est une phrase impérative.",
-          "methode": "Une phrase qui donne un ordre ou un conseil est impérative."
+          "methode": "Une phrase qui donne un ordre ou un conseil est impérative.",
+          "id": "U2-FR-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle phrase est à la forme négative ?",
@@ -798,7 +911,9 @@
           ],
           "bonne": 0,
           "corrige": "« ne… pas » entoure le verbe : la phrase est à la forme négative.",
-          "methode": "Cherche ne… pas autour du verbe."
+          "methode": "Cherche ne… pas autour du verbe.",
+          "id": "U2-FR-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel signe termine une phrase interrogative ?",
@@ -810,7 +925,9 @@
           ],
           "bonne": 0,
           "corrige": "Une phrase interrogative pose une question et se termine par « ? ».",
-          "methode": "Une question se termine toujours par le même signe."
+          "methode": "Une question se termine toujours par le même signe.",
+          "id": "U2-FR-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un « carrefour », c'est…",
@@ -822,7 +939,9 @@
           ],
           "bonne": 0,
           "corrige": "Au carrefour, plusieurs routes se rencontrent.",
-          "methode": "Pense à l'endroit où l'on trouve souvent un feu de signalisation."
+          "methode": "Pense à l'endroit où l'on trouve souvent un feu de signalisation.",
+          "id": "U2-FR-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complète la terminaison : « Les marchands cri… fort. »",
@@ -834,7 +953,9 @@
           ],
           "bonne": 0,
           "corrige": "« Les marchands » = ils : crier fait « ils crient » (le -ent ne s'entend pas).",
-          "methode": "Avec ils ou elles, le verbe du 1er groupe se termine par -ent."
+          "methode": "Avec ils ou elles, le verbe du 1er groupe se termine par -ent.",
+          "id": "U2-FR-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complète la terminaison : « Tu travers… la rue. »",
@@ -846,7 +967,9 @@
           ],
           "bonne": 0,
           "corrige": "Avec tu, le verbe se termine par -s : tu traverses.",
-          "methode": "Avec tu, il y a toujours un -s au présent."
+          "methode": "Avec tu, il y a toujours un -s au présent.",
+          "id": "U2-FR-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "« Nous avons visité la ville » : le verbe est conjugué à un temps…",
@@ -858,7 +981,9 @@
           ],
           "bonne": 0,
           "corrige": "Le verbe a deux mots : l'auxiliaire avoir et le participe passé « visité ».",
-          "methode": "Temps composé = auxiliaire + participe passé."
+          "methode": "Temps composé = auxiliaire + participe passé.",
+          "id": "U2-FR-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Présent : « Les maçons (bâtir) une école. »",
@@ -870,7 +995,9 @@
           ],
           "bonne": 0,
           "corrige": "Bâtir est du 2e groupe : ils bâtissent.",
-          "methode": "2e groupe : -issent avec ils."
+          "methode": "2e groupe : -issent avec ils.",
+          "id": "U2-FR-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est le cri de l'éléphant ?",
@@ -882,7 +1009,9 @@
           ],
           "bonne": 0,
           "corrige": "L'éléphant barrit ; le lion rugit ; le serpent siffle ; la grenouille coasse.",
-          "methode": "Pense au mot « barrissement »."
+          "methode": "Pense au mot « barrissement ».",
+          "id": "U2-FR-COMPLEMENTAIRE-14",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "En arrivant au village, que reconnaît Moussa ?",
@@ -894,7 +1023,9 @@
           ],
           "bonne": 0,
           "corrige": "Moussa crie : « C'est le manguier de la carte ! »",
-          "methode": "Relis ce que crie Moussa en arrivant."
+          "methode": "Relis ce que crie Moussa en arrivant.",
+          "id": "U2-FR-COMPLEMENTAIRE-15",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "D'après Lina, qu'y a-t-il au village le soir ?",
@@ -906,7 +1037,9 @@
           ],
           "bonne": 0,
           "corrige": "Lina compare : en ville le bruit et les lumières, au village le silence et les étoiles.",
-          "methode": "Relis la dernière phrase du texte."
+          "methode": "Relis la dernière phrase du texte.",
+          "id": "U2-FR-COMPLEMENTAIRE-16",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-FR-U2-HIST",
@@ -934,7 +1067,9 @@
           ],
           "bonne": 0,
           "corrige": "In the town there are tall buildings, many cars, tarred roads, banks and big markets.",
-          "methode": "town = ville."
+          "methode": "town = ville.",
+          "id": "U2-EN-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Town life is…",
@@ -946,7 +1081,9 @@
           ],
           "bonne": 0,
           "corrige": "The town is busy and noisy; the village is quieter.",
-          "methode": "busy = animé ; noisy = bruyant."
+          "methode": "busy = animé ; noisy = bruyant.",
+          "id": "U2-EN-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "How do you spell the word town?",
@@ -958,7 +1095,9 @@
           ],
           "bonne": 0,
           "corrige": "town = T-O-W-N.",
-          "methode": "Épelle lettre par lettre."
+          "methode": "Épelle lettre par lettre.",
+          "id": "U2-EN-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "How do we say the letter I in English?",
@@ -970,7 +1109,9 @@
           ],
           "bonne": 0,
           "corrige": "The letter I sounds like « aï » ; the letter E sounds like « i ».",
-          "methode": "Attention aux lettres E et I !"
+          "methode": "Attention aux lettres E et I !",
+          "id": "U2-EN-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Simple past of go:",
@@ -982,7 +1123,9 @@
           ],
           "bonne": 0,
           "corrige": "go is irregular: go → went.",
-          "methode": "Verbe irrégulier : à apprendre par cœur."
+          "methode": "Verbe irrégulier : à apprendre par cœur.",
+          "id": "U2-EN-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Simple past of buy:",
@@ -994,7 +1137,9 @@
           ],
           "bonne": 0,
           "corrige": "buy → bought.",
-          "methode": "buy (acheter) → bought."
+          "methode": "buy (acheter) → bought.",
+          "id": "U2-EN-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Simple past of eat:",
@@ -1006,7 +1151,9 @@
           ],
           "bonne": 0,
           "corrige": "eat → ate.",
-          "methode": "eat (manger) → ate."
+          "methode": "eat (manger) → ate.",
+          "id": "U2-EN-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Simple past of see:",
@@ -1018,7 +1165,9 @@
           ],
           "bonne": 0,
           "corrige": "see → saw.",
-          "methode": "see (voir) → saw."
+          "methode": "see (voir) → saw.",
+          "id": "U2-EN-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complete: Yesterday, Lina … a letter to her aunt. (write)",
@@ -1030,7 +1179,9 @@
           ],
           "bonne": 0,
           "corrige": "Yesterday shows the past; write → wrote.",
-          "methode": "Yesterday = passé."
+          "methode": "Yesterday = passé.",
+          "id": "U2-EN-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Complete: Did you go to the market? — No, I didn't …",
@@ -1042,7 +1193,9 @@
           ],
           "bonne": 0,
           "corrige": "After did or didn't, we use the base verb: I didn't go.",
-          "methode": "Après did : verbe de base."
+          "methode": "Après did : verbe de base.",
+          "id": "U2-EN-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Future continuous: Tomorrow at 8 o'clock, I … to Douala. (travel)",
@@ -1054,7 +1207,9 @@
           ],
           "bonne": 0,
           "corrige": "Future continuous = will be + verb-ing.",
-          "methode": "will be + -ing."
+          "methode": "will be + -ing.",
+          "id": "U2-EN-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Future continuous: This evening, we … TV. (watch)",
@@ -1066,7 +1221,9 @@
           ],
           "bonne": 0,
           "corrige": "will be + watching.",
-          "methode": "will be + -ing."
+          "methode": "will be + -ing.",
+          "id": "U2-EN-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "What is the opposite of near?",
@@ -1078,7 +1235,9 @@
           ],
           "bonne": 0,
           "corrige": "near ≠ far.",
-          "methode": "près ≠ loin."
+          "methode": "près ≠ loin.",
+          "id": "U2-EN-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "What is the opposite of buy?",
@@ -1090,7 +1249,9 @@
           ],
           "bonne": 0,
           "corrige": "buy ≠ sell.",
-          "methode": "acheter ≠ vendre."
+          "methode": "acheter ≠ vendre.",
+          "id": "U2-EN-COMPLEMENTAIRE-14",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "What is the opposite of noisy?",
@@ -1102,7 +1263,9 @@
           ],
           "bonne": 0,
           "corrige": "noisy ≠ quiet.",
-          "methode": "bruyant ≠ calme."
+          "methode": "bruyant ≠ calme.",
+          "id": "U2-EN-COMPLEMENTAIRE-15",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "In the text, how did Paul and his uncle travel to Douala?",
@@ -1114,7 +1277,9 @@
           ],
           "bonne": 0,
           "corrige": "They took a bus early in the morning.",
-          "methode": "Relis la deuxième phrase du texte."
+          "methode": "Relis la deuxième phrase du texte.",
+          "id": "U2-EN-COMPLEMENTAIRE-16",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-EN-U2-HIST",
@@ -1142,7 +1307,9 @@
           ],
           "bonne": 0,
           "corrige": "ŋ est une seule lettre pour le son « ng ».",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "La lettre ə se prononce à peu près comme :",
@@ -1154,7 +1321,9 @@
           ],
           "bonne": 0,
           "corrige": "ə est une voyelle centrale, proche du « e » de « le ».",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "ŋ est :",
@@ -1166,7 +1335,9 @@
           ],
           "bonne": 0,
           "corrige": "ŋ est une consonne ; ə est une voyelle.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment s'appelle la lettre ə ?",
@@ -1178,7 +1349,9 @@
           ],
           "bonne": 0,
           "corrige": "ə s'appelle schwa ; ŋ s'appelle eng.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui aide le chef traditionnel à diriger le village ?",
@@ -1190,7 +1363,9 @@
           ],
           "bonne": 0,
           "corrige": "Les notables sont les conseillers du chef.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment appelle-t-on souvent le chef traditionnel dans le Nord-Ouest ?",
@@ -1202,7 +1377,9 @@
           ],
           "bonne": 0,
           "corrige": "On dit Fon dans le Nord-Ouest et lamido chez les Peuls du Nord.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Chez les Peuls du Nord, le chef traditionnel s'appelle :",
@@ -1214,7 +1391,9 @@
           ],
           "bonne": 0,
           "corrige": "Le territoire du lamido est un lamidat.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment appelle-t-on le territoire d'un lamido ?",
@@ -1226,7 +1405,9 @@
           ],
           "bonne": 0,
           "corrige": "Le lamido dirige un lamidat.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est l'un des rôles du chef traditionnel ?",
@@ -1238,7 +1419,9 @@
           ],
           "bonne": 0,
           "corrige": "Il règle les disputes, garde les traditions et représente son village.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment se comporte-t-on devant le chef et les anciens ?",
@@ -1250,7 +1433,9 @@
           ],
           "bonne": 0,
           "corrige": "Le respect des anciens fait partie de nos cultures.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-BA-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quelle aire culturelle appartient surtout la région du Littoral ?",
@@ -1262,7 +1447,9 @@
           ],
           "bonne": 0,
           "corrige": "Sawa : Littoral, Sud-Ouest.",
-          "methode": "Revois le tableau des quatre aires culturelles."
+          "methode": "Revois le tableau des quatre aires culturelles.",
+          "id": "U2-BA-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quelle aire culturelle appartient surtout la région du Nord-Ouest ?",
@@ -1274,7 +1461,9 @@
           ],
           "bonne": 0,
           "corrige": "Grassfields : Ouest, Nord-Ouest.",
-          "methode": "Revois le tableau des quatre aires culturelles."
+          "methode": "Revois le tableau des quatre aires culturelles.",
+          "id": "U2-BA-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-LN-U2-HIST",
@@ -1285,7 +1474,8 @@
       "serie_type": "COMPLEMENTAIRE",
       "serie_label": "Banque complémentaire",
       "description": "Questions issues de la banque historique du prototype, conservées comme entraînement complémentaire et soumises à revue pédagogique.",
-      "source_bank": "PREPA237_HISTORICAL"
+      "source_bank": "PREPA237_HISTORICAL",
+      "editorial_status": "linguistic_review_required"
     },
     {
       "matiere": "Mathématiques",
@@ -1302,7 +1492,9 @@
           ],
           "bonne": 0,
           "corrige": "Mêmes milliers et centaines ; 5 dizaines < 6 dizaines, donc 2 456 < 2 465.",
-          "methode": "Compare chiffre par chiffre en partant de la gauche."
+          "methode": "Compare chiffre par chiffre en partant de la gauche.",
+          "id": "U2-MA-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Range dans l'ordre croissant : 2 305 ; 2 053 ; 2 350",
@@ -1314,7 +1506,9 @@
           ],
           "bonne": 0,
           "corrige": "Croissant = du plus petit au plus grand ; 2 053 a le moins de centaines.",
-          "methode": "Compare d'abord les centaines."
+          "methode": "Compare d'abord les centaines.",
+          "id": "U2-MA-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment écrit-on 2 480 en lettres ?",
@@ -1326,7 +1520,9 @@
           ],
           "bonne": 0,
           "corrige": "« Quatre-vingts » prend un s quand il termine le nombre ; « cent » est suivi, donc sans s.",
-          "methode": "Quatre-vingts final prend un s."
+          "methode": "Quatre-vingts final prend un s.",
+          "id": "U2-MA-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "E = {2, 4, 6, 8} et F = {6, 7, 8}. E ∩ F = ?",
@@ -1338,7 +1534,9 @@
           ],
           "bonne": 0,
           "corrige": "∩ = intersection : 6 et 8 sont dans les deux ensembles.",
-          "methode": "∩ : ce qui est commun."
+          "methode": "∩ : ce qui est commun.",
+          "id": "U2-MA-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que signifie « 7 ∈ F » ?",
@@ -1350,7 +1548,9 @@
           ],
           "bonne": 0,
           "corrige": "∈ se lit « appartient à ».",
-          "methode": "∈ : appartient ; ∉ : n'appartient pas."
+          "methode": "∈ : appartient ; ∉ : n'appartient pas.",
+          "id": "U2-MA-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "« A ∪ B » se lit…",
@@ -1362,7 +1562,9 @@
           ],
           "bonne": 0,
           "corrige": "∪ est le symbole de la réunion : A union B.",
-          "methode": "∪ ressemble à un U comme « union »."
+          "methode": "∪ ressemble à un U comme « union ».",
+          "id": "U2-MA-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Calcule : 1 768 + 1 457",
@@ -1374,7 +1576,9 @@
           ],
           "bonne": 0,
           "corrige": "8 + 7 = 15, je pose 5 et retiens 1 ; 1 + 6 + 5 = 12 ; 1 + 7 + 4 = 12 ; 1 + 1 + 1 = 3 : 3 225.",
-          "methode": "N'oublie pas les retenues."
+          "methode": "N'oublie pas les retenues.",
+          "id": "U2-MA-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Calcule : 2 903 − 1 678",
@@ -1386,7 +1590,9 @@
           ],
           "bonne": 0,
           "corrige": "13 − 8 = 5 ; 10 − 8 = 2 ; 9 − 7 = 2 ; 2 − 1 = 1 : 1 225. Vérification : 1 225 + 1 678 = 2 903.",
-          "methode": "Vérifie une soustraction par une addition."
+          "methode": "Vérifie une soustraction par une addition.",
+          "id": "U2-MA-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Calcule : 3 000 − 1 456",
@@ -1398,7 +1604,9 @@
           ],
           "bonne": 0,
           "corrige": "3 000 − 1 456 = 1 544 ; vérification : 1 544 + 1 456 = 3 000.",
-          "methode": "Pense au complément : 1 456 + … = 3 000."
+          "methode": "Pense au complément : 1 456 + … = 3 000.",
+          "id": "U2-MA-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "2 kg = …",
@@ -1410,7 +1618,9 @@
           ],
           "bonne": 0,
           "corrige": "1 kg = 1 000 g.",
-          "methode": "kilo = 1 000."
+          "methode": "kilo = 1 000.",
+          "id": "U2-MA-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "1 kg 250 g = …",
@@ -1422,7 +1632,9 @@
           ],
           "bonne": 0,
           "corrige": "1 kg = 1 000 g ; 1 000 + 250 = 1 250 g.",
-          "methode": "Convertis d'abord les kilogrammes en grammes."
+          "methode": "Convertis d'abord les kilogrammes en grammes.",
+          "id": "U2-MA-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle est la masse probable d'une mangue ?",
@@ -1434,7 +1646,9 @@
           ],
           "bonne": 0,
           "corrige": "Une mangue pèse quelques centaines de grammes.",
-          "methode": "Compare avec un objet connu : un sac de riz pèse 25 kg."
+          "methode": "Compare avec un objet connu : un sac de riz pèse 25 kg.",
+          "id": "U2-MA-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle empreinte laisse un cube posé sur le sable ?",
@@ -1446,7 +1660,9 @@
           ],
           "bonne": 0,
           "corrige": "Toutes les faces du cube sont des carrés.",
-          "methode": "L'empreinte a la forme de la face posée."
+          "methode": "L'empreinte a la forme de la face posée.",
+          "id": "U2-MA-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Combien de faces a un pavé droit ?",
@@ -1458,7 +1674,9 @@
           ],
           "bonne": 0,
           "corrige": "Comme une boîte d'allumettes : 6 faces rectangulaires.",
-          "methode": "Il a 6 faces, 8 sommets et 12 arêtes."
+          "methode": "Il a 6 faces, 8 sommets et 12 arêtes.",
+          "id": "U2-MA-COMPLEMENTAIRE-14",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un rectangle a…",
@@ -1470,7 +1688,9 @@
           ],
           "bonne": 0,
           "corrige": "Le rectangle a 4 angles droits ; ses côtés opposés sont égaux (longueur et largeur).",
-          "methode": "Le carré est un rectangle particulier."
+          "methode": "Le carré est un rectangle particulier.",
+          "id": "U2-MA-COMPLEMENTAIRE-15",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-MA-U2-HIST",
@@ -1498,7 +1718,9 @@
           ],
           "bonne": 0,
           "corrige": "La poule pond des œufs : elle est ovipare.",
-          "methode": "Ovipare : il pond des œufs ; vivipare : les petits naissent vivants."
+          "methode": "Ovipare : il pond des œufs ; vivipare : les petits naissent vivants.",
+          "id": "U2-SC-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel animal est vivipare ?",
@@ -1510,7 +1732,9 @@
           ],
           "bonne": 0,
           "corrige": "Les chevreaux naissent vivants et tètent leur mère : la chèvre est vivipare.",
-          "methode": "Les serpents, tortues et crocodiles pondent des œufs."
+          "methode": "Les serpents, tortues et crocodiles pondent des œufs.",
+          "id": "U2-SC-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le lion mange de la viande. Il est…",
@@ -1522,7 +1746,9 @@
           ],
           "bonne": 0,
           "corrige": "Un animal qui mange de la viande est carnivore ; il a des crocs pointus.",
-          "methode": "carni- : la viande."
+          "methode": "carni- : la viande.",
+          "id": "U2-SC-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le porc mange de tout. Il est…",
@@ -1534,7 +1760,9 @@
           ],
           "bonne": 0,
           "corrige": "Omnivore veut dire « qui mange de tout ».",
-          "methode": "omni- : tout."
+          "methode": "omni- : tout.",
+          "id": "U2-SC-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment se déplace le serpent ?",
@@ -1546,7 +1774,9 @@
           ],
           "bonne": 0,
           "corrige": "Le serpent rampe grâce à son corps allongé couvert d'écailles : c'est la reptation.",
-          "methode": "Associe chaque animal à ses organes de déplacement."
+          "methode": "Associe chaque animal à ses organes de déplacement.",
+          "id": "U2-SC-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le piston d'une seringue bouchée revient tout seul quand on le lâche. Pourquoi ?",
@@ -1558,7 +1788,9 @@
           ],
           "bonne": 0,
           "corrige": "L'air comprimé reprend son volume quand on arrête de pousser : il est élastique.",
-          "methode": "Compressible : on le pousse ; élastique : il revient."
+          "methode": "Compressible : on le pousse ; élastique : il revient.",
+          "id": "U2-SC-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un ballon gonflé pèse plus lourd qu'un ballon dégonflé. Pourquoi ?",
@@ -1570,7 +1802,9 @@
           ],
           "bonne": 0,
           "corrige": "L'air a une masse : il est pesant.",
-          "methode": "Pense à l'expérience de la balance à plateaux."
+          "methode": "Pense à l'expérience de la balance à plateaux.",
+          "id": "U2-SC-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel instrument indique la direction du vent ?",
@@ -1582,7 +1816,9 @@
           ],
           "bonne": 0,
           "corrige": "La girouette (ou la manche à air) montre d'où vient le vent.",
-          "methode": "L'anémomètre mesure la vitesse."
+          "methode": "L'anémomètre mesure la vitesse.",
+          "id": "U2-SC-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel instrument mesure la vitesse du vent ?",
@@ -1594,7 +1830,9 @@
           ],
           "bonne": 0,
           "corrige": "Les coupelles de l'anémomètre tournent plus ou moins vite selon la force du vent.",
-          "methode": "Direction : girouette ; vitesse : anémomètre."
+          "methode": "Direction : girouette ; vitesse : anémomètre.",
+          "id": "U2-SC-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "De quoi un feu a-t-il besoin ?",
@@ -1606,7 +1844,9 @@
           ],
           "bonne": 0,
           "corrige": "Sans combustible, sans air ou sans chaleur, le feu s'arrête.",
-          "methode": "Retiens les trois éléments du feu."
+          "methode": "Retiens les trois éléments du feu.",
+          "id": "U2-SC-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "L'huile prend feu dans la poêle. Que faut-il faire ?",
@@ -1618,7 +1858,9 @@
           ],
           "bonne": 0,
           "corrige": "Le couvercle étouffe le feu en le privant d'air. L'eau sur l'huile qui brûle est très dangereuse.",
-          "methode": "Jamais d'eau sur de l'huile qui brûle."
+          "methode": "Jamais d'eau sur de l'huile qui brûle.",
+          "id": "U2-SC-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le glaçon fond au soleil. Comment s'appelle ce changement d'état ?",
@@ -1630,7 +1872,9 @@
           ],
           "bonne": 0,
           "corrige": "Passer de l'état solide à l'état liquide, c'est la fusion.",
-          "methode": "solide → liquide : fusion."
+          "methode": "solide → liquide : fusion.",
+          "id": "U2-SC-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "La buée se forme sur un verre froid. Comment s'appelle ce changement d'état ?",
@@ -1642,7 +1886,9 @@
           ],
           "bonne": 0,
           "corrige": "La vapeur d'eau de l'air redevient liquide au contact du verre froid : c'est la condensation.",
-          "methode": "gaz → liquide : condensation."
+          "methode": "gaz → liquide : condensation.",
+          "id": "U2-SC-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi le château d'eau est-il construit en hauteur ?",
@@ -1654,7 +1900,9 @@
           ],
           "bonne": 0,
           "corrige": "C'est le principe des vases communicants : l'eau remonte jusqu'au même niveau.",
-          "methode": "Pense aux deux bouteilles reliées par un tuyau."
+          "methode": "Pense aux deux bouteilles reliées par un tuyau.",
+          "id": "U2-SC-COMPLEMENTAIRE-14",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "L'eau qui sort du filtre de sable et de charbon est-elle forcément potable ?",
@@ -1666,7 +1914,9 @@
           ],
           "bonne": 0,
           "corrige": "Le filtre retient les saletés visibles, mais pas les microbes invisibles.",
-          "methode": "Clair ne veut pas dire potable."
+          "methode": "Clair ne veut pas dire potable.",
+          "id": "U2-SC-COMPLEMENTAIRE-15",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment peut-on conserver le poisson ?",
@@ -1678,7 +1928,9 @@
           ],
           "bonne": 0,
           "corrige": "On conserve le poisson en le fumant, en le séchant ou en le salant.",
-          "methode": "Fumer, sécher, saler."
+          "methode": "Fumer, sécher, saler.",
+          "id": "U2-SC-COMPLEMENTAIRE-16",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans quel milieu vit le gorille ?",
@@ -1690,7 +1942,9 @@
           ],
           "bonne": 0,
           "corrige": "Le gorille vit dans la forêt dense, comme le chimpanzé et le perroquet gris.",
-          "methode": "Forêt : gorille ; savane : lion, antilope."
+          "methode": "Forêt : gorille ; savane : lion, antilope.",
+          "id": "U2-SC-COMPLEMENTAIRE-17",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle action protège l'environnement ?",
@@ -1702,7 +1956,9 @@
           ],
           "bonne": 0,
           "corrige": "Planter des arbres (reboiser) protège le sol, l'eau et les animaux.",
-          "methode": "Les trois autres actions abîment la nature."
+          "methode": "Les trois autres actions abîment la nature.",
+          "id": "U2-SC-COMPLEMENTAIRE-18",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-ST-U2-HIST",
@@ -1730,7 +1986,9 @@
           ],
           "bonne": 0,
           "corrige": "Deux clics très rapides sur le bouton gauche ouvrent une icône.",
-          "methode": "Double-clic = ouvrir."
+          "methode": "Double-clic = ouvrir.",
+          "id": "U2-TI-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment déplace-t-on une icône sur le bureau ?",
@@ -1742,7 +2000,9 @@
           ],
           "bonne": 0,
           "corrige": "On garde le bouton gauche appuyé en déplaçant la souris, puis on relâche.",
-          "methode": "Glisser, puis déposer."
+          "methode": "Glisser, puis déposer.",
+          "id": "U2-TI-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avec quel doigt appuie-t-on sur le bouton gauche de la souris ?",
@@ -1754,7 +2014,9 @@
           ],
           "bonne": 0,
           "corrige": "L'index est sur le bouton gauche, le majeur sur le bouton droit.",
-          "methode": "Le doigt qui montre."
+          "methode": "Le doigt qui montre.",
+          "id": "U2-TI-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur un ordinateur portable, qu'est-ce qui remplace la souris ?",
@@ -1766,7 +2028,9 @@
           ],
           "bonne": 0,
           "corrige": "On fait glisser le doigt sur le pavé tactile et on tape pour cliquer.",
-          "methode": "Tactile = on le touche."
+          "methode": "Tactile = on le touche.",
+          "id": "U2-TI-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce qu'une icône ?",
@@ -1778,7 +2042,9 @@
           ],
           "bonne": 0,
           "corrige": "Les icônes sont sur le bureau ; on les ouvre par un double-clic.",
-          "methode": "Petit dessin sur l'écran."
+          "methode": "Petit dessin sur l'écran.",
+          "id": "U2-TI-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel bouton ferme une fenêtre ?",
@@ -1790,7 +2056,9 @@
           ],
           "bonne": 0,
           "corrige": "× ferme ; — réduit ; □ agrandit.",
-          "methode": "La croix ferme."
+          "methode": "La croix ferme.",
+          "id": "U2-TI-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que fait le bouton « — » en haut à droite d'une fenêtre ?",
@@ -1802,7 +2070,9 @@
           ],
           "bonne": 0,
           "corrige": "Réduire cache la fenêtre sans la fermer.",
-          "methode": "Réduire."
+          "methode": "Réduire.",
+          "id": "U2-TI-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Où vont les fichiers que l'on supprime ?",
@@ -1814,7 +2084,9 @@
           ],
           "bonne": 0,
           "corrige": "La corbeille garde les fichiers supprimés.",
-          "methode": "Comme une poubelle."
+          "methode": "Comme une poubelle.",
+          "id": "U2-TI-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle TIC donne les nouvelles et les annonces de la localité, parfois en langue nationale ?",
@@ -1826,7 +2098,9 @@
           ],
           "bonne": 0,
           "corrige": "La radio communautaire est très écoutée dans les villages.",
-          "methode": "On l'écoute dans la localité."
+          "methode": "On l'écoute dans la localité.",
+          "id": "U2-TI-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Un enfant peut-il utiliser seul le transfert d'argent par téléphone ?",
@@ -1838,7 +2112,9 @@
           ],
           "bonne": 0,
           "corrige": "On n'utilise jamais seul le transfert d'argent et on ne donne jamais un code secret.",
-          "methode": "Le code est secret."
+          "methode": "Le code est secret.",
+          "id": "U2-TI-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur le quadrillage (A1 en bas à gauche), on part de A1 et on suit le programme → → ↑ ↑. Où arrive-t-on ?",
@@ -1850,7 +2126,9 @@
           ],
           "bonne": 0,
           "corrige": "On avance case par case : on arrive en C3.",
-          "methode": "Lis les flèches une par une, de gauche à droite."
+          "methode": "Lis les flèches une par une, de gauche à droite.",
+          "id": "U2-TI-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur le quadrillage (A1 en bas à gauche), on part de A1 et on suit le programme ↑ ↑ →. Où arrive-t-on ?",
@@ -1862,7 +2140,9 @@
           ],
           "bonne": 0,
           "corrige": "On avance case par case : on arrive en B3.",
-          "methode": "↑ monte d'une case ; → va d'une case à droite."
+          "methode": "↑ monte d'une case ; → va d'une case à droite.",
+          "id": "U2-TI-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel programme mène de A1 à D2 ?",
@@ -1874,7 +2154,9 @@
           ],
           "bonne": 0,
           "corrige": "→ → → mène de A1 à D1, puis ↑ mène à D2.",
-          "methode": "Compte les colonnes, puis les lignes."
+          "methode": "Compte les colonnes, puis les lignes.",
+          "id": "U2-TI-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-TI-U2-HIST",
@@ -1902,7 +2184,9 @@
           ],
           "bonne": 0,
           "corrige": "La personne sincère dit la vérité, même quand c'est difficile.",
-          "methode": "« Le mensonge a les jambes courtes. »"
+          "methode": "« Le mensonge a les jambes courtes. »",
+          "id": "U2-SH-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Moussa a cassé le seau de la voisine et on accuse un autre enfant. Que doit faire Moussa ?",
@@ -1914,7 +2198,9 @@
           ],
           "bonne": 0,
           "corrige": "En disant la vérité, il évite qu'un innocent soit puni et il garde la confiance des autres.",
-          "methode": "Personne ne doit être puni à notre place."
+          "methode": "Personne ne doit être puni à notre place.",
+          "id": "U2-SH-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui a le droit d'aller à l'école ?",
@@ -1926,7 +2212,9 @@
           ],
           "bonne": 0,
           "corrige": "Tout enfant, fille ou garçon, a le droit d'aller à l'école.",
-          "methode": "Le droit à l'école est pour tous."
+          "methode": "Le droit à l'école est pour tous.",
+          "id": "U2-SH-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avant de traverser la route, dans quel ordre regardes-tu ?",
@@ -1938,7 +2226,9 @@
           ],
           "bonne": 0,
           "corrige": "Les voitures roulent à droite : le danger le plus proche vient d'abord de la gauche.",
-          "methode": "Gauche, droite, gauche."
+          "methode": "Gauche, droite, gauche.",
+          "id": "U2-SH-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "S'il n'y a pas de trottoir, de quel côté de la route marche-t-on ?",
@@ -1950,7 +2240,9 @@
           ],
           "bonne": 0,
           "corrige": "En marchant face aux voitures, on les voit venir.",
-          "methode": "Il faut voir les véhicules arriver."
+          "methode": "Il faut voir les véhicules arriver.",
+          "id": "U2-SH-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Combien de groupes ethniques compte environ le Cameroun ?",
@@ -1962,7 +2254,9 @@
           ],
           "bonne": 0,
           "corrige": "Le Cameroun compte plus de 250 groupes ethniques : l'intégration nationale nous apprend à vivre ensemble.",
-          "methode": "Beaucoup de peuples, une seule nation."
+          "methode": "Beaucoup de peuples, une seule nation.",
+          "id": "U2-SH-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelles sont les deux langues officielles du Cameroun ?",
@@ -1974,7 +2268,9 @@
           ],
           "bonne": 0,
           "corrige": "Le français et l'anglais sont les langues officielles ; il existe aussi de nombreuses langues nationales.",
-          "methode": "Le Cameroun est bilingue."
+          "methode": "Le Cameroun est bilingue.",
+          "id": "U2-SH-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Combien de régions compte le Cameroun ?",
@@ -1986,7 +2282,9 @@
           ],
           "bonne": 0,
           "corrige": "Le Cameroun a 10 régions, 58 départements et environ 360 arrondissements.",
-          "methode": "10 régions."
+          "methode": "10 régions.",
+          "id": "U2-SH-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est le chef-lieu de la région de l'Ouest ?",
@@ -1998,7 +2296,9 @@
           ],
           "bonne": 0,
           "corrige": "Ouest : Bafoussam ; Nord-Ouest : Bamenda ; Sud-Ouest : Buéa ; Est : Bertoua.",
-          "methode": "Revois le tableau des régions."
+          "methode": "Revois le tableau des régions.",
+          "id": "U2-SH-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est le chef-lieu de la région de l'Extrême-Nord ?",
@@ -2010,7 +2310,9 @@
           ],
           "bonne": 0,
           "corrige": "Extrême-Nord : Maroua ; Nord : Garoua ; Adamaoua : Ngaoundéré ; Sud : Ebolowa.",
-          "methode": "Maroua est tout au nord."
+          "methode": "Maroua est tout au nord.",
+          "id": "U2-SH-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui dirige la région ?",
@@ -2022,7 +2324,9 @@
           ],
           "bonne": 0,
           "corrige": "Le gouverneur est nommé par le Président de la République et représente l'État dans la région.",
-          "methode": "Région : gouverneur ; département : préfet ; arrondissement : sous-préfet."
+          "methode": "Région : gouverneur ; département : préfet ; arrondissement : sous-préfet.",
+          "id": "U2-SH-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui dirige l'arrondissement ?",
@@ -2034,7 +2338,9 @@
           ],
           "bonne": 0,
           "corrige": "Le sous-préfet est l'autorité administrative de l'arrondissement.",
-          "methode": "Sous-préfet = arrondissement."
+          "methode": "Sous-préfet = arrondissement.",
+          "id": "U2-SH-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qui vote les lois au Cameroun ?",
@@ -2046,7 +2352,9 @@
           ],
           "bonne": 0,
           "corrige": "La loi est votée par le Parlement et promulguée par le Président de la République.",
-          "methode": "« Nul n'est censé ignorer la loi. »"
+          "methode": "« Nul n'est censé ignorer la loi. »",
+          "id": "U2-SH-COMPLEMENTAIRE-13",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quoi s'expose celui qui ne respecte pas la loi ?",
@@ -2058,7 +2366,9 @@
           ],
           "bonne": 0,
           "corrige": "C'est un tribunal qui décide de la sanction.",
-          "methode": "La loi s'applique à tous."
+          "methode": "La loi s'applique à tous.",
+          "id": "U2-SH-COMPLEMENTAIRE-14",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle végétation couvre le Sud du Cameroun ?",
@@ -2070,7 +2380,9 @@
           ],
           "bonne": 0,
           "corrige": "Il pleut beaucoup dans le Sud : la forêt dense, toujours verte, y pousse sur des sols rouges.",
-          "methode": "Plus il pleut, plus la végétation est dense."
+          "methode": "Plus il pleut, plus la végétation est dense.",
+          "id": "U2-SH-COMPLEMENTAIRE-15",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle végétation trouve-t-on dans l'Extrême-Nord ?",
@@ -2082,7 +2394,9 @@
           ],
           "bonne": 0,
           "corrige": "La steppe, faite d'herbes courtes et d'arbustes épineux, pousse sur des sols sableux, avec peu de pluie.",
-          "methode": "Peu de pluie, végétation pauvre."
+          "methode": "Peu de pluie, végétation pauvre.",
+          "id": "U2-SH-COMPLEMENTAIRE-16",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est le plus long fleuve du Cameroun ?",
@@ -2094,7 +2408,9 @@
           ],
           "bonne": 0,
           "corrige": "La Sanaga est le plus long fleuve du Cameroun ; plusieurs barrages y produisent l'électricité.",
-          "methode": "Pense aux barrages d'Edéa et de Song Loulou."
+          "methode": "Pense aux barrages d'Edéa et de Song Loulou.",
+          "id": "U2-SH-COMPLEMENTAIRE-17",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-SH-U2-HIST",
@@ -2122,7 +2438,9 @@
           ],
           "bonne": 0,
           "corrige": "Rouge, jaune et bleu : on ne peut pas les obtenir en mélangeant d'autres couleurs.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle couleur obtient-on en mélangeant du jaune et du bleu ?",
@@ -2134,7 +2452,9 @@
           ],
           "bonne": 0,
           "corrige": "Jaune + bleu = vert.",
-          "methode": "Une couleur secondaire = deux couleurs primaires mélangées."
+          "methode": "Une couleur secondaire = deux couleurs primaires mélangées.",
+          "id": "U2-AR-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle couleur obtient-on en mélangeant du rouge et du jaune ?",
@@ -2146,7 +2466,9 @@
           ],
           "bonne": 0,
           "corrige": "Rouge + jaune = orange.",
-          "methode": "Une couleur secondaire = deux couleurs primaires mélangées."
+          "methode": "Une couleur secondaire = deux couleurs primaires mélangées.",
+          "id": "U2-AR-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quelle couleur obtient-on en mélangeant du rouge et du bleu ?",
@@ -2158,7 +2480,9 @@
           ],
           "bonne": 0,
           "corrige": "Rouge + bleu = violet.",
-          "methode": "Une couleur secondaire = deux couleurs primaires mélangées."
+          "methode": "Une couleur secondaire = deux couleurs primaires mélangées.",
+          "id": "U2-AR-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment s'appellent le vert, l'orange et le violet ?",
@@ -2170,7 +2494,9 @@
           ],
           "bonne": 0,
           "corrige": "On les obtient en mélangeant deux couleurs primaires : ce sont les couleurs secondaires.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que dois-je faire avant de changer de couleur ?",
@@ -2182,7 +2508,9 @@
           ],
           "bonne": 0,
           "corrige": "Un pinceau rincé ne salit pas la nouvelle couleur.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le tam-tam fait partie de quelle famille d'instruments ?",
@@ -2194,7 +2522,9 @@
           ],
           "bonne": 0,
           "corrige": "On frappe le tam-tam : c'est une percussion.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment joue-t-on d'un instrument de la famille des vents ?",
@@ -2206,7 +2536,9 @@
           ],
           "bonne": 0,
           "corrige": "La flûte, la trompette et le sifflet sont des vents : on souffle dedans.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Lequel de ces instruments est un instrument à cordes ?",
@@ -2218,7 +2550,9 @@
           ],
           "bonne": 0,
           "corrige": "Le mvet a des cordes qu'on pince : c'est un instrument à cordes.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Le balafon se joue en frappant des lames de bois. C'est donc :",
@@ -2230,7 +2564,9 @@
           ],
           "bonne": 0,
           "corrige": "On frappe les lames avec des baguettes : le balafon est une percussion.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans une danse en cercle, quand mes pas doivent-ils tomber ?",
@@ -2242,7 +2578,9 @@
           ],
           "bonne": 0,
           "corrige": "Je suis le rythme : mes pas tombent sur les coups du tambour.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans la danse en cercle, qui dois-je regarder ?",
@@ -2254,7 +2592,9 @@
           ],
           "bonne": 0,
           "corrige": "J'imite le meneur et je garde la même distance avec mes voisins.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-AR-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-AR-U2-HIST",
@@ -2282,7 +2622,9 @@
           ],
           "bonne": 0,
           "corrige": "Celui qui part trop vite s'arrête vite : en endurance, on part lentement.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce que le test de la parole ?",
@@ -2294,7 +2636,9 @@
           ],
           "bonne": 0,
           "corrige": "Si je ne peux plus parler, je cours trop vite pour une course d'endurance.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Que fais-je juste après une course d'endurance ?",
@@ -2306,7 +2650,9 @@
           ],
           "bonne": 0,
           "corrige": "Marcher aide le corps à récupérer, et boire remplace l'eau perdue en transpirant.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pendant la course, un élève a un point de côté. Que doit-il faire ?",
@@ -2318,7 +2664,9 @@
           ],
           "bonne": 0,
           "corrige": "Le point de côté passe en marchant et en respirant profondément.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quel est l'effet de la course d'endurance sur le corps ?",
@@ -2330,7 +2678,9 @@
           ],
           "bonne": 0,
           "corrige": "Courir longtemps à allure régulière fait travailler et renforce le cœur et les poumons.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quelles heures vaut-il mieux courir longtemps ?",
@@ -2342,7 +2692,9 @@
           ],
           "bonne": 0,
           "corrige": "Aux heures fraîches, le corps chauffe moins et on se fatigue moins vite.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Au football, comment conduis-je le ballon ?",
@@ -2354,7 +2706,9 @@
           ],
           "bonne": 0,
           "corrige": "Petites touches avec l'intérieur ou l'extérieur du pied, et la tête levée pour voir le jeu.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avec quelle partie du pied fait-on une passe précise ?",
@@ -2366,7 +2720,9 @@
           ],
           "bonne": 0,
           "corrige": "L'intérieur du pied offre une grande surface : la passe est plus précise.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pendant la passe, où se place le pied d'appui ?",
@@ -2378,7 +2734,9 @@
           ],
           "bonne": 0,
           "corrige": "Le pied d'appui à côté du ballon, puis je frappe avec l'intérieur de l'autre pied.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Au football, qui peut toucher le ballon avec les mains ?",
@@ -2390,7 +2748,9 @@
           ],
           "bonne": 0,
           "corrige": "Seul le gardien prend le ballon avec les mains, et seulement dans sa surface.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pour bien tomber en arrière, que fais-je avec ma tête ?",
@@ -2402,7 +2762,9 @@
           ],
           "bonne": 0,
           "corrige": "Menton rentré : la tête ne touche jamais le sol.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Sur quel sol s'entraîne-t-on à tomber ?",
@@ -2414,7 +2776,9 @@
           ],
           "bonne": 0,
           "corrige": "On n'apprend jamais à tomber sur un sol dur.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-EP-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-EP-U2-HIST",
@@ -2442,7 +2806,9 @@
           ],
           "bonne": 0,
           "corrige": "Le vannier utilise le rotin, le raphia, le bambou ou les feuilles de palmier.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-1",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Dans un panier, comment appelle-t-on les tiges qui montent ?",
@@ -2454,7 +2820,9 @@
           ],
           "bonne": 0,
           "corrige": "Le brin tourne autour des montants.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-2",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Pourquoi prend-on un nombre impair de montants ?",
@@ -2466,7 +2834,9 @@
           ],
           "bonne": 0,
           "corrige": "Avec un nombre impair, le tour suivant se croise tout seul.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-3",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avec quelle matière le vannier travaille-t-il ?",
@@ -2478,7 +2848,9 @@
           ],
           "bonne": 0,
           "corrige": "Ce sont des fibres végétales.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-4",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "De quoi une graine a-t-elle besoin pour germer ?",
@@ -2490,7 +2862,9 @@
           ],
           "bonne": 0,
           "corrige": "Eau, air et chaleur font germer la graine.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-5",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Qu'est-ce qu'un poquet ?",
@@ -2502,7 +2876,9 @@
           ],
           "bonne": 0,
           "corrige": "On sème le maïs ou l'arachide en poquets de deux ou trois graines.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-6",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "À quelle profondeur sème-t-on une graine ?",
@@ -2514,7 +2890,9 @@
           ],
           "bonne": 0,
           "corrige": "Une graine semée trop profond n'arrive pas à sortir de terre.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-7",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Quand sème-t-on au jardin ?",
@@ -2526,7 +2904,9 @@
           ],
           "bonne": 0,
           "corrige": "La terre humide aide les graines à germer.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-8",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Avant d'aller au marché, que fait-on ?",
@@ -2538,7 +2918,9 @@
           ],
           "bonne": 0,
           "corrige": "La liste évite d'oublier et de dépenser trop.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-9",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "J'achète 3 tas de tomates à 200 F. Combien dois-je payer ?",
@@ -2550,7 +2932,9 @@
           ],
           "bonne": 0,
           "corrige": "3 × 200 F = 600 F.",
-          "methode": "Multiplie le nombre par le prix, puis additionne."
+          "methode": "Multiplie le nombre par le prix, puis additionne.",
+          "id": "U2-DP-COMPLEMENTAIRE-10",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "J'achète 3 tas de tomates à 200 F et je paie avec un billet de 1 000 F. Combien me rend-on ?",
@@ -2562,7 +2946,9 @@
           ],
           "bonne": 0,
           "corrige": "3 × 200 F = 600 F ; 1 000 F − 600 F = 400 F.",
-          "methode": "Multiplie le nombre par le prix, puis additionne."
+          "methode": "Multiplie le nombre par le prix, puis additionne.",
+          "id": "U2-DP-COMPLEMENTAIRE-11",
+          "editorial_status": "in_review"
         },
         {
           "enonce": "Comment reconnaît-on un poisson frais ?",
@@ -2574,7 +2960,9 @@
           ],
           "bonne": 0,
           "corrige": "Un poisson frais a les yeux brillants et la chair ferme.",
-          "methode": ""
+          "methode": "",
+          "id": "U2-DP-COMPLEMENTAIRE-12",
+          "editorial_status": "in_review"
         }
       ],
       "id": "CE2-DP-U2-HIST",

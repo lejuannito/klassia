@@ -1,6 +1,6 @@
 {
   "format": "klassia-content",
-  "version": 1,
+  "version": "15.0",
   "metadata": {
     "product": "Klassia",
     "class": "CE2",
@@ -8,7 +8,7 @@
     "unit_title": "Les communications",
     "country": "Cameroun",
     "curriculum": "Curriculum de l’enseignement primaire francophone camerounais - Niveau 2 (CE1-CE2), MINEDUB, 2018",
-    "editorial_status": "DRAFT_FOR_PEDAGOGICAL_REVIEW",
+    "editorial_status": "PILOT_REVIEW_REQUIRED",
     "created": "2026-10-30",
     "source_file": "Curriculum-CE.pdf"
   },
@@ -57,18 +57,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Écouter et échanger sur les communications » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je questionne, j’écoute et j’utilise un vocabulaire adapté au moyen de communication et à l’interlocuteur. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écouter et échanger sur les communications ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je questionne, j’écoute et j’utilise un vocabulaire adapté au moyen de communication et à l’interlocuteur.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U8, p.30.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Écouter et échanger sur les communications » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écouter et échanger sur les communications » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je questionne, j’écoute et j’utilise un vocabulaire adapté au moyen de communication et à l’interlocuteur. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, expression orale, U8, p.30.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U8-L2",
@@ -87,20 +122,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Écrire une légende et un compte-rendu » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une légende est courte et précise ; un compte-rendu restitue les faits essentiels dans un ordre logique. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écrire une légende et un compte-rendu ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une légende est courte et précise ; un compte-rendu restitue les faits essentiels dans un ordre logique.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U8, p.33.",
           "practical": [],
           "notes": [
             "Le tableau classe ces savoir-faire sous « textes argumentatifs », alors que « légende » et « compte-rendu » ne correspondent pas strictement à cette catégorie ; point à valider."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Construire son texte avant d’écrire",
+              "kind": "method",
+              "body": "Avant de rédiger sur « les communications », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+            },
+            {
+              "title": "Améliorer une première version",
+              "kind": "example",
+              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écrire une légende et un compte-rendu » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Une légende est courte et précise ; un compte-rendu restitue les faits essentiels dans un ordre logique. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, production d’écrits, U8, p.33.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U8-L3",
@@ -119,18 +184,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure liée aux communications » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je résume les événements et je justifie mon avis avec le texte. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure liée aux communications ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je résume les événements et je justifie mon avis avec le texte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L3-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U8, p.36.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Lire comme un détective",
+              "kind": "method",
+              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure liée aux communications », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
+            },
+            {
+              "title": "Rendre compte de sa lecture",
+              "kind": "text",
+              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure liée aux communications » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je résume les événements et je justifie mon avis avec le texte. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, littérature, U8, p.36.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U8-L4",
@@ -149,20 +244,55 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Compléments d’objet et compléments de circonstance » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le complément d’objet est lié au verbe ; le complément de circonstance apporte une précision comme le lieu ou le temps. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Compléments d’objet et compléments de circonstance ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le complément d’objet est lié au verbe ; le complément de circonstance apporte une précision comme le lieu ou le temps.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L4-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U8, p.41.",
           "practical": [],
           "notes": [
             "Le tableau source place cette ressource sous « fonctions des éléments du groupe nominal » ; formulation à revoir pédagogiquement."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Compléments d’objet et compléments de circonstance » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Compléments d’objet et compléments de circonstance » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le complément d’objet est lié au verbe ; le complément de circonstance apporte une précision comme le lieu ou le temps. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, grammaire, U8, p.41.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U8-L5",
@@ -181,18 +311,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Conjonctions de coordination et adverbes » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les conjonctions relient des éléments ; les adverbes précisent souvent le sens d’un verbe, d’un adjectif ou d’une phrase. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Conjonctions de coordination et adverbes ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les conjonctions relient des éléments ; les adverbes précisent souvent le sens d’un verbe, d’un adjectif ou d’une phrase.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U8, p.41.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Conjonctions de coordination et adverbes » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Conjonctions de coordination et adverbes » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les conjonctions relient des éléments ; les adverbes précisent souvent le sens d’un verbe, d’un adjectif ou d’une phrase. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, grammaire, U8, p.41.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U8-L6",
@@ -211,18 +376,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Vocabulaire des communications et dictionnaire » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Message, appel, téléphone, radio, lettre, réseau, information sont des mots liés aux communications selon le contexte. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vocabulaire des communications et dictionnaire ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Message, appel, téléphone, radio, lettre, réseau, information sont des mots liés aux communications selon le contexte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U8, p.45.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Choisir le mot juste",
+              "kind": "text",
+              "body": "Le vocabulaire de « les communications » aide à parler et écrire avec précision. Pour apprendre un mot, ne mémorise pas seulement sa définition : observe un exemple, sa famille éventuelle, sa nature grammaticale et un contexte où tu peux l’utiliser. Le dictionnaire sert à vérifier l’orthographe, le sens et certaines informations grammaticales."
+            },
+            {
+              "title": "Créer son petit lexique",
+              "kind": "activity",
+              "body": "Sur une page de cahier, prépare trois colonnes : « mot », « ce qu’il veut dire », « ma phrase ». Ajoute au moins cinq mots du chapitre. Relis ce lexique avant une production écrite et essaie d’employer deux de ces mots."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Vocabulaire des communications et dictionnaire » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Message, appel, téléphone, radio, lettre, réseau, information sont des mots liés aux communications selon le contexte. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, vocabulaire, U8, p.45.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U8-L7",
@@ -242,18 +437,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Dictée et passé simple des verbes réguliers » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le passé simple est un temps du récit écrit ; au CE2, on travaille les formes régulières prévues par le programme et la cohérence des indicateurs temporels. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L7-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Dictée et passé simple des verbes réguliers ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le passé simple est un temps du récit écrit ; au CE2, on travaille les formes régulières prévues par le programme et la cohérence des indicateurs temporels.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U8-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe p.48 et conjugaison p.51, U8.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Construire son texte avant d’écrire",
+              "kind": "method",
+              "body": "Avant de rédiger sur « les communications », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+            },
+            {
+              "title": "Améliorer une première version",
+              "kind": "example",
+              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Dictée et passé simple des verbes réguliers » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le passé simple est un temps du récit écrit ; au CE2, on travaille les formes régulières prévues par le programme et la cohérence des indicateurs temporels. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, orthographe p.48 et conjugaison p.51, U8.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -291,7 +516,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Français et littérature développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "EN",
@@ -304,28 +530,62 @@
           "objectives": [
             "Communicate using a means of communication and count from 451 to 500."
           ],
-          "discover": "Think about the theme “Les communications”. Listen, read or observe a short example before using English yourself.",
+          "discover": "A telephone conversation\nLina: Hello! This is Lina speaking. May I speak to Paul, please?\nPaul: Hello, Lina. This is Paul.\nLina: Please bring your book tomorrow.\nPaul: All right. Thank you for calling.\nLina: Goodbye, Paul.\nPaul: Goodbye.",
           "learn": [
-            "Use simple, polite expressions adapted to the means of communication."
+            "Hello! This is Nia speaking. May I speak to Biko, please?",
+            "Useful words: speaking = à l’appareil; May I speak to…? = Puis-je parler à… ?; please = s’il te/vous plaît; tomorrow = demain; Goodbye = au revoir"
           ],
           "takeaway": "Use simple, polite expressions adapted to the means of communication.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Communicating with a means of communication”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Use simple, polite expressions adapted to the means of communication.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U8-L1-E1",
+              "type": "open",
+              "prompt": "Who is calling Paul?",
+              "answer": "Lina is calling Paul.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Communicating with a means of communication ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Use simple, polite expressions adapted to the means of communication.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U8-L1-E2",
+              "type": "open",
+              "prompt": "What should Paul bring tomorrow?",
+              "answer": "He should bring his book.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
+            },
+            {
+              "id": "EN-U8-L1-N1",
+              "type": "open",
+              "prompt": "Write 465 in words, then continue: 497, 498, …, …",
+              "answer": "Four hundred and sixty-five. 499, 500.",
+              "explanation": "Keep the hundreds, then name the tens and units."
             }
           ],
           "source": "Curriculum CE2, English Language, U8, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "Hello! This is Nia speaking. May I speak to Biko, please? Change one name or one piece of information. Keep the sentence structure."
+            },
+            {
+              "title": "Numbers 451 to 500",
+              "kind": "example",
+              "body": "451: four hundred and fifty-one; 452: four hundred and fifty-two; 459: four hundred and fifty-nine; 460: four hundred and sixty; 499: four hundred and ninety-nine; 500: five hundred. Practise the sequence 451–460, then build each next group of ten with an adult."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U8, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U8-L2",
@@ -333,28 +593,62 @@
           "objectives": [
             "Read a telephone conversation and numbers from 450/451 to 500."
           ],
-          "discover": "Think about the theme “Les communications”. Listen, read or observe a short example before using English yourself.",
+          "discover": "A telephone conversation\nLina: Hello! This is Lina speaking. May I speak to Paul, please?\nPaul: Hello, Lina. This is Paul.\nLina: Please bring your book tomorrow.\nPaul: All right. Thank you for calling.\nLina: Goodbye, Paul.\nPaul: Goodbye.",
           "learn": [
-            "Identify the speakers, greetings, message and closing."
+            "Hello! This is Nia speaking. May I speak to Biko, please?",
+            "Useful words: speaking = à l’appareil; May I speak to…? = Puis-je parler à… ?; please = s’il te/vous plaît; tomorrow = demain; Goodbye = au revoir"
           ],
           "takeaway": "Identify the speakers, greetings, message and closing.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Reading a telephone conversation”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Identify the speakers, greetings, message and closing.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U8-L2-E1",
+              "type": "open",
+              "prompt": "Who is calling Paul?",
+              "answer": "Lina is calling Paul.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Reading a telephone conversation ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Identify the speakers, greetings, message and closing.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U8-L2-E2",
+              "type": "open",
+              "prompt": "What should Paul bring tomorrow?",
+              "answer": "He should bring his book.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
+            },
+            {
+              "id": "EN-U8-L2-N1",
+              "type": "open",
+              "prompt": "Write 465 in words, then continue: 497, 498, …, …",
+              "answer": "Four hundred and sixty-five. 499, 500.",
+              "explanation": "Keep the hundreds, then name the tens and units."
             }
           ],
           "source": "Curriculum CE2, English Language, U8, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "Hello! This is Nia speaking. May I speak to Biko, please? Change one name or one piece of information. Keep the sentence structure."
+            },
+            {
+              "title": "Numbers 451 to 500",
+              "kind": "example",
+              "body": "451: four hundred and fifty-one; 452: four hundred and fifty-two; 459: four hundred and fifty-nine; 460: four hundred and sixty; 499: four hundred and ninety-nine; 500: five hundred. Practise the sequence 451–460, then build each next group of ten with an adult."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U8, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U8-L3",
@@ -362,28 +656,55 @@
           "objectives": [
             "Write a simple telephone conversation and numbers from 451 to 500."
           ],
-          "discover": "Think about the theme “Les communications”. Listen, read or observe a short example before using English yourself.",
+          "discover": "A telephone conversation\nLina: Hello! This is Lina speaking. May I speak to Paul, please?\nPaul: Hello, Lina. This is Paul.\nLina: Please bring your book tomorrow.\nPaul: All right. Thank you for calling.\nLina: Goodbye, Paul.\nPaul: Goodbye.",
           "learn": [
-            "Use short turns, punctuation and polite language."
+            "Hello! This is Nia speaking. May I speak to Biko, please?",
+            "Useful words: speaking = à l’appareil; May I speak to…? = Puis-je parler à… ?; please = s’il te/vous plaît; tomorrow = demain; Goodbye = au revoir"
           ],
           "takeaway": "Use short turns, punctuation and polite language.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Writing a telephone conversation”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Use short turns, punctuation and polite language.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U8-L3-E1",
+              "type": "open",
+              "prompt": "Write two short sentences using the model. Change the names or details.",
+              "answer": "Hello! This is Nia speaking. May I speak to Biko, please?",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Writing a telephone conversation ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Use short turns, punctuation and polite language.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U8-L3-N1",
+              "type": "open",
+              "prompt": "Write 465 in words, then continue: 497, 498, …, …",
+              "answer": "Four hundred and sixty-five. 499, 500.",
+              "explanation": "Keep the hundreds, then name the tens and units."
             }
           ],
           "source": "Curriculum CE2, English Language, U8, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "Hello! This is Nia speaking. May I speak to Biko, please? Change one name or one piece of information. Keep the sentence structure."
+            },
+            {
+              "title": "Numbers 451 to 500",
+              "kind": "example",
+              "body": "451: four hundred and fifty-one; 452: four hundred and fifty-two; 459: four hundred and fifty-nine; 460: four hundred and sixty; 499: four hundred and ninety-nine; 500: five hundred. Practise the sequence 451–460, then build each next group of ten with an adult."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U8, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U8-L4",
@@ -391,28 +712,43 @@
           "objectives": [
             "Use capital letters and appropriate punctuation marks in sentences."
           ],
-          "discover": "Think about the theme “Les communications”. Listen, read or observe a short example before using English yourself.",
+          "discover": "A telephone conversation\nLina: Hello! This is Lina speaking. May I speak to Paul, please?\nPaul: Hello, Lina. This is Paul.\nLina: Please bring your book tomorrow.\nPaul: All right. Thank you for calling.\nLina: Goodbye, Paul.\nPaul: Goodbye.",
           "learn": [
-            "Begin sentences and proper names with capital letters and close sentences with suitable punctuation."
+            "Begin a sentence and a person’s name with a capital letter: Lina is calling Paul. Use a full stop for a statement, a question mark for a question and an exclamation mark for an exclamation. The pronoun I is always a capital letter.",
+            "Useful words: speaking = à l’appareil; May I speak to…? = Puis-je parler à… ?; please = s’il te/vous plaît; tomorrow = demain; Goodbye = au revoir"
           ],
           "takeaway": "Begin sentences and proper names with capital letters and close sentences with suitable punctuation.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Capital letters and punctuation”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Begin sentences and proper names with capital letters and close sentences with suitable punctuation.",
-              "explanation": "",
-              "type": "open"
-            },
-            {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Capital letters and punctuation ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Begin sentences and proper names with capital letters and close sentences with suitable punctuation.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U8-L4-E1",
+              "type": "open",
+              "prompt": "Correct the capitals and punctuation: may i speak to paul",
+              "answer": "May I speak to Paul?",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U8, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "Begin a sentence and a person’s name with a capital letter: Lina is calling Paul. Use a full stop for a statement, a question mark for a question and an exclamation mark for an exclamation. The pronoun I is always a capital letter."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U8, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         }
       ],
       "assessment": {
@@ -450,7 +786,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de English Language développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "BA",
@@ -474,20 +811,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Communications traditionnelles » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U8-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Communications traditionnelles ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U8, pp.70-72.",
           "practical": [],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Parcours oral → lecture → écriture",
+              "kind": "method",
+              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
+            },
+            {
+              "title": "Travailler avec un locuteur compétent",
+              "kind": "activity",
+              "body": "À partir du thème « Les communications », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Communications traditionnelles ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
+            },
+            {
+              "title": "Comparer sans mélanger",
+              "kind": "warning",
+              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, langues et cultures nationales, U8, pp.70-72.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -525,7 +887,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "MA",
@@ -538,30 +901,55 @@
           "objectives": [
             "Composer et décomposer les nombres entiers de cinq chiffres avec des regroupements par dizaines, centaines et milliers."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Nombres entiers de cinq chiffres ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un compteur affiche 34 527 messages fictifs. Que représente le premier chiffre ?",
           "learn": [
             "Un nombre de cinq chiffres comporte aussi une position des dizaines de milliers ; ce point dépasse l’attente de fin de niveau indiquée ailleurs à 10 000 et doit être validé éditorialement."
           ],
           "takeaway": "Un nombre de cinq chiffres comporte aussi une position des dizaines de milliers ; ce point dépasse l’attente de fin de niveau indiquée ailleurs à 10 000 et doit être validé éditorialement.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Nombres entiers de cinq chiffres » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un nombre de cinq chiffres comporte aussi une position des dizaines de milliers ; ce point dépasse l’attente de fin de niveau indiquée ailleurs à 10 000 et doit être validé éditorialement. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L1-E1",
+              "type": "open",
+              "prompt": "Décompose 28 516. Quelle est la valeur du chiffre 8 ?",
+              "answer": "20 000 + 8 000 + 500 + 10 + 6 ; le 8 vaut 8 000.",
+              "explanation": "Le 8 se trouve au rang des milliers."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Nombres entiers de cinq chiffres ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un nombre de cinq chiffres comporte aussi une position des dizaines de milliers ; ce point dépasse l’attente de fin de niveau indiquée ailleurs à 10 000 et doit être validé éditorialement.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L1-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "Le 8 se trouve au rang des milliers.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U8, p.82.",
           "practical": [],
           "notes": [
             "INCOHERENCE_CURRICULUM: U8 demande les nombres de cinq chiffres alors que les attentes de fin de niveau mentionnent les entiers jusqu’à 10 000."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "34 527 = 30 000 + 4 000 + 500 + 20 + 7. Le chiffre 3 représente trois dizaines de milliers, soit 30 000. On lit trente-quatre mille cinq cent vingt-sept. Cette ressource U8 est conservée pour revue de la progression officielle ; l’adulte décide de son introduction selon les acquis de l’enfant."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U8, p.82.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U8-L2",
@@ -570,28 +958,53 @@
             "Identifier les fonctions de base de la calculatrice.",
             "Utiliser la calculatrice pour les quatre opérations."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Calcul instrumenté à la calculatrice ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Tu dois vérifier 248 + 137 avec une calculatrice. Que fais-tu avant de saisir les touches ?",
           "learn": [
             "La calculatrice est un outil de calcul et de vérification ; je dois comprendre l’opération avant de saisir les nombres."
           ],
           "takeaway": "La calculatrice est un outil de calcul et de vérification ; je dois comprendre l’opération avant de saisir les nombres.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Calcul instrumenté à la calculatrice » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La calculatrice est un outil de calcul et de vérification ; je dois comprendre l’opération avant de saisir les nombres. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L2-E1",
+              "type": "open",
+              "prompt": "Estime puis vérifie 96 × 4 avec une calculatrice.",
+              "answer": "Environ 400 ; résultat exact 384.",
+              "explanation": "100 × 4 = 400. Comme 96 est 4 de moins que 100, retirer 4 × 4 = 16 : 384."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Calcul instrumenté à la calculatrice ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La calculatrice est un outil de calcul et de vérification ; je dois comprendre l’opération avant de saisir les nombres.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L2-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "100 × 4 = 400. Comme 96 est 4 de moins que 100, retirer 4 × 4 = 16 : 384.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U8, p.82.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Estime : 250 + 140 est proche de 390. Saisis 248, puis +, puis 137, puis = : 385. Compare au résultat attendu. La touche d’effacement permet de recommencer une saisie incorrecte. Une calculatrice exécute ce qu’on saisit ; elle ne choisit pas l’opération du problème à notre place."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U8, p.82.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U8-L3",
@@ -599,28 +1012,53 @@
           "objectives": [
             "Écrire et dire des suites de nombres de 1 000 en 1 000 jusqu’à 10 000."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Compter de 1 000 en 1 000 jusqu’à 10 000 ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un tableau affiche 1 000 messages, puis 2 000, puis 3 000. Quelle règle suit-il ?",
           "learn": [
             "Je repère la régularité : 1 000, 2 000, 3 000… jusqu’à 10 000."
           ],
           "takeaway": "Je repère la régularité : 1 000, 2 000, 3 000… jusqu’à 10 000.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Compter de 1 000 en 1 000 jusqu’à 10 000 » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère la régularité : 1 000, 2 000, 3 000… jusqu’à 10 000. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L3-E1",
+              "type": "open",
+              "prompt": "Complète : 4 000, 5 000, …, …, 8 000.",
+              "answer": "6 000, 7 000.",
+              "explanation": "La différence entre deux nombres voisins reste 1 000."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Compter de 1 000 en 1 000 jusqu’à 10 000 ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère la régularité : 1 000, 2 000, 3 000… jusqu’à 10 000.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L3-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "La différence entre deux nombres voisins reste 1 000.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U8, p.82.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "On ajoute 1 000 à chaque étape : 1 000, 2 000, 3 000, 4 000, 5 000, 6 000, 7 000, 8 000, 9 000, 10 000. On peut vérifier en retirant 1 000 pour revenir au précédent."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U8, p.82.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U8-L4",
@@ -628,28 +1066,53 @@
           "objectives": [
             "Manipuler et utiliser la monnaie d’une valeur inférieure ou égale à 10 000 F dans des transactions commerciales."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Utiliser la monnaie jusqu’à 10 000 F ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux cahiers coûtent 750 F chacun et un stylo coûte 250 F. Tu donnes 2 000 F. Quelle monnaie reçois-tu ?",
           "learn": [
             "Je compose un montant, calcule un total ou une monnaie à rendre et vérifie que les valeurs sont cohérentes."
           ],
           "takeaway": "Je compose un montant, calcule un total ou une monnaie à rendre et vérifie que les valeurs sont cohérentes.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Utiliser la monnaie jusqu’à 10 000 F » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je compose un montant, calcule un total ou une monnaie à rendre et vérifie que les valeurs sont cohérentes. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L4-E1",
+              "type": "open",
+              "prompt": "Un achat coûte 6 500 F. Tu donnes 10 000 F. Quelle monnaie doit-on te rendre ?",
+              "answer": "3 500 F.",
+              "explanation": "10 000 − 6 500 = 3 500. Par exemple 2 000 F + 1 000 F + 500 F."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Utiliser la monnaie jusqu’à 10 000 F ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je compose un montant, calcule un total ou une monnaie à rendre et vérifie que les valeurs sont cohérentes.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L4-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "10 000 − 6 500 = 3 500. Par exemple 2 000 F + 1 000 F + 500 F.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, U8, p.87.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Deux cahiers coûtent 2 × 750 = 1 500 F. Total : 1 500 + 250 = 1 750 F. Monnaie : 2 000 − 1 750 = 250 F. Vérifie que 1 750 + 250 = 2 000. Utilise de la monnaie factice pour représenter ces sommes."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, mesures et grandeurs, U8, p.87.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U8-L5",
@@ -657,28 +1120,53 @@
           "objectives": [
             "Localiser un point sur un repère à partir de ses coordonnées."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Coordonnées et graphiques ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une classe compte ses messages : lundi 4, mardi 6 et mercredi 3. Quel jour en a-t-elle le plus ?",
           "learn": [
             "Je lis les coordonnées et je place le point précisément sur le repère."
           ],
           "takeaway": "Je lis les coordonnées et je place le point précisément sur le repère.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Coordonnées et graphiques » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lis les coordonnées et je place le point précisément sur le repère. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L5-E1",
+              "type": "open",
+              "prompt": "Avec ces données, calcule le total des messages et la différence entre mardi et lundi.",
+              "answer": "13 messages au total ; différence de 2.",
+              "explanation": "4 + 6 + 3 = 13 ; 6 − 4 = 2."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Coordonnées et graphiques ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lis les coordonnées et je place le point précisément sur le repère.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U8-L5-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "4 + 6 + 3 = 13 ; 6 − 4 = 2.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, géométrie, U8, p.91.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Un tableau associe chaque jour à un nombre. Dans un graphique en barres avec une graduation de 1, les hauteurs sont 4, 6 et 3. La barre de mardi est la plus haute. La différence entre mardi et mercredi est 6 − 3 = 3 messages. Vérifie toujours la graduation avant de comparer."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, géométrie, U8, p.91.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         }
       ],
       "assessment": {
@@ -716,7 +1204,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Mathématiques développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "SC",
@@ -739,13 +1228,15 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Prévention du VIH/Sida » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U8-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Prévention du VIH/Sida ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U8, p.99.",
@@ -753,7 +1244,35 @@
           "notes": [
             "Le curriculum ne fournit pas de ressource U8 dans les autres sous-domaines scientifiques ; aucune leçon n’est ajoutée artificiellement.",
             "Contenu santé à valider avec les référents compétents."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Prévention du VIH/Sida », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Prévention du VIH/Sida » et donne un exemple adapté au thème « Les communications ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « prévention du vih/sida ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences de la vie, U8, p.99.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -791,7 +1310,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Sciences et technologies développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "TI",
@@ -815,18 +1335,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité et éthique dans les communications numériques » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U8-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité et éthique dans les communications numériques ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, santé, sécurité et éthique TIC, U8, p.116.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Sécurité et éthique dans les communications numériques », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Sécurité et éthique dans les communications numériques » et donne un exemple adapté au thème « Les communications ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « Les communications » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, santé, sécurité et éthique TIC, U8, p.116.",
+            "reviewer": null
+          }
         },
         {
           "id": "TI-U8-L2",
@@ -844,18 +1399,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Programmer avec un logiciel dédié » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U8-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Programmer avec un logiciel dédié ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, programmation, U8, p.117.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Programmer avec un logiciel dédié », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Programmer avec un logiciel dédié » et donne un exemple adapté au thème « Les communications ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « Les communications » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, programmation, U8, p.117.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -893,7 +1483,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de TIC développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "SH",
@@ -916,18 +1507,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Le bien et le mal » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Le bien et le mal ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U8, p.124.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Le bien et le mal » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Le bien et le mal » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, éducation morale, U8, p.124.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U8-L2",
@@ -945,18 +1566,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Liberté d’information, d’expression et participation » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Liberté d’information, d’expression et participation ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’enfant, U8, p.126.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Liberté d’information, d’expression et participation » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Liberté d’information, d’expression et participation » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, droits de l’enfant, U8, p.126.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U8-L3",
@@ -974,18 +1625,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Droits de l’homme » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les droits humains protègent la dignité et les libertés fondamentales de toute personne. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Droits de l’homme ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les droits humains protègent la dignité et les libertés fondamentales de toute personne.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L3-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’homme, U8, p.126.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Droits de l’homme » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Droits de l’homme » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les droits humains protègent la dignité et les libertés fondamentales de toute personne. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, droits de l’homme, U8, p.126.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U8-L4",
@@ -1003,18 +1684,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Règles d’une communication en face à face ou par TIC » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Règles d’une communication en face à face ou par TIC ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L4-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U8, p.133.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Règles d’une communication en face à face ou par TIC » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Règles d’une communication en face à face ou par TIC » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, règles et règlements, U8, p.133.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U8-L5",
@@ -1032,18 +1743,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Résistance à la pénétration européenne » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Résistance à la pénétration européenne ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L5-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U8, p.136.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Résistance à la pénétration européenne » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Résistance à la pénétration européenne » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, histoire, U8, p.136.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U8-L6",
@@ -1062,18 +1803,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Planètes du système solaire » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une planète est un astre qui tourne autour d’une étoile ; les huit planètes du système solaire tournent autour du Soleil. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Planètes du système solaire ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une planète est un astre qui tourne autour d’une étoile ; les huit planètes du système solaire tournent autour du Soleil.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U8-L6-E2"
             }
           ],
           "source": "Curriculum CE2, géographie physique, U8, p.139.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Planètes du système solaire » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Planètes du système solaire » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Une planète est un astre qui tourne autour d’une étoile ; les huit planètes du système solaire tournent autour du Soleil. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, géographie physique, U8, p.139.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1111,7 +1882,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Sciences humaines et sociales développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "AR",
@@ -1135,20 +1907,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Figures emblématiques de la musique camerounaise » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les exemples d’artistes et les œuvres doivent être choisis et vérifiés dans le contexte local, avec respect du droit d’auteur. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U8-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Figures emblématiques de la musique camerounaise ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les exemples d’artistes et les œuvres doivent être choisis et vérifiés dans le contexte local, avec respect du droit d’auteur.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U8, p.146.",
           "practical": [],
           "notes": [
             "Ne pas reproduire des paroles protégées ; choisir des œuvres autorisées ou travailler sans citation longue."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Figures emblématiques de la musique camerounaise », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les communications ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, musique, U8, p.146.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U8-L2",
@@ -1167,18 +1964,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Théâtre camerounais et interprétation d’un sketch » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les figures et extraits doivent être vérifiés et choisis dans un cadre pédagogique approprié, sans reproduire intégralement une œuvre protégée. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U8-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Théâtre camerounais et interprétation d’un sketch ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les figures et extraits doivent être vérifiés et choisis dans un cadre pédagogique approprié, sans reproduire intégralement une œuvre protégée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, arts dramatiques, U8, p.148.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Théâtre camerounais et interprétation d’un sketch », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les communications ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, arts dramatiques, U8, p.148.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U8-L3",
@@ -1196,18 +2018,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Rythmes et cadence » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère la pulsation et je garde une cadence régulière avec le groupe. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U8-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Rythmes et cadence ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère la pulsation et je garde une cadence régulière avec le groupe.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U8-L3-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U8, p.149.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Rythmes et cadence », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les communications ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, danse, U8, p.149.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1245,7 +2092,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "EP",
@@ -1269,18 +2117,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Communiquer avec ses coéquipiers et son entraîneur » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U8-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Communiquer avec ses coéquipiers et son entraîneur ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U8, p.156.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer le corps",
+              "kind": "method",
+              "body": "Avant l’activité « Communiquer avec ses coéquipiers et son entraîneur », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
+            },
+            {
+              "title": "Apprendre le geste en étapes",
+              "kind": "activity",
+              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
+            },
+            {
+              "title": "Sécurité et respect",
+              "kind": "warning",
+              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sports collectifs, U8, p.156.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1318,7 +2191,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "DP",
@@ -1341,20 +2215,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Commercialiser ou consommer l’animal élevé » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U8-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Commercialiser ou consommer l’animal élevé ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U8, p.164.",
           "practical": [],
           "notes": [
             "Toute activité réelle impliquant un animal relève des adultes responsables et des règles locales."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Commercialiser ou consommer l’animal élevé », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités agropastorales, U8, p.164.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U8-L2",
@@ -1372,18 +2271,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Réaliser un menu pour la ration de croissance » et donne un exemple adapté au thème « Les communications ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis des aliments variés, disponibles et préparés dans de bonnes conditions d’hygiène. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U8-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Réaliser un menu pour la ration de croissance ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis des aliments variés, disponibles et préparés dans de bonnes conditions d’hygiène.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U8, p.167.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Réaliser un menu pour la ration de croissance », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités domestiques et familiales, U8, p.167.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1421,7 +2345,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     }
   ],
   "integration_project": {

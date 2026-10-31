@@ -1,0 +1,668 @@
+{
+  "id": "T4",
+  "title_fr": "Les fêtes et célébrations",
+  "title_en": "Festivals and celebrations",
+  "duration": "4 semaines",
+  "project": {
+    "title_fr": "Notre petite célébration respectueuse / Our respectful celebration",
+    "title_en": "Our respectful celebration",
+    "description_fr": "Notre petite célébration respectueuse / Our respectful celebration : une réalisation simple qui mobilise langage, manipulation, autonomie, création et mouvement.",
+    "description_en": "Our respectful celebration: a simple project combining language, hands-on discovery, independence, creativity and movement."
+  },
+  "domains": [
+    {
+      "id": "LC",
+      "name_fr": "Langage et communication",
+      "name_en": "Literacy & communication",
+      "weight": "35%",
+      "icon": "💬",
+      "activities": [
+        {
+          "id": "T4-LC1",
+          "type": "vocabulary",
+          "title_fr": "Une fête : que voit-on ?",
+          "title_en": "A celebration: what can we see?",
+          "goal_fr": "Nommer quelques éléments d’une fête ou célébration.",
+          "goal_en": "Name common celebration items.",
+          "table": {
+            "headers": [
+              "Image",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "🎈",
+                "ballon",
+                "balloon"
+              ],
+              [
+                "🎁",
+                "cadeau",
+                "gift"
+              ],
+              [
+                "🎶",
+                "musique",
+                "music"
+              ],
+              [
+                "🍽️",
+                "repas",
+                "meal"
+              ],
+              [
+                "👗",
+                "vêtement",
+                "clothes"
+              ],
+              [
+                "🎂",
+                "gâteau",
+                "cake"
+              ]
+            ]
+          },
+          "observe": [
+            "Associe 4 mots.",
+            "Parle d’une fête sans imposer une tradition unique.",
+            "Comprend que toutes les familles ne célèbrent pas les mêmes événements."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-LC2",
+          "type": "wishes",
+          "title_fr": "Je souhaite une bonne fête",
+          "title_en": "I give good wishes",
+          "goal_fr": "Employer une formule simple de félicitation ou de souhait.",
+          "goal_en": "Use a simple greeting or wish.",
+          "table": {
+            "headers": [
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "Bonne fête !",
+                "Happy celebration!"
+              ],
+              [
+                "Joyeux anniversaire !",
+                "Happy birthday!"
+              ],
+              [
+                "Félicitations !",
+                "Congratulations!"
+              ],
+              [
+                "Merci d’être venu(e).",
+                "Thank you for coming."
+              ]
+            ]
+          },
+          "game_fr": "Choisir une carte situation et dire une formule adaptée.",
+          "game_en": "Pick a situation card and say a suitable phrase.",
+          "observe": [
+            "Choisit une formule adaptée.",
+            "Parle avec une voix audible.",
+            "Peut répondre « Merci / Thank you »."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-LC3",
+          "type": "colours",
+          "title_fr": "Les couleurs des décorations",
+          "title_en": "Decoration colours",
+          "goal_fr": "Nommer plusieurs couleurs en français et en anglais.",
+          "goal_en": "Name several colours in French and English.",
+          "visual": {
+            "kind": "colours",
+            "items": [
+              "🔴 rouge / red",
+              "🟡 jaune / yellow",
+              "🟢 vert / green",
+              "🔵 bleu / blue",
+              "⚪ blanc / white",
+              "⚫ noir / black"
+            ]
+          },
+          "game_fr": "Chercher une décoration ou un objet de chaque couleur.",
+          "game_en": "Find an object for each colour.",
+          "observe": [
+            "Nomme 4 couleurs.",
+            "Trie par couleur.",
+            "Accepte les nuances sans corriger excessivement."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-LC4",
+          "type": "story",
+          "title_fr": "Petite histoire : La fête du quartier",
+          "title_en": "Little story: The neighbourhood celebration",
+          "goal_fr": "Comprendre une histoire sur la coopération et le partage.",
+          "goal_en": "Understand a story about cooperation and sharing.",
+          "story_fr": "Dans le quartier de Yani, les voisins préparent une petite fête. Une famille apporte des chaises, une autre de l’eau, d’autres décorent l’espace. Les enfants fabriquent une guirlande en papier. Quand la musique commence, personne n’est obligé de danser : certains dansent, d’autres regardent et applaudissent. À la fin, tout le monde aide à ranger.",
+          "story_en": "In Yani’s neighbourhood, neighbours prepare a small celebration. One family brings chairs, another brings water, and others decorate the space. The children make a paper garland. When the music starts, nobody has to dance: some dance, others watch and clap. At the end, everyone helps to tidy up.",
+          "questions": [
+            {
+              "fr": "Que fabriquent les enfants ?",
+              "en": "What do the children make?",
+              "answer": "une guirlande / a garland"
+            },
+            {
+              "fr": "Que fait-on à la fin ?",
+              "en": "What happens at the end?",
+              "answer": "on range / everyone tidies up"
+            }
+          ],
+          "observe": [
+            "Repère l’entraide.",
+            "Comprend qu’on peut participer de plusieurs façons.",
+            "Répond à deux questions."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-LC5",
+          "type": "invitation",
+          "title_fr": "Je t’invite",
+          "title_en": "You are invited",
+          "goal_fr": "Comprendre et produire une invitation orale très simple.",
+          "goal_en": "Understand and make a very simple oral invitation.",
+          "prompt_fr": "« Viens à notre fête, s’il te plaît. » — « Merci ! »",
+          "prompt_en": "“Please come to our celebration.” — “Thank you!”",
+          "game_fr": "Jeu de rôle avec cartes prénom/lieu/heure imaginaire.",
+          "game_en": "Role-play using pretend name/place/time cards.",
+          "observe": [
+            "Utilise une formule d’invitation.",
+            "Répond poliment.",
+            "Comprend que l’autre peut accepter ou refuser."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-LC6",
+          "type": "patterns",
+          "title_fr": "Je trace des guirlandes",
+          "title_en": "I trace garland patterns",
+          "goal_fr": "Poursuivre graphiquement un motif simple.",
+          "goal_en": "Continue a simple graphic pattern.",
+          "visual": {
+            "kind": "patterns",
+            "items": [
+              "● ▲ ● ▲ …",
+              "🔴🟡🔴🟡…",
+              "| ○ | ○ …"
+            ]
+          },
+          "activity_fr": "Poursuivre le motif avec gommettes, crayons ou formes découpées.",
+          "activity_en": "Continue the pattern with stickers, crayons or cut-out shapes.",
+          "observe": [
+            "Repère l’alternance.",
+            "Continue 3 éléments.",
+            "Crée un motif simple."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-LC7",
+          "type": "bassa",
+          "title_fr": "Bassa : saluer, rire, applaudir",
+          "title_en": "Bassa: greet, laugh, clap",
+          "goal_fr": "Découvrir des expressions bassa utilisables dans un contexte festif.",
+          "goal_en": "Discover Bassa expressions useful in a celebration context.",
+          "bassa_variants": [
+            {
+              "concept": "salue-moi / greet me",
+              "forms": [
+                "Yègá mɛ̀"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "ris / laugh",
+              "forms": [
+                "Nɔ̌l !"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "applaudis / clap",
+              "forms": [
+                "Ɓámb mɔ̀ɔ́"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "s’il te plaît / please",
+              "forms": [
+                "Sɔ́hɔ́"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "oui / yes",
+              "forms": [
+                "Ŋ̀ŋ̂"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "non / no",
+              "forms": [
+                "Tɔ̀"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            }
+          ],
+          "activity_fr": "Utiliser les expressions comme repères écrits ; faire modéliser la prononciation par un locuteur si possible.",
+          "activity_en": "Use expressions as written guides; have pronunciation modelled by a speaker if possible.",
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name_fr": "Sciences, mathématiques et perception",
+      "name_en": "Science, maths & perception",
+      "weight": "25%",
+      "icon": "🔢",
+      "activities": [
+        {
+          "id": "T4-ST1",
+          "type": "math",
+          "title_fr": "Je prépare 5 places",
+          "title_en": "I set 5 places",
+          "goal_fr": "Constituer une collection jusqu’à 5.",
+          "goal_en": "Make a set up to 5.",
+          "game_fr": "Mettre 1 à 5 gobelets ou assiettes jouets selon une carte nombre.",
+          "game_en": "Set 1 to 5 toy cups/plates according to a number card.",
+          "observe": [
+            "Associe nombre et quantité.",
+            "Compte dans l’ordre.",
+            "Corrige s’il manque un objet."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-ST2",
+          "type": "pattern",
+          "title_fr": "Les suites de décoration",
+          "title_en": "Decoration patterns",
+          "goal_fr": "Reconnaître et poursuivre une alternance AB.",
+          "goal_en": "Recognise and continue an AB pattern.",
+          "visual": {
+            "kind": "pattern",
+            "items": [
+              "🔴🔵🔴🔵❓",
+              "★○★○❓",
+              "👏🦶👏🦶❓"
+            ]
+          },
+          "observe": [
+            "Anticipe l’élément suivant.",
+            "Explique avec couleur/forme/geste.",
+            "Crée une suite courte."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-ST3",
+          "type": "sequence",
+          "title_fr": "Avant, pendant, après la fête",
+          "title_en": "Before, during, after",
+          "goal_fr": "Ordonner trois moments d’un événement.",
+          "goal_en": "Put three moments of an event in order.",
+          "table": {
+            "headers": [
+              "Avant / Before",
+              "Pendant / During",
+              "Après / After"
+            ],
+            "rows": [
+              [
+                "préparer / decorate",
+                "accueillir, jouer / welcome, play",
+                "ranger / tidy up"
+              ]
+            ]
+          },
+          "game_fr": "Classer 6 images dans trois colonnes.",
+          "game_en": "Sort 6 picture cards into three columns.",
+          "observe": [
+            "Comprend avant/après.",
+            "Classe la majorité des images.",
+            "Raconte une mini-séquence."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-ST4",
+          "type": "food_sort",
+          "title_fr": "Les aliments de la fête",
+          "title_en": "Celebration foods",
+          "goal_fr": "Observer qu’un repas peut contenir différents types d’aliments.",
+          "goal_en": "Notice that a meal can include different types of food.",
+          "game_fr": "Classer images : eau/boissons, fruits/légumes, féculents, protéines, gourmandises. Aucun aliment n’est présenté comme « mauvais ».",
+          "game_en": "Sort pictures into broad food groups. No food is labelled as “bad”.",
+          "observe": [
+            "Classe par ressemblance.",
+            "Comprend qu’on varie les aliments.",
+            "Identifie l’eau comme boisson de base."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PV",
+      "name_fr": "Vie pratique, autonomie et sécurité",
+      "name_en": "Practical life, autonomy & safety",
+      "weight": "25%",
+      "icon": "🧼",
+      "activities": [
+        {
+          "id": "T4-PV1",
+          "type": "sharing",
+          "title_fr": "Je partage et j’attends mon tour",
+          "title_en": "I share and take turns",
+          "goal_fr": "Participer à une activité collective en respectant les autres.",
+          "goal_en": "Join a group activity while respecting others.",
+          "game_fr": "Un objet de décoration circule ; chacun ajoute un élément puis passe au suivant.",
+          "game_en": "A decoration passes around; each child adds one item and passes it on.",
+          "observe": [
+            "Attend son tour.",
+            "Demande plutôt que prendre.",
+            "Accepte qu’un autre choisisse différemment."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-PV2",
+          "type": "food_hygiene",
+          "title_fr": "Mains propres avant de manger",
+          "title_en": "Clean hands before eating",
+          "goal_fr": "Relier hygiène des mains et moment du repas.",
+          "goal_en": "Link hand hygiene to mealtime.",
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              "🧼 laver",
+              "🧻 sécher",
+              "🍽️ manger",
+              "🧹 nettoyer"
+            ]
+          },
+          "observe": [
+            "Se lave les mains au bon moment.",
+            "Évite de toucher la nourriture des autres.",
+            "Participe au rangement."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-PV3",
+          "type": "event_safety",
+          "title_fr": "Je reste avec mon adulte de référence",
+          "title_en": "I stay with my trusted adult",
+          "goal_fr": "Adopter une conduite simple dans un lieu animé.",
+          "goal_en": "Use a simple safety routine in a busy place.",
+          "prompt_fr": "Dans une fête ou un lieu très fréquenté, je sais quel adulte me surveille. Si je le perds de vue, je reste dans un endroit visible et demande de l’aide à un adulte identifié.",
+          "prompt_en": "At a busy event, I know which adult is responsible for me. If I cannot see them, I stay visible and ask an identified safe adult for help.",
+          "observe": [
+            "Peut nommer son adulte de référence.",
+            "Ne part pas seul chercher quelqu’un loin.",
+            "Sait demander de l’aide."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-PV4",
+          "type": "respect",
+          "title_fr": "Toutes les familles ne célèbrent pas pareil",
+          "title_en": "Families celebrate differently",
+          "goal_fr": "Développer le respect de différentes pratiques culturelles ou religieuses.",
+          "goal_en": "Respect different cultural and religious practices.",
+          "activity_fr": "Comparer des images neutres : anniversaire, mariage, fête nationale, fête religieuse, réunion familiale. Chercher ce qui est commun : se rassembler, souhaiter, partager, décorer parfois.",
+          "activity_en": "Compare neutral examples of different celebrations and find common ideas such as gathering, wishing and sharing.",
+          "observe": [
+            "Évite de hiérarchiser les pratiques.",
+            "Utilise « chez nous / dans cette famille » plutôt que « tout le monde ».",
+            "Pose des questions respectueuses."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AR",
+      "name_fr": "Création artistique",
+      "name_en": "Creative arts",
+      "weight": "10%",
+      "icon": "🎨",
+      "activities": [
+        {
+          "id": "T4-AR1",
+          "type": "craft",
+          "title_fr": "Ma guirlande de formes",
+          "title_en": "My shape garland",
+          "goal_fr": "Créer une décoration à partir d’un motif.",
+          "goal_en": "Create a decoration using a pattern.",
+          "materials": [
+            "papier",
+            "ficelle sous surveillance",
+            "colle",
+            "formes découpées"
+          ],
+          "observe": [
+            "Alterne au moins deux formes/couleurs.",
+            "Participe à l’assemblage.",
+            "Respecte le matériel."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-AR2",
+          "type": "music",
+          "title_fr": "Fort, doux, silence",
+          "title_en": "Loud, soft, silence",
+          "goal_fr": "Varier l’intensité d’un rythme.",
+          "goal_en": "Vary sound intensity in a rhythm.",
+          "visual": {
+            "kind": "sound",
+            "items": [
+              "🔊 fort / loud",
+              "🔉 doux / soft",
+              "🤫 silence"
+            ]
+          },
+          "game_fr": "Le chef montre une carte ; le groupe frappe des mains fort, doucement ou s’arrête.",
+          "game_en": "The leader shows a card; clap loudly, softly or stop.",
+          "observe": [
+            "Réagit au signal.",
+            "Contrôle mieux l’intensité.",
+            "Respecte le silence."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-AR3",
+          "type": "card",
+          "title_fr": "Une carte pour quelqu’un",
+          "title_en": "A card for someone",
+          "goal_fr": "Créer une carte simple avec dessin et message dicté à l’adulte.",
+          "goal_en": "Create a simple card with a drawing and dictated message.",
+          "activity_fr": "L’enfant choisit le destinataire réel ou imaginaire et dicte un court message que l’adulte écrit.",
+          "activity_en": "The child chooses a real or imaginary recipient and dictates a short message for the adult to write.",
+          "observe": [
+            "Fait un choix personnel.",
+            "Dicte un message.",
+            "Décore avec soin."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MT",
+      "name_fr": "Motricité",
+      "name_en": "Motor skills",
+      "weight": "5%",
+      "icon": "🏃",
+      "activities": [
+        {
+          "id": "T4-MT1",
+          "type": "dance",
+          "title_fr": "Je danse et je m’arrête",
+          "title_en": "I dance and freeze",
+          "goal_fr": "Adapter le mouvement au démarrage et à l’arrêt de la musique.",
+          "goal_en": "Start and stop movement with music.",
+          "game_fr": "Danse libre ; à l’arrêt de la musique, statue.",
+          "game_en": "Dance freely; freeze when the music stops.",
+          "observe": [
+            "S’arrête au signal.",
+            "Respecte l’espace des autres.",
+            "Varie les mouvements."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T4-MT2",
+          "type": "relay",
+          "title_fr": "Relais de décoration",
+          "title_en": "Decoration relay",
+          "goal_fr": "Transporter un objet léger dans un petit parcours.",
+          "goal_en": "Carry a light object through a short course.",
+          "course": [
+            "prendre un anneau de papier",
+            "marcher jusqu’à une boîte",
+            "déposer l’anneau",
+            "revenir en marchant"
+          ],
+          "observe": [
+            "Ne court pas si l’espace est réduit.",
+            "Garde l’objet.",
+            "Attend le passage libre."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "title_fr": "Grille d’observation du thème",
+    "title_en": "Theme observation grid",
+    "scale": [
+      {
+        "code": "D",
+        "label_fr": "Découvre",
+        "label_en": "Discovering",
+        "description": "L’enfant entre dans l’activité, observe ou essaie avec beaucoup d’accompagnement."
+      },
+      {
+        "code": "EC",
+        "label_fr": "En cours",
+        "label_en": "Developing",
+        "description": "L’enfant réussit partiellement ou avec rappel, modèle ou aide ponctuelle."
+      },
+      {
+        "code": "A",
+        "label_fr": "Acquis",
+        "label_en": "Acquired",
+        "description": "L’enfant mobilise la compétence dans une situation familière avec peu ou pas d’aide."
+      }
+    ],
+    "indicators": [
+      "Utilise quelques mots de fête en français/anglais.",
+      "Poursuit un motif simple.",
+      "Partage et attend son tour.",
+      "Reconnaît quelques règles de sécurité dans un lieu animé.",
+      "Participe à une création et à un rythme."
+    ]
+  },
+  "editorial_notes": [],
+  "sources": [
+    "Resulam/Bitjaa Kody 2020",
+    "SIL Basaa dictionary (référence de contrôle)"
+  ],
+  "editorial": {
+    "status": "in_review",
+    "validation": "pending",
+    "curriculum_reference": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier"
+  }
+}

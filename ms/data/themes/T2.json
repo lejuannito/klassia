@@ -1,0 +1,842 @@
+{
+  "id": "T2",
+  "title_fr": "Le corps",
+  "title_en": "The body",
+  "duration": "4 semaines",
+  "project": {
+    "title_fr": "Mon grand poster du corps / My big body poster",
+    "title_en": "My big body poster",
+    "description_fr": "Mon grand poster du corps / My big body poster : une réalisation simple qui mobilise langage, manipulation, autonomie, création et mouvement.",
+    "description_en": "My big body poster: a simple project combining language, hands-on discovery, independence, creativity and movement."
+  },
+  "domains": [
+    {
+      "id": "LC",
+      "name_fr": "Langage et communication",
+      "name_en": "Literacy & communication",
+      "weight": "35%",
+      "icon": "💬",
+      "activities": [
+        {
+          "id": "T2-LC1",
+          "type": "vocabulary",
+          "title_fr": "Je nomme les parties de mon corps",
+          "title_en": "I name body parts",
+          "goal_fr": "Nommer des parties visibles du corps en français et en anglais.",
+          "goal_en": "Name visible body parts in French and English.",
+          "table": {
+            "headers": [
+              "👤",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "🙂",
+                "la tête",
+                "head"
+              ],
+              [
+                "👀",
+                "les yeux",
+                "eyes"
+              ],
+              [
+                "👂",
+                "les oreilles",
+                "ears"
+              ],
+              [
+                "👄",
+                "la bouche",
+                "mouth"
+              ],
+              [
+                "✋",
+                "la main",
+                "hand"
+              ],
+              [
+                "🦶",
+                "le pied",
+                "foot"
+              ],
+              [
+                "🤰",
+                "le ventre",
+                "tummy / belly"
+              ]
+            ]
+          },
+          "game_fr": "L’adulte dit un mot ; l’enfant touche la partie correspondante. Alterner français et anglais.",
+          "game_en": "The adult says a word; the child touches the matching body part. Alternate French and English.",
+          "observe": [
+            "Associe au moins 5 mots au bon endroit.",
+            "Passe d’une langue à l’autre sans exiger une traduction mot à mot.",
+            "Ose montrer et nommer."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-LC2",
+          "type": "song",
+          "title_fr": "Ma tête, mes épaules…",
+          "title_en": "Head, shoulders…",
+          "goal_fr": "Mémoriser du vocabulaire par le chant et le geste.",
+          "goal_en": "Learn vocabulary through song and movement.",
+          "prompt_fr": "Chanter lentement : « Tête, épaules, genoux, pieds… » puis accélérer progressivement.",
+          "prompt_en": "Sing slowly: “Head, shoulders, knees and toes…” then gradually speed up.",
+          "visual": {
+            "kind": "body",
+            "items": [
+              "🙂 tête / head",
+              "🤲 épaules / shoulders",
+              "🦵 genoux / knees",
+              "🦶 pieds / toes"
+            ]
+          },
+          "observe": [
+            "Suit le rythme.",
+            "Associe geste et mot.",
+            "Reprend une partie de la comptine seul."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-LC3",
+          "type": "sensory_language",
+          "title_fr": "Je vois, j’entends, je sens",
+          "title_en": "I see, hear and smell",
+          "goal_fr": "Employer des verbes simples liés aux sens.",
+          "goal_en": "Use simple verbs linked to the senses.",
+          "table": {
+            "headers": [
+              "Action",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "👀",
+                "Je vois.",
+                "I see."
+              ],
+              [
+                "👂",
+                "J’entends.",
+                "I hear."
+              ],
+              [
+                "👃",
+                "Je sens.",
+                "I smell."
+              ],
+              [
+                "✋",
+                "Je touche.",
+                "I touch."
+              ],
+              [
+                "👅",
+                "Je goûte.",
+                "I taste."
+              ]
+            ]
+          },
+          "game_fr": "Montrer un objet, produire un son ou proposer une odeur douce et demander : « Que fais-tu ? »",
+          "game_en": "Show an object, make a sound or offer a mild smell and ask: “What are you doing?”",
+          "observe": [
+            "Choisit le bon sens dans 3 situations.",
+            "Produit une phrase courte avec aide.",
+            "Respecte les règles de sécurité sensorielle."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-LC4",
+          "type": "story",
+          "title_fr": "Petite histoire : Le miroir de Sami",
+          "title_en": "Little story: Sami’s mirror",
+          "goal_fr": "Écouter une histoire et identifier des parties du visage.",
+          "goal_en": "Listen to a story and identify facial features.",
+          "story_fr": "Sami se regarde dans un miroir. Il ouvre grand les yeux, gonfle les joues et sourit. « Mes yeux voient, mes oreilles écoutent et ma bouche parle », dit-il. Puis il ferme les yeux : il entend maman taper doucement dans ses mains. Sami rit : même sans regarder, ses oreilles travaillent !",
+          "story_en": "Sami looks in a mirror. He opens his eyes wide, puffs his cheeks and smiles. “My eyes see, my ears listen and my mouth speaks,” he says. Then he closes his eyes and hears Mum clap softly. Sami laughs: even without looking, his ears are working!",
+          "questions": [
+            {
+              "fr": "Avec quoi Sami regarde-t-il ?",
+              "en": "What does Sami use to see?",
+              "answer": "les yeux / eyes"
+            },
+            {
+              "fr": "Que fait maman ?",
+              "en": "What does Mum do?",
+              "answer": "elle frappe doucement dans ses mains / she claps softly"
+            }
+          ],
+          "observe": [
+            "Écoute jusqu’au bout.",
+            "Répond par mot, geste ou phrase.",
+            "Relie l’histoire à son propre corps."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-LC5",
+          "type": "prewriting",
+          "title_fr": "Je trace des courbes et des ronds",
+          "title_en": "I trace curves and circles",
+          "goal_fr": "Préparer le geste graphique avec des courbes et formes arrondies.",
+          "goal_en": "Prepare handwriting movements with curves and circles.",
+          "visual": {
+            "kind": "traces",
+            "items": [
+              "◯ ◯ ◯",
+              "∩ ∩ ∩",
+              "∪ ∪ ∪",
+              "〰️ 〰️"
+            ]
+          },
+          "steps_fr": [
+            "Tracer avec l’index dans l’air.",
+            "Tracer autour d’un bouchon ou d’un gobelet.",
+            "Tracer de grands ronds puis de plus petits."
+          ],
+          "steps_en": [
+            "Trace in the air with your index finger.",
+            "Trace around a lid or cup.",
+            "Make big circles, then smaller ones."
+          ],
+          "observe": [
+            "Contrôle progressivement le geste.",
+            "Respecte le sens annoncé.",
+            "Ne recherche pas une écriture parfaite."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-LC6",
+          "type": "emotions",
+          "title_fr": "Mon visage dit comment je me sens",
+          "title_en": "My face shows how I feel",
+          "goal_fr": "Nommer quelques émotions et écouter celles des autres.",
+          "goal_en": "Name a few emotions and listen to others.",
+          "table": {
+            "headers": [
+              "Visage",
+              "Français",
+              "English"
+            ],
+            "rows": [
+              [
+                "😀",
+                "content / contente",
+                "happy"
+              ],
+              [
+                "😢",
+                "triste",
+                "sad"
+              ],
+              [
+                "😠",
+                "fâché / fâchée",
+                "angry"
+              ],
+              [
+                "😨",
+                "j’ai peur",
+                "scared"
+              ],
+              [
+                "😌",
+                "calme",
+                "calm"
+              ]
+            ]
+          },
+          "activity_fr": "Choisir une carte émotion et faire le visage correspondant. Dire : « Je suis… »",
+          "activity_en": "Pick an emotion card and make the matching face. Say: “I am…”",
+          "observe": [
+            "Reconnaît 3 émotions.",
+            "Nomme son état sans jugement.",
+            "Comprend qu’un camarade peut ressentir autre chose."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-LC7",
+          "type": "bassa",
+          "title_fr": "Bassa : le corps, avec variantes",
+          "title_en": "Bassa: the body, with variants",
+          "goal_fr": "Découvrir plusieurs graphies attestées pour quelques mots du corps.",
+          "goal_en": "Discover attested written variants for a few body words.",
+          "bassa_variants": [
+            {
+              "concept": "tête / head",
+              "forms": [
+                "Ŋ̀ɔ́",
+                "ŋɔ́"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020",
+                "mémoire terminologique (alphabet ɓàsàa)"
+              ],
+              "note": "Différence de notation du ton initial."
+            },
+            {
+              "concept": "main / hand",
+              "forms": [
+                "Wɔ̀ɔ́",
+                "wɔ́ɔ́"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020",
+                "mémoire terminologique"
+              ],
+              "note": "Les deux graphies sont conservées."
+            },
+            {
+              "concept": "yeux / eyes",
+              "forms": [
+                "Mǐs"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ],
+              "note": "Forme plurielle."
+            },
+            {
+              "concept": "œil / eye",
+              "forms": [
+                "ji᷅s"
+              ],
+              "sources": [
+                "mémoire terminologique"
+              ],
+              "note": "Transcription de la source ; à rapprocher de Mǐs."
+            },
+            {
+              "concept": "bouche / mouth",
+              "forms": [
+                "Nyɔ̀"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "pied / foot",
+              "forms": [
+                "Kòó"
+              ],
+              "sources": [
+                "Resulam/Bitjaa Kody 2020"
+              ]
+            },
+            {
+              "concept": "corps humain / human body",
+              "forms": [
+                "ŋyu'u mut"
+              ],
+              "sources": [
+                "glossaire Likoda Li-Mbog"
+              ],
+              "note": "Graphie de la source ethnographique."
+            }
+          ],
+          "activity_fr": "Comparer les formes sans demander à l’enfant de choisir « la bonne ». Un locuteur peut ajouter sa propre variante familiale.",
+          "activity_en": "Compare forms without asking the child to choose a single “correct” one. A speaker may add the family’s own form.",
+          "source_note": "Klassia conserve volontairement les variantes et leur provenance ; la prononciation doit être modélisée par un locuteur ou une ressource audio fiable.",
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name_fr": "Sciences, mathématiques et perception",
+      "name_en": "Science, maths & perception",
+      "weight": "25%",
+      "icon": "🔢",
+      "activities": [
+        {
+          "id": "T2-ST1",
+          "type": "math",
+          "title_fr": "Un, deux : ce que j’ai en paire",
+          "title_en": "One, two: body pairs",
+          "goal_fr": "Dénombrer 1 ou 2 éléments sur le corps.",
+          "goal_en": "Count one or two body parts.",
+          "table": {
+            "headers": [
+              "J’en ai…",
+              "Exemples"
+            ],
+            "rows": [
+              [
+                "1",
+                "une bouche, un nez, une tête"
+              ],
+              [
+                "2",
+                "deux yeux, deux oreilles, deux mains, deux pieds"
+              ]
+            ]
+          },
+          "game_fr": "L’adulte demande : « Montre deux mains. Montre un nez. » puis inverse les rôles.",
+          "game_en": "Ask: “Show me two hands. Show me one nose.” Then swap roles.",
+          "observe": [
+            "Différencie 1 et 2.",
+            "Associe quantité et partie du corps.",
+            "Utilise un ou deux doigts pour montrer la quantité."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-ST2",
+          "type": "experiment",
+          "title_fr": "Quel sens m’aide ?",
+          "title_en": "Which sense helps me?",
+          "goal_fr": "Choisir le sens utile dans une petite expérience.",
+          "goal_en": "Choose the useful sense in a simple experiment.",
+          "diagram": {
+            "kind": "senses",
+            "labels": [
+              "👀 voir",
+              "👂 entendre",
+              "👃 sentir",
+              "✋ toucher"
+            ]
+          },
+          "steps_fr": [
+            "Cacher un objet dans un sac : toucher.",
+            "Faire sonner une clochette derrière l’enfant : entendre.",
+            "Montrer deux couleurs : voir.",
+            "Sentir une peau d’orange sans la toucher au nez directement : sentir."
+          ],
+          "steps_en": [
+            "Hide an object in a bag: touch.",
+            "Ring a bell behind the child: hear.",
+            "Show two colours: see.",
+            "Smell orange peel safely: smell."
+          ],
+          "observe": [
+            "Identifie le sens principal.",
+            "Explique par un mot ou un geste.",
+            "Respecte l’interdiction de goûter un objet inconnu."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-ST3",
+          "type": "health_sort",
+          "title_fr": "Ce qui aide mon corps",
+          "title_en": "What helps my body",
+          "goal_fr": "Classer quelques habitudes favorables ou défavorables à la santé.",
+          "goal_en": "Sort simple habits that help or do not help health.",
+          "visual": {
+            "kind": "sort",
+            "items": [
+              "✅ 💧 boire de l’eau",
+              "✅ 😴 dormir",
+              "✅ 🥕 manger varié",
+              "✅ 🏃 bouger",
+              "⚠️ 🍬 trop de bonbons",
+              "⚠️ 📱 écran très tard"
+            ]
+          },
+          "game_fr": "Placer les cartes dans deux paniers : « aide mon corps » / « à limiter ou éviter ».",
+          "game_en": "Sort cards into “helps my body” and “limit/avoid”.",
+          "observe": [
+            "Classe la majorité des situations.",
+            "Peut donner une raison simple.",
+            "Ne moralise pas l’alimentation : on parle d’équilibre."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-ST4",
+          "type": "sequence",
+          "title_fr": "Le jour et la nuit de mon corps",
+          "title_en": "My body in day and night",
+          "goal_fr": "Ordonner quelques moments de la journée.",
+          "goal_en": "Put a few daily moments in order.",
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              "🌅 se lever",
+              "🧼 se laver",
+              "🍽️ manger",
+              "🏃 jouer",
+              "🌙 dormir"
+            ]
+          },
+          "game_fr": "Mélanger cinq cartes puis reconstruire une journée possible.",
+          "game_en": "Mix five cards and rebuild a possible daily routine.",
+          "observe": [
+            "Utilise avant/après.",
+            "Reconnaît jour et nuit.",
+            "Comprend que les routines peuvent varier selon les familles."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "PV",
+      "name_fr": "Vie pratique, autonomie et sécurité",
+      "name_en": "Practical life, autonomy & safety",
+      "weight": "25%",
+      "icon": "🧼",
+      "activities": [
+        {
+          "id": "T2-PV1",
+          "type": "hygiene",
+          "title_fr": "Je me lave le visage et les mains",
+          "title_en": "I wash my face and hands",
+          "goal_fr": "Réaliser une routine simple d’hygiène.",
+          "goal_en": "Perform a simple hygiene routine.",
+          "steps_fr": [
+            "Mouiller.",
+            "Savonner les mains.",
+            "Frotter doucement.",
+            "Rincer.",
+            "Sécher avec un linge propre."
+          ],
+          "steps_en": [
+            "Wet.",
+            "Soap hands.",
+            "Rub gently.",
+            "Rinse.",
+            "Dry with a clean towel."
+          ],
+          "observe": [
+            "Suit l’ordre global.",
+            "Utilise l’eau sans gaspillage excessif.",
+            "Demande de l’aide si nécessaire."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-PV2",
+          "type": "teeth",
+          "title_fr": "Je prends soin de mes dents",
+          "title_en": "I care for my teeth",
+          "goal_fr": "Identifier les gestes de base du brossage.",
+          "goal_en": "Identify basic tooth-brushing steps.",
+          "visual": {
+            "kind": "sequence",
+            "items": [
+              "🪥 petite quantité de dentifrice",
+              "😁 faces externes",
+              "😬 faces internes",
+              "👅 langue doucement",
+              "🚰 rincer la brosse"
+            ]
+          },
+          "activity_fr": "Faire la démonstration sur une bouche dessinée ou une poupée avant de pratiquer.",
+          "activity_en": "Demonstrate on a drawing or doll before practising.",
+          "observe": [
+            "Tient la brosse correctement.",
+            "Brosse plusieurs zones.",
+            "Réalise le geste sous supervision."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-PV3",
+          "type": "health_safety",
+          "title_fr": "Je tousse sans partager mes microbes",
+          "title_en": "I cough safely",
+          "goal_fr": "Adopter un geste simple pour limiter la transmission des microbes.",
+          "goal_en": "Use a simple cough etiquette routine.",
+          "table": {
+            "headers": [
+              "Quand je tousse / éternue",
+              "Je fais"
+            ],
+            "rows": [
+              [
+                "🤧",
+                "dans le pli du coude"
+              ],
+              [
+                "🧻",
+                "j’utilise un mouchoir si disponible"
+              ],
+              [
+                "🧼",
+                "je me lave les mains si besoin"
+              ]
+            ]
+          },
+          "observe": [
+            "Imite le bon geste.",
+            "Évite de tousser dans les mains.",
+            "Comprend qu’on peut protéger les autres."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-PV4",
+          "type": "body_safety",
+          "title_fr": "Mon corps m’appartient",
+          "title_en": "My body belongs to me",
+          "goal_fr": "Développer une première notion de respect du corps et de demande d’aide.",
+          "goal_en": "Develop a first notion of body boundaries and asking for help.",
+          "prompt_fr": "On peut dire « non », s’éloigner et parler à un adulte de confiance si un geste ou une situation met mal à l’aise.",
+          "prompt_en": "You can say “no”, move away and tell a trusted adult if a touch or situation feels uncomfortable.",
+          "activity_fr": "Identifier 2 ou 3 adultes de confiance dans l’entourage. Ne jamais demander à l’enfant de raconter une expérience personnelle devant le groupe.",
+          "activity_en": "Identify 2 or 3 trusted adults. Never ask a child to disclose personal experiences in front of the group.",
+          "observe": [
+            "Sait dire non dans un jeu de rôle simple.",
+            "Identifie un adulte de confiance.",
+            "Comprend que les soins d’hygiène/santé ont un cadre et un adulte responsable."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "AR",
+      "name_fr": "Création artistique",
+      "name_en": "Creative arts",
+      "weight": "10%",
+      "icon": "🎨",
+      "activities": [
+        {
+          "id": "T2-AR1",
+          "type": "art",
+          "title_fr": "Je compose un visage",
+          "title_en": "I build a face",
+          "goal_fr": "Placer les principaux éléments du visage dans une création.",
+          "goal_en": "Place main facial features in an artwork.",
+          "materials": [
+            "papier",
+            "formes découpées",
+            "colle",
+            "crayons"
+          ],
+          "steps_fr": [
+            "Choisir une forme de visage.",
+            "Ajouter deux yeux, un nez, une bouche.",
+            "Ajouter cheveux/oreilles librement.",
+            "Nommer 2 éléments dans chaque langue."
+          ],
+          "steps_en": [
+            "Choose a face shape.",
+            "Add two eyes, a nose and mouth.",
+            "Add hair/ears freely.",
+            "Name 2 parts in each language."
+          ],
+          "observe": [
+            "Positionne les éléments de façon intentionnelle.",
+            "Fait des choix personnels.",
+            "Commente sa production."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-AR2",
+          "type": "drawing",
+          "title_fr": "Mon autoportrait",
+          "title_en": "My self-portrait",
+          "goal_fr": "Observer son visage et réaliser un dessin personnel.",
+          "goal_en": "Observe one’s face and create a personal drawing.",
+          "activity_fr": "Utiliser un miroir. L’adulte décrit sans corriger : « Tu as choisi de dessiner… »",
+          "activity_en": "Use a mirror. The adult describes without correcting: “You chose to draw…”",
+          "observe": [
+            "Observe avant de dessiner.",
+            "Ajoute plusieurs détails.",
+            "Valorise la diversité des apparences."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-AR3",
+          "type": "music",
+          "title_fr": "Le rythme de mon corps",
+          "title_en": "My body rhythm",
+          "goal_fr": "Produire un rythme avec le corps.",
+          "goal_en": "Make a rhythm using the body.",
+          "visual": {
+            "kind": "rhythm",
+            "items": [
+              "👏 clap",
+              "🦶 stomp",
+              "🤫 pause",
+              "👏👏 two claps"
+            ]
+          },
+          "game_fr": "Imiter puis inventer une séquence de 3 gestes.",
+          "game_en": "Copy, then invent a 3-action pattern.",
+          "observe": [
+            "Reproduit un motif court.",
+            "Attend la pause.",
+            "Propose un motif."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    },
+    {
+      "id": "MT",
+      "name_fr": "Motricité",
+      "name_en": "Motor skills",
+      "weight": "5%",
+      "icon": "🏃",
+      "activities": [
+        {
+          "id": "T2-MT1",
+          "type": "movement",
+          "title_fr": "Je bouge chaque partie",
+          "title_en": "I move each part",
+          "goal_fr": "Coordonner plusieurs parties du corps sur consigne.",
+          "goal_en": "Coordinate body parts on instruction.",
+          "course": [
+            "Lever les bras.",
+            "Toucher les genoux.",
+            "Tourner doucement la tête.",
+            "Marcher sur place.",
+            "S’arrêter au signal."
+          ],
+          "observe": [
+            "Suit 3 consignes.",
+            "Contrôle l’arrêt.",
+            "Bouge sans heurter les autres."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        },
+        {
+          "id": "T2-MT2",
+          "type": "balance",
+          "title_fr": "Je tiens en équilibre",
+          "title_en": "I balance",
+          "goal_fr": "Maintenir brièvement un équilibre simple.",
+          "goal_en": "Hold a simple balance briefly.",
+          "steps_fr": [
+            "Marcher sur une ligne au sol.",
+            "S’arrêter pieds joints.",
+            "Lever un pied 2 secondes avec appui proche si nécessaire."
+          ],
+          "steps_en": [
+            "Walk on a floor line.",
+            "Stop with feet together.",
+            "Lift one foot for 2 seconds, with support nearby if needed."
+          ],
+          "observe": [
+            "Regarde devant.",
+            "Ajuste ses bras.",
+            "Progresse sans compétition."
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "title_fr": "Grille d’observation du thème",
+    "title_en": "Theme observation grid",
+    "scale": [
+      {
+        "code": "D",
+        "label_fr": "Découvre",
+        "label_en": "Discovering",
+        "description": "L’enfant entre dans l’activité, observe ou essaie avec beaucoup d’accompagnement."
+      },
+      {
+        "code": "EC",
+        "label_fr": "En cours",
+        "label_en": "Developing",
+        "description": "L’enfant réussit partiellement ou avec rappel, modèle ou aide ponctuelle."
+      },
+      {
+        "code": "A",
+        "label_fr": "Acquis",
+        "label_en": "Acquired",
+        "description": "L’enfant mobilise la compétence dans une situation familière avec peu ou pas d’aide."
+      }
+    ],
+    "indicators": [
+      "Nomme plusieurs parties du corps en français et/ou anglais.",
+      "Suit une chanson gestuée.",
+      "Compte 1 ou 2 parties du corps.",
+      "Réalise une routine d’hygiène avec moins d’aide.",
+      "Exprime une émotion simple.",
+      "Participe à un jeu moteur en sécurité."
+    ]
+  },
+  "editorial_notes": [
+    "Le vocabulaire Bassa conserve toutes les variantes repérées, avec provenance.",
+    "Les activités de protection du corps restent générales et non intrusives."
+  ],
+  "sources": [
+    "Resulam/Bitjaa Kody, 2020",
+    "CNRS/LGIDF Basaa",
+    "Likoda Li-Mbog glossary",
+    "SIL Basaa dictionary (référence de contrôle)"
+  ],
+  "editorial": {
+    "status": "in_review",
+    "validation": "pending",
+    "curriculum_reference": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier"
+  }
+}

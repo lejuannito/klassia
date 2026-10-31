@@ -1,23 +1,13 @@
-# Klassia v8 — Installation sur smartphone
+# Klassia sur smartphone — v15
 
-## Condition indispensable
-Une PWA installable doit être ouverte depuis une adresse **HTTPS** (ou `localhost` sur le même appareil). Le ZIP seul ne peut pas s'installer directement depuis l'application Fichiers du téléphone.
+Ouvrir le site dans un navigateur récent. Le CE2 se trouve à la racine, la moyenne section dans `ms/`. Les deux entrées installent le même socle hors connexion.
 
-## Android — Chrome / Edge
-1. Publier le contenu de ce dossier sur un hébergement HTTPS.
-2. Ouvrir l'adresse de Klassia dans Chrome ou Edge.
-3. Attendre le premier chargement complet afin que les huit unités soient mises en cache.
-4. Utiliser le bouton **Installer** proposé par Klassia, ou le menu du navigateur > **Installer l'application / Ajouter à l'écran d'accueil**.
-5. Lancer Klassia depuis son icône. Après la première synchronisation, les contenus CE2 restent disponibles hors connexion.
+1. Créer un profil par enfant depuis le bouton portant le prénom/pseudonyme.
+2. Attendre « CE2 et MS disponibles hors connexion ». Le simple affichage de la page ne suffit pas.
+3. Utiliser « Installer Klassia » lorsque proposé, ou la commande d’ajout à l’écran d’accueil du navigateur. Sur iPhone/iPad, utiliser le menu Partager de Safari.
+4. Ouvrir quelques activités puis vérifier leur accès en mode avion. Les voix de l’appareil peuvent nécessiter un téléchargement ou une connexion indépendante de Klassia.
+5. Exporter les données de chaque profil avant de nettoyer le navigateur ou de changer de téléphone.
 
-## iPhone / iPad — Safari
-1. Ouvrir l'adresse HTTPS de Klassia dans Safari.
-2. Toucher **Partager**.
-3. Choisir **Sur l'écran d'accueil**.
-4. Confirmer **Ajouter**.
+Pour une mise à jour, reconnecter l’appareil, vérifier les mises à jour puis choisir le rechargement proposé après téléchargement complet. Si le téléchargement échoue, conserver l’édition installée et réessayer ultérieurement.
 
-## Données locales
-La progression, les scores et les préférences de la version pilote sont enregistrés dans le stockage local du navigateur/appareil. Une désinstallation ou un effacement des données du site peut les supprimer. La synchronisation multi-appareils nécessitera le futur serveur central Klassia.
-
-## Publication
-Le dossier est entièrement statique : `index.html`, CSS, JavaScript, manifeste, service worker et fichiers JSON. Il peut être publié tel quel sur GitHub Pages, Cloudflare Pages, Netlify, Firebase Hosting ou tout serveur HTTPS statique.
+Les profils sont locaux et accessibles aux autres personnes utilisant ce navigateur. Ils ne constituent pas des comptes protégés.

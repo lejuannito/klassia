@@ -1,0 +1,29 @@
+(() => {
+'use strict';const K=Klassia,esc=K.escape;
+function download(){const b=K.exportBackup(),u=URL.createObjectURL(new Blob([JSON.stringify(b,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download=`Klassia-${K.profile().id}-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);}
+function openProfiles(){
+ document.getElementById('profilesDialog')?.remove();const d=document.createElement('dialog');d.id='profilesDialog';d.className='profiles-dialog';
+ d.innerHTML=`<form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form><h2>Mes enfants et mes données</h2><p>Un profil local par enfant. Aucun compte distant. Utilisez un pseudonyme ; ces profils ne sont pas protégés par mot de passe.</p><label>Enfant actif <select id="profileSelect">${K.profiles().map(p=>`<option value="${esc(p.id)}" ${p.id===K.profile().id?'selected':''}>${esc(p.name)}</option>`).join('')}</select></label><form id="newProfile"><label>Prénom ou pseudonyme <input id="profileName" maxlength="40" required autocomplete="off"></label><button>Ajouter un enfant</button></form><p><button id="renameProfile">Renommer le profil actif</button></p><label>Affichage local <select id="localRole"><option value="ELEVE">Enfant</option><option value="PARENT">Adulte accompagnant</option><option value="ADMIN">Revue éditoriale</option></select></label><p>Le changement d’affichage est libre sur cet appareil.</p><hr><h3>Sauvegarde : ${esc(K.profile().name)}</h3><p>L’export comprend les progrès CE2 et MS de cet enfant. Conservez le fichier avant de changer d’appareil.</p><button id="exportProfile">Télécharger la sauvegarde</button><label>Restaurer dans ce profil <input id="importProfile" type="file" accept=".json,application/json"></label><button id="undoImport">Annuler la dernière restauration</button><p id="profileMessage" role="status"></p>`;
+ document.body.appendChild(d);const message=s=>d.querySelector('#profileMessage').textContent=s;
+ d.querySelector('#profileSelect').onchange=e=>{K.selectProfile(e.target.value);location.reload();};
+ d.querySelector('#newProfile').onsubmit=e=>{e.preventDefault();try{K.createProfile(d.querySelector('#profileName').value);location.reload();}catch(e){message(e.message);}};
+ d.querySelector('#renameProfile').onclick=()=>{const name=prompt('Nouveau prénom ou pseudonyme',K.profile().name);if(name!==null)try{K.renameProfile(name);location.reload();}catch(e){message(e.message);}};
+ const role=d.querySelector('#localRole');role.value=K.read('klassia_user',{})?.role||'ELEVE';role.onchange=()=>{K.write('klassia_user',{role:role.value,name:K.profile().name});location.hash='#home';location.reload();};
+ d.querySelector('#exportProfile').onclick=()=>{download();message('Sauvegarde téléchargée.');};
+ d.querySelector('#importProfile').onchange=async e=>{try{const f=e.target.files[0];if(!f)return;if(f.size>8000000)throw Error('Fichier trop volumineux (8 Mo maximum).');const p=JSON.parse(await f.text()),v=K.prepareImport(p);if(!confirm(`Importer ${v.count} ensembles de données (${v.grades.join(', ')}) dans « ${K.profile().name} » ? Les rubriques présentes seront remplacées ; les autres classes et profils seront conservés.`))return;K.restore(p);location.reload();}catch(e){message('Aucune restauration effectuée : '+e.message);}};
+ d.querySelector('#undoImport').onclick=()=>{if(!confirm('Revenir à l’état local précédant la dernière restauration ? Les progrès et profils créés ou modifiés depuis seront également remplacés.'))return;try{K.undoRestore();location.reload();}catch(e){message(e.message);}};
+ d.addEventListener('click',e=>{if(e.target===d)d.close();});d.addEventListener('close',()=>{d.remove();document.querySelector('[data-profiles]')?.focus();});d.showModal();
+}
+function decorate(){
+ const top=document.querySelector('.topbar,.top');if(top&&!top.querySelector('[data-profiles]')){const b=document.createElement('button');b.className='classBtn profile-trigger';b.dataset.profiles='';b.textContent='👤 '+K.profile().name;b.onclick=openProfiles;top.appendChild(b);}
+ const main=document.querySelector('main');if(main&&!main.querySelector('.edition-notice')){const notice=document.createElement('p');notice.className='edition-notice';notice.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(notice);}
+ document.getElementById('logout')?.remove();
+}
+// Optional device speech is explicitly labelled; it is not a validated audio pack.
+function addSpeech(container,text,lang){if(!('speechSynthesis'in window)||!text)return;const b=document.createElement('button');b.className='classBtn speech-control';b.textContent=lang.startsWith('en')?'🔊 Listen (device voice)':'🔊 Écouter (voix de l’appareil)';b.onclick=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=lang;u.rate=.85;speechSynthesis.speak(u);};container.prepend(b);}
+window.addEventListener('hashchange',()=>window.speechSynthesis?.cancel());
+window.addEventListener('error',e=>{if(/quota|storage/i.test(e.message)){alert('Enregistrement local impossible. Exportez vos progrès et vérifiez l’espace disponible.');}});
+window.addEventListener('storage',e=>{if(e.key==='klassia_profiles_v15')location.reload();});
+K.openProfiles=openProfiles;K.downloadBackup=download;K.addSpeech=addSpeech;
+document.addEventListener('klassia:render',decorate);
+})();

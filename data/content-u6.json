@@ -1,6 +1,6 @@
 {
   "format": "klassia-content",
-  "version": 1,
+  "version": "15.0",
   "metadata": {
     "product": "Klassia",
     "class": "CE2",
@@ -8,7 +8,7 @@
     "unit_title": "La santé",
     "country": "Cameroun",
     "curriculum": "Curriculum de l’enseignement primaire francophone camerounais - Niveau 2 (CE1-CE2), MINEDUB, 2018",
-    "editorial_status": "DRAFT_FOR_PEDAGOGICAL_REVIEW",
+    "editorial_status": "PILOT_REVIEW_REQUIRED",
     "created": "2026-10-30",
     "source_file": "Curriculum-CE.pdf"
   },
@@ -57,20 +57,55 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Participer à un échange sur la santé » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je pose une question claire, j’écoute la réponse et je reformule si nécessaire. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Participer à un échange sur la santé ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je pose une question claire, j’écoute la réponse et je reformule si nécessaire.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U6, p.29.",
           "practical": [],
           "notes": [
             "Le tableau source mentionne « échange portant sur les métiers » dans l’unité Santé ; Klassia contextualise l’activité sur la santé et conserve l’anomalie en note éditoriale."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Participer à un échange sur la santé » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Participer à un échange sur la santé » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je pose une question claire, j’écoute la réponse et je reformule si nécessaire. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, expression orale, U6, p.29.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U6-L2",
@@ -89,18 +124,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Écouter et réciter un texte relatif à la santé » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je distingue écouter pour comprendre et réciter pour transmettre avec expression. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écouter et réciter un texte relatif à la santé ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je distingue écouter pour comprendre et réciter pour transmettre avec expression.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U6, p.29.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Construire son texte avant d’écrire",
+              "kind": "method",
+              "body": "Avant de rédiger sur « la santé », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+            },
+            {
+              "title": "Améliorer une première version",
+              "kind": "example",
+              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écouter et réciter un texte relatif à la santé » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je distingue écouter pour comprendre et réciter pour transmettre avec expression. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, expression orale, U6, p.29.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U6-L3",
@@ -119,18 +184,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Écrire un texte explicatif » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un texte explicatif répond à une question comme « pourquoi ? » ou « comment ? ». L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écrire un texte explicatif ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un texte explicatif répond à une question comme « pourquoi ? » ou « comment ? ».",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U6, p.33.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Construire son texte avant d’écrire",
+              "kind": "method",
+              "body": "Avant de rédiger sur « la santé », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+            },
+            {
+              "title": "Améliorer une première version",
+              "kind": "example",
+              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écrire un texte explicatif » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un texte explicatif répond à une question comme « pourquoi ? » ou « comment ? ». L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, production d’écrits, U6, p.33.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U6-L4",
@@ -149,18 +244,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure liée à la santé et donner son point de vue » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère les faits essentiels et je justifie mon avis à partir du texte. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure liée à la santé et donner son point de vue ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère les faits essentiels et je justifie mon avis à partir du texte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L4-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U6, p.36.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Lire comme un détective",
+              "kind": "method",
+              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure liée à la santé et donner son point de vue », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
+            },
+            {
+              "title": "Rendre compte de sa lecture",
+              "kind": "text",
+              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure liée à la santé et donner son point de vue » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je repère les faits essentiels et je justifie mon avis à partir du texte. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, littérature, U6, p.36.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U6-L5",
@@ -180,18 +305,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Pronoms démonstratifs et possessifs » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un pronom remplace un nom ou un groupe nominal. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Pronoms démonstratifs et possessifs ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un pronom remplace un nom ou un groupe nominal.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U6, p.40.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Pronoms démonstratifs et possessifs » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Pronoms démonstratifs et possessifs » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un pronom remplace un nom ou un groupe nominal. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, grammaire, U6, p.40.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U6-L6",
@@ -212,18 +372,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Vocabulaire de la santé, familles de mots et dictionnaire » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les mots d’une même famille partagent une base de sens. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vocabulaire de la santé, familles de mots et dictionnaire ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les mots d’une même famille partagent une base de sens.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U6, p.44.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Choisir le mot juste",
+              "kind": "text",
+              "body": "Le vocabulaire de « la santé » aide à parler et écrire avec précision. Pour apprendre un mot, ne mémorise pas seulement sa définition : observe un exemple, sa famille éventuelle, sa nature grammaticale et un contexte où tu peux l’utiliser. Le dictionnaire sert à vérifier l’orthographe, le sens et certaines informations grammaticales."
+            },
+            {
+              "title": "Créer son petit lexique",
+              "kind": "activity",
+              "body": "Sur une page de cahier, prépare trois colonnes : « mot », « ce qu’il veut dire », « ma phrase ». Ajoute au moins cinq mots du chapitre. Relis ce lexique avant une production écrite et essaie d’employer deux de ces mots."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Vocabulaire de la santé, familles de mots et dictionnaire » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les mots d’une même famille partagent une base de sens. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, vocabulaire, U6, p.44.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U6-L7",
@@ -241,18 +431,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Écrire correctement un court texte sous la dictée » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’écoute par groupes de mots, je repère les accords, j’écris puis je relis. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L7-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écrire correctement un court texte sous la dictée ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’écoute par groupes de mots, je repère les accords, j’écris puis je relis.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe, U6, p.48.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Construire son texte avant d’écrire",
+              "kind": "method",
+              "body": "Avant de rédiger sur « la santé », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+            },
+            {
+              "title": "Améliorer une première version",
+              "kind": "example",
+              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écrire correctement un court texte sous la dictée » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : J’écoute par groupes de mots, je repère les accords, j’écris puis je relis. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, orthographe, U6, p.48.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U6-L8",
@@ -270,18 +490,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Aller, dire, faire et pouvoir au futur simple » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Au futur : j’irai, je dirai, je ferai, je pourrai. Les bases sont irrégulières et doivent être mémorisées. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L8-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Aller, dire, faire et pouvoir au futur simple ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Au futur : j’irai, je dirai, je ferai, je pourrai. Les bases sont irrégulières et doivent être mémorisées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U6-L8-E2"
             }
           ],
           "source": "Curriculum CE2, conjugaison, U6, p.50.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Aller, dire, faire et pouvoir au futur simple » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Aller, dire, faire et pouvoir au futur simple » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Au futur : j’irai, je dirai, je ferai, je pourrai. Les bases sont irrégulières et doivent être mémorisées. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, conjugaison, U6, p.50.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -319,7 +574,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de Français et littérature développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "EN",
@@ -332,28 +588,50 @@
           "objectives": [
             "Cite means of preventing illnesses and count from 351 to 400."
           ],
-          "discover": "Think about the theme “La santé”. Listen, read or observe a short example before using English yourself.",
+          "discover": "Before lunch\nTeacher: Wash your hands with soap and water before eating.\nNola: Why do we wash our hands?\nTeacher: We wash them because clean hands help protect our health.\nNola: I will wash my hands before lunch.\nTeacher: Tell an adult when you feel unwell.",
           "learn": [
-            "Use simple health vocabulary and clear descriptions."
+            "I wash my hands before I eat. I tell an adult when I feel unwell.",
+            "Useful words: before = avant; soap = savon; water = eau; because = parce que; feel unwell = ne pas se sentir bien"
           ],
           "takeaway": "Use simple health vocabulary and clear descriptions.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Talking about preventing illnesses”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Use simple health vocabulary and clear descriptions.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U6-L1-E1",
+              "type": "open",
+              "prompt": "What do we use to wash our hands?",
+              "answer": "We use soap and water.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Talking about preventing illnesses ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Use simple health vocabulary and clear descriptions.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U6-L1-E2",
+              "type": "open",
+              "prompt": "Who should you tell when you feel unwell?",
+              "answer": "I should tell an adult.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U6, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "I wash my hands before I eat. I tell an adult when I feel unwell. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U6, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U6-L2",
@@ -361,28 +639,50 @@
           "objectives": [
             "Read prevention information and numbers from 351 to 400."
           ],
-          "discover": "Think about the theme “La santé”. Listen, read or observe a short example before using English yourself.",
+          "discover": "Before lunch\nTeacher: Wash your hands with soap and water before eating.\nNola: Why do we wash our hands?\nTeacher: We wash them because clean hands help protect our health.\nNola: I will wash my hands before lunch.\nTeacher: Tell an adult when you feel unwell.",
           "learn": [
-            "Read short prevention messages and numbers accurately."
+            "I wash my hands before I eat. I tell an adult when I feel unwell.",
+            "Useful words: before = avant; soap = savon; water = eau; because = parce que; feel unwell = ne pas se sentir bien"
           ],
           "takeaway": "Read short prevention messages and numbers accurately.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Reading health prevention”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Read short prevention messages and numbers accurately.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U6-L2-E1",
+              "type": "open",
+              "prompt": "What do we use to wash our hands?",
+              "answer": "We use soap and water.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Reading health prevention ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Read short prevention messages and numbers accurately.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U6-L2-E2",
+              "type": "open",
+              "prompt": "Who should you tell when you feel unwell?",
+              "answer": "I should tell an adult.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U6, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "I wash my hands before I eat. I tell an adult when I feel unwell. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U6, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U6-L3",
@@ -390,28 +690,43 @@
           "objectives": [
             "Write means of preventing illnesses and numbers from 350/351 to 400."
           ],
-          "discover": "Think about the theme “La santé”. Listen, read or observe a short example before using English yourself.",
+          "discover": "Before lunch\nTeacher: Wash your hands with soap and water before eating.\nNola: Why do we wash our hands?\nTeacher: We wash them because clean hands help protect our health.\nNola: I will wash my hands before lunch.\nTeacher: Tell an adult when you feel unwell.",
           "learn": [
-            "Use short, clear sentences and legible numbers."
+            "I wash my hands before I eat. I tell an adult when I feel unwell.",
+            "Useful words: before = avant; soap = savon; water = eau; because = parce que; feel unwell = ne pas se sentir bien"
           ],
           "takeaway": "Use short, clear sentences and legible numbers.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Writing health prevention”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Use short, clear sentences and legible numbers.",
-              "explanation": "",
-              "type": "open"
-            },
-            {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Writing health prevention ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Use short, clear sentences and legible numbers.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U6-L3-E1",
+              "type": "open",
+              "prompt": "Write two short sentences using the model. Change the names or details.",
+              "answer": "I wash my hands before I eat. I tell an adult when I feel unwell.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U6, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "I wash my hands before I eat. I tell an adult when I feel unwell. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U6, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U6-L4",
@@ -419,28 +734,43 @@
           "objectives": [
             "Join words, phrases or sentences using appropriate conjunctions."
           ],
-          "discover": "Think about the theme “La santé”. Listen, read or observe a short example before using English yourself.",
+          "discover": "Before lunch\nTeacher: Wash your hands with soap and water before eating.\nNola: Why do we wash our hands?\nTeacher: We wash them because clean hands help protect our health.\nNola: I will wash my hands before lunch.\nTeacher: Tell an adult when you feel unwell.",
           "learn": [
-            "Conjunctions connect ideas. The curriculum introduces subordinating conjunctions at this stage."
+            "Because introduces a reason: I wash my hands because they are dirty. When introduces a time: I tell an adult when I feel unwell. Before shows the order of actions: I wash my hands before I eat. Read both parts to choose the linking word.",
+            "Useful words: before = avant; soap = savon; water = eau; because = parce que; feel unwell = ne pas se sentir bien"
           ],
           "takeaway": "Conjunctions connect ideas. The curriculum introduces subordinating conjunctions at this stage.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Subordinating conjunctions”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Conjunctions connect ideas. The curriculum introduces subordinating conjunctions at this stage.",
-              "explanation": "",
-              "type": "open"
-            },
-            {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Subordinating conjunctions ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Conjunctions connect ideas. The curriculum introduces subordinating conjunctions at this stage.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U6-L4-E1",
+              "type": "open",
+              "prompt": "Choose because or before: I wash my hands ___ I eat.",
+              "answer": "before",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U6, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "Because introduces a reason: I wash my hands because they are dirty. When introduces a time: I tell an adult when I feel unwell. Before shows the order of actions: I wash my hands before I eat. Read both parts to choose the linking word."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U6, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         }
       ],
       "assessment": {
@@ -478,7 +808,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de English Language développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "BA",
@@ -502,20 +833,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Dire comment prévenir des maladies contagieuses » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U6-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Dire comment prévenir des maladies contagieuses ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U6, pp.70-72.",
           "practical": [],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Parcours oral → lecture → écriture",
+              "kind": "method",
+              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
+            },
+            {
+              "title": "Travailler avec un locuteur compétent",
+              "kind": "activity",
+              "body": "À partir du thème « La santé », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Dire comment prévenir des maladies contagieuses ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
+            },
+            {
+              "title": "Comparer sans mélanger",
+              "kind": "warning",
+              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, langues et cultures nationales, U6, pp.70-72.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -553,7 +909,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "MA",
@@ -566,28 +923,53 @@
           "objectives": [
             "Composer, décomposer, lire et écrire les nombres jusqu’à 9 000."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Nombres de 8 000 à 9 000 ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un centre reçoit 8 406 boîtes. Combien le chiffre 4 représente-t-il de boîtes ?",
           "learn": [
             "Je distingue milliers, centaines, dizaines et unités."
           ],
           "takeaway": "Je distingue milliers, centaines, dizaines et unités.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Nombres de 8 000 à 9 000 » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je distingue milliers, centaines, dizaines et unités. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L1-E1",
+              "type": "open",
+              "prompt": "Écris en chiffres huit mille soixante-dix et décompose ce nombre.",
+              "answer": "8 070 = 8 000 + 70.",
+              "explanation": "Il faut conserver le zéro des centaines et celui des unités."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Nombres de 8 000 à 9 000 ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je distingue milliers, centaines, dizaines et unités.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L1-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "Il faut conserver le zéro des centaines et celui des unités.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U6, p.80.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "8 406 = 8 000 + 400 + 6. Il y a zéro dizaine. Le chiffre 4 représente 400. Pour comparer 8 406 et 8 460, les milliers et centaines sont identiques : on compare les dizaines, 0 < 6, donc 8 406 < 8 460."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U6, p.80.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U6-L2",
@@ -595,28 +977,53 @@
           "objectives": [
             "Lire et écrire les fractions simples."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Fractions simples ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une feuille est partagée en quatre parties égales. Trois sont coloriées. Quelle fraction est coloriée ?",
           "learn": [
             "Une fraction simple représente des parts égales d’un tout ; le dénominateur indique le nombre total de parts égales et le numérateur les parts considérées."
           ],
           "takeaway": "Une fraction simple représente des parts égales d’un tout ; le dénominateur indique le nombre total de parts égales et le numérateur les parts considérées.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Fractions simples » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une fraction simple représente des parts égales d’un tout ; le dénominateur indique le nombre total de parts égales et le numérateur les parts considérées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L2-E1",
+              "type": "open",
+              "prompt": "Plie une feuille en deux parties égales puis colorie une partie. Quelle fraction as-tu coloriée ?",
+              "answer": "1/2, un demi.",
+              "explanation": "Une partie est coloriée parmi deux parties égales."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Fractions simples ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une fraction simple représente des parts égales d’un tout ; le dénominateur indique le nombre total de parts égales et le numérateur les parts considérées.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L2-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "Une partie est coloriée parmi deux parties égales.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U6, p.80.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "La fraction est 3/4, qui se lit trois quarts. Le dénominateur 4 indique le nombre de parts égales du tout. Le numérateur 3 indique combien de parts on considère. Si les parts ne sont pas égales, on ne peut pas utiliser ce partage pour représenter des quarts."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U6, p.80.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U6-L3",
@@ -626,28 +1033,53 @@
             "Diviser un entier par un nombre de deux chiffres.",
             "Vérifier par la preuve par 9."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Division par un nombre de deux chiffres et contrôle ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "On range 156 savons dans des cartons contenant chacun 12 savons. Combien de cartons complets obtient-on ?",
           "learn": [
             "J’estime d’abord le résultat, je pose la division et je vérifie ensuite."
           ],
           "takeaway": "J’estime d’abord le résultat, je pose la division et je vérifie ensuite.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Division par un nombre de deux chiffres et contrôle » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’estime d’abord le résultat, je pose la division et je vérifie ensuite. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L3-E1",
+              "type": "open",
+              "prompt": "Divise 170 par 12. Donne le quotient et le reste.",
+              "answer": "Quotient 14, reste 2.",
+              "explanation": "12 × 14 = 168 ; 170 − 168 = 2. Le reste 2 est inférieur à 12."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Division par un nombre de deux chiffres et contrôle ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’estime d’abord le résultat, je pose la division et je vérifie ensuite.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L3-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "12 × 14 = 168 ; 170 − 168 = 2. Le reste 2 est inférieur à 12.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U6, p.80.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "12 × 10 = 120 ; il reste 156 − 120 = 36. Or 12 × 3 = 36. Donc 156 ÷ 12 = 13, reste 0. Vérifie : diviseur × quotient + reste = dividende. Le reste doit être inférieur au diviseur. Une preuve par 9 est un contrôle supplémentaire qui peut manquer certaines erreurs ; la reconstruction est indispensable."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U6, p.80.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U6-L4",
@@ -656,28 +1088,53 @@
             "Identifier les unités de mesure d’aire.",
             "Construire et appliquer la formule de l’aire du rectangle."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Unités d’aire et aire du rectangle ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un rectangle couvre 5 rangées de 3 carrés d’un centimètre de côté. Quelle est son aire ?",
           "learn": [
             "L’aire mesure une surface. Pour un rectangle : aire = longueur × largeur, avec des unités d’aire cohérentes."
           ],
           "takeaway": "L’aire mesure une surface. Pour un rectangle : aire = longueur × largeur, avec des unités d’aire cohérentes.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Unités d’aire et aire du rectangle » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’aire mesure une surface. Pour un rectangle : aire = longueur × largeur, avec des unités d’aire cohérentes. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L4-E1",
+              "type": "open",
+              "prompt": "Calcule l’aire d’un rectangle de 6 cm de long et 4 cm de large.",
+              "answer": "24 cm².",
+              "explanation": "6 × 4 = 24 carrés d’un centimètre de côté."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Unités d’aire et aire du rectangle ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’aire mesure une surface. Pour un rectangle : aire = longueur × largeur, avec des unités d’aire cohérentes.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L4-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "6 × 4 = 24 carrés d’un centimètre de côté.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, U6, p.87.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Chaque petit carré mesure 1 cm². Il y en a 5 × 3 = 15. L’aire vaut 15 cm². L’aire mesure la surface ; le périmètre mesure le contour. Un rectangle de 5 cm sur 3 cm a donc une aire de 15 cm² et un périmètre de 16 cm."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, mesures et grandeurs, U6, p.87.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U6-L5",
@@ -686,28 +1143,53 @@
             "Repérer des points dans un quadrillage à partir d’un code.",
             "Repérer des objets sur un plan."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Repérer sur un quadrillage et un plan ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur un plan, les colonnes portent A, B, C et les lignes 1, 2, 3. La pharmacie se trouve en B2. Comment la repérer ?",
           "learn": [
             "Je lis d’abord le code, les repères et la légende avant de localiser un point ou un objet."
           ],
           "takeaway": "Je lis d’abord le code, les repères et la légende avant de localiser un point ou un objet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Repérer sur un quadrillage et un plan » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lis d’abord le code, les repères et la légende avant de localiser un point ou un objet. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L5-E1",
+              "type": "open",
+              "prompt": "Place l’école dans la case C3 et le marché dans A1. Nomme leurs colonnes et lignes.",
+              "answer": "École : colonne C, ligne 3. Marché : colonne A, ligne 1.",
+              "explanation": "On croise toujours les deux repères."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Repérer sur un quadrillage et un plan ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lis d’abord le code, les repères et la légende avant de localiser un point ou un objet.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U6-L5-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "On croise toujours les deux repères.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, géométrie, U6, p.91.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Cherche la colonne B, puis la ligne 2. Leur intersection donne la case B2. Lis la légende pour connaître le symbole de la pharmacie. Ne confonds pas une case d’un plan avec un point à l’intersection de lignes : le support doit préciser ce qui est utilisé."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, géométrie, U6, p.91.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         }
       ],
       "assessment": {
@@ -745,7 +1227,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de Mathématiques développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "SC",
@@ -768,18 +1251,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Hygiène des organes des sens » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je protège mes yeux, oreilles, nez, langue et peau par des habitudes adaptées et je signale toute douleur ou gêne à un adulte. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U6-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Hygiène des organes des sens ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je protège mes yeux, oreilles, nez, langue et peau par des habitudes adaptées et je signale toute douleur ou gêne à un adulte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U6, p.98.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Hygiène des organes des sens », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Hygiène des organes des sens » et donne un exemple adapté au thème « La santé ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Je protège mes yeux, oreilles, nez, langue et peau par des habitudes adaptées et je signale toute douleur ou gêne à un adulte. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « hygiène des organes des sens ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences de la vie, U6, p.98.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U6-L2",
@@ -797,20 +1310,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Malnutrition et sous-alimentation » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La malnutrition correspond à une alimentation inadéquate en quantité ou en qualité ; un diagnostic appartient aux professionnels de santé. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U6-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Malnutrition et sous-alimentation ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La malnutrition correspond à une alimentation inadéquate en quantité ou en qualité ; un diagnostic appartient aux professionnels de santé.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U6, p.98.",
           "practical": [],
           "notes": [
             "Éviter tout diagnostic par l’élève ; orienter vers les adultes/professionnels."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Malnutrition et sous-alimentation », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Malnutrition et sous-alimentation » et donne un exemple adapté au thème « La santé ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : La malnutrition correspond à une alimentation inadéquate en quantité ou en qualité ; un diagnostic appartient aux professionnels de santé. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « malnutrition et sous-alimentation ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences de la vie, U6, p.98.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U6-L3",
@@ -831,20 +1374,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Maladies contagieuses, vaccination, VIH/Sida et formations sanitaires » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La prévention combine hygiène, vaccination lorsque recommandée, information fiable et recours aux services de santé. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U6-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Maladies contagieuses, vaccination, VIH/Sida et formations sanitaires ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La prévention combine hygiène, vaccination lorsque recommandée, information fiable et recours aux services de santé.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U6, p.98.",
           "practical": [],
           "notes": [
             "Contenu santé à valider ; ne pas remplacer un avis médical."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Maladies contagieuses, vaccination, VIH/Sida et formations sanitaires », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Maladies contagieuses, vaccination, VIH/Sida et formations sanitaires » et donne un exemple adapté au thème « La santé ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : La prévention combine hygiène, vaccination lorsque recommandée, information fiable et recours aux services de santé. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « maladies contagieuses, vaccination, vih/sida et formations sanitaires ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences de la vie, U6, p.98.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U6-L4",
@@ -862,18 +1435,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Mesurer masses et températures » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis l’instrument adapté, lis l’unité et respecte les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U6-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Mesurer masses et températures ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis l’instrument adapté, lis l’unité et respecte les règles de sécurité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U6-L4-E2"
             }
           ],
           "source": "Curriculum CE2, technologies, U6, p.103.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Mesurer masses et températures », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Mesurer masses et températures » et donne un exemple adapté au thème « La santé ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Je choisis l’instrument adapté, lis l’unité et respecte les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « mesurer masses et températures ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, technologies, U6, p.103.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -911,7 +1514,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de Sciences et technologies développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "TI",
@@ -936,18 +1540,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Réseau et Internet » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un réseau relie des appareils pour échanger des informations ; Internet relie de nombreux réseaux à l’échelle mondiale. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U6-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Réseau et Internet ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un réseau relie des appareils pour échanger des informations ; Internet relie de nombreux réseaux à l’échelle mondiale.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, Internet et communication, U6, p.115.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Réseau et Internet », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Réseau et Internet » et donne un exemple adapté au thème « La santé ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Un réseau relie des appareils pour échanger des informations ; Internet relie de nombreux réseaux à l’échelle mondiale. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « La santé » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, Internet et communication, U6, p.115.",
+            "reviewer": null
+          }
         },
         {
           "id": "TI-U6-L2",
@@ -966,18 +1605,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Courrier électronique et communication par Internet » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un courriel comporte notamment un destinataire, un objet et un message ; on ne partage pas d’informations personnelles sans autorisation. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U6-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Courrier électronique et communication par Internet ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un courriel comporte notamment un destinataire, un objet et un message ; on ne partage pas d’informations personnelles sans autorisation.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, Internet et communication, U6, p.115.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Courrier électronique et communication par Internet », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Courrier électronique et communication par Internet » et donne un exemple adapté au thème « La santé ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Un courriel comporte notamment un destinataire, un objet et un message ; on ne partage pas d’informations personnelles sans autorisation. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « La santé » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, Internet et communication, U6, p.115.",
+            "reviewer": null
+          }
         },
         {
           "id": "TI-U6-L3",
@@ -995,18 +1669,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Bonne utilisation des écrans et appareils » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’adopte une posture correcte, des durées raisonnables, des pauses et des usages adaptés à mon âge et aux consignes familiales/scolaires. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U6-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Bonne utilisation des écrans et appareils ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’adopte une posture correcte, des durées raisonnables, des pauses et des usages adaptés à mon âge et aux consignes familiales/scolaires.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, santé, sécurité et éthique TIC, U6, p.116.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Bonne utilisation des écrans et appareils », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Bonne utilisation des écrans et appareils » et donne un exemple adapté au thème « La santé ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : J’adopte une posture correcte, des durées raisonnables, des pauses et des usages adaptés à mon âge et aux consignes familiales/scolaires. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « La santé » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, santé, sécurité et éthique TIC, U6, p.116.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1044,7 +1753,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de TIC développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "SH",
@@ -1067,18 +1777,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Esprit d’initiative » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Esprit d’initiative ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U6, p.124.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Esprit d’initiative » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Esprit d’initiative » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, éducation morale, U6, p.124.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U6-L2",
@@ -1096,20 +1836,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’enfant, U6, p.126.",
           "practical": [],
           "notes": [
             "Décalage probable entre CE1/CE2 ou entre unités : formulation à valider éditorialement."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, droits de l’enfant, U6, p.126.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U6-L3",
@@ -1127,18 +1897,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Vivre ensemble dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte le calme, les personnes malades, le personnel et les règles du lieu. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vivre ensemble dans les milieux hospitaliers ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte le calme, les personnes malades, le personnel et les règles du lieu.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U6, p.128.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Vivre ensemble dans les milieux hospitaliers » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Vivre ensemble dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte le calme, les personnes malades, le personnel et les règles du lieu. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, paix et sécurité, U6, p.128.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U6-L4",
@@ -1156,18 +1956,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité dans les milieux hospitaliers ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L4-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U6, p.128.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Sécurité dans les milieux hospitaliers » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Sécurité dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, paix et sécurité, U6, p.128.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U6-L5",
@@ -1185,18 +2015,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Règles pour protéger sa santé et dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Règles pour protéger sa santé et dans les milieux hospitaliers ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L5-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U6, p.132.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Règles pour protéger sa santé et dans les milieux hospitaliers » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Règles pour protéger sa santé et dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, règles et règlements, U6, p.132.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U6-L6",
@@ -1214,20 +2074,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Œuvre des Allemands au Cameroun » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’étude historique doit présenter le contexte colonial avec des sources adaptées, en distinguant faits, acteurs et conséquences. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Œuvre des Allemands au Cameroun ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’étude historique doit présenter le contexte colonial avec des sources adaptées, en distinguant faits, acteurs et conséquences.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L6-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U6, p.136.",
           "practical": [],
           "notes": [
             "Sujet historique sensible : éviter une présentation valorisante ou simpliste de la colonisation ; revue pédagogique requise."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Œuvre des Allemands au Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Œuvre des Allemands au Cameroun » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’étude historique doit présenter le contexte colonial avec des sources adaptées, en distinguant faits, acteurs et conséquences. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, histoire, U6, p.136.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U6-L7",
@@ -1245,18 +2135,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Pêche et économie du Cameroun » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La pêche fournit des aliments, des emplois et des échanges ; elle doit aussi tenir compte de la gestion durable des ressources. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L7-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Pêche et économie du Cameroun ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La pêche fournit des aliments, des emplois et des échanges ; elle doit aussi tenir compte de la gestion durable des ressources.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L7-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U6, p.140.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Pêche et économie du Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Pêche et économie du Cameroun » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : La pêche fournit des aliments, des emplois et des échanges ; elle doit aussi tenir compte de la gestion durable des ressources. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, géographie économique, U6, p.140.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U6-L8",
@@ -1274,18 +2194,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Élevage et économie du Cameroun » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’élevage fournit des produits, des revenus et des activités économiques dans plusieurs régions. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L8-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Élevage et économie du Cameroun ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’élevage fournit des produits, des revenus et des activités économiques dans plusieurs régions.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L8-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U6, p.140.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Élevage et économie du Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Élevage et économie du Cameroun » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’élevage fournit des produits, des revenus et des activités économiques dans plusieurs régions. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, géographie économique, U6, p.140.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U6-L9",
@@ -1304,20 +2254,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Diversité humaine : reformulation nécessaire » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum utilise la formulation « races humaines » et demande de les associer à des zones géographiques. Cette catégorisation est scientifiquement dépassée et ne doit pas être enseignée telle quelle. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L9-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Diversité humaine : reformulation nécessaire ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le curriculum utilise la formulation « races humaines » et demande de les associer à des zones géographiques. Cette catégorisation est scientifiquement dépassée et ne doit pas être enseignée telle quelle.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U6-L9-E2"
             }
           ],
           "source": "Curriculum CE2, géographie humaine, U6, p.140.",
           "practical": [],
           "notes": [
             "POINT_CRITIQUE: formulation officielle obsolète « races humaines ». Nécessite arbitrage pédagogique/institutionnel avant publication."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Diversité humaine : reformulation nécessaire » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Diversité humaine : reformulation nécessaire » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum utilise la formulation « races humaines » et demande de les associer à des zones géographiques. Cette catégorisation est scientifiquement dépassée et ne doit pas être enseignée telle quelle. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, géographie humaine, U6, p.140.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1355,7 +2335,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de Sciences humaines et sociales développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "AR",
@@ -1378,18 +2359,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Tableau par collage d’images » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis, découpe et organise les images avant de les coller proprement. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U6-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Tableau par collage d’images ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis, découpe et organise les images avant de les coller proprement.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, arts visuels, U6, p.144.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Tableau par collage d’images », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « La santé ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, arts visuels, U6, p.144.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U6-L2",
@@ -1407,18 +2413,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Lire une partition simple avec des silences » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un silence est une durée musicale pendant laquelle on ne produit pas de son ; il fait partie du rythme. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U6-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une partition simple avec des silences ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un silence est une durée musicale pendant laquelle on ne produit pas de son ; il fait partie du rythme.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U6, p.146.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Lire une partition simple avec des silences », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « La santé ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, musique, U6, p.146.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U6-L3",
@@ -1436,18 +2467,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Danse moderne et bien-être » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je danse de façon contrôlée, avec échauffement et respect de l’espace. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U6-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Danse moderne et bien-être ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je danse de façon contrôlée, avec échauffement et respect de l’espace.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U6, p.149.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Danse moderne et bien-être », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « La santé ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, danse, U6, p.149.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1485,7 +2541,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "EP",
@@ -1510,18 +2567,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Principes et règles élémentaires du basketball » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U6-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Principes et règles élémentaires du basketball ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer le corps",
+              "kind": "method",
+              "body": "Avant l’activité « Principes et règles élémentaires du basketball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
+            },
+            {
+              "title": "Apprendre le geste en étapes",
+              "kind": "activity",
+              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
+            },
+            {
+              "title": "Sécurité et respect",
+              "kind": "warning",
+              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",
+            "reviewer": null
+          }
         },
         {
           "id": "EP-U6-L2",
@@ -1540,20 +2622,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Se déplacer, passer et recevoir au basketball » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U6-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Se déplacer, passer et recevoir au basketball ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",
           "practical": [
             "Échauffement, espace dégagé, ballon adapté à l’âge et consignes de sécurité."
           ],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer le corps",
+              "kind": "method",
+              "body": "Avant l’activité « Se déplacer, passer et recevoir au basketball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
+            },
+            {
+              "title": "Apprendre le geste en étapes",
+              "kind": "activity",
+              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
+            },
+            {
+              "title": "Sécurité et respect",
+              "kind": "warning",
+              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1591,7 +2698,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "DP",
@@ -1614,18 +2722,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Entretenir le jardin scolaire » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je maintiens le jardin propre, j’arrose de manière adaptée et j’observe les plantes. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U6-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Entretenir le jardin scolaire ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je maintiens le jardin propre, j’arrose de manière adaptée et j’observe les plantes.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U6, p.164.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Entretenir le jardin scolaire », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités agropastorales, U6, p.164.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U6-L2",
@@ -1643,18 +2776,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Entretenir un animal en élevage » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je veille à l’eau, l’alimentation, la propreté et j’alerte un adulte en cas de problème. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U6-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Entretenir un animal en élevage ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je veille à l’eau, l’alimentation, la propreté et j’alerte un adulte en cas de problème.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U6, p.164.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Entretenir un animal en élevage », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités agropastorales, U6, p.164.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U6-L3",
@@ -1672,18 +2830,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Réaliser un menu de croissance équilibré » et donne un exemple adapté au thème « La santé ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je compose un repas varié avec des aliments disponibles localement, en tenant compte des règles d’hygiène. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U6-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Réaliser un menu de croissance équilibré ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je compose un repas varié avec des aliments disponibles localement, en tenant compte des règles d’hygiène.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U6, p.167.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Réaliser un menu de croissance équilibré », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités domestiques et familiales, U6, p.167.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1721,7 +2904,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « La santé », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     }
   ],
   "integration_project": {

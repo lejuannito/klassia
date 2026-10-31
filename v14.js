@@ -1,39 +1,14 @@
 (() => {
 'use strict';
 const PRACTICE_URL='./data/ce2-practice-v14.json';
-const MANUAL_PARTS=['part-01.txt','part-02.txt','part-03.txt','part-04.txt','part-05a.txt','part-05b.txt','part-05c.txt','part-06a.txt','part-06b-1.txt','part-06b-2.txt','part-06c-1.txt','part-06c-2.txt','part-07.txt'];
-let practiceV14=null, allUnitsV14=null, manualV14=null;
-const esc14=s=>String(s??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
+let practiceV14=null, allUnitsV14=null;
+const esc14=Klassia.escape;
 const nl14=s=>esc14(s).replace(/\n/g,'<br>');
-
-fetch(PRACTICE_URL).then(r=>r.ok?r.json():null).then(x=>{practiceV14=x;decorateV14();}).catch(()=>{});
-
-async function loadManualV14(){
-  if(manualV14) return manualV14;
-  const parts=await Promise.all(MANUAL_PARTS.map(n=>fetch('./data/manual/'+n).then(r=>{if(!r.ok)throw new Error(n);return r.text()})));
-  const bin=Uint8Array.from(atob(parts.join('')),c=>c.charCodeAt(0));
-  const stream=new Blob([bin]).stream().pipeThrough(new DecompressionStream('gzip'));
-  manualV14=JSON.parse(await new Response(stream).text());
-  return manualV14;
-}
-function applyManualV14(unitId,c){
-  if(!manualV14?.units?.[unitId]||!c?.subjects)return c;
-  const p=manualV14.units[unitId];
-  c=structuredClone(c);
-  for(const s of c.subjects){
-    const sp=p.subjects?.[s.id]; if(sp?.chapter_intro)s.chapter_intro=sp.chapter_intro;
-    for(const l of s.lessons||[]){const lp=p.lessons?.[l.id]; if(lp)Object.assign(l,lp);}
-  }
-  return c;
-}
+fetch(PRACTICE_URL).then(r=>{if(!r.ok)throw Error('Cahier pratique indisponible');return r.json();}).then(x=>{practiceV14=x;decorateV14();}).catch(console.warn);
 async function allUnits(){
-  if(allUnitsV14)return allUnitsV14;
-  await loadManualV14();
-  const rows=await Promise.all(catalog.units.map(async u=>{
-    const c=await fetch(u.content).then(r=>r.json());
-    return {meta:u,content:applyManualV14(u.id,c)};
-  }));
-  allUnitsV14=rows; return rows;
+ if(allUnitsV14)return allUnitsV14;
+ allUnitsV14=await Promise.all(catalog.units.map(async meta=>{const r=await fetch(meta.content);if(!r.ok)throw Error('Unité indisponible : '+meta.id);return {meta,content:await r.json()};}));
+ return allUnitsV14;
 }
 function currentSubjectId(){
   const h=decodeURIComponent(location.hash||'');
@@ -54,6 +29,7 @@ function currentLessonObj(){
 function lessonHtml14(s,l,index){
   let h=`<section class="p-lesson"><h3>${esc14(index!=null?`${index+1}. `:'')}${esc14(l.title)}</h3>`;
   if(l.objectives?.length)h+=`<p class="obj"><b>Objectif :</b> ${esc14(l.objectives.join(' · '))}</p>`;
+  if(l.figure)h+=`<img style="max-width:100%" src="${new URL(l.figure.src,location.href).href}" alt="${esc14(l.figure.alt)}">`;
   if(l.discover)h+=`<div class="box"><b>Je découvre</b><p>${nl14(l.discover)}</p></div>`;
   if(l.learn?.length)h+=`<div class="box"><b>Je comprends</b>${l.learn.map(x=>`<p>${nl14(x)}</p>`).join('')}</div>`;
   if(l.manual_sections?.length)h+=l.manual_sections.map(sec=>{
@@ -63,6 +39,7 @@ function lessonHtml14(s,l,index){
     if(sec.table?.headers)x+=`<table><thead><tr>${sec.table.headers.map(v=>`<th>${esc14(v)}</th>`).join('')}</tr></thead><tbody>${(sec.table.rows||[]).map(r=>`<tr>${r.map(v=>`<td>${nl14(v)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
     return x+'</div>';
   }).join('');
+  if(l.teacher_guide)h+=`<details><summary>Guide adulte</summary><p>${esc14(l.teacher_guide.preparation)}</p><ul>${l.teacher_guide.observation.map(x=>`<li>${esc14(x)}</li>`).join('')}</ul></details>`;
   if(l.takeaway)h+=`<div class="take"><b>Je retiens</b><p>${nl14(l.takeaway)}</p></div>`;
   if(l.practical?.length)h+=`<div class="box"><b>J’expérimente</b><ul>${l.practical.map(x=>`<li>${nl14(x)}</li>`).join('')}</ul></div>`;
   if(l.exercises?.length)h+=`<div class="ex"><b>Je m’exerce</b>${l.exercises.map((e,i)=>`<div class="q"><b>${i+1}.</b> ${nl14(e.prompt||'')}<div class="lines"></div><details><summary>Correction</summary><p>${nl14(e.answer||'')}</p>${e.explanation?`<p>${nl14(e.explanation)}</p>`:''}</details></div>`).join('')}</div>`;
@@ -140,6 +117,7 @@ function dTitle(){return `Français — ${unitCaption()}`;}
 
 async function subjectsAllPage(){
   const units=await allUnits();
+  if(location.hash!=='#subjects-all')return;
   const first=units[0]?.content?.subjects||[];
   let body=`<div class="browse-tabs-v14"><button onclick="location.hash='#learn'">Par thème / unité</button><button class="active">Par matière</button></div><div class="page-head"><div><div class="eyebrow">CE2 · PAR MATIÈRE</div><h1>Choisir d’abord une matière</h1><p>Parcours ensuite les huit thèmes de cette matière.</p></div><span class="pill">8 unités</span></div><div class="subject-grid wide">`;
   for(const s0 of first){
@@ -151,7 +129,7 @@ async function subjectsAllPage(){
   document.querySelectorAll('[data-suball]').forEach(b=>b.onclick=()=>{location.hash='#subject-all:'+b.dataset.suball});
 }
 async function subjectAllPage(id){
-  const units=await allUnits(); let subjectName=id;
+  const units=await allUnits(); if(location.hash!=='#subject-all:'+id)return; let subjectName=id;
   let body=`<div class="crumb"><a onclick="location.hash='#subjects-all'">Matières</a><span>›</span>CE2 complet</div>`;
   const cards=[];
   for(const u of units){
@@ -185,15 +163,22 @@ function injectBrowseTabs(){
     }
   }
 }
-function specialRoute(){
-  const h=decodeURIComponent(location.hash||'');
-  if(h==='#subjects-all'){subjectsAllPage();return true;}
-  if(h.startsWith('#subject-all:')){subjectAllPage(h.slice(13));return true;}
-  return false;
+async function coveragePage(){
+ const r=await fetch('./data/coverage.json');if(!r.ok)throw Error('Inventaire indisponible');const data=await r.json();if(location.hash!=='#coverage')return;
+ shell(`<h1>Couverture et relecture</h1><p>${esc14(data.notice)}</p><label>Classe <select id="coverageGrade"><option>CE2</option><option>MS</option></select></label><label>Rechercher <input id="coverageSearch" type="search"></label><div id="coverageResults"></div>`,'admin');
+ function draw(){const grade=document.getElementById('coverageGrade').value,q=document.getElementById('coverageSearch').value.toLocaleLowerCase('fr');const rows=data.items.filter(x=>x.grade===grade&&(x.title+' '+x.id+' '+x.unit).toLocaleLowerCase('fr').includes(q));document.getElementById('coverageResults').innerHTML=`<p>${rows.length} ressources ; ${rows.filter(x=>x.generic_discovery).length} découvertes encore génériques. Correspondances officielles à confirmer.</p>`+rows.map(x=>`<details class="adult-guide"><summary>${esc14(x.id)} · ${esc14(x.title)}</summary><p>Statut : ${esc14(x.status)} · validation en attente</p><p>${esc14(x.source)}</p><ul>${x.objectives.map(o=>`<li>${esc14(o)}</li>`).join('')}</ul></details>`).join('');}
+ document.getElementById('coverageGrade').onchange=draw;document.getElementById('coverageSearch').oninput=draw;draw();
 }
-window.addEventListener('hashchange',()=>{if(specialRoute())return;setTimeout(decorateV14,30)});
-function decorateV14(){if(specialRoute())return;injectBrowseTabs();injectPractice();}
-const obs=new MutationObserver(()=>requestAnimationFrame(decorateV14));
-obs.observe(document.getElementById('app'),{childList:true,subtree:true});
-setTimeout(decorateV14,250);
+function routeSpecial(h){
+ let task;
+ if(h==='#coverage')task=coveragePage();
+ else if(h==='#subjects-all')task=subjectsAllPage();
+ else if(h.startsWith('#subject-all:'))task=subjectAllPage(decodeURIComponent(h.slice(13)));
+ else return false;
+ task.catch(err=>shell('<h1>Chargement interrompu</h1><p>'+esc14(err.message)+'</p><button onclick="location.reload()">Réessayer</button>','learn'));
+ return true;
+}
+Klassia.registerRoutes('CE2',routeSpecial);
+function decorateV14(){injectBrowseTabs();injectPractice();}
+document.addEventListener('klassia:render',decorateV14);
 })();

@@ -1,6 +1,6 @@
 {
   "format": "klassia-unit-catalog",
-  "version": 2,
+  "version": 3,
   "class": "CE2",
   "default_unit": "U1",
   "units": [
@@ -10,11 +10,12 @@
       "title": "La maison",
       "content": "data/content-u1.json",
       "qcm": "data/qcm-u1.json",
-      "status": "PILOT_VALIDATED_UX",
+      "status": "PILOT_REVIEW_REQUIRED",
       "lesson_count": 46,
-      "qcm_count": 190,
-      "essential_qcm": 50,
-      "complementary_qcm": 140
+      "qcm_count": 173,
+      "essential_qcm": 45,
+      "complementary_qcm": 128,
+      "stored_qcm": 190
     },
     {
       "id": "U2",
@@ -22,11 +23,12 @@
       "title": "Le village et la ville",
       "content": "data/content-u2.json",
       "qcm": "data/qcm-u2.json",
-      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "status": "PILOT_REVIEW_REQUIRED",
       "lesson_count": 50,
-      "qcm_count": 193,
-      "essential_qcm": 50,
-      "complementary_qcm": 143
+      "qcm_count": 176,
+      "essential_qcm": 45,
+      "complementary_qcm": 131,
+      "stored_qcm": 193
     },
     {
       "id": "U3",
@@ -34,11 +36,12 @@
       "title": "L’école",
       "content": "data/content-u3.json",
       "qcm": "data/qcm-u3.json",
-      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "status": "PILOT_REVIEW_REQUIRED",
       "lesson_count": 46,
-      "qcm_count": 194,
-      "essential_qcm": 50,
-      "complementary_qcm": 144
+      "qcm_count": 177,
+      "essential_qcm": 45,
+      "complementary_qcm": 132,
+      "stored_qcm": 194
     },
     {
       "id": "U4",
@@ -46,11 +49,12 @@
       "title": "Les métiers",
       "content": "data/content-u4.json",
       "qcm": "data/qcm-u4.json",
-      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "status": "PILOT_REVIEW_REQUIRED",
       "lesson_count": 51,
-      "qcm_count": 194,
-      "essential_qcm": 50,
-      "complementary_qcm": 144
+      "qcm_count": 132,
+      "essential_qcm": 45,
+      "complementary_qcm": 87,
+      "stored_qcm": 149
     },
     {
       "id": "U5",
@@ -58,11 +62,12 @@
       "title": "Les voyages",
       "content": "data/content-u5.json",
       "qcm": "data/qcm-u5.json",
-      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "status": "PILOT_REVIEW_REQUIRED",
       "lesson_count": 41,
-      "qcm_count": 196,
-      "essential_qcm": 50,
-      "complementary_qcm": 146
+      "qcm_count": 134,
+      "essential_qcm": 45,
+      "complementary_qcm": 89,
+      "stored_qcm": 151
     },
     {
       "id": "U6",
@@ -70,11 +75,12 @@
       "title": "La santé",
       "content": "data/content-u6.json",
       "qcm": "data/qcm-u6.json",
-      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "status": "PILOT_REVIEW_REQUIRED",
       "lesson_count": 42,
-      "qcm_count": 194,
-      "essential_qcm": 50,
-      "complementary_qcm": 144
+      "qcm_count": 132,
+      "essential_qcm": 45,
+      "complementary_qcm": 87,
+      "stored_qcm": 149
     },
     {
       "id": "U7",
@@ -82,11 +88,12 @@
       "title": "Les jeux",
       "content": "data/content-u7.json",
       "qcm": "data/qcm-u7.json",
-      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "status": "PILOT_REVIEW_REQUIRED",
       "lesson_count": 39,
-      "qcm_count": 195,
-      "essential_qcm": 50,
-      "complementary_qcm": 145
+      "qcm_count": 133,
+      "essential_qcm": 45,
+      "complementary_qcm": 88,
+      "stored_qcm": 150
     },
     {
       "id": "U8",
@@ -94,16 +101,19 @@
       "title": "Les communications",
       "content": "data/content-u8.json",
       "qcm": "data/qcm-u8.json",
-      "status": "DRAFT_PEDAGOGICAL_REVIEW",
+      "status": "PILOT_REVIEW_REQUIRED",
       "lesson_count": 32,
-      "qcm_count": 192,
-      "essential_qcm": 50,
-      "complementary_qcm": 142
+      "qcm_count": 130,
+      "essential_qcm": 45,
+      "complementary_qcm": 85,
+      "stored_qcm": 147
     }
   ],
   "summary": {
     "lesson_count": 347,
-    "qcm_count": 1548,
-    "assessment_count": 80
+    "qcm_count": 1187,
+    "assessment_count": 80,
+    "stored_qcm": 1323,
+    "suspended_qcm": 136
   }
 }

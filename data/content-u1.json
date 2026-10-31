@@ -1,6 +1,6 @@
 {
   "format": "klassia-content",
-  "version": 1,
+  "version": "15.0",
   "metadata": {
     "product": "Klassia",
     "country": "Cameroun",
@@ -9,7 +9,8 @@
     "center_of_interest": "La maison",
     "curriculum": "Curriculum de l’enseignement primaire francophone camerounais – Niveau 2 (CE1-CE2), MINEDUB, 2018",
     "status": "Pilote éditorial v1 – à valider pédagogiquement avant publication grand public",
-    "principle": "Contenus originaux construits à partir des attendus officiels; ne reproduisent pas un manuel scolaire."
+    "principle": "Contenus originaux construits à partir des attendus officiels; ne reproduisent pas un manuel scolaire.",
+    "editorial_status": "PILOT_REVIEW_REQUIRED"
   },
   "pedagogy": {
     "cycle_pattern": {
@@ -53,11 +54,12 @@
               "prompt": "Reformule : « Ferme la porte, range les chaussures puis éteins la lumière du couloir. »",
               "answer": "Je dois d’abord fermer la porte, ensuite ranger les chaussures et enfin éteindre la lumière du couloir.",
               "explanation": "La reformulation conserve l’ordre des trois actions.",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L1-E1"
             },
             {
               "prompt": "Quel comportement montre une bonne écoute ?",
-              "answer": "Attendre la fin de la consigne avant de répondre.",
+              "answer": "Attendre la fin de la consigne",
               "explanation": "",
               "type": "mcq",
               "choices": [
@@ -65,18 +67,60 @@
                 "Attendre la fin de la consigne",
                 "Regarder ailleurs",
                 "Changer de sujet"
-              ]
+              ],
+              "id": "FR-U1-L1-E2",
+              "correct_choice": 1
             },
             {
               "prompt": "Récite les quatre vers de « Ma maison » en respectant les pauses.",
               "answer": "Réponse orale à évaluer : articulation, volume, rythme et respect du texte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L1-E3"
+            },
+            {
+              "prompt": "Un adulte dit : « Va dans la chambre, prends le livre rouge et pose-le sur la table du salon. » Reformule la consigne en conservant l’ordre.",
+              "answer": "Je dois aller dans la chambre, prendre le livre rouge, puis le poser sur la table du salon.",
+              "explanation": "Repère les verbes d’action et garde leur ordre.",
+              "type": "open",
+              "id": "FR-U1-L1-E4"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 26 – Expression orale, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Écouter activement",
+              "kind": "method",
+              "body": "Quand quelqu’un parle, l’élève doit d’abord se rendre disponible : regarder la personne si la situation le permet, ne pas l’interrompre et garder en mémoire les mots importants. Une consigne contient souvent plusieurs informations : l’action à faire, l’objet concerné, le lieu et l’ordre des étapes. Une bonne écoute permet d’agir sans demander plusieurs fois la même chose."
+            },
+            {
+              "title": "Comprendre une consigne en plusieurs étapes",
+              "kind": "example",
+              "body": "Exemple : « Prends ton cahier, ouvre-le à la page 5 et écris ton prénom en haut. » On repère trois actions dans l’ordre : prendre, ouvrir, écrire. Pour vérifier sa compréhension, on peut reformuler : « Je prends d’abord mon cahier, ensuite j’ouvre à la page 5, puis j’écris mon prénom. »"
+            },
+            {
+              "title": "Déclamer un texte",
+              "kind": "text",
+              "body": "Déclamer un poème ne signifie pas crier. On articule, on marque les pauses, on regarde parfois son auditoire et on varie légèrement le ton. Une strophe peut être apprise en plusieurs petites parties, puis récitée entière."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 26 – Expression orale, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Réagir correctement à une consigne ou une demande.",
+              "Reformuler ce qui a été entendu.",
+              "Prendre la parole avec précision et respect."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "FR-U1-L2",
@@ -95,33 +139,76 @@
           "takeaway": "Je peux raconter l’essentiel d’un texte avec mes mots et justifier mon opinion.",
           "exercises": [
             {
-              "prompt": "Pourquoi Lila et Enzo vont-ils demander conseil avant de ranger les clés ?",
-              "answer": "Parce qu’ils ne savent pas à quoi elles servent et veulent éviter de les mettre au mauvais endroit.",
-              "explanation": "",
-              "type": "open"
+              "prompt": "Où se passe l’histoire au début ?",
+              "answer": "Dans la maison de Grand-mère Ngono, à Yaoundé.",
+              "explanation": "La première phrase donne le lieu.",
+              "type": "open",
+              "id": "FR-U1-L2-E1"
             },
             {
-              "prompt": "Cite deux actions qui rendent la maison plus sûre ou plus agréable.",
-              "answer": "Exemples : dégager le passage, fermer la fenêtre, essuyer le sol mouillé, ranger les clés au bon endroit.",
+              "prompt": "Que doivent faire Lina et Moussa ?",
+              "answer": "Ils doivent ranger la chambre du fond, en commençant par la vieille malle.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L2-E2"
             },
             {
-              "prompt": "Quelle leçon grand-mère tire-t-elle de l’histoire ?",
-              "answer": "Demander avant d’agir peut éviter des problèmes.",
-              "explanation": "",
-              "type": "open"
+              "prompt": "Cite trois objets trouvés dans la malle.",
+              "answer": "Par exemple : des draps, des assiettes en émail, deux lampes tempête, une boîte en bois.",
+              "explanation": "Trois éléments corrects suffisent.",
+              "type": "open",
+              "id": "FR-U1-L2-E3"
             },
             {
-              "prompt": "Donne ton avis sur l’attitude de Lila en une phrase avec « parce que ».",
-              "answer": "Réponse personnelle cohérente, par exemple : « Je trouve Lila prudente parce qu’elle demande conseil avant de déplacer les clés. »",
-              "explanation": "",
-              "type": "open"
+              "prompt": "Qui a probablement dessiné ou préparé la carte ? Quel indice te permet de le penser ?",
+              "answer": "Grand-père Ekani, car son prénom est écrit en bas du papier et Grand-mère explique qu’il aimait les secrets.",
+              "explanation": "Une bonne réponse cite l’indice.",
+              "type": "open",
+              "id": "FR-U1-L2-E4"
+            },
+            {
+              "prompt": "À ton avis, que peut indiquer la croix rouge ? Explique ton idée.",
+              "answer": "Réponse personnelle cohérente : par exemple un objet caché, un souvenir ou un lieu important, si l’élève justifie son hypothèse.",
+              "explanation": "Il n’y a pas une seule réponse : on évalue la justification.",
+              "type": "open",
+              "id": "FR-U1-L2-E5"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 34 – Littérature, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Lecture suivie : Les aventures de Lina et Moussa — épisode 1",
+              "kind": "reading",
+              "body": "Le samedi matin, dans la maison de Grand-mère Ngono, à Yaoundé, tout le monde s’active. Maman balaie le salon. Papa répare la porte de la cuisine. Lina, neuf ans, et son cousin Moussa doivent ranger la chambre du fond.\n\n— Commencez par la vieille malle, dit Grand-mère. Elle est pleine de poussière !\n\nLes deux enfants soulèvent le couvercle. À l’intérieur, ils trouvent des draps, des assiettes en émail, deux lampes tempête et une petite boîte en bois. Moussa ouvre la boîte. Il en sort un papier jauni, plié en quatre.\n\n— Regarde, Lina ! On dirait une carte !\n\nSur le papier, on voit une case, un manguier, une rivière et une croix rouge. En bas, quelqu’un a écrit : « Pour mes petits-enfants. Ekani. »\n\n— Ekani, c’est le prénom de Grand-père ! murmure Lina.\n\nGrand-mère s’approche, met ses lunettes et sourit.\n\n— Votre grand-père aimait les secrets. Cette carte montre notre maison du village, à Nkol-Mvog.\n\n— Et la croix rouge ? demande Moussa.\n\n— Ça, mes enfants, c’est à vous de le découvrir.\n\nLe soir, Lina n’arrive pas à dormir. Elle pense à la croix rouge. Demain, elle le sait, l’aventure commence."
+            },
+            {
+              "title": "Comment comprendre un récit ?",
+              "kind": "method",
+              "body": "Pendant la lecture, on repère les personnages, le lieu, le moment, le problème ou l’événement important et les indices qui permettent de comprendre. Ici, le papier signé « Ekani » est un indice : il permet aux enfants et au lecteur de relier la carte à Grand-père. Une réponse de lecture doit s’appuyer sur le texte, et pas seulement sur une impression."
+            },
+            {
+              "title": "Donner son avis",
+              "kind": "example",
+              "body": "Une opinion devient intéressante quand elle est justifiée. Au lieu de dire seulement « J’aime l’histoire », on peut dire : « J’aime cet épisode parce que la carte crée du suspense et donne envie de connaître la suite. » On peut aussi ne pas aimer un passage et expliquer pourquoi."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 34 – Littérature, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Lire un récit intégral adapté au CE2.",
+              "Identifier personnages, lieu, problème et solution.",
+              "Rendre compte de sa lecture et donner un avis justifié."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "FR-U1-L3",
@@ -143,24 +230,66 @@
               "prompt": "Recopie : « Dans la cuisine, maman range les ustensiles. »",
               "answer": "Production manuscrite lisible à comparer au modèle.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L3-E1"
             },
             {
               "prompt": "Dictée : « Les enfants respectent les règles de la maison. »",
               "answer": "Les enfants respectent les règles de la maison.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L3-E2"
             },
             {
               "prompt": "Trouve l’erreur de copie : « La maison est prope. »",
               "answer": "prope → propre",
               "explanation": "La lettre r manque.",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L3-E3"
+            },
+            {
+              "prompt": "Écris trois phrases pour décrire une pièce de ta maison. Utilise au moins deux mots précis du vocabulaire de la maison.",
+              "answer": "Réponse personnelle. Exemple : Ma chambre est petite et claire. Il y a un lit près de la fenêtre. Mes livres sont rangés sur une étagère.",
+              "explanation": "Vérifie majuscules, points et vocabulaire précis.",
+              "type": "open",
+              "id": "FR-U1-L3-E4"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 31 – Écriture/production d’écrits, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Copier sans erreur",
+              "kind": "method",
+              "body": "Avant de copier, on lit la phrase entière. On observe la majuscule, les accents, les mots difficiles et la ponctuation. Pendant la copie, on avance par petits groupes de mots plutôt que lettre par lettre. Après la copie, on compare le modèle et ce qu’on a écrit."
+            },
+            {
+              "title": "Préparer une dictée",
+              "kind": "example",
+              "body": "Une dictée préparée permet de repérer à l’avance les difficultés. Exemple : « Notre maison a trois chambres, un salon et une petite cuisine. Le samedi, nous rangeons tout. Papa lave les carreaux et je balaie la véranda. » On prépare notamment chambres, carreaux, les formes du verbe être et les majuscules."
+            },
+            {
+              "title": "Se relire en trois passages",
+              "kind": "method",
+              "body": "1) Je vérifie si tous les mots sont présents. 2) Je vérifie majuscules, points et espaces. 3) Je cherche les accords ou les mots appris. Cette relecture méthodique est plus efficace qu’un simple coup d’œil."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 31 – Écriture/production d’écrits, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Former correctement les lettres en cursive.",
+              "Copier une phrase sans omission.",
+              "Écrire des mots et phrases sous la dictée puis se relire."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "FR-U1-L4",
@@ -183,24 +312,99 @@
               "prompt": "Classe : Douala, maison, Amina, cuisine, Cameroun, fenêtre.",
               "answer": "Noms propres : Douala, Amina, Cameroun. Noms communs : maison, cuisine, fenêtre.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L4-E1"
             },
             {
               "prompt": "Mets au pluriel : un fauteuil ; la fenêtre ; le tapis.",
               "answer": "des fauteuils ; les fenêtres ; les tapis.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L4-E2"
             },
             {
               "prompt": "Indique le genre : armoire, salon, porte, toit.",
               "answer": "armoire : féminin ; salon : masculin ; porte : féminin ; toit : masculin.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L4-E3"
+            },
+            {
+              "prompt": "Indique pour chaque groupe le genre et le nombre : la véranda ; des rideaux ; le plafond ; les nattes ; un tabouret.",
+              "answer": "la véranda : féminin singulier ; des rideaux : masculin pluriel ; le plafond : masculin singulier ; les nattes : féminin pluriel ; un tabouret : masculin singulier.",
+              "explanation": "Le déterminant aide à identifier genre et nombre.",
+              "type": "open",
+              "id": "FR-U1-L4-E4"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 37 – Grammaire, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Nom commun et nom propre",
+              "kind": "text",
+              "body": "Le nom commun désigne une personne, un animal, un lieu ou une chose de façon générale : une maison, un chat, la cuisine. Il est souvent accompagné d’un déterminant. Le nom propre désigne un être ou un lieu particulier : Lina, Yaoundé, Cameroun, Sanaga. Il commence par une majuscule."
+            },
+            {
+              "title": "Genre et nombre",
+              "kind": "text",
+              "body": "Un nom est masculin si l’on peut employer un ou le devant lui ; il est féminin si l’on peut employer une ou la. Il est singulier quand il désigne un seul élément et pluriel quand il en désigne plusieurs. Le déterminant change souvent avec le nombre : la porte → les portes ; un fauteuil → des fauteuils."
+            },
+            {
+              "title": "Tableau de repérage",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Groupe nominal",
+                  "Type de nom",
+                  "Genre",
+                  "Nombre"
+                ],
+                "rows": [
+                  [
+                    "la cuisine",
+                    "commun",
+                    "féminin",
+                    "singulier"
+                  ],
+                  [
+                    "Moussa",
+                    "propre",
+                    "masculin",
+                    "singulier"
+                  ],
+                  [
+                    "des fenêtres",
+                    "commun",
+                    "féminin",
+                    "pluriel"
+                  ],
+                  [
+                    "Yaoundé",
+                    "propre",
+                    "—",
+                    "singulier"
+                  ]
+                ]
+              }
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 37 – Grammaire, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Distinguer nom propre et nom commun.",
+              "Identifier masculin/féminin et singulier/pluriel.",
+              "Utiliser correctement genre et nombre."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "FR-U1-L5",
@@ -222,24 +426,93 @@
               "prompt": "Complète : D’abord je balaie. ___, je range les chaises. ___, je ferme la porte.",
               "answer": "D’abord je balaie. Ensuite, je range les chaises. Enfin, je ferme la porte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L5-E1"
             },
             {
               "prompt": "Donne quatre mots du champ lexical de la maison.",
               "answer": "Toute réponse pertinente, par exemple : cuisine, chambre, porte, toit.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L5-E2"
             },
             {
               "prompt": "Que signifie l’abréviation « adj. » dans un dictionnaire ?",
               "answer": "adjectif",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L5-E3"
+            },
+            {
+              "prompt": "Range dans l’ordre : le soir, le matin, la nuit, l’après-midi, midi.",
+              "answer": "le matin, midi, l’après-midi, le soir, la nuit.",
+              "explanation": "On suit le déroulement d’une journée.",
+              "type": "open",
+              "id": "FR-U1-L5-E4"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 42 – Vocabulaire, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Construire un champ lexical",
+              "kind": "text",
+              "body": "Le champ lexical d’un thème rassemble les mots qui s’y rapportent. Pour la maison, on peut classer les mots par catégories : pièces (salon, cuisine, chambre), parties du bâtiment (toit, mur, fenêtre), mobilier (lit, table, armoire), entretien (balai, serpillière, poubelle). Classer aide à mémoriser et à choisir un mot précis."
+            },
+            {
+              "title": "Lire une abréviation du dictionnaire",
+              "kind": "method",
+              "body": "Dans un dictionnaire scolaire, les abréviations indiquent la nature ou le genre du mot : n. m. = nom masculin ; n. f. = nom féminin ; adj. = adjectif ; v. = verbe. Ces informations aident à construire une phrase correcte."
+            },
+            {
+              "title": "Se repérer dans la journée",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Moment",
+                  "Exemple d’action"
+                ],
+                "rows": [
+                  [
+                    "le matin",
+                    "je me prépare pour l’école"
+                  ],
+                  [
+                    "midi",
+                    "je déjeune"
+                  ],
+                  [
+                    "l’après-midi",
+                    "je poursuis mes activités"
+                  ],
+                  [
+                    "le soir",
+                    "je rentre et je me repose"
+                  ],
+                  [
+                    "la nuit",
+                    "je dors"
+                  ]
+                ]
+              }
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 42 – Vocabulaire, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Employer un vocabulaire précis lié à la maison.",
+              "Utiliser des repères temporels.",
+              "Reconnaître une abréviation simple de dictionnaire."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "FR-U1-L6",
@@ -261,26 +534,68 @@
               "prompt": "Mets au pluriel : un tapis, un journal, un bijou, une chaise.",
               "answer": "des tapis, des journaux, des bijoux, des chaises.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L6-E1"
             },
             {
               "prompt": "Accorde : une fenêtre (ouvert) ; des chambres (propre).",
               "answer": "une fenêtre ouverte ; des chambres propres.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L6-E2"
             },
             {
               "prompt": "Choisis la bonne forme : des mur/murs blanc/blancs.",
               "answer": "des murs blancs",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L6-E3"
+            },
+            {
+              "prompt": "Accorde l’adjectif : une (grand) chambre ; des volets (vert) ; des fenêtres (ouvert) ; une cuisine (propre) ; des (petit) lampes.",
+              "answer": "une grande chambre ; des volets verts ; des fenêtres ouvertes ; une cuisine propre ; des petites lampes.",
+              "explanation": "Cherche d’abord le genre et le nombre du nom.",
+              "type": "open",
+              "id": "FR-U1-L6-E4"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 46 – Orthographe, CE2.",
           "practical": [],
           "notes": [
             "Le curriculum demande de travailler les pluriels en -s, -x, -z, -al et -ou. Les exceptions doivent être introduites progressivement."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Former le pluriel des noms",
+              "kind": "text",
+              "body": "Le plus souvent, on ajoute -s : une porte → des portes. Les noms terminés par -s, -x ou -z ne changent généralement pas : un tapis → des tapis, un prix → des prix, un nez → des nez. Beaucoup de noms en -eau, -au ou -eu prennent -x : un rideau → des rideaux, un jeu → des jeux."
+            },
+            {
+              "title": "Cas à observer",
+              "kind": "method",
+              "body": "La plupart des noms en -al font leur pluriel en -aux : un journal → des journaux, un cheval → des chevaux. Les noms en -ou prennent généralement -s, mais sept noms courants prennent -x : bijou, caillou, chou, genou, hibou, joujou, pou."
+            },
+            {
+              "title": "Accorder l’adjectif",
+              "kind": "example",
+              "body": "L’adjectif s’accorde avec le nom. On observe le genre et le nombre : un mur blanc ; une table blanche ; des murs blancs ; des tables blanches. L’accord peut donc modifier à la fois la fin du nom et celle de l’adjectif."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 46 – Orthographe, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Écrire le pluriel de noms courants.",
+              "Observer les cas en -s, -x, -z, -al, -ou.",
+              "Accorder un adjectif en genre et en nombre dans des cas simples."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "FR-U1-L7",
@@ -302,24 +617,89 @@
               "prompt": "Classe : « hier nous avons nettoyé », « maintenant je lis », « demain ils peindront ».",
               "answer": "Passé ; présent ; futur.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L7-E1"
             },
             {
               "prompt": "Transforme au futur en gardant le sens : « Aujourd’hui, nous rangeons la maison. »",
               "answer": "Demain, nous rangerons la maison.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L7-E2"
             },
             {
               "prompt": "Quel indice montre le passé dans « Hier, maman a lavé les rideaux » ?",
               "answer": "Hier",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U1-L7-E3"
+            },
+            {
+              "prompt": "Complète avec une forme correcte de être ou avoir : Nous … dans la cour. J’… une chambre bleue. Les enfants … contents. Tu … la clé ?",
+              "answer": "Nous sommes dans la cour. J’ai une chambre bleue. Les enfants sont contents. Tu as la clé ?",
+              "explanation": "Choisis le verbe et accorde-le avec le sujet.",
+              "type": "open",
+              "id": "FR-U1-L7-E4"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 49 – Conjugaison, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Situer une action dans le temps",
+              "kind": "text",
+              "body": "Le passé correspond à une action déjà faite, le présent à une action qui se déroule maintenant ou qui est habituelle, et le futur à une action qui n’est pas encore réalisée. Les repères hier, autrefois, maintenant, aujourd’hui, demain et bientôt aident à identifier le moment."
+            },
+            {
+              "title": "Comparer trois phrases",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Moment",
+                  "Phrase",
+                  "Indice"
+                ],
+                "rows": [
+                  [
+                    "passé",
+                    "Hier, Lina a rangé la chambre.",
+                    "Hier"
+                  ],
+                  [
+                    "présent",
+                    "Maintenant, Lina range la chambre.",
+                    "Maintenant"
+                  ],
+                  [
+                    "futur",
+                    "Demain, Lina rangera la chambre.",
+                    "Demain"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Rappel : être et avoir au présent",
+              "kind": "method",
+              "body": "Être : je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont. Avoir : j’ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont. Ces deux verbes sont très fréquents et doivent être mémorisés."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 49 – Conjugaison, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Relier un indicateur temporel au moment de l’action.",
+              "Reconnaître une action passée, présente ou future.",
+              "Transformer une phrase en changeant le moment de l’action."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -363,7 +743,8 @@
         "Si difficulté sur les noms : utiliser des cartes avec prénoms, lieux et objets à classer.",
         "Si difficulté orthographique : travailler d’abord les pluriels réguliers, puis introduire -al/-ou avec une petite liste maîtrisée.",
         "Si difficulté temporelle : manipuler trois étiquettes HIER/AUJOURD’HUI/DEMAIN avec des phrases."
-      ]
+      ],
+      "chapter_intro": "Dans ce chapitre, l’élève lit, écoute, écrit et manipule la langue à partir du thème de la maison. Les notions de grammaire, vocabulaire, orthographe et conjugaison sont reliées à des textes et à des situations concrètes afin de construire des savoirs utilisables, et non des règles isolées."
     },
     {
       "id": "EN",
@@ -390,24 +771,78 @@
               "prompt": "Complete: My father’s father is my ____.",
               "answer": "grandfather",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L1-E1"
             },
             {
               "prompt": "Answer in a full sentence: Who is your mother’s sister?",
               "answer": "She is my aunt.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L1-E2"
             },
             {
               "prompt": "Say one helpful role a family member can play at home.",
               "answer": "Any meaningful sentence, e.g. « My sister helps to tidy the room. »",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L1-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 55, 58, 60 – Unit 1: The home, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Family words and roles",
+              "kind": "text",
+              "body": "A family can include parents, children and members of the extended family. Useful words are mother, father, brother, sister, grandmother, grandfather, uncle, aunt and cousin. We use simple sentences to say what people do: My mother prepares breakfast. My uncle drives a taxi. My grandmother tells stories."
+            },
+            {
+              "title": "Speaking model",
+              "kind": "example",
+              "body": "Hello. My name is Junior. This is my family. My father is Mr Nkem. My mother is Mrs Nkem. I have one brother and two sisters. We help one another at home."
+            },
+            {
+              "title": "Language pattern",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Question",
+                  "Answer"
+                ],
+                "rows": [
+                  [
+                    "Who is he?",
+                    "He is my uncle."
+                  ],
+                  [
+                    "Who is she?",
+                    "She is my grandmother."
+                  ],
+                  [
+                    "What does your father do at home?",
+                    "He repairs things and helps us."
+                  ]
+                ]
+              }
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 55, 58, 60 – Unit 1: The home, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Name members of an extended family.",
+              "Say simple roles politely.",
+              "Listen and answer short questions."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "EN-U1-L2",
@@ -429,26 +864,84 @@
               "prompt": "Make a sentence: 2 windows.",
               "answer": "There are two windows.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L2-E1"
             },
             {
               "prompt": "Make a sentence: 1 door.",
               "answer": "There is one door.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L2-E2"
             },
             {
               "prompt": "Describe your room with two short sentences.",
               "answer": "Any correct simple description.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L2-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 55 – Picture reading, CE2.",
           "practical": [],
           "notes": [
             "There is/there are is a pedagogical support structure; the official table asks the learner to describe a picture."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Look carefully before you describe",
+              "kind": "method",
+              "body": "To describe a picture, start with the whole scene, then name important objects and people, and finally say where they are. Use there is for one thing and there are for several things."
+            },
+            {
+              "title": "Position words",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Word",
+                  "Example"
+                ],
+                "rows": [
+                  [
+                    "in",
+                    "The cups are in the cupboard."
+                  ],
+                  [
+                    "on",
+                    "The book is on the table."
+                  ],
+                  [
+                    "under",
+                    "The shoes are under the bed."
+                  ],
+                  [
+                    "near",
+                    "The chair is near the window."
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Model description",
+              "kind": "example",
+              "body": "This is a living room. There is a table near the window. There are two chairs around the table. A bag is under one chair. The room is clean and bright."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 55 – Picture reading, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Describe visible objects.",
+              "Use there is / there are in simple sentences.",
+              "Speak clearly from a picture."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "EN-U1-L3",
@@ -470,24 +963,59 @@
               "prompt": "Write: aunt, uncle, cousin, grandmother.",
               "answer": "Check spelling and legibility.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L3-E1"
             },
             {
               "prompt": "Copy: Our family keeps the home clean.",
               "answer": "Our family keeps the home clean.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L3-E2"
             },
             {
               "prompt": "Circle the extended family word: sister / aunt / mother.",
               "answer": "aunt",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L3-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 58 and 60 – Reading/Writing, Unit 1 CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Reading family names",
+              "kind": "text",
+              "body": "When reading a short family text, find the names of people and the words that show relationships. Example: Awa is Paul’s aunt. Paul is Awa’s nephew. The word ’s often shows belonging or relationship."
+            },
+            {
+              "title": "Copying accurately",
+              "kind": "method",
+              "body": "Read the whole sentence first. Copy a small group of words, then check capital letters, spaces and the full stop. Proper names such as Awa, Douala and Cameroon begin with capital letters."
+            },
+            {
+              "title": "Short writing model",
+              "kind": "example",
+              "body": "My grandmother lives with us. Her name is Mama Rose. She likes gardening. I help her water the plants in the evening."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 58 and 60 – Reading/Writing, Unit 1 CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Read family words aloud.",
+              "Write family words legibly.",
+              "Copy simple sentences describing the home."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "EN-U1-L4",
@@ -508,24 +1036,86 @@
               "prompt": "Give the opposite of clean.",
               "answer": "dirty",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L4-E1"
             },
             {
               "prompt": "Choose the proper noun: house / Douala / room.",
               "answer": "Douala",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L4-E2"
             },
             {
               "prompt": "Correct: « lila lives in douala. »",
               "answer": "Lila lives in Douala.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EN-U1-L4-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 62 – Grammar and Vocabulary, Unit 1 CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Common and proper nouns",
+              "kind": "text",
+              "body": "A common noun names a general person, place, animal or thing: boy, house, dog, city. A proper noun gives a special name: Eric, Douala, Rex, Cameroon. Proper nouns begin with capital letters."
+            },
+            {
+              "title": "Opposites",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Word",
+                  "Opposite"
+                ],
+                "rows": [
+                  [
+                    "big",
+                    "small"
+                  ],
+                  [
+                    "clean",
+                    "dirty"
+                  ],
+                  [
+                    "open",
+                    "closed"
+                  ],
+                  [
+                    "inside",
+                    "outside"
+                  ],
+                  [
+                    "old",
+                    "new"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Use the words in sentences",
+              "kind": "example",
+              "body": "The old house is near the new house. The door is open, but the window is closed. Using opposites in full sentences helps the learner understand meaning instead of memorising isolated pairs."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 62 – Grammar and Vocabulary, Unit 1 CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Use simple opposites.",
+              "Distinguish common and proper nouns.",
+              "Use capital letters for proper nouns."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -564,7 +1154,8 @@
         "Read 3–5 words at a time, then reuse them in sentences.",
         "Use paired cards for opposites.",
         "Use colour-free labels COMMON / PROPER and sort word cards."
-      ]
+      ],
+      "chapter_intro": "This chapter uses the home and family to practise short conversations, reading, copying and simple descriptions. The learner meets useful vocabulary several times, first orally, then in reading and writing, before using it independently."
     },
     {
       "id": "BA",
@@ -591,20 +1182,54 @@
               "prompt": "Dans « Ɓàsàa », repère un caractère qui n’est pas utilisé de la même façon en français courant.",
               "answer": "Ɓ/ɓ (entre autres observations possibles).",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U1-L1-E1"
             },
             {
               "prompt": "Pourquoi l’audio d’un locuteur compétent est-il important ?",
               "answer": "Parce que les tons et la prononciation doivent être entendus et imités correctement.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U1-L1-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 69; complément documentaire : CNRS-LGIDF (AGLC et tons du basaa).",
           "practical": [],
           "notes": [
             "Contenu linguistique provisoire : validation par enseignant/linguiste bassa obligatoire avant publication."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Pourquoi une orthographe normalisée ?",
+              "kind": "text",
+              "body": "Une langue peut être parlée avant d’être lue ou écrite à l’école. L’écriture scolaire utilise des conventions : chaque lettre ou groupe de lettres correspond à des sons définis, et certains signes peuvent porter des informations importantes. L’objectif de l’élève est d’écouter, comparer, lire lentement puis écrire avec le modèle validé."
+            },
+            {
+              "title": "Méthode de découverte d’un son",
+              "kind": "method",
+              "body": "1) L’enseignant prononce un mot connu. 2) Les élèves repèrent le son travaillé. 3) Ils observent la graphie. 4) Ils combinent le son avec d’autres pour former des syllabes. 5) Ils relisent des mots. Cette progression évite d’apprendre des listes sans comprendre le lien son-écriture."
+            },
+            {
+              "title": "Validation linguistique",
+              "kind": "warning",
+              "body": "Klassia ne doit pas inventer de formes en Bassa. Les mots, tons, graphies et variantes dialectales affichés dans la version publiée doivent être validés par un spécialiste ou un enseignant de la langue. Le prototype peut présenter la structure d’activité en attendant cette validation."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 69; complément documentaire : CNRS-LGIDF (AGLC et tons du basaa).",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Atelier suspendu pour apprentissage autonome : obtenir d’abord la validation d’un référent Bassa. Ne pas faire mémoriser des graphies provisoires.",
+            "observation": [
+              "Observer des caractères et marques utilisés dans l’écriture bassa.",
+              "Écouter et reproduire avec un locuteur compétent.",
+              "Repérer les tons ou signes dans des mots validés."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "BA-U1-L2",
@@ -626,26 +1251,61 @@
               "prompt": "Associe Ínī et Tâ à leur sens.",
               "answer": "Ínī = mère/maman ; Tâ = père/papa.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U1-L2-E1"
             },
             {
               "prompt": "Quel terme provisoire signifie « mon frère » ?",
               "answer": "Mǎnkéé nú mùnlóm.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U1-L2-E2"
             },
             {
               "prompt": "Production orale : prononce deux mots en suivant l’audio.",
               "answer": "Évaluation par comparaison avec un modèle validé, sans pénaliser l’élève avant accompagnement.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U1-L2-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 69; lexique de prototype recoupé sur ressources d’apprentissage bassa, à valider.",
           "practical": [],
           "notes": [
             "Le dictionnaire SIL 2019 doit servir de ressource lexicale de contrôle; un relecteur bassa reste nécessaire."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Construire le vocabulaire de la famille",
+              "kind": "method",
+              "body": "Le travail part d’une photo, d’un dessin ou d’un arbre familial. L’élève nomme les personnes dans sa langue, écoute la prononciation modèle, répète, puis associe chaque mot à la bonne personne. On travaille d’abord à l’oral avant de copier les formes écrites validées."
+            },
+            {
+              "title": "Activité de classement",
+              "kind": "activity",
+              "body": "Préparer des cartes « grands-parents », « parents », « enfants », « oncles/tantes », « cousins/cousines ». Les cartes lexicales en Bassa, une fois validées, sont placées sous la bonne catégorie. L’enfant peut ensuite présenter sa propre famille en quelques phrases."
+            },
+            {
+              "title": "À ne pas faire",
+              "kind": "warning",
+              "body": "Ne pas traduire automatiquement mot à mot depuis le français et ne pas ajouter de ton ou de graphie sans source fiable. La richesse du chapitre viendra d’exemples validés, de dialogues et d’activités culturelles, non d’un vocabulaire approximatif."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 69; lexique de prototype recoupé sur ressources d’apprentissage bassa, à valider.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Atelier suspendu pour apprentissage autonome : obtenir d’abord la validation d’un référent Bassa. Ne pas faire mémoriser des graphies provisoires.",
+            "observation": [
+              "Mémoriser quelques termes de parenté validés provisoirement.",
+              "Associer mot bassa et sens français.",
+              "Produire oralement des syllabes/mots avec accompagnement."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "BA-U1-L3",
@@ -667,26 +1327,61 @@
               "prompt": "Combien de phrases au minimum le curriculum demande-t-il pour cette production CE2 ?",
               "answer": "Cinq phrases.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U1-L3-E1"
             },
             {
               "prompt": "Que signifie provisoirement ndáp dans le corpus linguistique utilisé ?",
               "answer": "maison",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U1-L3-E2"
             },
             {
               "prompt": "Prépare en français les cinq idées que tu voudras exprimer en bassa.",
               "answer": "Réponse personnelle structurée en cinq idées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U1-L3-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 69; complément linguistique externe pour ndáp.",
           "practical": [],
           "notes": [
             "Aucune production bassa complète ne doit être publiée sans relecture humaine compétente."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Produire un petit texte sur la maison",
+              "kind": "method",
+              "body": "Le curriculum demande une production cohérente. La démarche proposée est : observer une maison ou une image ; lister les parties ou objets dont les noms ont été validés ; construire des phrases simples ; relier les phrases ; relire la prononciation et l’orthographe avec l’enseignant."
+            },
+            {
+              "title": "Comparer les parties et leurs usages",
+              "kind": "text",
+              "body": "L’élève ne doit pas seulement nommer. Il explique à quoi sert chaque espace : dormir, préparer les repas, recevoir, se laver, ranger. Une comparaison peut porter sur la taille, la position ou l’usage, selon les structures grammaticales validées dans la langue."
+            },
+            {
+              "title": "Production attendue",
+              "kind": "activity",
+              "body": "À terme, l’élève produit au moins cinq phrases cohérentes sur une maison familière. Dans la version éditoriale, un modèle complet en Bassa sera ajouté après validation linguistique spécialisée."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 69; complément linguistique externe pour ndáp.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Atelier suspendu pour apprentissage autonome : obtenir d’abord la validation d’un référent Bassa. Ne pas faire mémoriser des graphies provisoires.",
+            "observation": [
+              "Nommer la maison avec une forme de référence.",
+              "Comparer des parties de la maison et leurs usages.",
+              "Préparer une production d’au moins cinq phrases en bassa avec accompagnement."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -720,7 +1415,8 @@
         "Travailler l’écoute et l’imitation avant l’écriture.",
         "Préparer le contenu des cinq phrases en français puis construire la version bassa avec le tuteur."
       ],
-      "editorial_status": "PROVISOIRE – validation linguistique Bassa requise"
+      "editorial_status": "PROVISOIRE – validation linguistique Bassa requise",
+      "chapter_intro": "Le parcours de langue et culture nationales est conçu comme un apprentissage réel de langue. Pour le Bassa, la structure pédagogique est complète mais tout élément lexical ou orthographique spécifique doit être validé par un enseignant ou spécialiste de la langue avant publication."
     },
     {
       "id": "MA",
@@ -747,24 +1443,59 @@
               "prompt": "A={lit, chaise, lampe}; B={chaise, table, lampe}. Donne A∩B.",
               "answer": "{chaise, lampe}",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L1-E1"
             },
             {
               "prompt": "Donne A∪B.",
               "answer": "{lit, chaise, lampe, table}",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L1-E2"
             },
             {
               "prompt": "Pourquoi ne répète-t-on pas « lampe » dans la réunion ?",
               "answer": "Un ensemble ne répète pas un même élément.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L1-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 75 – Nombres et calculs, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre une réunion",
+              "kind": "text",
+              "body": "Quand deux ensembles regroupent des objets, leur réunion contient tous les éléments qui appartiennent à l’un ou à l’autre, sans répéter deux fois un élément commun. Exemple : A = {cuillère, tasse} et B = {tasse, assiette}. La réunion est {cuillère, tasse, assiette}."
+            },
+            {
+              "title": "Comprendre une intersection",
+              "kind": "text",
+              "body": "L’intersection contient seulement les éléments présents dans les deux ensembles. Avec les ensembles précédents, l’intersection contient uniquement la tasse. On peut représenter la situation avec deux cercles qui se chevauchent."
+            },
+            {
+              "title": "Méthode",
+              "kind": "method",
+              "body": "Pour éviter les erreurs : 1) lis les deux ensembles ; 2) entoure ce qui est commun ; 3) pour l’intersection, garde seulement ce qui est commun ; 4) pour la réunion, rassemble tout sans doublon."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 75 – Nombres et calculs, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Lire et réaliser la réunion de deux ensembles.",
+              "Lire et réaliser leur intersection.",
+              "Interpréter une situation avec des objets de la maison."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "MA-U1-L2",
@@ -785,24 +1516,103 @@
               "prompt": "Décompose 1 327.",
               "answer": "1 000 + 300 + 20 + 7",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L2-E1"
             },
             {
               "prompt": "Écris en chiffres : mille neuf cent huit.",
               "answer": "1 908",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L2-E2"
             },
             {
               "prompt": "Compare avec < ou > : 1 752 __ 1 725.",
               "answer": "1 752 > 1 725",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L2-E3"
+            },
+            {
+              "id": "MA-U1-L2-N1",
+              "type": "number",
+              "prompt": "Dans 1 684, quelle est la valeur du chiffre 6 ? Écris un nombre.",
+              "answer": 600,
+              "explanation": "Le 6 occupe le rang des centaines : 6 × 100 = 600."
+            },
+            {
+              "id": "MA-U1-L2-N2",
+              "type": "number",
+              "prompt": "Compose le nombre : 1 000 + 500 + 20 + 7.",
+              "answer": 1527,
+              "explanation": "On écrit 1 millier, 5 centaines, 2 dizaines et 7 unités : 1 527."
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 75 – Nombres 1 000 à 2 000, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Lire un nombre",
+              "kind": "example",
+              "body": "Dans 1 684, le chiffre 1 représente 1 millier, 6 représente 6 centaines, 8 représente 8 dizaines et 4 représente 4 unités. On peut écrire : 1 684 = 1 000 + 600 + 80 + 4."
+            },
+            {
+              "title": "Comparer deux nombres",
+              "kind": "method",
+              "body": "On compare d’abord les milliers, puis les centaines, puis les dizaines, puis les unités. Entre 1 725 et 1 752, le millier et la centaine sont identiques ; on compare donc les dizaines : 2 dizaines < 5 dizaines, donc 1 725 < 1 752."
+            },
+            {
+              "title": "Table de numération",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Milliers",
+                  "Centaines",
+                  "Dizaines",
+                  "Unités"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "6",
+                    "8",
+                    "4"
+                  ],
+                  [
+                    "1",
+                    "9",
+                    "0",
+                    "5"
+                  ],
+                  [
+                    "2",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              }
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 75 – Nombres 1 000 à 2 000, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Lire et écrire des nombres jusqu’à 2 000.",
+              "Composer et décomposer en milliers, centaines, dizaines et unités."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          },
+          "figure": {
+            "src": "./assets/place-value.svg",
+            "alt": "1 684 : un millier, six centaines, huit dizaines et quatre unités."
+          }
         },
         {
           "id": "MA-U1-L3",
@@ -824,30 +1634,66 @@
               "prompt": "450 + 30",
               "answer": "480",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L3-E1"
             },
             {
               "prompt": "720 − 50",
               "answer": "670",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L3-E2"
             },
             {
               "prompt": "1 200 + 300",
               "answer": "1 500",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L3-E3"
             },
             {
               "prompt": "Explique une stratégie pour 560 + 25.",
               "answer": "560 + 20 + 5 = 585.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L3-E4"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 75 – Calcul mental, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Calculer mentalement avec des décompositions",
+              "kind": "method",
+              "body": "Pour 348 + 200, on ajoute deux centaines : 548. Pour 630 − 40, on enlève quatre dizaines : 590. Pour 275 + 25, on peut compléter à la centaine : 275 + 25 = 300."
+            },
+            {
+              "title": "Chercher un nombre rond",
+              "kind": "example",
+              "body": "Les nombres 10, 100, 1 000 sont pratiques. Exemple : 398 + 102 = 500, car 398 a besoin de 2 pour faire 400, puis il reste 100."
+            },
+            {
+              "title": "Vérifier l’ordre de grandeur",
+              "kind": "method",
+              "body": "Avant d’accepter un résultat, demande-toi s’il paraît possible. 1 200 + 600 doit donner un nombre proche de 1 800, pas de 180 ni de 18 000."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 75 – Calcul mental, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Calculer mentalement des sommes simples.",
+              "Calculer mentalement des différences simples.",
+              "Expliquer une stratégie de calcul."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "MA-U1-L4",
@@ -869,24 +1715,59 @@
               "prompt": "1 500 − 200 + 100",
               "answer": "1 400",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L4-E1"
             },
             {
               "prompt": "Une famille a 1 800 F et dépense 650 F. Combien reste-t-il ?",
               "answer": "1 150 F",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L4-E2"
             },
             {
               "prompt": "Pourquoi faut-il écrire F dans la réponse précédente ?",
               "answer": "Parce qu’il s’agit d’une somme d’argent; l’unité donne le sens du nombre.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L4-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 75 – Calcul et résolution de problèmes, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Lire une suite d’opérations",
+              "kind": "text",
+              "body": "Une expression en ligne peut contenir plusieurs opérations. Au CE2, on suit les règles données par l’enseignant et on utilise les parenthèses quand elles indiquent clairement ce qui doit être calculé d’abord."
+            },
+            {
+              "title": "Résoudre un problème",
+              "kind": "method",
+              "body": "On suit quatre étapes : comprendre la situation ; repérer la question ; choisir l’opération ; écrire une phrase-réponse avec l’unité. Exemple : une famille achète 6 chaises puis 4 autres. 6 + 4 = 10. Elle possède 10 chaises."
+            },
+            {
+              "title": "Contrôler son résultat",
+              "kind": "method",
+              "body": "Relis la question. Si on demande combien il reste, une soustraction est souvent utile ; si on réunit deux quantités, une addition peut convenir. Le sens de la situation est plus important que le mot-clé isolé."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 75 – Calcul et résolution de problèmes, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Calculer une suite simple d’opérations en ligne.",
+              "Résoudre un problème de la vie courante.",
+              "Choisir les données utiles."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "MA-U1-L5",
@@ -909,24 +1790,87 @@
               "prompt": "Convertis 3 m en cm.",
               "answer": "300 cm",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L5-E1"
             },
             {
               "prompt": "Convertis 2 dam en m.",
               "answer": "20 m",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L5-E2"
             },
             {
               "prompt": "Quelle unité convient mieux pour une porte : mm ou m ?",
               "answer": "m",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L5-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 84 – Mesures et grandeurs, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Les unités de longueur",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Unité",
+                  "Symbole",
+                  "Usage courant"
+                ],
+                "rows": [
+                  [
+                    "millimètre",
+                    "mm",
+                    "très petites longueurs"
+                  ],
+                  [
+                    "centimètre",
+                    "cm",
+                    "cahier, crayon"
+                  ],
+                  [
+                    "mètre",
+                    "m",
+                    "pièce, porte"
+                  ],
+                  [
+                    "décamètre",
+                    "dam",
+                    "cour, terrain"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Bien mesurer",
+              "kind": "method",
+              "body": "Place le zéro de la règle au début de l’objet, garde la règle dans l’axe et lis la graduation au niveau de l’autre extrémité. Une mesure sans unité est incomplète."
+            },
+            {
+              "title": "Estimer avant de mesurer",
+              "kind": "text",
+              "body": "Avant d’utiliser l’instrument, donne une estimation. Une porte mesure environ quelques mètres de hauteur, pas quelques centimètres. L’estimation aide à repérer une erreur de lecture."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 84 – Mesures et grandeurs, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Expliquer mesure et grandeur.",
+              "Estimer une longueur.",
+              "Utiliser mètre, centimètre, décamètre et conversions simples."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "MA-U1-L6",
@@ -948,24 +1892,59 @@
               "prompt": "Quel instrument aide à tracer une perpendiculaire ?",
               "answer": "L’équerre.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L6-E1"
             },
             {
               "prompt": "Une portion de droite limitée par deux points s’appelle…",
               "answer": "un segment",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L6-E2"
             },
             {
               "prompt": "Trace sur papier deux droites parallèles puis une droite perpendiculaire à l’une d’elles.",
               "answer": "Production graphique à vérifier à l’équerre.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "MA-U1-L6-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 89 – Géométrie et espace, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Droite, segment, demi-droite",
+              "kind": "text",
+              "body": "Une droite se prolonge dans les deux directions. Un segment a deux extrémités. Une demi-droite a une origine et se prolonge dans une seule direction. Sur une figure, les notations et les points permettent de les distinguer."
+            },
+            {
+              "title": "Parallèles et perpendiculaires",
+              "kind": "example",
+              "body": "Deux droites parallèles gardent toujours le même écart et ne se rencontrent pas. Deux droites perpendiculaires se coupent en formant un angle droit. Les bords opposés d’une porte peuvent être parallèles ; le bord vertical et le sol peuvent être perpendiculaires."
+            },
+            {
+              "title": "Construire avec les instruments",
+              "kind": "method",
+              "body": "La règle sert à tracer droit ; l’équerre sert à vérifier ou construire un angle droit. Pour tracer une parallèle, on peut faire glisser l’équerre le long d’une règle en gardant la même orientation."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 89 – Géométrie et espace, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Utiliser règle, équerre et compas selon la tâche.",
+              "Tracer une droite, une demi-droite et un segment.",
+              "Reconnaître/tracer des parallèles et des perpendiculaires."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -1010,7 +1989,8 @@
         "Revenir aux bonds de 10 et 100 en calcul mental.",
         "Mesurer des objets réels avant de faire des conversions abstraites.",
         "Tracer d’abord sur papier quadrillé pour les parallèles/perpendiculaires."
-      ]
+      ],
+      "chapter_intro": "Les mathématiques de l’unité partent de situations familières : ranger des objets, compter des quantités, mesurer une pièce ou reconnaître des lignes dans la maison. Chaque leçon associe compréhension, méthode, exemple résolu et entraînement progressif."
     },
     {
       "id": "SC",
@@ -1038,26 +2018,61 @@
               "prompt": "Cite une fonction du squelette.",
               "answer": "Soutenir le corps ou protéger des organes.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L1-E1"
             },
             {
               "prompt": "Pourquoi faut-il adopter une bonne posture ?",
               "answer": "Pour protéger le dos et limiter les mauvaises contraintes sur le squelette.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L1-E2"
             },
             {
               "prompt": "Dessine un os long avec une partie centrale et deux extrémités.",
               "answer": "Schéma simple et légendé.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L1-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 96 – Sciences de la vie, CE2.",
           "practical": [
             "Observer une image de squelette ou un modèle, puis repérer crâne, cage thoracique, colonne, membres."
           ],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Le squelette, charpente du corps",
+              "kind": "text",
+              "body": "Le squelette est l’ensemble des os du corps. Il soutient le corps, protège certains organes et permet les mouvements avec les muscles et les articulations. Le crâne protège le cerveau ; la cage thoracique protège notamment le cœur et les poumons ; la colonne vertébrale soutient le tronc."
+            },
+            {
+              "title": "Postures et prévention",
+              "kind": "warning",
+              "body": "Porter un cartable très lourd sur une seule épaule ou rester longtemps courbé peut provoquer des douleurs. On répartit les charges, on s’assoit correctement et on demande l’aide d’un adulte pour soulever un objet lourd."
+            },
+            {
+              "title": "En cas de traumatisme",
+              "kind": "warning",
+              "body": "Après une chute importante, si un membre est très douloureux, déformé ou impossible à bouger, on évite de le manipuler inutilement. On alerte un adulte et on recherche une prise en charge adaptée."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 96 – Sciences de la vie, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Associer quelques types d’os à des parties du corps.",
+              "Comprendre l’importance d’une bonne posture.",
+              "Schématiser un os long et citer des accidents du squelette."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SC-U1-L2",
@@ -1079,18 +2094,52 @@
               "prompt": "Pourquoi un seul aliment ne suffit-il généralement pas ?",
               "answer": "Parce qu’il ne fournit pas à lui seul tous les nutriments et fonctions dont le corps a besoin.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L2-E1"
             },
             {
               "prompt": "Propose un repas varié avec au moins trois catégories d’aliments et de l’eau.",
               "answer": "Toute proposition raisonnablement équilibrée et contextualisée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L2-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 96 – Nutrition de l’homme, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "À quoi sert l’alimentation ?",
+              "kind": "text",
+              "body": "Les aliments apportent de l’énergie, des matériaux pour grandir et des substances qui aident l’organisme à bien fonctionner. Aucun aliment courant ne suffit à lui seul à tous les besoins : c’est l’équilibre de l’ensemble des repas qui compte."
+            },
+            {
+              "title": "Composer un repas équilibré",
+              "kind": "example",
+              "body": "On peut associer un aliment énergétique (riz, manioc, plantain, maïs), une source de protéines (haricot, poisson, œuf, viande), des légumes ou fruits, de l’eau et, selon les habitudes, d’autres aliments en quantité adaptée."
+            },
+            {
+              "title": "Observer plutôt qu’interdire",
+              "kind": "method",
+              "body": "Un aliment sucré ou gras n’est pas automatiquement « mauvais », mais il ne doit pas remplacer les aliments variés nécessaires à la croissance. L’objectif est d’apprendre à composer et équilibrer, pas de culpabiliser."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 96 – Nutrition de l’homme, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Expliquer qu’une ration dépend des besoins.",
+              "Composer un repas varié.",
+              "Justifier ses choix simplement."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SC-U1-L3",
@@ -1112,26 +2161,61 @@
               "prompt": "Classe : pierre, eau, air en solide/liquide/gaz.",
               "answer": "pierre : solide; eau : liquide; air : gaz.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L3-E1"
             },
             {
               "prompt": "Huile + eau agitée donne quel type de mélange étudié ?",
               "answer": "Une émulsion.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L3-E2"
             },
             {
               "prompt": "Quelle méthode simple peut séparer du sable et de l’eau ?",
               "answer": "Filtration ou décantation selon le dispositif.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L3-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 100 – Sciences physiques et chimiques, CE2.",
           "practical": [],
           "notes": [
             "Le texte source écrit « quatre états ... solide, liquide, gazeux et feu (plasma) ». La formulation scientifique destinée à l’élève doit être validée avant publication."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Les états de la matière",
+              "kind": "text",
+              "body": "La matière peut se présenter sous différents états. Au niveau CE2, on observe surtout les solides, les liquides et les gaz. Un solide garde une forme propre ; un liquide prend la forme du récipient ; un gaz occupe l’espace disponible. Le curriculum de référence emploie aussi une formulation autour d’un quatrième état associé au plasma : ce point reste signalé pour validation éditoriale."
+            },
+            {
+              "title": "Mélanges",
+              "kind": "example",
+              "body": "Quand on verse du sucre dans l’eau et qu’on remue, le sucre semble disparaître mais il est toujours présent : il est dissous. Avec du sable et de l’eau, les grains restent visibles et peuvent se déposer. Tous les mélanges ne se comportent donc pas de la même façon."
+            },
+            {
+              "title": "Observer une transformation",
+              "kind": "method",
+              "body": "Faire fondre un glaçon change son état mais ne crée pas une nouvelle matière : l’eau reste de l’eau. Observer, décrire et comparer permettent de distinguer changement d’état et mélange."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 100 – Sciences physiques et chimiques, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Identifier les états de la matière mentionnés dans le curriculum.",
+              "Réaliser et distinguer des mélanges simples.",
+              "Proposer une séparation simple."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SC-U1-L4",
@@ -1152,26 +2236,60 @@
               "prompt": "Une vitre claire est généralement…",
               "answer": "transparente",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L4-E1"
             },
             {
               "prompt": "Un carton épais est…",
               "answer": "opaque",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L4-E2"
             },
             {
               "prompt": "Pourquoi ne faut-il pas regarder directement le Soleil ?",
               "answer": "Parce que sa lumière intense peut endommager les yeux.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L4-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 100 – Lumière, CE2.",
           "practical": [
             "Tester des matériaux non dangereux avec une lampe douce."
           ],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Transparent, translucide, opaque",
+              "kind": "text",
+              "body": "Un matériau transparent laisse passer la lumière et permet de voir nettement à travers, comme une vitre claire. Un matériau translucide laisse passer une partie de la lumière mais l’image est floue. Un matériau opaque ne laisse pas voir à travers."
+            },
+            {
+              "title": "Expérience guidée",
+              "kind": "activity",
+              "body": "Dans une pièce normalement éclairée, place une lampe derrière différents matériaux : verre clair, feuille de papier calque, carton. Observe la quantité de lumière transmise et ce que tu peux distinguer de l’autre côté."
+            },
+            {
+              "title": "La lumière blanche",
+              "kind": "text",
+              "body": "La lumière blanche peut être décomposée en plusieurs couleurs, comme on l’observe dans un arc-en-ciel ou avec certains dispositifs optiques. Au CE2, on privilégie l’observation plutôt que des explications physiques complexes."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 100 – Lumière, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Distinguer transparent, translucide et opaque.",
+              "Observer la décomposition de la lumière blanche avec un dispositif sûr."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SC-U1-L5",
@@ -1192,24 +2310,81 @@
               "prompt": "Quel élément fournit l’énergie dans une lampe à piles ?",
               "answer": "La pile.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L5-E1"
             },
             {
               "prompt": "Quel est le rôle de l’interrupteur ?",
               "answer": "Ouvrir ou fermer le circuit pour commander l’allumage.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L5-E2"
             },
             {
               "prompt": "Cite une source lumineuse possible dans une lampe moderne.",
               "answer": "Une LED.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L5-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 102 – Technologies, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comment fonctionne une lampe de poche ?",
+              "kind": "text",
+              "body": "Une lampe de poche simple contient une source d’énergie (piles), des conducteurs, un interrupteur et une source lumineuse. Quand le circuit est fermé, le courant peut circuler et la lampe s’allume ; quand le circuit est ouvert, elle s’éteint."
+            },
+            {
+              "title": "Chaîne de fonctionnement",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Élément",
+                  "Rôle"
+                ],
+                "rows": [
+                  [
+                    "piles",
+                    "fournir l’énergie"
+                  ],
+                  [
+                    "interrupteur",
+                    "ouvrir ou fermer le circuit"
+                  ],
+                  [
+                    "fils/contacts",
+                    "relier les éléments"
+                  ],
+                  [
+                    "ampoule ou LED",
+                    "produire la lumière"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Dépannage simple",
+              "kind": "method",
+              "body": "Si la lampe ne s’allume pas, on peut vérifier l’orientation et l’état des piles, les contacts et l’ampoule, sans démonter un appareil dangereux. Les manipulations restent limitées aux petits dispositifs prévus pour l’apprentissage."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 102 – Technologies, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Identifier les éléments qui participent à la production de lumière.",
+              "Décrire un enchaînement simple énergie → circuit → ampoule/LED → lumière."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SC-U1-L6",
@@ -1231,24 +2406,59 @@
               "prompt": "Donne deux besoins domestiques en énergie.",
               "answer": "Exemples : éclairage, cuisson, réfrigération, recharge d’appareils.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L6-E1"
             },
             {
               "prompt": "Donne deux gestes d’économie d’énergie.",
               "answer": "Exemples : éteindre les lumières inutiles; utiliser la lumière naturelle.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L6-E2"
             },
             {
               "prompt": "Pourquoi l’économie d’énergie est-elle liée à l’environnement ?",
               "answer": "Elle réduit les consommations et peut limiter l’utilisation inutile de ressources et les impacts associés.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U1-L6-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 107 – Environnement et développement durable, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Pourquoi utilise-t-on de l’énergie à la maison ?",
+              "kind": "text",
+              "body": "On utilise de l’énergie pour éclairer, cuire, chauffer, refroidir, faire fonctionner des appareils ou charger un téléphone. Les sources peuvent être différentes : électricité du réseau, gaz, bois, charbon, énergie solaire, piles."
+            },
+            {
+              "title": "Économiser sans perdre le confort",
+              "kind": "example",
+              "body": "Éteindre une lampe inutile, débrancher un chargeur non utilisé, fermer correctement un réfrigérateur ou profiter de la lumière naturelle sont des gestes simples. Économiser l’énergie réduit les dépenses et limite le gaspillage."
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Un enfant ne manipule pas une prise, un fil dénudé, une bouteille de gaz ou un appareil électrique défectueux. Il prévient un adulte. Les économies d’énergie ne justifient jamais une action dangereuse."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 107 – Environnement et développement durable, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Identifier des besoins domestiques en énergie.",
+              "Proposer des gestes d’économie.",
+              "Relier économies d’énergie et protection de l’environnement."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -1292,7 +2502,8 @@
         "Faire dessiner le squelette de façon schématique et localiser quelques os.",
         "Comparer visuellement différents mélanges au lieu de mémoriser les définitions seules.",
         "Utiliser une lampe de poche réelle intacte pour identifier ses composants externes et fonctionnels."
-      ]
+      ],
+      "chapter_intro": "Le chapitre de sciences invite l’élève à observer son corps, son alimentation, la matière, la lumière et l’énergie dans des situations de la vie quotidienne. Les activités expérimentales sont simples, guidées et accompagnées de règles de sécurité."
     },
     {
       "id": "TI",
@@ -1319,24 +2530,86 @@
               "prompt": "Clavier : entrée ou sortie ?",
               "answer": "Entrée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L1-E1"
             },
             {
               "prompt": "Haut-parleur : entrée ou sortie ?",
               "answer": "Sortie.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L1-E2"
             },
             {
               "prompt": "Explique le rôle d’un microphone.",
               "answer": "Il capte le son pour l’envoyer vers le système.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L1-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 112 – Environnement informatique, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Entrer ou recevoir de l’information",
+              "kind": "text",
+              "body": "Un périphérique d’entrée permet d’envoyer une information vers l’ordinateur : clavier, souris, microphone, caméra. Un périphérique de sortie permet à l’ordinateur de présenter une information : écran, haut-parleur, imprimante. Certains appareils, comme un écran tactile, peuvent remplir les deux rôles."
+            },
+            {
+              "title": "Classer par fonction",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Appareil",
+                  "Fonction principale"
+                ],
+                "rows": [
+                  [
+                    "clavier",
+                    "entrée"
+                  ],
+                  [
+                    "microphone",
+                    "entrée"
+                  ],
+                  [
+                    "écran",
+                    "sortie"
+                  ],
+                  [
+                    "imprimante",
+                    "sortie"
+                  ],
+                  [
+                    "écran tactile",
+                    "entrée et sortie"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Observer son environnement",
+              "kind": "activity",
+              "body": "À la maison ou à l’école, l’élève peut identifier les appareils sans les démonter. L’objectif est de relier chaque objet à ce qu’il permet de faire : saisir, pointer, enregistrer, afficher, écouter, imprimer."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 112 – Environnement informatique, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Identifier des périphériques d’entrée.",
+              "Identifier des périphériques de sortie.",
+              "Expliquer leur fonction avec des mots simples."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "TI-U1-L2",
@@ -1358,24 +2631,59 @@
               "prompt": "Texte ou audio : « Bonjour maman, je suis arrivé. » tapé au clavier ?",
               "answer": "Texte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L2-E1"
             },
             {
               "prompt": "Que faut-il vérifier avant l’envoi ?",
               "answer": "Le destinataire et le contenu, au minimum.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L2-E2"
             },
             {
               "prompt": "Rédige un message poli de moins de 15 mots.",
               "answer": "Réponse personnelle claire et polie.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L2-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 112 – Téléphone portable, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Message texte ou message audio",
+              "kind": "text",
+              "body": "Un message texte est adapté à une information courte que l’on veut relire facilement. Un message audio peut être utile quand on a beaucoup à expliquer ou quand l’écriture est difficile, mais il faut parler clairement et éviter les informations inutiles."
+            },
+            {
+              "title": "Construire un bon message",
+              "kind": "example",
+              "body": "Un message utile répond généralement à trois questions : qui suis-je ? pourquoi j’écris ? quelle action ou réponse est attendue ? Exemple : « Bonjour Tata. C’est Junior. Le cours finit à 16 h aujourd’hui. Peux-tu venir me chercher à 16 h 15 ? Merci. »"
+            },
+            {
+              "title": "Respect et confidentialité",
+              "kind": "warning",
+              "body": "On ne diffuse pas le numéro, la photo ou un message privé d’une personne sans autorisation. On évite aussi d’envoyer un message blessant sous le coup de la colère. Le numérique demande les mêmes règles de respect que la conversation face à face."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 112 – Téléphone portable, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Expliquer la différence texte/audio.",
+              "Réaliser une simulation d’envoi/réception.",
+              "Choisir un message clair et poli."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "TI-U1-L3",
@@ -1397,24 +2705,59 @@
               "prompt": "Pourquoi éloigner un appareil branché de l’eau ?",
               "answer": "Pour éviter un risque électrique et d’endommagement.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L3-E1"
             },
             {
               "prompt": "Donne deux règles de politesse au téléphone.",
               "answer": "Saluer, parler calmement, choisir un moment raisonnable, remercier, etc.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L3-E2"
             },
             {
               "prompt": "Que faire face à un message inquiétant d’un inconnu ?",
               "answer": "Ne pas répondre précipitamment; le montrer à un adulte de confiance.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U1-L3-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 115 – Santé, sécurité et éthique, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Protéger son appareil et ses informations",
+              "kind": "text",
+              "body": "On utilise un code connu seulement des personnes autorisées, on évite les liens ou fichiers inconnus et on demande à un adulte avant d’installer une application. Une information personnelle n’a pas besoin d’être publiée pour être utilisée dans un exercice."
+            },
+            {
+              "title": "Réagir à un contenu gênant",
+              "kind": "warning",
+              "body": "Si un message fait peur, demande un secret, réclame une photo ou pousse l’enfant à rencontrer quelqu’un, il ne répond pas seul. Il ferme la conversation si nécessaire et en parle à un adulte de confiance."
+            },
+            {
+              "title": "Temps d’écran et posture",
+              "kind": "method",
+              "body": "Un usage numérique équilibré laisse du temps au sommeil, au mouvement, aux devoirs et aux échanges avec la famille. On tient l’écran à une distance confortable et on fait des pauses régulières."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 115 – Santé, sécurité et éthique, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Citer des précautions avec ordinateur/téléphone.",
+              "Adopter une attitude polie lors d’un appel.",
+              "Savoir demander l’aide d’un adulte."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -1447,7 +2790,8 @@
         "Manipuler des cartes-images de périphériques.",
         "Faire une simulation hors ligne d’envoi de message.",
         "Rejouer des situations « sûr / pas sûr » et expliquer le choix."
-      ]
+      ],
+      "chapter_intro": "Le chapitre TIC présente les équipements et usages numériques que l’enfant peut rencontrer à la maison. L’objectif n’est pas seulement de savoir nommer les appareils, mais de comprendre leur rôle, communiquer correctement et adopter des comportements sûrs."
     },
     {
       "id": "SH",
@@ -1475,24 +2819,59 @@
               "prompt": "Donne une conséquence positive du respect à la maison.",
               "answer": "Moins de conflits, confiance, entraide, etc.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L1-E1"
             },
             {
               "prompt": "Cite deux gestes de propreté.",
               "answer": "Se laver, ranger, balayer, jeter les déchets au bon endroit, etc.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L1-E2"
             },
             {
               "prompt": "Que faire si une consigne paraît dangereuse ?",
               "answer": "Demander l’aide d’un adulte de confiance et ne pas se mettre en danger.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L1-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 121 – Éducation morale, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Respect de soi et des autres",
+              "kind": "text",
+              "body": "Se respecter, c’est prendre soin de son corps, de sa santé et de sa dignité. Respecter les autres, c’est saluer, écouter sans interrompre, ne pas se moquer, ne pas frapper et respecter leurs affaires et leurs différences. Le respect crée la confiance ; son absence provoque disputes, tristesse et perte de confiance."
+            },
+            {
+              "title": "Propreté et estime de soi",
+              "kind": "text",
+              "body": "La propreté concerne le corps et le cadre de vie : se laver, se brosser les dents, porter des vêtements propres, balayer, ranger et éliminer correctement les déchets. L’estime de soi, c’est reconnaître sa valeur et ses qualités tout en acceptant ses erreurs pour progresser."
+            },
+            {
+              "title": "Obéir avec discernement",
+              "kind": "warning",
+              "body": "Obéir à un parent ou à un adulte responsable aide à éviter des dangers et à vivre ensemble. Mais un enfant ne doit pas suivre une demande dangereuse, mauvaise ou un secret qui le met mal à l’aise. Dans ce cas, il refuse et en parle à un adulte de confiance."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 121 – Éducation morale, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Analyser les conséquences du respect.",
+              "Mettre en pratique la propreté du corps et de la maison.",
+              "Expliquer simplement l’estime de soi et les avantages de l’obéissance à une consigne légitime."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SH-U1-L2",
@@ -1512,18 +2891,51 @@
               "prompt": "Cite les trois éléments travaillés ici.",
               "answer": "Refuge, secours, conditions de vie décentes.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L2-E1"
             },
             {
               "prompt": "Joue une courte scène où un enfant demande de l’aide à un adulte de confiance.",
               "answer": "Évaluer compréhension du droit et comportement respectueux.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L2-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 125 – Droits de l’enfant, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Des besoins essentiels",
+              "kind": "text",
+              "body": "Tout enfant a besoin d’un refuge, de nourriture, d’eau potable, de vêtements, de soins et de sécurité. Être secouru en cas d’accident, d’inondation, d’incendie ou d’autre danger fait aussi partie de la protection de l’enfant."
+            },
+            {
+              "title": "Qui protège l’enfant ?",
+              "kind": "text",
+              "body": "La famille joue un rôle central, mais d’autres acteurs peuvent intervenir : école, services sociaux, structures de santé, sapeurs-pompiers, autorités locales et associations. L’enfant doit savoir demander de l’aide lorsqu’une situation dépasse ce qu’il peut gérer seul."
+            },
+            {
+              "title": "Droits et responsabilités",
+              "kind": "method",
+              "body": "Avoir des droits n’empêche pas d’avoir des responsabilités adaptées à son âge : respecter les autres, prendre soin du logement, participer à de petites tâches sans danger et signaler une situation préoccupante."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 125 – Droits de l’enfant, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Comprendre les droits visés par le curriculum.",
+              "Mettre en scène une situation de protection."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SH-U1-L3",
@@ -1545,18 +2957,52 @@
               "prompt": "Donne deux bienfaits de la paix.",
               "answer": "Coopération, sécurité, confiance, tranquillité, etc.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L3-E1"
             },
             {
               "prompt": "Cite trois dangers domestiques à prévenir.",
               "answer": "Sol glissant, feu, électricité, objet coupant, médicament, etc.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L3-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 127 – Paix et sécurité, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "La paix à la maison",
+              "kind": "text",
+              "body": "Vivre en paix ne signifie pas être toujours d’accord. Cela signifie pouvoir exprimer un désaccord sans insulte ni violence, écouter l’autre, chercher une solution et demander l’aide d’un adulte si le conflit continue."
+            },
+            {
+              "title": "Sécurité domestique",
+              "kind": "warning",
+              "body": "Les prises et fils électriques, le feu, les médicaments, produits ménagers, outils tranchants, puits et objets lourds peuvent provoquer des accidents. La règle principale est simple : l’enfant ne joue pas avec ce qu’il ne maîtrise pas et prévient rapidement un adulte en cas de danger."
+            },
+            {
+              "title": "Résoudre une dispute",
+              "kind": "example",
+              "body": "Deux enfants veulent la même télécommande. Solutions possibles : alterner les choix, fixer un temps pour chacun, choisir ensemble une émission ou demander l’arbitrage d’un parent. Une solution pacifique respecte les personnes et évite la violence."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 127 – Paix et sécurité, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Expliquer des bienfaits de la paix.",
+              "Mettre en scène le vivre-ensemble.",
+              "Identifier des mesures de sécurité domestique."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SH-U1-L4",
@@ -1576,18 +3022,51 @@
               "prompt": "Cite deux avantages d’une décision prise selon des règles démocratiques.",
               "answer": "Participation, expression, règles communes, acceptation d’un résultat.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L4-E1"
             },
             {
               "prompt": "Organise un mini-vote de classe sur deux options et note le résultat.",
               "answer": "Activité pratique.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L4-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 129 – Éducation à la citoyenneté, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la démocratie",
+              "kind": "text",
+              "body": "La démocratie est une manière d’organiser le pouvoir dans laquelle les citoyens participent aux choix collectifs, notamment par le vote. Elle suppose aussi des règles, des droits, la possibilité de s’exprimer et le respect des décisions prises selon les procédures prévues."
+            },
+            {
+              "title": "Décider ensemble à petite échelle",
+              "kind": "activity",
+              "body": "Dans une classe ou une famille, certaines décisions peuvent être discutées : choisir une activité commune, répartir des tâches ou retenir une proposition parmi plusieurs. Ce n’est pas une élection politique, mais cela permet de comprendre écoute, choix, majorité et respect de chacun."
+            },
+            {
+              "title": "Majorité et respect",
+              "kind": "method",
+              "body": "Une décision majoritaire ne donne pas le droit de maltraiter ceux qui ont choisi autrement. On apprend à accepter un résultat, à expliquer son point de vue et à continuer de respecter les autres."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 129 – Éducation à la citoyenneté, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Expliquer des avantages de la démocratie à un niveau adapté.",
+              "Participer à une petite décision collective."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SH-U1-L5",
@@ -1609,18 +3088,52 @@
               "prompt": "Donne un exemple de règle de maison.",
               "answer": "Toute règle raisonnable et sûre.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L5-E1"
             },
             {
               "prompt": "Quelle différence entre règle et règlement ?",
               "answer": "Le règlement regroupe plusieurs règles organisées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L5-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 131 – Règles et règlements, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Règle et règlement",
+              "kind": "text",
+              "body": "Une règle est une consigne précise : « On se lave les mains avant de manger. » Un règlement est un ensemble organisé de règles qui encadrent la vie d’un groupe. Il peut préciser les horaires, les comportements attendus et les conséquences en cas de non-respect."
+            },
+            {
+              "title": "Pourquoi des règles ?",
+              "kind": "method",
+              "body": "Des règles claires rendent la vie prévisible, protègent les personnes et évitent de nombreuses disputes. Une bonne règle est compréhensible, applicable et liée à un objectif : sécurité, respect, propreté, travail."
+            },
+            {
+              "title": "Écrire un petit règlement familial",
+              "kind": "example",
+              "body": "Exemple : ranger ses chaussures à l’entrée ; terminer les devoirs avant les jeux vidéo ; aider à débarrasser la table ; ne pas toucher aux médicaments ; demander avant d’utiliser l’objet personnel d’un autre."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 131 – Règles et règlements, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Distinguer règle et règlement.",
+              "Expliquer les bienfaits du respect d’un règlement.",
+              "Formuler une règle de maison claire."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SH-U1-L6",
@@ -1642,18 +3155,52 @@
               "prompt": "Range du plus ancien au plus récent : aujourd’hui, naissance, entrée au CE2.",
               "answer": "naissance → entrée au CE2 → aujourd’hui",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L6-E1"
             },
             {
               "prompt": "Dessine un arbre généalogique simple sur trois générations, réel ou fictif.",
               "answer": "Production graphique cohérente.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L6-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 134 – Histoire, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Mettre les événements dans l’ordre",
+              "kind": "text",
+              "body": "La chronologie classe les événements selon le moment où ils se sont produits. Les mots avant, après, puis, autrefois et aujourd’hui aident à raconter une succession. Une frise chronologique place visuellement les événements du plus ancien au plus récent."
+            },
+            {
+              "title": "Cause et conséquence",
+              "kind": "method",
+              "body": "Deux événements qui se suivent ne sont pas toujours liés, mais certains ont une relation de cause à effet : il pleut longtemps → la rivière monte → une route peut être inondée. Il faut expliquer le lien, pas seulement réciter l’ordre."
+            },
+            {
+              "title": "Construire un arbre généalogique",
+              "kind": "activity",
+              "body": "On part de l’enfant, puis on place les parents et les grands-parents. Selon l’activité, on peut ajouter frères, sœurs, oncles, tantes et cousins. Les informations privées restent dans le cadre familial ou scolaire prévu."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 134 – Histoire, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Ordonner des événements.",
+              "Analyser des relations entre événements successifs.",
+              "Produire un arbre généalogique simple."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "SH-U1-L7",
@@ -1673,18 +3220,78 @@
               "prompt": "Cite trois formes de relief.",
               "answer": "Par exemple : montagne, colline, plaine.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L7-E1"
             },
             {
               "prompt": "Quelle forme est généralement une étendue assez plane et basse ?",
               "answer": "Une plaine.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U1-L7-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 138 – Géographie physique, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Les grandes formes de relief",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Forme",
+                  "Description simple"
+                ],
+                "rows": [
+                  [
+                    "montagne",
+                    "terrain très élevé aux pentes souvent fortes"
+                  ],
+                  [
+                    "colline",
+                    "hauteur plus petite aux pentes généralement douces"
+                  ],
+                  [
+                    "plateau",
+                    "terrain élevé et relativement plat"
+                  ],
+                  [
+                    "plaine",
+                    "terrain bas et plat"
+                  ],
+                  [
+                    "vallée",
+                    "creux allongé entre des hauteurs"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Relief et altitude",
+              "kind": "text",
+              "body": "Le relief correspond aux formes de la surface terrestre. L’altitude indique la hauteur d’un lieu par rapport au niveau moyen de la mer. Deux lieux plats peuvent donc être différents : une plaine est basse, tandis qu’un plateau est élevé."
+            },
+            {
+              "title": "Observer son environnement",
+              "kind": "activity",
+              "body": "Depuis un point dégagé, on peut décrire les formes visibles sans forcément connaître leur nom local précis. Une maquette en terre ou pâte à modeler aide à distinguer sommet, pente, vallée, plateau et plaine."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 138 – Géographie physique, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Déterminer des éléments simples du relief.",
+              "Observer et décrire un paysage."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -1733,7 +3340,8 @@
         "Construire une frise chronologique avec trois cartes.",
         "Faire l’arbre généalogique avec une famille fictive si la situation familiale est sensible.",
         "Observer des photos de paysages pour le relief."
-      ]
+      ],
+      "chapter_intro": "Ce chapitre relie la vie familiale à la morale, aux droits de l’enfant, à la paix, aux règles, à l’histoire familiale et à la géographie. Les notions sont travaillées par situations, mises en scène, exemples et questions de réflexion."
     },
     {
       "id": "AR",
@@ -1761,12 +3369,52 @@
               "prompt": "Dessine un objet de la maison en montrant au moins trois détails observés.",
               "answer": "Production à évaluer : observation, soin, conformité à la consigne.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U1-L1-E1"
+            },
+            {
+              "prompt": "Dessine un objet de la maison en commençant par les formes principales. Puis écris deux choses que tu améliorerais.",
+              "answer": "Production graphique personnelle ; l’élève doit être capable d’identifier au moins deux pistes d’amélioration.",
+              "explanation": "Relis la partie méthode ou sécurité de la leçon.",
+              "type": "open",
+              "id": "AR-U1-L1-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 144 – Arts visuels, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de dessiner",
+              "kind": "method",
+              "body": "Choisis un objet simple de la maison : tasse, tabouret, marmite ou lampe. Observe sa forme générale, sa hauteur, sa largeur et les parties qui le composent. Commence par de grandes formes légères avant d’ajouter les détails."
+            },
+            {
+              "title": "Du contour aux détails",
+              "kind": "text",
+              "body": "Un dessin lisible se construit progressivement : contour général, proportions, détails, puis éventuellement ombres ou couleurs. On évite d’appuyer très fort dès le début, car il devient difficile de corriger."
+            },
+            {
+              "title": "Regarder son propre travail",
+              "kind": "activity",
+              "body": "Compare le dessin et l’objet : est-il trop large ? trop petit ? certains éléments manquent-ils ? L’auto-observation permet d’améliorer le dessin sans chercher une perfection impossible."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 144 – Arts visuels, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Observer les formes principales.",
+              "Reproduire un objet par étapes.",
+              "Soigner proportions et traits."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "AR-U1-L2",
@@ -1787,18 +3435,51 @@
               "prompt": "Frappe quatre groupes de trois temps sans accélérer.",
               "answer": "Évaluation pratique.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U1-L2-E1"
             },
             {
               "prompt": "Dans UN-deux-trois, quel temps peut être légèrement accentué ?",
               "answer": "Le premier.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U1-L2-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 145 – Musique, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Sentir trois temps",
+              "kind": "text",
+              "body": "Une mesure à trois temps peut être ressentie comme un cycle régulier : UN-deux-trois, UN-deux-trois. Le premier temps est souvent plus marqué. On peut commencer en frappant doucement dans les mains avant d’utiliser un instrument."
+            },
+            {
+              "title": "Écouter puis reproduire",
+              "kind": "activity",
+              "body": "L’enseignant joue ou frappe une courte formule sur trois temps. L’élève écoute d’abord sans jouer, puis reproduit. On augmente progressivement la longueur de la formule."
+            },
+            {
+              "title": "Créer une petite formule",
+              "kind": "example",
+              "body": "Exemple : fort-doux-doux | fort-doux-doux. L’élève peut changer les sons : mains, table, petite percussion autorisée."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 145 – Musique, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Reconnaître une pulsation groupée par trois.",
+              "Chanter ou frapper une mesure à trois temps."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "AR-U1-L3",
@@ -1820,12 +3501,52 @@
               "prompt": "Reproduis un pas simple pendant 20 secondes au rythme donné.",
               "answer": "Évaluation pratique : rythme, équilibre, respect des consignes.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U1-L3-E1"
+            },
+            {
+              "prompt": "Décris le pas appris en trois ou quatre étapes.",
+              "answer": "Réponse variable selon le pas : position de départ, déplacement, mouvement associé, retour.",
+              "explanation": "Relis la partie méthode ou sécurité de la leçon.",
+              "type": "open",
+              "id": "AR-U1-L3-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 148 – Danse, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Apprendre un pas",
+              "kind": "method",
+              "body": "On observe le mouvement entier, puis on le découpe : position de départ, déplacement des pieds, mouvement des bras, retour. On travaille lentement avant d’ajouter la musique."
+            },
+            {
+              "title": "Danser en sécurité",
+              "kind": "warning",
+              "body": "L’espace doit être dégagé. On évite les mouvements brusques qui risquent de faire tomber un camarade. On respecte la distance entre les danseurs et on s’arrête si une douleur apparaît."
+            },
+            {
+              "title": "Exprimer plutôt que copier",
+              "kind": "activity",
+              "body": "Une fois le pas de base compris, l’élève peut varier l’orientation, l’énergie ou les bras tout en gardant le rythme. L’objectif artistique est aussi de développer l’expression personnelle."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 148 – Danse, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Observer un modèle.",
+              "Reproduire un pas simple.",
+              "Coordonner mouvement et rythme."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -1853,7 +3574,8 @@
         "Simplifier le dessin à deux formes géométriques avant les détails.",
         "Marcher en comptant 1-2-3 avant de chanter.",
         "Décomposer le pas de danse en deux mouvements seulement."
-      ]
+      ],
+      "chapter_intro": "Les activités artistiques prennent appui sur des objets, rythmes et mouvements accessibles à l’enfant. Le chapitre privilégie l’observation, la production et l’expression personnelle plutôt que la mémorisation de définitions."
     },
     {
       "id": "EP",
@@ -1880,14 +3602,54 @@
               "prompt": "Réalise deux courses de 40 m avec récupération complète.",
               "answer": "Observation : départ, trajectoire, effort, sécurité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U1-L1-E1"
+            },
+            {
+              "prompt": "Cite trois éléments d’une bonne séance de course de vitesse.",
+              "answer": "Échauffement, respect de la ligne/couloir, course dynamique, poursuite après l’arrivée, retour au calme : trois éléments pertinents.",
+              "explanation": "Relis la partie méthode ou sécurité de la leçon.",
+              "type": "open",
+              "id": "EP-U1-L1-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 153 – Course de vitesse, CE2.",
           "practical": [
             "Échauffement obligatoire; terrain plat et dégagé; eau disponible; arrêt en cas de douleur ou malaise."
           ],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Avant la course",
+              "kind": "method",
+              "body": "Une séance commence par un échauffement : marche ou petit trot, mobilisation des chevilles, genoux et bras, puis quelques accélérations progressives. Le départ se fait derrière la ligne, dans un couloir dégagé."
+            },
+            {
+              "title": "Courir vite",
+              "kind": "text",
+              "body": "Pour une courte distance, on cherche une accélération progressive puis une course dynamique. Les bras accompagnent le mouvement, le regard reste vers l’avant et on continue quelques mètres après la ligne pour ne pas freiner brutalement juste avant l’arrivée."
+            },
+            {
+              "title": "Mesurer son progrès",
+              "kind": "activity",
+              "body": "Le chronomètre peut être utilisé par l’enseignant, mais l’objectif n’est pas seulement d’être le plus rapide : on compare aussi la posture, le respect des consignes et l’amélioration personnelle."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 153 – Course de vitesse, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Prendre un départ rapide.",
+              "Courir 40 m en ligne droite.",
+              "Maintenir une vitesse élevée sur quelques secondes."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "EP-U1-L2",
@@ -1909,14 +3671,54 @@
               "prompt": "Réalise l’activité d’allure adaptée définie par l’enseignant.",
               "answer": "Évaluation pratique : régularité, adaptation, récupération, sécurité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U1-L2-E1"
+            },
+            {
+              "prompt": "Pourquoi ne faut-il pas partir à pleine vitesse dans un effort plus long ?",
+              "answer": "Parce qu’on risque de se fatiguer trop vite et de ne plus pouvoir maintenir l’allure.",
+              "explanation": "Relis la partie méthode ou sécurité de la leçon.",
+              "type": "open",
+              "id": "EP-U1-L2-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 153 – Endurance-vitesse, CE2.",
           "practical": [
             "Ne pas réaliser seul; adapter chaleur, terrain, hydratation et état de santé."
           ],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Gérer son allure",
+              "kind": "text",
+              "body": "En endurance-vitesse, on ne part pas à pleine vitesse si l’effort doit durer. On cherche une allure que l’on peut maintenir, avec une respiration régulière et des mouvements détendus."
+            },
+            {
+              "title": "Repérer les signes d’effort",
+              "kind": "warning",
+              "body": "Le cœur bat plus vite et la respiration s’accélère. Après l’effort, on marche quelques instants pour revenir au calme. Une douleur inhabituelle, un malaise ou une difficulté respiratoire importante doivent être signalés immédiatement."
+            },
+            {
+              "title": "Petit défi",
+              "kind": "activity",
+              "body": "Effectuer plusieurs passages sur une distance fixée en essayant de garder un temps proche d’un passage à l’autre. L’objectif est la régularité, pas l’épuisement."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 153 – Endurance-vitesse, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Courir à allure régulière.",
+              "Changer de rythme sur consigne.",
+              "Récupérer activement."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "EP-U1-L3",
@@ -1938,20 +3740,54 @@
               "prompt": "Mets en scène une feinte de déplacement sans contact.",
               "answer": "Évaluation pratique encadrée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U1-L3-E1"
             },
             {
               "prompt": "Quelle est la première priorité en situation dangereuse ?",
               "answer": "S’éloigner si possible et chercher de l’aide.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U1-L3-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 157 – Techniques élémentaires d’autodéfense, CE2.",
           "practical": [
             "Exercice uniquement en présence d’un enseignant/adulte compétent; pas de frappe réelle."
           ],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Objectif : se protéger et s’éloigner",
+              "kind": "text",
+              "body": "Dans un cadre scolaire, l’autoprotection vise surtout à repérer une situation dangereuse, garder une distance, dire clairement « stop », se dégager d’une saisie simulée simple si l’enseignant l’a prévue, puis rejoindre un adulte ou un lieu sûr."
+            },
+            {
+              "title": "Ce que l’on ne pratique pas",
+              "kind": "warning",
+              "body": "Pas de coups réels, pas d’étranglement, pas de projection, pas d’armes ni de techniques destinées à blesser. Les exercices sont lents, contrôlés et interrompus dès qu’un élève est mal à l’aise."
+            },
+            {
+              "title": "Jeu de rôle",
+              "kind": "activity",
+              "body": "Un camarade s’approche trop près et insiste. L’élève recule, garde les mains ouvertes devant lui, dit « Stop, laisse-moi passer », se dirige vers l’enseignant et explique ce qui s’est passé."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 157 – Techniques élémentaires d’autodéfense, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Comprendre la vigilance.",
+              "Mettre en scène une feinte sans frapper.",
+              "S’exercer à dégager une main tenue légèrement, uniquement sous supervision."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -1979,7 +3815,8 @@
         "Réduire distance/durée et travailler la technique sans chronométrer.",
         "Faire marcher puis trottiner sur signal pour la gestion d’allure.",
         "Pour l’autodéfense, privilégier d’abord les scénarios verbaux : dire non, s’éloigner, appeler un adulte."
-      ]
+      ],
+      "chapter_intro": "Les séances d’EPS développent vitesse, endurance et comportements de sécurité. Les consignes sont adaptées à un cadre scolaire : échauffement, exécution progressive, retour au calme et absence de gestes dangereux."
     },
     {
       "id": "DP",
@@ -2006,12 +3843,52 @@
               "prompt": "Réalise un petit tableau représentant la maison ou un objet de la maison.",
               "answer": "Évaluer créativité, utilisation du matériel, soin et respect de la consigne.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U1-L1-E1"
+            },
+            {
+              "prompt": "Pourquoi faut-il nettoyer les pinceaux après l’activité ?",
+              "answer": "Pour conserver le matériel en bon état et éviter que la peinture sèche dans les poils.",
+              "explanation": "Relis la partie méthode ou sécurité de la leçon.",
+              "type": "open",
+              "id": "DP-U1-L1-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 161 – Peinture, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer son espace de peinture",
+              "kind": "method",
+              "body": "Protéger la table, préparer un récipient d’eau, les pinceaux, la peinture et un chiffon. On choisit peu de couleurs à la fois pour observer les mélanges sans tout salir."
+            },
+            {
+              "title": "Mélanger les couleurs",
+              "kind": "activity",
+              "body": "Deux couleurs peuvent produire une nouvelle teinte. On ajoute progressivement une petite quantité de la seconde couleur et on observe le changement. L’élève note ou mémorise les mélanges qu’il souhaite reproduire."
+            },
+            {
+              "title": "Nettoyer et ranger",
+              "kind": "method",
+              "body": "À la fin, on lave le matériel adapté, on ferme les contenants et on nettoie l’espace. Une activité créative comprend aussi le soin du matériel et du lieu de travail."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 161 – Peinture, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Combiner des couleurs de base pour en obtenir d’autres.",
+              "Utiliser correctement pinceau et support.",
+              "Réaliser un tableau simple sur le thème de la maison."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "DP-U1-L2",
@@ -2033,12 +3910,52 @@
               "prompt": "Réalise une courte ligne de points sur un échantillon de tissu sous supervision.",
               "answer": "Évaluer sécurité, régularité et soin.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U1-L2-E1"
+            },
+            {
+              "prompt": "Donne deux règles de sécurité avec une aiguille.",
+              "answer": "Par exemple : ne pas la mettre dans la bouche ; la ranger dans un pique-aiguilles ; ne pas courir avec.",
+              "explanation": "Relis la partie méthode ou sécurité de la leçon.",
+              "type": "open",
+              "id": "DP-U1-L2-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 165 – Couture, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "À quoi sert le surjet ?",
+              "kind": "text",
+              "body": "Le surjet permet de maintenir ou protéger un bord de tissu. L’apprentissage se fait sur une chute de tissu avec une aiguille adaptée, du fil visible et sous la surveillance d’un adulte ou de l’enseignant."
+            },
+            {
+              "title": "Étapes de travail",
+              "kind": "method",
+              "body": "1) Couper une longueur raisonnable de fil. 2) Enfiler l’aiguille. 3) Faire un nœud si la technique enseignée le prévoit. 4) Piquer régulièrement près du bord. 5) Garder des points de taille proche sans trop serrer le tissu."
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "On ne marche pas avec une aiguille à la main, on ne la met jamais dans la bouche et on la range dans un pique-aiguilles ou une boîte après usage."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 165 – Couture, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Observer la technique demandée.",
+              "Réaliser quelques points réguliers sous supervision.",
+              "Respecter les règles de sécurité avec l’aiguille."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "DP-U1-L3",
@@ -2060,18 +3977,52 @@
               "prompt": "Pourquoi vérifier l’étiquette avant de repasser ?",
               "answer": "Parce que la chaleur adaptée dépend du textile.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U1-L3-E1"
             },
             {
               "prompt": "Que faire avant d’utiliser un détachant ?",
               "answer": "Demander l’aide/supervision d’un adulte et lire les instructions.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U1-L3-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 165 – Entretien du linge, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Traiter une tache",
+              "kind": "method",
+              "body": "Avant de frotter, on identifie si possible la tache et le tissu. On agit rapidement avec une méthode douce, puis on rince. Un produit agressif peut abîmer la couleur ou le tissu ; l’enfant demande l’aide d’un adulte pour les produits ménagers."
+            },
+            {
+              "title": "Repasser avec méthode",
+              "kind": "warning",
+              "body": "Le repassage est une activité à risque de brûlure. Dans un exercice CE2, il se fait uniquement sous supervision étroite : installer la planche, vérifier le tissu, déplacer le fer sans le laisser immobile, poser le fer en sécurité et débrancher après usage."
+            },
+            {
+              "title": "Vérifier le résultat",
+              "kind": "text",
+              "body": "Un linge bien entretenu est propre, sans mauvaise odeur, correctement séché et rangé. Le but n’est pas de multiplier les produits mais d’obtenir un résultat propre en sécurité."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 165 – Entretien du linge, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Identifier qu’une tache peut demander un traitement adapté.",
+              "Comprendre que la chaleur du fer dépend du textile.",
+              "Adopter des règles de sécurité."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         },
         {
           "id": "DP-U1-L4",
@@ -2093,18 +4044,52 @@
               "prompt": "Mets dans l’ordre : ranger le matériel / identifier la tâche / nettoyer / se laver les mains.",
               "answer": "identifier la tâche → nettoyer → ranger le matériel → se laver les mains.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U1-L4-E1"
             },
             {
               "prompt": "Peut-on mélanger deux produits ménagers pour qu’ils soient plus efficaces ?",
               "answer": "Non. Certains mélanges sont dangereux; on suit les instructions et l’adulte.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U1-L4-E2"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 165 – Entretien du milieu de vie, CE2.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Organiser le nettoyage",
+              "kind": "method",
+              "body": "On commence généralement par ranger, puis enlever la poussière ou balayer, avant de laver les surfaces si nécessaire. Nettoyer dans un ordre logique évite de salir deux fois la même zone."
+            },
+            {
+              "title": "Déchets et eau stagnante",
+              "kind": "warning",
+              "body": "Les déchets sont placés dans un contenant adapté. Les récipients qui retiennent inutilement l’eau autour de la maison sont vidés ou rangés afin de limiter les eaux stagnantes. L’enfant ne manipule pas de déchets dangereux."
+            },
+            {
+              "title": "Répartir les petites tâches",
+              "kind": "activity",
+              "body": "Selon l’âge et les habitudes de la famille, l’enfant peut ranger ses affaires, balayer une petite zone, essuyer une table ou aider à trier. Les travaux lourds, produits dangereux et outils coupants restent aux adultes."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum MINEDUB 2018, p. 165 – Entretien du milieu de vie, CE2.",
+            "reviewer": null
+          },
+          "teacher_guide": {
+            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "observation": [
+              "Choisir un matériel simple d’entretien.",
+              "Utiliser un produit adapté sous supervision.",
+              "Organiser une petite tâche de nettoyage."
+            ],
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+          }
         }
       ],
       "assessment": {
@@ -2137,7 +4122,8 @@
         "Démontrer avant de faire pratiquer.",
         "Utiliser du matériel plus gros/ergonomique pour la motricité fine.",
         "Transformer repassage et détachants en activité de simulation si le contexte ne permet pas une pratique sûre."
-      ]
+      ],
+      "chapter_intro": "Le développement personnel associe création, travaux manuels et entretien du milieu de vie. Chaque activité est présentée avec le matériel, les étapes, les règles de sécurité et les critères pour vérifier un travail bien réalisé."
     }
   ],
   "integration_project": {

@@ -15,3 +15,4 @@
 @media(max-width:680px){.bank-note,.series-grid,.parent-unit-grid{grid-template-columns:1fr}.series-card p{min-height:0}.parent-unit-card{padding:13px}}
 /* Klassia v8 — PWA installable */
 #pwaTools{position:relative;z-index:60}.pwa-banner{max-width:1160px;margin:8px auto 0;padding:10px 12px;border:1px solid #cbd7ff;border-radius:13px;background:#eef2ff;color:#253b7e;display:flex;align-items:center;gap:10px;font-size:13px;box-shadow:0 8px 22px rgba(36,45,70,.06)}.pwa-banner>span{flex:1;min-width:0}.pwa-action{min-height:40px;border:0;border-radius:10px;padding:8px 13px;background:var(--brand);color:white;font-weight:800;cursor:pointer}.pwa-close{width:40px;height:40px;border:0;border-radius:10px;background:transparent;color:#5d6b90;font-size:23px;cursor:pointer}@media(max-width:680px){.pwa-banner{margin:6px 8px 0;font-size:12px;align-items:flex-start}.pwa-action{min-width:88px}.pwa-close{flex:0 0 40px}}
+

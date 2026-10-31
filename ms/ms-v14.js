@@ -2,7 +2,7 @@
 'use strict';
 let practice14=null;
 const esc14=s=>String(s??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
-fetch('./practice-v14.json').then(r=>r.ok?r.json():null).then(x=>{practice14=x;decorate14();}).catch(()=>{});
+fetch('./practice-v14.json').then(r=>r.ok?r.json():null).then(x=>{practice14=x;if(typeof themePack!=='undefined'&&themePack)route();}).catch(()=>{});
 
 function drawingSvg(kind){
  const common='viewBox="0 0 300 210" class="worksheet-svg" aria-hidden="true"';
@@ -57,15 +57,19 @@ function printWindow(title,body){
  w.document.close();w.focus();
 }
 function activityPrintHtml(a,d){
- let h=`<article class="activityPrint"><h2>${esc14(a.title_fr)} · ${esc14(a.title_en)}</h2><p><b>${esc14(d.name_fr)}</b> — ${esc14(d.name_en)}</p><p><b>Objectif :</b> ${esc14(a.goal_fr||'')}</p>`;
- if(a.prompt_fr)h+=`<p><b>🇫🇷</b> ${esc14(a.prompt_fr)}</p>`;if(a.prompt_en)h+=`<p><b>🇬🇧</b> ${esc14(a.prompt_en)}</p>`;
- if(a.story_fr)h+=`<p><b>Histoire :</b> ${esc14(a.story_fr)}</p>`;if(a.story_en)h+=`<p><b>Story:</b> ${esc14(a.story_en)}</p>`;
- if(a.table?.headers)h+=`<table><thead><tr>${a.table.headers.map(x=>`<th>${esc14(x)}</th>`).join('')}</tr></thead><tbody>${(a.table.rows||[]).map(r=>`<tr>${r.map(x=>`<td>${esc14(x)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
- if(a.visual?.items)h+=`<div class="visual">${a.visual.items.map(x=>`<span>${esc14(x)}</span>`).join('')}</div>`;
- if(a.bassa_variants?.length)h+=`<div class="bassa"><b>Variantes Bassa</b>${a.bassa_variants.map(x=>`<p><b>${esc14(x.concept)} :</b> ${(x.forms||[]).map(esc14).join(' · ')}</p>`).join('')}</div>`;
- if(a.steps_fr?.length)h+=`<h3>Étapes</h3><ol>${a.steps_fr.map(x=>`<li>${esc14(x)}</li>`).join('')}</ol>`;
- if(a.game_fr)h+=`<p><b>Jeu :</b> ${esc14(a.game_fr)}</p>`;if(a.activity_fr)h+=`<p><b>Activité :</b> ${esc14(a.activity_fr)}</p>`;
- h+=`<h3>Observation</h3><ul>${(a.observe||[]).map(x=>`<li>${esc14(x)}</li>`).join('')}</ul></article>`;return h;
+ let h=`<article class="activityPrint"><h2>${esc14(a.title_fr)} · <span lang="en">${esc14(a.title_en)}</span></h2><p>${esc14(d.name_fr)} · ${esc14(d.name_en)}</p>`;
+ for(const [field,label] of [['goal','Objectif / Goal'],['prompt','Consigne / Prompt'],['story','Histoire / Story'],['game','Jeu / Game'],['activity','Activité / Activity']]){if(a[field+'_fr'])h+=`<p><b>${label}</b> ${esc14(a[field+'_fr'])}</p>`;if(a[field+'_en'])h+=`<p lang="en">${esc14(a[field+'_en'])}</p>`;}
+ if(a.figure)h+=`<img style="max-width:100%" src="${new URL(a.figure.src,location.href).href}" alt="${esc14(a.figure.alt)}">`;
+ if(a.interactive)h+=`<p>${esc14(a.interactive.prompt_fr)} <span lang="en">${esc14(a.interactive.prompt_en)}</span></p><p>Repère adulte : ${esc14(a.interactive.explanation_fr)}</p>`;
+ if(a.teacher_guide)h+=`<p><b>Guide adulte :</b> ${esc14(a.teacher_guide.preparation)} ${esc14(a.teacher_guide.adaptation)}</p>`;
+ h+=renderVisual(a.visual)+renderDiagram(a.diagram)+renderTable(a.table);
+ for(const lang of ['fr','en'])if(a['steps_'+lang]?.length)h+=`<h3>${lang==='fr'?'Étapes':'Steps'}</h3><ol lang="${lang}">${a['steps_'+lang].map(x=>`<li>${esc14(x)}</li>`).join('')}</ol>`;
+ if(a.materials?.length)h+=`<p><b>Matériel :</b> ${a.materials.map(esc14).join(' · ')}</p>`;
+ if(a.course?.length)h+=`<h3>Parcours</h3><ol>${a.course.map(x=>`<li>${esc14(x)}</li>`).join('')}</ol>`;
+ if(a.questions?.length)h+=`<h3>Questions et repères adulte</h3>${a.questions.map(q=>`<p>${esc14(q.fr)}<br><span lang="en">${esc14(q.en)}</span><br><b>Réponse :</b> ${esc14(q.answer)}</p>`).join('')}`;
+ if(a.bassa_variants?.length)h+=`<div class="bassa"><b>Documentation adulte — Bassa non validé</b>${a.bassa_variants.map(x=>`<p><b>${esc14(x.concept)}</b> : ${(x.forms||[]).map(esc14).join(' · ')}<br>Sources : ${(x.sources||[]).map(esc14).join(' · ')}<br>${esc14(x.note||'')}</p>`).join('')}</div>`;
+ if(a.source_note)h+=`<p>${esc14(a.source_note)}</p>`;
+ return h+`<h3>Observation</h3><ul>${(a.observe||[]).map(x=>`<li>${esc14(x)}</li>`).join('')}</ul><p>Édition pilote — validation pédagogique à confirmer.</p></article>`;
 }
 function printActivity(a,d){printWindow(`${a.title_fr} — Moyenne Section`,`<h1>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</h1>`+activityPrintHtml(a,d));}
 function printDomain(d){printWindow(`${d.name_fr} — ${theme.title_fr}`,`<h1>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</h1>${d.activities.map(a=>activityPrintHtml(a,d)).join('')}`);}
@@ -111,18 +115,17 @@ function injectDomainPrints(){
  const h=location.hash||'';if(!h.startsWith('#domain:'))return;
  const id=h.split(':')[1],d=theme?.domains?.find(x=>x.id===id);if(!d)return;
  const hero=document.querySelector('.hero');if(hero&&!hero.querySelector('.printDomain14'))hero.insertAdjacentHTML('beforeend',`<button class="classBtn printDomain14">🖨 Domaine / PDF</button>`),hero.querySelector('.printDomain14').onclick=()=>printDomain(d);
- const cards=[...document.querySelectorAll('.activityCard')];
- cards.forEach((card,i)=>{if(card.querySelector('.printActivity14')||!d.activities[i])return;const btn=document.createElement('button');btn.className='classBtn printActivity14';btn.textContent='🖨 Activité / PDF';btn.onclick=()=>printActivity(d.activities[i],d);card.querySelector('.activityHead')?.appendChild(btn);});
+ const cards=[...document.querySelectorAll('.activityCard')];const offset=Number(h.split(':')[2]||0);
+ cards.forEach((card,i)=>{if(card.querySelector('.printActivity14')||!d.activities[i+offset])return;const btn=document.createElement('button');btn.className='classBtn printActivity14';btn.textContent='🖨 Activité / PDF';btn.onclick=()=>printActivity(d.activities[i+offset],d);card.querySelector('.activityHead')?.appendChild(btn);});
 }
-function handleSpecial(){
- const h=location.hash||'';
- if(h==='#domains-all'){domainsAllPage();return true}
- if(h.startsWith('#domain-all:')){domainAllPage(h.split(':')[1]);return true}
- if(h==='#worksheets'){worksheetsPage();return true}
+function routeSpecial(h){
+ if(!practice14)return false;
+ if(h==='#domains-all'){domainsAllPage();return true;}
+ if(h.startsWith('#domain-all:')){domainAllPage(h.split(':')[1]);return true;}
+ if(h==='#worksheets'){worksheetsPage();return true;}
  return false;
 }
-function decorate14(){if(!practice14||!catalog||!themePack)return;if(handleSpecial())return;injectHomeEnhancements();injectDomainPrints();}
-window.addEventListener('hashchange',()=>setTimeout(decorate14,20));
-new MutationObserver(()=>requestAnimationFrame(decorate14)).observe(document.getElementById('app'),{childList:true,subtree:true});
-setTimeout(decorate14,400);
+Klassia.registerRoutes('MS',routeSpecial);
+function decorate14(){if(!practice14||!catalog||!themePack)return;injectHomeEnhancements();injectDomainPrints();}
+document.addEventListener('klassia:render',decorate14);
 })();

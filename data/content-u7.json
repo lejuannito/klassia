@@ -1,6 +1,6 @@
 {
   "format": "klassia-content",
-  "version": 1,
+  "version": "15.0",
   "metadata": {
     "product": "Klassia",
     "class": "CE2",
@@ -8,7 +8,7 @@
     "unit_title": "Les jeux",
     "country": "Cameroun",
     "curriculum": "Curriculum de l’enseignement primaire francophone camerounais - Niveau 2 (CE1-CE2), MINEDUB, 2018",
-    "editorial_status": "DRAFT_FOR_PEDAGOGICAL_REVIEW",
+    "editorial_status": "PILOT_REVIEW_REQUIRED",
     "created": "2026-10-30",
     "source_file": "Curriculum-CE.pdf"
   },
@@ -57,18 +57,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Écouter et débattre autour des jeux » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte le tour de parole, je questionne avec précision et je réponds à ce qui vient d’être dit. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écouter et débattre autour des jeux ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte le tour de parole, je questionne avec précision et je réponds à ce qui vient d’être dit.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U7, p.30.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Écouter et débattre autour des jeux » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écouter et débattre autour des jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte le tour de parole, je questionne avec précision et je réponds à ce qui vient d’être dit. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, expression orale, U7, p.30.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U7-L2",
@@ -87,18 +122,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Écrire des règles de jeu et des notices » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un texte injonctif indique des actions à réaliser dans un ordre clair. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écrire des règles de jeu et des notices ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un texte injonctif indique des actions à réaliser dans un ordre clair.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U7, p.33.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Construire son texte avant d’écrire",
+              "kind": "method",
+              "body": "Avant de rédiger sur « les jeux », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+            },
+            {
+              "title": "Améliorer une première version",
+              "kind": "example",
+              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écrire des règles de jeu et des notices » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un texte injonctif indique des actions à réaliser dans un ordre clair. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, production d’écrits, U7, p.33.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U7-L3",
@@ -117,18 +182,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure autour des jeux » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je distingue ce qui se passe dans l’histoire de mon jugement personnel. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure autour des jeux ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je distingue ce qui se passe dans l’histoire de mon jugement personnel.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L3-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U7, p.36.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Lire comme un détective",
+              "kind": "method",
+              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure autour des jeux », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
+            },
+            {
+              "title": "Rendre compte de sa lecture",
+              "kind": "text",
+              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure autour des jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je distingue ce qui se passe dans l’histoire de mon jugement personnel. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, littérature, U7, p.36.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U7-L4",
@@ -149,18 +244,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Le groupe verbal et l’accord sujet-verbe » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le groupe verbal est organisé autour du verbe. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Le groupe verbal et l’accord sujet-verbe ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le groupe verbal est organisé autour du verbe.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L4-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U7, p.41.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Le groupe verbal et l’accord sujet-verbe » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Le groupe verbal et l’accord sujet-verbe » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le groupe verbal est organisé autour du verbe. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, grammaire, U7, p.41.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U7-L5",
@@ -180,18 +310,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « COD, COI, compléments de lieu et de temps, prépositions » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les compléments précisent ou complètent le sens du verbe. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « COD, COI, compléments de lieu et de temps, prépositions ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les compléments précisent ou complètent le sens du verbe.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U7, p.41.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « COD, COI, compléments de lieu et de temps, prépositions » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « COD, COI, compléments de lieu et de temps, prépositions » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les compléments précisent ou complètent le sens du verbe. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, grammaire, U7, p.41.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U7-L6",
@@ -212,18 +377,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Vocabulaire des jeux, préfixes et dictionnaire » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un préfixe placé devant le radical peut modifier le sens du mot. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vocabulaire des jeux, préfixes et dictionnaire ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un préfixe placé devant le radical peut modifier le sens du mot.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U7, p.45.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Choisir le mot juste",
+              "kind": "text",
+              "body": "Le vocabulaire de « les jeux » aide à parler et écrire avec précision. Pour apprendre un mot, ne mémorise pas seulement sa définition : observe un exemple, sa famille éventuelle, sa nature grammaticale et un contexte où tu peux l’utiliser. Le dictionnaire sert à vérifier l’orthographe, le sens et certaines informations grammaticales."
+            },
+            {
+              "title": "Créer son petit lexique",
+              "kind": "activity",
+              "body": "Sur une page de cahier, prépare trois colonnes : « mot », « ce qu’il veut dire », « ma phrase ». Ajoute au moins cinq mots du chapitre. Relis ce lexique avant une production écrite et essaie d’employer deux de ces mots."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Vocabulaire des jeux, préfixes et dictionnaire » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un préfixe placé devant le radical peut modifier le sens du mot. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, vocabulaire, U7, p.45.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U7-L7",
@@ -241,18 +436,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Dictée d’un court texte sur les jeux » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je mobilise les règles déjà étudiées : accords, mots invariables, homophones et formes verbales. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L7-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Dictée d’un court texte sur les jeux ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je mobilise les règles déjà étudiées : accords, mots invariables, homophones et formes verbales.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe, U7, p.48.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Construire son texte avant d’écrire",
+              "kind": "method",
+              "body": "Avant de rédiger sur « les jeux », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+            },
+            {
+              "title": "Améliorer une première version",
+              "kind": "example",
+              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Dictée d’un court texte sur les jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je mobilise les règles déjà étudiées : accords, mots invariables, homophones et formes verbales. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, orthographe, U7, p.48.",
+            "reviewer": null
+          }
         },
         {
           "id": "FR-U7-L8",
@@ -271,18 +496,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Futur simple et imparfait » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le futur situe une action à venir ; l’imparfait peut présenter une action ou un état dans le passé. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L8-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Futur simple et imparfait ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le futur situe une action à venir ; l’imparfait peut présenter une action ou un état dans le passé.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "FR-U7-L8-E2"
             }
           ],
           "source": "Curriculum CE2, conjugaison, U7, p.51.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre la règle avant de l’appliquer",
+              "kind": "text",
+              "body": "Dans cette leçon — « Futur simple et imparfait » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+            },
+            {
+              "title": "Méthode en quatre étapes",
+              "kind": "method",
+              "items": [
+                "Je lis toute la phrase avant de répondre.",
+                "Je repère le mot ou le groupe de mots concerné par la notion.",
+                "J’applique la règle et je justifie mentalement mon choix.",
+                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
+              ]
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Futur simple et imparfait » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le futur situe une action à venir ; l’imparfait peut présenter une action ou un état dans le passé. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
+            },
+            {
+              "title": "À toi de produire",
+              "kind": "activity",
+              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, conjugaison, U7, p.51.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -320,7 +580,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Français et littérature développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "EN",
@@ -333,28 +594,50 @@
           "objectives": [
             "Dramatise how a game is played and count from 401 to 450."
           ],
-          "discover": "Think about the theme “Les jeux”. Listen, read or observe a short example before using English yourself.",
+          "discover": "A passing game\nNia: Let’s play! Stand in a circle.\nBiko: What do I do?\nNia: Pass the ball gently to the next player.\nBiko: Hooray! I caught it.\nNia: Oh! The ball is on the ground. Pick it up and try again.\nBiko: Now it is your turn.",
           "learn": [
-            "Use short turns to show actions and roles in a game."
+            "The first player passes the ball. The next player catches it.",
+            "Useful words: pass = passer; catch = attraper; gently = doucement; turn = tour; pick up = ramasser"
           ],
           "takeaway": "Use short turns to show actions and roles in a game.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Dramatising a game”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Use short turns to show actions and roles in a game.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U7-L1-E1",
+              "type": "open",
+              "prompt": "Where do the players stand?",
+              "answer": "They stand in a circle.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Dramatising a game ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Use short turns to show actions and roles in a game.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U7-L1-E2",
+              "type": "open",
+              "prompt": "What should a player do if the ball falls?",
+              "answer": "The player should pick it up and try again.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U7, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "The first player passes the ball. The next player catches it. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U7, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U7-L2",
@@ -362,28 +645,50 @@
           "objectives": [
             "Read the roles of players and numbers from 401 to 450."
           ],
-          "discover": "Think about the theme “Les jeux”. Listen, read or observe a short example before using English yourself.",
+          "discover": "A passing game\nNia: Let’s play! Stand in a circle.\nBiko: What do I do?\nNia: Pass the ball gently to the next player.\nBiko: Hooray! I caught it.\nNia: Oh! The ball is on the ground. Pick it up and try again.\nBiko: Now it is your turn.",
           "learn": [
-            "Identify who does what in a game."
+            "The first player passes the ball. The next player catches it.",
+            "Useful words: pass = passer; catch = attraper; gently = doucement; turn = tour; pick up = ramasser"
           ],
           "takeaway": "Identify who does what in a game.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Reading roles in a game”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Identify who does what in a game.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U7-L2-E1",
+              "type": "open",
+              "prompt": "Where do the players stand?",
+              "answer": "They stand in a circle.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Reading roles in a game ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Identify who does what in a game.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U7-L2-E2",
+              "type": "open",
+              "prompt": "What should a player do if the ball falls?",
+              "answer": "The player should pick it up and try again.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U7, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "The first player passes the ball. The next player catches it. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U7, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U7-L3",
@@ -391,28 +696,43 @@
           "objectives": [
             "Write the roles of players and numbers from 401 to 450."
           ],
-          "discover": "Think about the theme “Les jeux”. Listen, read or observe a short example before using English yourself.",
+          "discover": "A passing game\nNia: Let’s play! Stand in a circle.\nBiko: What do I do?\nNia: Pass the ball gently to the next player.\nBiko: Hooray! I caught it.\nNia: Oh! The ball is on the ground. Pick it up and try again.\nBiko: Now it is your turn.",
           "learn": [
-            "Use simple sentences to state player roles."
+            "The first player passes the ball. The next player catches it.",
+            "Useful words: pass = passer; catch = attraper; gently = doucement; turn = tour; pick up = ramasser"
           ],
           "takeaway": "Use simple sentences to state player roles.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Writing roles of players”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Use simple sentences to state player roles.",
-              "explanation": "",
-              "type": "open"
-            },
-            {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Writing roles of players ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Use simple sentences to state player roles.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U7-L3-E1",
+              "type": "open",
+              "prompt": "Write two short sentences using the model. Change the names or details.",
+              "answer": "The first player passes the ball. The next player catches it.",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U7, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "The first player passes the ball. The next player catches it. Change one name or one piece of information. Keep the sentence structure."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U7, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         },
         {
           "id": "EN-U7-L4",
@@ -420,28 +740,43 @@
           "objectives": [
             "Use interjections such as hi, great and hey appropriately."
           ],
-          "discover": "Think about the theme “Les jeux”. Listen, read or observe a short example before using English yourself.",
+          "discover": "A passing game\nNia: Let’s play! Stand in a circle.\nBiko: What do I do?\nNia: Pass the ball gently to the next player.\nBiko: Hooray! I caught it.\nNia: Oh! The ball is on the ground. Pick it up and try again.\nBiko: Now it is your turn.",
           "learn": [
-            "Interjections express feelings or get attention; use them politely and in context."
+            "An interjection is a short expression of feeling. Hooray! can show joy. Oh! can show surprise. Ouch! can express pain. The meaning depends on the situation and tone. Use a suitable voice without shouting near someone’s ear.",
+            "Useful words: pass = passer; catch = attraper; gently = doucement; turn = tour; pick up = ramasser"
           ],
           "takeaway": "Interjections express feelings or get attention; use them politely and in context.",
           "exercises": [
             {
-              "prompt": "Complete a short oral or written task for “Interjections in communication”.",
-              "answer": "A correct answer uses simple, clear English and follows this rule: Interjections express feelings or get attention; use them politely and in context.",
-              "explanation": "",
-              "type": "open"
-            },
-            {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Interjections in communication ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Interjections express feelings or get attention; use them politely and in context.",
-              "explanation": "",
-              "type": "open"
+              "id": "EN-U7-L4-E1",
+              "type": "open",
+              "prompt": "Choose a suitable interjection when your team succeeds: Hooray! or Ouch!",
+              "answer": "Hooray!",
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
             }
           ],
           "source": "Curriculum CE2, English Language, U7, pp.56-64.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Read, listen and act",
+              "kind": "activity",
+              "body": "Ask an adult to read the text once. Listen for the people and the action. Read it again together, then exchange roles. The adult gives the model before asking you to repeat."
+            },
+            {
+              "title": "A model you can change",
+              "kind": "example",
+              "body": "An interjection is a short expression of feeling. Hooray! can show joy. Oh! can show surprise. Ouch! can express pain. The meaning depends on the situation and tone. Use a suitable voice without shouting near someone’s ear."
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, English Language, U7, pp.56-64.",
+            "reviewer": null,
+            "revision": "v15-dialogue-specific"
+          }
         }
       ],
       "assessment": {
@@ -479,7 +814,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de English Language développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "BA",
@@ -503,20 +839,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Jeux traditionnels de la localité » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U7-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Jeux traditionnels de la localité ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "BA-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U7, pp.70-72.",
           "practical": [],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Parcours oral → lecture → écriture",
+              "kind": "method",
+              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
+            },
+            {
+              "title": "Travailler avec un locuteur compétent",
+              "kind": "activity",
+              "body": "À partir du thème « Les jeux », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Jeux traditionnels de la localité ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
+            },
+            {
+              "title": "Comparer sans mélanger",
+              "kind": "warning",
+              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, langues et cultures nationales, U7, pp.70-72.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -554,7 +915,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "MA",
@@ -567,28 +929,53 @@
           "objectives": [
             "Composer, décomposer, lire et écrire les entiers jusqu’à 10 000."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Nombres de 9 000 à 10 000 ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un compteur indique 9 998 points. Il gagne encore deux points. Quel nombre apparaît ?",
           "learn": [
             "10 000 est dix milliers ; je conserve la valeur de position de chaque chiffre."
           ],
           "takeaway": "10 000 est dix milliers ; je conserve la valeur de position de chaque chiffre.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Nombres de 9 000 à 10 000 » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : 10 000 est dix milliers ; je conserve la valeur de position de chaque chiffre. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L1-E1",
+              "type": "open",
+              "prompt": "Complète : 9 997, 9 998, …, …",
+              "answer": "9 999, 10 000.",
+              "explanation": "On ajoute 1 à chaque étape et on regroupe quand un rang atteint dix."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Nombres de 9 000 à 10 000 ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : 10 000 est dix milliers ; je conserve la valeur de position de chaque chiffre.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L1-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "On ajoute 1 à chaque étape et on regroupe quand un rang atteint dix.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U7, p.81.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "9 998 + 1 = 9 999 ; encore 1 donne 10 000. Dix milliers forment une dizaine de milliers. 9 604 = 9 000 + 600 + 4. Pour comparer 9 604 et 9 640, on compare les dizaines après les milliers et les centaines."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U7, p.81.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U7-L2",
@@ -596,28 +983,53 @@
           "objectives": [
             "Trouver le quadruple et le quart d’un nombre."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Quadruple et quart d’un nombre ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un jeu donne quatre fois 12 points. Un autre partage 48 points entre quatre équipes. Quels sont les résultats ?",
           "learn": [
             "Le quadruple correspond à quatre fois le nombre ; le quart correspond à une des quatre parts égales lorsque le partage est exact."
           ],
           "takeaway": "Le quadruple correspond à quatre fois le nombre ; le quart correspond à une des quatre parts égales lorsque le partage est exact.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Quadruple et quart d’un nombre » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le quadruple correspond à quatre fois le nombre ; le quart correspond à une des quatre parts égales lorsque le partage est exact. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L2-E1",
+              "type": "open",
+              "prompt": "Trouve le quadruple de 15 et le quart de 100.",
+              "answer": "60 et 25.",
+              "explanation": "4 × 15 = 60 ; 100 ÷ 2 = 50 puis 50 ÷ 2 = 25."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Quadruple et quart d’un nombre ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le quadruple correspond à quatre fois le nombre ; le quart correspond à une des quatre parts égales lorsque le partage est exact.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L2-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "4 × 15 = 60 ; 100 ÷ 2 = 50 puis 50 ÷ 2 = 25.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, U7, p.81.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Le quadruple de 12 est 4 × 12 = 48. Le quart de 48 est 48 ÷ 4 = 12. Ces deux opérations se vérifient l’une l’autre. Pour trouver un quart, on peut aussi prendre la moitié puis encore la moitié."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, nombres et calculs, U7, p.81.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U7-L3",
@@ -625,28 +1037,53 @@
           "objectives": [
             "Construire et appliquer la formule de calcul de l’aire du carré."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Aire du carré ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un plateau carré mesure 7 cm de côté. Combien de carrés de 1 cm² peut-il contenir ?",
           "learn": [
             "Aire du carré = côté × côté, avec une unité d’aire."
           ],
           "takeaway": "Aire du carré = côté × côté, avec une unité d’aire.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Aire du carré » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Aire du carré = côté × côté, avec une unité d’aire. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L3-E1",
+              "type": "open",
+              "prompt": "Calcule l’aire et le périmètre d’un carré de côté 5 cm.",
+              "answer": "Aire : 25 cm² ; périmètre : 20 cm.",
+              "explanation": "5 × 5 = 25 ; 4 × 5 = 20."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Aire du carré ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Aire du carré = côté × côté, avec une unité d’aire.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L3-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "5 × 5 = 25 ; 4 × 5 = 20.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, U7, p.87.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Il contient 7 rangées de 7 carrés : 7 × 7 = 49 cm². Pour un carré, aire = côté × côté. Son périmètre est différent : 4 × 7 = 28 cm. On ne mélange pas les unités cm et cm²."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, mesures et grandeurs, U7, p.87.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U7-L4",
@@ -654,28 +1091,53 @@
           "objectives": [
             "Utiliser le rapporteur pour mesurer des angles."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Mesurer un angle avec le rapporteur ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux chemins se rencontrent en formant un angle. Comment mesurer son ouverture avec un rapporteur ?",
           "learn": [
             "Je place le centre du rapporteur sur le sommet et j’aligne correctement un côté avant de lire la graduation."
           ],
           "takeaway": "Je place le centre du rapporteur sur le sommet et j’aligne correctement un côté avant de lire la graduation.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Mesurer un angle avec le rapporteur » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je place le centre du rapporteur sur le sommet et j’aligne correctement un côté avant de lire la graduation. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L4-E1",
+              "type": "open",
+              "prompt": "Avec l’adulte, trace un angle de 60° puis un angle de 120°. Compare-les à un angle droit.",
+              "answer": "60° est aigu ; 120° est obtus.",
+              "explanation": "Place le sommet, trace un premier côté, repère la mesure, marque un point puis trace le second côté."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Mesurer un angle avec le rapporteur ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je place le centre du rapporteur sur le sommet et j’aligne correctement un côté avant de lire la graduation.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L4-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "Place le sommet, trace un premier côté, repère la mesure, marque un point puis trace le second côté.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, U7, p.87.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Place le centre du rapporteur sur le sommet. Aligne le zéro d’une graduation avec un côté. Lis sur cette même graduation le nombre rencontré par l’autre côté. Avant de lire, estime : aigu ou obtus ? Si l’angle paraît aigu, une lecture de 140° au lieu de 40° indique probablement le mauvais sens de graduation."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, mesures et grandeurs, U7, p.87.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         },
         {
           "id": "MA-U7-L5",
@@ -683,28 +1145,53 @@
           "objectives": [
             "Localiser un point sur un repère à partir de ses coordonnées."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Coordonnées d’un point ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur un repère gradué, le point A a pour coordonnées (3 ; 2). Comment le placer ?",
           "learn": [
             "Je lis les axes dans l’ordre convenu et je vérifie l’intersection des deux repères."
           ],
           "takeaway": "Je lis les axes dans l’ordre convenu et je vérifie l’intersection des deux repères.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Coordonnées d’un point » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lis les axes dans l’ordre convenu et je vérifie l’intersection des deux repères. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L5-E1",
+              "type": "open",
+              "prompt": "Place B(1 ; 4) et C(4 ; 1). Sont-ils confondus ?",
+              "answer": "Non. B est à 1 horizontalement et 4 verticalement ; C à 4 horizontalement et 1 verticalement.",
+              "explanation": "Les deux coordonnées n’ont pas le même rôle."
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Coordonnées d’un point ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lis les axes dans l’ordre convenu et je vérifie l’intersection des deux repères.",
-              "explanation": "",
-              "type": "open"
+              "id": "MA-U7-L5-E2",
+              "type": "open",
+              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
+              "answer": "Les deux coordonnées n’ont pas le même rôle.",
+              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
             }
           ],
           "source": "Curriculum CE2, géométrie, U7, p.91.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Exemple résolu pas à pas",
+              "kind": "example",
+              "body": "Depuis l’origine, avance de 3 unités sur l’axe horizontal puis monte de 2 unités. Marque le point à l’intersection. L’ordre compte : (2 ; 3) désigne un autre point. Lis d’abord l’axe horizontal puis l’axe vertical."
+            },
+            {
+              "title": "Je vérifie ma démarche",
+              "kind": "method",
+              "items": [
+                "Je précise ce que je cherche.",
+                "J’explique mes étapes et mes unités.",
+                "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            }
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending",
+            "source": "Curriculum CE2, géométrie, U7, p.91.",
+            "reviewer": null,
+            "revision": "v15-example-specific"
+          }
         }
       ],
       "assessment": {
@@ -742,7 +1229,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Mathématiques développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "SC",
@@ -765,18 +1253,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Muscles, os, flexion et extension » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U7-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Muscles, os, flexion et extension ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U7, p.99.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « Muscles, os, flexion et extension », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Muscles, os, flexion et extension » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « muscles, os, flexion et extension ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sciences de la vie, U7, p.99.",
+            "reviewer": null
+          }
         },
         {
           "id": "SC-U7-L2",
@@ -794,20 +1312,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « La pile dans un jouet » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U7-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « La pile dans un jouet ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SC-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, technologies, U7, p.103.",
           "practical": [],
           "notes": [
             "Ne jamais ouvrir, chauffer ou court-circuiter une pile."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Observer, expliquer, conclure",
+              "kind": "method",
+              "body": "Pour étudier « La pile dans un jouet », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+            },
+            {
+              "title": "Exemple guidé",
+              "kind": "example",
+              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « La pile dans un jouet » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+            },
+            {
+              "title": "Relier la science à la vie quotidienne",
+              "kind": "activity",
+              "body": "Trouve autour de toi un exemple lié à « la pile dans un jouet ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+            },
+            {
+              "title": "Sécurité et esprit scientifique",
+              "kind": "warning",
+              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, technologies, U7, p.103.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -845,7 +1393,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Sciences et technologies développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "TI",
@@ -868,18 +1417,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Organiser une information pour un programme » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Avant de programmer, je classe les informations et je choisis l’ordre le plus clair. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U7-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Organiser une information pour un programme ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Avant de programmer, je classe les informations et je choisis l’ordre le plus clair.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, programmation, U7, p.117.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Organiser une information pour un programme », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Organiser une information pour un programme » et donne un exemple adapté au thème « Les jeux ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Avant de programmer, je classe les informations et je choisis l’ordre le plus clair. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « Les jeux » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, programmation, U7, p.117.",
+            "reviewer": null
+          }
         },
         {
           "id": "TI-U7-L2",
@@ -898,18 +1482,53 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Algorithme et programme simple » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U7-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Algorithme et programme simple ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "TI-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, programmation, U7, p.117.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Comprendre l’action avant de cliquer",
+              "kind": "method",
+              "body": "Dans « Algorithme et programme simple », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+            },
+            {
+              "title": "Procédure guidée",
+              "kind": "example",
+              "body": "Activité : Explique avec tes mots l’idée essentielle de « Algorithme et programme simple » et donne un exemple adapté au thème « Les jeux ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+            },
+            {
+              "title": "Bonnes habitudes numériques",
+              "kind": "warning",
+              "items": [
+                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
+                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
+                "Vérifier la source d’une information avant de la croire ou de la partager.",
+                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
+              ]
+            },
+            {
+              "title": "Je pratique",
+              "kind": "activity",
+              "body": "Réalise une petite tâche liée à « Les jeux » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, programmation, U7, p.117.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -947,7 +1566,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de TIC développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "SH",
@@ -970,18 +1590,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Endurance et effort » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Endurance et effort ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U7, p.124.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Endurance et effort » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Endurance et effort » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, éducation morale, U7, p.124.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U7-L2",
@@ -999,18 +1649,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Modestie » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Modestie ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U7, p.124.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Modestie » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Modestie » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, éducation morale, U7, p.124.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U7-L3",
@@ -1028,18 +1708,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Droit au jeu et aux loisirs » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Droit au jeu et aux loisirs ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L3-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’enfant, U7, p.126.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Droit au jeu et aux loisirs » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Droit au jeu et aux loisirs » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, droits de l’enfant, U7, p.126.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U7-L4",
@@ -1057,18 +1767,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Vivre ensemble pendant les jeux » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte mes partenaires, mes adversaires, les règles et les décisions communes. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L4-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vivre ensemble pendant les jeux ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte mes partenaires, mes adversaires, les règles et les décisions communes.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L4-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U7, p.128.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Vivre ensemble pendant les jeux » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Vivre ensemble pendant les jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte mes partenaires, mes adversaires, les règles et les décisions communes. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, paix et sécurité, U7, p.128.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U7-L5",
@@ -1086,18 +1826,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité pendant les jeux » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L5-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité pendant les jeux ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L5-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U7, p.128.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Sécurité pendant les jeux » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Sécurité pendant les jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, paix et sécurité, U7, p.128.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U7-L6",
@@ -1115,18 +1885,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Intégration nationale » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’intégration nationale valorise la coexistence, la coopération et le respect entre citoyens venant de régions et de cultures différentes. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L6-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Intégration nationale ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’intégration nationale valorise la coexistence, la coopération et le respect entre citoyens venant de régions et de cultures différentes.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L6-E2"
             }
           ],
           "source": "Curriculum CE2, citoyenneté, U7, p.130.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Intégration nationale » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Intégration nationale » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’intégration nationale valorise la coexistence, la coopération et le respect entre citoyens venant de régions et de cultures différentes. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, citoyenneté, U7, p.130.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U7-L7",
@@ -1144,18 +1944,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Établir et appliquer les règles d’un jeu » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une règle de jeu doit être comprise avant de commencer et s’appliquer de la même façon aux participants. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L7-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Établir et appliquer les règles d’un jeu ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une règle de jeu doit être comprise avant de commencer et s’appliquer de la même façon aux participants.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L7-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U7, p.133.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Établir et appliquer les règles d’un jeu » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Établir et appliquer les règles d’un jeu » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Une règle de jeu doit être comprise avant de commencer et s’appliquer de la même façon aux participants. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, règles et règlements, U7, p.133.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U7-L8",
@@ -1173,20 +2003,50 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Personnalités historiques du Cameroun » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum cite ces personnalités ; les notices biographiques et le contexte historique doivent être vérifiés avant publication. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L8-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Personnalités historiques du Cameroun ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le curriculum cite ces personnalités ; les notices biographiques et le contexte historique doivent être vérifiés avant publication.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L8-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U7, p.136.",
           "practical": [],
           "notes": [
             "Vérifier les biographies sur des sources historiques fiables."
-          ]
+          ],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Personnalités historiques du Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Personnalités historiques du Cameroun » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum cite ces personnalités ; les notices biographiques et le contexte historique doivent être vérifiés avant publication. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, histoire, U7, p.136.",
+            "reviewer": null
+          }
         },
         {
           "id": "SH-U7-L9",
@@ -1204,18 +2064,48 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Brassage des populations » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les rencontres entre populations favorisent échanges, connaissance mutuelle et coopération lorsqu’elles respectent les droits et les identités de chacun. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L9-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Brassage des populations ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les rencontres entre populations favorisent échanges, connaissance mutuelle et coopération lorsqu’elles respectent les droits et les identités de chacun.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "SH-U7-L9-E2"
             }
           ],
           "source": "Curriculum CE2, géographie humaine, U7, p.141.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Partir d’une situation réelle",
+              "kind": "text",
+              "body": "La notion « Brassage des populations » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+            },
+            {
+              "title": "Étude de cas guidée",
+              "kind": "example",
+              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Brassage des populations » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les rencontres entre populations favorisent échanges, connaissance mutuelle et coopération lorsqu’elles respectent les droits et les identités de chacun. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
+            },
+            {
+              "title": "Je réfléchis et j’argumente",
+              "kind": "activity",
+              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
+            },
+            {
+              "title": "Vocabulaire de la leçon",
+              "kind": "method",
+              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, géographie humaine, U7, p.141.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1253,7 +2143,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Sciences humaines et sociales développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "AR",
@@ -1277,18 +2168,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Décrire et fabriquer un instrument de musique » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère comment l’instrument produit le son et je fabrique uniquement avec du matériel sans danger. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U7-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Décrire et fabriquer un instrument de musique ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère comment l’instrument produit le son et je fabrique uniquement avec du matériel sans danger.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U7, p.146.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Décrire et fabriquer un instrument de musique », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les jeux ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, musique, U7, p.146.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U7-L2",
@@ -1309,18 +2225,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Jouer un sketch : voix, gestes et attitudes » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le jeu dramatique utilise voix, gestes et attitudes pour faire comprendre un personnage ou une situation. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U7-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Jouer un sketch : voix, gestes et attitudes ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le jeu dramatique utilise voix, gestes et attitudes pour faire comprendre un personnage ou une situation.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, arts dramatiques, U7, p.148.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Jouer un sketch : voix, gestes et attitudes », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les jeux ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, arts dramatiques, U7, p.148.",
+            "reviewer": null
+          }
         },
         {
           "id": "AR-U7-L3",
@@ -1339,18 +2280,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Identifier des rythmes et danser sur une cadence » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère une pulsation régulière et j’adapte mes mouvements au rythme. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U7-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Identifier des rythmes et danser sur une cadence ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère une pulsation régulière et j’adapte mes mouvements au rythme.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "AR-U7-L3-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U7, p.149.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Observer avant de créer",
+              "kind": "method",
+              "body": "Pour « Identifier des rythmes et danser sur une cadence », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
+            },
+            {
+              "title": "Créer, regarder, améliorer",
+              "kind": "activity",
+              "body": "Réalise une production courte liée à « Les jeux ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
+            },
+            {
+              "title": "Respecter le matériel et les autres",
+              "kind": "warning",
+              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, danse, U7, p.149.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1388,7 +2354,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "EP",
@@ -1413,18 +2380,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Principes et règles élémentaires du volleyball » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U7-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Principes et règles élémentaires du volleyball ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U7, pp.155-156.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer le corps",
+              "kind": "method",
+              "body": "Avant l’activité « Principes et règles élémentaires du volleyball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
+            },
+            {
+              "title": "Apprendre le geste en étapes",
+              "kind": "activity",
+              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
+            },
+            {
+              "title": "Sécurité et respect",
+              "kind": "warning",
+              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sports collectifs, U7, pp.155-156.",
+            "reviewer": null
+          }
         },
         {
           "id": "EP-U7-L2",
@@ -1443,20 +2435,45 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Se déplacer, passer et recevoir au volleyball » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U7-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Se déplacer, passer et recevoir au volleyball ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "EP-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U7, pp.155-156.",
           "practical": [
             "Échauffement, espace dégagé, ballon adapté à l’âge et consignes de sécurité."
           ],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer le corps",
+              "kind": "method",
+              "body": "Avant l’activité « Se déplacer, passer et recevoir au volleyball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
+            },
+            {
+              "title": "Apprendre le geste en étapes",
+              "kind": "activity",
+              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
+            },
+            {
+              "title": "Sécurité et respect",
+              "kind": "warning",
+              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, sports collectifs, U7, pp.155-156.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1494,7 +2511,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     },
     {
       "id": "DP",
@@ -1517,18 +2535,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Construire des jouets avec les matériaux de l’environnement » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis du matériel propre, non coupant et réutilisable et je respecte les mesures du modèle. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U7-L1-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Construire des jouets avec les matériaux de l’environnement ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis du matériel propre, non coupant et réutilisable et je respecte les mesures du modèle.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, artisanat et constructions artistiques, U7, p.162.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Construire des jouets avec les matériaux de l’environnement », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, artisanat et constructions artistiques, U7, p.162.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U7-L2",
@@ -1546,18 +2589,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Récolter, consommer ou commercialiser les produits du jardin » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je récolte au bon moment, manipule proprement les produits et comprends la différence entre consommation et vente. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U7-L2-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Récolter, consommer ou commercialiser les produits du jardin ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je récolte au bon moment, manipule proprement les produits et comprends la différence entre consommation et vente.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U7, p.164.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Récolter, consommer ou commercialiser les produits du jardin », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités agropastorales, U7, p.164.",
+            "reviewer": null
+          }
         },
         {
           "id": "DP-U7-L3",
@@ -1576,18 +2644,43 @@
               "prompt": "Explique avec tes mots l’idée essentielle de « Entretenir l’animal et préparer un menu de croissance » et donne un exemple adapté au thème « Les jeux ».",
               "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je prends soin du vivant avec un adulte et je compose un menu varié et équilibré. L’exemple doit être cohérent avec la situation étudiée.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U7-L3-E1"
             },
             {
               "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Entretenir l’animal et préparer un menu de croissance ».",
               "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je prends soin du vivant avec un adulte et je compose un menu varié et équilibré.",
               "explanation": "",
-              "type": "open"
+              "type": "open",
+              "id": "DP-U7-L3-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales p.164 et domestiques p.167, U7.",
           "practical": [],
-          "notes": []
+          "notes": [],
+          "manual_sections": [
+            {
+              "title": "Préparer avant d’agir",
+              "kind": "method",
+              "body": "Dans l’activité « Entretenir l’animal et préparer un menu de croissance », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
+            },
+            {
+              "title": "Réaliser puis contrôler",
+              "kind": "activity",
+              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
+            },
+            {
+              "title": "Sécurité",
+              "kind": "warning",
+              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+            }
+          ],
+          "editorial": {
+            "status": "draft",
+            "validation": "pending",
+            "source": "Curriculum CE2, activités agropastorales p.164 et domestiques p.167, U7.",
+            "reviewer": null
+          }
         }
       ],
       "assessment": {
@@ -1625,7 +2718,8 @@
         "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
         "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
         "Proposer une activité courte ciblée sur l’erreur observée."
-      ]
+      ],
+      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
     }
   ],
   "integration_project": {

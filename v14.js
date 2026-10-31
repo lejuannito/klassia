@@ -144,7 +144,7 @@ async function subjectAllPage(id){
 function injectBrowseTabs(){
   if(location.hash==='#learn'&&document.querySelector('.page-head')&&!document.querySelector('.browse-tabs-v14')){
     const ph=document.querySelector('.page-head');
-    ph.insertAdjacentHTML('beforebegin',`<div class="browse-tabs-v14"><button class="active">Par thème / unité</button><button onclick="location.hash='#subjects-all'">Par matière</button><button id="printUnitV14">🖨 Thème / PDF</button></div>`);
+    ph.insertAdjacentHTML('beforebegin',`<div class="browse-tabs-v14 klassia-learning-mode"><button class="active">Par thème / unité</button><button onclick="location.hash='#subjects-all'">Par matière</button><button id="printUnitV14">🖨 Thème / PDF</button></div>`);
     document.getElementById('printUnitV14').onclick=printCurrentUnit;
   }
   if(location.hash.startsWith('#subject:')){

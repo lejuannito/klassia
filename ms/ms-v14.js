@@ -108,7 +108,7 @@ function domainAllPage(id){
 function injectHomeEnhancements(){
  if(location.hash&&location.hash!=='#home')return;
  const hero=document.querySelector('.hero');if(!hero||document.querySelector('.browseTabs'))return;
- hero.insertAdjacentHTML('afterend',`<div class="browseTabs"><button class="active">Par thème</button><button onclick="location.hash='#domains-all'">Par domaine</button><button id="printTheme14">🖨 Thème / PDF</button></div><section class="workbookPromo"><div><b>✍️ Cahier sans écran</b><p>Coloriage, formation des lettres et chiffres, graphisme à imprimer.</p></div><button class="classBtn" onclick="location.hash='#worksheets'">Ouvrir le cahier</button></section>`);
+    hero.insertAdjacentHTML('afterend',`<div class="browseTabs klassia-learning-mode"><button class="active">Par thème</button><button onclick="location.hash='#domains-all'">Par domaine</button><button id="printTheme14">🖨 Thème / PDF</button></div><section class="workbookPromo"><div><b>✍️ Cahier sans écran</b><p>Coloriage, formation des lettres et chiffres, graphisme à imprimer.</p></div><button class="classBtn" onclick="location.hash='#worksheets'">Ouvrir le cahier</button></section>`);
  document.getElementById('printTheme14').onclick=printTheme;
 }
 function injectDomainPrints(){

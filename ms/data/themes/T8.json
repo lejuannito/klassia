@@ -377,7 +377,25 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Prends 5 jetons pour représenter des voyageurs.",
+            "Place 3 voyageurs dans un bus dessiné et 2 à côté.",
+            "Fais monter les 2 derniers, puis compte chaque voyageur une fois."
+          ],
+          "steps_en": [
+            "Take 5 counters to represent travellers.",
+            "Put 3 on a drawn bus and 2 beside it.",
+            "Move the last 2 onto the bus and count each traveller once."
+          ],
+          "questions": [
+            {
+              "fr": "Combien de voyageurs sont maintenant dans le bus ?",
+              "en": "How many travellers are on the bus now?",
+              "answer": "5 voyageurs / 5 travellers : les deux groupes de 3 et 2 sont réunis."
+            }
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T8-ST3",
@@ -551,7 +569,25 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Pose un rectangle de papier pour le corps du véhicule.",
+            "Ajoute deux ronds pour les roues, ou des triangles pour les ailes.",
+            "Explique où va ton véhicule, puis colle tes formes."
+          ],
+          "steps_en": [
+            "Put down a paper rectangle for the vehicle body.",
+            "Add two circles for wheels, or triangles for wings.",
+            "Say where your vehicle is going, then glue the shapes."
+          ],
+          "questions": [
+            {
+              "fr": "Quelle forme as-tu choisie pour une roue ou une aile ?",
+              "en": "Which shape did you choose for a wheel or a wing?",
+              "answer": "L’enfant nomme ou montre son choix et son usage / The child names or points to the chosen shape and explains its use. Il n’y a pas de modèle unique."
+            }
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T8-AR2",
@@ -595,7 +631,25 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Assis ou debout, frappe deux fois dans les mains puis attends.",
+            "Répète ce motif trois fois avec l’adulte.",
+            "Au mot « stop », immobilise tes mains. Invente ensuite un motif lent."
+          ],
+          "steps_en": [
+            "Sitting or standing, clap twice, then pause.",
+            "Repeat the pattern three times with the adult.",
+            "When you hear “stop”, keep your hands still. Invent a slow pattern."
+          ],
+          "questions": [
+            {
+              "fr": "Que fais-tu lorsque tu entends « stop » ?",
+              "en": "What do you do when you hear “stop”?",
+              "answer": "J’arrête le geste / I stop moving. Observer l’écoute du signal, sans exiger une synchronisation parfaite."
+            }
+          ],
+          "duration_minutes": 10
         }
       ]
     },

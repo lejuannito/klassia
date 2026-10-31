@@ -43,7 +43,7 @@ async function boot() {
     if (!r.ok) throw new Error('Catalogue des unités indisponible');
     return r.json();
   });
-  const preferred = Klassia.storage.getItem(S.unit) || catalog.default_unit || catalog.units[0].id;
+  const preferred = new URLSearchParams(location.search).get('unit') || Klassia.storage.getItem(S.unit) || catalog.default_unit || catalog.units[0].id;
   await loadUnit(catalog.units.some(u => u.id === preferred) ? preferred : catalog.units[0].id);
   route();
 }

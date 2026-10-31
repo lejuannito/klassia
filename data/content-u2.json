@@ -911,7 +911,7 @@
           ],
           "discover": "Dans une communauté, la manière de saluer ou de demander un service dépend de la langue, du contexte, de l’âge des interlocuteurs et des règles de politesse.",
           "learn": [
-            "Cette leçon doit être construite à partir de formules Bassa authentifiées et enregistrées par un locuteur compétent.",
+            "Cette leçon utilise les formules documentaires ci-dessous comme propositions provisoires; leur prononciation et leur usage contextuel restent à vérifier avec un locuteur compétent.",
             "L’élève écoute, repère les différences de ton, associe chaque formule à une situation puis la réemploie dans un jeu de rôle."
           ],
           "takeaway": "Je choisis une formule adaptée à la situation et je respecte la prononciation validée.",
@@ -929,6 +929,13 @@
               "explanation": "",
               "type": "open",
               "id": "BA-U2-L1-E2"
+            },
+            {
+              "id": "BA-U2-L1-DOC1",
+              "type": "open",
+              "prompt": "Choisis une entrée du lexique documentaire ci-dessus. Associe son sens à l’une des formes bassa proposées et précise la source.",
+              "answer": "Toute forme affichée dans l’entrée choisie est recevable pour cet entraînement provisoire si le sens et la source correspondent. Ce résultat ne vaut pas validation linguistique.",
+              "explanation": "Compare le sens de l’entrée et ses variantes. Pour l’arbitrage, utilise l’atelier Bassa."
             }
           ],
           "source": "Curriculum CE2, Langues et cultures nationales, Unité 2, p.70.",
@@ -951,6 +958,15 @@
               "title": "Comparer sans mélanger",
               "kind": "warning",
               "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
+            },
+            {
+              "title": "Lexique documentaire disponible — propositions non validées",
+              "kind": "text",
+              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
+              "items": [
+                "salue-moi / greet me : Yègá mɛ̀ — Sources : Resulam/Bitjaa Kody 2020",
+                "s’il te plaît / please : Sɔ́hɔ́ — Sources : Resulam/Bitjaa Kody 2020"
+              ]
             }
           ],
           "editorial": {

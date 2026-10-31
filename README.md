@@ -4,7 +4,7 @@ Manuel interactif camerounais pour un usage **accompagné**. Cette branche conso
 
 ## Utiliser
 
-Ouvrir la racine du site pour le CE2, `ms/` pour la moyenne section, `sil/` pour la SIL ou `ce1/` pour le CE1. Le bouton « Changer d’espace » permet de passer aux vues enfant, parent, enseignant ou administration locale. Le lien « Validation pédagogique » reste visible dans toutes les classes. Ces espaces sont des vues locales sans compte sécurisé; les décisions de revue restent sur l’appareil et sont exportables. Le lien « Revue pédagogique » reste visible dans toutes les classes. Ces espaces sont des vues locales sans compte sécurisé; les décisions de revue restent sur l’appareil et sont exportables. Aucun téléphone ni mot de passe n’est demandé ; il ne s’agit pas de comptes sécurisés.
+Ouvrir la racine du site pour le CE2, `ms/` pour la moyenne section, `sil/` pour la SIL ou `ce1/` pour le CE1. Le bouton « Changer d’espace » permet de passer aux vues enfant, parent, enseignant ou administration locale. Le lien « Validation pédagogique » reste visible dans toutes les classes. Ces espaces sont des vues locales sans compte sécurisé; les décisions de revue restent sur l’appareil et sont exportables. Aucun téléphone ni mot de passe n’est demandé ; il ne s’agit pas de comptes sécurisés.
 
 Attendre le message **« CE2, MS, SIL et CE1 disponibles hors connexion »** avant de couper la connexion. Une mise à jour incomplète n’active pas une édition partielle. Une nouvelle édition vérifiée propose un rechargement explicite. L’export manuel reste nécessaire avant de changer d’appareil ou de vider les données du navigateur.
 
@@ -74,3 +74,7 @@ Le CE1 est amorcé à `/ce1/` par l’unité 1 « La maison / The home », avec 
 Le bouton **Profil : …** ouvre le choix de l’enfant et de l’espace affiché (Enfant, Parent, Enseignant ou Administration). Le menu **Classe : …**, présent dans les espaces CE2, MS, SIL et CE1, permet de passer d’un parcours à l’autre. Depuis un affichage Enseignant/Administration, il propose aussi les accès à la revue éditoriale et à l’atelier Bassa. Klassia ne possède pas de connexion à un compte ni de déconnexion serveur : les profils et rôles sont locaux à l’appareil.
 
 Dans l’espace Enseignant, la page Revue éditoriale permet désormais de consigner les décisions directement depuis l’interface, puis d’exporter un relevé JSON. Les décisions restent enregistrées dans le navigateur utilisé et doivent être reprises par l’équipe éditoriale pour rejoindre les sources du dépôt.
+
+## Revue d’ensemble et grande section
+
+Voir le [bilan de revue](docs/REVUE_ENSEMBLE.md), les [curricula retrouvés pour la grande section](docs/GRANDE_SECTION_CURRICULUM.md) et l’[audit reproductible](docs/content-audit.json). Exécuter `npm run audit:content` après `npm run catalog`. Huit unités structurées ne prouvent pas une couverture annuelle exhaustive.

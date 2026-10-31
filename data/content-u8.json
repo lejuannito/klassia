@@ -803,7 +803,7 @@
           "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Communications traditionnelles ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
           "learn": [
             "Le parcours Klassia prépare la situation, les images, les intentions de communication et la progression pédagogique en français.",
-            "Les mots, phrases, tons, variantes dialectales et audios Bassa ne sont publiés qu’après validation d’un référent linguistique compétent."
+            "Les propositions documentaires disponibles sont consultables avec leur source et la mention « non validé ». Les phrases et audios non documentés restent à compléter; un référent peut arbitrer les formes proposées."
           ],
           "takeaway": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
           "exercises": [
@@ -820,6 +820,13 @@
               "explanation": "",
               "type": "open",
               "id": "BA-U8-L1-E2"
+            },
+            {
+              "id": "BA-U8-L1-DOC1",
+              "type": "open",
+              "prompt": "Choisis une entrée du lexique documentaire ci-dessus. Associe son sens à l’une des formes bassa proposées et précise la source.",
+              "answer": "Toute forme affichée dans l’entrée choisie est recevable pour cet entraînement provisoire si le sens et la source correspondent. Ce résultat ne vaut pas validation linguistique.",
+              "explanation": "Compare le sens de l’entrée et ses variantes. Pour l’arbitrage, utilise l’atelier Bassa."
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U8, pp.70-72.",
@@ -842,6 +849,15 @@
               "title": "Comparer sans mélanger",
               "kind": "warning",
               "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
+            },
+            {
+              "title": "Lexique documentaire disponible — propositions non validées",
+              "kind": "text",
+              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
+              "items": [
+                "livre / book : káat / Kaat añ — Sources : CNRS/LGIDF Basaa ; Culture Basaa (Pondi Pondi, 2009)",
+                "cahier / notebook : Héfté / Héfté matila — Sources : Culture Basaa (Pondi Pondi, 2009)"
+              ]
             }
           ],
           "editorial": {

@@ -121,13 +121,13 @@
       "title": "Représenter et interpréter des données simples",
       "objective": "Compléter un tableau à double entrée et représenter des données simples en indiquant clairement les lignes, colonnes et repères.",
       "course": "Un tableau organise les données selon deux catégories. Un graphique simple reprend ces informations avec une légende et une origine indiquées.",
-      "model": "Dans le tableau « outil / lieu », on coche où chaque outil fictif est utilisé.",
-      "guided": "Lire une petite table puis recopier une donnée dans un graphique à cases.",
-      "exercise": "Quel outil du tableau apparaît au lieu « place » ?",
-      "answer": "Réponse lue dans la case correspondante.",
+      "model": "Je suis la ligne École jusqu’à la colonne Nombre de messages : je lis 3.",
+      "guided": "Lis les titres des colonnes. Cherche la ligne Place et suis-la jusqu’à la colonne Outil.",
+      "exercise": "Quel outil est utilisé sur la place ? Combien de messages y sont transmis ?",
+      "answer": "Un tambour; 2 messages. Les deux informations appartiennent à la ligne Place.",
       "remediation": "Suivre une ligne avec le doigt, puis une colonne.",
       "transfer": "Interpréter un résultat dans le panneau fictif.",
-      "materials": "Tableaux et graphiques à cases",
+      "materials": "Le tableau fourni ci-dessus.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
         "pages": "CE1 uniquement · tableau géométrie et espace · p. 91",
@@ -141,6 +141,46 @@
       },
       "competencies": [
         "géométrie et espace"
+      ],
+      "support": {
+        "title": "Moyens de communication dans une scène fictive",
+        "table": {
+          "caption": "Un outil pour chaque lieu",
+          "headers": [
+            "Lieu",
+            "Outil",
+            "Nombre de messages"
+          ],
+          "rows": [
+            [
+              "École",
+              "Affiche",
+              3
+            ],
+            [
+              "Place",
+              "Tambour",
+              2
+            ],
+            [
+              "Maison",
+              "Téléphone",
+              4
+            ]
+          ]
+        }
+      },
+      "practice": [
+        {
+          "prompt": "Combien de messages sont transmis dans les trois lieux réunis ?",
+          "answer": "9 messages.",
+          "explanation": "3 + 2 + 4 = 9."
+        },
+        {
+          "prompt": "Quel lieu transmet le plus de messages ?",
+          "answer": "La maison : 4 messages.",
+          "explanation": "4 est supérieur à 3 et à 2."
+        }
       ]
     },
     {
@@ -317,11 +357,11 @@
       "domain": "Langues et cultures nationales",
       "title": "Nommer des outils traditionnels de communication",
       "objective": "Nommer des outils traditionnels de communication d’une localité et décrire une situation où ils servent à transmettre un message.",
-      "course": "Le curriculum CE1 demande de nommer des outils traditionnels et de décrire une situation de communication. Le vocabulaire dépend de la communauté et doit être sourcé.",
+      "course": "Le curriculum CE1 demande de nommer des outils traditionnels et de décrire une situation de communication. Le vocabulaire dépend de la communauté et doit être sourcé. Les entrées ci-dessous sont des propositions documentaires non validées. Elles ne suffisent pas à traduire toutes les phrases de cette leçon; les expressions absentes du lexique ne sont pas inventées.",
       "model": "Comparer des propositions lexicales documentées et leurs variantes, puis associer une forme à l’objet représenté.",
-      "guided": "L’enseignant choisit une image culturellement appropriée; l’élève nomme l’objet selon les variantes visibles et décrit le message joué.",
-      "exercise": "À qui peut-on transmettre un message dans la scène fictive ?",
-      "answer": "À une personne proche ou éloignée selon le moyen représenté; plusieurs formulations sont acceptées.",
+      "guided": "Compare deux entrées proposées, leurs sens et leurs sources. Associe chaque forme à son sens, puis explique ton choix.",
+      "exercise": "Choisis une entrée du lexique ci-dessous. Dis son sens en français, puis lis ou recopie une des formes bassa proposées.",
+      "answer": "Le sens doit correspondre à l’entrée choisie. Toutes ses formes documentées sont des réponses provisoirement recevables; consulte les sources et l’arbitrage dans l’atelier Bassa.",
       "remediation": "Faire d’abord identifier l’image, puis le destinataire fictif.",
       "transfer": "Jouer une transmission traditionnelle en citant la langue et la variante affichées.",
       "materials": "Images contextualisées, lexique documenté avec sources et variantes",
@@ -338,6 +378,41 @@
       },
       "competencies": [
         "proposition documentaire et médiation locale"
+      ],
+      "proposedWords": [
+        {
+          "concept": "livre / book",
+          "forms": [
+            "káat",
+            "Kaat añ"
+          ],
+          "sources": [
+            "CNRS/LGIDF Basaa",
+            "Culture Basaa (Pondi Pondi, 2009)"
+          ],
+          "notes": [
+            "káat = livre dans la fiche linguistique ; Kaat añ = livre de lecture dans le lexique scolaire."
+          ],
+          "themes": [
+            "T1"
+          ]
+        },
+        {
+          "concept": "cahier / notebook",
+          "forms": [
+            "Héfté",
+            "Héfté matila"
+          ],
+          "sources": [
+            "Culture Basaa (Pondi Pondi, 2009)"
+          ],
+          "notes": [
+            "Héfté matila y est donné comme cahier d’écriture."
+          ],
+          "themes": [
+            "T1"
+          ]
+        }
       ]
     }
   ]

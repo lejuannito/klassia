@@ -82,7 +82,14 @@
         "reviewer": null,
         "validated_at": null,
         "notes": "Proposition de contenu à relire par un enseignant de la classe."
-      }
+      },
+      "practice": [
+        {
+          "prompt": "Il y a 3 jetons. Tu les retires tous. Combien en reste-t-il ?",
+          "answer": "0 jeton.",
+          "explanation": "Zéro représente ici une collection vide."
+        }
+      ]
     },
     {
       "id": "SIL-U3-L04",

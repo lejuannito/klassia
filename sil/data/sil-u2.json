@@ -82,7 +82,14 @@
         "reviewer": null,
         "validated_at": null,
         "notes": "Proposition de contenu à relire par un enseignant de la classe."
-      }
+      },
+      "practice": [
+        {
+          "prompt": "Sépare 8 jetons en deux groupes : 5 et combien ?",
+          "answer": "5 et 3.",
+          "explanation": "Réunis les deux groupes pour vérifier : 5 + 3 = 8."
+        }
+      ]
     },
     {
       "id": "SIL-U2-L04",

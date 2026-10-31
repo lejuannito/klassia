@@ -989,7 +989,7 @@
           "discover": "L’élève prépare un très court récit d’une activité scolaire passée : arrivée à l’école, activité en classe, récréation, travail de groupe ou autre situation réellement vécue.",
           "learn": [
             "Le curriculum demande une production de cinq phrases maximum portant sur des activités passées à l’école.",
-            "Klassia ne fournit pas ici de phrases Bassa inventées : les formes verbales, le lexique scolaire, les tons et la prononciation doivent être fournis et validés par un spécialiste Bassa selon le référentiel orthographique retenu.",
+            "Klassia ne fournit pas ici de phrases Bassa inventées : le lexique scolaire documenté reste visible ci-dessous; les constructions verbales, les tons et la prononciation du récit nécessitent encore une vérification spécialisée.",
             "La progression pédagogique peut suivre : écouter un modèle validé → remettre les événements dans l’ordre → répéter → produire 3 à 5 phrases."
           ],
           "takeaway": "Je raconte brièvement une activité passée à l’école avec des formes Bassa validées.",
@@ -1007,6 +1007,13 @@
               "explanation": "",
               "type": "open",
               "id": "BA-U3-L1-E2"
+            },
+            {
+              "id": "BA-U3-L1-DOC1",
+              "type": "open",
+              "prompt": "Choisis une entrée du lexique documentaire ci-dessus. Associe son sens à l’une des formes bassa proposées et précise la source.",
+              "answer": "Toute forme affichée dans l’entrée choisie est recevable pour cet entraînement provisoire si le sens et la source correspondent. Ce résultat ne vaut pas validation linguistique.",
+              "explanation": "Compare le sens de l’entrée et ses variantes. Pour l’arbitrage, utilise l’atelier Bassa."
             }
           ],
           "source": "Curriculum CE2, Langues et cultures nationales, Unité 3, p.70.",
@@ -1030,6 +1037,16 @@
               "title": "Comparer sans mélanger",
               "kind": "warning",
               "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
+            },
+            {
+              "title": "Lexique documentaire disponible — propositions non validées",
+              "kind": "text",
+              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
+              "items": [
+                "salle de classe / classroom : Ndap sukulu / Ndap yigil — Sources : Culture Basaa (Pondi Pondi, 2009) ; Cameroon Basaa course",
+                "livre / book : káat / Kaat añ — Sources : CNRS/LGIDF Basaa ; Culture Basaa (Pondi Pondi, 2009)",
+                "cahier / notebook : Héfté / Héfté matila — Sources : Culture Basaa (Pondi Pondi, 2009)"
+              ]
             }
           ],
           "editorial": {

@@ -11,7 +11,7 @@ async function refresh(){
 if(!('serviceWorker'in navigator)){show('Le mode hors connexion nécessite un navigateur compatible.');return;}
 let reloading=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(registration?.active&&navigator.serviceWorker.controller&&!reloading){reloading=true;location.reload();}});
 window.addEventListener('load',async()=>{
- show('Préparation du CE2 et de la MS hors connexion…');
+ show('Préparation des quatre classes hors connexion…');
  try{registration=await navigator.serviceWorker.register(new URL('service-worker.js',base),{scope:base.pathname,updateViaCache:'none'});
   registration.addEventListener('updatefound',()=>{const w=registration.installing;w?.addEventListener('statechange',()=>{if(w.state==='installed'||w.state==='redundant')refresh();});});
   if(registration.installing){const w=registration.installing;w.addEventListener('statechange',()=>{if(w.state==='installed'||w.state==='redundant')refresh();});}else await refresh();

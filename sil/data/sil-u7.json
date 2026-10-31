@@ -82,7 +82,14 @@
         "reviewer": null,
         "validated_at": null,
         "notes": "Proposition de contenu à relire par un enseignant de la classe."
-      }
+      },
+      "practice": [
+        {
+          "prompt": "Trois groupes contiennent chacun 2 jetons. Combien de jetons en tout ?",
+          "answer": "6 jetons.",
+          "explanation": "Compte les groupes : 2 + 2 + 2 = 6."
+        }
+      ]
     },
     {
       "id": "SIL-U7-L04",

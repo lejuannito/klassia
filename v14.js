@@ -141,10 +141,24 @@ async function subjectAllPage(id){
   document.querySelectorAll('[data-open-unit]').forEach(b=>b.onclick=async()=>{await loadUnit(b.dataset.openUnit);location.hash='#subject:'+encodeURIComponent(id);subject(id);});
   document.getElementById('printSubAllV14').onclick=()=>printSubjectAll(id);
 }
+const domainGroups=[
+ ['Connaissances fondamentales',['FR','EN','MA','SC','TI']],
+ ['Vie communautaire et intégration nationale',['SH','BA']],
+ ['Vie courante',['DP','AR','EP']],
+ ['Identité culturelle',['BA','AR']],
+ ['Culture numérique',['TI','MA','SC','FR','EN','AR']]
+];
+async function domainsPage(index){
+ const all=await allUnits(),g=domainGroups[index];
+ let body='<h1>'+esc14(g?g[0]:'Parcourir les domaines')+'</h1><p>Regroupement de navigation transversal : une matière peut contribuer à plusieurs domaines. Ce classement ne certifie pas la couverture du curriculum.</p>';
+ if(!g)body+='<div class="gs-grid">'+domainGroups.map((d,i)=>`<a class="gs-card" href="#domain-all:${i}"><h2>${esc14(d[0])}</h2><p>${d[1].map(id=>esc14(subjectMeta(id).name)).join(' · ')}</p></a>`).join('')+'</div>';
+ else {body+='<a href="#domains-all">← Domaines</a>';for(const u of all){body+=`<h2>${esc14(u.meta.title)}</h2><div class="gs-grid">`;for(const sub of u.content.subjects.filter(x=>g[1].includes(x.id)))for(const l of sub.lessons)body+=`<a class="gs-card" href="?unit=${u.meta.id}#lesson:${encodeURIComponent(l.id)}"><b>${esc14(l.title)}</b><p>${esc14(sub.name)}</p></a>`;body+='</div>';}}
+ shell(body,'learn');
+}
 function injectBrowseTabs(){
   if(location.hash==='#learn'&&document.querySelector('.page-head')&&!document.querySelector('.browse-tabs-v14')){
     const ph=document.querySelector('.page-head');
-    ph.insertAdjacentHTML('beforebegin',`<div class="browse-tabs-v14 klassia-learning-mode"><button class="active">Par thème / unité</button><button onclick="location.hash='#subjects-all'">Par matière</button><button id="printUnitV14">🖨 Thème / PDF</button></div>`);
+    ph.insertAdjacentHTML('beforebegin',`<div class="browse-tabs-v14 klassia-learning-mode"><button class="active">Par thème / unité</button><button onclick="location.hash='#subjects-all'">Par matière</button><button onclick="location.hash='#domains-all'">Par domaine</button><button id="printUnitV14">🖨 Thème / PDF</button></div>`);
     document.getElementById('printUnitV14').onclick=printCurrentUnit;
   }
   if(location.hash.startsWith('#subject:')){
@@ -167,9 +181,11 @@ async function coveragePage(){
  const r=await fetch('./data/coverage.json');if(!r.ok)throw Error('Inventaire indisponible');const data=await r.json();if(location.hash!=='#coverage')return;
  const key='klassia_editorial_reviews_v1',read=()=>{try{return JSON.parse(localStorage.getItem(key)||'{}')}catch{return {}}},save=x=>localStorage.setItem(key,JSON.stringify(x));
  shell(`<h1>Revue éditoriale</h1><p>${esc14(data.notice)}</p><section class="review-notice"><h2>Revoir et enregistrer une décision</h2><p>Choisissez « À relire », « Validé » ou « À corriger », indiquez le référent, ce qui a été examiné et les réserves. La décision est enregistrée sur cet appareil. Exportez le relevé pour le transmettre à la personne qui maintient les contenus. Une validation locale ne publie pas le contenu sur le site.</p><label>Nom du référent <input id="reviewerName" maxlength="100" placeholder="Nom et qualité du relecteur"></label><p><button class="btn primary" id="exportReviews">Exporter le relevé des décisions</button> <a class="btn soft" href="#bassa">Ouvrir l’atelier Bassa</a></p><p id="reviewMessage" role="status"></p></section><label>Classe <select id="coverageGrade"><option>CE2</option><option>MS</option><option>SIL</option><option>CE1</option></select></label><label>Rechercher <input id="coverageSearch" type="search"></label><div id="coverageResults"></div>`,'coverage');
- const state=read();document.getElementById('reviewerName').value=state.reviewer||'';
+ const state=read();try{const g=sessionStorage.getItem('klassia_review_grade');if(['CE2','MS','SIL','CE1'].includes(g))document.getElementById('coverageGrade').value=g;}catch{}
+ document.getElementById('reviewerName').value=state.reviewer||'';
  document.getElementById('exportReviews').onclick=()=>{state.reviewer=document.getElementById('reviewerName').value.trim();save(state);const payload={format:'klassia-editorial-review',version:1,exported_at:new Date().toISOString(),reviews:state.items||{}};const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));a.download=`Klassia-revue-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);document.getElementById('reviewMessage').textContent=`${Object.keys(state.items||{}).length} décisions exportées.`;};
- function draw(){const grade=document.getElementById('coverageGrade').value,q=document.getElementById('coverageSearch').value.toLocaleLowerCase('fr');const rows=data.items.filter(x=>x.grade===grade&&(x.title+' '+x.id+' '+x.unit).toLocaleLowerCase('fr').includes(q));document.getElementById('coverageResults').innerHTML=`<p>${rows.length} ressources ; ${rows.filter(x=>x.generic_discovery).length} découvertes encore génériques.</p>`+rows.map(x=>{const v=state.items?.[x.id]||{};return `<details class="adult-guide"><summary>${esc14(x.id)} · ${esc14(x.title)}${v.status?` · ${esc14(v.status)}`:''}</summary><p>${esc14(x.source)}</p><ul>${x.objectives.map(o=>`<li>${esc14(o)}</li>`).join('')}</ul><label>Décision <select data-review="${esc14(x.id)}" class="review-status"><option value="in_review" ${!v.status||v.status==='in_review'?'selected':''}>À relire</option><option value="validated" ${v.status==='validated'?'selected':''}>Validé</option><option value="revise" ${v.status==='revise'?'selected':''}>À corriger</option></select></label><label>Périmètre examiné <input class="review-scope" data-id="${esc14(x.id)}" value="${esc14(v.scope||'')}" placeholder="Objectifs, exemples, exercices…"></label><label>Réserves / commentaires <textarea class="review-notes" data-id="${esc14(x.id)}">${esc14(v.notes||'')}</textarea></label><button class="btn soft save-review" data-id="${esc14(x.id)}">Enregistrer cette décision</button><p>${v.date?`Dernière décision locale : ${esc14(v.date)} par ${esc14(v.reviewer||'')}`:'Aucune décision enregistrée sur cet appareil.'}</p></details>`}).join('');document.querySelectorAll('.save-review').forEach(b=>b.onclick=()=>{const id=b.dataset.id,reviewer=document.getElementById('reviewerName').value.trim(),status=document.querySelector(`[data-review="${CSS.escape(id)}"]`).value,scope=document.querySelector(`.review-scope[data-id="${CSS.escape(id)}"]`).value.trim(),notes=document.querySelector(`.review-notes[data-id="${CSS.escape(id)}"]`).value.trim();if(!reviewer||!scope){document.getElementById('reviewMessage').textContent='Indiquez le nom du référent et le périmètre examiné.';return;}state.reviewer=reviewer;state.items={...(state.items||{}),[id]:{status,reviewer,scope,notes,date:new Date().toISOString()}};save(state);document.getElementById('reviewMessage').textContent='Décision enregistrée sur cet appareil.';draw();});}
+ function resourceLink(x){if(x.grade==='CE2')return `./?unit=${x.unit}#lesson:${x.id}`;if(x.grade==='MS')return `./ms/?theme=${x.unit}#domain:${x.subject}:${Math.max(0,Number(x.id.match(/(\d+)$/)?.[1]||1)-1)}`;return `./${x.grade.toLowerCase()}/#lesson:${x.id}`;}
+ function draw(){const grade=document.getElementById('coverageGrade').value,q=document.getElementById('coverageSearch').value.toLocaleLowerCase('fr');const rows=data.items.filter(x=>x.grade===grade&&(x.title+' '+x.id+' '+x.unit).toLocaleLowerCase('fr').includes(q));document.getElementById('coverageResults').innerHTML=`<p>${rows.length} ressources ; ${rows.filter(x=>x.generic_discovery).length} découvertes encore génériques.</p>`+rows.map(x=>{const v=state.items?.[x.id]||{};return `<details class="adult-guide"><summary>${esc14(x.id)} · ${esc14(x.title)}${v.status?` · ${esc14(v.status)}`:''}</summary><p><a class="btn soft" href="${esc14(resourceLink(x))}" target="_blank" rel="noopener">Consulter le contenu et ses exercices ↗</a></p><p>${esc14(x.source)}</p><ul>${x.objectives.map(o=>`<li>${esc14(o)}</li>`).join('')}</ul><label>Décision <select data-review="${esc14(x.id)}" class="review-status"><option value="in_review" ${!v.status||v.status==='in_review'?'selected':''}>À relire</option><option value="validated" ${v.status==='validated'?'selected':''}>Validé</option><option value="revise" ${v.status==='revise'?'selected':''}>À corriger</option></select></label><label>Périmètre examiné <input class="review-scope" data-id="${esc14(x.id)}" value="${esc14(v.scope||'')}" placeholder="Objectifs, exemples, exercices…"></label><label>Réserves / commentaires <textarea class="review-notes" data-id="${esc14(x.id)}">${esc14(v.notes||'')}</textarea></label><button class="btn soft save-review" data-id="${esc14(x.id)}">Enregistrer cette décision</button><p>${v.date?`Dernière décision locale : ${esc14(v.date)} par ${esc14(v.reviewer||'')}`:'Aucune décision enregistrée sur cet appareil.'}</p></details>`}).join('');document.querySelectorAll('.save-review').forEach(b=>b.onclick=()=>{const id=b.dataset.id,reviewer=document.getElementById('reviewerName').value.trim(),status=document.querySelector(`[data-review="${CSS.escape(id)}"]`).value,scope=document.querySelector(`.review-scope[data-id="${CSS.escape(id)}"]`).value.trim(),notes=document.querySelector(`.review-notes[data-id="${CSS.escape(id)}"]`).value.trim();if(!reviewer||!scope){document.getElementById('reviewMessage').textContent='Indiquez le nom du référent et le périmètre examiné.';return;}state.reviewer=reviewer;state.items={...(state.items||{}),[id]:{status,reviewer,scope,notes,date:new Date().toISOString()}};save(state);document.getElementById('reviewMessage').textContent='Décision enregistrée sur cet appareil.';draw();});}
  document.getElementById('coverageGrade').onchange=draw;document.getElementById('coverageSearch').oninput=draw;draw();
 }
 async function bassaPage(){
@@ -184,6 +200,8 @@ function routeSpecial(h){
  let task;
  if(h==='#coverage')task=coveragePage();
  else if(h==='#bassa')task=bassaPage();
+ else if(h==='#domains-all')task=domainsPage();
+ else if(h.startsWith('#domain-all:'))task=domainsPage(Number(h.split(':')[1]));
  else if(h==='#subjects-all')task=subjectsAllPage();
  else if(h.startsWith('#subject-all:'))task=subjectAllPage(decodeURIComponent(h.slice(13)));
  else return false;
@@ -191,6 +209,6 @@ function routeSpecial(h){
  return true;
 }
 Klassia.registerRoutes('CE2',routeSpecial);
-function decorateV14(){injectBrowseTabs();injectPractice();}
+function decorateV14(){injectBrowseTabs();injectPractice();if(/^#(?:subjects-all|subject-all:|domains-all|domain-all:)/.test(location.hash)&&!document.querySelector('.klassia-learning-mode')){document.querySelector('main')?.insertAdjacentHTML('afterbegin',`<nav class="klassia-learning-mode"><a href="#learn">Par unité</a><a href="#subjects-all">Par matière</a><a href="#domains-all">Par domaine</a></nav>`);}}
 document.addEventListener('klassia:render',decorateV14);
 })();

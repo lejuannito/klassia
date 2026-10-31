@@ -346,7 +346,25 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Montre une étoile puis un rond. Répète : étoile, rond, étoile, rond.",
+            "Cache le dernier symbole et retrouve-le.",
+            "Continue la suite avec deux symboles."
+          ],
+          "steps_en": [
+            "Point to a star, then a circle. Repeat: star, circle, star, circle.",
+            "Hide the last symbol and find it.",
+            "Add two symbols to continue the pattern."
+          ],
+          "questions": [
+            {
+              "fr": "Après ★ ○ ★ ○, quels sont les deux signes suivants ?",
+              "en": "Which two symbols follow ★ ○ ★ ○?",
+              "answer": "★ puis ○ / ★ then ○ : le même groupe de deux se répète."
+            }
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T4-ST3",
@@ -522,7 +540,25 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Dispose un rond puis un carré de papier.",
+            "Continue le motif avec quatre formes supplémentaires.",
+            "Colle les formes sur une bande de papier. L’adulte se charge de l’accrochage."
+          ],
+          "steps_en": [
+            "Put down a paper circle then a square.",
+            "Continue the pattern with four more shapes.",
+            "Glue the shapes onto a paper strip. An adult hangs it up."
+          ],
+          "questions": [
+            {
+              "fr": "Après rond, carré, rond, quelle forme vient ensuite ?",
+              "en": "What comes after circle, square, circle?",
+              "answer": "Un carré / A square. On reprend le même motif de deux formes."
+            }
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T4-AR2",

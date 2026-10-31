@@ -235,7 +235,25 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Avec le doigt, suis une ligne droite de gauche à droite.",
+            "Trace une ligne droite puis une ligne courbe sur une grande feuille.",
+            "Dessine un chemin ondulé vers un outil imaginaire sans chercher à écrire des lettres."
+          ],
+          "steps_en": [
+            "Follow a straight line from left to right with your finger.",
+            "Draw a straight line and a curved line on a large sheet.",
+            "Draw a wavy path to an imaginary tool; you do not need to write letters."
+          ],
+          "questions": [
+            {
+              "fr": "Montre le chemin droit puis le chemin courbe.",
+              "en": "Point to the straight path, then the curved path.",
+              "answer": "L’enfant distingue la ligne droite de la ligne qui change de direction / The child distinguishes straight and curved paths."
+            }
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T7-LC7",
@@ -368,7 +386,25 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Pose 4 cuillères et touche chacune une seule fois en comptant.",
+            "Dis combien il y en a sans recommencer.",
+            "Écarte les cuillères : y en a-t-il toujours autant ? Vérifie."
+          ],
+          "steps_en": [
+            "Put out 4 spoons and touch each one once as you count.",
+            "Say how many there are.",
+            "Spread them out. Are there still as many? Check."
+          ],
+          "questions": [
+            {
+              "fr": "Après avoir écarté les 4 cuillères, combien y en a-t-il ?",
+              "en": "How many spoons are there after you spread the 4 spoons out?",
+              "answer": "Toujours 4 / Still 4 : déplacer les objets ne change pas leur nombre."
+            }
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T7-ST3",

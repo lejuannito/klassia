@@ -141,6 +141,18 @@
       },
       "competencies": [
         "nombres et calculs"
+      ],
+      "practice": [
+        {
+          "prompt": "Encadre 643 entre deux dizaines consécutives.",
+          "answer": "640 < 643 < 650.",
+          "explanation": "643 est 3 unités après 640 et avant 650."
+        },
+        {
+          "prompt": "Quatre sacs contiennent chacun 3 mangues. Combien de mangues au total ?",
+          "answer": "12 mangues.",
+          "explanation": "3 + 3 + 3 + 3 = 4 × 3 = 12."
+        }
       ]
     },
     {
@@ -317,11 +329,11 @@
       "domain": "Langues et cultures nationales",
       "title": "Décrire l’activité d’un artisan de sa communauté",
       "objective": "Décrire oralement une activité artisanale en nommant le métier, un geste ou un outil observé et un objet fabriqué.",
-      "course": "Le curriculum CE1 invite à décrire le travail d’un artisan de sa communauté. Les mots et exemples peuvent varier selon la localité; on s’appuie sur une observation autorisée.",
+      "course": "Le curriculum CE1 invite à décrire le travail d’un artisan de sa communauté. Les mots et exemples peuvent varier selon la localité; on s’appuie sur une observation autorisée. Les entrées ci-dessous sont des propositions documentaires non validées. Elles ne suffisent pas à traduire toutes les phrases de cette leçon; les expressions absentes du lexique ne sont pas inventées.",
       "model": "Exemple fictif : « Cette artisane tisse. Elle prépare les fils et fabrique un tissu. »",
-      "guided": "Associer une carte métier à une activité; l’enseignant choisit une proposition lexicale documentée et garde les variantes visibles.",
-      "exercise": "Que peut-on dire d’un artisan après avoir observé son activité ?",
-      "answer": "Son métier, un geste ou outil observable, et un objet fabriqué.",
+      "guided": "Compare deux entrées proposées, leurs sens et leurs sources. Associe chaque forme à son sens, puis explique ton choix.",
+      "exercise": "Choisis une entrée du lexique ci-dessous. Dis son sens en français, puis lis ou recopie une des formes bassa proposées.",
+      "answer": "Le sens doit correspondre à l’entrée choisie. Toutes ses formes documentées sont des réponses provisoirement recevables; consulte les sources et l’arbitrage dans l’atelier Bassa.",
       "remediation": "Utiliser trois cartes « métier / action / objet » et laisser choisir l’ordre des phrases.",
       "transfer": "Faire une présentation courte à partir d’une visite accompagnée ou d’une image.",
       "materials": "Cartes métier et lexique documenté avec variantes",
@@ -338,6 +350,25 @@
       },
       "competencies": [
         "proposition documentaire et médiation locale"
+      ],
+      "proposedWords": [
+        {
+          "concept": "médecin / travailleur clinique",
+          "forms": [
+            "dòktà",
+            "dokta",
+            "dokte"
+          ],
+          "sources": [
+            "Cameroon Basaa course / ERIC OCR"
+          ],
+          "notes": [
+            "Emprunt adapté, avec variations de transcription dans les éditions/OCR."
+          ],
+          "themes": [
+            "T7"
+          ]
+        }
       ]
     }
   ]

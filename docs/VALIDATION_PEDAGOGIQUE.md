@@ -31,3 +31,9 @@ Un référent linguistique doit vérifier formes, tons, convention orthographiqu
 ## Validation de terrain
 
 Prévoir un échantillon de familles et d’enseignants, sans collecter de données personnelles non nécessaires. Observer compréhension des consignes, niveau d’aide, réussite différée, difficultés de navigation, impression et accès sans réseau. Noter les conditions de l’essai. La durée passée ou le nombre de clics ne constituent pas une preuve d’apprentissage.
+
+## Enregistrer une revue depuis Klassia
+
+Dans le bouton **Profil**, choisir l’espace **Enseignant** ou **Administration locale**, puis ouvrir **Revue éditoriale**. Pour chaque ressource, renseigner le nom du référent, le périmètre examiné, les réserves éventuelles et enregistrer la décision. La page conserve les décisions dans le navigateur de cet appareil. **Exporter le relevé des décisions** produit un fichier JSON qui peut être transmis à l’équipe éditoriale pour mise à jour du dépôt et préparation d’une édition publiée. La validation sur l’écran n’écrit pas dans `main` et ne déclenche pas une publication.
+
+Dans l’atelier **Bassa**, les formes documentaires restent acceptées aux exercices pendant qu’elles sont en proposition. Ouvrir les détails d’une entrée pour afficher les sources et choisir, forme par forme, « Garder en proposition », « Retenir » ou « Écarter ». Les décisions locales sont datées et exportables avec le relevé. Un statut « Retenir » est un arbitrage de l’enseignant de l’appareil ; il ne remplace pas à lui seul la validation linguistique de référence requise pour une édition publique.

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "8e338e570b94b13fafb8b7f9135e7a06266141e0b859732a05a994e446659d0a",
+  "version": "79a08b32fab3c0711b7de1e722406aeb60a25f0d4d1715faa9052c4d655ddba7",
   "files": [
     {
       "url": "./app.js",
@@ -219,7 +219,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.js",
-      "sha256": "255af9751ea37d9ed2d80ceb9f2e8f2ce26a4014d1de4b2a13db3d64464a5667"
+      "sha256": "802ba3c8c16d23412f07c12941af31d0244cfa4080ea54c463eae1ded15be72b"
     },
     {
       "url": "./v9.css",

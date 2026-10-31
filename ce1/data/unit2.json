@@ -141,6 +141,18 @@
       },
       "competencies": [
         "nombres et calculs"
+      ],
+      "practice": [
+        {
+          "prompt": "Compare 239 et 293.",
+          "answer": "239 < 293.",
+          "explanation": "Les centaines sont égales; 3 dizaines sont moins que 9 dizaines."
+        },
+        {
+          "prompt": "Complète : 248, 249, …, …",
+          "answer": "250, 251.",
+          "explanation": "Après 249, une unité de plus forme une nouvelle dizaine."
+        }
       ]
     },
     {
@@ -317,11 +329,11 @@
       "domain": "Langues et cultures nationales",
       "title": "Employer des salutations et demandes documentées en langue nationale",
       "objective": "S’exercer à écouter puis à employer des formules de salutation, de politesse et une demande de service en contexte fictif; respecter les tons simples enseignés localement.",
-      "course": "Le curriculum CE1 demande des formules et un usage convenable des tons simples. Les formes varient selon la langue, le locuteur et la région : une traduction éditoriale n’est pas une forme validée.",
+      "course": "Le curriculum CE1 demande des formules et un usage convenable des tons simples. Les formes varient selon la langue, le locuteur et la région : une traduction éditoriale n’est pas une forme validée. Les entrées ci-dessous sont des propositions documentaires non validées. Elles ne suffisent pas à traduire toutes les phrases de cette leçon; les expressions absentes du lexique ne sont pas inventées.",
       "model": "Écouter deux propositions documentées dans la langue étudiée, avec leurs variantes, leur sens et leur source affichés; l’enseignant peut arbitrer.",
-      "guided": "Associer une formule à la situation fictive correspondante; l’enseignant accompagne la prononciation sans imposer une variante non validée.",
-      "exercise": "Quelle formule documentée conviendrait pour demander poliment un service ?",
-      "answer": "Toutes les propositions visibles associées à ce sens sont acceptées pendant la relecture; aucune variante n’est notée comme incorrecte.",
+      "guided": "Compare deux entrées proposées, leurs sens et leurs sources. Associe chaque forme à son sens, puis explique ton choix.",
+      "exercise": "Choisis une entrée du lexique ci-dessous. Dis son sens en français, puis lis ou recopie une des formes bassa proposées.",
+      "answer": "Le sens doit correspondre à l’entrée choisie. Toutes ses formes documentées sont des réponses provisoirement recevables; consulte les sources et l’arbitrage dans l’atelier Bassa.",
       "remediation": "Réécouter la source et faire correspondre le sens avant de répéter.",
       "transfer": "Présenter une courte scène en indiquant la langue et la variante consultée.",
       "materials": "Cartes de situations et propositions sourcées; enregistrement humain facultatif",
@@ -338,6 +350,34 @@
       },
       "competencies": [
         "proposition documentaire et médiation locale"
+      ],
+      "proposedWords": [
+        {
+          "concept": "salue-moi / greet me",
+          "forms": [
+            "Yègá mɛ̀"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020"
+          ],
+          "notes": [],
+          "themes": [
+            "T4"
+          ]
+        },
+        {
+          "concept": "s’il te plaît / please",
+          "forms": [
+            "Sɔ́hɔ́"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020"
+          ],
+          "notes": [],
+          "themes": [
+            "T4"
+          ]
+        }
       ]
     }
   ]

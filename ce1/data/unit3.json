@@ -141,6 +141,18 @@
       },
       "competencies": [
         "nombres et calculs"
+      ],
+      "practice": [
+        {
+          "prompt": "Écris le nombre formé de 4 centaines, 0 dizaine et 6 unités.",
+          "answer": "406.",
+          "explanation": "Le zéro garde la place des dizaines."
+        },
+        {
+          "prompt": "Range 430, 403 et 340 dans l’ordre croissant.",
+          "answer": "340 < 403 < 430.",
+          "explanation": "Compare les centaines, puis les dizaines."
+        }
       ]
     },
     {
@@ -317,11 +329,11 @@
       "domain": "Langues et cultures nationales",
       "title": "Décrire une journée d’école au présent de narration",
       "objective": "Raconter oralement une journée type à l’école avec des phrases ordonnées au présent de narration et un vocabulaire compréhensible.",
-      "course": "On choisit quelques activités scolaires et on les raconte dans l’ordre : l’élève arrive, salue, apprend, joue, puis rentre. La production peut parler d’une journée fictive.",
+      "course": "On choisit quelques activités scolaires et on les raconte dans l’ordre : l’élève arrive, salue, apprend, joue, puis rentre. La production peut parler d’une journée fictive. Les entrées ci-dessous sont des propositions documentaires non validées. Elles ne suffisent pas à traduire toutes les phrases de cette leçon; les expressions absentes du lexique ne sont pas inventées.",
       "model": "« Le matin, Kofi entre en classe. Il écoute la leçon. À la récréation, il joue avec ses amis. »",
-      "guided": "Ordonner trois cartes-actions, puis raconter en langue nationale avec l’appui d’un adulte.",
-      "exercise": "Quelle action vient après l’arrivée en classe dans ton récit ?",
-      "answer": "Toute action cohérente avec l’ordre choisi est acceptée.",
+      "guided": "Compare deux entrées proposées, leurs sens et leurs sources. Associe chaque forme à son sens, puis explique ton choix.",
+      "exercise": "Choisis une entrée du lexique ci-dessous. Dis son sens en français, puis lis ou recopie une des formes bassa proposées.",
+      "answer": "Le sens doit correspondre à l’entrée choisie. Toutes ses formes documentées sont des réponses provisoirement recevables; consulte les sources et l’arbitrage dans l’atelier Bassa.",
       "remediation": "Raconter une carte à la fois puis relier avec un mot de temps.",
       "transfer": "Présenter une journée fictive en trois phrases, sans révéler d’informations privées.",
       "materials": "Cartes d’activités scolaires; lexique proposé avec variante/langue affichée",
@@ -338,6 +350,58 @@
       },
       "competencies": [
         "proposition documentaire et médiation locale"
+      ],
+      "proposedWords": [
+        {
+          "concept": "salle de classe / classroom",
+          "forms": [
+            "Ndap sukulu",
+            "Ndap yigil"
+          ],
+          "sources": [
+            "Culture Basaa (Pondi Pondi, 2009)",
+            "Cameroon Basaa course"
+          ],
+          "notes": [
+            "La source communautaire donne les deux expressions pour salle de classe/salle de cours ; le manuel ancien emploie aussi sukulu dans les phrases de localisation."
+          ],
+          "themes": [
+            "T1"
+          ]
+        },
+        {
+          "concept": "livre / book",
+          "forms": [
+            "káat",
+            "Kaat añ"
+          ],
+          "sources": [
+            "CNRS/LGIDF Basaa",
+            "Culture Basaa (Pondi Pondi, 2009)"
+          ],
+          "notes": [
+            "káat = livre dans la fiche linguistique ; Kaat añ = livre de lecture dans le lexique scolaire."
+          ],
+          "themes": [
+            "T1"
+          ]
+        },
+        {
+          "concept": "cahier / notebook",
+          "forms": [
+            "Héfté",
+            "Héfté matila"
+          ],
+          "sources": [
+            "Culture Basaa (Pondi Pondi, 2009)"
+          ],
+          "notes": [
+            "Héfté matila y est donné comme cahier d’écriture."
+          ],
+          "themes": [
+            "T1"
+          ]
+        }
       ]
     }
   ]

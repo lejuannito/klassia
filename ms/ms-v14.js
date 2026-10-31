@@ -118,14 +118,33 @@ function injectDomainPrints(){
  const cards=[...document.querySelectorAll('.activityCard')];const offset=Number(h.split(':')[2]||0);
  cards.forEach((card,i)=>{if(card.querySelector('.printActivity14')||!d.activities[i+offset])return;const btn=document.createElement('button');btn.className='classBtn printActivity14';btn.textContent='🖨 Activité / PDF';btn.onclick=()=>printActivity(d.activities[i+offset],d);card.querySelector('.activityHead')?.appendChild(btn);});
 }
+function activitySubject(a,d){
+ if(['math','pattern','patterns','sorting','classification','shape','shapes','measurement','position','distance','laterality'].includes(a.type))return 'Mathématiques';
+ if(['prewriting'].includes(a.type))return 'Graphisme';
+ if(a.type==='bassa')return 'Langues nationales';
+ if(d.id==='LC')return 'Langage et communication';
+ if(d.id==='ST')return 'Découverte scientifique';
+ if(['AC','AR'].includes(d.id))return 'Arts et création';
+ if(['MO','MG'].includes(d.id))return 'Motricité';
+ return 'Vie pratique et sociale';
+}
+function activitiesPage(selected){
+ const rows=catalog.themes.flatMap(t=>themePack.themes[t.id].domains.flatMap(d=>d.activities.map((a,i)=>({a,d,t,i,subject:activitySubject(a,d)}))));
+ const names=[...new Set(rows.map(x=>x.subject))];let body=`<section class="hero"><h1>${esc14(selected||'Parcourir les matières et activités')}</h1><p>Regroupement pratique des activités sur les huit thèmes; les domaines du curriculum restent accessibles séparément.</p></section><div class="grid">`;
+ if(!selected)body+=names.map(n=>`<a class="domain" href="#activity-subject:${encodeURIComponent(n)}"><strong>${esc14(n)}</strong><small>${rows.filter(x=>x.subject===n).length} activités</small></a>`).join('');
+ else body+=rows.filter(x=>x.subject===selected).map(x=>`<a class="domain" href="?theme=${x.t.id}#domain:${x.d.id}:${x.i}"><strong>${esc14(x.a.title_fr)}</strong><small lang="en">${esc14(x.a.title_en)}</small><small>${esc14(x.t.title_fr)}</small></a>`).join('');
+ shell(body+'</div>');
+}
 function routeSpecial(h){
  if(!practice14)return false;
+ if(h==='#subjects-all'){activitiesPage();return true;}
+ if(h.startsWith('#activity-subject:')){activitiesPage(decodeURIComponent(h.slice(18)));return true;}
  if(h==='#domains-all'){domainsAllPage();return true;}
  if(h.startsWith('#domain-all:')){domainAllPage(h.split(':')[1]);return true;}
  if(h==='#worksheets'){worksheetsPage();return true;}
  return false;
 }
 Klassia.registerRoutes('MS',routeSpecial);
-function decorate14(){if(!practice14||!catalog||!themePack)return;injectHomeEnhancements();injectDomainPrints();}
+function decorate14(){if(!practice14||!catalog||!themePack)return;injectHomeEnhancements();injectDomainPrints();const tabs=document.querySelector('.browseTabs');if(tabs&&!tabs.querySelector('[data-subjects]'))tabs.insertAdjacentHTML('beforeend',`<a data-subjects href="#subjects-all">Par matière / activité</a>`);if(!tabs&&/^#(?:subjects-all|activity-subject:|domain-all:|themes)/.test(location.hash))document.querySelector('.hero,.sectionTitle')?.insertAdjacentHTML('beforebegin',`<nav class="browseTabs klassia-learning-mode"><a href="#themes">Par thème / unité</a><a href="#subjects-all">Par matière / activité</a><a href="#domains-all">Par domaine</a></nav>`);}
 document.addEventListener('klassia:render',decorate14);
 })();

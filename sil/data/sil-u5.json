@@ -82,7 +82,14 @@
         "reviewer": null,
         "validated_at": null,
         "notes": "Proposition de contenu à relire par un enseignant de la classe."
-      }
+      },
+      "practice": [
+        {
+          "prompt": "Tu as 10 jetons groupés et 3 jetons seuls. Quel nombre cela représente-t-il ?",
+          "answer": "13.",
+          "explanation": "13 = 10 + 3 : une dizaine et trois unités."
+        }
+      ]
     },
     {
       "id": "SIL-U5-L04",

@@ -1,0 +1,318 @@
+{
+  "notice": "Indicateurs structurels et alertes heuristiques, pas une validation pédagogique. Les alertes ne recensent pas tous les défauts de contenu.",
+  "grades": [
+    {
+      "grade": "MS",
+      "resources": 160,
+      "genericDiscoveries": [],
+      "unverifiedCurriculumMappings": 160
+    },
+    {
+      "grade": "SIL",
+      "resources": 88,
+      "genericDiscoveries": [],
+      "unverifiedCurriculumMappings": 88
+    },
+    {
+      "grade": "CE1",
+      "resources": 87,
+      "genericDiscoveries": [],
+      "unverifiedCurriculumMappings": 87
+    },
+    {
+      "grade": "CE2",
+      "resources": 347,
+      "genericDiscoveries": [
+        "FR-U4-L1",
+        "FR-U4-L2",
+        "FR-U4-L3",
+        "FR-U4-L4",
+        "FR-U4-L5",
+        "FR-U4-L6",
+        "FR-U4-L7",
+        "FR-U4-L8",
+        "BA-U4-L1",
+        "SC-U4-L1",
+        "SC-U4-L2",
+        "SC-U4-L3",
+        "SC-U4-L4",
+        "SC-U4-L5",
+        "SC-U4-L6",
+        "SC-U4-L7",
+        "TI-U4-L1",
+        "TI-U4-L2",
+        "TI-U4-L3",
+        "SH-U4-L1",
+        "SH-U4-L2",
+        "SH-U4-L3",
+        "SH-U4-L4",
+        "SH-U4-L5",
+        "SH-U4-L6",
+        "SH-U4-L7",
+        "SH-U4-L8",
+        "SH-U4-L9",
+        "SH-U4-L10",
+        "SH-U4-L11",
+        "AR-U4-L1",
+        "AR-U4-L2",
+        "AR-U4-L3",
+        "AR-U4-L4",
+        "EP-U4-L1",
+        "EP-U4-L2",
+        "DP-U4-L1",
+        "DP-U4-L2",
+        "DP-U4-L3",
+        "DP-U4-L4",
+        "DP-U4-L5",
+        "FR-U5-L1",
+        "FR-U5-L2",
+        "FR-U5-L3",
+        "FR-U5-L4",
+        "FR-U5-L5",
+        "FR-U5-L6",
+        "FR-U5-L7",
+        "FR-U5-L8",
+        "BA-U5-L1",
+        "SC-U5-L1",
+        "SC-U5-L2",
+        "SC-U5-L3",
+        "TI-U5-L1",
+        "TI-U5-L2",
+        "SH-U5-L1",
+        "SH-U5-L2",
+        "SH-U5-L3",
+        "SH-U5-L4",
+        "SH-U5-L5",
+        "SH-U5-L6",
+        "SH-U5-L7",
+        "SH-U5-L8",
+        "SH-U5-L9",
+        "SH-U5-L10",
+        "AR-U5-L1",
+        "AR-U5-L2",
+        "EP-U5-L1",
+        "EP-U5-L2",
+        "DP-U5-L1",
+        "DP-U5-L2",
+        "DP-U5-L3",
+        "FR-U6-L1",
+        "FR-U6-L2",
+        "FR-U6-L3",
+        "FR-U6-L4",
+        "FR-U6-L5",
+        "FR-U6-L6",
+        "FR-U6-L7",
+        "FR-U6-L8",
+        "BA-U6-L1",
+        "SC-U6-L1",
+        "SC-U6-L2",
+        "SC-U6-L3",
+        "SC-U6-L4",
+        "TI-U6-L1",
+        "TI-U6-L2",
+        "TI-U6-L3",
+        "SH-U6-L1",
+        "SH-U6-L2",
+        "SH-U6-L3",
+        "SH-U6-L4",
+        "SH-U6-L5",
+        "SH-U6-L6",
+        "SH-U6-L7",
+        "SH-U6-L8",
+        "SH-U6-L9",
+        "AR-U6-L1",
+        "AR-U6-L2",
+        "AR-U6-L3",
+        "EP-U6-L1",
+        "EP-U6-L2",
+        "DP-U6-L1",
+        "DP-U6-L2",
+        "DP-U6-L3",
+        "FR-U7-L1",
+        "FR-U7-L2",
+        "FR-U7-L3",
+        "FR-U7-L4",
+        "FR-U7-L5",
+        "FR-U7-L6",
+        "FR-U7-L7",
+        "FR-U7-L8",
+        "BA-U7-L1",
+        "SC-U7-L1",
+        "SC-U7-L2",
+        "TI-U7-L1",
+        "TI-U7-L2",
+        "SH-U7-L1",
+        "SH-U7-L2",
+        "SH-U7-L3",
+        "SH-U7-L4",
+        "SH-U7-L5",
+        "SH-U7-L6",
+        "SH-U7-L7",
+        "SH-U7-L8",
+        "SH-U7-L9",
+        "AR-U7-L1",
+        "AR-U7-L2",
+        "AR-U7-L3",
+        "EP-U7-L1",
+        "EP-U7-L2",
+        "DP-U7-L1",
+        "DP-U7-L2",
+        "DP-U7-L3",
+        "FR-U8-L1",
+        "FR-U8-L2",
+        "FR-U8-L3",
+        "FR-U8-L4",
+        "FR-U8-L5",
+        "FR-U8-L6",
+        "FR-U8-L7",
+        "BA-U8-L1",
+        "SC-U8-L1",
+        "TI-U8-L1",
+        "TI-U8-L2",
+        "SH-U8-L1",
+        "SH-U8-L2",
+        "SH-U8-L3",
+        "SH-U8-L4",
+        "SH-U8-L5",
+        "SH-U8-L6",
+        "AR-U8-L1",
+        "AR-U8-L2",
+        "AR-U8-L3",
+        "EP-U8-L1",
+        "DP-U8-L1",
+        "DP-U8-L2"
+      ],
+      "unverifiedCurriculumMappings": 347
+    }
+  ],
+  "supportLessons": [
+    "CE1-U5-L03",
+    "CE1-U5-L08",
+    "CE1-U7-L01",
+    "CE1-U7-L04",
+    "CE1-U8-L04"
+  ],
+  "additionalPractice": [
+    {
+      "lesson": "SIL-U1-L03",
+      "index": 1,
+      "prompt": "Tu as 2 jetons. Ajoute 1 jeton. Combien en as-tu ?"
+    },
+    {
+      "lesson": "SIL-U2-L03",
+      "index": 1,
+      "prompt": "Sépare 8 jetons en deux groupes : 5 et combien ?"
+    },
+    {
+      "lesson": "SIL-U3-L03",
+      "index": 1,
+      "prompt": "Il y a 3 jetons. Tu les retires tous. Combien en reste-t-il ?"
+    },
+    {
+      "lesson": "SIL-U4-L03",
+      "index": 1,
+      "prompt": "Regroupe 10 bâtonnets. Combien de dizaines as-tu ?"
+    },
+    {
+      "lesson": "SIL-U5-L03",
+      "index": 1,
+      "prompt": "Tu as 10 jetons groupés et 3 jetons seuls. Quel nombre cela représente-t-il ?"
+    },
+    {
+      "lesson": "SIL-U6-L03",
+      "index": 1,
+      "prompt": "Calcule 12 + 3 avec des bâtonnets."
+    },
+    {
+      "lesson": "SIL-U7-L03",
+      "index": 1,
+      "prompt": "Trois groupes contiennent chacun 2 jetons. Combien de jetons en tout ?"
+    },
+    {
+      "lesson": "SIL-U8-L03",
+      "index": 1,
+      "prompt": "Plie un carré de papier en deux parts égales, puis encore en deux. Combien de parts égales vois-tu en le dépliant ?"
+    },
+    {
+      "lesson": "CE1-U1-L03",
+      "index": 1,
+      "prompt": "Décompose 172 en centaines, dizaines et unités."
+    },
+    {
+      "lesson": "CE1-U1-L03",
+      "index": 2,
+      "prompt": "Une collection a 5 bouchons et une autre 5 crayons. Ont-elles le même nombre d’objets ?"
+    },
+    {
+      "lesson": "CE1-U2-L04",
+      "index": 1,
+      "prompt": "Compare 239 et 293."
+    },
+    {
+      "lesson": "CE1-U2-L04",
+      "index": 2,
+      "prompt": "Complète : 248, 249, …, …"
+    },
+    {
+      "lesson": "CE1-U3-L04",
+      "index": 1,
+      "prompt": "Écris le nombre formé de 4 centaines, 0 dizaine et 6 unités."
+    },
+    {
+      "lesson": "CE1-U3-L04",
+      "index": 2,
+      "prompt": "Range 430, 403 et 340 dans l’ordre croissant."
+    },
+    {
+      "lesson": "CE1-U4-L04",
+      "index": 1,
+      "prompt": "Encadre 643 entre deux dizaines consécutives."
+    },
+    {
+      "lesson": "CE1-U4-L04",
+      "index": 2,
+      "prompt": "Quatre sacs contiennent chacun 3 mangues. Combien de mangues au total ?"
+    },
+    {
+      "lesson": "CE1-U5-L04",
+      "index": 1,
+      "prompt": "Partage 12 jetons également entre 3 joueurs. Combien chacun reçoit-il ?"
+    },
+    {
+      "lesson": "CE1-U5-L04",
+      "index": 2,
+      "prompt": "Peut-on partager 13 jetons entre 3 joueurs en donnant 4 à chacun sans reste ?"
+    },
+    {
+      "lesson": "CE1-U6-L04",
+      "index": 1,
+      "prompt": "Un carré a quatre côtés de 3 unités. Quel est son périmètre ?"
+    },
+    {
+      "lesson": "CE1-U6-L04",
+      "index": 2,
+      "prompt": "Un rectangle mesure 4 unités sur 1 unité. Quel est son périmètre ?"
+    },
+    {
+      "lesson": "CE1-U7-L04",
+      "index": 1,
+      "prompt": "Au jeu B, quelle équipe gagne le plus de points et de combien ?"
+    },
+    {
+      "lesson": "CE1-U7-L04",
+      "index": 2,
+      "prompt": "Quel est le total des points de l’équipe rouge ?"
+    },
+    {
+      "lesson": "CE1-U8-L04",
+      "index": 1,
+      "prompt": "Combien de messages sont transmis dans les trois lieux réunis ?"
+    },
+    {
+      "lesson": "CE1-U8-L04",
+      "index": 2,
+      "prompt": "Quel lieu transmet le plus de messages ?"
+    }
+  ],
+  "warnings": []
+}

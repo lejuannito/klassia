@@ -94,12 +94,12 @@
       "objective": "Listen to and use short English phrases to identify a familiar place or indicate a simple direction on a picture map.",
       "course": "Point to the map while speaking. Use a short phrase such as “Go to the school” or “The bus stop is here.”",
       "model": "“The market is next to the school.”",
-      "guided": "Listen to two route instructions and move a counter along the matching fictional map.",
-      "exercise": "Where is the bus stop on the picture map?",
-      "answer": "A location shown by pointing or a short English phrase is accepted.",
+      "guided": "Read the street description. Find the library first. Name the place opposite it.",
+      "exercise": "Using the street description, where is the bus stop?",
+      "answer": "The bus stop is opposite the library.",
       "remediation": "Use a map with only two landmarks.",
       "transfer": "Create a new route between places invented for class.",
-      "materials": "Fictional map, counters",
+      "materials": "The street description above; paper to draw your own plan.",
       "source": {
         "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
         "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
@@ -113,7 +113,11 @@
       },
       "competencies": [
         "Class 3 English"
-      ]
+      ],
+      "support": {
+        "title": "Our imaginary street",
+        "text": "The school is next to the library. The bus stop is opposite the library. The bakery is next to the bus stop."
+      }
     },
     {
       "id": "CE1-U5-L04",
@@ -141,6 +145,18 @@
       },
       "competencies": [
         "calcul"
+      ],
+      "practice": [
+        {
+          "prompt": "Partage 12 jetons également entre 3 joueurs. Combien chacun reçoit-il ?",
+          "answer": "4 jetons chacun.",
+          "explanation": "Trois groupes de 4 reconstituent les 12 jetons."
+        },
+        {
+          "prompt": "Peut-on partager 13 jetons entre 3 joueurs en donnant 4 à chacun sans reste ?",
+          "answer": "Non, il reste 1 jeton.",
+          "explanation": "3 × 4 = 12; 13 − 12 = 1."
+        }
       ]
     },
     {
@@ -235,12 +251,12 @@
       "objective": "Identifier visuellement les signes dièse et bémol dans un exemple musical guidé, sans exiger la lecture avancée d’une partition.",
       "course": "Un dièse ou un bémol est un signe écrit placé près d’une note. Ici on apprend à le repérer, pas à calculer ou chanter une hauteur difficile.",
       "model": "Sur une carte, une note porte un symbole ♯ ou ♭; l’élève montre le signe observé.",
-      "guided": "Trier des cartes « sans signe », « dièse », « bémol », puis écouter un motif simple choisi par l’enseignant.",
-      "exercise": "Quel signe vois-tu devant cette note : ♯ ou ♭ ?",
-      "answer": "L’élève nomme ou montre le signe présent.",
+      "guided": "Compare les deux signes du support. Montre le dièse puis le bémol; nomme chacun sans devoir chanter une note.",
+      "exercise": "Dans l’indication « fa ♯ », quel signe suit le nom de la note ?",
+      "answer": "Le signe ♯ est un dièse. Le bémol s’écrit ♭.",
       "remediation": "D’abord faire distinguer la forme des deux signes sur de grandes cartes.",
       "transfer": "Créer un motif de rythme avec des symboles inventés, sans prétendre écrire une partition complète.",
-      "materials": "Cartes musicales, instrument de classe facultatif",
+      "materials": "Les deux signes affichés ci-dessus.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
         "pages": "CE1 uniquement · tableau musique · p. 146",
@@ -254,7 +270,14 @@
       },
       "competencies": [
         "musique"
-      ]
+      ],
+      "support": {
+        "title": "Deux signes à distinguer",
+        "items": [
+          "♯ : dièse",
+          "♭ : bémol"
+        ]
+      }
     },
     {
       "id": "CE1-U5-L09",
@@ -317,11 +340,11 @@
       "domain": "Langues et cultures nationales",
       "title": "Nommer oralement des moyens de déplacement",
       "objective": "Nommer plusieurs moyens de locomotion en langue nationale et choisir un qualificatif approprié à une image ou une situation.",
-      "course": "L’objectif CE1 est de nommer oralement des moyens de déplacement avec des qualificatifs adaptés. Les termes sont liés à la langue locale et aux propositions documentées.",
+      "course": "L’objectif CE1 est de nommer oralement des moyens de déplacement avec des qualificatifs adaptés. Les termes sont liés à la langue locale et aux propositions documentées. Les entrées ci-dessous sont des propositions documentaires non validées. Elles ne suffisent pas à traduire toutes les phrases de cette leçon; les expressions absentes du lexique ne sont pas inventées.",
       "model": "Comparer des cartes « marche », « vélo », « pirogue » ou « bus » avec des adjectifs proposés par le locuteur.",
-      "guided": "Choisir une carte et dire son nom et un qualificatif dans la langue étudiée.",
-      "exercise": "Quel moyen de locomotion convient à l’image et quel mot le décrit ?",
-      "answer": "Toutes les formes documentées proposées pendant la revue sont acceptées; l’enseignant peut arbitrer la variante.",
+      "guided": "Compare deux entrées proposées, leurs sens et leurs sources. Associe chaque forme à son sens, puis explique ton choix.",
+      "exercise": "Choisis une entrée du lexique ci-dessous. Dis son sens en français, puis lis ou recopie une des formes bassa proposées.",
+      "answer": "Le sens doit correspondre à l’entrée choisie. Toutes ses formes documentées sont des réponses provisoirement recevables; consulte les sources et l’arbitrage dans l’atelier Bassa.",
       "remediation": "Faire correspondre image et proposition de sens avant la répétition orale.",
       "transfer": "Décrire oralement un trajet fictif en respectant le contexte local.",
       "materials": "Cartes illustrées et lexique local documenté; variantes visibles",
@@ -338,6 +361,41 @@
       },
       "competencies": [
         "proposition documentaire et médiation locale"
+      ],
+      "proposedWords": [
+        {
+          "concept": "voiture / car",
+          "forms": [
+            "lìtóà",
+            "litoa"
+          ],
+          "sources": [
+            "Edu-Kultur, alphabet ɓàsàá",
+            "Cameroon Basaa course (ancienne transcription/OCR)"
+          ],
+          "notes": [
+            "Même emprunt avec conventions graphiques différentes."
+          ],
+          "themes": [
+            "T8"
+          ]
+        },
+        {
+          "concept": "route / road",
+          "forms": [
+            "nloo",
+            "Nloo"
+          ],
+          "sources": [
+            "Cameroon Basaa course (ancienne transcription/OCR)"
+          ],
+          "notes": [
+            "Forme issue de la transcription du manuel ; tons à vérifier."
+          ],
+          "themes": [
+            "T8"
+          ]
+        }
       ]
     }
   ]

@@ -141,6 +141,18 @@
       },
       "competencies": [
         "mesures et grandeurs"
+      ],
+      "practice": [
+        {
+          "prompt": "Un carré a quatre côtés de 3 unités. Quel est son périmètre ?",
+          "answer": "12 unités.",
+          "explanation": "3 + 3 + 3 + 3 = 12; on mesure tout le contour."
+        },
+        {
+          "prompt": "Un rectangle mesure 4 unités sur 1 unité. Quel est son périmètre ?",
+          "answer": "10 unités.",
+          "explanation": "4 + 1 + 4 + 1 = 10, et non 4 + 1."
+        }
       ]
     },
     {
@@ -317,11 +329,11 @@
       "domain": "Langues et cultures nationales",
       "title": "Employer un vocabulaire respectueux autour de la protection de la santé",
       "objective": "Consulter des propositions lexicales documentées pour nommer certaines maladies contagieuses dans la langue étudiée, en respectant les variantes et sans étiqueter les personnes.",
-      "course": "Le curriculum mentionne des noms de maladies pour l’apprentissage du vocabulaire. Les mots doivent rester dans un contexte de prévention, sans moquerie, diagnostic ni jugement culturel.",
+      "course": "Le curriculum mentionne des noms de maladies pour l’apprentissage du vocabulaire. Les mots doivent rester dans un contexte de prévention, sans moquerie, diagnostic ni jugement culturel. Les entrées ci-dessous sont des propositions documentaires non validées. Elles ne suffisent pas à traduire toutes les phrases de cette leçon; les expressions absentes du lexique ne sont pas inventées.",
       "model": "L’enseignant affiche les propositions documentées et explique que les variantes restent visibles tant qu’elles n’ont pas été arbitrées par un locuteur compétent.",
-      "guided": "Associer une carte « maladie » à la catégorie de vocabulaire correspondante; aucune expérience personnelle n’est demandée.",
-      "exercise": "Quel principe faut-il respecter lorsqu’on nomme une maladie ?",
-      "answer": "Parler avec respect, ne pas se moquer, et ne pas tirer de conclusion sur une personne.",
+      "guided": "Compare deux entrées proposées, leurs sens et leurs sources. Associe chaque forme à son sens, puis explique ton choix.",
+      "exercise": "Choisis une entrée du lexique ci-dessous. Dis son sens en français, puis lis ou recopie une des formes bassa proposées.",
+      "answer": "Le sens doit correspondre à l’entrée choisie. Toutes ses formes documentées sont des réponses provisoirement recevables; consulte les sources et l’arbitrage dans l’atelier Bassa.",
       "remediation": "Travailler uniquement avec des cartes de mots et la définition de la séance.",
       "transfer": "Répéter une forme documentée après vérification avec l’enseignant/locuteur.",
       "materials": "Cartes lexicales sourcées, mention « proposition à valider »",
@@ -338,6 +350,38 @@
       },
       "competencies": [
         "proposition documentaire et médiation locale"
+      ],
+      "proposedWords": [
+        {
+          "concept": "médecin / travailleur clinique",
+          "forms": [
+            "dòktà",
+            "dokta",
+            "dokte"
+          ],
+          "sources": [
+            "Cameroon Basaa course / ERIC OCR"
+          ],
+          "notes": [
+            "Emprunt adapté, avec variations de transcription dans les éditions/OCR."
+          ],
+          "themes": [
+            "T7"
+          ]
+        },
+        {
+          "concept": "eau / water",
+          "forms": [
+            "Màlép"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020"
+          ],
+          "notes": [],
+          "themes": [
+            "T5"
+          ]
+        }
       ]
     }
   ]

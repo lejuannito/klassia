@@ -50,7 +50,7 @@ function home(){
  body+=`<div class="sectionTitle"><h2>Suivi</h2></div><section class="project"><p>À la fin du thème, utilisez la grille d’observation pour faire le point sans transformer la maternelle en examen.</p><button class="classBtn" onclick="location.hash='#assessment'">Ouvrir la grille d’observation</button></section>`;
  body+=`<div class="sectionTitle"><h2>Les 8 thèmes</h2></div><button class="classBtn" onclick="location.hash='#themes'">Voir le parcours complet</button>`;
  if(theme.sources?.length) body+=`<p class="source"><b>Repères documentaires :</b> ${theme.sources.map(esc).join(' · ')}</p>`;
- body+=`<p class="source">Base pédagogique : curriculum maternel camerounais et adaptation Klassia. Les ressources Bassa sont réservées à la revue adulte tant que leur validation linguistique n’est pas obtenue.</p>`;
+ body+=`<p class="source">Base pédagogique : curriculum maternel camerounais et adaptation Klassia. Les propositions Bassa documentées restent consultables avec leur mention « non validé »; l’atelier Bassa permet leur relecture et leur arbitrage.</p>`;
  shell(body);
 }
 function themeIcon(id){return ({T1:'🏫',T2:'🧍',T3:'🏠',T4:'🎉',T5:'🌱',T6:'🐾',T7:'🧑‍🔧',T8:'🚌'})[id]||'📘'}

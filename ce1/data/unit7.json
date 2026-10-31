@@ -37,13 +37,13 @@
       "title": "Décrire une scène de jeu avec des phrases précises",
       "objective": "Décrire une scène de jeu en nommant les personnes, leurs actions et un détail visible.",
       "course": "Une description répond à des questions comme qui, où et que fait-on. On choisit des détails utiles sans inventer des faits sur une vraie personne.",
-      "model": "Une scène dessinée montre deux enfants qui déplacent des pions autour d’un plateau.",
-      "guided": "Observer l’image, remplir une carte « qui / action / lieu », puis dire deux phrases liées.",
-      "exercise": "Que font les joueurs dans l’image ?",
-      "answer": "Ils déplacent des pions sur un plateau; toute description fidèle est acceptée.",
+      "model": "Dans la cour, deux enfants déplacent des pions sur un plateau. Un troisième enfant attend son tour à côté du banc.",
+      "guided": "Lis la scène. Relève les personnages, leur action et le lieu. Dessine ensuite la scène si tu le souhaites.",
+      "exercise": "D’après la scène écrite, que font les deux joueurs et où sont-ils ?",
+      "answer": "Dans la cour, les deux joueurs déplacent des pions sur un plateau.",
       "remediation": "Commencer par nommer l’action puis ajouter un détail de lieu.",
       "transfer": "Décrire une scène fictive inventée par la classe.",
-      "materials": "Illustration originale de jeu",
+      "materials": "La scène écrite ci-dessus; papier et crayon facultatifs.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
         "pages": "CE1 uniquement · tableau production d’écrits · p. 33",
@@ -57,7 +57,11 @@
       },
       "competencies": [
         "production d’écrits"
-      ]
+      ],
+      "support": {
+        "title": "Scène à lire et à imaginer",
+        "text": "Dans la cour, deux enfants déplacent des pions sur un plateau. Un troisième enfant attend son tour à côté du banc."
+      }
     },
     {
       "id": "CE1-U7-L02",
@@ -121,13 +125,13 @@
       "title": "Lire un tableau à double entrée sur un jeu",
       "objective": "Placer et retrouver des informations dans un tableau à double entrée construit à partir d’un jeu fictif.",
       "course": "Un tableau à double entrée croise deux catégories. On lit d’abord l’en-tête de ligne puis celui de colonne avant de trouver la case.",
-      "model": "Dans un tableau « équipe / jeu », on repère la ligne de l’équipe bleue puis la colonne des points.",
-      "guided": "Compléter trois cases à partir de cartes de résultats inventées.",
-      "exercise": "Combien de points l’équipe rouge a-t-elle au jeu A selon le tableau ?",
-      "answer": "La valeur indiquée dans la case correspondante; réponse vérifiée sur le tableau.",
+      "model": "Pour trouver les points des Bleus au jeu B, je pars de la ligne Bleue et je suis la colonne Jeu B : je lis 7.",
+      "guided": "Montre la ligne Rouge, puis la colonne Jeu A. Suis-les jusqu’à leur rencontre.",
+      "exercise": "Combien de points l’équipe rouge a-t-elle au jeu A ?",
+      "answer": "6 points : la case à la rencontre de la ligne Rouge et de la colonne Jeu A contient 6.",
       "remediation": "Colorer une ligne et une colonne avant de lire leur croisement.",
       "transfer": "Créer un tableau simple pour une activité de classe non compétitive.",
-      "materials": "Tableau imprimé et jetons",
+      "materials": "Le tableau fourni; papier pour reproduire les lignes si nécessaire.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
         "pages": "CE1 uniquement · tableau géométrie et espace · p. 91",
@@ -141,6 +145,41 @@
       },
       "competencies": [
         "géométrie et espace"
+      ],
+      "support": {
+        "title": "Scores de deux jeux",
+        "table": {
+          "caption": "Points gagnés par équipe",
+          "headers": [
+            "Équipe",
+            "Jeu A",
+            "Jeu B"
+          ],
+          "rows": [
+            [
+              "Rouge",
+              6,
+              4
+            ],
+            [
+              "Bleue",
+              3,
+              7
+            ]
+          ]
+        }
+      },
+      "practice": [
+        {
+          "prompt": "Au jeu B, quelle équipe gagne le plus de points et de combien ?",
+          "answer": "L’équipe bleue, de 3 points.",
+          "explanation": "7 − 4 = 3."
+        },
+        {
+          "prompt": "Quel est le total des points de l’équipe rouge ?",
+          "answer": "10 points.",
+          "explanation": "On additionne les deux cases de sa ligne : 6 + 4 = 10."
+        }
       ]
     },
     {
@@ -317,11 +356,11 @@
       "domain": "Langues et cultures nationales",
       "title": "Nommer et expliquer les règles d’un jeu local",
       "objective": "Nommer des jeux traditionnels de sa localité et décrire oralement un jeu choisi avec un vocabulaire adapté.",
-      "course": "Le curriculum CE1 demande de nommer des jeux locaux, d’expliquer des règles et d’utiliser un vocabulaire approprié. Les appellations et règles varient entre communautés.",
+      "course": "Le curriculum CE1 demande de nommer des jeux locaux, d’expliquer des règles et d’utiliser un vocabulaire approprié. Les appellations et règles varient entre communautés. Les entrées ci-dessous sont des propositions documentaires non validées. Elles ne suffisent pas à traduire toutes les phrases de cette leçon; les expressions absentes du lexique ne sont pas inventées.",
       "model": "L’enseignant recueille des propositions de noms documentées et accepte les variantes régionales; une carte indique l’origine proposée.",
-      "guided": "Choisir une proposition de jeu visible, associer une image et expliquer une règle avec l’aide de l’enseignant.",
-      "exercise": "Comment commencer à expliquer un jeu à un nouveau joueur ?",
-      "answer": "Nommer le matériel et une règle de départ; plusieurs formulations sont acceptées.",
+      "guided": "Compare deux entrées proposées, leurs sens et leurs sources. Associe chaque forme à son sens, puis explique ton choix.",
+      "exercise": "Choisis une entrée du lexique ci-dessous. Dis son sens en français, puis lis ou recopie une des formes bassa proposées.",
+      "answer": "Le sens doit correspondre à l’entrée choisie. Toutes ses formes documentées sont des réponses provisoirement recevables; consulte les sources et l’arbitrage dans l’atelier Bassa.",
       "remediation": "Faire décrire une image puis compléter une phrase modèle avec les propositions lexicales.",
       "transfer": "Présenter une règle de jeu en précisant la langue ou la variante consultée.",
       "materials": "Images, lexique local documenté, mention « proposition à valider »",
@@ -338,6 +377,47 @@
       },
       "competencies": [
         "proposition documentaire et médiation locale"
+      ],
+      "proposedWords": [
+        {
+          "concept": "applaudis / clap",
+          "forms": [
+            "Ɓámb mɔ̀ɔ́"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020"
+          ],
+          "notes": [],
+          "themes": [
+            "T4"
+          ]
+        },
+        {
+          "concept": "oui / yes",
+          "forms": [
+            "Ŋ̀ŋ̂"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020"
+          ],
+          "notes": [],
+          "themes": [
+            "T4"
+          ]
+        },
+        {
+          "concept": "non / no",
+          "forms": [
+            "Tɔ̀"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020"
+          ],
+          "notes": [],
+          "themes": [
+            "T4"
+          ]
+        }
       ]
     }
   ]

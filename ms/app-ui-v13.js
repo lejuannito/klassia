@@ -11,7 +11,7 @@ function activityCard(a,i){
  if(a.activity_fr||a.activity_en)main+=`<div class="bilingual">${a.activity_fr?`<div class="lang"><b>👐 Activité</b>${esc(a.activity_fr)}</div>`:''}${a.activity_en?`<div class="lang"><b>👐 Activity</b>${esc(a.activity_en)}</div>`:''}</div>`;
  if(a.materials)main+=`<div class="lang"><b>Matériel</b>${a.materials.map(esc).join(' · ')}</div>`;
  if(a.course)main+=renderList('Parcours',a.course);
- if(a.questions?.length)main+=`<div class="observe"><b>Questions / Questions</b>${a.questions.map(q=>`<div style="margin:7px 0">${esc(q.fr)}<br><i>${esc(q.en)}</i></div>`).join('')}</div>`;
+ if(a.questions?.length)main+=`<div class="observe"><b>Questions / Questions</b>${a.questions.map(q=>`<div style="margin:7px 0">${esc(q.fr)}<br><i>${esc(q.en)}</i>${q.answer?`<details class="answer-reveal"><summary>Repère de réponse / Answer guide</summary><p>${esc(q.answer)}</p></details>`:''}</div>`).join('')}</div>`;
  if(a.source_note)main+=`<div class="notice">${esc(a.source_note)}</div>`;
  if(a.observe?.length)main+=`<div class="observe"><b>👀 J’observe</b>${a.observe.map(x=>`<div>• ${esc(x)}</div>`).join('')}</div>`;
  if(a.teacher_guide)main+=`<details class="adult-guide"><summary>Préparer et adapter l’activité</summary><p>${esc(a.teacher_guide.preparation)}</p><p>${esc(a.teacher_guide.adaptation)}</p><p>${esc(a.teacher_guide.follow_up)}</p></details>`;

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "dee50af542113f3aafe93ac1d2c716ac5beb7c3f72861ea7bc931e1d4892cb05",
+  "version": "8e338e570b94b13fafb8b7f9135e7a06266141e0b859732a05a994e446659d0a",
   "files": [
     {
       "url": "./app.js",
@@ -99,7 +99,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "f93a3a6643699fb2f019e47b259bd29659f1049628ca0bd7de696deff5eb6256"
+      "sha256": "18680d39fd16c50d7eb4398ed8c5418cd76958fa2086f5072b20ff1cd2477bae"
     },
     {
       "url": "./manifest.webmanifest",
@@ -111,7 +111,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-core-v13.js",
-      "sha256": "9db61cd08c59dbf5f067e165f06f797a2693d32baa45d99e3eff68d2f32ef80c"
+      "sha256": "5618e41fe51def87a76f251b82e041a4bdae9cb3417af4f12f57b7318c479a52"
     },
     {
       "url": "./ms/app-ui-v13.js",
@@ -187,15 +187,15 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "0c69667e7dd9fa3ee2131133d868d0637a003092f23c8466db72ad937a6ef049"
+      "sha256": "689be362d13f0da19151285b69f198ecc2175a21a68a074f05083a9a8dbf9a5d"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "19d31d3894f0a68229a472cee8c2c6235da6a9b2edf5ccf650f551b045580d08"
+      "sha256": "7e3485dba3e524b726eabadefed80e2ba7d87a4038d2daf5eca5960138184c67"
     },
     {
       "url": "./sil/app.js",
-      "sha256": "e3b67f3c3f20b20609e967bdfb321d4d8caff988c57531e6c3c18765aa5238e1"
+      "sha256": "6a8717a0567d03e5f40951570a1cde0b00429f61cb0ffdb2e42f32e25cccc405"
     },
     {
       "url": "./sil/data/theme1.json",
@@ -219,7 +219,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.js",
-      "sha256": "401c43e7dc49a0100d6102225e2830752e0a741ef7455724dd873d029a886f07"
+      "sha256": "255af9751ea37d9ed2d80ceb9f2e8f2ce26a4014d1de4b2a13db3d64464a5667"
     },
     {
       "url": "./v9.css",

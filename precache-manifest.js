@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "316a114890eaf2eda91798022a4590853bf978f3f16e1aac24b3fbaabea96e0c",
+  "version": "d0a8f15fc1325001ffcda88ec54fd5bfb4ed47bd08612826a93ffd788be224d7",
   "files": [
     {
       "url": "./app.js",
@@ -15,11 +15,39 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/catalog.json",
-      "sha256": "8d4b1d2ee818a082086e5d62edbf1b166ecd085c70c1d8c9d52e7331426b7bdf"
+      "sha256": "c05f3ea960a3ccea761882b5067c2193ae473a0ed8dbdddf2a05774350b67563"
     },
     {
       "url": "./ce1/data/unit1.json",
-      "sha256": "be3774c2e16f05c96681736f45acfd20ee45eca58a74af23f3c831944e20c05e"
+      "sha256": "65c756079f4004a3bbb11a9d383b2ea62590b9d4bee92313d3e2737faf0e82b0"
+    },
+    {
+      "url": "./ce1/data/unit2.json",
+      "sha256": "b82bff6131b4dd6c375c63ad46e1eb9a38d905870547db67b933dde7914d62ad"
+    },
+    {
+      "url": "./ce1/data/unit3.json",
+      "sha256": "412ebefc5906e3642d7702bdf358237230d465fdd6038171bd01fadb3986c4bb"
+    },
+    {
+      "url": "./ce1/data/unit4.json",
+      "sha256": "188f582d43f507224ae2d9689645f8e353c0bb21e3204d3e5acf6910fd679162"
+    },
+    {
+      "url": "./ce1/data/unit5.json",
+      "sha256": "2ba206886202b22d969d52d1e8008bcc37dfb3cd90e578da7ff53501ddf8ffbb"
+    },
+    {
+      "url": "./ce1/data/unit6.json",
+      "sha256": "da6f6a4e242888d18269449137bfee71659737153e2b109a46996b1bfa990c6b"
+    },
+    {
+      "url": "./ce1/data/unit7.json",
+      "sha256": "8a4b85355f49aca272ebf3d3437f43135ae6301b381e18d11b08280ba1dfa75e"
+    },
+    {
+      "url": "./ce1/data/unit8.json",
+      "sha256": "77605b7dfd5d29348f43efbd355bee912c27da39d89547574f473407a10ddea3"
     },
     {
       "url": "./ce1/index.html",
@@ -75,7 +103,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "3a6072e3567183adae10f323ca787030357d3e357e42866b9b0a98e9de4a4530"
+      "sha256": "739146d5ceaf612d498469ea8caa9f21811b28a1bff76b6bab84dbf8b4180e9b"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -203,11 +231,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "0732d421ce01f1d4fdb74e62c27115e75dbbce2ae52b30a1346286649a0b56a0"
+      "sha256": "b99669b8c63aeff35bcea63a49776e2ceea776b46e6d412e422c48499538502e"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "cbab6735debb29474277341ee885b0bb528609eb379040448c52e79452939abc"
+      "sha256": "426fe126503a0ca826188b70faf6d804d4f6ae89070aa5a5e9c3febbcd69f37b"
     },
     {
       "url": "./sil/data/curriculum.json",

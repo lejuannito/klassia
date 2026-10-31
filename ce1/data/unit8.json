@@ -1,0 +1,344 @@
+{
+  "format": "klassia-grade-unit",
+  "schemaVersion": 1,
+  "grade": "CE1",
+  "classTitle": "CE1 bilingue",
+  "sourceLevel": {
+    "fr": "Niveau 2, CE1–CE2 (MINEDUB 2018), objectifs CE1 uniquement.",
+    "en": "English Subsystem Level II; align only to the Class 3 objectives for CE1. Class 4 objectives are excluded. English remains a separate subject strand, not a literal translation of French."
+  },
+  "releaseStatus": "in_review",
+  "statusNote": "Unité proposée pour revue pédagogique. Exemples originaux; ne constitue pas une validation officielle. Objectifs de langue nationale à arbitrer avec un locuteur/enseignant compétent.",
+  "sources": [
+    {
+      "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+      "pages": "CE1 uniquement · tableau tableaux CE1 de l’unité; voir chaque leçon pour la correspondance précise · p. 26–156",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+    },
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+      "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+    }
+  ],
+  "id": "CE1-U8",
+  "title_fr": "Les communications",
+  "title_en": "Communication",
+  "subcentres": [
+    "Les moyens de communication",
+    "Les messages et leurs destinataires",
+    "L’écoute et les échanges respectueux"
+  ],
+  "project": "Créer un panneau de communication pour une communauté imaginaire, avec messages, outils traditionnels, tableaux et règles de confidentialité.",
+  "lessons": [
+    {
+      "id": "CE1-U8-L01",
+      "domain": "Français",
+      "title": "Rédiger un court message informatif",
+      "objective": "Remplir un formulaire fictif simple et rédiger un message bref avec un destinataire et une information claire.",
+      "course": "Un message court indique à qui il s’adresse et ce qu’il faut savoir. Un formulaire recueille des informations; on n’y inscrit jamais de données personnelles réelles dans l’exercice.",
+      "model": "« À la classe : la réunion du club de lecture a lieu mardi à l’école fictive. »",
+      "guided": "Compléter un formulaire inventé avec un prénom fictif, puis écrire un message de deux phrases.",
+      "exercise": "À qui s’adresse le message et quelle information transmet-il ?",
+      "answer": "À la classe; il annonce le jour de la réunion fictive.",
+      "remediation": "Fournir les mots « à », « quand », « où » comme repères.",
+      "transfer": "Écrire un message fictif et vérifier qu’il n’expose aucune donnée personnelle.",
+      "materials": "Formulaire fictif et cartes de mots",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau production d’écrits · p. 33",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "production d’écrits"
+      ]
+    },
+    {
+      "id": "CE1-U8-L02",
+      "domain": "Français",
+      "title": "Légender un dessin et présenter un compte rendu simple",
+      "objective": "Écrire une légende qui décrit une image puis rapporter oralement ou par écrit une information observée.",
+      "course": "Une légende se rattache à l’image et la décrit. Un compte rendu rapporte des faits vus ou entendus sans les confondre avec une opinion.",
+      "model": "Pour un dessin d’un tambour traditionnel : « Le messager frappe le tambour pour annoncer une rencontre. »",
+      "guided": "Observer une image inventée, choisir un fait visible puis écrire une légende courte.",
+      "exercise": "La légende doit-elle raconter un détail visible ou inventer une information ?",
+      "answer": "Elle décrit un détail visible; une invention peut être annoncée clairement comme telle.",
+      "remediation": "Distinguer avec deux couleurs « je vois » et « j’imagine ».",
+      "transfer": "Faire une légende pour le panneau de classe.",
+      "materials": "Images originales et ardoise",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau production d’écrits · p. 33",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "production d’écrits"
+      ]
+    },
+    {
+      "id": "CE1-U8-L03",
+      "domain": "English",
+      "title": "Share a short message and listen for its main information",
+      "objective": "Listen to a short classroom message and identify its audience and one key piece of information; respond with a simple phrase.",
+      "course": "A message can say who it is for and what is happening. Use clear, short English; no personal information is shared.",
+      "model": "“Class 3, our reading club meets on Friday.”",
+      "guided": "Listen once for who, then again for when; choose the matching audience and day cards.",
+      "exercise": "When does the reading club meet in the message?",
+      "answer": "Friday.",
+      "remediation": "Offer two day cards and repeat the message clearly.",
+      "transfer": "Make a new fictional class announcement using a day card.",
+      "materials": "Audience and day cards",
+      "source": {
+        "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+        "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "Class 3 English"
+      ]
+    },
+    {
+      "id": "CE1-U8-L04",
+      "domain": "Mathématiques",
+      "title": "Représenter et interpréter des données simples",
+      "objective": "Compléter un tableau à double entrée et représenter des données simples en indiquant clairement les lignes, colonnes et repères.",
+      "course": "Un tableau organise les données selon deux catégories. Un graphique simple reprend ces informations avec une légende et une origine indiquées.",
+      "model": "Dans le tableau « outil / lieu », on coche où chaque outil fictif est utilisé.",
+      "guided": "Lire une petite table puis recopier une donnée dans un graphique à cases.",
+      "exercise": "Quel outil du tableau apparaît au lieu « place » ?",
+      "answer": "Réponse lue dans la case correspondante.",
+      "remediation": "Suivre une ligne avec le doigt, puis une colonne.",
+      "transfer": "Interpréter un résultat dans le panneau fictif.",
+      "materials": "Tableaux et graphiques à cases",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau géométrie et espace · p. 91",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "géométrie et espace"
+      ]
+    },
+    {
+      "id": "CE1-U8-L05",
+      "domain": "Sciences et technologies",
+      "title": "Distinguer un message observé d’une information supposée",
+      "objective": "Observer une situation de communication et distinguer ce qui est visible, ce qui est dit et ce qui reste à vérifier.",
+      "course": "Un message peut être entendu, vu ou transmis par un outil. On vérifie la source avant de répéter une information incertaine.",
+      "model": "Sur une affiche fictive, le lieu et la date sont lisibles; l’identité de l’auteur n’est pas indiquée.",
+      "guided": "Trier trois phrases en « je vois », « le message dit » et « je ne sais pas encore ».",
+      "exercise": "Peut-on affirmer l’auteur si le message ne le nomme pas ?",
+      "answer": "Non; il faut dire qu’on ne sait pas ou vérifier auprès d’une source fiable.",
+      "remediation": "Utiliser trois cartes de catégories illustrées.",
+      "transfer": "Demander à l’adulte de vérifier une information incertaine.",
+      "materials": "Affiches fictives sans contenu sensible",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau TIC et communication · p. 112",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "TIC et communication"
+      ]
+    },
+    {
+      "id": "CE1-U8-L06",
+      "domain": "TIC",
+      "title": "Communiquer avec un outil numérique de façon responsable",
+      "objective": "Jouer une scène d’usage responsable d’un outil numérique et énoncer une précaution avant de consulter, créer ou transmettre un message.",
+      "course": "On respecte les personnes, les règles de l’école et la confidentialité. On ne diffuse pas d’image ou d’information personnelle; en cas de doute, on demande à l’adulte.",
+      "model": "Une affiche de classe fictive est relue par l’enseignant avant d’être montrée; elle ne contient pas de nom complet ou de numéro.",
+      "guided": "Jouer l’auteur, le lecteur et l’adulte référent; repérer ce qui doit être vérifié avant diffusion.",
+      "exercise": "Que fais-tu avant de partager une image ou un message ?",
+      "answer": "Je vérifie avec l’adulte et je ne partage pas d’information personnelle.",
+      "remediation": "Utiliser trois étapes illustrées : vérifier, demander, partager seulement avec accord.",
+      "transfer": "Écrire une règle collective de respect et de sécurité numérique.",
+      "materials": "Cartes de rôle et affiche fictive",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 33 · p. 116–117",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "TIC",
+        "tableau 33"
+      ]
+    },
+    {
+      "id": "CE1-U8-L07",
+      "domain": "Sciences humaines et sociales",
+      "title": "Préparer une scène de communication respectueuse",
+      "objective": "Mettre en scène un échange où chaque participant écoute, prend la parole à son tour et répond à une idée.",
+      "course": "Une communication respectueuse laisse à chacun le temps de parler et de demander une précision. On peut ne pas être d’accord sans se moquer.",
+      "model": "Deux élèves discutent d’un moyen d’annoncer une réunion fictive et reformulent la proposition de l’autre.",
+      "guided": "Jouer l’échange, puis demander à l’observateur de repérer un moment d’écoute.",
+      "exercise": "Que peut dire une personne pour montrer qu’elle a écouté ?",
+      "answer": "Elle peut reformuler une idée ou demander une précision avec respect.",
+      "remediation": "Fournir une phrase modèle : « Si je comprends bien… »",
+      "transfer": "Appliquer cette phrase lors d’un échange de classe.",
+      "materials": "Cartes de rôle et phrase modèle",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau expression orale et citoyenneté · p. 30, 130",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "expression orale et citoyenneté"
+      ]
+    },
+    {
+      "id": "CE1-U8-L08",
+      "domain": "Éducation artistique",
+      "title": "Mettre en scène une annonce par le jeu dramatique",
+      "objective": "Interpréter une courte scène de transmission d’un message à l’aide du geste, de la voix et d’un accessoire sûr.",
+      "course": "Le théâtre utilise personnages, actions et paroles. On peut montrer comment un message passe d’une personne à l’autre, sans représenter une donnée réelle.",
+      "model": "Un enfant lit une annonce inventée, un autre l’écoute puis la reformule.",
+      "guided": "Répéter une scène de trois rôles et changer le volume de voix sans crier.",
+      "exercise": "Quels personnages transmettent et reçoivent l’annonce ?",
+      "answer": "Le messager et le destinataire; les réponses doivent correspondre à la scène.",
+      "remediation": "Jouer la scène avec deux rôles avant d’ajouter le troisième.",
+      "transfer": "Créer une annonce fictive et la présenter à la classe.",
+      "materials": "Cartes de rôle, accessoire en papier",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau arts dramatiques · p. 148",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "arts dramatiques"
+      ]
+    },
+    {
+      "id": "CE1-U8-L09",
+      "domain": "Éducation physique et sportive",
+      "title": "Communiquer avec son équipe pendant un jeu",
+      "objective": "Utiliser une parole courte ou un signal convenu pour coordonner une passe et répondre à une consigne de l’entraîneur ou de l’adulte.",
+      "course": "Un signal doit être clair et respectueux. Le groupe écoute, répond et adapte son action sans crier sur un partenaire.",
+      "model": "Un joueur dit « à toi » avant une passe lente à un partenaire.",
+      "guided": "Pratiquer en binôme un signal, une passe, puis le changement de rôle.",
+      "exercise": "Pourquoi annoncer la passe à son partenaire ?",
+      "answer": "Pour lui permettre de se préparer et de coopérer.",
+      "remediation": "Commencer à l’arrêt avec une balle tenue, puis ajouter un mouvement.",
+      "transfer": "Choisir un signal non verbal pour un jeu de classe.",
+      "materials": "Ballon léger, espace sûr, adulte",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau EPS · p. 156",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "EPS"
+      ]
+    },
+    {
+      "id": "CE1-U8-L10",
+      "domain": "Développement personnel",
+      "title": "Fabriquer un outil traditionnel de communication en maquette",
+      "objective": "Construire une maquette papier d’un outil de communication choisi et expliquer la situation dans laquelle il sert.",
+      "course": "Les objets de communication ont une histoire et un usage qui varient selon les communautés. La maquette est représentative et ne prétend pas remplacer un savoir local.",
+      "model": "Créer un tambour fictif à partir d’un cylindre de carton et expliquer qu’il peut transmettre un signal dans un récit.",
+      "guided": "Choisir un outil parmi des images, construire une forme simple et préparer une légende.",
+      "exercise": "Que doit préciser la légende de ta maquette ?",
+      "answer": "Le nom de l’objet tel que proposé par la source ou le locuteur, et son usage représenté.",
+      "remediation": "Donner une image de départ et une seule étape de fabrication à la fois.",
+      "transfer": "Présenter la maquette en signalant l’origine de la proposition culturelle.",
+      "materials": "Carton propre, papier, colle; images référencées",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau développement personnel · p. 26–45",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "développement personnel"
+      ]
+    },
+    {
+      "id": "CE1-U8-L11",
+      "domain": "Langues et cultures nationales",
+      "title": "Nommer des outils traditionnels de communication",
+      "objective": "Nommer des outils traditionnels de communication d’une localité et décrire une situation où ils servent à transmettre un message.",
+      "course": "Le curriculum CE1 demande de nommer des outils traditionnels et de décrire une situation de communication. Le vocabulaire dépend de la communauté et doit être sourcé.",
+      "model": "Comparer des propositions lexicales documentées et leurs variantes, puis associer une forme à l’objet représenté.",
+      "guided": "L’enseignant choisit une image culturellement appropriée; l’élève nomme l’objet selon les variantes visibles et décrit le message joué.",
+      "exercise": "À qui peut-on transmettre un message dans la scène fictive ?",
+      "answer": "À une personne proche ou éloignée selon le moyen représenté; plusieurs formulations sont acceptées.",
+      "remediation": "Faire d’abord identifier l’image, puis le destinataire fictif.",
+      "transfer": "Jouer une transmission traditionnelle en citant la langue et la variante affichées.",
+      "materials": "Images contextualisées, lexique documenté avec sources et variantes",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 17 · p. 70–72",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "proposition documentaire et médiation locale"
+      ]
+    }
+  ]
+}

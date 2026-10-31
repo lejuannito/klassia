@@ -1,0 +1,344 @@
+{
+  "format": "klassia-grade-unit",
+  "schemaVersion": 1,
+  "grade": "CE1",
+  "classTitle": "CE1 bilingue",
+  "sourceLevel": {
+    "fr": "Niveau 2, CE1–CE2 (MINEDUB 2018), objectifs CE1 uniquement.",
+    "en": "English Subsystem Level II; align only to the Class 3 objectives for CE1. Class 4 objectives are excluded. English remains a separate subject strand, not a literal translation of French."
+  },
+  "releaseStatus": "in_review",
+  "statusNote": "Unité proposée pour revue pédagogique. Exemples originaux; ne constitue pas une validation officielle. Objectifs de langue nationale à arbitrer avec un locuteur/enseignant compétent.",
+  "sources": [
+    {
+      "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+      "pages": "CE1 uniquement · tableau tableaux CE1 de l’unité; voir chaque leçon pour la correspondance précise · p. 26–156",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+    },
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+      "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+    }
+  ],
+  "id": "CE1-U6",
+  "title_fr": "La santé",
+  "title_en": "Health and well-being",
+  "subcentres": [
+    "Les gestes d’hygiène et de protection",
+    "Le corps et les sens",
+    "Les aliments et les besoins du corps"
+  ],
+  "project": "Composer une affiche de prévention respectueuse avec gestes d’hygiène, vocabulaire précis et situations de demande d’aide.",
+  "lessons": [
+    {
+      "id": "CE1-U6-L01",
+      "domain": "Français",
+      "title": "Inventer la fin d’une courte histoire entendue",
+      "objective": "Proposer puis rédiger une fin cohérente à une histoire lue ou écoutée, en reprenant un personnage et un événement.",
+      "course": "Une fin répond à ce qui s’est passé avant. On peut proposer plusieurs fins possibles, puis vérifier que les personnages et le temps du récit restent compréhensibles.",
+      "model": "Dans l’histoire, Amadou oublie sa gourde avant une sortie; une fin possible est qu’il en parle à l’enseignante et le groupe trouve une solution.",
+      "guided": "Relire le début, choisir entre deux fins, puis écrire deux phrases originales.",
+      "exercise": "Pourquoi le personnage parle-t-il à l’enseignante ?",
+      "answer": "Pour demander de l’aide ou chercher une solution; autres fins cohérentes acceptées.",
+      "remediation": "Dicter la première phrase puis faire compléter oralement la seconde.",
+      "transfer": "Inventer une autre fin qui reste respectueuse et plausible.",
+      "materials": "Histoire originale courte, images facultatives",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau production d’écrits · p. 33",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "production d’écrits"
+      ]
+    },
+    {
+      "id": "CE1-U6-L02",
+      "domain": "Français",
+      "title": "Regrouper des mots en familles et utiliser l’ordre alphabétique",
+      "objective": "Regrouper des mots d’une même famille, repérer le radical à l’oral et utiliser l’ordre alphabétique pour chercher un mot dans un dictionnaire adapté.",
+      "course": "Des mots d’une famille partagent souvent une partie de leur forme et un sens lié. Le dictionnaire classe les mots selon l’alphabet.",
+      "model": "« santé » et « sanitaire » ont un lien de sens; un dictionnaire jeunesse aide à vérifier un mot inconnu.",
+      "guided": "Classer trois mots proposés sous une entrée puis chercher l’un d’eux à partir de sa première lettre.",
+      "exercise": "Quel mot vient en premier dans le dictionnaire : « soin » ou « santé » ?",
+      "answer": "« Santé » précède « soin » car a précède o après s.",
+      "remediation": "Repérer uniquement la première lettre, puis comparer la deuxième si besoin.",
+      "transfer": "Choisir un mot nouveau et expliquer comment chercher son sens.",
+      "materials": "Dictionnaire jeunesse ou cartes alphabétiques",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau vocabulaire · p. 44–45",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "CE1-U6-L03",
+      "domain": "English",
+      "title": "Use simple words to talk about healthy routines",
+      "objective": "Listen to and use simple English words or short sentences about everyday routines and ask a trusted adult for help in a role-play.",
+      "course": "Practise familiar phrases in context. This is language practice, not medical advice or diagnosis.",
+      "model": "“I wash my hands.” “I need help, please.”",
+      "guided": "Match routine cards to a spoken phrase and practise asking a teacher for help.",
+      "exercise": "What can you say when you need help?",
+      "answer": "“I need help, please.” A clear gesture with the card is accepted in early speaking practice.",
+      "remediation": "Offer two choices and model the phrase slowly.",
+      "transfer": "Use the phrase in a fictional school scene.",
+      "materials": "Routine and help cards",
+      "source": {
+        "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+        "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "Class 3 English"
+      ]
+    },
+    {
+      "id": "CE1-U6-L04",
+      "domain": "Mathématiques",
+      "title": "Calculer un périmètre simple et comparer des longueurs",
+      "objective": "Construire le périmètre d’un rectangle avec des bandes-unités et distinguer le contour de la surface intérieure.",
+      "course": "Le périmètre mesure le tour d’une figure. On peut additionner les longueurs de ses côtés; l’aire concerne l’intérieur et sera distinguée sans confusion.",
+      "model": "Un rectangle de 4 unités sur 2 a un contour de 4 + 2 + 4 + 2 = 12 unités.",
+      "guided": "Tracer un rectangle sur quadrillage et colorier seulement son contour.",
+      "exercise": "Quel est le périmètre d’un rectangle de côtés 3 et 2 unités ?",
+      "answer": "3 + 2 + 3 + 2 = 10 unités.",
+      "remediation": "Compter les carreaux du contour un par un avant d’écrire l’addition.",
+      "transfer": "Comparer deux cadres fictifs de longueurs différentes.",
+      "materials": "Quadrillage, bandes-unités",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau mesures et grandeurs · p. 87–88",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "mesures et grandeurs"
+      ]
+    },
+    {
+      "id": "CE1-U6-L05",
+      "domain": "Sciences et technologies",
+      "title": "Adopter des gestes d’hygiène et chercher l’aide appropriée",
+      "objective": "Identifier des pratiques générales d’hygiène des sens et de prévention des maladies contagieuses; savoir solliciter un adulte si l’on se sent mal.",
+      "course": "On se lave les mains, on évite de partager certains objets personnels et on suit les conseils des adultes et professionnels de santé. Une activité de classe ne permet pas de poser un diagnostic.",
+      "model": "Une affiche montre le lavage des mains et une élève qui informe l’adulte de sa classe qu’elle se sent mal.",
+      "guided": "Classer des cartes « geste d’hygiène », « demander l’aide d’un adulte » et « information à vérifier ».",
+      "exercise": "Qui peut aider si un enfant se sent malade ?",
+      "answer": "Un adulte de confiance et, si besoin, un professionnel de santé.",
+      "remediation": "Faire choisir entre deux pictogrammes sans nommer une maladie réelle.",
+      "transfer": "Créer une affiche de prévention qui ne stigmatise aucune personne.",
+      "materials": "Pictogrammes, affiche originale",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau sciences de la vie · p. 99",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "sciences de la vie"
+      ]
+    },
+    {
+      "id": "CE1-U6-L06",
+      "domain": "TIC",
+      "title": "Comprendre un réseau et le vocabulaire d’un courrier électronique",
+      "objective": "Expliquer simplement ce qu’est un réseau, représenter quelques appareils reliés dans un schéma et reconnaître les mots destinataire et message dans un courrier fictif.",
+      "course": "Un réseau relie des appareils pour échanger des informations. Le courrier électronique possède un expéditeur, un destinataire et un message. Aucun compte réel ni envoi n’est demandé.",
+      "model": "Un schéma montre un ordinateur de l’école relié à une imprimante; un message fictif indique un expéditeur et un destinataire inventés.",
+      "guided": "Relier des pictogrammes par des lignes, puis repérer le destinataire sur une carte-message fictive.",
+      "exercise": "Dans un message, quel rôle joue le destinataire ?",
+      "answer": "C’est la personne à qui le message est adressé.",
+      "remediation": "Utiliser trois pictogrammes et deux cartes de rôle.",
+      "transfer": "Expliquer à un adulte pourquoi on demande son aide avant d’utiliser un compte ou un réseau.",
+      "materials": "Pictogrammes et cartes-message fictives",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 32 · p. 114–115",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "TIC",
+        "tableau 32"
+      ]
+    },
+    {
+      "id": "CE1-U6-L07",
+      "domain": "Sciences humaines et sociales",
+      "title": "Jouer une scène qui respecte les règles de santé",
+      "objective": "Mettre en scène une règle simple dans un lieu de soin fictif : écouter l’adulte, attendre son tour et demander une explication.",
+      "course": "Les règles aident à organiser les lieux communs. L’enfant peut poser une question et demander qu’on lui explique une consigne.",
+      "model": "Dans une salle d’attente dessinée, les personnages parlent calmement et attendent l’adulte responsable.",
+      "guided": "Jouer le rôle d’un enfant qui demande où s’asseoir et écoute la réponse.",
+      "exercise": "Que peux-tu faire si tu ne comprends pas une consigne ?",
+      "answer": "Demander calmement à un adulte de la répéter ou de l’expliquer.",
+      "remediation": "Donner une phrase modèle et faire rejouer avec une carte d’émotion.",
+      "transfer": "Proposer une règle d’accueil respectueuse pour un lieu de soin fictif.",
+      "materials": "Cartes de rôle et plan dessiné",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau règles et règlements · p. 133",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "règles et règlements"
+      ]
+    },
+    {
+      "id": "CE1-U6-L08",
+      "domain": "Éducation artistique",
+      "title": "Composer une affiche par collage d’images",
+      "objective": "Réaliser un collage qui présente deux gestes généraux de bien-être avec une légende lisible.",
+      "course": "Une affiche montre une idée principale avec des images et quelques mots. Les images sont choisies avec respect : on évite d’identifier ou de ridiculiser une personne.",
+      "model": "Un collage original présente une main lavée et un verre d’eau dessiné, avec deux légendes.",
+      "guided": "Choisir deux images, les coller puis ajouter une phrase courte sous chacune.",
+      "exercise": "Quel mot peux-tu ajouter pour expliquer le geste illustré ?",
+      "answer": "Toute légende qui nomme clairement le geste convient.",
+      "remediation": "Proposer des images et une banque de mots à associer.",
+      "transfer": "Présenter l’affiche et expliquer son message.",
+      "materials": "Images non identifiantes, papier, colle non toxique",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau arts visuels · p. 145",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "arts visuels"
+      ]
+    },
+    {
+      "id": "CE1-U6-L09",
+      "domain": "Éducation physique et sportive",
+      "title": "Coopérer et respecter des rôles dans un jeu de ballon",
+      "objective": "Faire une passe et se déplacer dans une situation simple de basketball scolaire adaptée; respecter les limites et les partenaires.",
+      "course": "Les joueurs se font des passes, se déplacent sans contact dangereux et écoutent les consignes. On peut participer par un rôle adapté à ses possibilités.",
+      "model": "Un groupe compte les passes réussies sans opposition physique.",
+      "guided": "Pratiquer une séquence de passe-réception en changeant les rôles de joueur et d’observateur.",
+      "exercise": "Que fait un joueur qui reçoit le ballon ?",
+      "answer": "Il le contrôle et le passe à un partenaire libre, selon la consigne.",
+      "remediation": "Rapprocher les joueurs et ralentir le mouvement.",
+      "transfer": "Expliquer comment coopérer sans pousser ni arracher le ballon.",
+      "materials": "Ballon léger, espace dégagé, adulte encadrant",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau EPS · p. 156",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "EPS"
+      ]
+    },
+    {
+      "id": "CE1-U6-L10",
+      "domain": "Développement personnel",
+      "title": "Préparer une collation fictive en respectant les habitudes",
+      "objective": "Proposer une combinaison d’aliments variés sur cartes, coopérer et maintenir une hygiène simple; ne pas juger les choix ou moyens d’une famille.",
+      "course": "Les habitudes alimentaires varient selon les personnes et les communautés. On utilise des images ou des aliments factices et on se lave les mains avant une activité.",
+      "model": "Un repas fictif associe des cartes de différentes catégories sans prétendre prescrire un menu médical.",
+      "guided": "Choisir des cartes, préparer une assiette dessinée et décrire les aliments présents.",
+      "exercise": "Que peux-tu faire avant de manipuler des aliments lors d’une activité ?",
+      "answer": "Se laver les mains et écouter les consignes de l’adulte.",
+      "remediation": "Utiliser des aliments en papier et dérouler les étapes avec pictogrammes.",
+      "transfer": "Présenter une idée de collation sans demander ce que mange l’élève chez lui.",
+      "materials": "Cartes alimentaires, aliments factices",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau développement personnel · p. 26–45",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "développement personnel"
+      ]
+    },
+    {
+      "id": "CE1-U6-L11",
+      "domain": "Langues et cultures nationales",
+      "title": "Employer un vocabulaire respectueux autour de la protection de la santé",
+      "objective": "Consulter des propositions lexicales documentées pour nommer certaines maladies contagieuses dans la langue étudiée, en respectant les variantes et sans étiqueter les personnes.",
+      "course": "Le curriculum mentionne des noms de maladies pour l’apprentissage du vocabulaire. Les mots doivent rester dans un contexte de prévention, sans moquerie, diagnostic ni jugement culturel.",
+      "model": "L’enseignant affiche les propositions documentées et explique que les variantes restent visibles tant qu’elles n’ont pas été arbitrées par un locuteur compétent.",
+      "guided": "Associer une carte « maladie » à la catégorie de vocabulaire correspondante; aucune expérience personnelle n’est demandée.",
+      "exercise": "Quel principe faut-il respecter lorsqu’on nomme une maladie ?",
+      "answer": "Parler avec respect, ne pas se moquer, et ne pas tirer de conclusion sur une personne.",
+      "remediation": "Travailler uniquement avec des cartes de mots et la définition de la séance.",
+      "transfer": "Répéter une forme documentée après vérification avec l’enseignant/locuteur.",
+      "materials": "Cartes lexicales sourcées, mention « proposition à valider »",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 17 · p. 70–72",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "proposition documentaire et médiation locale"
+      ]
+    }
+  ]
+}

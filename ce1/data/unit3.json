@@ -1,0 +1,344 @@
+{
+  "format": "klassia-grade-unit",
+  "schemaVersion": 1,
+  "grade": "CE1",
+  "classTitle": "CE1 bilingue",
+  "sourceLevel": {
+    "fr": "Niveau 2, CE1–CE2 (MINEDUB 2018), objectifs CE1 uniquement.",
+    "en": "English Subsystem Level II; align only to the Class 3 objectives for CE1. Class 4 objectives are excluded. English remains a separate subject strand, not a literal translation of French."
+  },
+  "releaseStatus": "in_review",
+  "statusNote": "Unité proposée pour revue pédagogique. Exemples originaux; ne constitue pas une validation officielle. Objectifs de langue nationale à arbitrer avec un locuteur/enseignant compétent.",
+  "sources": [
+    {
+      "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+      "pages": "CE1 uniquement · tableau tableaux CE1 de l’unité; voir chaque leçon pour la correspondance précise · p. 26–156",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+    },
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+      "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+      "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+    }
+  ],
+  "id": "CE1-U3",
+  "title_fr": "L’école",
+  "title_en": "School",
+  "subcentres": [
+    "Les espaces et objets de l’école",
+    "Les activités d’une journée scolaire",
+    "Les plantes et êtres vivants observés à l’école"
+  ],
+  "project": "Préparer un panneau collectif « notre journée d’école » avec récit, nombres, observation et règles de classe.",
+  "lessons": [
+    {
+      "id": "CE1-U3-L01",
+      "domain": "Français",
+      "title": "Raconter une histoire entendue à l’aide d’images",
+      "objective": "Raconter une courte histoire déjà entendue en s’appuyant sur des illustrations et répondre aux questions du groupe.",
+      "course": "Pour raconter, on garde l’ordre des événements et on nomme les personnages. Une illustration aide à se rappeler une étape, mais on peut aussi écouter sans support.",
+      "model": "Dans l’histoire fictive, Lina arrive, trouve une graine dans la cour, puis la montre à sa classe.",
+      "guided": "Numéroter trois images, raconter une phrase par image, puis répondre à « que se passe-t-il ensuite ? ».",
+      "exercise": "Qui découvre la graine et où ?",
+      "answer": "Lina découvre la graine dans la cour.",
+      "remediation": "Raconter d’abord avec les images, puis avec deux mots repères.",
+      "transfer": "Inventer une fin différente et expliquer qu’il s’agit d’une invention.",
+      "materials": "Texte original court et images séquentielles",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau expression orale · p. 27",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "expression orale"
+      ]
+    },
+    {
+      "id": "CE1-U3-L02",
+      "domain": "Français",
+      "title": "Repérer les articles et le sujet d’une phrase",
+      "objective": "Identifier un article défini ou indéfini et retrouver le sujet sous forme de nom ou de pronom dans une phrase simple.",
+      "course": "Le, la, les et un, une, des accompagnent souvent un nom. Le sujet indique de qui ou de quoi parle la phrase.",
+      "model": "« Une élève observe la plante. » « Une » accompagne « élève »; « une élève » est le sujet; « observe » est le verbe.",
+      "guided": "Remplacer « une élève » par « elle », puis souligner le sujet et entourer l’article dans deux phrases.",
+      "exercise": "Dans « Les enfants rangent les cahiers », quels mots forment le sujet ?",
+      "answer": "« Les enfants ».",
+      "remediation": "Utiliser des étiquettes de couleurs : article, nom, verbe.",
+      "transfer": "Écrire une phrase correcte sur une activité de classe fictive.",
+      "materials": "Étiquettes-mots, phrases courtes",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau grammaire · p. 39",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "grammaire"
+      ]
+    },
+    {
+      "id": "CE1-U3-L03",
+      "domain": "English",
+      "title": "Give a short account of a school day",
+      "objective": "Listen to and use short English sentences about familiar school actions and objects; answer a simple question about a classroom routine.",
+      "course": "Use a short present-tense sentence with an action word. A learner may point first, then say the phrase.",
+      "model": "“I read a book.” “We play in the school yard.”",
+      "guided": "Match action cards to sentences; say one sentence and let a partner point to its picture.",
+      "exercise": "What do you do with a book?",
+      "answer": "“I read a book.” Accept a clear gesture with the target picture during oral practice.",
+      "remediation": "Model the action and offer two sentence choices.",
+      "transfer": "Describe one fictional school activity in a short sentence.",
+      "materials": "Action cards and classroom objects",
+      "source": {
+        "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+        "pages": "Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "Class 3 English"
+      ]
+    },
+    {
+      "id": "CE1-U3-L04",
+      "domain": "Mathématiques",
+      "title": "Composer et comparer des nombres de 300 à 500",
+      "objective": "Lire, écrire, composer, décomposer et ranger les nombres de 300 à 500 avec des centaines, dizaines et unités; utiliser une propriété simple du calcul.",
+      "course": "Dans 364, on a 3 centaines, 6 dizaines et 4 unités. Pour additionner, on peut permuter les termes sans changer leur somme.",
+      "model": "364 = 300 + 60 + 4; 25 + 18 = 18 + 25.",
+      "guided": "Construire 427 en matériel décimal et montrer que 20 + 30 donne le même résultat que 30 + 20.",
+      "exercise": "Décompose 408 et compare-le à 480.",
+      "answer": "408 = 400 + 8; 408 < 480.",
+      "remediation": "Lire séparément centaines, dizaines et unités; ajouter un zéro si une position est vide.",
+      "transfer": "Résoudre un problème de comptage de fournitures fictif.",
+      "materials": "Matériel base dix, cartes nombres",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau nombres et calculs · p. 77–78",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "nombres et calculs"
+      ]
+    },
+    {
+      "id": "CE1-U3-L05",
+      "domain": "Sciences et technologies",
+      "title": "Observer les parties d’une plante de la cour",
+      "objective": "Nommer les principales parties d’une plante et relier chacune à un rôle observable; identifier des besoins simples pour la croissance.",
+      "course": "La racine, la tige et les feuilles ont des formes et des positions différentes. On observe sans arracher la plante.",
+      "model": "Sur une plante dessinée, la racine est dans le sol, la tige porte les feuilles.",
+      "guided": "Annoter une image, puis comparer une plante réelle sans la cueillir.",
+      "exercise": "Quelle partie porte généralement les feuilles ?",
+      "answer": "La tige les porte; la réponse peut signaler aussi que les feuilles sont attachées à la tige.",
+      "remediation": "Utiliser une image légendée puis masquer une légende à la fois.",
+      "transfer": "Faire une observation régulière d’une plante avec l’autorisation de l’école.",
+      "materials": "Plante en pot ou images, loupe facultative",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau sciences de la vie · p. 97",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "sciences de la vie"
+      ]
+    },
+    {
+      "id": "CE1-U3-L06",
+      "domain": "TIC",
+      "title": "Repérer des icônes et utiliser le clavier ou la souris",
+      "objective": "Identifier des icônes familières sur un bureau d’ordinateur ou de téléphone et utiliser, avec l’adulte, une fonction simple de souris ou de clavier.",
+      "course": "Une icône représente une application ou une fonction. Une souris peut déplacer un pointeur et cliquer; un clavier permet d’écrire des lettres et des chiffres.",
+      "model": "Sur une maquette de bureau, l’icône « dessin » ouvre une activité de dessin fictive; une souris déplace un pointeur vers elle.",
+      "guided": "Associer trois icônes dessinées à leur fonction, puis écrire un mot fictif sur un clavier papier ou réel accompagné.",
+      "exercise": "Que peut-on faire avec un clavier ?",
+      "answer": "Écrire des lettres, des chiffres ou des symboles.",
+      "remediation": "Commencer par associer une icône à une action dessinée.",
+      "transfer": "Utiliser un outil numérique de classe sous la supervision de l’enseignant.",
+      "materials": "Cartes d’icônes, clavier papier ou ordinateur de classe accompagné",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 31 · p. 113",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "TIC",
+        "tableau 31"
+      ]
+    },
+    {
+      "id": "CE1-U3-L07",
+      "domain": "Sciences humaines et sociales",
+      "title": "Expliquer une règle de démocratie en classe",
+      "objective": "Expliquer une règle simple de décision collective et jouer une petite scène où les participants écoutent et respectent le choix commun.",
+      "course": "Dans une décision collective, chacun peut proposer une idée; les règles annoncées d’avance aident le groupe à décider sans exclure personne.",
+      "model": "La classe choisit entre deux livres fictifs en écoutant les propositions et en comptant les votes.",
+      "guided": "Attribuer les rôles de président de séance, participants et observateur; vérifier que chacun peut s’exprimer.",
+      "exercise": "Pourquoi annonce-t-on les règles avant le vote ?",
+      "answer": "Pour que le choix soit compréhensible et que tous sachent comment participer.",
+      "remediation": "Faire rejouer la scène avec une seule règle explicite à la fois.",
+      "transfer": "Établir une règle de discussion pour un travail en équipe.",
+      "materials": "Cartes de rôle, urne dessinée",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau citoyenneté · p. 130",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "citoyenneté"
+      ]
+    },
+    {
+      "id": "CE1-U3-L08",
+      "domain": "Éducation artistique",
+      "title": "Colorier une illustration en gardant les contours",
+      "objective": "Choisir et appliquer des couleurs à une image d’école en respectant une consigne simple et en expliquant un choix.",
+      "course": "Le coloriage peut distinguer des zones et rendre une image plus lisible. Il n’existe pas une couleur obligatoire pour un objet dans une création imaginaire.",
+      "model": "Un même dessin de cour peut être colorié avec des couleurs différentes, à condition que les zones restent visibles.",
+      "guided": "Colorier une image sans presser le crayon, puis comparer deux choix de couleur.",
+      "exercise": "Quel choix de couleur rend ta cour plus lisible ?",
+      "answer": "L’élève justifie une couleur ou une différence de contraste.",
+      "remediation": "Proposer une zone à la fois et des crayons faciles à tenir.",
+      "transfer": "Créer une petite légende en deux couleurs.",
+      "materials": "Dessins, crayons de couleur",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau arts visuels · p. 144",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "arts visuels"
+      ]
+    },
+    {
+      "id": "CE1-U3-L09",
+      "domain": "Éducation physique et sportive",
+      "title": "Enchaîner des mouvements au sol avec contrôle",
+      "objective": "Se déplacer avec des appuis variés et construire un enchaînement de trois actions simples sans roulade forcée ni mise en danger.",
+      "course": "On évolue sur un tapis ou un sol préparé, sans pousser, avec un adulte qui montre les gestes adaptés. Chacun peut choisir une variante facile.",
+      "model": "Marcher à quatre appuis sur une courte ligne, se relever, puis tenir une posture stable.",
+      "guided": "Répéter à son rythme, avec un observateur qui vérifie l’ordre et l’espace libre.",
+      "exercise": "Que fais-tu si tu ne te sens pas stable ?",
+      "answer": "Je m’arrête, je reviens à une posture sûre et je demande l’aide de l’adulte.",
+      "remediation": "Réduire à deux actions et utiliser un appui stable.",
+      "transfer": "Créer un nouvel enchaînement de mouvements sécurisés.",
+      "materials": "Tapis, espace dégagé, adulte encadrant",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau EPS · p. 154",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "EPS"
+      ]
+    },
+    {
+      "id": "CE1-U3-L10",
+      "domain": "Développement personnel",
+      "title": "Faire pousser et observer une graine",
+      "objective": "Participer à un semis simple, observer la germination au fil du temps et tenir un relevé sans conclure à partir d’une seule observation.",
+      "course": "Une graine peut germer dans des conditions adaptées. On note la date et ce que l’on voit; la croissance prend du temps et les graines ne se mangent pas après manipulation.",
+      "model": "Le groupe place une graine dans un support préparé par l’adulte et dessine l’état initial.",
+      "guided": "Attribuer les rôles d’observateur et de dessinateur; noter date, humidité visible et changement de forme.",
+      "exercise": "Que faut-il faire avant de comparer deux dessins d’observation ?",
+      "answer": "Vérifier leurs dates et décrire ce qui est réellement visible.",
+      "remediation": "Fournir une fiche avec pictogrammes de dates et d’observation.",
+      "transfer": "Présenter l’évolution de la graine avec trois dessins datés.",
+      "materials": "Graines non destinées à la consommation, support préparé par l’adulte",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau développement personnel · p. 26–45",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "développement personnel"
+      ]
+    },
+    {
+      "id": "CE1-U3-L11",
+      "domain": "Langues et cultures nationales",
+      "title": "Décrire une journée d’école au présent de narration",
+      "objective": "Raconter oralement une journée type à l’école avec des phrases ordonnées au présent de narration et un vocabulaire compréhensible.",
+      "course": "On choisit quelques activités scolaires et on les raconte dans l’ordre : l’élève arrive, salue, apprend, joue, puis rentre. La production peut parler d’une journée fictive.",
+      "model": "« Le matin, Kofi entre en classe. Il écoute la leçon. À la récréation, il joue avec ses amis. »",
+      "guided": "Ordonner trois cartes-actions, puis raconter en langue nationale avec l’appui d’un adulte.",
+      "exercise": "Quelle action vient après l’arrivée en classe dans ton récit ?",
+      "answer": "Toute action cohérente avec l’ordre choisi est acceptée.",
+      "remediation": "Raconter une carte à la fois puis relier avec un mot de temps.",
+      "transfer": "Présenter une journée fictive en trois phrases, sans révéler d’informations privées.",
+      "materials": "Cartes d’activités scolaires; lexique proposé avec variante/langue affichée",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "CE1 uniquement · tableau 17 · p. 70–72",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Proposition de contenu à relire; exemples originaux et progression CE1 à vérifier par l’enseignant."
+      },
+      "competencies": [
+        "proposition documentaire et médiation locale"
+      ]
+    }
+  ]
+}

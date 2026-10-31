@@ -8,7 +8,7 @@ Aucune transition vers `validated` ou `published` ne doit être faite automatiqu
 
 ## Travail sur la matrice
 
-Le CSV répertorie les 507 ressources actuelles. Il indique les sources déjà présentes et les lacunes rédactionnelles détectées. Il ne prétend pas lister exhaustivement les attendus officiels : il faut d’abord extraire ces attendus du document de référence, leur donner un identifiant stable, puis établir une correspondance pouvant être multiple. Ajouter les attendus non couverts, plutôt que ne cartographier que ce qui existe déjà.
+Le CSV répertorie les ressources présentes pour CE2, MS, SIL et CE1. Il indique les sources déjà présentes et les lacunes rédactionnelles détectées. Il ne prétend pas lister exhaustivement les attendus officiels : il faut d’abord extraire ces attendus du document de référence, leur donner un identifiant stable, puis établir une correspondance pouvant être multiple. Ajouter les attendus non couverts, plutôt que ne cartographier que ce qui existe déjà.
 
 Pour chaque attendu : classe, domaine, période, page/tableau officiel, formulation exacte ou résumé fidèle, prérequis, leçon(s), activité(s), évaluation, niveau de couverture et décision du relecteur. Distinguer absence officielle, absence de contenu, contenu incomplet et adaptation justifiée. Le curriculum CE1–CE2 contient des tensions signalées dans la revue ; elles doivent être arbitrées et documentées.
 

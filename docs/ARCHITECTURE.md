@@ -33,3 +33,6 @@ Les observations, tentatives et confiance déclarée sont distinctes. Les ancien
 Les pages et données sont servies depuis l’édition active, sans mélange entre caches. Les paramètres de thème n’affectent pas la clé du fichier HTML. Une URL non connue ne reçoit jamais le HTML CE2 comme secours à une page MS. Les icônes d’installation sont des ressources de présentation facultatives ; elles ne déterminent pas la disponibilité des apprentissages.
 
 La politique choisie télécharge actuellement CE2 et MS ensemble. Un découpage sélectif par classe/langue sera utile avec les futurs audios ; il devra conserver l’atomicité et l’intégrité par pack.
+
+
+Les parcours SIL et CE1 partagent `shared/learning-app.js` et des catalogues de classe séparés. Les classes peuvent se parcourir par unité, matière ou domaine. Leurs ressources sont dans la revue éditoriale en statut `in_review`; une décision enregistrée localement ne publie ni ne modifie le JSON. SIL conserve ses huit anciennes clés de progression via des identifiants pilotes stables, et CE1 utilise sa propre clé incluse dans les sauvegardes.

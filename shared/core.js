@@ -15,7 +15,7 @@
       safeTree(v, depth + 1);
     }
   }
-  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_ms_theme_v2|klassia_ms_progress_v2:T[1-8]|klassia_sil_progress_v1)$/.test(k);
+  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_ms_theme_v2|klassia_ms_progress_v2:T[1-8]|klassia_sil_progress_v1|klassia_ce1_progress_v1)$/.test(k);
   function validate(k, raw) {
     if (!known(k) || typeof raw !== 'string' || raw.length > 2000000) throw Error('Donnée de sauvegarde non reconnue : ' + k);
     if (k === 'klassia_unit') { if (!/^U[1-8]$/.test(raw)) throw Error('Unité invalide.'); return; }
@@ -29,6 +29,7 @@
     if (k === 'klassia_progress' && Object.entries(v).some(([id,s])=>! /^[A-Z]{2}-U[1-8]-L\d+$/.test(id) || !['MAITRISEE','A_REVOIR','EN_COURS'].includes(s))) throw Error('Progression CE2 invalide.');
     if (k.startsWith('klassia_ms_progress_v2:') && Object.values(v).some(s=>!['D','EC','A'].includes(s))) throw Error('Progression MS invalide.');
     if (k === 'klassia_sil_progress_v1' && Object.values(v).some(s=>!['D','EC','A'].includes(s))) throw Error('Progression SIL invalide.');
+    if (k === 'klassia_ce1_progress_v1' && Object.values(v).some(s=>!['D','EC','A'].includes(s))) throw Error('Progression CE1 invalide.');
     if (k.startsWith('klassia_evals') && Object.values(v).some(e=>!object(e)||!Number.isFinite(e.score)||e.score<0||e.score>20)) throw Error('Évaluation invalide.');
     if (k.startsWith('klassia_qcm_scores') && Object.values(v).some(e=>!object(e)||!Number.isFinite(e.score)||!Number.isFinite(e.total)||e.total<=0||e.score<0||e.score>e.total)) throw Error('Score QCM invalide.');
     if (k === 'klassia_exercises' && Object.values(v).some(e=>!object(e)||typeof e.ok!=='boolean')) throw Error('Exercice invalide.');
@@ -67,7 +68,7 @@
     key:i=>Object.keys(data())[i]??null,
     get length(){return Object.keys(data()).length;}
   };
-  function exportBackup(){refresh();return {product:'Klassia',schemaVersion:2,appVersion:'15.0',exportedAt:new Date().toISOString(),profile:{name:state.profiles[state.active].name},scope:['CE2','MS','SIL'],data:Object.fromEntries(Object.entries(data()).filter(([k])=>known(k))) };}
+  function exportBackup(){refresh();return {product:'Klassia',schemaVersion:2,appVersion:'15.0',exportedAt:new Date().toISOString(),profile:{name:state.profiles[state.active].name},scope:['CE2','MS','SIL','CE1'],data:Object.fromEntries(Object.entries(data()).filter(([k])=>known(k))) };}
   function prepareImport(payload) {
     if(!object(payload)||payload.product!=='Klassia'||![1,2].includes(payload.schemaVersion)||!object(payload.data)) throw Error('Sauvegarde Klassia non reconnue.');
     safeTree(payload);const values={};
@@ -76,7 +77,7 @@
       const raw=payload.schemaVersion===1?(typeof v==='string'?v:JSON.stringify(v)):v;validate(k,raw);values[k]=raw;
     }
     if(!Object.keys(values).length)throw Error('Sauvegarde vide.');
-    return {values,count:Object.keys(values).length,sourceName:payload.profile?.name||'Ancienne sauvegarde CE2',grades:[...new Set(Object.keys(values).map(k=>k.startsWith('klassia_ms_')?'MS':k.startsWith('klassia_sil_')?'SIL':'CE2'))]};
+    return {values,count:Object.keys(values).length,sourceName:payload.profile?.name||'Ancienne sauvegarde Klassia',grades:[...new Set(Object.keys(values).map(k=>k.startsWith('klassia_ms_')?'MS':k.startsWith('klassia_sil_')?'SIL':k.startsWith('klassia_ce1_')?'CE1':'CE2'))]};
   }
   function restore(payload) {
     const prepared=prepareImport(payload);refresh();native.setItem(UNDO,JSON.stringify(state));

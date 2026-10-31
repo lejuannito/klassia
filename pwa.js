@@ -5,7 +5,7 @@ function show(message,action,label){root.replaceChildren();const bar=document.cr
 function status(worker){return new Promise(resolve=>{if(!worker)return resolve(null);const c=new MessageChannel(),timer=setTimeout(()=>resolve(null),5000);c.port1.onmessage=e=>{clearTimeout(timer);resolve(e.data)};worker.postMessage({type:'OFFLINE_STATUS'},[c.port2]);});}
 async function refresh(){
  if(registration?.waiting){show('Nouvelle édition téléchargée et vérifiée.',()=>{registration.waiting.postMessage({type:'ACTIVATE_RELEASE'});},'Recharger avec la nouvelle édition');return;}
- const s=await status(registration?.active);if(s?.ready)show('CE2 et MS disponibles hors connexion · édition '+s.version.slice(0,8),()=>registration.update().catch(()=>show('Mise à jour impossible. L’édition téléchargée reste disponible.')),'Vérifier les mises à jour');
+ const s=await status(registration?.active);if(s?.ready)show('CE2, MS, SIL et CE1 disponibles hors connexion · édition '+s.version.slice(0,8),()=>registration.update().catch(()=>show('Mise à jour impossible. L’édition téléchargée reste disponible.')),'Vérifier les mises à jour');
  else show('Téléchargement incomplet : le mode hors connexion n’est pas encore garanti.',()=>location.reload(),'Réessayer');
 }
 if(!('serviceWorker'in navigator)){show('Le mode hors connexion nécessite un navigateur compatible.');return;}

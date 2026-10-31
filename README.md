@@ -66,3 +66,5 @@ Une première unité SIL « La maison / My home » est accessible à `/sil/`. El
 ### Navigation des profils et des classes
 
 Le bouton **Profil : …** ouvre le choix de l’enfant et de l’espace affiché (Enfant, Parent, Enseignant ou Administration). Le menu **Classe : …**, présent dans les espaces CE2, MS et SIL, permet de passer d’un parcours à l’autre. Depuis un affichage Enseignant/Administration, il propose aussi les accès à la revue éditoriale et à l’atelier Bassa. Klassia ne possède pas de connexion à un compte ni de déconnexion serveur : les profils et rôles sont locaux à l’appareil.
+
+Dans l’espace Enseignant, la page Revue éditoriale permet désormais de consigner les décisions directement depuis l’interface, puis d’exporter un relevé JSON. Les décisions restent enregistrées dans le navigateur utilisé et doivent être reprises par l’équipe éditoriale pour rejoindre les sources du dépôt.

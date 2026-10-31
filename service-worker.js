@@ -1,4 +1,4 @@
-const CACHE_NAME = 'klassia-ce2-v11-20261031';
+const CACHE_NAME = 'klassia-v12-20261031';
 const APP_SHELL = [
   "./app.js",
   "./data/catalog.json",
@@ -46,7 +46,13 @@ const APP_SHELL = [
   "./v9.css",
   "./v9.js",
   "./manual-v11.css",
-  "./manual-v11.js"
+  "./manual-v11.js",
+  "./class-switch-v12.js",
+  "./ms/index.html",
+  "./ms/style.css",
+  "./ms/app.js",
+  "./ms/data/catalog.json",
+  "./ms/data/theme-t1.json"
 ];
 
 self.addEventListener('install', event => {
@@ -63,7 +69,7 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter(k => k.startsWith('klassia-ce2-') && k !== CACHE_NAME).map(k => caches.delete(k)));
+    await Promise.all(keys.filter(k => k.startsWith('klassia-') && k !== CACHE_NAME).map(k => caches.delete(k)));
     await self.clients.claim();
   })());
 });
@@ -78,10 +84,10 @@ self.addEventListener('fetch', event => {
       try {
         const network = await fetch(event.request);
         const cache = await caches.open(CACHE_NAME);
-        if (network.ok) cache.put('./index.html', network.clone());
+        if (network.ok) cache.put(event.request, network.clone());
         return network;
       } catch (_) {
-        return (await caches.match('./index.html')) || (await caches.match('./'));
+        return (await caches.match(event.request)) || (await caches.match('./index.html')) || (await caches.match('./'));
       }
     })());
     return;

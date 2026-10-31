@@ -1,4 +1,4 @@
-const CACHE_NAME = 'klassia-v12-20261031';
+const CACHE_NAME = 'klassia-v13-20261031';
 const APP_SHELL = [
   "./app.js",
   "./data/catalog.json",
@@ -49,10 +49,23 @@ const APP_SHELL = [
   "./manual-v11.js",
   "./class-switch-v12.js",
   "./ms/index.html",
-  "./ms/style.css",
-  "./ms/app.js",
-  "./ms/data/catalog.json",
-  "./ms/data/theme-t1.json"
+  "./ms/style-v13.css",
+  "./ms/app-core-v13.js",
+  "./ms/app-ui-v13.js",
+  "./ms/data/catalog-v13.json",
+  "./ms/data/theme-pack/index.json",
+  "./ms/data/theme-pack/part-01.txt",
+  "./ms/data/theme-pack/part-02.txt",
+  "./ms/data/theme-pack/part-03.txt",
+  "./ms/data/theme-pack/part-04.txt",
+  "./ms/data/theme-pack/part-05.txt",
+  "./ms/data/theme-pack/part-06.txt",
+  "./ms/data/theme-pack/part-07.txt",
+  "./ms/data/theme-pack/part-08.txt",
+  "./ms/data/theme-pack/part-09.txt",
+  "./ms/data/theme-pack/part-10.txt",
+  "./ms/data/theme-pack/part-11.txt",
+  "./data/bassa-lexicon-variants.json"
 ];
 
 self.addEventListener('install', event => {

@@ -1,0 +1,5 @@
+.browseTabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.browseTabs button{border:1px solid #cad4ee;background:#fff;color:#3157d5;font-weight:800;border-radius:12px;padding:9px 12px}.browseTabs button.active{background:#3157d5;color:#fff}
+.workbookPromo{display:flex;justify-content:space-between;align-items:center;gap:14px;background:#fff8df;border:1px solid #efd98a;border-radius:16px;padding:14px 16px;margin:14px 0}.workbookPromo p{margin:4px 0 0}
+.worksheetGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.worksheetCard{background:#fff;border:1px solid #dce3f0;border-radius:18px;padding:16px;overflow:hidden}.worksheetCard h2{margin-top:0}.worksheet-svg,.trace-svg{width:100%;height:auto;background:#fff;border:1px dashed #cbd2df;border-radius:12px;margin:10px 0}
+.themeDomainCard{align-items:center}.themeDomainCard small{display:block;margin-top:5px;color:#687386}.printActivity14{margin-left:auto;white-space:nowrap}
+@media(max-width:650px){.workbookPromo{align-items:stretch;flex-direction:column}.themeDomainCard{align-items:flex-start}.printActivity14{margin-left:0}.activityHead{flex-wrap:wrap}}

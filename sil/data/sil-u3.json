@@ -267,6 +267,27 @@
       },
       "proposedWords": [
         {
+          "concept": "école maternelle / nursery school",
+          "forms": [
+            "Ntôñ diséé"
+          ],
+          "sources": [
+            "Culture Basaa (Pondi Pondi, 2009)"
+          ],
+          "notes": [],
+          "themes": [
+            "T1"
+          ],
+          "id": "BA001",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Culture Basaa (Pondi Pondi, 2009)",
+              "url": "https://antoinepondipondi.blogspot.com/2009/09/sukulu.html?m=0"
+            }
+          ]
+        },
+        {
           "concept": "salle de classe / classroom",
           "forms": [
             "Ndap sukulu",
@@ -279,7 +300,21 @@
           "notes": [
             "La source communautaire donne les deux expressions pour salle de classe/salle de cours ; le manuel ancien emploie aussi sukulu dans les phrases de localisation."
           ],
-          "status": "proposition_non_validee"
+          "themes": [
+            "T1"
+          ],
+          "id": "BA002",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Culture Basaa (Pondi Pondi, 2009)",
+              "url": "https://antoinepondipondi.blogspot.com/2009/09/sukulu.html?m=0"
+            },
+            {
+              "title": "Cameroon Basaa course",
+              "url": "https://fr.scribd.com/document/895662227/Le-Basaa-du-Cameroun-Cours-d-Introduction"
+            }
+          ]
         },
         {
           "concept": "élève / student",
@@ -296,7 +331,48 @@
             "Deux formes/notations attestées dans des ressources différentes.",
             "ɲúdú est attesté pour student ; Ñudu sukulu est donné pour élève/écolier dans une ressource scolaire."
           ],
-          "status": "proposition_non_validee"
+          "themes": [
+            "T1",
+            "T7"
+          ],
+          "id": "BA003",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Culture Basaa (Pondi Pondi, 2009)",
+              "url": "https://antoinepondipondi.blogspot.com/2009/09/sukulu.html?m=0"
+            }
+          ]
+        },
+        {
+          "concept": "enseignant(e) / teacher",
+          "forms": [
+            "málêt",
+            "malet",
+            "mhiet"
+          ],
+          "sources": [
+            "linguistique Basaá moderne",
+            "Cameroon Basaa course",
+            "MDPI 2026 / Hyman examples",
+            "Cameroon Basaa course (ancienne transcription/OCR)"
+          ],
+          "notes": [
+            "Variation de notation tonale.",
+            "málêt est nettement attesté dans des sources linguistiques modernes ; les anciennes graphies sont conservées comme témoins."
+          ],
+          "themes": [
+            "T1",
+            "T7"
+          ],
+          "id": "BA004",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Cameroon Basaa course",
+              "url": "https://fr.scribd.com/document/895662227/Le-Basaa-du-Cameroun-Cours-d-Introduction"
+            }
+          ]
         },
         {
           "concept": "livre / book",
@@ -311,7 +387,21 @@
           "notes": [
             "káat = livre dans la fiche linguistique ; Kaat añ = livre de lecture dans le lexique scolaire."
           ],
-          "status": "proposition_non_validee"
+          "themes": [
+            "T1"
+          ],
+          "id": "BA005",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "CNRS/LGIDF Basaa",
+              "url": "https://lgidf.cnrs.fr/node/1790"
+            },
+            {
+              "title": "Culture Basaa (Pondi Pondi, 2009)",
+              "url": "https://antoinepondipondi.blogspot.com/2009/09/sukulu.html?m=0"
+            }
+          ]
         },
         {
           "concept": "crayon / pencil",
@@ -322,7 +412,17 @@
             "Culture Basaa (Pondi Pondi, 2009)"
           ],
           "notes": [],
-          "status": "proposition_non_validee"
+          "themes": [
+            "T1"
+          ],
+          "id": "BA006",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Culture Basaa (Pondi Pondi, 2009)",
+              "url": "https://antoinepondipondi.blogspot.com/2009/09/sukulu.html?m=0"
+            }
+          ]
         },
         {
           "concept": "cahier / notebook",
@@ -336,7 +436,59 @@
           "notes": [
             "Héfté matila y est donné comme cahier d’écriture."
           ],
-          "status": "proposition_non_validee"
+          "themes": [
+            "T1"
+          ],
+          "id": "BA007",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Culture Basaa (Pondi Pondi, 2009)",
+              "url": "https://antoinepondipondi.blogspot.com/2009/09/sukulu.html?m=0"
+            }
+          ]
+        },
+        {
+          "concept": "nom / name",
+          "forms": [
+            "Jǒl"
+          ],
+          "sources": [
+            "Resulam/Bitjaa Kody 2020"
+          ],
+          "notes": [
+            "Forme relevée dans la liste publique; graphie et usage à confirmer pédagogiquement."
+          ],
+          "themes": [],
+          "id": "BA053",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Resulam/Bitjaa Kody 2020",
+              "url": "https://resulam.com/fr/2020/05/13/mes-500-premiers-mots-et-expressions-en-langue-bassa-%C9%93asaa/"
+            }
+          ]
+        },
+        {
+          "concept": "stylo / pen",
+          "forms": [
+            "sáó"
+          ],
+          "sources": [
+            "Edu-Kultur, alphabet ɓàsàá"
+          ],
+          "notes": [
+            "Exemple lexical publié; proposition documentaire non validée."
+          ],
+          "themes": [],
+          "id": "BA057",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Edu-Kultur, alphabet ɓàsàá",
+              "url": "https://edukultur.com/lalphabet-%C9%93asaa/"
+            }
+          ]
         }
       ],
       "scoring": "Aucun score linguistique officiel."

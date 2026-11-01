@@ -10,7 +10,8 @@
     "test:browser": "node tests/browser.cjs",
     "build:public": "node scripts/build.mjs --public",
     "catalog": "node scripts/catalog.mjs",
-    "audit:content": "node scripts/audit-content.mjs"
+    "audit:content": "node scripts/audit-content.mjs",
+    "test:gs": "node tests/gs-browser.cjs"
   },
   "engines": {
     "node": ">=22"

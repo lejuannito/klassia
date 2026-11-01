@@ -1,7 +1,8 @@
+const NURSERY=window.KlassiaNurseryConfig||{grade:'MS',label:'Moyenne section bilingue'};
 const app=document.getElementById('app');
 let catalog=null,theme=null,currentThemeMeta=null;
-const THEME_KEY='klassia_ms_theme_v2';
-const PROG_PREFIX='klassia_ms_progress_v2:';
+const THEME_KEY='klassia_'+NURSERY.grade.toLowerCase()+'_theme_v2';
+const PROG_PREFIX='klassia_'+NURSERY.grade.toLowerCase()+'_progress_v2:';
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const progKey=()=>PROG_PREFIX+(theme?.id||'T1');
 const loadProg=()=>{try{return JSON.parse(Klassia.storage.getItem(progKey())||'{}')}catch{return {}}};
@@ -34,7 +35,7 @@ function shell(body){
 }
 function route(){
  const h=location.hash||'#home';
- if(Klassia.specialRoute('MS',h))return;
+ if(Klassia.specialRoute(NURSERY.grade,h))return;
  if(h.startsWith('#domain:')) return domainPage(h.split(':')[1],Number(h.split(':')[2]||0));
  if(h==='#themes') return themesPage();
  if(h==='#assessment') return assessmentPage();
@@ -42,7 +43,7 @@ function route(){
 }
 function home(){
  const total=allActivities().length,acquired=acquiredCount();
- let body=`<section class="hero"><div class="eyebrow">MOYENNE SECTION BILINGUE · THÈME ${currentThemeMeta.number}</div><h1>${themeIcon(theme.id)} ${esc(theme.title_fr)} · ${esc(theme.title_en)}</h1><p>Un livre d’éveil interactif pour parler, jouer, manipuler, observer, créer et bouger en français et en anglais, avec des repères Bassa documentés quand ils sont disponibles.</p><div class="chips"><span class="chip">${total} activités</span><span class="chip">${acquired} acquises</span><span class="chip">${esc(theme.duration||'4 semaines')}</span></div></section>`;
+ let body=`<section class="hero"><div class="eyebrow">${esc(NURSERY.label.toUpperCase())} · THÈME ${currentThemeMeta.number}</div><h1>${themeIcon(theme.id)} ${esc(theme.title_fr)} · ${esc(theme.title_en)}</h1><p>Un livre d’éveil interactif pour parler, jouer, manipuler, observer, créer et bouger en français et en anglais, avec des repères Bassa documentés quand ils sont disponibles.</p><div class="chips"><span class="chip">${total} activités</span><span class="chip">${acquired} acquises</span><span class="chip">${esc(theme.duration||'4 semaines')}</span></div></section>`;
  body+=`<div class="notice"><b>Approche maternelle :</b> pas de note sur 20. L’adulte observe l’enfant et choisit <b>Découvre</b>, <b>En cours</b> ou <b>Acquis</b>. Les activités sont courtes, répétables et adaptables.</div>`;
  body+=`<div class="sectionTitle"><h2>Les 5 domaines</h2><p>Les activités mêlent oral, manipulation, visuel, autonomie, création et motricité.</p></div><div class="grid">`;
  theme.domains.forEach(d=>{const pc=pctDomain(d);body+=`<button class="domain" onclick="location.hash='#domain:${d.id}'"><div class="icon">${d.icon}</div><strong>${esc(d.name_fr)}</strong><small>${esc(d.name_en)} · ${d.weight}</small><div class="bar"><span style="width:${pc}%"></span></div><small>${d.activities.length} activités · ${pc}% acquis</small></button>`});
@@ -53,7 +54,7 @@ function home(){
  body+=`<p class="source">Base pédagogique : curriculum maternel camerounais et adaptation Klassia. Les propositions Bassa documentées restent consultables avec leur mention « non validé »; l’atelier Bassa permet leur relecture et leur arbitrage.</p>`;
  shell(body);
 }
-function themeIcon(id){return ({T1:'🏫',T2:'🧍',T3:'🏠',T4:'🎉',T5:'🌱',T6:'🐾',T7:'🧑‍🔧',T8:'🚌'})[id]||'📘'}
+function themeIcon(id){if(NURSERY.grade==='GS'&&id==='T5')return '🐾';if(NURSERY.grade==='GS'&&id==='T6')return '🌱';return ({T1:'🏫',T2:'🧍',T3:'🏠',T4:'🎉',T5:'🌱',T6:'🐾',T7:'🧑‍🔧',T8:'🚌'})[id]||'📘'}
 function renderVisual(v){
  if(!v?.items?.length)return '';
  return `<div class="visual">${v.items.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`;

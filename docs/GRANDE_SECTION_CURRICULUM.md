@@ -1,6 +1,6 @@
 # Grande section bilingue : références et périmètre
 
-Recherche vérifiée le 31 octobre 2026. Ce dossier prépare la prochaine classe; il ne présente pas une classe déjà produite ni validée.
+Recherche vérifiée le 31 octobre 2026. Ce dossier conserve la recherche initiale. Mise à jour du 1er novembre 2026 : 162 activités sont désormais intégrées; voir [la livraison GS et Bassa](GS_BASSA.md). Le statut de relecture ne vaut pas homologation.
 
 ## Références retrouvées
 

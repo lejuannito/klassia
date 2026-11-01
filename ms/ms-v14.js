@@ -18,11 +18,12 @@ function drawingSvg(kind){
  return s(`<rect ${a} x="55" y="80" width="190" height="95" rx="18"/><circle ${a} cx="100" cy="180" r="22"/><circle ${a} cx="205" cy="180" r="22"/><rect ${a} x="80" y="100" width="40" height="32"/><rect ${a} x="130" y="100" width="40" height="32"/><rect ${a} x="180" y="100" width="40" height="32"/><path ${a} d="M55 80 L90 45 H205 L245 80"/>`);
 }
 function traceLettersSvg(letters){
- return `<svg viewBox="0 0 600 280" class="trace-svg"><g stroke="#ccd2dd" stroke-width="2">${[55,120,185,250].map(y=>`<line x1="25" y1="${y}" x2="575" y2="${y}"/>`).join('')}</g>${letters.map((l,i)=>`<text x="${80+i*260}" y="190" font-size="175" font-family="Arial" font-weight="700" fill="none" stroke="#9aa5b7" stroke-width="3" stroke-dasharray="7 6">${esc14(l)}</text>`).join('')}</svg>`;
+ const step=550/Math.max(1,letters.length),size=Math.min(175,step*.8);
+ return `<svg viewBox="0 0 600 280" class="trace-svg"><g stroke="#ccd2dd" stroke-width="2">${[55,120,185,250].map(y=>`<line x1="25" y1="${y}" x2="575" y2="${y}"/>`).join('')}</g>${letters.map((l,i)=>`<text x="${30+i*step}" y="190" font-size="${size}" font-family="Arial" font-weight="700" fill="none" stroke="#9aa5b7" stroke-width="3" stroke-dasharray="7 6">${esc14(l)}</text>`).join('')}</svg>`;
 }
 function traceNumbersSvg(numbers){
- const display=numbers.slice(-6);
- return `<svg viewBox="0 0 600 260" class="trace-svg"><g stroke="#ccd2dd" stroke-width="2"><line x1="20" y1="210" x2="580" y2="210"/><line x1="20" y1="90" x2="580" y2="90"/></g>${display.map((n,i)=>`<text x="${35+i*92}" y="195" font-size="125" font-family="Arial" font-weight="700" fill="none" stroke="#9aa5b7" stroke-width="3" stroke-dasharray="6 5">${n}</text>`).join('')}</svg>`;
+ const display=numbers.slice(-6),step=550/Math.max(1,display.length),size=Math.min(125,step*.75);
+ return `<svg viewBox="0 0 600 260" class="trace-svg"><g stroke="#ccd2dd" stroke-width="2"><line x1="20" y1="210" x2="580" y2="210"/><line x1="20" y1="90" x2="580" y2="90"/></g>${display.map((n,i)=>`<text x="${30+i*step}" y="195" font-size="${size}" font-family="Arial" font-weight="700" fill="none" stroke="#9aa5b7" stroke-width="3" stroke-dasharray="6 5">${n}</text>`).join('')}</svg>`;
 }
 function graphismSvg(themeId){
  const paths={
@@ -67,22 +68,22 @@ function activityPrintHtml(a,d){
  if(a.materials?.length)h+=`<p><b>Matériel :</b> ${a.materials.map(esc14).join(' · ')}</p>`;
  if(a.course?.length)h+=`<h3>Parcours</h3><ol>${a.course.map(x=>`<li>${esc14(x)}</li>`).join('')}</ol>`;
  if(a.questions?.length)h+=`<h3>Questions et repères adulte</h3>${a.questions.map(q=>`<p>${esc14(q.fr)}<br><span lang="en">${esc14(q.en)}</span><br><b>Réponse :</b> ${esc14(q.answer)}</p>`).join('')}`;
- if(a.bassa_variants?.length)h+=`<div class="bassa"><b>Documentation adulte — Bassa non validé</b>${a.bassa_variants.map(x=>`<p><b>${esc14(x.concept)}</b> : ${(x.forms||[]).map(esc14).join(' · ')}<br>Sources : ${(x.sources||[]).map(esc14).join(' · ')}<br>${esc14(x.note||'')}</p>`).join('')}</div>`;
+ if(a.bassa_variants?.length)h+=`<div class="bassa"><b>Bassa — propositions documentaires non validées, toutes acceptées pour le sens demandé</b>${a.bassa_variants.map(x=>`<p><b>${esc14(x.concept)}</b> : ${(x.forms||[]).map(esc14).join(' · ')}<br>Sources : ${(x.sources||[]).map(esc14).join(' · ')}<br>${esc14(x.note||'')}</p>`).join('')}</div>`;
  if(a.source_note)h+=`<p>${esc14(a.source_note)}</p>`;
  return h+`<h3>Observation</h3><ul>${(a.observe||[]).map(x=>`<li>${esc14(x)}</li>`).join('')}</ul><p>Édition pilote — validation pédagogique à confirmer.</p></article>`;
 }
-function printActivity(a,d){printWindow(`${a.title_fr} — Moyenne Section`,`<h1>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</h1>`+activityPrintHtml(a,d));}
+function printActivity(a,d){printWindow(`${a.title_fr} — ${esc14(NURSERY.label)}`,`<p>${esc14(NURSERY.label)}</p><h1>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</h1>`+activityPrintHtml(a,d));}
 function printDomain(d){printWindow(`${d.name_fr} — ${theme.title_fr}`,`<h1>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</h1>${d.activities.map(a=>activityPrintHtml(a,d)).join('')}`);}
 function printTheme(){
  let body=`<h1>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</h1><p>${esc14(theme.project?.description_fr||'')}</p>`;
  theme.domains.forEach(d=>{body+=`<h2>${d.icon} ${esc14(d.name_fr)}</h2>${d.activities.map(a=>activityPrintHtml(a,d)).join('')}`;});
  body+=`<div class="sheet"><h1>Cahier de graphisme</h1>${worksheetsForCurrent().map(w=>`<h2>${w.title}</h2><p>${esc14(w.instruction_fr)}</p>${w.html}`).join('')}</div>`;
- printWindow(`MS — ${theme.title_fr}`,body);
+ printWindow(`${NURSERY.grade} — ${theme.title_fr}`,body);
 }
 function printWorksheet(w){printWindow(`${w.title} — ${theme.title_fr}`,`<section class="sheet"><h1>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</h1><h2>${w.title}</h2><p>${esc14(w.instruction_fr)}</p><p><i>${esc14(w.instruction_en)}</i></p>${w.html}<div class="lines"></div></section>`);}
 async function printDomainAll(id){
  const first=themePack.themes[catalog.themes[0].id].domains.find(d=>d.id===id);if(!first)return;
- let body=`<h1>${esc14(first.name_fr)} · ${esc14(first.name_en)}</h1><p>Moyenne Section bilingue — parcours par domaine à travers les huit thèmes.</p>`;
+ let body=`<h1>${esc14(first.name_fr)} · ${esc14(first.name_en)}</h1><p>${esc14(NURSERY.label)} — parcours par domaine à travers les huit thèmes.</p>`;
  for(const t of catalog.themes){const th=themePack.themes[t.id],d=th.domains.find(x=>x.id===id);if(d)body+=`<section class="sheet"><h2>${themeIcon(t.id)} ${esc14(th.title_fr)} · ${esc14(th.title_en)}</h2>${d.activities.map(a=>activityPrintHtml(a,d)).join('')}</section>`;}
  printWindow(`${first.name_fr} — 8 thèmes`,body);
 }
@@ -94,7 +95,7 @@ function worksheetsPage(){
  document.getElementById('printAllWs').onclick=()=>printWindow(`Cahier graphique — ${theme.title_fr}`,ws.map(w=>`<section class="sheet"><h1>${esc14(theme.title_fr)}</h1><h2>${w.title}</h2><p>${esc14(w.instruction_fr)}</p>${w.html}<div class="lines"></div></section>`).join(''));
 }
 function domainsAllPage(){
- const sample=themePack.themes[catalog.themes[0].id].domains;let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><div class="browseTabs"><button onclick="location.hash='#themes'">Par thème</button><button class="active">Par domaine</button></div><section class="hero"><div class="eyebrow">MOYENNE SECTION · PAR DOMAINE</div><h1>Choisir d’abord un domaine</h1><p>Parcours ensuite les huit thèmes pour ce même domaine.</p></section><div class="grid">`;
+ const sample=themePack.themes[catalog.themes[0].id].domains;let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><div class="browseTabs"><button onclick="location.hash='#themes'">Par thème</button><button class="active">Par domaine</button></div><section class="hero"><div class="eyebrow">${esc14(NURSERY.label.toUpperCase())} · PAR DOMAINE</div><h1>Choisir d’abord un domaine</h1><p>Parcours ensuite les huit thèmes pour ce même domaine.</p></section><div class="grid">`;
  sample.forEach(d=>body+=`<button class="domain" data-domain-all="${d.id}"><div class="icon">${d.icon}</div><strong>${esc14(d.name_fr)}</strong><small>${esc14(d.name_en)} · ${d.weight}</small><small>8 thèmes</small></button>`);
  body+='</div>';shell(body);document.querySelectorAll('[data-domain-all]').forEach(b=>b.onclick=()=>location.hash='#domain-all:'+b.dataset.domainAll);
 }
@@ -120,8 +121,9 @@ function injectDomainPrints(){
 }
 function activitySubject(a,d){
  if(['math','pattern','patterns','sorting','classification','shape','shapes','measurement','position','distance','laterality'].includes(a.type))return 'Mathématiques';
+ if(a.type==='digital')return 'TIC';
  if(['prewriting'].includes(a.type))return 'Graphisme';
- if(a.type==='bassa')return 'Langues nationales';
+ if(a.type==='bassa')return 'Bassa · langue et culture';
  if(d.id==='LC')return 'Langage et communication';
  if(d.id==='ST')return 'Découverte scientifique';
  if(['AC','AR'].includes(d.id))return 'Arts et création';
@@ -144,7 +146,7 @@ function routeSpecial(h){
  if(h==='#worksheets'){worksheetsPage();return true;}
  return false;
 }
-Klassia.registerRoutes('MS',routeSpecial);
+Klassia.registerRoutes(NURSERY.grade,routeSpecial);
 function decorate14(){if(!practice14||!catalog||!themePack)return;injectHomeEnhancements();injectDomainPrints();const tabs=document.querySelector('.browseTabs');if(tabs&&!tabs.querySelector('[data-subjects]'))tabs.insertAdjacentHTML('beforeend',`<a data-subjects href="#subjects-all">Par matière / activité</a>`);if(!tabs&&/^#(?:subjects-all|activity-subject:|domain-all:|themes)/.test(location.hash))document.querySelector('.hero,.sectionTitle')?.insertAdjacentHTML('beforebegin',`<nav class="browseTabs klassia-learning-mode"><a href="#themes">Par thème / unité</a><a href="#subjects-all">Par matière / activité</a><a href="#domains-all">Par domaine</a></nav>`);}
 document.addEventListener('klassia:render',decorate14);
 })();

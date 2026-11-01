@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "b98c83a4e1311bcc78fc88371ae614c9dbe20e8b59cee68731ca5c2ab7aee1ca",
+  "version": "293c56976965796ea2bfecfae40babeb6ae076cbb32754970770047e768697be",
   "files": [
     {
       "url": "./app.js",
-      "sha256": "65a8013f47f53f74884b9dd720d61b00aa9570aead0e0a130399bbe885d758e9"
+      "sha256": "3d7d3e3506c874ff1a8ce541bd34d30d33db45aa996523be95f9d4a5a6075c79"
     },
     {
       "url": "./assets/count-school.svg",
@@ -19,47 +19,51 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/unit1.json",
-      "sha256": "f6a0722738541ad566654d6d8fbf82b404bf12a06cab0c767eeb3bd92e0ad87e"
+      "sha256": "4f4fb7c7477c94b5eb0af6abee7284236a809171350b50b469132ab606e47353"
     },
     {
       "url": "./ce1/data/unit2.json",
-      "sha256": "1f76caf6f61c025ad9e3832831c416c5b8b3dd106e0d96201f25d4a5d39bf4ac"
+      "sha256": "3fe0ee6261e76f3e4502ff10415d95124fc97c9428cb5ac7a042a859f2dd2682"
     },
     {
       "url": "./ce1/data/unit3.json",
-      "sha256": "f004ef4f47c4052c8e14ee2bfabb7ba1586d73d66db41980991f16daa1e29d16"
+      "sha256": "f05d28dc2cd466b3021493943d3f9e9f77b642a75d300db55a2f0752b7899d4f"
     },
     {
       "url": "./ce1/data/unit4.json",
-      "sha256": "26e2215e4fedb4c3fa61c09b4a6596fe2fcb82c97238008cf8c3619b78569da7"
+      "sha256": "d2b2caf3a7993094d789b9cabf73fed05ab50b7c7c5a216e72332d542c181817"
     },
     {
       "url": "./ce1/data/unit5.json",
-      "sha256": "d86a485cdde27e45a5b83ef42dee7b67a38b04116065500535bf2c07adad46da"
+      "sha256": "489fa9645d22eaeb74c303ad41ea6b89abad33d8978cd8fd0a77f2e26d8dea3c"
     },
     {
       "url": "./ce1/data/unit6.json",
-      "sha256": "cf7994b5858072b521966dae39574a41035dfd3f0208eaa16b454c8f32942202"
+      "sha256": "903a73849c33364d60bad4f0aae59763d7d6a28003bc4125ddb3b8dd7e329e07"
     },
     {
       "url": "./ce1/data/unit7.json",
-      "sha256": "061b6cfd2834a167767e5817da00817db64ed0c4b5685ab783d317a0fdc76717"
+      "sha256": "732da1f7dda535c65e9d97600796e09b37e9eb076583c67077f8a0d662c53f25"
     },
     {
       "url": "./ce1/data/unit8.json",
-      "sha256": "2bb21048280fe1f39bc33052a6927b21b09f2ca0eefb98001f5cc5b459f9aa01"
+      "sha256": "f3aa9c35800e77dd8e82be67b8bbebf092841b4eaf2e71840ed3c4108a0004d8"
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "60bbecef22cb43a74dff2b73973b79724519e03aa9a358a0249ce39526203e7f"
+      "sha256": "b75d65179e2bf14d07c0577f2444566026ecbed389cd68940a6e83a22cc1a85d"
     },
     {
       "url": "./class-switch-v12.js",
       "sha256": "d88cce2503f79cd23bcac49e1251bd08343899ea6e189d5ed3dbbb5118d58657"
     },
     {
+      "url": "./data/bassa-lessons.json",
+      "sha256": "45d25b59c9e7db1780025e76d9a532bb22cdec5275d95a60b202608eab27c244"
+    },
+    {
       "url": "./data/bassa-lexicon-variants.json",
-      "sha256": "b304dfbec85e78a0a9ca7a2493c8f271795c64773a8dc899e9433eb8e5eb7419"
+      "sha256": "29713eb4179f13cb7fdbf20ce498e8e865784fbc5f6f06a4961460cd58ef0a11"
     },
     {
       "url": "./data/catalog.json",
@@ -103,7 +107,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "46f31ae13627a849ee87a70dde82e8563201a4a8a03ca8ccf12cc77c270fe2ca"
+      "sha256": "694839e303ba8d89b335eea6dc019027a09ebe739e4810cb0dde6cf6f3f87428"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -138,8 +142,56 @@ self.KLASSIA_RELEASE = {
       "sha256": "53dbf226ebb285f3067806919ecb2aeea4cc031c56f6f89c8889bc8815082c05"
     },
     {
+      "url": "./gs/data/catalog-v13.json",
+      "sha256": "1a25f89e8a6ee9924706be032bb1a37e661e87337fd6e4ab5a7b901ae6111fe9"
+    },
+    {
+      "url": "./gs/data/curriculum-map.json",
+      "sha256": "479560170f499514c30067b9db59a209ff7c548e0a38498fd92237cd0630d647"
+    },
+    {
+      "url": "./gs/data/themes/T1.json",
+      "sha256": "bdb6150a5da6b6342253e46a0b08c1819a0b5577feda14f469d356b1a6fb2200"
+    },
+    {
+      "url": "./gs/data/themes/T2.json",
+      "sha256": "274314781cf446bafe5023f7bc08b3b2ce6144b752baedd5971bdc4798ed4158"
+    },
+    {
+      "url": "./gs/data/themes/T3.json",
+      "sha256": "aa5a3783ac5ab4627a1489e16c850939d4a1332804c0aa64a9594998f9d0fad8"
+    },
+    {
+      "url": "./gs/data/themes/T4.json",
+      "sha256": "5b1aa5fc25578d1e8165a27ff7c24300017db423ca162d287fb7f60af26d166b"
+    },
+    {
+      "url": "./gs/data/themes/T5.json",
+      "sha256": "5d3edbcbb7d2b14a3cd0080a1a189a7fde80336a6e4d1453a19ac84e21f03a6e"
+    },
+    {
+      "url": "./gs/data/themes/T6.json",
+      "sha256": "f8d7719fff02fe978ddb1472ccfa0ca5a44020a9c48349cf1e53d944d4f287b9"
+    },
+    {
+      "url": "./gs/data/themes/T7.json",
+      "sha256": "ca20c5517bcd3f9a17d40825187ca1336187390a671fe8032ad92bae5e4f6353"
+    },
+    {
+      "url": "./gs/data/themes/T8.json",
+      "sha256": "09fd7f9ff1bfa51f5ce1103ebdacf3043a9189b64f0e098070bc6b4eb848495f"
+    },
+    {
+      "url": "./gs/index.html",
+      "sha256": "d733481d9f730710339139ec0962ca9947771d69b2fed65c5ed6562d5541594c"
+    },
+    {
+      "url": "./gs/practice-v14.json",
+      "sha256": "3ec3a7b3dec2b9be1976d9da011773f1de0921e88cbd57743575a0abf1919f9d"
+    },
+    {
       "url": "./index.html",
-      "sha256": "18680d39fd16c50d7eb4398ed8c5418cd76958fa2086f5072b20ff1cd2477bae"
+      "sha256": "67b21eedfa90d27378ba6ed3960544501617e27611cf7a42a8c2910d54e6826f"
     },
     {
       "url": "./manifest.webmanifest",
@@ -151,11 +203,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-core-v13.js",
-      "sha256": "3f520c427ec01d0df9f84fdb2a6033508544005f36122b74a490fd2df75b8914"
+      "sha256": "c16c3cc49ab85cd18a34ab0709312d9e7b6700305c362270468ff79bbdc5bd22"
     },
     {
       "url": "./ms/app-ui-v13.js",
-      "sha256": "72f5758386c1f8fb41567037413d6026234806fbc412c0b49bb5d09906f394a1"
+      "sha256": "5d2c1e24c8108dbf67b42a39eecb3595fa5a9d22eb4917237264646a4faf8fae"
     },
     {
       "url": "./ms/data/catalog-v13.json",
@@ -163,39 +215,39 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/data/themes/T1.json",
-      "sha256": "60b245bd19d752c1e3ee5a017394fa333681b4cdcfd7a7bc77b7ad614a171339"
+      "sha256": "003f6b48dba5983adfb3af975f4b5d4dd8ccd57c43964ee4fe4be88846493d93"
     },
     {
       "url": "./ms/data/themes/T2.json",
-      "sha256": "35e3591ca2d062c8ae60bea38aa60e28f19487cdea4072d2de400ec6c44cfe99"
+      "sha256": "949c8f9be525ca562aecd41a6e4245403edcc5b927b772aaa581d2ef3b1e81e6"
     },
     {
       "url": "./ms/data/themes/T3.json",
-      "sha256": "87eeb21cf8bcadeeb5dac3815ac8ef4d77fac7e337444878ab078052361a0956"
+      "sha256": "77d4bc31c4cbcc7d4e1bf16ba8b0762f8c260ea8f888d7259188e700da6acc14"
     },
     {
       "url": "./ms/data/themes/T4.json",
-      "sha256": "040a0c50a577d4ec7e631099aa33eaceafb663a6eafddf05e32bc110ec237d77"
+      "sha256": "d67e1a7951aca447844e9d40433448ed5be81789e04d5498c8a32465307711d9"
     },
     {
       "url": "./ms/data/themes/T5.json",
-      "sha256": "65738be17dfa60af8e391af03630bbaaeadaf75c23b9cdcce913be2d5a34e608"
+      "sha256": "35fa034ccb00dcf4b86a7ce5b6914c2323455d8bb814d3473e8f41e31d127522"
     },
     {
       "url": "./ms/data/themes/T6.json",
-      "sha256": "50367ea01fa8a08e21afa54d9c35c4d5903ba7070c0d42591766fef8d2df633b"
+      "sha256": "268d5f4fdbd08756f844d8677c6800401160007afa4df5da1c689242e2355fc6"
     },
     {
       "url": "./ms/data/themes/T7.json",
-      "sha256": "6d676c36fc168e7cbf6dd30897ba4aba5d97f41ec1d29f9695077ecaef9a0f11"
+      "sha256": "3bc99bf251bf827c91656a642d34ddd809b39910e0e81483b25f7aa08759e04c"
     },
     {
       "url": "./ms/data/themes/T8.json",
-      "sha256": "b33d14593ae84d95b82a571a9cf030cb1175e56631d5349b351f0aa55bc0062f"
+      "sha256": "7ed2b8acb57fa68f6bae518129cd8f6e10ead47170963501349a8163f42c989e"
     },
     {
       "url": "./ms/index.html",
-      "sha256": "0697efd0d82492e0aa52e97557ab2d0b95225d486505f39b58942a7d28a4ebf4"
+      "sha256": "73344c1bcaa3c5cdc3af9c4755f96b5fb7085eb36e837ce21f8045a1f305c10f"
     },
     {
       "url": "./ms/ms-v14.css",
@@ -203,7 +255,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/ms-v14.js",
-      "sha256": "2aae0669212a536615a1f48a37ae04bcbda98f0d376639676eabb0e1aff256f0"
+      "sha256": "051d1d80af04a302266ddf010f10ab899312f508ab459151002e9e4e1bb3e9f9"
     },
     {
       "url": "./ms/practice-v14.json",
@@ -215,27 +267,31 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./pwa.js",
-      "sha256": "7b42308b3e21fa84c7f42bf44dcef924dcd60cd3169aac64c31cb467bbc37c71"
+      "sha256": "4ab94507375736eb88d7bde10c3279f1048a63c83896d288b06a924dfa6ee31e"
     },
     {
       "url": "./service-worker.js",
       "sha256": "73cc419dc444a451bf35cc82d13c52182b3b76e1d8dc870ce4b593f9626f9ddb"
     },
     {
+      "url": "./shared/bassa.js",
+      "sha256": "eec8371a1e37e20c55f94bd9bb84c6cb2ffc5b346083b85ecba1f5fe1ac3ac80"
+    },
+    {
       "url": "./shared/core.js",
-      "sha256": "745f1c408fa5bd737e2686e3cc1232b657da562cd4fd5c06bd918750c71d4422"
+      "sha256": "877507c45c202d03c70c9a14ab27454b6081ea085103682521f58970fc4fc578"
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "c21493016478a693c30ad1ba46908ef830b51e6b76bc2a6d1d9508cc3d55d3f6"
+      "sha256": "50c7a8fa062986c7146e4c4d3c1408cb0a70a7dfde3514d2ac03066ac4587e6a"
     },
     {
       "url": "./shared/style.css",
-      "sha256": "b9b510489fd78f26435063c6b492beb9e0de6a60818511b03b4562d635816fab"
+      "sha256": "696cec32220e175f9f1d50395236b79ed8213c7ed1e5b1aaec2dfa9c9a6831c3"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "3ccafe5ee2fa089a6f63bdcc366df0c5c3f394a9702d3cc78d23496485521e81"
+      "sha256": "f53f97abc2b79bee28649e7a84d86389f25e77df0aa8907e477946c787ba11fd"
     },
     {
       "url": "./sil/data/curriculum.json",
@@ -243,39 +299,39 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "cded6c769dcd53e4006b682a47ab12d33eb3f414fa6859a64eefcb768d100890"
+      "sha256": "6a50757f5352516e9d634022e967da69f9fd25f50259378f934ffca4bbf4f10b"
     },
     {
       "url": "./sil/data/sil-u2.json",
-      "sha256": "125ae8c9b15c16d305332f69a68e6e1214810ee3caba7a5def058c82f529ca7a"
+      "sha256": "4984a287bfa06c2e0bb36a7d77543837241c900c29e3aeb8c0b89b8cb4e5e021"
     },
     {
       "url": "./sil/data/sil-u3.json",
-      "sha256": "992efa5076972d91fbf0d11b2d6b3336a7aa2d1c2a4206a83155ddc865a70865"
+      "sha256": "c4cd5346ba2261c480c19884dfee66d715624fc541c14b759a9d4345d4ff86c0"
     },
     {
       "url": "./sil/data/sil-u4.json",
-      "sha256": "2725d39a49b21458d33a6e3bc11616c945708b73d0160238e3a9210190307233"
+      "sha256": "0e6bebe270b821d68a0a4e49839c99dd3b88bd99ba0d5ca1728edd098f10ec15"
     },
     {
       "url": "./sil/data/sil-u5.json",
-      "sha256": "6b10eae517643e1b7a41ec948e0a9d8e875992b9675bbea331dcafa575fdec7c"
+      "sha256": "d936eb224b85cf6a061fdc6e7053d1851ffe0c6cfe1c0fde11938bdd178216e9"
     },
     {
       "url": "./sil/data/sil-u6.json",
-      "sha256": "b6ea53bf2be3b585ab058f95d902d3b953520ef58cf6e24ac9a74fbd6e3582f4"
+      "sha256": "513114737afd09ba76cb7d77e58849fbf79f3fe4992d28c157b564d1381f6547"
     },
     {
       "url": "./sil/data/sil-u7.json",
-      "sha256": "b0b568c3b1e8a1d7727bea5fa1580ca844d018d671f0c16c85c0e842a6527af5"
+      "sha256": "cc70731c46d482a35b185c724033c3bc13b7ad4c71ad9b944aa420cf7cc0c76f"
     },
     {
       "url": "./sil/data/sil-u8.json",
-      "sha256": "696864e017b62410cf161d52dea0caaf10bf014907138d6db5b4ff1287f5c90d"
+      "sha256": "791799017cd801fbb55316e13d83ed5529708b9bab066e4ae7aa0e7bbbe6509b"
     },
     {
       "url": "./sil/index.html",
-      "sha256": "ec800598f32172293980b2ecf6b08aa24387a1bba32dee3d52ddc6bffa400c03"
+      "sha256": "7a121fc1a0330ba4847ca1c4f7ef0cdb99e6ad66521df5fb16f1219302a8fc2b"
     },
     {
       "url": "./sil/style.css",
@@ -291,7 +347,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.js",
-      "sha256": "f02d2d55903d8af2e816b14ed827a8d31d3ccd8b2add6f62e47105d5e30dfab1"
+      "sha256": "53fcde34a9d44a2af7a7a8c1ffaf1100f90a25eb758e37d9889ed1d69a5183a9"
     },
     {
       "url": "./v9.css",

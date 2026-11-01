@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const items=read('data/coverage.json').items;
-const grades=['MS','SIL','CE1','CE2'].map(grade=>{const rows=items.filter(x=>x.grade===grade);return {grade,resources:rows.length,genericDiscoveries:rows.filter(x=>x.generic_discovery).map(x=>x.id),unverifiedCurriculumMappings:rows.filter(x=>!x.official_competency_id).length};});
+const grades=['MS','GS','SIL','CE1','CE2'].map(grade=>{const rows=items.filter(x=>x.grade===grade);return {grade,resources:rows.length,genericDiscoveries:rows.filter(x=>x.generic_discovery).map(x=>x.id),unverifiedCurriculumMappings:rows.filter(x=>!x.official_competency_id).length};});
 const warnings=[],supportLessons=[],additionalPractice=[];
 for(const grade of ['sil','ce1']){
  const catalog=read(grade==='sil'?'sil/data/curriculum.json':'ce1/data/catalog.json');

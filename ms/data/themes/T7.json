@@ -268,13 +268,30 @@
               "forms": [
                 "málêt",
                 "malet",
-                "mhiet (OCR/transcription ancienne incertaine)"
+                "mhiet"
               ],
               "sources": [
+                "linguistique Basaá moderne",
+                "Cameroon Basaa course",
                 "MDPI 2026 / Hyman examples",
                 "Cameroon Basaa course (ancienne transcription/OCR)"
               ],
-              "note": "málêt est nettement attesté dans des sources linguistiques modernes ; les anciennes graphies sont conservées comme témoins."
+              "notes": [
+                "Variation de notation tonale.",
+                "málêt est nettement attesté dans des sources linguistiques modernes ; les anciennes graphies sont conservées comme témoins."
+              ],
+              "themes": [
+                "T1",
+                "T7"
+              ],
+              "id": "BA004",
+              "status": "documented_pending_review",
+              "source_links": [
+                {
+                  "title": "Cameroon Basaa course",
+                  "url": "https://fr.scribd.com/document/895662227/Le-Basaa-du-Cameroun-Cours-d-Introduction"
+                }
+              ]
             },
             {
               "concept": "médecin / travailleur clinique",
@@ -286,19 +303,65 @@
               "sources": [
                 "Cameroon Basaa course / ERIC OCR"
               ],
-              "note": "Emprunt adapté, avec variations de transcription dans les éditions/OCR."
+              "notes": [
+                "Emprunt adapté, avec variations de transcription dans les éditions/OCR.",
+                "Référence bibliographique héritée du corpus : lien primaire précis à compléter; ne pas confondre disponibilité et validation."
+              ],
+              "themes": [
+                "T7"
+              ],
+              "id": "BA038",
+              "status": "documented_pending_review",
+              "source_links": [
+                {
+                  "title": "Cameroon Basaa course / ERIC OCR",
+                  "url": "https://fr.scribd.com/document/895662227/Le-Basaa-du-Cameroun-Cours-d-Introduction"
+                }
+              ]
             },
             {
-              "concept": "élève / student",
+              "concept": "bois (pluriel / woods)",
               "forms": [
-                "ɲúdú",
-                "Ñudu sukulu"
+                "bìkék"
               ],
               "sources": [
-                "Afranaph Basaa",
-                "lexique scolaire communautaire"
+                "Edu-Kultur, alphabet ɓàsàá"
               ],
-              "note": "ɲúdú est attesté pour student ; Ñudu sukulu est donné pour élève/écolier dans une ressource scolaire."
+              "notes": [
+                "Exemple orthographique de la lettre b."
+              ],
+              "themes": [
+                "T5"
+              ],
+              "id": "BA032",
+              "status": "documented_pending_review",
+              "source_links": [
+                {
+                  "title": "Edu-Kultur, alphabet ɓàsàá",
+                  "url": "https://edukultur.com/lalphabet-%C9%93asaa/"
+                }
+              ]
+            },
+            {
+              "concept": "coton / cotton",
+              "forms": [
+                "sùùt"
+              ],
+              "sources": [
+                "Edu-Kultur, alphabet ɓàsàá"
+              ],
+              "notes": [
+                "Exemple lexical publié; proposition documentaire non validée."
+              ],
+              "themes": [],
+              "id": "BA058",
+              "status": "documented_pending_review",
+              "source_links": [
+                {
+                  "title": "Edu-Kultur, alphabet ɓàsàá",
+                  "url": "https://edukultur.com/lalphabet-%C9%93asaa/"
+                }
+              ]
             }
           ],
           "activity_fr": "Lire les variantes comme des traces de différentes conventions d’écriture. Pour l’usage scolaire, demander validation au spécialiste/local speaker.",

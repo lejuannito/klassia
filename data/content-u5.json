@@ -47,62 +47,55 @@
             "Formuler clairement ses idées.",
             "Utiliser débit, volume, intonation, registre et vocabulaire adaptés."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Présenter clairement ses idées pendant un voyage ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "À la gare routière, comment demander un lieu de départ sans oublier la destination ?",
           "learn": [
-            "Je prépare mon idée principale, je parle distinctement et j’adapte mes mots à la situation."
+            "Je choisis les détails utiles : destination, lieu ou moment. « Où est le car ? » peut être trop vague.",
+            "Une reformulation vérifie la réponse : l’enfant répète le repère pour éviter une erreur.",
+            "Je formule une demande polie, précise, puis j’écoute la réponse."
           ],
-          "takeaway": "Je prépare mon idée principale, je parle distinctement et j’adapte mes mots à la situation.",
+          "takeaway": "Je formule une demande polie, précise, puis j’écoute la réponse.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Présenter clairement ses idées pendant un voyage » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je prépare mon idée principale, je parle distinctement et j’adapte mes mots à la situation. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle destination est précisée ? À quoi sert la deuxième question ?",
+              "answer": "Bafoussam. La deuxième question vérifie le lieu d’attente.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U5-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Présenter clairement ses idées pendant un voyage ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je prépare mon idée principale, je parle distinctement et j’adapte mes mots à la situation.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Avec un adulte, tu cherches le bureau des billets pour Yaoundé. Formule la demande.",
+              "answer": "Exemple : Bonjour monsieur, où peut-on acheter les billets pour Yaoundé, s’il vous plaît ? Accepter toute demande polie précisant les billets et la destination.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U5-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U5, p.28.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Jouez le dialogue en changeant la destination et le repère ; l’auditeur vérifie en reformulant."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Présenter clairement ses idées pendant un voyage » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Enfant : Bonjour madame. Où attend-on le car pour Bafoussam ?\nAgente : Près du panneau bleu, à côté du bureau.\nEnfant : Le panneau bleu près du bureau, c’est bien cela ?\nAgente : Oui. Reste avec l’adulte qui t’accompagne.\nEnfant : Merci madame.",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Présenter clairement ses idées pendant un voyage » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je prépare mon idée principale, je parle distinctement et j’adapte mes mots à la situation. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les voyages ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Je choisis les détails utiles : destination, lieu ou moment. « Où est le car ? » peut être trop vague.\nUne reformulation vérifie la réponse : l’enfant répète le repère pour éviter une erreur.\nJe formule une demande polie, précise, puis j’écoute la réponse."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, expression orale, U5, p.28.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -111,57 +104,54 @@
           "objectives": [
             "Identifier et énumérer les caractéristiques des types d’écrits les plus fréquents."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Reconnaître les principaux types d’écrits ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour retrouver une heure de départ, choisis-tu un billet ou une description de la gare ?",
           "learn": [
-            "Le but du texte aide à reconnaître sa nature : raconter, décrire, informer, expliquer, donner des consignes ou défendre une idée."
+            "Un billet renseigne ; un itinéraire guide ; un récit raconte ; une description fait imaginer un lieu.",
+            "A donne l’heure. B comporte des consignes avec sors, avance, tourne. Le thème commun du voyage ne suffit pas à identifier le type d’écrit.",
+            "Je choisis le document qui répond à ma question."
           ],
-          "takeaway": "Le but du texte aide à reconnaître sa nature : raconter, décrire, informer, expliquer, donner des consignes ou défendre une idée.",
+          "takeaway": "Je choisis le document qui répond à ma question.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Reconnaître les principaux types d’écrits » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le but du texte aide à reconnaître sa nature : raconter, décrire, informer, expliquer, donner des consignes ou défendre une idée. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel texte raconte des événements ? Lequel décrit un lieu ? Donne un indice.",
+              "answer": "C raconte : départ puis arrivée. D décrit : cour, bâtiments jaunes et panneau.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U5-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Reconnaître les principaux types d’écrits ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le but du texte aide à reconnaître sa nature : raconter, décrire, informer, expliquer, donner des consignes ou défendre une idée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Relève dans A le départ, la destination, l’heure et la place.",
+              "answer": "Douala ; Yaoundé ; 8 h ; place 12. La flèche donne le sens du trajet.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U5-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U5, p.33.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Dessine un billet imaginaire portant la mention exercice ; fais retrouver ses quatre informations."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « les voyages », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "A — BILLET FICTIF D’EXERCICE : Douala → Yaoundé. Départ : 8 h. Place : 12.\nB — Sors de la classe, avance jusqu’à la cour, puis tourne à gauche devant le bureau.\nC — Le car démarre. Mina regarde les maisons, puis les collines. À l’arrivée, son oncle l’attend avec sa mère.\nD — La gare possède une grande cour et deux bâtiments jaunes. Un panneau bleu se trouve près de l’entrée."
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Reconnaître les principaux types d’écrits » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le but du texte aide à reconnaître sa nature : raconter, décrire, informer, expliquer, donner des consignes ou défendre une idée. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les voyages ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Un billet renseigne ; un itinéraire guide ; un récit raconte ; une description fait imaginer un lieu.\nA donne l’heure. B comporte des consignes avec sors, avance, tourne. Le thème commun du voyage ne suffit pas à identifier le type d’écrit.\nJe choisis le document qui répond à ma question."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, production d’écrits, U5, p.33.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -172,57 +162,55 @@
             "Rendre compte de la lecture.",
             "Donner son point de vue."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Lire une aventure de voyage et rendre compte de sa lecture ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux valises bleues sont côte à côte. Quels détails permettront de les distinguer ?",
           "learn": [
-            "Je résume sans raconter tous les détails et je justifie mon avis avec le texte."
+            "Je cherche les personnages, le problème et sa solution. La couleur ne suffit pas puisque les deux valises sont bleues.",
+            "Un résumé conserve les événements essentiels sans ajouter un vol ou une perte absents du récit.",
+            "Je dis qui rencontre quel problème et comment il est résolu."
           ],
-          "takeaway": "Je résume sans raconter tous les détails et je justifie mon avis avec le texte.",
+          "takeaway": "Je dis qui rencontre quel problème et comment il est résolu.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure de voyage et rendre compte de sa lecture » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je résume sans raconter tous les détails et je justifie mon avis avec le texte. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Pourquoi le père s’arrête-t-il ? Quels deux indices les aident ?",
+              "answer": "Le ruban vert manque sur la première valise. Ils vérifient le ruban et l’étiquette.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U5-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure de voyage et rendre compte de sa lecture ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je résume sans raconter tous les détails et je justifie mon avis avec le texte.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Résume le récit en trois phrases.",
+              "answer": "Exemple : Sara et son père hésitent entre deux valises bleues à l’arrivée du car. Ils vérifient le ruban et l’étiquette. Chaque voyageur retrouve son bagage. Accepter un résumé fidèle avec problème, vérification et résultat.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U5-L3-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U5, p.35.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Raconte une aventure inventée avec d’abord, ensuite et enfin."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Lire comme un détective",
-              "kind": "method",
-              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure de voyage et rendre compte de sa lecture », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
-            },
-            {
-              "title": "Rendre compte de sa lecture",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+              "body": "Récit original : Les deux valises\nÀ l’arrivée du car, Sara reste près de son père. Deux valises bleues sont posées côte à côte. Son père prend la première, puis s’arrête : leur ruban vert n’est pas sur la poignée. Sara lui montre la seconde. Ils vérifient ensemble l’étiquette. Un autre voyageur arrive : la première valise lui appartient. Chacun récupère son bagage. Le père remercie Sara pour son attention. Elle raconte à sa tante : « Nous avons presque pris la mauvaise valise, mais le ruban et l’étiquette nous ont aidés. »",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure de voyage et rendre compte de sa lecture » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je résume sans raconter tous les détails et je justifie mon avis avec le texte. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les voyages ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Je cherche les personnages, le problème et sa solution. La couleur ne suffit pas puisque les deux valises sont bleues.\nUn résumé conserve les événements essentiels sans ajouter un vol ou une perte absents du récit.\nJe dis qui rencontre quel problème et comment il est résolu."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, littérature, U5, p.35.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -231,63 +219,54 @@
           "objectives": [
             "Distinguer déterminants, pronoms possessifs et démonstratifs, adverbes, prépositions et conjonctions de coordination."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Classes de mots variables et invariables ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quels mots changent entre « Le petit car arrive » et « Les petits cars arrivent » ?",
           "learn": [
-            "Les mots variables changent parfois de forme ; les mots invariables gardent leur forme.",
-            "La nature d’un mot dépend de son rôle grammatical, pas seulement de sa place."
+            "Les classes variables comprennent noms, déterminants, adjectifs, pronoms et verbes. Les mots invariables comprennent notamment les adverbes et les prépositions.",
+            "La nature est la classe du mot ; la fonction est son rôle dans la phrase. Sac reste un nom dans « Le sac tombe » et « Sara prend le sac », mais son rôle change.",
+            "Je distingue la nature du mot de sa fonction."
           ],
-          "takeaway": "Les mots variables changent parfois de forme ; les mots invariables gardent leur forme.",
+          "takeaway": "Je distingue la nature du mot de sa fonction.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Classes de mots variables et invariables » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les mots variables changent parfois de forme ; les mots invariables gardent leur forme. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Classe valise, cette, large, partons, demain, avec et indique variable ou invariable.",
+              "answer": "valise : nom variable ; cette : déterminant variable ; large : adjectif variable ; partons : verbe variable ; demain : adverbe invariable ; avec : préposition invariable.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U5-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Classes de mots variables et invariables ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les mots variables changent parfois de forme ; les mots invariables gardent leur forme.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Mets au pluriel : Le car roule lentement. Quel mot reste identique ?",
+              "answer": "Les cars roulent lentement. Lentement reste identique car cet adverbe est invariable.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U5-L4-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U5, p.40.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Transforme une grande valise au pluriel et explique les changements."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Classes de mots variables et invariables » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Le petit voyageur marche lentement avec sa sœur.\nLes petits voyageurs marchent lentement avec leurs sœurs.\nLe/les : déterminant ; petit/petits : adjectif ; voyageur/voyageurs : nom ; marche/marchent : verbe. Lentement et avec ne changent pas."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Classes de mots variables et invariables » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les mots variables changent parfois de forme ; les mots invariables gardent leur forme. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les voyages ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Les classes variables comprennent noms, déterminants, adjectifs, pronoms et verbes. Les mots invariables comprennent notamment les adverbes et les prépositions.\nLa nature est la classe du mot ; la fonction est son rôle dans la phrase. Sac reste un nom dans « Le sac tombe » et « Sara prend le sac », mais son rôle change.\nJe distingue la nature du mot de sa fonction."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U5, p.40.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -297,62 +276,54 @@
             "Identifier la fonction épithète.",
             "Identifier la fonction attribut."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Adjectif épithète et adjectif attribut ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Compare un trajet court et le trajet est court. Où se trouve l’adjectif ?",
           "learn": [
-            "L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés."
+            "L’adjectif épithète est dans le groupe nominal : un trajet court. L’adjectif attribut du sujet est relié au sujet par un verbe comme être : le trajet est court.",
+            "Dans les deux cas, l’adjectif s’accorde : des routes étroites ; les routes sont étroites.",
+            "Je repère le nom et le verbe pour distinguer épithète et attribut."
           ],
-          "takeaway": "L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés.",
+          "takeaway": "Je repère le nom et le verbe pour distinguer épithète et attribut.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Adjectif épithète et adjectif attribut » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Indique la fonction : un long voyage ; le voyage est long ; des sacs légers ; les sacs sont légers.",
+              "answer": "long dans le groupe nominal : épithète ; long après est : attribut ; légers dans le groupe nominal : épithète ; légers après sont : attribut.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U5-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Adjectif épithète et adjectif attribut ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Transforme des places libres en phrase avec être, puis La valise est verte en groupe nominal.",
+              "answer": "Les places sont libres. Une valise verte / la valise verte.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U5-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U5, p.40.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Décris deux objets avec être puis transforme tes phrases en groupes nominaux."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Adjectif épithète et adjectif attribut » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Une route calme → La route est calme.\nDes valises lourdes → Les valises sont lourdes.\nUn petit village → Le village est petit."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Adjectif épithète et adjectif attribut » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : L’adjectif épithète est directement lié au nom ; l’attribut est relié au sujet par un verbe d’état dans les exemples étudiés. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les voyages ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "L’adjectif épithète est dans le groupe nominal : un trajet court. L’adjectif attribut du sujet est relié au sujet par un verbe comme être : le trajet est court.\nDans les deux cas, l’adjectif s’accorde : des routes étroites ; les routes sont étroites.\nJe repère le nom et le verbe pour distinguer épithète et attribut."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U5, p.40.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -362,62 +333,54 @@
             "Expliquer les mots usuels.",
             "Utiliser le champ lexical relatif aux voyages."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Le champ lexical des voyages ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Billet, gare et bagage ne commencent pas de la même manière. Pourquoi les réunir ?",
           "learn": [
-            "Voyage, trajet, départ, arrivée, route, gare, billet, bagage, passager appartiennent au champ lexical du voyage selon le contexte."
+            "Un champ lexical rassemble des mots liés au même thème. Une famille de mots partage une base et un sens : voyage, voyager, voyageur.",
+            "Gare appartient au champ lexical du voyage, mais pas à la famille de voyage.",
+            "Je regroupe par thème sans confondre champ lexical et famille de mots."
           ],
-          "takeaway": "Voyage, trajet, départ, arrivée, route, gare, billet, bagage, passager appartiennent au champ lexical du voyage selon le contexte.",
+          "takeaway": "Je regroupe par thème sans confondre champ lexical et famille de mots.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Le champ lexical des voyages » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Voyage, trajet, départ, arrivée, route, gare, billet, bagage, passager appartiennent au champ lexical du voyage selon le contexte. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Trouve quatre mots directement liés au voyage : billet, casserole, gare, passager, oreiller, itinéraire.",
+              "answer": "billet, gare, passager, itinéraire. Un autre choix nécessite un contexte explicite, car un objet ordinaire peut aussi être emporté en voyage.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U5-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Le champ lexical des voyages ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Voyage, trajet, départ, arrivée, route, gare, billet, bagage, passager appartiennent au champ lexical du voyage selon le contexte.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris trois phrases avec bagage, billet et passager.",
+              "answer": "Exemple : Je prépare mon bagage. Je présente mon billet. Chaque passager trouve une place. Accepter des phrases cohérentes respectant le sens des trois mots.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U5-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U5, p.43.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Construis une affiche du voyage avec lieux, personnes, objets et actions."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Le champ lexical des voyages » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Le voyageur prépare son bagage et son billet. À la gare, il monte dans le car. Le conducteur suit l’itinéraire. À l’arrivée, les passagers descendent.\nObjets : bagage, billet. Lieu : gare. Personnes : conducteur, passagers. Actions : monter, descendre."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Le champ lexical des voyages » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Voyage, trajet, départ, arrivée, route, gare, billet, bagage, passager appartiennent au champ lexical du voyage selon le contexte. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les voyages ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Un champ lexical rassemble des mots liés au même thème. Une famille de mots partage une base et un sens : voyage, voyager, voyageur.\nGare appartient au champ lexical du voyage, mais pas à la famille de voyage.\nJe regroupe par thème sans confondre champ lexical et famille de mots."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, vocabulaire, U5, p.43.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -426,63 +389,78 @@
           "objectives": [
             "Appliquer les règles relatives à la valeur des lettres selon les voyelles proches."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Valeur des lettres c, ç, qu, g, gu, ge, s et ss ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans gare et girafe, g se prononce différemment. Comment garder le son de gare devant i ?",
           "learn": [
-            "La prononciation et l’orthographe de certaines lettres changent selon les lettres voisines.",
-            "On observe le mot et on applique la règle avant d’écrire."
+            "c se lit comme car devant a, o, u ; comme ciel devant e, i, y. ç conserve le son de ciel devant a, o, u. qu note souvent le son de car.",
+            "g se lit comme gare devant a, o, u et comme girafe devant e, i, y. gu conserve le son de gare devant e ou i ; ge conserve celui de girafe devant a ou o.",
+            "Entre deux voyelles, s se lit souvent comme valise ; ss conserve le son de tasse. J’observe les lettres voisines."
           ],
-          "takeaway": "La prononciation et l’orthographe de certaines lettres changent selon les lettres voisines.",
+          "takeaway": "Entre deux voyelles, s se lit souvent comme valise ; ss conserve le son de tasse. J’observe les lettres voisines.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Valeur des lettres c, ç, qu, g, gu, ge, s et ss » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La prononciation et l’orthographe de certaines lettres changent selon les lettres voisines. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Complète : un gar…on ; une …itare ; nous man…ons ; une ta…e (récipient).",
+              "answer": "un garçon ; une guitare ; nous mangeons ; une tasse. ç, gu, ge et ss conservent les sons attendus.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U5-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Valeur des lettres c, ç, qu, g, gu, ge, s et ss ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La prononciation et l’orthographe de certaines lettres changent selon les lettres voisines.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans cousin et coussin, quel mot a le son de valise ? Lequel désigne un objet où s’appuyer ?",
+              "answer": "Cousin contient le son de valise. Coussin désigne l’objet.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U5-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe, U5, p.47.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Lis car/ciel, gare/girafe et cousin/coussin. Entoure les lettres expliquant la différence."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Valeur des lettres c, ç, qu, g, gu, ge, s et ss » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Lis les mots du tableau à voix haute. Compare ensuite cousin et coussin : une lettre doublée change le son et le sens.\nLes règles suivantes concernent les écritures fréquentes ; pour les mots inconnus et les exceptions, consulte un dictionnaire."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
+              "title": "Tableau de référence",
+              "kind": "reference",
+              "table": {
+                "headers": [
+                  "Écriture",
+                  "Exemples"
+                ],
+                "rows": [
+                  [
+                    "c, ç, qu",
+                    "car, cou, cube ; ciel, cinéma ; garçon, reçu ; quatre"
+                  ],
+                  [
+                    "g, gu, ge",
+                    "gare, gomme ; girafe, genou ; guide, guêpe ; mangeons"
+                  ],
+                  [
+                    "s, ss entre voyelles",
+                    "valise, cousin ; tasse, coussin"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Valeur des lettres c, ç, qu, g, gu, ge, s et ss » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : La prononciation et l’orthographe de certaines lettres changent selon les lettres voisines. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les voyages ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "c se lit comme car devant a, o, u ; comme ciel devant e, i, y. ç conserve le son de ciel devant a, o, u. qu note souvent le son de car.\ng se lit comme gare devant a, o, u et comme girafe devant e, i, y. gu conserve le son de gare devant e ou i ; ge conserve celui de girafe devant a ou o.\nEntre deux voyelles, s se lit souvent comme valise ; ss conserve le son de tasse. J’observe les lettres voisines."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, orthographe, U5, p.47.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -492,63 +470,90 @@
             "Associer des verbes conjugués à leur infinitif.",
             "Conjuguer les verbes du deuxième groupe au futur simple."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Infinitif et futur simple des verbes du deuxième groupe ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Nous finissons devient demain nous finirons. Quelle partie de finir reconnais-tu ?",
           "learn": [
-            "L’infinitif est la forme de référence du verbe.",
-            "Au futur simple, les verbes réguliers du deuxième groupe conservent leur base avant les terminaisons du futur."
+            "L’infinitif nomme le verbe. Les verbes du deuxième groupe ont un infinitif en -ir et font -issons avec nous au présent : finir, nous finissons. Partir, nous partons, n’en fait pas partie.",
+            "Au futur de ces verbes, on ajoute ai, as, a, ons, ez, ont à l’infinitif : choisir + ont donne choisiront.",
+            "Je reconnais le groupe puis je choisis la terminaison selon le sujet."
           ],
-          "takeaway": "L’infinitif est la forme de référence du verbe.",
+          "takeaway": "Je reconnais le groupe puis je choisis la terminaison selon le sujet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Infinitif et futur simple des verbes du deuxième groupe » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’infinitif est la forme de référence du verbe. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Conjugue au futur : je (finir), nous (choisir), vous (remplir), elles (réussir).",
+              "answer": "je finirai ; nous choisirons ; vous remplirez ; elles réussiront.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U5-L8-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Infinitif et futur simple des verbes du deuxième groupe ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’infinitif est la forme de référence du verbe.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Parmi finir, partir et choisir, trouve les verbes du deuxième groupe et donne leur forme avec nous au présent.",
+              "answer": "finir : nous finissons ; choisir : nous choisissons. Partir ne l’est pas : nous partons.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U5-L8-E2"
             }
           ],
           "source": "Curriculum CE2, conjugaison, U5, p.50.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Écris deux préparatifs de demain avec finir et choisir."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Infinitif et futur simple des verbes du deuxième groupe » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Demain, je choisirai ma place. Tu rempliras la gourde. Elle finira son dessin. Nous réussirons à ranger les sacs. Vous choisirez le chemin. Ils finiront les préparatifs."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
+              "title": "Tableau de référence",
+              "kind": "reference",
+              "table": {
+                "headers": [
+                  "Sujet",
+                  "finir au futur"
+                ],
+                "rows": [
+                  [
+                    "je",
+                    "finirai"
+                  ],
+                  [
+                    "tu",
+                    "finiras"
+                  ],
+                  [
+                    "il/elle",
+                    "finira"
+                  ],
+                  [
+                    "nous",
+                    "finirons"
+                  ],
+                  [
+                    "vous",
+                    "finirez"
+                  ],
+                  [
+                    "ils/elles",
+                    "finiront"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Infinitif et futur simple des verbes du deuxième groupe » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : L’infinitif est la forme de référence du verbe. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les voyages ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "L’infinitif nomme le verbe. Les verbes du deuxième groupe ont un infinitif en -ir et font -issons avec nous au présent : finir, nous finissons. Partir, nous partons, n’en fait pas partie.\nAu futur de ces verbes, on ajoute ai, as, a, ons, ez, ont à l’infinitif : choisir + ont donne choisiront.\nJe reconnais le groupe puis je choisis la terminaison selon le sujet."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, conjugaison, U5, p.50.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         }
       ],

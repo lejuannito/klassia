@@ -47,63 +47,55 @@
             "Réagir efficacement à une consigne, une demande, un récit ou une action observée.",
             "Déclamer un poème et réciter un petit texte relatif aux métiers."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Écouter, réagir et réciter autour des métiers ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "À l’atelier, on te dit : « Pose le cahier, puis apporte le crayon bleu. » Que fais-tu d’abord ?",
           "learn": [
-            "J’écoute jusqu’au bout avant de répondre.",
-            "Je récite en articulant et en adaptant le volume et l’intonation."
+            "Une consigne peut comporter plusieurs actions. Puis indique ici que poser précède apporter. Si je n’ai pas compris, je demande de répéter avant d’agir.",
+            "Pour réciter, je comprends les mots, j’apprends deux vers à la fois et je respire aux pauses. J’articule sans crier.",
+            "J’écoute toute la consigne ; je récite en faisant entendre le sens."
           ],
-          "takeaway": "J’écoute jusqu’au bout avant de répondre.",
+          "takeaway": "J’écoute toute la consigne ; je récite en faisant entendre le sens.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Écouter, réagir et réciter autour des métiers » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’écoute jusqu’au bout avant de répondre. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Après une écoute du poème, nomme deux métiers et leur action.",
+              "answer": "Au choix : couturière — suit le trait ; menuisier — polit le bois ; jardinier — prépare un carré.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U4-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écouter, réagir et réciter autour des métiers ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’écoute jusqu’au bout avant de répondre.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Exécute : « Prends une feuille, écris ton prénom, puis souligne-le. » Redis les trois étapes.",
+              "answer": "Prendre une feuille ; écrire son prénom ; souligner le prénom. Réussite : les trois actions sont réalisées dans cet ordre.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U4, p.28.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Récite les six vers à un proche. Il vérifie les mots et les pauses, puis tu reprends un vers à améliorer."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Écouter, réagir et réciter autour des métiers » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Poème original : Dans notre quartier\nLa couturière suit le trait,\nLe menuisier polit le bois.\nLe jardinier prépare un carré,\nChacun explique ce qu’il fait.\nJ’écoute, je regarde leurs mains :\nQuel beau travail pour demain !",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écouter, réagir et réciter autour des métiers » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : J’écoute jusqu’au bout avant de répondre. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Une consigne peut comporter plusieurs actions. Puis indique ici que poser précède apporter. Si je n’ai pas compris, je demande de répéter avant d’agir.\nPour réciter, je comprends les mots, j’apprends deux vers à la fois et je respire aux pauses. J’articule sans crier.\nJ’écoute toute la consigne ; je récite en faisant entendre le sens."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, expression orale, U4, p.28.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -112,58 +104,54 @@
           "objectives": [
             "Identifier et énumérer les caractéristiques des types d’écrits les plus fréquents."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Reconnaître les principaux types d’écrits ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une notice et un récit parlent du métier de menuisier. Comment reconnaître leur but ?",
           "learn": [
-            "Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements.",
-            "On reconnaît un type d’écrit par son but, sa forme et certains indices."
+            "Un récit raconte des événements ; une description fait imaginer un objet, un lieu ou une personne.",
+            "Un texte injonctif donne des consignes ; un texte informatif apporte des renseignements. C donne des consignes avec pose, trace et découpe.",
+            "Je reconnais le type d’un passage par son but et ses indices ; un document peut mêler plusieurs types."
           ],
-          "takeaway": "Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements.",
+          "takeaway": "Je reconnais le type d’un passage par son but et ses indices ; un document peut mêler plusieurs types.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Reconnaître les principaux types d’écrits » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Associe A, B, C et D à récit, description, consignes ou information.",
+              "answer": "A : récit ; B : description ; C : consignes ; D : information.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U4-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Reconnaître les principaux types d’écrits ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris deux phrases décrivant le sac d’un artisan imaginaire.",
+              "answer": "Exemple : Son sac est large et bleu. Il possède une poche ronde. Accepter toute description cohérente donnant deux caractéristiques.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U4, p.32.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Observe une affiche avec un adulte : relève une information et, s’il y en a une, une consigne."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « les métiers », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "A — Awa ouvre son atelier. Un client arrive avec une chaise abîmée. Elle examine le pied, puis commence la réparation.\nB — La chaise est basse, brune et légère. Son dossier porte deux étoiles.\nC — Pose la feuille à plat. Trace un rectangle. Découpe en suivant le trait avec l’aide de l’adulte si nécessaire.\nD — Le menuisier fabrique et répare des objets en bois. Il mesure les pièces avant de les assembler."
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Reconnaître les principaux types d’écrits » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un récit raconte des événements ; une description présente des caractéristiques ; une consigne indique ce qu’il faut faire ; un texte informatif apporte des renseignements. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Un récit raconte des événements ; une description fait imaginer un objet, un lieu ou une personne.\nUn texte injonctif donne des consignes ; un texte informatif apporte des renseignements. C donne des consignes avec pose, trace et découpe.\nJe reconnais le type d’un passage par son but et ses indices ; un document peut mêler plusieurs types."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, production d’écrits, U4, p.32.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -173,58 +161,55 @@
             "Lire une œuvre intégrale ou de larges extraits.",
             "Rendre compte de l’œuvre et donner son point de vue."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Lire une aventure sur les métiers et donner son avis ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le banc de la classe penche. Faut-il forcément le remplacer entièrement ?",
           "learn": [
-            "Je repère les personnages, le problème, les actions importantes et la fin.",
-            "Je justifie mon avis avec un élément précis du texte."
+            "Je repère les personnages, le problème, les actions et le résultat. Ici, Awa remplace une pièce et le banc redevient utilisable.",
+            "Je distingue un fait du récit et un avis : « Awa est attentive, car elle examine les pieds » est un avis justifié.",
+            "Je résume dans l’ordre et j’appuie mon avis sur le texte."
           ],
-          "takeaway": "Je repère les personnages, le problème, les actions importantes et la fin.",
+          "takeaway": "Je résume dans l’ordre et j’appuie mon avis sur le texte.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure sur les métiers et donner son avis » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère les personnages, le problème, les actions importantes et la fin. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Pourquoi la maîtresse interdit-elle d’utiliser le banc ? Que remplace Awa ?",
+              "answer": "Le banc penche et pourrait être dangereux. Awa remplace une seule pièce fendue, pas tout le banc.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U4-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure sur les métiers et donner son avis ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère les personnages, le problème, les actions importantes et la fin.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Résume en trois phrases et donne ton avis sur la décision d’Awa.",
+              "answer": "Exemple : Léo signale un banc abîmé. Awa remplace la pièce fendue. Le banc peut être réutilisé. Avis possible : cette solution est utile car elle conserve les parties en bon état. Accepter un autre avis justifié.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U4, p.35.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Raconte l’histoire sans regarder, puis vérifie que tu n’as pas ajouté un événement absent."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Lire comme un détective",
-              "kind": "method",
-              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure sur les métiers et donner son avis », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
-            },
-            {
-              "title": "Rendre compte de sa lecture",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+              "body": "Récit original : Le banc de la classe\nLéo remarque qu’un banc penche et prévient sa maîtresse. Elle demande aux enfants de ne plus l’utiliser. Le lendemain, la menuisière Awa arrive. Léo propose de remplacer tout le banc. Awa observe les pieds : une seule pièce est fendue. Elle mesure le bois, prépare une nouvelle pièce et la fixe. La maîtresse vérifie le banc avec elle. Les enfants peuvent de nouveau s’y asseoir. Léo sourit : « Nous avons gardé notre banc ! » Il comprend qu’observer le problème aide à choisir une réparation.",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure sur les métiers et donner son avis » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je repère les personnages, le problème, les actions importantes et la fin. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Je repère les personnages, le problème, les actions et le résultat. Ici, Awa remplace une pièce et le banc redevient utilisable.\nJe distingue un fait du récit et un avis : « Awa est attentive, car elle examine les pieds » est un avis justifié.\nJe résume dans l’ordre et j’appuie mon avis sur le texte."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, littérature, U4, p.35.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -234,63 +219,54 @@
             "Identifier les adjectifs qualificatifs.",
             "Utiliser les adjectifs qualificatifs."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Identifier et utiliser les adjectifs qualificatifs ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Compare une blouse et une blouse blanche. Quel mot aide à imaginer l’objet ?",
           "learn": [
-            "Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive.",
-            "Il s’accorde avec le nom qu’il qualifie."
+            "L’adjectif qualificatif donne une caractéristique du nom : couleur, taille, qualité ou état.",
+            "Il peut se placer avant ou après le nom : un grand garage, une blouse bleue. Il s’accorde avec le nom : des outils solides prend le pluriel.",
+            "Pour reconnaître un adjectif, je cherche quel nom il précise."
           ],
-          "takeaway": "Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive.",
+          "takeaway": "Pour reconnaître un adjectif, je cherche quel nom il précise.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Identifier et utiliser les adjectifs qualificatifs » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Relève les adjectifs et le nom précisé : La couturière habile prépare une longue robe rouge.",
+              "answer": "habile → couturière ; longue → robe ; rouge → robe.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U4-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Identifier et utiliser les adjectifs qualificatifs ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Ajoute un adjectif à un sac, une table et des crayons.",
+              "answer": "Exemple : un sac lourd ; une table ronde ; des crayons pointus. Accepter d’autres adjectifs cohérents et bien accordés.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U4, p.39.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Décris trois objets de la classe avec un adjectif chacun ; un camarade les reconnaît."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Identifier et utiliser les adjectifs qualificatifs » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "La jeune mécanicienne ouvre un grand garage. Elle porte une blouse bleue et utilise des outils solides.\nJeune précise mécanicienne ; grand précise garage ; bleue précise blouse ; solides précise outils."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Identifier et utiliser les adjectifs qualificatifs » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un adjectif qualificatif apporte une précision sur un nom : un artisan habile, une infirmière attentive. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "L’adjectif qualificatif donne une caractéristique du nom : couleur, taille, qualité ou état.\nIl peut se placer avant ou après le nom : un grand garage, une blouse bleue. Il s’accorde avec le nom : des outils solides prend le pluriel.\nPour reconnaître un adjectif, je cherche quel nom il précise."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U4, p.39.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -300,62 +276,54 @@
             "Accorder l’adjectif qualificatif avec le nom.",
             "Accorder le nom avec ses déterminants."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Accorder le nom, le déterminant et l’adjectif ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une petite boîte devient plusieurs boîtes. Quels mots changent à l’écrit ?",
           "learn": [
-            "Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre."
+            "Dans le groupe nominal, je pars du nom pour trouver le genre et le nombre. Boîtes est féminin pluriel.",
+            "J’accorde le déterminant et l’adjectif : une petite boîte devient des petites boîtes. Certaines marques ne s’entendent pas.",
+            "Je vérifie tous les mots du groupe nominal, même les accords silencieux."
           ],
-          "takeaway": "Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre.",
+          "takeaway": "Je vérifie tous les mots du groupe nominal, même les accords silencieux.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Accorder le nom, le déterminant et l’adjectif » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Mets au pluriel : la grande table ; un outil solide ; une robe verte.",
+              "answer": "les grandes tables ; des outils solides ; des robes vertes.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U4-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Accorder le nom, le déterminant et l’adjectif ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Corrige et explique : des petit blouse bleu.",
+              "answer": "des petites blouses bleues. Blouses est féminin pluriel ; petites et bleues s’accordent avec ce nom.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U4-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U4, p.39.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Dessine deux objets seuls et deux collections. Écris sous chacun un groupe nominal avec un adjectif."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Accorder le nom, le déterminant et l’adjectif » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Un petit sac → des petits sacs.\nUne petite boîte → des petites boîtes.\nLe tablier propre → les tabliers propres.\nUne blouse propre → des blouses propres.\nPropre garde la même forme au masculin et au féminin, mais prend s au pluriel."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Accorder le nom, le déterminant et l’adjectif » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Dans le groupe nominal, le déterminant, le nom et l’adjectif doivent être cohérents en genre et en nombre. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Dans le groupe nominal, je pars du nom pour trouver le genre et le nombre. Boîtes est féminin pluriel.\nJ’accorde le déterminant et l’adjectif : une petite boîte devient des petites boîtes. Certaines marques ne s’entendent pas.\nJe vérifie tous les mots du groupe nominal, même les accords silencieux."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U4, p.39.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -365,58 +333,54 @@
             "Reconnaître une abréviation dans un article de dictionnaire.",
             "Expliquer les mots usuels et utiliser le champ lexical des métiers."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Abréviations du dictionnaire et vocabulaire des métiers ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Que signifie adj. après habile dans le dictionnaire ?",
           "learn": [
-            "Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif.",
-            "Le champ lexical des métiers regroupe des mots comme artisan, outil, atelier, client, service, travail."
+            "Les abréviations indiquent notamment la nature du mot : n. m., nom masculin ; n. f., nom féminin ; adj., adjectif ; v., verbe.",
+            "Je lis aussi la définition. Pour une action, réparer convient ; pour une qualité, habile convient. La présentation varie selon les dictionnaires.",
+            "Je consulte l’abréviation et la définition pour choisir le bon mot."
           ],
-          "takeaway": "Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif.",
+          "takeaway": "Je consulte l’abréviation et la définition pour choisir le bon mot.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Abréviations du dictionnaire et vocabulaire des métiers » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Explique n. f. pour couturière et v. pour réparer.",
+              "answer": "n. f. signifie nom féminin ; v. signifie verbe.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U4-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Abréviations du dictionnaire et vocabulaire des métiers ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Complète : Une … assemble des vêtements. Le mécanicien va … la roue.",
+              "answer": "Une couturière assemble des vêtements. Le mécanicien va réparer la roue.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U4-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U4, p.43.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Cherche un métier dans un dictionnaire et décode l’abréviation avec la liste fournie par ce dictionnaire."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Choisir le mot juste",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Le vocabulaire de « les métiers » aide à parler et écrire avec précision. Pour apprendre un mot, ne mémorise pas seulement sa définition : observe un exemple, sa famille éventuelle, sa nature grammaticale et un contexte où tu peux l’utiliser. Le dictionnaire sert à vérifier l’orthographe, le sens et certaines informations grammaticales."
+              "body": "Mini-dictionnaire original, rédigé pour la leçon :\nAtelier, n. m. : lieu où travaille un artisan.\nCouturière, n. f. : personne qui confectionne ou retouche des vêtements.\nHabile, adj. : qui agit avec adresse.\nRéparer, v. : remettre en état un objet abîmé."
             },
             {
-              "title": "Créer son petit lexique",
-              "kind": "activity",
-              "body": "Sur une page de cahier, prépare trois colonnes : « mot », « ce qu’il veut dire », « ma phrase ». Ajoute au moins cinq mots du chapitre. Relis ce lexique avant une production écrite et essaie d’employer deux de ces mots."
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Abréviations du dictionnaire et vocabulaire des métiers » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les abréviations du dictionnaire donnent des informations compactes, par exemple « adj. » pour adjectif. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Les abréviations indiquent notamment la nature du mot : n. m., nom masculin ; n. f., nom féminin ; adj., adjectif ; v., verbe.\nJe lis aussi la définition. Pour une action, réparer convient ; pour une qualité, habile convient. La présentation varie selon les dictionnaires.\nJe consulte l’abréviation et la définition pour choisir le bon mot."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, vocabulaire, U4, p.43.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -427,65 +391,54 @@
             "Accorder le nom et l’adjectif épithète.",
             "Écrire correctement ce/se, ces/ses, c’est/s’est."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Accords et homophones grammaticaux ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans « Il a une scie à bois », peut-on remplacer les deux a/à par avait ?",
           "learn": [
-            "L’accord dépend du sujet et du groupe nominal.",
-            "Les homophones ont des sons proches mais des fonctions et des écritures différentes."
+            "a est une forme d’avoir : essayer avait. à est une préposition : ce remplacement ne convient pas.",
+            "est est une forme d’être : essayer était. et relie des mots ou groupes. sont peut devenir étaient ; son accompagne un nom et peut souvent être remplacé par mon.",
+            "Je choisis l’homophone en lisant toute la phrase et en vérifiant le remplacement."
           ],
-          "takeaway": "L’accord dépend du sujet et du groupe nominal.",
+          "takeaway": "Je choisis l’homophone en lisant toute la phrase et en vérifiant le remplacement.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Accords et homophones grammaticaux » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’accord dépend du sujet et du groupe nominal. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Complète avec a/à et est/et : L’artisane … une table … réparer. La table … basse … solide.",
+              "answer": "L’artisane a une table à réparer. La table est basse et solide. On peut dire avait une table et était basse.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U4-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Accords et homophones grammaticaux ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’accord dépend du sujet et du groupe nominal.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Choisis son/sont et justifie : … marteau est rangé. Les outils … propres.",
+              "answer": "Son marteau : on peut dire mon marteau. Les outils sont propres : on peut dire étaient propres.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U4-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe, U4, p.47.",
-          "practical": [],
+          "practical": [
+            "Écris une phrase avec a et à, puis vérifie-la en essayant avait."
+          ],
           "notes": [
-            "Le curriculum imprime « c’ést/s’est » ; Klassia retient la forme correcte « c’est/s’est » tout en signalant la coquille source."
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
           ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Accords et homophones grammaticaux » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Le menuisier a un établi à l’atelier. → Il avait un établi.\nLa table est propre et solide. → Elle était propre ; et relie deux qualités.\nSon outil et ses gants sont prêts. → Mon outil ; les objets étaient prêts."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Accords et homophones grammaticaux » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : L’accord dépend du sujet et du groupe nominal. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "a est une forme d’avoir : essayer avait. à est une préposition : ce remplacement ne convient pas.\nest est une forme d’être : essayer était. et relie des mots ou groupes. sont peut devenir étaient ; son accompagne un nom et peut souvent être remplacé par mon.\nJe choisis l’homophone en lisant toute la phrase et en vérifiant le remplacement."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, orthographe, U4, p.47.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -494,62 +447,118 @@
           "objectives": [
             "Conjuguer correctement à l’oral et à l’écrit partir, prendre, venir, voir et vouloir au présent de l’indicatif."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Partir, prendre, venir, voir et vouloir au présent ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Je prends devient nous prenons. Le radical reste-t-il toujours identique ?",
           "learn": [
-            "Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons."
+            "Partir, prendre, venir, voir et vouloir sont des verbes du troisième groupe : leur radical peut changer au présent.",
+            "Les clients peut être remplacé par ils : on choisit viennent. Je vois et il voit se ressemblent à l’oral, mais leur terminaison diffère.",
+            "Je repère le sujet puis je vérifie la forme du verbe."
           ],
-          "takeaway": "Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons.",
+          "takeaway": "Je repère le sujet puis je vérifie la forme du verbe.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Partir, prendre, venir, voir et vouloir au présent » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Conjugue : nous (prendre), elle (venir), tu (voir), ils (partir), vous (vouloir).",
+              "answer": "nous prenons ; elle vient ; tu vois ; ils partent ; vous voulez.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U4-L8-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Partir, prendre, venir, voir et vouloir au présent ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Remplace je par nous : Je pars, je prends mon sac et je vois l’atelier.",
+              "answer": "Nous partons, nous prenons notre sac et nous voyons l’atelier. Accepter nos sacs si chacun a le sien.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U4-L8-E2"
             }
           ],
           "source": "Curriculum CE2, conjugaison, U4, p.49.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Invente une phrase au singulier et une au pluriel avec un verbe du tableau."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Partir, prendre, venir, voir et vouloir au présent » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Je pars tôt. Tu prends le bus. La réparatrice vient à l’atelier. Nous voyons la pièce cassée. Vous voulez la réparer. Les clients viennent la chercher."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
+              "title": "Tableau de référence",
+              "kind": "reference",
+              "table": {
+                "headers": [
+                  "Sujet",
+                  "partir",
+                  "prendre",
+                  "venir",
+                  "voir",
+                  "vouloir"
+                ],
+                "rows": [
+                  [
+                    "je",
+                    "pars",
+                    "prends",
+                    "viens",
+                    "vois",
+                    "veux"
+                  ],
+                  [
+                    "tu",
+                    "pars",
+                    "prends",
+                    "viens",
+                    "vois",
+                    "veux"
+                  ],
+                  [
+                    "il/elle",
+                    "part",
+                    "prend",
+                    "vient",
+                    "voit",
+                    "veut"
+                  ],
+                  [
+                    "nous",
+                    "partons",
+                    "prenons",
+                    "venons",
+                    "voyons",
+                    "voulons"
+                  ],
+                  [
+                    "vous",
+                    "partez",
+                    "prenez",
+                    "venez",
+                    "voyez",
+                    "voulez"
+                  ],
+                  [
+                    "ils/elles",
+                    "partent",
+                    "prennent",
+                    "viennent",
+                    "voient",
+                    "veulent"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Partir, prendre, venir, voir et vouloir au présent » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je mémorise les formes fréquentes : je pars, je prends, je viens, je vois, je veux ; nous partons, nous prenons, nous venons, nous voyons, nous voulons. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les métiers ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Partir, prendre, venir, voir et vouloir sont des verbes du troisième groupe : leur radical peut changer au présent.\nLes clients peut être remplacé par ils : on choisit viennent. Je vois et il voit se ressemblent à l’oral, mais leur terminaison diffère.\nJe repère le sujet puis je vérifie la forme du verbe."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, conjugaison, U4, p.49.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         }
       ],

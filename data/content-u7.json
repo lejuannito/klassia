@@ -47,62 +47,55 @@
             "Réagir efficacement à ce qui est entendu.",
             "Intervenir dans un échange sur les jeux et questionner ses interlocuteurs."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Écouter et débattre autour des jeux ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le groupe hésite entre un jeu de mémoire et un dessin. Comment défendre ton choix ?",
           "learn": [
-            "Je respecte le tour de parole, je questionne avec précision et je réponds à ce qui vient d’être dit."
+            "Je donne une proposition et une raison : je préfère… parce que… Je respecte les tours de parole.",
+            "Mina reformule l’argument de Joël puis propose un compromis utilisant les deux idées. On discute les idées sans attaquer les personnes.",
+            "Je peux exprimer un désaccord poli et chercher une solution commune."
           ],
-          "takeaway": "Je respecte le tour de parole, je questionne avec précision et je réponds à ce qui vient d’être dit.",
+          "takeaway": "Je peux exprimer un désaccord poli et chercher une solution commune.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Écouter et débattre autour des jeux » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte le tour de parole, je questionne avec précision et je réponds à ce qui vient d’être dit. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Donne les deux arguments et le compromis.",
+              "answer": "Mina : cartes disponibles. Joël : possibilité d’inventer. Compromis : dessiner des cartes puis jouer avec.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U7-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écouter et débattre autour des jeux ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte le tour de parole, je questionne avec précision et je réponds à ce qui vient d’être dit.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Propose un autre jeu avec une raison, puis réponds poliment à un avis différent.",
+              "answer": "Exemple : Je propose les devinettes parce qu’on peut jouer sans matériel. Je comprends ton choix ; pouvons-nous essayer les deux jeux à tour de rôle ? Accepter une proposition argumentée et respectueuse.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U7, p.30.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Organisez un débat de deux minutes avec un objet de parole que chacun attend avant de parler."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Écouter et débattre autour des jeux » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Mina : Je propose le jeu de mémoire parce que nous avons déjà des cartes.\nJoël : Je préfère dessiner parce que chacun peut inventer un personnage.\nMina : Tu veux laisser une place à l’imagination. Nous pourrions dessiner nos propres cartes.\nJoël : D’accord, puis nous jouerons avec !",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écouter et débattre autour des jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte le tour de parole, je questionne avec précision et je réponds à ce qui vient d’être dit. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Je donne une proposition et une raison : je préfère… parce que… Je respecte les tours de parole.\nMina reformule l’argument de Joël puis propose un compromis utilisant les deux idées. On discute les idées sans attaquer les personnes.\nJe peux exprimer un désaccord poli et chercher une solution commune."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, expression orale, U7, p.30.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -111,58 +104,54 @@
           "objectives": [
             "Écrire des recettes, des notices et des règles de jeux."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Écrire des règles de jeu et des notices ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "« On prend des cartes et on joue » suffit-il à expliquer une règle de jeu ?",
           "learn": [
-            "Un texte injonctif indique des actions à réaliser dans un ordre clair.",
-            "Les verbes d’action et la numérotation facilitent la compréhension."
+            "Une règle précise matériel, joueurs, but, déroulement et fin. Une notice explique comment fabriquer ou utiliser quelque chose.",
+            "L’étape 4 précise qui joue après une réussite : sans elle, les joueurs pourraient suivre des règles différentes.",
+            "Je teste mes consignes avec un lecteur pour trouver ce qui manque."
           ],
-          "takeaway": "Un texte injonctif indique des actions à réaliser dans un ordre clair.",
+          "takeaway": "Je teste mes consignes avec un lecteur pour trouver ce qui manque.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Écrire des règles de jeu et des notices » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un texte injonctif indique des actions à réaliser dans un ordre clair. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Que fait-on si les cartes sont différentes ? Quand la partie finit-elle ?",
+              "answer": "On les remet face cachée à la même place. La partie finit quand les trois paires sont prises.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U7-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écrire des règles de jeu et des notices ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un texte injonctif indique des actions à réaliser dans un ordre clair.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris une notice en trois étapes pour fabriquer les cartes avec du papier déjà découpé.",
+              "answer": "Exemple : Prends six morceaux de même taille. Dessine un soleil sur deux cartes, un arbre sur deux et une maison sur deux. Vérifie que les dos ne permettent pas de reconnaître les dessins. Accepter d’autres dessins si trois paires sont conservées.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U7, p.33.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Fabrique les cartes et joue une partie en suivant les cinq étapes."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « les jeux », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "Jeu : Les trois paires. Deux joueurs. Six cartes : deux soleils, deux arbres, deux maisons. But : gagner le plus de paires.\n1. Mélangez et posez les cartes face cachée.\n2. À tour de rôle, retournez deux cartes pour que tous les voient.\n3. Si les dessins sont identiques, gardez la paire ; sinon remettez les cartes face cachée à la même place.\n4. Dans les deux cas, le tour passe à l’autre joueur.\n5. La partie finit lorsque les trois paires sont prises. Chaque paire vaut un point ; le plus grand score gagne."
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écrire des règles de jeu et des notices » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un texte injonctif indique des actions à réaliser dans un ordre clair. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Une règle précise matériel, joueurs, but, déroulement et fin. Une notice explique comment fabriquer ou utiliser quelque chose.\nL’étape 4 précise qui joue après une réussite : sans elle, les joueurs pourraient suivre des règles différentes.\nJe teste mes consignes avec un lecteur pour trouver ce qui manque."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, production d’écrits, U7, p.33.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -172,57 +161,55 @@
             "Lire une œuvre ou de larges extraits.",
             "Rendre compte et donner son point de vue."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Lire une aventure autour des jeux ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux joueurs ne sont pas d’accord. Est-ce forcément parce que l’un triche ?",
           "learn": [
-            "Je distingue ce qui se passe dans l’histoire de mon jugement personnel."
+            "Je repère le désaccord et sa résolution. Tina utilise une règle connue chez elle ; le récit ne dit pas qu’elle triche.",
+            "Lire une règle commune résout le problème. Je distingue les intentions exprimées et celles que j’imagine.",
+            "Je relie mon interprétation aux indices du texte."
           ],
-          "takeaway": "Je distingue ce qui se passe dans l’histoire de mon jugement personnel.",
+          "takeaway": "Je relie mon interprétation aux indices du texte.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure autour des jeux » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je distingue ce qui se passe dans l’histoire de mon jugement personnel. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Pourquoi Tina rejoue-t-elle ? Quelle règle Sam montre-t-il ?",
+              "answer": "Chez elle, une paire permet de rejouer. La règle de classe fait passer le tour à l’autre après chaque essai.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U7-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure autour des jeux ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je distingue ce qui se passe dans l’histoire de mon jugement personnel.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Donne un conseil pour éviter le problème et justifie avec le récit.",
+              "answer": "Lire et accepter les mêmes règles avant la partie, car Tina et Sam appliquaient deux versions différentes. Accepter une formulation équivalente.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L3-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U7, p.36.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Raconte le désaccord et sa solution avec d’abord, mais et finalement."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Lire comme un détective",
-              "kind": "method",
-              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure autour des jeux », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
-            },
-            {
-              "title": "Rendre compte de sa lecture",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+              "body": "Récit original : La règle oubliée\nTina trouve deux maisons et retourne aussitôt deux autres cartes. « C’est mon tour ! » dit Sam. Tina explique qu’à la maison celui qui trouve une paire rejoue. Sam montre la règle écrite de leur classe : après chaque essai, le tour passe à l’autre. Tina lit : « Je n’avais pas vu cette différence. » Les enfants remettent les dernières cartes face cachée et poursuivent. Avant le jeu suivant, ils lisent ensemble toutes les règles. Chacun sait maintenant à quoi s’attendre.",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure autour des jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je distingue ce qui se passe dans l’histoire de mon jugement personnel. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Je repère le désaccord et sa résolution. Tina utilise une règle connue chez elle ; le récit ne dit pas qu’elle triche.\nLire une règle commune résout le problème. Je distingue les intentions exprimées et celles que j’imagine.\nJe relie mon interprétation aux indices du texte."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, littérature, U7, p.36.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -233,63 +220,54 @@
             "Déterminer différents types de verbes.",
             "Accorder le verbe avec son sujet."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Le groupe verbal et l’accord sujet-verbe ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans « Les joueurs, près du banc, attendent », quel mot commande le pluriel du verbe ?",
           "learn": [
-            "Le groupe verbal est organisé autour du verbe.",
-            "Le verbe s’accorde avec son sujet."
+            "Le sujet commande l’accord du verbe. Je peux demander qui est-ce qui… puis remplacer le groupe par un pronom.",
+            "Le groupe verbal contient le verbe et ses compléments liés : lancent la balle. Dans le dernier exemple, capitaine est singulier malgré joueurs placé près du verbe.",
+            "Je repère le sujet même s’il est séparé du verbe."
           ],
-          "takeaway": "Le groupe verbal est organisé autour du verbe.",
+          "takeaway": "Je repère le sujet même s’il est séparé du verbe.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Le groupe verbal et l’accord sujet-verbe » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le groupe verbal est organisé autour du verbe. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Relève sujet et groupe verbal : Les enfants préparent les cartes. Mets au singulier.",
+              "answer": "Sujet : Les enfants. Groupe verbal : préparent les cartes. L’enfant prépare les cartes.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U7-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Le groupe verbal et l’accord sujet-verbe ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le groupe verbal est organisé autour du verbe.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Choisis : Les joueurs près de la porte (attend/attendent). Le sac de balles (tombe/tombent).",
+              "answer": "attendent : joueurs est pluriel. tombe : sac est singulier malgré balles au pluriel.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L4-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U7, p.41.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Écris une phrase avec les joueurs, puis avec le joueur. Relie sujet et verbe."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Le groupe verbal et l’accord sujet-verbe » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "La joueuse lance la balle. → Elle lance la balle.\nLes joueuses lancent la balle. → Elles lancent la balle.\nLes enfants, près du banc, attendent leur tour. → Ils attendent leur tour.\nLe capitaine des joueurs donne le signal. → Il donne le signal."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Le groupe verbal et l’accord sujet-verbe » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le groupe verbal est organisé autour du verbe. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Le sujet commande l’accord du verbe. Je peux demander qui est-ce qui… puis remplacer le groupe par un pronom.\nLe groupe verbal contient le verbe et ses compléments liés : lancent la balle. Dans le dernier exemple, capitaine est singulier malgré joueurs placé près du verbe.\nJe repère le sujet même s’il est séparé du verbe."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U7, p.41.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -299,63 +277,54 @@
             "Identifier COD, COI et compléments de circonstance de lieu et de temps.",
             "Définir et utiliser les prépositions."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « COD, COI, compléments de lieu et de temps, prépositions ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans « Awa lance la balle dans la cour », que lance-t-elle et où la lance-t-elle ?",
           "learn": [
-            "Les compléments précisent ou complètent le sens du verbe.",
-            "Les prépositions introduisent souvent des groupes compléments."
+            "Le COD complète directement le verbe : lance quoi ? Le COI est introduit par une préposition liée au verbe : parle à qui ?",
+            "Un complément de lieu indique où ; un complément de temps indique quand. Une préposition seule ne décide pas de la fonction : à Paul et dans la cour n’indiquent pas la même chose.",
+            "Je cherche le lien avec le verbe et le sens du groupe."
           ],
-          "takeaway": "Les compléments précisent ou complètent le sens du verbe.",
+          "takeaway": "Je cherche le lien avec le verbe et le sens du groupe.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « COD, COI, compléments de lieu et de temps, prépositions » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les compléments précisent ou complètent le sens du verbe. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Classe les compléments : Sam range les cartes. Il répond à Tina. Il joue sous l’arbre. Il joue le matin.",
+              "answer": "les cartes : COD ; à Tina : COI ; sous l’arbre : lieu ; le matin : temps.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U7-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « COD, COI, compléments de lieu et de temps, prépositions ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les compléments précisent ou complètent le sens du verbe.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Ajoute un lieu et un moment à Les élèves jouent.",
+              "answer": "Exemple : Les élèves jouent dans la cour après la classe. Lieu : dans la cour ; temps : après la classe. Accepter toute phrase cohérente.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U7, p.41.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Écris une phrase avec lancer et un COD, puis parler et un COI."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « COD, COI, compléments de lieu et de temps, prépositions » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Awa lance la balle. → la balle : COD de lance.\nAwa parle à Paul. → à Paul : COI de parle.\nLes enfants jouent dans la cour. → dans la cour : lieu.\nLes enfants jouent après la classe. → après la classe : temps."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « COD, COI, compléments de lieu et de temps, prépositions » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les compléments précisent ou complètent le sens du verbe. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Le COD complète directement le verbe : lance quoi ? Le COI est introduit par une préposition liée au verbe : parle à qui ?\nUn complément de lieu indique où ; un complément de temps indique quand. Une préposition seule ne décide pas de la fonction : à Paul et dans la cour n’indiquent pas la même chose.\nJe cherche le lien avec le verbe et le sens du groupe."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U7, p.41.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -366,58 +335,54 @@
             "Regrouper des mots selon le sens de leur préfixe.",
             "Utiliser le dictionnaire."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Vocabulaire des jeux, préfixes et dictionnaire ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quelle idée re- ajoute-t-il à jouer dans rejouer ?",
           "learn": [
-            "Un préfixe placé devant le radical peut modifier le sens du mot.",
-            "Le dictionnaire aide à vérifier le sens."
+            "Un préfixe s’ajoute devant une base : re-jouer. Re- indique ici une répétition ; im- dans impossible marque le contraire de possible.",
+            "Toutes les premières syllabes ne sont pas des préfixes : on ne découpe pas renard en re- et nard pour expliquer le nom de l’animal.",
+            "Je vérifie la base et le sens pour reconnaître un préfixe."
           ],
-          "takeaway": "Un préfixe placé devant le radical peut modifier le sens du mot.",
+          "takeaway": "Je vérifie la base et le sens pour reconnaître un préfixe.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Vocabulaire des jeux, préfixes et dictionnaire » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un préfixe placé devant le radical peut modifier le sens du mot. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Forme les mots : jouer de nouveau ; faire de nouveau ; qui n’est pas possible.",
+              "answer": "rejouer ; refaire ; impossible.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U7-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vocabulaire des jeux, préfixes et dictionnaire ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un préfixe placé devant le radical peut modifier le sens du mot.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Classe équipe, joueur, rejouer alphabétiquement puis emploie rejouer dans une phrase.",
+              "answer": "équipe, joueur, rejouer. Exemple : Nous voulons rejouer après la pause. Accepter une phrase exprimant une nouvelle partie.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U7, p.45.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Invente une consigne avec refaire ou rejouer et explique l’apport du préfixe."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Choisir le mot juste",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Le vocabulaire de « les jeux » aide à parler et écrire avec précision. Pour apprendre un mot, ne mémorise pas seulement sa définition : observe un exemple, sa famille éventuelle, sa nature grammaticale et un contexte où tu peux l’utiliser. Le dictionnaire sert à vérifier l’orthographe, le sens et certaines informations grammaticales."
+              "body": "Mini-lexique original : Joueur : personne qui participe au jeu. Équipe : groupe de personnes jouant ensemble. Rejouer : jouer une nouvelle fois. Défaire : dénouer ou démonter ce qui a été fait. Impossible : qui ne peut pas se faire dans les conditions données."
             },
             {
-              "title": "Créer son petit lexique",
-              "kind": "activity",
-              "body": "Sur une page de cahier, prépare trois colonnes : « mot », « ce qu’il veut dire », « ma phrase ». Ajoute au moins cinq mots du chapitre. Relis ce lexique avant une production écrite et essaie d’employer deux de ces mots."
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Vocabulaire des jeux, préfixes et dictionnaire » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un préfixe placé devant le radical peut modifier le sens du mot. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Un préfixe s’ajoute devant une base : re-jouer. Re- indique ici une répétition ; im- dans impossible marque le contraire de possible.\nToutes les premières syllabes ne sont pas des préfixes : on ne découpe pas renard en re- et nard pour expliquer le nom de l’animal.\nJe vérifie la base et le sens pour reconnaître un préfixe."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, vocabulaire, U7, p.45.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -426,57 +391,59 @@
           "objectives": [
             "Écrire sans erreur, sous la dictée, un court texte préparé ou non."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Dictée d’un court texte sur les jeux ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quels accords dois-tu vérifier après avoir écrit un texte sous la dictée ?",
           "learn": [
-            "Je mobilise les règles déjà étudiées : accords, mots invariables, homophones et formes verbales."
+            "Les petites cartes restent : cartes est féminin pluriel, petites s’accorde et restent prend -ent.",
+            "Chaque joueur est singulier : on écrit attend, même si plusieurs personnes participent.",
+            "Je relis les accords sujet-verbe et les groupes nominaux séparément."
           ],
-          "takeaway": "Je mobilise les règles déjà étudiées : accords, mots invariables, homophones et formes verbales.",
+          "takeaway": "Je relis les accords sujet-verbe et les groupes nominaux séparément.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Dictée d’un court texte sur les jeux » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je mobilise les règles déjà étudiées : accords, mots invariables, homophones et formes verbales. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris la dictée puis relève et explique deux accords.",
+              "answer": "Modèle : Les petites cartes restent sur la table. Chaque joueur attend son tour. À la fin, les enfants rangent le jeu. Vérifier les accords en reliant les sujets aux verbes et les déterminants/adjectifs aux noms. Comparer au modèle après l’écriture.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U7-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Dictée d’un court texte sur les jeux ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je mobilise les règles déjà étudiées : accords, mots invariables, homophones et formes verbales.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Corrige : Chaque joueurs prennent deux carte.",
+              "answer": "Chaque joueur prend deux cartes. Chaque accompagne un singulier ; prend s’accorde avec ce sujet ; deux impose cartes au pluriel.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe, U7, p.48.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Reprends le lendemain seulement une phrase contenant un accord à consolider."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « les jeux », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "Préparation : lire le modèle avec l’adulte, expliquer les mots inconnus, puis refermer le panneau du modèle. L’adulte dicte phrase par phrase, puis relit l’ensemble. L’enfant relit les majuscules, la ponctuation et les accords. Sans adulte, faire une copie différée : lire une phrase, la cacher, l’écrire puis vérifier."
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Modèle de dictée — à cacher pendant l’écriture",
+              "kind": "dictation",
+              "body": "Les petites cartes restent sur la table. Chaque joueur attend son tour. À la fin, les enfants rangent le jeu."
+            },
+            {
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Dictée d’un court texte sur les jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je mobilise les règles déjà étudiées : accords, mots invariables, homophones et formes verbales. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Les petites cartes restent : cartes est féminin pluriel, petites s’accorde et restent prend -ent.\nChaque joueur est singulier : on écrit attend, même si plusieurs personnes participent.\nJe relis les accords sujet-verbe et les groupes nominaux séparément."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, orthographe, U7, p.48.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -486,62 +453,97 @@
             "Conjuguer prendre, venir, voir et vouloir au futur simple.",
             "Conjuguer les verbes du premier et du deuxième groupe à l’imparfait."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Futur simple et imparfait ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Autrefois nous jouions et demain nous jouerons parlent-ils du même moment ?",
           "learn": [
-            "Le futur situe une action à venir ; l’imparfait peut présenter une action ou un état dans le passé."
+            "Le futur présente un fait à venir. L’imparfait peut décrire une situation ou une habitude passée.",
+            "Pour jouer et finir, on forme l’imparfait avec la base de nous au présent sans -ons, puis -ais, -ais, -ait, -ions, -iez, -aient : finiss- donne je finissais.",
+            "Je choisis le temps selon le sens puis la terminaison selon le sujet."
           ],
-          "takeaway": "Le futur situe une action à venir ; l’imparfait peut présenter une action ou un état dans le passé.",
+          "takeaway": "Je choisis le temps selon le sens puis la terminaison selon le sujet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Futur simple et imparfait » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le futur situe une action à venir ; l’imparfait peut présenter une action ou un état dans le passé. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Choisis : Autrefois, ils (jouaient/joueront). Demain, nous (finissions/finirons).",
+              "answer": "jouaient ; finirons. Les temps correspondent aux moments indiqués.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U7-L8-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Futur simple et imparfait ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le futur situe une action à venir ; l’imparfait peut présenter une action ou un état dans le passé.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Mets je joue et nous finissons à l’imparfait puis au futur.",
+              "answer": "Imparfait : je jouais ; nous finissions. Futur : je jouerai ; nous finirons.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L8-E2"
             }
           ],
           "source": "Curriculum CE2, conjugaison, U7, p.51.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Écris une habitude passée et un projet futur, réels ou inventés."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Futur simple et imparfait » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Autrefois, nous jouions souvent sous cet arbre. Les petits regardaient les grands.\nDemain, nous jouerons dans la cour. Les petits regarderont les cartes.\nL’imparfait présente ici une habitude passée ; le futur annonce une activité à venir."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
+              "title": "Tableau de référence",
+              "kind": "reference",
+              "table": {
+                "headers": [
+                  "Sujet",
+                  "jouer : imparfait",
+                  "jouer : futur"
+                ],
+                "rows": [
+                  [
+                    "je",
+                    "jouais",
+                    "jouerai"
+                  ],
+                  [
+                    "tu",
+                    "jouais",
+                    "joueras"
+                  ],
+                  [
+                    "il/elle",
+                    "jouait",
+                    "jouera"
+                  ],
+                  [
+                    "nous",
+                    "jouions",
+                    "jouerons"
+                  ],
+                  [
+                    "vous",
+                    "jouiez",
+                    "jouerez"
+                  ],
+                  [
+                    "ils/elles",
+                    "jouaient",
+                    "joueront"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Futur simple et imparfait » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le futur situe une action à venir ; l’imparfait peut présenter une action ou un état dans le passé. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les jeux ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Le futur présente un fait à venir. L’imparfait peut décrire une situation ou une habitude passée.\nPour jouer et finir, on forme l’imparfait avec la base de nous au présent sans -ons, puis -ais, -ais, -ait, -ions, -iez, -aient : finiss- donne je finissais.\nJe choisis le temps selon le sens puis la terminaison selon le sujet."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, conjugaison, U7, p.51.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         }
       ],

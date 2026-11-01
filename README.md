@@ -67,11 +67,11 @@ Les propositions de mots bassa proviennent du lexique documentaire du dépôt. L
 
 ### CE1 bilingue
 
-Le CE1 est amorcé à `/ce1/` par l’unité 1 « La maison / The home », avec dix séquences et les mêmes choix de navigation. Le français s’appuie uniquement sur les objectifs CE1 du curriculum Niveau 2 ; l’anglais demeure une branche distincte limitée aux attendus Class 3. Cette unité ne représente pas l’année CE1 complète.
+Le CE1 propose à `/ce1/` 87 leçons réparties dans huit unités, avec les mêmes choix de navigation. Le français s’appuie uniquement sur les objectifs CE1 du curriculum Niveau 2 ; l’anglais demeure une branche distincte limitée aux attendus Class 3. La couverture exhaustive des objectifs reste à vérifier dans la matrice.
 
 ### Navigation des profils et des classes
 
-Le bouton **Profil : …** ouvre le choix de l’enfant et de l’espace affiché (Enfant, Parent, Enseignant ou Administration). Le menu **Classe : …**, présent dans les espaces CE2, MS, SIL et CE1, permet de passer d’un parcours à l’autre. Depuis un affichage Enseignant/Administration, il propose aussi les accès à la revue éditoriale et à l’atelier Bassa. Klassia ne possède pas de connexion à un compte ni de déconnexion serveur : les profils et rôles sont locaux à l’appareil.
+Le bouton **Profil : …** ouvre le choix de l’enfant et de l’espace affiché (Enfant, Parent, Enseignant ou Administration). Le menu **Classe : …**, présent dans les espaces CE2, MS, GS, SIL et CE1, permet de passer d’un parcours à l’autre. Depuis un affichage Enseignant/Administration, il propose aussi les accès à la revue éditoriale et à l’atelier Bassa. Klassia ne possède pas de connexion à un compte ni de déconnexion serveur : les profils et rôles sont locaux à l’appareil.
 
 Dans l’espace Enseignant, la page Revue éditoriale permet désormais de consigner les décisions directement depuis l’interface, puis d’exporter un relevé JSON. Les décisions restent enregistrées dans le navigateur utilisé et doivent être reprises par l’équipe éditoriale pour rejoindre les sources du dépôt.
 
@@ -84,3 +84,7 @@ Voir le [bilan de revue](docs/REVUE_ENSEMBLE.md), les [curricula retrouvés pour
 La grande section propose désormais 162 activités originales dans huit thèmes et cinq domaines : `gs/`. Le même moteur maternel sert MS et GS, avec des progrès distincts. Les correspondances de curriculum sont fournies par activité. Voir [le guide GS et Bassa](docs/GS_BASSA.md).
 
 Les 45 leçons de langues nationales des cinq classes ouvrent un panneau **Bassa · traductions et entraînement**, avec propositions sourcées et caractères sélectionnables. Toutes les formes affichées pour le sens demandé sont acceptées, même signalées à revoir. L’arbitrage reste une annotation, sans pénalité automatique. `npm run test:gs` vérifie les parcours GS et les panneaux Bassa.
+
+## Audio, français CE2 et enrichissement pédagogique
+
+Le [guide audio](docs/AUDIO_FR_CE2.md) explique le choix des voix FR/EN et l’aide en cas de voix manquante. Les 39 leçons de français CE2 U4–U8 ont des supports originaux et 78 exercices corrigés. La [trajectoire actualisée](docs/TRAJECTOIRE.md) recense les travaux restants ; les [principes d’enrichissement](docs/ENRICHISSEMENT.md) guident les prochains lots.

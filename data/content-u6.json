@@ -47,64 +47,55 @@
             "Questionner ses interlocuteurs.",
             "Utiliser un vocabulaire simple et approprié."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Participer à un échange sur la santé ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un camarade dit : « Je suis fatigué aujourd’hui. » Comment montrer que tu l’écoutes ?",
           "learn": [
-            "Je pose une question claire, j’écoute la réponse et je reformule si nécessaire."
+            "Je laisse à chacun son tour de parole. Reformuler consiste à redire l’idée avec ses mots pour laisser l’autre confirmer ou corriger.",
+            "Paul ne décide pas de ce que ressent Nina. Il vérifie et respecte sa réponse. Ce dialogue apprend à échanger, pas à poser un diagnostic.",
+            "J’écoute, je reformule et je réponds avec respect."
           ],
-          "takeaway": "Je pose une question claire, j’écoute la réponse et je reformule si nécessaire.",
+          "takeaway": "J’écoute, je reformule et je réponds avec respect.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Participer à un échange sur la santé » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je pose une question claire, j’écoute la réponse et je reformule si nécessaire. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle phrase reformule les paroles de Nina ?",
+              "answer": "« Tu voudrais te reposer un moment, c’est cela ? » reprend son besoin de calme et de repos.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U6-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Participer à un échange sur la santé ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je pose une question claire, j’écoute la réponse et je reformule si nécessaire.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un camarade dit : « Je n’ai pas compris la consigne. » Reformule et propose une aide.",
+              "answer": "Exemple : Tu voudrais qu’on répète la consigne ? Nous pouvons demander à l’enseignant. Accepter une réponse respectueuse vérifiant le besoin.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U6, p.29.",
-          "practical": [],
+          "practical": [
+            "Jouez une scène avec un personnage imaginaire ; personne n’est obligé de raconter sa santé personnelle."
+          ],
           "notes": [
-            "Le tableau source mentionne « échange portant sur les métiers » dans l’unité Santé ; Klassia contextualise l’activité sur la santé et conserve l’anomalie en note éditoriale."
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
           ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Participer à un échange sur la santé » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Nina : Je suis fatiguée et je préfère rester au calme.\nPaul : Tu voudrais te reposer un moment, c’est cela ?\nNina : Oui. Je vais le dire à la maîtresse.\nPaul : D’accord. Nous pourrons parler plus tard.",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Participer à un échange sur la santé » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je pose une question claire, j’écoute la réponse et je reformule si nécessaire. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Je laisse à chacun son tour de parole. Reformuler consiste à redire l’idée avec ses mots pour laisser l’autre confirmer ou corriger.\nPaul ne décide pas de ce que ressent Nina. Il vérifie et respecte sa réponse. Ce dialogue apprend à échanger, pas à poser un diagnostic.\nJ’écoute, je reformule et je réponds avec respect."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, expression orale, U6, p.29.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -114,57 +105,55 @@
             "Réagir efficacement à une consigne, une demande, un récit ou des propos entendus.",
             "Déclamer un poème et réciter un texte relatif à la santé."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Écouter et réciter un texte relatif à la santé ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Où feras-tu des pauses pour que l’on comprenne le poème ?",
           "learn": [
-            "Je distingue écouter pour comprendre et réciter pour transmettre avec expression."
+            "Firmament désigne ici le ciel. Avant de réciter, je comprends le vocabulaire et je repère la ponctuation.",
+            "J’apprends deux vers puis les suivants ; je respire aux pauses et j’articule. Une légère pause après reprends fait entendre tranquillement.",
+            "Je fais entendre les mots et le sens sans crier."
           ],
-          "takeaway": "Je distingue écouter pour comprendre et réciter pour transmettre avec expression.",
+          "takeaway": "Je fais entendre les mots et le sens sans crier.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Écouter et réciter un texte relatif à la santé » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je distingue écouter pour comprendre et réciter pour transmettre avec expression. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel objet est posé ? Que dessine la personne ?",
+              "answer": "Son cahier. Elle reprend un dessin du ciel, appelé firmament.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U6-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écouter et réciter un texte relatif à la santé ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je distingue écouter pour comprendre et réciter pour transmettre avec expression.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Récite les quatre premiers vers après les avoir appris deux par deux.",
+              "answer": "Réussite : les quatre vers sont dans l’ordre, les mots sont compréhensibles et le volume est adapté. Reprendre seulement un passage oublié si nécessaire.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U6, p.29.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Un auditeur indique un passage bien entendu et un passage à reprendre."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « la santé », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "Poème original : Une pause\nLe jour s’étire dans la cour,\nJ’écoute les bruits tout autour.\nJe pose un instant mon cahier,\nMes yeux regardent le manguier.\nPuis je reprends, tranquillement,\nMon beau dessin du firmament.",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écouter et réciter un texte relatif à la santé » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je distingue écouter pour comprendre et réciter pour transmettre avec expression. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Firmament désigne ici le ciel. Avant de réciter, je comprends le vocabulaire et je repère la ponctuation.\nJ’apprends deux vers puis les suivants ; je respire aux pauses et j’articule. Une légère pause après reprends fait entendre tranquillement.\nJe fais entendre les mots et le sens sans crier."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, expression orale, U6, p.29.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -173,58 +162,54 @@
           "objectives": [
             "Donner une explication par écrit."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Écrire un texte explicatif ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Comment expliquer pourquoi ranger aide à retrouver un objet ?",
           "learn": [
-            "Un texte explicatif répond à une question comme « pourquoi ? » ou « comment ? ».",
-            "Je présente les idées dans un ordre logique avec des mots précis."
+            "Un texte explicatif répond à comment ou pourquoi. Il expose des étapes ou des raisons, pas seulement des ordres.",
+            "Parce que introduit une cause ; donc peut annoncer une conséquence : on sait où chercher, donc on perd moins de temps.",
+            "J’explique avec des étapes et des liens logiques."
           ],
-          "takeaway": "Un texte explicatif répond à une question comme « pourquoi ? » ou « comment ? ».",
+          "takeaway": "J’explique avec des étapes et des liens logiques.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Écrire un texte explicatif » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un texte explicatif répond à une question comme « pourquoi ? » ou « comment ? ». L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle question le texte explique-t-il ? Relève une conséquence du rangement.",
+              "answer": "Pourquoi ranger dans des places fixes ? Conséquence possible : on perd moins de temps à retrouver les crayons / le bureau laisse de la place pour le cahier.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U6-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écrire un texte explicatif ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un texte explicatif répond à une question comme « pourquoi ? » ou « comment ? ».",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris trois phrases expliquant comment préparer un espace calme pour lire.",
+              "answer": "Exemple : Je choisis un endroit où m’installer. Je prépare mon livre pour éviter de le chercher ensuite. Je réduis les bruits si possible, car ils peuvent gêner mon attention. Accepter une suite cohérente contenant une raison ou une conséquence.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U6, p.33.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Un proche lit ton explication et dit ce que tu proposes et pourquoi."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « la santé », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "Texte modèle original : Retrouver son matériel\nPourquoi ranger son matériel dans des places fixes ? Lorsque les crayons sont réunis dans une trousse, on sait où les chercher. On perd donc moins de temps à les retrouver. Pour préparer le travail, on rassemble les objets utiles, puis on remet le reste à sa place. Un bureau dégagé laisse de la place pour le cahier."
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écrire un texte explicatif » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un texte explicatif répond à une question comme « pourquoi ? » ou « comment ? ». L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Un texte explicatif répond à comment ou pourquoi. Il expose des étapes ou des raisons, pas seulement des ordres.\nParce que introduit une cause ; donc peut annoncer une conséquence : on sait où chercher, donc on perd moins de temps.\nJ’explique avec des étapes et des liens logiques."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, production d’écrits, U6, p.33.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -234,57 +219,55 @@
             "Lire une œuvre ou de larges extraits.",
             "Rendre compte et donner son point de vue."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Lire une aventure liée à la santé et donner son point de vue ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Mado reste assise pendant que ses amis jouent. Faut-il deviner la raison ou l’écouter ?",
           "learn": [
-            "Je repère les faits essentiels et je justifie mon avis à partir du texte."
+            "Je cherche les paroles et les actions qui expliquent le comportement d’un personnage.",
+            "Le texte dit que Mado est fatiguée, pas qu’elle est malade ou qu’elle refuse l’amitié de Tom. « Aline agit avec attention car elle l’écoute » est un avis appuyé sur une action.",
+            "Je justifie mon avis sans inventer les faits manquants."
           ],
-          "takeaway": "Je repère les faits essentiels et je justifie mon avis à partir du texte.",
+          "takeaway": "Je justifie mon avis sans inventer les faits manquants.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure liée à la santé et donner son point de vue » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère les faits essentiels et je justifie mon avis à partir du texte. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Que pense Tom au début ? Mado le confirme-t-elle ?",
+              "answer": "Il pense qu’elle n’aime plus le jeu. Non : elle dit qu’elle est fatiguée.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U6-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure liée à la santé et donner son point de vue ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère les faits essentiels et je justifie mon avis à partir du texte.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Choisis une action et donne ton avis avec parce que.",
+              "answer": "Exemple : Aline agit avec attention parce qu’elle accompagne Mado vers l’enseignante. Accepter un autre avis relié à une action du récit, sans diagnostic inventé.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U6-L4-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U6, p.36.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Rejoue une scène où un personnage exprime un besoin et où l’autre l’écoute."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Lire comme un détective",
-              "kind": "method",
-              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure liée à la santé et donner son point de vue », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
-            },
-            {
-              "title": "Rendre compte de sa lecture",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+              "body": "Récit original : La place sous l’arbre\nAprès la course, Mado s’assied sous l’arbre. « Viens jouer ! » appelle Tom. Mado répond qu’elle est fatiguée. Tom pense qu’elle n’aime plus leur jeu. Aline lui rappelle qu’ils ne peuvent pas le savoir sans l’écouter. Mado demande à parler à l’enseignante ; Aline l’accompagne. L’enseignante écoute Mado et reste avec elle. Plus tard, Tom apporte un dessin du jeu pour lui raconter la partie. Mado le remercie : elle est contente qu’on ait respecté sa pause.",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure liée à la santé et donner son point de vue » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je repère les faits essentiels et je justifie mon avis à partir du texte. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Je cherche les paroles et les actions qui expliquent le comportement d’un personnage.\nLe texte dit que Mado est fatiguée, pas qu’elle est malade ou qu’elle refuse l’amitié de Tom. « Aline agit avec attention car elle l’écoute » est un avis appuyé sur une action.\nJe justifie mon avis sans inventer les faits manquants."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, littérature, U6, p.36.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -294,63 +277,54 @@
             "Identifier les pronoms démonstratifs.",
             "Identifier les pronoms possessifs."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Pronoms démonstratifs et possessifs ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans ce cahier et celui-ci, quel mot accompagne le nom et lequel le remplace ?",
           "learn": [
-            "Un pronom remplace un nom ou un groupe nominal.",
-            "Les démonstratifs montrent ou désignent ; les possessifs indiquent une relation de possession."
+            "Un pronom remplace un nom ou groupe nominal connu. Celui, celle, ceux, celles sont des pronoms démonstratifs, souvent avec -ci, -là ou un complément.",
+            "Le mien, la tienne, les siens sont des pronoms possessifs. Ta gourde devient la tienne ; tes gourdes devient les tiennes.",
+            "Je choisis le pronom selon le genre, le nombre et, pour le possessif, le possesseur."
           ],
-          "takeaway": "Un pronom remplace un nom ou un groupe nominal.",
+          "takeaway": "Je choisis le pronom selon le genre, le nombre et, pour le possessif, le possesseur.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Pronoms démonstratifs et possessifs » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un pronom remplace un nom ou un groupe nominal. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Évite la répétition : Ma serviette est verte ; ta serviette est blanche. Ces gobelets sont propres ; ces gobelets-là sont sales.",
+              "answer": "Ma serviette est verte ; la tienne est blanche. Ces gobelets sont propres ; ceux-là sont sales.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U6-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Pronoms démonstratifs et possessifs ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un pronom remplace un nom ou un groupe nominal.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans « Mon sac est léger ; le tien est lourd », relève le déterminant et le pronom possessifs.",
+              "answer": "Déterminant : mon, qui accompagne sac. Pronom : le tien, qui remplace ton sac.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U6-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U6, p.40.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Compare deux objets avec le mien/la mienne et le tien/la tienne."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Pronoms démonstratifs et possessifs » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Ce gobelet est propre ; celui-là doit être lavé.\nCes serviettes sont sèches ; celles-ci sont humides.\nMa gourde est rouge ; la tienne est bleue.\nCe et ma accompagnent un nom. Celui-là et la tienne remplacent des groupes nominaux."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Pronoms démonstratifs et possessifs » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Un pronom remplace un nom ou un groupe nominal. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Un pronom remplace un nom ou groupe nominal connu. Celui, celle, ceux, celles sont des pronoms démonstratifs, souvent avec -ci, -là ou un complément.\nLe mien, la tienne, les siens sont des pronoms possessifs. Ta gourde devient la tienne ; tes gourdes devient les tiennes.\nJe choisis le pronom selon le genre, le nombre et, pour le possessif, le possesseur."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U6, p.40.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -361,58 +335,54 @@
             "Connaître radical, préfixe, suffixe et famille.",
             "Utiliser le dictionnaire pour trouver le sens d’un mot."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Vocabulaire de la santé, familles de mots et dictionnaire ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Soin et soigner sont liés par leur forme et leur sens. Médecin appartient-il à cette même famille ?",
           "learn": [
-            "Les mots d’une même famille partagent une base de sens.",
-            "Le dictionnaire permet de vérifier le sens et l’emploi d’un mot."
+            "Une famille de mots partage une base et un sens : soin, soigner, soignant, avec une petite variation de la base.",
+            "Médecin appartient au thème de la santé mais pas à la famille de soin. Soigner son écriture signifie faire attention à sa présentation : le contexte choisit le sens.",
+            "Je vérifie la base et le sens ; la ressemblance seule ne suffit pas."
           ],
-          "takeaway": "Les mots d’une même famille partagent une base de sens.",
+          "takeaway": "Je vérifie la base et le sens ; la ressemblance seule ne suffit pas.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Vocabulaire de la santé, familles de mots et dictionnaire » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les mots d’une même famille partagent une base de sens. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel mot est extérieur à la famille de soin : soigner, soignant, repos ?",
+              "answer": "Repos : même thème possible, mais base différente.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U6-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vocabulaire de la santé, familles de mots et dictionnaire ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les mots d’une même famille partagent une base de sens.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Explique « Elle soigne la présentation de son affiche », puis classe repos et soigner alphabétiquement.",
+              "answer": "Elle fait attention à la présentation. Ordre : repos, soigner, car r précède s.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U6-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U6, p.44.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Cherche dans un dictionnaire un mot de la famille de soin et emploie-le dans une phrase."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Choisir le mot juste",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Le vocabulaire de « la santé » aide à parler et écrire avec précision. Pour apprendre un mot, ne mémorise pas seulement sa définition : observe un exemple, sa famille éventuelle, sa nature grammaticale et un contexte où tu peux l’utiliser. Le dictionnaire sert à vérifier l’orthographe, le sens et certaines informations grammaticales."
+              "body": "Mini-lexique original :\nSoin, n. m. : attention ou action destinée à aider ou à entretenir ; prendre soin d’un livre.\nSoigner, v. : apporter des soins ou faire avec attention ; soigner son écriture.\nSoignant, n. : personne dont le métier consiste à apporter des soins aux personnes.\nRepos, n. m. : moment où l’on cesse une activité pour se détendre ou récupérer."
             },
             {
-              "title": "Créer son petit lexique",
-              "kind": "activity",
-              "body": "Sur une page de cahier, prépare trois colonnes : « mot », « ce qu’il veut dire », « ma phrase ». Ajoute au moins cinq mots du chapitre. Relis ce lexique avant une production écrite et essaie d’employer deux de ces mots."
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Vocabulaire de la santé, familles de mots et dictionnaire » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les mots d’une même famille partagent une base de sens. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Une famille de mots partage une base et un sens : soin, soigner, soignant, avec une petite variation de la base.\nMédecin appartient au thème de la santé mais pas à la famille de soin. Soigner son écriture signifie faire attention à sa présentation : le contexte choisit le sens.\nJe vérifie la base et le sens ; la ressemblance seule ne suffit pas."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, vocabulaire, U6, p.44.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -421,57 +391,59 @@
           "objectives": [
             "Écrire sans erreur, sous la dictée, un court texte préparé ou non."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Écrire correctement un court texte sous la dictée ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quels accords dois-tu vérifier après avoir écrit un texte sous la dictée ?",
           "learn": [
-            "J’écoute par groupes de mots, je repère les accords, j’écris puis je relis."
+            "Les élèves rangent : le sujet pluriel commande -ent. Petites serviettes propres : le nom et les adjectifs sont au féminin pluriel.",
+            "Je prépare les mots, j’écoute la phrase entière et je relis par étapes.",
+            "Je corrige en expliquant la règle, pas seulement en recopiant."
           ],
-          "takeaway": "J’écoute par groupes de mots, je repère les accords, j’écris puis je relis.",
+          "takeaway": "Je corrige en expliquant la règle, pas seulement en recopiant.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Écrire correctement un court texte sous la dictée » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’écoute par groupes de mots, je repère les accords, j’écris puis je relis. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris la dictée puis relève et explique deux accords.",
+              "answer": "Modèle : Les élèves rangent leurs petites serviettes propres. Amina pose sa gourde sur la table. Puis les enfants retrouvent leurs cahiers. Vérifier les accords en reliant les sujets aux verbes et les déterminants/adjectifs aux noms. Comparer au modèle après l’écriture.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U6-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écrire correctement un court texte sous la dictée ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’écoute par groupes de mots, je repère les accords, j’écris puis je relis.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Corrige et explique : Les enfant range leur cahiers.",
+              "answer": "Les enfants rangent leurs cahiers. Enfants est pluriel ; rangent s’accorde avec ce sujet ; leurs s’accorde avec cahiers au pluriel.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U6-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe, U6, p.48.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Reprends le lendemain seulement une phrase contenant un accord à consolider."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « la santé », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "Préparation : lire le modèle avec l’adulte, expliquer les mots inconnus, puis refermer le panneau du modèle. L’adulte dicte phrase par phrase, puis relit l’ensemble. L’enfant relit les majuscules, la ponctuation et les accords. Sans adulte, faire une copie différée : lire une phrase, la cacher, l’écrire puis vérifier."
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Modèle de dictée — à cacher pendant l’écriture",
+              "kind": "dictation",
+              "body": "Les élèves rangent leurs petites serviettes propres. Amina pose sa gourde sur la table. Puis les enfants retrouvent leurs cahiers."
+            },
+            {
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écrire correctement un court texte sous la dictée » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : J’écoute par groupes de mots, je repère les accords, j’écris puis je relis. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Les élèves rangent : le sujet pluriel commande -ent. Petites serviettes propres : le nom et les adjectifs sont au féminin pluriel.\nJe prépare les mots, j’écoute la phrase entière et je relis par étapes.\nJe corrige en expliquant la règle, pas seulement en recopiant."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, orthographe, U6, p.48.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -480,62 +452,111 @@
           "objectives": [
             "Conjuguer aller, dire, faire et pouvoir au futur simple."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Aller, dire, faire et pouvoir au futur simple ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Nous allons devient demain nous irons. Quel radical utilise-t-on au futur ?",
           "learn": [
-            "Au futur : j’irai, je dirai, je ferai, je pourrai. Les bases sont irrégulières et doivent être mémorisées."
+            "Aller, dire, faire et pouvoir ont au futur les radicaux ir-, dir-, fer-, pourr-.",
+            "On ajoute ai, as, a, ons, ez, ont. Nous + pouvoir donne pourr- + ons : nous pourrons, avec deux r.",
+            "Je choisis le radical puis la terminaison correspondant au sujet."
           ],
-          "takeaway": "Au futur : j’irai, je dirai, je ferai, je pourrai. Les bases sont irrégulières et doivent être mémorisées.",
+          "takeaway": "Je choisis le radical puis la terminaison correspondant au sujet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Aller, dire, faire et pouvoir au futur simple » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Au futur : j’irai, je dirai, je ferai, je pourrai. Les bases sont irrégulières et doivent être mémorisées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Conjugue au futur : tu (faire), nous (aller), vous (dire), elles (pouvoir).",
+              "answer": "tu feras ; nous irons ; vous direz ; elles pourront.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U6-L8-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Aller, dire, faire et pouvoir au futur simple ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Au futur : j’irai, je dirai, je ferai, je pourrai. Les bases sont irrégulières et doivent être mémorisées.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Réécris avec demain : Je fais une affiche et je dis le titre.",
+              "answer": "Demain, je ferai une affiche et je dirai le titre.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U6-L8-E2"
             }
           ],
           "source": "Curriculum CE2, conjugaison, U6, p.50.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Écris un projet de demain avec deux verbes du tableau."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Aller, dire, faire et pouvoir au futur simple » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Demain, je ferai une affiche. Tu diras le titre. Elle ira chercher les crayons. Nous pourrons travailler ensemble. Vous ferez les dessins. Ils diront ce qu’ils ont appris."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
+              "title": "Tableau de référence",
+              "kind": "reference",
+              "table": {
+                "headers": [
+                  "Sujet",
+                  "aller",
+                  "dire",
+                  "faire",
+                  "pouvoir"
+                ],
+                "rows": [
+                  [
+                    "je",
+                    "irai",
+                    "dirai",
+                    "ferai",
+                    "pourrai"
+                  ],
+                  [
+                    "tu",
+                    "iras",
+                    "diras",
+                    "feras",
+                    "pourras"
+                  ],
+                  [
+                    "il/elle",
+                    "ira",
+                    "dira",
+                    "fera",
+                    "pourra"
+                  ],
+                  [
+                    "nous",
+                    "irons",
+                    "dirons",
+                    "ferons",
+                    "pourrons"
+                  ],
+                  [
+                    "vous",
+                    "irez",
+                    "direz",
+                    "ferez",
+                    "pourrez"
+                  ],
+                  [
+                    "ils/elles",
+                    "iront",
+                    "diront",
+                    "feront",
+                    "pourront"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Aller, dire, faire et pouvoir au futur simple » et donne un exemple adapté au thème « La santé ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Au futur : j’irai, je dirai, je ferai, je pourrai. Les bases sont irrégulières et doivent être mémorisées. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « La santé ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Aller, dire, faire et pouvoir ont au futur les radicaux ir-, dir-, fer-, pourr-.\nOn ajoute ai, as, a, ons, ez, ont. Nous + pouvoir donne pourr- + ons : nous pourrons, avec deux r.\nJe choisis le radical puis la terminaison correspondant au sujet."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, conjugaison, U6, p.50.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         }
       ],

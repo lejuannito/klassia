@@ -1,0 +1,1245 @@
+{
+  "id": "T7",
+  "grade": "GS",
+  "title_fr": "Les métiers",
+  "title_en": "Jobs",
+  "duration": "plusieurs séances courtes; rythme à adapter",
+  "domains": [
+    {
+      "id": "LC",
+      "name_fr": "Langage et communication",
+      "name_en": "Literacy and communication",
+      "icon": "🗣️",
+      "weight": "35 %",
+      "activities": [
+        {
+          "id": "GS-T7-LC1",
+          "type": "story",
+          "title_fr": "La boîte réparée",
+          "title_en": "The repaired box",
+          "goal_fr": "Écoute le récit, puis raconte le début, le problème et la fin.",
+          "goal_en": "Listen, then tell the beginning, problem and ending.",
+          "prompt_fr": "Écoute le récit, puis raconte le début, le problème et la fin. Imagine une autre fin qui respecte les personnages.",
+          "prompt_en": "Listen, then tell the beginning, problem and ending. Imagine another ending that fits the characters.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Écoute le récit, puis raconte le début, le problème et la fin. Imagine une autre fin qui respecte les personnages.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Que fait la réparatrice avant d’agir ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Listen, then tell the beginning, problem and ending. Imagine another ending that fits the characters.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: What does the repairer do before working?"
+          ],
+          "questions": [
+            {
+              "fr": "Que fait la réparatrice avant d’agir ?",
+              "en": "What does the repairer do before working?",
+              "answer": "Elle observe le couvercle pour repérer le problème. / She checks the lid to find the problem."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Elle observe le couvercle pour repérer le problème.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 10, p. 41–43, deuxième année",
+            "EN : table 33, p. 60, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          },
+          "story_fr": "Une boîte de jeux ne ferme plus. La classe l’apporte à une personne qui sait réparer. Celle-ci observe le couvercle et montre une charnière desserrée. Les enfants restent à distance des outils. Ils remercient la réparatrice et prennent soin de la boîte.",
+          "story_en": "The game box will not close. The class takes it to a repairer. She checks the lid and shows a loose hinge. The children stay away from the tools. They thank her and look after the box."
+        },
+        {
+          "id": "GS-T7-LC2",
+          "type": "poem",
+          "title_fr": "La comptine du thème",
+          "title_en": "Our theme rhyme",
+          "goal_fr": "Écoute les quatre lignes.",
+          "goal_en": "Listen to the four lines.",
+          "prompt_fr": "Écoute les quatre lignes. Redis-les par deux avec un geste de ton choix. Alterne une ligne avec un partenaire.",
+          "prompt_en": "Listen to the four lines. Say two at a time with a gesture you choose. Take turns saying a line.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Écoute les quatre lignes. Redis-les par deux avec un geste de ton choix. Alterne une ligne avec un partenaire.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Quel geste accompagne une ligne ? Explique ton choix."
+          ],
+          "steps_en": [
+            "Prepare with the adult: Listen to the four lines. Say two at a time with a gesture you choose. Take turns saying a line.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Which gesture goes with one line? Explain your choice."
+          ],
+          "questions": [
+            {
+              "fr": "Quel geste accompagne une ligne ? Explique ton choix.",
+              "en": "Which gesture goes with one line? Explain your choice.",
+              "answer": "Un geste en rapport avec le sens; accepter les créations de l’enfant. / Accept any gesture related to the words."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Un geste en rapport avec le sens; accepter les créations de l’enfant.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 11, p. 44–46, deuxième année",
+            "EN : table 34, p. 61, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          },
+          "story_fr": "Un métier, des gestes précis,\nDes outils que l’on choisit.\nJe regarde et je questionne,\nJe remercie chaque personne.",
+          "story_en": "Some people build,\nSome people bake,\nI ask and learn,\nAbout things they make."
+        },
+        {
+          "id": "GS-T7-LC3",
+          "type": "reading",
+          "title_fr": "Petite lecture en anglais : bag, bus",
+          "title_en": "English sounds and reading: bag, bus",
+          "goal_fr": "Écoute les mots anglais et le son de départ.",
+          "goal_en": "Listen to the English words and their first sound.",
+          "prompt_fr": "Écoute les mots anglais et le son de départ. Repère les mots dans la phrase, puis essaie de lire avec l’adulte.",
+          "prompt_en": "Listen to the English words and their first sound. Find the words in the sentence, then try reading with the adult.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Écoute les mots anglais et le son de départ. Repère les mots dans la phrase, puis essaie de lire avec l’adulte.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Question en anglais : Which word starts with /b/: bag or pot?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Listen to the English words and their first sound. Find the words in the sentence, then try reading with the adult.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Which word starts with /b/: bag or pot?"
+          ],
+          "questions": [
+            {
+              "fr": "Question en anglais : Which word starts with /b/: bag or pot?",
+              "en": "Which word starts with /b/: bag or pot?",
+              "answer": "bag / bag"
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : bag",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableaux 13–14, p. 49–56, deuxième année",
+            "EN : table 36, p. 63, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Dire le son de la lettre plutôt que seulement son nom; garder une prononciation anglaise.",
+            "adaptation": "Faire pointer le mot ou mimer le verbe avant de demander une lecture. Ne pas noter l’accent.",
+            "follow_up": "Changer l’ordre des cartes-mots, puis relire la phrase."
+          },
+          "story_en": "bag, bus\nThe baker has a bag.",
+          "visual": {
+            "kind": "words",
+            "items": [
+              "bag",
+              "bus"
+            ]
+          }
+        },
+        {
+          "id": "GS-T7-LC4",
+          "type": "oral",
+          "title_fr": "Poser une question sur un métier",
+          "title_en": "Asking about a job",
+          "goal_fr": "Joue une visite à une personne qui fabrique du pain.",
+          "goal_en": "Act visiting someone who makes bread.",
+          "prompt_fr": "Joue une visite à une personne qui fabrique du pain. Demande quel objet elle produit et écoute sa réponse.",
+          "prompt_en": "Act visiting someone who makes bread. Ask what they make and listen.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Joue une visite à une personne qui fabrique du pain. Demande quel objet elle produit et écoute sa réponse.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Quelle question permet de connaître son outil ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Act visiting someone who makes bread. Ask what they make and listen.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Which question asks about a tool?"
+          ],
+          "questions": [
+            {
+              "fr": "Quelle question permet de connaître son outil ?",
+              "en": "Which question asks about a tool?",
+              "answer": "« Quel outil utilises-tu ? » / “Which tool do you use?”"
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : « Quel outil utilises-tu ? »",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 9, p. 37–40, deuxième année",
+            "EN : table 38, p. 65, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-LC5",
+          "type": "prewriting",
+          "title_fr": "Des lettres et mon prénom",
+          "title_en": "Letters and my name",
+          "goal_fr": "Observe les modèles S T U V et s t u v.",
+          "goal_en": "Look at S T U V and s t u v.",
+          "prompt_fr": "Observe les modèles S T U V et s t u v. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
+          "prompt_en": "Look at S T U V and s t u v. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Observe les modèles S T U V et s t u v. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Look at S T U V and s t u v. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: How do you check your name’s letters are in order?"
+          ],
+          "questions": [
+            {
+              "fr": "Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?",
+              "en": "How do you check your name’s letters are in order?",
+              "answer": "Je compare au modèle de gauche à droite, une lettre après l’autre. / Compare with the model from left to right, one letter at a time."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Je compare au modèle de gauche à droite, une lettre après l’autre.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "feuille",
+            "crayon adapté",
+            "modèle du prénom fourni par l’adulte"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableaux 12–13, p. 47–51, deuxième année",
+            "EN : table 37, p. 64, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          },
+          "visual": {
+            "kind": "letters",
+            "items": [
+              "S T U V",
+              "s t u v"
+            ]
+          }
+        },
+        {
+          "id": "GS-T7-LC6",
+          "type": "bassa",
+          "title_fr": "Les mots bassa du thème",
+          "title_en": "Bassa words for this theme",
+          "goal_fr": "Observe les traductions bassa proposées ci-dessous.",
+          "goal_en": "Look at the proposed Bassa translations below.",
+          "prompt_fr": "Observe les traductions bassa proposées ci-dessous. Associe un mot à un objet, un geste ou un dessin; compare les variantes avec l’adulte.",
+          "prompt_en": "Look at the proposed Bassa translations below. Match a word to an object, action or drawing; compare the variants with the adult.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Observe les traductions bassa proposées ci-dessous. Associe un mot à un objet, un geste ou un dessin; compare les variantes avec l’adulte.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Choisis un sens et retrouve une de ses traductions proposées."
+          ],
+          "steps_en": [
+            "Prepare with the adult: Look at the proposed Bassa translations below. Match a word to an object, action or drawing; compare the variants with the adult.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Choose a meaning and find one proposed translation."
+          ],
+          "questions": [
+            {
+              "fr": "Choisis un sens et retrouve une de ses traductions proposées.",
+              "en": "Choose a meaning and find one proposed translation.",
+              "answer": "Toutes les formes affichées pour ce sens sont acceptées; le statut documentaire reste visible. / All displayed forms for that meaning are accepted; their documentary status remains visible."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Toutes les formes affichées pour ce sens sont acceptées; le statut documentaire reste visible.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 15, p. 57–58, deuxième année",
+            "EN : table 3, p. 22, Nursery Two, national languages"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          },
+          "bassa_topic": "T7",
+          "source_note": "Bassa du Cameroun : propositions documentaires à vérifier; aucune phrase nouvelle n’est inventée à partir de mots isolés.",
+          "bassa_variants": [
+            {
+              "concept": "enseignant(e) / teacher",
+              "forms": [
+                "málêt",
+                "malet",
+                "mhiet"
+              ],
+              "sources": [
+                "linguistique Basaá moderne",
+                "Cameroon Basaa course",
+                "MDPI 2026 / Hyman examples",
+                "Cameroon Basaa course (ancienne transcription/OCR)"
+              ],
+              "notes": [
+                "Variation de notation tonale.",
+                "málêt est nettement attesté dans des sources linguistiques modernes ; les anciennes graphies sont conservées comme témoins."
+              ],
+              "themes": [
+                "T1",
+                "T7"
+              ],
+              "id": "BA004",
+              "status": "documented_pending_review",
+              "source_links": [
+                {
+                  "title": "Cameroon Basaa course",
+                  "url": "https://fr.scribd.com/document/895662227/Le-Basaa-du-Cameroun-Cours-d-Introduction"
+                }
+              ]
+            },
+            {
+              "concept": "médecin / travailleur clinique",
+              "forms": [
+                "dòktà",
+                "dokta",
+                "dokte"
+              ],
+              "sources": [
+                "Cameroon Basaa course / ERIC OCR"
+              ],
+              "notes": [
+                "Emprunt adapté, avec variations de transcription dans les éditions/OCR.",
+                "Référence bibliographique héritée du corpus : lien primaire précis à compléter; ne pas confondre disponibilité et validation."
+              ],
+              "themes": [
+                "T7"
+              ],
+              "id": "BA038",
+              "status": "documented_pending_review",
+              "source_links": [
+                {
+                  "title": "Cameroon Basaa course / ERIC OCR",
+                  "url": "https://fr.scribd.com/document/895662227/Le-Basaa-du-Cameroun-Cours-d-Introduction"
+                }
+              ]
+            },
+            {
+              "concept": "bois (pluriel / woods)",
+              "forms": [
+                "bìkék"
+              ],
+              "sources": [
+                "Edu-Kultur, alphabet ɓàsàá"
+              ],
+              "notes": [
+                "Exemple orthographique de la lettre b."
+              ],
+              "themes": [
+                "T5"
+              ],
+              "id": "BA032",
+              "status": "documented_pending_review",
+              "source_links": [
+                {
+                  "title": "Edu-Kultur, alphabet ɓàsàá",
+                  "url": "https://edukultur.com/lalphabet-%C9%93asaa/"
+                }
+              ]
+            },
+            {
+              "concept": "coton / cotton",
+              "forms": [
+                "sùùt"
+              ],
+              "sources": [
+                "Edu-Kultur, alphabet ɓàsàá"
+              ],
+              "notes": [
+                "Exemple lexical publié; proposition documentaire non validée."
+              ],
+              "themes": [],
+              "id": "BA058",
+              "status": "documented_pending_review",
+              "source_links": [
+                {
+                  "title": "Edu-Kultur, alphabet ɓàsàá",
+                  "url": "https://edukultur.com/lalphabet-%C9%93asaa/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ST",
+      "name_fr": "Sciences, mathématiques et technologie",
+      "name_en": "Science, mathematics and technology",
+      "icon": "🔎",
+      "weight": "25 %",
+      "activities": [
+        {
+          "id": "GS-T7-ST1",
+          "type": "math",
+          "title_fr": "Je compte jusqu’à 18",
+          "title_en": "Counting to 18",
+          "goal_fr": "Prends 16 jetons.",
+          "goal_en": "Take 16 counters.",
+          "prompt_fr": "Prends 16 jetons. Ajoute 2 jetons. Compte chaque jeton une seule fois. Pour 18, forme des groupes de dix quand c’est possible.",
+          "prompt_en": "Take 16 counters. Add 2 counters. Count each once. Group ten together when possible.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Prends 16 jetons. Ajoute 2 jetons. Compte chaque jeton une seule fois. Pour 18, forme des groupes de dix quand c’est possible.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Combien de jetons as-tu maintenant ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Take 16 counters. Add 2 counters. Count each once. Group ten together when possible.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: How many counters do you have now?"
+          ],
+          "questions": [
+            {
+              "fr": "Combien de jetons as-tu maintenant ?",
+              "en": "How many counters do you have now?",
+              "answer": "18 jetons. / 18 counters."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : 18 jetons.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 17, p. 63–71, deuxième année",
+            "EN : table 39, p. 66–67, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          },
+          "interactive": {
+            "prompt_fr": "Écris le nombre total.",
+            "prompt_en": "Write the total number.",
+            "answer": 18,
+            "explanation_fr": "16 + 2 = 18.",
+            "explanation_en": "Count to check: 18."
+          },
+          "visual": {
+            "kind": "count",
+            "items": [
+              "● ● ● ● ● ● ● ● ● ● ",
+              "● ● ● ● ● ● ● ● "
+            ]
+          }
+        },
+        {
+          "id": "GS-T7-ST2",
+          "type": "math",
+          "title_fr": "Les heures entières",
+          "title_en": "Whole hours",
+          "goal_fr": "Dessine une horloge de 1 à 12 avec l’adulte.",
+          "goal_en": "Draw a clock from 1 to 12 with the adult.",
+          "prompt_fr": "Dessine une horloge de 1 à 12 avec l’adulte. Mets la grande aiguille sur 12 et la petite sur 8.",
+          "prompt_en": "Draw a clock from 1 to 12 with the adult. Put the long hand on 12 and the short hand on 8.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Dessine une horloge de 1 à 12 avec l’adulte. Mets la grande aiguille sur 12 et la petite sur 8.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Quelle heure indique cette horloge ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Draw a clock from 1 to 12 with the adult. Put the long hand on 12 and the short hand on 8.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: What time does the clock show?"
+          ],
+          "questions": [
+            {
+              "fr": "Quelle heure indique cette horloge ?",
+              "en": "What time does the clock show?",
+              "answer": "8 heures. / 8 o’clock."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : 8 heures.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 17, p. 63–71, deuxième année",
+            "EN : table 39, p. 66–67, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-ST3",
+          "type": "science",
+          "title_fr": "Choisir un matériau",
+          "title_en": "Choosing a material",
+          "goal_fr": "Compare une feuille, du carton et du tissu propres.",
+          "goal_en": "Compare clean paper, card and cloth.",
+          "prompt_fr": "Compare une feuille, du carton et du tissu propres. Essaie de les plier doucement pour fabriquer un toit de maquette.",
+          "prompt_en": "Compare clean paper, card and cloth. Gently fold them to make a model roof.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Compare une feuille, du carton et du tissu propres. Essaie de les plier doucement pour fabriquer un toit de maquette.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Quel matériau tient le mieux en toit dans ton essai ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Compare clean paper, card and cloth. Gently fold them to make a model roof.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Which material holds the roof best in your trial?"
+          ],
+          "questions": [
+            {
+              "fr": "Quel matériau tient le mieux en toit dans ton essai ?",
+              "en": "Which material holds the roof best in your trial?",
+              "answer": "Réponse selon l’essai; justifier par la rigidité ou la forme obtenue. / Accept the observed result, justified by stiffness or shape."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Réponse selon l’essai; justifier par la rigidité ou la forme obtenue.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableaux 20–22, p. 79–86, deuxième année",
+            "EN : domaine 2, p. 66–76, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-ST4",
+          "type": "digital",
+          "title_fr": "Une touche, une action",
+          "title_en": "One key, one action",
+          "goal_fr": "Dessine les touches A, B et une flèche.",
+          "goal_en": "Draw A, B and an arrow key.",
+          "prompt_fr": "Dessine les touches A, B et une flèche. L’adulte annonce « A »; montre A. Changez ensuite de rôle.",
+          "prompt_en": "Draw A, B and an arrow key. The adult says “A”; point to A. Swap roles.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Dessine les touches A, B et une flèche. L’adulte annonce « A »; montre A. Changez ensuite de rôle.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Que fais-tu si tu ne reconnais pas la touche demandée ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Draw A, B and an arrow key. The adult says “A”; point to A. Swap roles.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: What do you do if you do not recognise a key?"
+          ],
+          "questions": [
+            {
+              "fr": "Que fais-tu si tu ne reconnais pas la touche demandée ?",
+              "en": "What do you do if you do not recognise a key?",
+              "answer": "Je demande qu’on me la montre; je n’appuie pas au hasard sur un appareil. / Ask to be shown; do not press random device keys."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Je demande qu’on me la montre; je n’appuie pas au hasard sur un appareil.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 19, p. 77–78, deuxième année",
+            "EN : table 40, p. 68, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-ST5",
+          "type": "sensory",
+          "title_fr": "Reconnaître une matière",
+          "title_en": "Recognising a material",
+          "goal_fr": "L’adulte présente une cuillère en bois et une en métal sans bord coupant.",
+          "goal_en": "Compare safe wooden and metal spoons.",
+          "prompt_fr": "L’adulte présente une cuillère en bois et une en métal sans bord coupant. Observe couleur, toucher et bruit quand on les pose.",
+          "prompt_en": "Compare safe wooden and metal spoons. Notice colour, feel and sound when put down.",
+          "steps_fr": [
+            "Préparer avec l’adulte : L’adulte présente une cuillère en bois et une en métal sans bord coupant. Observe couleur, toucher et bruit quand on les pose.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Quels indices t’aident à les distinguer ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Compare safe wooden and metal spoons. Notice colour, feel and sound when put down.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Which clues help you tell them apart?"
+          ],
+          "questions": [
+            {
+              "fr": "Quels indices t’aident à les distinguer ?",
+              "en": "Which clues help you tell them apart?",
+              "answer": "Le toucher, l’aspect ou le son; justifier par une observation. / Feel, appearance or sound, supported by observation."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Le toucher, l’aspect ou le son; justifier par une observation.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 18, p. 72–76, deuxième année",
+            "EN : domaine 2, p. 66–76, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PV",
+      "name_fr": "Vie pratique et sociale",
+      "name_en": "Practical and social life",
+      "icon": "🤝",
+      "weight": "25 %",
+      "activities": [
+        {
+          "id": "GS-T7-PV1",
+          "type": "care",
+          "title_fr": "Nettoyer après l’atelier",
+          "title_en": "Tidying after an activity",
+          "goal_fr": "Après un collage, ramasse les papiers, ferme la colle avec l’adulte et range les crayons.",
+          "goal_en": "After collage, collect paper, close the glue with the adult and put pencils away.",
+          "prompt_fr": "Après un collage, ramasse les papiers, ferme la colle avec l’adulte et range les crayons. Trie les chutes propres réutilisables.",
+          "prompt_en": "After collage, collect paper, close the glue with the adult and put pencils away. Keep clean scraps for reuse.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Après un collage, ramasse les papiers, ferme la colle avec l’adulte et range les crayons. Trie les chutes propres réutilisables.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Quels papiers peut-on garder ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: After collage, collect paper, close the glue with the adult and put pencils away. Keep clean scraps for reuse.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Which paper pieces can be kept?"
+          ],
+          "questions": [
+            {
+              "fr": "Quels papiers peut-on garder ?",
+              "en": "Which paper pieces can be kept?",
+              "answer": "Les chutes propres utilisables pour un autre collage. / Clean scraps usable for another collage."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Les chutes propres utilisables pour un autre collage.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableaux 23–24, p. 87–93, deuxième année",
+            "EN : domaine 3, p. 77–81, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-PV2",
+          "type": "social",
+          "title_fr": "Tous les métiers méritent le respect",
+          "title_en": "Respecting all jobs",
+          "goal_fr": "Mime enseigner, réparer, cultiver ou soigner.",
+          "goal_en": "Act teaching, repairing, farming or caring.",
+          "prompt_fr": "Mime enseigner, réparer, cultiver ou soigner. Les partenaires devinent et remercient pour le service représenté.",
+          "prompt_en": "Act teaching, repairing, farming or caring. Partners guess and thank the person for the service.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Mime enseigner, réparer, cultiver ou soigner. Les partenaires devinent et remercient pour le service représenté.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Une fille et un garçon peuvent-ils choisir le même rôle ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Act teaching, repairing, farming or caring. Partners guess and thank the person for the service.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Can a girl and a boy choose the same role?"
+          ],
+          "questions": [
+            {
+              "fr": "Une fille et un garçon peuvent-ils choisir le même rôle ?",
+              "en": "Can a girl and a boy choose the same role?",
+              "answer": "Oui; les rôles ne sont pas réservés à un sexe. / Yes; roles are not restricted by gender."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Oui; les rôles ne sont pas réservés à un sexe.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 25, p. 94–95, deuxième année",
+            "EN : domaine 3, p. 77–81, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-PV3",
+          "type": "safety",
+          "title_fr": "Une zone de travail",
+          "title_en": "A work area",
+          "goal_fr": "Trace une ligne autour d’un atelier fictif.",
+          "goal_en": "Mark a pretend work area.",
+          "prompt_fr": "Trace une ligne autour d’un atelier fictif. Place les outils-jouets dans la zone et les visiteurs à l’extérieur.",
+          "prompt_en": "Mark a pretend work area. Keep toy tools inside and visitors outside.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Trace une ligne autour d’un atelier fictif. Place les outils-jouets dans la zone et les visiteurs à l’extérieur.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Que fais-tu avant d’entrer ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Mark a pretend work area. Keep toy tools inside and visitors outside.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: What do you do before entering?"
+          ],
+          "questions": [
+            {
+              "fr": "Que fais-tu avant d’entrer ?",
+              "en": "What do you do before entering?",
+              "answer": "Je demande la permission et j’attends l’accord. / Ask permission and wait for agreement."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Je demande la permission et j’attends l’accord.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 26, p. 96–97, deuxième année",
+            "EN : domaine 3, p. 77–81, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        }
+      ]
+    },
+    {
+      "id": "AC",
+      "name_fr": "Arts et activités manuelles",
+      "name_en": "Arts and crafts",
+      "icon": "🎨",
+      "weight": "10 %",
+      "activities": [
+        {
+          "id": "GS-T7-AC1",
+          "type": "art",
+          "title_fr": "Je dessine et je raconte",
+          "title_en": "Drawing and telling",
+          "goal_fr": "Dessine une scène de métier avec un outil dessiné.",
+          "goal_en": "Draw a job scene with a drawn tool.",
+          "prompt_fr": "Dessine une scène de métier avec un outil dessiné. Commence par les grandes formes, ajoute deux détails puis présente ton dessin.",
+          "prompt_en": "Draw a job scene with a drawn tool. Start with large shapes, add two details and present your work.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Dessine une scène de métier avec un outil dessiné. Commence par les grandes formes, ajoute deux détails puis présente ton dessin.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Quel détail aide à comprendre ton dessin ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Draw a job scene with a drawn tool. Start with large shapes, add two details and present your work.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Which detail helps explain your drawing?"
+          ],
+          "questions": [
+            {
+              "fr": "Quel détail aide à comprendre ton dessin ?",
+              "en": "Which detail helps explain your drawing?",
+              "answer": "L’enfant désigne un détail cohérent et explique son rôle. / The child points to a relevant detail and explains it."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : L’enfant désigne un détail cohérent et explique son rôle.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableaux 27–28, p. 98–105, deuxième année",
+            "EN : domaine 4, p. 82–85, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-AC2",
+          "type": "art",
+          "title_fr": "Je fabrique une maquette",
+          "title_en": "Making a model",
+          "goal_fr": "Fabrique un porte-crayons en boîte stable décorée.",
+          "goal_en": "Make a decorated stable-box pencil holder.",
+          "prompt_fr": "Fabrique un porte-crayons en boîte stable décorée. Dispose les éléments sans coller; compare deux organisations avant de choisir. Utilise seulement des ciseaux adaptés avec l’adulte.",
+          "prompt_en": "Make a decorated stable-box pencil holder. Arrange the pieces without glue; compare two layouts before choosing. Use child-safe scissors only with the adult.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Fabrique un porte-crayons en boîte stable décorée. Dispose les éléments sans coller; compare deux organisations avant de choisir. Utilise seulement des ciseaux adaptés avec l’adulte.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Pourquoi essayer avant de coller ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Make a decorated stable-box pencil holder. Arrange the pieces without glue; compare two layouts before choosing. Use child-safe scissors only with the adult.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: Why try the layout before gluing?"
+          ],
+          "questions": [
+            {
+              "fr": "Pourquoi essayer avant de coller ?",
+              "en": "Why try the layout before gluing?",
+              "answer": "Pour changer de place et choisir une organisation qui tient. / To move pieces and choose a stable arrangement."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Pour changer de place et choisir une organisation qui tient.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableaux 27–28, p. 98–105, deuxième année",
+            "EN : domaine 4, p. 82–85, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-AC3",
+          "type": "art",
+          "title_fr": "Je crée un rythme",
+          "title_en": "Creating a rhythm",
+          "goal_fr": "Reproduis lentement : tap, pause, tap.",
+          "goal_en": "Slowly repeat: tap, pause, tap.",
+          "prompt_fr": "Reproduis lentement : tap, pause, tap. Répète trois fois puis invente une variation. Un geste silencieux peut remplacer le son.",
+          "prompt_en": "Slowly repeat: tap, pause, tap. Do it three times, then invent a variation. A silent gesture may replace a sound.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Reproduis lentement : tap, pause, tap. Répète trois fois puis invente une variation. Un geste silencieux peut remplacer le son.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Comment reconnaît-on le motif qui se répète ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: Slowly repeat: tap, pause, tap. Do it three times, then invent a variation. A silent gesture may replace a sound.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: How do we recognise the repeating pattern?"
+          ],
+          "questions": [
+            {
+              "fr": "Comment reconnaît-on le motif qui se répète ?",
+              "en": "How do we recognise the repeating pattern?",
+              "answer": "On retrouve les mêmes gestes dans le même ordre. / The same movements occur in the same order."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : On retrouve les mêmes gestes dans le même ordre.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableaux 27–28, p. 98–105, deuxième année",
+            "EN : domaine 4, p. 82–85, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          },
+          "visual": {
+            "kind": "rhythm",
+            "items": [
+              "tap, pause, tap",
+              "tap, pause, tap"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "MO",
+      "name_fr": "Motricité",
+      "name_en": "Motor skills",
+      "icon": "🏃",
+      "weight": "5 %",
+      "activities": [
+        {
+          "id": "GS-T7-MO1",
+          "type": "motor",
+          "title_fr": "Un parcours maîtrisé",
+          "title_en": "A controlled route",
+          "goal_fr": "Avec l’adulte dans un espace dégagé, suis une marche avec un objet léger tenu à deux mains.",
+          "goal_en": "With the adult in a clear space, follow walking while holding a light object in both hands.",
+          "prompt_fr": "Avec l’adulte dans un espace dégagé, suis une marche avec un objet léger tenu à deux mains. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
+          "prompt_en": "With the adult in a clear space, follow walking while holding a light object in both hands. Move slowly and stop if you lose balance.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Avec l’adulte dans un espace dégagé, suis une marche avec un objet léger tenu à deux mains. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Que fais-tu si tu ne te sens pas stable ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: With the adult in a clear space, follow walking while holding a light object in both hands. Move slowly and stop if you lose balance.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: What do you do if you feel unsteady?"
+          ],
+          "questions": [
+            {
+              "fr": "Que fais-tu si tu ne te sens pas stable ?",
+              "en": "What do you do if you feel unsteady?",
+              "answer": "Je m’arrête et je demande de l’aide. / Stop and ask for help."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Je m’arrête et je demande de l’aide.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 29, p. 106–109, deuxième année",
+            "EN : table 53, p. 86, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-MO2",
+          "type": "motor",
+          "title_fr": "Viser puis attendre",
+          "title_en": "Aim, then wait",
+          "goal_fr": "Avec l’adulte, essaie une balle vers une cible large sans dépasser la ligne.",
+          "goal_en": "With the adult, try a ball towards a wide target from behind a line.",
+          "prompt_fr": "Avec l’adulte, essaie une balle vers une cible large sans dépasser la ligne. Attends que tous les gestes soient terminés avant de récupérer le matériel.",
+          "prompt_en": "With the adult, try a ball towards a wide target from behind a line. Wait until all movements have stopped before collecting equipment.",
+          "steps_fr": [
+            "Préparer avec l’adulte : Avec l’adulte, essaie une balle vers une cible large sans dépasser la ligne. Attends que tous les gestes soient terminés avant de récupérer le matériel.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Quand peux-tu récupérer l’objet ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: With the adult, try a ball towards a wide target from behind a line. Wait until all movements have stopped before collecting equipment.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: When can you collect the object?"
+          ],
+          "questions": [
+            {
+              "fr": "Quand peux-tu récupérer l’objet ?",
+              "en": "When can you collect the object?",
+              "answer": "Au signal de l’adulte, quand personne ne lance ni ne roule. / At the adult’s signal, when nobody is throwing or rolling."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Au signal de l’adulte, quand personne ne lance ni ne roule.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 29, p. 106–109, deuxième année",
+            "EN : table 53, p. 86, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        },
+        {
+          "id": "GS-T7-MO3",
+          "type": "motor",
+          "title_fr": "Coopérer en mouvement",
+          "title_en": "Moving together",
+          "goal_fr": "En petit groupe, essaie de déplacer des boîtes légères en équipe avec des rôles.",
+          "goal_en": "In a small group, try to move light boxes as a team with assigned roles.",
+          "prompt_fr": "En petit groupe, essaie de déplacer des boîtes légères en équipe avec des rôles. Décidez qui commence, avancez lentement puis échangez les rôles.",
+          "prompt_en": "In a small group, try to move light boxes as a team with assigned roles. Agree who starts, move slowly, then swap roles.",
+          "steps_fr": [
+            "Préparer avec l’adulte : En petit groupe, essaie de déplacer des boîtes légères en équipe avec des rôles. Décidez qui commence, avancez lentement puis échangez les rôles.",
+            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
+            "Reprendre : Comment aider si un partenaire n’arrive pas à suivre ?"
+          ],
+          "steps_en": [
+            "Prepare with the adult: In a small group, try to move light boxes as a team with assigned roles. Agree who starts, move slowly, then swap roles.",
+            "Try with help, then explain what you did in your own words.",
+            "Try again: How can you help if a partner cannot keep up?"
+          ],
+          "questions": [
+            {
+              "fr": "Comment aider si un partenaire n’arrive pas à suivre ?",
+              "en": "How can you help if a partner cannot keep up?",
+              "answer": "Ralentir, s’arrêter ou adapter le déplacement avec l’adulte. / Slow down, stop or adapt with the adult."
+            }
+          ],
+          "observe": [
+            "Comprend la consigne et commence avec une aide adaptée.",
+            "Répond ou montre sa démarche : Ralentir, s’arrêter ou adapter le déplacement avec l’adulte.",
+            "Explique ou montre un choix sans recherche de vitesse."
+          ],
+          "materials": [
+            "papier et crayons",
+            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 29, p. 106–109, deuxième année",
+            "EN : table 53, p. 86, Nursery Two"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
+            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
+            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          }
+        }
+      ]
+    }
+  ],
+  "project": {
+    "title_fr": "La galerie des métiers",
+    "title_en": "A gallery of jobs",
+    "description_fr": "Réunir un dessin commenté, un petit objet fabriqué et une présentation orale issus des activités du thème. Présenter aussi une proposition bassa avec sa traduction et sa source.",
+    "description_en": "Collect a drawing with a comment, a small craft and an oral presentation from this theme. Include a proposed Bassa word with its meaning and source."
+  },
+  "assessment": {
+    "title_fr": "Observer les acquis du thème",
+    "title_en": "Observe learning in this theme",
+    "scale": [
+      {
+        "code": "D",
+        "label_fr": "Découvre",
+        "label_en": "Beginning",
+        "description": "Besoin de modèle et d’accompagnement."
+      },
+      {
+        "code": "EC",
+        "label_fr": "En cours",
+        "label_en": "Developing",
+        "description": "Réussit avec une aide ponctuelle."
+      },
+      {
+        "code": "A",
+        "label_fr": "Acquis observé",
+        "label_en": "Observed independently",
+        "description": "Réussit et explique dans une situation connue."
+      }
+    ],
+    "indicators": [
+      "Raconte un événement dans un ordre compréhensible.",
+      "Essaie la courte activité anglaise avec une aide adaptée.",
+      "Associe une proposition bassa à son sens, sans imposer une variante.",
+      "Manipule, compte ou compare en montrant sa démarche.",
+      "Coopère, crée et se déplace en respectant les consignes."
+    ]
+  },
+  "sources": [
+    "MINEDUB 2018, curriculum maternel francophone : https://fr.scribd.com/document/578040708/Programme-Maternel-2019-01",
+    "MINEDUB 2018, Nursery Two : https://www.scribd.com/document/686175471/Program-Nursery-2019"
+  ],
+  "editorial": {
+    "status": "in_review",
+    "curriculum_reference": "MINEDUB 2018, deuxième année / Nursery Two; voir source_refs par activité",
+    "notice": "Créations originales Klassia; relecture pédagogique et linguistique à confirmer."
+  }
+}

@@ -267,6 +267,59 @@
       },
       "proposedWords": [
         {
+          "concept": "livre / book",
+          "forms": [
+            "káat",
+            "Kaat añ"
+          ],
+          "sources": [
+            "CNRS/LGIDF Basaa",
+            "Culture Basaa (Pondi Pondi, 2009)"
+          ],
+          "notes": [
+            "káat = livre dans la fiche linguistique ; Kaat añ = livre de lecture dans le lexique scolaire."
+          ],
+          "themes": [
+            "T1"
+          ],
+          "id": "BA005",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "CNRS/LGIDF Basaa",
+              "url": "https://lgidf.cnrs.fr/node/1790"
+            },
+            {
+              "title": "Culture Basaa (Pondi Pondi, 2009)",
+              "url": "https://antoinepondipondi.blogspot.com/2009/09/sukulu.html?m=0"
+            }
+          ]
+        },
+        {
+          "concept": "cahier / notebook",
+          "forms": [
+            "Héfté",
+            "Héfté matila"
+          ],
+          "sources": [
+            "Culture Basaa (Pondi Pondi, 2009)"
+          ],
+          "notes": [
+            "Héfté matila y est donné comme cahier d’écriture."
+          ],
+          "themes": [
+            "T1"
+          ],
+          "id": "BA007",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Culture Basaa (Pondi Pondi, 2009)",
+              "url": "https://antoinepondipondi.blogspot.com/2009/09/sukulu.html?m=0"
+            }
+          ]
+        },
+        {
           "concept": "salue-moi / greet me",
           "forms": [
             "Yègá mɛ̀"
@@ -274,8 +327,20 @@
           "sources": [
             "Resulam/Bitjaa Kody 2020"
           ],
-          "notes": [],
-          "status": "proposition_non_validee"
+          "notes": [
+            "Cette expression signifie « salue-moi »; elle n’est pas présentée comme la traduction de « bonjour »."
+          ],
+          "themes": [
+            "T4"
+          ],
+          "id": "BA024",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Resulam/Bitjaa Kody 2020",
+              "url": "https://resulam.com/fr/2020/05/13/mes-500-premiers-mots-et-expressions-en-langue-bassa-%C9%93asaa/"
+            }
+          ]
         },
         {
           "concept": "s’il te plaît / please",
@@ -286,29 +351,38 @@
             "Resulam/Bitjaa Kody 2020"
           ],
           "notes": [],
-          "status": "proposition_non_validee"
+          "themes": [
+            "T4"
+          ],
+          "id": "BA027",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Resulam/Bitjaa Kody 2020",
+              "url": "https://resulam.com/fr/2020/05/13/mes-500-premiers-mots-et-expressions-en-langue-bassa-%C9%93asaa/"
+            }
+          ]
         },
         {
-          "concept": "oui / yes",
+          "concept": "nom / name",
           "forms": [
-            "Ŋ̀ŋ̂"
+            "Jǒl"
           ],
           "sources": [
             "Resulam/Bitjaa Kody 2020"
           ],
-          "notes": [],
-          "status": "proposition_non_validee"
-        },
-        {
-          "concept": "non / no",
-          "forms": [
-            "Tɔ̀"
+          "notes": [
+            "Forme relevée dans la liste publique; graphie et usage à confirmer pédagogiquement."
           ],
-          "sources": [
-            "Resulam/Bitjaa Kody 2020"
-          ],
-          "notes": [],
-          "status": "proposition_non_validee"
+          "themes": [],
+          "id": "BA053",
+          "status": "documented_pending_review",
+          "source_links": [
+            {
+              "title": "Resulam/Bitjaa Kody 2020",
+              "url": "https://resulam.com/fr/2020/05/13/mes-500-premiers-mots-et-expressions-en-langue-bassa-%C9%93asaa/"
+            }
+          ]
         }
       ],
       "scoring": "Aucun score linguistique officiel."

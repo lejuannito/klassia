@@ -43,8 +43,7 @@ document.addEventListener('click',e=>{const t=e.target.closest('[data-space],[da
 document.addEventListener('change',e=>{if(e.target.matches('[data-grade]')){const c=context();location.href=new URL(gradePaths[e.target.value],c.base).href;}});
 K.openOverview=openOverview;
 // Optional device speech is explicitly labelled; it is not a validated audio pack.
-function addSpeech(container,text,lang){if(!('speechSynthesis'in window)||!text)return;const b=document.createElement('button');b.className='classBtn speech-control';b.textContent=lang.startsWith('en')?'🔊 Listen (device voice)':'🔊 Écouter (voix de l’appareil)';b.onclick=()=>{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=lang;u.rate=.85;speechSynthesis.speak(u);};container.prepend(b);}
-window.addEventListener('hashchange',()=>window.speechSynthesis?.cancel());
+function addSpeech(container,text,lang){K.speech.add(container,text,lang);}
 window.addEventListener('error',e=>{if(/quota|storage/i.test(e.message)){alert('Enregistrement local impossible. Exportez vos progrès et vérifiez l’espace disponible.');}});
 window.addEventListener('storage',e=>{if(e.key==='klassia_profiles_v15')location.reload();});
 K.openProfiles=openProfiles;K.downloadBackup=download;K.addSpeech=addSpeech;

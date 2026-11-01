@@ -18,3 +18,4 @@ jobs:
       - run: git diff --exit-code -- precache-manifest.js data/catalog.json data/coverage.json docs/couverture.csv docs/metrics.json
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser
+      - run: npm run test:gs && npm run test:speech

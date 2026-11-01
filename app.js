@@ -377,7 +377,8 @@ function lesson(id) {
   shell(body, 'learn');
   if(s.id==='BA')Klassia.Bassa.mount(document.querySelector('.lesson-page'),'CE2',l.id);
   document.querySelectorAll('.numeric-check').forEach(button=>button.onclick=()=>{const e=l.exercises[Number(button.dataset.exercise)],raw=document.getElementById('num_'+button.dataset.feedback).value.trim().replace(/\s/g,'').replace(',','.');const box=document.getElementById(button.dataset.feedback);box.classList.remove('hidden');if(raw===''||!/^[-+]?\d+(\.\d+)?$/.test(raw)){box.textContent='Écris un nombre avant de vérifier.';return;}const ok=Number(raw)===e.answer;box.textContent=(ok?'Bravo ! ':'Essaie encore. ')+e.explanation;const key=l.id+':'+button.dataset.exercise;const d=exerciseData();d[key]={ok,at:new Date().toISOString()};save(S.exercises,d);Klassia.append('klassia_attempts',{kind:'number',exercise:e.id,ok});});
-  if(s.id==='EN')Klassia.addSpeech(document.querySelector('.lesson-header'),[l.title,l.discover,...l.learn].join('. '),'en-GB');
+  if(s.id!=='BA')Klassia.addSpeech(document.querySelector('.lesson-header'),[l.title,l.discover,...l.learn].join('. '),s.id==='EN'?'en-GB':'fr-FR');
+  (l.manual_sections||[]).forEach((sec,i)=>{if(sec.audio_lang&&sec.body&&s.id!=='BA')Klassia.addSpeech(document.querySelectorAll('.manual-section-body')[i],sec.body,sec.audio_lang);});
 }
 
 function exerciseHtml(e, lid, i) {

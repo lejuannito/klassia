@@ -47,62 +47,55 @@
             "Réagir efficacement à une consigne, une demande, un récit ou des propos entendus.",
             "Intervenir dans un échange portant sur les communications."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Écouter et échanger sur les communications ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Que perd le destinataire si tu oublies le jour ou le lieu d’un rendez-vous ?",
           "learn": [
-            "Je questionne, j’écoute et j’utilise un vocabulaire adapté au moyen de communication et à l’interlocuteur."
+            "Un message relie un émetteur à un destinataire. Je conserve les informations utiles : qui, quoi, quand, où.",
+            "Reformuler n’autorise pas à changer le sens. « Venez un jour avec quelque chose » perd les informations essentielles.",
+            "Je vérifie les détails et je demande ce qui manque au lieu de l’inventer."
           ],
-          "takeaway": "Je questionne, j’écoute et j’utilise un vocabulaire adapté au moyen de communication et à l’interlocuteur.",
+          "takeaway": "Je vérifie les détails et je demande ce qui manque au lieu de l’inventer.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Écouter et échanger sur les communications » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je questionne, j’écoute et j’utilise un vocabulaire adapté au moyen de communication et à l’interlocuteur. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Relève les destinataires, l’objet, le jour, l’heure et le lieu.",
+              "answer": "Élèves du groupe Soleil ; dessin ; vendredi ; 10 h ; classe de CE2.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écouter et échanger sur les communications ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je questionne, j’écoute et j’utilise un vocabulaire adapté au moyen de communication et à l’interlocuteur.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un message dit seulement Rendez-vous demain. Propose deux questions.",
+              "answer": "Exemples : À quelle heure ? À quel endroit ? Pour quelle activité ? Avec qui ? Deux questions pertinentes suffisent.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, expression orale, U8, p.30.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Transmets le message à un partenaire puis comparez avec le modèle."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Écouter et échanger sur les communications » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Message fictif : « Pour les élèves du groupe Soleil : apportez votre dessin vendredi à 10 h dans la classe de CE2. Nous préparerons l’exposition avec l’enseignante. »\nDestinataires : groupe Soleil. Action : apporter son dessin. Moment : vendredi à 10 h. Lieu : classe de CE2.",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écouter et échanger sur les communications » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je questionne, j’écoute et j’utilise un vocabulaire adapté au moyen de communication et à l’interlocuteur. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Un message relie un émetteur à un destinataire. Je conserve les informations utiles : qui, quoi, quand, où.\nReformuler n’autorise pas à changer le sens. « Venez un jour avec quelque chose » perd les informations essentielles.\nJe vérifie les détails et je demande ce qui manque au lieu de l’inventer."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, expression orale, U8, p.30.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -112,59 +105,54 @@
             "Écrire la légende d’un dessin.",
             "Écrire un compte-rendu."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Écrire une légende et un compte-rendu ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une légende et un compte rendu donnent-ils la même quantité d’informations ?",
           "learn": [
-            "Une légende est courte et précise ; un compte-rendu restitue les faits essentiels dans un ordre logique."
+            "La légende identifie brièvement ce que montre l’image. Ici, on peut produire son dessin à partir de la scène décrite : aucune image absente n’est nécessaire.",
+            "Le compte rendu indique participants, lieu, moment et faits : « Mardi matin, trois élèves ont installé six dessins en CE2 avec leur enseignante. La classe a ensuite lu le titre. »",
+            "Je rapporte les informations disponibles sans ajouter un événement inventé."
           ],
-          "takeaway": "Une légende est courte et précise ; un compte-rendu restitue les faits essentiels dans un ordre logique.",
+          "takeaway": "Je rapporte les informations disponibles sans ajouter un événement inventé.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Écrire une légende et un compte-rendu » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une légende est courte et précise ; un compte-rendu restitue les faits essentiels dans un ordre logique. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dessine la scène puis écris une légende en une phrase.",
+              "answer": "Exemple : Trois élèves et leur enseignante préparent un panneau de dessins. Accepter une phrase courte fidèle à la scène et au dessin.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U8-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Écrire une légende et un compte-rendu ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une légende est courte et précise ; un compte-rendu restitue les faits essentiels dans un ordre logique.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris un compte rendu de deux phrases avec le moment, le lieu et les deux actions.",
+              "answer": "Attendus : mardi matin, classe de CE2, installation de six dessins, lecture du titre. Accepter une formulation fidèle ; aucun prix ou visiteur ne doit être ajouté.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U8, p.33.",
-          "practical": [],
+          "practical": [
+            "Après une activité, note trois faits observés et rédige un compte rendu."
+          ],
           "notes": [
-            "Le tableau classe ces savoir-faire sous « textes argumentatifs », alors que « légende » et « compte-rendu » ne correspondent pas strictement à cette catégorie ; point à valider."
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
           ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « les communications », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "Scène à dessiner : trois élèves placent leurs dessins sur un panneau de la classe ; l’enseignante tient le titre « Nos jeux ».\nNotes de l’activité fictive : mardi matin ; classe de CE2 ; trois élèves et leur enseignante ; installation de six dessins ; lecture du titre par la classe.\nLégende possible : Les élèves préparent le panneau Nos jeux avec leur enseignante."
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Écrire une légende et un compte-rendu » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Une légende est courte et précise ; un compte-rendu restitue les faits essentiels dans un ordre logique. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "La légende identifie brièvement ce que montre l’image. Ici, on peut produire son dessin à partir de la scène décrite : aucune image absente n’est nécessaire.\nLe compte rendu indique participants, lieu, moment et faits : « Mardi matin, trois élèves ont installé six dessins en CE2 avec leur enseignante. La classe a ensuite lu le titre. »\nJe rapporte les informations disponibles sans ajouter un événement inventé."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, production d’écrits, U8, p.33.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -174,57 +162,55 @@
             "Lire une œuvre ou de larges extraits.",
             "Rendre compte et donner son point de vue."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Lire une aventure liée aux communications ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un jour mal recopié change une invitation. Comment retrouver la bonne information ?",
           "learn": [
-            "Je résume les événements et je justifie mon avis avec le texte."
+            "Je suis la circulation du message pour repérer où il change. La source est l’affiche ; l’erreur apparaît dans la copie.",
+            "Rose accompagne Éric pour relire, mais le texte ne dit pas qu’elle a écrit le premier message.",
+            "Je compare le message transmis à sa source pour résoudre le malentendu."
           ],
-          "takeaway": "Je résume les événements et je justifie mon avis avec le texte.",
+          "takeaway": "Je compare le message transmis à sa source pour résoudre le malentendu.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Lire une aventure liée aux communications » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je résume les événements et je justifie mon avis avec le texte. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel jour est correct ? Où apparaît l’erreur ? Qui demande d’abord de vérifier ?",
+              "answer": "Vendredi. Dans la copie d’Éric. Son père demande la vérification.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U8-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une aventure liée aux communications ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je résume les événements et je justifie mon avis avec le texte.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Résume la solution et donne un conseil pour la prochaine invitation.",
+              "answer": "Il compare sa copie à l’affiche, corrige et transmet la correction. Conseil : relire jour, heure et lieu avant de transmettre. Accepter tout conseil pertinent.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U8-L3-E2"
             }
           ],
           "source": "Curriculum CE2, littérature, U8, p.36.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Copie un message fictif puis fais comparer chaque détail à l’original."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Lire comme un détective",
-              "kind": "method",
-              "body": "Une lecture attentive ne consiste pas à aller vite. Pour « Lire une aventure liée aux communications », commence par repérer les personnages, le lieu, le moment et l’événement principal. Relève ensuite un ou deux indices du texte qui justifient tes réponses. Quand une question demande ton avis, distingue ce que dit le texte de ce que tu penses toi-même."
-            },
-            {
-              "title": "Rendre compte de sa lecture",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Pour raconter l’essentiel sans réciter tout le texte, utilise quatre étapes : 1) présenter rapidement qui et où ; 2) dire ce qui se passe ; 3) expliquer comment la situation évolue ou se résout ; 4) donner un avis justifié avec « parce que ». Cette méthode peut servir pour un récit lu en classe comme pour un livre lu à la maison."
+              "body": "Récit original : Le jour de l’exposition\nL’enseignante affiche : « Exposition vendredi à 10 h. » Éric recopie vite et écrit jeudi. Son père lui demande de confirmer le jour avant de s’organiser. Le lendemain, Éric relit l’affiche avec Rose. Il voit son erreur, barre jeudi et écrit vendredi. Il vérifie aussi l’heure. À la maison, il explique la correction à son père. « Tu as bien fait de vérifier », répond celui-ci. Le vendredi, ils arrivent ensemble à 10 h et découvrent les dessins.",
+              "audio_lang": "fr-FR"
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Lire une aventure liée aux communications » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Je résume les événements et je justifie mon avis avec le texte. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Je suis la circulation du message pour repérer où il change. La source est l’affiche ; l’erreur apparaît dans la copie.\nRose accompagne Éric pour relire, mais le texte ne dit pas qu’elle a écrit le premier message.\nJe compare le message transmis à sa source pour résoudre le malentendu."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, littérature, U8, p.36.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -234,64 +220,54 @@
             "Distinguer les compléments de circonstance.",
             "Distinguer les compléments d’objet."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Compléments d’objet et compléments de circonstance ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans « Ce matin, Lina écrit une lettre dans la classe », que précise chaque groupe ?",
           "learn": [
-            "Le complément d’objet est lié au verbe ; le complément de circonstance apporte une précision comme le lieu ou le temps."
+            "Les compléments d’objet sont liés au verbe : écrire une lettre, répondre à un ami. Le COD est direct ; le COI est introduit par une préposition.",
+            "Les compléments de circonstance précisent notamment où et quand. Dans les phrases étudiées, ils se déplacent souvent ; on associe ce test au sens.",
+            "Je distingue l’objet de l’action et ses circonstances."
           ],
-          "takeaway": "Le complément d’objet est lié au verbe ; le complément de circonstance apporte une précision comme le lieu ou le temps.",
+          "takeaway": "Je distingue l’objet de l’action et ses circonstances.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Compléments d’objet et compléments de circonstance » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le complément d’objet est lié au verbe ; le complément de circonstance apporte une précision comme le lieu ou le temps. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Classe les compléments : Dans la cour, Awa raconte une histoire. Le soir, elle répond à sa sœur.",
+              "answer": "dans la cour : lieu ; une histoire : COD ; le soir : temps ; à sa sœur : COI.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U8-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Compléments d’objet et compléments de circonstance ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le complément d’objet est lié au verbe ; le complément de circonstance apporte une précision comme le lieu ou le temps.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Ajoute lieu et moment à Paul écrit un message, puis déplace le moment au début.",
+              "answer": "Exemple : Paul écrit un message à la maison le soir. Le soir, Paul écrit un message à la maison. Le COD un message est conservé.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U8-L4-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U8, p.41.",
-          "practical": [],
+          "practical": [
+            "Écris une phrase avec raconter et une avec répondre ; indique leurs compléments d’objet."
+          ],
           "notes": [
-            "Le tableau source place cette ressource sous « fonctions des éléments du groupe nominal » ; formulation à revoir pédagogiquement."
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
           ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Compléments d’objet et compléments de circonstance » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "Sujet : Lina. Verbe : écrit. COD : une lettre. Temps : ce matin. Lieu : dans la classe.\nOn peut écrire : Lina écrit une lettre dans la classe ce matin.\nDans Lina répond à son ami, à son ami est COI de répond."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Compléments d’objet et compléments de circonstance » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le complément d’objet est lié au verbe ; le complément de circonstance apporte une précision comme le lieu ou le temps. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Les compléments d’objet sont liés au verbe : écrire une lettre, répondre à un ami. Le COD est direct ; le COI est introduit par une préposition.\nLes compléments de circonstance précisent notamment où et quand. Dans les phrases étudiées, ils se déplacent souvent ; on associe ce test au sens.\nJe distingue l’objet de l’action et ses circonstances."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U8, p.41.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -301,62 +277,54 @@
             "Analyser les conjonctions de coordination dans la phrase.",
             "Analyser les adverbes dans la phrase."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Conjonctions de coordination et adverbes ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans « Je parle doucement, mais tu ne m’entends pas », quels mots précisent ou relient les idées ?",
           "learn": [
-            "Les conjonctions relient des éléments ; les adverbes précisent souvent le sens d’un verbe, d’un adjectif ou d’une phrase."
+            "Les conjonctions de coordination relient mots, groupes ou propositions : et, mais, ou.",
+            "Un adverbe peut préciser le verbe : parler doucement ; demain indique un moment. Les adverbes étudiés sont invariables. Ou propose un choix ; où peut interroger sur un lieu.",
+            "Je choisis le lien ou l’adverbe selon le sens."
           ],
-          "takeaway": "Les conjonctions relient des éléments ; les adverbes précisent souvent le sens d’un verbe, d’un adjectif ou d’une phrase.",
+          "takeaway": "Je choisis le lien ou l’adverbe selon le sens.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Conjonctions de coordination et adverbes » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les conjonctions relient des éléments ; les adverbes précisent souvent le sens d’un verbe, d’un adjectif ou d’une phrase. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Complète : Tu peux écrire … dessiner, au choix. Je veux lire, … il fait sombre. Elle prend une feuille … un crayon.",
+              "answer": "ou ; mais ; et. Alternative, opposition, puis addition.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U8-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Conjonctions de coordination et adverbes ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les conjonctions relient des éléments ; les adverbes précisent souvent le sens d’un verbe, d’un adjectif ou d’une phrase.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Relève les adverbes et mets au singulier : Demain, les élèves liront calmement le message.",
+              "answer": "Adverbes : demain, calmement. Demain, l’élève lira calmement le message. Les adverbes ne changent pas.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U8-L5-E2"
             }
           ],
           "source": "Curriculum CE2, grammaire, U8, p.41.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Écris deux phrases : l’une avec mais, l’autre avec un adverbe de manière."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre la règle avant de l’appliquer",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Dans cette leçon — « Conjonctions de coordination et adverbes » — l’objectif n’est pas seulement de réciter une règle. Observe d’abord les exemples, cherche ce qui change et ce qui ne change pas, puis formule la règle avec tes mots. Ensuite, vérifie-la sur plusieurs phrases avant de l’utiliser dans ta propre production."
+              "body": "J’écris et je dessine : addition.\nJe veux appeler, mais le téléphone est éteint : opposition.\nPréférez-vous une lettre ou un appel ? Choix.\nElle lit lentement : manière.\nDemain, nous répondrons : moment."
             },
             {
-              "title": "Méthode en quatre étapes",
-              "kind": "method",
-              "items": [
-                "Je lis toute la phrase avant de répondre.",
-                "Je repère le mot ou le groupe de mots concerné par la notion.",
-                "J’applique la règle et je justifie mentalement mon choix.",
-                "Je relis la phrase entière pour vérifier qu’elle reste correcte."
-              ]
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Conjonctions de coordination et adverbes » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Les conjonctions relient des éléments ; les adverbes précisent souvent le sens d’un verbe, d’un adjectif ou d’une phrase. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Les conjonctions de coordination relient mots, groupes ou propositions : et, mais, ou.\nUn adverbe peut préciser le verbe : parler doucement ; demain indique un moment. Les adverbes étudiés sont invariables. Ou propose un choix ; où peut interroger sur un lieu.\nJe choisis le lien ou l’adverbe selon le sens."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, grammaire, U8, p.41.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -366,57 +334,54 @@
             "Utiliser le champ lexical des communications.",
             "Utiliser le dictionnaire pour trouver le sens d’un mot."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Vocabulaire des communications et dictionnaire ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Awa envoie une lettre à son frère : qui émet et qui reçoit ?",
           "learn": [
-            "Message, appel, téléphone, radio, lettre, réseau, information sont des mots liés aux communications selon le contexte."
+            "Awa est l’émettrice et son frère le destinataire. Le message est ce qu’elle écrit, pas la personne ni le papier seul.",
+            "Le contexte précise le sens : une adresse de courriel n’est pas une adresse de maison.",
+            "Je vérifie le sens et la nature du mot dans le dictionnaire."
           ],
-          "takeaway": "Message, appel, téléphone, radio, lettre, réseau, information sont des mots liés aux communications selon le contexte.",
+          "takeaway": "Je vérifie le sens et la nature du mot dans le dictionnaire.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Vocabulaire des communications et dictionnaire » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Message, appel, téléphone, radio, lettre, réseau, information sont des mots liés aux communications selon le contexte. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans L’enseignant envoie une invitation aux parents, identifie émetteur, destinataires et message.",
+              "answer": "Émetteur : enseignant. Destinataires : parents. Message : invitation et son contenu.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U8-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vocabulaire des communications et dictionnaire ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Message, appel, téléphone, radio, lettre, réseau, information sont des mots liés aux communications selon le contexte.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Classe message, adresse, transmettre, destinataire alphabétiquement. Que signifie v. ?",
+              "answer": "adresse, destinataire, message, transmettre. v. signifie verbe.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U8-L6-E2"
             }
           ],
           "source": "Curriculum CE2, vocabulaire, U8, p.45.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Compose une invitation pour un personnage inventé, sans vraies coordonnées personnelles."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Choisir le mot juste",
+              "title": "Support de la leçon",
               "kind": "text",
-              "body": "Le vocabulaire de « les communications » aide à parler et écrire avec précision. Pour apprendre un mot, ne mémorise pas seulement sa définition : observe un exemple, sa famille éventuelle, sa nature grammaticale et un contexte où tu peux l’utiliser. Le dictionnaire sert à vérifier l’orthographe, le sens et certaines informations grammaticales."
+              "body": "Mini-dictionnaire original :\nAdresse, n. f. : indication permettant de situer un lieu ou d’acheminer un message.\nDestinataire, n. : personne à qui le message est destiné.\nÉmetteur, n. m. : personne ou dispositif qui émet un message.\nMessage, n. m. : information transmise à quelqu’un.\nTransmettre, v. : faire parvenir une information ou un objet."
             },
             {
-              "title": "Créer son petit lexique",
-              "kind": "activity",
-              "body": "Sur une page de cahier, prépare trois colonnes : « mot », « ce qu’il veut dire », « ma phrase ». Ajoute au moins cinq mots du chapitre. Relis ce lexique avant une production écrite et essaie d’employer deux de ces mots."
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Vocabulaire des communications et dictionnaire » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Message, appel, téléphone, radio, lettre, réseau, information sont des mots liés aux communications selon le contexte. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Awa est l’émettrice et son frère le destinataire. Le message est ce qu’elle écrit, pas la personne ni le papier seul.\nLe contexte précise le sens : une adresse de courriel n’est pas une adresse de maison.\nJe vérifie le sens et la nature du mot dans le dictionnaire."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, vocabulaire, U8, p.45.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         },
         {
@@ -427,57 +392,102 @@
             "Conjuguer les verbes du premier et du deuxième groupe au passé simple.",
             "Modifier une phrase en changeant l’indicateur temporel."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Dictée et passé simple des verbes réguliers ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quels accords dois-tu vérifier après avoir écrit un texte sous la dictée ?",
           "learn": [
-            "Le passé simple est un temps du récit écrit ; au CE2, on travaille les formes régulières prévues par le programme et la cohérence des indicateurs temporels."
+            "Le passé simple s’emploie surtout dans les récits écrits pour présenter des événements passés. L’imparfait peut alors décrire le décor ou une habitude.",
+            "Pour entrer : -ai, -as, -a, -âmes, -âtes, -èrent. Pour finir : -is, -is, -it, -îmes, -îtes, -irent. On utilise surtout ici les troisièmes personnes.",
+            "Finit peut aussi être un présent isolément : dans ce récit, les autres verbes indiquent le passé simple. Je vérifie contexte et sujet."
           ],
-          "takeaway": "Le passé simple est un temps du récit écrit ; au CE2, on travaille les formes régulières prévues par le programme et la cohérence des indicateurs temporels.",
+          "takeaway": "Finit peut aussi être un présent isolément : dans ce récit, les autres verbes indiquent le passé simple. Je vérifie contexte et sujet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Dictée et passé simple des verbes réguliers » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le passé simple est un temps du récit écrit ; au CE2, on travaille les formes régulières prévues par le programme et la cohérence des indicateurs temporels. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris la dictée puis relève et explique deux accords.",
+              "answer": "Modèle : Awa entra dans la classe. Elle finit sa lettre et salua son amie. Les enfants rangèrent les feuilles. Vérifier les accords en reliant les sujets aux verbes et les déterminants/adjectifs aux noms. Comparer au modèle après l’écriture.",
+              "explanation": "Vérifie les informations et les exemples dans le support avant de comparer ta réponse à la correction.",
               "id": "FR-U8-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Dictée et passé simple des verbes réguliers ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le passé simple est un temps du récit écrit ; au CE2, on travaille les formes régulières prévues par le programme et la cohérence des indicateurs temporels.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Conjugue au passé simple : il (entrer), elles (finir), ils (saluer).",
+              "answer": "il entra ; elles finirent ; ils saluèrent.",
+              "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U8-L7-E2"
             }
           ],
           "source": "Curriculum CE2, orthographe p.48 et conjugaison p.51, U8.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Reprends le lendemain seulement une phrase contenant un accord à consolider."
+          ],
+          "notes": [
+            "Supports originaux rédigés pour Klassia le 1er novembre 2026. Référence curriculaire conservée ; aucune validation nominative ajoutée."
+          ],
           "manual_sections": [
             {
-              "title": "Construire son texte avant d’écrire",
-              "kind": "method",
-              "body": "Avant de rédiger sur « les communications », note d’abord les idées utiles. Choisis un ordre logique, puis transforme chaque idée en phrase. Relis ensuite en séparant les vérifications : sens du texte, majuscules et ponctuation, orthographe des mots connus, accords. Une bonne production se construit en plusieurs passages."
+              "title": "Support de la leçon",
+              "kind": "text",
+              "body": "Préparation : lire le modèle avec l’adulte, expliquer les mots inconnus, puis refermer le panneau du modèle. L’adulte dicte phrase par phrase, puis relit l’ensemble. L’enfant relit les majuscules, la ponctuation et les accords. Sans adulte, faire une copie différée : lire une phrase, la cacher, l’écrire puis vérifier."
             },
             {
-              "title": "Améliorer une première version",
+              "title": "Modèle de dictée — à cacher pendant l’écriture",
+              "kind": "dictation",
+              "body": "Awa entra dans la classe. Elle finit sa lettre et salua son amie. Les enfants rangèrent les feuilles."
+            },
+            {
+              "title": "Tableau de référence",
+              "kind": "reference",
+              "table": {
+                "headers": [
+                  "Sujet",
+                  "entrer",
+                  "finir"
+                ],
+                "rows": [
+                  [
+                    "je",
+                    "entrai",
+                    "finis"
+                  ],
+                  [
+                    "tu",
+                    "entras",
+                    "finis"
+                  ],
+                  [
+                    "il/elle",
+                    "entra",
+                    "finit"
+                  ],
+                  [
+                    "nous",
+                    "entrâmes",
+                    "finîmes"
+                  ],
+                  [
+                    "vous",
+                    "entrâtes",
+                    "finîtes"
+                  ],
+                  [
+                    "ils/elles",
+                    "entrèrent",
+                    "finirent"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Comprendre et appliquer",
               "kind": "example",
-              "body": "Une première phrase peut être correcte mais trop vague. Par exemple, « Le lieu est bien » devient plus précis si l’on indique ce que l’on observe, ce que l’on y fait et pourquoi on l’apprécie. Cherche donc les mots exacts et ajoute un détail utile plutôt qu’une longue phrase difficile à contrôler."
-            },
-            {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Consigne : Explique avec tes mots l’idée essentielle de « Dictée et passé simple des verbes réguliers » et donne un exemple adapté au thème « Les communications ».\n\nRéponse attendue : Réponse attendue : retrouver l’idée essentielle suivante : Le passé simple est un temps du récit écrit ; au CE2, on travaille les formes régulières prévues par le programme et la cohérence des indicateurs temporels. L’exemple doit être cohérent avec la situation étudiée.\n\nPour réussir, explique-toi le raisonnement avant de regarder la correction. "
-            },
-            {
-              "title": "À toi de produire",
-              "kind": "activity",
-              "body": "Crée un exemple personnel lié au thème « Les communications ». Utilise la notion de la leçon dans une ou deux phrases, puis relis-toi en vérifiant le point précis étudié. Si possible, fais lire ta production à un camarade ou à un adulte et améliore-la."
+              "body": "Le passé simple s’emploie surtout dans les récits écrits pour présenter des événements passés. L’imparfait peut alors décrire le décor ou une habitude.\nPour entrer : -ai, -as, -a, -âmes, -âtes, -èrent. Pour finir : -is, -is, -it, -îmes, -îtes, -irent. On utilise surtout ici les troisièmes personnes.\nFinit peut aussi être un présent isolément : dans ce récit, les autres verbes indiquent le passé simple. Je vérifie contexte et sujet."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, orthographe p.48 et conjugaison p.51, U8.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "fr-specific-2026-11-01"
           }
         }
       ],

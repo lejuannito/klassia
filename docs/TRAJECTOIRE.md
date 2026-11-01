@@ -1,48 +1,38 @@
-# Trajectoire après consolidation
+# Trajectoire consolidée — 1er novembre 2026
 
-## État réel
+## État livré dans cette branche
 
-La v15 traite les défauts techniques prioritaires et fournit une première tranche de réécriture pédagogique. Le travail éditorial n’est pas achevé : 158 découvertes génériques restent identifiées ; les 47 leçons réécrites, U1 et T1 ont encore besoin de relecteurs. Les médias validés, la conformité exhaustive et les essais sur téléphones physiques restent ouverts.
+| Classe | Ressources présentes | Organisation |
+|---|---:|---|
+| Moyenne section bilingue | 160 activités | 8 thèmes |
+| Grande section bilingue | 162 activités | 8 thèmes, 5 domaines |
+| SIL bilingue | 88 leçons | 80 principales et 8 compléments pilotes |
+| CE1 bilingue | 87 leçons | 8 unités |
+| CE2 | 347 leçons | 8 unités |
 
-## Prochaines étapes exécutables
+L’inventaire compte 844 ressources. La présence des cinq classes ne constitue pas une certification de couverture exhaustive du curriculum. Les progressions francophone et anglophone restent distinctes ; le CP intervient entre la SIL et le CE1.
 
-1. Relecture des 47 leçons MA/EN et du couple de référence U1/T1 ; corriger sur retour documenté.
-2. Réécriture des 158 leçons encore génériques par discipline, en commençant par les fondamentaux FR et les supports nécessaires aux sciences/TIC. Chaque lot doit fournir vrais exemples, tâches et corrigés ; ne pas remplacer une formule générique par une autre.
-3. Extraire le référentiel officiel CE2 dans la matrice, puis obtenir le curriculum maternel approprié et faire le même rapprochement pour MS.
-4. Valider Bassa et produire les enregistrements nécessaires avec des locuteurs. Préparer parallèlement les audios FR/EN et les illustrations, avec un registre des droits.
-5. Réaliser le pilote accompagné et appliquer les corrections d’usage avant une diffusion élargie.
+La navigation par unité/thème, matière et domaine, les profils locaux, l’accès permanent à la revue et les 45 panneaux de traductions bassa sont déjà présents. Toutes les variantes bassa affichées pour le sens demandé restent acceptées, y compris lorsqu’un enseignant les signale à revoir.
 
-## Extension, dans l’ordre demandé
+Le lot actuel apporte :
 
-| Classe | Préparation nécessaire | Première tranche à construire | Conditions de sortie |
-|---|---|---|---|
-| Grande section bilingue | Référentiel maternel et progression MS→GS ; objectifs FR/EN distincts | Un thème avec oral, phonologie, nombres, graphisme et observation | Relecture GS, test accompagné, supports complets |
-| SIL bilingue | Huit centres rédigés et progression française explicitée | 80 leçons et 8 séquences pilotes conservées | Revue enseignante/linguistique, validation phonologique et audios |
-| CE1 bilingue | Huit unités thématiques, objectifs CE1 distincts du CE2 et anglais Class 3 | 87 leçons proposées, encore en revue | Relecture par enseignants; arbitrage des propositions de langues nationales |
+- sélection explicite d’une voix française ou anglaise adaptée au texte dans les cinq classes ; message d’aide si la langue manque, arrêt de lecture et gestion du chargement différé des voix ; pas de synthèse bassa avec une voix FR/EN ;
+- réécriture des 39 leçons de français CE2 encore génériques, unités U4–U8 : supports originaux, 78 exercices corrigés, cinq récits, deux poèmes et trois dictées ;
+- [principes d’enrichissement pédagogique](ENRICHISSEMENT.md) pour les prochains lots, avec supports intégrés et exercices progressifs.
 
-La présence du CP dans la progression doit être reconnue, même si son contenu est livré ultérieurement. La traduction de l’interface ne vaut pas alignement sur les deux sous-systèmes scolaires.
+Les décisions du porteur de projet permettent de poursuivre la production. Les métadonnées ne sont pas pour autant attribuées à un enseignant fictif : la revue nominative et les retours ultérieurs restent traçables.
 
-## Contrat d’extension du moteur
+## Étapes restantes, dans l’ordre
 
-Chaque classe apporte catalogue, contenu, référentiel et évaluations, avec identifiants stables. Réutiliser profils, sauvegarde, impression, tests et service worker. Ajouter un type d’activité quand il répond à un besoin pédagogique réel : association image/son, classement, séquence, numération manipulable, lecture accompagnée. Les nouvelles classes doivent avoir leurs migrations et jeux d’essais avant de rejoindre un pack hors ligne.
+1. **Sciences et TIC CE2 : 29 leçons.** Remplacer les 17 découvertes génériques de sciences et les 12 de TIC par des observations, expériences accessibles, supports, usages numériques accompagnés et corrections.
+2. **Autres leçons génériques CE2 : 90.** Sciences humaines/sociales 45 ; développement personnel 16 ; arts 15 ; EPS 9 ; bassa 5. Les cinq leçons bassa possèdent déjà des propositions lexicales centrales : compléter leur séquence pédagogique, sans supprimer ces propositions. Total restant : **119** leçons repérées par l’indicateur de découverte générique. Cet indicateur ne recense pas tous les défauts possibles.
+3. **Couverture et progression des cinq classes.** Rapprocher systématiquement chaque objectif officiel, contenu et évaluation ; combler les lacunes et vérifier prérequis, difficulté, lecture/écriture, calcul pratique, arts et motricité. Les liens curriculaires existants sont des propositions de correspondance, pas une homologation. Exploiter les manuels seulement au niveau réellement consulté.
+4. **Supports sonores et visuels.** La lecture actuelle utilise les voix de l’appareil : elle n’est pas un pack d’enregistrements validés. Produire des médias FR/EN maîtrisés et des enregistrements bassa avec prononciation vérifiée ; documenter sources, droits et variantes. En attendant, le bassa écrit reste consultable et ses variantes acceptées.
+5. **Pilote en conditions réelles.** Essayer les parcours sur téléphones Android/iOS, avec parents, enfants et enseignants ; vérifier écoute effective, disponibilité des voix hors connexion, lisibilité, charge de travail et gestes de navigation. Les tests automatisés de navigateur ne remplacent pas ces essais sonores et pédagogiques.
 
-Aucune date de livraison pédagogique fiable ne peut être annoncée sans connaître les relecteurs, les sources, les médias et le périmètre validé. La branche n’affiche pas des classes vides comme si elles étaient disponibles.
+## Évolutions après consolidation de la cible initiale
 
+- Synchronisation de la revue entre appareils et comptes authentifiés, si retenue : aujourd’hui les espaces Enseignant/Administration et les décisions sont locaux, exportables, sans serveur de comptes. La validation en ligne sur l’appareil fonctionne déjà ; le partage centralisé est une évolution distincte.
+- CP puis autres classes selon la priorité du projet. Le secondaire reste hors cible initiale.
 
-
-## Couverture SIL bilingue
-
-Les huit centres d’intérêt SIL sont structurés en 10 leçons chacun, soit 80 leçons principales. Huit activités pilotes sont conservées comme suppléments. Les objectifs français suivent la progression SIL propre. Le parcours anglais garde ses objectifs oraux, de lecture débutante, de copie de noms/phrases et de numéraux 0–50 selon la colonne Class 1; Class 2 est exclue. Les propositions bassa utilisent le lexique documentaire intégré et restent non validées.
-
-## Démarrage CE1
-
-Le CE1 dispose d’une première unité thématique de dix leçons. Elle utilise uniquement les objectifs CE1 du curriculum Niveau 2 et limite l’alignement anglophone à Class 3. L’année reste à compléter. Le CP intervient entre la SIL et le CE1.
-
-
-## Accès à la revue pédagogique
-
-Depuis n’importe quelle classe, le lien permanent « Revue pédagogique » ouvre l’inventaire; le bouton « Changer d’espace » ouvre les vues Enfant, Parent, Enseignant et Administration locale. L’espace enseignant est un mode d’affichage local, sans compte ni authentification. Les décisions de revue sont enregistrées sur l’appareil et exportables, sans publier automatiquement les contenus.
-
-## Complément CE1
-
-Les unités U2–U8 ajoutent 77 leçons réparties entre français, anglais Class 3, mathématiques, sciences/technologies, TIC, sciences humaines et sociales, arts, EPS, développement personnel et langues nationales. Les objectifs de langues nationales s’appuient sur la colonne CE1; les formes proposées restent provisoires et toutes les variantes visibles peuvent être acceptées jusqu’à arbitrage. Les sept nouvelles unités demeurent `in_review`.
+Les retours de revue peuvent être traités à chaque lot sans suspendre les autres travaux. Aucun délai fiable de validation linguistique ou de production d’enregistrements ne peut être déduit du seul nombre de leçons.

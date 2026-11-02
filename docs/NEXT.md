@@ -4,39 +4,72 @@ _Mise à jour : 2 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
-## Lot prioritaire
+## Lot prioritaire — correctif ciblé
 
-### 1. Enrichissement Sciences et TIC CE2
+### 1. Audio français sur appareil réel
 
-Objectif : remplacer les contenus encore trop génériques par des séquences exploitables et adaptées au niveau CE2.
+Constat du pilote : sur un téléphone réel, Klassia affiche qu’aucune voix française n’a été trouvée. Les tests automatisés actuels utilisent des voix simulées et ne reproduisent donc pas nécessairement le comportement du navigateur/appareil.
 
-Périmètre actuel :
-
-- Sciences : 17 leçons génériques repérées ;
-- TIC : 12 leçons génériques repérées ;
-- total du lot : 29 leçons.
+Objectif : diagnostiquer le comportement réel de `speechSynthesis` sur navigateur mobile et rendre la lecture française plus robuste **sans basculer silencieusement vers une voix anglaise**.
 
 Attendus :
 
-- observations ou expériences simples lorsque pertinent ;
-- supports intégrés ;
-- exercices progressifs ;
-- corrections explicites ;
-- cohérence avec les principes de `docs/ENRICHISSEMENT.md` ;
-- ne pas modifier les autres matières sans nécessité.
+- analyser `shared/speech.js`, `tests/speech-browser.cjs` et `docs/AUDIO_FR_CE2.md` ;
+- distinguer absence réelle de moteur/voix française, liste de voix non exposée ou chargée tardivement, et échec de synthèse ;
+- prévoir une stratégie de repli sûre lorsque le navigateur sait synthétiser `fr-FR` sans exposer explicitement une voix française ;
+- conserver un message clair lorsque la synthèse française est réellement impossible ;
+- ajouter des tests couvrant le cas réel qui manquait ;
+- ne pas toucher aux contenus pédagogiques dans ce lot.
 
-Validation minimale du lot :
+Validation minimale : tests vocaux ciblés, puis `npm test`, `npm run validate` et `npm run build` si des fichiers servis changent.
 
-- contenus non génériques pour les 29 leçons ciblées ;
-- structure JSON valide ;
-- `npm run validate` ;
-- tests concernés ;
-- `npm run catalog` si l’inventaire ou les métriques changent ;
-- `npm run build` après modification des fichiers servis.
+## Lot fonctionnel suivant
 
-## Lot suivant
+### 2. Recherche rapide dans Klassia
 
-### 2. Autres leçons génériques CE2
+Besoin : permettre à un parent, élève ou enseignant de saisir une notion vue dans un cahier (mot ou petite expression) et de retrouver rapidement **ce que Klassia contient sur cette notion**.
+
+Cible minimale :
+
+- recherche plein texte locale, sans serveur et compatible hors connexion ;
+- couvrir au minimum titres, objectifs, cours/supports et principaux mots-clés des ressources ;
+- résultats groupés par classe, matière/domaine et leçon/activité ;
+- extrait court montrant pourquoi le résultat correspond ;
+- clic vers la ressource concernée ;
+- tolérance raisonnable aux accents, casse et formes simples ;
+- ne pas introduire de moteur externe ni de dépendance lourde sans nécessité.
+
+Commencer par un diagnostic de l’architecture et proposer la solution minimale avant implémentation.
+
+## Lot éditorial / documentaire
+
+### 3. Couverture des manuels et référentiels
+
+Les listes de manuels scolaires fournies par le porteur de projet servent de **repères d’usage scolaire**, distincts des curricula officiels. Les photographies et la synthèse privée ne doivent pas être publiées dans le dépôt public.
+
+Objectifs :
+
+- retrouver, lorsque cela est légalement et publiquement possible, sommaires, tables des matières, présentations éditeur ou extraits autorisés des ouvrages identifiés ;
+- rapprocher les notions réellement vérifiables des contenus Klassia ;
+- produire une matrice : couvert / partiellement couvert / absent / à vérifier ;
+- compléter Klassia avec des contenus originaux lorsque des lacunes pertinentes sont confirmées ;
+- ne jamais inventer le sommaire d’un manuel ni reproduire des passages protégés.
+
+Cette recherche documentaire doit être menée séparément des tâches de codage. Codex ne doit pas supposer connaître le contenu d’un manuel à partir de son seul titre.
+
+## Enrichissement CE2
+
+### 4. Sciences et TIC CE2
+
+Périmètre repéré :
+
+- Sciences : 17 leçons génériques ;
+- TIC : 12 leçons génériques ;
+- total : 29 leçons.
+
+Attendus : observations ou expériences simples lorsque pertinent, supports intégrés, exercices progressifs, corrections explicites et cohérence avec `docs/ENRICHISSEMENT.md`.
+
+### 5. Autres leçons génériques CE2
 
 Périmètre repéré : 90 leçons :
 
@@ -46,35 +79,13 @@ Périmètre repéré : 90 leçons :
 - EPS : 9 ;
 - Bassa : 5.
 
-Pour les cinq leçons bassa, **conserver les propositions lexicales centrales déjà présentes** et enrichir autour d’elles.
+Pour les cinq leçons bassa, conserver les propositions lexicales centrales déjà présentes et enrichir autour d’elles.
 
-## Après enrichissement CE2
+## Consolidation ultérieure
 
-### 3. Couverture et progression des cinq classes
-
-- rapprocher systématiquement objectifs, contenus et évaluations des référentiels réellement disponibles ;
-- identifier les lacunes ;
-- vérifier prérequis et progression de difficulté ;
-- ne pas présenter une correspondance proposée comme validation officielle.
-
-### 4. Supports sonores et visuels
-
-- préparer des médias FR/EN maîtrisés ;
-- préparer des enregistrements bassa avec prononciation vérifiée ;
-- documenter sources, droits et variantes ;
-- conserver en attendant le bassa écrit et les variantes acceptées.
-
-### 5. Pilote réel
-
-Tester sur téléphones Android/iOS avec parents, enfants et enseignants :
-
-- navigation ;
-- lisibilité ;
-- écoute effective ;
-- disponibilité des voix hors connexion ;
-- compréhension des consignes ;
-- charge de travail ;
-- pertinence pédagogique.
+- couverture et progression des cinq classes ;
+- supports sonores/visuels maîtrisés, dont enregistrements bassa à prononciation vérifiée ;
+- pilote réel Android/iOS avec parents, enfants et enseignants.
 
 ## Règle pour chaque nouvelle session
 

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "d0e51fcc2cd54a9e9fb1807880d0817e6ee436479d78e4fe16d7c7add73dd8ea",
+  "version": "bdfced5c81300016895b673118e4a80d9d64becb71f5d1d78ae8d52c8d045be6",
   "files": [
     {
       "url": "./app.js",
@@ -287,7 +287,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/speech.js",
-      "sha256": "747b6161120eb37eae65e2bf4572d30b4a5ea9c180933204c9d2c3ff6c278a81"
+      "sha256": "9f2abccc50075e837bb3098b567aeb8a7629f8fad15cfcde7e61e1c575a8876c"
     },
     {
       "url": "./shared/style.css",

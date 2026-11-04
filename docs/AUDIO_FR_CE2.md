@@ -4,7 +4,7 @@
 
 Dans une leçon française, utiliser **Écouter en français**. Dans une leçon anglaise, utiliser **Listen in English**. Les activités bilingues MS/GS proposent les deux commandes, chacune attachée au texte correspondant. Les compléments SIL « English · … » sont aussi reconnus comme anglais. Les récits et poèmes du nouveau lot CE2 disposent d’un bouton de lecture propre au support.
 
-Le moteur demande explicitement une voix de la langue correspondante, en privilégiant la variante exacte et, à variante égale, une voix locale. Une autre variante du français peut être utilisée si nécessaire, mais pas l’anglais. Il attend brièvement une liste de voix différée et affiche un message si aucune voix adaptée n’est disponible. **Arrêter / Stop** et le changement de page annulent la lecture en cours ou en attente.
+Le moteur demande explicitement une voix de la langue correspondante, en privilégiant la variante exacte et, à variante égale, une voix locale. Une autre variante du français peut être utilisée si nécessaire, mais pas l’anglais. Il attend brièvement une liste de voix différée via `voiceschanged`. Sans voix explicite adaptée, il tente la synthèse avec `lang = "fr-FR"` (ou `en-GB` pour l’anglais), sans affecter de voix. Une liste vide ou uniquement anglaise ne prouve pas que la synthèse française est impossible. En cas d’erreur ou sans démarrage sous dix secondes, il affiche une aide pour activer ou télécharger la voix. Le choix effectif du moteur dans ce repli doit être vérifié à l’oreille sur l’appareil ; l’application ne sélectionne jamais de voix anglaise pour le français. **Arrêter / Stop** et le changement de page annulent la lecture en cours ou en attente.
 
 Si la voix française manque, ouvrir les réglages de synthèse vocale de l’appareil, activer ou télécharger une voix française, puis réessayer. Les noms des menus dépendent de l’appareil et du moteur vocal. La disponibilité hors connexion dépend de la voix installée. Les pages et contenus sont mis en cache, pas les voix du système.
 
@@ -22,6 +22,6 @@ Les 39 leçons françaises U4–U8 gardent leurs identifiants et références cu
 - `npm run catalog && npm run audit:content && npm run validate && npm run build` : inventaire, structure, syntaxe et manifeste hors connexion.
 - `npm run test:browser` : navigation et fonctionnement hors connexion.
 - `npm run test:gs` : parcours GS et 45 panneaux bassa.
-- `npm run test:speech` : moteur vocal simulé avec anglais par défaut, français disponible/différé/absent, arrêt, navigation, parcours des cinq classes, exclusion de synthèse bassa et affichage des 39 leçons réécrites.
+- `npm run test:speech` : moteur vocal simulé avec anglais par défaut, français disponible/différé, liste vide ou uniquement anglaise, repli par langue, erreurs et absence de démarrage, arrêt, navigation, parcours des cinq classes, exclusion de synthèse bassa et affichage des 39 leçons réécrites.
 
 Les tests de sélection utilisent des voix simulées. Ils ne certifient pas la qualité sonore d’un téléphone physique ni la justesse d’une prononciation bassa.

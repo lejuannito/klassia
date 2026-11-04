@@ -3,7 +3,7 @@ const root=path.resolve(__dirname,'..');
 const server=http.createServer((req,res)=>{let p=path.join(root,decodeURIComponent(req.url.split('?')[0]));if(p.endsWith('/'))p+='index.html';try{res.setHeader('Content-Type',p.endsWith('.js')?'text/javascript':p.endsWith('.css')?'text/css':p.endsWith('.html')?'text/html':'application/json');res.end(fs.readFileSync(p));}catch{res.statusCode=404;res.end('404');}});
 (async()=>{
  await new Promise(r=>server.listen(8768,r));
- const b=await chromium.launch({...(process.env.KLASSIA_CHROMIUM?{executablePath:process.env.KLASSIA_CHROMIUM}:{}),headless:true,args:['--no-sandbox','--disable-gpu','--disable-dev-shm-usage','--no-zygote','--single-process']});
+ const b=await chromium.launch({...(process.env.KLASSIA_CHROMIUM?{executablePath:process.env.KLASSIA_CHROMIUM}:{}),headless:true,args:['--no-sandbox','--disable-gpu','--disable-dev-shm-usage']});
  try{
   const ctx=await b.newContext({viewport:{width:320,height:844},serviceWorkers:'block'});
   await ctx.addInitScript(()=>{
@@ -12,7 +12,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
    window.spoken=[];window.cancellations=0;
    synth.getVoices=()=>window.testVoices;
    synth.cancel=()=>window.cancellations++;
-   synth.speak=u=>{window.spoken.push({lang:u.lang,voice:u.voice?.lang,text:u.text});u.onstart?.();};
+   synth.speak=u=>{window.lastUtterance=u;if(window.speechMode==='throw')throw new Error('engine unavailable');window.spoken.push({lang:u.lang,voice:u.voice?.lang,text:u.text});if(window.speechMode==='error')u.onerror?.({error:'language-unavailable'});else if(window.speechMode!=='silent')u.onstart?.();};
    Object.defineProperty(window,'speechSynthesis',{value:synth,configurable:true});
    Object.defineProperty(window,'SpeechSynthesisUtterance',{value:class{constructor(text){this.text=text;}},configurable:true});
   });
@@ -27,9 +27,31 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
   await p.evaluate(()=>{testVoices=[];spoken=[];});await p.locator('.speech-control').first().click();
   await p.evaluate(()=>{testVoices=[{name:'Français différé',lang:'fr-FR',localService:true}];speechSynthesis.dispatchEvent(new Event('voiceschanged'));});
   await p.waitForFunction(()=>spoken.length===1);assert.equal(await p.evaluate(()=>spoken[0].voice),'fr-FR');
-  // A device with only English must show a clear remedy and never speak French through English.
-  await p.evaluate(()=>{testVoices=[{name:'English only',lang:'en-US',default:true}];spoken=[];});await p.locator('.speech-control').first().click();
-  await p.locator('.speech-status').first().filter({hasText:'Aucune voix française disponible'}).waitFor();assert.equal(await p.evaluate(()=>spoken.length),0);
+  // Missing/incomplete enumeration permits a language request, never an English assignment.
+  for(const voices of [[],[{name:'English only',lang:'en-US',default:true}]]){
+   await p.evaluate(v=>{testVoices=v;spoken=[];},voices);await p.locator('.speech-control').first().click();
+   await p.waitForFunction(()=>spoken.length===1);
+   assert.deepEqual(await p.evaluate(()=>({lang:spoken[0].lang,voice:spoken[0].voice??null})),{lang:'fr-FR',voice:null});
+   await p.evaluate(()=>lastUtterance.onend());await p.locator('.speech-status').first().filter({hasText:'Lecture terminée'}).waitFor();
+  }
+  // Engine errors and synchronous failures must provide actionable French settings guidance.
+  for(const mode of ['error','throw']){
+   await p.evaluate(m=>{speechMode=m;spoken=[];},mode);await p.locator('.speech-control').first().click();
+   await p.locator('.speech-status').first().filter({hasText:'Activez ou téléchargez une voix française'}).waitFor();
+  }
+  // A silent engine must not leave a pending reading forever.
+  await p.clock.install();
+  await p.evaluate(()=>{speechMode='silent';spoken=[];});await p.locator('.speech-control').first().click();
+  await p.clock.runFor(12000);await p.locator('.speech-status').first().filter({hasText:'Lecture française impossible'}).waitFor();
+  await p.evaluate(()=>{lastUtterance.onstart();lastUtterance.onend();});
+  assert.match(await p.locator('.speech-status').first().innerText(),/Lecture française impossible/);
+  await p.clock.resume();
+  // Stopping an active reading ignores stale callbacks from the cancelled utterance.
+  await p.evaluate(()=>{speechMode='';testVoices=[{name:'Français',lang:'fr-FR'}];spoken=[];});await p.locator('.speech-control').first().click();
+  await p.waitForFunction(()=>spoken.length===1);const cancellations=await p.evaluate(()=>window.cancellations);
+  await p.locator('.speech-stop').first().click();await p.evaluate(()=>{lastUtterance.onend();lastUtterance.onerror();spoken=[];});
+  assert.ok(await p.evaluate(()=>window.cancellations)>cancellations);
+  assert.match(await p.locator('.speech-status').first().innerText(),/Lecture arrêtée/);
   // Stop while enumeration is pending, then supply voices: no delayed reading.
   await p.evaluate(()=>testVoices=[]);await p.locator('.speech-control').first().click();await p.locator('.speech-stop').first().click();
   await p.evaluate(()=>{testVoices=[{name:'Français',lang:'fr-FR'}];speechSynthesis.dispatchEvent(new Event('voiceschanged'));});await p.waitForTimeout(100);assert.equal(await p.evaluate(()=>spoken.length),0);
@@ -42,6 +64,6 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
    await visit(`/?unit=U${u}#lesson:${l.id}`);assert.equal(await p.locator('.exercise-card').count(),2,l.id);assert.ok((await p.locator('.manual-section-body').first().innerText()).length>80,l.id);count++;
   }
   assert.equal(count,39);assert.deepEqual(errors,[]);
-  console.log('PASS speech language/voice across five classes, delayed and missing voices, cancellation, Bassa exclusion, 39 French supports');
+  console.log('PASS speech language/voice across five classes, delayed voices, language-only fallback, engine errors/timeouts, cancellation, Bassa exclusion, 39 French supports');
  }finally{await b.close();server.close();}
 })().catch(e=>{console.error(e);server.close();process.exit(1);});

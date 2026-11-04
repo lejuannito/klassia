@@ -1,31 +1,18 @@
 # Klassia — prochain travail
 
-_Mise à jour : 2 novembre 2026_
+_Mise à jour : 4 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
-## Lot prioritaire — correctif ciblé
+## Correctif audio — intégré, validation terrain à effectuer
 
-### 1. Audio français sur appareil réel
+Le correctif du moteur de lecture française est **présent sur `main`** (commit `9aee6d0`). Une voix française explicite reste prioritaire ; si `getVoices()` est vide ou incomplet, une tentative de synthèse avec `lang="fr-FR"` est autorisée sans affecter de voix anglaise. Tests automatisés annoncés comme réussis.
 
-Constat du pilote : sur un téléphone réel, Klassia affiche qu’aucune voix française n’a été trouvée. Les tests automatisés actuels utilisent des voix simulées et ne reproduisent donc pas nécessairement le comportement du navigateur/appareil.
+**Reste à vérifier sur smartphone réel** : prononciation effectivement française, démarrage, arrêt, changement de page et disponibilité hors connexion. Si échec, noter navigateur/appareil/message affiché et ouvrir une tâche de diagnostic ciblée plutôt que reprendre toute l'architecture.
 
-Objectif : diagnostiquer le comportement réel de `speechSynthesis` sur navigateur mobile et rendre la lecture française plus robuste **sans basculer silencieusement vers une voix anglaise**.
+## Lot prioritaire
 
-Attendus :
-
-- analyser `shared/speech.js`, `tests/speech-browser.cjs` et `docs/AUDIO_FR_CE2.md` ;
-- distinguer absence réelle de moteur/voix française, liste de voix non exposée ou chargée tardivement, et échec de synthèse ;
-- prévoir une stratégie de repli sûre lorsque le navigateur sait synthétiser `fr-FR` sans exposer explicitement une voix française ;
-- conserver un message clair lorsque la synthèse française est réellement impossible ;
-- ajouter des tests couvrant le cas réel qui manquait ;
-- ne pas toucher aux contenus pédagogiques dans ce lot.
-
-Validation minimale : tests vocaux ciblés, puis `npm test`, `npm run validate` et `npm run build` si des fichiers servis changent.
-
-## Lot fonctionnel suivant
-
-### 2. Recherche rapide dans Klassia
+### 1. Recherche rapide dans Klassia
 
 Besoin : permettre à un parent, élève ou enseignant de saisir une notion vue dans un cahier (mot ou petite expression) et de retrouver rapidement **ce que Klassia contient sur cette notion**.
 
@@ -43,7 +30,7 @@ Commencer par un diagnostic de l’architecture et proposer la solution minimale
 
 ## Lot éditorial / documentaire
 
-### 3. Couverture des manuels et référentiels
+### 2. Couverture des manuels et référentiels
 
 Les listes de manuels scolaires fournies par le porteur de projet servent de **repères d’usage scolaire**, distincts des curricula officiels. Les photographies et la synthèse privée ne doivent pas être publiées dans le dépôt public.
 
@@ -59,7 +46,7 @@ Cette recherche documentaire doit être menée séparément des tâches de codag
 
 ## Enrichissement CE2
 
-### 4. Sciences et TIC CE2
+### 3. Sciences et TIC CE2
 
 Périmètre repéré :
 
@@ -69,7 +56,7 @@ Périmètre repéré :
 
 Attendus : observations ou expériences simples lorsque pertinent, supports intégrés, exercices progressifs, corrections explicites et cohérence avec `docs/ENRICHISSEMENT.md`.
 
-### 5. Autres leçons génériques CE2
+### 4. Autres leçons génériques CE2
 
 Périmètre repéré : 90 leçons :
 

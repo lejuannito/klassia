@@ -14,6 +14,8 @@ Le correctif du moteur de lecture française est **présent sur `main`** (commit
 
 ### 1. Recherche rapide dans Klassia
 
+Premier lot livré le 4 novembre 2026 : recherche locale des 844 ressources des cinq classes, filtres, extraits, liens directs et retour aux résultats, avec précache PWA. Voir `docs/RECHERCHE.md` pour les limites et la vérification sur smartphone. Les attendus ci-dessous définissent le périmètre de ce lot.
+
 Besoin : permettre à un parent, élève ou enseignant de saisir une notion vue dans un cahier (mot ou petite expression) et de retrouver rapidement **ce que Klassia contient sur cette notion**.
 
 Cible minimale :

@@ -594,7 +594,7 @@ function route() {
   if (!currentUser()) { login(); return; }
   const h = (location.hash || '#home').slice(1);
   if (h === 'login') { login(); return; }
-  if (currentUser()?.role === 'PARENT' && !['home','progress'].includes(h)) { location.hash='#home'; home(); return; }
+  if (currentUser()?.role === 'PARENT' && !['home','progress'].includes(h) && !h.startsWith('lesson:')) { location.hash='#home'; home(); return; }
   if (h === 'home') home();
   else if (Klassia.specialRoute('CE2', '#'+h)) return;
   else if (h === 'learn') learn();

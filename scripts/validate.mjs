@@ -5,6 +5,12 @@ function learningExtras(l){
  assert.ok(!ids.has(l.id),'Duplicate lesson '+l.id);ids.add(l.id);
  for(const p of l.practice||[])assert.ok(p.prompt&&p.answer&&p.explanation,'Incomplete additional practice '+l.id);
  if(l.support?.table){const t=l.support.table;assert.ok(t.headers.length&&t.rows.length,'Empty table '+l.id);for(const row of t.rows)assert.equal(row.length,t.headers.length,'Table alignment '+l.id);}
+ const figure = l.support?.figure;
+ if (figure) {
+  assert.match(figure.src, /^\.\.\/assets\/[\w.-]+$/, 'Invalid support image path '+l.id);
+  assert.ok(figure.alt?.trim(), 'Missing support image description '+l.id);
+  assert.ok(fs.statSync(path.join(root, 'assets', path.basename(figure.src)), { throwIfNoEntry: false })?.isFile(), 'Missing support image '+l.id);
+ }
  for(const w of l.proposedWords||[])assert.ok(w.concept&&w.forms.length&&w.sources.length,'Unsourced lexical proposal '+l.id);
 }
 function editorial(x){assert.ok(['draft','in_review','validated','published','withdrawn'].includes(x.editorial?.status),'Editorial status required');if(published){assert.equal(x.editorial.status,'published','Public release blocked: pedagogical validation pending');assert.ok(x.editorial.reviewer&&x.editorial.validated_at,'Named review and date required');}}

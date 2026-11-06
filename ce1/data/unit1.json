@@ -36,14 +36,14 @@
       "domain": "Français",
       "title": "Lire une petite aventure de la vie familiale",
       "objective": "Lire ou écouter une courte œuvre de quelques pages mettant en scène un enfant et des relations familiales ; restituer personnages et événement principal.",
-      "course": "Une histoire raconte des événements dans un ordre. Avant de lire, on observe le titre et l’image ; après, on repère qui agit, ce qui se passe et ce que le personnage ressent.",
-      "model": "Texte original Klassia : « Aïcha range les livres avec son frère. Ils trouvent un album sous la table. Ils le remettent à sa place et le lisent ensemble. » Personnages : Aïcha et son frère ; action : ils rangent puis lisent l’album.",
-      "guided": "Lire le texte phrase par phrase, entourer les prénoms, puis remettre trois images de l’histoire dans l’ordre.",
-      "exercise": "Qui trouve l’album ? Que font les enfants après l’avoir trouvé ?",
-      "answer": "Aïcha et son frère le trouvent ; ils le remettent à sa place puis le lisent ensemble.",
-      "remediation": "Relire une phrase à la fois, montrer les prénoms, puis demander à l’élève de choisir entre deux images.",
-      "transfer": "Raconter une courte aventure familiale fictive ; respecter la vie privée des enfants.",
-      "materials": "Texte original court, cartes-image.",
+      "course": "Dans une histoire, les personnages font des choix quand ils rencontrent un problème. Lis le récit un épisode à la fois. Après chaque épisode, redis qui agit et ce qui se passe. Tu peux aussi écouter le récit.",
+      "model": "Pour trouver où Aïcha cherche d’abord, je relis « L’album bleu est toujours sur l’étagère du bas ». Une pirogue est un petit bateau.",
+      "guided": "Montre une carte qui correspond à chaque épisode. Explique ton choix avec un détail du récit. Tu peux relire l’épisode avant de répondre.",
+      "exercise": "Pourquoi Aïcha cherche-t-elle l’album avant le repas ? Recopie quelques mots du premier épisode qui t’aident à répondre.",
+      "answer": "Aïcha veut lire une histoire à Moussa. Elle lui a promis de le faire avant le repas. Indice à relever dans le texte « Elle a promis de lire une histoire à son petit frère ». Accepter aussi une citation plus courte qui garde la promesse de lire.",
+      "remediation": "Relever si l’enfant retrouve l’information en lisant seul, après une aide sur un mot ou après avoir entendu le récit. Relire ensuite un épisode et faire montrer la carte correspondante.",
+      "transfer": "Raconter une autre aventure familiale fictive en trois moments. Faire comprendre ce que le personnage cherche, ce qui l’aide et comment l’histoire se termine.",
+      "materials": "Récit original et trois cartes intégrées. Feuille ou ardoise pour noter l’ordre des cartes.",
       "source": {
         "title": "Curriculum-CE.pdf supplied in the project library (MINEDUB, 2018), used for the CE1 Level 2 starter unit",
         "pages": "CE1–CE2 level 2",
@@ -59,6 +59,32 @@
         "lecture",
         "compréhension",
         "littérature"
+      ],
+      "prerequisites": "Lire une phrase courte ou retrouver un détail dans une phrase lue par un adulte.",
+      "support": {
+        "title": "L’album sous la table",
+        "text": "Épisode 1 — La place vide\nÀ la maison, Aïcha pose deux coussins près de la fenêtre. Elle a promis de lire une histoire à son petit frère, Moussa, avant le repas. Elle ouvre l’armoire. L’album bleu est toujours sur l’étagère du bas, entre les cahiers et le panier. Aujourd’hui, la place est vide. Aïcha regarde dans le panier. Elle ne trouve que des crayons. « On n’aura pas le temps de lire », dit-elle en rangeant les crayons un peu trop vite.\n\nÉpisode 2 — Le papier rouge\nMoussa ouvre son cahier de dessin et montre une pirogue. « Hier, j’ai regardé cette image dans l’album. Ensuite, j’ai laissé le livre sur la table. » Les enfants vont voir. Sur la table, il y a seulement une nappe pliée. Aïcha se baisse pour ramasser un crayon. Près d’un pied de la table, un bout de papier rouge dépasse de l’album. C’est leur marque-page. Moussa se penche aussi et lui passe le livre.\n\nÉpisode 3 — La première page\nAïcha essuie la couverture. « Merci, Moussa. Ton dessin nous a aidés à retrouver le livre. » Elle sourit et pose l’album sur ses genoux. Les deux enfants s’installent sur les coussins. Moussa pointe la pirogue et invente un nom pour le personnage. Aïcha lit la première page. À l’appel du repas, ils replacent le papier rouge à l’endroit où ils se sont arrêtés. Ils rangent l’album sur l’étagère du bas. « On continuera demain », dit Moussa.",
+        "figure": {
+          "src": "../assets/ce1-u1-album-cartes.svg",
+          "alt": "Trois cartes illustrées, repérées A, B et C. Leurs descriptions suivent dans le même ordre."
+        },
+        "items": [
+          "Carte A. Aïcha et Moussa lisent ensemble sur les coussins.",
+          "Carte B. Aïcha regarde la place vide sur l’étagère.",
+          "Carte C. Les deux enfants voient le marque-page sous la table."
+        ]
+      },
+      "practice": [
+        {
+          "prompt": "Écris les lettres des trois cartes dans l’ordre de l’histoire. Raconte une action pour chaque carte.",
+          "answer": "B, C, A. Aïcha cherche sur l’étagère. Les enfants retrouvent l’album sous la table. Ils lisent ensuite ensemble.",
+          "explanation": "La recherche précède la découverte. La lecture devient possible quand le livre est retrouvé."
+        },
+        {
+          "prompt": "Comment Moussa aide-t-il Aïcha ? Relis les épisodes 2 et 3 et donne un détail.",
+          "answer": "Il montre le dessin de la pirogue et se rappelle que l’album était sur la table. Il passe ensuite le livre à Aïcha.",
+          "explanation": "Un seul de ces détails, bien expliqué, suffit. Les enfants avancent en mettant leurs indices en commun."
+        }
       ]
     },
     {

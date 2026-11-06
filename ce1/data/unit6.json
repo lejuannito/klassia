@@ -36,14 +36,14 @@
       "domain": "Français",
       "title": "Inventer la fin d’une courte histoire entendue",
       "objective": "Proposer puis rédiger une fin cohérente à une histoire lue ou écoutée, en reprenant un personnage et un événement.",
-      "course": "Une fin répond à ce qui s’est passé avant. On peut proposer plusieurs fins possibles, puis vérifier que les personnages et le temps du récit restent compréhensibles.",
-      "model": "Dans l’histoire, Amadou oublie sa gourde avant une sortie; une fin possible est qu’il en parle à l’enseignante et le groupe trouve une solution.",
-      "guided": "Relire le début, choisir entre deux fins, puis écrire deux phrases originales.",
-      "exercise": "Pourquoi le personnage parle-t-il à l’enseignante ?",
-      "answer": "Pour demander de l’aide ou chercher une solution; autres fins cohérentes acceptées.",
-      "remediation": "Dicter la première phrase puis faire compléter oralement la seconde.",
-      "transfer": "Inventer une autre fin qui reste respectueuse et plausible.",
-      "materials": "Histoire originale courte, images facultatives",
+      "course": "La fin d’une histoire reprend un personnage et répond à ce qui lui est arrivé. Plusieurs fins peuvent convenir. Vérifie que le lecteur comprend ce que fait le personnage et ce qui se passe ensuite.",
+      "model": "Pour préparer ma fin, je réponds à trois questions. Qui agit ? Que fait cette personne au sujet de la gourde ? Qu’est-ce qui change à la fin ? Je dis mes phrases à voix haute avant de les écrire.",
+      "guided": "Compare les fins A et B. Dis laquelle répond au problème de la gourde et relève l’action qui le montre. Puis raconte à un camarade une autre action possible pour Amadou.",
+      "exercise": "Écris ta propre fin en deux ou trois phrases. Fais agir Amadou ou un autre personnage du début. Explique ce qui arrive à la gourde ou comment le personnage trouve une solution.",
+      "answer": "Exemple de fin possible\nAmadou demande à l’enseignante de regarder près du banc. Nelly aperçoit une gourde derrière une boîte et Amadou reconnaît son nom dessus. Il la range et rejoint le groupe.\n\nPour relire ta fin\n1. Je retrouve au moins un personnage du début.\n2. Une action répond au problème de la gourde.\n3. On comprend le résultat et l’ordre des actions.\n4. Mes deux ou trois phrases commencent par une majuscule et se terminent par un signe de ponctuation.\n\nPlusieurs fins conviennent. Avec l’adulte, relève un critère réussi et un point à améliorer.",
+      "remediation": "Faire redire le problème, puis demander séparément qui agit, ce que cette personne fait et le résultat. L’enfant peut d’abord dire les phrases, puis les écrire et les relire une à une.",
+      "transfer": "Inventer la fin d’un nouveau début entendu. Faire relire la production par un camarade qui peut retrouver le problème et sa résolution.",
+      "materials": "Début et deux fins intégrés. Cahier ou champ de réponse de la leçon.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
         "pages": "CE1 uniquement · tableau production d’écrits · p. 33",
@@ -57,6 +57,18 @@
       },
       "competencies": [
         "production d’écrits"
+      ],
+      "prerequisites": "Redire le problème d’un personnage et écrire une phrase simple.",
+      "support": {
+        "title": "La gourde d’Amadou",
+        "text": "Le début\nLa classe se prépare à visiter le jardin. Chaque enfant doit emporter sa gourde. Amadou ouvre son sac près de la porte. Il trouve son cahier et sa casquette, mais sa gourde manque. Il se rappelle l’avoir remplie près du robinet pendant la récréation. Nelly lui demande pourquoi il hésite. L’enseignante appelle le groupe. Amadou lui dit qu’il ne trouve plus sa gourde.\n\nFin A\nL’enseignante accompagne Amadou jusqu’au robinet. Il reconnaît sa gourde sur le rebord. Il la range dans son sac et rejoint le groupe.\n\nFin B\nNelly montre une fleur à Amadou. Ils choisissent ensemble des couleurs pour la dessiner. Le groupe commence la visite du jardin."
+      },
+      "practice": [
+        {
+          "prompt": "Quelle fin répond au problème du début ? Cite l’action qui te permet de choisir.",
+          "answer": "La fin A. Amadou retourne près du robinet avec l’enseignante et retrouve sa gourde.",
+          "explanation": "Dans la fin B, les personnages dessinent la fleur. On attend encore de savoir ce qu’Amadou fait au sujet de sa gourde."
+        }
       ]
     },
     {

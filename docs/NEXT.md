@@ -60,13 +60,15 @@ Les neuf leçons des unités 4 à 8 couvrent les sports collectifs et la communi
 
 Les cinq leçons des unités 4 à 8 proposent des scènes, dix exercices ouverts et des bilans accompagnés. Le lexique documentaire, ses variantes acceptées et la suspension des QCM historiques sont conservés. [Détail du lot](CE2_BASSA.md)
 
-L’audit ne relève plus de découverte générique dans le périmètre CE2 suivi. La prochaine étape est de consolider la couverture du curriculum et la progression des cinq classes, avec une relecture des lots enrichis.
+L’audit ne relève plus de découverte générique dans le périmètre CE2 suivi.
 
 ## Consolidation
 
-- couverture et progression des cinq classes ;
-- supports sonores/visuels maîtrisés, dont enregistrements bassa à prononciation vérifiée ;
-- pilote réel Android/iOS avec parents, enfants et enseignants.
+La matrice suit 30 repères dans les cinq classes. Au CE1, le récit illustré de l’U1 et la rédaction d’une fin en U6 portent le relevé à 17 repères couverts. [Bilan de couverture](COUVERTURE_PROGRESSION.md)
+
+Le prochain lot porte sur les couleurs primaires en SIL, la tâche chiffrée de l’U8 en GS et la correspondance des thèmes T5 et T6 en MS. Viennent ensuite les critères d’observation des arts et de la motricité en CE1.
+
+La suite de la trajectoire comprend les supports sonores et visuels, dont les enregistrements bassa à prononciation vérifiée, puis le pilote Android et iOS avec les familles et les enseignants.
 
 ## Règle pour chaque nouvelle session
 

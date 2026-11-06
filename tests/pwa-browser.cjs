@@ -173,6 +173,21 @@ async function run() {
     await page.getByRole('button', { name: 'Corriger la série' }).click();
     assert.match(await silenceQuestion.locator('.feedback').innerText(), /Correct.*temps 3/s);
     console.log('PASS offline CE2 arts score, open correction and quiz');
+
+    await page.goto(base + '?unit=U7#lesson:EP-U7-L2');
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.getByRole('cell', { name: 'Renvoyer de l’autre côté.', exact: true }).waitFor();
+    const volleyExercise = page.locator('.exercise-card').nth(1);
+    await volleyExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    assert.match(await volleyExercise.locator('.feedback').innerText(), /B prépare vers C, puis C renvoie/);
+
+    await page.goto(base + '?unit=U7#reviseSubject:EP');
+    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    const volleyQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Combien de touches au plus' });
+    await volleyQuestion.getByLabel('Trois', { exact: true }).check();
+    await page.getByRole('button', { name: 'Corriger la série' }).click();
+    assert.match(await volleyQuestion.locator('.feedback').innerText(), /Correct.*troisième touche/s);
+    console.log('PASS offline CE2 physical education diagram, open correction and quiz');
   } finally {
     await browser?.close();
     server.close();

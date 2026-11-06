@@ -3399,52 +3399,66 @@
             "Déterminer les principes généraux du football.",
             "Connaître les règles élémentaires du jeu."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Principes et règles élémentaires du football ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le ballon roule sur la ligne de côté, puis la dépasse entièrement. À quel moment l’arbitre doit-il annoncer la sortie ?",
           "learn": [
-            "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "Le football moderne a été codifié en Angleterre. La Football Association, créée en 1863, a établi un ensemble de règles communes.",
+            "Deux équipes cherchent à marquer dans le but adverse. Les joueurs de champ utilisent surtout les pieds. Ils ne peuvent pas prendre le ballon à la main pendant le jeu.",
+            "Sur le côté, le ballon est sorti quand il a entièrement franchi la ligne. Après une sortie latérale, l’équipe qui ne l’a pas touché en dernier effectue la remise en jeu."
           ],
-          "takeaway": "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
+          "takeaway": "Je reconnais une sortie de balle et je respecte les règles de jeu et le signal de l’arbitre.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Principes et règles élémentaires du football » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Le ballon dépasse la ligne, mais une partie reste encore au-dessus d’elle. Est-il sorti ?",
+              "answer": "Il est encore en jeu. Le ballon doit franchir la ligne entièrement.",
+              "explanation": "Observe le ballon entier et non seulement son centre.",
               "type": "open",
               "id": "EP-U4-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Principes et règles élémentaires du football ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-              "explanation": "",
+              "prompt": "L’équipe bleue touche le ballon en dernier avant la sortie latérale. Qui fait la remise en jeu ?",
+              "answer": "L’équipe adverse, par exemple l’équipe rouge.",
+              "explanation": "L’équipe de la dernière touche ne reçoit pas la remise en jeu.",
               "type": "open",
               "id": "EP-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U4, pp.155-156.",
-          "practical": [],
+          "practical": [
+            "Sur un espace dégagé et avec un ballon souple, l’adulte trace une ligne. Fais rouler le ballon à différentes positions et annonce « en jeu » ou « sorti ». En jeu d’école, on joue au sol et on évite les contacts."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Principes et règles élémentaires du football », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Trois décisions au football",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Décision"
+                ],
+                "rows": [
+                  [
+                    "Le ballon touche encore la ligne de côté.",
+                    "Le jeu continue si aucun autre arrêt n’a été signalé."
+                  ],
+                  [
+                    "Tout le ballon dépasse la ligne de côté.",
+                    "Il est sorti. L’autre équipe le remet en jeu si la tienne l’a touché en dernier."
+                  ],
+                  [
+                    "Un joueur de champ saisit le ballon pendant le jeu.",
+                    "L’arbitre arrête le jeu pour une faute de main."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U4, pp.155-156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
           }
         },
         {
@@ -3454,54 +3468,74 @@
             "Se placer, se déplacer et se replacer au football.",
             "Conserver le ballon, effectuer une passe, récupérer et réceptionner."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Se déplacer, passer et recevoir au football ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Après sa passe à B, A reste immobile. Le retour est difficile. Sur le schéma, où A peut-il aller pour recevoir de nouveau ?",
           "learn": [
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "Avant de passer, regarde où se trouve ton partenaire et choisis une direction libre.",
+            "Une passe courte au sol, dosée avec l’intérieur du pied, est plus facile à recevoir. Pour contrôler, accompagne le ballon avec un pied souple et garde-le près de toi.",
+            "Après la passe, déplace-toi vers un espace libre pour que le porteur du ballon puisse te voir. Dans le modèle, A rejoint le repère C."
           ],
-          "takeaway": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
+          "takeaway": "Je regarde, je passe au sol et je me replace pour pouvoir recevoir.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Se déplacer, passer et recevoir au football » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Après la passe à B, que fait A pour être de nouveau disponible ?",
+              "answer": "A se déplace sans ballon vers C, dans un espace libre.",
+              "explanation": "Le déplacement ouvre une nouvelle direction de passe.",
               "type": "open",
               "id": "EP-U4-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Se déplacer, passer et recevoir au football ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-              "explanation": "",
+              "prompt": "La passe arrive un peu vite. Que peut faire B pour la garder près de lui ?",
+              "answer": "B accompagne la balle d’un pied souple pour amortir sa vitesse.",
+              "explanation": "Le premier contact sert à contrôler avant de repasser.",
               "type": "open",
               "id": "EP-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U4, pp.155-156.",
           "practical": [
-            "Échauffement, espace dégagé, ballon adapté à l’âge et consignes de sécurité."
+            "Avec l’adulte, placez trois repères en triangle et prenez un ballon souple. A passe à B et marche vers C. B contrôle puis passe vers A à C. Changez de rôle. Comptez une réussite si les passes restent au sol et si A se replace."
           ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Se déplacer, passer et recevoir au football », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Passer puis offrir un appui",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Étape",
+                  "A",
+                  "B"
+                ],
+                "rows": [
+                  [
+                    "Départ",
+                    "Regarde B et prépare la passe.",
+                    "Montre qu’il est prêt."
+                  ],
+                  [
+                    "Passe",
+                    "Envoie le ballon au sol.",
+                    "Contrôle le ballon près de lui."
+                  ],
+                  [
+                    "Replacement",
+                    "Va vers le repère C.",
+                    "Cherche A dans son nouvel espace."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U4, pp.155-156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-eps-triangle.svg",
+            "alt": "A passe le ballon au sol vers B, puis se déplace sans ballon au repère C pour offrir une nouvelle solution à B."
           }
         }
       ],
@@ -3511,37 +3545,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Principes et règles élémentaires du football",
-            "answer": "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Donne le pays et l’année du repère historique, puis explique le but du jeu et ce que font surtout les joueurs de champ avec le ballon.",
+            "answer": "Angleterre, 1863, marquer dans le but adverse, jouer surtout avec les pieds. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Se déplacer, passer et recevoir au football",
-            "answer": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "prompt": "Dis si le ballon est sorti dans quatre cas : il touche la ligne, il la dépasse à moitié, il l’a entièrement franchie, il roule au milieu du terrain.",
+            "answer": "En jeu, en jeu, sorti, en jeu. Un point par réponse."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Principes et règles élémentaires du football",
-            "answer": "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Décris quatre actions successives du modèle de passe.",
+            "answer": "A regarde B, A passe au sol, B contrôle, A se replace vers C. Un point par action dans la suite."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Se déplacer, passer et recevoir au football",
-            "answer": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "prompt": "Dans un jeu d’école, un camarade s’approche. Donne une manière de le prévenir, un choix de passe, un geste de réception et une règle de sécurité.",
+            "answer": "Par exemple appeler par le prénom, passe courte au sol, amortir du pied, éviter le contact. Un point par élément cohérent."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Principes et règles élémentaires du football",
-            "answer": "Le football est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Prépare le triangle de passe et annonce un critère d’observation pour chaque rôle.",
+            "answer": "Trois repères, ballon souple, A se replace, B contrôle avant de passer. Un point par élément."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Rejouer la décision à voix haute avec des repères et sans ballon.",
+        "Réduire la distance et la vitesse de passe avant de remettre un déplacement.",
+        "Observer un critère à la fois, par exemple l’appel, le contrôle ou le replacement."
       ],
-      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Découvre les règles de base du football puis entraîne-toi à faire une passe et à offrir une solution à ton équipe."
     },
     {
       "id": "DP",

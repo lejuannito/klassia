@@ -2663,52 +2663,66 @@
             "Déterminer les principes généraux du volleyball.",
             "Connaître les règles élémentaires du jeu."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Principes et règles élémentaires du volleyball ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une équipe touche le ballon trois fois de son côté. Elle veut ajouter une quatrième touche avant le renvoi. Que dit la règle de la fiche ?",
           "learn": [
-            "Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "William G. Morgan a créé le volleyball en 1895 à Holyoke, aux États-Unis. Le filet sépare les deux équipes.",
+            "Une équipe peut utiliser jusqu’à trois touches pour renvoyer le ballon, en plus d’un éventuel contact de contre. Dans l’atelier du modèle, on joue sans contre.",
+            "Au volleyball, on frappe le ballon sans le tenir. Attraper puis lancer est un exercice préparatoire qui permet de s’entraîner à se placer."
           ],
-          "takeaway": "Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
+          "takeaway": "Je compte les touches de mon équipe et je renvoie le ballon sans le retenir dans le jeu de volleyball.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Principes et règles élémentaires du volleyball » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Faut-il toujours jouer exactement trois touches, renvoi compris ?",
+              "answer": "On peut renvoyer à la première, à la deuxième ou à la troisième touche dans l’atelier sans contre.",
+              "explanation": "Trois est la limite, pas le nombre obligatoire.",
               "type": "open",
               "id": "EP-U7-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Principes et règles élémentaires du volleyball ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-              "explanation": "",
+              "prompt": "Quelle différence y a-t-il entre l’atelier préparatoire et le jeu de volleyball ?",
+              "answer": "Dans l’atelier on peut attraper et relancer. Au volleyball, on frappe sans tenir le ballon.",
+              "explanation": "Distingue la règle du jeu et l’exercice d’apprentissage.",
               "type": "open",
               "id": "EP-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U7, pp.155-156.",
-          "practical": [],
+          "practical": [
+            "L’adulte choisit une zone dégagée et un ballon souple. À trois, renvoyez à la première, à la deuxième ou à la troisième touche vers une cible libre de l’autre côté d’un repère. En préparation, faites la même suite en attrapant et lançant."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Principes et règles élémentaires du volleyball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Règle et exercice préparatoire",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Lecture de la règle"
+                ],
+                "rows": [
+                  [
+                    "Deux touches de préparation, puis renvoi à la troisième.",
+                    "Le renvoi est possible avec moins de trois touches."
+                  ],
+                  [
+                    "Trois touches puis encore une touche du même côté, sans contre.",
+                    "La quatrième dépasse la limite."
+                  ],
+                  [
+                    "Attraper et relancer au-dessus d’une ligne.",
+                    "C’est l’atelier préparatoire du modèle."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U7, pp.155-156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
           }
         },
         {
@@ -2718,54 +2732,74 @@
             "Se placer, se déplacer et se replacer au volleyball.",
             "Conserver le ballon, effectuer une passe, récupérer et réceptionner."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Se déplacer, passer et recevoir au volleyball ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le ballon arrive entre A et B. Ils avancent tous les deux. Quel appel et quel déplacement éviteraient qu’ils se gênent ?",
           "learn": [
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "Le joueur qui se place pour recevoir annonce « J’ai ! ». Ses partenaires lui laissent de la place et se préparent pour la touche suivante.",
+            "Se placer derrière la trajectoire aide à diriger une réception. En manchette, on rapproche les avant-bras pour former une surface qui guide le ballon.",
+            "Dans le modèle, A oriente vers B, B prépare vers C, puis C renvoie. Si le ballon est trop loin dans l’atelier, laisse-le tomber et reprends au signal."
           ],
-          "takeaway": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
+          "takeaway": "J’annonce ma réception, je laisse de l’espace et je dirige le ballon vers le partenaire suivant.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Se déplacer, passer et recevoir au volleyball » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Quel appel fait celui qui reçoit ? Que fait son partenaire proche ?",
+              "answer": "Le receveur annonce « J’ai ! ». Le partenaire lui laisse de l’espace et se rend disponible pour la suite.",
+              "explanation": "L’appel et le déplacement évitent que les deux aillent au même endroit.",
               "type": "open",
               "id": "EP-U7-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Se déplacer, passer et recevoir au volleyball ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-              "explanation": "",
+              "prompt": "Dans le modèle, qui prépare le ballon pour C et que fait C ensuite ?",
+              "answer": "B prépare vers C, puis C renvoie de l’autre côté.",
+              "explanation": "Relis les touches 2 et 3 dans l’ordre.",
               "type": "open",
               "id": "EP-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U7, pp.155-156.",
           "practical": [
-            "Échauffement, espace dégagé, ballon adapté à l’âge et consignes de sécurité."
+            "Dans un espace dégagé, commencez à trois en attrapant puis relançant doucement. Ensuite, avec un ballon souple et l’adulte, essayez la réception dirigée et changez de rôle. Gardez des distances et restez dans votre zone."
           ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Se déplacer, passer et recevoir au volleyball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Une suite à trois joueurs",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Touche",
+                  "Joueur",
+                  "Rôle"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "A",
+                    "Annoncer et orienter la réception vers B."
+                  ],
+                  [
+                    "2",
+                    "B",
+                    "Préparer un ballon jouable pour C."
+                  ],
+                  [
+                    "3",
+                    "C",
+                    "Renvoyer de l’autre côté."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U7, pp.155-156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-eps-volley.svg",
+            "alt": "A réceptionne vers B. B prépare vers C. C renvoie le ballon de l’autre côté du filet."
           }
         }
       ],
@@ -2775,37 +2809,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Principes et règles élémentaires du volleyball",
-            "answer": "Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Donne l’inventeur, l’année, le lieu et ce qui sépare les équipes.",
+            "answer": "William G. Morgan, 1895, Holyoke, le filet. Un point par repère."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Se déplacer, passer et recevoir au volleyball",
-            "answer": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "prompt": "Dis si les suites sont possibles dans l’atelier sans contre : renvoi à la première, deuxième, troisième ou quatrième touche.",
+            "answer": "Oui, oui, oui, non. Un point par décision."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Principes et règles élémentaires du volleyball",
-            "answer": "Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Donne les rôles de A, B et C et l’appel du premier receveur.",
+            "answer": "A reçoit, B prépare, C renvoie, A annonce « J’ai ! ». Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Se déplacer, passer et recevoir au volleyball",
-            "answer": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "prompt": "Compare l’atelier préparatoire et le jeu de volleyball. Indique un geste possible dans chacun, un matériel adapté et un repère de sécurité.",
+            "answer": "Attraper-relancer, frapper sans tenir, ballon souple, garder de l’espace ou attendre le signal. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Principes et règles élémentaires du volleyball",
-            "answer": "Le volleyball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Deux élèves se rapprochent du même ballon. Indique qui parle, ce qu’il dit, où va l’autre et que faire si le ballon sort de la zone.",
+            "answer": "Celui qui reçoit parle, dit « J’ai ! », l’autre libère l’espace et se prépare. Laisser le ballon et attendre le signal. Un point par élément."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Rejouer la décision à voix haute avec des repères et sans ballon.",
+        "Réduire la distance et la vitesse de passe avant de remettre un déplacement.",
+        "Observer un critère à la fois, par exemple l’appel, le contrôle ou le replacement."
       ],
-      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Découvre le volleyball et apprends à t’organiser à trois pour recevoir, préparer et renvoyer le ballon."
     },
     {
       "id": "DP",

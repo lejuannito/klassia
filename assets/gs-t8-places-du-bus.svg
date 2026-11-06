@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 289">
+  <title>Numérotation des places du bus</title>
+  <defs>
+    <rect id="seat" width="58" height="43" rx="7"/>
+    <g id="row">
+      <use href="#seat" x="18"/><use href="#seat" x="92"/><use href="#seat" x="166"/>
+      <use href="#seat" x="240"/><use href="#seat" x="314"/>
+    </g>
+  </defs>
+  <rect x="1" y="1" width="388" height="287" rx="12" fill="#fff" stroke="#ced8e4" stroke-width="2"/>
+  <g stroke="#536982" stroke-width="1.5">
+    <use href="#row" y="36" fill="#ecf4ff"/>
+    <use href="#row" y="87" fill="#ecf4ff"/>
+    <use href="#row" y="179" fill="#fff"/>
+    <use href="#row" y="230" fill="#fff"/>
+    <path d="M180 213h30m118 0h30M106 264h30m192 0h30" fill="none"/>
+  </g>
+  <g fill="#182637" font-family="sans-serif" font-weight="700">
+    <g font-size="16">
+      <text x="18" y="25">Modèle / Model</text>
+      <text x="18" y="167">À compléter / Fill in</text>
+    </g>
+    <g font-size="26" text-anchor="middle">
+      <text x="47" y="66">1</text><text x="121" y="66">2</text><text x="195" y="66">3</text>
+      <text x="269" y="66">4</text><text x="343" y="66">5</text>
+      <text x="47" y="117">6</text><text x="121" y="117">7</text><text x="195" y="117">8</text>
+      <text x="269" y="117">9</text><text x="343" y="117">10</text>
+      <text x="47" y="209">1</text><text x="121" y="209">2</text><text x="269" y="209">4</text>
+      <text x="47" y="260">6</text><text x="195" y="260">8</text><text x="269" y="260">9</text>
+    </g>
+  </g>
+</svg>

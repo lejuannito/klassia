@@ -10,6 +10,12 @@ try{
  await p.goto('http://localhost:8767/gs/?theme=T8#domain:ST:0');await p.locator('#msNumber').fill('20');await p.locator('#msCheckNumber').click();assert.match(await p.locator('#msNumberResult').innerText(),/Bravo/);await p.getByRole('button',{name:'Acquis',exact:true}).click();await p.reload();await p.getByRole('button',{name:'Acquis',exact:true}).waitFor();assert.match(await p.getByRole('button',{name:'Acquis',exact:true}).getAttribute('class'),/active/);
  await p.locator('[data-review]').click();await p.locator('#coverageGrade').waitFor();assert.equal(await p.locator('#coverageGrade').inputValue(),'GS');await p.locator('#coverageSearch').fill('GS-T8-ST1');await p.locator('#coverageResults summary').click();assert.equal(await p.locator('#coverageResults a').first().getAttribute('href'),'./gs/?theme=T8#domain:ST:0');await p.locator('[data-return]').click();await p.locator('#msNumber').waitFor();
  await p.goto('http://localhost:8767/gs/?theme=T8#worksheets');await p.locator('.trace-svg text').first().waitFor();assert.ok(await p.locator('.trace-svg text').evaluateAll(nodes=>nodes.every(n=>{const b=n.getBBox();return b.x>=0&&b.x+b.width<=600;})),'Letters and two-digit numbers must fit the printable sheet');
+ const numberModels=Array.from({length:10},(_,i)=>String(i+1));
+ const numberWorksheet=p.locator('.worksheetCard').filter({has:p.locator('[data-print-ws="numbers"]')});
+ assert.deepEqual(await numberWorksheet.locator('.trace-svg text').allTextContents(),numberModels);
+ const numbersPopup=p.waitForEvent('popup');await numberWorksheet.getByRole('button',{name:/Imprimer/}).click();
+ const printedNumbers=await numbersPopup;await printedNumbers.locator('.trace-svg text').first().waitFor();
+ assert.deepEqual(await printedNumbers.locator('.trace-svg text').allTextContents(),numberModels);await printedNumbers.close();
  const lex=read('data/bassa-lexicon-variants.json'),map=read('data/bassa-lessons.json').lessons;
  for(const [key,row] of Object.entries(map)){
   const [g,id]=key.split(':');let url;

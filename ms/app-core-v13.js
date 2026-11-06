@@ -41,9 +41,12 @@ function route(){
  if(h==='#assessment') return assessmentPage();
  return home();
 }
+function curriculumThemeNote(t){
+ return t.curriculum_number?`<small>Code Klassia ${esc(t.id)} · thème ${esc(t.curriculum_number)} du programme francophone</small>`:'';
+}
 function home(){
  const total=allActivities().length,acquired=acquiredCount();
- let body=`<section class="hero"><div class="eyebrow">${esc(NURSERY.label.toUpperCase())} · THÈME ${currentThemeMeta.number}</div><h1>${themeIcon(theme.id)} ${esc(theme.title_fr)} · ${esc(theme.title_en)}</h1><p>Un livre d’éveil interactif pour parler, jouer, manipuler, observer, créer et bouger en français et en anglais, avec des repères Bassa documentés quand ils sont disponibles.</p><div class="chips"><span class="chip">${total} activités</span><span class="chip">${acquired} acquises</span><span class="chip">${esc(theme.duration||'4 semaines')}</span></div></section>`;
+ let body=`<section class="hero"><div class="eyebrow">${esc(NURSERY.label.toUpperCase())} · THÈME ${currentThemeMeta.number}</div><h1>${themeIcon(theme.id)} ${esc(theme.title_fr)} · ${esc(theme.title_en)}</h1>${curriculumThemeNote(currentThemeMeta)}<p>Un livre d’éveil interactif pour parler, jouer, manipuler, observer, créer et bouger en français et en anglais, avec des repères Bassa documentés quand ils sont disponibles.</p><div class="chips"><span class="chip">${total} activités</span><span class="chip">${acquired} acquises</span><span class="chip">${esc(theme.duration||'4 semaines')}</span></div></section>`;
  body+=`<div class="notice"><b>Approche maternelle :</b> pas de note sur 20. L’adulte observe l’enfant et choisit <b>Découvre</b>, <b>En cours</b> ou <b>Acquis</b>. Les activités sont courtes, répétables et adaptables.</div>`;
  body+=`<div class="sectionTitle"><h2>Les 5 domaines</h2><p>Les activités mêlent oral, manipulation, visuel, autonomie, création et motricité.</p></div><div class="grid">`;
  theme.domains.forEach(d=>{const pc=pctDomain(d);body+=`<button class="domain" onclick="location.hash='#domain:${d.id}'"><div class="icon">${d.icon}</div><strong>${esc(d.name_fr)}</strong><small>${esc(d.name_en)} · ${d.weight}</small><div class="bar"><span style="width:${pc}%"></span></div><small>${d.activities.length} activités · ${pc}% acquis</small></button>`});

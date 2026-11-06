@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "e5c702e11f3db5e2bd2210f3d4466ed8bb62ce493f2647f7d4d16b3f19315a6d",
+  "version": "57a550ae91173caae023739e2e18a93870eb7027903b86933e8b917ba66e22d1",
   "files": [
     {
       "url": "./app.js",
@@ -94,8 +94,16 @@ self.KLASSIA_RELEASE = {
       "sha256": "da7b8061cdc256641fa18fb07ae88f0ed958b926820863372a96b7de2340cec9"
     },
     {
+      "url": "./assets/gs-t8-places-du-bus.svg",
+      "sha256": "1bdc392b33b3d1a2d150e979cffed293e6852ddafdea77ac869a9a35cc24c5c0"
+    },
+    {
       "url": "./assets/place-value.svg",
       "sha256": "4dd35c68fae9a58a3206da127f82597d9219e77c0e68eda5d1ee1117c2c5cceb"
+    },
+    {
+      "url": "./assets/sil-u1-couleurs-primaires.svg",
+      "sha256": "8ed71e5b9177819a7d095e46347a066fa6b83668ac30cb1a5a825b0604571413"
     },
     {
       "url": "./ce1/data/catalog.json",
@@ -191,7 +199,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "b925569ec77e44eca7f43753f7c8859b19f65a37e5c3d75afb5cbefd91efe040"
+      "sha256": "c239a9e8986ef459ca7e371aba7e0d758edee497c2908c2689ac61d7f9e8416a"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -231,7 +239,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/curriculum-map.json",
-      "sha256": "479560170f499514c30067b9db59a209ff7c548e0a38498fd92237cd0630d647"
+      "sha256": "50d6e2d72a0e01968e7819bbcd92f1d746ba57b94a2ea83350275ac744dbfb7b"
     },
     {
       "url": "./gs/data/themes/T1.json",
@@ -263,7 +271,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/themes/T8.json",
-      "sha256": "09fd7f9ff1bfa51f5ce1103ebdacf3043a9189b64f0e098070bc6b4eb848495f"
+      "sha256": "58ccc9469c343f8c32f62348802d99fdd9f17c16eebba1425191764e7512b383"
     },
     {
       "url": "./gs/index.html",
@@ -287,15 +295,15 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-core-v13.js",
-      "sha256": "c16c3cc49ab85cd18a34ab0709312d9e7b6700305c362270468ff79bbdc5bd22"
+      "sha256": "95e6abfc77c68c28c284525c9e013a80d8935c4ee675f3c5bdab0e886e98a59c"
     },
     {
       "url": "./ms/app-ui-v13.js",
-      "sha256": "d4df55bf0c750f1feea9df1a5fa5cadf4cec5ba0d8dafed87b2b1f840c778ab6"
+      "sha256": "7ceeba12d9c60532e8cb77bcc38c50ef093ba168b3de51577b4a3348dcd53d96"
     },
     {
       "url": "./ms/data/catalog-v13.json",
-      "sha256": "30ae0fa8bafbc8b0b0efa464de5e460c37cc2bb725efe80dde91a8d742e26cee"
+      "sha256": "1662a3d041dc95b7958cfa82a9251b1b0ece60a3e3283fe9bee699d4b5d327ec"
     },
     {
       "url": "./ms/data/themes/T1.json",
@@ -339,7 +347,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/ms-v14.js",
-      "sha256": "051d1d80af04a302266ddf010f10ab899312f508ab459151002e9e4e1bb3e9f9"
+      "sha256": "3c79bd311e02e81593b6759a1f85a6eefa966465b232cc7f702fa57b4e2c3533"
     },
     {
       "url": "./ms/practice-v14.json",
@@ -399,7 +407,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "6a50757f5352516e9d634022e967da69f9fd25f50259378f934ffca4bbf4f10b"
+      "sha256": "c84437e86e1cdd1b33cc790608ad454d4b1985ef487ca506895f165b1ca3f4f1"
     },
     {
       "url": "./sil/data/sil-u2.json",

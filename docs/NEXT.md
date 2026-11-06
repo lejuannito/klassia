@@ -1,6 +1,6 @@
 # Klassia — prochain travail
 
-_Mise à jour le 6 novembre 2026_
+_Mise à jour le 7 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
@@ -64,9 +64,9 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 ## Consolidation
 
-La matrice suit 30 repères dans les cinq classes. Au CE1, le récit illustré de l’U1 et la rédaction d’une fin en U6 portent le relevé à 17 repères couverts. [Bilan de couverture](COUVERTURE_PROGRESSION.md)
+La matrice suit 30 repères dans les cinq classes. Les activités sur les couleurs primaires en SIL et sur l’écriture des nombres de 1 à 10 en GS portent le relevé à 19 repères couverts et 11 partiels. La correspondance des thèmes T5 et T6 figure dans le parcours MS. [Bilan de couverture](COUVERTURE_PROGRESSION.md)
 
-Le prochain lot porte sur les couleurs primaires en SIL, la tâche chiffrée de l’U8 en GS et la correspondance des thèmes T5 et T6 en MS. Viennent ensuite les critères d’observation des arts et de la motricité en CE1.
+Le prochain lot porte sur les critères d’observation d’un collage en arts et d’un enchaînement de passes en motricité au CE1.
 
 La suite de la trajectoire comprend les supports sonores et visuels, dont les enregistrements bassa à prononciation vérifiée, puis le pilote Android et iOS avec les familles et les enseignants.
 

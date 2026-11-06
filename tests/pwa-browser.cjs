@@ -158,6 +158,21 @@ async function run() {
     await page.getByRole('button', { name: 'Corriger la série' }).click();
     assert.match(await harvestQuestion.locator('.feedback').innerText(), /Correct.*quatre bottes vendues/s);
     console.log('PASS offline CE2 personal development template, open correction and quiz');
+
+    await page.goto(base + '?unit=U6#lesson:AR-U6-L2');
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.getByRole('cell', { name: 'Soupir', exact: true }).waitFor();
+    const silenceExercise = page.locator('.exercise-card').first();
+    await silenceExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    assert.match(await silenceExercise.locator('.feedback').innerText(), /soupir est au temps 3/);
+
+    await page.goto(base + '?unit=U6#reviseSubject:AR');
+    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    const silenceQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quel signe occupe le troisième temps' });
+    await silenceQuestion.getByLabel('Le soupir', { exact: true }).check();
+    await page.getByRole('button', { name: 'Corriger la série' }).click();
+    assert.match(await silenceQuestion.locator('.feedback').innerText(), /Correct.*temps 3/s);
+    console.log('PASS offline CE2 arts score, open correction and quiz');
   } finally {
     await browser?.close();
     server.close();

@@ -48,11 +48,15 @@ Les 45 leçons des unités 4 à 8 ont été reprises avec 90 exercices corrigés
 
 Les 16 leçons des unités 4 à 8 ont reçu des modèles à observer, des fiches de suivi, des mises en situation et 32 exercices ouverts corrigés. Les cinq bilans et les 60 QCM ont été alignés sur ces activités. [Détail du lot](CE2_DEVELOPPEMENT_PERSONNEL.md)
 
-### Prochain lot CE2 — arts
+### Arts CE2 — lot réalisé
 
-L’indicateur de découverte générique signale encore 29 leçons. Les 15 leçons d’arts sont prioritaires. Pour chaque leçon, proposer un exemple à observer ou à écouter, une production guidée et des critères de réussite.
+Les 15 leçons des unités 4 à 8 proposent des modèles visuels, des portées, des sketchs et des motifs à jouer. Les 30 exercices, cinq bilans et 60 QCM ont été alignés sur les supports. [Détail du lot](CE2_ARTS.md)
 
-Viennent ensuite l’EPS (9) et le bassa (5). Pour les cinq leçons bassa, enrichir la séquence autour des propositions lexicales déjà présentes et de leurs variantes acceptées.
+### Prochain lot CE2 — EPS
+
+Il reste 14 leçons à découverte générique. Les neuf leçons d’EPS sont prioritaires. Elles couvrent les sports collectifs et la communication dans l’équipe.
+
+Viennent ensuite les cinq leçons de bassa. Enrichir les séquences autour des propositions lexicales déjà présentes et de leurs variantes acceptées.
 
 ## Consolidation ultérieure
 

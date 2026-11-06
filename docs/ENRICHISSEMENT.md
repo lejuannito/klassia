@@ -27,4 +27,6 @@ Les 45 leçons de sciences humaines et sociales CE2 U4–U8 ajoutent des documen
 
 Les 16 leçons de développement personnel CE2 U4–U8 s’appuient sur des gestes à observer, des gabarits et des carnets à compléter. Les corrigés des exercices ouverts indiquent ce qui fait réussir la tâche. [Détail et sources](CE2_DEVELOPPEMENT_PERSONNEL.md)
 
+Les 15 leçons d’arts CE2 U4–U8 proposent des compositions, des portées, des sketchs et des motifs à mettre en pratique. Les corrigés donnent des critères pour juger les productions. [Détail et sources](CE2_ARTS.md)
+
 La progression globale et les limites de couverture restent suivies dans [la trajectoire](TRAJECTOIRE.md).

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "53cc3d0bda529376d16c15d5d176c050669c1c2f8b6fdadb663d95a129da7ac4",
+  "version": "016557eb4021b8cf6a96a6e09d2ff88f805ce24cd59954177505100dfbc04a45",
   "files": [
     {
       "url": "./app.js",
@@ -8,6 +8,22 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/ce2-aires-protegees.svg",
       "sha256": "085af670f7b3c941d93b4cc98a82f99ab0997b3355bf9b809b1316f557539842"
+    },
+    {
+      "url": "./assets/ce2-arts-alterations.svg",
+      "sha256": "e35464d761dcc8b25cff8daedcb82a05f14bb198fa0d5d7211d19338deaeb769"
+    },
+    {
+      "url": "./assets/ce2-arts-composition.svg",
+      "sha256": "08d0b1faebf0810ee5273258ada979d4b01487d8c950174def7674bdfe9bd2ed"
+    },
+    {
+      "url": "./assets/ce2-arts-mesures.svg",
+      "sha256": "b980d12a613a36f0c3a180ee9ed101834d6cd5c7554cf88ac92e888e8c2a6e8d"
+    },
+    {
+      "url": "./assets/ce2-arts-silences.svg",
+      "sha256": "e9c709b1b686f50e33ceb3493641632ee22e381a220fd2b4fe5f32b819a38fa1"
     },
     {
       "url": "./assets/ce2-circuit-conductivite.svg",
@@ -143,27 +159,27 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/content-u4.json",
-      "sha256": "1342ded805ada0cc2b8b2c0e7b26bc84e169a76edf2ccd10132903f409dfcb4e"
+      "sha256": "7faafdf4d6047eb46c3a3a99b62c1744d10581b50c4b8def1ad385fc23c0e0d1"
     },
     {
       "url": "./data/content-u5.json",
-      "sha256": "a147fb362815948f9ae6084687e6be19d3d66911dde29ca587a1cfc61840d67d"
+      "sha256": "5da447e368d78c107378bbbad13413f2dea23cf731b0063771593d09b11ba3f1"
     },
     {
       "url": "./data/content-u6.json",
-      "sha256": "07178f61d2999ec2e485ecb7dacbb49c1d3ae5282a96e698ea11459724344801"
+      "sha256": "4e222ef45d43337c2b3cf61747c76c58f0d9f7a992a9d316611c62db03d625f4"
     },
     {
       "url": "./data/content-u7.json",
-      "sha256": "3a69ebb2a062cdf00b78a44d1240d996099b861fef3cdc5c891ec38d97422252"
+      "sha256": "f9ba83b95bf7ab87f229c6139ae01070a0882b4a7122773fdaeccfd634b3e284"
     },
     {
       "url": "./data/content-u8.json",
-      "sha256": "8369a25ea9f42bb8b1da3c1ab9e6ad436f79fc59b6ccdc51172feaaf445138c2"
+      "sha256": "b5bfb44c27ebc9cbeb52c23e9b39c122686e31dd0b26e4c65b3e6b6300d027f5"
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "cbc75a5657687811625fe9036b8bab855d2a3be211a76d62ea9ac50119fa32a2"
+      "sha256": "08a9873aa0b6f6d54e4dd8e6a0b9c0a1686e93571302b21b812dcb85162e4df6"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -179,23 +195,23 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/qcm-u4.json",
-      "sha256": "6239fb1e3f0aeefb384d9a2cf78597294a0b1758d3ddaf0bc4331c5706257047"
+      "sha256": "cd6bc7f1f937867829e6c841f90dacfc5bfda4edf39cb6245c191b55e2f98102"
     },
     {
       "url": "./data/qcm-u5.json",
-      "sha256": "b1011732ff46ea2342809ffb8a7a4e7c803abb9ab679c606fd25b93a3086e67f"
+      "sha256": "32572ef0630c7a6cc226e8c5d5c5d0fd99b526bde836f0a56b766b2b446771df"
     },
     {
       "url": "./data/qcm-u6.json",
-      "sha256": "ce5a34d5cb1b94f129cec6627d2ec1ff5748c07ddf48902e1542600d54d3416d"
+      "sha256": "40920b7fc63ba49522dc3aa8f383bb759379b7e37f2812e6a452dbbb6e4b4147"
     },
     {
       "url": "./data/qcm-u7.json",
-      "sha256": "0be67bb4cf0115a34c40441cfad21bcdfb4a24c440cc826c9763e8c3c38af20d"
+      "sha256": "2bdd17e02778a27df54b7d9050d1df8884ba5d2c0195b4c4561f654d8fd926a9"
     },
     {
       "url": "./data/qcm-u8.json",
-      "sha256": "fbcd727cef1c36baf29837548d035b1be0e5ef4e2527f5ae7df02b178487844b"
+      "sha256": "060b9e03384c4a7981872dbde226875734095bb42d096bdc0cac76f29997d780"
     },
     {
       "url": "./gs/data/catalog-v13.json",

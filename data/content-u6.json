@@ -1915,118 +1915,138 @@
           "objectives": [
             "Expliquer l’importance de la prise d’initiative et démontrer l’esprit d’initiative."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Esprit d’initiative ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "À la fin d’une activité, les cartes sont mélangées et le groupe suivant arrive. Myriam propose de les classer. Comment passe-t-elle de l’idée à l’action ?",
           "learn": [
-            "Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités."
+            "Prendre une initiative, c’est remarquer un besoin et proposer une action utile. On pense au matériel, au temps et aux personnes qui peuvent aider.",
+            "Une initiative se prépare en sécurité. Pour changer le rangement d’un lieu commun ou manipuler du matériel réservé aux adultes, on demande l’accord du responsable."
           ],
-          "takeaway": "Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités.",
+          "takeaway": "Je remarque un besoin, je propose une action sûre et je vérifie son résultat.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Esprit d’initiative » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel besoin Myriam a-t-elle remarqué et comment vérifie-t-elle sa solution ?",
+              "answer": "Les cartes sont mélangées. Un autre groupe essaie de retrouver une carte dans l’enveloppe étiquetée.",
+              "explanation": "Associe le besoin au test qui montre si le classement aide.",
               "id": "SH-U6-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Esprit d’initiative ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Les feuilles propres et utilisées se mélangent. Propose une initiative et un indice de réussite.",
+              "answer": "Proposer deux bacs étiquetés avec l’accord de l’enseignant. Un camarade peut alors prendre une feuille propre sans fouiller.",
+              "explanation": "Une initiative associe une action utile et un résultat observable.",
               "id": "SH-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U6, p.124.",
-          "practical": [],
+          "practical": [
+            "Choisissez un besoin du coin lecture ou du matériel de classe. Expliquez votre idée à l’adulte, faites une petite action autorisée et demandez à un autre groupe de tester le résultat."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Esprit d’initiative » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Esprit d’initiative » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Le petit projet de Myriam",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Étape",
+                  "Action"
+                ],
+                "rows": [
+                  [
+                    "Observer",
+                    "Les cartes de deux jeux sont mélangées."
+                  ],
+                  [
+                    "Proposer",
+                    "Étiqueter deux enveloppes avec le nom des jeux."
+                  ],
+                  [
+                    "Vérifier",
+                    "Faire retrouver une carte par le groupe suivant."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, éducation morale, U6, p.124.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
           "id": "SH-U6-L2",
-          "title": "Droits de l’enfant : santé, jeu et alimentation - formulation source à valider",
+          "title": "Jeu et alimentation, deux droits de l’enfant",
           "objectives": [
             "Mettre en scène le droit de l’enfant à jouer et à avoir une alimentation suffisante et équilibrée."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans une histoire de classe, les enfants dessinent un programme de journée. Ils ont prévu le travail et le retour à la maison. Où placer le repas et le jeu ?",
           "learn": [
-            "Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux."
+            "Les enfants ont droit au jeu et à une alimentation suffisante. Manger des aliments variés et en quantité adaptée aide à grandir. Jouer et se reposer font aussi partie de la journée.",
+            "Les adultes et les services qui accompagnent les enfants ont un rôle pour rendre ces droits possibles. Un enfant qui a besoin d’aide peut en parler à un adulte de confiance."
           ],
-          "takeaway": "Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux.",
+          "takeaway": "Je reconnais deux droits dans la vie quotidienne et je propose une organisation qui permet de les exercer.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quels deux droits les cartes représentent-elles ?",
+              "answer": "Le droit de jouer et le droit à une alimentation suffisante.",
+              "explanation": "Associe chaque carte à un besoin de la journée.",
               "id": "SH-U6-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Une fête fictive prévoit des activités toute la journée mais aucun temps pour manger. Quelle modification proposes-tu et pourquoi ?",
+              "answer": "Ajouter une pause pour manger et boire, puis garder un temps de jeu. Cela aide à respecter les deux droits.",
+              "explanation": "Une organisation peut faire place au repas et au jeu.",
               "id": "SH-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’enfant, U6, p.126.",
-          "practical": [],
+          "practical": [
+            "Jouez la préparation de la journée à l’aide de cartes Repas et Jeu. Montrez comment les adultes et les élèves peuvent organiser ces deux temps."
+          ],
           "notes": [
-            "Décalage probable entre CE1/CE2 ou entre unités : formulation à valider éditorialement."
+            "Curriculum p.126, colonne CE2. La mise en scène porte sur le jeu et l’alimentation. La colonne CE1 formule aussi le droit aux soins. Convention relative aux droits de l’enfant, art. 24, 27 et 31."
           ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+              "title": "Aménager une journée fictive",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Moment proposé",
+                  "Action",
+                  "Droit illustré"
+                ],
+                "rows": [
+                  [
+                    "Pause du midi",
+                    "Prévoir du temps pour manger et boire.",
+                    "Une alimentation suffisante."
+                  ],
+                  [
+                    "Après le rangement",
+                    "Ouvrir un espace de jeux accessibles.",
+                    "Le droit au jeu."
+                  ]
+                ]
+              }
             },
             {
-              "title": "Étude de cas guidée",
+              "title": "Faire place à chacun",
               "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Droits de l’enfant : santé, jeu et alimentation - formulation source à valider » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "body": "Dans la scène, l’adulte organise les deux temps. Un élève rappelle le moment du jeu et un autre montre où s’installer pour le repas."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, droits de l’enfant, U6, p.126.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2035,57 +2055,65 @@
           "objectives": [
             "Mettre en scène le vivre-ensemble dans les milieux hospitaliers."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Vivre ensemble dans les milieux hospitaliers ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "À l’accueil d’un centre de santé, une famille attend et une autre arrive. Une personne parle au personnel à voix basse. Comment partager ce lieu avec respect ?",
           "learn": [
-            "Je respecte le calme, les personnes malades, le personnel et les règles du lieu."
+            "Dans un centre de santé, chacun peut avoir besoin de calme, d’aide ou de confidentialité. La confidentialité protège les informations personnelles, par exemple ce que quelqu’un dit sur sa santé.",
+            "L’équipe de santé organise l’accueil et peut faire passer d’abord une personne qui a besoin d’aide rapidement. On peut poser une question à l’accueil et suivre les indications."
           ],
-          "takeaway": "Je respecte le calme, les personnes malades, le personnel et les règles du lieu.",
+          "takeaway": "Je parle calmement, je respecte la vie privée et je laisse l’équipe organiser l’accueil.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Vivre ensemble dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte le calme, les personnes malades, le personnel et les règles du lieu. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Une personne donne des informations à l’accueil. Quel geste respecte sa vie privée ?",
+              "answer": "Attendre à distance et ne pas répéter ce qu’elle dit.",
+              "explanation": "Chacun peut parler de sa santé au personnel dans un espace respecté.",
               "id": "SH-U6-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vivre ensemble dans les milieux hospitaliers ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte le calme, les personnes malades, le personnel et les règles du lieu.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un membre du groupe se plaint qu’un patient arrivé plus tard passe avant. Que lui proposes-tu ?",
+              "answer": "Respecter l’ordre donné par le personnel et demander calmement à l’accueil si besoin.",
+              "explanation": "L’équipe peut décider selon les besoins des patients.",
               "id": "SH-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U6, p.128.",
-          "practical": [],
+          "practical": [
+            "Avec quatre chaises, jouez l’accueil. Utilisez des noms et des besoins fictifs. Une personne indique où attendre et chacun parle assez bas pour garder le calme."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Vivre ensemble dans les milieux hospitaliers » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Vivre ensemble dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte le calme, les personnes malades, le personnel et les règles du lieu. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Dans la salle d’attente",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Geste de respect"
+                ],
+                "rows": [
+                  [
+                    "Une personne explique son besoin au personnel.",
+                    "Laisser de la place et attendre son tour."
+                  ],
+                  [
+                    "Une famille cherche le guichet.",
+                    "Indiquer calmement l’accueil."
+                  ],
+                  [
+                    "L’équipe appelle une personne arrivée après toi.",
+                    "Suivre l’indication et demander des précisions à l’accueil si nécessaire."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, paix et sécurité, U6, p.128.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2094,57 +2122,65 @@
           "objectives": [
             "Mettre en scène des mesures de sécurité dans les milieux hospitaliers."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Sécurité dans les milieux hospitaliers ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans un couloir de centre de santé, un panneau indique « Accès réservé ». Un chariot et un sol mouillé sont visibles. Quel chemin prends-tu ?",
           "learn": [
-            "Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels."
+            "Dans un lieu de soins, le personnel utilise des appareils et des produits. Les panneaux indiquent les passages et les zones réservées.",
+            "Un enfant circule avec l’adulte qui l’accompagne. S’il voit un déchet médical, un objet coupant ou une flaque, il garde ses distances et prévient le personnel ou son accompagnateur."
           ],
-          "takeaway": "Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels.",
+          "takeaway": "Je suis les panneaux, je laisse le matériel au personnel et je signale un danger.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "La porte « Accès réservé » est entrouverte. Où attends-tu ?",
+              "answer": "Dans la zone autorisée, avec l’adulte qui m’accompagne.",
+              "explanation": "L’inscription donne la consigne même si la porte est ouverte.",
               "id": "SH-U6-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité dans les milieux hospitaliers ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Tu vois un objet coupant sur le sol près du chariot. Quels deux gestes fais-tu ?",
+              "answer": "Je reste à distance et je préviens l’adulte ou le personnel.",
+              "explanation": "Le personnel décide comment sécuriser l’endroit.",
               "id": "SH-U6-L4-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U6, p.128.",
-          "practical": [],
+          "practical": [
+            "Dessinez le couloir avec deux chemins. Placez le panneau et la flaque, puis faites expliquer le trajet sûr. Utilisez des symboles sur papier pour le matériel de soin."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Sécurité dans les milieux hospitaliers » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Sécurité dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Lire les consignes du couloir fictif",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Indice",
+                  "Décision"
+                ],
+                "rows": [
+                  [
+                    "Accès réservé",
+                    "Attendre dans la zone autorisée."
+                  ],
+                  [
+                    "Sol mouillé",
+                    "Éviter la zone et suivre le passage indiqué."
+                  ],
+                  [
+                    "Chariot ou objet de soin dans le passage",
+                    "Rester à distance et le signaler à l’adulte."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, paix et sécurité, U6, p.128.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2153,118 +2189,154 @@
           "objectives": [
             "Mettre en scène l’application des règles de santé, vis-à-vis des remèdes et dans les milieux hospitaliers."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Règles pour protéger sa santé et dans les milieux hospitaliers ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un personnage trouve une boîte de médicaments à la maison. Au centre de santé, une affiche demande de se laver les mains. Qui explique les gestes à suivre ?",
           "learn": [
-            "Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée."
+            "Les règles de santé aident à protéger les personnes. Se laver les mains au moment indiqué et suivre les consignes du centre sont des gestes simples.",
+            "Un médicament se prend avec l’adulte et selon les indications du professionnel de santé. Si l’origine d’un produit ou la consigne est inconnue, l’adulte demande conseil à un professionnel."
           ],
-          "takeaway": "Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée.",
+          "takeaway": "Je suis la consigne d’hygiène et je confie les questions sur les médicaments à l’adulte et au professionnel.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Règles pour protéger sa santé et dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Une personne propose de partager son médicament avec un camarade. Quelle décision le camarade peut-il prendre ?",
+              "answer": "Il décline et demande à un adulte de vérifier avec un professionnel de santé ce dont il a besoin.",
+              "explanation": "Le professionnel donne des indications pour une personne et une situation précises.",
               "id": "SH-U6-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Règles pour protéger sa santé et dans les milieux hospitaliers ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Deux consignes sont affichées, « Mains propres à l’entrée » et « Garder le passage libre ». Explique un geste pour chacune.",
+              "answer": "Se laver les mains selon l’affiche et placer son sac à l’endroit prévu pour libérer le passage.",
+              "explanation": "Chaque règle indique une action qui protège le groupe.",
               "id": "SH-U6-L5-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U6, p.132.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Jouez une visite au centre avec des cartes de consignes et une boîte dessinée. Pour chaque carte, dites qui agit et où demander une explication."
+          ],
+          "notes": [
+            "Les médicaments sont représentés sur papier. L’activité ne demande ni dosage ni manipulation réelle."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Règles pour protéger sa santé et dans les milieux hospitaliers » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Règles pour protéger sa santé et dans les milieux hospitaliers » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Les consignes de trois situations",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation fictive",
+                  "Action"
+                ],
+                "rows": [
+                  [
+                    "Affiche de lavage des mains à l’entrée.",
+                    "Suivre les indications du personnel."
+                  ],
+                  [
+                    "Boîte inconnue trouvée à la maison.",
+                    "Laisser la boîte en place et prévenir un adulte."
+                  ],
+                  [
+                    "Consigne de prise mal comprise.",
+                    "L’adulte la vérifie avec un professionnel de santé."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, règles et règlements, U6, p.132.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
           "id": "SH-U6-L6",
-          "title": "Œuvre des Allemands au Cameroun",
+          "title": "Le Cameroun sous la colonisation allemande",
           "objectives": [
             "Analyser l’œuvre des Allemands au Cameroun."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Œuvre des Allemands au Cameroun ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une fiche d’histoire décrit une voie ferrée qui reliait la côte à des zones de production. Qui la faisait construire et pour quels usages ?",
           "learn": [
-            "L’étude historique doit présenter le contexte colonial avec des sources adaptées, en distinguant faits, acteurs et conséquences."
+            "En 1884, des accords avec certains chefs duala marquent le début du protectorat allemand. L’administration coloniale étend ensuite son pouvoir sur des territoires et des populations qui y vivaient déjà.",
+            "Elle organise notamment des plantations, des routes et des voies ferrées pour contrôler le territoire et acheminer des produits. Des personnes sont contraintes de travailler. Les habitants subissent des violences et des pertes de terres, et certains résistent.",
+            "En 1916, pendant la Première Guerre mondiale, les forces alliées prennent le contrôle du Kamerun allemand. Des administrations française et britannique se mettent ensuite en place."
           ],
-          "takeaway": "L’étude historique doit présenter le contexte colonial avec des sources adaptées, en distinguant faits, acteurs et conséquences.",
+          "takeaway": "Pour étudier une réalisation coloniale, je demande qui l’a décidée, à quoi elle servait et ce qu’elle a changé pour les habitants.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Œuvre des Allemands au Cameroun » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’étude historique doit présenter le contexte colonial avec des sources adaptées, en distinguant faits, acteurs et conséquences. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Qu’indique 1884 ? Quelle date marque la fin du contrôle allemand dans la frise ?",
+              "answer": "1884 marque le début du protectorat allemand. La seconde date est 1916.",
+              "explanation": "Les deux dates encadrent la période étudiée.",
               "id": "SH-U6-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Œuvre des Allemands au Cameroun ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’étude historique doit présenter le contexte colonial avec des sources adaptées, en distinguant faits, acteurs et conséquences.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Donne un usage du rail pour l’administration coloniale et une contrainte imposée à des habitants.",
+              "answer": "Le rail servait à acheminer des produits vers la côte. Des habitants étaient contraints de travailler sur des chantiers.",
+              "explanation": "Lis les deux lignes. L’usage économique et les conditions de travail éclairent des aspects différents.",
               "id": "SH-U6-L6-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U6, p.136.",
-          "practical": [],
+          "practical": [
+            "Trace une frise avec 1884 et 1916. Entre les deux dates, place les cartes Rail et Travail forcé. Explique à l’oral ce que chaque carte permet de comprendre."
+          ],
           "notes": [
-            "Sujet historique sensible : éviter une présentation valorisante ou simpliste de la colonisation ; revue pédagogique requise."
+            "Reformulation de l’intitulé « Œuvre des Allemands ». Repères MINREX, étude historique du rail et Bundeszentrale für politische Bildung. Les chantiers et le travail forcé sont étudiés avec leurs effets sur les habitants."
           ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Œuvre des Allemands au Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+              "title": "Deux dates pour lire la période",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Année",
+                  "Événement"
+                ],
+                "rows": [
+                  [
+                    "1884",
+                    "Accords sur la côte et début du protectorat allemand."
+                  ],
+                  [
+                    "1916",
+                    "Fin du contrôle allemand au cours de la guerre."
+                  ]
+                ]
+              }
             },
             {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Œuvre des Allemands au Cameroun » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’étude historique doit présenter le contexte colonial avec des sources adaptées, en distinguant faits, acteurs et conséquences. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Une voie ferrée, deux questions",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Question",
+                  "Indice historique"
+                ],
+                "rows": [
+                  [
+                    "À quoi sert-elle pour l’administration coloniale ?",
+                    "Une ligne vers la côte permet d’acheminer des marchandises, comme le caoutchouc."
+                  ],
+                  [
+                    "Que vivent des habitants ?",
+                    "Dans le territoire, des travailleurs sont contraints de participer à des chantiers coloniaux."
+                  ]
+                ]
+              },
+              "body": "Exemple synthétisé d’après des travaux historiques sur le chemin de fer et la colonisation."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, histoire, U6, p.136.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2273,57 +2345,72 @@
           "objectives": [
             "Expliquer l’importance de la pêche dans l’économie du Cameroun."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Pêche et économie du Cameroun ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Des poissons arrivent au marché depuis un débarcadère. D’autres ont été élevés dans un étang. Quel travail permet de les retrouver au même étal ?",
           "learn": [
-            "La pêche fournit des aliments, des emplois et des échanges ; elle doit aussi tenir compte de la gestion durable des ressources."
+            "La pêche consiste à capturer des animaux aquatiques. Au Cameroun, elle se pratique en mer et dans des eaux intérieures comme les fleuves ou les lacs. La pisciculture consiste à élever des poissons.",
+            "La pêche fournit des aliments et des revenus. Elle fait aussi travailler des personnes qui conservent, transforment, transportent et vendent le poisson.",
+            "Les adultes appliquent les règles de pêche de leur secteur pour préserver les animaux et l’eau."
           ],
-          "takeaway": "La pêche fournit des aliments, des emplois et des échanges ; elle doit aussi tenir compte de la gestion durable des ressources.",
+          "takeaway": "Je distingue pêche et pisciculture et je relie la capture à la vente.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Pêche et économie du Cameroun » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La pêche fournit des aliments, des emplois et des échanges ; elle doit aussi tenir compte de la gestion durable des ressources. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel mot nomme l’activité dans l’étang d’élevage ?",
+              "answer": "La pisciculture.",
+              "explanation": "Le poisson grandit dans un lieu aménagé pour l’élevage.",
               "id": "SH-U6-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Pêche et économie du Cameroun ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La pêche fournit des aliments, des emplois et des échanges ; elle doit aussi tenir compte de la gestion durable des ressources.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Pourquoi la pêche donne-t-elle du travail au-delà de la capture ? Cite deux étapes.",
+              "answer": "Des personnes peuvent préparer ou conserver le poisson, le transporter et le vendre. Deux étapes justes suffisent.",
+              "explanation": "Suis le poisson jusqu’au marché et repère les services nécessaires.",
               "id": "SH-U6-L7-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U6, p.140.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Place quatre cartes en chaîne, Capturer, Préparer, Transporter, Vendre. Associe un métier à chaque étape. Refais la chaîne pour les poissons élevés et change la première carte."
+          ],
+          "notes": [
+            "Catégories pêche maritime, pêche continentale et pisciculture documentées par le MINEPIA."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Pêche et économie du Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Pêche et économie du Cameroun » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : La pêche fournit des aliments, des emplois et des échanges ; elle doit aussi tenir compte de la gestion durable des ressources. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Du lieu de production au marché",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Lieu fictif",
+                  "Activité",
+                  "Étape suivante"
+                ],
+                "rows": [
+                  [
+                    "Zone côtière",
+                    "Pêche maritime",
+                    "Débarquer puis acheminer le poisson."
+                  ],
+                  [
+                    "Fleuve",
+                    "Pêche en eau intérieure",
+                    "Préparer les poissons pour le marché."
+                  ],
+                  [
+                    "Étang d’élevage",
+                    "Pisciculture",
+                    "Prélever les poissons élevés au moment prévu."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie économique, U6, p.140.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2332,119 +2419,146 @@
           "objectives": [
             "Expliquer l’importance économique de l’élevage."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Élevage et économie du Cameroun ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Au marché, une éleveuse propose des œufs et une coopérative présente du lait. Quel travail précède la vente ?",
           "learn": [
-            "L’élevage fournit des produits, des revenus et des activités économiques dans plusieurs régions."
+            "L’élevage consiste à élever et soigner des animaux. Les adultes prévoient l’alimentation, l’eau, l’abri et le suivi sanitaire. Ils peuvent vendre des animaux ou des produits de l’élevage.",
+            "Au Cameroun, l’élevage bovin est pratiqué notamment dans l’Adamaoua. Des élevages de volailles fournissent des œufs ou de la viande dans plusieurs régions.",
+            "Autour de la ferme, d’autres personnes assurent les soins, la collecte, la transformation ou la vente."
           ],
-          "takeaway": "L’élevage fournit des produits, des revenus et des activités économiques dans plusieurs régions.",
+          "takeaway": "Je relie un animal élevé, un produit et une activité qui rend la vente possible.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Élevage et économie du Cameroun » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’élevage fournit des produits, des revenus et des activités économiques dans plusieurs régions. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Donne un produit de chaque élevage du tableau et un soin commun aux deux.",
+              "answer": "Œufs des poules et lait des vaches laitières. Les adultes prévoient de l’eau et une nourriture adaptée pour les animaux.",
+              "explanation": "Choisis un produit par ligne et un soin indiqué dans le cours.",
               "id": "SH-U6-L8-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Élevage et économie du Cameroun ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’élevage fournit des produits, des revenus et des activités économiques dans plusieurs régions.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Explique comment une personne qui n’élève pas d’animaux peut travailler dans cette chaîne.",
+              "answer": "Elle peut collecter, transformer, transporter ou vendre les produits de l’élevage.",
+              "explanation": "La vente dépend de plusieurs métiers.",
               "id": "SH-U6-L8-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U6, p.140.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Avec des cartes, suivez le produit de la ferme jusqu’à l’étal. Un groupe explique les soins, un autre la collecte et un troisième la vente."
+          ],
+          "notes": [
+            "Exemples d’élevage et de filières tirés des repères sectoriels MINEPAT et MINEPIA."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Élevage et économie du Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Élevage et économie du Cameroun » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’élevage fournit des produits, des revenus et des activités économiques dans plusieurs régions. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Deux chaînes de travail",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Animal",
+                  "Produit exemple",
+                  "Étapes"
+                ],
+                "rows": [
+                  [
+                    "Poule",
+                    "Œufs",
+                    "Nourrir, ramasser, transporter et vendre."
+                  ],
+                  [
+                    "Vache laitière",
+                    "Lait",
+                    "Nourrir, traire, collecter, préparer et vendre."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie économique, U6, p.140.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
           "id": "SH-U6-L9",
-          "title": "Diversité humaine : reformulation nécessaire",
+          "title": "Diversité des personnes et des milieux de vie",
           "objectives": [
             "Traiter de la diversité humaine et des espaces géographiques sans enseigner une classification raciale comme vérité scientifique."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Diversité humaine : reformulation nécessaire ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quatre cartes présentent des élèves, les lieux où ils ont vécu et des langues qu’ils utilisent. Que peut-on dire à partir des cartes ?",
           "learn": [
-            "Le curriculum utilise la formulation « races humaines » et demande de les associer à des zones géographiques. Cette catégorisation est scientifiquement dépassée et ne doit pas être enseignée telle quelle.",
-            "Klassia propose de remplacer cette entrée par une approche respectueuse de la diversité des populations, des cultures et des migrations, après validation institutionnelle."
+            "Les personnes vivent dans des milieux variés. Elles peuvent changer de lieu de vie, parler plusieurs langues et partager des activités avec des personnes qui ont d’autres habitudes.",
+            "Une description géographique peut utiliser un lieu, un trajet ou une langue indiquée par la personne. Les traits physiques varient au sein des familles et des populations. L’humanité forme une seule espèce, avec une diversité continue.",
+            "Pour comprendre les personnes, on écoute ce qu’elles disent et on vérifie les informations. Leur apparence ne permet pas de connaître leur langue, leur origine précise ni leurs capacités."
           ],
-          "takeaway": "Le curriculum utilise la formulation « races humaines » et demande de les associer à des zones géographiques. Cette catégorisation est scientifiquement dépassée et ne doit pas être enseignée telle quelle.",
+          "takeaway": "Je décris des faits sur les lieux de vie et les langues, en respectant chaque personne.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Diversité humaine : reformulation nécessaire » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum utilise la formulation « races humaines » et demande de les associer à des zones géographiques. Cette catégorisation est scientifiquement dépassée et ne doit pas être enseignée telle quelle. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelles deux cartes mentionnent le fulfulde ? Les personnes vivent-elles dans la même ville ?",
+              "answer": "Les cartes de Léo et Fatou. Léo vit à Douala et Fatou à Garoua.",
+              "explanation": "Une langue peut être utilisée dans plusieurs lieux.",
               "id": "SH-U6-L9-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Diversité humaine : reformulation nécessaire ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le curriculum utilise la formulation « races humaines » et demande de les associer à des zones géographiques. Cette catégorisation est scientifiquement dépassée et ne doit pas être enseignée telle quelle.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un élève affirme pouvoir connaître les langues d’Éva en la regardant. Quelle méthode lui proposes-tu ?",
+              "answer": "Lire ce qu’Éva indique sur sa carte ou lui demander quelles langues elle utilise.",
+              "explanation": "Une information fiable vient d’une source ou d’un échange, sans deviner d’après l’apparence.",
               "id": "SH-U6-L9-E2"
             }
           ],
           "source": "Curriculum CE2, géographie humaine, U6, p.140.",
-          "practical": [],
+          "practical": [
+            "Classe les cartes par ville de résidence actuelle. Fais ensuite un groupe des cartes qui mentionnent le fulfulde. Compare les deux classements et donne un exemple de langue utilisée dans les deux villes."
+          ],
           "notes": [
-            "POINT_CRITIQUE: formulation officielle obsolète « races humaines ». Nécessite arbitrage pédagogique/institutionnel avant publication."
+            "Point de revue institutionnelle. La p.140 utilise une classification raciale géographique obsolète. L’activité s’appuie sur les lieux de vie, les langues et les parcours, avec les repères scientifiques NHGRI et National Academies. Ne pas classer les élèves selon l’origine ou l’apparence."
           ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Diversité humaine : reformulation nécessaire » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Diversité humaine : reformulation nécessaire » et donne un exemple adapté au thème « La santé ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum utilise la formulation « races humaines » et demande de les associer à des zones géographiques. Cette catégorisation est scientifiquement dépassée et ne doit pas être enseignée telle quelle. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « La santé » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Quatre cartes fictives",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Personnage",
+                  "Lieu de vie raconté",
+                  "Langues indiquées"
+                ],
+                "rows": [
+                  [
+                    "Béa",
+                    "A vécu à Douala, vit à Garoua.",
+                    "Bassa et français"
+                  ],
+                  [
+                    "Léo",
+                    "A vécu à Garoua, vit à Douala.",
+                    "Français et fulfulde"
+                  ],
+                  [
+                    "Fatou",
+                    "Vit à Garoua.",
+                    "Fulfulde et français"
+                  ],
+                  [
+                    "Éva",
+                    "Vit à Douala.",
+                    "Français et anglais"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie humaine, U6, p.140.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         }
       ],
@@ -2454,28 +2568,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Esprit d’initiative",
-            "answer": "Prendre une initiative, c’est proposer ou commencer une action utile dans le respect des règles et de ses responsabilités."
+            "prompt": "L’école veut que tous les enfants du groupe fictif disposent d’un temps de repas et d’un temps de jeu. Propose une initiative simple et indique comment vérifier son résultat.",
+            "answer": "Ajouter deux moments à la fiche de la journée et organiser les espaces avec l’adulte. Vérifier avec le groupe que chacun connaît les moments et peut y participer."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Droits de l’enfant : santé, jeu et alimentation - formulation source à valider",
-            "answer": "Le tableau U6 associe la santé à une formulation centrée sur jeu et alimentation ; Klassia conserve cette formulation comme point de validation et rappelle que la protection de la santé figure aussi dans les objectifs généraux."
+            "prompt": "Dans un centre de santé, un patient parle à l’accueil et une flaque bloque une allée. Donne un geste de respect et un geste de sécurité.",
+            "answer": "Attendre à distance pour respecter sa vie privée. Éviter la flaque et avertir l’accompagnateur ou le personnel."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Vivre ensemble dans les milieux hospitaliers",
-            "answer": "Je respecte le calme, les personnes malades, le personnel et les règles du lieu."
+            "prompt": "Donne les deux dates de la période allemande figurant dans la frise et explique un usage du rail étudié.",
+            "answer": "1884 pour le début du protectorat et 1916 pour la fin du contrôle allemand. La voie ferrée sert par exemple à acheminer des marchandises vers la côte."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Sécurité dans les milieux hospitaliers",
-            "answer": "Je ne touche pas aux médicaments, instruments ou équipements médicaux et je suis les consignes des adultes et professionnels."
+            "prompt": "Au marché, une personne vend du poisson capturé dans un fleuve et une autre vend des œufs d’un poulailler. Nomme les activités de départ et un métier qui les prolonge.",
+            "answer": "Pêche en eau intérieure et élevage de volailles. La conservation, le transport ou la vente peuvent prolonger ces activités."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Règles pour protéger sa santé et dans les milieux hospitaliers",
-            "answer": "Les médicaments ne sont pris que sous la responsabilité d’un adulte compétent et selon une prescription ou une consigne appropriée."
+            "prompt": "Deux personnages vivent dans la même ville et déclarent parler des langues différentes. Quel renseignement peux-tu noter et comment le vérifier ?",
+            "answer": "Ils ont un lieu de vie commun et des langues déclarées différentes. On lit leurs fiches ou on leur demande ce qu’ils utilisent."
           }
         ]
       },

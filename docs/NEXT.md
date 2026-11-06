@@ -40,11 +40,15 @@ Cette recherche documentaire doit être menée séparément des tâches de codag
 
 Les 29 leçons des unités 4 à 8 ont reçu des supports originaux et 58 exercices corrigés. Les bilans et les QCM essentiels de ces unités ont été repris avec les leçons. [Détail du lot et sources](CE2_SCIENCES_TIC.md#réécriture-intégrée)
 
-### Prochain lot CE2 — sciences humaines et sociales
+### Sciences humaines et sociales CE2 — lot réalisé
 
-L’indicateur de découverte générique signale encore 90 leçons. Les 45 leçons de sciences humaines et sociales sont prioritaires. Les traiter par groupes d’unités, en reliant les objectifs aux documents à lire ou observer, puis aux exercices et évaluations corrigés.
+Les 45 leçons des unités 4 à 8 ont été reprises avec 90 exercices corrigés, quatre figures, cinq bilans et 88 QCM. Les sources et les points d’arbitrage du curriculum sont documentés. [Détail du lot](CE2_SCIENCES_HUMAINES_SOCIALES.md)
 
-Viennent ensuite le développement personnel (16), les arts (15), l’EPS (9) et le bassa (5). Pour les cinq leçons bassa, enrichir la séquence autour des propositions lexicales déjà présentes et de leurs variantes acceptées.
+### Prochain lot CE2 — développement personnel
+
+L’indicateur de découverte générique signale encore 45 leçons. La priorité porte sur les 16 leçons de développement personnel, avec des situations à lire, à jouer et à discuter, et des corrections adaptées aux réponses ouvertes.
+
+Viennent ensuite les arts (15), l’EPS (9) et le bassa (5). Pour les cinq leçons bassa, enrichir la séquence autour des propositions lexicales déjà présentes et de leurs variantes acceptées.
 
 ## Consolidation ultérieure
 

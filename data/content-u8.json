@@ -1596,57 +1596,65 @@
           "objectives": [
             "Expliquer les notions de bien et de mal et les distinguer à partir d’actions."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Le bien et le mal ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un message se moque d’un camarade. Une élève hésite à le relayer. Que peut-elle faire pour aider ?",
           "learn": [
-            "J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral."
+            "Pour juger une action, on regarde ses effets et les droits des personnes. Une action juste peut aider, respecter ou réparer. Un geste ou un message peut aussi blesser ou exclure.",
+            "On peut corriger une action après une erreur. On arrête de relayer le message, on demande de l’aide et on cherche comment réparer sans exposer davantage la personne."
           ],
-          "takeaway": "J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral.",
+          "takeaway": "Je réfléchis aux effets d’une action et je choisis un geste qui respecte les personnes.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Le bien et le mal » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Pourquoi relayer le message peut-il faire du mal ?",
+              "answer": "Il répand la moquerie auprès de plus de personnes et peut blesser ou isoler le camarade.",
+              "explanation": "Observe l’effet sur la personne qui reçoit la moquerie.",
               "id": "SH-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Le bien et le mal ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Ton personnage a déjà relayé le message. Quelle action peut aider à réparer ?",
+              "answer": "Arrêter de le relayer et avertir un adulte. Avec son aide, chercher comment retirer le message et présenter des excuses.",
+              "explanation": "La réparation vise à réduire le tort et à soutenir la personne.",
               "id": "SH-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U8, p.124.",
-          "practical": [],
+          "practical": [
+            "Lisez le cas fictif en groupe. Jouez une demande d’aide à un adulte sans écrire ni diffuser de message moqueur. Décrivez l’effet du geste choisi."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Le bien et le mal » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Le bien et le mal » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Trois décisions possibles",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Décision",
+                  "Effet"
+                ],
+                "rows": [
+                  [
+                    "Partager la moquerie.",
+                    "La personne est exposée devant plus de monde."
+                  ],
+                  [
+                    "Garder le message privé et en parler à un adulte.",
+                    "L’adulte peut aider sans diffuser la moquerie."
+                  ],
+                  [
+                    "Inviter le camarade à rejoindre une activité.",
+                    "Le camarade peut reprendre sa place dans le groupe."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, éducation morale, U8, p.124.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1655,57 +1663,67 @@
           "objectives": [
             "Mettre en scène le droit de l’enfant à la liberté d’information, d’expression et de participation."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Liberté d’information, d’expression et participation ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "La classe prépare une nouvelle règle pour le coin lecture. Une élève veut connaître le projet, donner son avis puis savoir comment il a été pris en compte.",
           "learn": [
-            "Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge."
+            "L’enfant a le droit d’accéder à des informations adaptées et de s’exprimer. Il peut poser des questions, chercher des renseignements et présenter une idée en respectant les droits des autres.",
+            "Sur une question qui le concerne, il a le droit d’être entendu. L’adulte ou le groupe écoute et explique comment les propositions éclairent la décision."
           ],
-          "takeaway": "Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge.",
+          "takeaway": "Pour participer, je m’informe, je donne mon avis et j’écoute la réponse.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Liberté d’information, d’expression et participation » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel geste permet d’abord à l’élève de s’informer ?",
+              "answer": "Lire le projet ou poser une question sur l’heure d’ouverture du coin lecture.",
+              "explanation": "On cherche les renseignements utiles avant de proposer un changement.",
               "id": "SH-U8-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Liberté d’information, d’expression et participation ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge.",
-              "explanation": "",
               "type": "open",
+              "prompt": "La proposition de l’élève n’est pas retenue. Comment l’adulte peut-il montrer qu’il l’a écoutée ?",
+              "answer": "Il reformule la proposition et explique la raison de la décision, par exemple le lieu est utilisé à cette heure.",
+              "explanation": "Être entendu aide à participer même lorsque le groupe retient une autre solution.",
               "id": "SH-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’enfant, U8, p.126.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Organisez une réunion sur une situation inventée. Un élève pose une question, un autre présente une proposition et le responsable résume ce qu’il a entendu."
+          ],
+          "notes": [
+            "Convention relative aux droits de l’enfant, art. 12, 13 et 17. Le conseil de classe est une situation pédagogique fictive."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Liberté d’information, d’expression et participation » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Liberté d’information, d’expression et participation » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Préparer la réunion du coin lecture",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Étape",
+                  "Parole ou action"
+                ],
+                "rows": [
+                  [
+                    "S’informer",
+                    "Lire le projet affiché et demander « À quelle heure ouvre le coin lecture ? »"
+                  ],
+                  [
+                    "S’exprimer",
+                    "Proposer « J’aimerais aussi un tour après le repas. »"
+                  ],
+                  [
+                    "Participer",
+                    "Comparer les propositions, puis écouter l’explication de la décision."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, droits de l’enfant, U8, p.126.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1714,57 +1732,68 @@
           "objectives": [
             "Expliquer la notion de droits de l’homme et mettre en scène leur défense."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Droits de l’homme ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une affiche de bibliothèque annonce que les enfants venant d’un autre quartier ne pourront pas lire les livres. Des élèves proposent de revoir cette règle. Sur quelle idée peuvent-ils s’appuyer ?",
           "learn": [
-            "Les droits humains protègent la dignité et les libertés fondamentales de toute personne."
+            "Les droits de l’homme appartiennent à tous les êtres humains. La dignité désigne la valeur de chaque personne. Chacun a les mêmes droits, quels que soient son origine, sa langue ou son lieu de vie.",
+            "Le 10 décembre 1948, l’Assemblée générale des Nations Unies adopte la Déclaration universelle des droits de l’homme. Elle rappelle notamment l’égalité en dignité et en droits et le droit à l’éducation.",
+            "Quand une règle traite injustement des personnes, on peut décrire le problème et en parler à l’adulte responsable pour chercher une règle juste."
           ],
-          "takeaway": "Les droits humains protègent la dignité et les libertés fondamentales de toute personne.",
+          "takeaway": "Je repère une situation d’inégalité et je propose une action qui respecte les droits de chacun.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Droits de l’homme » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les droits humains protègent la dignité et les libertés fondamentales de toute personne. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle est l’inégalité dans la scène ? Quel principe aide à la reconnaître ?",
+              "answer": "On écarte des enfants selon leur quartier. Tous ont la même dignité et les mêmes droits.",
+              "explanation": "La règle écarte un groupe pour son lieu de vie.",
               "id": "SH-U8-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Droits de l’homme ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les droits humains protègent la dignité et les libertés fondamentales de toute personne.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Les livres ne suffisent pas pour tout le monde en même temps. Propose une règle équitable.",
+              "answer": "Prêter un livre à la fois par enfant et prévoir des tours d’emprunt selon les mêmes conditions.",
+              "explanation": "Une règle commune peut répartir les ressources.",
               "id": "SH-U8-L3-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’homme, U8, p.126.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Jouez un entretien avec l’adulte qui gère la bibliothèque. Expliquez le problème, proposez une nouvelle règle et vérifiez qu’elle s’applique de la même manière aux deux groupes."
+          ],
+          "notes": [
+            "Déclaration universelle des droits de l’homme, articles 1, 2 et 26. Le cas de la bibliothèque sert à appliquer le principe d’égalité."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Droits de l’homme » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Droits de l’homme » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les droits humains protègent la dignité et les libertés fondamentales de toute personne. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Lire et corriger l’affiche fictive",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Élément",
+                  "Ce que le groupe relève"
+                ],
+                "rows": [
+                  [
+                    "Règle affichée",
+                    "Les enfants de l’autre quartier sont écartés."
+                  ],
+                  [
+                    "Principe",
+                    "Chaque enfant doit être traité avec la même dignité."
+                  ],
+                  [
+                    "Proposition",
+                    "Organiser des tours de lecture selon les mêmes règles pour tous."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, droits de l’homme, U8, p.126.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1773,57 +1802,64 @@
           "objectives": [
             "Mettre en scène l’application des règles lors d’une communication directe ou à travers les TIC."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Règles d’une communication en face à face ou par TIC ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour informer la classe, Sara hésite entre parler à un élève et transmettre un message à tout le groupe. Comment adapter ce qu’elle dit ?",
           "learn": [
-            "Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité."
+            "Pour communiquer clairement, je pense au destinataire et au but. En face à face, je salue, j’écoute et je laisse la personne répondre. Dans un message, je donne l’information précise et je la relis.",
+            "Avant de transmettre, je vérifie à qui je m’adresse et ce que je peux partager. Les coordonnées et les photos des autres demandent une vérification avec l’adulte et l’accord des personnes."
           ],
-          "takeaway": "Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité.",
+          "takeaway": "Je choisis le bon destinataire, je formule un message clair et je vérifie avant de le transmettre.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Règles d’une communication en face à face ou par TIC » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Le brouillon indique « Venez demain là-bas ». Réécris-le à partir du modèle.",
+              "answer": "« Bonjour. La rencontre est jeudi à 10 h dans la salle 2. Merci. »",
+              "explanation": "Un message précise le moment et le lieu pour le destinataire.",
               "id": "SH-U8-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Règles d’une communication en face à face ou par TIC ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Avant de transmettre le message, tu vois qu’il contient aussi le numéro d’un camarade. Que fais-tu ?",
+              "answer": "Je retire le numéro du message de groupe et je demande l’aide de l’adulte si un partage est nécessaire.",
+              "explanation": "Seules les informations utiles et autorisées doivent être transmises.",
               "id": "SH-U8-L4-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U8, p.133.",
-          "practical": [],
+          "practical": [
+            "À deux, annoncez une réunion fictive d’abord à l’oral puis sur papier. L’autre personne vérifie qu’elle retrouve le jour, l’heure et le lieu. Inversez les rôles."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Règles d’une communication en face à face ou par TIC » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Règles d’une communication en face à face ou par TIC » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Deux façons d’annoncer la même rencontre",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Mode",
+                  "Exemple",
+                  "Contrôle"
+                ],
+                "rows": [
+                  [
+                    "Face à face",
+                    "« Bonjour, la rencontre est jeudi à 10 h dans la salle 2. Peux-tu répéter le lieu ? »",
+                    "Écouter et préciser si besoin."
+                  ],
+                  [
+                    "Message écrit",
+                    "« Bonjour. La rencontre a lieu jeudi à 10 h, salle 2. Merci. »",
+                    "Relire le jour, l’heure et la salle, puis vérifier le destinataire."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, règles et règlements, U8, p.133.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1832,57 +1868,72 @@
           "objectives": [
             "Expliquer l’organisation et la mise en œuvre de la résistance à la pénétration européenne."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Résistance à la pénétration européenne ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux dossiers montrent des personnes qui contestent le pouvoir colonial à des dates différentes. L’une refuse un accord. L’autre organise des protestations au sujet des terres.",
           "learn": [
-            "L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées."
+            "Une résistance est une action menée pour s’opposer à une domination ou à une décision imposée. Des habitants ont utilisé plusieurs moyens, dont le refus, les lettres, les pétitions ou les affrontements.",
+            "Pour étudier une résistance, je repère la personne ou le groupe, ce qu’il conteste et les moyens utilisés. Une pétition est une demande collective adressée à une autorité."
           ],
-          "takeaway": "L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées.",
+          "takeaway": "Je compare les raisons et les moyens de deux actions de résistance.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Résistance à la pénétration européenne » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Contre quelle décision Rudolf Duala Manga Bell et ses alliés protestent-ils ?",
+              "answer": "Contre le projet de déplacer des habitants duala et de prendre leurs terres.",
+              "explanation": "Lis la deuxième ligne et distingue la décision contestée du moyen de protester.",
               "id": "SH-U8-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Résistance à la pénétration européenne ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel acteur écrit pour refuser la prise de pouvoir en 1884 ? Quelle autre action organisée le tableau présente-t-il ?",
+              "answer": "Lock Priso. Plus tard, Manga Bell et ses alliés envoient des protestations et cherchent des appuis contre la prise des terres.",
+              "explanation": "Associe la date à la personne puis compare les moyens et les raisons.",
               "id": "SH-U8-L5-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U8, p.136.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Trace une frise de 1884 à 1914. Place la carte Refus écrit près de Lock Priso et la carte Protestations sur les terres près de Manga Bell. Donne une différence entre les deux situations."
+          ],
+          "notes": [
+            "Fiches synthétisées à partir des archives sur Manga Bell, de la lettre de Lock Priso documentée par le Musée maritime de Douala et de travaux historiques sur Samba."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Résistance à la pénétration européenne » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Résistance à la pénétration européenne » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Trois repères de résistance",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Repère",
+                  "Ce qui est contesté",
+                  "Moyen ou action attestée"
+                ],
+                "rows": [
+                  [
+                    "Lock Priso, aussi nommé Kum’a Mbape, 1884",
+                    "La prise de pouvoir allemande sur son territoire, près du Wouri.",
+                    "Refuse de reconnaître le pouvoir colonial et proteste par écrit."
+                  ],
+                  [
+                    "Rudolf Duala Manga Bell et ses alliés, début des années 1910",
+                    "Le projet colonial de déplacer des habitants duala et de prendre leurs terres.",
+                    "Adressent des protestations et cherchent des appuis. L’autorité coloniale fait exécuter Manga Bell en 1914."
+                  ],
+                  [
+                    "Martin-Paul Samba, 1914",
+                    "Le pouvoir colonial allemand dans le sud.",
+                    "Après avoir servi dans l’armée allemande, il s’oppose à l’administration coloniale. Il est exécuté à Ebolowa en 1914."
+                  ]
+                ]
+              },
+              "body": "Les fiches résument des documents historiques. On peut comparer des actions sans faire jouer les scènes de violence."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, histoire, U8, p.136.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1892,57 +1943,69 @@
             "Définir la notion de planète.",
             "Nommer les planètes du système solaire."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Planètes du système solaire ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur une planche, la Terre et Mars portent les numéros 3 et 4. Le Soleil sert de point de départ. Comment lire ces numéros ?",
           "learn": [
-            "Une planète est un astre qui tourne autour d’une étoile ; les huit planètes du système solaire tournent autour du Soleil."
+            "Le Soleil est une étoile. Dans le système solaire, une planète tourne autour du Soleil, a une forme presque ronde et domine le voisinage de son orbite. Une orbite est le trajet d’un astre autour d’un autre.",
+            "Du Soleil vers l’extérieur, les huit planètes sont Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune.",
+            "Les quatre premières planètes sont rocheuses. Les quatre suivantes sont des planètes géantes. La Lune est le satellite naturel de la Terre et tourne autour d’elle."
           ],
-          "takeaway": "Une planète est un astre qui tourne autour d’une étoile ; les huit planètes du système solaire tournent autour du Soleil.",
+          "takeaway": "J’utilise le Soleil comme point de départ pour donner l’ordre des huit planètes.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Planètes du système solaire » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une planète est un astre qui tourne autour d’une étoile ; les huit planètes du système solaire tournent autour du Soleil. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelles planètes encadrent la Terre dans l’ordre du schéma ?",
+              "answer": "Vénus au rang 2 et Mars au rang 4.",
+              "explanation": "La Terre est au rang 3. Lis la carte qui précède et celle qui suit.",
               "id": "SH-U8-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Planètes du système solaire ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une planète est un astre qui tourne autour d’une étoile ; les huit planètes du système solaire tournent autour du Soleil.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Range Saturne, Jupiter, Neptune et Uranus en partant du Soleil. Nomme leur groupe.",
+              "answer": "Jupiter, Saturne, Uranus, Neptune. Ce sont les quatre planètes géantes.",
+              "explanation": "Utilise les rangs 5, 6, 7 et 8.",
               "id": "SH-U8-L6-E2"
             }
           ],
           "source": "Curriculum CE2, géographie physique, U8, p.139.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Prépare huit cartes de planètes. Place une carte Soleil au début puis classe les autres sans regarder le tableau. Vérifie avec la planche et montre la position de la Terre."
+          ],
+          "notes": [
+            "Ordre et groupes selon NASA Science. Définition adaptée de la résolution B5 de l’Union astronomique internationale. Schéma original, tailles et distances simplifiées."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Planètes du système solaire » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Planètes du système solaire » et donne un exemple adapté au thème « Les communications ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Une planète est un astre qui tourne autour d’une étoile ; les huit planètes du système solaire tournent autour du Soleil. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les communications » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Lire l’ordre à partir du Soleil",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Groupe",
+                  "Rangs et planètes"
+                ],
+                "rows": [
+                  [
+                    "Planètes rocheuses",
+                    "1 Mercure · 2 Vénus · 3 Terre · 4 Mars"
+                  ],
+                  [
+                    "Planètes géantes",
+                    "5 Jupiter · 6 Saturne · 7 Uranus · 8 Neptune"
+                  ]
+                ]
+              },
+              "body": "Le dessin aide à retenir l’ordre. Les tailles et les distances sont simplifiées."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie physique, U8, p.139.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-planetes.svg",
+            "alt": "Ordre à partir du Soleil. 1 Mercure, 2 Vénus, 3 Terre, 4 Mars, 5 Jupiter, 6 Saturne, 7 Uranus, 8 Neptune."
           }
         }
       ],
@@ -1952,28 +2015,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Le bien et le mal",
-            "answer": "J’examine les conséquences d’une action, le respect des personnes et des règles pour exercer mon jugement moral."
+            "prompt": "Un message moqueur circule. Donne une action pour limiter le tort, puis explique son effet.",
+            "answer": "Cesser de relayer le message et en parler à un adulte. Cela évite de diffuser davantage la moquerie et aide la personne visée."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Liberté d’information, d’expression et participation",
-            "answer": "Ces libertés s’exercent dans le respect de la sécurité, de la dignité d’autrui et des règles adaptées à l’âge."
+            "prompt": "Pour modifier l’heure du coin lecture, comment un élève peut-il s’informer puis participer ?",
+            "answer": "Il lit la règle ou pose une question sur l’heure actuelle. Il propose un nouvel horaire et écoute l’explication donnée à sa proposition."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Droits de l’homme",
-            "answer": "Les droits humains protègent la dignité et les libertés fondamentales de toute personne."
+            "prompt": "Un groupe est écarté d’une activité à cause de son quartier. Quel principe est en jeu ? Écris une règle commune claire pour organiser les tours.",
+            "answer": "L’égalité en dignité et en droits. Exemple « Chaque groupe s’inscrit au même tableau et dispose d’un tour de dix minutes. »"
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Règles d’une communication en face à face ou par TIC",
-            "answer": "Je respecte mon interlocuteur, la vie privée, la vérité des informations et les règles de sécurité."
+            "prompt": "Associe Lock Priso et Rudolf Duala Manga Bell à la décision qu’ils contestent et à une action de résistance.",
+            "answer": "Lock Priso refuse la prise de pouvoir et proteste par écrit en 1884. Manga Bell et ses alliés protestent contre le déplacement et la prise des terres et cherchent des appuis."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Résistance à la pénétration européenne",
-            "answer": "L’étude porte sur les acteurs, les formes de résistance et le contexte historique, à partir de sources vérifiées."
+            "prompt": "Nomme les deux planètes entre Terre et Saturne dans l’ordre en t’éloignant du Soleil. Pourquoi la Lune ne figure-t-elle pas dans les huit cartes ?",
+            "answer": "Mars puis Jupiter. La Lune est le satellite naturel de la Terre et tourne autour d’elle."
           }
         ]
       },

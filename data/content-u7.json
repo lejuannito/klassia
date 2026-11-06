@@ -1750,57 +1750,64 @@
           "objectives": [
             "Expliquer comment fournir des efforts pour réussir et démontrer de l’endurance dans les jeux."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Endurance et effort ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Nora veut réussir un parcours. Au premier essai elle s’arrête, puis elle essaie de nouveau en allant moins vite. Que change-t-elle ?",
           "learn": [
-            "L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité."
+            "L’endurance aide à poursuivre un effort adapté pendant un certain temps. Elle se développe progressivement, avec un rythme que l’on peut tenir et des pauses.",
+            "Pour progresser, je choisis un objectif réalisable, j’essaie, je me repose et j’ajuste ma façon de faire. En cas de douleur ou de malaise, je m’arrête et je préviens l’adulte."
           ],
-          "takeaway": "L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité.",
+          "takeaway": "Je répartis mon effort, j’observe ma progression et je respecte mes limites.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Endurance et effort » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel changement a aidé Nora au second essai ?",
+              "answer": "Elle a pris une pause puis avancé à un rythme régulier adapté.",
+              "explanation": "Compare les deux choix dans le tableau.",
               "id": "SH-U7-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Endurance et effort ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Ton personnage ressent une douleur pendant le jeu. Que lui proposes-tu ?",
+              "answer": "De s’arrêter et de prévenir l’adulte qui accompagne le jeu.",
+              "explanation": "Savoir s’arrêter fait partie d’un effort adapté.",
               "id": "SH-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U7, p.124.",
-          "practical": [],
+          "practical": [
+            "Avec l’adulte, choisis trois repères proches. Fais le parcours à une allure confortable, à pied ou avec ton mode de déplacement habituel. Après une pause, explique ce qui aide à garder un rythme."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Endurance et effort » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Endurance et effort » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Deux essais de Nora",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Essai",
+                  "Choix",
+                  "Observation"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Démarrer très vite.",
+                    "Elle s’arrête avant le dernier repère."
+                  ],
+                  [
+                    "2, après une pause",
+                    "Marcher à un rythme régulier.",
+                    "Elle atteint le dernier repère sans se presser."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, éducation morale, U7, p.124.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1809,57 +1816,65 @@
           "objectives": [
             "Expliquer les bienfaits de la modestie et la démontrer dans ses attitudes."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Modestie ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Après une victoire, Eli sourit et remercie les autres. Un spectateur lui demande comment il a réussi. Que peut-il répondre ?",
           "learn": [
-            "Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre."
+            "La modestie consiste à reconnaître ses réussites avec simplicité et à reconnaître la part des autres. On peut être fier de son travail et continuer à apprendre.",
+            "Une réponse modeste dit ce qui a aidé. Elle respecte l’autre équipe et évite de se croire supérieur."
           ],
-          "takeaway": "Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre.",
+          "takeaway": "Je peux nommer ma réussite, remercier et écouter les autres.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Modestie » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle phrase du tableau nomme à la fois un effort et l’aide reçue ?",
+              "answer": "« J’ai réussi ce lancer après plusieurs essais. Merci pour vos conseils. »",
+              "explanation": "La phrase nomme un effort personnel et l’aide des autres.",
               "id": "SH-U7-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Modestie ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Reformule « Notre équipe est la seule qui sait jouer » pour exprimer une réussite avec modestie.",
+              "answer": "« Nous avons bien coopéré aujourd’hui. Merci à l’autre équipe pour la partie. »",
+              "explanation": "Décris ce que le groupe a réussi en respectant les autres.",
               "id": "SH-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U7, p.124.",
-          "practical": [],
+          "practical": [
+            "En duo, jouez un entretien après un jeu. La personne qui a réussi explique une chose apprise et remercie quelqu’un pour une aide précise."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Modestie » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Modestie » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Trois façons de répondre",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Phrase",
+                  "Ce qu’elle exprime"
+                ],
+                "rows": [
+                  [
+                    "« J’ai réussi ce lancer après plusieurs essais. Merci pour vos conseils. »",
+                    "Reconnaître son effort et l’aide reçue."
+                  ],
+                  [
+                    "« Je gagne toujours parce que je suis le meilleur. »",
+                    "Se vanter en se plaçant au-dessus des autres."
+                  ],
+                  [
+                    "« Je suis content du résultat. Vous avez bien joué aussi. »",
+                    "Exprimer sa joie et respecter l’autre équipe."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, éducation morale, U7, p.124.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1868,57 +1883,67 @@
           "objectives": [
             "Mettre en scène le droit de l’enfant à jouer et à avoir des loisirs."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Droit au jeu et aux loisirs ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "La cour ouvre pour la récréation. Une élève souhaite participer, mais les seules règles proposées demandent de courir. Comment organiser un jeu auquel elle peut prendre part ?",
           "learn": [
-            "Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres."
+            "Les enfants ont droit au repos, aux loisirs et au jeu. L’adulte peut prévoir du temps et un espace sûr où chacun trouve une activité adaptée.",
+            "Changer la taille d’une zone, utiliser un objet facile à prendre ou proposer différents rôles peut rendre le jeu accessible. On écoute la personne sur ce qui l’aide."
           ],
-          "takeaway": "Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres.",
+          "takeaway": "Le droit au jeu se réalise avec du temps, un espace et des activités accessibles.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Droit au jeu et aux loisirs » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Donne un aménagement qui permet de lancer assis.",
+              "answer": "Placer une cible à une hauteur accessible et permettre de lancer depuis une position assise.",
+              "explanation": "L’aménagement garde le but du jeu et adapte la manière de participer.",
               "id": "SH-U7-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Droit au jeu et aux loisirs ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un groupe propose un jeu difficile à comprendre. Quelle action aide à donner accès au jeu ?",
+              "answer": "Expliquer la règle avec des mots simples et faire un essai avant de commencer.",
+              "explanation": "Une démonstration peut rendre la règle plus accessible.",
               "id": "SH-U7-L3-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’enfant, U7, p.126.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Proposez deux façons de participer au jeu de cibles en gardant le même but. Faites un essai et demandez à chaque joueur quel aménagement l’a aidé."
+          ],
+          "notes": [
+            "Convention relative aux droits de l’enfant, art. 31. Proposer des rôles et des aménagements avec les élèves concernés."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Droit au jeu et aux loisirs » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Droit au jeu et aux loisirs » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Un jeu de cibles accessible",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Besoin exprimé",
+                  "Aménagement"
+                ],
+                "rows": [
+                  [
+                    "Jouer assis ou debout",
+                    "Prévoir une cible à une hauteur accessible."
+                  ],
+                  [
+                    "Prendre le temps de viser",
+                    "Adapter le rythme et annoncer le tour."
+                  ],
+                  [
+                    "Comprendre la consigne",
+                    "Faire un essai avec un objet souple et montrer le geste."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, droits de l’enfant, U7, p.126.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1927,57 +1952,46 @@
           "objectives": [
             "Mettre en scène le vivre-ensemble pendant les jeux."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Vivre ensemble pendant les jeux ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le ballon sort du terrain. Les deux équipes affirment qu’elles doivent reprendre. Comment continuer sans dispute ?",
           "learn": [
-            "Je respecte mes partenaires, mes adversaires, les règles et les décisions communes."
+            "Jouer ensemble demande d’écouter, de partager les rôles et de suivre la même règle. Le fair-play consiste à respecter les personnes et les règles, y compris quand le résultat nous déçoit.",
+            "En cas de désaccord, on arrête le jeu un moment. Chacun dit ce qu’il a vu, puis le groupe applique la règle convenue ou demande l’aide de l’arbitre."
           ],
-          "takeaway": "Je respecte mes partenaires, mes adversaires, les règles et les décisions communes.",
+          "takeaway": "Je décris ce que j’ai vu, j’écoute l’autre équipe et je reprends le jeu selon la règle.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Vivre ensemble pendant les jeux » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte mes partenaires, mes adversaires, les règles et les décisions communes. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Pourquoi fait-on une pause avant de reprendre ?",
+              "answer": "Pour entendre les deux versions et appliquer la règle convenue sans se disputer.",
+              "explanation": "La pause donne le temps de décrire ce qui s’est passé.",
               "id": "SH-U7-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vivre ensemble pendant les jeux ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte mes partenaires, mes adversaires, les règles et les décisions communes.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un camarade se trompe dans son rôle. Que peux-tu dire pour l’aider sans te moquer ?",
+              "answer": "« On peut relire la règle ensemble. Je te montre quand commence ton tour. »",
+              "explanation": "La réponse propose une aide et permet au jeu de continuer.",
               "id": "SH-U7-L4-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U7, p.128.",
-          "practical": [],
+          "practical": [
+            "Jouez une courte scène avec deux joueurs et un arbitre. L’observateur écoute les deux versions et vérifie que l’arbitre explique la reprise."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Vivre ensemble pendant les jeux » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
+              "title": "Une reprise après un désaccord",
               "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Vivre ensemble pendant les jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte mes partenaires, mes adversaires, les règles et les décisions communes. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "body": "L’arbitre annonce une pause. « J’ai vu la balle toucher la ligne », dit Nita. « J’ai vu l’autre joueur toucher la balle en dernier », dit Paul. L’arbitre rappelle la règle convenue et indique comment reprendre. Les deux équipes se replacent."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, paix et sécurité, U7, p.128.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1986,57 +2000,65 @@
           "objectives": [
             "Mettre en scène les mesures de sécurité à prendre pendant les jeux."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Sécurité pendant les jeux ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Avant de jouer, le groupe voit des cailloux sur le terrain et des vélos près de l’entrée. Quel contrôle peut-il faire ?",
           "learn": [
-            "Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur."
+            "La sécurité d’un jeu se prépare. Avec l’adulte, on repère les obstacles, on vérifie le matériel et on fixe les limites. On évite les lieux de circulation et les fils électriques.",
+            "Un signal d’arrêt connu de tous permet de s’arrêter quand un danger apparaît. L’adulte décide quand le jeu peut reprendre."
           ],
-          "takeaway": "Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur.",
+          "takeaway": "Je vérifie le lieu, le matériel et le signal d’arrêt avant de commencer.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité pendant les jeux » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un vélo traverse l’espace de jeu. Quelle action prend le groupe ?",
+              "answer": "Il s’arrête au signal et attend que l’adulte sécurise le passage.",
+              "explanation": "Le signal protège les joueurs et la personne qui passe.",
               "id": "SH-U7-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité pendant les jeux ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Deux lieux sont proposés pour un cerf-volant. L’un est dégagé et autorisé, loin des fils électriques. L’autre est près de la route. Lequel choisis-tu ?",
+              "answer": "Le terrain dégagé et autorisé, loin des fils et de la circulation, avec un adulte.",
+              "explanation": "Choisis un espace adapté à l’objet et au mouvement.",
               "id": "SH-U7-L5-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U7, p.128.",
-          "practical": [],
+          "practical": [
+            "Sur le plan d’une cour fictive, marquez les zones sûres et une entrée à laisser libre. Avant un jeu calme, essayez le signal d’arrêt annoncé par l’adulte."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Sécurité pendant les jeux » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Sécurité pendant les jeux » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "La fiche du responsable du jeu",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Vérification",
+                  "Exemple de décision"
+                ],
+                "rows": [
+                  [
+                    "Terrain",
+                    "Délimiter une zone éloignée des vélos."
+                  ],
+                  [
+                    "Matériel",
+                    "Choisir une balle souple en bon état."
+                  ],
+                  [
+                    "Arrêt",
+                    "Au mot Stop, s’immobiliser et regarder l’adulte."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, paix et sécurité, U7, p.128.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2045,57 +2067,65 @@
           "objectives": [
             "Mettre en scène l’intégration nationale."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Intégration nationale ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux écoles de régions différentes se rencontrent pour des jeux. Certaines consignes sont données en français, d’autres en anglais. Comment former des équipes où chacun a une place ?",
           "learn": [
-            "L’intégration nationale valorise la coexistence, la coopération et le respect entre citoyens venant de régions et de cultures différentes."
+            "L’intégration nationale se construit quand des personnes de différents lieux participent à la vie commune avec les mêmes possibilités et le respect de leurs différences.",
+            "Dans une rencontre, on peut mélanger les équipes, expliquer les règles dans une langue comprise par tous ou les montrer, et faire tourner les rôles."
           ],
-          "takeaway": "L’intégration nationale valorise la coexistence, la coopération et le respect entre citoyens venant de régions et de cultures différentes.",
+          "takeaway": "Je contribue à l’unité en accueillant les autres et en rendant la participation possible pour chacun.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Intégration nationale » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’intégration nationale valorise la coexistence, la coopération et le respect entre citoyens venant de régions et de cultures différentes. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Pourquoi mélanger les équipes dans cette rencontre ?",
+              "answer": "Pour que les élèves des deux écoles coopèrent et apprennent à se connaître.",
+              "explanation": "Le groupe construit une activité commune avec des participants différents.",
               "id": "SH-U7-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Intégration nationale ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’intégration nationale valorise la coexistence, la coopération et le respect entre citoyens venant de régions et de cultures différentes.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un enfant ne comprend pas encore la consigne. Propose deux façons de l’inclure.",
+              "answer": "Lui montrer un essai et lui faire expliquer la règle avec un camarade ou dans une langue qu’il comprend.",
+              "explanation": "Un appui à la compréhension l’aide à prendre sa place.",
               "id": "SH-U7-L6-E2"
             }
           ],
           "source": "Curriculum CE2, citoyenneté, U7, p.130.",
-          "practical": [],
+          "practical": [
+            "Jouez l’accueil d’une école invitée. Montrez un geste du jeu, demandez à un camarade de reformuler la règle puis faites tourner les rôles."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Intégration nationale » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Intégration nationale » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’intégration nationale valorise la coexistence, la coopération et le respect entre citoyens venant de régions et de cultures différentes. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Une rencontre inter-écoles fictive",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Choix du groupe",
+                  "Effet recherché"
+                ],
+                "rows": [
+                  [
+                    "Former des équipes avec des élèves des deux écoles.",
+                    "Se rencontrer et coopérer."
+                  ],
+                  [
+                    "Montrer le geste en plus de la consigne orale.",
+                    "Comprendre la règle avant de jouer."
+                  ],
+                  [
+                    "Faire tourner les rôles de joueur et d’observateur.",
+                    "Donner une place à chacun."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, citoyenneté, U7, p.130.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2104,57 +2134,69 @@
           "objectives": [
             "Établir des règles d’un jeu et les appliquer."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Établir et appliquer les règles d’un jeu ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quatre joueurs inventent une cible de papier. Au premier essai, ils discutent parce que personne ne sait comment compter une balle sur la ligne.",
           "learn": [
-            "Une règle de jeu doit être comprise avant de commencer et s’appliquer de la même façon aux participants."
+            "Un règlement de jeu indique le but, le matériel, les tours, le comptage et les gestes permis. Une règle s’applique de la même façon à chaque joueur.",
+            "Un essai court montre ce qui manque. Si le groupe change une règle, il annonce la nouvelle version à tous avant de recommencer."
           ],
-          "takeaway": "Une règle de jeu doit être comprise avant de commencer et s’appliquer de la même façon aux participants.",
+          "takeaway": "J’écris une règle précise, je la teste et je vérifie que tous la comprennent de la même façon.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Établir et appliquer les règles d’un jeu » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une règle de jeu doit être comprise avant de commencer et s’appliquer de la même façon aux participants. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "La balle touche le bord du cercle. Combien de points comptes-tu selon la fiche ?",
+              "answer": "0 point, puisque la balle n’est pas entièrement dans le cercle.",
+              "explanation": "Le comptage suit la même règle pour chaque joueur.",
               "id": "SH-U7-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Établir et appliquer les règles d’un jeu ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une règle de jeu doit être comprise avant de commencer et s’appliquer de la même façon aux participants.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Deux joueurs finissent avec 2 points. Que faut-il annoncer et que faire si on veut une autre règle ?",
+              "answer": "Ils sont à égalité. On peut proposer et expliquer une autre règle à tous avant une nouvelle partie.",
+              "explanation": "Les participants doivent connaître la règle avant qu’elle s’applique.",
               "id": "SH-U7-L7-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U7, p.133.",
-          "practical": [],
+          "practical": [
+            "Testez une partie avec une balle de papier. Un observateur note les points. Faites lire le règlement à un autre groupe et corrigez une règle ambiguë avant la partie suivante."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Établir et appliquer les règles d’un jeu » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Établir et appliquer les règles d’un jeu » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Une règle de jeu doit être comprise avant de commencer et s’appliquer de la même façon aux participants. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Le jeu des trois lancers",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Point du règlement",
+                  "Règle proposée"
+                ],
+                "rows": [
+                  [
+                    "But",
+                    "Marquer le plus de points en trois lancers chacun."
+                  ],
+                  [
+                    "Tour",
+                    "Lancer une balle souple derrière la ligne."
+                  ],
+                  [
+                    "Comptage",
+                    "La balle entièrement dans le cercle vaut 1 point. Sur le bord ou dehors, elle vaut 0."
+                  ],
+                  [
+                    "Égalité",
+                    "Les joueurs gardent le même résultat."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, règles et règlements, U7, p.133.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2163,59 +2205,76 @@
           "objectives": [
             "Expliquer l’action de Charles Atangana, Galiga, Hans Dominik et Paul Zingraff."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Personnalités historiques du Cameroun ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quatre cartes décrivent des personnes qui ont joué des rôles différents pendant la période coloniale allemande. Qui négocie ? Qui commande une troupe ?",
           "learn": [
-            "Le curriculum cite ces personnalités ; les notices biographiques et le contexte historique doivent être vérifiés avant publication."
+            "Les personnes d’une même époque peuvent avoir des rôles différents. Un chef local peut négocier, un interprète peut transmettre des paroles entre des langues et un officier peut commander des soldats.",
+            "Une alliance est un accord entre des acteurs. Pour l’étudier, on identifie les personnes et on cherche à comprendre ce qu’elles font et ce que l’accord change pour d’autres habitants."
           ],
-          "takeaway": "Le curriculum cite ces personnalités ; les notices biographiques et le contexte historique doivent être vérifiés avant publication.",
+          "takeaway": "Je relie chaque personne à un lieu et à une action documentée.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Personnalités historiques du Cameroun » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum cite ces personnalités ; les notices biographiques et le contexte historique doivent être vérifiés avant publication. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quels deux acteurs la fiche relie-t-elle à l’alliance à Bali-Nyonga ? Donne le rôle de chacun.",
+              "answer": "Galega Ier, chef de Bali-Nyonga, et Eugen Zintgraff, explorateur allemand qui négocie l’accord.",
+              "explanation": "Lis les deux lignes qui portent le même lieu et distingue leurs rôles.",
               "id": "SH-U7-L8-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Personnalités historiques du Cameroun ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le curriculum cite ces personnalités ; les notices biographiques et le contexte historique doivent être vérifiés avant publication.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle personne travaille comme interprète ? Quelle personne commande des soldats ?",
+              "answer": "Charles Atangana est interprète. Hans Dominik est un officier qui commande des soldats.",
+              "explanation": "Cherche les actions dans la troisième colonne.",
               "id": "SH-U7-L8-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U7, p.136.",
-          "practical": [],
+          "practical": [
+            "Mélangez quatre cartes Personne et quatre cartes Action. Reconstituez les paires avec le tableau. Relevez ensuite les deux personnes liées par l’alliance de Bali-Nyonga."
+          ],
           "notes": [
-            "Vérifier les biographies sur des sources historiques fiables."
+            "Le curriculum p.136 donne les graphies « Galiga » et « Paul Zingraff ». Les études sur l’alliance documentent Galega Ier et Eugen Zintgraff. Ce rapprochement reste à confirmer par l’équipe pédagogique."
           ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Personnalités historiques du Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Personnalités historiques du Cameroun » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum cite ces personnalités ; les notices biographiques et le contexte historique doivent être vérifiés avant publication. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Quatre fiches historiques",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Personne",
+                  "Lieu repère",
+                  "Action documentée"
+                ],
+                "rows": [
+                  [
+                    "Charles Atangana",
+                    "Région de Yaoundé",
+                    "Interprète, puis chef supérieur des Ewondo et des Bene. Il travaille avec des administrateurs de la période allemande."
+                  ],
+                  [
+                    "Galega Ier",
+                    "Bali-Nyonga",
+                    "Fon, c’est-à-dire chef de Bali-Nyonga. Il conclut une alliance avec Eugen Zintgraff."
+                  ],
+                  [
+                    "Eugen Zintgraff",
+                    "Bali-Nyonga",
+                    "Explorateur allemand qui négocie l’alliance avec Galega Ier pour étendre l’influence allemande."
+                  ],
+                  [
+                    "Hans Dominik",
+                    "Yaoundé et Adamaoua",
+                    "Officier allemand. Il dirige un poste militaire à Yaoundé et prend part à des campagnes de conquête."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, histoire, U7, p.136.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2224,57 +2283,65 @@
           "objectives": [
             "Expliquer les bienfaits du brassage des populations."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Brassage des populations ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans un quartier fictif, des familles venues de plusieurs localités préparent un après-midi de jeux. Chaque famille propose une règle, un mot ou une façon de fabriquer du matériel.",
           "learn": [
-            "Les rencontres entre populations favorisent échanges, connaissance mutuelle et coopération lorsqu’elles respectent les droits et les identités de chacun."
+            "Le brassage des populations désigne les rencontres et les échanges entre des personnes de parcours différents. Des personnes peuvent se déplacer pour la famille, le travail ou les études.",
+            "Ces rencontres permettent de partager des savoir-faire et d’apprendre des mots ou des habitudes. L’écoute et la participation de chacun aident à trouver des accords."
           ],
-          "takeaway": "Les rencontres entre populations favorisent échanges, connaissance mutuelle et coopération lorsqu’elles respectent les droits et les identités de chacun.",
+          "takeaway": "Je décris ce que plusieurs personnes apportent à un projet commun et ce qu’elles y apprennent.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Brassage des populations » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les rencontres entre populations favorisent échanges, connaissance mutuelle et coopération lorsqu’elles respectent les droits et les identités de chacun. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Donne deux savoir-faire ou habitudes partagés dans le projet.",
+              "answer": "Par exemple les règles du jeu de graines et la façon de tracer les cases sur une natte.",
+              "explanation": "Un échange transmet une idée d’une personne à d’autres.",
               "id": "SH-U7-L9-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Brassage des populations ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les rencontres entre populations favorisent échanges, connaissance mutuelle et coopération lorsqu’elles respectent les droits et les identités de chacun.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Une nouvelle famille connaît une variante du jeu. Comment le groupe peut-il l’apprendre ?",
+              "answer": "L’inviter à montrer sa variante, faire un essai et décider ensemble quand l’utiliser.",
+              "explanation": "L’accueil rend possible un échange dans les deux sens.",
               "id": "SH-U7-L9-E2"
             }
           ],
           "source": "Curriculum CE2, géographie humaine, U7, p.141.",
-          "practical": [],
+          "practical": [
+            "Avec trois cartes fictives, préparez une activité qui associe deux idées du tableau. Expliquez comment une personne nouvellement arrivée peut proposer la sienne."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Brassage des populations » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Brassage des populations » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les rencontres entre populations favorisent échanges, connaissance mutuelle et coopération lorsqu’elles respectent les droits et les identités de chacun. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les jeux » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Le projet du quartier",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Apport",
+                  "Ce que le groupe en fait"
+                ],
+                "rows": [
+                  [
+                    "Un jeu de graines déjà pratiqué par une famille",
+                    "La famille montre les gestes et les règles."
+                  ],
+                  [
+                    "Une manière de tracer les cases sur une natte",
+                    "Le groupe fabrique un plateau transportable."
+                  ],
+                  [
+                    "Des mots de bienvenue dans deux langues",
+                    "Les participants les apprennent et les utilisent à l’accueil."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie humaine, U7, p.141.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         }
       ],
@@ -2284,28 +2351,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Endurance et effort",
-            "answer": "L’endurance consiste à poursuivre un effort adapté sans abandonner trop vite, tout en respectant ses limites et les règles de sécurité."
+            "prompt": "Une équipe gagne après deux essais. Propose un geste pour garder un effort adapté et une phrase modeste après la partie.",
+            "answer": "Choisir un rythme confortable et faire une pause si nécessaire. Exemple « Nous avons mieux coopéré au second essai. Merci pour la partie. »"
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Modestie",
-            "answer": "Être modeste, c’est reconnaître ses réussites sans rabaisser les autres et accepter d’apprendre."
+            "prompt": "Deux écoles se rencontrent et une personne demande à jouer assise. Propose une adaptation et une façon de former les équipes.",
+            "answer": "Régler la hauteur de la cible et permettre le lancer assis. Mélanger les élèves des deux écoles et faire tourner les rôles."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Droit au jeu et aux loisirs",
-            "answer": "Le jeu et les loisirs participent au développement de l’enfant lorsqu’ils sont sûrs, adaptés et respectueux des autres."
+            "prompt": "Dans un jeu, une balle dans le cercle vaut 1 et une balle sur le bord vaut 0. Lina envoie deux balles dedans et une sur le bord. Donne le score et une règle de sécurité.",
+            "answer": "2 points. Par exemple, lancer une balle souple derrière la ligne et attendre que l’espace soit libre."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Vivre ensemble pendant les jeux",
-            "answer": "Je respecte mes partenaires, mes adversaires, les règles et les décisions communes."
+            "prompt": "Associe Hans Dominik et Charles Atangana à une action de leurs fiches. Dans quelle région leurs activités se rencontrent-elles ?",
+            "answer": "Dominik dirige un poste militaire à Yaoundé. Atangana travaille comme interprète puis devient chef supérieur. Les deux fiches mentionnent Yaoundé."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Sécurité pendant les jeux",
-            "answer": "Je vérifie l’espace, le matériel, les règles et j’arrête en cas de danger ou de douleur."
+            "prompt": "Des familles de localités différentes préparent un jeu commun. Donne un exemple d’échange et explique ce qu’il apporte.",
+            "answer": "Une famille montre sa règle, une autre fabrique les cases. Le groupe apprend deux savoir-faire et prépare ensemble une activité accessible."
           }
         ]
       },

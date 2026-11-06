@@ -21,6 +21,6 @@ Les ajouts doivent partir des objectifs du curriculum de la classe et proposer u
 
 ## Application au lot actuel
 
-Les 39 leçons françaises CE2 U4–U8 apportent cinq récits originaux, deux poèmes, des dialogues, mini-lexiques, tableaux de conjugaison, trois modèles de dictée et 78 exercices corrigés. Leurs identifiants restent stables. Le prochain lot cible les 17 leçons de sciences et 12 de TIC encore génériques, avec des supports et actions réalisables par l’enfant accompagné.
+Les 39 leçons françaises CE2 U4–U8 apportent cinq récits originaux, deux poèmes, des dialogues, mini-lexiques, tableaux de conjugaison, trois modèles de dictée et 78 exercices corrigés. Leurs identifiants restent stables. Les unités U4–U8 comprennent aussi 17 leçons de sciences et 12 de TIC réécrites, avec des supports, des activités accompagnées et des exercices corrigés. [Détail et sources](CE2_SCIENCES_TIC.md#réécriture-intégrée)
 
 La progression globale et les limites de couverture restent suivies dans [la trajectoire](TRAJECTOIRE.md).

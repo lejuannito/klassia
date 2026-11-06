@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610 355" role="img" aria-labelledby="title desc">
+  <title id="title">Flexion et extension du coude</title>
+  <desc id="desc">Le biceps participe à la flexion, quand l’avant-bras se rapproche du bras. Le triceps participe à l’extension, quand l’avant-bras s’éloigne.</desc>
+  <defs>
+    <marker id="pointe" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0 0 7 3.5 0 7Z" fill="#155e75"/>
+    </marker>
+  </defs>
+  <rect width="610" height="355" rx="20" fill="#f0f9ff"/>
+  <g font-family="system-ui, sans-serif" fill="#112a3d">
+    <text x="305" y="42" font-size="26" font-weight="700" text-anchor="middle">Deux mouvements du coude</text>
+    <rect x="16" y="62" width="282" height="275" rx="16" fill="#fff" stroke="#a7c8d4"/>
+    <rect x="312" y="62" width="282" height="275" rx="16" fill="#fff" stroke="#a7c8d4"/>
+    <g text-anchor="middle" font-size="23" font-weight="700">
+      <text x="157" y="99">1 · Flexion</text>
+      <text x="453" y="99">2 · Extension</text>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m95 139 45 87 65-86m177-1 46 86 45 83" stroke="#335469" stroke-width="29"/>
+      <path d="m95 139 45 87 65-86m177-1 46 86 45 83" stroke="#dbe7ec" stroke-width="22"/>
+      <path d="M112 148q22 11 25 54m232-51q1 38 34 62" stroke="#b45309" stroke-width="8"/>
+      <g stroke="#155e75" stroke-width="4" marker-end="url(#pointe)">
+        <path d="M228 216q23-18 20-53"/>
+        <path d="M518 207q28 28 18 63"/>
+      </g>
+      <path d="m111 251 21-17m266 19 21-19M128 166l33-26h26M392 195l37-39h28" stroke="#335469" stroke-width="2.5"/>
+    </g>
+    <g fill="#155e75" stroke="#fff" stroke-width="2.5">
+      <circle cx="140" cy="226" r="9"/>
+      <circle cx="428" cy="225" r="9"/>
+    </g>
+    <g font-size="20">
+      <text x="57" y="270">Coude</text>
+      <text x="345" y="271">Coude</text>
+      <text x="159" y="130" font-weight="700">Biceps</text>
+      <text x="430" y="147" font-weight="700">Triceps</text>
+    </g>
+  </g>
+</svg>

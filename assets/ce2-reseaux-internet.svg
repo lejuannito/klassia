@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 397" role="img" aria-labelledby="title desc">
+  <title id="title">Deux réseaux locaux reliés par Internet</title>
+  <desc id="desc">Dans la classe, la tablette et l’ordinateur sont reliés à un boîtier. Le centre de santé a son propre réseau local. Les deux boîtiers sont reliés par Internet.</desc>
+  <rect width="620" height="397" rx="20" fill="#f0f9ff"/>
+  <g font-family="system-ui, sans-serif" fill="#112a3d" text-anchor="middle">
+    <text x="310" y="42" font-size="26" font-weight="700">Des appareils et des réseaux</text>
+    <rect x="17" y="68" width="270" height="250" rx="16" fill="#fff" stroke="#72a7b9" stroke-width="3"/>
+    <rect x="333" y="68" width="270" height="250" rx="16" fill="#fff" stroke="#72a7b9" stroke-width="3"/>
+    <g font-size="22" font-weight="700">
+      <text x="152" y="102">Réseau de la classe</text>
+      <text x="468" y="102">Réseau du centre</text>
+      <text x="468" y="129">de santé</text>
+    </g>
+    <g stroke="#155e75" stroke-width="4" fill="none">
+      <path d="M61 160H40v74h112v28m96-102h19v74H152M501 160h61v74h-94v28"/>
+      <path d="M152 298v58h97m219-58v58h-97" stroke-dasharray="9 6"/>
+    </g>
+    <g fill="#d9ebf6" stroke="#335469" stroke-width="3">
+      <rect x="61" y="139" width="54" height="42" rx="5"/>
+      <path d="M182 139h66v37h-66zm13 42h40"/>
+      <path d="M435 139h66v37h-66zm13 42h40"/>
+      <rect x="96" y="256" width="112" height="42" rx="8" fill="#d4ece8"/>
+      <rect x="412" y="256" width="112" height="42" rx="8" fill="#d4ece8"/>
+      <rect x="247" y="333" width="126" height="46" rx="19" fill="#fff"/>
+    </g>
+    <g font-size="19">
+      <text x="88" y="215">Tablette</text>
+      <text x="215" y="215">Ordinateur</text>
+      <text x="468" y="215">Ordinateur</text>
+      <text x="152" y="283">Boîtier</text>
+      <text x="468" y="283">Boîtier</text>
+      <text x="310" y="363" font-size="22" font-weight="700">Internet</text>
+    </g>
+  </g>
+</svg>

@@ -1329,57 +1329,73 @@
           "objectives": [
             "Analyser les effets des parasites intestinaux et de la peau sur la vie de l’enfant."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Effets des parasites sur la santé de l’enfant ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux récits de voyage racontent des visites au centre de santé. Dans l’un, des vers vivent dans l’intestin. Dans l’autre, un tout petit parasite vit dans la peau. Compare les effets décrits.",
           "learn": [
-            "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés."
+            "Un parasite vit sur ou dans un être vivant dont il tire des ressources. Certains vers vivent dans l’intestin. Un acarien est responsable de la gale, qui touche la peau.",
+            "Certaines infections par des vers peuvent provoquer des maux de ventre ou de la fatigue. La gale peut provoquer de fortes démangeaisons et gêner le sommeil.",
+            "Ces signes peuvent aussi avoir d’autres causes. Le professionnel de santé examine la personne avant de proposer des soins."
           ],
-          "takeaway": "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés.",
+          "takeaway": "Pour comparer deux parasitoses, je repère la partie du corps touchée et les effets sur la vie quotidienne.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Effets des parasites sur la santé de l’enfant » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle fiche décrit un problème de peau ? Quel effet peut gêner la nuit ?",
+              "answer": "La fiche B. Les démangeaisons peuvent gêner le sommeil.",
+              "explanation": "Relis les colonnes Partie touchée et Effet décrit.",
               "id": "SC-U5-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Effets des parasites sur la santé de l’enfant ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Explique en deux phrases comment les effets des fiches A et B peuvent gêner la journée de l’enfant. Que fais-tu si un camarade s’inquiète pour sa santé ?",
+              "answer": "A peut se fatiguer pendant les jeux à cause de son inconfort. B peut être fatigué après une nuit gênée par les démangeaisons. Je l’encourage à en parler à un adulte.",
+              "explanation": "Relie un effet à une activité sans attribuer une maladie à partir d’un seul signe.",
               "id": "SC-U5-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U5, p.98.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Trace deux colonnes, Intestin et Peau. Recopie un effet observé dans chaque fiche et une activité qu’il pourrait gêner."
+          ],
+          "notes": [
+            "Repères : OMS, Géohelminthiases et Gale. Les cas sont fictifs."
+          ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Effets des parasites sur la santé de l’enfant », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Deux fiches fictives rédigées après une consultation",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Fiche",
+                  "Partie touchée",
+                  "Effet décrit"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Intestin, avec des vers parasites",
+                    "L’enfant a mal au ventre et se fatigue pendant les jeux."
+                  ],
+                  [
+                    "B",
+                    "Peau, avec la gale",
+                    "Les démangeaisons gênent le sommeil."
+                  ]
+                ]
+              },
+              "body": "Les noms des maladies sont donnés par les fiches. On observe leurs effets pour les comparer."
             },
             {
-              "title": "Exemple guidé",
+              "title": "Agir avec l’adulte",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Effets des parasites sur la santé de l’enfant » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « effets des parasites sur la santé de l’enfant ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "Se laver les mains et suivre les règles d’hygiène données par les adultes aide à limiter certaines infections. Si un inconfort dure ou inquiète, j’en parle à un adulte. Le choix du soin appartient aux professionnels."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sciences de la vie, U5, p.98.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1388,59 +1404,74 @@
           "objectives": [
             "Expliquer le fonctionnement d’un moteur à deux temps."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Fonctionnement d’un moteur à deux temps ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur le schéma, un piston monte puis descend. Un moteur peut répéter ces deux mouvements pour faire tourner un axe. À quel moment les gaz poussent-ils le piston ?",
           "learn": [
-            "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse."
+            "Le piston est une pièce qui glisse dans le cylindre. Dans le moteur à deux temps étudié, un cycle comprend une montée et une descente.",
+            "Pendant la montée, le piston comprime le mélange d’air et de carburant au-dessus de lui. Près du haut, la bougie donne une étincelle qui allume ce mélange.",
+            "Les gaz produits se dilatent et poussent le piston vers le bas. Vers la fin de la descente, les gaz brûlés sortent et du mélange frais peut entrer. Une bielle et un vilebrequin transforment ces mouvements en rotation."
           ],
-          "takeaway": "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse.",
+          "takeaway": "Une montée comprime le mélange. L’allumage puis la poussée des gaz font descendre le piston. Le cycle recommence.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Fonctionnement d’un moteur à deux temps » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Que fait le piston pendant la première phase ? Quel est le rôle de la bougie ?",
+              "answer": "Le piston monte et comprime le mélange. La bougie produit une étincelle près de la fin de la montée.",
+              "explanation": "Commence par lire la flèche de la phase 1, puis repère la bougie en haut du cylindre.",
               "id": "SC-U5-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Fonctionnement d’un moteur à deux temps ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Remets en ordre : sortie des gaz, compression, poussée vers le bas, étincelle. Quel élément transmet le mouvement vers l’axe ?",
+              "answer": "Compression → étincelle → poussée vers le bas → sortie des gaz brûlés. La bielle transmet le mouvement du piston au vilebrequin, qui tourne.",
+              "explanation": "La descente est causée par la poussée des gaz après l’allumage. La sortie des gaz arrive vers la fin de cette descente.",
               "id": "SC-U5-L2-E2"
             }
           ],
           "source": "Curriculum CE2, technologies, U5, p.103.",
-          "practical": [],
+          "practical": [
+            "Utilise le schéma et mime le mouvement du piston avec une main. Explique la montée puis la descente. L’activité se fait sur le dessin, loin d’un moteur en marche."
+          ],
           "notes": [
-            "Pas de manipulation d’un moteur en fonctionnement par les élèves."
+            "Exemple simplifié de moteur à deux temps à bougie. Repères techniques : Yamaha Motor et FAA, chapitre Two-Stroke Process."
           ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Fonctionnement d’un moteur à deux temps », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Suivre le cycle sur le dessin",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Mouvement",
+                  "Ce qui se passe dans le cylindre"
+                ],
+                "rows": [
+                  [
+                    "1 · Le piston monte",
+                    "Le mélange est comprimé. L’étincelle arrive près du haut."
+                  ],
+                  [
+                    "2 · Le piston descend",
+                    "Les gaz poussent le piston. Les gaz brûlés sortent en fin de descente et un nouveau mélange entre."
+                  ]
+                ]
+              },
+              "body": "Le schéma montre un moteur simplifié à allumage par bougie. Les flèches indiquent le sens du piston."
             },
             {
-              "title": "Exemple guidé",
+              "title": "Des cartes à remettre en ordre",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Fonctionnement d’un moteur à deux temps » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « fonctionnement d’un moteur à deux temps ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "Compression, étincelle, poussée, sortie des gaz. Place les cartes sur les deux mouvements du dessin."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, technologies, U5, p.103.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-moteur-deux-temps.svg",
+            "alt": "Deux dessins du cylindre. À gauche, la flèche monte et le mélange est comprimé. À droite, les gaz poussent le piston vers le bas et les gaz brûlés sortent."
           }
         },
         {
@@ -1450,59 +1481,86 @@
             "Situer des aires protégées sur une carte du Cameroun.",
             "Décrire les spécificités de chaque aire protégée étudiée."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Aires protégées du Cameroun ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une carte présente trois aires protégées. Un voyageur veut observer une savane au nord. Une autre personne s’intéresse à une forêt humide. Aide-les à lire les repères.",
           "learn": [
-            "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication."
+            "Une aire protégée est un espace où des règles servent à préserver les milieux et les êtres vivants. Les visiteurs suivent les consignes du lieu.",
+            "Sur cette carte, le nord est en haut. Les numéros renvoient aux noms dans la légende.",
+            "Les milieux sont différents. Waza comprend des savanes et des plaines qui s’inondent selon la saison. La Bénoué comprend une savane boisée près du fleuve. Le Dja est une forêt humide entourée en grande partie par une rivière."
           ],
-          "takeaway": "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication.",
+          "takeaway": "Je lis la légende, je situe un repère dans le pays et je donne une caractéristique du site.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Aires protégées du Cameroun » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel numéro désigne le Dja ? Où se trouve-t-il par rapport à Waza ?",
+              "answer": "Le Dja est le repère 3. Il est au sud de Waza, vers le sud-est du Cameroun.",
+              "explanation": "La flèche du nord pointe vers le haut. Compare la hauteur des deux repères.",
               "id": "SC-U5-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Aires protégées du Cameroun ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Propose deux étapes à une classe qui veut comparer un milieu du nord et la forêt humide. Cite les numéros, les noms et un trait de chaque milieu.",
+              "answer": "Exemple : repère 1 Waza, savane et plaines du Yaéré, puis repère 3 Dja, forêt humide près de la rivière Dja. Le repère 2 Bénoué, savane boisée près du fleuve, convient aussi pour le nord.",
+              "explanation": "Tes deux étapes doivent correspondre à deux fiches de la carte et permettre une comparaison.",
               "id": "SC-U5-L3-E2"
             }
           ],
           "source": "Curriculum CE2, environnement et développement durable, U5, p.108.",
-          "practical": [],
+          "practical": [
+            "Montre le nord sur la carte. Cache le tableau, retrouve les trois noms avec la légende puis donne un indice du milieu de chacun."
+          ],
           "notes": [
-            "Les noms, limites et statuts contemporains des aires protégées doivent être vérifiés sur des sources officielles avant publication."
+            "Carte originale. Contour Natural Earth au 1:110 millions. Positions et milieux vérifiés dans les fiches UNESCO Waza, Bénoué et Dja."
           ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Aires protégées du Cameroun », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Les trois fiches de la carte",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Repère",
+                  "Site",
+                  "Position",
+                  "Milieu à reconnaître"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Waza",
+                    "Extrême-Nord",
+                    "Savanes et plaines du Yaéré"
+                  ],
+                  [
+                    "2",
+                    "Bénoué",
+                    "Nord",
+                    "Savane boisée et plaine du fleuve Bénoué"
+                  ],
+                  [
+                    "3",
+                    "Dja",
+                    "Sud-est du pays",
+                    "Forêt humide près de la rivière Dja"
+                  ]
+                ]
+              },
+              "body": "Les points servent à se repérer. Ils ne représentent pas la surface des sites."
             },
             {
-              "title": "Exemple guidé",
+              "title": "Exemple de lecture",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Aires protégées du Cameroun » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « aires protégées du cameroun ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "Le repère 2 est plus bas que le repère 1. Il est donc plus au sud que Waza. Sa fiche décrit une savane boisée, près du fleuve Bénoué."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, environnement et développement durable, U5, p.108.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-aires-protegees.svg",
+            "alt": "Carte du Cameroun, nord vers le haut. Waza est le repère 1 à l’extrême nord, la Bénoué le 2 dans le nord, le Dja le 3 au sud-est."
           }
         }
       ],
@@ -1512,28 +1570,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Effets des parasites sur la santé de l’enfant",
-            "answer": "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés."
+            "prompt": "Une fiche parle de vers dans l’intestin. L’autre décrit la gale, due à un acarien dans la peau. Classe chaque cas et cite un effet possible de chacun.",
+            "answer": "Les vers sont des parasites intestinaux et peuvent donner des douleurs au ventre. L’acarien de la gale est un parasite cutané et peut provoquer de fortes démangeaisons."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Fonctionnement d’un moteur à deux temps",
-            "answer": "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse."
+            "prompt": "Le piston monte dans le moteur à bougie étudié. Que devient le mélange et quel élément l’allume ?",
+            "answer": "Le mélange est comprimé. Une étincelle produite par la bougie l’allume près de la fin de la montée."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Aires protégées du Cameroun",
-            "answer": "Une aire protégée est un espace géré pour préserver des milieux, des espèces ou des patrimoines. Les exemples et cartes doivent être vérifiés avant publication."
+            "prompt": "Explique la descente du piston. Quand les gaz brûlés peuvent-ils sortir ?",
+            "answer": "Les gaz issus de l’allumage poussent le piston vers le bas. Les gaz brûlés peuvent sortir vers la fin de la descente."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Effets des parasites sur la santé de l’enfant",
-            "answer": "Les parasites peuvent nuire à la santé, au confort, à la nutrition ou au sommeil ; la prévention repose notamment sur l’hygiène et les soins adaptés."
+            "prompt": "Sur la carte de la leçon, retrouve la Bénoué et le Dja. Donne leur repère et une différence de milieu.",
+            "answer": "Bénoué, repère 2, savane boisée près du fleuve. Dja, repère 3, forêt humide près de la rivière."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Fonctionnement d’un moteur à deux temps",
-            "answer": "Le curriculum demande une explication du principe. Au CE2, on reste sur une représentation schématique simple, sans démontage ni manipulation dangereuse."
+            "prompt": "Un guide montre un chemin autorisé et demande de garder les déchets avec soi. Donne deux actions à suivre pendant la visite et explique leur but.",
+            "answer": "Je reste sur le chemin et garde mes déchets jusqu’au point de collecte. Ces gestes évitent de perturber les êtres vivants et de salir leur milieu."
           }
         ]
       },
@@ -1556,64 +1614,112 @@
             "Créer un tableau avec un tableur.",
             "Effectuer addition, soustraction et division avec un tableur."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Créer un tableau et calculer avec un tableur ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour un voyage fictif, le groupe note les frais de transport et d’eau. Avec le tableur, il veut calculer le total, l’argent restant et la part de chaque personne.",
           "learn": [
-            "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées."
+            "Dans un tableur, une cellule porte une adresse. B2 signifie colonne B, ligne 2.",
+            "Une formule commence par le signe égal. Écrire =B2+B3 demande au tableur d’ajouter les nombres des cellules B2 et B3.",
+            "Le signe − se saisit avec la touche - pour soustraire. La barre / sert à diviser. Si un nombre change dans le tableau, le tableur peut recalculer les résultats."
           ],
-          "takeaway": "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées.",
+          "takeaway": "Je repère les adresses, j’écris la formule et je vérifie le résultat par un calcul simple.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Créer un tableau et calculer avec un tableur » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
-              "type": "open",
+              "type": "number",
+              "prompt": "Dans le modèle, quel nombre la formule =B5-B4 affiche-t-elle en B6 ? Saisis seulement le nombre.",
+              "answer": 200,
+              "explanation": "B5 vaut 1 000 et B4 vaut 800. Le reste est 1 000 − 800 = 200 francs CFA.",
               "id": "TI-U5-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Créer un tableau et calculer avec un tableur ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Nouveau voyage : B2 vaut 800, B3 vaut 400, B5 vaut 1 600 et B7 vaut 3. Écris les trois formules et calcule le total, le reste et la part.",
+              "answer": "B4 =B2+B3 affiche 1 200. B6 =B5-B4 affiche 400. B8 =B4/B7 affiche 400 francs CFA par personne.",
+              "explanation": "Additionne les deux dépenses, retire le total du budget puis partage le total entre les trois personnes.",
               "id": "TI-U5-L1-E2"
             }
           ],
           "source": "Curriculum CE2, production avec les outils TIC, U5, p.114.",
-          "practical": [],
+          "practical": [
+            "Recopie le modèle sur une feuille. Change une dépense et repère les cellules dont le résultat doit changer. Si un tableur est disponible, vérifie avec l’adulte."
+          ],
           "notes": [
-            "Le tableau officiel répète la soustraction et ne mentionne pas explicitement la multiplication ; point à valider."
+            "Curriculum p.114 : addition, soustraction et division sont citées. La soustraction apparaît deux fois."
           ],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Créer un tableau et calculer avec un tableur », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+              "title": "Budget fictif du groupe",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Ligne",
+                  "Colonne A",
+                  "Colonne B : valeur ou formule",
+                  "Résultat affiché"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Dépense ou calcul",
+                    "Francs ou effectif",
+                    "En-têtes"
+                  ],
+                  [
+                    "2",
+                    "Transport",
+                    "600",
+                    "600"
+                  ],
+                  [
+                    "3",
+                    "Eau",
+                    "200",
+                    "200"
+                  ],
+                  [
+                    "4",
+                    "Total",
+                    "=B2+B3",
+                    "800"
+                  ],
+                  [
+                    "5",
+                    "Budget prévu",
+                    "1 000",
+                    "1 000"
+                  ],
+                  [
+                    "6",
+                    "Reste",
+                    "=B5-B4",
+                    "200"
+                  ],
+                  [
+                    "7",
+                    "Personnes",
+                    "4",
+                    "4"
+                  ],
+                  [
+                    "8",
+                    "Part par personne",
+                    "=B4/B7",
+                    "200"
+                  ]
+                ]
+              },
+              "body": "Le budget et les dépenses sont exprimés en francs CFA. B7 contient un nombre de personnes."
             },
             {
-              "title": "Procédure guidée",
+              "title": "Construire le tableau",
               "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Créer un tableau et calculer avec un tableur » et donne un exemple adapté au thème « Les voyages ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
-            },
-            {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
-            },
-            {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les voyages » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "body": "Sur papier, prépare les colonnes A et B. Dans un tableur disponible, saisis les nombres de B2, B3, B5 et B7. Tape les formules de B4, B6 et B8. Compare les trois résultats avec ton calcul à la main."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, production avec les outils TIC, U5, p.114.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1622,62 +1728,66 @@
           "objectives": [
             "Expliquer les précautions à prendre lors de l’utilisation des TIC pendant les voyages."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Sécurité des TIC pendant un voyage ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "À la gare, Lina veut lire sa carte numérique. Ensuite, quelqu’un qu’elle ne connaît pas lui demande de partager sa position et son adresse.",
           "learn": [
-            "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes."
+            "Une carte numérique peut aider à se repérer. Je consulte l’écran lorsque je suis à l’arrêt dans un endroit sûr, avec l’accord de l’adulte.",
+            "En déplacement, je range l’appareil lorsqu’il ne sert pas. Les coordonnées, l’adresse et la position ne se communiquent pas à un inconnu.",
+            "Un lien reçu d’un inconnu peut être trompeur. Je montre le message à un adulte de confiance et j’attends avant d’agir."
           ],
-          "takeaway": "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes.",
+          "takeaway": "Je m’arrête pour consulter l’écran, je protège mon appareil et je vérifie à qui je communique.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité des TIC pendant un voyage » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "À quel moment Lina peut-elle consulter la carte ? Pourquoi ?",
+              "answer": "Quand elle est à l’arrêt dans un lieu sûr avec l’accord de l’adulte. Elle reste attentive pendant le déplacement.",
+              "explanation": "Compare les deux premières lignes du tableau.",
               "id": "TI-U5-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité des TIC pendant un voyage ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un message inconnu demande ta position et propose un lien. Que fais-tu avant de continuer le trajet ?",
+              "answer": "Je ne partage pas ma position et je ne clique pas. Je montre le message à l’adulte, puis je range l’appareil pendant le déplacement.",
+              "explanation": "Distingue la prudence face au message et la sécurité pendant la marche.",
               "id": "TI-U5-L2-E2"
             }
           ],
           "source": "Curriculum CE2, santé, sécurité et éthique TIC, U5, p.116.",
-          "practical": [],
+          "practical": [
+            "Joue un trajet avec trois cartes, Traverser, Consulter, Ranger. Indique quand l’écran est utile. Utilise une carte fictive sans activer le partage de position."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Sécurité des TIC pendant un voyage », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
-            },
-            {
-              "title": "Procédure guidée",
-              "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Sécurité des TIC pendant un voyage » et donne un exemple adapté au thème « Les voyages ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
-            },
-            {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
-            },
-            {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les voyages » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "title": "Trois moments du voyage",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Décision"
+                ],
+                "rows": [
+                  [
+                    "En traversant une rue",
+                    "Ranger l’appareil et regarder le passage."
+                  ],
+                  [
+                    "À l’arrêt avec l’adulte",
+                    "Consulter la carte avec son accord."
+                  ],
+                  [
+                    "Un inconnu demande l’adresse",
+                    "Garder l’adresse privée et en parler à l’adulte."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, santé, sécurité et éthique TIC, U5, p.116.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         }
       ],
@@ -1687,28 +1797,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Créer un tableau et calculer avec un tableur",
-            "answer": "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées."
+            "prompt": "Dans un tableau de dépenses, B2 vaut 450 et B3 vaut 150. Quelle formule écris-tu en B4 pour obtenir le total ? Donne le résultat.",
+            "answer": "Dans B4, saisir =B2+B3. Le total est de 600 F CFA."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Sécurité des TIC pendant un voyage",
-            "answer": "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes."
+            "prompt": "B5 contient 900 F CFA disponibles. Le total des dépenses en B4 est de 600. Quelle formule et quel résultat pour le reste en B6 ?",
+            "answer": "Dans B6, saisir =B5-B4. Le reste est de 300 F CFA."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Créer un tableau et calculer avec un tableur",
-            "answer": "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées."
+            "prompt": "B7 indique 3 parts égales. Répartis le total B4 de 600 F CFA dans B8 avec une formule. Combien par part ?",
+            "answer": "Dans B8, saisir =B4/B7. Une part vaut 200 F CFA."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Sécurité des TIC pendant un voyage",
-            "answer": "Je protège l’appareil, évite les usages dangereux pendant les déplacements et respecte la vie privée et les consignes des adultes."
+            "prompt": "Tu souhaites lire le plan sur un téléphone pendant un trajet à pied. Où et quand peux-tu le faire ? Que fais-tu ensuite de l’appareil ?",
+            "answer": "Je m’arrête dans un lieu sûr avec le groupe, je lis le plan puis je range l’appareil avant de reprendre la marche."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Créer un tableau et calculer avec un tableur",
-            "answer": "Une feuille de calcul organise les données en cellules ; une formule commence par une instruction de calcul et référence les cellules concernées."
+            "prompt": "Un inconnu envoie un message qui demande ta position et le nom de ton école. Propose une réponse sûre.",
+            "answer": "Je garde ces informations privées et je montre la demande à un adulte de confiance."
           }
         ]
       },

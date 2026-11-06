@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 367" role="img" aria-labelledby="title desc">
+  <title id="title">Lire la balance et le thermomètre</title>
+  <desc id="desc">La balance indique 350 grammes. Le thermomètre est gradué de 20 à 30 degrés Celsius de deux en deux. Le niveau atteint la deuxième graduation après 20.</desc>
+  <rect width="600" height="367" rx="20" fill="#f0f9ff"/>
+  <g font-family="system-ui, sans-serif" fill="#112a3d">
+    <text x="300" y="43" font-size="26" font-weight="700" text-anchor="middle">Deux lectures à relever</text>
+    <rect x="18" y="61" width="274" height="288" rx="16" fill="#fff" stroke="#a7c8d4"/>
+    <rect x="308" y="61" width="274" height="288" rx="16" fill="#fff" stroke="#a7c8d4"/>
+    <g font-size="23" font-weight="700" text-anchor="middle">
+      <text x="155" y="100">Balance</text>
+      <text x="445" y="100">Thermomètre</text>
+    </g>
+    <path d="M102 204q3-37 24-51l-7-17h72l-7 17q21 14 24 51z" fill="#fef3c7" stroke="#80520a" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M83 208h144v14H83zM80 223h150l23 83H57Z" fill="#dbe7ec" stroke="#335469" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="102" y="247" width="106" height="42" rx="7" fill="#fff" stroke="#335469" stroke-width="2"/>
+    <text x="155" y="276" font-size="25" font-weight="700" text-anchor="middle">350 g</text>
+    <text x="155" y="184" font-size="21" text-anchor="middle">Riz</text>
+    <path d="M399 274V133a13 13 0 0 1 26 0v141a24 24 0 1 1-26 0Z" fill="#fff" stroke="#335469" stroke-width="3"/>
+    <path d="M412 292v-78" stroke="#b91c1c" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="412" cy="294" r="16" fill="#b91c1c"/>
+    <path d="M430 142h20m-20 24h20m-20 24h20m-20 24h20m-20 24h20m-20 24h20" fill="none" stroke="#335469" stroke-width="2.5"/>
+    <path d="M417 214h12" stroke="#b91c1c" stroke-width="2.5" stroke-dasharray="3 2"/>
+    <g font-size="20">
+      <text x="462" y="148">30</text>
+      <text x="462" y="172">28</text>
+      <text x="462" y="196">26</text>
+      <text x="462" y="220">24</text>
+      <text x="462" y="244">22</text>
+      <text x="462" y="268">20</text>
+      <text x="515" y="153" font-weight="700">°C</text>
+    </g>
+  </g>
+</svg>

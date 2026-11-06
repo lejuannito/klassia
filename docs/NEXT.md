@@ -36,29 +36,15 @@ Cette recherche documentaire doit être menée séparément des tâches de codag
 
 ## Enrichissement CE2
 
-### 2. Sciences et TIC CE2
+### Sciences et TIC CE2 — lot réalisé
 
-**Prochain sous-lot à produire.** Enrichir les 10 leçons de l’U4 « Les métiers » en suivant la matrice de couverture. Poursuivre ensuite par unité jusqu’à U8.
+Les 29 leçons des unités 4 à 8 ont reçu des supports originaux et 58 exercices corrigés. Les bilans et les QCM essentiels de ces unités ont été repris avec les leçons. [Détail du lot et sources](CE2_SCIENCES_TIC.md#réécriture-intégrée)
 
-Périmètre repéré :
+### Prochain lot CE2 — sciences humaines et sociales
 
-- Sciences : 17 leçons génériques ;
-- TIC : 12 leçons génériques ;
-- total : 29 leçons.
+L’indicateur de découverte générique signale encore 90 leçons. Les 45 leçons de sciences humaines et sociales sont prioritaires. Les traiter par groupes d’unités, en reliant les objectifs aux documents à lire ou observer, puis aux exercices et évaluations corrigés.
 
-Attendus : observations ou expériences simples lorsque pertinent, supports intégrés, exercices progressifs, corrections explicites et cohérence avec `docs/ENRICHISSEMENT.md`.
-
-### 3. Autres leçons génériques CE2
-
-Périmètre repéré : 90 leçons :
-
-- Sciences humaines / sociales : 45 ;
-- Développement personnel : 16 ;
-- Arts : 15 ;
-- EPS : 9 ;
-- Bassa : 5.
-
-Pour les cinq leçons bassa, conserver les propositions lexicales centrales déjà présentes et enrichir autour d’elles.
+Viennent ensuite le développement personnel (16), les arts (15), l’EPS (9) et le bassa (5). Pour les cinq leçons bassa, enrichir la séquence autour des propositions lexicales déjà présentes et de leurs variantes acceptées.
 
 ## Consolidation ultérieure
 

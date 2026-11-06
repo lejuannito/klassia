@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 415" role="img" aria-labelledby="title desc">
+  <title id="title">Deux mouvements du piston</title>
+  <desc id="desc">Le piston monte pour comprimer le mélange, puis la bougie allume le mélange. Les gaz poussent le piston vers le bas. En fin de descente, les gaz brûlés peuvent sortir.</desc>
+  <defs>
+    <marker id="pointe" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0 0 7 3.5 0 7Z" fill="#155e75"/>
+    </marker>
+  </defs>
+  <rect width="600" height="415" rx="20" fill="#f0f9ff"/>
+  <g font-family="system-ui, sans-serif" fill="#112a3d">
+    <text x="300" y="40" font-size="26" font-weight="700" text-anchor="middle">Moteur à deux temps</text>
+    <rect x="18" y="59" width="275" height="337" rx="16" fill="#fff" stroke="#a7c8d4"/>
+    <rect x="307" y="59" width="275" height="337" rx="16" fill="#fff" stroke="#a7c8d4"/>
+    <g font-size="23" font-weight="700" text-anchor="middle">
+      <text x="155" y="93">1 · Montée</text>
+      <text x="445" y="93">2 · Descente</text>
+    </g>
+    <g stroke="#335469" stroke-width="4">
+      <path d="M74 289V133h162v156M364 289V133h162v83h37m-37 26v47m0-47h37" fill="none"/>
+      <path d="M148 113h14v38h-14zm290 0h14v38h-14z" fill="#dbe7ec"/>
+      <path d="M81 135h148v49H81z" fill="#d9ebf6" stroke="none"/>
+      <path d="M371 135h148v113H371z" fill="#ffedd5" stroke="none"/>
+      <path d="M76 184h158v22H76zm290 64h158v22H366z" fill="#fdba74"/>
+      <path d="m155 206 20 88m270-24-17 31" fill="none" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="175" cy="294" r="10" fill="#dbe7ec"/>
+      <circle cx="428" cy="301" r="10" fill="#dbe7ec"/>
+    </g>
+    <path d="m155 149-7 11h12l-8 13" fill="none" stroke="#9a3412" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="none" stroke="#155e75" stroke-width="4" marker-end="url(#pointe)">
+      <path d="M111 258v-42"/>
+      <path d="M400 157v66"/>
+      <path d="M486 229h73"/>
+    </g>
+    <g font-size="19" text-anchor="middle">
+      <text x="155" y="343">Mélange comprimé</text>
+      <text x="155" y="371">Étincelle près du haut</text>
+      <text x="445" y="343">Les gaz poussent le piston.</text>
+      <text x="445" y="371">Les gaz brûlés sortent.</text>
+    </g>
+  </g>
+</svg>

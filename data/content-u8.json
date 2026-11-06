@@ -1244,60 +1244,73 @@
           "objectives": [
             "Expliquer des mesures à prendre pour éviter le Sida à un niveau adapté au CE2."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Prévention du VIH/Sida ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le club santé veut afficher un message sur le VIH. Un brouillon affirme qu’on peut attraper le VIH en jouant avec quelqu’un. Comment corriger cette affiche avant de l’accrocher ?",
           "learn": [
-            "Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH."
+            "Le VIH peut se transmettre par certains liquides du corps, notamment le sang, dans des situations précises. Il ne se transmet pas en jouant, en se serrant la main ou en partageant un repas. Quand une question concerne le VIH ou la prévention, on peut la poser à un adulte de confiance et à un professionnel de santé."
           ],
-          "takeaway": "Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH.",
+          "takeaway": "Un message de prévention explique un fait vérifié, donne un geste concret et respecte les personnes.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Prévention du VIH/Sida » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Corrige ce brouillon « On ne peut pas s’asseoir avec un camarade qui vit avec le VIH ». Explique ta correction.",
+              "answer": "On peut s’asseoir avec un camarade qui vit avec le VIH. S’asseoir ensemble ne transmet pas le VIH.",
+              "explanation": "Les contacts ordinaires en classe sont sûrs. Le message doit permettre à chaque élève de participer à la vie de la classe.",
               "id": "SC-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Prévention du VIH/Sida ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Une affiche conseille de toucher un objet taché de sang pour regarder la tache. Réécris la consigne et indique à qui demander conseil sur le VIH.",
+              "answer": "Laisse l’objet en place et préviens un adulte. Pour une question sur le VIH, demande à un adulte de confiance ou à un professionnel de santé.",
+              "explanation": "Une bonne consigne indique le geste à faire et une personne qui peut vérifier l’information.",
               "id": "SC-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U8, p.99.",
-          "practical": [],
-          "notes": [
-            "Le curriculum ne fournit pas de ressource U8 dans les autres sous-domaines scientifiques ; aucune leçon n’est ajoutée artificiellement.",
-            "Contenu santé à valider avec les référents compétents."
+          "practical": [
+            "À deux, jouez le rôle du club santé. Écrivez une phrase sur la vie en classe et un geste à faire si vous voyez un objet taché de sang. Relisez avec un adulte. Chaque phrase doit être exacte, claire et respectueuse."
           ],
+          "notes": [],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Prévention du VIH/Sida », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Revoir le brouillon de l’affiche",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Phrase du brouillon",
+                  "Message à afficher",
+                  "Raison"
+                ],
+                "rows": [
+                  [
+                    "Évite de jouer avec une personne qui vit avec le VIH.",
+                    "Tu peux jouer et travailler avec une personne qui vit avec le VIH.",
+                    "Le VIH ne se transmet pas par les contacts de la vie quotidienne."
+                  ],
+                  [
+                    "Ramasse l’objet taché de sang pour le jeter.",
+                    "Laisse l’objet en place et préviens un adulte.",
+                    "L’adulte pourra sécuriser la situation et demander de l’aide si nécessaire."
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Choisir une information fiable",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Prévention du VIH/Sida » et donne un exemple adapté au thème « Les communications ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+              "body": "Pour vérifier une phrase sur le VIH, compare-la à la fiche de l’Organisation mondiale de la Santé avec un adulte ou demande au personnel d’un centre de santé. Évite de recopier un message dont tu ignores l’origine."
             },
             {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « prévention du vih/sida ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "title": "Rédiger une affiche courte",
+              "kind": "example",
+              "body": "Titre possible « Ensemble à l’école ». Écris une phrase qui corrige une idée fausse et une phrase qui indique à qui poser une question. Utilise une situation inventée, sans nommer de personne."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sciences de la vie, U8, p.99.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         }
       ],
@@ -1307,28 +1320,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Prévention du VIH/Sida",
-            "answer": "Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH."
+            "prompt": "Un brouillon affirme « On peut attraper le VIH en partageant un goûter ». Réécris la phrase avec un fait exact.",
+            "answer": "Partager un goûter ne transmet pas le VIH."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Prévention du VIH/Sida",
-            "answer": "Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH."
+            "prompt": "Sur une affiche de sécurité, écris la consigne à suivre si tu vois un objet taché de sang près du terrain.",
+            "answer": "Laisser l’objet en place et prévenir un adulte."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Prévention du VIH/Sida",
-            "answer": "Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH."
+            "prompt": "Une publication anonyme contredit la fiche d’un centre de santé. Que peux-tu faire pour vérifier son contenu avant de l’afficher ?",
+            "answer": "Lire une fiche de santé fiable avec un adulte ou demander au personnel du centre de santé. Vérifier la phrase avant de l’afficher."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Prévention du VIH/Sida",
-            "answer": "Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH."
+            "prompt": "Un élève exclut un camarade du groupe de dessin parce qu’il vit avec le VIH. Que peux-tu lui expliquer ?",
+            "answer": "Dessiner ensemble ne transmet pas le VIH. Le camarade peut participer à l’activité comme les autres."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Prévention du VIH/Sida",
-            "answer": "Je retiens des messages de prévention factuels, adaptés à l’âge, sans stigmatiser les personnes vivant avec le VIH."
+            "prompt": "Rédige deux phrases pour une affiche de classe. Dans la première, donne un fait sur la vie quotidienne. Dans la seconde, indique à qui poser une question sur le VIH.",
+            "answer": "Exemple : « On peut jouer ensemble, le VIH ne se transmet pas en jouant. Pour une question sur le VIH, parle à un adulte de confiance ou à un professionnel de santé. » Accepter toute formulation exacte et respectueuse."
           }
         ]
       },
@@ -1351,62 +1364,78 @@
             "Mettre en scène une bonne utilisation des outils TIC dans le respect de l’éthique et de la morale.",
             "Expliquer les mesures de sécurité à prendre."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Sécurité et éthique dans les communications numériques ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une photo de groupe est prête à être envoyée. Une camarade te dit qu’elle préfère que la photo reste en classe. Que fais-tu avant de cliquer ?",
           "learn": [
-            "Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique."
+            "Agir avec respect en ligne, c’est demander l’autorisation avant de partager une photo ou une information sur quelqu’un. On protège ses données personnelles et on garde ses mots de passe privés. Face à un message inquiétant, on demande l’aide d’un adulte de confiance."
           ],
-          "takeaway": "Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique.",
+          "takeaway": "Avant de partager, vérifie l’accord, le destinataire et le contenu. Si tu hésites, demande l’aide d’un adulte.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité et éthique dans les communications numériques » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Tu veux publier la photo de ton équipe. Un camarade refuse et un autre accepte. Que fais-tu et pourquoi ?",
+              "answer": "Je garde cette photo dans le groupe qui l’a prise et je choisis une autre image à partager avec l’accord des personnes concernées.",
+              "explanation": "L’accord d’un camarade ne remplace pas celui de l’autre. Un dessin peut illustrer la même activité.",
               "id": "TI-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité et éthique dans les communications numériques ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un message reçu pendant un jeu demande ton mot de passe. Que fais-tu ? Donne deux actions.",
+              "answer": "Je garde mon mot de passe privé et je montre le message à un adulte de confiance.",
+              "explanation": "Une récompense annoncée ne justifie pas de partager un mot de passe. L’adulte aide à vérifier la demande.",
               "id": "TI-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, santé, sécurité et éthique TIC, U8, p.116.",
-          "practical": [],
+          "practical": [
+            "À deux, jouez une scène avec une demande de photo, une réponse et une décision. Rejouez la scène avec un message qui demande une adresse personnelle. Utilisez des détails inventés et expliquez votre décision."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Sécurité et éthique dans les communications numériques », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+              "title": "S’entraîner à décider",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation fictive",
+                  "Action",
+                  "Raison"
+                ],
+                "rows": [
+                  [
+                    "Une camarade refuse le partage de sa photo.",
+                    "Garder la photo en classe et choisir un dessin à envoyer.",
+                    "Son accord est nécessaire pour partager sa photo."
+                  ],
+                  [
+                    "Un message demande ton mot de passe pour t’offrir un jeu.",
+                    "Garder le mot de passe privé et montrer la demande à un adulte.",
+                    "Un mot de passe sert à protéger ton accès."
+                  ],
+                  [
+                    "Quelqu’un reçoit des insultes dans une discussion.",
+                    "Éviter de les relayer et demander de l’aide à un adulte.",
+                    "L’adulte peut intervenir et aider la personne visée."
+                  ]
+                ]
+              }
             },
             {
-              "title": "Procédure guidée",
+              "title": "Reconnaître les données personnelles",
               "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Sécurité et éthique dans les communications numériques » et donne un exemple adapté au thème « Les communications ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+              "body": "Ton nom complet, ton adresse, ton numéro de téléphone et une photo où l’on te reconnaît donnent des informations sur toi. Demande à l’adulte qui t’accompagne de vérifier un formulaire qui en demande."
             },
             {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
-            },
-            {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les communications » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "title": "Vérifier une information avant de la transmettre",
+              "kind": "example",
+              "body": "Pour une annonce sur l’école, vérifie l’auteur, la date et le message auprès de l’école avec un adulte."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, santé, sécurité et éthique TIC, U8, p.116.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1415,62 +1444,106 @@
           "objectives": [
             "Faire une programmation avec un logiciel dédié tel que Scratch ou un outil équivalent."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Programmer avec un logiciel dédié ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le personnage de Scratch doit afficher « Bonjour ! », puis « Merci ! ». Quels blocs faut-il assembler pour le faire parler au clic sur le drapeau vert ?",
           "learn": [
-            "Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu."
+            "Dans Scratch, le lutin est le personnage affiché sur la scène. Un bloc Événements indique quand le programme démarre. Un bloc Apparence peut afficher une bulle pendant une durée choisie. Les blocs attachés sous le bloc de départ s’exécutent de haut en bas."
           ],
-          "takeaway": "Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu.",
+          "takeaway": "Prépare une suite de blocs, lance-la, compare le résultat à ta prévision et corrige l’ordre si nécessaire.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Programmer avec un logiciel dédié » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Le bloc « dire Merci ! » est attaché juste sous le bloc de départ, avant le bloc « dire Bonjour ! ». Quel ordre obtiens-tu ? Quelle modification faire pour retrouver l’ordre attendu ?",
+              "answer": "Le chat dit d’abord « Merci ! », puis « Bonjour ! ». J’accroche « dire Bonjour ! » en premier et « dire Merci ! » juste en dessous.",
+              "explanation": "Scratch exécute les blocs attachés de haut en bas après le clic sur le drapeau.",
               "id": "TI-U8-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Programmer avec un logiciel dédié ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Le bloc « dire Merci ! » est seul à côté du programme. Le lutin dit « Bonjour ! » puis la bulle disparaît. Où places-tu le bloc seul ? Que vérifies-tu au prochain clic ?",
+              "answer": "Je l’accroche sous « dire Bonjour ! ». Je vérifie que « Bonjour ! » est suivi de « Merci ! ».",
+              "explanation": "Un bloc isolé sans bloc de départ ne se lance pas avec le drapeau. Les deux blocs doivent être dans la même suite.",
               "id": "TI-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, programmation, U8, p.117.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Monte le programme, lance-le et compare les bulles au tableau. Remplace ensuite « Merci ! » par « Au revoir ! » et relance-le. Vérifie que la première bulle est restée la même."
+          ],
+          "notes": [
+            "L’activité utilise l’éditeur Scratch quand il est disponible. La préparation sur cartes sert à prévoir l’exécution."
+          ],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Programmer avec un logiciel dédié », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
-            },
-            {
-              "title": "Procédure guidée",
+              "title": "Préparer le projet dans Scratch",
               "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Programmer avec un logiciel dédié » et donne un exemple adapté au thème « Les communications ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+              "body": "Avec un adulte, ouvre un nouveau projet dans l’application Scratch installée. Garde le lutin chat et sélectionne-le. Dans Événements, glisse le bloc « quand [drapeau vert] est cliqué » dans la zone de code."
             },
             {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
+              "title": "Assembler les trois blocs de haut en bas",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Position",
+                  "Bloc",
+                  "Rôle"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "quand [drapeau vert] est cliqué",
+                    "Démarrer au clic sur le drapeau vert."
+                  ],
+                  [
+                    "2",
+                    "dire [Bonjour !] pendant [2] secondes",
+                    "Afficher la première bulle."
+                  ],
+                  [
+                    "3",
+                    "dire [Merci !] pendant [2] secondes",
+                    "Afficher la deuxième bulle."
+                  ]
+                ]
+              },
+              "body": "Dans Apparence, prends deux blocs « dire … pendant … secondes ». Accroche-les sous le bloc de départ puis saisis les textes et les durées du tableau."
             },
             {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les communications » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "title": "Tester sur la scène",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Après le clic",
+                  "Observation attendue"
+                ],
+                "rows": [
+                  [
+                    "Pendant les deux premières secondes",
+                    "La bulle « Bonjour ! » apparaît."
+                  ],
+                  [
+                    "Pendant les deux secondes suivantes",
+                    "La bulle « Merci ! » remplace la première."
+                  ],
+                  [
+                    "Ensuite",
+                    "La bulle disparaît."
+                  ]
+                ]
+              },
+              "body": "Clique sur le drapeau au-dessus de la scène. Si la deuxième bulle manque, vérifie que son bloc est attaché au premier bloc « dire »."
+            },
+            {
+              "title": "Préparer les blocs sur papier",
+              "kind": "example",
+              "body": "Si le logiciel est indisponible, écris les trois blocs sur des cartes. Un camarade joue le lutin, lit les cartes dans l’ordre et montre chaque bulle pendant deux secondes. Tu pourras tester les blocs dans Scratch quand il sera disponible."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, programmation, U8, p.117.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         }
       ],
@@ -1480,28 +1553,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Sécurité et éthique dans les communications numériques",
-            "answer": "Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique."
+            "prompt": "Dans une discussion, une personne te demande le numéro d’un camarade. Que vérifies-tu avant d’envisager le partage et à qui demandes-tu de l’aide ?",
+            "answer": "Je vérifie l’accord de la personne concernée et le destinataire. Je garde le numéro privé tant que l’accord et la situation ne sont pas vérifiés avec un adulte."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Programmer avec un logiciel dédié",
-            "answer": "Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu."
+            "prompt": "Une annonce de fermeture d’école circule sans date ni auteur. Donne deux actions avant de la transmettre.",
+            "answer": "Je cherche une annonce datée de l’école et je vérifie auprès d’un adulte ou de l’établissement."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Sécurité et éthique dans les communications numériques",
-            "answer": "Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique."
+            "prompt": "Construis sur papier une suite Scratch qui affiche « Salut ! » deux secondes, puis « À bientôt ! » deux secondes quand on clique sur le drapeau vert.",
+            "answer": "Événements : quand [drapeau vert] est cliqué. Apparence : dire [Salut !] pendant [2] secondes, puis dire [À bientôt !] pendant [2] secondes. Les trois blocs sont attachés."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Programmer avec un logiciel dédié",
-            "answer": "Je combine des instructions visuelles dans un ordre logique, je teste et je corrige si le résultat n’est pas celui attendu."
+            "prompt": "À l’essai, le lutin affiche « À bientôt ! » avant « Salut ! ». Que changes-tu ?",
+            "answer": "J’inverse l’ordre des blocs de parole pour que « Salut ! » soit juste sous le bloc de départ et « À bientôt ! » en dessous."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Sécurité et éthique dans les communications numériques",
-            "answer": "Je respecte les personnes, la vie privée, les règles de sécurité et les consignes lors de toute communication numérique."
+            "prompt": "Après la correction, que vérifies-tu sur la scène au clic sur le drapeau ? Donne le résultat attendu.",
+            "answer": "« Salut ! » apparaît pendant deux secondes, puis « À bientôt ! » pendant deux secondes, puis la bulle disparaît."
           }
         ]
       },

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 326" role="img" aria-labelledby="title desc">
+  <title id="title">La pile alimente le moteur du jouet</title>
+  <desc id="desc">Sur le schéma de jouet, la pile, l’interrupteur fermé et le moteur forment une boucle. Le moteur entraîne une roue par un axe.</desc>
+  <rect width="600" height="326" rx="20" fill="#f0f9ff"/>
+  <g font-family="system-ui, sans-serif" fill="#112a3d" text-anchor="middle">
+    <text x="300" y="42" font-size="26" font-weight="700">Un jouet en marche</text>
+    <rect x="28" y="62" width="544" height="224" rx="18" fill="#fff" stroke="#a7c8d4"/>
+    <g stroke="#203c50" stroke-width="5" fill="none" stroke-linejoin="round">
+      <path d="M235 121H101v117h127M303 121h102v53m0 64H297"/>
+      <path d="M235 99v44m18-37v30m32-37v44m18-37v30m-50-15h32"/>
+      <path d="M228 238h69" stroke="#155e75"/>
+    </g>
+    <g fill="#155e75">
+      <circle cx="228" cy="238" r="7"/>
+      <circle cx="297" cy="238" r="7"/>
+    </g>
+    <rect x="357" y="174" width="96" height="65" rx="12" fill="#fef3c7" stroke="#80520a" stroke-width="3"/>
+    <path d="M453 206h48" stroke="#80520a" stroke-width="6" stroke-dasharray="6 4"/>
+    <circle cx="524" cy="206" r="24" fill="#dbe7ec" stroke="#335469" stroke-width="5"/>
+    <circle cx="524" cy="206" r="7" fill="#335469"/>
+    <g font-size="19">
+      <text x="268" y="91" font-weight="700">Pile</text>
+      <text x="211" y="114" font-size="23">+</text>
+      <text x="326" y="114" font-size="23">−</text>
+      <text x="263" y="268">Interrupteur fermé</text>
+      <text x="405" y="212" font-weight="700">Moteur</text>
+      <text x="524" y="263">Roue</text>
+    </g>
+  </g>
+</svg>

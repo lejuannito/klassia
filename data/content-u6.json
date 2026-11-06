@@ -843,24 +843,25 @@
           "objectives": [
             "Utiliser un vocabulaire approprié pour dire le mode de prévention des maladies contagieuses."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Dire comment prévenir des maladies contagieuses ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Avant le repas, Salomé revient de la cour. Son camarade vient de tousser. Quels gestes peux-tu leur proposer et quels mots du panneau aident à les décrire ?",
           "learn": [
-            "Le parcours Klassia prépare la situation, les images, les intentions de communication et la progression pédagogique en français.",
-            "Les propositions documentaires disponibles sont consultables avec leur source et la mention « non validé ». Les phrases et audios non documentés restent à compléter; un référent peut arbitrer les formes proposées."
+            "Se laver les mains à l’eau et au savon avant de manger aide à éviter de transmettre des microbes. Pour tousser ou éternuer, on peut couvrir la bouche et le nez avec le pli du coude.",
+            "Dans le panneau Bassa, retrouve séparément « main », « eau » et « bouche ». Pour parler de la personne qui peut examiner un malade, choisis « médecin / travailleur clinique ».",
+            "Décris d’abord le geste en français, puis essaie le mot proposé pour la partie du corps ou la personne. Un adulte qui parle bassa peut t’aider à formuler le conseil complet."
           ],
-          "takeaway": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "takeaway": "Je décris un geste de prévention adapté à la situation et je retrouve dans le panneau un mot utile.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Dire comment prévenir des maladies contagieuses » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Que fait Salomé avant de manger ? Choisis les deux entrées utiles.",
+              "answer": "Elle se lave les mains à l’eau et au savon. Les deux entrées du panneau sont « main » et « eau ».",
+              "explanation": "Relie le geste au moment du repas et vérifie chaque sens séparément.",
               "type": "open",
               "id": "BA-U6-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Dire comment prévenir des maladies contagieuses ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
-              "explanation": "",
+              "prompt": "Décris un geste à faire quand on tousse et associe un mot du panneau.",
+              "answer": "On couvre la bouche et le nez avec le pli du coude. On peut choisir « bouche » et essayer une des formes affichées.",
+              "explanation": "Le mot choisi doit correspondre à la partie du corps que tu nommes.",
               "type": "open",
               "id": "BA-U6-L1-E2"
             },
@@ -873,81 +874,88 @@
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U6, pp.70-72.",
-          "practical": [],
+          "practical": [
+            "Joue une des scènes sans matériel. Dis quand faire le geste et nomme un élément utile. Entraîne-toi à retrouver le sens et une forme proposée dans le panneau Bassa."
+          ],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
           ],
           "manual_sections": [
             {
-              "title": "Parcours oral → lecture → écriture",
-              "kind": "method",
-              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
-            },
-            {
-              "title": "Travailler avec un locuteur compétent",
-              "kind": "activity",
-              "body": "À partir du thème « La santé », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Dire comment prévenir des maladies contagieuses ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
-            },
-            {
-              "title": "Comparer sans mélanger",
-              "kind": "warning",
-              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
-            },
-            {
-              "title": "Lexique documentaire disponible — propositions non validées",
-              "kind": "text",
-              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
-              "items": [
-                "médecin / travailleur clinique : dòktà / dokta / dokte — Sources : Cameroon Basaa course / ERIC OCR",
-                "eau / water : Màlép — Sources : Resulam/Bitjaa Kody 2020"
-              ]
+              "title": "Une situation et un geste",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Geste à décrire",
+                  "Sens à chercher"
+                ],
+                "rows": [
+                  [
+                    "Avant le repas",
+                    "Laver les mains avec de l’eau et du savon.",
+                    "Main, eau"
+                  ],
+                  [
+                    "Je tousse",
+                    "Couvrir la bouche et le nez avec le pli du coude.",
+                    "Bouche"
+                  ],
+                  [
+                    "Je me sens malade",
+                    "Le dire à un adulte qui peut demander un avis.",
+                    "Médecin / travailleur clinique"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, langues et cultures nationales, U6, pp.70-72.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "bassa-specific-2026-11-06"
           }
         }
       ],
       "assessment": {
-        "title": "Évaluation - Langues et cultures nationales — parcours Bassa",
+        "title": "Bilan accompagné — bassa",
         "total": 20,
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Décris le lavage des mains avant le repas. Indique le moment, la partie du corps et les deux éléments utilisés.",
+            "answer": "Avant le repas, mains, eau, savon. Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Retrouve les sens « main » et « eau ». Essaie une forme pour chacun.",
+            "answer": "Un repère par sens et par forme affichée correspondante."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Dis quand couvrir la bouche et le nez, comment faire le geste et quel sens du panneau aide à le décrire.",
+            "answer": "Toux ou éternuement, couvrir, pli du coude, entrée « bouche ». Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "En cas de malaise, indique à qui en parler, une personne qui peut examiner, l’entrée du panneau et une forme affichée.",
+            "answer": "Un adulte, un médecin ou travailleur clinique, l’entrée correspondante et une proposition. Quatre repères."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Choisis une situation de la fiche. Joue le geste et donne le moment, le geste, un sens et une proposition associée.",
+            "answer": "Quatre repères en accord avec la scène. Toutes les formes proposées pour le sens choisi sont recevables."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre une seule carte et dire ce que montre la situation en français.",
+        "Vérifier le sens dans le panneau Bassa et comparer les variantes avec un adulte qui parle la langue.",
+        "Jouer à nouveau la scène en donnant un repère de plus."
       ],
-      "chapter_intro": "Dans l’unité « La santé », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Décris des gestes d’hygiène et utilise le lexique pour nommer les parties du corps et les personnes utiles."
     },
     {
       "id": "MA",
@@ -2887,52 +2895,66 @@
             "Déterminer les principes généraux du basketball.",
             "Connaître les règles élémentaires du jeu."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Principes et règles élémentaires du basketball ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Au basketball, Ken dribble, reprend le ballon à deux mains, puis veut dribbler encore. Quelles actions lui restent dans la fiche ?",
           "learn": [
-            "Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "James Naismith a inventé le basketball en 1891 à Springfield, aux États-Unis. Deux équipes cherchent à marquer dans le panier adverse.",
+            "Dribbler, c’est faire rebondir la balle pour la contrôler en se déplaçant. Courir avec la balle tenue dans les mains sans dribbler est un marcher.",
+            "Après avoir arrêté son dribble et repris la balle, on peut passer ou tirer. Recommencer à dribbler dans cette situation constitue une reprise de dribble."
           ],
-          "takeaway": "Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
+          "takeaway": "Je distingue dribbler, passer et tirer. Quand mon dribble s’arrête, je cherche une passe ou un tir.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Principes et règles élémentaires du basketball » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Après avoir repris la balle à deux mains, Ken veut dribbler encore. Quels choix peux-tu lui proposer ?",
+              "answer": "Passer à un partenaire libre ou tirer s’il est en position.",
+              "explanation": "Les deux choix évitent la reprise de dribble.",
               "type": "open",
               "id": "EP-U6-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Principes et règles élémentaires du basketball ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-              "explanation": "",
+              "prompt": "Comment appeler l’action de courir avec le ballon tenu en main sans dribbler ?",
+              "answer": "Un marcher.",
+              "explanation": "Dans la situation, le joueur avance en tenant la balle.",
               "type": "open",
               "id": "EP-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",
-          "practical": [],
+          "practical": [
+            "Sur un terrain dégagé, l’adulte prépare deux repères et un ballon adapté. Dribble à petite allure jusqu’au second repère, arrête-toi et passe à ton partenaire immobile. Attends que le trajet soit libre avant de recommencer."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Principes et règles élémentaires du basketball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Trois choix au basketball",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Action"
+                ],
+                "rows": [
+                  [
+                    "Je veux avancer avec la balle.",
+                    "Je la fais rebondir en dribblant."
+                  ],
+                  [
+                    "J’ai arrêté mon dribble et un partenaire est libre.",
+                    "Je passe."
+                  ],
+                  [
+                    "J’ai arrêté mon dribble et je peux viser le panier.",
+                    "Je tire sans reprendre mon dribble."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
           }
         },
         {
@@ -2942,54 +2964,66 @@
             "Se placer, se déplacer et se replacer au basketball.",
             "Conserver le ballon, effectuer une passe, récupérer et réceptionner."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Se déplacer, passer et recevoir au basketball ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur le terrain, la porteuse du ballon ne voit que des camarades regroupés devant elle. Quel placement lui donnerait une passe plus facile ?",
           "learn": [
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "Sans ballon, va vers un espace libre à une distance où ton partenaire peut te passer la balle. Tourne-toi vers lui et indique que tu es prêt.",
+            "Une passe courte à deux mains peut partir de la poitrine vers les mains du partenaire. Le receveur accompagne la balle pour la garder près de lui.",
+            "Après la passe, écarte-toi pour rouvrir un trajet. Si une balle s’échappe hors de l’atelier, avertis l’adulte et attends le signal avant d’aller la chercher."
           ],
-          "takeaway": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
+          "takeaway": "Je donne un trajet libre à la passe, je reçois à deux mains et je me replace.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Se déplacer, passer et recevoir au basketball » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Quel choix de la fiche donne une passe courte et visible ?",
+              "answer": "Se placer dans l’espace libre à droite et montrer ses mains.",
+              "explanation": "Le bon placement donne un trajet clair à la balle.",
               "type": "open",
               "id": "EP-U6-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Se déplacer, passer et recevoir au basketball ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-              "explanation": "",
+              "prompt": "Que fait un joueur juste après avoir passé pour aider son équipe ?",
+              "answer": "Il se replace dans un espace libre et reste visible pour la prochaine passe.",
+              "explanation": "Cherche un nouvel appui au lieu de rester devant le receveur.",
               "type": "open",
               "id": "EP-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",
           "practical": [
-            "Échauffement, espace dégagé, ballon adapté à l’âge et consignes de sécurité."
+            "Par trois, placez-vous autour de repères espacés. Passez à un partenaire prêt, puis marchez vers le repère libre. Comptez trois passes contrôlées avant de changer le sens. Jouez sans contact."
           ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Se déplacer, passer et recevoir au basketball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Choisir où se placer",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Choix",
+                  "Ce que voit la porteuse de balle"
+                ],
+                "rows": [
+                  [
+                    "Rester derrière un camarade.",
+                    "Le trajet de passe est masqué."
+                  ],
+                  [
+                    "Se placer dans l’espace libre à droite.",
+                    "Elle voit le receveur et ses mains."
+                  ],
+                  [
+                    "Courir très loin du groupe.",
+                    "Le receveur s’éloigne trop pour une passe courte."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
           }
         }
       ],
@@ -2999,37 +3033,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Principes et règles élémentaires du basketball",
-            "answer": "Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Nomme l’inventeur, l’année et le lieu, puis donne le but du jeu.",
+            "answer": "James Naismith, 1891, Springfield, marquer dans le panier adverse. Un point par repère."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Se déplacer, passer et recevoir au basketball",
-            "answer": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "prompt": "Nomme l’action qui permet d’avancer avec la balle, la faute si on court en la tenant et deux choix après avoir arrêté son dribble.",
+            "answer": "Dribble, marcher, passe, tir. Un point par terme."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Principes et règles élémentaires du basketball",
-            "answer": "Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Choisis un bon placement de receveur et donne trois indices qui facilitent la passe.",
+            "answer": "Espace libre, distance courte, regarder le passeur, montrer les mains. Un point par indice."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Se déplacer, passer et recevoir au basketball",
-            "answer": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "prompt": "Donne quatre actions du modèle de passes depuis le placement jusqu’au replacement.",
+            "answer": "Voir le partenaire, passer vers ses mains, contrôler à deux mains, rejoindre un espace libre. Un point par action dans la suite."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Principes et règles élémentaires du basketball",
-            "answer": "Le basketball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Prépare une passe courte. Nomme le matériel, un repère au sol, un signal du receveur et une règle de sécurité.",
+            "answer": "Ballon adapté, plot ou ligne, mains présentées ou appel, attendre un trajet libre et jouer sans contact. Un point par élément."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Rejouer la décision à voix haute avec des repères et sans ballon.",
+        "Réduire la distance et la vitesse de passe avant de remettre un déplacement.",
+        "Observer un critère à la fois, par exemple l’appel, le contrôle ou le replacement."
       ],
-      "chapter_intro": "Dans l’unité « La santé », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Découvre le basketball et entraîne-toi à choisir entre dribble, passe et tir selon la situation."
     },
     {
       "id": "DP",

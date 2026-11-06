@@ -810,24 +810,25 @@
           "objectives": [
             "Nommer des outils traditionnels de communication, décrire des situations et mettre en scène une communication traditionnelle."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Communications traditionnelles ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans le jeu de rôle, un messager doit dire où aura lieu le rassemblement. Un autre groupe utilise un signal sonore convenu. Dans quel cas faut-il connaître un code à l’avance ?",
           "learn": [
-            "Le parcours Klassia prépare la situation, les images, les intentions de communication et la progression pédagogique en français.",
-            "Les propositions documentaires disponibles sont consultables avec leur source et la mention « non validé ». Les phrases et audios non documentés restent à compléter; un référent peut arbitrer les formes proposées."
+            "Un messager transmet oralement une annonce. Pour que l’autre personne puisse agir, il faut donner l’événement et un repère, comme le lieu ou le moment.",
+            "Le Musée maritime de Douala présente un tam-tam messager sawa, un exemple d’instrument de communication. Demande à un proche quels moyens étaient utilisés dans sa localité et dans quelles occasions.",
+            "Dans le panneau Bassa, « nom », « cahier » et « s’il te plaît » aident à préparer une petite scène. L’entrée « salue-moi » correspond à une demande adressée à quelqu’un qui peut te saluer."
           ],
-          "takeaway": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "takeaway": "Je choisis un moyen de transmettre le message, je vérifie ce qui a été compris et je choisis les bons sens dans le panneau.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Communications traditionnelles » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Dans le message oral de la fiche, donne le lieu et le moment. Comment vérifier qu’ils sont compris ?",
+              "answer": "Près du préau, après la classe. Demande au destinataire de redire le lieu et le moment.",
+              "explanation": "La reformulation doit garder les deux repères.",
               "type": "open",
               "id": "BA-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Communications traditionnelles ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
-              "explanation": "",
+              "prompt": "Tu demandes le cahier poliment. Quelles entrées du panneau vérifies-tu et que doit-on convenir pour que les deux coups soient compris ?",
+              "answer": "Je vérifie « cahier » et « s’il te plaît ». Le groupe doit connaître le sens donné aux deux coups avant le signal.",
+              "explanation": "Utilise les deux mots dans leurs entrées et distingue la demande orale du code sonore.",
               "type": "open",
               "id": "BA-U8-L1-E2"
             },
@@ -840,81 +841,89 @@
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U8, pp.70-72.",
-          "practical": [],
+          "practical": [
+            "À trois, jouez le messager, le destinataire et l’observateur. Le messager annonce le lieu et le moment. Le destinataire les redit. Pour préparer une autre scène, retrouve « cahier », « nom » et « s’il te plaît » dans le panneau Bassa."
+          ],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
           ],
           "manual_sections": [
             {
-              "title": "Parcours oral → lecture → écriture",
-              "kind": "method",
-              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
-            },
-            {
-              "title": "Travailler avec un locuteur compétent",
-              "kind": "activity",
-              "body": "À partir du thème « Les communications », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Communications traditionnelles ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
-            },
-            {
-              "title": "Comparer sans mélanger",
-              "kind": "warning",
-              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
-            },
-            {
-              "title": "Lexique documentaire disponible — propositions non validées",
-              "kind": "text",
-              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
-              "items": [
-                "livre / book : káat / Kaat añ — Sources : CNRS/LGIDF Basaa ; Culture Basaa (Pondi Pondi, 2009)",
-                "cahier / notebook : Héfté / Héfté matila — Sources : Culture Basaa (Pondi Pondi, 2009)"
-              ]
+              "title": "Deux façons de transmettre une annonce",
+              "kind": "table",
+              "body": "Les deux coups de la fiche sont un code inventé pour le jeu de rôle. Un proche peut raconter un exemple de communication de la localité.",
+              "table": {
+                "headers": [
+                  "Moyen",
+                  "Situation de jeu",
+                  "Ce que le destinataire doit comprendre"
+                ],
+                "rows": [
+                  [
+                    "Message oral par un messager",
+                    "Le rassemblement se fera près du préau après la classe.",
+                    "Le lieu et le moment."
+                  ],
+                  [
+                    "Signal sonore convenu",
+                    "Deux coups donnés doucement sur une boîte pour commencer.",
+                    "Le sens de « deux coups » a été expliqué au groupe."
+                  ],
+                  [
+                    "Trace dans un cahier",
+                    "Écris le nom du destinataire et les deux repères.",
+                    "Le destinataire, le lieu et le moment restent consultables."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, langues et cultures nationales, U8, pp.70-72.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "bassa-specific-2026-11-06"
           }
         }
       ],
       "assessment": {
-        "title": "Évaluation - Langues et cultures nationales — parcours Bassa",
+        "title": "Bilan accompagné — bassa",
         "total": 20,
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Nomme deux moyens de communication de la fiche et donne un exemple d’usage de chacun.",
+            "answer": "Messager qui annonce un rassemblement, signal sonore convenu qui marque un départ. Un repère par moyen et usage."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Donne le lieu, le moment, le rôle qui transmet et ce que fait le destinataire pour confirmer.",
+            "answer": "Préau, après la classe, messager, redire les repères. Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Explique le code du jeu. Donne le nombre de coups, le sens, la personne qui l’écoute et comment elle a appris ce sens.",
+            "answer": "Deux coups, commencer, le groupe, sens expliqué avant le jeu. Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Retrouve « cahier » et « s’il te plaît » et essaie une forme pour chaque sens.",
+            "answer": "Un repère par sens et par forme proposée correspondante."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Joue une annonce courte. Donne le destinataire, un lieu, un moment et une manière de vérifier la compréhension.",
+            "answer": "Quatre repères en accord avec la scène. Avec un adulte, essaie une formulation orale adaptée à la localité."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre une seule carte et dire ce que montre la situation en français.",
+        "Vérifier le sens dans le panneau Bassa et comparer les variantes avec un adulte qui parle la langue.",
+        "Jouer à nouveau la scène en donnant un repère de plus."
       ],
-      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Compare un message oral et un signal sonore, puis joue une courte scène avec des mots du panneau Bassa."
     },
     {
       "id": "MA",
@@ -2321,52 +2330,75 @@
             "Expliquer comment communiquer avec ses coéquipiers.",
             "Expliquer comment communiquer avec son entraîneur."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Communiquer avec ses coéquipiers et son entraîneur ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "En match d’école, les partenaires de Nina crient tous « Ici ! ». Quel message lui permettrait de savoir à qui passer et dans quelle direction ?",
           "learn": [
-            "Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu."
+            "Un appel d’équipe aide à choisir une action quand il nomme la personne, le lieu ou le geste attendu. Parle assez fort pour être entendu, sans crier près d’un camarade.",
+            "Un signal bref sert aussi à éviter une collision. Celui qui annonce qu’il reçoit le ballon laisse aux autres le temps de s’écarter.",
+            "À l’entraîneur, explique ce que tu as observé, pose une question précise et reformule la consigne avant de reprendre."
           ],
-          "takeaway": "Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu.",
+          "takeaway": "Je parle au bon moment, je donne un repère utile et je vérifie que j’ai compris la consigne.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Communiquer avec ses coéquipiers et son entraîneur » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Remplace « Ici ! » par un appel qui dit à qui tu parles et où tu es.",
+              "answer": "Par exemple « Nina, je suis libre à gauche ! ».",
+              "explanation": "Le nom et la direction donnent deux repères utiles.",
               "type": "open",
               "id": "EP-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Communiquer avec ses coéquipiers et son entraîneur ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu.",
-              "explanation": "",
+              "prompt": "Tu ne sais pas où aller après une passe. Donne une question pour l’entraîneur et un exemple de reformulation.",
+              "answer": "« Où puis-je me placer après ma passe ? » Puis, si l’entraîneur le dit : « Je vais vers le repère libre. »",
+              "explanation": "Pose une question sur l’action, puis redis ce que tu vas faire.",
               "type": "open",
               "id": "EP-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U8, p.156.",
-          "practical": [],
+          "practical": [
+            "En groupe de trois, tirez une situation de la fiche. Jouez-la à voix claire, sans ballon d’abord, puis avec un ballon souple si l’espace le permet. L’observateur vérifie à qui s’adresse le message et quel repère aide à agir."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Communiquer avec ses coéquipiers et son entraîneur », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Des messages pour agir ensemble",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Message possible",
+                  "À qui ?"
+                ],
+                "rows": [
+                  [
+                    "Je suis libre à gauche.",
+                    "« Nina, je suis libre à gauche ! »",
+                    "À Nina, qui a le ballon."
+                  ],
+                  [
+                    "Je vais recevoir et un camarade s’approche.",
+                    "« J’ai ! »",
+                    "Au partenaire proche."
+                  ],
+                  [
+                    "On a perdu le ballon quand tout le monde s’est regroupé.",
+                    "« Où puis-je me placer après ma passe ? »",
+                    "À l’entraîneur."
+                  ],
+                  [
+                    "On doit jouer plus écarté.",
+                    "« Après la passe, je vais vers le repère libre. »",
+                    "À l’entraîneur, pour confirmer."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U8, p.156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
           }
         }
       ],
@@ -2376,37 +2408,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Communiquer avec ses coéquipiers et son entraîneur",
-            "answer": "Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu."
+            "prompt": "Formule deux appels de jeu. Indique pour chacun à qui il s’adresse.",
+            "answer": "Exemple : « Nina, à gauche ! » à la porteuse et « J’ai ! » au partenaire proche. Un point par appel et destinataire cohérent."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Communiquer avec ses coéquipiers et son entraîneur",
-            "answer": "Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu."
+            "prompt": "Pour une passe ratée, donne un fait observé, une question précise, un repère de la réponse et une reformulation.",
+            "answer": "Exemple : tous au milieu, où aller après la passe, repère libre à droite, « après ma passe je vais à droite ». Un point par étape."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Communiquer avec ses coéquipiers et son entraîneur",
-            "answer": "Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu."
+            "prompt": "Deux camarades vont au même ballon. Donne un message, le rôle de celui qui l’annonce, le déplacement de l’autre et un moyen de reprendre le jeu calmement.",
+            "answer": "« J’ai ! », celui qui reçoit, s’écarter, attendre que les rôles soient compris ou le signal. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Communiquer avec ses coéquipiers et son entraîneur",
-            "answer": "Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu."
+            "prompt": "Donne deux différences entre « Ici ! » et « Nina, je suis libre à gauche ! », puis dis à qui et quand adresser le second message.",
+            "answer": "Nom et direction, à Nina, avant la passe quand on est libre. Un point par repère."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Communiquer avec ses coéquipiers et son entraîneur",
-            "answer": "Une communication sportive efficace est courte, respectueuse, utile à l’action et compatible avec les règles du jeu."
+            "prompt": "Joue une courte scène avec un coéquipier et un entraîneur. Donne un appel, une question, une réponse et une reformulation.",
+            "answer": "Un point par prise de parole claire et liée à la situation."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Rejouer la décision à voix haute avec des repères et sans ballon.",
+        "Réduire la distance et la vitesse de passe avant de remettre un déplacement.",
+        "Observer un critère à la fois, par exemple l’appel, le contrôle ou le replacement."
       ],
-      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Utilise des messages courts pour te coordonner avec ton équipe et demander une consigne précise à l’entraîneur."
     },
     {
       "id": "DP",

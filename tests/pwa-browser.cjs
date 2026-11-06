@@ -173,6 +173,46 @@ async function run() {
     await page.getByRole('button', { name: 'Corriger la série' }).click();
     assert.match(await silenceQuestion.locator('.feedback').innerText(), /Correct.*temps 3/s);
     console.log('PASS offline CE2 arts score, open correction and quiz');
+
+    await page.goto(base + '?unit=U7#lesson:EP-U7-L2');
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.getByRole('cell', { name: 'Renvoyer de l’autre côté.', exact: true }).waitFor();
+    const volleyExercise = page.locator('.exercise-card').nth(1);
+    await volleyExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    assert.match(await volleyExercise.locator('.feedback').innerText(), /B prépare vers C, puis C renvoie/);
+
+    await page.goto(base + '?unit=U7#reviseSubject:EP');
+    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    const volleyQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Combien de touches au plus' });
+    await volleyQuestion.getByLabel('Trois', { exact: true }).check();
+    await page.getByRole('button', { name: 'Corriger la série' }).click();
+    assert.match(await volleyQuestion.locator('.feedback').innerText(), /Correct.*troisième touche/s);
+    console.log('PASS offline CE2 physical education diagram, open correction and quiz');
+
+    const bassaLessons = [
+      ['U4', 'médecin / travailleur clinique'],
+      ['U5', 'voiture / car'],
+      ['U6', 'main / hand'],
+      ['U7', 'trois / three'],
+      ['U8', 'cahier / notebook']
+    ];
+    for (const [unit, sense] of bassaLessons) {
+      await page.goto(base + '?unit=' + unit + '#lesson:BA-' + unit + '-L1');
+      await page.locator('.manual-section[open] table').waitFor();
+      await page.locator('.bassa-concept').selectOption({ label: sense });
+      const variants = page.locator('.bassa-choices button');
+      const count = await variants.count();
+      assert.ok(count > 0, 'No proposed form for ' + sense);
+      for (let i = 0; i < count; i++) {
+        await variants.nth(i).click();
+        await page.locator('.bassa-submit').click();
+        assert.match(await page.locator('.bassa-result').innerText(), /Réponse acceptée/);
+      }
+    }
+    const bassaExercise = page.locator('.exercise-card').nth(1);
+    await bassaExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    assert.match(await bassaExercise.locator('.feedback').innerText(), /cahier.*s’il te plaît/);
+    console.log('PASS offline CE2 Bassa lessons, proposed forms and open correction');
   } finally {
     await browser?.close();
     server.close();

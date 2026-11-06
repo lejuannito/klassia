@@ -840,24 +840,25 @@
           "objectives": [
             "Expliquer le choix d’un moyen de locomotion en utilisant des qualificatifs et des conjonctions appropriés."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Expliquer le choix d’un moyen de locomotion ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Nina va à un terrain tout proche, par un petit chemin. L’après-midi, elle accompagne un adulte jusqu’à un village plus éloigné. Quel moyen convient à chaque trajet et pourquoi ?",
           "learn": [
-            "Le parcours Klassia prépare la situation, les images, les intentions de communication et la progression pédagogique en français.",
-            "Les propositions documentaires disponibles sont consultables avec leur source et la mention « non validé ». Les phrases et audios non documentés restent à compléter; un référent peut arbitrer les formes proposées."
+            "Pour expliquer un choix, indique le moyen de déplacement puis la raison. « Parce que » relie les deux dans la préparation en français. « Proche », « loin » ou « court » permettent de préciser.",
+            "Dans le panneau Bassa, « chemin » et « route » ont chacun leur entrée. Choisis le sens qui convient à la fiche. Retrouve aussi l’entrée « voiture ».",
+            "Pour proposer de partir, regarde l’expression affichée à l’entrée « allons ». L’entrée « aller » présente une forme verbale observée. Un adulte qui parle bassa peut accompagner la phrase complète."
           ],
-          "takeaway": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "takeaway": "Je donne le moyen et la raison, puis je choisis dans le lexique le sens lié au trajet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Expliquer le choix d’un moyen de locomotion » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Explique le choix du trajet B en utilisant « parce que » et un qualificatif. Choisis un mot du panneau pour ce trajet.",
+              "answer": "On va en voiture parce que le village est loin. On peut choisir « voiture » ou « route » puis utiliser une forme affichée pour ce sens.",
+              "explanation": "La réponse doit donner un moyen, une raison liée à la distance et un sens correspondant.",
               "type": "open",
               "id": "BA-U5-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Expliquer le choix d’un moyen de locomotion ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
-              "explanation": "",
+              "prompt": "Tu proposes à un camarade de partir. Quelle entrée choisis-tu dans le panneau ? Cite aussi un repère du trajet A.",
+              "answer": "Je choisis « allons » et une forme affichée pour cette invitation. Le trajet A emprunte un chemin court.",
+              "explanation": "Utilise l’entrée qui porte l’invitation et associe un détail exact au trajet A.",
               "type": "open",
               "id": "BA-U5-L1-E2"
             },
@@ -870,81 +871,83 @@
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U5, pp.70-72.",
-          "practical": [],
+          "practical": [
+            "Présente les deux trajets à un camarade. Donne un moyen et une raison pour chacun. Retrouve « chemin », « route » et « voiture » dans le panneau, puis essaie l’expression « allons » avec un adulte."
+          ],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
           ],
           "manual_sections": [
             {
-              "title": "Parcours oral → lecture → écriture",
-              "kind": "method",
-              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
-            },
-            {
-              "title": "Travailler avec un locuteur compétent",
-              "kind": "activity",
-              "body": "À partir du thème « Les voyages », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Expliquer le choix d’un moyen de locomotion ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
-            },
-            {
-              "title": "Comparer sans mélanger",
-              "kind": "warning",
-              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
-            },
-            {
-              "title": "Lexique documentaire disponible — propositions non validées",
-              "kind": "text",
-              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
-              "items": [
-                "voiture / car : lìtóà / litoa — Sources : Edu-Kultur, alphabet ɓàsàá ; Cameroon Basaa course (ancienne transcription/OCR)",
-                "route / road : nloo / Nloo — Sources : Cameroon Basaa course (ancienne transcription/OCR)"
-              ]
+              "title": "Deux trajets à comparer",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Trajet",
+                  "Repère",
+                  "Choix et raison possibles"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Terrain proche par le chemin",
+                    "À pied avec l’adulte, parce que le chemin est court."
+                  ],
+                  [
+                    "B",
+                    "Village plus éloigné, accessible par la route",
+                    "En voiture, parce que le village est plus loin."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, langues et cultures nationales, U5, pp.70-72.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "bassa-specific-2026-11-06"
           }
         }
       ],
       "assessment": {
-        "title": "Évaluation - Langues et cultures nationales — parcours Bassa",
+        "title": "Bilan accompagné — bassa",
         "total": 20,
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Expliquer le choix d’un moyen de locomotion",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Compare les trajets A et B en donnant le repère de distance et le moyen choisi pour chacun.",
+            "answer": "Proche et à pied, éloigné et en voiture. Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Expliquer le choix d’un moyen de locomotion",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Explique le choix du trajet A avec un moyen, une raison, un qualificatif et une liaison entre les idées.",
+            "answer": "Exemple : « À pied parce que le chemin est court. » Repères : à pied, chemin, court, parce que."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Expliquer le choix d’un moyen de locomotion",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Retrouve les entrées « chemin » et « route ». Pour chaque sens, essaie une forme proposée.",
+            "answer": "Un repère par sens et par forme affichée qui lui correspond."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Expliquer le choix d’un moyen de locomotion",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Choisis l’entrée « voiture » puis celle qui sert à proposer de partir. Essaie une forme pour chaque entrée.",
+            "answer": "Voiture, allons et une forme affichée par sens. Quatre repères."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Expliquer le choix d’un moyen de locomotion",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Présente un trajet connu. Nomme le départ, la destination, le moyen et une raison de le choisir.",
+            "answer": "Quatre repères cohérents. Avec un adulte qui parle bassa, discute de la formulation orale."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre une seule carte et dire ce que montre la situation en français.",
+        "Vérifier le sens dans le panneau Bassa et comparer les variantes avec un adulte qui parle la langue.",
+        "Jouer à nouveau la scène en donnant un repère de plus."
       ],
-      "chapter_intro": "Dans l’unité « Les voyages », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Compare deux trajets, explique ton choix et retrouve dans le panneau les mots qui correspondent au déplacement."
     },
     {
       "id": "MA",
@@ -2794,52 +2797,66 @@
             "Déterminer les principes généraux du handball.",
             "Connaître les règles élémentaires du jeu."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Principes et règles élémentaires du handball ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Au handball, Léa reçoit la balle, la garde en main et fait quatre pas sans dribbler. Que lui indique la fiche ?",
           "learn": [
-            "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "Le handball moderne a pris forme en Europe. Des règles ont été publiées au Danemark en 1906 et d’autres règles modernes en Allemagne en 1917.",
+            "Deux équipes se passent le ballon à la main et cherchent à marquer dans le but adverse. Sans dribbler, le joueur peut garder la balle au plus trois secondes et faire au plus trois pas.",
+            "La surface de but est réservée au gardien pour y jouer. Dans l’atelier d’école, le tir se fait vers une cible libre, depuis un repère choisi par l’adulte."
           ],
-          "takeaway": "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
+          "takeaway": "Je passe ou je tire à temps, et je respecte la zone du gardien.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Principes et règles élémentaires du handball » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Pourquoi Léa doit-elle passer ou dribbler avant le quatrième pas ?",
+              "answer": "Avec la balle en main et sans dribbler, elle a droit à trois pas au plus.",
+              "explanation": "Repère le premier pas qui dépasse la limite.",
               "type": "open",
               "id": "EP-U5-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Principes et règles élémentaires du handball ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play.",
-              "explanation": "",
+              "prompt": "Tu restes arrêté avec la balle et le compte arrive à trois. Quelle action simple peux-tu choisir ?",
+              "answer": "Faire une passe à un partenaire prêt, avant de dépasser les trois secondes.",
+              "explanation": "Dans la fiche, compter le temps aide même quand on reste sur place.",
               "type": "open",
               "id": "EP-U5-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U5, pp.155-156.",
-          "practical": [],
+          "practical": [
+            "Avec un ballon souple et l’adulte, simule trois réceptions sur place. Après chaque réception, compte les pas et donne une passe courte à un camarade prêt à recevoir. Le jeu se déroule sans contact."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Principes et règles élémentaires du handball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Décider avec le ballon en main",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Décision dans la fiche"
+                ],
+                "rows": [
+                  [
+                    "Je reçois, fais deux pas puis passe aussitôt.",
+                    "Le nombre de pas est dans la limite."
+                  ],
+                  [
+                    "Je reçois et fais quatre pas sans dribbler.",
+                    "J’ai dépassé la limite de trois pas."
+                  ],
+                  [
+                    "Je reste arrêté quatre secondes avec la balle.",
+                    "J’ai dépassé la limite de trois secondes."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U5, pp.155-156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
           }
         },
         {
@@ -2849,54 +2866,70 @@
             "Se placer, se déplacer et se replacer au handball.",
             "Conserver le ballon, effectuer une passe, récupérer et réceptionner."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Se déplacer, passer et recevoir au handball ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Milo a le ballon. Ada est derrière un autre joueur et présente ses mains. Quel déplacement peut la rendre visible et faciliter la passe ?",
           "learn": [
-            "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "Se démarquer, c’est aller dans un espace où le porteur du ballon peut nous voir et nous passer la balle.",
+            "Montre tes mains quand tu es prêt. Reçois avec les deux mains et rapproche la balle de toi pour la contrôler.",
+            "Dans une passe courte, vise les mains du partenaire à une hauteur qu’il peut atteindre. Après avoir passé, propose un nouvel appui."
           ],
-          "takeaway": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
+          "takeaway": "Je me rends visible, je montre mes mains et je contrôle avant de repasser.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Se déplacer, passer et recevoir au handball » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Ada est masquée. Indique une action avant la passe et un signal au passeur.",
+              "answer": "Elle se décale dans un espace libre et montre ses mains ou dit « je suis prête ».",
+              "explanation": "Le passeur doit pouvoir la voir avant d’envoyer le ballon.",
               "type": "open",
               "id": "EP-U5-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Se déplacer, passer et recevoir au handball ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires.",
-              "explanation": "",
+              "prompt": "Une balle arrive vers tes mains. Décris comment la contrôler.",
+              "answer": "Je la reçois à deux mains et je l’accompagne vers moi.",
+              "explanation": "La réception doit rester souple pour garder la balle.",
               "type": "open",
               "id": "EP-U5-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U5, pp.155-156.",
           "practical": [
-            "Échauffement, espace dégagé, ballon adapté à l’âge et consignes de sécurité."
+            "Par trois, placez un plot ou un partenaire immobile comme repère au milieu. Le receveur se décale, montre ses mains et reçoit une passe souple. Tournez les rôles, sans défenseur qui cherche à arracher la balle."
           ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer le corps",
-              "kind": "method",
-              "body": "Avant l’activité « Se déplacer, passer et recevoir au handball », un échauffement progressif prépare les articulations, les muscles et la respiration. On commence calmement, on répète les gestes techniques sans vitesse excessive, puis on augmente l’intensité seulement quand les consignes sont comprises."
-            },
-            {
-              "title": "Apprendre le geste en étapes",
-              "kind": "activity",
-              "body": "Observe le geste ou la règle, réalise-le lentement, puis répète plusieurs fois avec un retour de l’enseignant ou d’un camarade. Cherche d’abord la maîtrise et la sécurité avant la vitesse ou la performance."
-            },
-            {
-              "title": "Sécurité et respect",
-              "kind": "warning",
-              "body": "Respecte les distances, le terrain, les règles du jeu et le signal d’arrêt. Ne pousse pas un camarade et n’utilise pas une technique destinée à faire mal. En cas de douleur, malaise ou chute importante, arrête l’activité et préviens l’adulte responsable."
+              "title": "Une passe qui arrive au bon endroit",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Choix du receveur",
+                  "Choix du passeur"
+                ],
+                "rows": [
+                  [
+                    "Le trajet est masqué.",
+                    "Se décaler sur le côté.",
+                    "Attendre de voir le partenaire."
+                  ],
+                  [
+                    "Le partenaire est libre.",
+                    "Montrer les mains.",
+                    "Passer doucement vers les mains."
+                  ],
+                  [
+                    "La balle arrive.",
+                    "Accompagner la réception à deux mains.",
+                    "Se replacer après la passe."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sports collectifs, U5, pp.155-156.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "eps-specific-2026-11-06"
           }
         }
       ],
@@ -2906,37 +2939,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Principes et règles élémentaires du handball",
-            "answer": "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Associe 1906 et 1917 aux pays cités. Explique comment l’équipe progresse et comment elle marque.",
+            "answer": "Danemark, Allemagne, passes à la main, lancer dans le but adverse. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Se déplacer, passer et recevoir au handball",
-            "answer": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "prompt": "Donne les limites en pas et en secondes. Dis si quatre pas sans dribble et une attente de quatre secondes respectent la règle.",
+            "answer": "Trois pas, trois secondes, non, non. Un point par réponse."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Principes et règles élémentaires du handball",
-            "answer": "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Dans l’atelier de passes, donne une façon de se démarquer, un signal, une cible pour la passe et un geste de réception.",
+            "answer": "Se décaler, montrer les mains ou appeler, viser les mains, contrôler à deux mains. Un point par repère."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Se déplacer, passer et recevoir au handball",
-            "answer": "Je lève la tête, me rends disponible, fais une passe adaptée et respecte la sécurité des partenaires et adversaires."
+            "prompt": "Prépare un tir d’école. Indique qui fixe le repère, où se placer, ce que doit être la cible et comment éviter le contact.",
+            "answer": "L’adulte, derrière le repère, une cible libre, laisser de l’espace et attendre le signal. Un point par décision cohérente."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Principes et règles élémentaires du handball",
-            "answer": "Le handball est un sport collectif : l’équipe coopère dans un cadre de règles et de fair-play."
+            "prompt": "Raconte une suite de quatre actions du receveur depuis sa position masquée jusqu’au contrôle.",
+            "answer": "Se décaler, montrer les mains, recevoir à deux mains, accompagner la balle. Un point par action dans l’ordre."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Rejouer la décision à voix haute avec des repères et sans ballon.",
+        "Réduire la distance et la vitesse de passe avant de remettre un déplacement.",
+        "Observer un critère à la fois, par exemple l’appel, le contrôle ou le replacement."
       ],
-      "chapter_intro": "Dans l’unité « Les voyages », le chapitre de Éducation physique et sportive développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Lis les règles essentielles du handball et apprends à passer, recevoir et te démarquer avec tes partenaires."
     },
     {
       "id": "DP",

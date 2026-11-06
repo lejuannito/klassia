@@ -2974,52 +2974,68 @@
           "objectives": [
             "Entretenir le jardin scolaire."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Entretenir le jardin scolaire ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Les feuilles du pot C sont baissées et sa terre est encore humide. Le pot D a les feuilles dressées et une terre sèche. Avec le carnet, à quel pot proposes-tu d’abord un arrosage ?",
           "learn": [
-            "Je maintiens le jardin propre, j’arrose de manière adaptée et j’observe les plantes."
+            "Un seul signe ne suffit pas toujours pour décider. Des feuilles baissées peuvent avoir plusieurs causes. On observe aussi l’humidité de la terre et on compare les relevés.",
+            "Quand la terre reste humide, on demande à l’adulte de vérifier le pot avant de rajouter de l’eau.",
+            "Un relevé utile précise l’heure, le pot, ce que l’on voit et ce que l’on décide avec l’adulte."
           ],
-          "takeaway": "Je maintiens le jardin propre, j’arrose de manière adaptée et j’observe les plantes.",
+          "takeaway": "Je compare plusieurs indices et je signale une plante qui change.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Entretenir le jardin scolaire » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je maintiens le jardin propre, j’arrose de manière adaptée et j’observe les plantes. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Pourquoi demandes-tu l’aide de l’adulte pour le pot C avant de l’arroser ?",
+              "answer": "Ses feuilles sont baissées, mais la terre est déjà humide. L’adulte peut aider à vérifier ce qui se passe.",
+              "explanation": "Appuie-toi sur les deux observations du carnet.",
               "type": "open",
               "id": "DP-U6-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Entretenir le jardin scolaire ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je maintiens le jardin propre, j’arrose de manière adaptée et j’observe les plantes.",
-              "explanation": "",
+              "prompt": "Écris une ligne à 9 h pour le pot D avec un indice et une action proposée.",
+              "answer": "« 9 h, pot D : terre sèche sous la surface. Proposer d’arroser doucement au pied. »",
+              "explanation": "Vérifie l’heure, le pot, l’indice et le geste.",
               "type": "open",
               "id": "DP-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U6, p.164.",
-          "practical": [],
+          "practical": [
+            "Avec ton voisin, décris un pot fictif à partir de deux cartes, « feuilles » et « terre ». Écrivez la suite proposée et la raison, puis échangez vos fiches."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Entretenir le jardin scolaire », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Deux relevés du jardin à 9 h",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Pot",
+                  "Feuilles",
+                  "Terre",
+                  "Suite prévue"
+                ],
+                "rows": [
+                  [
+                    "C",
+                    "Baissées",
+                    "Encore humide",
+                    "Montrer le pot à l’adulte et noter l’état"
+                  ],
+                  [
+                    "D",
+                    "Dressées",
+                    "Sèche sous la surface",
+                    "Proposer un arrosage doux au pied"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales, U6, p.164.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -3028,52 +3044,65 @@
           "objectives": [
             "Entretenir l’animal en élevage."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Entretenir un animal en élevage ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans le relevé de 8 h, une poule reste à l’écart et ne vient pas manger comme d’habitude. Son abreuvoir contient de l’eau. Quels mots utilises-tu pour prévenir l’adulte ?",
           "learn": [
-            "Je veille à l’eau, l’alimentation, la propreté et j’alerte un adulte en cas de problème."
+            "Décris ce que tu vois, avec le moment et le lieu. Rester à l’écart ou manger moins que d’habitude est un changement à signaler.",
+            "Un changement ne permet pas à lui seul de savoir ce qu’a l’animal. L’adulte responsable organise la vérification et demande de l’aide professionnelle si nécessaire.",
+            "On reste à distance d’un animal qui paraît malade, on prévient l’adulte et on se lave les mains après la visite de l’élevage."
           ],
-          "takeaway": "Je veille à l’eau, l’alimentation, la propreté et j’alerte un adulte en cas de problème.",
+          "takeaway": "Je signale rapidement les faits à l’adulte responsable de l’élevage.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Entretenir un animal en élevage » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je veille à l’eau, l’alimentation, la propreté et j’alerte un adulte en cas de problème. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Dis une phrase qui précise l’heure et ce qui a changé.",
+              "answer": "« À 8 h, une poule est restée à l’écart et n’est pas venue manger comme hier. »",
+              "explanation": "Le message contient des faits que l’adulte peut vérifier.",
               "type": "open",
               "id": "DP-U6-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Entretenir un animal en élevage ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je veille à l’eau, l’alimentation, la propreté et j’alerte un adulte en cas de problème.",
-              "explanation": "",
+              "prompt": "Un camarade propose de prendre la poule dans ses bras. Quelle action lui proposes-tu à la place ?",
+              "answer": "Je lui propose de garder ses distances et de prévenir l’adulte responsable tout de suite.",
+              "explanation": "Les soins et la vérification sont organisés par l’adulte.",
               "type": "open",
               "id": "DP-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U6, p.164.",
-          "practical": [],
+          "practical": [
+            "Joue le signalement avec deux rôles. Lis le relevé sans t’approcher d’un animal. Ton camarade, dans le rôle de l’adulte, répète l’heure et ce qui a changé."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Entretenir un animal en élevage », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Extrait du carnet du poulailler",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Quand",
+                  "Observation",
+                  "Suite"
+                ],
+                "rows": [
+                  [
+                    "Hier à 8 h",
+                    "Toutes les poules sont venues manger",
+                    "Poursuivre le suivi habituel"
+                  ],
+                  [
+                    "Aujourd’hui à 8 h",
+                    "Une poule reste à l’écart. L’abreuvoir contient de l’eau.",
+                    "Prévenir l’adulte responsable et garder ses distances"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales, U6, p.164.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -3082,52 +3111,70 @@
           "objectives": [
             "Réaliser un menu pour la ration de croissance."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Réaliser un menu de croissance équilibré ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "La classe propose plantain, haricots, légumes, orange et eau potable. Sur la table, une planche a servi au poisson cru. Que fait l’adulte avant d’y préparer l’orange ?",
           "learn": [
-            "Je compose un repas varié avec des aliments disponibles localement, en tenant compte des règles d’hygiène."
+            "Pour un repas d’enfant, on peut associer des aliments variés comme du plantain cuit, des haricots, des légumes et un fruit. L’eau potable complète le menu.",
+            "On lave ses mains à l’eau et au savon avant de préparer le repas. On utilise de l’eau potable et du matériel propre.",
+            "L’adulte sépare le poisson cru des aliments prêts à manger. Il prend une planche propre pour le fruit et s’occupe de la cuisson."
           ],
-          "takeaway": "Je compose un repas varié avec des aliments disponibles localement, en tenant compte des règles d’hygiène.",
+          "takeaway": "Je vérifie la variété du menu et la propreté des mains, de l’eau et du matériel.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Réaliser un menu de croissance équilibré » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je compose un repas varié avec des aliments disponibles localement, en tenant compte des règles d’hygiène. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "L’orange est prête à être coupée. Quelle planche proposes-tu et pourquoi ?",
+              "answer": "Une planche propre réservée aux aliments prêts à manger. Ainsi, l’orange ne touche pas les restes de poisson cru.",
+              "explanation": "Ta réponse doit indiquer le choix de matériel et la raison de le séparer.",
               "type": "open",
               "id": "DP-U6-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Réaliser un menu de croissance équilibré ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je compose un repas varié avec des aliments disponibles localement, en tenant compte des règles d’hygiène.",
-              "explanation": "",
+              "prompt": "Propose un repas avec du maïs cuit et un aliment qui apporte des protéines. Ajoute un fruit ou un légume et une boisson.",
+              "answer": "Par exemple maïs cuit, haricots, feuilles cuisinées, mangue et eau potable.",
+              "explanation": "Vérifie les aliments demandés et indique la boisson. Plusieurs menus sont possibles.",
               "type": "open",
               "id": "DP-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U6, p.167.",
-          "practical": [],
+          "practical": [
+            "Sur papier, compose un menu à partir de quatre cartes d’aliments. Ajoute au bas de la fiche deux gestes d’hygiène, puis demande à ton camarade de les expliquer."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Réaliser un menu de croissance équilibré », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Fiche de préparation du repas",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "À prévoir",
+                  "Exemple"
+                ],
+                "rows": [
+                  [
+                    "Menu",
+                    "Plantain cuit, haricots, légumes cuits, orange et eau potable"
+                  ],
+                  [
+                    "Avant de préparer",
+                    "Se laver les mains à l’eau et au savon"
+                  ],
+                  [
+                    "Pour le fruit",
+                    "Prendre une planche propre réservée aux aliments prêts à manger"
+                  ],
+                  [
+                    "Pour la cuisson",
+                    "L’adulte utilise le matériel chaud"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités domestiques et familiales, U6, p.167.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         }
       ],
@@ -3137,37 +3184,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Entretenir le jardin scolaire",
-            "answer": "Je maintiens le jardin propre, j’arrose de manière adaptée et j’observe les plantes."
+            "prompt": "Dans le pot C, les feuilles sont baissées et la terre est humide. Cite les deux indices, l’action proposée et la personne qui aide à vérifier.",
+            "answer": "Feuilles baissées, terre humide, signaler l’état avant d’arroser, demander l’aide de l’adulte. Compte 1 point par repère."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Entretenir un animal en élevage",
-            "answer": "Je veille à l’eau, l’alimentation, la propreté et j’alerte un adulte en cas de problème."
+            "prompt": "Écris un relevé du pot D à 9 h : nomme le pot, l’état du sol, l’heure et l’action qui suit.",
+            "answer": "Pot D, terre sèche sous la surface, 9 h, proposer un arrosage doux au pied. Compte 1 point par repère."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Réaliser un menu de croissance équilibré",
-            "answer": "Je compose un repas varié avec des aliments disponibles localement, en tenant compte des règles d’hygiène."
+            "prompt": "Une poule s’isole à 8 h. Écris ton signalement et deux actions utiles pour l’élève.",
+            "answer": "Signaler à l’adulte l’heure et le fait que la poule s’isole (2 points). Rester à distance (1 point) et se laver les mains après la visite (1 point)."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Entretenir le jardin scolaire",
-            "answer": "Je maintiens le jardin propre, j’arrose de manière adaptée et j’observe les plantes."
+            "prompt": "Compose un repas avec une base du plat, une source de protéines, un fruit ou légume et de l’eau potable.",
+            "answer": "Par exemple plantain cuit, haricots, orange et eau potable. Compte 1 point par rôle représenté."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Entretenir un animal en élevage",
-            "answer": "Je veille à l’eau, l’alimentation, la propreté et j’alerte un adulte en cas de problème."
+            "prompt": "Explique deux gestes avant de préparer un fruit si une planche a servi à du poisson cru.",
+            "answer": "Se laver les mains à l’eau et au savon (2 points), prendre une planche propre pour le fruit et le garder séparé du poisson cru (2 points)."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Pour chaque pot, relève l’état de la terre et des feuilles avant de proposer un geste.",
+        "Rejoue le message du poulailler avec un lieu, une heure et deux observations.",
+        "Relis la fiche du menu, puis nomme deux gestes utiles avant la préparation."
       ],
-      "chapter_intro": "Dans l’unité « La santé », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Apprends à décrire ce que tu observes dans le jardin ou au poulailler, à prévenir l’adulte au bon moment et à préparer sur papier un menu varié avec des gestes d’hygiène."
     }
   ],
   "integration_project": {

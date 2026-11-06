@@ -143,6 +143,21 @@ async function run() {
     await page.getByRole('button', { name: 'Corriger la série' }).click();
     assert.match(await planetQuestion.locator('.feedback').innerText(), /Correct.*Terre est au rang 3/s);
     console.log('PASS offline CE2 social studies map, assessment and quiz correction');
+
+    await page.goto(base + '?unit=U7#lesson:DP-U7-L1');
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.getByRole('cell', { name: '4 cm de long', exact: true }).waitFor();
+    const quilleExercise = page.locator('.exercise-card').first();
+    await quilleExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    assert.match(await quilleExercise.locator('.feedback').innerText(), /14 cm − 4 cm = 10 cm/);
+
+    await page.goto(base + '?unit=U7#reviseSubject:DP');
+    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    const harvestQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quelle est la recette' });
+    await harvestQuestion.getByLabel('400 F CFA', { exact: true }).check();
+    await page.getByRole('button', { name: 'Corriger la série' }).click();
+    assert.match(await harvestQuestion.locator('.feedback').innerText(), /Correct.*quatre bottes vendues/s);
+    console.log('PASS offline CE2 personal development template, open correction and quiz');
   } finally {
     await browser?.close();
     server.close();

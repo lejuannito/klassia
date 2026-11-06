@@ -3474,52 +3474,76 @@
           "objectives": [
             "Fabriquer des objets par tissage."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Tissage / vannerie ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le panier de l’atelier tient grâce à ses brins croisés. Sur le modèle, le premier brin passe devant le montant 1, puis derrière le montant 2. Où passe-t-il au montant 3 ?",
           "learn": [
-            "Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants."
+            "En vannerie, on entrecroise des brins souples pour fabriquer des objets comme un panier. Dans ce modèle, les montants restent en place et les bandes passent à travers.",
+            "À chaque montant, alterne un passage dessus et un passage dessous. Si la première rangée commence dessus, commence la deuxième dessous.",
+            "Resserre doucement les rangées pour que les bandes se touchent sans plier le modèle."
           ],
-          "takeaway": "Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants.",
+          "takeaway": "Je vérifie l’alternance sur chaque rangée et d’une rangée à l’autre.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Tissage / vannerie » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Au montant 3, comment passent les bandes des rangées 1 et 2 ?",
+              "answer": "La rangée 1 passe dessus et la rangée 2 passe dessous.",
+              "explanation": "Lis la colonne du montant 3. Les deux passages doivent s’inverser.",
               "type": "open",
               "id": "DP-U4-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Tissage / vannerie ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants.",
-              "explanation": "",
+              "prompt": "Une bande passe dessus aux montants 1 et 2. Corrige la rangée en gardant le départ dessus.",
+              "answer": "Dessus au 1, dessous au 2, dessus au 3, dessous au 4.",
+              "explanation": "Ton modèle est réussi si le passage change à chaque montant.",
               "type": "open",
               "id": "DP-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, artisanat et constructions artistiques, U4, p.162.",
-          "practical": [],
+          "practical": [
+            "Sur quatre montants en papier préparés par l’adulte, reproduis les deux rangées avec deux bandes de couleurs différentes. Vérifie chaque croisement avec un camarade."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Tissage / vannerie », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Le modèle de tissage",
+              "kind": "table",
+              "body": "Les bandes claires sont les montants. Le tableau se lit de gauche à droite. « Dessus » signifie que la bande colorée est visible au croisement.",
+              "table": {
+                "headers": [
+                  "Rangée",
+                  "Montant 1",
+                  "Montant 2",
+                  "Montant 3",
+                  "Montant 4"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Dessus",
+                    "Dessous",
+                    "Dessus",
+                    "Dessous"
+                  ],
+                  [
+                    "2",
+                    "Dessous",
+                    "Dessus",
+                    "Dessous",
+                    "Dessus"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, artisanat et constructions artistiques, U4, p.162.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-dp-tissage.svg",
+            "alt": "Deux bandes entrecroisent quatre montants. La première passe dessus aux montants 1 et 3. La deuxième passe dessus aux montants 2 et 4."
           }
         },
         {
@@ -3529,54 +3553,81 @@
             "Utiliser les outils de jardinage adaptés.",
             "Classer les plantes selon différentes techniques culturales."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Outils et techniques culturales ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour installer des haricots dans le jardin, Amina a des graines et trois outils. Elle doit ouvrir de petits trous, niveler la terre et arroser doucement. Quel outil lui sert à arroser ?",
           "learn": [
-            "Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu."
+            "On choisit l’outil d’après le geste à faire. Un petit transplantoir sert à creuser. Le râteau égalise la surface de la terre. L’arrosoir distribue l’eau.",
+            "On peut obtenir une nouvelle plante à partir d’une graine, d’un morceau de tige appelé bouture ou d’un rejet qui pousse près de la plante mère.",
+            "Une même technique ne convient pas à toutes les plantes. Les cartes donnent des exemples de la région à comparer avec ce que l’on cultive près de l’école."
           ],
-          "takeaway": "Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu.",
+          "takeaway": "J’associe l’outil à la tâche et la plante à une technique qui lui convient.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Outils et techniques culturales » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Tu dois égaliser la terre, puis l’arroser doucement. Quels outils choisis-tu dans cet ordre ?",
+              "answer": "Le râteau, puis l’arrosoir.",
+              "explanation": "Associe chaque outil à un geste précis avant de les mettre dans l’ordre.",
               "type": "open",
               "id": "DP-U4-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Outils et techniques culturales ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu.",
-              "explanation": "",
+              "prompt": "Classe le haricot, le manioc et le bananier selon les trois techniques des cartes.",
+              "answer": "Haricot par graine, manioc par bouture de tige, bananier par rejet.",
+              "explanation": "Vérifie que tes trois associations indiquent la partie de la plante utilisée.",
               "type": "open",
               "id": "DP-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U4, p.163.",
-          "practical": [],
+          "practical": [
+            "Fais deux piles de cartes, outils et plantes. Joue une tâche que ton camarade doit associer à l’outil. Classe ensuite les plantes dans trois colonnes, graine, bouture et rejet."
+          ],
           "notes": [
             "Outils uniquement sous supervision adulte."
           ],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Outils et techniques culturales », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Cartes du jardinier",
+              "kind": "table",
+              "body": "Pour les outils, l’adulte montre le geste et prépare les matériaux. Un rejet est une nouvelle pousse issue de la plante mère.",
+              "table": {
+                "headers": [
+                  "Carte",
+                  "Usage ou technique"
+                ],
+                "rows": [
+                  [
+                    "Petit transplantoir",
+                    "Creuser un petit trou"
+                  ],
+                  [
+                    "Râteau",
+                    "Égaliser la surface de la terre"
+                  ],
+                  [
+                    "Arrosoir",
+                    "Arroser en pluie fine"
+                  ],
+                  [
+                    "Haricot",
+                    "Semer une graine"
+                  ],
+                  [
+                    "Manioc",
+                    "Planter une bouture de tige"
+                  ],
+                  [
+                    "Bananier",
+                    "Replanter un rejet préparé par un adulte"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales, U4, p.163.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -3586,52 +3637,66 @@
             "Cultiver des plantes.",
             "Élever un animal de son choix dans un cadre adapté."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Cultiver un jardin scolaire et élever un animal ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "La classe reçoit un pot pour semer des haricots et observe un poulailler suivi par un adulte. Elle peut s’occuper du pot en classe. Quelles tâches faut-il prévoir chaque jour pour les poules ?",
           "learn": [
-            "Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité."
+            "Pour semer, on choisit avec l’adulte un pot qui laisse s’écouler l’excès d’eau, de la terre et des graines. Une étiquette indique la plante et la date.",
+            "Un carnet de jardin sert à noter les changements, par exemple si la terre est sèche ou si une pousse apparaît.",
+            "Pour un élevage, les adultes assurent l’eau propre, une alimentation adaptée et un abri sûr. Les élèves peuvent tenir un carnet à partir d’observations faites avec eux."
           ],
-          "takeaway": "Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité.",
+          "takeaway": "Je prépare le matériel et le suivi avant de commencer un projet avec des plantes ou des animaux.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Cultiver un jardin scolaire et élever un animal » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Qu’écris-tu sur l’étiquette du pot et que notes-tu lors de la visite suivante ?",
+              "answer": "J’écris « haricot » et la date du semis. Au passage suivant, je note par exemple si la terre est sèche ou si une pousse est visible.",
+              "explanation": "Distingue ce qui identifie le pot de ce qui peut changer d’une visite à l’autre.",
               "type": "open",
               "id": "DP-U4-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Cultiver un jardin scolaire et élever un animal ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité.",
-              "explanation": "",
+              "prompt": "L’école ne peut pas installer de poulailler. Propose une manière d’apprendre à organiser son suivi.",
+              "answer": "La classe utilise une fiche fictive ou les observations fournies par un adulte. Elle note à chaque visite l’eau, l’aliment et l’état de l’abri.",
+              "explanation": "Une solution convient si elle permet de planifier des soins réguliers sans devoir installer un élevage.",
               "type": "open",
               "id": "DP-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U4, p.163.",
-          "practical": [],
+          "practical": [
+            "Prépare une étiquette pour un pot de haricot et une page de carnet. Avec un adulte, sème les graines ou dessine les étapes. Joue ensuite le rôle de la personne qui note les observations du poulailler."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Cultiver un jardin scolaire et élever un animal », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Deux fiches pour démarrer",
+              "kind": "table",
+              "body": "Exemples de fiches de classe. On peut étudier le poulailler à partir d’un dessin et d’un relevé donné par l’enseignant.",
+              "table": {
+                "headers": [
+                  "Projet",
+                  "À préparer",
+                  "À noter"
+                ],
+                "rows": [
+                  [
+                    "Pot de haricot",
+                    "Pot percé préparé, terre, graines et étiquette",
+                    "Date de semis et état de la terre"
+                  ],
+                  [
+                    "Poulailler de l’école",
+                    "Abri, abreuvoir, aliments et adulte référent",
+                    "Vérification de l’eau, de la nourriture et de l’abri"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales, U4, p.163.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -3640,54 +3705,72 @@
           "objectives": [
             "Utiliser des aiguilles pour tricoter."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Tricotage avec aiguilles ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur une aiguille, le fil forme une rangée de boucles. L’adulte montre comment une nouvelle boucle passe sur l’autre aiguille. À quel moment peut-il laisser glisser l’ancienne ?",
           "learn": [
-            "Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision."
+            "Une maille est une boucle du fil. Pour la maille endroit montrée ici, l’aiguille libre entre dans la première boucle par l’avant, avec le fil derrière le travail.",
+            "On entoure l’aiguille libre avec le fil et on tire une nouvelle boucle à travers l’ancienne. Puis on laisse glisser seulement la boucle travaillée.",
+            "Une rangée avance maille par maille. Compare le nombre de boucles avant et après une rangée simple pour repérer une maille lâchée."
           ],
-          "takeaway": "Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision.",
+          "takeaway": "Je forme la nouvelle boucle avant de libérer l’ancienne.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Tricotage avec aiguilles » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Tu as passé le fil autour de l’aiguille libre. Quelles sont les deux actions qui suivent ?",
+              "answer": "Je tire la nouvelle boucle à travers l’ancienne, puis je laisse glisser l’ancienne boucle.",
+              "explanation": "La boucle neuve doit être tenue sur son aiguille avant que l’ancienne soit libérée.",
               "type": "open",
               "id": "DP-U4-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Tricotage avec aiguilles ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision.",
-              "explanation": "",
+              "prompt": "Au départ il y a cinq mailles et tu n’en vois que quatre à la fin d’une rangée simple. Quel contrôle proposes-tu ?",
+              "answer": "Je recompte les boucles et je demande à l’adulte de m’aider à repérer une maille lâchée.",
+              "explanation": "Le nombre doit rester le même dans cet exercice. On cherche d’abord ce qui s’est passé.",
               "type": "open",
               "id": "DP-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U4, p.166.",
-          "practical": [],
+          "practical": [
+            "Remets les cartes dans l’ordre et explique chaque geste en montrant le fil sur un dessin. Essaie ensuite une maille avec des aiguilles adaptées, seulement si l’adulte organise et accompagne l’atelier."
+          ],
           "notes": [
             "Matériel potentiellement piquant : supervision adulte obligatoire."
           ],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Tricotage avec aiguilles », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Quatre cartes pour la maille endroit",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Étape",
+                  "Geste observé"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Entrer dans la première boucle"
+                  ],
+                  [
+                    "2",
+                    "Passer le fil autour de l’aiguille libre"
+                  ],
+                  [
+                    "3",
+                    "Tirer la nouvelle boucle à travers l’ancienne"
+                  ],
+                  [
+                    "4",
+                    "Faire glisser l’ancienne boucle de son aiguille"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités domestiques et familiales, U4, p.166.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -3696,54 +3779,53 @@
           "objectives": [
             "Broder un motif au point de bourdon."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Broderie au point de bourdon ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur une étiquette brodée, une petite feuille est en relief. Des fils serrés couvrent sa surface. Sur un autre motif, le tissu reste visible entre les fils. Lequel est entièrement rempli ?",
           "learn": [
-            "Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité."
+            "Le point de bourdon sert à couvrir un motif avec des points serrés, souvent par-dessus une base qui donne du relief.",
+            "Sur le modèle, chaque point relie un bord de la forme au bord opposé. Les points sont rapprochés pour cacher la base et la longueur suit la largeur du motif.",
+            "L’enseignant montre le geste sur le tissu et reprend l’aiguille à la fin. Sur papier, tu peux préparer le motif et dessiner les passages du fil."
           ],
-          "takeaway": "Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité.",
+          "takeaway": "Je suis les bords du motif et je rapproche les points pour remplir sa surface.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Broderie au point de bourdon » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Sur une feuille large au milieu et étroite à la pointe, où les points seront-ils les plus longs ?",
+              "answer": "Au milieu, où les deux bords sont plus éloignés.",
+              "explanation": "Les points suivent la largeur du motif et restent à l’intérieur de son contour.",
               "type": "open",
               "id": "DP-U4-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Broderie au point de bourdon ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité.",
-              "explanation": "",
+              "prompt": "Il reste un espace visible entre deux points. Quelle correction proposes-tu ?",
+              "answer": "J’ajoute un point rapproché entre les deux, d’un bord de la feuille à l’autre.",
+              "explanation": "Sur le gabarit, le nouveau trait doit remplir l’espace sans sortir de la feuille.",
               "type": "open",
               "id": "DP-U4-L5-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U4, p.166.",
-          "practical": [],
+          "practical": [
+            "Dessine une petite feuille sur une carte et trace des traits rapprochés d’un bord à l’autre. Montre à ton camarade où un point serait plus court. La broderie sur tissu se fait à l’atelier avec l’adulte."
+          ],
           "notes": [
             "Aiguille sous supervision adulte."
           ],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Broderie au point de bourdon », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Une feuille en trois étapes",
+              "kind": "document",
+              "body": "Trace la forme de la feuille. Prévois une base de fil à l’intérieur pour obtenir un relief. Recouvre-la de points serrés qui vont d’un bord à l’autre. Le dessin montre la base et la couverture séparément."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités domestiques et familiales, U4, p.166.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-dp-bourdon.svg",
+            "alt": "À gauche, une petite base de fil suit l’intérieur du motif. À droite, des points serrés traversent la feuille d’un bord à l’autre et recouvrent la base."
           }
         }
       ],
@@ -3753,37 +3835,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Tissage / vannerie",
-            "answer": "Je prépare un modèle simple et j’utilise des matériaux souples, propres et non coupants."
+            "prompt": "Écris les quatre passages de la deuxième rangée si la première fait dessus, dessous, dessus, dessous.",
+            "answer": "Dessous, dessus, dessous, dessus. Compte 1 point par passage correct."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Outils et techniques culturales",
-            "answer": "Les outils sont choisis selon la tâche et l’âge ; les techniques de culture varient selon l’espèce et le milieu."
+            "prompt": "Choisis l’outil pour creuser un petit trou et celui pour niveler la terre. Classe aussi le manioc et le haricot selon leur mode de plantation.",
+            "answer": "Petit transplantoir, râteau, bouture de tige pour le manioc, graine pour le haricot. Compte 1 point par association."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Cultiver un jardin scolaire et élever un animal",
-            "answer": "Un projet vivant exige eau, nourriture, hygiène, observation régulière et responsabilité."
+            "prompt": "Prépare le départ du projet. Indique deux informations à écrire sur le pot et deux éléments que l’adulte prévoit au poulailler.",
+            "answer": "Par exemple nom de la plante et date du semis, puis eau propre et aliment adapté. Compte 1 point par élément approprié. L’abri sûr est aussi accepté au poulailler."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Tricotage avec aiguilles",
-            "answer": "Le tricotage suit une démonstration progressive ; les aiguilles sont manipulées uniquement sous supervision."
+            "prompt": "Numérote les quatre gestes dans l’ordre de la maille endroit. Tirer la boucle neuve, libérer l’ancienne, entrer dans la première maille, passer le fil autour de l’aiguille.",
+            "answer": "Entrer dans la maille, passer le fil autour de l’aiguille, tirer la boucle neuve, libérer l’ancienne. Compte 1 point par étape bien placée."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Broderie au point de bourdon",
-            "answer": "Je prépare le motif, utilise le fil et l’aiguille avec soin et range le matériel après l’activité."
+            "prompt": "Explique à un camarade où commencer et finir un point sur la feuille, comment placer le suivant et avec qui utiliser l’aiguille.",
+            "answer": "Commencer au bord, finir au bord opposé, rapprocher le point suivant, utiliser l’aiguille avec l’adulte. Compte 1 point par repère."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Refais le tissage sur quatre montants et vérifie le passage à chaque croisement.",
+        "Associe une carte de tâche à un outil, puis une carte de plante à son mode de multiplication.",
+        "Mime les étapes de la maille ou montre les points serrés du motif sur un gabarit de papier."
       ],
-      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Au jardin et à l’atelier, tu choisis des outils, tu suis un modèle et tu contrôles le résultat. Tu peux fabriquer un petit tissage, organiser un projet de jardin et observer deux gestes du travail du fil."
     }
   ],
   "integration_project": {

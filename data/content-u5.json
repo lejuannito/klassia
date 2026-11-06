@@ -2904,52 +2904,66 @@
           "objectives": [
             "Entretenir le jardin scolaire."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Entretenir le jardin scolaire ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "La classe part en sortie demain. Avant le départ, Lise relève l’état des pots. La terre du pot A est sèche sous la surface, celle du pot B est encore humide. Quel message laisse-t-elle à la classe de relais ?",
           "learn": [
-            "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux."
+            "On observe la terre et les feuilles avant d’arroser. Les plantes et les pots peuvent avoir des besoins différents.",
+            "Dans les pots de la classe, l’adulte montre comment vérifier la terre. Quand elle est sèche et que la plante a besoin d’eau, on arrose doucement près du pied.",
+            "Pour passer le relais, indique le pot, ce que tu as observé, l’action faite et le moment de la prochaine vérification."
           ],
-          "takeaway": "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux.",
+          "takeaway": "Je vérifie l’état de chaque pot et je transmets une consigne claire à la personne de relais.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Entretenir le jardin scolaire » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "À quel pot proposes-tu de donner de l’eau ce matin ? Justifie avec le relevé.",
+              "answer": "Au pot A, car sa terre est sèche sous la surface.",
+              "explanation": "Ta justification doit s’appuyer sur l’état de la terre, que tu peux comparer à celui du pot B.",
               "type": "open",
               "id": "DP-U5-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Entretenir le jardin scolaire ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux.",
-              "explanation": "",
+              "prompt": "Écris un message de relais pour le pot B avec une observation et une action à faire.",
+              "answer": "« Pot B : terre encore humide ce lundi. Vérifier demain matin avant de décider s’il faut arroser. »",
+              "explanation": "Le message est utilisable s’il identifie le pot, son état et le moment de la vérification.",
               "type": "open",
               "id": "DP-U5-L1-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U5, p.163.",
-          "practical": [],
+          "practical": [
+            "Joue le passage de relais. Une personne lit le carnet, une autre reformule l’action pour chaque pot et note l’heure du prochain passage."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Entretenir le jardin scolaire », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Carnet du jardin avant le départ",
+              "kind": "table",
+              "body": "Relevé fictif du lundi matin. Les deux pots contiennent des haricots.",
+              "table": {
+                "headers": [
+                  "Pot",
+                  "Observation",
+                  "Suite décidée avec l’adulte"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Terre sèche sous la surface",
+                    "Arroser doucement au pied, puis noter l’heure"
+                  ],
+                  [
+                    "B",
+                    "Terre humide sous la surface",
+                    "Vérifier de nouveau le lendemain matin"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales, U5, p.163.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -2958,52 +2972,70 @@
           "objectives": [
             "Entretenir l’animal en élevage."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Entretenir un animal en élevage ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Avant la sortie de la classe, l’adulte note que les poules ont assez d’aliment, mais que leur eau est sale. Deux groupes se relaient pour tenir le carnet. Quelle action doit être transmise en premier ?",
           "learn": [
-            "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte."
+            "Dans un élevage, les adultes vérifient l’eau, l’aliment adapté et l’état de l’abri à des moments prévus.",
+            "Une ligne de carnet indique l’heure, l’observation et l’action effectuée. Un message de relais indique aussi qui assure la suite.",
+            "Le matériel du poulailler est réservé à cet usage. L’adulte s’en occupe loin de la cuisine. Après la visite, les élèves se lavent les mains à l’eau et au savon."
           ],
-          "takeaway": "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte.",
+          "takeaway": "Je transmets l’état de l’élevage, le geste à faire et le nom de l’adulte qui prend le relais.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Entretenir un animal en élevage » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Que doit faire l’adulte en priorité et que peux-tu noter après son intervention ?",
+              "answer": "L’adulte renouvelle l’eau. Je note l’heure et que l’abreuvoir contient maintenant de l’eau propre.",
+              "explanation": "Distingue l’observation au départ et le résultat après l’action.",
               "type": "open",
               "id": "DP-U5-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Entretenir un animal en élevage ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte.",
-              "explanation": "",
+              "prompt": "À la fin de la visite, où l’adulte s’occupe-t-il du matériel et quel geste fais-tu avant le repas ?",
+              "answer": "L’adulte s’occupe du matériel dans l’espace prévu pour l’élevage, loin de la cuisine. Je me lave les mains à l’eau et au savon.",
+              "explanation": "Vérifie les deux gestes, la séparation du matériel et le lavage des mains.",
               "type": "open",
               "id": "DP-U5-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U5, p.163.",
-          "practical": [],
+          "practical": [
+            "Sur une fiche de simulation, joue le rôle de l’élève chargé du carnet. Lis tes notes à la personne qui prend le relais et demande-lui de reformuler la première action."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Entretenir un animal en élevage », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Fiche de suivi du poulailler",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "À 8 h",
+                  "Relevé",
+                  "Action de l’adulte"
+                ],
+                "rows": [
+                  [
+                    "Eau",
+                    "Abreuvoir avec de la terre",
+                    "Renouveler l’eau et noter l’heure"
+                  ],
+                  [
+                    "Aliment",
+                    "Quantité suffisante",
+                    "Vérifier au prochain passage"
+                  ],
+                  [
+                    "Abri",
+                    "Porte bien fermée",
+                    "Contrôler la fermeture après la visite"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales, U5, p.163.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -3012,52 +3044,71 @@
           "objectives": [
             "Réaliser un menu pour la ration de croissance."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Réaliser un menu pour la ration de croissance ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour la sortie, le groupe de Mado écrit « riz et eau » sur sa fiche de déjeuner. Il dispose aussi de haricots, de légumes et de goyaves. Que peut-il ajouter pour varier son repas ?",
           "learn": [
-            "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau."
+            "Un menu indique les plats et la boisson prévus pour un repas. La ration de croissance correspond à l’alimentation de la journée d’un enfant qui grandit. Ici, tu composes un des repas de la journée.",
+            "Associe des aliments variés. Le riz et le maïs apportent de l’énergie. Les haricots et les œufs apportent notamment des protéines. Les fruits et les légumes apportent entre autres des vitamines et des fibres.",
+            "La portion est la quantité servie à une personne. L’adulte adapte les portions aux enfants. Tu peux construire un exemple de menu avec des aliments disponibles près de chez toi."
           ],
-          "takeaway": "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau.",
+          "takeaway": "Je compose un menu varié et j’indique l’eau potable comme boisson.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Réaliser un menu pour la ration de croissance » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Complète la fiche « riz et eau potable » avec un aliment qui apporte des protéines et un fruit ou un légume.",
+              "answer": "Par exemple riz, haricots, carottes et eau potable. Une autre réponse possible ajoute un œuf cuit et une goyave.",
+              "explanation": "Ton choix doit ajouter les deux types d’aliments demandés.",
               "type": "open",
               "id": "DP-U5-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Réaliser un menu pour la ration de croissance ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau.",
-              "explanation": "",
+              "prompt": "Il reste du plantain cuit, du poisson cuit et des oranges. Propose un déjeuner avec ces aliments et une boisson.",
+              "answer": "Plantain cuit, poisson cuit, orange et eau potable. On peut y ajouter des légumes disponibles.",
+              "explanation": "Vérifie que la fiche nomme les plats et la boisson. Plusieurs compositions conviennent.",
               "type": "open",
               "id": "DP-U5-L3-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U5, p.166.",
-          "practical": [],
+          "practical": [
+            "Avec les cartes, compose un déjeuner et présente-le à l’oral. Ton camarade propose un échange dans une catégorie, puis vous relisez le nouveau menu."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Réaliser un menu pour la ration de croissance », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Cartes d’aliments pour un repas",
+              "kind": "table",
+              "body": "Un exemple de menu associe du riz, des haricots, des carottes cuites, une goyave et de l’eau potable.",
+              "table": {
+                "headers": [
+                  "Carte",
+                  "Exemples disponibles"
+                ],
+                "rows": [
+                  [
+                    "Base du plat",
+                    "Riz, maïs ou plantain cuit"
+                  ],
+                  [
+                    "Aliment qui apporte des protéines",
+                    "Haricots, œuf cuit ou poisson cuit"
+                  ],
+                  [
+                    "Légume et fruit",
+                    "Carottes, feuilles cuisinées, orange ou goyave"
+                  ],
+                  [
+                    "Boisson",
+                    "Eau potable"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités domestiques et familiales, U5, p.166.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         }
       ],
@@ -3067,37 +3118,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Entretenir le jardin scolaire",
-            "answer": "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux."
+            "prompt": "Pot A sec sous la surface, pot B encore humide. Choisis une action pour chacun et justifie tes deux choix.",
+            "answer": "Arroser doucement A car sa terre est sèche. Attendre et revérifier B car sa terre est encore humide. Compte 1 point par action et par justification."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Entretenir un animal en élevage",
-            "answer": "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte."
+            "prompt": "Écris une ligne pour le carnet du pot A après un arrosage à 8 h. Ajoute le prochain contrôle.",
+            "answer": "Par exemple : pot A, arrosé, 8 h, vérifier la terre demain matin. Compte 1 point pour le pot, l’action, l’heure et la suite."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Réaliser un menu pour la ration de croissance",
-            "answer": "Un menu de croissance doit être varié et équilibré ; il associe différentes familles d’aliments et de l’eau."
+            "prompt": "Au poulailler, l’eau est sale et l’aliment est suffisant. Donne une action immédiate à transmettre à l’adulte et une vérification à prévoir pour la suite.",
+            "answer": "Faire renouveler l’eau par l’adulte (2 points) et vérifier l’aliment au prochain passage (2 points)."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Entretenir le jardin scolaire",
-            "answer": "J’arrose selon les besoins, retire les déchets et observe l’état des plantes sans utiliser de produit dangereux."
+            "prompt": "Après la visite, précise où traiter le matériel de l’élevage et comment préparer tes mains avant le repas.",
+            "answer": "Dans l’espace réservé à l’élevage, loin de la cuisine (2 points). Se laver les mains à l’eau et au savon (2 points)."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Entretenir un animal en élevage",
-            "answer": "L’animal a besoin d’eau, d’alimentation, d’un espace propre et de soins adaptés assurés avec un adulte."
+            "prompt": "Écris un déjeuner avec une base du plat, un aliment qui apporte des protéines, un fruit ou un légume et une boisson.",
+            "answer": "Par exemple riz, haricots, goyave et eau potable. Compte 1 point pour chaque rôle représenté."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Relis le carnet du jardin et justifie l’action pour un seul pot.",
+        "Joue le passage de relais et fais répéter la prochaine vérification par le destinataire.",
+        "Remplace un aliment sur la fiche de menu en gardant des aliments variés et de l’eau potable."
       ],
-      "chapter_intro": "Dans l’unité « Les voyages », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Avant un déplacement, la classe organise le relais au jardin et au poulailler. Tu apprends aussi à composer un menu varié avec les aliments disponibles."
     }
   ],
   "integration_project": {

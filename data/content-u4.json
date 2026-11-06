@@ -1335,57 +1335,78 @@
             "Expliquer la notion d’alimentation équilibrée.",
             "Construire des rations alimentaires selon l’activité."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Alimentation équilibrée selon l’activité ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le même jour, Sami prépare des affiches assis et Aline marche longtemps pour apporter du matériel. Le lendemain, ils échangent leurs tâches. Observe ce qui change dans leurs activités.",
           "learn": [
-            "Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité."
+            "Une ration est l’ensemble de ce qu’une personne mange et boit pendant une durée donnée. Dans cet exercice, on regarde une journée entière.",
+            "Un repas varié associe plusieurs types d’aliments. Par exemple, le riz apporte de l’énergie, les haricots apportent notamment des protéines et les légumes complètent le repas.",
+            "Une activité plus longue ou plus intense peut changer les besoins. On observe ce que fait la personne et on tient compte de ses besoins propres."
           ],
-          "takeaway": "Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité.",
+          "takeaway": "Pour composer une ration, je répartis des aliments variés et de l’eau sur la journée. J’explique mon choix à partir de l’activité décrite.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Alimentation équilibrée selon l’activité » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans le tableau, quels aliments complètent le riz au repas du midi ? Explique l’intérêt de cette association.",
+              "answer": "Les haricots et les légumes complètent le riz. Le repas associe plusieurs aliments aux rôles différents et comprend de l’eau.",
+              "explanation": "Repère les aliments de la même ligne. Donne un rôle ou une caractéristique à deux d’entre eux.",
               "id": "SC-U4-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Alimentation équilibrée selon l’activité ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Sami marche longtemps le lendemain. Propose ses trois repas et une adaptation à sa journée. Explique ton choix.",
+              "answer": "Exemple : bouillie et fruit le matin, plantain avec poisson et légumes à midi, riz et haricots le soir. Prévoir de l’eau au cours de la journée et, si besoin, un fruit en collation après la marche. Toute journée variée et justifiée convient.",
+              "explanation": "Vérifie que tu as décrit la journée entière, prévu de l’eau et relié une adaptation à l’activité, sans imposer une quantité identique à chacun.",
               "id": "SC-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Sur une feuille, écris Matin, Midi, Soir. Utilise des aliments que tu connais pour proposer une journée variée. Explique oralement où tu as prévu de boire de l’eau."
+          ],
+          "notes": [
+            "Les journées et les menus sont des exemples pédagogiques. Repères nutritionnels : OMS, Alimentation saine."
+          ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Alimentation équilibrée selon l’activité », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Une journée de travail fictive",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Moment",
+                  "Repas ou boisson",
+                  "Ce que j’observe"
+                ],
+                "rows": [
+                  [
+                    "Matin",
+                    "Bouillie de maïs, banane et eau",
+                    "Deux aliments et une boisson"
+                  ],
+                  [
+                    "Midi",
+                    "Riz, haricots, légumes et eau",
+                    "Plusieurs groupes d’aliments"
+                  ],
+                  [
+                    "Soir",
+                    "Plantain, poisson, légumes et eau",
+                    "Un repas différent du midi"
+                  ]
+                ]
+              },
+              "body": "Voici une proposition pour la journée. Selon l’activité et les besoins, l’adulte peut adapter la quantité ou prévoir une collation."
             },
             {
-              "title": "Exemple guidé",
+              "title": "Comparer les deux journées",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Alimentation équilibrée selon l’activité » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « alimentation équilibrée selon l’activité ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "Sami a aussi besoin d’une ration variée lorsqu’il dessine. Après une longue marche, Aline peut prévoir de l’eau et un goûter si elle en a besoin. Le lendemain, on raisonne de nouveau à partir du travail effectué."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1395,119 +1416,147 @@
             "Identifier des maladies respiratoires.",
             "Appliquer l’hygiène de la respiration."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Respiration : maladies et hygiène ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une fiche raconte le travail dans un atelier qui produit de la poussière. Un autre élève lit une fiche sur une maladie qui touche les poumons. Lis les deux fiches pour choisir des gestes utiles.",
           "learn": [
-            "Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés."
+            "Le nez et la bouche laissent entrer l’air. L’air passe dans les voies respiratoires jusqu’aux poumons.",
+            "L’asthme peut rendre la respiration difficile. Chez certaines personnes, la fumée ou la poussière peut aggraver la gêne. La pneumonie est une infection des poumons.",
+            "Une gêne respiratoire peut avoir plusieurs causes. Un adulte aide l’enfant à obtenir les soins nécessaires."
           ],
-          "takeaway": "Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés.",
+          "takeaway": "Je protège ma respiration en m’éloignant de la fumée et de la poussière. Si respirer devient difficile, j’alerte tout de suite un adulte.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Respiration : maladies et hygiène » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans quelle fiche la maladie est-elle une infection des poumons ? Quel indice te permet de répondre ?",
+              "answer": "Dans la fiche du centre de santé. Elle nomme la pneumonie, que le cours décrit comme une infection des poumons.",
+              "explanation": "Appuie-toi sur le nom donné dans la fiche. Une toux seule ne permet pas d’identifier une maladie.",
               "id": "SC-U4-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Respiration : maladies et hygiène ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un camarade tousse près d’une source de fumée et dit qu’il a du mal à respirer. Quels deux gestes proposes-tu ?",
+              "answer": "S’éloigner de la fumée avec lui si cela peut se faire en sécurité et alerter tout de suite un adulte. Lui laisser de l’espace et suivre les indications de l’adulte.",
+              "explanation": "Cherche un geste pour réduire l’exposition et un geste pour demander de l’aide.",
               "id": "SC-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Joue la scène de l’atelier avec un camarade. Montre où tu t’éloignes et dis une phrase claire à l’adulte. Ne crée ni fumée ni poussière pour le jeu."
+          ],
+          "notes": [
+            "Fiches fictives. Repères : OMS, Asthme et Pneumonie."
+          ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Respiration : maladies et hygiène », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Deux situations fictives",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Fiche",
+                  "Information donnée",
+                  "Geste adapté"
+                ],
+                "rows": [
+                  [
+                    "Atelier de menuiserie",
+                    "Une enfant asthmatique commence à être gênée près de la poussière.",
+                    "Elle s’éloigne de la poussière et avertit l’adulte."
+                  ],
+                  [
+                    "Retour du centre de santé",
+                    "Un professionnel a expliqué à la famille que l’enfant a une pneumonie.",
+                    "La famille suit les indications du professionnel. L’enfant n’essaie pas de se soigner seul."
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Protéger l’air que l’on respire",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Respiration : maladies et hygiène » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « respiration : maladies et hygiène ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "Dans un lieu sans fumée à l’extérieur, aérer la pièce renouvelle l’air. La poussière d’un atelier se gère avec les consignes de sécurité de l’adulte. Quand on tousse, on peut protéger les autres en couvrant sa toux avec le pli du coude."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
           "id": "SC-U4-L3",
-          "title": "Prévention du VIH/Sida à un niveau adapté",
+          "title": "VIH et sida : comprendre et se protéger",
           "objectives": [
             "Définir la notion de sida à un niveau CE2.",
             "Expliquer comment l’éviter selon des messages de santé adaptés à l’âge."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Prévention du VIH/Sida à un niveau adapté ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux camarades lisent une affiche sur le VIH. L’un croit qu’il faut arrêter de jouer avec une personne qui vit avec le VIH. Aide-les à vérifier ce message.",
           "learn": [
-            "Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant."
+            "Le VIH est un virus qui affaiblit les défenses du corps. Le sida est un stade avancé de l’infection par le VIH. Un traitement suivi avec des soignants aide à empêcher cette évolution.",
+            "Partager un repas, une classe ou un ballon avec une personne qui vit avec le VIH ne transmet pas le virus.",
+            "Le VIH peut se transmettre dans certaines situations, notamment par du sang contaminé. Les soignants expliquent les moyens de prévention et utilisent du matériel adapté."
           ],
-          "takeaway": "Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant.",
+          "takeaway": "Je peux jouer avec tous mes camarades. Si je trouve une lame ou une seringue usagée, je m’en éloigne et je préviens un adulte.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Prévention du VIH/Sida à un niveau adapté » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Explique en une phrase la différence entre le VIH et le sida.",
+              "answer": "Le VIH est le virus. Le sida est le stade avancé que l’infection par ce virus peut atteindre.",
+              "explanation": "Dis d’abord ce qu’est le virus, puis ce que signifie le stade avancé.",
               "id": "SC-U4-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Prévention du VIH/Sida à un niveau adapté ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans la cour, on propose d’exclure un camarade du jeu à cause du VIH. Une lame usagée est aussi signalée près du terrain. Que réponds-tu et que fais-tu ?",
+              "answer": "On invite le camarade à jouer comme les autres. On laisse la lame en place, on s’en écarte et on prévient un adulte.",
+              "explanation": "Associe chaque situation à son propre geste. Le respect des personnes et la prudence face à un objet coupant vont ensemble.",
               "id": "SC-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
-          "practical": [],
+          "practical": [
+            "Sur deux cartes, écris une situation où tu peux rester avec un camarade et une situation où tu dois avertir l’adulte. Utilise les personnages fictifs de la leçon."
+          ],
           "notes": [
-            "Contenu santé à valider avec un référent pédagogique/santé ; éviter toute stigmatisation."
+            "Repères vérifiés dans la fiche VIH et sida de l’OMS. Les scénarios ne demandent aucune information personnelle."
           ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Prévention du VIH/Sida à un niveau adapté », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Deux situations à distinguer",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Ce qu’il faut comprendre",
+                  "Ce que je fais"
+                ],
+                "rows": [
+                  [
+                    "Jouer avec un camarade qui vit avec le VIH",
+                    "Le jeu ensemble ne transmet pas le VIH.",
+                    "Je continue à jouer avec lui."
+                  ],
+                  [
+                    "Trouver une lame usagée dans la cour",
+                    "Un objet coupant peut blesser et porter du sang.",
+                    "Je laisse l’objet en place et j’avertis un adulte."
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Qui peut expliquer la prévention ?",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Prévention du VIH/Sida à un niveau adapté » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « prévention du vih/sida à un niveau adapté ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "Un adulte de confiance peut accompagner l’enfant vers un centre de santé pour poser des questions. Personne n’a à révéler son état de santé à la classe."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sciences de la vie, U4, p.97.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1516,57 +1565,74 @@
           "objectives": [
             "Identifier matière première, provenance, objets fabriqués, usages et bénéficiaires."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Enquêter sur le travail d’un artisan ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Mado fabrique des pots. Pour préparer une fiche sur son métier, Lina lui pose quatre questions. Lis ses réponses et cherche d’où vient la matière utilisée.",
           "learn": [
-            "Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision."
+            "La matière première est ce que l’artisan transforme. Un outil sert à réaliser un geste, par exemple couper, mesurer ou façonner.",
+            "Pour mener une enquête, je prépare des questions. Je note ce que l’artisan dit, puis je sépare ses réponses de mes suppositions."
           ],
-          "takeaway": "Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision.",
+          "takeaway": "Ma fiche indique la matière, sa provenance, l’objet fabriqué, son usage et ses utilisateurs.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Enquêter sur le travail d’un artisan » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Complète la fiche de Mado avec la matière, sa provenance, l’objet et ses utilisateurs.",
+              "answer": "Argile livrée par la coopérative du village voisin. Mado fabrique des pots pour les jeunes plantes des jardiniers.",
+              "explanation": "La spatule est un outil. Elle ne devient pas une partie du pot.",
               "id": "SC-U4-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Enquêter sur le travail d’un artisan ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Rédige la fiche de Paul en cinq réponses courtes. Précise aussi le rôle du mètre.",
+              "answer": "Matière : bois. Provenance : scierie. Objet : tabouret. Usage : s’asseoir. Utilisateurs : les élèves. Le mètre sert à mesurer les pièces.",
+              "explanation": "Retrouve les cinq renseignements dans le texte avant d’ajouter le rôle de l’outil.",
               "id": "SC-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, technologies, U4, p.103.",
-          "practical": [],
+          "practical": [
+            "Par deux, joue l’entretien. Une personne lit la fiche de Mado, l’autre pose les questions et note les réponses. Avec l’accord d’un adulte, une vraie observation peut compléter ce jeu."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Enquêter sur le travail d’un artisan », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Entretien fictif avec Mado, potière",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Question",
+                  "Réponse de Mado"
+                ],
+                "rows": [
+                  [
+                    "Quelle matière travailles-tu ?",
+                    "De l’argile."
+                  ],
+                  [
+                    "D’où vient cette argile ?",
+                    "Une coopérative du village voisin me la livre."
+                  ],
+                  [
+                    "Que fabriques-tu et avec quel outil ?",
+                    "Des pots pour les plantes. Je lisse l’argile avec une spatule."
+                  ],
+                  [
+                    "Qui utilise tes pots et pour quoi faire ?",
+                    "Les jardiniers y mettent de jeunes plantes."
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Un autre artisan",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Enquêter sur le travail d’un artisan » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « enquêter sur le travail d’un artisan ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "Paul travaille du bois livré par une scierie. Il mesure les pièces avec un mètre. Il fabrique des tabourets que les élèves utilisent pour s’asseoir."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, technologies, U4, p.103.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1576,59 +1642,87 @@
             "Définir conducteur et isolant.",
             "Identifier des conducteurs et isolants du courant électrique."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Conducteurs et isolants du courant électrique ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur un circuit de classe, la lampe s’allume avec un morceau d’aluminium entre les pinces. Elle reste éteinte avec une bande de plastique. Quel élément a été changé ?",
           "learn": [
-            "Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique."
+            "Dans ce montage, la pile et la lampe sont reliées par des fils. Pour que la lampe s’allume, le courant doit pouvoir circuler dans une boucle fermée.",
+            "Un conducteur laisse suffisamment passer le courant dans le circuit. Un isolant, comme le plastique sec testé ici, l’empêche de circuler assez pour allumer la lampe.",
+            "On compare les objets avec le même montage et les mêmes conditions. On change un seul objet à la fois."
           ],
-          "takeaway": "Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique.",
+          "takeaway": "Je classe un matériau à partir d’un essai dans un circuit pédagogique à pile, préparé et manipulé par l’adulte.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Conducteurs et isolants du courant électrique » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "À partir du tableau, classe l’aluminium et le plastique sec. Quel indice as-tu utilisé ?",
+              "answer": "L’aluminium est conducteur dans ce montage puisque la lampe s’allume. Le plastique sec est isolant dans cet essai puisque la lampe reste éteinte.",
+              "explanation": "Vérifie que le montage fonctionne avec l’aluminium et que seul l’objet testé change.",
               "id": "SC-U4-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Conducteurs et isolants du courant électrique ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique.",
-              "explanation": "",
               "type": "open",
+              "prompt": "L’adulte teste une nouvelle languette et la lampe s’allume. Que peux-tu conclure ? Que se passerait-il si une pince se détachait ?",
+              "answer": "La languette conduit suffisamment le courant dans ce circuit. Avec une pince détachée, la boucle s’ouvre et la lampe s’éteint.",
+              "explanation": "Distingue la propriété du matériau et l’état de la boucle.",
               "id": "SC-U4-L5-E2"
             }
           ],
           "source": "Curriculum CE2, technologies, U4, p.103.",
-          "practical": [],
+          "practical": [
+            "Sur le dessin, suis la boucle depuis une borne de la pile, en passant par la lampe et l’objet, jusqu’à l’autre borne. Dessine ensuite une coupure et prédis l’observation."
+          ],
           "notes": [
-            "Sécurité : aucune expérimentation sur une prise secteur ; utiliser seulement des dispositifs scolaires basse tension sous supervision."
+            "Montage didactique à pile. Repère de conception : Exploratorium, Homemade Switches."
           ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Conducteurs et isolants du courant électrique », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Observations du montage de classe",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Entre les deux pinces",
+                  "Lampe",
+                  "Conclusion pour cet essai"
+                ],
+                "rows": [
+                  [
+                    "Languette d’aluminium",
+                    "Allumée",
+                    "Conducteur"
+                  ],
+                  [
+                    "Bande de plastique sec",
+                    "Éteinte",
+                    "Isolant"
+                  ],
+                  [
+                    "Bâtonnet de bois sec",
+                    "Éteinte",
+                    "Isolant"
+                  ],
+                  [
+                    "Aucun objet",
+                    "Éteinte",
+                    "Circuit ouvert"
+                  ]
+                ]
+              },
+              "body": "L’adulte vérifie le montage avec l’aluminium avant de changer d’objet. La dernière ligne sert de comparaison."
             },
             {
-              "title": "Exemple guidé",
-              "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Conducteurs et isolants du courant électrique » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « conducteurs et isolants du courant électrique ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
+              "title": "Observer en sécurité",
               "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "On travaille sur le schéma ou sur un circuit scolaire à pile préparé par l’adulte. Les prises murales, les chargeurs et les fils électriques de la maison ne font pas partie de l’activité."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, technologies, U4, p.103.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-circuit-conductivite.svg",
+            "alt": "Circuit en série avec une pile, une lampe et un objet entre deux pinces. Le courant suit une boucle si l’objet conduit et relie les pinces."
           }
         },
         {
@@ -1639,57 +1733,100 @@
             "Expliquer des techniques culturales et d’amélioration du rendement.",
             "Entretenir un jardin et décrire l’élevage d’une espèce locale."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Calendrier agricole, techniques culturales, jardin et élevage ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le jardin de l’école tient un carnet. Les élèves ont mélangé les dates. Remets les travaux dans l’ordre, puis observe le registre du petit élevage.",
           "learn": [
-            "Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité."
+            "Un calendrier agricole indique à quel moment on prépare, sème, entretient et récolte une culture. Il dépend de la plante, du lieu et du temps qu’il fait.",
+            "L’entretien comprend l’observation des plants, l’arrosage adapté et le retrait des mauvaises herbes sous la conduite d’un adulte.",
+            "Pour comparer deux façons de cultiver, on garde des conditions proches et on note les résultats. Dans un élevage, l’adulte choisit la nourriture et s’occupe de l’abri et de l’eau."
           ],
-          "takeaway": "Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité.",
+          "takeaway": "Je construis un calendrier à partir de faits observés. Je note aussi l’origine des aliments et les soins donnés dans un élevage.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Calendrier agricole, techniques culturales, jardin et élevage » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Classe les quatre travaux par date. Nomme celui qui relève de l’entretien.",
+              "answer": "10 avril préparation, 15 avril semis, 25 avril observation et retrait des herbes, 3 juin récolte. Le travail du 25 avril relève de l’entretien.",
+              "explanation": "Range les dates de la plus ancienne à la plus récente. Le semis précède l’observation des plants.",
               "id": "SC-U4-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Calendrier agricole, techniques culturales, jardin et élevage ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel rang a le plus de plants bien développés et de combien ? Dans le registre des poules, donne un soin et l’origine du maïs.",
+              "answer": "Le rang A en a 3 de plus, car 8 − 5 = 3. Un soin possible est vérifier l’eau ou l’abri. Le maïs a une origine végétale.",
+              "explanation": "Compare les nombres observés puis lis le registre séparément. La comparaison aide à discuter d’un geste, elle ne suffit pas à établir une règle pour toutes les cultures.",
               "id": "SC-U4-L6-E2"
             }
           ],
           "source": "Curriculum CE2, sciences agropastorales, U4, p.106.",
-          "practical": [],
+          "practical": [
+            "Avec l’adulte, relève une date et un travail dans un jardin ou utilise le carnet fourni. Si un élevage est accessible, observe l’eau et l’abri avec l’adulte. L’adulte dirige les gestes de soin."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Calendrier agricole, techniques culturales, jardin et élevage », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Carnet fictif du jardin",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Date",
+                  "Travail noté"
+                ],
+                "rows": [
+                  [
+                    "3 juin",
+                    "Récolter les premières gousses mûres"
+                  ],
+                  [
+                    "10 avril",
+                    "Préparer la parcelle"
+                  ],
+                  [
+                    "25 avril",
+                    "Observer la levée et retirer les herbes autour des plants"
+                  ],
+                  [
+                    "15 avril",
+                    "Semer les haricots"
+                  ]
+                ]
+              },
+              "body": "Ces dates servent à l’exercice. Dans un vrai jardin, on adapte le calendrier à la localité et aux conditions observées."
             },
             {
-              "title": "Exemple guidé",
+              "title": "Deux rangs observés le même jour",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Rang",
+                  "Geste au semis",
+                  "Plants bien développés observés"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Graines espacées selon la consigne",
+                    "8 sur 10"
+                  ],
+                  [
+                    "B",
+                    "Graines serrées",
+                    "5 sur 10"
+                  ]
+                ]
+              },
+              "body": "La même classe a noté l’arrosage et le sol des deux rangs. Ces résultats donnent un indice pour discuter de l’espacement."
+            },
+            {
+              "title": "Registre fictif des poules",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Calendrier agricole, techniques culturales, jardin et élevage » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Les pratiques agricoles dépendent du milieu, des saisons et des espèces ; les exemples doivent être choisis dans la localité. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « calendrier agricole, techniques culturales, jardin et élevage ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "L’adulte apporte de l’eau, vérifie l’abri et donne un aliment adapté aux poules. Un ingrédient inscrit est le maïs, qui vient d’une plante. Les élèves notent les actions avec l’adulte."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sciences agropastorales, U4, p.106.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1699,57 +1836,77 @@
             "Analyser l’action de l’homme sur son environnement.",
             "Identifier des causes et analyser des effets du réchauffement climatique sur les êtres vivants."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Action de l’homme et réchauffement climatique ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Observe deux scènes. Dans l’une, un véhicule brûle du carburant. Dans l’autre, un arbre a été coupé près de la cour. Les deux scènes ont-elles exactement le même effet ?",
           "learn": [
-            "Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants."
+            "Quand on brûle de l’essence ou du gazole, on libère notamment du dioxyde de carbone. L’accumulation de gaz à effet de serre contribue au réchauffement du climat.",
+            "Couper des arbres peut modifier le milieu local. Les oiseaux peuvent perdre des abris et la cour peut avoir moins d’ombre.",
+            "Le changement du climat se mesure sur de longues durées. Il peut modifier l’eau disponible et les conditions de vie des plantes et des animaux."
           ],
-          "takeaway": "Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants.",
+          "takeaway": "Je distingue une cause du réchauffement, ses effets sur les êtres vivants et les changements observés dans un milieu proche.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Action de l’homme et réchauffement climatique » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans le tableau, quelle ligne donne une cause du réchauffement ? Quel est le lien avec le carburant ?",
+              "answer": "La première ligne. Brûler le carburant libère du dioxyde de carbone, un gaz qui contribue au réchauffement lorsqu’il s’accumule.",
+              "explanation": "Associe l’activité à ce qu’elle émet, puis à l’effet sur le climat.",
               "id": "SC-U4-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Action de l’homme et réchauffement climatique ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Après la coupe d’un arbre, donne un effet possible sur un animal et une action utile. Cette scène suffit-elle pour mesurer l’évolution du climat ?",
+              "answer": "Un oiseau peut perdre un abri. On peut entretenir les arbres restants ou planter un arbre adapté avec les adultes. Pour mesurer le changement du climat, il faut des observations répétées sur une longue durée.",
+              "explanation": "Sépare l’effet sur la cour d’une conclusion sur le climat.",
               "id": "SC-U4-L7-E2"
             }
           ],
           "source": "Curriculum CE2, environnement et développement durable, U4, p.108.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Compare deux endroits de la cour, l’un ombragé et l’autre au soleil, depuis un lieu sûr. Note ce qui est différent aujourd’hui. Pour parler du climat, il faudrait aussi des observations de longue durée."
+          ],
+          "notes": [
+            "Repères sur les causes et les effets du réchauffement : rapport de synthèse du GIEC, AR6, A.1 et A.2."
+          ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Action de l’homme et réchauffement climatique », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
+              "title": "Comparer des situations",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Effet à expliquer",
+                  "Action possible"
+                ],
+                "rows": [
+                  [
+                    "Des trajets brûlent du carburant",
+                    "Des gaz à effet de serre sont émis",
+                    "Regrouper des trajets quand cela est possible"
+                  ],
+                  [
+                    "La cour perd ses arbres",
+                    "Moins d’ombre et d’abris dans la cour",
+                    "Entretenir les arbres avec les adultes"
+                  ],
+                  [
+                    "De fortes chaleurs durent plus souvent sur plusieurs années",
+                    "Certains êtres vivants peuvent manquer d’eau",
+                    "Observer les besoins du jardin et adapter son entretien"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Exemple guidé",
+              "title": "Raisonner avec une chaîne",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Action de l’homme et réchauffement climatique » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Certaines activités humaines peuvent dégrader ou protéger l’environnement ; le réchauffement climatique a des effets durables sur les milieux et les êtres vivants. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
-            },
-            {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « action de l’homme et réchauffement climatique ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
-            },
-            {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "body": "Écris trois éléments dans l’ordre : activité, changement, effet possible. Exemple : coupe d’un arbre, disparition d’une branche, perte d’un abri pour un oiseau."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, environnement et développement durable, U4, p.108.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         }
       ],
@@ -1759,28 +1916,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Alimentation équilibrée selon l’activité",
-            "answer": "Une ration équilibrée varie les aliments et tient compte des besoins liés à l’âge et à l’activité."
+            "prompt": "Le matin, Éva transporte des boîtes à pied. L’après-midi, elle prépare des étiquettes assise. Propose un repas varié et une boisson. Pourquoi faut-il connaître son activité avant d’adapter sa ration ?",
+            "answer": "Exemple : plantain, poisson, légumes et eau. La ration couvre toute la journée. Des déplacements longs peuvent changer les besoins. On tient compte de l’activité réellement faite et des besoins de la personne."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Respiration : maladies et hygiène",
-            "answer": "Je protège mes voies respiratoires en évitant fumées et poussières autant que possible, en aérant les espaces et en suivant les conseils de santé adaptés."
+            "prompt": "Choisis un geste d’hygiène pour un adulte qui tousse en préparant une visite. Un camarade dit que serrer la main transmet le VIH. Corrige cette phrase.",
+            "answer": "Exemples : tousser dans le pli du coude, puis se laver les mains si elles ont été salies. Serrer la main ne transmet pas le VIH."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Prévention du VIH/Sida à un niveau adapté",
-            "answer": "Le VIH est un virus qui affaiblit les défenses du corps ; l’enseignement au CE2 reste factuel, non stigmatisant et conforme aux orientations de santé et de protection de l’enfant."
+            "prompt": "Une potière explique : « Je prends l’argile près du ruisseau avec autorisation, je façonne un pot et je le vends pour garder l’eau. » Relève la matière, son origine, l’objet et son usage.",
+            "answer": "Matière : argile. Origine : près du ruisseau. Objet : un pot. Usage : garder l’eau."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Enquêter sur le travail d’un artisan",
-            "answer": "Une enquête prépare des questions, observe le lieu de travail sans gêner l’activité et restitue les informations avec précision."
+            "prompt": "Un montage à pile vérifié par l’adulte éclaire avec une languette métallique mais reste éteint avec du carton sec. Classe les deux matériaux. Que se passe-t-il si l’adulte retire la languette sans la remplacer ?",
+            "answer": "La languette est conductrice dans l’essai. Le carton sec se comporte comme un isolant. Retirer la languette ouvre le circuit et la lampe s’éteint."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Conducteurs et isolants du courant électrique",
-            "answer": "Un conducteur laisse passer le courant plus facilement ; un isolant le freine fortement. Les expériences électriques ne se font jamais sur le secteur domestique."
+            "prompt": "Le 12 mai, la classe sème. Le 8 mai, elle prépare la terre. Le 24 mai, elle retire des herbes. Mets les gestes en ordre. Quel gaz est émis lorsqu’un véhicule brûle de l’essence ?",
+            "answer": "8 mai préparation, 12 mai semis, 24 mai entretien. Brûler de l’essence émet notamment du dioxyde de carbone, un gaz à effet de serre."
           }
         ]
       },
@@ -1802,62 +1959,85 @@
           "objectives": [
             "Organiser un bureau d’ordinateur."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Organiser le bureau de l’ordinateur ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le bureau de l’ordinateur de l’atelier contient des fiches, des images et un raccourci. Mado veut retrouver rapidement le tarif des pots.",
           "learn": [
-            "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple."
+            "Un dossier sert à regrouper des fichiers. Son nom doit aider à comprendre ce que l’on y trouvera.",
+            "Un raccourci ouvre un outil ou un fichier. Ici, on range les copies des fichiers de l’exercice et on garde le raccourci de dessin accessible."
           ],
-          "takeaway": "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple.",
+          "takeaway": "J’organise le bureau pour retrouver un fichier et je vérifie le résultat après l’avoir rangé.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Organiser le bureau de l’ordinateur » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Où ranges-tu Tarifs_pots et Photo_pot ? Donne leur chemin depuis le bureau.",
+              "answer": "Bureau → Fiches → Tarifs_pots. Bureau → Images → Photo_pot.",
+              "explanation": "Le type et l’usage aident à choisir le dossier. Vérifie en retrouvant chaque fichier.",
               "id": "TI-U4-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Organiser le bureau de l’ordinateur ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Ajoute Devis_tabourets et Photo_tabouret. Où les mets-tu et où reste le raccourci Dessin ?",
+              "answer": "Devis_tabourets va dans Fiches. Photo_tabouret va dans Images. Le raccourci Dessin reste sur le Bureau.",
+              "explanation": "Utilise les dossiers existants et conserve un accès simple à l’outil de dessin.",
               "id": "TI-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, production avec les outils TIC, U4, p.113.",
-          "practical": [],
+          "practical": [
+            "Dessine trois cadres, Bureau, Fiches et Images. Découpe ou recopie les cinq noms du tableau. Range-les puis montre à un camarade où retrouver le tarif."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Organiser le bureau de l’ordinateur », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+              "title": "Les éléments du bureau fictif",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Élément",
+                  "Type",
+                  "Dossier ou emplacement prévu"
+                ],
+                "rows": [
+                  [
+                    "Tarifs_pots",
+                    "Document",
+                    "Fiches"
+                  ],
+                  [
+                    "Commande_ecole",
+                    "Document",
+                    "Fiches"
+                  ],
+                  [
+                    "Photo_pot",
+                    "Image",
+                    "Images"
+                  ],
+                  [
+                    "Dessin_enseigne",
+                    "Image",
+                    "Images"
+                  ],
+                  [
+                    "Dessin",
+                    "Raccourci vers un logiciel",
+                    "Bureau"
+                  ]
+                ]
+              },
+              "body": "Le bureau contient déjà les dossiers Fiches et Images. Chaque élément a une place prévue."
             },
             {
               "title": "Procédure guidée",
               "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Organiser le bureau de l’ordinateur » et donne un exemple adapté au thème « Les métiers ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
-            },
-            {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
-            },
-            {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les métiers » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "body": "Sélectionne Tarifs_pots, déplace sa copie vers Fiches, puis ouvre Fiches pour vérifier. Sur papier, trace une flèche du nom vers le dossier."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, production avec les outils TIC, U4, p.113.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1868,64 +2048,75 @@
             "Traiter un texte.",
             "Insérer un tableau dans un texte."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Saisir et traiter un texte ; insérer un tableau ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une potière veut préparer une fiche facile à lire. Son titre doit ressortir et les objets doivent être rangés dans un tableau.",
           "learn": [
-            "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel."
+            "Dans un traitement de texte, je saisis d’abord les mots. Pour modifier leur aspect, je sélectionne le texte visé puis j’utilise une commande, par exemple Gras ou Centrer.",
+            "Un tableau organise des informations en lignes et colonnes. Pour deux types de renseignements, il peut avoir deux colonnes.",
+            "Dans Word, la commande Tableau se trouve dans Insertion. On choisit le nombre de colonnes et de lignes et on remplit les cases."
           ],
-          "takeaway": "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel.",
+          "takeaway": "Je sais saisir une fiche, mettre son titre en forme et insérer un tableau avec des en-têtes.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Saisir et traiter un texte ; insérer un tableau » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Combien de colonnes et de lignes faut-il choisir pour reproduire le tableau modèle ? Pourquoi ?",
+              "answer": "Deux colonnes pour Objet et Usage. Trois lignes pour les en-têtes, le petit pot et le grand pot.",
+              "explanation": "Compte la ligne des titres dans le tableau. Le titre général de la fiche est au-dessus.",
               "id": "TI-U4-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Saisir et traiter un texte ; insérer un tableau ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Prépare une fiche « Les objets de Paul ». Mets le titre en gras et centre-le. Crée un tableau Objet / Usage avec un tabouret pour s’asseoir et une étagère pour ranger les livres.",
+              "answer": "Le titre Les objets de Paul est centré et en gras. Le tableau a 2 colonnes et 3 lignes. Ligne 1 : Objet | Usage. Ligne 2 : Tabouret | S’asseoir. Ligne 3 : Étagère | Ranger les livres.",
+              "explanation": "Compare la mise en forme, les en-têtes et les deux lignes. Un brouillon sur papier permet de préparer le document avant la saisie.",
               "id": "TI-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, production avec les outils TIC, U4, p.113.",
-          "practical": [],
+          "practical": [
+            "Sur papier, trace la fiche avec le titre et les cases du tableau. Sur un ordinateur accompagné, saisis la même fiche dans Word ou dans un traitement de texte disponible. Utilise un document d’exercice."
+          ],
           "notes": [
-            "Ne pas rendre la compétence dépendante d’un seul éditeur ; Word est l’exemple explicitement cité dans la source."
+            "La référence CE2 cite Word. La commande d’insertion a été vérifiée dans l’aide Microsoft."
           ],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Saisir et traiter un texte ; insérer un tableau », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
-            },
-            {
-              "title": "Procédure guidée",
+              "title": "Le texte à saisir",
               "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Saisir et traiter un texte ; insérer un tableau » et donne un exemple adapté au thème « Les métiers ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+              "body": "Les pots de Mado\nMado façonne de l’argile pour fabriquer des pots de jardin.\nMets le titre en gras et centre-le. Laisse la phrase sur une ligne séparée."
             },
             {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
+              "title": "Tableau modèle à reproduire",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Objet",
+                  "Usage"
+                ],
+                "rows": [
+                  [
+                    "Petit pot",
+                    "Planter une graine"
+                  ],
+                  [
+                    "Grand pot",
+                    "Accueillir une jeune plante"
+                  ]
+                ]
+              },
+              "body": "Le tableau complet comporte 2 colonnes et 3 lignes en comptant les en-têtes. Dans Word, choisis Insertion, puis Tableau."
             },
             {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les métiers » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "title": "Vérification",
+              "kind": "example",
+              "body": "Relis le texte, vérifie que le titre est seul en gras et centré, puis compare chaque case au modèle."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, production avec les outils TIC, U4, p.113.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1934,62 +2125,70 @@
           "objectives": [
             "Expliquer les précautions à prendre lors de l’utilisation des TIC au travail."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Sécurité des TIC au travail ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "À l’atelier, un câble traverse le passage et une tasse est posée près du clavier. Lina doit aussi envoyer une fiche depuis un appareil partagé.",
           "learn": [
-            "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable."
+            "Un espace de travail sûr laisse le passage libre et garde les boissons loin des appareils.",
+            "Un câble abîmé ou mal placé doit être signalé à l’adulte responsable. On attend ses consignes avant d’utiliser le poste.",
+            "Sur un poste partagé, on demande l’autorisation et on ferme sa session après usage. On vérifie le destinataire avant de transmettre un document."
           ],
-          "takeaway": "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable.",
+          "takeaway": "Je repère un danger ou une information à protéger, puis je choisis un geste sûr avant d’utiliser l’outil.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité des TIC au travail » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel problème Lina signale-t-elle dans le passage ? Que fait-elle de la tasse ?",
+              "answer": "Elle signale à l’adulte le câble qui traverse le passage. Elle place la tasse loin du clavier.",
+              "explanation": "Relie chaque danger à une action précise. L’adulte s’occupe du câble.",
               "id": "TI-U4-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité des TIC au travail ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Après la préparation d’une fiche sur un poste partagé, quels gestes fais-tu avant l’envoi et en quittant le poste ?",
+              "answer": "Je vérifie le destinataire et le document avec l’adulte. En quittant le poste, je ferme ma session ou je demande comment le faire.",
+              "explanation": "Le premier geste protège l’envoi. Le dernier évite de laisser son espace ouvert.",
               "id": "TI-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, santé, sécurité et éthique TIC, U4, p.116.",
-          "practical": [],
+          "practical": [
+            "Joue une visite de l’atelier avec des cartes dessinées. Montre un danger, explique le geste choisi, puis simule la fin d’une session sur un poste partagé."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Sécurité des TIC au travail », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
-            },
-            {
-              "title": "Procédure guidée",
-              "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Sécurité des TIC au travail » et donne un exemple adapté au thème « Les métiers ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
-            },
-            {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
-            },
-            {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les métiers » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "title": "Trois cartes de l’atelier",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Ce qui se passe",
+                  "Geste à choisir",
+                  "Pourquoi"
+                ],
+                "rows": [
+                  [
+                    "Un câble traverse le passage",
+                    "Prévenir l’adulte",
+                    "Quelqu’un pourrait trébucher"
+                  ],
+                  [
+                    "Une tasse est près du clavier",
+                    "Mettre la tasse sur une table éloignée",
+                    "Éviter un renversement sur l’appareil"
+                  ],
+                  [
+                    "Une fiche doit être envoyée",
+                    "Vérifier le destinataire avec l’adulte",
+                    "Le document arrive à la bonne personne"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, santé, sécurité et éthique TIC, U4, p.116.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         }
       ],
@@ -1999,28 +2198,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Organiser le bureau de l’ordinateur",
-            "answer": "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple."
+            "prompt": "Le bureau affiche fiche-potier.docx, photo-pot.jpg et dessin-pots.png. Propose deux dossiers et indique où placer chaque fichier.",
+            "answer": "Exemple : dossier Textes pour fiche-potier.docx et dossier Images pour photo-pot.jpg et dessin-pots.png. Accepter un autre rangement cohérent et justifié."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Saisir et traiter un texte ; insérer un tableau",
-            "answer": "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel."
+            "prompt": "Le document terminé se nomme Document1. Propose un nom qui permette de retrouver la fiche du forgeron avec une recherche.",
+            "answer": "Par exemple Fiche-forgeron.docx, qui indique le sujet et le type de document."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Sécurité des TIC au travail",
-            "answer": "Je protège le matériel, respecte les consignes, évite les branchements dangereux et adopte un comportement responsable."
+            "prompt": "Dans la fiche métier, le titre est mêlé au paragraphe. Quelles actions fais-tu dans Word pour isoler le titre sur sa ligne, le mettre en gras et le centrer ?",
+            "answer": "Je mets le titre sur une ligne séparée. Je sélectionne son texte et j’applique Gras. Je place le curseur dans la ligne du titre et j’applique Centrer."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Organiser le bureau de l’ordinateur",
-            "answer": "Je range les icônes et fichiers de manière compréhensible et je garde un espace de travail simple."
+            "prompt": "La fiche doit comparer les métiers de potière et de couturier. Dessine un tableau avec les colonnes Métier et Outil. Combien de lignes faut-il en comptant l’en-tête ? Donne un exemple de chaque ligne.",
+            "answer": "Trois lignes. En-tête Métier | Outil. Potière | ébauchoir. Couturier | aiguille. D’autres outils adaptés sont possibles."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Saisir et traiter un texte ; insérer un tableau",
-            "answer": "Le curriculum cite Word ; Klassia enseigne d’abord la compétence générique de traitement de texte et utilise Word comme exemple de logiciel."
+            "prompt": "Une tasse est à côté de l’ordinateur et le câble d’alimentation est abîmé. Quelle action prends-tu pour chaque situation ?",
+            "answer": "J’éloigne la tasse de l’appareil si rien n’a coulé. Je garde mes distances avec le câble abîmé et j’en informe l’adulte sans toucher au câble."
           }
         ]
       },

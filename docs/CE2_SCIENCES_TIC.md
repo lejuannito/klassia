@@ -15,7 +15,7 @@ Revue du 6 novembre 2026 sur le contenu de `main` à la révision `9ac5189`. Pé
 | **Absent** | La tâche centrale reste inexécutable à partir de la leçon. Un titre, une intention de rédaction ou une question isolée dans le QCM ne fournit pas le support requis. |
 | **À vérifier** | L’interprétation de l’attendu demande un arbitrage documentaire. Pour les manuels, un titre confirmé ne donne pas accès au contenu des chapitres. |
 
-## Résultat
+## Résultat de la revue initiale
 
 | Périmètre | Leçons | Couvert | Partiel | Absent | À vérifier |
 |---|---:|---:|---:|---:|---:|
@@ -75,7 +75,9 @@ Les 29 leçons déjà signalées comme génériques se concentrent dans les unit
 | `TI-U3-L2` | 113 | Souris et clavier | Partiel | Les fonctions et une manipulation sont proposées. Donner une suite vérifiable de clics et une saisie de lettres, chiffres et symboles. |
 | `TI-U3-L3` | 116 | Sécurité d’un appareil branché | Couvert | Deux cas corrigés portent sur un câble abîmé et un liquide près d’un appareil. |
 
-## Unités 4 à 8 — 29 leçons à enrichir
+## Unités 4 à 8 — besoins relevés avant la réécriture
+
+Les états et les actions ci-dessous décrivent le diagnostic de départ. La section « Réécriture intégrée » indique les supports ajoutés.
 
 ### U4 — Les métiers
 
@@ -131,17 +133,32 @@ Les 29 leçons déjà signalées comme génériques se concentrent dans les unit
 | `TI-U8-L1` | 116 | Éthique et sécurité numériques | Partiel | Les principes sont formulés. Préparer une mise en scène avec autorisation, partage d’une information et demande d’aide, puis un retour corrigé. |
 | `TI-U8-L2` | 117 | Programme dans un outil dédié | Absent | La démarche générale est rappelée. Fournir un projet court avec blocs, sortie attendue et test. Prévoir une préparation sur cartes puis une réalisation accompagnée sur le logiciel disponible. |
 
-## Points à corriger pendant la réécriture
+## Points de lecture du curriculum et de la progression
 
-- **Références.** Rattacher `TI-U6-L1` et `TI-U6-L2` au tableau 32, p. 114. La p. 115 citée actuellement traite de sécurité et d’éthique. [Curriculum, p. 114](https://champions-edicef-cle.com/fichiers/Curriculum-CE.pdf#page=114)
-- **Tableur.** La p. 114 nomme l’addition, la soustraction et la division. Elle répète la soustraction. Garder ces trois opérations dans le noyau et signaler la répétition pour relecture avant de déclarer la multiplication exigée. [Curriculum, tableau 31](https://champions-edicef-cle.com/fichiers/Curriculum-CE.pdf#page=114)
+- **Références.** Les leçons `TI-U6-L1` et `TI-U6-L2` sont rattachées au tableau 32, p. 114. [Curriculum, p. 114](https://champions-edicef-cle.com/fichiers/Curriculum-CE.pdf#page=114)
+- **Tableur.** La p. 114 nomme l’addition, la soustraction et la division. Ces trois opérations figurent dans le budget fictif. La répétition de la soustraction est signalée en note de revue. [Curriculum, tableau 31](https://champions-edicef-cle.com/fichiers/Curriculum-CE.pdf#page=114)
 - **Sciences de la vie.** Les intitulés et les actions ne coïncident pas sur certaines lignes de la p. 96 et de la p. 97. Pour `SC-U3-L1`, la respiration reste le choix pédagogique provisoire. Consigner le point dans les notes de revue plutôt que dans les questions à l’élève. [Curriculum, tableau 23](https://champions-edicef-cle.com/fichiers/Curriculum-CE.pdf#page=97)
 - **États de la matière.** Conserver le point de relecture scientifique de `SC-U1-L3` sur l’association entre feu et plasma dans le tableau 24. Préparer l’observation des trois états usuels avec des exemples adaptés au CE2. [Curriculum, p. 100](https://champions-edicef-cle.com/fichiers/Curriculum-CE.pdf#page=100)
 - **Progression.** Distinguer repérage d’un élément du bureau en U3 et organisation du bureau en U4. En U7, construire et tester une suite d’instructions. En U8, la transposer dans un outil. Pour le VIH, répartir définition et prévention en U4, mise en relation avec les autres thèmes de santé en U6, puis formulation d’un message fiable en U8.
-- **Questions existantes.** Examiner `U4-SC-ESSENTIELLE-1` pour fonder le choix alimentaire sur l’activité décrite. Les QCM `U5-SC-COMPLEMENTAIRE-5` et `U5-SC-COMPLEMENTAIRE-7` offrent des repères sur le moteur. Les numéros 8 à 10 de la même série donnent des pistes pour la carte. Relire `U8-SC-ESSENTIELLE-1` à `5` et les compléments associés avec les nouvelles leçons et des sources de santé adaptées à l’âge.
+## Réécriture intégrée
 
-## Suite éditoriale
+Les 29 leçons des unités 4 à 8 contiennent un support, une activité et deux exercices corrigés. Les 10 bilans comptent cinq questions chacun. Les 50 QCM essentiels et 28 complémentaires ont été revus dans ces deux matières. La revue des autres questions reste distincte.
 
-Commencer par les **10 leçons de l’U4**, avec sept leçons de sciences et trois de TIC. Chaque leçon devra fournir un support intégré, une tâche guidée, une application indépendante et une correction qui montre le résultat attendu. Pour les tâches numériques, prévoir une simulation consultable hors connexion puis une réalisation accompagnée si le matériel est disponible. Poursuivre par U5 à U8. Les sept lignes « Absent » sont prioritaires dans leurs unités respectives.
+| Unité | Sciences | TIC | Supports repères |
+|---|---:|---:|---|
+| U4 — Les métiers | 7 | 3 | Entretien avec une potière, circuit à pile, carnet du jardin et fiche métier dans Word |
+| U5 — Les voyages | 3 | 2 | Dessin du moteur à deux temps, carte de Waza, Bénoué et Dja, budget au tableur |
+| U6 — La santé | 4 | 3 | Relevé de masse et température, schéma des réseaux, courriel fictif |
+| U7 — Les jeux | 2 | 2 | Flexion et extension du coude, circuit du jouet, cartes à classer et grille du robot |
+| U8 — Les communications | 1 | 2 | Affiche de prévention à corriger, scénarios numériques, programme Scratch à assembler et tester |
 
-Lorsqu’un sommaire ou un extrait de manuel sera disponible, noter l’édition, la page consultée et la notion observée avant d’ajouter une correspondance. Les 29 enrichissements peuvent s’appuyer dès maintenant sur les cibles du curriculum et sur des supports originaux.
+Les supports intégrés, les exercices et les bilans sont accessibles après installation hors connexion. Les activités sur logiciel sont préparées avec des modèles sur papier et réalisées avec l’adulte quand l’outil est disponible. Les identifiants des leçons et des exercices sont conservés pour la progression locale. Le lot reste en relecture pédagogique dans Klassia.
+
+### Sources des supports
+
+- **Santé U4 à U8.** Les cas sont fictifs et les consignes adaptées à un travail accompagné. [OMS, alimentation saine](https://www.who.int/fr/news-room/fact-sheets/detail/healthy-diet) · [asthme](https://www.who.int/fr/news-room/fact-sheets/detail/asthma) · [pneumonie](https://www.who.int/fr/news-room/fact-sheets/detail/pneumonia) · [VIH et sida](https://www.who.int/fr/news-room/fact-sheets/detail/hiv-aids) · [parasitoses intestinales](https://www.who.int/fr/news-room/fact-sheets/detail/soil-transmitted-helminth-infections) · [gale](https://www.who.int/fr/news-room/fact-sheets/detail/scabies) · [malnutrition](https://www.who.int/fr/news-room/fact-sheets/detail/malnutrition) · [vaccination](https://www.who.int/fr/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination)
+- **Environnement U4 et U5.** Le contour est issu de Natural Earth au 1:110 millions. Les points de la carte indiquent les emplacements de référence, tandis que les fiches décrivent les milieux. [GIEC, rapport de synthèse AR6](https://www.ipcc.ch/report/ar6/syr/) · [Natural Earth, contour](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson) · [conditions d’utilisation](https://www.naturalearthdata.com/about/terms-of-use/) · [UNESCO, Waza](https://www.unesco.org/en/mab/waza) · [Bénoué](https://www.unesco.org/en/mab/benoue) · [Dja](https://whc.unesco.org/en/list/407/)
+- **Montages et mouvement.** Les schémas de circuit, de moteur et de coude ont été dessinés pour les activités de Klassia. [Exploratorium, Homemade Switches](https://www.exploratorium.edu/sites/default/files/files/Homemade_Switches.pdf) · [Yamaha Motor, cycle à deux temps](https://global.yamaha-motor.com/business/mc/mc-tech/standard-technology/2st4st.html) · [FAA, Two-Stroke Process](https://www.govinfo.gov/content/pkg/GOVPUB-TD4-PURL-LPS109800/pdf/GOVPUB-TD4-PURL-LPS109800.pdf) · [OpenStax, muscles de l’avant-bras](https://openstax.org/books/anatomy-and-physiology/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs)
+- **TIC.** Les activités de saisie et de programmation utilisent les commandes des logiciels concernés. [Microsoft, insérer un tableau dans Word](https://support.microsoft.com/fr-fr/word/training/insert-a-table) · [Scratch, cartes en français](https://resources.scratch.mit.edu/www/cards/fr/scratch-cards-all.pdf) · [application Scratch](https://scratch.mit.edu/download) · [Cybermalveillance.gouv.fr, conduite en cas de harcèlement](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/que-faire-en-cas-de-cyberharcelement-ou-harcelement-en-ligne)
+
+Lorsqu’un sommaire ou un extrait de manuel sera disponible, noter l’édition, la page consultée et la notion observée avant d’ajouter une correspondance.

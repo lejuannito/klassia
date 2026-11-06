@@ -1,9 +1,37 @@
 self.KLASSIA_RELEASE = {
-  "version": "7b11ca4a70705dc115b125681771fbeca98c2f57604036f12ddad1402eff3dc6",
+  "version": "f3d0dcc9376c9ec935a2f3bc273c3d5d6272a7be40ea2754bce56d7584efcb0e",
   "files": [
     {
       "url": "./app.js",
       "sha256": "b90fe73a799d8ddffc20a16f18ee370c54de9278e25b84de815c37b3bc2c7639"
+    },
+    {
+      "url": "./assets/ce2-aires-protegees.svg",
+      "sha256": "085af670f7b3c941d93b4cc98a82f99ab0997b3355bf9b809b1316f557539842"
+    },
+    {
+      "url": "./assets/ce2-circuit-conductivite.svg",
+      "sha256": "a63d4bb84eeeea6f0ae22dd4927508171c7e3dabda65399ef5b1c926c766c6c9"
+    },
+    {
+      "url": "./assets/ce2-flexion-extension.svg",
+      "sha256": "c5f252a13aff4b2b31c5eb79b78b1d11f27cd976ae857f8d30f70c16f02620bd"
+    },
+    {
+      "url": "./assets/ce2-masse-temperature.svg",
+      "sha256": "b2f4df066cfd46a563c5a1bab2bf45775652887fe68a0054d01abf99b637406a"
+    },
+    {
+      "url": "./assets/ce2-moteur-deux-temps.svg",
+      "sha256": "6e89f4a73d73cf1e5488e2e46727cfa5c25ff684440e37940af30d5eede528d4"
+    },
+    {
+      "url": "./assets/ce2-pile-jouet.svg",
+      "sha256": "25202625b9b8d08cfc1addc4bbdc4905744fa3985beec92f18fd4584bf740665"
+    },
+    {
+      "url": "./assets/ce2-reseaux-internet.svg",
+      "sha256": "c052f2b5ddb1a432d47ae991dd056fa510d4bdd9c13de2acaa37bae0e396e322"
     },
     {
       "url": "./assets/count-school.svg",
@@ -87,27 +115,27 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/content-u4.json",
-      "sha256": "e031dec8c6e24fc3e2f7f38723ab4d8d2f778980bb8a5bf6226fbebdaa180760"
+      "sha256": "c790601b2e3714277f875672917d0e31a0d67ad5f8e59c5a954ec459431c969a"
     },
     {
       "url": "./data/content-u5.json",
-      "sha256": "b3feac8a8a3a7e0245a26ff1586cc805b910ed03cf2ccafcd1cac8f10621d01c"
+      "sha256": "3cfc104b13a15ea8650dbbbe09d2f8d7a6d2a75c1af9626f5ce8f629935325ac"
     },
     {
       "url": "./data/content-u6.json",
-      "sha256": "4cb37981c6cc0927cdc050ce8f7ab58216e3d7efeb7da9e5f3b1e567f87944f2"
+      "sha256": "a51b51781645fc12763168d267f2cca176252bfd6e294c5e2d5009cd7ee4193f"
     },
     {
       "url": "./data/content-u7.json",
-      "sha256": "b4e3faf895dd2eb28ee578d09dfa76985f18d516fe2be3a547aa4d5b6769c24e"
+      "sha256": "11c079d4cc80b46562d2f88fb38d8524c9a5fa3ccf6946e2334b546c37408a02"
     },
     {
       "url": "./data/content-u8.json",
-      "sha256": "f9911f1c4f0f6e55a1dcf4c0303aae47f389a40514b413258658c1aec04207fd"
+      "sha256": "d458c646587f3d1349b000799221139a2f6eca0cbc0a89c28bf7f043118e3d50"
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "598984a25c1bf26b3f4ef50a9077903aaa61d1c044d628845e1336ff6abdff1b"
+      "sha256": "fde2c400a5b3814a5cc04664c3c7fca4be105e5d8f36cd9f80020a93ce2d637d"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -123,23 +151,23 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/qcm-u4.json",
-      "sha256": "7089086a8377e5d1458d71e0ea768b68612c42a7aae901dd673af86e2fcfd138"
+      "sha256": "c44288a4981e335daebf5268b9c65f7ab244c2ef199fe842e3c63a4c950be25b"
     },
     {
       "url": "./data/qcm-u5.json",
-      "sha256": "29960559d6d5eed4675f73eb037604d4225a6f2224c060a428601c76d0b74b34"
+      "sha256": "ecaf934b1044617162bff745f52f245f10ea7a2f7ce60c2288459290f7e93ab8"
     },
     {
       "url": "./data/qcm-u6.json",
-      "sha256": "ee3cfa137109a1aeb8a2aa4994f0c71b98ea7688869ddaf4538b545dbc058bc2"
+      "sha256": "cacbcf8ec4a9c443c079a5b0d3b5fe8a2760e514ab6e96e029be8de776c7d6ac"
     },
     {
       "url": "./data/qcm-u7.json",
-      "sha256": "422ed078e54cf783740eb52ba5f620867e6f1c03c9c63b14ee3d088374c5717c"
+      "sha256": "54533939dd3a0232916e49f26edfa8c7a4198396f65c19ea6e81650b48ef0132"
     },
     {
       "url": "./data/qcm-u8.json",
-      "sha256": "53dbf226ebb285f3067806919ecb2aeea4cc031c56f6f89c8889bc8815082c05"
+      "sha256": "0d6a4869ef6b3d6bc9b540f645bfba4dfd58a05972791d1999a7a732fbf09894"
     },
     {
       "url": "./gs/data/catalog-v13.json",

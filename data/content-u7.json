@@ -1262,57 +1262,77 @@
           "objectives": [
             "Analyser le rôle des muscles et des os dans les mouvements de flexion et d’extension."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Muscles, os, flexion et extension ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Quand tu rapproches ta main de ton épaule, ton coude se plie. Comment ton bras retrouve-t-il sa position de départ ?",
           "learn": [
-            "Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements."
+            "Les os forment le soutien du bras. Le coude est l’articulation qui permet à l’avant-bras de bouger par rapport au bras. Un muscle peut se contracter et tirer sur les os. Pour plier le coude, le biceps participe au mouvement. Pour redresser le coude, le triceps participe au mouvement inverse."
           ],
-          "takeaway": "Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements.",
+          "takeaway": "Plier le coude est une flexion. Le redresser est une extension. Les muscles tirent sur les os de part et d’autre de l’articulation.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Muscles, os, flexion et extension » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Aya plie le coude pour rapprocher sa tasse de sa bouche. Nomme le mouvement, l’articulation et un muscle qui participe.",
+              "answer": "C’est une flexion du coude. Le biceps participe au mouvement.",
+              "explanation": "L’avant-bras se rapproche du bras en tournant au niveau du coude. Le biceps peut se contracter et tirer.",
               "id": "SC-U7-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Muscles, os, flexion et extension ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans le modèle en carton, l’attache permet aux bandes de bouger. Aya redresse ensuite son bras. Que représente l’attache ? Nomme ce mouvement et un muscle qui y participe.",
+              "answer": "L’attache représente l’articulation du coude. Le mouvement est une extension et le triceps y participe.",
+              "explanation": "L’extension agrandit l’angle du coude. L’articulation guide le mouvement tandis que le triceps peut tirer sur un os de l’avant-bras.",
               "id": "SC-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, sciences de la vie, U7, p.99.",
-          "practical": [],
+          "practical": [
+            "Assieds-toi, le bras détendu le long du corps. Plie doucement le coude pour rapprocher la main de l’épaule, puis redresse-le sans forcer. Arrête en cas de gêne. Montre l’articulation et nomme les deux mouvements dans l’ordre."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « Muscles, os, flexion et extension », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Lire le schéma",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « Muscles, os, flexion et extension » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+              "body": "Repère le coude sur les deux dessins. En flexion, l’avant-bras se rapproche du bras. En extension, l’avant-bras s’en éloigne. Les flèches indiquent le sens du mouvement."
             },
             {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « muscles, os, flexion et extension ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+              "title": "Comparer les deux mouvements",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Mouvement",
+                  "Ce que fait l’avant-bras",
+                  "Muscle qui participe au mouvement"
+                ],
+                "rows": [
+                  [
+                    "Flexion",
+                    "Il se rapproche du bras.",
+                    "Biceps, à l’avant du bras"
+                  ],
+                  [
+                    "Extension",
+                    "Il s’éloigne du bras et se redresse.",
+                    "Triceps, à l’arrière du bras"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "title": "Expliquer avec un modèle",
+              "kind": "example",
+              "body": "Deux bandes de carton reliées en un point représentent les deux parties du bras. Quand l’une tourne autour de l’attache, leur angle change. L’attache joue le rôle du coude. Sur un vrai bras, les muscles font bouger les os."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, sciences de la vie, U7, p.99.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-flexion-extension.svg",
+            "alt": "Deux positions du bras droit. Coude plié, l’avant-bras se rapproche du bras et le biceps participe à la flexion. Coude redressé, l’avant-bras s’éloigne et le triceps participe à l’extension."
           }
         },
         {
@@ -1321,59 +1341,80 @@
           "objectives": [
             "Expliquer le rôle et le fonctionnement d’une pile dans un jouet."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « La pile dans un jouet ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur un jouet à pile, les roues tournent lorsque tu mets l’interrupteur sur MARCHE. Que se passe-t-il entre la pile et le moteur ?",
           "learn": [
-            "La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile."
+            "La pile fournit de l’énergie électrique au circuit du jouet. Ses deux bornes sont repérées par + et −. Quand l’interrupteur ferme le circuit, le courant peut passer dans le moteur si les contacts sont bons. Le moteur transforme l’énergie électrique en mouvement et entraîne les roues."
           ],
-          "takeaway": "La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile.",
+          "takeaway": "La pile fournit de l’énergie, l’interrupteur ouvre ou ferme le circuit et le moteur produit le mouvement.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « La pile dans un jouet » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Les contacts sont bons et la pile est chargée. Pourquoi les roues sont-elles immobiles sur ARRÊT puis tournent-elles sur MARCHE ?",
+              "answer": "Sur ARRÊT, le circuit est ouvert. Sur MARCHE, il se ferme et le courant alimente le moteur qui entraîne les roues.",
+              "explanation": "L’interrupteur commande le passage du courant. La pile fournit l’énergie et le moteur la transforme en mouvement.",
               "id": "SC-U7-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « La pile dans un jouet ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans le compartiment, le signe + est à gauche et le signe − à droite. De quel côté l’adulte doit-il placer la borne + ? Quel élément entraîne ensuite les roues ?",
+              "answer": "La borne + se place à gauche. C’est le moteur qui entraîne les roues.",
+              "explanation": "On associe le signe + de la pile au repère + du compartiment. Les roues sont reliées au moteur.",
               "id": "SC-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, technologies, U7, p.103.",
-          "practical": [],
+          "practical": [
+            "Observe un jouet en bon état avec un adulte, ou utilise le tableau de la leçon. Note si les roues tournent sur ARRÊT puis sur MARCHE. Explique la différence en nommant les trois éléments du circuit."
+          ],
           "notes": [
-            "Ne jamais ouvrir, chauffer ou court-circuiter une pile."
+            "L’adulte manipule le compartiment et les piles. Une pile bouton ou une pile abîmée doit rester hors de portée des enfants."
           ],
           "manual_sections": [
             {
-              "title": "Observer, expliquer, conclure",
-              "kind": "method",
-              "body": "Pour étudier « La pile dans un jouet », pars d’une observation concrète. Décris ce que tu vois sans l’expliquer trop vite, propose une idée, puis cherche un indice, une comparaison ou une petite expérience qui permet de la vérifier. La conclusion doit répondre à la question de départ."
-            },
-            {
-              "title": "Exemple guidé",
+              "title": "Suivre le circuit du jouet",
               "kind": "example",
-              "body": "Question ou activité : Explique avec tes mots l’idée essentielle de « La pile dans un jouet » et donne un exemple adapté au thème « Les jeux ».\n\nRéponse : Réponse attendue : retrouver l’idée essentielle suivante : La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile. L’exemple doit être cohérent avec la situation étudiée.\n\nExplique ensuite pourquoi cette réponse est cohérente avec ce qui a été observé ou avec la propriété étudiée."
+              "body": "Dans un jouet simple, un contact relie une borne de la pile à l’interrupteur, puis au moteur. Un autre contact relie le moteur à l’autre borne. Le trajet forme une boucle quand l’interrupteur est fermé."
             },
             {
-              "title": "Relier la science à la vie quotidienne",
-              "kind": "activity",
-              "body": "Trouve autour de toi un exemple lié à « la pile dans un jouet ». Décris-le en deux ou trois phrases : ce que tu observes, la notion scientifique correspondante et ce que cette connaissance permet de mieux comprendre ou de faire."
+              "title": "Tester un jouet en bon état",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Position",
+                  "État du circuit",
+                  "Observation"
+                ],
+                "rows": [
+                  [
+                    "ARRÊT",
+                    "Circuit ouvert",
+                    "Le moteur ne tourne pas."
+                  ],
+                  [
+                    "MARCHE",
+                    "Circuit fermé",
+                    "Le moteur tourne et les roues sont entraînées."
+                  ]
+                ]
+              },
+              "body": "Le tableau décrit le cas d’un jouet en bon état avec une pile chargée, bien placée et des contacts propres."
             },
             {
-              "title": "Sécurité et esprit scientifique",
-              "kind": "warning",
-              "body": "Une expérience ne se fait pas n’importe comment. On suit la consigne, on utilise seulement le matériel autorisé, on ne goûte ni ne touche un produit inconnu et on demande l’aide d’un adulte pour le feu, l’électricité, les objets coupants, les médicaments ou les manipulations à risque. Un résultat inattendu n’est pas « faux » : on recommence et on cherche la cause."
+              "title": "Lire les repères du compartiment",
+              "kind": "example",
+              "body": "Compare les signes + et − de la pile aux signes du compartiment. Un adulte installe les piles prévues par la notice. Sur le dessin de la notice, suis du doigt le trajet fermé."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, technologies, U7, p.103.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-pile-jouet.svg",
+            "alt": "Dans le jouet, la pile et le moteur sont reliés en boucle lorsque l’interrupteur est fermé. Un axe relie le moteur à une roue."
           }
         }
       ],
@@ -1383,28 +1424,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Muscles, os, flexion et extension",
-            "answer": "Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements."
+            "prompt": "Nina rapproche sa main de son épaule et l’angle du coude diminue. Nomme le mouvement et l’articulation.",
+            "answer": "C’est une flexion. L’articulation est le coude."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : La pile dans un jouet",
-            "answer": "La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile."
+            "prompt": "Nina redresse le coude. Nomme le mouvement et un muscle qui participe. Sur quoi le muscle tire-t-il ?",
+            "answer": "C’est une extension. Le triceps participe et tire sur un os de l’avant-bras."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Muscles, os, flexion et extension",
-            "answer": "Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements."
+            "prompt": "Sur la notice d’un jouet, le + du compartiment est à droite. Où l’adulte doit-il placer le + de la pile ? Quel est le rôle de la pile ?",
+            "answer": "Il place la borne + à droite pour respecter les repères. La pile fournit de l’énergie électrique au circuit."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : La pile dans un jouet",
-            "answer": "La pile fournit de l’énergie électrique au circuit du jouet ; on respecte le sens de montage indiqué et on ne démonte pas une pile."
+            "prompt": "Le circuit est en bon état, mais l’interrupteur est sur ARRÊT. Explique pourquoi le moteur reste immobile.",
+            "answer": "L’interrupteur ouvre le circuit. Le courant ne peut pas circuler dans le moteur."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Muscles, os, flexion et extension",
-            "answer": "Les os donnent une structure ; les muscles produisent des forces et agissent avec les articulations pour permettre les mouvements."
+            "prompt": "Sur MARCHE, un jouet avance. Explique le rôle de l’interrupteur, du moteur et de l’axe de la roue.",
+            "answer": "L’interrupteur ferme le circuit. Le moteur transforme l’énergie électrique en mouvement et transmet ce mouvement à la roue par son axe."
           }
         ]
       },
@@ -1426,62 +1467,107 @@
           "objectives": [
             "Organiser les informations de plusieurs façons pour une bonne utilisation."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Organiser une information pour un programme ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Tu as six cartes d’activités et tu dois répondre à deux questions. Quelles activités sont des jeux ? Quelle activité commence la première ?",
           "learn": [
-            "Avant de programmer, je classe les informations et je choisis l’ordre le plus clair."
+            "Une donnée décrit un élément, par exemple son nom, son type, son lieu ou son heure. On classe par type pour regrouper les activités semblables. On trie par heure pour les mettre dans l’ordre de la journée. Les mêmes cartes peuvent être présentées de plusieurs façons."
           ],
-          "takeaway": "Avant de programmer, je classe les informations et je choisis l’ordre le plus clair.",
+          "takeaway": "Choisis la présentation des informations selon la question à laquelle tu veux répondre.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Organiser une information pour un programme » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Avant de programmer, je classe les informations et je choisis l’ordre le plus clair. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Tu cherches les activités artistiques. Quelles cartes prends-tu et quel champ du tableau as-tu utilisé ?",
+              "answer": "Je prends C et F. J’utilise le champ « Type », en choisissant « Arts ».",
+              "explanation": "Le regroupement par type réunit Collage et Dessin même si leurs heures sont différentes.",
               "id": "TI-U7-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Organiser une information pour un programme ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Avant de programmer, je classe les informations et je choisis l’ordre le plus clair.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Range Puzzle, Dominos et Album de la première heure à la dernière. Quelles cartes lis-tu dans cet ordre ?",
+              "answer": "D à 9 h 30, A à 10 h 30, puis E à 11 h 30.",
+              "explanation": "Le champ « Heure » permet de comparer les débuts et de vérifier l’ordre.",
               "id": "TI-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, programmation, U7, p.117.",
-          "practical": [],
+          "practical": [
+            "Recopie les six lettres sur des cartes avec leur heure et leur type. Forme les trois groupes, puis mélange les cartes et range-les par heure. Demande à un camarade de retrouver le premier jeu et de montrer quelles données lui ont servi."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Organiser une information pour un programme », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+              "title": "Six cartes d’activités fictives",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Carte",
+                  "Activité",
+                  "Type",
+                  "Lieu",
+                  "Heure"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Dominos",
+                    "Jeu",
+                    "Salle 1",
+                    "10 h 30"
+                  ],
+                  [
+                    "B",
+                    "Conte",
+                    "Lecture",
+                    "Coin lecture",
+                    "9 h"
+                  ],
+                  [
+                    "C",
+                    "Collage",
+                    "Arts",
+                    "Salle 2",
+                    "11 h"
+                  ],
+                  [
+                    "D",
+                    "Puzzle",
+                    "Jeu",
+                    "Salle 1",
+                    "9 h 30"
+                  ],
+                  [
+                    "E",
+                    "Album",
+                    "Lecture",
+                    "Coin lecture",
+                    "11 h 30"
+                  ],
+                  [
+                    "F",
+                    "Dessin",
+                    "Arts",
+                    "Salle 2",
+                    "10 h"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Procédure guidée",
+              "title": "Regrouper par type",
               "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Organiser une information pour un programme » et donne un exemple adapté au thème « Les jeux ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Avant de programmer, je classe les informations et je choisis l’ordre le plus clair. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
+              "body": "Jeu comprend A et D. Lecture comprend B et E. Arts comprend C et F. Cherche dans le groupe Lecture pour voir les activités de lecture ensemble."
             },
             {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
-            },
-            {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les jeux » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "title": "Trier de la première à la dernière heure",
+              "kind": "example",
+              "body": "Dans l’ordre des heures, on lit B, D, F, A, C, E. On repère vite que Conte commence en premier."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, programmation, U7, p.117.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         },
         {
@@ -1491,62 +1577,127 @@
             "Définir un algorithme comme une séquence d’instructions.",
             "Créer un programme simple avec des instructions visuelles ou des outils."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Algorithme et programme simple ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un robot doit aller de A1 à C3 sur une grille. Comment lui donner des instructions qu’il puisse suivre une par une ?",
           "learn": [
-            "Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche."
+            "Un algorithme est une suite d’instructions pour atteindre un résultat. Sur cette grille, → avance d’une colonne vers la droite et ↑ avance d’une rangée vers le haut. Le robot exécute chaque instruction dans l’ordre. Une instruction qui sort de la grille est une erreur."
           ],
-          "takeaway": "Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche.",
+          "takeaway": "Écris les instructions dans l’ordre, suis-les case après case et vérifie l’arrivée.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Algorithme et programme simple » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Le robot part de A1 et suit →, ↑, ↑, ↑. Sur quelle case arrive-t-il ? Modifie la dernière instruction pour atteindre C3.",
+              "answer": "Il arrive en B4. Je remplace la dernière flèche ↑ par →.",
+              "explanation": "Après les trois premières flèches, il est en B3. Un déplacement vers la droite le mène alors en C3.",
               "id": "TI-U7-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Algorithme et programme simple ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Le robot part de A1. Il exécute « répéter 2 fois →, puis ↑ ». Nomme la case d’arrivée et une instruction à ajouter pour arriver en C3.",
+              "answer": "Il arrive en C2. J’ajoute ↑ pour atteindre C3.",
+              "explanation": "Les déplacements mènent à B1, C1 puis C2. Le dernier déplacement monte d’une rangée dans la même colonne.",
               "id": "TI-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, programmation, U7, p.117.",
-          "practical": [],
+          "practical": [
+            "Dessine la grille et place un pion en A1. Donne quatre instructions à un camarade pour atteindre C3. Il annonce la case obtenue après chaque instruction. Si la case finale diffère de C3, repérez une instruction à corriger et essayez depuis A1."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Comprendre l’action avant de cliquer",
-              "kind": "method",
-              "body": "Dans « Algorithme et programme simple », repère d’abord le but de l’action. Sur un ordinateur ou un téléphone, une procédure devient plus facile à retenir si l’on sait pourquoi chaque étape est faite. Lis les messages affichés à l’écran et évite de valider automatiquement une action que tu ne comprends pas."
+              "title": "La grille du robot",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Rangée",
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ],
+                "rows": [
+                  [
+                    "4",
+                    "A4",
+                    "B4",
+                    "C4",
+                    "D4"
+                  ],
+                  [
+                    "3",
+                    "A3",
+                    "B3",
+                    "C3 arrivée",
+                    "D3"
+                  ],
+                  [
+                    "2",
+                    "A2",
+                    "B2",
+                    "C2",
+                    "D2"
+                  ],
+                  [
+                    "1",
+                    "A1 départ",
+                    "B1",
+                    "C1",
+                    "D1"
+                  ]
+                ]
+              },
+              "body": "Chaque flèche déplace le robot d’une seule case. Les colonnes sont les lettres et les rangées sont les nombres."
             },
             {
-              "title": "Procédure guidée",
+              "title": "Vérifier un trajet",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Étape",
+                  "Instruction",
+                  "Case obtenue"
+                ],
+                "rows": [
+                  [
+                    "Départ",
+                    "Placer le robot",
+                    "A1"
+                  ],
+                  [
+                    "1",
+                    "→",
+                    "B1"
+                  ],
+                  [
+                    "2",
+                    "↑",
+                    "B2"
+                  ],
+                  [
+                    "3",
+                    "→",
+                    "C2"
+                  ],
+                  [
+                    "4",
+                    "↑",
+                    "C3"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Raccourcir l’écriture",
               "kind": "example",
-              "body": "Activité : Explique avec tes mots l’idée essentielle de « Algorithme et programme simple » et donne un exemple adapté au thème « Les jeux ».\n\nRésultat attendu : Réponse attendue : retrouver l’idée essentielle suivante : Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche. L’exemple doit être cohérent avec la situation étudiée.\n\nRéalise l’action lentement puis recommence sans regarder la correction."
-            },
-            {
-              "title": "Bonnes habitudes numériques",
-              "kind": "warning",
-              "items": [
-                "Respecter le matériel et demander l’autorisation avant d’utiliser l’appareil d’une autre personne.",
-                "Ne pas communiquer un mot de passe ou une information personnelle à un inconnu.",
-                "Vérifier la source d’une information avant de la croire ou de la partager.",
-                "Prévenir un adulte ou l’enseignant en cas de message inquiétant, de contenu inapproprié ou de problème technique."
-              ]
-            },
-            {
-              "title": "Je pratique",
-              "kind": "activity",
-              "body": "Réalise une petite tâche liée à « Les jeux » avec l’outil étudié, puis explique oralement les étapes à un camarade. Si tu peux expliquer la procédure clairement sans toucher à l’appareil, c’est que tu l’as comprise."
+              "body": "Le trajet ↑, ↑, →, → arrive aussi à C3. On peut écrire « répéter 2 fois ↑, puis répéter 2 fois → ». Répéter une instruction veut dire l’exécuter le nombre de fois annoncé."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, programmation, U7, p.117.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sc-ti-specific-2026-11-06"
           }
         }
       ],
@@ -1556,28 +1707,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Organiser une information pour un programme",
-            "answer": "Avant de programmer, je classe les informations et je choisis l’ordre le plus clair."
+            "prompt": "Les cartes B et E indiquent « Lecture », et A et D « Jeu ». Pour retrouver les lectures, quel champ regardes-tu et quelles cartes retiens-tu ?",
+            "answer": "Je regarde le champ Type. Je retiens B et E."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Algorithme et programme simple",
-            "answer": "Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche."
+            "prompt": "Les cartes d’un groupe indiquent 11 h pour Collage, 9 h pour Conte, 10 h pour Dessin. Mets les activités dans l’ordre et nomme la donnée utilisée.",
+            "answer": "Conte à 9 h, Dessin à 10 h, Collage à 11 h. On utilise l’heure."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Organiser une information pour un programme",
-            "answer": "Avant de programmer, je classe les informations et je choisis l’ordre le plus clair."
+            "prompt": "Sur la grille de la leçon, pars de A1 et suis ↑, →, →. Donne les cases obtenues dans l’ordre.",
+            "answer": "A2, B2, C2. ↑ monte d’une rangée et → avance d’une colonne vers la droite."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Algorithme et programme simple",
-            "answer": "Un algorithme est une suite ordonnée d’instructions permettant d’accomplir une tâche."
+            "prompt": "Sur cette même grille, écris une suite de quatre déplacements de A1 vers C3. Vérifie en donnant chaque case intermédiaire.",
+            "answer": "Exemple : ↑, ↑, →, →. A2, A3, B3, C3. Accepter tout autre trajet correct de quatre déplacements."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Organiser une information pour un programme",
-            "answer": "Avant de programmer, je classe les informations et je choisis l’ordre le plus clair."
+            "prompt": "Le robot est en B3. Il exécute « répéter 2 fois → ». Le résultat attendu était C3. Quelle est l’arrivée réelle et quelle correction proposes-tu ?",
+            "answer": "Le robot arrive en D3. Il faut avancer une seule fois à droite pour atteindre C3."
           }
         ]
       },

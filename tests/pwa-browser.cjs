@@ -33,7 +33,7 @@ const server = http.createServer((request, response) => {
   if (!file.startsWith(root + path.sep)) return response.writeHead(403).end();
   if (published && interrupted && name === 'data/content-u2.json') return response.writeHead(503).end();
 
-  const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
+  const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml' };
   try {
     const content = (published && changes.get(name)) || fs.readFileSync(file);
     response.setHeader('Content-Type', types[path.extname(name)] || 'application/octet-stream');
@@ -108,6 +108,24 @@ async function run() {
     await page.goto(base + 'search.html?q=ecole');
     await page.locator('#searchResults li').first().waitFor();
     console.log('PASS PWA update on a subdirectory: current check, failed install, offline fallback, retry, tab guard, activation offline and progress retention');
+
+    await page.goto(base + '?unit=U5#lesson:SC-U5-L3');
+    await page.getByRole('heading', { name: 'Aires protégées du Cameroun' }).waitFor();
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.getByRole('cell', { name: 'Waza', exact: true }).waitFor();
+
+    await page.goto(base + '?unit=U6#lesson:SC-U6-L4');
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.getByLabel(/Quelle température/).fill('24');
+    await page.getByRole('button', { name: 'Vérifier le nombre' }).click();
+    assert.match(await page.locator('.exercise-card [role="status"]').innerText(), /Bravo.*24 °C/);
+
+    await page.goto(base + '?unit=U8#lesson:TI-U8-L2');
+    await page.getByText('Assembler les trois blocs de haut en bas', { exact: true }).click();
+    await page.getByRole('cell', { name: 'quand [drapeau vert] est cliqué', exact: true }).waitFor();
+    await page.getByRole('button', { name: 'Voir la correction' }).first().click();
+    assert.match(await page.locator('#ans_TIU8L2_0').innerText(), /d’abord « Merci ! », puis « Bonjour ! »/);
+    console.log('PASS offline CE2 U5 map, U6 measurement and U8 Scratch lesson');
   } finally {
     await browser?.close();
     server.close();

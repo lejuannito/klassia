@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 337" role="img" aria-labelledby="title desc">
+  <title id="title">Tester un matériau dans un circuit à pile</title>
+  <desc id="desc">Les fils relient la pile, la lampe et les deux pinces. L’objet testé se place entre les pinces pour fermer le circuit s’il conduit.</desc>
+  <rect width="600" height="337" rx="20" fill="#f0f9ff"/>
+  <g fill="#112a3d" font-family="system-ui, sans-serif" text-anchor="middle">
+    <text x="300" y="42" font-size="26" font-weight="700">Tester un matériau</text>
+    <path d="M265 109H107v138h72m156-138h158v138h-72" fill="none" stroke="#203c50" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M265 86v46m18-38v30m34-38v46m18-38v30M283 109h34" stroke="#203c50" stroke-width="5" fill="none"/>
+    <text x="242" y="100" font-size="24">+</text>
+    <text x="356" y="100" font-size="24">−</text>
+    <text x="300" y="161" font-size="22" font-weight="700">Pile</text>
+    <circle cx="493" cy="178" r="27" fill="#fef3c7" stroke="#80520a" stroke-width="4"/>
+    <path d="m474 159 38 38m0-38-38 38" stroke="#80520a" stroke-width="4"/>
+    <text x="430" y="185" font-size="21" text-anchor="end">Lampe</text>
+    <path d="M200 239h200v16H200z" fill="#dbe7ec" stroke="#335469" stroke-width="3"/>
+    <path d="M179 230l39 17-39 17zm242 0-39 17 39 17z" fill="#155e75" stroke="#0c4251" stroke-width="3"/>
+    <text x="166" y="299" font-size="20">Pince</text>
+    <text x="300" y="299" font-size="21" font-weight="700">Objet testé</text>
+    <text x="433" y="299" font-size="20">Pince</text>
+  </g>
+</svg>

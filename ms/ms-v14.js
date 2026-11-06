@@ -22,8 +22,8 @@ function traceLettersSvg(letters){
  return `<svg viewBox="0 0 600 280" class="trace-svg"><g stroke="#ccd2dd" stroke-width="2">${[55,120,185,250].map(y=>`<line x1="25" y1="${y}" x2="575" y2="${y}"/>`).join('')}</g>${letters.map((l,i)=>`<text x="${30+i*step}" y="190" font-size="${size}" font-family="Arial" font-weight="700" fill="none" stroke="#9aa5b7" stroke-width="3" stroke-dasharray="7 6">${esc14(l)}</text>`).join('')}</svg>`;
 }
 function traceNumbersSvg(numbers){
- const display=numbers.slice(-6),step=550/Math.max(1,display.length),size=Math.min(125,step*.75);
- return `<svg viewBox="0 0 600 260" class="trace-svg"><g stroke="#ccd2dd" stroke-width="2"><line x1="20" y1="210" x2="580" y2="210"/><line x1="20" y1="90" x2="580" y2="90"/></g>${display.map((n,i)=>`<text x="${30+i*step}" y="195" font-size="${size}" font-family="Arial" font-weight="700" fill="none" stroke="#9aa5b7" stroke-width="3" stroke-dasharray="6 5">${n}</text>`).join('')}</svg>`;
+ const step=550/Math.max(1,numbers.length),size=Math.min(125,step*.75);
+ return `<svg viewBox="0 0 600 260" class="trace-svg" role="img" aria-label="${numbers.join(', ')}"><g stroke="#ccd2dd" stroke-width="2"><line x1="20" y1="210" x2="580" y2="210"/><line x1="20" y1="90" x2="580" y2="90"/></g>${numbers.map((n,i)=>`<text x="${30+i*step}" y="195" font-size="${size}" font-family="Arial" font-weight="700" fill="none" stroke="#9aa5b7" stroke-width="3" stroke-dasharray="6 5">${n}</text>`).join('')}</svg>`;
 }
 function graphismSvg(themeId){
  const paths={
@@ -40,10 +40,15 @@ function graphismSvg(themeId){
 }
 function worksheetsForCurrent(){
  const p=practice14?.themes?.[theme.id];if(!p)return [];
+ const fullSeries=NURSERY.grade==='GS'&&theme.id==='T8';
+ const numberRows=fullSeries?[p.numbers.slice(0,5),p.numbers.slice(5)]:[p.numbers.slice(-6)];
  return [
   {id:'color',title:'🎨 Je colorie',instruction_fr:`Colorie le dessin du thème « ${p.title_fr} ». Essaie de rester à l’intérieur des contours.`,instruction_en:`Colour the ${p.title_en.toLowerCase()} picture. Try to stay inside the lines.`,html:drawingSvg(p.drawing)},
   {id:'letters',title:'✍️ Je forme les lettres',instruction_fr:`Repasse les lettres ${p.letters.join(' et ')} avec le doigt, puis avec un crayon.`,instruction_en:`Trace the letters ${p.letters.join(' and ')} with your finger, then with a pencil.`,html:traceLettersSvg(p.letters)},
-  {id:'numbers',title:'🔢 Je forme les chiffres',instruction_fr:`Repasse les chiffres proposés. Dis ensuite combien d’objets chaque chiffre peut représenter.`,instruction_en:`Trace the numbers. Then say how many objects each number can represent.`,html:traceNumbersSvg(p.numbers)},
+  {id:'numbers',title:fullSeries?'🔢 J’écris les nombres de 1 à 10':'🔢 Je forme les chiffres',
+   instruction_fr:fullSeries?'Repasse les modèles de 1 à 5, puis de 6 à 10. Écris ensuite toute la suite sur une ligne libre.':'Repasse les chiffres proposés. Dis ensuite combien d’objets chaque chiffre peut représenter.',
+   instruction_en:fullSeries?'Trace the numbers from 1 to 5, then 6 to 10. Then write the whole sequence on an empty line.':'Trace the numbers. Then say how many objects each number can represent.',
+   html:numberRows.map(traceNumbersSvg).join('')},
   {id:'graph',title:'➰ Je fais du graphisme',instruction_fr:`Repasse les ${p.trace}. Commence lentement et garde le même sens.`,instruction_en:`Trace the patterns slowly and keep the same direction.`,html:graphismSvg(theme.id)}
  ];
 }

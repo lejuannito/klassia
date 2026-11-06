@@ -534,41 +534,50 @@
         {
           "id": "GS-T8-ST2",
           "type": "math",
-          "title_fr": "Les places du bus",
-          "title_en": "Seats on a bus",
-          "goal_fr": "Dessine 10 places.",
-          "goal_en": "Draw 10 seats.",
-          "prompt_fr": "Dessine 10 places. Pose 6 jetons voyageurs, chacun sur une place.",
-          "prompt_en": "Draw 10 seats. Place 6 passenger counters, one on each seat.",
+          "title_fr": "Les places du bus · écrire les nombres de 1 à 10",
+          "title_en": "Bus seats · writing numbers from 1 to 10",
+          "goal_fr": "Lire, compléter et écrire la suite des nombres de 1 à 10.",
+          "goal_en": "Read, complete and write the numbers from 1 to 10 in order.",
+          "prompt_fr": "Le bus a dix places. Lis les numéros dans l’ordre, de gauche à droite, sur la ligne du haut puis sur celle du bas. Écris les numéros manquants sur papier ou sur une ardoise.",
+          "prompt_en": "The bus has ten seats. Read the numbers in order, from left to right, across the top row and then the bottom row. Write the missing numbers on paper or on a slate.",
+          "figure": {
+            "src": "../assets/gs-t8-places-du-bus.svg",
+            "alt": "Modèle de 1 à 5 sur la première ligne et de 6 à 10 sur la seconde. Dans la partie à compléter, la ligne du haut montre 1, 2, une case vide, 4 et une case vide. La ligne du bas montre 6, une case vide, 8, 9 et une case vide."
+          },
           "steps_fr": [
-            "Préparer avec l’adulte : Dessine 10 places. Pose 6 jetons voyageurs, chacun sur une place.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Combien de places restent libres ?"
+            "Pointe chaque numéro du modèle en le disant. Pour écrire dix, trace le 1 puis le 0 juste à sa droite.",
+            "Complète les cases vides. Cache le modèle si tu es prêt, puis écris toute la suite de 1 à 10. Relis et compare avec le modèle.",
+            "Dessine dix places ou reprends le modèle. Pose six jetons voyageurs, un par place, puis compte les places libres."
           ],
           "steps_en": [
-            "Prepare with the adult: Draw 10 seats. Place 6 passenger counters, one on each seat.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How many seats are empty?"
+            "Point to each number in the model and say it. To write ten, write 1, then put 0 just to its right.",
+            "Fill in the empty boxes. Cover the model if you are ready, then write the whole sequence from 1 to 10. Read it back and compare it with the model.",
+            "Draw ten seats or use the model. Put six passenger counters on the seats, one per seat, then count the empty seats."
           ],
           "questions": [
             {
               "fr": "Combien de places restent libres ?",
               "en": "How many seats are empty?",
               "answer": "4 : 10 moins 6. / 4: 10 take away 6."
+            },
+            {
+              "fr": "Quels numéros as-tu écrits dans les cases vides ?",
+              "en": "Which numbers did you write in the empty boxes?",
+              "answer": "Écris 3 et 5 sur la ligne du haut, puis 7 et 10 sur celle du bas. / Write 3 and 5 on the top row, then 7 and 10 on the bottom row."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : 4 : 10 moins 6.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Lit et écrit les nombres dans l’ordre de 1 à 10, une seule fois chacun.",
+            "Forme des chiffres reconnaissables et écrit 10 avec le 1 à gauche du 0.",
+            "Compte les quatre places libres et montre comment il les a trouvées."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "fiche imprimée ou dix cases dessinées sur papier ou ardoise",
+            "crayon ou craie et six jetons"
           ],
           "duration_minutes": 12,
           "source_refs": [
-            "FR : tableau 17, p. 63–71, deuxième année",
+            "FR : tableau 17, p. 67, thème 8, deuxième année",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
           "editorial": {
@@ -576,9 +585,9 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
-            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "preparation": "Imprimer l’activité ou recopier les deux lignes de cases. Prévoir une ardoise ou du papier pour écrire toute la suite. Le cahier sans écran du thème fournit les modèles de 1 à 10 à repasser.",
+            "adaptation": "Travailler d’abord de 1 à 5 avec le modèle sous les yeux, puis de 6 à 10. Montrer lentement le tracé d’un chiffre qui reste difficile et laisser l’enfant l’essayer.",
+            "follow_up": "Faire compléter une autre suite avec des cases vides différentes. Noter quels nombres sont écrits seul et lesquels demandent encore un modèle."
           }
         },
         {

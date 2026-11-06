@@ -1,15 +1,15 @@
 # Couverture du curriculum et progression des cinq classes
 
-Relevé du 6 novembre 2026 sur le contenu de Klassia au commit de référence [de701af](https://github.com/lejuannito/klassia/commit/de701af1fc9bb75f846f3370a44a3c3bdef0d41a). Le premier passage examine 30 repères, soit six par classe. Le tableau intègre la mise à jour des deux leçons du CE1 décrites ci-dessous. Il couvre le langage et la lecture, l’écriture, le calcul, les arts, la motricité et un repère d’anglais. La matrice part des attendus des tableaux du MINEDUB, puis rapproche les supports, consignes et retours réellement présents dans Klassia. [Matrice des 30 repères](MATRICE_CURRICULUM.csv)
+Relevé initial du 6 novembre 2026 au commit de référence [de701af](https://github.com/lejuannito/klassia/commit/de701af1fc9bb75f846f3370a44a3c3bdef0d41a), mis à jour le 7 novembre 2026. Le relevé examine 30 repères, soit six par classe. Il couvre le langage et la lecture, l’écriture, le calcul, les arts, la motricité et un repère d’anglais. La matrice part des attendus des tableaux du MINEDUB, puis rapproche les supports, consignes et retours réellement présents dans Klassia. [Matrice des 30 repères](MATRICE_CURRICULUM.csv)
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
 | Moyenne section | 160 | 5 | 1 | 0 |
-| Grande section | 162 | 1 | 5 | 0 |
-| SIL | 88 | 4 | 1 | 1 |
+| Grande section | 162 | 2 | 4 | 0 |
+| SIL | 88 | 5 | 1 | 0 |
 | CE1 | 87 | 3 | 3 | 0 |
 | CE2 | 347 | 4 | 2 | 0 |
-| **Total** | **844** | **17** | **12** | **1** |
+| **Total** | **844** | **19** | **11** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -28,10 +28,21 @@ L’anglais est rapproché des références effectivement visées par les conten
 
 La lecture de l’U1 s’appuie sur un récit original en trois épisodes, des cartes illustrées et une réponse qui demande un indice du texte. En U6, l’élève compare deux fins, écrit sa propre suite et la relit avec quatre critères. L’observation en classe précisera le degré d’aide nécessaire. [Lecture U1](../ce1/data/unit1.json) · [Production écrite U6](../ce1/data/unit6.json) · [Fiche de positionnement](DIAGNOSTIC_ENTREE_CE1.md)
 
+## Corrections en MS, GS et SIL
+
+| MS dans Klassia | Thème du programme francophone MINEDUB, première année |
+|---|---|
+| T5 · Les plantes | 6 · Le monde végétal |
+| T6 · Les animaux | 5 · Le monde animal |
+
+La correspondance s’affiche dans le parcours MS et à l’ouverture de chaque thème. Les codes Klassia restent les clés des liens et de la progression enregistrée. En GS, T5 et T6 suivent l’ordre du programme. [Curriculum maternel francophone, tableau 17, p. 66–67](https://fr.scribd.com/document/578040708/Programme-Maternel-2019-01)
+
+- **GS, thème des transports.** L’enfant complète les numéros manquants des places du bus, puis écrit la suite entière de 1 à 10. Le cahier du thème fournit les dix modèles à repasser. L’adulte observe l’ordre, la lisibilité des chiffres et l’écriture de 10. [Activité GS-T8-ST2](../gs/data/themes/T8.json)
+- **SIL, unité 1.** L’enfant repère le rouge, le jaune et le bleu dans un nuancier de cinq couleurs, puis les utilise pour colorier trois éléments de la maison. Le corrigé sert à vérifier le classement et le dessin. [Leçon SIL-U1-L07](../sil/data/sil-u1.json)
+
 ## Corrections à engager
 
-1. **MS, GS et SIL.** Pour la MS, expliciter le décalage entre les identifiants T5 et T6 et les thèmes animal et végétal du curriculum. En GS, relier les modèles d’écriture des chiffres 1 à 10 à une tâche chiffrée du thème des transports. En SIL, ajouter l’activité de distinction des couleurs primaires de l’unité 1. [GS et Bassa](GS_BASSA.md) · [Activités SIL de l’unité 1](../sil/data/sil-u1.json)
-2. **Évaluations des arts et de la motricité.** En CE1, compléter les retours verbaux par l’observation d’une composition et d’un enchaînement de passes. Étendre ensuite le rapprochement aux autres attendus, avec les références et les décisions de relecture renseignées par repère.
+En CE1, compléter les retours verbaux par l’observation d’une composition en arts et d’un enchaînement de passes en motricité. Étendre ensuite le rapprochement aux autres attendus, avec les références et les décisions de relecture renseignées par repère.
 
 Pour étendre la matrice, attribuer un identifiant interne à chaque nouvel attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une même ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
 

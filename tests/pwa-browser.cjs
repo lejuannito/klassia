@@ -242,6 +242,32 @@ async function run() {
     assert.match(await rubric.innerText(), /Pour relire ta fin.*personnage du début.*problème de la gourde.*résultat.*ponctuation/s);
     assert.equal(await response.inputValue(), ending);
     console.log('PASS offline CE1 illustrated reading and open ending with a correction rubric');
+
+    await page.goto(base + 'sil/#unit:SIL-U1');
+    await page.getByRole('link', { name: /Les couleurs primaires de la maison/ }).click();
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    const colors = page.locator('.answer-reveal');
+    await colors.locator('summary').click();
+    assert.match(await colors.innerText(), /A \(bleu\), C \(rouge\) et E \(jaune\)/);
+
+    await page.goto(base + 'gs/?theme=T8#domain:ST');
+    await page.getByRole('button', { name: 'Suivante →' }).click();
+    await page.getByRole('heading', { name: /écrire les nombres de 1 à 10/ }).waitFor();
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    const missingNumbers = page.locator('.answer-reveal').last();
+    await missingNumbers.locator('summary').click();
+    assert.match(await missingNumbers.innerText(), /3 et 5.*7 et 10/);
+
+    await page.goto(base + 'ms/#themes');
+    const plants = page.locator('.themeOpen[data-theme="T5"]');
+    const animals = page.locator('.themeOpen[data-theme="T6"]');
+    await plants.getByText('Code Klassia T5 · thème 6 du programme francophone').waitFor();
+    await animals.getByText('Code Klassia T6 · thème 5 du programme francophone').waitFor();
+    await plants.click();
+    await page.locator('.hero').getByText('Code Klassia T5 · thème 6 du programme francophone').waitFor();
+    await page.locator('#themeSelect').selectOption('T6');
+    await page.locator('.hero').getByText('Code Klassia T6 · thème 5 du programme francophone').waitFor();
+    console.log('PASS offline SIL primary colours, GS seat numbering and MS curriculum theme mapping');
   } finally {
     await browser?.close();
     server.close();

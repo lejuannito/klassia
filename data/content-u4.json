@@ -2241,57 +2241,46 @@
           "objectives": [
             "Expliquer les bienfaits de l’honnêteté et démontrer son honnêteté."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Honnêteté ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Au stand de la fête, Ana rend 300 F CFA au lieu de 200. Le client s’en aperçoit. Que peut-il dire ?",
           "learn": [
-            "Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître."
+            "Être honnête, c’est dire ce qu’on sait être vrai et respecter ce qui appartient aux autres. Une erreur peut arriver. La signaler permet de la corriger.",
+            "Quand les personnes vérifient ensemble et reconnaissent une erreur, elles peuvent se faire confiance pour continuer le travail."
           ],
-          "takeaway": "Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître.",
+          "takeaway": "Je décris ce qui s’est passé, je vérifie les faits et je propose de réparer l’erreur.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Honnêteté » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Combien de francs ont été rendus en trop ? Que fait le client pour agir honnêtement ?",
+              "answer": "100 F CFA. Le client signale l’erreur et rend une pièce de 100.",
+              "explanation": "Compare la somme reçue, 300, à la monnaie attendue, 200.",
               "id": "SH-U4-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Honnêteté ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Tu as renversé sans le vouloir la boîte de fournitures d’un groupe. Formule une phrase honnête et une action de réparation.",
+              "answer": "« J’ai renversé la boîte en passant. Je peux vous aider à ranger. »",
+              "explanation": "Une réponse dit ce qui est arrivé et propose une action possible.",
               "id": "SH-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U4, p.123.",
-          "practical": [],
+          "practical": [
+            "Jouez la scène avec des pièces de papier. Alternez client, vendeur et observateur. L’observateur note la phrase qui aide à corriger l’erreur calmement."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Honnêteté » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
+              "title": "Au stand de la fête",
               "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Honnêteté » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "body": "Un cahier coûte 300 F CFA. Le client donne 500 F CFA. La monnaie attendue est 200 F CFA. Ana rend trois pièces de 100. Le client dit « J’ai reçu 300. Comptons ensemble. » Ana reprend une pièce et le remercie."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, éducation morale, U4, p.123.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2300,57 +2289,65 @@
           "objectives": [
             "Expliquer les bienfaits de la serviabilité et rendre service sans contrepartie."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Serviabilité ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Au marché fictif de la classe, un groupe doit transporter des sachets vides. Lila propose d’aider, puis attend la réponse. Pourquoi attend-elle ?",
           "learn": [
-            "Rendre service signifie aider de façon respectueuse sans exiger une récompense."
+            "La serviabilité consiste à proposer une aide utile sans exiger de récompense. Demander d’abord aide à comprendre ce dont l’autre a besoin.",
+            "Une aide se choisit selon ses capacités et la sécurité. On peut porter un objet léger ou expliquer une tâche. Pour un objet lourd ou un geste risqué, on fait appel à un adulte."
           ],
-          "takeaway": "Rendre service signifie aider de façon respectueuse sans exiger une récompense.",
+          "takeaway": "Je propose une aide précise, j’écoute la réponse et j’agis en sécurité.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Serviabilité » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Rendre service signifie aider de façon respectueuse sans exiger une récompense. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Lila demande une récompense avant de ramasser un cahier tombé. Comment peut-elle reformuler sa proposition ?",
+              "answer": "« Veux-tu que je ramasse ton cahier ? » Elle peut aider sans rien demander en échange.",
+              "explanation": "Proposer est différent de fixer un prix pour ce service.",
               "id": "SH-U4-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Serviabilité ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Rendre service signifie aider de façon respectueuse sans exiger une récompense.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un bidon lourd doit être déplacé. Quel service un enfant peut-il rendre ?",
+              "answer": "Il peut informer un adulte de l’endroit où se trouve le bidon.",
+              "explanation": "Une aide peut consister à signaler un problème et laisser l’adulte faire le geste risqué.",
               "id": "SH-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U4, p.123.",
-          "practical": [],
+          "practical": [
+            "Avec des objets légers, jouez une proposition d’aide. Essayez une réponse qui accepte et une qui refuse. Cherchez une formule polie dans chaque cas."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Serviabilité » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Serviabilité » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Rendre service signifie aider de façon respectueuse sans exiger une récompense. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Choisir un service utile",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Aide possible"
+                ],
+                "rows": [
+                  [
+                    "Des sachets légers sont à ranger",
+                    "Proposer de les apporter au groupe."
+                  ],
+                  [
+                    "Une caisse lourde bloque l’allée",
+                    "Prévenir l’adulte qui peut la déplacer."
+                  ],
+                  [
+                    "Une personne veut finir seule",
+                    "Respecter son choix et rester disponible."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, éducation morale, U4, p.123.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2359,59 +2356,66 @@
           "objectives": [
             "Mettre en scène le droit de l’enfant à être protégé de la violence, de la maltraitance, des abus et de l’exploitation."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Protection de l’enfant contre violence, maltraitance et exploitation ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans une histoire, un enfant doit travailler avec des outils dangereux et manque souvent l’école. Une voisine cherche comment le protéger.",
           "learn": [
-            "Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents."
+            "Chaque enfant a droit à la protection contre la violence, la maltraitance et l’exploitation. Un travail dangereux ou qui l’empêche d’aller à l’école peut mettre ses droits en danger.",
+            "Si une situation inquiète un enfant, il peut chercher un adulte de confiance, comme un enseignant, un proche sûr ou une personne chargée de le protéger. Il peut en parler à un autre adulte si la première personne ne l’aide pas."
           ],
-          "takeaway": "Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents.",
+          "takeaway": "Un enfant a droit à la protection. Un adulte de confiance peut écouter et chercher une aide adaptée.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Protection de l’enfant contre violence, maltraitance et exploitation » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quels deux indices montrent que l’enfant du deuxième cas a besoin de protection ?",
+              "answer": "Il doit utiliser un outil dangereux et il manque l’école.",
+              "explanation": "Relève un risque pour sa sécurité et un effet sur sa scolarité.",
               "id": "SH-U4-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Protection de l’enfant contre violence, maltraitance et exploitation ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Écris une phrase qu’un personnage inquiet peut dire à son enseignant pour demander un entretien.",
+              "answer": "« J’ai besoin de te parler à part. Une situation m’inquiète et j’ai besoin d’aide. »",
+              "explanation": "Une phrase simple peut demander un moment calme avec un adulte de confiance.",
               "id": "SH-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, droits de l’enfant, U4, p.126.",
-          "practical": [],
+          "practical": [
+            "L’adulte lit la seconde situation à la troisième personne. Les élèves jouent seulement le dialogue de demande d’aide avec l’enseignant. Personne ne raconte de situation personnelle au groupe."
+          ],
           "notes": [
-            "Ne pas demander aux enfants de raconter publiquement une expérience personnelle de violence."
+            "Convention relative aux droits de l’enfant, art. 19 et 32. Utiliser des cas fictifs. Accueillir toute demande personnelle d’aide en privé avec un adulte chargé de la protection."
           ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Protection de l’enfant contre violence, maltraitance et exploitation » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Protection de l’enfant contre violence, maltraitance et exploitation » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Observer deux situations inventées",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Indice à relever",
+                  "Réponse possible"
+                ],
+                "rows": [
+                  [
+                    "Jules aide à ranger des crayons après la classe.",
+                    "Tâche courte et adaptée.",
+                    "L’adulte explique le rangement."
+                  ],
+                  [
+                    "Un enfant doit utiliser un outil dangereux et manque la classe.",
+                    "Risque de blessure et école manquée.",
+                    "Un adulte de confiance écoute et intervient pour le protéger."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, droits de l’enfant, U4, p.126.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2420,57 +2424,69 @@
           "objectives": [
             "Mettre en scène le vivre-ensemble dans les services, ateliers et plantations."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Vivre ensemble dans les lieux de travail ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "À l’atelier, deux personnes cherchent le même outil. Au service d’accueil, deux visiteurs attendent. Comment organiser ces moments sans dispute ?",
           "learn": [
-            "Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux."
+            "Dans un lieu de travail, plusieurs personnes utilisent les mêmes espaces et parfois le même matériel. Des tours clairs, une répartition des tâches et des mots polis aident à coopérer.",
+            "En cas de désaccord, on peut décrire le besoin de chacun et convenir d’un ordre. Un responsable peut aider si l’équipe ne trouve pas d’accord."
           ],
-          "takeaway": "Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux.",
+          "takeaway": "Je nomme les besoins, j’écoute les autres et je propose un partage clair.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Vivre ensemble dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Au service d’accueil, une personne arrive après toi et demande où attendre. Quelle réponse aide tout le monde ?",
+              "answer": "« La file commence ici. Tu peux attendre derrière moi. »",
+              "explanation": "La réponse renseigne et respecte le tour de chacun.",
               "id": "SH-U4-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vivre ensemble dans les lieux de travail ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans un atelier de classe, deux groupes veulent le même crayon. Propose un accord vérifiable.",
+              "answer": "Le premier groupe utilise le crayon pendant son tracé, puis le pose au milieu pour le second.",
+              "explanation": "L’accord précise qui commence et comment l’objet passe à l’autre.",
               "id": "SH-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U4, p.128.",
-          "practical": [],
+          "practical": [
+            "Choisissez un lieu du tableau. Jouez une scène avec deux rôles et un observateur. Celui-ci vérifie que chaque personne a pu expliquer son besoin."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Vivre ensemble dans les lieux de travail » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Vivre ensemble dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Trois lieux, trois accords",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Lieu",
+                  "Besoin commun",
+                  "Accord possible"
+                ],
+                "rows": [
+                  [
+                    "Atelier",
+                    "Utiliser le mètre",
+                    "Un tour pour mesurer chaque planche, puis retour à sa place."
+                  ],
+                  [
+                    "Service d’accueil",
+                    "Être renseigné",
+                    "Respecter l’ordre d’arrivée et suivre les indications."
+                  ],
+                  [
+                    "Plantation",
+                    "Regrouper les paniers",
+                    "Se répartir la collecte et le comptage."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, paix et sécurité, U4, p.128.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2479,57 +2495,69 @@
           "objectives": [
             "Mettre en scène les mesures de sécurité dans les services, ateliers et plantations."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Sécurité dans les lieux de travail ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Lors d’une visite, la classe voit une ligne de sécurité au sol et une caisse dans le passage. Quels gestes peuvent éviter un accident ?",
           "learn": [
-            "Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation."
+            "Un danger peut blesser ou rendre malade. Une consigne de sécurité sert à réduire le risque. Le responsable indique les zones de passage et les protections prévues pour les adultes qui travaillent.",
+            "Pendant une visite, un enfant reste avec le groupe et signale un danger. Le responsable décide comment dégager un passage ou sécuriser un équipement."
           ],
-          "takeaway": "Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation.",
+          "takeaway": "Je repère le danger, je garde une distance sûre et je le signale à l’adulte responsable.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un outil tombe derrière la ligne. Quelle est ta décision ?",
+              "answer": "Je reste dans la zone de visite et je préviens le responsable.",
+              "explanation": "La ligne sépare les visiteurs d’un espace qui présente un risque.",
               "id": "SH-U4-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité dans les lieux de travail ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans l’allée, tu vois une flaque et des personnes approchent. Donne deux actions utiles.",
+              "answer": "Je préviens calmement les personnes proches et j’avertis le responsable pour sécuriser le passage.",
+              "explanation": "Signaler aide les autres à éviter le danger pendant que l’adulte agit.",
               "id": "SH-U4-L5-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U4, p.128.",
-          "practical": [],
+          "practical": [
+            "Dessinez l’entrée, la zone de visite et la machine d’un atelier fictif. Tracez le chemin du groupe et marquez l’endroit où demander conseil."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Sécurité dans les lieux de travail » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Sécurité dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Repérer, puis agir",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Lieu",
+                  "Indice observé",
+                  "Geste du visiteur"
+                ],
+                "rows": [
+                  [
+                    "Accueil",
+                    "Caisse dans le passage",
+                    "Prévenir l’adulte et emprunter le passage indiqué."
+                  ],
+                  [
+                    "Atelier",
+                    "Machine derrière une ligne",
+                    "Observer depuis la zone autorisée."
+                  ],
+                  [
+                    "Plantation",
+                    "Récipient marqué avec un pictogramme de danger",
+                    "Rester à distance et le signaler."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, paix et sécurité, U4, p.128.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2538,57 +2566,70 @@
           "objectives": [
             "Jouer un rôle dans la mise en scène d’une élection."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Mettre en scène une élection ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "La classe doit choisir l’élève qui présentera la fiche métier. Deux élèves se proposent. Comment leur donner la même chance ?",
           "learn": [
-            "Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats."
+            "Une élection permet de choisir entre des candidatures par un vote. On annonce les mêmes règles pour tous. Chacun dispose d’une voix et peut garder son choix secret.",
+            "Après le vote, le dépouillement consiste à compter les bulletins selon la règle annoncée. On compare les nombres et on annonce le résultat devant la classe."
           ],
-          "takeaway": "Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats.",
+          "takeaway": "Une élection de classe se prépare, se déroule avec un choix libre, puis se termine par un comptage vérifiable.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Mettre en scène une élection » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Combien de bulletins ont été déposés et qui est choisi selon la règle ?",
+              "answer": "13 bulletins déposés. Awa est choisie avec 7 des 12 voix valables.",
+              "explanation": "Distingue les bulletins dans la boîte des voix valables.",
               "id": "SH-U4-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Mettre en scène une élection ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Ton camarade te demande de lui montrer ton bulletin avant de le déposer. Donne une réponse et explique la règle.",
+              "answer": "« Je garde mon choix pour moi. » Chaque élève peut voter librement et en secret.",
+              "explanation": "Le secret protège le choix de chacun.",
               "id": "SH-U4-L6-E2"
             }
           ],
           "source": "Curriculum CE2, citoyenneté, U4, p.130.",
-          "practical": [],
+          "practical": [
+            "Avec des noms fictifs, distribuez un bulletin par élève. Jouez les rôles de candidat, électeur et membre du bureau. Comparez deux comptages avant d’annoncer le résultat."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Mettre en scène une élection » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
+              "title": "Une élection simulée",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Moment",
+                  "Action"
+                ],
+                "rows": [
+                  [
+                    "Avant",
+                    "Présenter Awa et Émile. Décider qu’une seule case cochée rend un bulletin valable."
+                  ],
+                  [
+                    "Pendant",
+                    "Cocher seul, plier le bulletin et le déposer dans la boîte."
+                  ],
+                  [
+                    "Après",
+                    "Deux élèves comptent ensemble. Awa a 7 voix, Émile 5, et un bulletin a deux cases cochées."
+                  ]
+                ]
+              }
             },
             {
-              "title": "Étude de cas guidée",
+              "title": "Lire le résultat",
               "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Mettre en scène une élection » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Une élection suit des règles connues : candidatures selon le cadre choisi, vote, dépouillement et annonce des résultats. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "body": "Le bulletin à deux cases ne départage pas les candidats selon la règle de cette simulation. Les suffrages valables sont 7 + 5 = 12. Awa a le plus de voix valables."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, citoyenneté, U4, p.130.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2597,57 +2638,65 @@
           "objectives": [
             "Mettre en scène l’application des règles dans les lieux de travail."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Règles dans les lieux de travail ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans l’atelier de dessin, l’étiquette dit « Rapporter les outils au bac ». Le mètre est resté sur la table. Quelle conséquence le groupe suivant peut-il observer ?",
           "learn": [
-            "Les règles protègent les personnes, organisent les activités et définissent des comportements attendus."
+            "Une règle indique ce qu’on doit faire dans une situation. Plusieurs règles affichées ensemble forment un règlement. Certaines organisent le travail, d’autres protègent les personnes.",
+            "Une règle compréhensible précise le lieu, l’action et parfois le moment. On peut expliquer son but avec un exemple."
           ],
-          "takeaway": "Les règles protègent les personnes, organisent les activités et définissent des comportements attendus.",
+          "takeaway": "Je lis la règle, j’applique le geste attendu et j’explique à quoi il sert.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Règles dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les règles protègent les personnes, organisent les activités et définissent des comportements attendus. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel geste permet au prochain groupe de retrouver le mètre ?",
+              "answer": "Le remettre dans le bac à la fin de la tâche.",
+              "explanation": "Relis la première règle du règlement.",
               "id": "SH-U4-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Règles dans les lieux de travail ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les règles protègent les personnes, organisent les activités et définissent des comportements attendus.",
-              "explanation": "",
               "type": "open",
+              "prompt": "« Bien se tenir » est trop général pour dégager une allée. Propose une règle précise et son but.",
+              "answer": "« Range les sacs sous la table pendant l’activité. » L’allée reste libre pour circuler.",
+              "explanation": "Une règle utile indique un geste qu’on peut observer.",
               "id": "SH-U4-L7-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U4, p.132.",
-          "practical": [],
+          "practical": [
+            "Écrivez une règle pour votre coin de fabrication. Un autre groupe la mime. Relisez-la si son geste montre qu’il a compris une autre action."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Règles dans les lieux de travail » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Règles dans les lieux de travail » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les règles protègent les personnes, organisent les activités et définissent des comportements attendus. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Le règlement du coin de fabrication",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Règle affichée",
+                  "À quoi elle sert"
+                ],
+                "rows": [
+                  [
+                    "Mettre les outils dans le bac à la fin.",
+                    "Le groupe suivant les retrouve."
+                  ],
+                  [
+                    "Laisser l’allée libre.",
+                    "Les personnes se déplacent sans obstacle."
+                  ],
+                  [
+                    "Demander l’accord avant de prendre un outil utilisé.",
+                    "Les groupes peuvent finir leur tâche."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, règles et règlements, U4, p.132.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2657,57 +2706,72 @@
             "Définir un mouvement migratoire.",
             "Situer de grands mouvements migratoires sur une carte du Cameroun."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Peuplement du Cameroun et mouvements migratoires ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une flèche sur une carte relie deux régions. Le document indique que des familles se sont installées dans une autre région. Que raconte ce déplacement ?",
           "learn": [
-            "Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées."
+            "Une migration est un déplacement au cours duquel des personnes changent de lieu de vie. Des familles peuvent se déplacer pour travailler, trouver des terres, rejoindre des proches ou se mettre en sécurité.",
+            "Le peuplement du territoire actuel s’est formé sur une longue durée. Des installations, des déplacements et des rencontres ont eu lieu à des époques différentes.",
+            "Les deux flèches de la carte donnent des directions générales. Une flèche situe un déplacement ou une expansion historique à lire avec la fiche correspondante."
           ],
-          "takeaway": "Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées.",
+          "takeaway": "Je lis le point de départ, le sens et l’époque d’un déplacement. Je distingue les exemples de la carte de l’ensemble du peuplement.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Peuplement du Cameroun et mouvements migratoires » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle flèche part d’une zone proche de la frontière actuelle et indique une direction vers l’Afrique centrale ? Quelle est son époque ?",
+              "answer": "A. Elle correspond à des déplacements commencés il y a plusieurs milliers d’années.",
+              "explanation": "Associe la lettre A à la première ligne et suis sa pointe sur la carte.",
               "id": "SH-U4-L8-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Peuplement du Cameroun et mouvements migratoires ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Une famille visite Garoua et rentre chez elle. Une autre s’installe à Garoua pour y vivre. Quel cas illustre une migration ?",
+              "answer": "La famille qui s’installe à Garoua pour y vivre.",
+              "explanation": "Le critère ici est le changement de lieu de vie.",
               "id": "SH-U4-L8-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U4, p.135.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Suis A puis B avec ton doigt. Avec ton voisin, dis quelle flèche correspond à l’époque la plus ancienne. Sur une feuille, dessine un trajet fictif d’installation et nomme son départ et son arrivée."
+          ],
+          "notes": [
+            "Directions simplifiées à partir de Bostoen et des synthèses historiques sur l’Adamaoua. Consulter les sources et les limites cartographiques dans le dossier de revue."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Peuplement du Cameroun et mouvements migratoires » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Peuplement du Cameroun et mouvements migratoires » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Un mouvement migratoire est un déplacement de populations d’un lieu vers un autre ; l’étude historique demande des cartes et sources validées. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Deux repères à différentes époques",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Repère",
+                  "Époque",
+                  "Ce que la carte situe"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Il y a plusieurs milliers d’années",
+                    "Des locuteurs de langues bantoues se déplacent depuis une zone proche de l’actuelle frontière entre Nigeria et Cameroun vers d’autres régions d’Afrique centrale."
+                  ],
+                  [
+                    "B",
+                    "Début du XIXe siècle",
+                    "L’expansion de l’émirat de l’Adamaoua relie notamment Yola, dans l’actuel Nigeria, à des lieux du nord et de l’Adamaoua actuels du Cameroun."
+                  ]
+                ]
+              },
+              "body": "Le contour et les noms des pays sont actuels. Les deux flèches résument des directions pour aider à lire la carte."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, histoire, U4, p.135.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-migrations-cameroun.svg",
+            "alt": "Carte avec les frontières actuelles. A indique une direction de la zone Cameroun–Nigeria vers l’Afrique centrale. B indique une direction de Yola vers le nord et l’Adamaoua du Cameroun."
           }
         },
         {
@@ -2716,57 +2780,79 @@
           "objectives": [
             "Analyser l’importance de l’élevage, agriculture, commerce, pêche et artisanat sur la vie des habitants."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Activités économiques du village ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le jour du marché, le village fictif reçoit des légumes, du poisson et des paniers. Plusieurs activités rendent cette rencontre possible.",
           "learn": [
-            "Les activités économiques fournissent des biens, des services, des revenus et des échanges dans la communauté."
+            "Une activité économique produit, transforme, transporte ou vend des biens et des services. Dans un village, plusieurs métiers peuvent se compléter.",
+            "L’agriculture fournit des plantes cultivées. L’élevage fournit des produits des animaux élevés. La pêche prélève des poissons dans l’eau. L’artisanat fabrique des objets. Le commerce met les produits à disposition des acheteurs."
           ],
-          "takeaway": "Les activités économiques fournissent des biens, des services, des revenus et des échanges dans la communauté.",
+          "takeaway": "Je relie chaque activité à son produit ou service, puis j’explique comment deux activités se complètent.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Activités économiques du village » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les activités économiques fournissent des biens, des services, des revenus et des échanges dans la communauté. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Hawa apporte du poisson et Sali des paniers. Donne l’activité de chacune.",
+              "answer": "Hawa pratique la pêche. Sali pratique l’artisanat.",
+              "explanation": "Cherche comment chaque produit est obtenu.",
               "id": "SH-U4-L9-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Activités économiques du village ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les activités économiques fournissent des biens, des services, des revenus et des échanges dans la communauté.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Les œufs arrivent au marché grâce à deux personnes. Décris le rôle d’Éric puis celui de Joël.",
+              "answer": "Éric élève les poules et fournit les œufs. Joël peut les acheter et les revendre aux clients.",
+              "explanation": "Distingue celui qui produit et celui qui met le produit en vente.",
               "id": "SH-U4-L9-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U4, p.139.",
-          "practical": [],
+          "practical": [
+            "Prépare cinq cartes d’activités et cinq cartes de produits ou services. Associe-les, puis construis une chaîne reliant production, transport et vente pour un produit du tableau."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Activités économiques du village » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Activités économiques du village » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les activités économiques fournissent des biens, des services, des revenus et des échanges dans la communauté. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Le marché de Mbolo, village inventé",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Personne",
+                  "Activité",
+                  "Produit ou service"
+                ],
+                "rows": [
+                  [
+                    "Nadia",
+                    "Agriculture",
+                    "Cultive et apporte des légumes."
+                  ],
+                  [
+                    "Éric",
+                    "Élevage",
+                    "Élève des poules et vend des œufs."
+                  ],
+                  [
+                    "Hawa",
+                    "Pêche",
+                    "Apporte des poissons pêchés dans le fleuve."
+                  ],
+                  [
+                    "Sali",
+                    "Artisanat",
+                    "Fabrique des paniers."
+                  ],
+                  [
+                    "Joël",
+                    "Commerce",
+                    "Achète des produits et les revend au marché."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie économique, U4, p.139.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2776,57 +2862,70 @@
             "Expliquer la notion de commerce.",
             "Différencier commerce intérieur et commerce extérieur."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Commerce intérieur et extérieur ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un commerçant envoie des sacs de haricots de Bafoussam à Douala. Une autre livraison part de Douala pour Libreville. Qu’est-ce qui change ?",
           "learn": [
-            "Le commerce intérieur se déroule à l’intérieur du pays ; le commerce extérieur concerne des échanges avec d’autres pays."
+            "Le commerce consiste à acheter et vendre des biens ou des services. Un échange se fait à l’intérieur du pays quand le vendeur et l’acheteur se trouvent dans le même pays.",
+            "Le commerce extérieur relie deux pays. Du point de vue du Cameroun, exporter signifie vendre à l’étranger. Importer signifie acheter à l’étranger."
           ],
-          "takeaway": "Le commerce intérieur se déroule à l’intérieur du pays ; le commerce extérieur concerne des échanges avec d’autres pays.",
+          "takeaway": "Pour classer un échange, je repère le pays de départ, le pays d’arrivée et le sens du trajet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Commerce intérieur et extérieur » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le commerce intérieur se déroule à l’intérieur du pays ; le commerce extérieur concerne des échanges avec d’autres pays. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "La livraison va de Bafoussam à Douala. Quels indices te permettent de classer l’échange ?",
+              "answer": "Les deux villes sont au Cameroun. C’est du commerce intérieur.",
+              "explanation": "Changer de ville suffit pour un trajet, mais il faut changer de pays pour parler ici de commerce extérieur.",
               "id": "SH-U4-L10-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Commerce intérieur et extérieur ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le commerce intérieur se déroule à l’intérieur du pays ; le commerce extérieur concerne des échanges avec d’autres pays.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Une boutique camerounaise achète des sacs à une entreprise au Gabon. Est-ce une importation ou une exportation pour le Cameroun ?",
+              "answer": "Une importation. Les sacs sont achetés à l’étranger et entrent au Cameroun.",
+              "explanation": "Le classement est donné du point de vue du Cameroun.",
               "id": "SH-U4-L10-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U4, p.139.",
-          "practical": [],
+          "practical": [
+            "Jouez les rôles de vendeur, d’acheteur et de transporteur avec des cartes portant les villes. Montrez le sens de la livraison puis classez la commande."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Commerce intérieur et extérieur » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Commerce intérieur et extérieur » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le commerce intérieur se déroule à l’intérieur du pays ; le commerce extérieur concerne des échanges avec d’autres pays. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Carnet fictif de trois commandes",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Départ",
+                  "Arrivée",
+                  "Classement pour le Cameroun"
+                ],
+                "rows": [
+                  [
+                    "Bafoussam, Cameroun",
+                    "Douala, Cameroun",
+                    "Commerce intérieur"
+                  ],
+                  [
+                    "Douala, Cameroun",
+                    "Libreville, Gabon",
+                    "Exportation"
+                  ],
+                  [
+                    "Libreville, Gabon",
+                    "Douala, Cameroun",
+                    "Importation"
+                  ]
+                ]
+              },
+              "body": "Le sens de la livraison dépend de la commande. Le carnet sert à s’entraîner sur le classement."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie économique, U4, p.139.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2836,57 +2935,76 @@
             "Déterminer des produits agricoles commercialisés au Cameroun.",
             "Situer leurs zones de culture sur une carte."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Agriculture et principaux produits commercialisés ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Trois étiquettes indiquent du coton, du café arabica et du cacao. La carte donne un exemple de région productrice pour chaque étiquette.",
           "learn": [
-            "Les productions agricoles varient selon les régions et les conditions du milieu ; les cartes et exemples doivent être validés."
+            "Un produit agricole vient d’une culture ou d’un élevage. Des récoltes sont consommées par les familles, vendues au marché, transformées ou expédiées ailleurs.",
+            "Le climat, le relief, les sols et le travail des agriculteurs influencent les cultures. La carte présente trois exemples de zones de production au Cameroun."
           ],
-          "takeaway": "Les productions agricoles varient selon les régions et les conditions du milieu ; les cartes et exemples doivent être validés.",
+          "takeaway": "Je relie un produit, un repère sur la carte et un usage ou une étape de la vente.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Agriculture et principaux produits commercialisés » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les productions agricoles varient selon les régions et les conditions du milieu ; les cartes et exemples doivent être validés. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel produit correspond au point 1 ? Situe la région par rapport au point 3.",
+              "answer": "Le coton. Le point 1 est au nord du point 3.",
+              "explanation": "Lis la légende puis compare la position des deux points.",
               "id": "SH-U4-L11-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Agriculture et principaux produits commercialisés ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les productions agricoles varient selon les régions et les conditions du milieu ; les cartes et exemples doivent être validés.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un transformateur cherche des fèves pour fabriquer du chocolat. Quel produit et quel point lui indiques-tu ?",
+              "answer": "Les fèves de cacao. Le point 3 donne un exemple dans le Centre.",
+              "explanation": "Distingue le produit récolté de l’aliment fabriqué.",
               "id": "SH-U4-L11-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U4, p.139.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Sur la carte, retrouve les trois numéros. Relie chaque numéro à un produit puis explique à un camarade ce que le producteur vend."
+          ],
+          "notes": [
+            "Régions exemples vérifiées dans les publications MINADER et FODECC. La carte ne délimite pas les surfaces cultivées."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Agriculture et principaux produits commercialisés » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Agriculture et principaux produits commercialisés » et donne un exemple adapté au thème « Les métiers ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les productions agricoles varient selon les régions et les conditions du milieu ; les cartes et exemples doivent être validés. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les métiers » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Trois produits à situer",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Point",
+                  "Région exemple",
+                  "Produit et suite"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Nord",
+                    "Coton. Les fibres peuvent servir à fabriquer du fil et du tissu."
+                  ],
+                  [
+                    "2",
+                    "Ouest",
+                    "Café arabica. Les grains sont préparés avant la vente ou la torréfaction."
+                  ],
+                  [
+                    "3",
+                    "Centre",
+                    "Cacao. Les fèves préparées peuvent servir à fabriquer du chocolat."
+                  ]
+                ]
+              },
+              "body": "Les cultures sont présentes dans plusieurs régions. Les points montrent des exemples, avec le nord en haut de la carte."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie économique, U4, p.139.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-produits-agricoles.svg",
+            "alt": "Carte du Cameroun. Point 1, Nord, coton. Point 2, Ouest, café arabica. Point 3, Centre, cacao."
           }
         }
       ],
@@ -2896,28 +3014,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Honnêteté",
-            "answer": "Être honnête, c’est dire la vérité et agir loyalement même lorsqu’une erreur est difficile à reconnaître."
+            "prompt": "Un groupe reçoit six pinceaux alors que le registre en prévoit cinq. Propose une phrase honnête et une aide qui ne demande pas de récompense.",
+            "answer": "« Nous avons reçu un pinceau en plus. Comptons-les ensemble. » L’élève peut ensuite proposer de rendre le pinceau ou de ranger les autres sans contrepartie."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Serviabilité",
-            "answer": "Rendre service signifie aider de façon respectueuse sans exiger une récompense."
+            "prompt": "Pendant une visite d’atelier, un objet tombe derrière la ligne de sécurité. Quel geste fais-tu ? Pourquoi le règlement indique-t-il cette ligne ?",
+            "answer": "Rester dans la zone autorisée et prévenir le responsable. La ligne garde les visiteurs à distance d’un espace à risque."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Protection de l’enfant contre violence, maltraitance et exploitation",
-            "answer": "Un enfant a droit à la protection. En cas de danger ou de comportement inquiétant, il doit chercher l’aide d’un adulte de confiance ou des services compétents."
+            "prompt": "Dans le vote fictif, Dany a 8 voix, Lina en a 6 et deux bulletins sont invalides. Donne le nombre déposé, le nombre valable et le résultat.",
+            "answer": "16 bulletins déposés, 14 voix valables. Dany est choisi car 8 est supérieur à 6 selon la règle annoncée."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Vivre ensemble dans les lieux de travail",
-            "answer": "Respect, coopération, politesse et règlement contribuent à un milieu de travail harmonieux."
+            "prompt": "Une famille s’installe durablement à Ngaoundéré. Une autre y passe une journée. Quel cas est une migration ? Sur la carte du cours, quel repère correspond à l’Adamaoua au XIXe siècle ?",
+            "answer": "La première famille change de lieu de vie. C’est une migration. La flèche B situe un exemple historique lié à l’Adamaoua."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Sécurité dans les lieux de travail",
-            "answer": "Je respecte les zones interdites, les équipements et les consignes ; je ne manipule pas d’outil professionnel sans autorisation."
+            "prompt": "Une coopérative du Centre envoie des fèves de cacao à un acheteur au Gabon. Nomme le produit et le type d’échange pour le Cameroun. Explique.",
+            "answer": "Le produit est le cacao. C’est une exportation. Les fèves sont vendues à un acheteur situé dans un autre pays."
           }
         ]
       },

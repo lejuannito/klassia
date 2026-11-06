@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "f3d0dcc9376c9ec935a2f3bc273c3d5d6272a7be40ea2754bce56d7584efcb0e",
+  "version": "327dea93aa6c03a8ea67d03cf3d031e88ddd2808f2311a95fedb2c6aa97f8e4b",
   "files": [
     {
       "url": "./app.js",
@@ -14,6 +14,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "a63d4bb84eeeea6f0ae22dd4927508171c7e3dabda65399ef5b1c926c766c6c9"
     },
     {
+      "url": "./assets/ce2-estuaire-wouri.svg",
+      "sha256": "e6b934ca589d0ac32ff33540cc6199ef424e1123b5ff51accecd1d5f555e20fe"
+    },
+    {
       "url": "./assets/ce2-flexion-extension.svg",
       "sha256": "c5f252a13aff4b2b31c5eb79b78b1d11f27cd976ae857f8d30f70c16f02620bd"
     },
@@ -22,12 +26,24 @@ self.KLASSIA_RELEASE = {
       "sha256": "b2f4df066cfd46a563c5a1bab2bf45775652887fe68a0054d01abf99b637406a"
     },
     {
+      "url": "./assets/ce2-migrations-cameroun.svg",
+      "sha256": "13eeccb0557108268021ac8321aa3400259f58ecd5d50b66ac43cdcd929c2848"
+    },
+    {
       "url": "./assets/ce2-moteur-deux-temps.svg",
       "sha256": "6e89f4a73d73cf1e5488e2e46727cfa5c25ff684440e37940af30d5eede528d4"
     },
     {
       "url": "./assets/ce2-pile-jouet.svg",
       "sha256": "25202625b9b8d08cfc1addc4bbdc4905744fa3985beec92f18fd4584bf740665"
+    },
+    {
+      "url": "./assets/ce2-planetes.svg",
+      "sha256": "0025d44a1cf9df704781dbd7933d6d03641bd0b1d28d7cfd2fc498419b04f8ea"
+    },
+    {
+      "url": "./assets/ce2-produits-agricoles.svg",
+      "sha256": "a4c889b5773b0e0ca6d8183e27209840171d225643d10dd5c50d40d9d1dbfcf5"
     },
     {
       "url": "./assets/ce2-reseaux-internet.svg",
@@ -115,27 +131,27 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/content-u4.json",
-      "sha256": "c790601b2e3714277f875672917d0e31a0d67ad5f8e59c5a954ec459431c969a"
+      "sha256": "4d2ad0c33b82fff982a7d3d4d556d7a7910878c4efd22c65f3a31c64366523cf"
     },
     {
       "url": "./data/content-u5.json",
-      "sha256": "3cfc104b13a15ea8650dbbbe09d2f8d7a6d2a75c1af9626f5ce8f629935325ac"
+      "sha256": "c32a3e1ca58f75e4370f1a48abeb4aa01a31de8ff352ab89b29ba0dd35951f11"
     },
     {
       "url": "./data/content-u6.json",
-      "sha256": "a51b51781645fc12763168d267f2cca176252bfd6e294c5e2d5009cd7ee4193f"
+      "sha256": "19450056170d9a7aa2433dec61792493c2671fe00f08e84aadd281e07cddbb25"
     },
     {
       "url": "./data/content-u7.json",
-      "sha256": "11c079d4cc80b46562d2f88fb38d8524c9a5fa3ccf6946e2334b546c37408a02"
+      "sha256": "fdd49342c6deb8e7d6b95ff743227b1b819e1038738fca1b8a2a5da1bb473d30"
     },
     {
       "url": "./data/content-u8.json",
-      "sha256": "d458c646587f3d1349b000799221139a2f6eca0cbc0a89c28bf7f043118e3d50"
+      "sha256": "e4c8f3dbcd02cb02cb10dc9ce1d6aaf7c55d5ebee13843cf72d3ab54c78ded85"
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "fde2c400a5b3814a5cc04664c3c7fca4be105e5d8f36cd9f80020a93ce2d637d"
+      "sha256": "ecfccc2a0d78b6d1ebd60b32e56483c426b668c62a4632439495ac07731d84eb"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -151,23 +167,23 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/qcm-u4.json",
-      "sha256": "c44288a4981e335daebf5268b9c65f7ab244c2ef199fe842e3c63a4c950be25b"
+      "sha256": "fafd1cd57e9d8f256fbacefcc1d83f5f64eb31a3d0f84fbb17e9e0d5ad6e4537"
     },
     {
       "url": "./data/qcm-u5.json",
-      "sha256": "ecaf934b1044617162bff745f52f245f10ea7a2f7ce60c2288459290f7e93ab8"
+      "sha256": "d3343c45029d5146b923ad3c9dcd9f0e581a384e14efac17035ddaa8b69c3296"
     },
     {
       "url": "./data/qcm-u6.json",
-      "sha256": "cacbcf8ec4a9c443c079a5b0d3b5fe8a2760e514ab6e96e029be8de776c7d6ac"
+      "sha256": "21b50f707d8bf9af880a2b2e90b6b20f63094e2e72aa8f6dcc4fc9bb4db8f229"
     },
     {
       "url": "./data/qcm-u7.json",
-      "sha256": "54533939dd3a0232916e49f26edfa8c7a4198396f65c19ea6e81650b48ef0132"
+      "sha256": "6b5d50ff7c1fa00010254f63969f64ebbfb36f6d2fc87369339717246bd06c76"
     },
     {
       "url": "./data/qcm-u8.json",
-      "sha256": "0d6a4869ef6b3d6bc9b540f645bfba4dfd58a05972791d1999a7a732fbf09894"
+      "sha256": "cc83570a72ed5147320bbf80fbea2062368070bb99417fe319447e033a6ea82b"
     },
     {
       "url": "./gs/data/catalog-v13.json",

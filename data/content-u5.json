@@ -1841,57 +1841,69 @@
             "Expliquer la notion d’opinion.",
             "Analyser l’opinion d’autrui."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Respecter l’opinion d’autrui ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le groupe prépare une visite. Lina préfère le musée et Ali préfère la forêt. Un plan indique que le musée se trouve à deux kilomètres. Quelles phrases expriment un avis ?",
           "learn": [
-            "Une opinion est un point de vue ; je peux ne pas être d’accord tout en respectant la personne."
+            "Une opinion est ce que quelqu’un pense ou préfère. Un fait peut être vérifié avec une observation ou un document fiable.",
+            "Respecter l’opinion d’autrui, c’est l’écouter, demander ses raisons et répondre sans moquerie. On peut rester en désaccord et décider ensemble."
           ],
-          "takeaway": "Une opinion est un point de vue ; je peux ne pas être d’accord tout en respectant la personne.",
+          "takeaway": "Je distingue un avis d’un fait vérifiable et je reformule l’avis avant de répondre.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Respecter l’opinion d’autrui » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Une opinion est un point de vue ; je peux ne pas être d’accord tout en respectant la personne. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Dans « Je préfère le musée car j’aime les objets anciens », trouve l’opinion puis sa raison.",
+              "answer": "Opinion « Je préfère le musée ». Raison « J’aime les objets anciens ».",
+              "explanation": "Une raison explique le choix de la personne.",
               "id": "SH-U5-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Respecter l’opinion d’autrui ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Une opinion est un point de vue ; je peux ne pas être d’accord tout en respectant la personne.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Une camarade préfère le trajet en car et tu préfères le train. Donne une réponse qui montre que tu l’as écoutée.",
+              "answer": "« Tu préfères le car. Peux-tu expliquer pourquoi ? Moi, je préfère le train parce que je peux observer le paysage. »",
+              "explanation": "La réponse reconnaît les deux avis et ouvre la discussion.",
               "id": "SH-U5-L1-E2"
             }
           ],
           "source": "Curriculum CE2, éducation morale, U5, p.123.",
-          "practical": [],
+          "practical": [
+            "Choisissez deux lieux fictifs à visiter. Chacun donne une préférence et une raison. Reformulez l’avis d’un camarade avant de proposer une décision."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Respecter l’opinion d’autrui » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Respecter l’opinion d’autrui » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Une opinion est un point de vue ; je peux ne pas être d’accord tout en respectant la personne. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Lire trois phrases du groupe",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Phrase",
+                  "Type",
+                  "Indice"
+                ],
+                "rows": [
+                  [
+                    "Je préfère marcher en forêt.",
+                    "Opinion",
+                    "La personne dit sa préférence."
+                  ],
+                  [
+                    "Le musée se trouve à deux kilomètres sur le plan.",
+                    "Fait vérifiable",
+                    "On peut contrôler la distance."
+                  ],
+                  [
+                    "Pour moi, le musée est plus intéressant.",
+                    "Opinion",
+                    "La personne donne son avis."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, éducation morale, U5, p.123.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1900,57 +1912,69 @@
           "objectives": [
             "Mettre en scène le vivre-ensemble pendant les voyages."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Vivre ensemble pendant les voyages ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans la file du car, une voyageuse cherche son groupe et deux personnes veulent poser leur sac au même endroit. Que peut dire un élève pour aider ?",
           "learn": [
-            "Je respecte les autres voyageurs, les files, les règles et les espaces communs."
+            "Les voyageurs partagent une file, des sièges et des espaces de rangement. Des phrases claires et polies aident à respecter les besoins des autres.",
+            "On peut proposer une place, attendre son tour et s’adresser à l’adulte qui accompagne le groupe si un conflit dure."
           ],
-          "takeaway": "Je respecte les autres voyageurs, les files, les règles et les espaces communs.",
+          "takeaway": "Je partage l’espace, je propose une aide et je cherche un accord calme.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Vivre ensemble pendant les voyages » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les autres voyageurs, les files, les règles et les espaces communs. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Deux voyageurs veulent poser leurs sacs dans le même espace. Propose un accord.",
+              "answer": "« Mettons les sacs à côté l’un de l’autre à l’emplacement prévu. Demandons où les mettre s’il manque de la place. »",
+              "explanation": "Un accord tient compte des deux voyageurs et du passage.",
               "id": "SH-U5-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Vivre ensemble pendant les voyages ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte les autres voyageurs, les files, les règles et les espaces communs.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Que peux-tu dire à une personne qui cherche sa place dans la file ?",
+              "answer": "« La file commence ici. Tu peux attendre derrière moi. »",
+              "explanation": "La réponse renseigne et évite de doubler les autres.",
               "id": "SH-U5-L2-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U5, p.128.",
-          "practical": [],
+          "practical": [
+            "Jouez l’installation dans un car avec quatre chaises. Prévoyez un emplacement pour les sacs et une phrase d’accueil pour une personne qui cherche sa place."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Vivre ensemble pendant les voyages » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Vivre ensemble pendant les voyages » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les autres voyageurs, les files, les règles et les espaces communs. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Trois moments du voyage",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Moment",
+                  "Situation",
+                  "Phrase ou geste"
+                ],
+                "rows": [
+                  [
+                    "Attendre",
+                    "Deux groupes arrivent à la porte.",
+                    "« Nous sommes derrière vous. »"
+                  ],
+                  [
+                    "S’installer",
+                    "Un sac occupe un siège dont une personne a besoin.",
+                    "« Je range mon sac pour libérer la place. »"
+                  ],
+                  [
+                    "Faire halte",
+                    "Un emballage reste près du groupe.",
+                    "Le placer au point de collecte ou le garder jusqu’au retour."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, paix et sécurité, U5, p.128.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -1959,57 +1983,70 @@
           "objectives": [
             "Mettre en scène les mesures de sécurité pendant les voyages."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Sécurité pendant les voyages ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le car freine. Les voyageurs sont assis. Au débarcadère, un adulte vérifie les gilets. Quel risque cherche-t-on à réduire dans chaque cas ?",
           "learn": [
-            "Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent."
+            "Les consignes varient selon le moyen de transport. Dans un véhicule équipé de ceintures, on les attache et on reste assis pendant le trajet.",
+            "Pour un trajet sur l’eau, l’adulte vérifie que chacun porte un gilet de sauvetage adapté et suit les indications de l’équipage.",
+            "Si tu es séparé du groupe, reste dans un endroit sûr et signale-le à un agent du lieu ou à un adulte de confiance."
           ],
-          "takeaway": "Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent.",
+          "takeaway": "Je lis la consigne du trajet, j’applique le geste prévu et je reste avec le groupe.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Sécurité pendant les voyages » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quand mets-tu le gilet pour traverser sur l’eau ? Qui vérifie qu’il est ajusté ?",
+              "answer": "Avant le départ, selon la consigne d’embarquement. L’adulte vérifie l’ajustement.",
+              "explanation": "Le geste se prépare avant la traversée.",
               "id": "SH-U5-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Sécurité pendant les voyages ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Le car est en mouvement. Ton cahier a glissé dans l’allée. Quelle décision est sûre ?",
+              "answer": "Je reste assis avec la ceinture attachée et j’attends un arrêt sûr ou l’aide de l’adulte.",
+              "explanation": "On conserve une position sûre pendant le trajet.",
               "id": "SH-U5-L3-E2"
             }
           ],
           "source": "Curriculum CE2, paix et sécurité, U5, p.128.",
-          "practical": [],
+          "practical": [
+            "Simulez un départ avec des chaises. L’adulte montre une carte Car ou Bateau. Choisissez le geste avant le départ et expliquez son rôle."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Sécurité pendant les voyages » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Sécurité pendant les voyages » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "La carte de sécurité du groupe",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Lieu",
+                  "Geste",
+                  "Raison"
+                ],
+                "rows": [
+                  [
+                    "Dans le car équipé",
+                    "Attacher la ceinture et rester assis.",
+                    "Limiter les risques lors d’un freinage."
+                  ],
+                  [
+                    "Sur le bateau",
+                    "Porter le gilet ajusté par l’adulte.",
+                    "Aider à flotter en cas de chute dans l’eau."
+                  ],
+                  [
+                    "Au débarcadère",
+                    "Attendre l’autorisation de monter.",
+                    "Embarquer avec le groupe et l’équipage."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, paix et sécurité, U5, p.128.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2018,59 +2055,65 @@
           "objectives": [
             "Énumérer les principales institutions internationales en charge de l’éducation des enfants."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Institutions internationales pour l’éducation des enfants ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une école cherche de l’aide pour accueillir des enfants déplacés. Un ministère veut aussi former davantage d’enseignants. Quels organismes peuvent coopérer ?",
           "learn": [
-            "Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication."
+            "L’UNICEF est le Fonds des Nations Unies pour l’enfance. Il travaille avec des partenaires pour les droits des enfants, notamment pour leur accès à l’école et aux apprentissages.",
+            "L’UNESCO est une organisation des Nations Unies pour l’éducation, la science et la culture. Elle aide notamment les pays à préparer leurs politiques éducatives et à partager des méthodes.",
+            "Ces organismes peuvent coopérer avec les pays et les écoles. Le tableau illustre deux types d’appui."
           ],
-          "takeaway": "Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication.",
+          "takeaway": "Je nomme l’UNICEF et l’UNESCO et je donne un exemple du rôle éducatif de chacune.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Institutions internationales pour l’éducation des enfants » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel organisme est le Fonds des Nations Unies pour l’enfance ? Donne un exemple éducatif.",
+              "answer": "L’UNICEF. Il peut aider des enfants déplacés à reprendre leurs apprentissages.",
+              "explanation": "Lis le sigle et la situation de la première fiche.",
               "id": "SH-U5-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Institutions internationales pour l’éducation des enfants ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel organisme choisirais-tu pour la carte « politiques éducatives et formation des enseignants » ? Explique.",
+              "answer": "L’UNESCO, qui accompagne les pays sur leurs politiques et peut les aider sur la formation.",
+              "explanation": "Décris le rôle illustré par la carte. Plusieurs organismes peuvent travailler ensemble.",
               "id": "SH-U5-L4-E2"
             }
           ],
           "source": "Curriculum CE2, citoyenneté, U5, p.130.",
-          "practical": [],
+          "practical": [
+            "Associez chaque fiche à sa mission. Présentez ensuite l’un des organismes en deux phrases, avec son sigle et un exemple d’appui."
+          ],
           "notes": [
-            "Vérifier les exemples institutionnels sur des sources officielles avant publication."
+            "Missions vérifiées sur les pages Éducation de l’UNICEF et de l’UNESCO."
           ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Institutions internationales pour l’éducation des enfants » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Institutions internationales pour l’éducation des enfants » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Deux fiches d’organismes",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Sigle",
+                  "Exemple d’appui éducatif"
+                ],
+                "rows": [
+                  [
+                    "UNICEF",
+                    "Aider les partenaires à faire reprendre les apprentissages à des enfants déplacés."
+                  ],
+                  [
+                    "UNESCO",
+                    "Aider un pays à préparer un plan de formation des enseignants."
+                  ]
+                ]
+              },
+              "body": "Les projets du tableau sont des exemples de rôles, sans promesse d’une intervention dans une école précise."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, citoyenneté, U5, p.130.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2079,57 +2122,69 @@
           "objectives": [
             "Mettre en scène l’application des règles pendant les voyages."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Règles à respecter pendant les voyages ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le billet de la sortie indique un lieu de rendez-vous et une heure. Le groupe doit aussi suivre des consignes pendant la halte. Comment se préparer ?",
           "learn": [
-            "Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation."
+            "Un règlement de voyage aide le groupe à partir à l’heure, à garder ses affaires et à revenir ensemble au point fixé.",
+            "Avant le départ, je relève les lieux, les heures et les actions attendues. Si je ne comprends pas une consigne, je la fais préciser par l’adulte qui accompagne."
           ],
-          "takeaway": "Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation.",
+          "takeaway": "Je lis les indications, je prépare mes affaires et je rejoins le point de rendez-vous au moment fixé.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Règles à respecter pendant les voyages » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "À 12 h 25, la halte se termine. Où vas-tu, et pour quelle heure ?",
+              "answer": "Je rejoins le panneau bleu avec mes affaires pour 12 h 30.",
+              "explanation": "Repère le dernier appel dans la fiche.",
               "id": "SH-U5-L5-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Règles à respecter pendant les voyages ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Ton billet indique une place, mais tu ne trouves pas le numéro. Comment appliques-tu la règle du groupe ?",
+              "answer": "Je reste avec le groupe et je demande à l’adulte de m’aider à trouver la place.",
+              "explanation": "Demander une précision permet de suivre la consigne.",
               "id": "SH-U5-L5-E2"
             }
           ],
           "source": "Curriculum CE2, règles et règlements, U5, p.132.",
-          "practical": [],
+          "practical": [
+            "Jouez le déroulement avec les trois cartes de la fiche dans le désordre. Remettez-les en ordre et dites ce que fait un élève à chaque étape."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Règles à respecter pendant les voyages » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Règles à respecter pendant les voyages » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Fiche de la sortie fictive",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Quand",
+                  "Où",
+                  "Règle"
+                ],
+                "rows": [
+                  [
+                    "7 h 45",
+                    "Portail de l’école",
+                    "Se présenter à l’adulte qui fait l’appel."
+                  ],
+                  [
+                    "Pendant la halte",
+                    "Aire balisée",
+                    "Rester avec le groupe."
+                  ],
+                  [
+                    "12 h 30",
+                    "Panneau bleu",
+                    "Revenir avec ses affaires pour le nouvel appel."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, règles et règlements, U5, p.132.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2139,57 +2194,72 @@
             "Situer sur une carte les lieux d’entrée des premiers Européens.",
             "Identifier leur nationalité."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Premiers Européens au Cameroun ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur une carte du Cameroun, le fleuve Wouri s’élargit près de l’océan. Des navigateurs venus d’Europe y ont abordé il y a plusieurs siècles. D’où venaient-ils ?",
           "learn": [
-            "Cette leçon d’histoire doit s’appuyer sur une carte et des sources historiques validées, sans simplifier excessivement les contacts entre populations."
+            "À la fin du XVe siècle, des navigateurs portugais atteignent la côte du territoire qui est aujourd’hui le Cameroun. Un repère est l’estuaire du Wouri, où le fleuve rejoint les eaux du golfe de Guinée.",
+            "Des populations vivaient et échangeaient déjà dans cette région. Les récits européens emploient Rio dos Camarões, « rivière des crevettes », un nom à l’origine de Cameroun.",
+            "La carte représente les repères d’aujourd’hui pour nous aider à situer un épisode ancien."
           ],
-          "takeaway": "Cette leçon d’histoire doit s’appuyer sur une carte et des sources historiques validées, sans simplifier excessivement les contacts entre populations.",
+          "takeaway": "Je situe l’estuaire du Wouri sur la côte et je nomme les navigateurs portugais.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Premiers Européens au Cameroun » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Cette leçon d’histoire doit s’appuyer sur une carte et des sources historiques validées, sans simplifier excessivement les contacts entre populations. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel repère montres-tu pour situer la rencontre sur la côte ? Quel cours d’eau y arrive ?",
+              "answer": "Le point 1, l’estuaire du Wouri. Le fleuve Wouri y rejoint les eaux du golfe de Guinée.",
+              "explanation": "Lis la légende et repère le point près de la côte.",
               "id": "SH-U5-L6-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Premiers Européens au Cameroun ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Cette leçon d’histoire doit s’appuyer sur une carte et des sources historiques validées, sans simplifier excessivement les contacts entre populations.",
-              "explanation": "",
               "type": "open",
+              "prompt": "De quel pays venaient les navigateurs cités ? Que rappelle le nom Rio dos Camarões ?",
+              "answer": "Ils venaient du Portugal. Le nom signifie « rivière des crevettes » et rappelle l’origine du nom Cameroun.",
+              "explanation": "Associe la langue du nom à celle des navigateurs dans le récit.",
               "id": "SH-U5-L6-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U5, p.135.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Montre sur la carte la côte, le repère du Wouri et le nord. Raconte ensuite l’arrivée en une phrase qui indique le lieu et l’époque."
+          ],
+          "notes": [
+            "Repère de 1472 dans les notices du MINREX et de la Haute Commission du Cameroun au Canada. La carte situe un secteur, avec un contour simplifié."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Premiers Européens au Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Premiers Européens au Cameroun » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Cette leçon d’histoire doit s’appuyer sur une carte et des sources historiques validées, sans simplifier excessivement les contacts entre populations. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Repères de temps et de lieu",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Indice",
+                  "À retrouver"
+                ],
+                "rows": [
+                  [
+                    "Quand ?",
+                    "Fin du XVe siècle. Le récit du MINREX donne le repère de 1472."
+                  ],
+                  [
+                    "Où ?",
+                    "À l’ouest, sur la côte du golfe de Guinée, près de l’estuaire du Wouri."
+                  ],
+                  [
+                    "Qui ?",
+                    "Des navigateurs portugais."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, histoire, U5, p.135.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-estuaire-wouri.svg",
+            "alt": "Carte actuelle du Cameroun. Le point 1 indique l’estuaire du Wouri près de Douala, sur la côte du golfe de Guinée."
           }
         },
         {
@@ -2199,57 +2269,66 @@
             "Déterminer les objectifs de l’exploration.",
             "Analyser l’œuvre des explorateurs européens au Cameroun."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Exploration du Cameroun par les Européens ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux récits de voyage décrivent des routes, des marchés et des autorités locales. Pourquoi des expéditions européennes voulaient-elles obtenir ces renseignements ?",
           "learn": [
-            "L’analyse historique distingue les objectifs, les itinéraires, les effets et le contexte de l’époque à partir de sources fiables."
+            "Au XIXe siècle, des Européens parcourent des régions intérieures et rédigent des récits ou des cartes. Des habitants, des guides et des interprètes les renseignent sur les lieux qu’ils connaissent.",
+            "Les motivations diffèrent selon les voyages. On cherche à mieux connaître les routes et les marchés, à établir des relations, et parfois à préparer des intérêts commerciaux ou coloniaux."
           ],
-          "takeaway": "L’analyse historique distingue les objectifs, les itinéraires, les effets et le contexte de l’époque à partir de sources fiables.",
+          "takeaway": "Je relie une expédition à son objectif et j’explique le rôle des connaissances locales.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Exploration du Cameroun par les Européens » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’analyse historique distingue les objectifs, les itinéraires, les effets et le contexte de l’époque à partir de sources fiables. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel dossier montre une alliance à Bali-Nyonga ? Quel intérêt l’administration allemande y cherchait-elle ?",
+              "answer": "Le dossier de Zintgraff et de Galega Ier. L’administration cherchait à étendre son influence dans la région.",
+              "explanation": "Repère l’action « négocie une alliance » puis relis la troisième colonne.",
               "id": "SH-U5-L7-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Exploration du Cameroun par les Européens ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’analyse historique distingue les objectifs, les itinéraires, les effets et le contexte de l’époque à partir de sources fiables.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un récit décrit des marchés et des routes. Propose un objectif du voyage et une raison de consulter des habitants.",
+              "answer": "Le voyageur peut chercher à connaître les échanges commerciaux. Les habitants connaissent les routes, les langues et le fonctionnement des marchés.",
+              "explanation": "Explique comment les renseignements ont été recueillis.",
               "id": "SH-U5-L7-E2"
             }
           ],
           "source": "Curriculum CE2, histoire, U5, p.135.",
-          "practical": [],
-          "notes": [],
+          "practical": [
+            "Préparez deux cartes avec les noms des voyageurs. Associez à chacune un lieu, une période et un objectif. Expliquez qui pouvait les guider ou les renseigner."
+          ],
+          "notes": [
+            "Voyage de Barth documenté par ses récits et leur étude. Alliance à Bali-Nyonga documentée dans les travaux historiques sur les Grassfields."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Exploration du Cameroun par les Européens » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Exploration du Cameroun par les Européens » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’analyse historique distingue les objectifs, les itinéraires, les effets et le contexte de l’époque à partir de sources fiables. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Deux dossiers historiques résumés",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Personne et période",
+                  "Zone et action",
+                  "Ce que le dossier permet d’expliquer"
+                ],
+                "rows": [
+                  [
+                    "Heinrich Barth, années 1850",
+                    "Le voyageur allemand participe à une expédition britannique. Il visite la région de la Bénoué et se rend à Yola, dans l’actuel Nigeria.",
+                    "Observer les routes, les marchés et les pouvoirs de la région."
+                  ],
+                  [
+                    "Eugen Zintgraff, fin du XIXe siècle",
+                    "L’explorateur allemand se rend à Bali-Nyonga dans l’actuel Cameroun. Il négocie une alliance avec le chef Galega Ier.",
+                    "Un voyage peut aussi aider une administration coloniale à étendre son influence."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, histoire, U5, p.135.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2259,57 +2338,68 @@
             "Énumérer les principaux éléments qui déterminent un climat.",
             "Déterminer les principales saisons du Cameroun."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Climat et saisons du Cameroun ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux villes camerounaises reçoivent des quantités de pluie différentes au même mois. Que montre une moyenne calculée sur trente ans ?",
           "learn": [
-            "Le climat se décrit sur une longue durée à partir de facteurs et d’observations comme températures et précipitations ; les saisons varient selon les régions."
+            "La météo décrit le temps à un moment donné. Le climat décrit des habitudes du temps observées sur une longue durée, avec la température, les pluies et les vents.",
+            "Au Cameroun, on parle souvent de saison pluvieuse et de saison sèche. Les périodes et leur durée varient selon le lieu. Le nord connaît généralement une longue période sèche et une saison des pluies.",
+            "Dans des parties du Centre, du Sud et de l’Est, on observe deux périodes plus pluvieuses séparées par des périodes plus sèches. On regarde plusieurs mois pour décrire ce rythme."
           ],
-          "takeaway": "Le climat se décrit sur une longue durée à partir de facteurs et d’observations comme températures et précipitations ; les saisons varient selon les régions.",
+          "takeaway": "Je compare les pluies de plusieurs mois et je décris un rythme propre à chaque lieu.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Climat et saisons du Cameroun » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le climat se décrit sur une longue durée à partir de facteurs et d’observations comme températures et précipitations ; les saisons varient selon les régions. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quelle ville a la moyenne de pluie de mars la plus élevée ? Cite les deux valeurs.",
+              "answer": "Yaoundé avec 119 mm, contre 2 mm à Garoua.",
+              "explanation": "Compare les deux lignes dans la même colonne.",
               "id": "SH-U5-L8-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Climat et saisons du Cameroun ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le climat se décrit sur une longue durée à partir de facteurs et d’observations comme températures et précipitations ; les saisons varient selon les régions.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un ami dit « Tout le Cameroun reçoit les mêmes pluies en mars ». Quel indice du tableau permet de corriger son idée ?",
+              "answer": "En mars, la moyenne est de 2 mm à Garoua et de 119 mm à Yaoundé. Les pluies moyennes varient selon le lieu.",
+              "explanation": "Les villes sont dans le même pays, mais leurs relevés diffèrent.",
               "id": "SH-U5-L8-E2"
             }
           ],
-          "source": "Curriculum CE2, géographie physique, U5, p.138.",
-          "practical": [],
-          "notes": [],
+          "source": "Curriculum CE2, géographie physique, U5, p.139.",
+          "practical": [
+            "Avec une règle, trace une barre de 2 mm et une de 119 mm pour représenter les pluies de mars. Compare ensuite janvier et mars pour chaque ville. Explique pourquoi une observation d’un seul jour ne suffit pas."
+          ],
+          "notes": [
+            "Relevés climatologiques OMM pour Garoua et Yaoundé, période 1981–2010. Régimes régionaux comparés dans le profil climatique du Cameroun de la Banque mondiale."
+          ],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Climat et saisons du Cameroun » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Climat et saisons du Cameroun » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Le climat se décrit sur une longue durée à partir de facteurs et d’observations comme températures et précipitations ; les saisons varient selon les régions. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Pluie mensuelle moyenne, en millimètres",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Ville",
+                  "Janvier",
+                  "Mars"
+                ],
+                "rows": [
+                  [
+                    "Garoua, région du Nord",
+                    "0",
+                    "2"
+                  ],
+                  [
+                    "Yaoundé, région du Centre",
+                    "15",
+                    "119"
+                  ]
+                ]
+              },
+              "body": "Valeurs arrondies au millimètre, d’après les normales de 1981 à 2010 publiées par l’Organisation météorologique mondiale. Les deux mois servent à comparer les villes. Un calendrier annuel demande les autres mois."
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
-            "source": "Curriculum CE2, géographie physique, U5, p.138.",
-            "reviewer": null
+            "source": "Curriculum CE2, géographie physique, U5, p.139.",
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2318,57 +2408,69 @@
           "objectives": [
             "Donner l’importance des transports aériens, maritimes et terrestres dans l’économie du Cameroun."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Importance économique des transports ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une coopérative veut livrer des légumes au marché voisin. Un exportateur charge de nombreux sacs. Un colis urgent doit aller loin. Choisiront-ils le même transport ?",
           "learn": [
-            "Les transports déplacent personnes et marchandises et relient les lieux de production, de consommation et de services."
+            "Les transports relient producteurs, marchés et voyageurs. Par voie terrestre, les véhicules utilisent les routes ou les rails. Les bateaux utilisent les voies d’eau ou la mer, et les avions relient les aéroports.",
+            "On choisit selon le trajet, la quantité, le délai, le prix et les accès. Une livraison peut combiner plusieurs moyens, par exemple un camion jusqu’au port puis un bateau."
           ],
-          "takeaway": "Les transports déplacent personnes et marchandises et relient les lieux de production, de consommation et de services.",
+          "takeaway": "Je choisis un transport selon la distance, l’urgence, la quantité et les accès.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Importance économique des transports » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les transports déplacent personnes et marchandises et relient les lieux de production, de consommation et de services. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel moyen le tableau propose-t-il pour de nombreux sacs vers un port étranger ? Quel trajet vient avant ?",
+              "answer": "Un navire. Un transport terrestre amène d’abord les sacs au port.",
+              "explanation": "Le trajet peut avoir deux étapes qui se complètent.",
               "id": "SH-U5-L9-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Importance économique des transports ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les transports déplacent personnes et marchandises et relient les lieux de production, de consommation et de services.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Un petit colis doit arriver rapidement dans une ville éloignée. Quels deux indices soutiennent l’avion dans l’exemple ?",
+              "answer": "Le délai est court et les deux villes ont accès à un aéroport.",
+              "explanation": "Explique le choix avec les conditions de l’exemple.",
               "id": "SH-U5-L9-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U5, p.140.",
-          "practical": [],
+          "practical": [
+            "Dessinez le trajet d’un sac, du champ jusqu’à un port. Attribuez une carte à chaque moyen de transport et nommez le changement de moyen."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Importance économique des transports » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Importance économique des transports » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : Les transports déplacent personnes et marchandises et relient les lieux de production, de consommation et de services. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Trois besoins à comparer",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Besoin fictif",
+                  "Moyen proposé",
+                  "Indice décisif"
+                ],
+                "rows": [
+                  [
+                    "Livrer des cageots à un marché proche par la route.",
+                    "Camionnette",
+                    "Route directe jusqu’au marché."
+                  ],
+                  [
+                    "Expédier beaucoup de sacs vers un port étranger.",
+                    "Navire, avec un trajet par route jusqu’au port",
+                    "Grande quantité et liaison maritime."
+                  ],
+                  [
+                    "Livrer rapidement un petit colis loin, avec deux aéroports proches.",
+                    "Avion, avec des trajets par route aux deux bouts",
+                    "Délai court et accès aux aéroports."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie économique, U5, p.140.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         },
         {
@@ -2377,57 +2479,70 @@
           "objectives": [
             "Expliquer le rôle de l’énergie dans le circuit économique du Cameroun."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Rôle de l’énergie dans le circuit économique ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Au marché, une balance électronique, une chambre froide et un camion rendent trois services. De quelle énergie ont-ils besoin pour fonctionner ?",
           "learn": [
-            "L’énergie permet de produire, transformer, transporter, conserver ou fournir de nombreux biens et services."
+            "L’énergie permet d’accomplir des actions dans le circuit économique. Elle aide à produire, transformer, conserver ou déplacer des marchandises.",
+            "Les appareils peuvent utiliser de l’électricité. Des véhicules fonctionnent avec du carburant ou de l’électricité. Le soleil ou l’eau en mouvement peuvent servir à produire de l’électricité.",
+            "Si un équipement s’arrête, une partie du travail peut être retardée. Un responsable cherche une solution sûre pour reprendre."
           ],
-          "takeaway": "L’énergie permet de produire, transformer, transporter, conserver ou fournir de nombreux biens et services.",
+          "takeaway": "Je relie une source ou une forme d’énergie, un équipement et le service rendu.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Rôle de l’énergie dans le circuit économique » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’énergie permet de produire, transformer, transporter, conserver ou fournir de nombreux biens et services. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Quel service le moulin rend-il ? Quelle énergie utilise-t-il dans le tableau ?",
+              "answer": "Il moud le grain avec de l’électricité.",
+              "explanation": "Lis sur la même ligne l’équipement et le service.",
               "id": "SH-U5-L10-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Rôle de l’énergie dans le circuit économique ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’énergie permet de produire, transformer, transporter, conserver ou fournir de nombreux biens et services.",
-              "explanation": "",
               "type": "open",
+              "prompt": "Le camion ne peut plus partir. Quelle étape s’arrête et qui peut constater le retard ?",
+              "answer": "Le transport s’arrête. Les vendeurs ou les acheteurs du marché peuvent constater que la livraison tarde.",
+              "explanation": "Relie le fonctionnement du camion à l’arrivée des produits.",
               "id": "SH-U5-L10-E2"
             }
           ],
           "source": "Curriculum CE2, géographie économique, U5, p.140.",
-          "practical": [],
+          "practical": [
+            "Sur trois cartes, écris Transformer, Conserver et Transporter. Associe à chacune l’équipement du tableau puis montre ce qui serait retardé en cas de panne."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Partir d’une situation réelle",
-              "kind": "text",
-              "body": "La notion « Rôle de l’énergie dans le circuit économique » concerne la vie en société, l’histoire ou l’espace. Pour la comprendre, relie-la à une situation précise : une famille, une école, un quartier, une localité ou un événement. Distingue les faits, les règles, les droits et les opinions lorsqu’ils sont présents."
-            },
-            {
-              "title": "Étude de cas guidée",
-              "kind": "example",
-              "body": "Situation ou question : Explique avec tes mots l’idée essentielle de « Rôle de l’énergie dans le circuit économique » et donne un exemple adapté au thème « Les voyages ».\n\nRéponse possible : Réponse attendue : retrouver l’idée essentielle suivante : L’énergie permet de produire, transformer, transporter, conserver ou fournir de nombreux biens et services. L’exemple doit être cohérent avec la situation étudiée.\n\nUne bonne réponse ne se limite pas à un mot : elle explique la règle, la conséquence, la relation de cause à effet ou l’indice historique/géographique utile."
-            },
-            {
-              "title": "Je réfléchis et j’argumente",
-              "kind": "activity",
-              "body": "Imagine une courte situation liée à « Les voyages » et à la leçon. Pose-toi trois questions : Que se passe-t-il ? Quelle règle, valeur, information historique ou notion géographique est concernée ? Quelle réponse ou décision peut-on justifier ?"
-            },
-            {
-              "title": "Vocabulaire de la leçon",
-              "kind": "method",
-              "body": "Choisis trois mots importants de la leçon. Pour chacun, écris une définition courte avec tes mots et un exemple. Cette technique aide à comprendre des notions abstraites et à mieux les réutiliser dans une évaluation."
+              "title": "Le trajet d’un produit au marché",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Étape",
+                  "Équipement et énergie",
+                  "Service"
+                ],
+                "rows": [
+                  [
+                    "Transformer",
+                    "Moulin électrique",
+                    "Moudre le grain."
+                  ],
+                  [
+                    "Conserver",
+                    "Chambre froide alimentée en électricité",
+                    "Maintenir des produits au froid."
+                  ],
+                  [
+                    "Transporter",
+                    "Camion qui utilise du carburant",
+                    "Amener les marchandises au marché."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, géographie économique, U5, p.140.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "sh-specific-2026-11-06"
           }
         }
       ],
@@ -2437,28 +2552,28 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Respecter l’opinion d’autrui",
-            "answer": "Une opinion est un point de vue ; je peux ne pas être d’accord tout en respectant la personne."
+            "prompt": "« Je préfère le bateau » et « Le départ est à 9 h sur le billet ». Quelle phrase donne une opinion ? Quel document permet de vérifier l’autre ?",
+            "answer": "La préférence pour le bateau est une opinion. Le billet permet de vérifier l’heure de départ."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Vivre ensemble pendant les voyages",
-            "answer": "Je respecte les autres voyageurs, les files, les règles et les espaces communs."
+            "prompt": "Lors d’une sortie sur l’eau, donne un geste de sécurité et une règle qui aide le groupe à se retrouver après une halte.",
+            "answer": "Porter un gilet adapté et suivre les indications de l’équipage. Revenir à l’heure au point d’appel fixé avec l’accompagnateur."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Sécurité pendant les voyages",
-            "answer": "Je respecte les consignes du moyen de transport, reste avec les adultes responsables et adopte un comportement prudent."
+            "prompt": "Associe UNICEF et UNESCO aux deux exemples de la leçon, appui à la reprise des apprentissages d’enfants déplacés et appui à une politique éducative.",
+            "answer": "Exemple UNICEF pour la reprise des apprentissages. Exemple UNESCO pour l’appui à une politique éducative. Ces organismes peuvent coopérer."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Institutions internationales pour l’éducation des enfants",
-            "answer": "Le curriculum demande d’identifier des institutions internationales ; leurs noms et mandats contemporains doivent être vérifiés avant publication."
+            "prompt": "Quel repère de la carte situe les premiers contacts portugais présentés dans la leçon ? Plus tard, pourquoi un explorateur s’informe-t-il sur les marchés ?",
+            "answer": "L’estuaire du Wouri, sur la côte. Un explorateur peut chercher à comprendre les échanges et les routes commerciales."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Règles à respecter pendant les voyages",
-            "answer": "Les règles de voyage concernent sécurité, respect des personnes, bagages, horaires et consignes du transporteur selon la situation."
+            "prompt": "La pluie moyenne de mars est de 2 mm à Garoua et 119 mm à Yaoundé. Compare les deux valeurs. Quel équipement alimenté en énergie peut transporter des cageots jusqu’au marché ?",
+            "answer": "La pluie moyenne de mars est plus élevée à Yaoundé. Une camionnette utilisant du carburant ou de l’électricité peut transporter les cageots."
           }
         ]
       },

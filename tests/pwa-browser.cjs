@@ -126,6 +126,23 @@ async function run() {
     await page.getByRole('button', { name: 'Voir la correction' }).first().click();
     assert.match(await page.locator('#ans_TIU8L2_0').innerText(), /d’abord « Merci ! », puis « Bonjour ! »/);
     console.log('PASS offline CE2 U5 map, U6 measurement and U8 Scratch lesson');
+
+    await page.goto(base + '?unit=U4#lesson:SH-U4-L8');
+    await page.getByRole('heading', { name: 'Peuplement du Cameroun et mouvements migratoires' }).waitFor();
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.getByRole('cell', { name: 'Il y a plusieurs milliers d’années', exact: true }).waitFor();
+
+    await page.evaluate(() => { location.hash = '#eval:SH'; });
+    await page.getByRole('button', { name: 'Voir les éléments de correction' }).nth(2).click();
+    assert.match(await page.locator('#corr_SH_2').innerText(), /16 bulletins déposés, 14 voix valables/);
+
+    await page.goto(base + '?unit=U8#reviseSubject:SH');
+    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    const planetQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quelle planète vient juste après la Terre' });
+    await planetQuestion.getByLabel('Mars', { exact: true }).check();
+    await page.getByRole('button', { name: 'Corriger la série' }).click();
+    assert.match(await planetQuestion.locator('.feedback').innerText(), /Correct.*Terre est au rang 3/s);
+    console.log('PASS offline CE2 social studies map, assessment and quiz correction');
   } finally {
     await browser?.close();
     server.close();

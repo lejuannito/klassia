@@ -843,24 +843,25 @@
           "objectives": [
             "Utiliser un vocabulaire approprié pour dire le mode de prévention des maladies contagieuses."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Dire comment prévenir des maladies contagieuses ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Avant le repas, Salomé revient de la cour. Son camarade vient de tousser. Quels gestes peux-tu leur proposer et quels mots du panneau aident à les décrire ?",
           "learn": [
-            "Le parcours Klassia prépare la situation, les images, les intentions de communication et la progression pédagogique en français.",
-            "Les propositions documentaires disponibles sont consultables avec leur source et la mention « non validé ». Les phrases et audios non documentés restent à compléter; un référent peut arbitrer les formes proposées."
+            "Se laver les mains à l’eau et au savon avant de manger aide à éviter de transmettre des microbes. Pour tousser ou éternuer, on peut couvrir la bouche et le nez avec le pli du coude.",
+            "Dans le panneau Bassa, retrouve séparément « main », « eau » et « bouche ». Pour parler de la personne qui peut examiner un malade, choisis « médecin / travailleur clinique ».",
+            "Décris d’abord le geste en français, puis essaie le mot proposé pour la partie du corps ou la personne. Un adulte qui parle bassa peut t’aider à formuler le conseil complet."
           ],
-          "takeaway": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "takeaway": "Je décris un geste de prévention adapté à la situation et je retrouve dans le panneau un mot utile.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Dire comment prévenir des maladies contagieuses » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Que fait Salomé avant de manger ? Choisis les deux entrées utiles.",
+              "answer": "Elle se lave les mains à l’eau et au savon. Les deux entrées du panneau sont « main » et « eau ».",
+              "explanation": "Relie le geste au moment du repas et vérifie chaque sens séparément.",
               "type": "open",
               "id": "BA-U6-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Dire comment prévenir des maladies contagieuses ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
-              "explanation": "",
+              "prompt": "Décris un geste à faire quand on tousse et associe un mot du panneau.",
+              "answer": "On couvre la bouche et le nez avec le pli du coude. On peut choisir « bouche » et essayer une des formes affichées.",
+              "explanation": "Le mot choisi doit correspondre à la partie du corps que tu nommes.",
               "type": "open",
               "id": "BA-U6-L1-E2"
             },
@@ -873,81 +874,88 @@
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U6, pp.70-72.",
-          "practical": [],
+          "practical": [
+            "Joue une des scènes sans matériel. Dis quand faire le geste et nomme un élément utile. Entraîne-toi à retrouver le sens et une forme proposée dans le panneau Bassa."
+          ],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
           ],
           "manual_sections": [
             {
-              "title": "Parcours oral → lecture → écriture",
-              "kind": "method",
-              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
-            },
-            {
-              "title": "Travailler avec un locuteur compétent",
-              "kind": "activity",
-              "body": "À partir du thème « La santé », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Dire comment prévenir des maladies contagieuses ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
-            },
-            {
-              "title": "Comparer sans mélanger",
-              "kind": "warning",
-              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
-            },
-            {
-              "title": "Lexique documentaire disponible — propositions non validées",
-              "kind": "text",
-              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
-              "items": [
-                "médecin / travailleur clinique : dòktà / dokta / dokte — Sources : Cameroon Basaa course / ERIC OCR",
-                "eau / water : Màlép — Sources : Resulam/Bitjaa Kody 2020"
-              ]
+              "title": "Une situation et un geste",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Situation",
+                  "Geste à décrire",
+                  "Sens à chercher"
+                ],
+                "rows": [
+                  [
+                    "Avant le repas",
+                    "Laver les mains avec de l’eau et du savon.",
+                    "Main, eau"
+                  ],
+                  [
+                    "Je tousse",
+                    "Couvrir la bouche et le nez avec le pli du coude.",
+                    "Bouche"
+                  ],
+                  [
+                    "Je me sens malade",
+                    "Le dire à un adulte qui peut demander un avis.",
+                    "Médecin / travailleur clinique"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, langues et cultures nationales, U6, pp.70-72.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "bassa-specific-2026-11-06"
           }
         }
       ],
       "assessment": {
-        "title": "Évaluation - Langues et cultures nationales — parcours Bassa",
+        "title": "Bilan accompagné — bassa",
         "total": 20,
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Décris le lavage des mains avant le repas. Indique le moment, la partie du corps et les deux éléments utilisés.",
+            "answer": "Avant le repas, mains, eau, savon. Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Retrouve les sens « main » et « eau ». Essaie une forme pour chacun.",
+            "answer": "Un repère par sens et par forme affichée correspondante."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Dis quand couvrir la bouche et le nez, comment faire le geste et quel sens du panneau aide à le décrire.",
+            "answer": "Toux ou éternuement, couvrir, pli du coude, entrée « bouche ». Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "En cas de malaise, indique à qui en parler, une personne qui peut examiner, l’entrée du panneau et une forme affichée.",
+            "answer": "Un adulte, un médecin ou travailleur clinique, l’entrée correspondante et une proposition. Quatre repères."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Dire comment prévenir des maladies contagieuses",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Choisis une situation de la fiche. Joue le geste et donne le moment, le geste, un sens et une proposition associée.",
+            "answer": "Quatre repères en accord avec la scène. Toutes les formes proposées pour le sens choisi sont recevables."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre une seule carte et dire ce que montre la situation en français.",
+        "Vérifier le sens dans le panneau Bassa et comparer les variantes avec un adulte qui parle la langue.",
+        "Jouer à nouveau la scène en donnant un repère de plus."
       ],
-      "chapter_intro": "Dans l’unité « La santé », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Décris des gestes d’hygiène et utilise le lexique pour nommer les parties du corps et les personnes utiles."
     },
     {
       "id": "MA",

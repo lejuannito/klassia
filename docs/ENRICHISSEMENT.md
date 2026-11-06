@@ -31,4 +31,6 @@ Les 15 leçons d’arts CE2 U4–U8 proposent des compositions, des portées, de
 
 Les neuf leçons d’EPS CE2 U4–U8 relient les règles des sports collectifs à des ateliers de passe, de replacement et de communication en équipe. [Détail et sources](CE2_EPS.md)
 
+Les cinq leçons de bassa CE2 U4–U8 font pratiquer les sens déjà documentés dans des situations de métiers, de déplacement, d’hygiène, de jeu et de communication. [Détail et sources](CE2_BASSA.md)
+
 La progression globale et les limites de couverture restent suivies dans [la trajectoire](TRAJECTOIRE.md).

@@ -2611,52 +2611,70 @@
           "objectives": [
             "Réaliser des tableaux par collage d’images."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Tableau par collage d’images ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour préparer une affiche sur le lavage des mains, Lina a dessiné des mains, du savon et des gouttes. Où placerais-tu chaque image pour que le message se lise d’un coup d’œil ?",
           "learn": [
-            "Je choisis, découpe et organise les images avant de les coller proprement."
+            "Le collage associe des éléments découpés sur un fond pour former une nouvelle image. Le sujet principal a besoin d’une place où il se voit facilement.",
+            "Essaie plusieurs dispositions avant de coller. Tu peux superposer un bord pour rapprocher deux éléments et laisser un espace libre pour que le titre se lise.",
+            "Pour l’affiche du modèle, chaque image aide à comprendre le même geste."
           ],
-          "takeaway": "Je choisis, découpe et organise les images avant de les coller proprement.",
+          "takeaway": "Je dispose mes images avant de les coller et je vérifie que chacune aide à lire le message.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Tableau par collage d’images » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis, découpe et organise les images avant de les coller proprement. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Que déplacerais-tu si les gouttes recouvraient le savon ? Explique.",
+              "answer": "Je déplace les gouttes sur le côté pour que le savon et les mains restent visibles.",
+              "explanation": "Le déplacement doit rendre l’action centrale plus facile à comprendre.",
               "type": "open",
               "id": "AR-U6-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Tableau par collage d’images ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis, découpe et organise les images avant de les coller proprement.",
-              "explanation": "",
+              "prompt": "Propose un autre sujet d’affiche et deux images qui vont ensemble.",
+              "answer": "Par exemple, « ranger la classe », avec des cahiers et une étagère.",
+              "explanation": "Les deux images doivent aider à retrouver le même message.",
               "type": "open",
               "id": "AR-U6-L1-E2"
             }
           ],
           "source": "Curriculum CE2, arts visuels, U6, p.144.",
-          "practical": [],
+          "practical": [
+            "Dessine trois images sur des papiers. Avec les découpes préparées ou accompagnées par l’adulte, teste deux dispositions avant de coller. Demande à un camarade de dire le message en une phrase."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Tableau par collage d’images », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « La santé ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Plan d’un collage « Mains propres »",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Zone",
+                  "Image ou texte",
+                  "Rôle"
+                ],
+                "rows": [
+                  [
+                    "En haut",
+                    "Le titre « Mains propres »",
+                    "Annoncer le message"
+                  ],
+                  [
+                    "Au milieu",
+                    "Deux mains et un savon",
+                    "Montrer l’action principale"
+                  ],
+                  [
+                    "Sur le côté",
+                    "Quelques gouttes",
+                    "Évoquer l’eau sans cacher les mains"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, arts visuels, U6, p.144.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         },
         {
@@ -2665,52 +2683,79 @@
           "objectives": [
             "Lire une partition simple comportant des silences."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Lire une partition simple avec des silences ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Frappe sur les deux premières notes de la figure. Au troisième temps, le signe change. Que fais-tu de la voix et du comptage à ce moment-là ?",
           "learn": [
-            "Un silence est une durée musicale pendant laquelle on ne produit pas de son ; il fait partie du rythme."
+            "Un silence est un temps ou une durée sans son. Le soupir du modèle dure un temps, comme une noire, sans frapper ni chanter.",
+            "Dans la mesure en 4/4 du support, les trois noires et le soupir occupent ensemble les quatre temps.",
+            "Un élève peut montrer chaque temps avec la main pendant que son partenaire dit ou frappe seulement les notes."
           ],
-          "takeaway": "Un silence est une durée musicale pendant laquelle on ne produit pas de son ; il fait partie du rythme.",
+          "takeaway": "Au soupir, je garde un temps de silence et je continue à compter.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Lire une partition simple avec des silences » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Un silence est une durée musicale pendant laquelle on ne produit pas de son ; il fait partie du rythme. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "À quel temps lis-tu le soupir et quand reprends-tu le son ?",
+              "answer": "Le soupir est au temps 3. Le son reprend au temps 4.",
+              "explanation": "Le silence occupe un temps entier.",
               "type": "open",
               "id": "AR-U6-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire une partition simple avec des silences ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Un silence est une durée musicale pendant laquelle on ne produit pas de son ; il fait partie du rythme.",
-              "explanation": "",
+              "prompt": "Invente une mesure de quatre temps avec trois frappes et un silence au deuxième temps.",
+              "answer": "Par exemple : frappe, silence, frappe, frappe.",
+              "explanation": "Vérifie qu’il y a quatre temps et que le deuxième reste silencieux.",
               "type": "open",
               "id": "AR-U6-L2-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U6, p.146.",
-          "practical": [],
+          "practical": [
+            "En duo, l’un montre quatre temps réguliers avec les doigts. L’autre suit la partition et garde le troisième temps silencieux. Échangez les rôles."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Lire une partition simple avec des silences », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « La santé ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Partition et comptage",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Temps",
+                  "À lire",
+                  "À faire"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Sol",
+                    "Dire ou frapper"
+                  ],
+                  [
+                    "2",
+                    "La",
+                    "Dire ou frapper"
+                  ],
+                  [
+                    "3",
+                    "Soupir",
+                    "Compter sans produire de son"
+                  ],
+                  [
+                    "4",
+                    "Sol",
+                    "Dire ou frapper"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, musique, U6, p.146.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-arts-silences.svg",
+            "alt": "Sur une portée en 4/4, Sol au temps 1, La au temps 2, un soupir au temps 3 et Sol au temps 4."
           }
         },
         {
@@ -2719,52 +2764,75 @@
           "objectives": [
             "Exécuter une danse moderne."
           ],
-          "discover": "Dans le thème « La santé », observe une situation concrète liée à « Danse moderne et bien-être ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Au bout de deux tours, Mina accélère pour rattraper le groupe. Quel repère de la fiche peut l’aider à reprendre sans se presser ?",
           "learn": [
-            "Je danse de façon contrôlée, avec échauffement et respect de l’espace."
+            "On peut apprendre une danse à une allure où chaque geste reste facile à contrôler. Répéter une courte suite aide à retrouver ses repères.",
+            "Écoute le compte du groupe et reprends au prochain temps 1. Pour un geste plus confortable, réduis l’amplitude ou fais une version assise.",
+            "Entre deux passages, on peut faire une pause. Si un geste gêne ou fait mal, arrête-le et dis-le à l’adulte."
           ],
-          "takeaway": "Je danse de façon contrôlée, avec échauffement et respect de l’espace.",
+          "takeaway": "Je garde une allure confortable et je retrouve le début sans accélérer.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Danse moderne et bien-être » et donne un exemple adapté au thème « La santé ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je danse de façon contrôlée, avec échauffement et respect de l’espace. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Tu as perdu le fil au temps 3. Comment retrouver le groupe ?",
+              "answer": "J’observe les gestes et je reprends au prochain temps 1 avec le groupe.",
+              "explanation": "Attends le repère de début au lieu d’accélérer.",
               "type": "open",
               "id": "AR-U6-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Danse moderne et bien-être ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je danse de façon contrôlée, avec échauffement et respect de l’espace.",
-              "explanation": "",
+              "prompt": "Quel geste peux-tu faire moins grand en restant sur la pulsation ?",
+              "answer": "Par exemple, ouvrir les avant-bras moins loin au temps 3, puis les rapprocher au temps 4.",
+              "explanation": "Le geste doit rester contrôlé et arriver au bon temps.",
               "type": "open",
               "id": "AR-U6-L3-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U6, p.149.",
-          "practical": [],
+          "practical": [
+            "Choisis la version qui te convient. Répète la suite deux fois en laissant de l’espace. Fais une pause et nomme le geste qui marque le début."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Danse moderne et bien-être », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « La santé ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Danse douce sur place",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Temps",
+                  "Debout",
+                  "Assis"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Toucher un genou",
+                    "Toucher un genou"
+                  ],
+                  [
+                    "2",
+                    "Toucher l’autre genou",
+                    "Toucher l’autre genou"
+                  ],
+                  [
+                    "3",
+                    "Ouvrir les avant-bras",
+                    "Ouvrir les avant-bras"
+                  ],
+                  [
+                    "4",
+                    "Rapprocher les avant-bras",
+                    "Rapprocher les avant-bras"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, danse, U6, p.149.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         }
       ],
@@ -2774,37 +2842,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Tableau par collage d’images",
-            "answer": "Je choisis, découpe et organise les images avant de les coller proprement."
+            "prompt": "Dans l’affiche, nomme le titre, les deux images du milieu et un élément qui doit rester lisible.",
+            "answer": "Mains propres, les mains, le savon, le titre ou l’action principale. Un point par élément cohérent."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Lire une partition simple avec des silences",
-            "answer": "Un silence est une durée musicale pendant laquelle on ne produit pas de son ; il fait partie du rythme."
+            "prompt": "Imagine un collage « Ranger la classe ». Donne un titre, deux dessins et une décision de placement.",
+            "answer": "Exemple : Ranger la classe, cahiers, étagère, placer les cahiers au milieu. Un point par choix lié au message."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Danse moderne et bien-être",
-            "answer": "Je danse de façon contrôlée, avec échauffement et respect de l’espace."
+            "prompt": "Lis la partition du modèle en donnant le son ou le silence de chacun des quatre temps.",
+            "answer": "Sol, La, soupir, Sol. Un point par temps juste."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Tableau par collage d’images",
-            "answer": "Je choisis, découpe et organise les images avant de les coller proprement."
+            "prompt": "Propose une mesure de quatre temps avec un soupir au temps 2 et décris chaque temps.",
+            "answer": "Exemple : frappe, silence, frappe, frappe. Un point par temps conforme."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Lire une partition simple avec des silences",
-            "answer": "Un silence est une durée musicale pendant laquelle on ne produit pas de son ; il fait partie du rythme."
+            "prompt": "Donne un repère pour reprendre la danse, un geste assis, une façon de l’adapter et un moment où faire une pause.",
+            "answer": "Temps 1, toucher un genou, réduire l’amplitude, entre deux tours ou quand un geste gêne. Un point par proposition cohérente."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre le modèle et montrer le détail qui aide à répondre.",
+        "Rejouer lentement la mesure, le geste ou la réplique avec un camarade.",
+        "Refaire une courte production et vérifier un critère de réussite à la fois."
       ],
-      "chapter_intro": "Dans l’unité « La santé », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Compose une affiche de santé, lis une partition où le silence compte et danse à une allure régulière."
     },
     {
       "id": "EP",

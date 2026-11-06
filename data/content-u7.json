@@ -2395,52 +2395,70 @@
             "Décrire des instruments de musique.",
             "Fabriquer un instrument avec des matériaux adaptés."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Décrire et fabriquer un instrument de musique ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux petits récipients fermés se ressemblent. Quand on les secoue, l’un fait un bruit de grains. Quelle partie de l’instrument produit ce bruit ?",
           "learn": [
-            "Je repère comment l’instrument produit le son et je fabrique uniquement avec du matériel sans danger."
+            "Pour décrire un instrument, indique sa forme, ses matériaux et le geste qui le fait sonner. Un tambour est frappé, une flûte reçoit de l’air et un hochet est secoué.",
+            "Dans le hochet du modèle, les grains heurtent les parois lorsqu’on remue le récipient.",
+            "On choisit une boîte légère et solide que l’adulte remplit et ferme. On vérifie qu’elle reste fermée avant de secouer."
           ],
-          "takeaway": "Je repère comment l’instrument produit le son et je fabrique uniquement avec du matériel sans danger.",
+          "takeaway": "Je relie le matériau et le geste au son produit par mon instrument.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Décrire et fabriquer un instrument de musique » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère comment l’instrument produit le son et je fabrique uniquement avec du matériel sans danger. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Que faut-il faire pour jouer du hochet ? Explique d’où vient le bruit.",
+              "answer": "On le secoue. Les grains bougent et frappent l’intérieur du récipient.",
+              "explanation": "Donne le geste et les parties qui se rencontrent.",
               "type": "open",
               "id": "AR-U7-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Décrire et fabriquer un instrument de musique ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère comment l’instrument produit le son et je fabrique uniquement avec du matériel sans danger.",
-              "explanation": "",
+              "prompt": "Compare la flûte et le tambour. Cite un geste et la partie mise en mouvement pour chacun.",
+              "answer": "On souffle pour mettre l’air de la flûte en mouvement. On frappe pour faire vibrer la membrane du tambour.",
+              "explanation": "Relie chaque geste au bon instrument.",
               "type": "open",
               "id": "AR-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U7, p.146.",
-          "practical": [],
+          "practical": [
+            "Avec l’adulte, préparez un petit récipient rigide fermé solidement et garni de quelques grains. Teste un mouvement lent, puis deux mouvements courts. Décris ce qui fait sonner le hochet."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Décrire et fabriquer un instrument de musique », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les jeux ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Trois façons de produire un son",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Instrument",
+                  "Partie qui produit le son",
+                  "Geste"
+                ],
+                "rows": [
+                  [
+                    "Tambour",
+                    "Peau ou membrane tendue",
+                    "Frapper doucement"
+                  ],
+                  [
+                    "Flûte",
+                    "Air dans le tube",
+                    "Souffler"
+                  ],
+                  [
+                    "Hochet du modèle",
+                    "Grains contre les parois",
+                    "Secouer"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, musique, U7, p.146.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         },
         {
@@ -2452,52 +2470,70 @@
             "Exécuter un geste précis.",
             "Adopter une attitude."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Jouer un sketch : voix, gestes et attitudes ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans le sketch, Sami tient une corde et hésite. Comment peux-tu montrer son hésitation avant même de dire sa première réplique ?",
           "learn": [
-            "Le jeu dramatique utilise voix, gestes et attitudes pour faire comprendre un personnage ou une situation."
+            "Un sketch est une petite scène. On comprend le personnage par ce qu’il dit, la façon dont il parle et ce qu’il fait.",
+            "Une voix calme peut rassurer. Une pause, un regard vers le sol ou une main immobile peuvent montrer une hésitation.",
+            "On prépare un geste précis pour une réplique. On s’inspire de la situation du personnage et on laisse son partenaire terminer."
           ],
-          "takeaway": "Le jeu dramatique utilise voix, gestes et attitudes pour faire comprendre un personnage ou une situation.",
+          "takeaway": "Je donne une intention à la réplique et un geste précis qui aide le public à la comprendre.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Jouer un sketch : voix, gestes et attitudes » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Le jeu dramatique utilise voix, gestes et attitudes pour faire comprendre un personnage ou une situation. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Que fait Maya pour rassurer Sami ? Cite un indice de voix et un geste.",
+              "answer": "Elle parle calmement et montre trois doigts.",
+              "explanation": "Distingue la manière de parler du mouvement du corps.",
               "type": "open",
               "id": "AR-U7-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Jouer un sketch : voix, gestes et attitudes ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Le jeu dramatique utilise voix, gestes et attitudes pour faire comprendre un personnage ou une situation.",
-              "explanation": "",
+              "prompt": "Propose un autre geste pour le premier Sami et explique ce qu’il montre.",
+              "answer": "Il peut regarder Maya puis la corde sans avancer pour montrer qu’il attend de comprendre.",
+              "explanation": "Le geste doit correspondre à l’hésitation et être visible sans commentaire.",
               "type": "open",
               "id": "AR-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, arts dramatiques, U7, p.148.",
-          "practical": [],
+          "practical": [
+            "Jouez la scène en duo sans matériel, puis avec une corde immobile posée au sol. Échangez les rôles et testez une autre voix ou un autre geste qui garde le même sens."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Jouer un sketch : voix, gestes et attitudes », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les jeux ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Sketch original « Le départ du jeu »",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Rôle",
+                  "Réplique",
+                  "Indication de jeu"
+                ],
+                "rows": [
+                  [
+                    "Sami",
+                    "Je ne connais pas encore le départ.",
+                    "Regarder la corde et marquer une courte pause."
+                  ],
+                  [
+                    "Maya",
+                    "Attends le signal. Je compte avec toi.",
+                    "Parler calmement et montrer trois doigts."
+                  ],
+                  [
+                    "Sami",
+                    "D’accord, je suis prêt.",
+                    "Lever la tête et sourire."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, arts dramatiques, U7, p.148.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         },
         {
@@ -2507,52 +2543,72 @@
             "Identifier des rythmes.",
             "Chanter ou danser au rythme d’une cadence."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Identifier des rythmes et danser sur une cadence ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Les deux lignes du jeu de rythme durent quatre temps. Dans laquelle frappe-t-on trois fois ? Lis les symboles du modèle.",
           "learn": [
-            "Je repère une pulsation régulière et j’adapte mes mouvements au rythme."
+            "La pulsation est le battement régulier que l’on continue à compter. Le rythme place les sons et les silences sur ces battements.",
+            "Dans la fiche, X veut dire « frapper » et le point veut dire « garder le silence ». Un silence prend sa place dans la suite.",
+            "On peut remplacer les frappes par un geste ou une syllabe, en gardant les mêmes temps."
           ],
-          "takeaway": "Je repère une pulsation régulière et j’adapte mes mouvements au rythme.",
+          "takeaway": "Je compte régulièrement et je distingue les temps frappés des temps silencieux.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Identifier des rythmes et danser sur une cadence » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère une pulsation régulière et j’adapte mes mouvements au rythme. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Quels temps frappe-t-on dans B ? Quel temps reste silencieux ?",
+              "answer": "On frappe aux temps 1, 2 et 4. Le temps 3 reste silencieux.",
+              "explanation": "Lis chaque colonne en gardant les quatre temps.",
               "type": "open",
               "id": "AR-U7-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Identifier des rythmes et danser sur une cadence ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère une pulsation régulière et j’adapte mes mouvements au rythme.",
-              "explanation": "",
+              "prompt": "Écris un autre rythme de quatre temps avec des frappes seulement aux temps 2 et 4.",
+              "answer": "· X · X",
+              "explanation": "La deuxième et la quatrième case portent X. Les deux autres restent silencieuses.",
               "type": "open",
               "id": "AR-U7-L3-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U7, p.149.",
-          "practical": [],
+          "practical": [
+            "Un élève compte les quatre temps. Le groupe frappe A, puis B. Au tour suivant, remplace les frappes de A par une main levée et garde les autres temps immobiles."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Identifier des rythmes et danser sur une cadence », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les jeux ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Deux rythmes sur quatre temps",
+              "kind": "table",
+              "body": "X indique une frappe. Le point indique un temps silencieux.",
+              "table": {
+                "headers": [
+                  "Rythme",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "X",
+                    "·",
+                    "X",
+                    "·"
+                  ],
+                  [
+                    "B",
+                    "X",
+                    "X",
+                    "·",
+                    "X"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, danse, U7, p.149.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         }
       ],
@@ -2562,37 +2618,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Décrire et fabriquer un instrument de musique",
-            "answer": "Je repère comment l’instrument produit le son et je fabrique uniquement avec du matériel sans danger."
+            "prompt": "Pour le hochet, nomme le récipient, le contenu, le geste et le contrôle à faire avant l’essai.",
+            "answer": "Récipient rigide, grains, secouer, vérifier qu’il est fermé solidement. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Jouer un sketch : voix, gestes et attitudes",
-            "answer": "Le jeu dramatique utilise voix, gestes et attitudes pour faire comprendre un personnage ou une situation."
+            "prompt": "Donne pour le tambour et la flûte la partie qui sonne et le geste qui la met en mouvement.",
+            "answer": "Membrane et frapper, air du tube et souffler. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Identifier des rythmes et danser sur une cadence",
-            "answer": "Je repère une pulsation régulière et j’adapte mes mouvements au rythme."
+            "prompt": "Dans le sketch, nomme le personnage hésitant, le personnage qui l’aide, un geste de chacun.",
+            "answer": "Sami, Maya, regard ou pause de Sami, trois doigts de Maya. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Décrire et fabriquer un instrument de musique",
-            "answer": "Je repère comment l’instrument produit le son et je fabrique uniquement avec du matériel sans danger."
+            "prompt": "Écris ou joue les quatre temps du rythme B dans l’ordre.",
+            "answer": "Frappe, frappe, silence, frappe. Un point par temps correct."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Jouer un sketch : voix, gestes et attitudes",
-            "answer": "Le jeu dramatique utilise voix, gestes et attitudes pour faire comprendre un personnage ou une situation."
+            "prompt": "Invente un rythme de quatre temps avec exactement deux sons. Montre comment le jouer ou le danser.",
+            "answer": "Deux temps actifs et deux silencieux, dans l’ordre annoncé. Un point par temps correctement réalisé."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre le modèle et montrer le détail qui aide à répondre.",
+        "Rejouer lentement la mesure, le geste ou la réplique avec un camarade.",
+        "Refaire une courte production et vérifier un critère de réussite à la fois."
       ],
-      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Fais sonner un instrument construit en classe, joue un sketch et compare deux rythmes de jeu."
     },
     {
       "id": "EP",

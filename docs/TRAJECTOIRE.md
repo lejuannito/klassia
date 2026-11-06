@@ -21,13 +21,14 @@ Les lots d’enrichissement livrés comprennent :
 - réécriture des 29 leçons de sciences et TIC CE2 U4–U8, avec 58 exercices, sept figures, dix bilans et 78 QCM repris. [Matrice et sources](CE2_SCIENCES_TIC.md)
 - réécriture des 45 leçons de sciences humaines et sociales CE2 U4–U8, avec 90 exercices, quatre figures, cinq bilans et 88 QCM. [Sources et points de revue](CE2_SCIENCES_HUMAINES_SOCIALES.md)
 - réécriture des 16 leçons de développement personnel CE2 U4–U8, avec 32 exercices, trois figures, cinq bilans et 60 QCM. [Supports et références](CE2_DEVELOPPEMENT_PERSONNEL.md)
+- réécriture des 15 leçons d’arts CE2 U4–U8, avec 30 exercices, quatre figures, cinq bilans et 60 QCM. [Supports et références](CE2_ARTS.md)
 - [principes d’enrichissement pédagogique](ENRICHISSEMENT.md) pour les prochains lots, avec supports intégrés et exercices progressifs.
 
 Les décisions du porteur de projet permettent de poursuivre la production. Les métadonnées ne sont pas pour autant attribuées à un enseignant fictif : la revue nominative et les retours ultérieurs restent traçables.
 
 ## Étapes restantes, dans l’ordre
 
-1. **Leçons génériques CE2.** Les arts sont prioritaires (15 leçons), suivis de l’EPS (9) et du bassa (5). En bassa, compléter les séquences autour des propositions lexicales centrales et conserver les variantes acceptées. L’indicateur porte sur la formulation de la découverte et signale 29 leçons.
+1. **Leçons génériques CE2.** Il reste 14 leçons. L’EPS est prioritaire (9 leçons), suivie du bassa (5). En bassa, compléter les séquences autour des propositions lexicales centrales et conserver les variantes acceptées.
 2. **Couverture et progression des cinq classes.** Rapprocher systématiquement chaque objectif officiel, contenu et évaluation ; combler les lacunes et vérifier prérequis, difficulté, lecture/écriture, calcul pratique, arts et motricité. Les liens curriculaires existants sont des propositions de correspondance, pas une homologation. Exploiter les manuels seulement au niveau réellement consulté.
 3. **Supports sonores et visuels.** La lecture actuelle utilise les voix de l’appareil : elle n’est pas un pack d’enregistrements validés. Produire des médias FR/EN maîtrisés et des enregistrements bassa avec prononciation vérifiée ; documenter sources, droits et variantes. En attendant, le bassa écrit reste consultable et ses variantes acceptées.
 4. **Pilote en conditions réelles.** Essayer les parcours sur téléphones Android/iOS, avec parents, enfants et enseignants ; vérifier écoute effective, disponibilité des voix hors connexion, lisibilité, charge de travail et gestes de navigation. Les tests automatisés de navigateur ne remplacent pas ces essais sonores et pédagogiques.

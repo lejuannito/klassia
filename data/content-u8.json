@@ -2059,54 +2059,68 @@
             "Nommer des figures musicales emblématiques du Cameroun.",
             "Interpréter une chanson d’un musicien de sa localité."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Figures emblématiques de la musique camerounaise ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour l’émission de la classe, on prépare une carte « voix » et une carte « saxophone ». À quel artiste associes-tu chaque carte ?",
           "learn": [
-            "Les exemples d’artistes et les œuvres doivent être choisis et vérifiés dans le contexte local, avec respect du droit d’auteur."
+            "Anne-Marie Nzié est une chanteuse camerounaise. Manu Dibango est un musicien camerounais notamment connu pour le saxophone.",
+            "Pour présenter un artiste, donne son nom et un repère que tu as réellement entendu ou lu, comme la voix ou un instrument.",
+            "Dans un appel-réponse, un groupe chante ou joue un motif, puis l’autre le reprend. Les deux groupes s’appuient sur la même pulsation."
           ],
-          "takeaway": "Les exemples d’artistes et les œuvres doivent être choisis et vérifiés dans le contexte local, avec respect du droit d’auteur.",
+          "takeaway": "Je nomme un artiste, je décris un élément entendu et j’attends mon tour pour interpréter.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Figures emblématiques de la musique camerounaise » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les exemples d’artistes et les œuvres doivent être choisis et vérifiés dans le contexte local, avec respect du droit d’auteur. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Associe chaque artiste du tableau au repère de la fiche.",
+              "answer": "Anne-Marie Nzié correspond au chant. Manu Dibango correspond au saxophone.",
+              "explanation": "Associe une personne à un repère artistique.",
               "type": "open",
               "id": "AR-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Figures emblématiques de la musique camerounaise ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les exemples d’artistes et les œuvres doivent être choisis et vérifiés dans le contexte local, avec respect du droit d’auteur.",
-              "explanation": "",
+              "prompt": "Quand le groupe de réponse commence-t-il ? Comment garder la durée du silence ?",
+              "answer": "Il commence après les quatre temps de l’appel. Il compte aussi le troisième temps, sans son.",
+              "explanation": "La réponse repart au temps 1 et reprend les quatre temps du motif.",
               "type": "open",
               "id": "AR-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U8, p.146.",
-          "practical": [],
+          "practical": [
+            "Joue le motif en appel-réponse. Avec l’adulte, choisissez une chanson d’un musicien de la localité, écoutez un passage et entraînez-vous à en interpréter une courte partie. Dites le nom de l’artiste avant de commencer."
+          ],
           "notes": [
             "Ne pas reproduire des paroles protégées ; choisir des œuvres autorisées ou travailler sans citation longue."
           ],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Figures emblématiques de la musique camerounaise », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les communications ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Deux artistes et un essai d’interprétation",
+              "kind": "table",
+              "body": "Essaie un motif original sur quatre temps : « ta, ta, silence, tou ». Un groupe lance le motif, l’autre le répète au début des quatre temps suivants.",
+              "table": {
+                "headers": [
+                  "Artiste",
+                  "Repère",
+                  "À repérer à l’écoute avec l’adulte"
+                ],
+                "rows": [
+                  [
+                    "Anne-Marie Nzié",
+                    "Chant",
+                    "Un passage où la voix ressort."
+                  ],
+                  [
+                    "Manu Dibango",
+                    "Saxophone",
+                    "Un passage où le saxophone est audible."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, musique, U8, p.146.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         },
         {
@@ -2116,52 +2130,70 @@
             "Nommer des figures emblématiques du théâtre camerounais.",
             "Interpréter un sketch ou un extrait adapté."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Théâtre camerounais et interprétation d’un sketch ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le public ne voit pas le panneau que montre Noé. Dans la scène de la classe, que peut faire le comédien pour que le message arrive quand même ?",
           "learn": [
-            "Les figures et extraits doivent être vérifiés et choisis dans un cadre pédagogique approprié, sans reproduire intégralement une œuvre protégée."
+            "Guillaume Oyono Mbia a écrit des pièces de théâtre, dont Trois prétendants, un mari. Werewere Liking est une dramaturge et metteuse en scène née au Cameroun.",
+            "Au théâtre, une indication de jeu précise un geste, une pause ou une intention. Les acteurs rendent les paroles et les gestes perceptibles au public.",
+            "En répétition, demande à un spectateur ce qu’il a compris. Essaie ensuite un changement précis dans la voix ou la position."
           ],
-          "takeaway": "Les figures et extraits doivent être vérifiés et choisis dans un cadre pédagogique approprié, sans reproduire intégralement une œuvre protégée.",
+          "takeaway": "Je peux citer des figures du théâtre camerounais et jouer une scène dont le public comprend le message.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Théâtre camerounais et interprétation d’un sketch » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les figures et extraits doivent être vérifiés et choisis dans un cadre pédagogique approprié, sans reproduire intégralement une œuvre protégée. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Qui a écrit Trois prétendants, un mari ? Cite une activité théâtrale de Werewere Liking.",
+              "answer": "Guillaume Oyono Mbia a écrit cette pièce. Werewere Liking écrit pour le théâtre ou met en scène.",
+              "explanation": "Donne un repère exact pour chaque personne.",
               "type": "open",
               "id": "AR-U8-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Théâtre camerounais et interprétation d’un sketch ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les figures et extraits doivent être vérifiés et choisis dans un cadre pédagogique approprié, sans reproduire intégralement une œuvre protégée.",
-              "explanation": "",
+              "prompt": "Le public n’a pas compris la direction. Que peux-tu changer quand tu joues Noé ?",
+              "answer": "Je peux me tourner vers le public, montrer clairement la flèche et dire « près du préau » en articulant.",
+              "explanation": "Le changement doit aider à entendre le lieu ou à voir la direction.",
               "type": "open",
               "id": "AR-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, arts dramatiques, U8, p.148.",
-          "practical": [],
+          "practical": [
+            "Jouez le sketch devant un camarade. Vérifiez s’il peut redire le lieu du spectacle. Rejouez en changeant un geste ou le volume de la voix et échangez les rôles."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Théâtre camerounais et interprétation d’un sketch », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les communications ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Sketch original « L’annonce de la cour »",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Rôle",
+                  "Réplique",
+                  "Indication de jeu"
+                ],
+                "rows": [
+                  [
+                    "Noé",
+                    "Le spectacle commence près du préau.",
+                    "Montrer le panneau face au public."
+                  ],
+                  [
+                    "Awa",
+                    "Je n’ai pas bien entendu le lieu.",
+                    "Incliner la tête vers Noé."
+                  ],
+                  [
+                    "Noé",
+                    "Près du préau. Suis la flèche.",
+                    "Articuler et montrer une direction."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, arts dramatiques, U8, p.148.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         },
         {
@@ -2170,52 +2202,72 @@
           "objectives": [
             "Identifier des rythmes et chanter ou danser au rythme d’une cadence."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Rythmes et cadence ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le groupe A envoie un signal en rythme. Le groupe B répond. Si les frappes se suivent sans pause, comment le groupe B sait-il quand commencer ?",
           "learn": [
-            "Je repère la pulsation et je garde une cadence régulière avec le groupe."
+            "La pulsation est le battement régulier. Un motif peut placer les frappes à des endroits différents tout en gardant quatre temps.",
+            "Dans la fiche, l’appel et la réponse ont des motifs distincts. Le groupe de réponse commence après le quatrième temps de l’appel.",
+            "Les frappes peuvent être remplacées par une syllabe ou un petit geste de danse. Le tour de chaque groupe reste le même."
           ],
-          "takeaway": "Je repère la pulsation et je garde une cadence régulière avec le groupe.",
+          "takeaway": "Je garde la pulsation commune et je réponds seulement après la fin de l’appel.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Rythmes et cadence » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère la pulsation et je garde une cadence régulière avec le groupe. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "À quels temps frappe le groupe de réponse ? Quand joue-t-il son premier temps ?",
+              "answer": "Il frappe aux temps 2 et 3. Son premier temps, silencieux, arrive après le temps 4 de l’appel.",
+              "explanation": "Compte le temps 1 même si la réponse commence par un silence.",
               "type": "open",
               "id": "AR-U8-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Rythmes et cadence ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère la pulsation et je garde une cadence régulière avec le groupe.",
-              "explanation": "",
+              "prompt": "Invente une réponse différente avec une seule frappe et quatre temps. Écris les quatre cases.",
+              "answer": "Par exemple : · · · X.",
+              "explanation": "Il doit y avoir une frappe et trois temps silencieux, tous comptés.",
               "type": "open",
               "id": "AR-U8-L3-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U8, p.149.",
-          "practical": [],
+          "practical": [
+            "Marquez la pulsation avec les doigts. Un groupe joue l’appel et l’autre la réponse. Refaites l’échange avec des gestes sur place et inversez les groupes."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Rythmes et cadence », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les communications ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Un message rythmique en deux tours",
+              "kind": "table",
+              "body": "X indique une frappe ou un geste. Le point indique un temps sans frappe ou sans geste.",
+              "table": {
+                "headers": [
+                  "Tour",
+                  "1",
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "rows": [
+                  [
+                    "Appel",
+                    "X",
+                    "·",
+                    "X",
+                    "X"
+                  ],
+                  [
+                    "Réponse",
+                    "·",
+                    "X",
+                    "X",
+                    "·"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, danse, U8, p.149.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         }
       ],
@@ -2225,37 +2277,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Figures emblématiques de la musique camerounaise",
-            "answer": "Les exemples d’artistes et les œuvres doivent être choisis et vérifiés dans le contexte local, avec respect du droit d’auteur."
+            "prompt": "Nomme les deux artistes musicaux de la leçon et associe un repère à chacun.",
+            "answer": "Anne-Marie Nzié et le chant, Manu Dibango et le saxophone. Un point par nom et par repère."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Théâtre camerounais et interprétation d’un sketch",
-            "answer": "Les figures et extraits doivent être vérifiés et choisis dans un cadre pédagogique approprié, sans reproduire intégralement une œuvre protégée."
+            "prompt": "Annonce une chanson choisie avec l’adulte. Donne le nom de l’artiste, le titre, un élément entendu et une décision pour la jouer ensemble.",
+            "answer": "Un point par élément identifiable, par exemple voix entendue et départ au même temps."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Rythmes et cadence",
-            "answer": "Je repère la pulsation et je garde une cadence régulière avec le groupe."
+            "prompt": "Nomme l’auteur de Trois prétendants, un mari, cite une activité de Werewere Liking, puis donne le lieu de la scène de classe et un geste pour l’indiquer.",
+            "answer": "Guillaume Oyono Mbia, écriture ou mise en scène, près du préau, montrer la flèche ou le panneau. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Figures emblématiques de la musique camerounaise",
-            "answer": "Les exemples d’artistes et les œuvres doivent être choisis et vérifiés dans le contexte local, avec respect du droit d’auteur."
+            "prompt": "Joue ou écris la réponse rythmique de la fiche sur quatre temps.",
+            "answer": "Silence, frappe, frappe, silence. Un point par temps correct."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Théâtre camerounais et interprétation d’un sketch",
-            "answer": "Les figures et extraits doivent être vérifiés et choisis dans un cadre pédagogique approprié, sans reproduire intégralement une œuvre protégée."
+            "prompt": "Propose quatre temps avec une seule frappe. Marque le comptage et échange le motif avec un camarade.",
+            "answer": "Un point par temps respecté dans le motif annoncé, avec une seule frappe au total."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre le modèle et montrer le détail qui aide à répondre.",
+        "Rejouer lentement la mesure, le geste ou la réplique avec un camarade.",
+        "Refaire une courte production et vérifier un critère de réussite à la fois."
       ],
-      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Fais entendre un motif, présente des artistes camerounais et joue une courte scène de communication."
     },
     {
       "id": "EP",

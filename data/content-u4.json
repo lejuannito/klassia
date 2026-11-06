@@ -3057,52 +3057,74 @@
           "objectives": [
             "Concevoir des tableaux."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Peinture et tableaux ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Observe le tableau de l’atelier. Le pot et la fenêtre n’attirent pas le regard de la même façon. Quel objet vois-tu en premier et quel détail te le fait remarquer ?",
           "learn": [
-            "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation."
+            "Le premier plan contient ce qui paraît proche. L’arrière-plan montre ce qui semble plus loin, comme la fenêtre derrière la table.",
+            "Un objet principal peut se remarquer par sa taille, sa place ou une couleur qui se détache du fond.",
+            "Avant de peindre, dessine légèrement les grandes formes. Pose les couleurs du fond, puis ajoute les objets et leurs détails."
           ],
-          "takeaway": "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation.",
+          "takeaway": "J’organise le fond et les objets pour guider le regard vers le sujet de mon tableau.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Peinture et tableaux » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Nomme un élément du premier plan et un du fond. Justifie avec un indice visible.",
+              "answer": "Le pot de pinceaux est devant. La fenêtre est au fond, dans le mur derrière la table.",
+              "explanation": "Distingue la place des deux éléments et cite un indice du tableau.",
               "type": "open",
               "id": "AR-U4-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Peinture et tableaux ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation.",
-              "explanation": "",
+              "prompt": "Comment ferais-tu ressortir un marteau dans un tableau d’atelier ? Donne deux choix.",
+              "answer": "Par exemple, je dessine le marteau assez grand et je le peins dans une couleur sombre sur un fond clair.",
+              "explanation": "Le sujet doit rester reconnaissable et les deux choix doivent aider à le remarquer.",
               "type": "open",
               "id": "AR-U4-L1-E2"
             }
           ],
           "source": "Curriculum CE2, arts visuels, U4, p.144.",
-          "practical": [],
+          "practical": [
+            "Choisis un métier. Dessine un outil principal et deux éléments du fond, puis mets en couleur. Présente ton tableau à un camarade et demande quel outil il a vu en premier."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Peinture et tableaux », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les métiers ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Lire le tableau de l’atelier",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Élément",
+                  "Où le voit-on ?",
+                  "Quel indice aide ?"
+                ],
+                "rows": [
+                  [
+                    "Pot de pinceaux",
+                    "Au premier plan",
+                    "Il est grand et rouge sur la table."
+                  ],
+                  [
+                    "Fenêtre",
+                    "À l’arrière-plan",
+                    "Elle est dans le mur du fond."
+                  ],
+                  [
+                    "Petits pots",
+                    "À l’arrière-plan",
+                    "Ils sont plus petits et posés sur une étagère."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, arts visuels, U4, p.144.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-arts-composition.svg",
+            "alt": "Dans un atelier peint, un pot rouge et ses pinceaux sont devant. La fenêtre bleue et la petite étagère sont au fond."
           }
         },
         {
@@ -3111,52 +3133,70 @@
           "objectives": [
             "Produire des figurines à partir de boue, argile ou pâte à modeler."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Figurines par modelage ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans l’atelier de modelage, un oiseau en pâte tombe sur le côté. Observe les essais du tableau. Quelle base choisirais-tu pour qu’il tienne ?",
           "learn": [
-            "Je modèle progressivement les volumes avec un matériau propre et adapté."
+            "Modeler, c’est donner une forme à une matière souple. Une boule peut devenir une tête, une forme ovale un corps et un petit rouleau une queue.",
+            "Une base large et aplatie donne un appui stable. Assemble les parties en pressant doucement et en lissant les jonctions.",
+            "Essaie la figurine sur une table avant de tracer les détails. Si elle penche, élargis sa base ou rapproche les parties du milieu."
           ],
-          "takeaway": "Je modèle progressivement les volumes avec un matériau propre et adapté.",
+          "takeaway": "Je forme, j’assemble, puis je vérifie que ma figurine tient debout.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Figurines par modelage » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je modèle progressivement les volumes avec un matériau propre et adapté. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Quel essai garderais-tu ? Explique la différence avec l’essai A.",
+              "answer": "Je garde B. Le disque repose à plat, alors que la boule de A peut rouler.",
+              "explanation": "Relie la forme de la base à l’appui sur la table.",
               "type": "open",
               "id": "AR-U4-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Figurines par modelage ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je modèle progressivement les volumes avec un matériau propre et adapté.",
-              "explanation": "",
+              "prompt": "Ta figurine se défait à la jonction entre la tête et le corps. Que peux-tu faire ?",
+              "answer": "Je rapproche les deux parties, je presse doucement et je lisse la jonction avant de vérifier qu’elle tient.",
+              "explanation": "La réparation doit renforcer le contact et préserver les formes.",
               "type": "open",
               "id": "AR-U4-L2-E2"
             }
           ],
           "source": "Curriculum CE2, arts visuels, U4, p.144.",
-          "practical": [],
+          "practical": [
+            "Avec la pâte à modeler ou l’argile préparée par l’adulte, réalise une figurine d’animal. Fais trois formes reconnaissables et teste la stabilité avant de décorer."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Figurines par modelage », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les métiers ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Trois essais pour la figurine",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Essai",
+                  "Base",
+                  "Résultat observé"
+                ],
+                "rows": [
+                  [
+                    "A",
+                    "Une boule ronde",
+                    "L’oiseau roule."
+                  ],
+                  [
+                    "B",
+                    "Un disque large et plat",
+                    "L’oiseau reste debout."
+                  ],
+                  [
+                    "C",
+                    "Un rouleau étroit posé debout",
+                    "L’oiseau bascule sur le côté."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, arts visuels, U4, p.144.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         },
         {
@@ -3165,52 +3205,74 @@
           "objectives": [
             "Lire des notes simples sur une portée de 2, 3 et 4 temps."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Lire des notes simples en 2, 3 et 4 temps ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans la première mesure, frappe deux fois à intervalles réguliers en suivant les notes. Combien de frappes faut-il pour suivre la mesure suivante ?",
           "learn": [
-            "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme."
+            "Une portée comporte cinq lignes. Avec la clé de sol, la deuxième ligne en partant du bas porte le Sol. Le La de ce modèle se trouve juste au-dessus, dans l’interligne suivant.",
+            "Une mesure est délimitée par une barre. Dans les mesures 2/4, 3/4 et 4/4 du modèle, on compte deux, trois ou quatre temps, et chaque noire occupe un temps.",
+            "Compter les temps à vitesse régulière aide à commencer et à finir ensemble."
           ],
-          "takeaway": "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme.",
+          "takeaway": "Je lis le nom et la place des notes, puis je compte les temps jusqu’à la barre de mesure.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Lire des notes simples en 2, 3 et 4 temps » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Écris les notes de la mesure en 3/4 et indique sur quel temps arrive Si.",
+              "answer": "Sol, La, Si. Si arrive au troisième temps.",
+              "explanation": "Dans ce modèle, on avance d’une noire par temps.",
               "type": "open",
               "id": "AR-U4-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire des notes simples en 2, 3 et 4 temps ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme.",
-              "explanation": "",
+              "prompt": "Ajoute une noire La à Sol, La, Si. Quelle mesure du modèle obtiens-tu ?",
+              "answer": "Sol, La, Si, La forme la mesure en 4/4 du modèle.",
+              "explanation": "Compte les quatre noires avant la barre.",
               "type": "open",
               "id": "AR-U4-L3-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U4, p.146.",
-          "practical": [],
+          "practical": [
+            "Lis les notes d’une mesure pendant qu’un camarade marque les temps avec des frappes régulières. Échangez les rôles et recommencez en 3/4 puis en 4/4."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Lire des notes simples en 2, 3 et 4 temps », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les métiers ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Trois mesures à lire et à frapper",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Mesure",
+                  "Notes dans l’ordre",
+                  "Comptage"
+                ],
+                "rows": [
+                  [
+                    "2/4",
+                    "Sol – La",
+                    "1, 2"
+                  ],
+                  [
+                    "3/4",
+                    "Sol – La – Si",
+                    "1, 2, 3"
+                  ],
+                  [
+                    "4/4",
+                    "Sol – La – Si – La",
+                    "1, 2, 3, 4"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, musique, U4, p.146.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-arts-mesures.svg",
+            "alt": "Trois portées en clé de sol. En 2/4, Sol La. En 3/4, Sol La Si. En 4/4, Sol La Si La. Chaque note est une noire."
           }
         },
         {
@@ -3219,52 +3281,70 @@
           "objectives": [
             "Exécuter une danse moderne."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Danse moderne ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Deux danseurs commencent ensemble. Sur le troisième temps, l’un lève les bras et l’autre continue à marcher. Quel geste de la fiche faut-il reprendre pour se retrouver ?",
           "learn": [
-            "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres."
+            "Une courte danse peut être construite avec un geste pour chaque temps. On répète le même ordre jusqu’à pouvoir l’exécuter ensemble.",
+            "La pulsation reste régulière, même lorsque le geste change. Marquer le premier temps aide à retrouver le début.",
+            "Chaque danseur garde un espace libre autour de lui. On peut adapter les gestes avec le haut du corps en restant assis."
           ],
-          "takeaway": "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres.",
+          "takeaway": "Je retiens l’ordre des gestes et je recommence sur le premier temps.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Danse moderne » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Que font les bras aux temps 3 et 4 ?",
+              "answer": "Les avant-bras se lèvent au temps 3 et se baissent au temps 4.",
+              "explanation": "Annonce les deux gestes dans le bon ordre.",
               "type": "open",
               "id": "AR-U4-L4-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Danse moderne ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres.",
-              "explanation": "",
+              "prompt": "Propose un geste différent pour le temps 3 qui garde la pulsation et reste sur place.",
+              "answer": "Par exemple, ouvrir les mains à hauteur de poitrine sur le temps 3.",
+              "explanation": "Le geste doit commencer sur le troisième temps et respecter l’espace autour de soi.",
               "type": "open",
               "id": "AR-U4-L4-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U4, p.149.",
-          "practical": [],
+          "practical": [
+            "Avec de l’espace entre vous, comptez lentement et faites deux fois l’enchaînement. Assis, indiquez les deux premiers temps avec les mains sur les genoux."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Danse moderne », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les métiers ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "Enchaînement de quatre temps sur place",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Temps",
+                  "Geste"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Poser un pied à droite."
+                  ],
+                  [
+                    "2",
+                    "Rapprocher l’autre pied."
+                  ],
+                  [
+                    "3",
+                    "Lever les avant-bras."
+                  ],
+                  [
+                    "4",
+                    "Baisser les avant-bras."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, danse, U4, p.149.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         }
       ],
@@ -3274,37 +3354,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Peinture et tableaux",
-            "answer": "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation."
+            "prompt": "Montre le premier plan et le fond du tableau de l’atelier. Donne un indice pour chaque choix.",
+            "answer": "Pot et pinceaux devant, fenêtre ou étagère au fond. Un point par élément et par indice cohérent."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Figurines par modelage",
-            "answer": "Je modèle progressivement les volumes avec un matériau propre et adapté."
+            "prompt": "Choisis la meilleure base parmi A, B et C, explique ton choix et donne un geste d’assemblage puis un test.",
+            "answer": "B, appui plat, presser ou lisser la jonction, vérifier sur la table. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Lire des notes simples en 2, 3 et 4 temps",
-            "answer": "Je repère la mesure, la pulsation et les notes avant de lire ou frapper le rythme."
+            "prompt": "Lis la mesure en 3/4. Donne les trois notes et le nombre de temps.",
+            "answer": "Sol, La, Si et trois temps. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Danse moderne",
-            "answer": "Je reproduis un enchaînement adapté à mon âge en respectant le rythme, l’espace et les autres."
+            "prompt": "Présente les quatre gestes de la danse sur place dans l’ordre de la fiche.",
+            "answer": "Pied à droite, pieds rapprochés, avant-bras levés, avant-bras baissés. Un point par geste à sa place."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Peinture et tableaux",
-            "answer": "Je choisis un sujet, organise les formes et les couleurs puis soigne la réalisation."
+            "prompt": "Prépare un tableau d’un autre métier. Nomme le métier, un outil principal, un élément du fond et un choix pour faire ressortir l’outil.",
+            "answer": "Exemple : menuiserie, scie, établi au fond, scie foncée sur un fond clair. Un point par choix cohérent."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre le modèle et montrer le détail qui aide à répondre.",
+        "Rejouer lentement la mesure, le geste ou la réplique avec un camarade.",
+        "Refaire une courte production et vérifier un critère de réussite à la fois."
       ],
-      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "L’atelier des métiers inspire un tableau, une figurine, trois courtes mesures et une danse en quatre temps."
     },
     {
       "id": "EP",

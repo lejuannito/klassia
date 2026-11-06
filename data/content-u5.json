@@ -2595,52 +2595,74 @@
           "objectives": [
             "Lire des notes altérées sur une portée."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Lire des notes altérées ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Sur la portée, trois Fa occupent la même place. Quel signe les distingue ? Lis leur nom à l’aide de la fiche.",
           "learn": [
-            "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples."
+            "Le dièse (♯) hausse la note d’un demi-ton. Le bémol (♭) la baisse d’un demi-ton.",
+            "Le bécarre (♮) annule une altération et rétablit ici le Fa naturel.",
+            "Le signe s’écrit avant la note. On regarde d’abord sa place sur la portée, puis le signe qui précède."
           ],
-          "takeaway": "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples.",
+          "takeaway": "Je lis la note et le signe placé devant elle. Un Fa dièse et un Fa bémol partent du même nom de note.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Lire des notes altérées » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Le signe ♭ est placé avant un Fa. Comment le lis-tu et que fait le signe ?",
+              "answer": "Fa bémol. Le bémol baisse le Fa d’un demi-ton.",
+              "explanation": "Nomme la note avec son signe, puis indique le sens du changement.",
               "type": "open",
               "id": "AR-U5-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Lire des notes altérées ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples.",
-              "explanation": "",
+              "prompt": "Quel signe faut-il lire pour revenir au Fa naturel dans le modèle ?",
+              "answer": "Le bécarre, noté ♮.",
+              "explanation": "Le bécarre annule l’altération.",
               "type": "open",
               "id": "AR-U5-L1-E2"
             }
           ],
           "source": "Curriculum CE2, musique, U5, p.146.",
-          "practical": [],
+          "practical": [
+            "Recopie les trois signes à gauche d’une note dessinée au même endroit. Lis les trois noms. Si un adulte dispose d’un instrument, écoute le Fa et les deux hauteurs voisines."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Lire des notes altérées », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les voyages ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "La carte des altérations",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Signe",
+                  "Nom lu sur le modèle",
+                  "Effet sur le Fa naturel"
+                ],
+                "rows": [
+                  [
+                    "♯",
+                    "Fa dièse",
+                    "Un demi-ton plus haut"
+                  ],
+                  [
+                    "♭",
+                    "Fa bémol",
+                    "Un demi-ton plus bas"
+                  ],
+                  [
+                    "♮",
+                    "Fa bécarre",
+                    "Retour au Fa naturel"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, musique, U5, p.146.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-arts-alterations.svg",
+            "alt": "Trois noires à la place du Fa avec, de gauche à droite, un dièse, un bémol et un bécarre."
           }
         },
         {
@@ -2649,52 +2671,75 @@
           "objectives": [
             "Exécuter une danse moderne."
           ],
-          "discover": "Dans le thème « Les voyages », observe une situation concrète liée à « Danse moderne et déplacement ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Pour la danse du voyage, les danseurs doivent revenir au point de départ. Lis la fiche du trajet. Quels temps font avancer et reculer ?",
           "learn": [
-            "Je garde le rythme et maîtrise mes déplacements sans gêner les autres."
+            "On peut changer de direction en suivant des repères au sol. Un pas avance, un pas recule ou un pas se fait sur place.",
+            "Dans ce trajet, deux petits pas en avant sont suivis de deux petits pas en arrière. Le mouvement suit quatre temps réguliers.",
+            "Avec des gestes des mains, on peut montrer le même trajet sur place en gardant les quatre temps."
           ],
-          "takeaway": "Je garde le rythme et maîtrise mes déplacements sans gêner les autres.",
+          "takeaway": "Je reconnais la direction de chaque pas et je garde le même comptage pendant tout le trajet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Danse moderne et déplacement » et donne un exemple adapté au thème « Les voyages ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je garde le rythme et maîtrise mes déplacements sans gêner les autres. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Dans quel sens va le temps 3 et où finit le temps 4 ?",
+              "answer": "Le temps 3 fait reculer d’un pas. Le temps 4 ramène au point de départ.",
+              "explanation": "Appuie-toi sur les deux dernières lignes du tableau.",
               "type": "open",
               "id": "AR-U5-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Danse moderne et déplacement ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je garde le rythme et maîtrise mes déplacements sans gêner les autres.",
-              "explanation": "",
+              "prompt": "Imagine une version sur place avec les mains. Quels gestes correspondent aux temps 1 à 4 ?",
+              "answer": "Par exemple, avancer un peu les mains aux temps 1 et 2, puis les rapprocher aux temps 3 et 4.",
+              "explanation": "Le mouvement montre un aller puis un retour avec un geste par temps.",
               "type": "open",
               "id": "AR-U5-L2-E2"
             }
           ],
           "source": "Curriculum CE2, danse, U5, p.149.",
-          "practical": [],
+          "practical": [
+            "Dans un espace dégagé, chacun suit sa propre ligne. Marquez les quatre temps à la voix. Répétez à la même vitesse en laissant assez de distance entre les danseurs."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Observer avant de créer",
-              "kind": "method",
-              "body": "Pour « Danse moderne et déplacement », commence par observer un modèle, une forme, un rythme ou un mouvement. Repère deux ou trois caractéristiques importantes, puis réalise une première version. L’activité artistique demande de l’attention, mais elle laisse aussi une place au choix personnel."
-            },
-            {
-              "title": "Créer, regarder, améliorer",
-              "kind": "activity",
-              "body": "Réalise une production courte liée à « Les voyages ». À la fin, regarde-la comme si elle appartenait à quelqu’un d’autre : qu’est-ce qui est réussi ? qu’est-ce qui pourrait être plus clair, plus régulier ou plus expressif ? Fais une petite amélioration."
-            },
-            {
-              "title": "Respecter le matériel et les autres",
-              "kind": "warning",
-              "body": "On utilise les outils et instruments comme prévu, on protège l’espace de travail, on range le matériel et on respecte les productions des autres. Une critique utile décrit ce qui est observé et propose une amélioration sans se moquer."
+              "title": "La danse aller-retour",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Temps",
+                  "Déplacement",
+                  "Repère"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "Petit pas vers l’avant",
+                    "Quitter le point de départ"
+                  ],
+                  [
+                    "2",
+                    "Petit pas vers l’avant",
+                    "Continuer dans la même direction"
+                  ],
+                  [
+                    "3",
+                    "Petit pas vers l’arrière",
+                    "Revenir d’un pas"
+                  ],
+                  [
+                    "4",
+                    "Petit pas vers l’arrière",
+                    "Revenir au point de départ"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, danse, U5, p.149.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "arts-specific-2026-11-06"
           }
         }
       ],
@@ -2704,37 +2749,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Lire des notes altérées",
-            "answer": "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples."
+            "prompt": "Nomme les signes ♯ et ♭. Donne l’effet de chacun.",
+            "answer": "Dièse, hausse d’un demi-ton, bémol, baisse d’un demi-ton. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Danse moderne et déplacement",
-            "answer": "Je garde le rythme et maîtrise mes déplacements sans gêner les autres."
+            "prompt": "Lis les trois Fa de la figure dans l’ordre, puis indique lequel retrouve la note naturelle.",
+            "answer": "Fa dièse, Fa bémol, Fa bécarre, le dernier retrouve le Fa naturel. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Lire des notes altérées",
-            "answer": "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples."
+            "prompt": "Donne la direction des quatre petits pas de la danse aller-retour.",
+            "answer": "Avant, avant, arrière, arrière. Un point par direction à sa place."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Danse moderne et déplacement",
-            "answer": "Je garde le rythme et maîtrise mes déplacements sans gêner les autres."
+            "prompt": "Indique le sens au temps 2 et au temps 3, le point atteint au temps 4 et comment garder le rythme.",
+            "answer": "Avant, arrière, point de départ, compter régulièrement ou suivre les frappes. Un point par élément."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Lire des notes altérées",
-            "answer": "Les altérations modifient la hauteur d’une note ; au CE2, on les repère et on les lit dans des exemples simples."
+            "prompt": "Propose quatre gestes de mains sur place qui montrent deux temps d’aller et deux temps de retour.",
+            "answer": "Les deux premiers gestes vont vers l’avant et les deux suivants reviennent. Un point par geste cohérent à sa place."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre le modèle et montrer le détail qui aide à répondre.",
+        "Rejouer lentement la mesure, le geste ou la réplique avec un camarade.",
+        "Refaire une courte production et vérifier un critère de réussite à la fois."
       ],
-      "chapter_intro": "Dans l’unité « Les voyages », le chapitre de Éducation artistique développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "On lit trois signes qui modifient une note, puis on se déplace en suivant un trajet dansé de quatre temps."
     },
     {
       "id": "EP",

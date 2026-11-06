@@ -2762,52 +2762,71 @@
           "objectives": [
             "Construire des jouets avec des matériaux de l’environnement immédiat."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Construire des jouets avec les matériaux de l’environnement ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Une quille en carton reste debout grâce à son pied plié. Le carton mesure 14 cm de long. Le pied occupe 4 cm. Quelle longueur reste pour la face de la quille ?",
           "learn": [
-            "Je choisis du matériel propre, non coupant et réutilisable et je respecte les mesures du modèle."
+            "On peut fabriquer une quille avec un carton propre et solide. Sur le gabarit, le trait de pli sépare la face visible du pied qui repose sur la table.",
+            "On mesure avant de plier. Ici, le rectangle fait 8 cm de large et 14 cm de long. Il reste 10 cm pour la face après avoir réservé 4 cm pour le pied.",
+            "On teste la quille sur une table plane. Si elle tombe avant même le jeu, on vérifie que le pied repose bien à plat et que le carton tient sa forme."
           ],
-          "takeaway": "Je choisis du matériel propre, non coupant et réutilisable et je respecte les mesures du modèle.",
+          "takeaway": "Je lis le gabarit, je mesure, je plie et je teste la stabilité de mon jouet.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Construire des jouets avec les matériaux de l’environnement » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis du matériel propre, non coupant et réutilisable et je respecte les mesures du modèle. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Quelle hauteur reste pour la face de la quille ? Écris ton calcul.",
+              "answer": "14 cm − 4 cm = 10 cm.",
+              "explanation": "La face et le pied occupent ensemble toute la longueur du rectangle à plat.",
               "type": "open",
               "id": "DP-U7-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Construire des jouets avec les matériaux de l’environnement ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis du matériel propre, non coupant et réutilisable et je respecte les mesures du modèle.",
-              "explanation": "",
+              "prompt": "Ta quille tombe avant que la boule roule. Quel contrôle fais-tu et que modifies-tu si besoin ?",
+              "answer": "Je vérifie si le pied est posé à plat et si le pli tient. Je refais le pli ou je choisis un carton plus rigide avec l’adulte.",
+              "explanation": "Une réponse réussie propose un contrôle de stabilité et une correction liée à ce contrôle.",
               "type": "open",
               "id": "DP-U7-L1-E2"
             }
           ],
           "source": "Curriculum CE2, artisanat et constructions artistiques, U7, p.162.",
-          "practical": [],
+          "practical": [
+            "Sur un carton préparé par l’adulte, marque le pli à 4 cm du bord et forme le pied. Vérifie que la quille reste debout, puis fais rouler une boule de papier de la taille de ta paume vers elle."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Construire des jouets avec les matériaux de l’environnement », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Gabarit de la quille",
+              "kind": "table",
+              "body": "La vue de gauche montre le carton à plat. La vue de droite montre le pied posé sur la table après le pli.",
+              "table": {
+                "headers": [
+                  "Partie",
+                  "Mesure sur le modèle"
+                ],
+                "rows": [
+                  [
+                    "Carton à plat",
+                    "8 cm × 14 cm"
+                  ],
+                  [
+                    "Pied plié",
+                    "4 cm de long"
+                  ],
+                  [
+                    "Face de la quille",
+                    "10 cm de haut"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, artisanat et constructions artistiques, U7, p.162.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
+          },
+          "figure": {
+            "src": "assets/ce2-dp-quille.svg",
+            "alt": "Le rectangle à plat mesure 8 cm de large et 14 cm de long. Un pli à 4 cm d’un bord sépare le pied de la face de 10 cm. De profil, le pied est horizontal."
           }
         },
         {
@@ -2816,52 +2835,71 @@
           "objectives": [
             "Récolter les produits du jardin, les consommer ou les commercialiser dans une activité pédagogique."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Récolter, consommer ou commercialiser les produits du jardin ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "La classe a récolté huit bottes de feuilles avec l’adulte. Deux sont réservées à la cuisine. Les autres iront au stand simulé. Combien de bottes faut-il inscrire sur la fiche du stand ?",
           "learn": [
-            "Je récolte au bon moment, manipule proprement les produits et comprends la différence entre consommation et vente."
+            "L’adulte aide à repérer ce qui peut être récolté et préparé pour le repas. La classe compte les bottes et sépare la part de la cuisine de celle du stand.",
+            "L’étiquette indique le produit et le prix par unité. Dans le jeu de rôle, on inscrit le nombre de bottes vendues et la somme reçue.",
+            "La recette du stand est la somme reçue pour les ventes. Pour savoir ce qui reste, on retire du stock de départ le nombre d’unités vendues."
           ],
-          "takeaway": "Je récolte au bon moment, manipule proprement les produits et comprends la différence entre consommation et vente.",
+          "takeaway": "Je compte la récolte, je répartis les parts et je tiens le relevé du stand.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Récolter, consommer ou commercialiser les produits du jardin » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je récolte au bon moment, manipule proprement les produits et comprends la différence entre consommation et vente. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Combien de bottes vont au stand avant la première vente ? Montre le calcul.",
+              "answer": "8 − 2 = 6 bottes.",
+              "explanation": "Les deux bottes réservées à la cuisine sont retirées du total récolté.",
               "type": "open",
               "id": "DP-U7-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Récolter, consommer ou commercialiser les produits du jardin ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je récolte au bon moment, manipule proprement les produits et comprends la différence entre consommation et vente.",
-              "explanation": "",
+              "prompt": "Après la vente de quatre bottes, combien reste-t-il au stand et quelle est la recette ?",
+              "answer": "Il reste 6 − 4 = 2 bottes. La recette vaut 4 × 100 = 400 F CFA.",
+              "explanation": "Sépare le nombre d’unités encore au stand de l’argent reçu.",
               "type": "open",
               "id": "DP-U7-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U7, p.164.",
-          "practical": [],
+          "practical": [
+            "Dessine huit bottes sur des cartes. Place deux cartes à la cuisine et les autres au stand. Joue quatre ventes et écris la recette et le stock restant."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Récolter, consommer ou commercialiser les produits du jardin », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Fiche du jardin et du stand",
+              "kind": "table",
+              "body": "Les montants du stand sont fictifs. L’adulte dirige toute récolte et toute préparation réelle du repas.",
+              "table": {
+                "headers": [
+                  "Repère",
+                  "Valeur dans le jeu"
+                ],
+                "rows": [
+                  [
+                    "Récolte",
+                    "8 bottes"
+                  ],
+                  [
+                    "Part pour la cuisine",
+                    "2 bottes"
+                  ],
+                  [
+                    "Prix affiché",
+                    "100 F CFA la botte"
+                  ],
+                  [
+                    "Ventes du matin",
+                    "4 bottes"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales, U7, p.164.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -2871,52 +2909,70 @@
             "Entretenir l’animal en élevage.",
             "Réaliser un menu pour la ration de croissance."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Entretenir l’animal et préparer un menu de croissance ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le tournoi de quilles commence à 10 h. La fiche prévoit un passage de l’adulte au poulailler à 8 h et un repas à midi. Qui s’occupe du carnet avant le jeu et que propose l’équipe du repas ?",
           "learn": [
-            "Je prends soin du vivant avec un adulte et je compose un menu varié et équilibré."
+            "Les soins de l’élevage ont leur propre horaire. L’adulte vérifie l’eau, l’aliment et l’abri, puis un élève reporte les observations données par l’adulte.",
+            "L’équipe du repas peut écrire une fiche avec une base, une source de protéines, des légumes ou un fruit et de l’eau potable.",
+            "Sur le planning, chaque tâche a un moment et une personne responsable. On sait ainsi qui assure les soins et qui présente le menu."
           ],
-          "takeaway": "Je prends soin du vivant avec un adulte et je compose un menu varié et équilibré.",
+          "takeaway": "Je répartis les tâches du poulailler et du repas avec un horaire et un responsable pour chacune.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Entretenir l’animal et préparer un menu de croissance » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je prends soin du vivant avec un adulte et je compose un menu varié et équilibré. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "L’adulte prévu à 8 h est absent. Que doit préciser le groupe sur la fiche avant de jouer ?",
+              "answer": "Il indique quel autre adulte prend le relais et à quelle heure il vérifiera l’eau, l’aliment et l’abri.",
+              "explanation": "La réponse garde un horaire et une personne pour les soins, même si l’organisation du jeu change.",
               "type": "open",
               "id": "DP-U7-L3-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Entretenir l’animal et préparer un menu de croissance ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je prends soin du vivant avec un adulte et je compose un menu varié et équilibré.",
-              "explanation": "",
+              "prompt": "Les haricots du menu manquent. Propose un remplacement et présente le repas complet.",
+              "answer": "Par exemple riz, œuf cuit, légumes, orange et eau potable.",
+              "explanation": "Le remplacement doit garder une source de protéines. Les autres aliments et l’eau restent indiqués.",
               "type": "open",
               "id": "DP-U7-L3-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales p.164 et domestiques p.167, U7.",
-          "practical": [],
+          "practical": [
+            "Joue la réunion du matin. Un élève lit le planning de l’élevage, un autre présente le menu. Le groupe place les activités sur une ligne du temps."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Entretenir l’animal et préparer un menu de croissance », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Planning de la journée des jeux",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Heure",
+                  "Activité",
+                  "Rôle"
+                ],
+                "rows": [
+                  [
+                    "8 h",
+                    "Vérifier l’eau, l’aliment et l’abri",
+                    "Adulte de l’élevage. L’élève tient le carnet."
+                  ],
+                  [
+                    "10 h",
+                    "Jouer aux quilles",
+                    "Équipe du jeu"
+                  ],
+                  [
+                    "12 h",
+                    "Présenter le menu",
+                    "Équipe du repas. Exemple : riz, haricots, légumes, orange et eau potable."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales p.164 et domestiques p.167, U7.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         }
       ],
@@ -2926,37 +2982,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Construire des jouets avec les matériaux de l’environnement",
-            "answer": "Je choisis du matériel propre, non coupant et réutilisable et je respecte les mesures du modèle."
+            "prompt": "Pour une quille de 14 cm avec un pied de 4 cm, calcule la hauteur de la face et indique où faire le pli.",
+            "answer": "14 − 4 = 10 cm pour la face (2 points). Plier à 4 cm du bord qui forme le pied (2 points)."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Récolter, consommer ou commercialiser les produits du jardin",
-            "answer": "Je récolte au bon moment, manipule proprement les produits et comprends la différence entre consommation et vente."
+            "prompt": "Une quille tombe sur la table. Propose deux vérifications avant de jouer.",
+            "answer": "Par exemple vérifier que le pied repose à plat et que le carton tient sa forme. Compte 2 points par contrôle pertinent."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Entretenir l’animal et préparer un menu de croissance",
-            "answer": "Je prends soin du vivant avec un adulte et je compose un menu varié et équilibré."
+            "prompt": "Sur huit bottes récoltées, deux vont à la cuisine. Quatre sont vendues à 100 F CFA. Calcule la part du stand au départ et la recette.",
+            "answer": "8 − 2 = 6 bottes au départ (2 points). 4 × 100 = 400 F CFA de recette (2 points)."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Construire des jouets avec les matériaux de l’environnement",
-            "answer": "Je choisis du matériel propre, non coupant et réutilisable et je respecte les mesures du modèle."
+            "prompt": "Écris le passage de 8 h pour le planning du poulailler. Précise qui le fait et les trois contrôles.",
+            "answer": "L’adulte vérifie l’eau, l’aliment et l’abri. Compte 1 point pour le responsable et pour chacun des trois contrôles."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Récolter, consommer ou commercialiser les produits du jardin",
-            "answer": "Je récolte au bon moment, manipule proprement les produits et comprends la différence entre consommation et vente."
+            "prompt": "Compose le menu de midi avec une base, une source de protéines, un légume ou un fruit et une boisson.",
+            "answer": "Par exemple riz, œuf cuit, orange et eau potable. Compte 1 point pour chaque rôle représenté."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Vérifie le pli de la quille avec une règle et teste sa stabilité sur une table plane.",
+        "Dessine huit bottes, entoure la part de la cuisine et recompte la part du stand.",
+        "Reprends le programme de la matinée et relie chaque tâche à une personne et à une heure."
       ],
-      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Fabrique une quille de table avec un carton propre, organise une récolte et un stand sur papier, puis répartis les tâches avant le jeu et le repas."
     }
   ],
   "integration_project": {

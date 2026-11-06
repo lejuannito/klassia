@@ -44,11 +44,15 @@ Les 29 leçons des unités 4 à 8 ont reçu des supports originaux et 58 exercic
 
 Les 45 leçons des unités 4 à 8 ont été reprises avec 90 exercices corrigés, quatre figures, cinq bilans et 88 QCM. Les sources et les points d’arbitrage du curriculum sont documentés. [Détail du lot](CE2_SCIENCES_HUMAINES_SOCIALES.md)
 
-### Prochain lot CE2 — développement personnel
+### Développement personnel CE2 — lot réalisé
 
-L’indicateur de découverte générique signale encore 45 leçons. La priorité porte sur les 16 leçons de développement personnel, avec des situations à lire, à jouer et à discuter, et des corrections adaptées aux réponses ouvertes.
+Les 16 leçons des unités 4 à 8 ont reçu des modèles à observer, des fiches de suivi, des mises en situation et 32 exercices ouverts corrigés. Les cinq bilans et les 60 QCM ont été alignés sur ces activités. [Détail du lot](CE2_DEVELOPPEMENT_PERSONNEL.md)
 
-Viennent ensuite les arts (15), l’EPS (9) et le bassa (5). Pour les cinq leçons bassa, enrichir la séquence autour des propositions lexicales déjà présentes et de leurs variantes acceptées.
+### Prochain lot CE2 — arts
+
+L’indicateur de découverte générique signale encore 29 leçons. Les 15 leçons d’arts sont prioritaires. Pour chaque leçon, proposer un exemple à observer ou à écouter, une production guidée et des critères de réussite.
+
+Viennent ensuite l’EPS (9) et le bassa (5). Pour les cinq leçons bassa, enrichir la séquence autour des propositions lexicales déjà présentes et de leurs variantes acceptées.
 
 ## Consolidation ultérieure
 

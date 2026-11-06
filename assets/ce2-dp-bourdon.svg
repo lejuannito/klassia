@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" role="img" aria-labelledby="title desc">
+  <title id="title">Remplir une feuille au point de bourdon</title>
+  <desc id="desc">À gauche, une base de fil reste à l’intérieur de la feuille. À droite, des points rapprochés relient les deux bords et couvrent la base.</desc>
+  <defs>
+    <path id="leaf" d="M76 153Q158 66 240 153Q158 240 76 153Z"/>
+    <clipPath id="leaf-clip"><use href="#leaf"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="596" height="276" rx="20" fill="#f9f7f1" stroke="#d9d2c4" stroke-width="2"/>
+  <path d="M300 74v165" stroke="#d9d2c4" stroke-width="2"/>
+  <g font-family="sans-serif" fill="#263746">
+    <text x="28" y="42" font-size="25" font-weight="bold">Broder une feuille</text>
+    <text x="44" y="86" font-size="19" font-weight="bold">1. Préparer la base</text>
+    <text x="328" y="86" font-size="19" font-weight="bold">2. Couvrir le motif</text>
+    <text x="158" y="236" text-anchor="middle" font-size="17">Fil à l’intérieur du contour</text>
+    <text x="442" y="236" text-anchor="middle" font-size="17">Points serrés d’un bord à l’autre</text>
+  </g>
+  <use href="#leaf" fill="#fffdf6" stroke="#275641" stroke-width="2"/>
+  <path d="M119 142h78m-91 11h104m-91 11h78" stroke="#aa7440" stroke-width="5" stroke-linecap="round"/>
+  <g transform="translate(284 0)">
+    <use href="#leaf" fill="#337451"/>
+    <g clip-path="url(#leaf-clip)" stroke="#8cc69b" stroke-width="3">
+      <path d="M80 101v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104m7-104v104"/>
+    </g>
+    <use href="#leaf" fill="none" stroke="#275641" stroke-width="2"/>
+  </g>
+</svg>

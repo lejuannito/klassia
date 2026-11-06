@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "327dea93aa6c03a8ea67d03cf3d031e88ddd2808f2311a95fedb2c6aa97f8e4b",
+  "version": "53cc3d0bda529376d16c15d5d176c050669c1c2f8b6fdadb663d95a129da7ac4",
   "files": [
     {
       "url": "./app.js",
@@ -12,6 +12,18 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/ce2-circuit-conductivite.svg",
       "sha256": "a63d4bb84eeeea6f0ae22dd4927508171c7e3dabda65399ef5b1c926c766c6c9"
+    },
+    {
+      "url": "./assets/ce2-dp-bourdon.svg",
+      "sha256": "179fe9d8e5167fbaf6a3063854fe2c072539be1dbb38a360867e6d7be19711c6"
+    },
+    {
+      "url": "./assets/ce2-dp-quille.svg",
+      "sha256": "e18719adf1a0de442d152406230ca8f281d90dfa321fb9e8da427e81d4f224ae"
+    },
+    {
+      "url": "./assets/ce2-dp-tissage.svg",
+      "sha256": "df0dd0e5fa1c42aa4a1172ad256960b5ed9921fa11cb97a10b3b805dd2258fe4"
     },
     {
       "url": "./assets/ce2-estuaire-wouri.svg",
@@ -131,27 +143,27 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/content-u4.json",
-      "sha256": "4d2ad0c33b82fff982a7d3d4d556d7a7910878c4efd22c65f3a31c64366523cf"
+      "sha256": "1342ded805ada0cc2b8b2c0e7b26bc84e169a76edf2ccd10132903f409dfcb4e"
     },
     {
       "url": "./data/content-u5.json",
-      "sha256": "c32a3e1ca58f75e4370f1a48abeb4aa01a31de8ff352ab89b29ba0dd35951f11"
+      "sha256": "a147fb362815948f9ae6084687e6be19d3d66911dde29ca587a1cfc61840d67d"
     },
     {
       "url": "./data/content-u6.json",
-      "sha256": "19450056170d9a7aa2433dec61792493c2671fe00f08e84aadd281e07cddbb25"
+      "sha256": "07178f61d2999ec2e485ecb7dacbb49c1d3ae5282a96e698ea11459724344801"
     },
     {
       "url": "./data/content-u7.json",
-      "sha256": "fdd49342c6deb8e7d6b95ff743227b1b819e1038738fca1b8a2a5da1bb473d30"
+      "sha256": "3a69ebb2a062cdf00b78a44d1240d996099b861fef3cdc5c891ec38d97422252"
     },
     {
       "url": "./data/content-u8.json",
-      "sha256": "e4c8f3dbcd02cb02cb10dc9ce1d6aaf7c55d5ebee13843cf72d3ab54c78ded85"
+      "sha256": "8369a25ea9f42bb8b1da3c1ab9e6ad436f79fc59b6ccdc51172feaaf445138c2"
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "ecfccc2a0d78b6d1ebd60b32e56483c426b668c62a4632439495ac07731d84eb"
+      "sha256": "cbc75a5657687811625fe9036b8bab855d2a3be211a76d62ea9ac50119fa32a2"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -167,23 +179,23 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/qcm-u4.json",
-      "sha256": "fafd1cd57e9d8f256fbacefcc1d83f5f64eb31a3d0f84fbb17e9e0d5ad6e4537"
+      "sha256": "6239fb1e3f0aeefb384d9a2cf78597294a0b1758d3ddaf0bc4331c5706257047"
     },
     {
       "url": "./data/qcm-u5.json",
-      "sha256": "d3343c45029d5146b923ad3c9dcd9f0e581a384e14efac17035ddaa8b69c3296"
+      "sha256": "b1011732ff46ea2342809ffb8a7a4e7c803abb9ab679c606fd25b93a3086e67f"
     },
     {
       "url": "./data/qcm-u6.json",
-      "sha256": "21b50f707d8bf9af880a2b2e90b6b20f63094e2e72aa8f6dcc4fc9bb4db8f229"
+      "sha256": "ce5a34d5cb1b94f129cec6627d2ec1ff5748c07ddf48902e1542600d54d3416d"
     },
     {
       "url": "./data/qcm-u7.json",
-      "sha256": "6b5d50ff7c1fa00010254f63969f64ebbfb36f6d2fc87369339717246bd06c76"
+      "sha256": "0be67bb4cf0115a34c40441cfad21bcdfb4a24c440cc826c9763e8c3c38af20d"
     },
     {
       "url": "./data/qcm-u8.json",
-      "sha256": "cc83570a72ed5147320bbf80fbea2062368070bb99417fe319447e033a6ea82b"
+      "sha256": "fbcd727cef1c36baf29837548d035b1be0e5ef4e2527f5ae7df02b178487844b"
     },
     {
       "url": "./gs/data/catalog-v13.json",

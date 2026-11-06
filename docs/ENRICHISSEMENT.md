@@ -25,4 +25,6 @@ Les 39 leçons françaises CE2 U4–U8 apportent cinq récits originaux, deux po
 
 Les 45 leçons de sciences humaines et sociales CE2 U4–U8 ajoutent des documents à lire, des cartes et des mises en situation, puis des exercices et des évaluations alignés. [Détail et sources](CE2_SCIENCES_HUMAINES_SOCIALES.md)
 
+Les 16 leçons de développement personnel CE2 U4–U8 s’appuient sur des gestes à observer, des gabarits et des carnets à compléter. Les corrigés des exercices ouverts indiquent ce qui fait réussir la tâche. [Détail et sources](CE2_DEVELOPPEMENT_PERSONNEL.md)
+
 La progression globale et les limites de couverture restent suivies dans [la trajectoire](TRAJECTOIRE.md).

@@ -2367,54 +2367,65 @@
           "objectives": [
             "Expliquer ou mettre en scène la commercialisation ou la consommation de l’animal élevé dans le cadre pédagogique prévu."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Commercialiser ou consommer l’animal élevé ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le club présente le bilan de son projet d’élevage. Pour une vente simulée, la fiche indique deux poules à 2 500 F CFA chacune. Pour l’autre scénario, l’adulte organise un repas. Quelle information change selon le choix ?",
           "learn": [
-            "L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte."
+            "Commercialiser signifie proposer un produit à la vente. Dans le jeu de rôle, la fiche de vente indique le produit, la quantité et le prix par unité.",
+            "Pour le scénario du repas, la fiche indique la destination prévue et l’adulte responsable. Une même quantité peut être suivie par des fiches différentes selon son usage.",
+            "On joue les deux scénarios sur papier. Pour tout projet réel, l’adulte responsable décide avec l’école, veille au bien-être des animaux et organise la suite selon les règles applicables."
           ],
-          "takeaway": "L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte.",
+          "takeaway": "Je communique la destination du produit, la quantité et la personne qui assure la suite.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Commercialiser ou consommer l’animal élevé » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Les deux cartes sont vendues dans le jeu. Quelle recette inscris-tu ? Montre le calcul.",
+              "answer": "2 × 2 500 F CFA = 5 000 F CFA.",
+              "explanation": "La recette utilise le prix par unité et le nombre de ventes.",
               "type": "open",
               "id": "DP-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Commercialiser ou consommer l’animal élevé ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte.",
-              "explanation": "",
+              "prompt": "Le club choisit le scénario du repas. Écris une phrase qui indique la destination et la responsabilité.",
+              "answer": "Par exemple : « Deux unités sont réservées au repas de l’école. L’adulte du projet organise la suite. »",
+              "explanation": "Ton message doit préciser le choix, la quantité et le rôle de l’adulte.",
               "type": "open",
               "id": "DP-U8-L1-E2"
             }
           ],
           "source": "Curriculum CE2, activités agropastorales, U8, p.164.",
-          "practical": [],
+          "practical": [
+            "Avec deux cartes représentant les poules, joue la présentation du bilan. Un camarade joue l’adulte du projet. Montre-lui une fiche de vente, puis une fiche de repas et explique ce qui change."
+          ],
           "notes": [
             "Toute activité réelle impliquant un animal relève des adultes responsables et des règles locales."
           ],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Commercialiser ou consommer l’animal élevé », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Deux fiches de fin de projet",
+              "kind": "table",
+              "body": "Les données et les ventes sont fictives. On manipule des cartes de papier.",
+              "table": {
+                "headers": [
+                  "Choix simulé",
+                  "Ce que dit la fiche"
+                ],
+                "rows": [
+                  [
+                    "Vente",
+                    "2 poules à 2 500 F CFA chacune. L’équipe du stand note la recette du jeu."
+                  ],
+                  [
+                    "Repas",
+                    "Quantité réservée au repas de l’école. L’adulte responsable organise la préparation."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités agropastorales, U8, p.164.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         },
         {
@@ -2423,52 +2434,70 @@
           "objectives": [
             "Réaliser un menu pour la ration de croissance."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Réaliser un menu pour la ration de croissance ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Le tableau d’affichage dit seulement « Repas à midi : maïs ». Un camarade doit préparer les cartes des plats et de la boisson. Que faut-il ajouter pour qu’il puisse lire le menu complet ?",
           "learn": [
-            "Je choisis des aliments variés, disponibles et préparés dans de bonnes conditions d’hygiène."
+            "Une fiche de menu nomme le repas, ses plats et sa boisson. Quand on la lit à voix haute, on doit pouvoir retrouver tous les aliments.",
+            "Pour un exemple de repas d’enfant, on peut associer du maïs cuit, du poisson cuit, des légumes, un fruit et de l’eau potable.",
+            "Si un aliment manque, propose une autre option qui garde la variété. Présente la nouvelle fiche à la personne qui organise le repas."
           ],
-          "takeaway": "Je choisis des aliments variés, disponibles et préparés dans de bonnes conditions d’hygiène.",
+          "takeaway": "Je présente un menu varié dans une fiche assez claire pour être relayée à quelqu’un d’autre.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Réaliser un menu pour la ration de croissance » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je choisis des aliments variés, disponibles et préparés dans de bonnes conditions d’hygiène. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Le poisson manque. Prépare une nouvelle affiche qui garde une source de protéines, le fruit et la boisson.",
+              "answer": "Par exemple : « Repas de midi : maïs cuit et haricots, feuilles cuisinées, papaye, eau potable. »",
+              "explanation": "Les haricots remplacent le poisson comme source de protéines. La fiche précise le fruit et l’eau.",
               "type": "open",
               "id": "DP-U8-L2-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Réaliser un menu pour la ration de croissance ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je choisis des aliments variés, disponibles et préparés dans de bonnes conditions d’hygiène.",
-              "explanation": "",
+              "prompt": "Ton camarade a lu le plat, l’accompagnement et le fruit. Quelle rubrique doit-il encore annoncer ? Donne son contenu.",
+              "answer": "La boisson. Le menu prévoit de l’eau potable.",
+              "explanation": "Une annonce complète contient les plats et ce que l’on boit.",
               "type": "open",
               "id": "DP-U8-L2-E2"
             }
           ],
           "source": "Curriculum CE2, activités domestiques et familiales, U8, p.167.",
-          "practical": [],
+          "practical": [
+            "Prépare une affiche sur papier et lis-la à ton voisin. Il redit le menu sans regarder la fiche. Corrige ensemble ce qui a été oublié et écris une variante avec un autre aliment disponible."
+          ],
           "notes": [],
           "manual_sections": [
             {
-              "title": "Préparer avant d’agir",
-              "kind": "method",
-              "body": "Dans l’activité « Réaliser un menu pour la ration de croissance », commence par réunir le matériel autorisé et organiser l’espace. Lis ou écoute toutes les étapes avant de commencer. Un bon travail manuel, domestique ou agropastoral dépend autant de la préparation et de la sécurité que du résultat final."
-            },
-            {
-              "title": "Réaliser puis contrôler",
-              "kind": "activity",
-              "body": "Effectue l’activité étape par étape. À la fin, utilise trois critères pour te corriger : le travail répond-il à la consigne ? est-il propre et fonctionnel ? le matériel et l’espace ont-ils été rangés correctement ?"
-            },
-            {
-              "title": "Sécurité",
-              "kind": "warning",
-              "body": "Les outils coupants, aiguilles, appareils chauds, produits ménagers, produits phytosanitaires et autres matériels à risque ne sont utilisés que dans les conditions prévues et sous la supervision d’un adulte. On ne goûte jamais un produit inconnu et on se lave les mains après les activités salissantes."
+              "title": "Affiche du repas de midi",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Rubrique",
+                  "Annonce de la classe"
+                ],
+                "rows": [
+                  [
+                    "Plat",
+                    "Maïs cuit et poisson cuit"
+                  ],
+                  [
+                    "Accompagnement",
+                    "Feuilles cuisinées"
+                  ],
+                  [
+                    "Fruit",
+                    "Papaye"
+                  ],
+                  [
+                    "Boisson",
+                    "Eau potable"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, activités domestiques et familiales, U8, p.167.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "dp-specific-2026-11-06"
           }
         }
       ],
@@ -2478,37 +2507,37 @@
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Commercialiser ou consommer l’animal élevé",
-            "answer": "L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte."
+            "prompt": "Pour la vente simulée, indique le produit, la quantité et le prix par unité. Donne aussi la destination inscrite dans le scénario du repas.",
+            "answer": "Poules, deux, 2 500 F CFA chacune, repas de l’école. Compte 1 point par information."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Réaliser un menu pour la ration de croissance",
-            "answer": "Je choisis des aliments variés, disponibles et préparés dans de bonnes conditions d’hygiène."
+            "prompt": "Calcule la recette quand les deux unités sont vendues au prix indiqué de 2 500 F CFA chacune.",
+            "answer": "2 × 2 500 = 5 000 F CFA. Attribue 1 point pour la quantité, 1 pour le prix par unité, 1 pour l’opération et 1 pour le résultat avec son unité."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Commercialiser ou consommer l’animal élevé",
-            "answer": "L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte."
+            "prompt": "Écris un message pour dire que le club choisit le repas. Précise la quantité et qui organise la suite.",
+            "answer": "Par exemple : « Deux unités sont réservées au repas de l’école. L’adulte du projet organise la préparation. » Compte 1 point pour la destination, la quantité, le responsable et son rôle."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Réaliser un menu pour la ration de croissance",
-            "answer": "Je choisis des aliments variés, disponibles et préparés dans de bonnes conditions d’hygiène."
+            "prompt": "Fais une affiche du repas de midi avec une base, une source de protéines, un fruit ou un légume et une boisson.",
+            "answer": "Par exemple : maïs cuit, poisson cuit, papaye et eau potable. Compte 1 point par rôle représenté."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Commercialiser ou consommer l’animal élevé",
-            "answer": "L’activité doit respecter l’hygiène, le bien-être animal, les règles familiales/scolaires et l’encadrement adulte."
+            "prompt": "Sur ton affiche, remplace le poisson, indique ce que tu gardes pour boire et explique pourquoi ce remplacement convient.",
+            "answer": "Par exemple, proposer des haricots (1 point), garder l’eau potable (1 point) et expliquer que les haricots apportent aussi des protéines (2 points)."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Complète d’abord la colonne quantité, puis lis le prix par unité avant de calculer.",
+        "Compare les deux fiches de destination et écris qui assure la suite du projet.",
+        "Demande à un camarade de redire le menu. Ajoute les informations qu’il n’a pas pu retrouver."
       ],
-      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Développement personnel développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Présente une décision prise dans un projet d’élevage et communique un menu par écrit et à l’oral. Les fiches servent à vérifier ce que les autres ont compris."
     }
   ],
   "integration_project": {

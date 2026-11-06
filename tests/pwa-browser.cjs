@@ -213,6 +213,35 @@ async function run() {
     await bassaExercise.getByRole('button', { name: 'Voir la correction' }).click();
     assert.match(await bassaExercise.locator('.feedback').innerText(), /cahier.*s’il te plaît/);
     console.log('PASS offline CE2 Bassa lessons, proposed forms and open correction');
+
+    await page.goto(base + 'ce1/#lesson:CE1-U1-L01');
+    await page.getByRole('heading', { name: 'L’album sous la table' }).waitFor();
+    const reading = page.locator('.lesson-support');
+    const story = await reading.innerText();
+    assert.match(story, /Épisode 1.*Épisode 2.*Épisode 3/s);
+    await page.waitForFunction(() => document.querySelector('.lesson-support img')?.naturalWidth > 0);
+    const cards = reading.getByRole('img', { name: /Trois cartes illustrées/ });
+    const cardBounds = await cards.boundingBox();
+    assert.ok(cardBounds && cardBounds.x >= 0 && cardBounds.x + cardBounds.width <= 390);
+    assert.equal(await reading.getByRole('listitem').count(), 3);
+    assert.equal(await page.locator('.answer-reveal[open]').count(), 0);
+    const chronology = page.locator('.practice-item').first();
+    await chronology.locator('summary').click();
+    assert.match(await chronology.locator('.answer-reveal').innerText(), /B, C, A/);
+
+    await page.goto(base + 'ce1/#lesson:CE1-U6-L01');
+    await page.getByRole('heading', { name: 'La gourde d’Amadou' }).waitFor();
+    assert.match(await page.locator('.lesson-support').innerText(), /Le début.*Fin A.*Fin B/s);
+    await page.getByText(/Écris ta propre fin en deux ou trois phrases/).waitFor();
+    const response = page.locator('#lessonResponse');
+    const ending = 'Nelly aperçoit la gourde sur le banc. Amadou la prend avant de rejoindre la classe.';
+    await response.fill(ending);
+    assert.equal(await page.locator('.answer-reveal[open]').count(), 0);
+    const rubric = page.locator('.answer-reveal').first();
+    await rubric.locator('summary').click();
+    assert.match(await rubric.innerText(), /Pour relire ta fin.*personnage du début.*problème de la gourde.*résultat.*ponctuation/s);
+    assert.equal(await response.inputValue(), ending);
+    console.log('PASS offline CE1 illustrated reading and open ending with a correction rubric');
   } finally {
     await browser?.close();
     server.close();

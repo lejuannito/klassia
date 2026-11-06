@@ -1,9 +1,13 @@
 self.KLASSIA_RELEASE = {
-  "version": "c6c79065f073499bfb3060570be2963bd3ffdd98ec1709b2f830670d40d045ca",
+  "version": "e5c702e11f3db5e2bd2210f3d4466ed8bb62ce493f2647f7d4d16b3f19315a6d",
   "files": [
     {
       "url": "./app.js",
       "sha256": "b90fe73a799d8ddffc20a16f18ee370c54de9278e25b84de815c37b3bc2c7639"
+    },
+    {
+      "url": "./assets/ce1-u1-album-cartes.svg",
+      "sha256": "dae18302c9c09514adffa31d2220bd1e7a0c2d44707bce722981c005abd4ffa3"
     },
     {
       "url": "./assets/ce2-aires-protegees.svg",
@@ -99,7 +103,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/unit1.json",
-      "sha256": "4f4fb7c7477c94b5eb0af6abee7284236a809171350b50b469132ab606e47353"
+      "sha256": "403f842d3cd82aeea91d9f90a98f3a83de2468bb6f38cf119c0dce5db2d4e570"
     },
     {
       "url": "./ce1/data/unit2.json",
@@ -119,7 +123,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/unit6.json",
-      "sha256": "903a73849c33364d60bad4f0aae59763d7d6a28003bc4125ddb3b8dd7e329e07"
+      "sha256": "9844485bf85374f4bf90e34d7caa4b223c734c435b253e9f1ea462e632740dd7"
     },
     {
       "url": "./ce1/data/unit7.json",
@@ -367,7 +371,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "250e48a6ea91efab30a81617cd9e075ca24970aa80013329b4b801412df513ea"
+      "sha256": "ca6f4a4dcb2b0760b151247135c55b3337fe89131e96fb5931ff4c15403cdfbc"
     },
     {
       "url": "./shared/search.css",

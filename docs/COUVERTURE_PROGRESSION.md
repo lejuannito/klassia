@@ -1,15 +1,15 @@
 # Couverture du curriculum et progression des cinq classes
 
-Relevé du 6 novembre 2026 sur le contenu de Klassia au commit de référence [de701af](https://github.com/lejuannito/klassia/commit/de701af1fc9bb75f846f3370a44a3c3bdef0d41a). Ce premier passage examine 30 repères, soit six par classe. Il couvre le langage et la lecture, l’écriture, le calcul, les arts, la motricité et un repère d’anglais. La matrice part des attendus des tableaux du MINEDUB, puis rapproche les supports, consignes et retours réellement présents dans Klassia. [Matrice des 30 repères](MATRICE_CURRICULUM.csv)
+Relevé du 6 novembre 2026 sur le contenu de Klassia au commit de référence [de701af](https://github.com/lejuannito/klassia/commit/de701af1fc9bb75f846f3370a44a3c3bdef0d41a). Le premier passage examine 30 repères, soit six par classe. Le tableau intègre la mise à jour des deux leçons du CE1 décrites ci-dessous. Il couvre le langage et la lecture, l’écriture, le calcul, les arts, la motricité et un repère d’anglais. La matrice part des attendus des tableaux du MINEDUB, puis rapproche les supports, consignes et retours réellement présents dans Klassia. [Matrice des 30 repères](MATRICE_CURRICULUM.csv)
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
 | Moyenne section | 160 | 5 | 1 | 0 |
 | Grande section | 162 | 1 | 5 | 0 |
 | SIL | 88 | 4 | 1 | 1 |
-| CE1 | 87 | 1 | 5 | 0 |
+| CE1 | 87 | 3 | 3 | 0 |
 | CE2 | 347 | 4 | 2 | 0 |
-| **Total** | **844** | **15** | **14** | **1** |
+| **Total** | **844** | **17** | **12** | **1** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -24,11 +24,14 @@ Un repère est **couvert** lorsque le support, la tâche et le critère d’éva
 
 L’anglais est rapproché des références effectivement visées par les contenus. Les repères maternels utilisent Nursery One et Nursery Two, la SIL utilise Class 1 et le CE1 Class 3 pour les activités de langue. Le repère d’anglais du CE2 suit la discipline English Language du curriculum francophone. La comparaison avec Class 4 relève d’un travail distinct.
 
+## Corrections du CE1
+
+La lecture de l’U1 s’appuie sur un récit original en trois épisodes, des cartes illustrées et une réponse qui demande un indice du texte. En U6, l’élève compare deux fins, écrit sa propre suite et la relit avec quatre critères. L’observation en classe précisera le degré d’aide nécessaire. [Lecture U1](../ce1/data/unit1.json) · [Production écrite U6](../ce1/data/unit6.json) · [Fiche de positionnement](DIAGNOSTIC_ENTREE_CE1.md)
+
 ## Corrections à engager
 
-1. **CE1, lecture et production écrite.** Construire un récit suivi avec les supports annoncés pour [CE1-U1-L01](../ce1/data/unit1.json). Pour [CE1-U6-L01](../ce1/data/unit6.json), fournir le début d’une histoire, deux fins à comparer et un corrigé qui permette de vérifier la fin rédigée par l’élève. La fiche de positionnement permet de choisir les reprises à l’entrée en CE1.
-2. **MS, GS et SIL.** Pour la MS, expliciter le décalage entre les identifiants T5 et T6 et les thèmes animal et végétal du curriculum. En GS, relier les modèles d’écriture des chiffres 1 à 10 à une tâche chiffrée du thème des transports. En SIL, ajouter l’activité de distinction des couleurs primaires de l’unité 1. [GS et Bassa](GS_BASSA.md) · [Activités SIL de l’unité 1](../sil/data/sil-u1.json)
-3. **Évaluations des arts et de la motricité.** En CE1, compléter les retours verbaux par l’observation d’une composition et d’un enchaînement de passes. Étendre ensuite le rapprochement aux autres attendus, avec les références et les décisions de relecture renseignées par repère.
+1. **MS, GS et SIL.** Pour la MS, expliciter le décalage entre les identifiants T5 et T6 et les thèmes animal et végétal du curriculum. En GS, relier les modèles d’écriture des chiffres 1 à 10 à une tâche chiffrée du thème des transports. En SIL, ajouter l’activité de distinction des couleurs primaires de l’unité 1. [GS et Bassa](GS_BASSA.md) · [Activités SIL de l’unité 1](../sil/data/sil-u1.json)
+2. **Évaluations des arts et de la motricité.** En CE1, compléter les retours verbaux par l’observation d’une composition et d’un enchaînement de passes. Étendre ensuite le rapprochement aux autres attendus, avec les références et les décisions de relecture renseignées par repère.
 
 Pour étendre la matrice, attribuer un identifiant interne à chaque nouvel attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une même ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
 

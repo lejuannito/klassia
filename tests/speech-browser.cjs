@@ -19,7 +19,13 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
   const p=await ctx.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
   async function visit(route){await p.goto('http://localhost:8768'+route);await p.locator('.speech-control').first().waitFor();}
   async function say(lang,index=0){const btn=p.locator(`[data-speech-lang="${lang}"]`).nth(index);await btn.click();await p.waitForFunction(()=>spoken.length>0);const u=await p.evaluate(()=>spoken.at(-1));assert.equal(u.lang.split('-')[0],lang.split('-')[0]);assert.equal(u.voice,u.lang);await p.evaluate(()=>spoken=[]);return u;}
-  for(const route of ['/?unit=U4#lesson:FR-U4-L1','/?unit=U1#lesson:MA-U1-L2','/sil/#lesson:SIL-U1-L03','/ce1/#lesson:CE1-U1-L01']){await visit(route);await say('fr-FR');}
+  for(const route of ['/?unit=U4#lesson:FR-U4-L1','/?unit=U1#lesson:MA-U1-L2','/sil/#lesson:SIL-U1-L03']){await visit(route);await say('fr-FR');}
+  await visit('/ce1/#lesson:CE1-U1-L01');
+  const ce1Story = await say('fr-FR');
+  assert.match(ce1Story.text, /Épisode 1.*Épisode 2.*Épisode 3.*On continuera demain/s);
+  await visit('/ce1/#lesson:CE1-U6-L01');
+  const ce1Endings = await say('fr-FR');
+  assert.match(ce1Endings.text, /Le début.*Fin A.*Fin B/s);
   for(const route of ['/?unit=U1#lesson:EN-U1-L1','/sil/#lesson:SIL-U1-L02','/sil/#lesson:SIL-U1-P05','/ce1/#lesson:CE1-U1-L02']){await visit(route);const spoken=await say('en-GB');assert.ok(!spoken.text.includes('Séquence pilote conservée'));}
   for(const g of ['ms','gs']){await visit(`/${g}/?theme=T1#domain:LC:0`);await say('fr-FR');await say('en-GB');assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,g+' speech overflow');}
   await visit('/?unit=U4#lesson:FR-U4-L3');const story=await say('fr-FR',1);assert.match(story.text,/Le banc de la classe/);

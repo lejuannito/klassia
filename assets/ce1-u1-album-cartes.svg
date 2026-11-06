@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 624 210" role="img" aria-labelledby="title desc">
+  <title id="title">Trois cartes de L’album sous la table</title>
+  <desc id="desc">A montre la lecture sur les coussins. B montre la recherche sur l’étagère. C montre la découverte sous la table.</desc>
+  <defs>
+    <g id="aicha">
+      <path d="M-16 17Q0 4 16 17L21 47H-21Z" fill="#e6a526"/>
+      <circle cy="-1" r="15" fill="#542c25"/>
+      <circle cy="4" r="12" fill="#a75c3c"/>
+      <path d="M-12 0Q-3 0 4-8Q10-7 12 0V-8Q0-21-12-8Z" fill="#542c25"/>
+      <path d="M-4 9Q0 13 4 9" fill="none" stroke="#542c25" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <g id="moussa">
+      <path d="M-15 17Q0 5 15 17L19 44H-19Z" fill="#228271"/>
+      <circle cy="0" r="13" fill="#422723"/>
+      <circle cy="4" r="11" fill="#905139"/>
+      <path d="M-11-1Q0-6 11-1V-8Q0-18-11-8Z" fill="#422723"/>
+      <path d="M-4 9Q0 13 4 9" fill="none" stroke="#422723" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <g fill="none" stroke-width="2">
+    <rect x="8" y="8" width="196" height="194" rx="14" fill="#e8f5ea" stroke="#6c9e86"/>
+    <rect x="214" y="8" width="196" height="194" rx="14" fill="#eaf2fa" stroke="#7597b8"/>
+    <rect x="420" y="8" width="196" height="194" rx="14" fill="#fff1db" stroke="#b29060"/>
+  </g>
+  <g fill="#253b48">
+    <circle cx="34" cy="33" r="16"/><circle cx="240" cy="33" r="16"/><circle cx="446" cy="33" r="16"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="system-ui, sans-serif" font-size="21" font-weight="700">
+    <text x="34" y="40">A</text><text x="240" y="40">B</text><text x="446" y="40">C</text>
+  </g>
+
+  <g>
+    <rect x="42" y="145" width="69" height="27" rx="12" fill="#e8a694"/>
+    <rect x="105" y="145" width="70" height="27" rx="12" fill="#72bca6"/>
+    <use href="#aicha" transform="translate(77 100)"/>
+    <use href="#moussa" transform="translate(139 107)"/>
+    <path d="M75 139Q91 127 108 136Q126 127 142 139L135 163Q119 155 108 162Q95 155 81 163Z" fill="#fefbf1" stroke="#305f8b" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M108 137V162M88 140L101 139M116 139L130 141" fill="none" stroke="#7397b5" stroke-width="2" stroke-linecap="round"/>
+    <path d="M116 147L116 159L121 155L125 158L125 147Z" fill="#ba413c"/>
+  </g>
+
+  <g>
+    <rect x="304" y="64" width="77" height="106" rx="3" fill="#f8e4be" stroke="#865e39" stroke-width="5"/>
+    <path d="M306 99H379M306 135H379" stroke="#865e39" stroke-width="5"/>
+    <path d="M313 77H323V97H313ZM329 72H339V97H329ZM346 79H356V97H346Z" fill="#5281b4"/>
+    <path d="M356 120H373L369 133H360Z" fill="#ce9153" stroke="#865e39" stroke-width="2"/>
+    <rect x="316" y="148" width="48" height="16" rx="3" fill="none" stroke="#7d9eb6" stroke-width="2" stroke-dasharray="5 4"/>
+    <use href="#aicha" transform="translate(272 120)"/>
+    <path d="M286 142L304 151" stroke="#a75c3c" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <path d="M477 99H590V108H477Z" fill="#648caf"/>
+    <path d="M488 108V164M579 108V164" stroke="#547795" stroke-width="7" stroke-linecap="round"/>
+    <path d="M501 99L513 86H567L576 99Z" fill="#e0a86e"/>
+    <path d="M511 85H569" stroke="#ae7743" stroke-width="2" stroke-linecap="round"/>
+    <use href="#moussa" transform="translate(562 122) rotate(-27)"/>
+    <use href="#aicha" transform="translate(476 127) rotate(24)"/>
+    <path d="M519 165L553 157L565 170L531 179Z" fill="#3675ab" stroke="#244e78" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M546 160L554 158L561 166L553 167L550 172Z" fill="#c5453f"/>
+    <path d="M495 159L516 165" stroke="#a75c3c" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>

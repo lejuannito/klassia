@@ -53,8 +53,9 @@ La CI vérifie structure, stockage, service worker, navigation mobile, impressio
 - [Architecture et contrats](docs/ARCHITECTURE.md)
 - [Guide parents et enseignants](docs/GUIDE_PILOTE.md)
 - [Processus de relecture et publication](docs/VALIDATION_PEDAGOGIQUE.md)
-- [Feuille de route GS, SIL, CE1](docs/TRAJECTOIRE.md)
-- [Matrice de travail CSV](docs/couverture.csv)
+- [Feuille de route des cinq classes](docs/TRAJECTOIRE.md)
+- [Couverture du curriculum et progression](docs/COUVERTURE_PROGRESSION.md)
+- [Inventaire des ressources CSV](docs/couverture.csv)
 - [Métriques calculées](docs/metrics.json)
 
 Le dépôt ne comporte aucun serveur de comptes, paiement, synchronisation ou télémétrie. Les données d’apprentissage restent sur l’appareil ; les sauvegardes téléchargées contiennent les observations saisies par l’adulte et doivent être conservées avec soin.

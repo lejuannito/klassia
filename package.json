@@ -7,7 +7,7 @@
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.cjs",
     "validate": "node scripts/validate.mjs",
-    "test:browser": "node tests/browser.cjs",
+    "test:browser": "node tests/browser.cjs && node tests/pwa-browser.cjs",
     "build:public": "node scripts/build.mjs --public",
     "catalog": "node scripts/catalog.mjs",
     "audit:content": "node scripts/audit-content.mjs",

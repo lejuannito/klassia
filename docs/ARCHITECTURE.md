@@ -28,11 +28,11 @@ Les observations, tentatives et confiance déclarée sont distinctes. Les ancien
 
 ## Hors connexion
 
-`scripts/build.mjs` calcule les empreintes SHA-256 de tous les fichiers critiques. Le service worker charge une édition entière avec quatre téléchargements concurrents au maximum, vérifie les empreintes puis rend l’installation disponible. Tous les téléchargements se terminent avant de supprimer un cache incomplet. Un échec ne supprime pas l’édition précédente.
+`scripts/build.mjs` calcule les empreintes SHA-256 des fichiers critiques. Le service worker vérifie l’édition avec quatre téléchargements simultanés au maximum. Un échec ou un délai dépassé annule les téléchargements restants. Le service worker attend les écritures en cours avant de supprimer le cache créé par cette tentative. Il conserve les caches préexistants, y compris lorsque le manifeste désigne l’édition installée.
 
-Les pages et données sont servies depuis l’édition active, sans mélange entre caches. Les paramètres de thème n’affectent pas la clé du fichier HTML. Une URL non connue ne reçoit jamais le HTML CE2 comme secours à une page MS. Les icônes d’installation sont des ressources de présentation facultatives ; elles ne déterminent pas la disponibilité des apprentissages.
+Le service worker sert les pages et données de l’édition active. Lorsqu’un fichier critique manque, il vérifie l’empreinte de la réponse du serveur avant de l’utiliser. Les paramètres de thème conservent la même clé HTML. L’activation demandée depuis un onglet attend la fermeture des autres fenêtres Klassia. Le premier chargement continue sur la page ouverte lorsque le service worker prend le contrôle.
 
-La politique choisie télécharge actuellement CE2 et MS ensemble. Un découpage sélectif par classe/langue sera utile avec les futurs audios ; il devra conserver l’atomicité et l’intégrité par pack.
+Le téléchargement couvre les cinq classes et leur recherche commune. Un découpage ultérieur par classe ou langue devra vérifier l’intégrité de chaque pack.
 
 
 Les parcours SIL et CE1 partagent `shared/learning-app.js` et des catalogues de classe séparés. Les classes peuvent se parcourir par unité, matière ou domaine. Leurs ressources sont dans la revue éditoriale en statut `in_review`; une décision enregistrée localement ne publie ni ne modifie le JSON. SIL conserve ses huit anciennes clés de progression via des identifiants pilotes stables, et CE1 utilise sa propre clé incluse dans les sauvegardes.

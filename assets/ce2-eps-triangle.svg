@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 315" role="img" aria-labelledby="title desc">
+  <title id="title">Passer puis se replacer</title>
+  <desc id="desc">A passe au sol à B en bas à droite. Sans ballon, A se déplace vers le repère C en haut à droite.</desc>
+  <defs>
+    <marker id="ball" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#145d80"/></marker>
+    <marker id="step" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#29705c"/></marker>
+  </defs>
+  <rect width="620" height="315" rx="16" fill="#f0f9f4"/>
+  <g font-family="system-ui, sans-serif" fill="#193247">
+    <text x="24" y="36" font-size="25" font-weight="700">Passer puis se replacer</text>
+    <rect x="24" y="56" width="572" height="202" rx="12" fill="#fff" stroke="#9fc0b2" stroke-width="2"/>
+    <path d="M151 162 443 209" stroke="#145d80" stroke-width="4" fill="none" marker-end="url(#ball)"/>
+    <path d="M151 147Q301 78 443 99" stroke="#29705c" stroke-width="4" stroke-dasharray="9 6" fill="none" marker-end="url(#step)"/>
+    <circle cx="116" cy="156" r="27" fill="#145d80"/>
+    <circle cx="488" cy="214" r="27" fill="#145d80"/>
+    <circle cx="488" cy="104" r="27" fill="#e0f4e8" stroke="#29705c" stroke-width="3"/>
+    <g font-size="24" font-weight="700" text-anchor="middle">
+      <text x="116" y="165" fill="white">A</text><text x="488" y="223" fill="white">B</text><text x="488" y="113">C</text>
+    </g>
+    <g font-size="17" font-weight="650">
+      <text x="231" y="216">1 · Passe au sol</text>
+      <text x="216" y="84">2 · A se déplace sans ballon</text>
+    </g>
+    <text x="24" y="289" font-size="18">A rejoint le repère C pour que B puisse lui rendre la balle.</text>
+  </g>
+</svg>

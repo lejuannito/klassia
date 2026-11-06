@@ -830,24 +830,25 @@
           "objectives": [
             "Nommer des jeux traditionnels, expliquer les règles et décrire un jeu pratiqué dans la localité."
           ],
-          "discover": "Dans le thème « Les jeux », observe une situation concrète liée à « Jeux traditionnels de la localité ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Un camarade veut te montrer un jeu de sa famille. Quelles questions lui poses-tu pour savoir où se placer, comment jouer et quand le tour se termine ?",
           "learn": [
-            "Le parcours Klassia prépare la situation, les images, les intentions de communication et la progression pédagogique en français.",
-            "Les propositions documentaires disponibles sont consultables avec leur source et la mention « non validé ». Les phrases et audios non documentés restent à compléter; un référent peut arbitrer les formes proposées."
+            "Pour décrire un jeu de la localité, demande à une personne qui y joue son nom, le matériel, la façon de commencer et la règle qui termine un tour.",
+            "Dans le jeu d’essai de la fiche, compte les jetons et compare deux scores. Retrouve les entrées de zéro à cinq dans le panneau Bassa. Les entrées « applaudis » et « ami(e) » peuvent servir pour parler du tour.",
+            "Les personnes d’une même localité peuvent connaître des noms ou des règles différents. Note le nom et la règle que ton proche a expliqués, puis demande-lui comment les dire en bassa."
           ],
-          "takeaway": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "takeaway": "Je décris le jeu à partir d’un exemple réel de la localité et je m’entraîne avec les nombres et les mots du panneau.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Jeux traditionnels de la localité » et donne un exemple adapté au thème « Les jeux ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Dans le jeu d’essai, trois jetons sont dans la zone. Quelle entrée du panneau choisis-tu ? Que fait le joueur après le comptage ?",
+              "answer": "Je choisis « trois » et une forme affichée pour ce sens. Après le comptage, je laisse jouer l’autre.",
+              "explanation": "Associe le nombre de jetons dans la zone à la bonne entrée.",
               "type": "open",
               "id": "BA-U7-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Jeux traditionnels de la localité ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
-              "explanation": "",
+              "prompt": "Pose deux questions à un proche pour décrire un jeu de la localité. Explique pourquoi elles sont utiles.",
+              "answer": "Par exemple : « Comment s’appelle ce jeu ? » et « Comment se termine un tour ? ». Le nom permet de présenter le jeu et la fin du tour aide à expliquer sa règle.",
+              "explanation": "Les questions doivent permettre de retrouver des informations différentes sur le jeu.",
               "type": "open",
               "id": "BA-U7-L1-E2"
             },
@@ -860,82 +861,89 @@
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U7, pp.70-72.",
-          "practical": [],
+          "practical": [
+            "Joue un tour d’essai avec des disques en carton. Compare deux nombres dans le panneau. Avec un proche, remplis ensuite la fiche pour un jeu qu’il pratique ou connaît dans la localité."
+          ],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
           ],
           "manual_sections": [
             {
-              "title": "Parcours oral → lecture → écriture",
-              "kind": "method",
-              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
-            },
-            {
-              "title": "Travailler avec un locuteur compétent",
-              "kind": "activity",
-              "body": "À partir du thème « Les jeux », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Jeux traditionnels de la localité ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
-            },
-            {
-              "title": "Comparer sans mélanger",
-              "kind": "warning",
-              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
-            },
-            {
-              "title": "Lexique documentaire disponible — propositions non validées",
-              "kind": "text",
-              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
-              "items": [
-                "applaudis / clap : Ɓámb mɔ̀ɔ́ — Sources : Resulam/Bitjaa Kody 2020",
-                "oui / yes : Ŋ̀ŋ̂ — Sources : Resulam/Bitjaa Kody 2020",
-                "non / no : Tɔ̀ — Sources : Resulam/Bitjaa Kody 2020"
-              ]
+              "title": "Une fiche pour recueillir les règles",
+              "kind": "table",
+              "body": "La colonne de droite montre un jeu d’essai inventé pour apprendre à décrire. Remplis une nouvelle colonne pour le jeu que l’on te présente.",
+              "table": {
+                "headers": [
+                  "Ce que je demande",
+                  "Exemple du jeu d’essai"
+                ],
+                "rows": [
+                  [
+                    "Nom et matériel",
+                    "Les cinq jetons, cinq disques en carton et une ligne au sol."
+                  ],
+                  [
+                    "Début",
+                    "Chaque joueur se place derrière la ligne à son tour."
+                  ],
+                  [
+                    "Action",
+                    "Il fait glisser les cinq jetons vers la zone dessinée."
+                  ],
+                  [
+                    "Fin du tour",
+                    "On compte les jetons dans la zone, puis on laisse jouer l’autre."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, langues et cultures nationales, U7, pp.70-72.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "bassa-specific-2026-11-06"
           }
         }
       ],
       "assessment": {
-        "title": "Évaluation - Langues et cultures nationales — parcours Bassa",
+        "title": "Bilan accompagné — bassa",
         "total": 20,
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Jeux traditionnels de la localité",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Donne les quatre renseignements à recueillir pour présenter un jeu.",
+            "answer": "Nom, matériel, début, fin du tour. Un repère par renseignement."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Jeux traditionnels de la localité",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Présente le jeu d’essai en précisant le matériel, le placement, le geste et la fin d’un tour.",
+            "answer": "Cinq jetons et une ligne, derrière la ligne, faire glisser vers la zone, compter et changer de joueur. Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Jeux traditionnels de la localité",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Deux joueurs ont trois et cinq jetons dans la zone. Donne les deux nombres et essaie une forme affichée pour chacun.",
+            "answer": "Trois et cinq, puis une forme proposée à chaque entrée. Quatre repères."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Jeux traditionnels de la localité",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Dans le panneau, retrouve « ami(e) » et « applaudis ». Associe une proposition à chacun de ces deux sens.",
+            "answer": "Un repère par sens et par forme proposée."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Jeux traditionnels de la localité",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Présente un jeu de la localité expliqué par un proche. Donne le nom recueilli, le matériel et deux règles ou actions.",
+            "answer": "Quatre repères conformes à la description recueillie. Un adulte peut accompagner les mots en bassa."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre une seule carte et dire ce que montre la situation en français.",
+        "Vérifier le sens dans le panneau Bassa et comparer les variantes avec un adulte qui parle la langue.",
+        "Jouer à nouveau la scène en donnant un repère de plus."
       ],
-      "chapter_intro": "Dans l’unité « Les jeux », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Prépare la description d’un jeu pratiqué dans la localité et entraîne-toi à nommer les nombres et les gestes utiles."
     },
     {
       "id": "MA",

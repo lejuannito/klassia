@@ -810,24 +810,25 @@
           "objectives": [
             "Nommer des outils traditionnels de communication, décrire des situations et mettre en scène une communication traditionnelle."
           ],
-          "discover": "Dans le thème « Les communications », observe une situation concrète liée à « Communications traditionnelles ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "Dans le jeu de rôle, un messager doit dire où aura lieu le rassemblement. Un autre groupe utilise un signal sonore convenu. Dans quel cas faut-il connaître un code à l’avance ?",
           "learn": [
-            "Le parcours Klassia prépare la situation, les images, les intentions de communication et la progression pédagogique en français.",
-            "Les propositions documentaires disponibles sont consultables avec leur source et la mention « non validé ». Les phrases et audios non documentés restent à compléter; un référent peut arbitrer les formes proposées."
+            "Un messager transmet oralement une annonce. Pour que l’autre personne puisse agir, il faut donner l’événement et un repère, comme le lieu ou le moment.",
+            "Le Musée maritime de Douala présente un tam-tam messager sawa, un exemple d’instrument de communication. Demande à un proche quels moyens étaient utilisés dans sa localité et dans quelles occasions.",
+            "Dans le panneau Bassa, « nom », « cahier » et « s’il te plaît » aident à préparer une petite scène. L’entrée « salue-moi » correspond à une demande adressée à quelqu’un qui peut te saluer."
           ],
-          "takeaway": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "takeaway": "Je choisis un moyen de transmettre le message, je vérifie ce qui a été compris et je choisis les bons sens dans le panneau.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Communications traditionnelles » et donne un exemple adapté au thème « Les communications ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Dans le message oral de la fiche, donne le lieu et le moment. Comment vérifier qu’ils sont compris ?",
+              "answer": "Près du préau, après la classe. Demande au destinataire de redire le lieu et le moment.",
+              "explanation": "La reformulation doit garder les deux repères.",
               "type": "open",
               "id": "BA-U8-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Communications traditionnelles ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
-              "explanation": "",
+              "prompt": "Tu demandes le cahier poliment. Quelles entrées du panneau vérifies-tu et que doit-on convenir pour que les deux coups soient compris ?",
+              "answer": "Je vérifie « cahier » et « s’il te plaît ». Le groupe doit connaître le sens donné aux deux coups avant le signal.",
+              "explanation": "Utilise les deux mots dans leurs entrées et distingue la demande orale du code sonore.",
               "type": "open",
               "id": "BA-U8-L1-E2"
             },
@@ -840,81 +841,89 @@
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U8, pp.70-72.",
-          "practical": [],
+          "practical": [
+            "À trois, jouez le messager, le destinataire et l’observateur. Le messager annonce le lieu et le moment. Le destinataire les redit. Pour préparer une autre scène, retrouve « cahier », « nom » et « s’il te plaît » dans le panneau Bassa."
+          ],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
           ],
           "manual_sections": [
             {
-              "title": "Parcours oral → lecture → écriture",
-              "kind": "method",
-              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
-            },
-            {
-              "title": "Travailler avec un locuteur compétent",
-              "kind": "activity",
-              "body": "À partir du thème « Les communications », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Communications traditionnelles ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
-            },
-            {
-              "title": "Comparer sans mélanger",
-              "kind": "warning",
-              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
-            },
-            {
-              "title": "Lexique documentaire disponible — propositions non validées",
-              "kind": "text",
-              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
-              "items": [
-                "livre / book : káat / Kaat añ — Sources : CNRS/LGIDF Basaa ; Culture Basaa (Pondi Pondi, 2009)",
-                "cahier / notebook : Héfté / Héfté matila — Sources : Culture Basaa (Pondi Pondi, 2009)"
-              ]
+              "title": "Deux façons de transmettre une annonce",
+              "kind": "table",
+              "body": "Les deux coups de la fiche sont un code inventé pour le jeu de rôle. Un proche peut raconter un exemple de communication de la localité.",
+              "table": {
+                "headers": [
+                  "Moyen",
+                  "Situation de jeu",
+                  "Ce que le destinataire doit comprendre"
+                ],
+                "rows": [
+                  [
+                    "Message oral par un messager",
+                    "Le rassemblement se fera près du préau après la classe.",
+                    "Le lieu et le moment."
+                  ],
+                  [
+                    "Signal sonore convenu",
+                    "Deux coups donnés doucement sur une boîte pour commencer.",
+                    "Le sens de « deux coups » a été expliqué au groupe."
+                  ],
+                  [
+                    "Trace dans un cahier",
+                    "Écris le nom du destinataire et les deux repères.",
+                    "Le destinataire, le lieu et le moment restent consultables."
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, langues et cultures nationales, U8, pp.70-72.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "bassa-specific-2026-11-06"
           }
         }
       ],
       "assessment": {
-        "title": "Évaluation - Langues et cultures nationales — parcours Bassa",
+        "title": "Bilan accompagné — bassa",
         "total": 20,
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Nomme deux moyens de communication de la fiche et donne un exemple d’usage de chacun.",
+            "answer": "Messager qui annonce un rassemblement, signal sonore convenu qui marque un départ. Un repère par moyen et usage."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Donne le lieu, le moment, le rôle qui transmet et ce que fait le destinataire pour confirmer.",
+            "answer": "Préau, après la classe, messager, redire les repères. Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Explique le code du jeu. Donne le nombre de coups, le sens, la personne qui l’écoute et comment elle a appris ce sens.",
+            "answer": "Deux coups, commencer, le groupe, sens expliqué avant le jeu. Un repère par élément."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Retrouve « cahier » et « s’il te plaît » et essaie une forme pour chaque sens.",
+            "answer": "Un repère par sens et par forme proposée correspondante."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Communications traditionnelles",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Joue une annonce courte. Donne le destinataire, un lieu, un moment et une manière de vérifier la compréhension.",
+            "answer": "Quatre repères en accord avec la scène. Avec un adulte, essaie une formulation orale adaptée à la localité."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre une seule carte et dire ce que montre la situation en français.",
+        "Vérifier le sens dans le panneau Bassa et comparer les variantes avec un adulte qui parle la langue.",
+        "Jouer à nouveau la scène en donnant un repère de plus."
       ],
-      "chapter_intro": "Dans l’unité « Les communications », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Compare un message oral et un signal sonore, puis joue une courte scène avec des mots du panneau Bassa."
     },
     {
       "id": "MA",

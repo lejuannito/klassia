@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "50705ad6ead2bb21744aae2883a5872b21159031daad114d7e2044be8adba5f6",
+  "version": "c6c79065f073499bfb3060570be2963bd3ffdd98ec1709b2f830670d40d045ca",
   "files": [
     {
       "url": "./app.js",
@@ -167,27 +167,27 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/content-u4.json",
-      "sha256": "a9af3bd847561f937742b0c796eb6355296382e9de540c089c7e7a9986b3e53d"
+      "sha256": "f328bf8db9ae2e33e50c5c0516668c3dbfa74758bc41a638bbdd201b996a8096"
     },
     {
       "url": "./data/content-u5.json",
-      "sha256": "c2ac03e4310de955768ad419f3c195b7b6fb9edb3e92126bd418faeb02d3091f"
+      "sha256": "cba8db2e607e5b6d3671291f1bb922222d2733d7e16178803331c8274caa2917"
     },
     {
       "url": "./data/content-u6.json",
-      "sha256": "6e8bc51b9ba06ed5a4ed8d6c63ec54f5a7fffa0d0b45f67c75d633b25d12844e"
+      "sha256": "094c9818c80a9322ade0d0b2fdbdc5678b17e1dbdbcb86153fb9a72db8cb7886"
     },
     {
       "url": "./data/content-u7.json",
-      "sha256": "15c31d43e6f720ad26c4ddde1b1e21c72222be406d3c881f0960ac1ad6ac64aa"
+      "sha256": "1d772b801a59b417fb939cd776e9116c1abb4df6d6542c530d543fa949a1a228"
     },
     {
       "url": "./data/content-u8.json",
-      "sha256": "c487c053c64501abc9c7a1a3eae7540c75ce0212035edb2ff3b9d2270f68ae64"
+      "sha256": "9dcddc485a75b259e03c07b6e01949903602e96f668c85fd67e7e1c6bd185da9"
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "3df5b0d4f49626bce9c03db5fceab37bc54acec8ef8f0ded9cffc7086af6640a"
+      "sha256": "b925569ec77e44eca7f43753f7c8859b19f65a37e5c3d75afb5cbefd91efe040"
     },
     {
       "url": "./data/qcm-u1.json",

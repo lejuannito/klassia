@@ -56,11 +56,13 @@ Les 15 leçons des unités 4 à 8 proposent des modèles visuels, des portées, 
 
 Les neuf leçons des unités 4 à 8 couvrent les sports collectifs et la communication en équipe. Elles proposent deux schémas, 18 exercices corrigés, cinq bilans et 60 QCM alignés. [Détail du lot](CE2_EPS.md)
 
-### Prochain lot CE2 — bassa
+### Bassa CE2 — lot réalisé
 
-Il reste cinq leçons à découverte générique. Enrichir leurs séquences autour des propositions lexicales déjà présentes et de leurs variantes acceptées.
+Les cinq leçons des unités 4 à 8 proposent des scènes, dix exercices ouverts et des bilans accompagnés. Le lexique documentaire, ses variantes acceptées et la suspension des QCM historiques sont conservés. [Détail du lot](CE2_BASSA.md)
 
-## Consolidation ultérieure
+L’audit ne relève plus de découverte générique dans le périmètre CE2 suivi. La prochaine étape est de consolider la couverture du curriculum et la progression des cinq classes, avec une relecture des lots enrichis.
+
+## Consolidation
 
 - couverture et progression des cinq classes ;
 - supports sonores/visuels maîtrisés, dont enregistrements bassa à prononciation vérifiée ;

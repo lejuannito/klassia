@@ -845,24 +845,25 @@
           "objectives": [
             "Comparer les activités dans les différents métiers de la communauté."
           ],
-          "discover": "Dans le thème « Les métiers », observe une situation concrète liée à « Comparer des activités de différents métiers ». Que sais-tu déjà ? Que faut-il vérifier pour répondre correctement ?",
+          "discover": "À l’école, une personne aide un enfant à lire. Au centre de santé, une autre accueille un patient. Que fait chacune ? Quel sens choisis-tu dans le panneau Bassa ?",
           "learn": [
-            "Le parcours Klassia prépare la situation, les images, les intentions de communication et la progression pédagogique en français.",
-            "Les propositions documentaires disponibles sont consultables avec leur source et la mention « non validé ». Les phrases et audios non documentés restent à compléter; un référent peut arbitrer les formes proposées."
+            "Pour comparer deux métiers, dis où chaque personne travaille, ce qu’elle fait et quel objet ou matériau elle utilise.",
+            "Dans le panneau Bassa, choisis l’entrée « enseignant(e) » ou « médecin / travailleur clinique » selon la carte. Pour comparer des matériaux d’atelier, retrouve « bois (pluriel) » et « coton ». Les graphies proposées peuvent varier.",
+            "Prépare la comparaison en français avec la fiche. Avec un adulte qui parle bassa, essaie ensuite de dire la comparaison et demande-lui comment il l’exprimerait dans sa localité."
           ],
-          "takeaway": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
+          "takeaway": "Je compare deux activités et je choisis une proposition bassa qui correspond au métier ou au matériau nommé.",
           "exercises": [
             {
-              "prompt": "Explique avec tes mots l’idée essentielle de « Comparer des activités de différents métiers » et donne un exemple adapté au thème « Les métiers ».",
-              "answer": "Réponse attendue : retrouver l’idée essentielle suivante : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées. L’exemple doit être cohérent avec la situation étudiée.",
-              "explanation": "",
+              "prompt": "Compare les cartes École et Centre de santé. Indique deux actions et choisis les deux entrées correspondantes.",
+              "answer": "À l’école, on aide les élèves à lire. Au centre de santé, on examine un patient. Choisis « enseignant(e) » et « médecin / travailleur clinique ». Toute forme affichée pour le sens choisi est recevable.",
+              "explanation": "Donne une action par carte et vérifie chaque mot dans l’entrée qui lui correspond.",
               "type": "open",
               "id": "BA-U4-L1-E1"
             },
             {
-              "prompt": "Auto-vérification : cite une règle, une étape ou un exemple qui montre que tu as compris « Comparer des activités de différents métiers ».",
-              "answer": "L’élève doit citer un élément exact tiré de la leçon, par exemple : Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées.",
-              "explanation": "",
+              "prompt": "Compare le matériau de la menuiserie et celui du textile. Essaie une proposition bassa pour chacun.",
+              "answer": "La menuiserie du modèle utilise des morceaux de bois. L’atelier textile utilise du coton. Les deux réponses se vérifient séparément dans les entrées « bois (pluriel) » et « coton ».",
+              "explanation": "Le mot doit correspondre au matériau de la carte.",
               "type": "open",
               "id": "BA-U4-L1-E2"
             },
@@ -875,80 +876,93 @@
             }
           ],
           "source": "Curriculum CE2, langues et cultures nationales, U4, pp.70-72.",
-          "practical": [],
+          "practical": [
+            "Choisis deux cartes. Explique une différence entre les gestes ou les lieux, puis entraîne-toi sur les deux sens correspondants dans le panneau Bassa. Compare les propositions avec un adulte qui parle bassa."
+          ],
           "notes": [
             "VALIDATION_BASSA_REQUIRED: aucun lexique ou énoncé Bassa nouveau n’est généré automatiquement."
           ],
           "manual_sections": [
             {
-              "title": "Parcours oral → lecture → écriture",
-              "kind": "method",
-              "body": "Pour une langue nationale, l’oral sert de point d’appui : écouter un locuteur ou un enregistrement validé, répéter en faisant attention aux sons, reconnaître ensuite les formes écrites, puis produire de courtes phrases. Les formes Bassa spécifiques doivent être confirmées par une ressource linguistique fiable ou un enseignant compétent avant publication."
-            },
-            {
-              "title": "Travailler avec un locuteur compétent",
-              "kind": "activity",
-              "body": "À partir du thème « Les métiers », demande à un locuteur compétent de proposer une courte expression adaptée à la leçon « Comparer des activités de différents métiers ». Écoute-la, répète-la, fais expliquer son sens et son contexte d’emploi, puis note uniquement la graphie validée."
-            },
-            {
-              "title": "Comparer sans mélanger",
-              "kind": "warning",
-              "body": "Dans un environnement multilingue, une même idée peut être exprimée en plusieurs langues. On peut comparer les façons de dire, mais on évite d’inventer un mot en transposant directement le français. La prononciation, les tons et l’orthographe doivent rester cohérents avec la norme retenue."
-            },
-            {
-              "title": "Lexique documentaire disponible — propositions non validées",
-              "kind": "text",
-              "body": "Ces entrées offrent un point de départ lexical, pas une traduction complète du récit ou de la situation. Toutes les variantes sont consultables; l’atelier Bassa permet de les essayer et de consigner un arbitrage.",
-              "items": [
-                "médecin / travailleur clinique : dòktà / dokta / dokte — Sources : Cameroon Basaa course / ERIC OCR"
-              ]
+              "title": "Quatre cartes à comparer",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Carte",
+                  "Ce que fait la personne",
+                  "Sens à chercher dans le panneau"
+                ],
+                "rows": [
+                  [
+                    "École",
+                    "Elle aide les élèves à lire.",
+                    "Enseignant(e)"
+                  ],
+                  [
+                    "Centre de santé",
+                    "Elle accueille et examine un patient.",
+                    "Médecin / travailleur clinique"
+                  ],
+                  [
+                    "Menuiserie",
+                    "On assemble des morceaux pour faire un tabouret.",
+                    "Bois (pluriel)"
+                  ],
+                  [
+                    "Atelier du textile",
+                    "On prépare de la fibre pour faire du fil.",
+                    "Coton"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {
-            "status": "draft",
+            "status": "in_review",
             "validation": "pending",
             "source": "Curriculum CE2, langues et cultures nationales, U4, pp.70-72.",
-            "reviewer": null
+            "reviewer": null,
+            "revision": "bassa-specific-2026-11-06"
           }
         }
       ],
       "assessment": {
-        "title": "Évaluation - Langues et cultures nationales — parcours Bassa",
+        "title": "Bilan accompagné — bassa",
         "total": 20,
         "items": [
           {
             "points": 4,
-            "prompt": "Explique la notion suivante et donne un exemple : Comparer des activités de différents métiers",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Compare les cartes École et Centre de santé en donnant le lieu et une action pour chacune.",
+            "answer": "École et aide à la lecture, centre de santé et examen du patient. Un repère par lieu et action."
           },
           {
             "points": 4,
-            "prompt": "Mets en application la compétence suivante : Comparer des activités de différents métiers",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Donne une entrée bassa pour chacune de ces deux cartes, puis essaie une forme affichée par entrée.",
+            "answer": "Enseignant(e), médecin / travailleur clinique et une forme proposée pour chaque sens. Quatre repères."
           },
           {
             "points": 4,
-            "prompt": "Indique la règle ou l’idée essentielle de : Comparer des activités de différents métiers",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Compare les deux ateliers. Donne leur activité principale et leur matériau.",
+            "answer": "Menuiserie, fabriquer un tabouret, morceaux de bois. Textile, préparer du fil, coton. Un repère par action et matériau."
           },
           {
             "points": 4,
-            "prompt": "Résous ou explique une situation liée à : Comparer des activités de différents métiers",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Retrouve les entrées « bois (pluriel) » et « coton ». Pour chacune, indique le sens et une proposition affichée.",
+            "answer": "Un repère pour chaque sens et chaque forme associée. Les variantes affichées sont recevables."
           },
           {
             "points": 4,
-            "prompt": "Montre ce que tu as retenu de : Comparer des activités de différents métiers",
-            "answer": "Je réalise la compétence prévue par le curriculum en Bassa uniquement avec des formes linguistiques validées."
+            "prompt": "Présente un métier observé dans ta localité. Donne le nom, le lieu, un geste et une comparaison avec une carte.",
+            "answer": "Quatre repères adaptés au métier observé. L’adulte qui parle bassa peut accompagner la mise en mots."
           }
         ]
       },
       "remediation": [
-        "Reprendre la leçon avec une situation plus concrète et un exemple guidé.",
-        "Faire verbaliser la règle ou la démarche avant de refaire un exercice.",
-        "Proposer une activité courte ciblée sur l’erreur observée."
+        "Reprendre une seule carte et dire ce que montre la situation en français.",
+        "Vérifier le sens dans le panneau Bassa et comparer les variantes avec un adulte qui parle la langue.",
+        "Jouer à nouveau la scène en donnant un repère de plus."
       ],
-      "chapter_intro": "Dans l’unité « Les métiers », le chapitre de Langues et cultures nationales — parcours Bassa développe les apprentissages par des explications, méthodes, exemples guidés et activités d’application. Les contenus restent alignés sur les objectifs et références du curriculum indiqués dans chaque leçon."
+      "chapter_intro": "Compare des métiers à partir de leurs gestes et de leurs matériaux. Retrouve des mots bassa dans les fiches du lexique."
     },
     {
       "id": "MA",

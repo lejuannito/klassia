@@ -22,6 +22,8 @@ Le lot du 6 novembre protège le cache installé lors d’un échec, indique le 
 
 Les listes de manuels scolaires fournies par le porteur de projet servent de **repères d’usage scolaire**, distincts des curricula officiels. Les photographies et la synthèse privée ne doivent pas être publiées dans le dépôt public.
 
+Le premier rapprochement couvre les 62 leçons de sciences et de TIC du CE2. La matrice relie les leçons aux pages du curriculum MINEDUB et indique les supports à compléter. Les deux titres COSMOS sont attestés par les listes publiques. Leur comparaison chapitre par chapitre reste à vérifier à partir des sommaires ou extraits. [Matrice de couverture CE2](CE2_SCIENCES_TIC.md)
+
 Objectifs :
 
 - retrouver, lorsque cela est légalement et publiquement possible, sommaires, tables des matières, présentations éditeur ou extraits autorisés des ouvrages identifiés ;
@@ -35,6 +37,8 @@ Cette recherche documentaire doit être menée séparément des tâches de codag
 ## Enrichissement CE2
 
 ### 2. Sciences et TIC CE2
+
+**Prochain sous-lot à produire.** Enrichir les 10 leçons de l’U4 « Les métiers » en suivant la matrice de couverture. Poursuivre ensuite par unité jusqu’à U8.
 
 Périmètre repéré :
 

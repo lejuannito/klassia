@@ -6,7 +6,7 @@ Manuel interactif camerounais pour un usage **accompagné**. Cette branche conso
 
 Ouvrir la racine du site pour le CE2, `ms/` pour la moyenne section, `gs/` pour la grande section bilingue, `sil/` pour la SIL ou `ce1/` pour le CE1. Le bouton « Changer d’espace » permet de passer aux vues enfant, parent, enseignant ou administration locale. Le lien « Validation pédagogique » reste visible dans toutes les classes. Ces espaces sont des vues locales sans compte sécurisé; les décisions de revue restent sur l’appareil et sont exportables. Aucun téléphone ni mot de passe n’est demandé ; il ne s’agit pas de comptes sécurisés.
 
-Attendre le message **« CE2, MS, GS, SIL et CE1 disponibles hors connexion »** avant de couper la connexion. Une mise à jour incomplète n’active pas une édition partielle. Une nouvelle édition vérifiée propose un rechargement explicite. L’export manuel reste nécessaire avant de changer d’appareil ou de vider les données du navigateur.
+Attendre le message **« CE2, MS, GS, SIL et CE1 disponibles hors connexion »** avant de couper la connexion. « Vérifier les mises à jour » indique si l’édition est à jour ou si le téléchargement doit être repris. En cas d’interruption, les fichiers déjà installés restent accessibles. Pour appliquer une édition téléchargée et vérifiée, fermer les autres fenêtres Klassia puis choisir « Recharger avec la nouvelle édition ». Exporter sa sauvegarde avant de changer d’appareil ou de vider les données du navigateur.
 
 ## Ce qui change
 

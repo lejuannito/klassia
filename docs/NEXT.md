@@ -1,6 +1,6 @@
 # Klassia — prochain travail
 
-_Mise à jour : 4 novembre 2026_
+_Mise à jour le 6 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
@@ -10,29 +10,15 @@ Le correctif du moteur de lecture française est **présent sur `main`** (commit
 
 **Reste à vérifier sur smartphone réel** : prononciation effectivement française, démarrage, arrêt, changement de page et disponibilité hors connexion. Si échec, noter navigateur/appareil/message affiché et ouvrir une tâche de diagnostic ciblée plutôt que reprendre toute l'architecture.
 
-## Lot prioritaire
+## Recherche et mises à jour hors connexion
 
-### 1. Recherche rapide dans Klassia
+La recherche des 844 ressources a été fusionnée le 4 novembre 2026. Le guide de vérification mobile figure dans [RECHERCHE.md](RECHERCHE.md).
 
-Premier lot livré le 4 novembre 2026 : recherche locale des 844 ressources des cinq classes, filtres, extraits, liens directs et retour aux résultats, avec précache PWA. Voir `docs/RECHERCHE.md` pour les limites et la vérification sur smartphone. Les attendus ci-dessous définissent le périmètre de ce lot.
-
-Besoin : permettre à un parent, élève ou enseignant de saisir une notion vue dans un cahier (mot ou petite expression) et de retrouver rapidement **ce que Klassia contient sur cette notion**.
-
-Cible minimale :
-
-- recherche plein texte locale, sans serveur et compatible hors connexion ;
-- couvrir au minimum titres, objectifs, cours/supports et principaux mots-clés des ressources ;
-- résultats groupés par classe, matière/domaine et leçon/activité ;
-- extrait court montrant pourquoi le résultat correspond ;
-- clic vers la ressource concernée ;
-- tolérance raisonnable aux accents, casse et formes simples ;
-- ne pas introduire de moteur externe ni de dépendance lourde sans nécessité.
-
-Commencer par un diagnostic de l’architecture et proposer la solution minimale avant implémentation.
+Le lot du 6 novembre protège le cache installé lors d’un échec, indique le résultat de la vérification et demande de fermer les autres onglets Klassia avant le rechargement. Après fusion, vérifier sur téléphone le passage à la nouvelle édition, la reprise de la leçon et l’accès en mode avion. Pour ce premier passage depuis l’ancienne interface, fermer les autres onglets Klassia avant de cliquer sur « Recharger avec la nouvelle édition ».
 
 ## Lot éditorial / documentaire
 
-### 2. Couverture des manuels et référentiels
+### 1. Couverture des manuels et référentiels
 
 Les listes de manuels scolaires fournies par le porteur de projet servent de **repères d’usage scolaire**, distincts des curricula officiels. Les photographies et la synthèse privée ne doivent pas être publiées dans le dépôt public.
 
@@ -48,7 +34,7 @@ Cette recherche documentaire doit être menée séparément des tâches de codag
 
 ## Enrichissement CE2
 
-### 3. Sciences et TIC CE2
+### 2. Sciences et TIC CE2
 
 Périmètre repéré :
 
@@ -58,7 +44,7 @@ Périmètre repéré :
 
 Attendus : observations ou expériences simples lorsque pertinent, supports intégrés, exercices progressifs, corrections explicites et cohérence avec `docs/ENRICHISSEMENT.md`.
 
-### 4. Autres leçons génériques CE2
+### 3. Autres leçons génériques CE2
 
 Périmètre repéré : 90 leçons :
 

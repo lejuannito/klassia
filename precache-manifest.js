@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "0bb6be21eb4c75bd303d024e2ad770120431a18e9b110af01180a52db4999f7d",
+  "version": "7b11ca4a70705dc115b125681771fbeca98c2f57604036f12ddad1402eff3dc6",
   "files": [
     {
       "url": "./app.js",
@@ -267,7 +267,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./pwa.js",
-      "sha256": "4ab94507375736eb88d7bde10c3279f1048a63c83896d288b06a924dfa6ee31e"
+      "sha256": "915725203285baca50a64675364bb12aca8028b5baefc43bc6a56421375dd405"
     },
     {
       "url": "./search.html",
@@ -275,7 +275,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./service-worker.js",
-      "sha256": "73cc419dc444a451bf35cc82d13c52182b3b76e1d8dc870ce4b593f9626f9ddb"
+      "sha256": "863d65b9044ac96726564a121b7551445295ce509a436917c4e3cd5abee713fc"
     },
     {
       "url": "./shared/bassa.js",

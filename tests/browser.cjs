@@ -24,7 +24,13 @@ await p.goto('http://localhost:8765/sil/');await p.getByRole('heading',{name:'Pa
 await p.goto('http://localhost:8765/ce1/#lesson:CE1-U7-L04');await p.locator('.lesson-support table').waitFor();assert.match(await p.locator('.lesson-support').innerText(),/Rouge/);assert.equal(await p.locator('.lesson-card').count(),1);assert.equal(await p.locator('.answer-reveal[open]').count(),0);
 await p.locator('[data-progress="A"]').click();await p.reload();await p.locator('[data-progress="A"][aria-pressed="true"]').waitFor();
 await p.locator('[data-review]').click();await p.locator('#coverageGrade').waitFor();assert.equal(await p.locator('#coverageGrade').inputValue(),'CE1');await p.locator('[data-return]').click();await p.getByRole('heading',{name:'Lire un tableau à double entrée sur un jeu'}).waitFor();
-await p.locator('[data-space]').click();await p.locator('#localRole').selectOption('PARENT');await p.locator('#overviewDialog progress').last().waitFor();assert.equal(await p.locator('#overviewDialog progress').count(),5);assert.match(await p.locator('#overviewDialog').innerText(),/1 \/ 88/);await p.locator('#overviewDialog [aria-label="Fermer"]').click();await p.locator('[data-child]').click();await p.locator('[data-space]').filter({hasText:'Enfant'}).waitFor();
+await p.locator('[data-space]').click();await p.locator('#localRole').selectOption('PARENT');
+await p.locator('#overviewDialog progress').last().waitFor();
+assert.equal(await p.locator('#overviewDialog progress').count(),5);
+assert.match(await p.locator('#overviewDialog').innerText(),/CE1 bilingue\s+1 \/ 89/);
+await p.locator('#overviewDialog [aria-label="Fermer"]').click();
+await p.getByRole('link',{name:'Carnet du pilote',exact:true}).waitFor();
+await p.locator('[data-child]').click();await p.locator('[data-space]').filter({hasText:'Enfant'}).waitFor();
 for(const width of [320,390,1280]){await p.setViewportSize({width,height:844});assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'CE1 lesson overflow at '+width);}
 await p.goto('http://localhost:8765/?unit=U4#lesson:MA-U4-L2');await p.waitForFunction(()=>Klassia.storage.getItem('klassia_unit')==='U4');assert.equal(await p.evaluate(()=>Klassia.storage.getItem('klassia_unit')),'U4');
 await route('#domains-all');await p.getByRole('heading',{name:'Parcourir les domaines'}).waitFor();await route('#domain-all:2');assert.ok(await p.locator('a[href*="?unit="]').count()>0);

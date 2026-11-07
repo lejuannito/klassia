@@ -450,6 +450,54 @@
         }
       ],
       "scoring": "Aucun score linguistique officiel."
+    },
+    {
+      "id": "CE1-U1-L11",
+      "domain": "Mathématiques",
+      "title": "Mesurer et comparer des longueurs en centimètres",
+      "objective": "Lire une longueur sur une règle graduée, calculer une différence entre deux graduations et comparer en centimètres.",
+      "course": "La longueur est la distance entre les deux extrémités de l’objet. Aligne la règle avec l’objet. Si le départ est sur le zéro, lis directement l’arrivée. Pour un autre départ, soustrais les deux lectures. Écris l’unité.",
+      "model": "Sur le dessin, la bande A va de 2 cm à 9 cm. Elle mesure 9 − 2 = 7 cm. La bande B part de 0 et finit à 6. Elle mesure 6 cm.",
+      "support": {
+        "title": "Les bandes A et B sur une règle",
+        "figure": {
+          "src": "../assets/ce1-bandes-regle.svg",
+          "alt": "Règle en centimètres. A va de la graduation 2 à la graduation 9. B va de 0 à 6."
+        }
+      },
+      "guided": "Montre les deux graduations de départ et les deux arrivées sur le dessin. Mesure ensuite une bande réelle en posant le zéro au premier bord.",
+      "exercise": "Sur une autre règle, la bande C va de 3 cm à 8 cm. La bande D mesure 4 cm. Quelle bande est la plus longue ? Donne la différence.",
+      "answer": "C mesure 8 − 3 = 5 cm. Elle est plus longue que D de 1 cm.",
+      "practice": [
+        {
+          "prompt": "Une étiquette part de 1 cm et arrive à 7 cm. Quelle est sa longueur ?",
+          "answer": "6 cm.",
+          "explanation": "Il y a 6 intervalles de 1 cm entre 1 et 7."
+        },
+        {
+          "prompt": "Il faut une bande d’un décimètre. La bande du tiroir mesure 9 cm. Combien de centimètres lui manque-t-il ?",
+          "answer": "1 cm.",
+          "explanation": "1 dm = 10 cm. Il manque 10 − 9 = 1 cm."
+        }
+      ],
+      "remediation": "Colorier un intervalle de 1 cm. Faire compter les intervalles entre le départ et l’arrivée, puis retrouver la soustraction.",
+      "transfer": "Estimer les longueurs de deux objets sûrs de la maison, les mesurer, puis les ranger. Noter si l’élève indique l’unité et repère le départ.",
+      "materials": "Règle graduée en centimètres, bandes de papier et objets rectilignes.",
+      "source": {
+        "title": "Curriculum primaire francophone, niveau 2, MINEDUB 2018",
+        "pages": "Tableau 20, p. 84, CE1, U1",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-CE.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null
+      },
+      "competencies": [
+        "mesure à la règle graduée",
+        "comparaison des longueurs",
+        "centimètre et décimètre"
+      ]
     }
   ]
 }

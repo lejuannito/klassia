@@ -1827,6 +1827,20 @@
               "explanation": "Une porte a une hauteur de l’ordre de deux mètres. Le mètre donne une mesure plus commode à lire.",
               "type": "open",
               "id": "MA-U1-L5-E3"
+            },
+            {
+              "id": "MA-U1-L5-E4",
+              "type": "open",
+              "prompt": "Un ruban mesure 3 m. Il faut couper une bande de 2 m 40 cm. Quelle longueur restera-t-il ? Justifie avec une unité commune.",
+              "answer": "Il reste 60 cm.",
+              "explanation": "3 m = 300 cm et 2 m 40 cm = 240 cm. Le reste est 300 − 240 = 60 cm."
+            },
+            {
+              "id": "MA-U1-L5-E5",
+              "type": "open",
+              "prompt": "Un mur mesure 3 m 20 cm. Deux bandes de 1 m 75 cm et 1 m 60 cm sont posées bout à bout. Leur longueur totale suffit-elle ? Donne l’écart.",
+              "answer": "Oui. Les deux bandes mesurent 3 m 35 cm, soit 15 cm de plus que le mur.",
+              "explanation": "175 + 160 = 335 cm. Le mur mesure 320 cm. Il y a 335 − 320 = 15 cm de plus."
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 84 – Mesures et grandeurs, CE2.",
@@ -1879,6 +1893,11 @@
               "title": "Estimer avant de mesurer",
               "kind": "text",
               "body": "Avant d’utiliser l’instrument, donne une estimation. La hauteur d’une porte est souvent proche de 2 m. Une estimation aide à repérer une erreur d’unité ou de lecture."
+            },
+            {
+              "title": "Calculer après avoir choisi une unité commune",
+              "kind": "method",
+              "body": "Pour border une étagère, il faut deux morceaux de 2 m 35 cm et 45 cm. Convertis d’abord en centimètres. Il faut 235 + 45 = 280 cm. Avec un ruban de 3 m, soit 300 cm, il reste 20 cm. Vérifie que le reste et les morceaux totalisent 300 cm."
             }
           ],
           "editorial": {
@@ -1892,9 +1911,11 @@
             "observation": [
               "Propose une estimation et choisit l’instrument selon la longueur.",
               "Aligne le zéro et indique une graduation avec son unité.",
-              "Exprime la même longueur par 1 dam et par 10 m. Noter quel instrument l’élève a manipulé."
+              "Exprime la même longueur par 1 dam et par 10 m. Noter quel instrument l’élève a manipulé.",
+              "Convertit toutes les longueurs dans la même unité, choisit l’addition ou la soustraction et explique l’écart avec son unité."
             ],
-            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
+            "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour.",
+            "follow_up": "Faire inventer une autre longueur de ruban et un besoin à couvrir. Vérifier que les nombres sont cohérents puis proposer la situation au carnet pilote."
           }
         },
         {

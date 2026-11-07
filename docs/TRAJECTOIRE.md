@@ -6,11 +6,11 @@
 |---|---:|---|
 | Moyenne section bilingue | 160 activités | 8 thèmes |
 | Grande section bilingue | 162 activités | 8 thèmes, 5 domaines |
-| SIL bilingue | 89 leçons | 81 principales et 8 compléments pilotes |
-| CE1 bilingue | 88 leçons | 8 unités |
+| SIL bilingue | 90 leçons | 82 principales et 8 compléments pilotes |
+| CE1 bilingue | 89 leçons | 8 unités |
 | CE2 | 347 leçons | 8 unités |
 
-L’inventaire compte 846 ressources. Les progressions francophone et anglophone restent distinctes. Le CP intervient entre la SIL et le CE1.
+L’inventaire compte 848 ressources. Les progressions francophone et anglophone restent distinctes. Le CP intervient entre la SIL et le CE1.
 
 La navigation par unité/thème, matière et domaine, les profils locaux, l’accès permanent à la revue et les 45 panneaux de traductions bassa sont déjà présents. Toutes les variantes bassa affichées pour le sens demandé restent acceptées, y compris lorsqu’un enseignant les signale à revoir.
 
@@ -37,7 +37,7 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 2. **Vérification finale sur téléphone.** Sur Android et iPhone, vérifier les extraits, les voix de l’appareil, la lisibilité de la page Bassa et la reprise de la progression en mode avion. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
 3. **Retours du pilote.** Consolider les observations des familles et des enseignants. Reprendre les exercices qui demandent trop d’aide et faire un second essai. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
 
-Après consolidation du pilote, poursuivre le rapprochement des objectifs officiels, des contenus et des évaluations des cinq classes. Vérifier les prérequis et la difficulté en lecture, écriture, calcul pratique, arts et motricité. Présenter les liens curriculaires comme des propositions de correspondance et exploiter les manuels au niveau réellement consulté.
+L’approfondissement des cinq classes a commencé par les longueurs. Les séances du carnet proposent un premier essai, un point à observer et une variante à soumettre. Poursuivre le rapprochement des objectifs officiels, des contenus et des évaluations en lecture, écriture, calcul pratique, arts et motricité. Présenter les liens curriculaires comme des propositions de correspondance et exploiter les manuels au niveau réellement consulté. [Progression des longueurs](COUVERTURE_PROGRESSION.md#quatrième-relevé-sur-les-longueurs)
 
 ## Évolutions après consolidation de la cible initiale
 

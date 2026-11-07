@@ -1,15 +1,15 @@
 # Couverture du curriculum et progression des cinq classes
 
-Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute cinq repères en géométrie et orientation et complète le repère TIC du CE1. La matrice rapproche les attendus des tableaux du MINEDUB des supports, consignes et retours présents dans Klassia. [Matrice des 45 repères](MATRICE_CURRICULUM.csv)
+Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute la géométrie et l’orientation et complète le repère TIC du CE1. Le quatrième suit la progression des longueurs de la MS au CE2. La matrice rapproche les attendus des tableaux du MINEDUB des supports, consignes et retours présents dans Klassia. [Matrice des 50 repères](MATRICE_CURRICULUM.csv)
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
-| Moyenne section | 160 | 9 | 0 | 0 |
-| Grande section | 162 | 9 | 0 | 0 |
-| SIL | 89 | 9 | 0 | 0 |
-| CE1 | 88 | 9 | 0 | 0 |
-| CE2 | 347 | 9 | 0 | 0 |
-| **Total** | **846** | **45** | **0** | **0** |
+| Moyenne section | 160 | 10 | 0 | 0 |
+| Grande section | 162 | 10 | 0 | 0 |
+| SIL | 90 | 10 | 0 | 0 |
+| CE1 | 89 | 10 | 0 | 0 |
+| CE2 | 347 | 10 | 0 | 0 |
+| **Total** | **848** | **50** | **0** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -76,11 +76,23 @@ La correspondance s’affiche dans le parcours MS et à l’ouverture de chaque 
 | CE1 | Lire le code d’un lieu et placer un jeton à un autre nœud. | `CE1-U6-L12` |
 | CE2 | Distinguer les codes de cases et de nœuds puis construire deux itinéraires sur les lignes. | `MA-U6-L5` |
 
+## Quatrième relevé sur les longueurs
+
+| Classe | Tâche | Ce que l’adulte observe | Ressource |
+|---|---|---|---|
+| MS | Aligner trois tiges et les ranger | Départs alignés avant la comparaison, ordre correct avec trois tiges | `T5-ST4` |
+| GS | Comparer des chemins avec des bandes identiques | Aucun espace ni chevauchement, même unité dans les deux mesures | `GS-T6-ST2` |
+| SIL | Reporter plusieurs fois une bande unité | Chaque report reprend à la marque et l’écart est exprimé en bandes | `SIL-U1-L11` |
+| CE1 | Mesurer à la règle même si le départ n’est pas à zéro | Deux graduations lues et écart exprimé en centimètres | `CE1-U1-L11` |
+| CE2 | Choisir une unité commune pour calculer la longueur restante | Conversions cohérentes, opération et unité justifiées | `MA-U1-L5` |
+
+Chaque séance propose un nouvel essai. Le carnet permet de relever l’aide nécessaire et de proposer une situation différente à essayer avec le même objectif. [Carnet du pilote](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
+
 ## Suite de la feuille de route
 
-1. Vérifier l’ensemble sur Android et iPhone après livraison, dont l’écran LCN Bassa, les six extraits et le passage en mode avion. [Guide pilote](GUIDE_PILOTE.md)
-2. Faire enregistrer et valider les premières formes bassa avec un référent de la langue, puis intégrer les prises dont la diffusion est autorisée. [Supports sonores](SUPPORTS_SONORES.md)
-3. Consolider les observations des familles et des enseignants. Reprendre les tâches qui demandent trop d’aide avant d’étendre le relevé à d’autres attendus. [Trajectoire](TRAJECTOIRE.md)
+1. Faire enregistrer et valider les premières formes bassa avec un référent de la langue, puis intégrer les prises dont la diffusion est autorisée. [Supports sonores](SUPPORTS_SONORES.md)
+2. Vérifier l’ensemble sur Android et iPhone, dont l’écran LCN Bassa, les extraits, la reprise de la progression et le passage en mode avion. [Guide pilote](GUIDE_PILOTE.md)
+3. Consolider les observations des familles et des enseignants. Reprendre les tâches qui demandent trop d’aide et utiliser les situations proposées pour approfondir les cinq classes. [Trajectoire](TRAJECTOIRE.md)
 
 Pour étendre la matrice, attribuer un identifiant interne à chaque attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
 

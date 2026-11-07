@@ -1,9 +1,13 @@
 self.KLASSIA_RELEASE = {
-  "version": "a42ff2312d0071aef624f7eb6a098fe28e63012e96fae04d6371b1eeebc4e3b2",
+  "version": "bdd66345973e6a00c11c6c12a815e796c52c81bb298d1a0dff01e9309792f82e",
   "files": [
     {
       "url": "./app.js",
       "sha256": "b90fe73a799d8ddffc20a16f18ee370c54de9278e25b84de815c37b3bc2c7639"
+    },
+    {
+      "url": "./assets/ce1-bandes-regle.svg",
+      "sha256": "f97b4fdfe6634edc0b727600f46317a4a3df4802f65f86ac83ecd79afc799c0b"
     },
     {
       "url": "./assets/ce1-u1-album-cartes.svg",
@@ -138,6 +142,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "1bdc392b33b3d1a2d150e979cffed293e6852ddafdea77ac869a9a35cc24c5c0"
     },
     {
+      "url": "./assets/ms-tiges-longueurs.svg",
+      "sha256": "5ddf3eeb4bb4e1df76c7952ac6f464636c8efa9d43d09194d7fb0f452d9aa17f"
+    },
+    {
       "url": "./assets/place-value.svg",
       "sha256": "4dd35c68fae9a58a3206da127f82597d9219e77c0e68eda5d1ee1117c2c5cceb"
     },
@@ -175,7 +183,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/unit1.json",
-      "sha256": "4df9d6cb4388efa0147672caa03782ff81f9a3b9d4870e15e055bd14c9e29a90"
+      "sha256": "76e3d74d5daea3a43cf1cbc92f9adf51b4a48b1f5ef30705ddf6849e593df0d4"
     },
     {
       "url": "./ce1/data/unit2.json",
@@ -231,7 +239,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/content-u1.json",
-      "sha256": "75cd8fac1a87396cf192915fbca5455c321f661cf54909da829d4feb3bd06488"
+      "sha256": "7e30af3af463ada62695de77f3acc93bc5d8da2076ff566965522ae792052ca4"
     },
     {
       "url": "./data/content-u2.json",
@@ -263,7 +271,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "dfb8774307e4c78bb62711c1cdc37f0c0eb237c687e0ac867652b9c9acaa809a"
+      "sha256": "de097f095a39b5c46a7f1228142455bd0e45fb1949d4f8f12ecb6a56a7f50322"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -303,7 +311,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/curriculum-map.json",
-      "sha256": "50d6e2d72a0e01968e7819bbcd92f1d746ba57b94a2ea83350275ac744dbfb7b"
+      "sha256": "391fdcf04dd54f7a13d1bfdac1a5f4969d05d808aacebea5031379acf35ebeca"
     },
     {
       "url": "./gs/data/themes/T1.json",
@@ -327,7 +335,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/themes/T6.json",
-      "sha256": "f8d7719fff02fe978ddb1472ccfa0ca5a44020a9c48349cf1e53d944d4f287b9"
+      "sha256": "2e8857cf320f1d115114b225253e09c1555e257b1673a4a0968efe7c896f21cb"
     },
     {
       "url": "./gs/data/themes/T7.json",
@@ -387,7 +395,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/data/themes/T5.json",
-      "sha256": "fef1592b79843bec1a34daee7e23abdfe9ef551d167fb6215315a5bc602653de"
+      "sha256": "211001a4084c4a61826136f06c74aa58dc61b73927caa743e1cfe81b2667c9e1"
     },
     {
       "url": "./ms/data/themes/T6.json",
@@ -422,6 +430,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "0b3e76674b08c56da843cd293159a7f195ec833653bf9a67175a33b2a2f8aa20"
     },
     {
+      "url": "./pilote.html",
+      "sha256": "14a7e87e53dae6963a39b65e221acf831cffbc16023a5d8f56d92220f09bcbd7"
+    },
+    {
       "url": "./pwa.js",
       "sha256": "915725203285baca50a64675364bb12aca8028b5baefc43bc6a56421375dd405"
     },
@@ -435,7 +447,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/bassa-recorder.js",
-      "sha256": "792cb839ec15eef1351d4d03280259d31ded380520a0f03bba17af2fbb47d61c"
+      "sha256": "9870807f80c251b64c72d6cfe55c0fa91160f97e8539b18c25b8c405cb8f9185"
     },
     {
       "url": "./shared/bassa.js",
@@ -448,6 +460,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./shared/learning-app.js",
       "sha256": "47a881539c6a03a2c8c7d4bca0fd91bb542f835567ff5cf9d2246121a8c991ec"
+    },
+    {
+      "url": "./shared/pilot.css",
+      "sha256": "f6ed3a33ceed9a9c88b5f0547d068eecd8fb8fbd679cab2bfcc818b1ae01ff81"
+    },
+    {
+      "url": "./shared/pilot.js",
+      "sha256": "a11996c13d26ae0fdb06fbb155cf38758ab36bcc0b43ee3e45888124bae45b8c"
     },
     {
       "url": "./shared/search.css",
@@ -467,7 +487,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "d8e5506efb15196bd9365e10a5d86eeac6d29beb525af00013a5c4080ed3e5ca"
+      "sha256": "dbae656ec019c206bbf350923951389dfea967a72c5a35bdd397101247b1a450"
     },
     {
       "url": "./sil/data/curriculum.json",
@@ -475,7 +495,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "4db5c56dbe8b317010911987529c460307cc400c0a1f53aed13c09263454d7c1"
+      "sha256": "478e9a3f04b131e8d4863fa86a5740db27b42ba1d65fc6fa85a0c318a7bc0e6d"
     },
     {
       "url": "./sil/data/sil-u2.json",

@@ -15,15 +15,15 @@
     },
     {
       "grade": "SIL",
-      "resources": 89,
+      "resources": 90,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 89
+      "unverifiedCurriculumMappings": 90
     },
     {
       "grade": "CE1",
-      "resources": 88,
+      "resources": 89,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 88
+      "unverifiedCurriculumMappings": 89
     },
     {
       "grade": "CE2",
@@ -35,9 +35,11 @@
   "supportLessons": [
     "SIL-U1-L05",
     "SIL-U1-L07",
+    "SIL-U1-L11",
     "SIL-U4-L01",
     "SIL-U4-L11",
     "CE1-U1-L01",
+    "CE1-U1-L11",
     "CE1-U3-L06",
     "CE1-U4-L09",
     "CE1-U5-L03",
@@ -59,6 +61,16 @@
       "lesson": "SIL-U1-L05",
       "index": 1,
       "prompt": "Montre A, B et C et nomme chaque partie. Avec l’adulte, allume puis éteins un appareil préparé pour la séance."
+    },
+    {
+      "lesson": "SIL-U1-L11",
+      "index": 1,
+      "prompt": "Tu as laissé un espace entre deux reports. Que faut-il faire avant de compter ?"
+    },
+    {
+      "lesson": "SIL-U1-L11",
+      "index": 2,
+      "prompt": "Nina compte 5 petites bandes. Sami compte 4 grandes bandes. Peut-on choisir le chemin le plus long avec ces deux nombres ?"
     },
     {
       "lesson": "SIL-U2-L03",
@@ -134,6 +146,16 @@
       "lesson": "CE1-U1-L03",
       "index": 2,
       "prompt": "Une collection a 5 bouchons et une autre 5 crayons. Ont-elles le même nombre d’objets ?"
+    },
+    {
+      "lesson": "CE1-U1-L11",
+      "index": 1,
+      "prompt": "Une étiquette part de 1 cm et arrive à 7 cm. Quelle est sa longueur ?"
+    },
+    {
+      "lesson": "CE1-U1-L11",
+      "index": 2,
+      "prompt": "Il faut une bande d’un décimètre. La bande du tiroir mesure 9 cm. Combien de centimètres lui manque-t-il ?"
     },
     {
       "lesson": "CE1-U2-L04",

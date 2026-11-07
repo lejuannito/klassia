@@ -1,7 +1,12 @@
 /* Local recording workshop for the first four Bassa entries. */
 (function (K) {
  'use strict';
- const pilot = new Set(['BA002', 'BA004', 'BA005', 'BA006']);
+ const pilot = {
+  BA002: 'Montrez une salle de classe. Demandez au locuteur quelle forme il emploie pour désigner cette salle. Relevez le contexte si deux formes sont proposées.',
+  BA004: 'Montrez une personne qui enseigne. Demandez au référent de distinguer les formes prononcées des anciennes graphies.',
+  BA005: 'Montrez d’abord un livre, puis un livre de lecture. Notez le sens exact de la forme que le locuteur prononce.',
+  BA006: 'Montrez un crayon, puis un autre crayon de forme différente. Vérifiez que le locuteur désigne bien le même objet.'
+ };
  const duration = 12_000;
  const canEdit = () => ['ENSEIGNANT', 'ADMIN'].includes(K.read('klassia_user', {})?.role);
  const stopTracks = stream => stream?.getTracks().forEach(track => track.stop());
@@ -32,7 +37,7 @@
 
  function mount(panel, lexicon) {
   if (!panel || !canEdit()) return;
-  const entries = lexicon.filter(entry => pilot.has(entry.id));
+  const entries = lexicon.filter(entry => Object.hasOwn(pilot, entry.id));
   const profile = K.profile().id;
   const listeners = new AbortController();
   const listenerOptions = { signal: listeners.signal };
@@ -46,6 +51,12 @@
    <div class="bassa-recorder-fields">
     <label>Entrée <select data-entry>${entries.map(entry => `<option value="${entry.id}">${entry.id} · ${K.escape(entry.concept.split(' / ')[0])}</option>`).join('')}</select></label>
     <label>Forme bassa <select data-form></select></label>
+   </div>
+   <div class="adult-guide">
+    <h3>Situation à proposer au locuteur</h3>
+    <p data-situation></p>
+    <p>Demandez d’abord le mot dans cette situation. Faites ensuite écouter la prise isolée au référent pour vérifier la forme et les tons.</p>
+    <a data-pilot-note>Proposer une autre situation ou signaler une difficulté</a>
    </div>
    <div class="bassa-recorder-actions">
     <button class="btn primary" data-record type="button">Enregistrer au micro</button>
@@ -125,6 +136,8 @@
   function selectEntry() {
    const forms = entries.find(item => item.id === entry.value)?.forms || [];
    form.replaceChildren(...forms.map(value => new Option(value, value)));
+   find('[data-situation]').textContent = pilot[entry.value] || '';
+   find('[data-pilot-note]').href = './pilote.html?classe=CE2&lecon=BA-U3-L1&exercice=' + encodeURIComponent(entry.value) + '#observations';
    return readTake();
   }
 

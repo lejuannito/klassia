@@ -291,6 +291,40 @@ async function run() {
     await missingNumbers.locator('summary').click();
     assert.match(await missingNumbers.innerText(), /3 et 5.*7 et 10/);
 
+    await page.setViewportSize({ width: 320, height: 844 });
+    await page.goto(base + 'gs/?theme=T1#domain:LC:0');
+    await page.getByRole('heading', { name: 'Le cahier retrouvé' }).waitFor();
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    const storyOrder = page.locator('.answer-reveal').nth(1);
+    await storyOrder.locator('summary').click();
+    assert.match(await storyOrder.innerText(), /B, C puis A/);
+    const alternateEnding = page.locator('.answer-reveal').nth(2);
+    await alternateEnding.locator('summary').click();
+    assert.match(await alternateEnding.innerText(), /Une fin convient si elle suit les événements/);
+
+    for (const [theme, answer] of [['T1', /La carte C/], ['T8', /N dans LINA et L dans LILA/]]) {
+      await page.goto(base + 'gs/?theme=' + theme + '#domain:LC:4');
+      await page.locator('[data-activity-id="GS-' + theme + '-LC5"]').waitFor();
+      await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+      assert.ok(await page.locator('.lesson-figure').evaluate(img => img.getBoundingClientRect().right <= innerWidth));
+      const nameGuide = page.locator('.answer-reveal').last();
+      await nameGuide.locator('summary').click();
+      assert.match(await nameGuide.innerText(), answer);
+    }
+
+    await page.goto(base + 'sil/#unit:SIL-U4');
+    await page.getByRole('link', { name: /Je lis ou, m et l/ }).click();
+    await page.locator('.lesson-support').getByText('Lou a mal.', { exact: true }).waitFor();
+    const sentenceGuide = page.locator('.answer-reveal').first();
+    await sentenceGuide.locator('summary').click();
+    assert.match(await sentenceGuide.innerText(), /le mot mal permet de le savoir/);
+    const readingPractice = page.locator('.practice-item');
+    await readingPractice.getByText(/Lis « Il a lu\. »/).waitFor();
+    await readingPractice.locator('summary').click();
+    assert.match(await readingPractice.locator('.answer-reveal').innerText(), /La personne a lu/);
+    await page.setViewportSize({ width: 390, height: 844 });
+    console.log('PASS offline GS story order and name cards, and SIL sentence comprehension');
+
     await page.goto(base + 'ms/#themes');
     const plants = page.locator('.themeOpen[data-theme="T5"]');
     const animals = page.locator('.themeOpen[data-theme="T6"]');

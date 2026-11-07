@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 172">
+  <title>Trois cartes du Cahier retrouvé</title>
+  <defs>
+    <g id="nina">
+      <path d="M-8 46v18m16-18v18" fill="none" stroke="#344156" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-4" y="8" width="8" height="10" rx="2" fill="#a96847"/>
+      <path d="M-13 24q0-9 13-9t13 9l2 24h-30z" fill="#6686cc" stroke="#334d77" stroke-width="2"/>
+      <circle cx="-10" cy="-8" r="6" fill="#332824"/>
+      <circle cx="10" cy="-8" r="6" fill="#332824"/>
+      <circle r="11" fill="#a96847" stroke="#57382c" stroke-width="1.5"/>
+      <path d="M-11-3a11 11 0 0 1 22 0Q1-1-3-7q-4 4-8 4" fill="#332824"/>
+      <circle cx="-3" cy="1" r="1.2" fill="#2e211b"/>
+      <circle cx="4" cy="1" r="1.2" fill="#2e211b"/>
+      <path d="M-2 5q3 3 6 0" fill="none" stroke="#472b21" stroke-width="1.3" stroke-linecap="round"/>
+    </g>
+    <g id="sami">
+      <path d="M-8 46v18m16-18v18" fill="none" stroke="#344156" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-4" y="8" width="8" height="10" rx="2" fill="#875236"/>
+      <path d="M-13 24q0-9 13-9t13 9l2 24h-30z" fill="#e49a55" stroke="#8c542c" stroke-width="2"/>
+      <circle r="11" fill="#875236" stroke="#503326" stroke-width="1.5"/>
+      <path d="M-11-3a11 11 0 0 1 22 0z" fill="#312521"/>
+      <circle cx="-3" cy="1" r="1.2" fill="#2e211b"/>
+      <circle cx="4" cy="1" r="1.2" fill="#2e211b"/>
+      <path d="M-2 5q3 3 6 0" fill="none" stroke="#43291e" stroke-width="1.3" stroke-linecap="round"/>
+    </g>
+    <g id="notebook">
+      <rect x="-12" y="-9" width="24" height="18" rx="2" fill="#69b8aa" stroke="#245b59" stroke-width="2"/>
+      <path d="M-7-8v16M-3-3h9m-9 5h7" fill="none" stroke="#245b59" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <g transform="translate(4 4)">
+    <rect x="1" y="1" width="118" height="162" rx="10" fill="#f1f4ff" stroke="#b9c8dc" stroke-width="2"/>
+    <path d="M12 148h96" stroke="#b9c8dc" stroke-width="2"/>
+    <use href="#nina" x="28" y="82"/>
+    <use href="#sami" x="91" y="82"/>
+    <path d="M39 104l13 7" fill="none" stroke="#a96847" stroke-width="5" stroke-linecap="round"/>
+    <path d="M79 104l-12 7" fill="none" stroke="#875236" stroke-width="5" stroke-linecap="round"/>
+    <use href="#notebook" x="59" y="109"/>
+    <path d="M40 46h29a8 8 0 0 1 8 8v5a8 8 0 0 1-8 8H48l-8 6v-6a8 8 0 0 1-8-8v-5a8 8 0 0 1 8-8z" fill="#fff" stroke="#8ca3c6" stroke-width="1.5"/>
+    <path d="M54 61l-5-5c-4-4 1-8 5-4 4-4 9 0 5 4z" fill="#c74e65"/>
+  </g>
+  <g transform="translate(132 4)">
+    <rect x="1" y="1" width="118" height="162" rx="10" fill="#fff5e6" stroke="#d9c4a8" stroke-width="2"/>
+    <path d="M12 148h96" stroke="#d9c4a8" stroke-width="2"/>
+    <path d="M51 119v24m45-24v24" stroke="#72523b" stroke-width="4"/>
+    <rect x="42" y="112" width="64" height="8" rx="3" fill="#bc8a57" stroke="#72523b" stroke-width="2"/>
+    <use href="#nina" x="23" y="82"/>
+    <path d="M33 102l15 3" stroke="#a96847" stroke-width="5" stroke-linecap="round"/>
+    <path d="M54 103q11-7 20 0 10-8 21-1v9q-11-3-21 0-9-4-20-1z" fill="#e0f6ed" stroke="#245b59" stroke-width="2"/>
+    <path d="M74 103v8m0-8q6-15 16-16" fill="none" stroke="#245b59" stroke-width="1.5"/>
+    <path d="M66 65h27q10 0 10-6m-27 17h22q9 0 9 6" fill="none" stroke="#458093" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(260 4)">
+    <rect x="1" y="1" width="118" height="162" rx="10" fill="#eaf6ee" stroke="#b6ccbb" stroke-width="2"/>
+    <path d="M12 148h96" stroke="#b6ccbb" stroke-width="2"/>
+    <path d="M22 65v80m76-80v80" stroke="#78563d" stroke-width="4"/>
+    <path d="M12 66l12-15h72l12 15z" fill="#dfab6b" stroke="#78563d" stroke-width="2" stroke-linejoin="round"/>
+    <use href="#sami" x="58" y="82"/>
+    <path d="M46 105l8 8m15-8l8 8" stroke="#875236" stroke-width="5" stroke-linecap="round"/>
+    <use href="#notebook" x="66" y="112"/>
+  </g>
+  <g fill="#20354b" font-family="sans-serif" font-weight="700" font-size="22" text-anchor="middle">
+    <text x="64" y="36">A</text>
+    <text x="192" y="36">B</text>
+    <text x="320" y="36">C</text>
+  </g>
+</svg>

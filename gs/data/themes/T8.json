@@ -227,38 +227,46 @@
         {
           "id": "GS-T8-LC5",
           "type": "prewriting",
-          "title_fr": "Des lettres et mon prénom",
-          "title_en": "Letters and my name",
-          "goal_fr": "Observe les modèles W X Y Z et w x y z.",
-          "goal_en": "Look at W X Y Z and w x y z.",
-          "prompt_fr": "Observe les modèles W X Y Z et w x y z. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
-          "prompt_en": "Look at W X Y Z and w x y z. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
+          "title_fr": "Mon prénom parmi des prénoms qui se ressemblent",
+          "title_en": "I find my first name among similar names",
+          "goal_fr": "Distingue ton prénom de prénoms qui lui ressemblent, puis copie-le dans l’ordre.",
+          "goal_en": "Find your first name among similar names, then copy its letters in order.",
+          "prompt_fr": "Observe le modèle LINA, puis cache-le avec une feuille. Montre la carte LINA. Regarde à nouveau le modèle pour vérifier. Fais le même jeu avec ton prénom.",
+          "prompt_en": "Look at the model LINA, then cover it with a sheet of paper. Point to the card LINA. Uncover the model to check. Play the same game with your own first name.",
+          "figure": {
+            "src": "../assets/gs-cartes-prenom.svg",
+            "alt": "Le modèle indique LINA. La carte A indique LILA, la carte B indique NINA et la carte C indique LINA."
+          },
           "steps_fr": [
-            "Préparer avec l’adulte : Observe les modèles W X Y Z et w x y z. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?"
+            "Retrouve la carte LINA. Compare LINA et LILA pour repérer la lettre qui change.",
+            "Demande à l’adulte de mélanger les cartes. Retrouve ton prénom, puis vérifie toutes ses lettres avec le modèle.",
+            "Trace W, X, Y, Z puis w, x, y, z. Garde le modèle près de toi, copie ton prénom puis relis-le lettre par lettre."
           ],
           "steps_en": [
-            "Prepare with the adult: Look at W X Y Z and w x y z. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How do you check your name’s letters are in order?"
+            "Find the card LINA. Compare LINA and LILA to spot the letter that changes.",
+            "Ask the adult to shuffle the cards. Find your own name, then check all its letters against the model.",
+            "Trace W, X, Y, Z, then w, x, y, z. Keep the model close, copy your name and check it letter by letter."
           ],
           "questions": [
             {
               "fr": "Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?",
               "en": "How do you check your name’s letters are in order?",
               "answer": "Je compare au modèle de gauche à droite, une lettre après l’autre. / Compare with the model from left to right, one letter at a time."
+            },
+            {
+              "fr": "Quelle lettre aide à distinguer LINA et LILA ?",
+              "en": "Which letter helps you tell LINA and LILA apart?",
+              "answer": "La troisième lettre est N dans LINA et L dans LILA. La carte C porte LINA. / The third letter is N in LINA and L in LILA. Card C shows LINA."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je compare au modèle de gauche à droite, une lettre après l’autre.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Choisit la carte de son prénom parmi trois cartes et montre une lettre qui l’a aidé.",
+            "Copie les lettres du prénom dans l’ordre et rectifie un écart en comparant avec le modèle."
           ],
           "materials": [
             "feuille",
             "crayon adapté",
-            "modèle du prénom fourni par l’adulte"
+            "deux ou trois cartes de prénoms et un modèle du prénom de l’enfant"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -270,9 +278,9 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
-            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "preparation": "Préparer le prénom de l’enfant et deux autres prénoms sur des cartes identiques. Choisir au moins un prénom de même longueur qui commence par la même lettre. Écrire les trois dans la même écriture.",
+            "adaptation": "Laisser le modèle visible au premier essai. Adapter la taille du crayon et du modèle au geste de l’enfant.",
+            "follow_up": "Mélanger les cartes entre deux essais. Relever séparément la reconnaissance du prénom et sa copie."
           },
           "visual": {
             "kind": "letters",

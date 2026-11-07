@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "451050635f61a5b1d5791184bca6755f513f6c127e117886fecd13d1d3d96e52",
+  "version": "d7248dce0abfbf129b234e2f656a13afe98b0a85a579f6d0f1682e8adf80b6ef",
   "files": [
     {
       "url": "./app.js",
@@ -435,7 +435,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/bassa.js",
-      "sha256": "eec8371a1e37e20c55f94bd9bb84c6cb2ffc5b346083b85ecba1f5fe1ac3ac80"
+      "sha256": "85f621d69281eae0ba6adb729c2ef099289d6948ec37ffa8468a338645f3a99e"
     },
     {
       "url": "./shared/core.js",

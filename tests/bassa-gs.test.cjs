@@ -2,6 +2,38 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const root=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 const {accepts}=require('../shared/bassa.js'),lex=read('data/bassa-lexicon-variants.json');
 test('every displayed Bassa form is accepted, including equivalent Unicode and spacing',()=>{for(const e of lex.entries)for(const form of e.forms){assert.ok(accepts(e,form),e.concept+' '+form);assert.ok(accepts(e,'  '+form.normalize('NFD')+'  '));assert.ok(!accepts(e,''));}assert.ok(!accepts(lex.entries[0],'not a documented answer'));});
+
+test('a Bassa MP3 needs an exact form, approval references and matching bytes', async t => {
+ const { createHash } = require('node:crypto');
+ const { tmpdir } = require('node:os');
+ const { validateBassaRecordings } = await import('../scripts/validate-bassa-recordings.mjs');
+ const fixtureRoot = fs.mkdtempSync(path.join(tmpdir(), 'klassia-bassa-'));
+ t.after(() => fs.rmSync(fixtureRoot, { recursive: true, force: true }));
+ fs.mkdirSync(path.join(fixtureRoot, 'assets'));
+ const entry = { id: 'BA004', forms: ['málêt'] };
+ const bytes = fs.readFileSync(path.join(root, 'assets/sil-u4-l01-lou-a-mal.mp3'));
+ const clip = {
+  form: 'málêt', sense: 'enseignant(e)', src: 'assets/bassa-ba004-01.mp3',
+  reviewed_on: '2026-11-07', review_ref: 'TEST-REVUE', consent_ref: 'TEST-ACCORD',
+  sha256: createHash('sha256').update(bytes).digest('hex')
+ };
+ const validate = (...recordings) => validateBassaRecordings(fixtureRoot, [{ ...entry, recordings }]);
+ assert.throws(() => validate(clip), /Missing or empty Bassa recording/);
+ const file = path.join(fixtureRoot, clip.src);
+ fs.writeFileSync(file, bytes);
+ assert.throws(() => validate(), /without a publishable record/);
+ for (const invalid of [
+  { form: 'malet' }, { src: 'assets/bassa-ba005-01.mp3' }, { reviewed_on: '2026-02-30' },
+  { review_ref: '' }, { consent_ref: '' }
+ ]) {
+  assert.throws(() => validate({ ...clip, ...invalid }), /Invalid Bassa recording metadata/);
+ }
+ assert.doesNotThrow(() => validate(clip));
+ assert.throws(() => validate(clip, clip), /Duplicate Bassa recording/);
+ fs.appendFileSync(file, 'changed');
+ assert.throws(() => validate(clip), /differs from the approved file/);
+});
+
 test('all national-language lessons have live sourced Bassa translations',()=>{
  const map=read('data/bassa-lessons.json').lessons,ids=new Set(lex.entries.map(x=>x.id)),expected=[];
  for(let u=1;u<=8;u++){

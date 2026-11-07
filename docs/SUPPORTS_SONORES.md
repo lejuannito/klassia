@@ -30,3 +30,34 @@ Commencer par quatre entrées de l’école, `BA002` (salle de classe), `BA004` 
 2. Enregistrer une prise par forme retenue et garder un fichier source WAV. Utiliser un nom comme `BA002-01.wav`. Relever l’identifiant lexical, la forme exacte avec ses signes, le sens, la variété régionale si elle est connue et la date de la prise.
 3. Faire réécouter chaque prise par le référent. Relever le résultat pour la prononciation, les tons, la correspondance avec la graphie et l’intelligibilité. Reprendre les clips à corriger.
 4. Après confirmation du référent et de l’accord de diffusion, encoder le clip public, ajouter l’attribution autorisée et vérifier sa lecture dans l’activité hors connexion.
+
+### Relevé privé des prises
+
+Avant la séance, montrer l’objet ou la scène et faire préciser au référent la forme à enregistrer. Prendre deux essais dans une pièce calme, avec une courte pause avant et après le mot. Si le référent demande une phrase pour apprécier les tons en contexte, conserver cet essai dans le dossier privé. Retenir un fichier par forme effectivement validée.
+
+| Fichier source prévu | Forme retenue et sens précis | Contrôle du référent | Accord de diffusion | Décision |
+|---|---|---|---|---|
+| `BA002-01.wav` | Salle de classe · à préciser | À faire | À recueillir | En attente |
+| `BA004-01.wav` | Enseignant(e) · à préciser | À faire | À recueillir | En attente |
+| `BA005-01.wav` | Livre ou livre de lecture · à préciser | À faire | À recueillir | En attente |
+| `BA006-01.wav` | Crayon · à préciser | À faire | À recueillir | En attente |
+
+Dupliquer une ligne si le référent retient une deuxième forme et incrémenter le numéro de prise. Consigner la date, la variété régionale si connue, le nom du référent et son avis sur la prononciation, les tons, la graphie, le sens et l’intelligibilité. Garder le WAV, l’avis et l’accord dans le dossier privé. Relever le crédit que le locuteur autorise à publier, le cas échéant.
+
+### Intégration des prises autorisées
+
+1. Exporter le MP3 mono à 24 kHz et 48 kbit/s. Retirer les métadonnées du fichier source. Réécouter le MP3 avec le référent et conserver dans le dossier privé son empreinte et les références de l’avis et de l’accord couvrant cette prise.
+2. Ajouter le MP3 à `assets/` et renseigner le tableau facultatif `recordings` dans l’entrée correspondante de `data/bassa-lexicon-variants.json`. Pour une graphie corrigée par le référent, documenter d’abord cette forme dans le lexique en conservant les variantes documentaires existantes.
+
+| Champ d’une prise | Valeur attendue |
+|---|---|
+| `form` | Graphie exacte dans `forms`, avec les signes tonals |
+| `sense` | Sens effectivement prononcé, par exemple « livre de lecture » |
+| `src` | Chemin depuis la racine, par exemple `assets/bassa-ba002-01.mp3` |
+| `reviewed_on` | Date de confirmation du référent au format `AAAA-MM-JJ` |
+| `review_ref`, `consent_ref` | Codes de l’avis favorable et de l’accord de diffusion conservés en privé. Utiliser des lettres, des chiffres, des tirets ou des soulignés, sans nom ni coordonnées. |
+| `sha256` | Empreinte du MP3 exact autorisé, en 64 caractères hexadécimaux minuscules |
+| `credit` | Attribution publique convenue, si applicable |
+
+3. Exécuter `npm run validate` et `npm run build` avant de proposer la diffusion. La construction vérifie la correspondance avec l’entrée, la présence des deux références et l’empreinte du MP3. Elle bloque les fichiers de la série sans fiche publiable. Le lecteur s’affiche dans les leçons qui utilisent l’entrée, sous les variantes écrites.
+4. Faire le contrôle d’écoute en ligne puis en mode avion sur la leçon CE2 `BA-U3-L1`, qui réunit les quatre entrées. Les mêmes prises sont reprises dans les leçons liées des autres classes. [Essai sur Android et iPhone](GUIDE_PILOTE.md#essai-sur-android-et-iphone)

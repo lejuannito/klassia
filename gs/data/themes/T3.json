@@ -524,39 +524,39 @@
           "type": "math",
           "title_fr": "Un trajet entre les objets",
           "title_en": "A route between objects",
-          "goal_fr": "Pose un livre devant une boîte et un crayon derrière.",
-          "goal_en": "Put a book in front of a box and a pencil behind it.",
-          "prompt_fr": "Pose un livre devant une boîte et un crayon derrière. Déplace une figurine entre le livre et la boîte.",
-          "prompt_en": "Put a book in front of a box and a pencil behind it. Move a figure between the book and the box.",
+          "goal_fr": "Suivre dans l’ordre un trajet avec trois repères.",
+          "goal_en": "Follow a route with three landmarks in order.",
+          "prompt_fr": "Fais avancer la figurine entre les deux chaises, autour de la boîte, puis jusqu’au tapis. Arrête-la sur le tapis.",
+          "prompt_en": "Move the figure between the two chairs, around the box and then to the mat. Stop it on the mat.",
           "steps_fr": [
-            "Préparer avec l’adulte : Pose un livre devant une boîte et un crayon derrière. Déplace une figurine entre le livre et la boîte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel objet est derrière la boîte ?"
+            "Dispose avec l’adulte deux chaises, une boîte et un tapis. Montre chacun des repères depuis le départ.",
+            "Avant le trajet, pose la figurine devant la boîte, puis derrière. Garde le même côté pour regarder la boîte.",
+            "Écoute le trajet. Déplace la figurine en suivant les trois étapes. Dis où tu passes et où tu t’arrêtes.",
+            "L’adulte déplace la boîte. Refais le trajet en repérant sa nouvelle place."
           ],
           "steps_en": [
-            "Prepare with the adult: Put a book in front of a box and a pencil behind it. Move a figure between the book and the box.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which object is behind the box?"
+            "Set out two chairs, a box and a mat with the adult. Point to each landmark from the start.",
+            "Before the route, put the figure in front of the box, then behind it. Look at the box from the same side each time.",
+            "Listen to the route. Move the figure through all three steps. Say where you go and where you stop.",
+            "The adult moves the box. Follow the route again with the box in its new place."
           ],
           "questions": [
             {
-              "fr": "Quel objet est derrière la boîte ?",
-              "en": "Which object is behind the box?",
-              "answer": "Le crayon. / The pencil."
+              "fr": "Par où passes-tu en premier ? Où s’arrête la figurine ?",
+              "en": "Where do you go first? Where does the figure stop?",
+              "answer": "Entre les deux chaises d’abord, puis autour de la boîte et arrêt sur le tapis. / Between the chairs first, then around the box, and stop on the mat."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Le crayon.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Passe entre les deux chaises, contourne la boîte et s’arrête sur le tapis dans cet ordre.",
+            "Retrouve le trajet avec la boîte déplacée et montre où il termine."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "figurine, deux chaises stables, boîte et tapis, ou quatre objets miniatures sur une table"
           ],
           "duration_minutes": 12,
           "source_refs": [
-            "FR : tableau 17, p. 63–71, deuxième année",
+            "FR : tableau 17, E.1 Espace, p. 69, deuxième année, thème 3",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
           "editorial": {
@@ -564,9 +564,9 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
-            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "preparation": "Préparer un espace dégagé ou utiliser des objets miniatures sur une table. Marquer le départ avec une carte.",
+            "adaptation": "Commencer avec deux étapes, puis ajouter le tapis. Montrer un geste seulement si l’enfant en a besoin.",
+            "follow_up": "Relever la première étape reprise avec aide et essayer un trajet avec des repères différents."
           }
         },
         {

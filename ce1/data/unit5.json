@@ -117,7 +117,16 @@
       "support": {
         "title": "Our imaginary street",
         "text": "The school is next to the library. The bus stop is opposite the library. The bakery is next to the bus stop."
-      }
+      },
+      "practice": [
+        {
+          "prompt": "Listen to the directions. Where do you start? Which place do you reach just after crossing the street?",
+          "listen": "Start at the library. Cross the street to the bus stop. The bakery is next to the bus stop.",
+          "audio": "../assets/ce1-u5-l03-from-library.mp3",
+          "answer": "Start at the library. Just after crossing, you reach the bus stop.",
+          "explanation": "Check the starting place and the first stop separately. The bakery is beside the bus stop."
+        }
+      ]
     },
     {
       "id": "CE1-U5-L04",

@@ -490,14 +490,17 @@
           "type": "classification",
           "title_fr": "Où range-t-on cet objet ?",
           "title_en": "Where does it go?",
-          "goal_fr": "Classer des objets selon leur usage ou lieu habituel.",
-          "goal_en": "Sort objects by use or usual place.",
-          "game_fr": "Cartes : brosse à dents, cuillère, oreiller, savon, casserole, livre. Choisir une pièce possible et expliquer.",
-          "game_en": "Cards: toothbrush, spoon, pillow, soap, pot, book. Choose a possible room and explain.",
+          "goal_fr": "Choisir où ranger un objet et empiler des boîtes dans un ordre donné.",
+          "goal_en": "Choose where to put things away and stack boxes in a given order.",
+          "game_fr": "Choisis une pièce pour ranger ces objets : brosse à dents, cuillère, oreiller, savon, casserole et livre. Puis empile trois boîtes légères. Pose la grande en bas, la moyenne dessus et la petite tout en haut. Démonte la pile et refais-la avec les boîtes mélangées.",
+          "game_en": "Choose a room for each item: toothbrush, spoon, pillow, soap, pot and book. Then stack three light boxes. Put the biggest at the bottom, the middle-sized one above it and the smallest at the top. Take the stack apart, mix the boxes and build it again.",
           "observe": [
-            "Classe selon un critère.",
-            "Accepte qu’un objet puisse avoir plusieurs lieux.",
-            "Justifie par un mot ou geste."
+            "Choisit une pièce possible et explique un choix par un mot ou un geste.",
+            "Refait une pile stable avec la grande boîte en bas, la moyenne au milieu et la petite en haut.",
+            "Montre la boîte du haut et celle du bas."
+          ],
+          "materials": [
+            "trois boîtes légères et stables, de tailles différentes, posées au sol avec l’adulte"
           ],
           "editorial": {
             "status": "in_review",

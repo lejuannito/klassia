@@ -64,11 +64,11 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 ## Consolidation
 
-Le relevé examine 40 repères dans les cinq classes. Trente-neuf disposent d’un support, d’une tâche et de critères de réussite. La manipulation de la souris en CE1 reste partielle. Deux extraits de synthèse sont intégrés à la SIL et au CE1 pour un essai hors connexion. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Supports sonores](SUPPORTS_SONORES.md)
+Le relevé examine 45 repères dans les cinq classes. Chacun dispose d’un support, d’une tâche et d’un critère de réussite, y compris la manipulation souris et clavier en CE1. Deux leçons de quadrillage rejoignent l’inventaire. Six extraits FR/EN se lisent hors connexion. Sur mobile, les commandes de la page matière CE2 passent sous le titre, dont celle du Bassa. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Supports sonores](SUPPORTS_SONORES.md)
 
-1. Compléter `CE1-U3-L06` avec une manipulation de souris et de clavier et des critères séparés. Poursuivre la matrice en géométrie et en orientation.
-2. Exécuter le pilote sur Android et iPhone avec une famille et un enseignant. Relever l’intelligibilité, la navigation et la reprise hors connexion. [Guide pilote](GUIDE_PILOTE.md)
-3. Étendre les extraits FR/EN après écoute sur les appareils. Organiser la première série de prises bassa avec un référent et les accords de diffusion. [Trajectoire](TRAJECTOIRE.md)
+1. Vérifier le lot complet sur Android et iPhone, avec les six extraits, l’écran LCN Bassa et la reprise hors connexion. L’hypothèse de pilotes concluants a permis de poursuivre jusqu’à cette vérification finale. [Guide pilote](GUIDE_PILOTE.md)
+2. Réaliser les premières prises bassa avec le référent, vérifier les tons et la forme prononcée, puis intégrer les enregistrements autorisés. [Préparation des prises](SUPPORTS_SONORES.md#préparer-les-prises-bassa)
+3. Traiter les retours de terrain et compléter la relecture des exercices et des repères avant d’étendre le périmètre. [Trajectoire](TRAJECTOIRE.md)
 
 ## Règle pour chaque nouvelle session
 

@@ -4,7 +4,7 @@ Le lien **Rechercher**, dans la navigation commune des cinq classes, ouvre une p
 
 ## Fonctionnement et limites
 
-Le script `shared/search.js` charge à la demande les JSON publics existants, avec quatre lectures simultanées au maximum. Il construit en mémoire un index des 844 leçons et activités ; aucun index volumineux supplémentaire n’est publié. Les profils, progrès et annotations locales ne sont jamais consultés par le moteur.
+Le script `shared/search.js` charge à la demande les JSON publics existants, avec quatre lectures simultanées au maximum. Il construit en mémoire un index des 846 leçons et activités ; aucun index volumineux supplémentaire n’est publié. Les profils, progrès et annotations locales ne sont jamais consultés par le moteur.
 
 Les titres et objectifs pèsent davantage que les cours, supports, explications et exercices. Tous les mots significatifs doivent correspondre. La casse, les accents et les apostrophes sont normalisés ; les mots grammaticaux courants sont ignorés, certains pluriels sont ramenés au singulier et les préfixes d’au moins quatre caractères sont acceptés. Il n’y a ni recherche sémantique, ni traduction, ni correction générale des fautes. Les matières conservent les appellations de leurs classes ; les domaines MS/GS figurent donc aussi dans le filtre.
 
@@ -23,7 +23,7 @@ La page, le moteur et son style appartiennent au précache avec les contenus. L�
 
 ## Vérifications automatisées
 
-- `node --test tests/search.test.cjs` : couverture des 844 ressources, routes, classement, normalisation, extraits, filtres et erreur de chargement.
+- `node --test tests/search.test.cjs` : couverture des 846 ressources, routes, classement, normalisation, extraits, filtres et erreur de chargement.
 - `npm run test:search` : parcours à 320 px, cinq classes, rôle Parent, retour/historique, pagination, données privées exclues et navigation hors connexion sous `/klassia/`.
 - `npm test`, `npm run validate`, `npm run build` : suite Node, structure et précache.
 - `npm run test:browser` : non-régression des parcours existants et de la PWA.

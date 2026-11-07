@@ -62,13 +62,13 @@ Le dépôt ne comporte aucun serveur de comptes, paiement, synchronisation ou t�
 
 ### SIL bilingue
 
-Huit centres d’intérêt sont accessibles à `/sil/` : maison, village/ville, école, métiers, voyages, santé, jeux et communications. Chaque centre propose dix séquences principales couvrant les matières et une tâche de réinvestissement ; les huit séquences pilotes précédentes restent consultables comme compléments. La progression française SIL suit sa colonne propre (alphabet, sons, syllabes, phrases, texte). L’anglais suit séparément les attendus Class 1 de lecture débutante, copie de noms/phrases et numéraux 0–50, en plus de l’oral; la progression Class 2 est exclue. Les séquences contiennent exemples, activités guidées, exercices, corrections, remédiations et prolongements. La navigation propose **Par unité**, **Par matière** et **Par domaine**.
+Huit centres d’intérêt sont accessibles à `/sil/`, de la maison aux communications. Les 89 leçons comprennent les séquences de chaque centre, une leçon de reproduction sur quadrillage et les huit compléments pilotes. La progression française SIL suit sa colonne propre (alphabet, sons, syllabes, phrases, texte). L’anglais suit séparément les attendus Class 1 de lecture débutante, copie de noms ou de phrases, numéraux de 0 à 50 et communication orale. Les séquences contiennent exemples, activités guidées, exercices, corrections, remédiations et prolongements. La navigation propose **Par unité**, **Par matière** et **Par domaine**.
 
 Les propositions de mots bassa proviennent du lexique documentaire du dépôt. Les variantes et notes restent consultables et explicitement non validées ; aucun score officiel de langue n’est attribué.
 
 ### CE1 bilingue
 
-Le CE1 propose à `/ce1/` 87 leçons réparties dans huit unités, avec les mêmes choix de navigation. Le français s’appuie uniquement sur les objectifs CE1 du curriculum Niveau 2 ; l’anglais demeure une branche distincte limitée aux attendus Class 3. La couverture exhaustive des objectifs reste à vérifier dans la matrice.
+Le CE1 propose à `/ce1/` 88 leçons réparties dans huit unités, avec les mêmes choix de navigation. Le français s’appuie sur les objectifs CE1 du curriculum Niveau 2. L’anglais suit les attendus distincts de Class 3. La couverture exhaustive des objectifs reste à vérifier dans la matrice.
 
 ### Navigation des profils et des classes
 

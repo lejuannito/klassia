@@ -109,9 +109,13 @@ async function run() {
     await page.locator('#searchResults li').first().waitFor();
     console.log('PASS PWA update on a subdirectory: current check, failed install, offline fallback, retry, tab guard, activation offline and progress retention');
 
-    for (const [lessonRoute, file] of [
+    for (const [lessonRoute, file, hasTranscript] of [
       ['sil/#lesson:SIL-U4-L01', 'sil-u4-l01-lou-a-mal.mp3'],
-      ['ce1/#lesson:CE1-U8-L03', 'ce1-u8-l03-music-club.mp3']
+      ['sil/#lesson:SIL-U4-L11', 'sil-u4-l11-modeles-quadrillage.mp3'],
+      ['sil/#lesson:SIL-U5-L02', 'sil-u5-l02-school-by-bus.mp3', true],
+      ['ce1/#lesson:CE1-U1-L01', 'ce1-u1-l01-marque-page.mp3', true],
+      ['ce1/#lesson:CE1-U5-L03', 'ce1-u5-l03-from-library.mp3', true],
+      ['ce1/#lesson:CE1-U8-L03', 'ce1-u8-l03-music-club.mp3', true]
     ]) {
       await page.goto(base + lessonRoute);
       const audio = page.locator('.lesson-audio audio');
@@ -128,7 +132,7 @@ async function run() {
 
       await audio.evaluate(element => element.play());
       await page.waitForFunction(() => document.querySelector('.lesson-audio audio')?.currentTime > 0.1);
-      if (lessonRoute.startsWith('ce1/')) {
+      if (hasTranscript) {
         assert.equal(await page.locator('.practice-item .adult-guide').evaluate(details => details.open), false);
       }
       const playing = await audio.elementHandle();
@@ -137,7 +141,42 @@ async function run() {
       assert.equal(await playing.evaluate(element => element.paused), true);
       await playing.dispose();
     }
-    console.log('PASS offline French and English clips, byte ranges, hidden transcript and stop on navigation');
+    console.log('PASS six offline French and English clips, byte ranges, hidden transcripts and stop on navigation');
+
+    await page.setViewportSize({ width: 320, height: 844 });
+    await page.goto(base + '?unit=U1#subject:BA');
+    const themeButton = page.getByRole('button', { name: '8 thèmes', exact: true });
+    await themeButton.waitFor();
+    const bassaLayout = await page.locator('.subject-hero').evaluate(hero => ({
+      titleBottom: hero.querySelector('.grow').getBoundingClientRect().bottom,
+      actionsTop: hero.querySelector('.print-actions-v14').getBoundingClientRect().top,
+      horizontalOverflow: document.documentElement.scrollWidth > innerWidth
+    }));
+    assert.ok(bassaLayout.actionsTop >= bassaLayout.titleBottom, 'Bassa actions must be below the title block');
+    assert.equal(bassaLayout.horizontalOverflow, false);
+    await themeButton.click();
+    await page.locator('.unit-subject-v14').first().waitFor();
+    assert.equal(await page.locator('.unit-subject-v14').count(), 8);
+
+    await page.goto(base + 'ce1/#lesson:CE1-U3-L06');
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.locator('#lessonResponse').click();
+    await page.keyboard.type('sac 27 +');
+    assert.equal(await page.locator('#lessonResponse').inputValue(), 'sac 27 +');
+    await page.locator('.practice-item .answer-reveal summary').click();
+    await page.getByText(/Le clic sur le bouton ouvre la correction/).waitFor();
+
+    for (const [lessonRoute, imageFile] of [
+      ['sil/#lesson:SIL-U4-L11', 'sil-u4-modeles-quadrillage.svg'],
+      ['ce1/#lesson:CE1-U6-L12', 'u6-plan-noeuds.svg'],
+      ['?unit=U6#lesson:MA-U6-L5', 'u6-plan-noeuds.svg']
+    ]) {
+      await page.goto(base + lessonRoute);
+      await page.waitForFunction(file => [...document.images].some(img => img.src.endsWith(file) && img.naturalWidth > 0), imageFile);
+      assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+    }
+    await page.setViewportSize({ width: 390, height: 844 });
+    console.log('PASS mobile CE2 Bassa layout and theme navigation, CE1 mouse/keyboard lesson and offline grids');
 
     await page.goto(base + '?unit=U5#lesson:SC-U5-L3');
     await page.getByRole('heading', { name: 'Aires protégées du Cameroun' }).waitFor();

@@ -1,15 +1,15 @@
 # Couverture du curriculum et progression des cinq classes
 
-Le relevé initial du 6 novembre 2026 examine 30 repères dans les cinq classes. L’extension du 7 novembre ajoute deux repères par classe. Elle complète le langage, l’écriture, le calcul, les arts, la motricité et l’anglais par le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. La matrice rapproche les attendus des tableaux du MINEDUB des supports, consignes et retours présents dans Klassia. [Matrice des 40 repères](MATRICE_CURRICULUM.csv)
+Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute cinq repères en géométrie et orientation et complète le repère TIC du CE1. La matrice rapproche les attendus des tableaux du MINEDUB des supports, consignes et retours présents dans Klassia. [Matrice des 45 repères](MATRICE_CURRICULUM.csv)
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
-| Moyenne section | 160 | 8 | 0 | 0 |
-| Grande section | 162 | 8 | 0 | 0 |
-| SIL | 88 | 8 | 0 | 0 |
-| CE1 | 87 | 7 | 1 | 0 |
-| CE2 | 347 | 8 | 0 | 0 |
-| **Total** | **844** | **39** | **1** | **0** |
+| Moyenne section | 160 | 9 | 0 | 0 |
+| Grande section | 162 | 9 | 0 | 0 |
+| SIL | 89 | 9 | 0 | 0 |
+| CE1 | 88 | 9 | 0 | 0 |
+| CE2 | 347 | 9 | 0 | 0 |
+| **Total** | **846** | **45** | **0** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -63,14 +63,24 @@ La correspondance s’affiche dans le parcours MS et à l’ouverture de chaque 
 | MS | Quatre formes et germination | Apparier quatre cartes de formes, puis observer la pousse d’un haricot semé avec l’adulte. |
 | GS | Tri selon deux critères et calendrier | Choisir les cartes à la fois grandes et rouges, puis retrouver une date de fête sur un calendrier. |
 | SIL | Parties du téléphone et économie d’eau | Nommer trois parties, allumer et éteindre un appareil accompagné, puis expliquer le geste du robinet pendant le lavage des mains. |
-| CE1 | Milieux de vie et bureautique | Classer animaux et plantes de la mare et du jardin. L’usage de la souris reste partiel et demande une tâche observable. |
+| CE1 | Milieux de vie et bureautique | Classer animaux et plantes de la mare et du jardin. Repérer des icônes, pointer, cliquer, faire défiler et saisir un mot, des chiffres et un signe. |
 | CE2 | Mesure de longueur et tableur | Mesurer une table et matérialiser dix mètres. Construire un tableau de budget et vérifier soustraction et division. |
+
+## Géométrie et orientation
+
+| Classe | Tâche à observer | Leçon ou activité |
+|---|---|---|
+| MS | Refaire une pile ordonnée de trois boîtes et montrer le haut et le bas. | `T3-ST3` |
+| GS | Suivre trois repères successifs et adapter le trajet après déplacement d’un obstacle. | `GS-T3-ST2` |
+| SIL | Retrouver les croisements puis reproduire un triangle et un carré sur papier quadrillé. | `SIL-U4-L11` |
+| CE1 | Lire le code d’un lieu et placer un jeton à un autre nœud. | `CE1-U6-L12` |
+| CE2 | Distinguer les codes de cases et de nœuds puis construire deux itinéraires sur les lignes. | `MA-U6-L5` |
 
 ## Suite de la feuille de route
 
-1. Compléter la manipulation souris et clavier en CE1, puis étendre le relevé à des attendus de géométrie et d’orientation adaptés à chaque classe.
-2. Tester les deux extraits hors connexion sur Android et iOS avec les familles et les enseignants. Relever les consignes et les supports qui nécessitent une reprise. [Guide pilote](GUIDE_PILOTE.md)
-3. Étendre les supports FR/EN à partir des retours et préparer les premières prises bassa avec un référent de la langue. [Supports sonores](SUPPORTS_SONORES.md) · [Trajectoire](TRAJECTOIRE.md)
+1. Vérifier l’ensemble sur Android et iPhone après livraison, dont l’écran LCN Bassa, les six extraits et le passage en mode avion. [Guide pilote](GUIDE_PILOTE.md)
+2. Faire enregistrer et valider les premières formes bassa avec un référent de la langue, puis intégrer les prises dont la diffusion est autorisée. [Supports sonores](SUPPORTS_SONORES.md)
+3. Consolider les observations des familles et des enseignants. Reprendre les tâches qui demandent trop d’aide avant d’étendre le relevé à d’autres attendus. [Trajectoire](TRAJECTOIRE.md)
 
 Pour étendre la matrice, attribuer un identifiant interne à chaque attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
 

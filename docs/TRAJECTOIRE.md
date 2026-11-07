@@ -6,11 +6,11 @@
 |---|---:|---|
 | Moyenne section bilingue | 160 activités | 8 thèmes |
 | Grande section bilingue | 162 activités | 8 thèmes, 5 domaines |
-| SIL bilingue | 88 leçons | 80 principales et 8 compléments pilotes |
-| CE1 bilingue | 87 leçons | 8 unités |
+| SIL bilingue | 89 leçons | 81 principales et 8 compléments pilotes |
+| CE1 bilingue | 88 leçons | 8 unités |
 | CE2 | 347 leçons | 8 unités |
 
-L’inventaire compte 844 ressources. La présence des cinq classes ne constitue pas une certification de couverture exhaustive du curriculum. Les progressions francophone et anglophone restent distinctes ; le CP intervient entre la SIL et le CE1.
+L’inventaire compte 846 ressources. Les progressions francophone et anglophone restent distinctes. Le CP intervient entre la SIL et le CE1.
 
 La navigation par unité/thème, matière et domaine, les profils locaux, l’accès permanent à la revue et les 45 panneaux de traductions bassa sont déjà présents. Toutes les variantes bassa affichées pour le sens demandé restent acceptées, y compris lorsqu’un enseignant les signale à revoir.
 
@@ -24,7 +24,7 @@ Les lots d’enrichissement livrés comprennent :
 - réécriture des 15 leçons d’arts CE2 U4–U8, avec 30 exercices, quatre figures, cinq bilans et 60 QCM. [Supports et références](CE2_ARTS.md)
 - réécriture des neuf leçons d’EPS CE2 U4–U8, avec 18 exercices, deux schémas, cinq bilans et 60 QCM. [Supports et références](CE2_EPS.md)
 - réécriture des cinq leçons de bassa CE2 U4–U8, avec dix exercices ouverts, cinq bilans accompagnés et un entraînement autour des variantes documentaires. [Supports et références](CE2_BASSA.md)
-- relevé de 40 repères dans les cinq classes, dont 39 couverts et un partiel, deux nouveaux schémas et deux extraits de synthèse FR/EN intégrés à l’édition hors connexion. [Matrice et activités](COUVERTURE_PROGRESSION.md) · [Extraits](SUPPORTS_SONORES.md)
+- relevé de 45 repères couverts dans les cinq classes, exercice souris et clavier en CE1, deux leçons de quadrillage et six extraits de synthèse FR/EN intégrés à l’édition hors connexion. [Matrice et activités](COUVERTURE_PROGRESSION.md) · [Extraits](SUPPORTS_SONORES.md)
 - [principes d’enrichissement pédagogique](ENRICHISSEMENT.md) pour les prochains lots, avec supports intégrés et exercices progressifs.
 
 Les décisions du porteur de projet permettent de poursuivre la production. Les métadonnées ne sont pas pour autant attribuées à un enseignant fictif : la revue nominative et les retours ultérieurs restent traçables.
@@ -34,8 +34,8 @@ Les décisions du porteur de projet permettent de poursuivre la production. Les 
 L’audit ne relève plus de découverte générique dans le périmètre CE2 suivi.
 
 1. **Couverture et progression des cinq classes.** Rapprocher systématiquement chaque objectif officiel, contenu et évaluation ; combler les lacunes et vérifier prérequis, difficulté, lecture/écriture, calcul pratique, arts et motricité. Les liens curriculaires existants sont des propositions de correspondance, pas une homologation. Exploiter les manuels seulement au niveau réellement consulté.
-2. **Pilote en conditions réelles.** Essayer les parcours sur Android et iPhone avec parents, enfants et enseignants. Vérifier les deux extraits, les voix de l’appareil, la lisibilité et la navigation en mode avion. [Guide pilote](GUIDE_PILOTE.md)
-3. **Supports sonores et visuels.** Étendre les médias FR/EN selon les retours et produire les premières prises bassa avec prononciation vérifiée. Documenter les sources, les droits et les variantes. Les variantes écrites documentées restent recevables pendant la revue. [Préparation des prises](SUPPORTS_SONORES.md#préparer-les-prises-bassa)
+2. **Vérification finale sur téléphone.** Essayer le lot complet sur Android et iPhone avec parents, enfants et enseignants. Vérifier les six extraits, les voix de l’appareil, la lisibilité de la page Bassa et la navigation en mode avion. [Guide pilote](GUIDE_PILOTE.md)
+3. **Supports sonores bassa.** Produire les premières prises avec prononciation vérifiée. Documenter les sources, les droits et les variantes. Les variantes écrites documentées restent recevables pendant la revue. [Préparation des prises](SUPPORTS_SONORES.md#préparer-les-prises-bassa)
 
 ## Évolutions après consolidation de la cible initiale
 

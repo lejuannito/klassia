@@ -15,10 +15,29 @@ const marker = 'klassia-test-update';
 const changes = new Map([
   ['ce1/index.html', read('ce1/index.html').replace('</head>', '<meta name="' + marker + '"></head>')]
 ]);
-const files = original.files.map(file => {
+
+// Serve a French clip as a technical fixture only, never as a published Bassa recording.
+const lexiconPath = 'data/bassa-lexicon-variants.json';
+const lexicon = JSON.parse(read(lexiconPath));
+const classroom = lexicon.entries.find(entry => entry.id === 'BA002');
+const recordingPath = 'assets/bassa-ba002-99.mp3';
+const recordingBytes = fs.readFileSync(path.join(root, 'assets/sil-u4-l01-lou-a-mal.mp3'));
+const recording = {
+  form: classroom.forms[0], sense: 'salle de classe', src: recordingPath,
+  reviewed_on: '2026-11-07', review_ref: 'TEST-REVUE', consent_ref: 'TEST-ACCORD',
+  sha256: hash(recordingBytes)
+};
+classroom.recordings = [recording, {
+  ...recording, form: classroom.forms[1], src: 'assets/bassa-ba002-98.mp3', consent_ref: ''
+}];
+changes.set(lexiconPath, JSON.stringify(lexicon));
+changes.set(recordingPath, recordingBytes);
+
+const files = original.files.filter(file => file.url !== './' + recordingPath).map(file => {
   const body = changes.get(file.url.slice(2));
   return body === undefined ? file : { ...file, sha256: hash(body) };
 });
+files.push({ url: './' + recordingPath, sha256: recording.sha256 });
 const nextVersion = hash(JSON.stringify(files));
 changes.set(manifestFile, 'self.KLASSIA_RELEASE = ' + JSON.stringify({ version: nextVersion, files }) + ';\n');
 
@@ -108,6 +127,29 @@ async function run() {
     await page.goto(base + 'search.html?q=ecole');
     await page.locator('#searchResults li').first().waitFor();
     console.log('PASS PWA update on a subdirectory: current check, failed install, offline fallback, retry, tab guard, activation offline and progress retention');
+
+    const recordingRoutes = [
+      'ms/?theme=T1#domain:LC:6', 'gs/?theme=T1#domain:LC:5',
+      'sil/#lesson:SIL-U3-L10', 'ce1/#lesson:CE1-U3-L11', '?unit=U3#lesson:BA-U3-L1'
+    ];
+    const classroomCard = page.locator('.bassa-lexical-cards article').filter({
+      has: page.getByRole('heading', { name: classroom.concept, exact: true })
+    });
+    const bassaAudio = classroomCard.locator('audio');
+    for (const lessonRoute of recordingRoutes) {
+      await page.goto(base + lessonRoute);
+      await bassaAudio.waitFor();
+      assert.equal(await bassaAudio.count(), 1, 'Unapproved recording must stay hidden in ' + lessonRoute);
+      assert.equal(await bassaAudio.getAttribute('src'), base + recordingPath);
+      assert.equal(await bassaAudio.getAttribute('aria-label'), 'Prononciation vérifiée · ' + recording.form + ' (salle de classe)');
+    }
+    const playingBassa = await bassaAudio.elementHandle();
+    await playingBassa.evaluate(audio => audio.play());
+    await page.waitForFunction(audio => audio.currentTime > 0.1, playingBassa);
+    await page.evaluate(() => { location.hash = '#subject:BA'; });
+    await bassaAudio.waitFor({ state: 'detached' });
+    assert.equal(await playingBassa.evaluate(audio => audio.paused), true);
+    console.log('PASS Bassa recording gate in all five classes, offline media playback and stop on CE2 navigation');
 
     for (const [lessonRoute, file, hasTranscript] of [
       ['sil/#lesson:SIL-U4-L01', 'sil-u4-l01-lou-a-mal.mp3'],

@@ -33,9 +33,11 @@ Les décisions du porteur de projet permettent de poursuivre la production. Les 
 
 L’audit ne relève plus de découverte générique dans le périmètre CE2 suivi.
 
-1. **Couverture et progression des cinq classes.** Rapprocher systématiquement chaque objectif officiel, contenu et évaluation ; combler les lacunes et vérifier prérequis, difficulté, lecture/écriture, calcul pratique, arts et motricité. Les liens curriculaires existants sont des propositions de correspondance, pas une homologation. Exploiter les manuels seulement au niveau réellement consulté.
-2. **Vérification finale sur téléphone.** Essayer le lot complet sur Android et iPhone avec parents, enfants et enseignants. Vérifier les six extraits, les voix de l’appareil, la lisibilité de la page Bassa et la navigation en mode avion. [Guide pilote](GUIDE_PILOTE.md)
-3. **Supports sonores bassa.** Produire les premières prises avec prononciation vérifiée. Documenter les sources, les droits et les variantes. Les variantes écrites documentées restent recevables pendant la revue. [Préparation des prises](SUPPORTS_SONORES.md#préparer-les-prises-bassa)
+1. **Supports sonores bassa.** Produire les premières prises, faire vérifier la prononciation et les tons et intégrer les extraits autorisés. Les variantes écrites documentées restent recevables pendant la revue. [Préparation des prises](SUPPORTS_SONORES.md#préparer-les-prises-bassa)
+2. **Vérification finale sur téléphone.** Sur Android et iPhone, vérifier les extraits, les voix de l’appareil, la lisibilité de la page Bassa et la reprise de la progression en mode avion. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
+3. **Retours du pilote.** Consolider les observations des familles et des enseignants. Reprendre les exercices qui demandent trop d’aide et faire un second essai. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
+
+Après consolidation du pilote, poursuivre le rapprochement des objectifs officiels, des contenus et des évaluations des cinq classes. Vérifier les prérequis et la difficulté en lecture, écriture, calcul pratique, arts et motricité. Présenter les liens curriculaires comme des propositions de correspondance et exploiter les manuels au niveau réellement consulté.
 
 ## Évolutions après consolidation de la cible initiale
 

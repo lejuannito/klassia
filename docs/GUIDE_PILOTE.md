@@ -21,7 +21,7 @@ Préparer un gros crayon ou un objet familier. Faire montrer l’objet et dire �
 
 ## Essai sur Android et iPhone
 
-Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de test et relever la date, le modèle, la version du système et du navigateur, l’adresse utilisée et l’édition affichée. Garder la même adresse du téléchargement à l’essai hors connexion. Réaliser les étapes sur chaque appareil. [Klassia](https://lejuannito.github.io/klassia/) · [Installation Android](https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&hl=fr) · [Installation iPhone](https://support.apple.com/fr-fr/guide/iphone/iphea86e5236/ios)
+Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de test et relever la date, le modèle, la version du système et du navigateur, l’adresse utilisée et l’édition affichée. Garder la même adresse du téléchargement à l’essai hors connexion. Réaliser les étapes sur chaque appareil. Si l’ouverture échoue, noter l’adresse, le message et le mode utilisé (onglet du navigateur ou icône installée). [Klassia](https://lejuannito.github.io/klassia/) · [Installation Android](https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&hl=fr) · [Installation iPhone](https://support.apple.com/fr-fr/guide/iphone/iphea86e5236/ios)
 
 | Étape | Action | Résultat à relever |
 |---|---|---|
@@ -29,7 +29,32 @@ Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de t
 | 2. Écouter en SIL | Ouvrir `SIL-U4-L01`. Faire lire la phrase une première fois puis lancer l’extrait « Lou a mal. ». Mettre en pause, reprendre, puis passer à une autre leçon. | Phrase audible, commandes visibles et arrêt lors du changement de leçon. Relever séparément l’essai de lecture et la réponse de sens. |
 | 3. Écouter en CE1 | Ouvrir `CE1-U8-L03` et lancer l’extrait de l’entraînement. Garder le message écrit fermé. Demander qui est concerné, le jour et une réponse orale. | Le message est audible. Relever les deux informations retrouvées et la réponse orale, ainsi que l’aide donnée. |
 | 4. Reprendre en mode avion | Passer en mode avion, couper aussi le Wi-Fi s’il reste actif, fermer puis rouvrir Klassia depuis l’icône. Essayer les six extraits de la liste, dont les consignes de quadrillage et les deux exercices sur les trajets en anglais. Essayer séparément une voix de l’appareil. [Liste des extraits](SUPPORTS_SONORES.md) | Navigation, lecture des six extraits et arrêt au changement de leçon. Consigner séparément le résultat de la voix de l’appareil et le message éventuel. |
-| 5. Vérifier l’écran LCN Bassa | En CE2, ouvrir « Apprendre › LCN · Bassa », puis « 8 thèmes » et une leçon. Essayer aussi l’ouverture de « Matière / PDF ». | Le titre tient dans la carte, les boutons sont lisibles et accessibles. Les titres de leçon et les caractères bassa sont lisibles dans les deux orientations d’écran. |
-| 6. Vérifier la progression | Dans le profil de test, marquer une leçon réalisée, fermer puis rouvrir Klassia. Après une mise à jour disponible, recharger l’édition et vérifier de nouveau ce marqueur en mode avion. | Le marqueur et le profil sont retrouvés après chaque réouverture. |
+| 5. Vérifier l’écran LCN Bassa | En CE2, ouvrir « Apprendre › LCN · Bassa », puis « 8 thèmes » et une leçon. Essayer aussi l’ouverture de « Matière / PDF ». Une fois les prises intégrées, les écouter dans `BA-U3-L1` en mode avion, puis refaire l’écoute après reconnexion. | Titres, boutons et caractères bassa lisibles dans les deux orientations. Pour chaque prise, relever la lecture, la pause et l’arrêt en quittant la leçon. [Leçon des quatre entrées](https://lejuannito.github.io/klassia/?unit=U3#lesson:BA-U3-L1) |
+| 6. Vérifier la progression | Dans le profil de test, choisir « Je me sens prêt » dans une leçon CE2 ou « Réalisé » en SIL ou CE1. Fermer puis rouvrir Klassia. Si une mise à jour est disponible, fermer les autres onglets Klassia, appliquer la mise à jour en ligne, puis repasser en mode avion. | Le même profil et le marqueur de la leçon sont retrouvés après réouverture, puis après mise à jour. |
 
-Pour chaque étape, consigner l’appareil, le code de la leçon, le mode réseau, le résultat « réussi / à reprendre / non essayé », l’aide nécessaire et le message observé. Utiliser un code de séance sans nom d’enfant. Pour l’écoute, noter les mots difficiles à comprendre et le nombre d’écoutes. En cas d’écart, préciser s’il concerne l’extrait intégré ou la voix de l’appareil.
+### Relevé à transmettre
+
+Indiquer pour chaque appareil le code de séance, la date, le modèle, le système, le navigateur, l’adresse et l’édition. Dans chaque cellule, utiliser « réussi », « à reprendre » ou « non essayé ». En cas d’écart, noter l’identifiant de leçon ou de prise, le mode réseau, l’action précise et le message éventuel. Pour l’écoute, relever aussi les mots difficiles à comprendre et le nombre d’écoutes.
+
+| Contrôle | Android · Chrome | iPhone · Safari | Écart observé |
+|---|---|---|---|
+| Téléchargement et ouverture depuis l’icône | À renseigner | À renseigner | |
+| Six extraits FR/EN en ligne et en mode avion | À renseigner | À renseigner | Préciser les extraits concernés |
+| Voix de l’appareil en ligne et en mode avion | À renseigner | À renseigner | Distinguer voix de l’appareil et extrait intégré |
+| Écran Bassa en portrait et en paysage | À renseigner | À renseigner | |
+| Prises Bassa dans `BA-U3-L1` en ligne et en mode avion | À renseigner | À renseigner | Noter « non essayé » si les prises sont encore en préparation |
+| Profil et progression après fermeture, puis après mise à jour | À renseigner | À renseigner | Indiquer si aucune mise à jour n’était disponible |
+
+## Retours des familles et enseignants
+
+Utiliser une ligne par exercice et par séance. Laisser l’enfant essayer la consigne avant d’intervenir. Noter le premier blocage observable, l’aide minimale qui permet de reprendre et ce que l’enfant réussit au second essai. Garder le code de séance et le rôle de l’adulte dans le relevé, sans nom d’enfant, coordonnées ni sauvegarde complète.
+
+| Code de séance et rôle | Classe, leçon, exercice et édition | Premier essai et difficulté observée | Aide donnée | Résultat au second essai |
+|---|---|---|---|---|
+| À renseigner · famille ou enseignant | | | Autonome / consigne répétée / exemple ou guidage / bloqué | |
+
+Regrouper les observations par identifiant de leçon et d’exercice. Distinguer les blocages techniques de la compréhension de la consigne, du prérequis et de la difficulté de l’exercice. Reprendre d’abord les exercices qui exigent un exemple ou un guidage dans plusieurs séances, ainsi que les blocages reproductibles. Vérifier la correction sur une autre séance et consigner le niveau d’aide obtenu avant d’élargir la couverture.
+
+| Leçon et exercice | Séances observées | Séances avec guidage ou blocage | Cause observée | Correction retenue | Niveau d’aide après correction |
+|---|---|---|---|---|---|
+| À renseigner | | | | | |

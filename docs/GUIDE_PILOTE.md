@@ -31,6 +31,7 @@ Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de t
 | 4. Reprendre en mode avion | Passer en mode avion, couper aussi le Wi-Fi s’il reste actif, fermer puis rouvrir Klassia depuis l’icône. Essayer les six extraits de la liste, dont les consignes de quadrillage et les deux exercices sur les trajets en anglais. Essayer séparément une voix de l’appareil. [Liste des extraits](SUPPORTS_SONORES.md) | Navigation, lecture des six extraits et arrêt au changement de leçon. Consigner séparément le résultat de la voix de l’appareil et le message éventuel. |
 | 5. Vérifier l’écran LCN Bassa | En CE2, ouvrir « Apprendre › LCN · Bassa », puis « 8 thèmes » et une leçon. Essayer aussi l’ouverture de « Matière / PDF ». Une fois les prises intégrées, les écouter dans `BA-U3-L1` en mode avion, puis refaire l’écoute après reconnexion. | Titres, boutons et caractères bassa lisibles dans les deux orientations. Pour chaque prise, relever la lecture, la pause et l’arrêt en quittant la leçon. [Leçon des quatre entrées](https://lejuannito.github.io/klassia/?unit=U3#lesson:BA-U3-L1) |
 | 6. Vérifier la progression | Dans le profil de test, choisir « Je me sens prêt » dans une leçon CE2 ou « Réalisé » en SIL ou CE1. Fermer puis rouvrir Klassia. Si une mise à jour est disponible, fermer les autres onglets Klassia, appliquer la mise à jour en ligne, puis repasser en mode avion. | Le même profil et le marqueur de la leçon sont retrouvés après réouverture, puis après mise à jour. |
+| 7. Enregistrer une prise d’essai | Dans l’espace Enseignant, ouvrir l’atelier Bassa, autoriser le micro, enregistrer une forme et la réécouter. La conserver, fermer puis rouvrir Klassia en mode avion. Essayer un nouvel enregistrement en mode avion, puis l’écarter. | La première prise est toujours disponible dans le même profil. Le micro s’arrête à la fin de la prise ou en quittant l’atelier. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia) |
 
 ### Relevé à transmettre
 
@@ -44,6 +45,7 @@ Indiquer pour chaque appareil le code de séance, la date, le modèle, le systè
 | Écran Bassa en portrait et en paysage | À renseigner | À renseigner | |
 | Prises Bassa dans `BA-U3-L1` en ligne et en mode avion | À renseigner | À renseigner | Noter « non essayé » si les prises sont encore en préparation |
 | Profil et progression après fermeture, puis après mise à jour | À renseigner | À renseigner | Indiquer si aucune mise à jour n’était disponible |
+| Capture, réécoute et reprise d’une prise dans l’atelier | À renseigner | À renseigner | Relever le mode réseau, l’autorisation du micro et le format téléchargé |
 
 ## Retours des familles et enseignants
 

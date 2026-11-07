@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "d7248dce0abfbf129b234e2f656a13afe98b0a85a579f6d0f1682e8adf80b6ef",
+  "version": "a42ff2312d0071aef624f7eb6a098fe28e63012e96fae04d6371b1eeebc4e3b2",
   "files": [
     {
       "url": "./app.js",
@@ -347,7 +347,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "19aef4b1c2f4ab6adc9b6cd474bc5f849478c58e0326ab93046e57aa25d13b9e"
+      "sha256": "f9849458f21ec9e52f29589ba23ba04952fddd01e80756c77c5d9c232daba019"
     },
     {
       "url": "./manifest.webmanifest",
@@ -434,6 +434,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "74e5f6dc069d69bac299c3610b88b971c99c24ff5b68c380e84cead6c4dca40c"
     },
     {
+      "url": "./shared/bassa-recorder.js",
+      "sha256": "792cb839ec15eef1351d4d03280259d31ded380520a0f03bba17af2fbb47d61c"
+    },
+    {
       "url": "./shared/bassa.js",
       "sha256": "85f621d69281eae0ba6adb729c2ef099289d6948ec37ffa8468a338645f3a99e"
     },
@@ -515,11 +519,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.css",
-      "sha256": "8d6e5cc48dabdf6629f29b449e5b05e1a2452e3bf9178fef1d6298d570ea5a3f"
+      "sha256": "535bb87f1704f88b1f13e1655b8cd61510426461a8908a7b96ef33478ba3162a"
     },
     {
       "url": "./v14.js",
-      "sha256": "53fcde34a9d44a2af7a7a8c1ffaf1100f90a25eb758e37d9889ed1d69a5183a9"
+      "sha256": "6ff6de5316576eb067fba995deba4abc42bd695c9e130b600189289c4ed0deb0"
     },
     {
       "url": "./v9.css",

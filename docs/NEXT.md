@@ -66,8 +66,8 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 Le relevé examine 45 repères dans les cinq classes. Chacun dispose d’un support, d’une tâche et d’un critère de réussite, y compris la manipulation souris et clavier en CE1. Deux leçons de quadrillage rejoignent l’inventaire. Six extraits FR/EN se lisent hors connexion. Sur mobile, les commandes de la page matière CE2 passent sous le titre, dont celle du Bassa. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Supports sonores](SUPPORTS_SONORES.md)
 
-1. Enregistrer `BA002`, `BA004`, `BA005` et `BA006`. Le lecteur et les contrôles de construction sont prêts. Attendre l’avis du référent sur la prononciation et les tons et l’accord de diffusion pour intégrer les MP3. [Préparation des prises](SUPPORTS_SONORES.md#préparer-les-prises-bassa)
-2. Vérifier le lot complet sur Android et iPhone après intégration. Relever la lisibilité de l’écran Bassa, l’écoute des extraits en mode avion et la reprise du profil et de la progression après mise à jour. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
+1. Enregistrer `BA002`, `BA004`, `BA005` et `BA006` au micro dans l’atelier Bassa. Faire confirmer la prononciation et les tons par le référent, recueillir l’accord de diffusion et intégrer les MP3. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia)
+2. Vérifier le lot complet sur Android et iPhone après intégration. Relever la lisibilité de l’écran Bassa, la capture dans l’atelier, l’écoute en mode avion et la reprise de la progression après mise à jour. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
 3. Consolider les relevés des familles et des enseignants, corriger les exercices qui exigent trop d’aide et faire un second essai avant d’étendre la couverture. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
 
 ## Règle pour chaque nouvelle session

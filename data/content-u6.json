@@ -1190,23 +1190,29 @@
           ],
           "discover": "Sur un plan, les colonnes portent A, B, C et les lignes 1, 2, 3. La pharmacie se trouve en B2. Comment la repérer ?",
           "learn": [
-            "Je lis d’abord le code, les repères et la légende avant de localiser un point ou un objet."
+            "Dans le tableau de cases, B2 désigne l’espace à l’intersection de la colonne B et de la ligne 2.",
+            "Sur le plan à nœuds, C2 désigne le point où la ligne verticale C croise l’horizontale 2. Observe la position des lettres et des nombres pour savoir comment lire le code.",
+            "Sur un plan à nœuds, chaque segment de trajet relie deux points qui partagent une lettre ou un nombre."
           ],
-          "takeaway": "Je lis d’abord le code, les repères et la légende avant de localiser un point ou un objet.",
+          "takeaway": "Je repère si le code désigne une case ou un nœud, puis je suis les deux repères du plan.",
+          "figure": {
+            "src": "assets/u6-plan-noeuds.svg",
+            "alt": "Plan à nœuds. Les verticales A à D croisent les horizontales 1 à 3. Le départ est en A1, l’eau en C2 et le repos en D3. La case entre A, B, 1 et 2 est colorée."
+          },
           "exercises": [
             {
               "id": "MA-U6-L5-E1",
               "type": "open",
-              "prompt": "Place l’école dans la case C3 et le marché dans A1. Nomme leurs colonnes et lignes.",
+              "prompt": "Recopie le tableau de cases. Place l’école dans la case C3 et le marché dans A1. Nomme leurs colonnes et lignes.",
               "answer": "École : colonne C, ligne 3. Marché : colonne A, ligne 1.",
               "explanation": "On croise toujours les deux repères."
             },
             {
               "id": "MA-U6-L5-E2",
               "type": "open",
-              "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
-              "answer": "On croise toujours les deux repères.",
-              "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
+              "prompt": "Sur le plan à nœuds, relève les codes de l’eau et du repos. Propose deux trajets de l’eau au repos. Suis les lignes du quadrillage et change de direction une seule fois.",
+              "answer": "L’eau est en C2 et le repos en D3. Les deux trajets sont C2 → D2 → D3 et C2 → C3 → D3.",
+              "explanation": "Vers D2, on garde d’abord la ligne 2, puis la verticale D. Vers C3, on garde d’abord la verticale C, puis la ligne 3."
             }
           ],
           "source": "Curriculum CE2, géométrie, U6, p.91.",
@@ -1214,17 +1220,25 @@
           "notes": [],
           "manual_sections": [
             {
-              "title": "Exemple résolu pas à pas",
-              "kind": "example",
-              "body": "Cherche la colonne B, puis la ligne 2. Leur intersection donne la case B2. Lis la légende pour connaître le symbole de la pharmacie. Ne confonds pas une case d’un plan avec un point à l’intersection de lignes : le support doit préciser ce qui est utilisé."
+              "title": "Le tableau de cases du quartier",
+              "kind": "table",
+              "table": {
+                "headers": ["Ligne", "A", "B", "C"],
+                "rows": [
+                  ["1", "—", "—", "Fontaine"],
+                  ["2", "—", "Pharmacie", "—"],
+                  ["3", "—", "—", "—"]
+                ]
+              },
+              "body": "Dans ce tableau, la pharmacie occupe toute la case B2. Sur le plan illustré, le départ est au point A1, à l’intersection de deux lignes."
             },
             {
               "title": "Je vérifie ma démarche",
               "kind": "method",
               "items": [
-                "Je précise ce que je cherche.",
-                "J’explique mes étapes et mes unités.",
-                "Je contrôle le résultat avec une autre méthode ou le matériel."
+                "Je précise si le code indique une case ou un nœud.",
+                "Je donne la lettre et le nombre.",
+                "Pour un trajet, je vérifie sur quelle ligne se trouve chaque segment."
               ]
             }
           ],

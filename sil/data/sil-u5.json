@@ -47,6 +47,15 @@
       "remediation": "Use a two-card choice and rehearse only “bus” before adding the sentence. Model one sound at a time, reduce to two picture/word choices, and let the learner echo without penalizing accent.",
       "transfer": "Practise the phrase in a pretend journey with an adult. Reuse the English word and number cards in a short theme-based exchange or picture-reading activity.",
       "materials": "Transport picture cards. Letter/sound cards, one word and sentence card, number cards, theme picture.",
+      "practice": [
+        {
+          "prompt": "Listen. Point to the matching transport card and say where the child is going.",
+          "listen": "I am going to school. I go by bus.",
+          "audio": "../assets/sil-u5-l02-school-by-bus.mp3",
+          "answer": "The child goes to school by bus. Point to the bus card and say “school” or “to school”.",
+          "explanation": "Observe the choice of card and the word for the destination separately. The learner can point or say a short phrase."
+        }
+      ],
       "source": {
         "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
         "pages": "English Language, Table 20, Class 1 column, p. 42 (Level I also includes Class 2)",

@@ -1,6 +1,6 @@
 # Klassia — état synthétique du projet
 
-_Mise à jour : 2 novembre 2026_
+_Mise à jour le 7 novembre 2026_
 
 Ce document donne uniquement le contexte nécessaire pour reprendre rapidement le développement. Pour les détails, consulter les documents spécialisés.
 
@@ -12,11 +12,11 @@ Klassia est un manuel interactif camerounais en **édition pilote accompagnée**
 
 - Moyenne Section bilingue : 160 activités / 8 thèmes.
 - Grande Section bilingue : 162 activités / 8 thèmes / 5 domaines.
-- SIL bilingue : 88 leçons.
-- CE1 bilingue : 87 leçons / 8 unités.
+- SIL bilingue : 89 leçons.
+- CE1 bilingue : 88 leçons / 8 unités.
 - CE2 : 347 leçons / 8 unités.
 
-Inventaire consolidé : 844 ressources. Cette présence ne vaut pas certification de couverture exhaustive des programmes officiels.
+L’inventaire consolidé compte 846 ressources. La matrice suit la couverture des repères examinés. [Matrice des repères](MATRICE_CURRICULUM.csv)
 
 ## État fonctionnel notable
 
@@ -25,7 +25,7 @@ Inventaire consolidé : 844 ressources. Cette présence ne vaut pas certificatio
 - sauvegarde/restauration locale avec profils séparés ;
 - revue éditoriale accessible et exportable ;
 - fonctionnement hors connexion avec contrôle d’intégrité du précache ;
-- lecture optionnelle FR/EN via les voix disponibles sur l’appareil ;
+- lecture optionnelle FR/EN via les voix disponibles sur l’appareil et six extraits intégrés pour la SIL et le CE1 ;
 - absence volontaire de synthèse vocale bassa avec voix FR/EN ;
 - 45 panneaux de traductions bassa dans les cinq classes ;
 - toutes les variantes bassa proposées pour le sens demandé restent acceptées ;

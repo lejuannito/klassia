@@ -104,6 +104,41 @@
       ]
     },
     {
+      "id": "SIL-U4-L11",
+      "domain": "Mathématiques",
+      "title": "Reproduire une figure sur un quadrillage",
+      "objective": "Retrouver les mêmes croisements sur deux quadrillages et reproduire un triangle puis un carré.",
+      "course": "Le quadrillage aide à retrouver la place de chaque coin. Pars du bord du quadrillage, compte les carreaux et pointe le croisement où se trouve le coin. Place les coins avant de les relier.",
+      "support": {
+        "title": "Deux modèles à recopier",
+        "text": "Observe le triangle et le carré. Pour recopier une figure, place d’abord ses coins. Puis relie-les avec ta règle.",
+        "audio": "../assets/sil-u4-l11-modeles-quadrillage.mp3",
+        "figure": {
+          "src": "../assets/sil-u4-modeles-quadrillage.svg",
+          "alt": "Deux grilles de quatre carreaux sur quatre. Le triangle a une pointe au milieu, un carreau sous le bord supérieur, et une base sur la troisième ligne sous ce bord. Le carré est au centre, à un carreau des quatre bords."
+        }
+      },
+      "model": "Sur le triangle, place la pointe au milieu de la largeur, un carreau sous le bord du haut. Place les deux autres coins sur les bords gauche et droit, trois carreaux sous le bord du haut. Relie les trois coins.",
+      "guided": "Avec l’adulte, recopie le triangle sur une grille de quatre carreaux sur quatre. Compte à nouveau depuis le bord pour vérifier la place des trois coins.",
+      "exercise": "Sur une autre grille de quatre carreaux sur quatre, recopie le carré. Place d’abord les quatre coins, puis trace les côtés.",
+      "answer": "Le carré est fermé et a quatre côtés de deux carreaux. Il reste un carreau entre chacun de ses côtés et le bord de la grille. Compare la place des quatre coins avec le modèle.",
+      "remediation": "Faire pointer un coin du modèle et le même croisement sur la copie. Marquer ce coin avant de chercher les trois suivants.",
+      "transfer": "Déplacer le carré d’un carreau sur un quadrillage plus grand et vérifier que ses côtés gardent la même longueur.",
+      "materials": "Fiche des modèles, papier quadrillé, crayon et règle.",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 18, p. 78, colonne SIL, unité 4",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Modèles originaux. Faire relire la consigne et observer le premier tracé accompagné."
+      },
+      "competencies": ["géométrie et espace", "reproduction sur quadrillage"]
+    },
+    {
       "id": "SIL-U4-L04",
       "domain": "Sciences et technologies",
       "title": "Démontrer la présence de l’air avec une expérience sûre",

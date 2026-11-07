@@ -186,16 +186,30 @@
     {
       "id": "CE1-U3-L06",
       "domain": "TIC",
-      "title": "Repérer des icônes et utiliser le clavier ou la souris",
-      "objective": "Identifier des icônes familières sur un bureau d’ordinateur ou de téléphone et utiliser, avec l’adulte, une fonction simple de souris ou de clavier.",
-      "course": "Une icône représente une application ou une fonction. Une souris peut déplacer un pointeur et cliquer; un clavier permet d’écrire des lettres et des chiffres.",
-      "model": "Sur une maquette de bureau, l’icône « dessin » ouvre une activité de dessin fictive; une souris déplace un pointeur vers elle.",
-      "guided": "Associer trois icônes dessinées à leur fonction, puis écrire un mot fictif sur un clavier papier ou réel accompagné.",
-      "exercise": "Que peut-on faire avec un clavier ?",
-      "answer": "Écrire des lettres, des chiffres ou des symboles.",
-      "remediation": "Commencer par associer une icône à une action dessinée.",
-      "transfer": "Utiliser un outil numérique de classe sous la supervision de l’enseignant.",
-      "materials": "Cartes d’icônes, clavier papier ou ordinateur de classe accompagné",
+      "title": "Repérer des icônes et utiliser la souris et le clavier",
+      "objective": "Reconnaître des icônes sur deux écrans, déplacer le pointeur, cliquer, faire défiler une page et saisir un mot, des chiffres et un signe avec un clavier d’ordinateur.",
+      "course": "Une icône représente une application ou une fonction. Bouger la souris déplace le pointeur. Un clic active un bouton ou place le curseur dans une zone de texte. La molette fait défiler la page. Le clavier permet d’écrire des lettres, des chiffres et des signes.",
+      "support": {
+        "title": "Le bureau et l’écran d’accueil",
+        "figure": {
+          "src": "../assets/ce1-u3-bureau-icones.svg",
+          "alt": "Sur l’ordinateur, A porte un dossier, B un crayon et C une calculatrice. Sur le téléphone, D porte un crayon et E un appareil photo."
+        }
+      },
+      "model": "Sur les deux écrans, le crayon indique le dessin. L’adulte déplace le pointeur jusqu’à « Ma réponse », clique une fois, puis tape lune 8. Il montre la barre d’espace entre le mot et le nombre.",
+      "guided": "Montre l’icône du dessin sur les deux écrans. Puis, avec une souris, vise la zone « Ma réponse », clique et saisis lune 8. Fais défiler la fiche pour retrouver l’image et reviens à ta réponse.",
+      "exercise": "Indique quelle icône sert à classer des fichiers sur l’ordinateur et quelle icône sert à prendre une photo sur le téléphone. Sur l’ordinateur, clique dans « Ma réponse » et saisis sac 27 +, avec les espaces.",
+      "answer": "A représente le dossier. E représente l’appareil photo. La saisie attendue est sac 27 +. L’adulte observe séparément le repérage des icônes, le déplacement du pointeur, le clic et les caractères saisis.",
+      "remediation": "Faire viser une grande zone avant de cliquer. Faire saisir d’abord sac, puis 27, puis chercher la touche qui permet de saisir + sur ce clavier.",
+      "transfer": "Sur une autre fiche, faire défiler la page pour retrouver une illustration puis saisir un nouveau mot et un nouveau nombre.",
+      "materials": "Fiche affichée sur un ordinateur avec souris et clavier, sous la supervision de l’adulte. Sur téléphone, commencer par le repérage des icônes et reprendre la manipulation sur ordinateur.",
+      "practice": [
+        {
+          "prompt": "Avec la souris, remonte jusqu’à l’image puis redescends vers cette question. Vise le bouton de correction, puis clique une fois.",
+          "answer": "L’image puis la question réapparaissent pendant le défilement. Le clic sur le bouton ouvre la correction.",
+          "explanation": "Observer le défilement, le déplacement du pointeur et le clic séparément. Relever le geste réalisé avec aide."
+        }
+      ],
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
         "pages": "CE1 uniquement · tableau 31 · p. 113",

@@ -168,6 +168,39 @@
       ]
     },
     {
+      "id": "CE1-U6-L12",
+      "domain": "Mathématiques",
+      "title": "Repérer les points d’un plan quadrillé",
+      "objective": "Placer un point à partir d’un code et lire le code d’un lieu sur un plan.",
+      "course": "Une case est l’espace entre les lignes. Un nœud est le croisement d’une ligne verticale et d’une ligne horizontale. Dans ce plan, les lettres désignent les lignes verticales et les nombres les lignes horizontales.",
+      "support": {
+        "title": "Le plan de la cour",
+        "figure": {
+          "src": "../assets/u6-plan-noeuds.svg",
+          "alt": "Plan quadrillé. Lignes verticales A, B, C et D de gauche à droite. Lignes horizontales 1, 2 et 3 de haut en bas. Le départ est en A1, l’eau en C2 et le repos en D3. Une case entre A et B et entre 1 et 2 est colorée."
+        }
+      },
+      "model": "Pour placer un jeton en B2, suis la verticale B et l’horizontale 2. Pose le jeton à leur croisement. Montre ensuite la case colorée et le nœud B2, qui forme un coin de cette case.",
+      "guided": "Pointe les deux lignes qui se croisent au départ. Dis la lettre, puis le nombre. Sur la grille recopiée, pose un jeton en A2 et demande à l’adulte de vérifier.",
+      "exercise": "Quel est le code du lieu de repos ? Sur ta copie du plan, place un jeton en B3. Montre les deux lignes pour chaque réponse.",
+      "answer": "Le repos se trouve en D3, au croisement de D et de 3. Le jeton se pose au croisement de B et de 3. Les deux points sont sur la même ligne horizontale.",
+      "remediation": "Suivre chaque ligne avec le doigt jusqu’au croisement. Faire d’abord chercher la lettre, puis le nombre.",
+      "transfer": "Sur un quadrillage neuf, l’adulte place deux jetons et l’élève annonce leur code. Inverser ensuite les rôles.",
+      "materials": "Plan affiché, grille recopiée et jetons.",
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
+        "pages": "Tableau 21, p. 91, colonne CE1, unité 6",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-CE.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Plan fictif original. Relever séparément le code lu et le point placé."
+      },
+      "competencies": ["géométrie et espace", "repérage des nœuds et des objets sur un plan"]
+    },
+    {
       "id": "CE1-U6-L05",
       "domain": "Sciences et technologies",
       "title": "Adopter des gestes d’hygiène et chercher l’aide appropriée",

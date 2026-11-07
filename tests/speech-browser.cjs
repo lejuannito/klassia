@@ -26,6 +26,15 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
   await visit('/ce1/#lesson:CE1-U6-L01');
   const ce1Endings = await say('fr-FR');
   assert.match(ce1Endings.text, /Le début.*Fin A.*Fin B/s);
+  await visit('/ce1/#lesson:CE1-U8-L03');
+  const firstMessage = await say('en-GB');
+  assert.match(firstMessage.text, /reading club meets on Friday/);
+  const secondMessage = await say('en-GB', 1);
+  assert.equal(secondMessage.text, 'Music club, please come to the hall on Thursday. Bring your song book.');
+  await visit('/gs/?theme=T1#domain:LC:2');
+  const readingModel = await say('en-GB');
+  assert.match(readingModel.text, /Sam can sit\./);
+  assert.ok(!readingModel.text.includes('Can Sam sit?'));
   for(const route of ['/?unit=U1#lesson:EN-U1-L1','/sil/#lesson:SIL-U1-L02','/sil/#lesson:SIL-U1-P05','/ce1/#lesson:CE1-U1-L02']){await visit(route);const spoken=await say('en-GB');assert.ok(!spoken.text.includes('Séquence pilote conservée'));}
   for(const g of ['ms','gs']){await visit(`/${g}/?theme=T1#domain:LC:0`);await say('fr-FR');await say('en-GB');assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,g+' speech overflow');}
   await visit('/?unit=U4#lesson:FR-U4-L3');const story=await say('fr-FR',1);assert.match(story.text,/Le banc de la classe/);
@@ -67,7 +76,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
   // Every rewritten lesson must render its supplied support and correction controls.
   let count=0;
   for(let u=4;u<=8;u++)for(const l of JSON.parse(fs.readFileSync(path.join(root,`data/content-u${u}.json`))).subjects.find(s=>s.id==='FR').lessons){
-   await visit(`/?unit=U${u}#lesson:${l.id}`);assert.equal(await p.locator('.exercise-card').count(),2,l.id);assert.ok((await p.locator('.manual-section-body').first().innerText()).length>80,l.id);count++;
+   await visit(`/?unit=U${u}#lesson:${l.id}`);assert.ok(l.exercises.length>=2,l.id);assert.equal(await p.locator('.exercise-card').count(),l.exercises.length,l.id);assert.ok((await p.locator('.manual-section-body').first().innerText()).length>80,l.id);count++;
   }
   assert.equal(count,39);assert.deepEqual(errors,[]);
   console.log('PASS speech language/voice across five classes, delayed voices, language-only fallback, engine errors/timeouts, cancellation, Bassa exclusion, 39 French supports');

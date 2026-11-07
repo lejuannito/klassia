@@ -438,9 +438,9 @@
             ]
           },
           "observe": [
-            "Compte une fois chaque personnage.",
-            "Donne le cardinal final.",
-            "Compare deux petites collections."
+            "Pointe chaque voyageur une fois, même si les jetons sont déplacés.",
+            "Donne le total après le comptage.",
+            "Retrouve une même quantité avec une disposition différente."
           ],
           "editorial": {
             "status": "in_review",
@@ -463,7 +463,12 @@
               "answer": "5 voyageurs / 5 travellers : les deux groupes de 3 et 2 sont réunis."
             }
           ],
-          "duration_minutes": 10
+          "duration_minutes": 10,
+          "teacher_guide": {
+            "preparation": "Préparer un bus dessiné, cinq jetons et les cartes 1 à 5.",
+            "adaptation": "Proposer un groupe plus petit, puis écarter les jetons pour faciliter le pointage.",
+            "follow_up": "Présenter plusieurs groupes de un à cinq voyageurs et laisser l’enfant les compter. Déplacer les jetons de chaque groupe et faire recompter. Noter le plus grand nombre retrouvé seul dans deux dispositions."
+          }
         },
         {
           "id": "T8-ST3",

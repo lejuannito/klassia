@@ -64,9 +64,9 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 ## Consolidation
 
-La matrice suit 30 repères dans les cinq classes. Les cartes du récit et du prénom en GS et la lecture de phrases en SIL portent le relevé à 24 repères couverts et 6 partiels. [Bilan de couverture](COUVERTURE_PROGRESSION.md)
+Les 30 repères du premier relevé disposent d’un support, d’une tâche et de critères de réussite. Les deux derniers lots couvrent la numération en MS, la motricité en GS, l’anglais en GS et CE1, ainsi que l’avis sur un récit et le dialogue téléphonique en CE2. [Bilan de couverture](COUVERTURE_PROGRESSION.md)
 
-Le prochain lot couvre la numération en MS et la motricité en GS. Suivront la lecture au CE2 et l’anglais en GS, CE1 et CE2. [Prochains lots de consolidation](COUVERTURE_PROGRESSION.md#prochains-lots-de-consolidation)
+La prochaine étape étend le relevé à d’autres attendus prioritaires des cinq classes. Sélectionner un périmètre par lot et établir les correspondances avant d’enrichir les ressources. [Suite de la feuille de route](COUVERTURE_PROGRESSION.md#suite-de-la-feuille-de-route)
 
 La suite de la trajectoire comprend les supports sonores et visuels, dont les enregistrements bassa à prononciation vérifiée, puis le pilote Android et iOS avec les familles et les enseignants.
 

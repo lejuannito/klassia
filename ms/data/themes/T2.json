@@ -469,8 +469,8 @@
           "type": "math",
           "title_fr": "Un, deux : ce que j’ai en paire",
           "title_en": "One, two: body pairs",
-          "goal_fr": "Dénombrer 1 ou 2 éléments sur le corps.",
-          "goal_en": "Count one or two body parts.",
+          "goal_fr": "Reconnaître 2 et distinguer une paire d’un seul élément.",
+          "goal_en": "Recognise 2 and tell a pair from one item.",
           "table": {
             "headers": [
               "J’en ai…",
@@ -490,14 +490,30 @@
           "game_fr": "L’adulte demande : « Montre deux mains. Montre un nez. » puis inverse les rôles.",
           "game_en": "Ask: “Show me two hands. Show me one nose.” Then swap roles.",
           "observe": [
-            "Différencie 1 et 2.",
-            "Associe quantité et partie du corps.",
-            "Utilise un ou deux doigts pour montrer la quantité."
+            "Distingue un jeton de deux jetons.",
+            "Pointe chaque jeton une seule fois et choisit la carte 2."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Montre une main, puis deux mains.",
+            "Pose un jeton pour chaque main et dis « un, deux ».",
+            "Place les deux jetons près de la carte 2."
+          ],
+          "steps_en": [
+            "Show one hand, then two hands.",
+            "Put down one counter for each hand and say “one, two”.",
+            "Place the two counters next to the number card 2."
+          ],
+          "questions": [
+            {
+              "fr": "Quelle carte va avec les deux jetons ?",
+              "en": "Which number card matches the two counters?",
+              "answer": "La carte 2. Chaque jeton est compté une fois. / Card 2. Count each counter once."
+            }
+          ]
         },
         {
           "id": "T2-ST2",

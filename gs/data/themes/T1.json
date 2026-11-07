@@ -133,31 +133,35 @@
           "type": "reading",
           "title_fr": "Petite lecture en anglais : sun, sit",
           "title_en": "English sounds and reading: sun, sit",
-          "goal_fr": "Écoute les mots anglais et le son de départ.",
-          "goal_en": "Listen to the English words and their first sound.",
-          "prompt_fr": "Écoute les mots anglais et le son de départ. Repère les mots dans la phrase, puis essaie de lire avec l’adulte.",
-          "prompt_en": "Listen to the English words and their first sound. Find the words in the sentence, then try reading with the adult.",
+          "goal_fr": "Reconnaître le son initial /s/ et essayer de lire une phrase en anglais.",
+          "goal_en": "Recognise the first sound /s/ and try reading a sentence in English.",
+          "prompt_fr": "Écoute les mots et la phrase modèle. Essaie ensuite de lire la phrase du tableau avant que l’adulte te la lise.",
+          "prompt_en": "Listen to the words and the model sentence. Then try reading the sentence in the table before the adult reads it to you.",
           "steps_fr": [
-            "Préparer avec l’adulte : Écoute les mots anglais et le son de départ. Repère les mots dans la phrase, puis essaie de lire avec l’adulte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Question en anglais : Which word starts with /s/: sun or map?"
+            "Écoute sun et sit. Montre le mot qui commence comme sit parmi sun et map.",
+            "Pointe les mots de la phrase du tableau et essaie de les lire à voix haute.",
+            "Écoute ensuite l’adulte lire cette phrase, puis relis-la avec lui ou seul."
           ],
           "steps_en": [
-            "Prepare with the adult: Listen to the English words and their first sound. Find the words in the sentence, then try reading with the adult.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which word starts with /s/: sun or map?"
+            "Listen to sun and sit. Which begins like sit, sun or map?",
+            "Point to the words in the table and try to read them aloud.",
+            "Then listen to the adult read that sentence and read it again together or on your own."
           ],
           "questions": [
             {
               "fr": "Question en anglais : Which word starts with /s/: sun or map?",
               "en": "Which word starts with /s/: sun or map?",
               "answer": "sun / sun"
+            },
+            {
+              "fr": "Dans la phrase du tableau, que demande-t-on sur Sam ?",
+              "en": "In the sentence in the table, what do we ask about Sam?",
+              "answer": "On demande si Sam peut s’asseoir. / We ask if Sam can sit."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : sun",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Repère le son initial /s/ dans les mots proposés.",
+            "Lit les mots de la phrase dans l’ordre. L’adulte note séparément le premier essai et la relecture après modèle."
           ],
           "materials": [
             "papier et crayons",
@@ -173,9 +177,9 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Dire le son de la lettre plutôt que seulement son nom; garder une prononciation anglaise.",
-            "adaptation": "Faire pointer le mot ou mimer le verbe avant de demander une lecture. Ne pas noter l’accent.",
-            "follow_up": "Changer l’ordre des cartes-mots, puis relire la phrase."
+            "preparation": "Lire les mots et la phrase modèle en anglais. Garder la phrase du tableau pour l’essai de l’enfant.",
+            "adaptation": "Laisser l’enfant pointer et lire les mots qu’il reconnaît. Lire ensuite la phrase entière et lui proposer de réessayer.",
+            "follow_up": "Distinguer les mots lus au premier essai de ceux relus après le modèle oral. Reprendre avec une autre phrase courte."
           },
           "story_en": "sun, sit\nSam can sit.",
           "visual": {
@@ -183,6 +187,16 @@
             "items": [
               "sun",
               "sit"
+            ]
+          },
+          "table": {
+            "headers": [
+              "Phrase à lire / Read aloud"
+            ],
+            "rows": [
+              [
+                "Can Sam sit?"
+              ]
             ]
           }
         },
@@ -1243,19 +1257,19 @@
           "type": "motor",
           "title_fr": "Un parcours maîtrisé",
           "title_en": "A controlled route",
-          "goal_fr": "Avec l’adulte dans un espace dégagé, suis une ligne droite puis un virage.",
-          "goal_en": "With the adult in a clear space, follow a straight line then a turn.",
-          "prompt_fr": "Avec l’adulte dans un espace dégagé, suis une ligne droite puis un virage. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
-          "prompt_en": "With the adult in a clear space, follow a straight line then a turn. Move slowly and stop if you lose balance.",
+          "goal_fr": "Suivre un trajet droit puis courbe et s’arrêter au signal.",
+          "goal_en": "Follow a straight path and a turn, then stop at a signal.",
+          "prompt_fr": "Avec l’adulte, suis la ligne tracée au sol. Marche dans le virage et arrête-toi au mot « stop ».",
+          "prompt_en": "With the adult, follow the line marked on the floor. Walk around the turn and stop when you hear “stop”.",
           "steps_fr": [
-            "Préparer avec l’adulte : Avec l’adulte dans un espace dégagé, suis une ligne droite puis un virage. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que fais-tu si tu ne te sens pas stable ?"
+            "Avec l’adulte, trace une ligne droite et un virage dans un espace dégagé.",
+            "Marche du départ jusqu’à l’arrivée en suivant la ligne, à ton rythme.",
+            "Au deuxième essai, arrête-toi au signal « stop ». Attends que l’adulte te dise de repartir."
           ],
           "steps_en": [
-            "Prepare with the adult: With the adult in a clear space, follow a straight line then a turn. Move slowly and stop if you lose balance.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What do you do if you feel unsteady?"
+            "With the adult, mark a straight line and a turn in a clear space.",
+            "Walk from start to finish at your own pace, following the line.",
+            "On the second try, stop at the signal. Wait for the adult to tell you to start again."
           ],
           "questions": [
             {
@@ -1265,13 +1279,12 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je m’arrête et je demande de l’aide.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Suit la ligne droite puis le virage dans le bon sens.",
+            "S’arrête au signal et attend le départ suivant."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "craie ou ruban de marquage posé à plat",
+            "espace dégagé avec un adulte"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -1283,9 +1296,13 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
-            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "preparation": "Tracer le trajet au sol et convenir du signal d’arrêt. Montrer une fois le trajet.",
+            "adaptation": "Commencer avec un trajet plus court et un virage large. Laisser l’enfant refaire le trajet à son rythme.",
+            "follow_up": "Observer séparément la trajectoire et l’arrêt. Noter pour chacun si l’enfant réussit seul, avec un rappel ou après une démonstration."
+          },
+          "figure": {
+            "src": "../assets/gs-t1-trajet-virage.svg",
+            "alt": "Depuis le départ à gauche, le trajet suit une ligne droite, prend un virage puis continue vers l’arrivée."
           }
         },
         {

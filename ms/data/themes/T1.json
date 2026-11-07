@@ -662,64 +662,61 @@
         {
           "id": "ST1",
           "type": "math",
-          "title_fr": "Je compte les objets de la classe",
-          "title_en": "I count classroom objects",
-          "goal_fr": "Dénombrer de petites collections jusqu’à 5.",
-          "goal_en": "Count small sets up to 5.",
+          "title_fr": "Je reconnais le nombre 1",
+          "title_en": "I recognise the number 1",
+          "goal_fr": "Montrer un seul objet et l’associer au nombre 1.",
+          "goal_en": "Show one object and match it to the number 1.",
           "visual": {
             "kind": "count",
             "items": [
-              "✏️ ✏️ ✏️ = 3",
-              "📘 📘 📘 📘 = 4",
-              "🪑 🪑 = 2"
+              "1 · un objet / one object"
             ]
           },
           "steps_fr": [
-            "Toucher chaque objet une seule fois.",
-            "Dire les nombres dans l’ordre.",
-            "Dire combien il y en a à la fin."
+            "Montre le crayon sur le dessin et dis « un ».",
+            "Prends un crayon sur la table et pose-le près de la carte 1.",
+            "Recommence avec un livre ou un gros jeton."
           ],
           "steps_en": [
-            "Touch each object once.",
-            "Say numbers in order.",
-            "Say how many there are at the end."
+            "Point to the pencil in the picture and say “one”.",
+            "Take one pencil from the table and put it next to the number card 1.",
+            "Try again with a book or a large counter."
           ],
-          "game_fr": "Construire des collections de 1, 2, 3, 4 puis 5 crayons.",
-          "game_en": "Make sets of 1, 2, 3, 4 then 5 pencils.",
+          "game_fr": "L’adulte présente plusieurs objets. Donne un seul objet à chaque demande.",
+          "game_en": "The adult puts out several objects. Give just one object each time.",
           "observe": [
-            "Correspondance un objet = un nombre.",
-            "Reconnaît au moins 1 à 3 sans aide.",
-            "Progresse vers 5."
+            "Prend un seul objet quand l’adulte lui demande un crayon.",
+            "Associe une collection d’un objet à la carte 1."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
           },
           "materials": [
-            "cinq objets assez grands pour ne pas être avalés"
+            "objets familiers faciles à saisir",
+            "carte du nombre 1"
           ],
           "duration_minutes": 10,
           "teacher_guide": {
-            "preparation": "Préparer le matériel et montrer le geste ou donner un modèle oral avant de demander à l’enfant de le reproduire.",
+            "preparation": "Préparer la carte 1 et quelques objets de la classe. Présenter un exemple avec un seul objet.",
             "observation": [
-              "Correspondance un objet = un nombre.",
-              "Reconnaît au moins 1 à 3 sans aide.",
-              "Progresse vers 5."
+              "Prend un seul objet quand l’adulte lui demande un crayon.",
+              "Associe une collection d’un objet à la carte 1."
             ],
-            "adaptation": "Réduire le nombre d’éléments ou répéter une seule consigne. Pour approfondir, changer le matériel et observer si l’enfant réussit encore.",
-            "follow_up": "Reprendre un autre jour et noter la langue utilisée ainsi que l’aide nécessaire."
+            "adaptation": "Faire pointer un objet avant de demander de le déplacer.",
+            "follow_up": "Changer les objets de place. Noter si l’enfant choisit un objet seul ou avec aide."
           },
           "figure": {
             "src": "../assets/count-school.svg",
-            "alt": "Trois crayons distincts à compter."
+            "alt": "Un crayon posé seul."
           },
           "interactive": {
             "type": "number",
             "prompt_fr": "Combien de crayons vois-tu sur le dessin ?",
             "prompt_en": "How many pencils can you see?",
-            "answer": 3,
-            "explanation_fr": "Touche chaque crayon une fois : un, deux, trois. Il y a trois crayons.",
-            "explanation_en": "Touch each pencil once: one, two, three. There are three pencils."
+            "answer": 1,
+            "explanation_fr": "Montre le crayon et dis « un ». Il y a 1 crayon.",
+            "explanation_en": "Point to the pencil and say “one”. There is 1 pencil."
           }
         },
         {

@@ -7304,7 +7304,8 @@
       "generic_discovery": false,
       "exercise_ids": [
         "FR-U8-L3-E1",
-        "FR-U8-L3-E2"
+        "FR-U8-L3-E2",
+        "FR-U8-L3-E3"
       ],
       "assessment_id": "U8-FR",
       "revision": "fr-specific-2026-11-01"
@@ -7465,7 +7466,8 @@
       "generic_discovery": false,
       "exercise_ids": [
         "EN-U8-L3-E1",
-        "EN-U8-L3-N1"
+        "EN-U8-L3-N1",
+        "EN-U8-L3-E2"
       ],
       "assessment_id": "U8-EN",
       "revision": "v15-dialogue-specific"
@@ -8098,9 +8100,9 @@
       "unit": "T1",
       "subject": "ST",
       "id": "T1-ST1",
-      "title": "Je compte les objets de la classe",
+      "title": "Je reconnais le nombre 1",
       "objectives": [
-        "Dénombrer de petites collections jusqu’à 5."
+        "Montrer un seul objet et l’associer au nombre 1."
       ],
       "source": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier",
       "official_competency_id": null,
@@ -8482,7 +8484,7 @@
       "id": "T2-ST1",
       "title": "Un, deux : ce que j’ai en paire",
       "objectives": [
-        "Dénombrer 1 ou 2 éléments sur le corps."
+        "Reconnaître 2 et distinguer une paire d’un seul élément."
       ],
       "source": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier",
       "official_competency_id": null,
@@ -8862,7 +8864,7 @@
       "id": "T3-ST1",
       "title": "Combien sommes-nous ?",
       "objectives": [
-        "Compter une petite collection de personnages jusqu’à 5."
+        "Dénombrer une petite collection jusqu’à 3 et reconnaître le nombre 3."
       ],
       "source": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier",
       "official_competency_id": null,
@@ -9240,9 +9242,9 @@
       "unit": "T4",
       "subject": "ST",
       "id": "T4-ST1",
-      "title": "Je prépare 5 places",
+      "title": "Je prépare quatre places",
       "objectives": [
-        "Constituer une collection jusqu’à 5."
+        "Préparer quatre places et reconnaître le nombre 4."
       ],
       "source": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier",
       "official_competency_id": null,
@@ -10019,9 +10021,9 @@
       "unit": "T6",
       "subject": "ST",
       "id": "T6-ST2",
-      "title": "Combien de pattes ?",
+      "title": "Cinq animaux à compter",
       "objectives": [
-        "Dénombrer 0, 2 ou 4 pattes sur des exemples familiers."
+        "Compter cinq animaux, puis compter les pattes d’un animal choisi."
       ],
       "source": "MINEDUB maternelle 2018 — correspondance détaillée à vérifier",
       "official_competency_id": null,
@@ -14163,9 +14165,9 @@
       "id": "CE1-U8-L03",
       "title": "Share a short message and listen for its main information",
       "objectives": [
-        "Listen to a short classroom message and identify its audience and one key piece of information; respond with a simple phrase."
+        "Listen to a short classroom message, identify who it is for and when to come, then give a short spoken reply."
       ],
-      "source": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018 · Level II — CE1 alignment uses Class 3 objectives only; Class 4 objectives are excluded.",
+      "source": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018 · Table 20, pp. 41–49, Class 3, Listening and Speaking",
       "official_competency_id": null,
       "mapping_status": "proposed_from_existing_content",
       "status": "in_review",
@@ -14378,7 +14380,7 @@
       "id": "GS-T1-LC3",
       "title": "Petite lecture en anglais : sun, sit",
       "objectives": [
-        "Écoute les mots anglais et le son de départ."
+        "Reconnaître le son initial /s/ et essayer de lire une phrase en anglais."
       ],
       "source": "FR : tableaux 13–14, p. 49–56, deuxième année · EN : table 36, p. 63, Nursery Two",
       "official_competency_id": null,
@@ -14387,7 +14389,8 @@
       "reviewer": null,
       "generic_discovery": false,
       "exercise_ids": [
-        "GS-T1-LC3-Q1"
+        "GS-T1-LC3-Q1",
+        "GS-T1-LC3-Q2"
       ],
       "assessment_id": "T1-observation",
       "revision": null
@@ -14715,7 +14718,7 @@
       "id": "GS-T1-MO1",
       "title": "Un parcours maîtrisé",
       "objectives": [
-        "Avec l’adulte dans un espace dégagé, suis une ligne droite puis un virage."
+        "Suivre un trajet droit puis courbe et s’arrêter au signal."
       ],
       "source": "FR : tableau 29, p. 106–109, deuxième année · EN : table 53, p. 86, Nursery Two",
       "official_competency_id": null,
@@ -17361,7 +17364,7 @@
       "id": "GS-T8-LC3",
       "title": "Petite lecture en anglais : tap, top",
       "objectives": [
-        "Écoute les mots anglais et le son de départ."
+        "Reconnaître le son initial /t/ et essayer de lire une phrase en anglais."
       ],
       "source": "FR : tableaux 13–14, p. 49–56, deuxième année · EN : table 36, p. 63, Nursery Two",
       "official_competency_id": null,
@@ -17370,7 +17373,9 @@
       "reviewer": null,
       "generic_discovery": false,
       "exercise_ids": [
-        "GS-T8-LC3-Q1"
+        "GS-T8-LC3-Q1",
+        "GS-T8-LC3-Q2",
+        "GS-T8-LC3-Q3"
       ],
       "assessment_id": "T8-observation",
       "revision": null
@@ -17720,7 +17725,7 @@
       "id": "GS-T8-MO3",
       "title": "Coopérer en mouvement",
       "objectives": [
-        "En petit groupe, essaie de former un train de marche sans se tenir ni pousser."
+        "Adapter sa marche à un partenaire et repartir ensemble."
       ],
       "source": "FR : tableau 29, p. 106–109, deuxième année · EN : table 53, p. 86, Nursery Two",
       "official_competency_id": null,

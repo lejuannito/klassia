@@ -1,12 +1,21 @@
 import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';
 const root=path.resolve(import.meta.dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));let lessons=0,activities=0,questions=0;const ids=new Set();
 const published=process.argv.includes('--public');
+function checkAudio(src, transcript, id) {
+ if (src === undefined) return;
+ assert.match(src, /^\.\.\/assets\/[\w.-]+\.mp3$/, 'Invalid lesson audio path '+id);
+ assert.ok(typeof transcript === 'string' && transcript.trim(), 'Missing lesson audio transcript '+id);
+ const file = fs.statSync(path.join(root, 'assets', path.basename(src)), { throwIfNoEntry: false });
+ assert.ok(file?.isFile() && file.size > 0, 'Missing or empty lesson audio '+id);
+}
 function learningExtras(l){
  assert.ok(!ids.has(l.id),'Duplicate lesson '+l.id);ids.add(l.id);
  for (const p of l.practice || []) {
   assert.ok(p.prompt && p.answer && p.explanation, 'Incomplete additional practice ' + l.id);
   if (p.listen !== undefined) assert.ok(typeof p.listen === 'string' && p.listen.trim(), 'Invalid listening message ' + l.id);
+  checkAudio(p.audio, p.listen, l.id);
  }
+ checkAudio(l.support?.audio, l.support?.text, l.id);
  if(l.support?.table){const t=l.support.table;assert.ok(t.headers.length&&t.rows.length,'Empty table '+l.id);for(const row of t.rows)assert.equal(row.length,t.headers.length,'Table alignment '+l.id);}
  const figure = l.support?.figure;
  if (figure) {

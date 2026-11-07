@@ -130,18 +130,32 @@
       "id": "SIL-U1-L05",
       "domain": "TIC",
       "title": "Repérer un outil numérique et demander l’aide d’un adulte",
-      "objective": "Reconnaître qu’un appareil numérique sert à une tâche et appliquer une règle de sécurité simple.",
-      "course": "Un téléphone ou un ordinateur est un outil. L’écran peut montrer du texte, une image ou un son ; l’enfant l’utilise avec un adulte, sans communiquer d’information personnelle.",
-      "model": "Pour écouter une histoire, l’adulte ouvre le fichier et règle le volume. L’enfant ne saisit ni mot de passe ni nom complet.",
-      "guided": "Sur une image imprimée d’ordinateur, repérer l’écran, le clavier et la souris ; montrer à qui demander de l’aide.",
+      "objective": "Repérer des parties d’un téléphone, mettre en marche puis éteindre un appareil avec l’adulte et appliquer une règle de sécurité simple.",
+      "course": "L’écran d’un téléphone montre du texte ou des images. L’écouteur permet d’entendre la voix pendant un appel. L’adulte montre quel bouton sert à allumer et à éteindre l’appareil choisi.",
+      "support": {
+        "title": "Trois parties d’un téléphone",
+        "figure": {
+          "src": "../assets/sil-u1-telephone.svg",
+          "alt": "Téléphone. A désigne la grande surface centrale, B le bouton du côté, C la fente au-dessus de la grande surface."
+        }
+      },
+      "model": "Sur ce dessin, A désigne l’écran, B le bouton de marche et d’arrêt, et C l’écouteur. Sur un autre modèle, ces parties peuvent être placées autrement.",
+      "guided": "Avec l’adulte, montre ces parties sur un téléphone. Observe la mise en marche et l’arrêt sur un appareil à piles ou sur batterie. Refais les deux gestes avec son aide.",
       "exercise": "Dire ce qu’on fait si un message inconnu apparaît sur l’écran.",
       "answer": "On arrête et on appelle un adulte de confiance ; on ne clique pas et on ne partage pas de renseignement.",
       "remediation": "Jouer la scène avec une image dessinée et répéter la règle « j’arrête, j’appelle un adulte ».",
-      "transfer": "L’apprentissage se fait sans appareil connecté.",
-      "materials": "Image imprimée d’un appareil ; appareil réel seulement sous surveillance adulte.",
+      "transfer": "L’adulte peut faire reprendre la mise en marche et l’arrêt avec une radio à piles et noter l’aide nécessaire pour chaque geste.",
+      "materials": "Schéma et appareil préparé par l’adulte, à piles ou sur batterie. Le dessin permet de repérer les parties quand aucun appareil réel n’est disponible.",
+      "practice": [
+        {
+          "prompt": "Montre A, B et C et nomme chaque partie. Avec l’adulte, allume puis éteins un appareil préparé pour la séance.",
+          "answer": "A, l’écran. B, le bouton de marche et d’arrêt. C, l’écouteur. Sur l’appareil, l’adulte observe séparément la mise en marche et l’arrêt.",
+          "explanation": "Le pointage sur le dessin vérifie le repérage. Sur l’appareil réel, l’adulte note si l’enfant trouve la commande et réalise chacun des deux gestes avec ou sans aide."
+        }
+      ],
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
-        "pages": "96–100",
+        "pages": "Tableau 26, p. 98, colonne SIL, unité 1 · règles de prudence, p. 100",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
       },
       "editorial": {

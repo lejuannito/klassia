@@ -671,35 +671,37 @@
           "type": "math",
           "title_fr": "Trier avec deux critères",
           "title_en": "Sorting by two features",
-          "goal_fr": "Dessine deux grands ronds rouges, un petit rond rouge et un grand carré bleu.",
-          "goal_en": "Draw two big red circles, a small red circle and a big blue square.",
-          "prompt_fr": "Dessine deux grands ronds rouges, un petit rond rouge et un grand carré bleu. Entoure les formes qui sont à la fois grandes et rouges.",
-          "prompt_en": "Draw two big red circles, a small red circle and a big blue square. Circle shapes that are both big and red.",
+          "goal_fr": "Choisir des formes qui respectent deux critères à la fois.",
+          "goal_en": "Choose shapes that match two features at the same time.",
+          "prompt_fr": "Observe les quatre cartes. Montre celles qui sont à la fois grandes et rouges.",
+          "prompt_en": "Look at the four cards. Point to the shapes that are both big and red.",
+          "figure": {
+            "src": "../assets/gs-t1-cartes-tri.svg",
+            "alt": "A : grand rond rouge / big red circle. B : petit rond rouge / small red circle. C : grand carré bleu / big blue square. D : grand carré rouge / big red square."
+          },
           "steps_fr": [
-            "Préparer avec l’adulte : Dessine deux grands ronds rouges, un petit rond rouge et un grand carré bleu. Entoure les formes qui sont à la fois grandes et rouges.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Combien de formes respectent les deux critères ?"
+            "Montre d’abord toutes les formes rouges.",
+            "Parmi les formes rouges, garde seulement celles qui sont grandes.",
+            "Regarde les quatre cartes de nouveau. Explique pourquoi B et C ne conviennent pas."
           ],
           "steps_en": [
-            "Prepare with the adult: Draw two big red circles, a small red circle and a big blue square. Circle shapes that are both big and red.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How many shapes match both rules?"
+            "First point to all the red shapes.",
+            "From the red shapes, keep only the big ones.",
+            "Look at all four cards again. Explain why B and C do not match."
           ],
           "questions": [
             {
-              "fr": "Combien de formes respectent les deux critères ?",
-              "en": "How many shapes match both rules?",
-              "answer": "2 : les deux grands ronds rouges. / 2: the two big red circles."
+              "fr": "Quelles cartes sont à la fois grandes et rouges ? Pourquoi la carte B et la carte C restent-elles de côté ?",
+              "en": "Which cards are both big and red? Why are B and C left out?",
+              "answer": "A et D. B est petite, C est bleue. / A and D. B is small, C is blue."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : 2 : les deux grands ronds rouges.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Choisit les deux cartes qui respectent la taille et la couleur, même si leurs formes sont différentes.",
+            "Montre ou dit le critère qui manque à chacune des deux cartes écartées."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "figure des quatre cartes ou cartes dessinées, adulte accompagnateur"
           ],
           "duration_minutes": 12,
           "source_refs": [

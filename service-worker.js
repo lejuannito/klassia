@@ -98,6 +98,30 @@ function unavailable() {
   });
 }
 
+async function audioResponse(request, response, url) {
+  if (!url.pathname.endsWith('.mp3') || request.headers.has('If-Range')) return response;
+  const range = /^bytes=(\d*)-(\d*)$/.exec(request.headers.get('Range') || '');
+  if (!range || (!range[1] && !range[2])) return response;
+
+  const bytes = await response.arrayBuffer();
+  const size = bytes.byteLength;
+  const start = range[1] ? Number(range[1]) : Math.max(0, size - Number(range[2]));
+  const end = range[1] && range[2] ? Math.min(Number(range[2]), size - 1) : size - 1;
+  if (start > end) {
+    return new Response(null, { status: 416, headers: { 'Content-Range': `bytes */${size}` } });
+  }
+
+  return new Response(bytes.slice(start, end + 1), {
+    status: 206,
+    headers: {
+      'Content-Type': 'audio/mpeg',
+      'Content-Range': `bytes ${start}-${end}/${size}`,
+      'Content-Length': String(end - start + 1),
+      'Accept-Ranges': 'bytes'
+    }
+  });
+}
+
 async function serve(request, url) {
   url.search = '';
   url.hash = '';
@@ -105,7 +129,7 @@ async function serve(request, url) {
 
   const cache = await caches.open(CACHE_NAME);
   const cached = await cache.match(url);
-  if (cached) return cached;
+  if (cached) return audioResponse(request, cached, url);
 
   try {
     const file = filesByUrl.get(url.href);
@@ -114,7 +138,7 @@ async function serve(request, url) {
     // Repair a missing file only if the server still has the installed bytes.
     const response = await verifiedResponse(file);
     try { await cache.put(url, response.clone()); } catch { /* The verified response is still usable online. */ }
-    return response;
+    return await audioResponse(request, response, url);
   } catch {
     return unavailable();
   }

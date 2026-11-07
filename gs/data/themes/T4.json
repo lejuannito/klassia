@@ -742,19 +742,19 @@
           "type": "math",
           "title_fr": "Les mois de l’année",
           "title_en": "Months of the year",
-          "goal_fr": "Lis la bande avec l’adulte.",
-          "goal_en": "Read the strip with the adult.",
-          "prompt_fr": "Lis la bande avec l’adulte. Pointe le jour ou le mois annoncé, puis cherche celui qui vient après. Écris la date du jour avec un modèle sans devoir tout mémoriser.",
-          "prompt_en": "Read the strip with the adult. Point to a named day or month, then find the next one. Copy today’s date from a model; you do not have to memorise every word.",
+          "goal_fr": "Repérer un mois puis une date sur un calendrier.",
+          "goal_en": "Find a month and a date on a calendar.",
+          "prompt_fr": "Pointe le mois annoncé sur la bande et cherche celui qui vient après. Sur un calendrier, retrouve le mois d’une fête de la classe, puis montre la case du jour de la fête.",
+          "prompt_en": "Point to the named month on the strip and find the next one. On a calendar, find the month of a class celebration, then point to the box for its day.",
           "steps_fr": [
-            "Préparer avec l’adulte : Lis la bande avec l’adulte. Pointe le jour ou le mois annoncé, puis cherche celui qui vient après. Écris la date du jour avec un modèle sans devoir tout mémoriser.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel mois suit décembre ?"
+            "Lis la bande des mois avec l’adulte et montre le mois d’aujourd’hui.",
+            "Essaie avec un exemple. Pour le 12 mars, ouvre la page de mars, puis montre la case 12.",
+            "Reprends sur le calendrier avec la date de la fête donnée par l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: Read the strip with the adult. Point to a named day or month, then find the next one. Copy today’s date from a model; you do not have to memorise every word.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which month follows December?"
+            "Read the months with the adult and point to the current month.",
+            "Try an example. For 12 March, turn to March and point to box 12.",
+            "Try again with the date of the celebration given by the adult."
           ],
           "questions": [
             {
@@ -764,13 +764,11 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Janvier : on commence une nouvelle année.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Trouve la page du mois annoncé, puis la case du jour indiqué.",
+            "Montre janvier après décembre sur la bande des mois."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "calendrier avec les mois et les jours numérotés, date d’une fête choisie avec l’adulte"
           ],
           "duration_minutes": 12,
           "source_refs": [

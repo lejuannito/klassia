@@ -64,9 +64,9 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 ## Consolidation
 
-La matrice suit 30 repères dans les cinq classes. Les activités sur les couleurs primaires en SIL et sur l’écriture des nombres de 1 à 10 en GS portent le relevé à 19 repères couverts et 11 partiels. La correspondance des thèmes T5 et T6 figure dans le parcours MS. [Bilan de couverture](COUVERTURE_PROGRESSION.md)
+La matrice suit 30 repères dans les cinq classes. Au CE1, les modèles et les grilles du collage et des passes portent le relevé à 21 repères couverts et 9 partiels. [Bilan de couverture](COUVERTURE_PROGRESSION.md)
 
-Le prochain lot porte sur les critères d’observation d’un collage en arts et d’un enchaînement de passes en motricité au CE1.
+Le prochain lot couvre le récit et le prénom en GS, puis la lecture d’une phrase en SIL U4. Suivront la numération en MS et la motricité en GS, puis la lecture au CE2 et l’anglais en GS, CE1 et CE2. [Prochains lots de consolidation](COUVERTURE_PROGRESSION.md#prochains-lots-de-consolidation)
 
 La suite de la trajectoire comprend les supports sonores et visuels, dont les enregistrements bassa à prononciation vérifiée, puis le pilote Android et iOS avec les familles et les enseignants.
 

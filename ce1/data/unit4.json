@@ -272,18 +272,36 @@
       "id": "CE1-U4-L09",
       "domain": "Éducation physique et sportive",
       "title": "Coopérer dans un jeu de passes à pied",
-      "objective": "Comprendre un principe simple du football scolaire : se placer, faire une passe à un partenaire et respecter une règle de jeu adaptée.",
-      "course": "Le jeu se pratique avec un ballon adapté, des limites claires et un adulte. On joue sans contact violent et on accepte les décisions de l’arbitre.",
-      "model": "Deux équipes réduites se font des passes dans une zone large, sans gardien ni but rigide.",
-      "guided": "Répéter passe-réception-déplacement puis jouer une séquence courte en changeant les rôles.",
-      "exercise": "Que peut faire un partenaire pour aider à recevoir une passe ?",
-      "answer": "Se rendre visible, se placer dans l’espace libre et appeler calmement.",
-      "remediation": "Rapprocher les partenaires et utiliser un ballon plus léger.",
-      "transfer": "Expliquer une règle de coopération à un nouveau joueur.",
-      "materials": "Ballon souple, plots, espace contrôlé, adulte",
+      "objective": "Contrôler une passe, transmettre le ballon au sol à un partenaire et se replacer dans un espace libre.",
+      "course": "Pour aider son équipe, on se rend visible et on regarde le partenaire avant de lui passer le ballon. Avec l’adulte, délimite une zone dégagée et laisse de la place entre les groupes. Respecte le signal pour commencer ou changer de rôle.",
+      "support": {
+        "title": "Deux passes et un déplacement",
+        "text": "Les flèches pleines indiquent le trajet du ballon. La flèche en pointillés montre le déplacement de B après sa passe. Après l’essai, l’adulte indique « Seul », « Avec aide » ou « À reprendre » pour chaque critère.",
+        "figure": {
+          "src": "../assets/ce1-u4-passes-et-replacement.svg",
+          "alt": "Vue du dessus de trois joueurs et d’un plot libre. D’abord A passe le ballon à B. Ensuite B passe à C. Enfin B se déplace vers le plot libre D."
+        },
+        "table": {
+          "caption": "Grille d’observation des passes",
+          "headers": ["Critère", "Ce qu’on observe"],
+          "rows": [
+            ["Contrôle", "B reçoit le ballon de A et le garde près de son pied."],
+            ["Passe", "B regarde C et fait rouler le ballon vers ses pieds."],
+            ["Se replacer", "B rejoint D après sa passe et se tourne vers le jeu."],
+            ["En équipe", "L’élève change de rôle au signal."]
+          ]
+        }
+      },
+      "model": "A fait rouler le ballon vers B. B le contrôle puis le passe à C. Une fois sa passe partie, B va au plot libre D. C contrôle le ballon. Au signal de l’adulte, on reprend les positions de départ en échangeant les rôles.",
+      "guided": "Avec l’adulte, place quatre plots comme sur le schéma. A, B et C occupent chacun leur plot et D reste libre. Essayez d’abord les deux passes au sol, puis ajoutez le déplacement vers D. Changez de rôle au signal pour que chacun essaie la place de B.",
+      "exercise": "Joue le rôle de B. Contrôle la passe de A, fais rouler le ballon jusqu’à C puis rejoins le plot libre D. Fais un deuxième essai après le retour de l’adulte. Échangez les rôles au signal. Montre où te placer pour aider un partenaire à te faire une passe.",
+      "answer": "Pendant l’essai, l’adulte observe le ballon gardé près du pied, la passe vers C et le déplacement vers D une fois le ballon parti. Il s’appuie sur la grille pour choisir un point à reprendre. Pour aider à recevoir une passe, place-toi dans un espace libre où ton partenaire te voit et appelle-le calmement.",
+      "remediation": "Rapprocher deux partenaires et commencer par une passe facile à contrôler avec un ballon souple. Ajouter ensuite le troisième joueur, puis le déplacement.",
+      "transfer": "Reprendre le jeu avec le plot libre placé ailleurs. Montrer à un nouveau joueur comment se rendre visible pour recevoir.",
+      "materials": "Un ballon souple, quatre plots et une zone dégagée délimitée avec l’adulte.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
-        "pages": "CE1 uniquement · tableau EPS · p. 155",
+        "pages": "Tableau 52, p. 155, sports collectifs, colonne CE1, unité 4",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
       },
       "editorial": {

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "57a550ae91173caae023739e2e18a93870eb7027903b86933e8b917ba66e22d1",
+  "version": "228fd8282568ff0600e160c9229ce27c2d27a2e926cbdc74e6fd5efe2274e50c",
   "files": [
     {
       "url": "./app.js",
@@ -8,6 +8,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/ce1-u1-album-cartes.svg",
       "sha256": "dae18302c9c09514adffa31d2220bd1e7a0c2d44707bce722981c005abd4ffa3"
+    },
+    {
+      "url": "./assets/ce1-u4-passes-et-replacement.svg",
+      "sha256": "abc4e448f8c29588e7ea6e20a40c76705160758c74ed05e61230c4720d48ce76"
+    },
+    {
+      "url": "./assets/ce1-u6-modele-collage.svg",
+      "sha256": "980a8687e963d630132ebe995e1d9f9faa133cfbda0eca256d40522d084bb606"
     },
     {
       "url": "./assets/ce2-aires-protegees.svg",
@@ -123,7 +131,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/unit4.json",
-      "sha256": "d2b2caf3a7993094d789b9cabf73fed05ab50b7c7c5a216e72332d542c181817"
+      "sha256": "b4cbb3041459f8b4be84090e6b387ae35751cb4bb82d6e47d255bd8fd4b3fa38"
     },
     {
       "url": "./ce1/data/unit5.json",
@@ -131,7 +139,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/unit6.json",
-      "sha256": "9844485bf85374f4bf90e34d7caa4b223c734c435b253e9f1ea462e632740dd7"
+      "sha256": "791e086f8528e81f599a31d18c229a6e83bb78841242436463f2afa63df9d2e1"
     },
     {
       "url": "./ce1/data/unit7.json",
@@ -199,7 +207,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "c239a9e8986ef459ca7e371aba7e0d758edee497c2908c2689ac61d7f9e8416a"
+      "sha256": "55b81866cef1240fcaacf022fd9f7a2b318627e6e83a4d7d653acf93b81f2499"
     },
     {
       "url": "./data/qcm-u1.json",

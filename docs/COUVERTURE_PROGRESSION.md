@@ -7,9 +7,9 @@ Relevé initial du 6 novembre 2026 au commit de référence [de701af](https://gi
 | Moyenne section | 160 | 5 | 1 | 0 |
 | Grande section | 162 | 2 | 4 | 0 |
 | SIL | 88 | 5 | 1 | 0 |
-| CE1 | 87 | 3 | 3 | 0 |
+| CE1 | 87 | 5 | 1 | 0 |
 | CE2 | 347 | 4 | 2 | 0 |
-| **Total** | **844** | **19** | **11** | **0** |
+| **Total** | **844** | **21** | **9** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -28,6 +28,9 @@ L’anglais est rapproché des références effectivement visées par les conten
 
 La lecture de l’U1 s’appuie sur un récit original en trois épisodes, des cartes illustrées et une réponse qui demande un indice du texte. En U6, l’élève compare deux fins, écrit sa propre suite et la relit avec quatre critères. L’observation en classe précisera le degré d’aide nécessaire. [Lecture U1](../ce1/data/unit1.json) · [Production écrite U6](../ce1/data/unit6.json) · [Fiche de positionnement](DIAGNOSTIC_ENTREE_CE1.md)
 
+- **Arts visuels, U6.** L’élève compare deux dispositions, compose son affiche puis explique un choix de placement. Le modèle et la grille permettent d’observer le choix des images, la composition et le lien entre les images et leurs légendes. [Leçon CE1-U6-L08](../ce1/data/unit6.json)
+- **Motricité, U4.** L’élève contrôle une passe, transmet le ballon au sol puis se replace. Le schéma distingue le trajet du ballon du déplacement du joueur. La grille relève ces trois gestes et la coopération lors de la rotation. [Leçon CE1-U4-L09](../ce1/data/unit4.json)
+
 ## Corrections en MS, GS et SIL
 
 | MS dans Klassia | Thème du programme francophone MINEDUB, première année |
@@ -40,9 +43,13 @@ La correspondance s’affiche dans le parcours MS et à l’ouverture de chaque 
 - **GS, thème des transports.** L’enfant complète les numéros manquants des places du bus, puis écrit la suite entière de 1 à 10. Le cahier du thème fournit les dix modèles à repasser. L’adulte observe l’ordre, la lisibilité des chiffres et l’écriture de 10. [Activité GS-T8-ST2](../gs/data/themes/T8.json)
 - **SIL, unité 1.** L’enfant repère le rouge, le jaune et le bleu dans un nuancier de cinq couleurs, puis les utilise pour colorier trois éléments de la maison. Le corrigé sert à vérifier le classement et le dessin. [Leçon SIL-U1-L07](../sil/data/sil-u1.json)
 
-## Corrections à engager
+## Prochains lots de consolidation
 
-En CE1, compléter les retours verbaux par l’observation d’une composition en arts et d’un enchaînement de passes en motricité. Étendre ensuite le rapprochement aux autres attendus, avec les références et les décisions de relecture renseignées par repère.
+1. **Langage, lecture et premiers écrits en GS et SIL.** En GS, faire remettre un récit en ordre, proposer une fin et reconnaître puis copier son prénom. En SIL, faire lire une phrase qui réemploie les graphies étudiées en U4 et vérifier sa compréhension.
+2. **Numération et motricité en maternelle.** Jalonner les petites quantités en MS. En GS, observer le trajet, l’arrêt au signal et l’ajustement du déplacement à un partenaire.
+3. **Lecture au CE2 et anglais en GS, CE1 et CE2.** Faire justifier un avis sur un récit au CE2. En anglais, observer la lecture d’une phrase en GS, la compréhension d’un message oral au CE1 et la rédaction d’un échange téléphonique au CE2.
+
+Ces lots traitent les neuf repères encore partiels. La trajectoire prévoit ensuite d’élargir le rapprochement avec les programmes, de produire les supports sonores et visuels, puis de mener le pilote sur Android et iOS. [Trajectoire consolidée](TRAJECTOIRE.md)
 
 Pour étendre la matrice, attribuer un identifiant interne à chaque nouvel attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une même ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
 

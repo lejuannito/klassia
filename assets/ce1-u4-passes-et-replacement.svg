@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 238">
+  <title>Deux passes de football et un replacement</title>
+  <defs>
+    <marker id="pass" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0 0L10 5 0 10z" fill="#166974"/>
+    </marker>
+    <marker id="move" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0 0L10 5 0 10z" fill="#74418b"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="348" height="236" rx="12" fill="#fff" stroke="#b9cbbf" stroke-width="2"/>
+  <rect x="12" y="12" width="326" height="190" rx="8" fill="#f1f8ef" stroke="#aac3ad"/>
+  <g fill="none" stroke-width="4" stroke-linecap="round">
+    <path d="M72 135L154 77" stroke="#166974" marker-end="url(#pass)"/>
+    <path d="M196 77L278 135" stroke="#166974" marker-end="url(#pass)"/>
+    <path d="M175 88v70" stroke="#74418b" stroke-dasharray="6 6" marker-end="url(#move)"/>
+  </g>
+  <g fill="#fff" stroke="#25485d" stroke-width="2.5">
+    <circle cx="55" cy="148" r="20"/>
+    <circle cx="175" cy="64" r="20"/>
+    <circle cx="295" cy="148" r="20"/>
+    <rect x="158" y="165" width="34" height="30" rx="4" stroke-dasharray="4 3"/>
+  </g>
+  <g fill="#20394a" font-family="sans-serif" font-weight="700" text-anchor="middle">
+    <g font-size="23">
+      <text x="55" y="156">A</text>
+      <text x="175" y="72">B</text>
+      <text x="295" y="156">C</text>
+      <text x="175" y="188">D</text>
+    </g>
+    <g font-size="18">
+      <text x="100" y="96">1</text>
+      <text x="250" y="96">2</text>
+      <text x="195" y="127">3</text>
+    </g>
+    <text x="244" y="187" font-size="15">Plot libre</text>
+  </g>
+  <g stroke-width="3" stroke-linecap="round">
+    <path d="M24 219h28" stroke="#166974"/>
+    <path d="M150 219h30" stroke="#74418b" stroke-dasharray="5 5"/>
+  </g>
+  <g fill="#20394a" font-family="sans-serif" font-size="16">
+    <text x="62" y="225">Ballon</text>
+    <text x="190" y="225">Déplacement de B</text>
+  </g>
+</svg>

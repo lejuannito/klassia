@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 224">
+  <title>Exemple d’affiche par collage</title>
+  <rect x="1" y="1" width="334" height="222" rx="12" fill="#fffbef" stroke="#d8c49a" stroke-width="2"/>
+  <rect x="16" y="55" width="143" height="151" rx="4" fill="#e4f5ed" stroke="#98b9a7"/>
+  <rect x="177" y="55" width="143" height="151" rx="4" fill="#e9f3ff" stroke="#a1b8d2"/>
+  <g fill="none" stroke="#253b4b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M47 93V82a9 9 0 0 1 9-9h40a10 10 0 0 1 10 10v12H92v-8H61v6z" fill="#c7d9dd"/>
+    <path d="M74 73v-8m-7 0h14"/>
+    <path d="M96 105v8m9-8v7" stroke="#2679ac"/>
+    <path d="M60 143l15-14a7 7 0 0 1 5-2h12a4 4 0 0 1 0 8h-8l17-14a5 5 0 0 1 7 7l-16 16a11 11 0 0 1-8 3H73l-5 5z" fill="#f7d6ac"/>
+    <path d="M218 78h61l-8 69h-45z" fill="#f8fcff"/>
+    <path d="M222 106h53l-4 41h-45z" fill="#8fc8ed"/>
+    <path d="M231 91l4 37" stroke="#629fc5"/>
+  </g>
+  <g fill="#233648" font-family="sans-serif" text-anchor="middle" font-weight="700">
+    <text x="168" y="35" font-size="24">Je prends soin de moi</text>
+    <g font-size="20">
+      <text x="87.5" y="174">Je me lave</text>
+      <text x="87.5" y="194">les mains</text>
+      <text x="248.5" y="174">Je bois</text>
+      <text x="248.5" y="194">de l’eau</text>
+    </g>
+  </g>
+</svg>

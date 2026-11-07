@@ -243,6 +243,39 @@ async function run() {
     assert.equal(await response.inputValue(), ending);
     console.log('PASS offline CE1 illustrated reading and open ending with a correction rubric');
 
+    const observationLessons = [
+      {
+        unit: 'U6',
+        title: /Composer une affiche par collage/,
+        caption: 'Grille d’observation du collage',
+        criteria: ['Images', 'Mise en page', 'Légendes', 'Mon choix'],
+        feedback: /Je me brosse les dents.*Je me repose/
+      },
+      {
+        unit: 'U4',
+        title: /Coopérer dans un jeu de passes/,
+        caption: 'Grille d’observation des passes',
+        criteria: ['Contrôle', 'Passe', 'Se replacer', 'En équipe'],
+        feedback: /espace libre où ton partenaire te voit/
+      }
+    ];
+    await page.setViewportSize({ width: 320, height: 844 });
+    for (const { unit, title, caption, criteria, feedback } of observationLessons) {
+      await page.goto(base + 'ce1/#unit:CE1-' + unit);
+      await page.getByRole('link', { name: title }).click();
+      await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+      const observation = page.getByRole('table', { name: caption });
+      for (const criterion of criteria) {
+        await observation.getByRole('cell', { name: criterion, exact: true }).waitFor();
+      }
+      assert.ok(await observation.evaluate(table => table.offsetWidth <= table.parentElement.clientWidth + 1), caption);
+      const example = page.locator('.answer-reveal');
+      await example.locator('summary').click();
+      assert.match(await example.innerText(), feedback);
+    }
+    await page.setViewportSize({ width: 390, height: 844 });
+    console.log('PASS offline CE1 collage and football models, observation rubrics and feedback');
+
     await page.goto(base + 'sil/#unit:SIL-U1');
     await page.getByRole('link', { name: /Les couleurs primaires de la maison/ }).click();
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);

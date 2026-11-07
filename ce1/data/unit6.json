@@ -256,18 +256,36 @@
       "id": "CE1-U6-L08",
       "domain": "Éducation artistique",
       "title": "Composer une affiche par collage d’images",
-      "objective": "Réaliser un collage qui présente deux gestes généraux de bien-être avec une légende lisible.",
-      "course": "Une affiche montre une idée principale avec des images et quelques mots. Les images sont choisies avec respect : on évite d’identifier ou de ridiculiser une personne.",
-      "model": "Un collage original présente une main lavée et un verre d’eau dessiné, avec deux légendes.",
-      "guided": "Choisir deux images, les coller puis ajouter une phrase courte sous chacune.",
-      "exercise": "Quel mot peux-tu ajouter pour expliquer le geste illustré ?",
-      "answer": "Toute légende qui nomme clairement le geste convient.",
-      "remediation": "Proposer des images et une banque de mots à associer.",
-      "transfer": "Présenter l’affiche et expliquer son message.",
-      "materials": "Images non identifiantes, papier, colle non toxique",
+      "objective": "Composer une affiche sur deux gestes de bien-être en plaçant les images, le titre et les légendes de façon lisible.",
+      "course": "Une affiche transmet une idée avec des images et quelques mots. On essaie la disposition avant de coller. On garde de la place pour le titre et pour une courte légende près de chaque image. Des dessins ou des images sans personne reconnaissable conviennent.",
+      "support": {
+        "title": "Un exemple d’affiche à observer",
+        "text": "Repère le titre, les deux images et la légende de chacune. Après ton collage, utilise la grille avec l’adulte. Pour chaque critère, il indique « Seul », « Avec aide » ou « À reprendre ».",
+        "figure": {
+          "src": "../assets/ce1-u6-modele-collage.svg",
+          "alt": "Affiche titrée « Je prends soin de moi ». À gauche, une image montre des mains sous un robinet, avec la légende « Je me lave les mains ». À droite, un verre d’eau est légendé « Je bois de l’eau »."
+        },
+        "table": {
+          "caption": "Grille d’observation du collage",
+          "headers": ["Critère", "Ce qu’on observe"],
+          "rows": [
+            ["Images", "Deux images montrent des gestes différents liés au titre."],
+            ["Mise en page", "Le titre est facile à repérer et les deux images sont bien visibles."],
+            ["Légendes", "Chaque légende est lisible près de son image."],
+            ["Mon choix", "L’élève montre et explique un choix de placement."]
+          ]
+        }
+      },
+      "model": "Dans le modèle, le titre est en haut. Les deux images sont côte à côte et chaque légende est juste en dessous. On peut aussi placer les images l’une sous l’autre, avec les légendes à côté.",
+      "guided": "Choisis deux images. Essaie deux dispositions sans colle. Avec un camarade, montre celle où l’on associe le plus facilement chaque image à sa légende.",
+      "exercise": "Compose ton affiche sur deux gestes pour prendre soin de toi. Place et colle tes deux images. Ajoute un titre et une légende pour chaque image. Montre ton affiche et explique pourquoi tu as placé une image ou une légende à cet endroit.",
+      "answer": "Par exemple, sous le titre « Mes gestes de bien-être », on peut placer en haut une image de brosse à dents avec « Je me brosse les dents », puis en dessous une image d’un enfant au repos avec « Je me repose ». Chaque légende explique le geste de son image. Avec l’adulte, relève une réussite et choisis un point à retravailler dans la grille.",
+      "remediation": "Proposer deux images et deux légendes courtes. Les associer à l’oral, puis déplacer les éléments sur la feuille avant de les coller.",
+      "transfer": "Présenter l’affiche à un camarade et lui demander de retrouver quelle légende va avec quelle image.",
+      "materials": "Papier, dessins ou images préparées, colle non toxique et crayons.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
-        "pages": "CE1 uniquement · tableau arts visuels · p. 145",
+        "pages": "Tableau 46, p. 144, arts visuels, colonne CE1, unité 6",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
       },
       "editorial": {

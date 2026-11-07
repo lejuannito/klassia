@@ -722,16 +722,17 @@
         {
           "id": "ST2",
           "type": "shape",
-          "title_fr": "Cercle, carré, triangle",
-          "title_en": "Circle, square, triangle",
-          "goal_fr": "Reconnaître et trier trois formes simples.",
-          "goal_en": "Recognise and sort three simple shapes.",
+          "title_fr": "Cercle, carré, triangle, rectangle",
+          "title_en": "Circle, square, triangle, rectangle",
+          "goal_fr": "Reconnaître quatre formes et regrouper celles qui se ressemblent.",
+          "goal_en": "Recognise four shapes and group those that look alike.",
           "visual": {
             "kind": "shapes",
             "items": [
               "● cercle / circle",
               "■ carré / square",
-              "▲ triangle / triangle"
+              "▲ triangle / triangle",
+              "▬ rectangle / rectangle"
             ]
           },
           "table": {
@@ -748,37 +749,41 @@
               ],
               [
                 "■ Carré / Square",
-                "4 côtés égaux",
-                "carreau, petit cadre"
+                "4 coins droits et 4 côtés égaux",
+                "carreau carré"
               ],
               [
                 "▲ Triangle",
                 "3 côtés",
                 "panneau, toit dessiné"
+              ],
+              [
+                "▬ Rectangle",
+                "4 coins droits, 2 côtés longs et 2 côtés courts sur cette carte",
+                "couverture de cahier, porte"
               ]
             ]
           },
-          "game_fr": "Chercher dans la pièce un objet qui ressemble à chaque forme.",
-          "game_en": "Find in the room one object that looks like each shape.",
+          "game_fr": "Place une carte de chaque forme devant toi. Range quatre autres cartes avec la forme qui leur ressemble. L’adulte peut tourner une carte ou en changer la taille. Cherche ensuite un objet qui ressemble à une forme de ton choix.",
+          "game_en": "Put one card of each shape in front of you. Match four more cards by shape. The adult can turn a card or use a different size. Then find an object that looks like one of the shapes.",
           "observe": [
-            "Trie correctement.",
-            "Nomme au moins deux formes.",
-            "Repère une forme dans l’environnement."
+            "Associe chaque carte à sa forme, même si la carte est tournée ou change de taille.",
+            "Montre la carte du carré puis celle du rectangle allongé quand l’adulte les nomme.",
+            "Montre un objet qui ressemble à une des cartes."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
           },
           "materials": [
-            "cartes cercle, carré, triangle"
+            "deux cartes de chaque forme : cercle, carré, triangle et rectangle allongé"
           ],
           "duration_minutes": 10,
           "teacher_guide": {
-            "preparation": "Préparer le matériel et montrer le geste ou donner un modèle oral avant de demander à l’enfant de le reproduire.",
+            "preparation": "Préparer deux cartes par forme. Faire une première association en exemple, puis mélanger les quatre cartes de l’enfant.",
             "observation": [
-              "Trie correctement.",
-              "Nomme au moins deux formes.",
-              "Repère une forme dans l’environnement."
+              "Observe l’appariement des quatre formes. Pour le carré et le rectangle allongé, relever séparément si l’enfant les désigne à la demande.",
+              "Noter si la rotation ou la taille change le choix de l’enfant."
             ],
             "adaptation": "Réduire le nombre d’éléments ou répéter une seule consigne. Pour approfondir, changer le matériel et observer si l’enfant réussit encore.",
             "follow_up": "Reprendre un autre jour et noter la langue utilisée ainsi que l’aide nécessaire."

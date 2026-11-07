@@ -21,4 +21,5 @@
 .speech-status{flex-basis:100%;font-size:.85rem;margin:0;overflow-wrap:anywhere}
 .speech-status:empty{display:none}
 .speech-control,.speech-stop{white-space:normal;max-width:100%}
-@media print{.speech-tools{display:none}}
+.lesson-audio audio{display:block;width:min(100%,320px)}
+@media print{.speech-tools,.lesson-audio{display:none}}

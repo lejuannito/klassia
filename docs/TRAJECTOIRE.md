@@ -1,4 +1,4 @@
-# Trajectoire consolidée — 6 novembre 2026
+# Trajectoire consolidée — 7 novembre 2026
 
 ## État livré dans cette branche
 
@@ -24,6 +24,7 @@ Les lots d’enrichissement livrés comprennent :
 - réécriture des 15 leçons d’arts CE2 U4–U8, avec 30 exercices, quatre figures, cinq bilans et 60 QCM. [Supports et références](CE2_ARTS.md)
 - réécriture des neuf leçons d’EPS CE2 U4–U8, avec 18 exercices, deux schémas, cinq bilans et 60 QCM. [Supports et références](CE2_EPS.md)
 - réécriture des cinq leçons de bassa CE2 U4–U8, avec dix exercices ouverts, cinq bilans accompagnés et un entraînement autour des variantes documentaires. [Supports et références](CE2_BASSA.md)
+- relevé de 40 repères dans les cinq classes, dont 39 couverts et un partiel, deux nouveaux schémas et deux extraits de synthèse FR/EN intégrés à l’édition hors connexion. [Matrice et activités](COUVERTURE_PROGRESSION.md) · [Extraits](SUPPORTS_SONORES.md)
 - [principes d’enrichissement pédagogique](ENRICHISSEMENT.md) pour les prochains lots, avec supports intégrés et exercices progressifs.
 
 Les décisions du porteur de projet permettent de poursuivre la production. Les métadonnées ne sont pas pour autant attribuées à un enseignant fictif : la revue nominative et les retours ultérieurs restent traçables.
@@ -33,8 +34,8 @@ Les décisions du porteur de projet permettent de poursuivre la production. Les 
 L’audit ne relève plus de découverte générique dans le périmètre CE2 suivi.
 
 1. **Couverture et progression des cinq classes.** Rapprocher systématiquement chaque objectif officiel, contenu et évaluation ; combler les lacunes et vérifier prérequis, difficulté, lecture/écriture, calcul pratique, arts et motricité. Les liens curriculaires existants sont des propositions de correspondance, pas une homologation. Exploiter les manuels seulement au niveau réellement consulté.
-2. **Supports sonores et visuels.** La lecture actuelle utilise les voix de l’appareil : elle n’est pas un pack d’enregistrements validés. Produire des médias FR/EN maîtrisés et des enregistrements bassa avec prononciation vérifiée ; documenter sources, droits et variantes. En attendant, le bassa écrit reste consultable et ses variantes acceptées.
-3. **Pilote en conditions réelles.** Essayer les parcours sur téléphones Android/iOS, avec parents, enfants et enseignants ; vérifier écoute effective, disponibilité des voix hors connexion, lisibilité, charge de travail et gestes de navigation. Les tests automatisés de navigateur ne remplacent pas ces essais sonores et pédagogiques.
+2. **Pilote en conditions réelles.** Essayer les parcours sur Android et iPhone avec parents, enfants et enseignants. Vérifier les deux extraits, les voix de l’appareil, la lisibilité et la navigation en mode avion. [Guide pilote](GUIDE_PILOTE.md)
+3. **Supports sonores et visuels.** Étendre les médias FR/EN selon les retours et produire les premières prises bassa avec prononciation vérifiée. Documenter les sources, les droits et les variantes. Les variantes écrites documentées restent recevables pendant la revue. [Préparation des prises](SUPPORTS_SONORES.md#préparer-les-prises-bassa)
 
 ## Évolutions après consolidation de la cible initiale
 

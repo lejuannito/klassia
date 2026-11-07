@@ -64,11 +64,11 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 ## Consolidation
 
-Les 30 repères du premier relevé disposent d’un support, d’une tâche et de critères de réussite. Les deux derniers lots couvrent la numération en MS, la motricité en GS, l’anglais en GS et CE1, ainsi que l’avis sur un récit et le dialogue téléphonique en CE2. [Bilan de couverture](COUVERTURE_PROGRESSION.md)
+Le relevé examine 40 repères dans les cinq classes. Trente-neuf disposent d’un support, d’une tâche et de critères de réussite. La manipulation de la souris en CE1 reste partielle. Deux extraits de synthèse sont intégrés à la SIL et au CE1 pour un essai hors connexion. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Supports sonores](SUPPORTS_SONORES.md)
 
-La prochaine étape étend le relevé à d’autres attendus prioritaires des cinq classes. Sélectionner un périmètre par lot et établir les correspondances avant d’enrichir les ressources. [Suite de la feuille de route](COUVERTURE_PROGRESSION.md#suite-de-la-feuille-de-route)
-
-La suite de la trajectoire comprend les supports sonores et visuels, dont les enregistrements bassa à prononciation vérifiée, puis le pilote Android et iOS avec les familles et les enseignants.
+1. Compléter `CE1-U3-L06` avec une manipulation de souris et de clavier et des critères séparés. Poursuivre la matrice en géométrie et en orientation.
+2. Exécuter le pilote sur Android et iPhone avec une famille et un enseignant. Relever l’intelligibilité, la navigation et la reprise hors connexion. [Guide pilote](GUIDE_PILOTE.md)
+3. Étendre les extraits FR/EN après écoute sur les appareils. Organiser la première série de prises bassa avec un référent et les accords de diffusion. [Trajectoire](TRAJECTOIRE.md)
 
 ## Règle pour chaque nouvelle session
 

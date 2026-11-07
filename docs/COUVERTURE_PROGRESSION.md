@@ -1,15 +1,15 @@
 # Couverture du curriculum et progression des cinq classes
 
-Relevé initial du 6 novembre 2026 au commit de référence [de701af](https://github.com/lejuannito/klassia/commit/de701af1fc9bb75f846f3370a44a3c3bdef0d41a), mis à jour le 7 novembre 2026. Le relevé examine 30 repères, soit six par classe. Il couvre le langage et la lecture, l’écriture, le calcul, les arts, la motricité et un repère d’anglais. La matrice part des attendus des tableaux du MINEDUB, puis rapproche les supports, consignes et retours réellement présents dans Klassia. [Matrice des 30 repères](MATRICE_CURRICULUM.csv)
+Le relevé initial du 6 novembre 2026 examine 30 repères dans les cinq classes. L’extension du 7 novembre ajoute deux repères par classe. Elle complète le langage, l’écriture, le calcul, les arts, la motricité et l’anglais par le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. La matrice rapproche les attendus des tableaux du MINEDUB des supports, consignes et retours présents dans Klassia. [Matrice des 40 repères](MATRICE_CURRICULUM.csv)
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
-| Moyenne section | 160 | 6 | 0 | 0 |
-| Grande section | 162 | 6 | 0 | 0 |
-| SIL | 88 | 6 | 0 | 0 |
-| CE1 | 87 | 6 | 0 | 0 |
-| CE2 | 347 | 6 | 0 | 0 |
-| **Total** | **844** | **30** | **0** | **0** |
+| Moyenne section | 160 | 8 | 0 | 0 |
+| Grande section | 162 | 8 | 0 | 0 |
+| SIL | 88 | 8 | 0 | 0 |
+| CE1 | 87 | 7 | 1 | 0 |
+| CE2 | 347 | 8 | 0 | 0 |
+| **Total** | **844** | **39** | **1** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -56,15 +56,23 @@ La correspondance s’affiche dans le parcours MS et à l’ouverture de chaque 
 - **CE1, anglais.** Un deuxième message s’écoute séparément. L’enfant identifie le groupe et le jour, puis formule une réponse orale. Le texte du message est accessible à l’adulte. [Leçon d’écoute de l’U8](../ce1/data/unit8.json)
 - **CE2, français et anglais.** L’élève justifie un avis par un détail du récit de l’exposition. En anglais, il écrit un appel en quatre à six répliques avec une demande et sa réponse. Les deux exercices donnent un exemple et des critères de relecture. [Leçons de l’U8](../data/content-u8.json)
 
+## Deuxième relevé
+
+| Classe | Nouveaux repères | Activités observables |
+|---|---|---|
+| MS | Quatre formes et germination | Apparier quatre cartes de formes, puis observer la pousse d’un haricot semé avec l’adulte. |
+| GS | Tri selon deux critères et calendrier | Choisir les cartes à la fois grandes et rouges, puis retrouver une date de fête sur un calendrier. |
+| SIL | Parties du téléphone et économie d’eau | Nommer trois parties, allumer et éteindre un appareil accompagné, puis expliquer le geste du robinet pendant le lavage des mains. |
+| CE1 | Milieux de vie et bureautique | Classer animaux et plantes de la mare et du jardin. L’usage de la souris reste partiel et demande une tâche observable. |
+| CE2 | Mesure de longueur et tableur | Mesurer une table et matérialiser dix mètres. Construire un tableau de budget et vérifier soustraction et division. |
+
 ## Suite de la feuille de route
 
-1. **Étendre le relevé des programmes.** Cartographier d’autres attendus prioritaires des cinq classes par lot, puis rapprocher chaque attendu du support et de l’évaluation correspondants.
-2. **Produire les supports sonores et visuels.** Préparer les médias français et anglais et les enregistrements bassa à prononciation vérifiée.
-3. **Mener le pilote Android et iOS.** Observer l’écoute, la lisibilité et l’usage hors connexion avec des familles et des enseignants.
+1. Compléter la manipulation souris et clavier en CE1, puis étendre le relevé à des attendus de géométrie et d’orientation adaptés à chaque classe.
+2. Tester les deux extraits hors connexion sur Android et iOS avec les familles et les enseignants. Relever les consignes et les supports qui nécessitent une reprise. [Guide pilote](GUIDE_PILOTE.md)
+3. Étendre les supports FR/EN à partir des retours et préparer les premières prises bassa avec un référent de la langue. [Supports sonores](SUPPORTS_SONORES.md) · [Trajectoire](TRAJECTOIRE.md)
 
-Les retours de terrain peuvent affiner les 30 correspondances de la première matrice. [Trajectoire consolidée](TRAJECTOIRE.md)
-
-Pour étendre la matrice, attribuer un identifiant interne à chaque nouvel attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une même ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
+Pour étendre la matrice, attribuer un identifiant interne à chaque attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
 
 ## Références
 

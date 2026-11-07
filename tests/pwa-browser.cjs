@@ -33,7 +33,7 @@ const server = http.createServer((request, response) => {
   if (!file.startsWith(root + path.sep)) return response.writeHead(403).end();
   if (published && interrupted && name === 'data/content-u2.json') return response.writeHead(503).end();
 
-  const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml' };
+  const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.mp3': 'audio/mpeg' };
   try {
     const content = (published && changes.get(name)) || fs.readFileSync(file);
     response.setHeader('Content-Type', types[path.extname(name)] || 'application/octet-stream');
@@ -108,6 +108,36 @@ async function run() {
     await page.goto(base + 'search.html?q=ecole');
     await page.locator('#searchResults li').first().waitFor();
     console.log('PASS PWA update on a subdirectory: current check, failed install, offline fallback, retry, tab guard, activation offline and progress retention');
+
+    for (const [lessonRoute, file] of [
+      ['sil/#lesson:SIL-U4-L01', 'sil-u4-l01-lou-a-mal.mp3'],
+      ['ce1/#lesson:CE1-U8-L03', 'ce1-u8-l03-music-club.mp3']
+    ]) {
+      await page.goto(base + lessonRoute);
+      const audio = page.locator('.lesson-audio audio');
+      const bytes = fs.readFileSync(path.join(root, 'assets', file));
+      const partial = await audio.evaluate(async element => {
+        const response = await fetch(element.src, { headers: { Range: 'bytes=0-1' } });
+        return {
+          status: response.status,
+          range: response.headers.get('Content-Range'),
+          bytes: Array.from(new Uint8Array(await response.arrayBuffer()))
+        };
+      });
+      assert.deepEqual(partial, { status: 206, range: `bytes 0-1/${bytes.length}`, bytes: Array.from(bytes.subarray(0, 2)) });
+
+      await audio.evaluate(element => element.play());
+      await page.waitForFunction(() => document.querySelector('.lesson-audio audio')?.currentTime > 0.1);
+      if (lessonRoute.startsWith('ce1/')) {
+        assert.equal(await page.locator('.practice-item .adult-guide').evaluate(details => details.open), false);
+      }
+      const playing = await audio.elementHandle();
+      await page.evaluate(() => { location.hash = '#units'; });
+      await audio.waitFor({ state: 'detached' });
+      assert.equal(await playing.evaluate(element => element.paused), true);
+      await playing.dispose();
+    }
+    console.log('PASS offline French and English clips, byte ranges, hidden transcript and stop on navigation');
 
     await page.goto(base + '?unit=U5#lesson:SC-U5-L3');
     await page.getByRole('heading', { name: 'Aires protégées du Cameroun' }).waitFor();

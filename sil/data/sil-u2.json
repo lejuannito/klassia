@@ -220,8 +220,8 @@
       "id": "SIL-U2-L09",
       "domain": "Développement personnel",
       "title": "Protéger l’eau et trier les déchets",
-      "objective": "Classer quelques déchets propres et choisir une action de protection du cadre de vie.",
-      "course": "On garde les déchets dans un contenant adapté. Le tri dépend des règles locales ; on ne collecte pas d’objet coupant ou sale.",
+      "objective": "Classer quelques déchets propres et expliquer un geste qui économise l’eau.",
+      "course": "On garde les déchets dans le bac prévu. Le tri dépend des règles locales. Pour économiser l’eau pendant le lavage des mains, on ferme le robinet quand on se savonne puis on le rouvre pour rincer.",
       "model": "Un emballage propre va dans le panier prévu. Un déchet inconnu est montré à l’adulte, pas ramassé.",
       "guided": "Trier trois images : déchet dans la poubelle, eau propre, déchet au sol. Expliquer le choix.",
       "exercise": "Où déposer un emballage propre après le goûter ?",
@@ -229,9 +229,16 @@
       "remediation": "Faire un choix entre deux images et verbaliser « propre / à jeter ».",
       "transfer": "Aider à ranger une petite zone avec un adulte.",
       "materials": "Images ou emballages propres et non coupants.",
+      "practice": [
+        {
+          "prompt": "Awa se savonne les mains. Le robinet coule encore. Que peut-elle faire maintenant et quand rouvrira-t-elle le robinet ?",
+          "answer": "Awa ferme le robinet pendant qu’elle se savonne. Elle le rouvre pour se rincer les mains.",
+          "explanation": "L’eau sert à mouiller et à rincer les mains. Fermer le robinet pendant le savonnage évite de la laisser couler sans l’utiliser. L’enfant peut mimer les deux gestes."
+        }
+      ],
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
-        "pages": "125–131",
+        "pages": "Tableau 24, p. 94, colonne SIL, unité 2 · développement personnel, p. 125–131",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
       },
       "editorial": {

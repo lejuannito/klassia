@@ -1810,27 +1810,31 @@
             {
               "prompt": "Convertis 3 m en cm.",
               "answer": "300 cm",
-              "explanation": "",
+              "explanation": "Un mètre vaut 100 cm. Trois mètres valent donc 3 × 100 cm.",
               "type": "open",
               "id": "MA-U1-L5-E1"
             },
             {
               "prompt": "Convertis 2 dam en m.",
               "answer": "20 m",
-              "explanation": "",
+              "explanation": "Un décamètre vaut 10 m. Deux décamètres valent donc 2 × 10 m.",
               "type": "open",
               "id": "MA-U1-L5-E2"
             },
             {
               "prompt": "Quelle unité convient mieux pour une porte : mm ou m ?",
               "answer": "m",
-              "explanation": "",
+              "explanation": "Une porte a une hauteur de l’ordre de deux mètres. Le mètre donne une mesure plus commode à lire.",
               "type": "open",
               "id": "MA-U1-L5-E3"
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 84 – Mesures et grandeurs, CE2.",
-          "practical": [],
+          "practical": [
+            "Estime la longueur d’une table et note ton estimation. Mesure-la avec un mètre ruban. Place le zéro au premier bord, garde le ruban droit et lis la mesure au second bord.",
+            "Avec l’adulte, choisis un espace dégagé et marque au sol une longueur de 10 m avec un décamètre. Un élève tient le zéro et l’autre pose le repère à 10 m. Si vous avez seulement un mètre, reportez dix fois un mètre pour construire la même longueur.",
+            "Écris 1 dam = 10 m. L’adulte observe le choix de l’instrument, le placement du zéro et l’écriture de la mesure avec son unité."
+          ],
           "notes": [],
           "manual_sections": [
             {
@@ -1874,7 +1878,7 @@
             {
               "title": "Estimer avant de mesurer",
               "kind": "text",
-              "body": "Avant d’utiliser l’instrument, donne une estimation. Une porte mesure environ quelques mètres de hauteur, pas quelques centimètres. L’estimation aide à repérer une erreur de lecture."
+              "body": "Avant d’utiliser l’instrument, donne une estimation. La hauteur d’une porte est souvent proche de 2 m. Une estimation aide à repérer une erreur d’unité ou de lecture."
             }
           ],
           "editorial": {
@@ -1884,11 +1888,11 @@
             "reviewer": null
           },
           "teacher_guide": {
-            "preparation": "Lire la leçon et ses corrections avant la séance. Préparer le support indiqué dans « Je découvre ».",
+            "preparation": "Préparer un mètre, un décamètre ou ruban de 10 m, une table et deux repères à poser au sol dans un espace dégagé.",
             "observation": [
-              "Expliquer mesure et grandeur.",
-              "Estimer une longueur.",
-              "Utiliser mètre, centimètre, décamètre et conversions simples."
+              "Propose une estimation et choisit l’instrument selon la longueur.",
+              "Aligne le zéro et indique une graduation avec son unité.",
+              "Exprime la même longueur par 1 dam et par 10 m. Noter quel instrument l’élève a manipulé."
             ],
             "adaptation": "Faire reformuler la consigne et proposer un exemple supplémentaire si nécessaire. Revenir sur cette activité un autre jour."
           }

@@ -63,6 +63,77 @@ const server = http.createServer((request, response) => {
   }
 });
 
+async function testBassaMicrophone(context, page, base) {
+  await context.addInitScript(() => {
+    const original = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+    navigator.mediaDevices.getUserMedia = async constraints => {
+      if (window.denyTestMicrophone) throw new DOMException('Test permission refusal', 'NotAllowedError');
+      const stream = await original(constraints);
+      window.testMicrophoneTracks = stream.getAudioTracks();
+      return stream;
+    };
+  });
+  await page.setViewportSize({ width: 320, height: 844 });
+  await page.goto(base + '#bassa');
+  await page.locator('#bassaSearch').waitFor();
+  const panel = page.locator('#bassaRecorder');
+  assert.equal(await panel.count(), 0, 'The learner workshop has no microphone controls');
+  await page.locator('[data-space]').click();
+  await page.locator('#localRole').selectOption('ENSEIGNANT');
+  await page.getByRole('link', { name: 'Ouvrir l’atelier Bassa' }).click();
+
+  const entry = panel.locator('[data-entry]'), form = panel.locator('[data-form]');
+  const status = panel.locator('[data-status]'), audio = panel.locator('audio');
+  const record = panel.locator('[data-record]'), stop = panel.locator('[data-stop]');
+  await status.filter({ hasText: 'Choisissez une forme et lancez la prise.' }).waitFor();
+  assert.deepEqual(await entry.locator('option').evaluateAll(options => options.map(option => option.value)),
+    ['BA002', 'BA004', 'BA005', 'BA006']);
+  await entry.selectOption('BA004');
+  assert.equal(await form.inputValue(), 'málêt');
+  await page.evaluate(() => { window.denyTestMicrophone = true; });
+  await record.click();
+  await status.filter({ hasText: /Accès au micro refusé/ }).waitFor();
+  await page.evaluate(() => { window.denyTestMicrophone = false; });
+
+  await record.click();
+  await status.filter({ hasText: /Enregistrement en cours/ }).waitFor();
+  await page.waitForTimeout(350); // Give the fake microphone samples to encode.
+  await stop.click();
+  await audio.waitFor();
+  assert.equal(await page.evaluate(() => window.testMicrophoneTracks.every(track => track.readyState === 'ended')), true);
+  await audio.evaluate(element => element.play());
+  await page.waitForFunction(() => document.querySelector('#bassaRecorder audio').currentTime > 0.05);
+  assert.equal(await panel.evaluate(element => element.scrollWidth > element.clientWidth), false);
+  await panel.getByRole('button', { name: 'Conserver la prise', exact: true }).click();
+  await status.filter({ hasText: 'Prise conservée sur cet appareil.' }).waitFor();
+
+  await form.selectOption('malet');
+  await status.filter({ hasText: 'Choisissez une forme et lancez la prise.' }).waitFor();
+  assert.equal(await audio.isVisible(), false);
+  await page.reload();
+  await entry.selectOption('BA004');
+  await audio.waitFor();
+  const [download] = await Promise.all([
+    page.waitForEvent('download'), panel.getByRole('link', { name: 'Télécharger la source' }).click()
+  ]);
+  assert.match(download.suggestedFilename(), /^BA004-01\.(webm|m4a|mp4|ogg)$/);
+  assert.equal(await download.failure(), null);
+
+  await record.click();
+  await status.filter({ hasText: /Enregistrement en cours/ }).waitFor();
+  await page.evaluate(() => { location.hash = '#home'; });
+  await panel.waitFor({ state: 'detached' });
+  assert.equal(await page.evaluate(() => window.testMicrophoneTracks.every(track => track.readyState === 'ended')), true);
+  await page.goto(base + '#bassa');
+  await entry.selectOption('BA004');
+  await audio.waitFor();
+  page.once('dialog', dialog => dialog.accept());
+  await panel.getByRole('button', { name: 'Supprimer la prise' }).click();
+  await status.filter({ hasText: 'Prise supprimée de cet appareil.' }).waitFor();
+  assert.equal(await audio.isVisible(), false);
+  console.log('PASS Bassa workshop offline mic capture, refusal, playback, per-form storage, download and mic release');
+}
+
 async function run() {
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   const base = 'http://127.0.0.1:' + server.address().port + scope;
@@ -73,7 +144,7 @@ async function run() {
     browser = await chromium.launch({
       ...(process.env.KLASSIA_CHROMIUM ? { executablePath: process.env.KLASSIA_CHROMIUM } : {}),
       headless: true,
-      args: ['--no-sandbox', '--disable-dev-shm-usage']
+      args: ['--no-sandbox', '--disable-dev-shm-usage', '--use-fake-device-for-media-stream', '--use-fake-ui-for-media-stream']
     });
     const context = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'allow' });
     const page = await context.newPage();
@@ -504,6 +575,7 @@ async function run() {
     await telephone.getByRole('button', { name: 'Voir la correction' }).click();
     assert.match(await telephone.locator('.feedback').innerText(), /Can you bring a pencil.*Yes, I’ll bring one.*Goodbye/s);
     console.log('PASS offline GS reading, CE1 listening and CE2 opinion and telephone writing');
+    await testBassaMicrophone(context, page, base);
   } finally {
     await browser?.close();
     server.close();

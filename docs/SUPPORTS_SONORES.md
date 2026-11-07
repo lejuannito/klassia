@@ -27,22 +27,31 @@ Commencer par quatre entrées de l’école, `BA002` (salle de classe), `BA004` 
 | `BA006` | `Liwindi` | Montrer un crayon et confirmer la forme retenue pour cet objet. |
 
 1. Demander au locuteur son accord pour enregistrer et diffuser sa voix. Conserver l’accord et les coordonnées dans le suivi privé du projet.
-2. Enregistrer une prise par forme retenue et garder un fichier source WAV. Utiliser un nom comme `BA002-01.wav`. Relever l’identifiant lexical, la forme exacte avec ses signes, le sens, la variété régionale si elle est connue et la date de la prise.
+2. Enregistrer une prise par forme retenue. Relever l’identifiant lexical, la forme exacte avec ses signes, le sens, la variété régionale si elle est connue et la date de la prise.
 3. Faire réécouter chaque prise par le référent. Relever le résultat pour la prononciation, les tons, la correspondance avec la graphie et l’intelligibilité. Reprendre les clips à corriger.
 4. Après confirmation du référent et de l’accord de diffusion, encoder le clip public, ajouter l’attribution autorisée et vérifier sa lecture dans l’activité hors connexion.
+
+### Enregistrer au micro dans Klassia
+
+1. Ouvrir Klassia en HTTPS. Choisir **Espace Enseignant** ou **Administration locale**, puis **Validation pédagogique › Ouvrir l’atelier Bassa**.
+2. Dans **Enregistrer une prononciation**, choisir l’entrée et la forme. Appuyer sur **Enregistrer au micro** et autoriser le micro dans le navigateur. Prononcer la forme puis appuyer sur **Arrêter la prise**. L’essai s’arrête automatiquement au bout de 12 secondes.
+3. Réécouter, puis **Conserver la prise** ou refaire l’essai. Klassia garde une prise par forme et par profil sur cet appareil. Une nouvelle prise ne remplace la précédente qu’après avoir choisi **Remplacer la prise**.
+4. Faire écouter la prise au référent sur le même appareil. Pour la transférer ou préparer sa diffusion, utiliser **Télécharger la source** et noter le nom généré dans le relevé. Le fichier utilise le format enregistré par le navigateur, par exemple WebM ou M4A. Conserver la source téléchargée avant d’effacer les données du site.
+
+Ouvrir l’atelier avec la même adresse et le même profil pour retrouver les prises. Sauvegarder les sources avec **Télécharger la source**, séparément de la sauvegarde des progrès. Après téléchargement de l’édition, vérifier également la capture et la réécoute en mode avion. Les prises de l’atelier sont des brouillons locaux. La revue linguistique et l’accord de diffusion restent nécessaires pour les intégrer aux leçons.
 
 ### Relevé privé des prises
 
 Avant la séance, montrer l’objet ou la scène et faire préciser au référent la forme à enregistrer. Prendre deux essais dans une pièce calme, avec une courte pause avant et après le mot. Si le référent demande une phrase pour apprécier les tons en contexte, conserver cet essai dans le dossier privé. Retenir un fichier par forme effectivement validée.
 
-| Fichier source prévu | Forme retenue et sens précis | Contrôle du référent | Accord de diffusion | Décision |
+| Identifiant de la prise | Forme retenue et sens précis | Contrôle du référent | Accord de diffusion | Décision |
 |---|---|---|---|---|
-| `BA002-01.wav` | Salle de classe · à préciser | À faire | À recueillir | En attente |
-| `BA004-01.wav` | Enseignant(e) · à préciser | À faire | À recueillir | En attente |
-| `BA005-01.wav` | Livre ou livre de lecture · à préciser | À faire | À recueillir | En attente |
-| `BA006-01.wav` | Crayon · à préciser | À faire | À recueillir | En attente |
+| `BA002` | Salle de classe · à préciser | À faire | À recueillir | En attente |
+| `BA004` | Enseignant(e) · à préciser | À faire | À recueillir | En attente |
+| `BA005` | Livre ou livre de lecture · à préciser | À faire | À recueillir | En attente |
+| `BA006` | Crayon · à préciser | À faire | À recueillir | En attente |
 
-Dupliquer une ligne si le référent retient une deuxième forme et incrémenter le numéro de prise. Consigner la date, la variété régionale si connue, le nom du référent et son avis sur la prononciation, les tons, la graphie, le sens et l’intelligibilité. Garder le WAV, l’avis et l’accord dans le dossier privé. Relever le crédit que le locuteur autorise à publier, le cas échéant.
+Dupliquer une ligne si le référent retient une deuxième forme. Consigner le nom du fichier source, la date, la variété régionale si connue, le nom du référent et son avis sur la prononciation, les tons, la graphie, le sens et l’intelligibilité. Garder la source, l’avis et l’accord dans le dossier privé. Relever le crédit que le locuteur autorise à publier, le cas échéant.
 
 ### Intégration des prises autorisées
 

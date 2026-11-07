@@ -28,6 +28,7 @@ L’inventaire consolidé compte 846 ressources. La matrice suit la couverture d
 - lecture optionnelle FR/EN via les voix disponibles sur l’appareil et six extraits intégrés pour la SIL et le CE1 ;
 - absence volontaire de synthèse vocale bassa avec voix FR/EN ;
 - 45 panneaux de traductions bassa dans les cinq classes ;
+- capture et réécoute des quatre premières entrées bassa dans l’atelier Enseignant, avec conservation par profil sur l’appareil ;
 - toutes les variantes bassa proposées pour le sens demandé restent acceptées ;
 - les 39 leçons de français CE2 U4–U8 ont été enrichies avec supports et exercices corrigés.
 

@@ -36,6 +36,12 @@ function decorate(){
  document.querySelectorAll('.klassia-global-nav,.klassia-space-menu,.klassia-class-switch,.profile-trigger').forEach(e=>e.remove());
  const searchBack=new URL('search.html',c.base);searchBack.search=new URLSearchParams(location.search).get('recherche')||'';
  const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');nav.innerHTML=`<label>Classe <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label><a data-search href="${new URL('search.html',c.base)}">Rechercher</a>${new URLSearchParams(location.search).has('recherche')?`<a data-search-return href="${esc(searchBack.href)}">Retour aux résultats</a>`:''}<button data-space class="space-trigger">Espace : ${roleName} · changer</button><button data-profiles>Profil : ${esc(K.profile().name)}</button><button data-overview>Suivi des classes</button><a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>${role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':''}${['#coverage','#bassa'].includes(location.hash)?'<button data-return>Retour à ma classe</button>':''}`;top.insertAdjacentElement('afterend',nav);
+ if (['PARENT','ENSEIGNANT','ADMIN'].includes(role)) {
+  const pilot=document.createElement('a');
+  pilot.href=new URL('pilote.html',c.base);
+  pilot.textContent='Carnet du pilote';
+  nav.insertBefore(pilot,nav.querySelector('[data-child]'));
+ }
  const main=document.querySelector('main');if(main&&!main.querySelector('.edition-notice,.gs-notice')){const n=document.createElement('p');n.className='edition-notice';n.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(n);}
  document.getElementById('logout')?.remove();
 }

@@ -8,7 +8,7 @@ import path from 'node:path';
 const root = path.resolve(import.meta.dirname, '..');
 const dist = path.join(root, 'dist');
 const rootFiles = [
-  'index.html', 'search.html', 'app.js', 'style.css',
+  'index.html', 'search.html', 'pilote.html', 'app.js', 'style.css',
   'v9.js', 'v9.css', 'v14.js', 'v14.css', 'manual-v11.css',
   'class-switch-v12.js', 'pwa.js', 'service-worker.js',
   'precache-manifest.js', 'manifest.webmanifest'
@@ -67,7 +67,7 @@ for (const file of release.files) {
   assert.equal(hash, file.sha256, 'Invalid offline asset hash: ' + relative);
 }
 
-for (const mandatory of ['index.html', 'search.html', 'service-worker.js',
+for (const mandatory of ['index.html', 'search.html', 'pilote.html', 'service-worker.js',
   'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
   'ms/index.html', 'gs/index.html', 'sil/index.html', 'ce1/index.html']) {
   assert.ok(published.has(mandatory), 'Missing application entry point: ' + mandatory);

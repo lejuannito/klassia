@@ -113,6 +113,23 @@ projects=[('Notre petit livre de classe','Our class booklet'),('Le carnet du cor
 catalog={'class_id':'GS-BIL','class_name':'Grande section bilingue','age_reference':'environ 5 ans','curriculum_basis':'MINEDUB 2018 : deuxième année francophone et Nursery Two anglophone; propositions originales à relire','themes':[],'version':'1.0','summary':{'themes':8,'activities':162},'sources':[{'title':'Curriculum maternel francophone, MINEDUB 2018','url':FR},{'title':'Cameroon Nursery School Curriculum, MINEDUB 2018','url':EN}]}
 practice={'version':'1.0','themes':{}}
 mapping=[]
+length_workshop={
+ 'goal_fr':'Comparer deux longueurs avec la même petite bande comme unité.',
+ 'goal_en':'Compare two lengths using the same short strip as a unit.',
+ 'prompt_fr':'Quel chemin du jardin est le plus long ? Pose des bandes identiques du départ à l’arrivée, bout à bout.',
+ 'prompt_en':'Which garden path is longer? Lay equal strips end to end from the start to the finish.',
+ 'steps_fr':['Place la première bande au départ. Ajoute les autres sans les écarter ni les superposer.','Dans le modèle, la ligne A prend 3 bandes et la ligne B en prend 5. La ligne B est la plus longue.','L’adulte trace deux nouvelles lignes de 4 et 3 bandes. Mesure chacune avant de les ranger de la plus courte à la plus longue.'],
+ 'steps_en':['Put the first strip at the start. Add the others without gaps or overlaps.','In the example, path A takes 3 strips and path B takes 5. Path B is longer.','Ask the adult to draw two new paths, 4 and 3 strips long. Measure and order them from shortest to longest.'],
+ 'table':{'headers':['Chemin / Path','Bandes identiques / Equal strips'],'rows':[['A','3'],['B','5']]},
+ 'questions':[
+  {'fr':'Avec les mêmes bandes, A mesure 4 bandes et B en mesure 3. Quel chemin est le plus long ?','en':'Using equal strips, A is 4 strips long and B is 3. Which path is longer?','answer':'A. Quatre unités identiques couvrent plus de longueur que trois. / A. Four equal units cover more length than three.'},
+  {'fr':'Lina utilise 4 petites bandes pour A et 3 grandes pour B. Comment comparer les chemins ?','en':'Lina uses 4 short strips for A and 3 long strips for B. How can you compare the paths?','answer':'Refaire les deux mesures avec une seule taille de bande. / Measure both again with one strip size.'}
+ ],
+ 'observe':['Place la première unité au départ.','Juxtapose les bandes sans trou ni chevauchement.','Compare les nombres quand les unités sont identiques.'],
+ 'materials':['bandes de papier de même longueur','deux lignes tracées par l’adulte'],
+ 'source_refs':['FR : tableau 17, p. 64, thème 6, deuxième année','EN : table 39, p. 66–67, Nursery Two'],
+ 'teacher_guide':{'preparation':'Tracer deux lignes de longueurs différentes en reportant la même bande. Garder une deuxième série pour le nouvel essai.','adaptation':'Montrer le départ d’une seule ligne. Laisser l’enfant poser les autres bandes.','follow_up':'Changer les longueurs et inverser l’ordre des lignes. Proposer au carnet pilote un autre trajet facile à préparer.'}
+}
 for idx,(tf,te) in enumerate(themes,1):
  t='T'+str(idx);ds=[{'id':id,'name_fr':fr,'name_en':en,'icon':ic,'weight':w,'activities':[]} for id,fr,en,ic,w in DOMS];by={d['id']:d for d in ds}
  def add(domain,kind,row,extra=None):
@@ -131,7 +148,8 @@ for idx,(tf,te) in enumerate(themes,1):
  add('LC','bassa',('Les mots bassa du thème','Bassa words for this theme','Observe les traductions bassa proposées ci-dessous. Associe un mot à un objet, un geste ou un dessin; compare les variantes avec l’adulte.','Look at the proposed Bassa translations below. Match a word to an object, action or drawing; compare the variants with the adult.','Choisis un sens et retrouve une de ses traductions proposées.','Choose a meaning and find one proposed translation.','Toutes les formes affichées pour ce sens sont acceptées; le statut documentaire reste visible.','All displayed forms for that meaning are accepted; their documentary status remains visible.'),{'bassa_topic':t,'source_note':'Bassa du Cameroun : propositions documentaires à vérifier; aucune phrase nouvelle n’est inventée à partir de mots isolés.'})
  n,added=counts[idx-1];start=n-added
  add('ST','math',(f'Je compte jusqu’à {n}',f'Counting to {n}',f'Prends {start} jetons. '+(f'Ajoute {added} jetons. ' if added else '')+f'Compte chaque jeton une seule fois. Pour {n}, forme des groupes de dix quand c’est possible.',f'Take {start} counters. '+(f'Add {added} counters. ' if added else '')+f'Count each once. Group ten together when possible.','Combien de jetons as-tu maintenant ?','How many counters do you have now?',str(n)+' jetons.',str(n)+' counters.'),{'interactive':{'prompt_fr':'Écris le nombre total.','prompt_en':'Write the total number.','answer':n,'explanation_fr':f'{start} + {added} = {n}.','explanation_en':f'Count to check: {n}.'},'visual':{'kind':'count','items':['● '*min(10,n)]+(['● '*(n-10)] if n>10 else [])}})
- for key,kind in [('math2','math'),('science','science'),('digital','digital'),('sensory','sensory')]:add('ST',kind,rows[key][idx-1])
+ for key,kind in [('math2','math'),('science','science'),('digital','digital'),('sensory','sensory')]:
+  add('ST',kind,rows[key][idx-1],length_workshop if idx==6 and key=='math2' else None)
  if idx in (1,4):
   days=idx==1
   fr='lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche' if days else 'janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre'

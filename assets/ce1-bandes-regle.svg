@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 548 180" role="img" aria-labelledby="title desc">
+  <title id="title">Deux bandes au-dessus d’une règle graduée</title>
+  <desc id="desc">La bande A part de 2 et finit à 9. La bande B part de 0 et finit à 6. La règle est graduée en centimètres.</desc>
+  <rect width="548" height="180" rx="14" fill="#f0f5fc"/>
+  <g stroke="#7a8598" stroke-dasharray="4 4">
+    <path d="M140 39V109M476 39V109M44 78V109M332 78V109"/>
+  </g>
+  <rect x="140" y="23" width="336" height="18" rx="2" fill="#3157a5"/>
+  <rect x="44" y="62" width="288" height="18" rx="2" fill="#277450"/>
+  <rect x="28" y="108" width="512" height="54" rx="8" fill="#ffe6a1" stroke="#8b671b"/>
+  <path d="M44 108v18m48-18v18m48-18v18m48-18v18m48-18v18m48-18v18m48-18v18m48-18v18m48-18v18m48-18v18m48-18v18" stroke="#432f13" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif" font-size="18" text-anchor="middle" fill="#22334f">
+    <text x="122" y="38" font-weight="700">A</text><text x="28" y="77" font-weight="700">B</text>
+    <text x="44" y="149">0</text><text x="92" y="149">1</text><text x="140" y="149">2</text>
+    <text x="188" y="149">3</text><text x="236" y="149">4</text><text x="284" y="149">5</text>
+    <text x="332" y="149">6</text><text x="380" y="149">7</text><text x="428" y="149">8</text>
+    <text x="476" y="149">9</text><text x="524" y="149">10</text>
+    <text x="16" y="155" font-size="12">cm</text>
+  </g>
+</svg>

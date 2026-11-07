@@ -90,6 +90,8 @@ async function testBassaMicrophone(context, page, base) {
     ['BA002', 'BA004', 'BA005', 'BA006']);
   await entry.selectOption('BA004');
   assert.equal(await form.inputValue(), 'málêt');
+  assert.match(await panel.locator('[data-situation]').innerText(), /personne qui enseigne/);
+  assert.match(await panel.locator('[data-pilot-note]').getAttribute('href'), /exercice=BA004#observations$/);
   await page.evaluate(() => { window.denyTestMicrophone = true; });
   await record.click();
   await status.filter({ hasText: /Accès au micro refusé/ }).waitFor();
@@ -132,6 +134,73 @@ async function testBassaMicrophone(context, page, base) {
   await status.filter({ hasText: 'Prise supprimée de cet appareil.' }).waitFor();
   assert.equal(await audio.isVisible(), false);
   console.log('PASS Bassa workshop offline mic capture, refusal, playback, per-form storage, download and mic release');
+}
+
+async function testPilotNotebook(page, base) {
+  await page.getByRole('link', { name: 'Carnet du pilote', exact: true }).click();
+  await page.getByRole('heading', { name: 'Carnet du pilote', exact: true }).waitFor();
+  await page.getByText('Aucun relevé saisi.', { exact: true }).waitFor();
+  assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+  assert.equal(await page.locator('.pilot-cards article').count(), 5);
+
+  for (const [href, locator, text, figure] of [
+    ['ms/?theme=T5#domain:ST:3', '.activityCard', /Range trois bandes/, 'ms-tiges-longueurs.svg'],
+    ['gs/?theme=T6#domain:ST:1', '.activityCard', /Bandes identiques/, null],
+    ['sil/#lesson:SIL-U1-L11', '.lesson-card', /Deux tapis mesurés avec la même bande/, null],
+    ['ce1/#lesson:CE1-U1-L11', '.lesson-card', /9 − 2 = 7 cm/, 'ce1-bandes-regle.svg'],
+    ['?unit=U1#lesson:MA-U1-L5', '.lesson-page', /Il faut couper une bande de 2 m 40 cm/, null]
+  ]) {
+    await page.goto(base + href);
+    const lesson = page.locator(locator).filter({ hasText: text });
+    await lesson.waitFor();
+    if (figure) await page.waitForFunction(name =>
+      [...document.images].some(img => img.src.endsWith(name) && img.naturalWidth > 0), figure);
+  }
+  const exercise = page.locator('.exercise-card').filter({ hasText: 'Il faut couper une bande de 2 m 40 cm' });
+  await exercise.getByRole('button', { name: 'Voir la correction' }).click();
+  assert.match(await exercise.locator('.feedback').innerText(), /60 cm/);
+
+  await page.goto(base + 'pilote.html');
+  await page.getByRole('link', { name: 'Noter l’essai CE1' }).click();
+  const observation = page.locator('#pilotObservation');
+  const field = (form, name) => form.locator('[name="' + name + '"]');
+  assert.equal(await field(observation, 'lesson').inputValue(), 'CE1-U1-L11');
+  await field(observation, 'session').fill('FAM-01');
+  await field(observation, 'edition').fill('TEST-01');
+  await field(observation, 'help').selectOption('guidage');
+  await field(observation, 'note').fill('A lu seulement la graduation d’arrivée.');
+  await field(observation, 'suggestion').fill('Essayer avec un départ à 4 cm.');
+  await observation.getByRole('button', { name: 'Conserver l’observation' }).click();
+  await page.getByText(/1 observation\(s\)/).waitFor();
+  await field(observation, 'session').fill('ENS-02');
+  await field(observation, 'actor').selectOption('enseignant');
+  await observation.getByRole('button', { name: 'Conserver l’observation' }).click();
+  await page.locator('#pilotGroups').getByText('À reprendre', { exact: true }).waitFor();
+  assert.deepEqual(await page.locator('#pilotGroups td').allTextContents(),
+    ['CE1 · CE1-U1-L11 · 1', 'test-01', '2', '2', 'À reprendre']);
+
+  const phone = page.locator('#pilotDevice');
+  await field(phone, 'session').fill('TEL-01');
+  await field(phone, 'edition').fill('TEST-01');
+  await field(phone, 'device').fill('Appareil simulé');
+  await field(phone, 'micro').selectOption('reussi');
+  await field(phone, 'extraits').selectOption('a-reprendre');
+  await phone.getByRole('button', { name: 'Conserver l’essai téléphone' }).click();
+  await page.getByText(/1 essai\(s\) téléphone · 1 relevé\(s\) technique/).waitFor();
+  const [download] = await Promise.all([
+    page.waitForEvent('download'), page.getByRole('button', { name: 'Exporter les relevés' }).click()
+  ]);
+  const bytes = fs.readFileSync(await download.path());
+  const payload = JSON.parse(bytes);
+  assert.equal(payload.format, 'klassia-pilot');
+  assert.equal(payload.records.length, 3);
+  assert.equal(payload.records.find(record => record.kind === 'appareil').results.voix, 'non-essaye');
+  assert.ok(payload.records.some(record => record.suggestion === 'Essayer avec un départ à 4 cm.'));
+  await page.locator('#pilotImport').setInputFiles({ name: 'releves.json', mimeType: 'application/json', buffer: bytes });
+  await page.getByText(/0 relevé\(s\) ajouté\(s\)/).waitFor();
+  await page.reload();
+  await page.getByText(/2 observation\(s\) · 1 essai\(s\) téléphone/).waitFor();
+  console.log('PASS offline length activities in five grades, pilot observation, device checklist, export and deduplicated import');
 }
 
 async function run() {
@@ -576,6 +645,7 @@ async function run() {
     assert.match(await telephone.locator('.feedback').innerText(), /Can you bring a pencil.*Yes, I’ll bring one.*Goodbye/s);
     console.log('PASS offline GS reading, CE1 listening and CE2 opinion and telephone writing');
     await testBassaMicrophone(context, page, base);
+    await testPilotNotebook(page, base);
   } finally {
     await browser?.close();
     server.close();

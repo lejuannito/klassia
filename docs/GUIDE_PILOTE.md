@@ -1,5 +1,7 @@
 # Guide du pilote pour les parents et enseignants
 
+Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du pilote**. Les cinq séances sur les longueurs donnent une activité à essayer, un geste à observer et une piste pour proposer une variante. Le carnet conserve séparément les essais téléphone et les observations pédagogiques. Exporter les relevés en JSON pour les transmettre, puis importer les fichiers reçus dans un même carnet pour les regrouper par édition et par exercice. [Ouvrir le carnet](https://lejuannito.github.io/klassia/pilote.html)
+
 1. Créez un profil par enfant avec un prénom ou pseudonyme. Choisissez le bon profil avant chaque séance.
 2. Attendez la confirmation de téléchargement avant de travailler sans réseau. Sur un nouvel appareil, importez la sauvegarde de l’enfant dans le profil choisi.
 3. En CE2, laissez l’enfant essayer avant d’ouvrir la correction. Les boutons de compréhension expriment son ressenti ; les notes d’évaluation sont saisies après une correction accompagnée.
@@ -35,6 +37,8 @@ Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de t
 
 ### Relevé à transmettre
 
+Dans **Essai téléphone**, choisir le résultat de chaque contrôle effectivement réalisé, puis enregistrer l’essai. Les contrôles laissés sur « non essayé » restent visibles dans le relevé.
+
 Indiquer pour chaque appareil le code de séance, la date, le modèle, le système, le navigateur, l’adresse et l’édition. Dans chaque cellule, utiliser « réussi », « à reprendre » ou « non essayé ». En cas d’écart, noter l’identifiant de leçon ou de prise, le mode réseau, l’action précise et le message éventuel. Pour l’écoute, relever aussi les mots difficiles à comprendre et le nombre d’écoutes.
 
 | Contrôle | Android · Chrome | iPhone · Safari | Écart observé |
@@ -48,6 +52,8 @@ Indiquer pour chaque appareil le code de séance, la date, le modèle, le systè
 | Capture, réécoute et reprise d’une prise dans l’atelier | À renseigner | À renseigner | Relever le mode réseau, l’autorisation du micro et le format téléchargé |
 
 ## Retours des familles et enseignants
+
+Dans **Observation**, renseigner le code de séance, l’édition, l’exercice, le niveau d’aide et le résultat du nouvel essai si disponible. Le champ « Variante ou amélioration à proposer » accueille un autre objet, une consigne ou une situation locale. La synthèse signale les exercices ayant demandé un guidage ou rencontré un blocage dans au moins deux séances distinctes d’une même édition. Les écarts techniques restent dans les relevés séparés de cette synthèse.
 
 Utiliser une ligne par exercice et par séance. Laisser l’enfant essayer la consigne avant d’intervenir. Noter le premier blocage observable, l’aide minimale qui permet de reprendre et ce que l’enfant réussit au second essai. Garder le code de séance et le rôle de l’adulte dans le relevé, sans nom d’enfant, coordonnées ni sauvegarde complète.
 

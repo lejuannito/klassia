@@ -413,6 +413,66 @@
       "scoring": "Aucun score linguistique officiel."
     },
     {
+      "id": "SIL-U1-L11",
+      "domain": "Mathématiques",
+      "title": "Comparer des longueurs avec une bande unité",
+      "objective": "Mesurer deux objets de la maison avec la même bande de papier, comparer les résultats et expliquer la démarche.",
+      "course": "Choisis une bande unité. Pose-la au bord de l’objet et marque son autre extrémité. Repars de la marque pour la placer de nouveau. Chaque report doit toucher le précédent sans le recouvrir.",
+      "model": "La bande unité couvre exactement la longueur du tapis A en 3 reports et celle du tapis B en 5 reports. Le tapis B est plus long car les deux mesures utilisent la même bande.",
+      "support": {
+        "title": "Deux tapis mesurés avec la même bande",
+        "table": {
+          "caption": "Résultats du modèle",
+          "headers": [
+            "Tapis",
+            "Nombre de reports"
+          ],
+          "rows": [
+            [
+              "A",
+              "3"
+            ],
+            [
+              "B",
+              "5"
+            ]
+          ]
+        }
+      },
+      "guided": "Avec l’adulte, fabrique une bande A de 2 unités et une bande B de 4 unités. Mesure à partir d’un bord et note les deux nombres.",
+      "exercise": "Un chemin en papier mesure 4 unités et un autre 6 unités. L’unité est la même. Quel chemin est le plus long ? De combien d’unités ?",
+      "answer": "Le chemin de 6 unités est plus long de 2 unités. Il faut 2 reports de plus pour le couvrir.",
+      "practice": [
+        {
+          "prompt": "Tu as laissé un espace entre deux reports. Que faut-il faire avant de compter ?",
+          "answer": "Refaire la mesure en plaçant les bandes bord à bord.",
+          "explanation": "Un espace compte à tort dans la longueur couverte."
+        },
+        {
+          "prompt": "Nina compte 5 petites bandes. Sami compte 4 grandes bandes. Peut-on choisir le chemin le plus long avec ces deux nombres ?",
+          "answer": "Refaire les deux mesures avec la même bande.",
+          "explanation": "Les nombres seuls ne se comparent que si l’unité est la même."
+        }
+      ],
+      "remediation": "Faire marquer le départ puis chaque report au crayon. Aider l’enfant à reprendre exactement au dernier repère.",
+      "transfer": "Mesurer deux objets de longueur différente avec la même bande. Pour un premier essai, préparer des longueurs qui correspondent à un nombre entier d’unités. Relever le nombre de reports réalisés seul.",
+      "materials": "Bandes de papier, feuille de brouillon et crayon. L’adulte prépare des unités identiques.",
+      "source": {
+        "title": "Curriculum primaire francophone, niveau 1, MINEDUB 2018",
+        "pages": "Tableau 17, p. 74, SIL, U1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null
+      },
+      "competencies": [
+        "mesure de longueurs avec une unité non conventionnelle",
+        "comparaison de longueurs"
+      ]
+    },
+    {
       "id": "SIL-U1-P01",
       "legacyProgressKey": "0",
       "domain": "Français · oral",

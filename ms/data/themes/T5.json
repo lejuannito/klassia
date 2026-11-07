@@ -447,19 +447,45 @@
           "type": "measurement",
           "title_fr": "Je mesure la pousse sans règle compliquée",
           "title_en": "I compare plant growth",
-          "goal_fr": "Comparer des hauteurs avec des unités informelles.",
-          "goal_en": "Compare heights using informal units.",
-          "activity_fr": "Comparer deux pousses avec des cubes identiques ou des bandes de papier : « celle-ci est plus haute / plus basse ».",
-          "activity_en": "Compare two seedlings using identical blocks or paper strips: taller/shorter.",
+          "goal_fr": "Comparer deux pousses puis ranger trois tiges de la plus courte à la plus longue.",
+          "goal_en": "Compare two seedlings, then order three stems from shortest to longest.",
+          "activity_fr": "Pose deux bandes qui représentent des tiges sur un même trait de départ. Montre la tige la plus haute. Recommence avec trois tiges et range-les en commençant par la plus courte.",
+          "activity_en": "Stand two paper stems on the same starting line. Point to the taller one. Try again with three stems and order them starting with the shortest.",
           "observe": [
-            "Aligne à la base.",
-            "Compare plus haut/plus bas.",
-            "Compte quelques unités si possible."
+            "Aligne les bases avant de comparer.",
+            "Montre la tige la plus courte.",
+            "Range trois bandes dans le bon ordre."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "figure": {
+            "src": "../assets/ms-tiges-longueurs.svg",
+            "alt": "Trois tiges numérotées de longueurs différentes sur le même trait de départ."
+          },
+          "questions": [
+            {
+              "fr": "Sur le dessin, quelle tige est la plus courte ?",
+              "en": "Which stem in the picture is the shortest?",
+              "answer": "La tige 1. / Stem 1."
+            },
+            {
+              "fr": "Montre les trois tiges de la plus courte à la plus longue.",
+              "en": "Point to the stems from shortest to longest.",
+              "answer": "1, puis 3, puis 2. / 1, then 3, then 2."
+            }
+          ],
+          "materials": [
+            "trois bandes de papier de longueurs différentes",
+            "un trait tracé par l’adulte"
+          ],
+          "teacher_guide": {
+            "preparation": "Découper trois bandes assez larges pour être prises facilement. Tracer une ligne sur la feuille.",
+            "adaptation": "Commencer avec deux bandes. Si l’enfant compare seulement le haut, décaler une bande et l’inviter à remettre les deux bases sur le trait.",
+            "follow_up": "Refaire l’essai avec trois bandes nouvelles et une autre disposition. Proposer au carnet pilote un objet de remplacement facile à trouver."
+          },
+          "source_note": "MINEDUB 2018, maternelle francophone, tableau 17, p. 64, première année, thème officiel 6."
         }
       ]
     },

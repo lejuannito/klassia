@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 255" role="img" aria-labelledby="title desc">
+  <title id="title">Trois tiges à comparer</title>
+  <desc id="desc">Les tiges partent toutes du trait du bas. La tige 1 est la plus courte, la tige 2 la plus haute, la tige 3 est entre les deux.</desc>
+  <rect width="480" height="255" rx="16" fill="#f0f7ee"/>
+  <path d="M30 208H450" stroke="#415d47" stroke-width="3"/>
+  <g fill="#26734d">
+    <path d="M114 207v-66h10v66zm3-57c-25 0-40-12-43-31 21 0 39 11 43 31z"/>
+    <path d="M235 207V63h10v144zm3-135c-25 0-40-12-43-31 21 0 39 11 43 31z"/>
+    <path d="M355 207V107h10v100zm3-91c-25 0-40-12-43-31 21 0 39 11 43 31z"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#173e2e" text-anchor="middle">
+    <text x="119" y="238">1</text><text x="240" y="238">2</text><text x="360" y="238">3</text>
+  </g>
+</svg>

@@ -502,39 +502,44 @@
           "type": "math",
           "title_fr": "Mesurer avec la même unité",
           "title_en": "Measuring with one unit",
-          "goal_fr": "Pose 3 crayons identiques bout à bout pour un chemin, puis 5 pour un autre.",
-          "goal_en": "Put 3 equal pencils end to end for one path and 5 for another.",
-          "prompt_fr": "Pose 3 crayons identiques bout à bout pour un chemin, puis 5 pour un autre. Ne laisse pas de trou.",
-          "prompt_en": "Put 3 equal pencils end to end for one path and 5 for another. Leave no gaps.",
+          "goal_fr": "Comparer deux longueurs avec la même petite bande comme unité.",
+          "goal_en": "Compare two lengths using the same short strip as a unit.",
+          "prompt_fr": "Quel chemin du jardin est le plus long ? Pose des bandes identiques du départ à l’arrivée, bout à bout.",
+          "prompt_en": "Which garden path is longer? Lay equal strips end to end from the start to the finish.",
           "steps_fr": [
-            "Préparer avec l’adulte : Pose 3 crayons identiques bout à bout pour un chemin, puis 5 pour un autre. Ne laisse pas de trou.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel chemin est le plus long ?"
+            "Place la première bande au départ. Ajoute les autres sans les écarter ni les superposer.",
+            "Dans le modèle, la ligne A prend 3 bandes et la ligne B en prend 5. La ligne B est la plus longue.",
+            "L’adulte trace deux nouvelles lignes de 4 et 3 bandes. Mesure chacune avant de les ranger de la plus courte à la plus longue."
           ],
           "steps_en": [
-            "Prepare with the adult: Put 3 equal pencils end to end for one path and 5 for another. Leave no gaps.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which path is longer?"
+            "Put the first strip at the start. Add the others without gaps or overlaps.",
+            "In the example, path A takes 3 strips and path B takes 5. Path B is longer.",
+            "Ask the adult to draw two new paths, 4 and 3 strips long. Measure and order them from shortest to longest."
           ],
           "questions": [
             {
-              "fr": "Quel chemin est le plus long ?",
-              "en": "Which path is longer?",
-              "answer": "Celui de 5 crayons; l’unité est la même. / The five-pencil path; the units are equal."
+              "fr": "Avec les mêmes bandes, A mesure 4 bandes et B en mesure 3. Quel chemin est le plus long ?",
+              "en": "Using equal strips, A is 4 strips long and B is 3. Which path is longer?",
+              "answer": "A. Quatre unités identiques couvrent plus de longueur que trois. / A. Four equal units cover more length than three."
+            },
+            {
+              "fr": "Lina utilise 4 petites bandes pour A et 3 grandes pour B. Comment comparer les chemins ?",
+              "en": "Lina uses 4 short strips for A and 3 long strips for B. How can you compare the paths?",
+              "answer": "Refaire les deux mesures avec une seule taille de bande. / Measure both again with one strip size."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Celui de 5 crayons; l’unité est la même.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Place la première unité au départ.",
+            "Juxtapose les bandes sans trou ni chevauchement.",
+            "Compare les nombres quand les unités sont identiques."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "bandes de papier de même longueur",
+            "deux lignes tracées par l’adulte"
           ],
           "duration_minutes": 12,
           "source_refs": [
-            "FR : tableau 17, p. 63–71, deuxième année",
+            "FR : tableau 17, p. 64, thème 6, deuxième année",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
           "editorial": {
@@ -542,9 +547,25 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
-            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "preparation": "Tracer deux lignes de longueurs différentes en reportant la même bande. Garder une deuxième série pour le nouvel essai.",
+            "adaptation": "Montrer le départ d’une seule ligne. Laisser l’enfant poser les autres bandes.",
+            "follow_up": "Changer les longueurs et inverser l’ordre des lignes. Proposer au carnet pilote un autre trajet facile à préparer."
+          },
+          "table": {
+            "headers": [
+              "Chemin / Path",
+              "Bandes identiques / Equal strips"
+            ],
+            "rows": [
+              [
+                "A",
+                "3"
+              ],
+              [
+                "B",
+                "5"
+              ]
+            ]
           }
         },
         {

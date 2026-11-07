@@ -381,21 +381,33 @@
         {
           "id": "T4-ST1",
           "type": "math",
-          "title_fr": "Je prépare 5 places",
-          "title_en": "I set 5 places",
-          "goal_fr": "Constituer une collection jusqu’à 5.",
-          "goal_en": "Make a set up to 5.",
-          "game_fr": "Mettre 1 à 5 gobelets ou assiettes jouets selon une carte nombre.",
-          "game_en": "Set 1 to 5 toy cups/plates according to a number card.",
+          "title_fr": "Je prépare quatre places",
+          "title_en": "I set four places",
+          "goal_fr": "Préparer quatre places et reconnaître le nombre 4.",
+          "goal_en": "Set four places and recognise the number 4.",
+          "game_fr": "Trace quatre places sur une feuille. Pose un gobelet jouet par place, puis compte-les. Recommence avec la carte 4 et des assiettes jouets.",
+          "game_en": "Draw four places on paper. Put one toy cup at each place and count the cups. Try again with the number card 4 and toy plates.",
           "observe": [
-            "Associe nombre et quantité.",
-            "Compte dans l’ordre.",
-            "Corrige s’il manque un objet."
+            "Pose un objet par place.",
+            "Vérifie que quatre objets correspondent à la carte 4."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "visual": {
+            "kind": "count",
+            "items": [
+              "● ● ● ● = 4"
+            ]
+          },
+          "questions": [
+            {
+              "fr": "Combien de gobelets faut-il pour quatre places ?",
+              "en": "How many cups do you need for four places?",
+              "answer": "Quatre gobelets. Il y a un gobelet par place. / Four cups. There is one cup at each place."
+            }
+          ]
         },
         {
           "id": "T4-ST2",

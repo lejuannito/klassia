@@ -4,12 +4,12 @@ Relevé initial du 6 novembre 2026 au commit de référence [de701af](https://gi
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
-| Moyenne section | 160 | 5 | 1 | 0 |
-| Grande section | 162 | 4 | 2 | 0 |
+| Moyenne section | 160 | 6 | 0 | 0 |
+| Grande section | 162 | 6 | 0 | 0 |
 | SIL | 88 | 6 | 0 | 0 |
-| CE1 | 87 | 5 | 1 | 0 |
-| CE2 | 347 | 4 | 2 | 0 |
-| **Total** | **844** | **24** | **6** | **0** |
+| CE1 | 87 | 6 | 0 | 0 |
+| CE2 | 347 | 6 | 0 | 0 |
+| **Total** | **844** | **30** | **0** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -45,12 +45,24 @@ La correspondance s’affiche dans le parcours MS et à l’ouverture de chaque 
 - **SIL, unité 1.** L’enfant repère le rouge, le jaune et le bleu dans un nuancier de cinq couleurs, puis les utilise pour colorier trois éléments de la maison. Le corrigé sert à vérifier le classement et le dessin. [Leçon SIL-U1-L07](../sil/data/sil-u1.json)
 - **SIL, unité 4.** Dans « Lou a mal. », l’enfant réemploie ou et al, puis explique ce qui arrive à Lou en s’appuyant sur un mot. Une deuxième phrase fait relire il et vérifier le sens. [Leçon SIL-U4-L01](../sil/data/sil-u4.json)
 
-## Prochains lots de consolidation
+## Numération et motricité en maternelle
 
-1. **Numération et motricité en maternelle.** Jalonner les petites quantités en MS. En GS, observer le trajet, l’arrêt au signal et l’ajustement du déplacement à un partenaire.
-2. **Lecture au CE2 et anglais en GS, CE1 et CE2.** Faire justifier un avis sur un récit au CE2. En anglais, observer la lecture d’une phrase en GS, la compréhension d’un message oral au CE1 et la rédaction d’un échange téléphonique au CE2.
+- **MS.** L’enfant travaille un objet à l’école, deux dans le thème du corps, trois dans la famille, quatre à la fête et cinq avec les animaux. Le thème des plantes reprend le chiffre 1. Le thème des voyages permet de vérifier le plus grand nombre retrouvé seul dans deux dispositions. [École](../ms/data/themes/T1.json) · [Animaux](../ms/data/themes/T6.json) · [Voyages](../ms/data/themes/T8.json)
+- **GS.** L’enfant suit une ligne et un virage, puis s’arrête au signal. Dans le train de marche à deux, il ajuste son allure et garde un espace avec son partenaire. L’adulte relève les gestes et l’aide nécessaire séparément. [Trajet en T1](../gs/data/themes/T1.json) · [Train de marche en T8](../gs/data/themes/T8.json)
 
-Ces lots traitent les six repères encore partiels. La trajectoire prévoit ensuite d’élargir le rapprochement avec les programmes, de produire les supports sonores et visuels, puis de mener le pilote sur Android et iOS. [Trajectoire consolidée](TRAJECTOIRE.md)
+## Lecture et anglais
+
+- **GS, anglais.** L’enfant repère un son initial, puis lit une nouvelle phrase. L’adulte distingue le premier essai de la relecture après écoute. [T1](../gs/data/themes/T1.json) · [T8](../gs/data/themes/T8.json)
+- **CE1, anglais.** Un deuxième message s’écoute séparément. L’enfant identifie le groupe et le jour, puis formule une réponse orale. Le texte du message est accessible à l’adulte. [Leçon d’écoute de l’U8](../ce1/data/unit8.json)
+- **CE2, français et anglais.** L’élève justifie un avis par un détail du récit de l’exposition. En anglais, il écrit un appel en quatre à six répliques avec une demande et sa réponse. Les deux exercices donnent un exemple et des critères de relecture. [Leçons de l’U8](../data/content-u8.json)
+
+## Suite de la feuille de route
+
+1. **Étendre le relevé des programmes.** Cartographier d’autres attendus prioritaires des cinq classes par lot, puis rapprocher chaque attendu du support et de l’évaluation correspondants.
+2. **Produire les supports sonores et visuels.** Préparer les médias français et anglais et les enregistrements bassa à prononciation vérifiée.
+3. **Mener le pilote Android et iOS.** Observer l’écoute, la lisibilité et l’usage hors connexion avec des familles et des enseignants.
+
+Les retours de terrain peuvent affiner les 30 correspondances de la première matrice. [Trajectoire consolidée](TRAJECTOIRE.md)
 
 Pour étendre la matrice, attribuer un identifiant interne à chaque nouvel attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une même ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
 

@@ -3,7 +3,10 @@ const root=path.resolve(import.meta.dirname,'..'),read=p=>JSON.parse(fs.readFile
 const published=process.argv.includes('--public');
 function learningExtras(l){
  assert.ok(!ids.has(l.id),'Duplicate lesson '+l.id);ids.add(l.id);
- for(const p of l.practice||[])assert.ok(p.prompt&&p.answer&&p.explanation,'Incomplete additional practice '+l.id);
+ for (const p of l.practice || []) {
+  assert.ok(p.prompt && p.answer && p.explanation, 'Incomplete additional practice ' + l.id);
+  if (p.listen !== undefined) assert.ok(typeof p.listen === 'string' && p.listen.trim(), 'Invalid listening message ' + l.id);
+ }
  if(l.support?.table){const t=l.support.table;assert.ok(t.headers.length&&t.rows.length,'Empty table '+l.id);for(const row of t.rows)assert.equal(row.length,t.headers.length,'Table alignment '+l.id);}
  const figure = l.support?.figure;
  if (figure) {

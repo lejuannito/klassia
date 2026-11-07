@@ -121,31 +121,40 @@
           "type": "reading",
           "title_fr": "Petite lecture en anglais : tap, top",
           "title_en": "English sounds and reading: tap, top",
-          "goal_fr": "Écoute les mots anglais et le son de départ.",
-          "goal_en": "Listen to the English words and their first sound.",
-          "prompt_fr": "Écoute les mots anglais et le son de départ. Repère les mots dans la phrase, puis essaie de lire avec l’adulte.",
-          "prompt_en": "Listen to the English words and their first sound. Find the words in the sentence, then try reading with the adult.",
+          "goal_fr": "Reconnaître le son initial /t/ et essayer de lire une phrase en anglais.",
+          "goal_en": "Recognise the first sound /t/ and try reading a sentence in English.",
+          "prompt_fr": "Écoute les mots et la phrase modèle. Essaie ensuite de lire la phrase du tableau avant que l’adulte te la lise.",
+          "prompt_en": "Listen to the words and the model sentence. Then try reading the sentence in the table before the adult reads it to you.",
           "steps_fr": [
-            "Préparer avec l’adulte : Écoute les mots anglais et le son de départ. Repère les mots dans la phrase, puis essaie de lire avec l’adulte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Question en anglais : Where is the bus?"
+            "Écoute tap et top. Montre le mot qui commence comme tap parmi top et bus.",
+            "Pointe les mots de la phrase du tableau et essaie de les lire à voix haute.",
+            "Écoute ensuite l’adulte lire cette phrase, puis relis-la avec lui ou seul."
           ],
           "steps_en": [
-            "Prepare with the adult: Listen to the English words and their first sound. Find the words in the sentence, then try reading with the adult.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Where is the bus?"
+            "Listen to tap and top. Which begins like tap, top or bus?",
+            "Point to the words in the table and try to read them aloud.",
+            "Then listen to the adult read that sentence and read it again together or on your own."
           ],
           "questions": [
             {
               "fr": "Question en anglais : Where is the bus?",
               "en": "Where is the bus?",
               "answer": "at the stop / at the stop"
+            },
+            {
+              "fr": "Quel mot commence comme tap, top ou bus ?",
+              "en": "Which word starts like tap, top or bus?",
+              "answer": "Top. Tap et top commencent par le son /t/. / Top. Tap and top begin with /t/."
+            },
+            {
+              "fr": "Dans la phrase du tableau, que faut-il faire avec le bus ?",
+              "en": "In the sentence in the table, what should we do with the bus?",
+              "answer": "Il faut arrêter le bus. / Stop the bus."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : at the stop",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Repère le son initial /t/ dans les mots proposés.",
+            "Lit les mots de la phrase dans l’ordre. L’adulte note séparément le premier essai et la relecture après modèle."
           ],
           "materials": [
             "papier et crayons",
@@ -161,9 +170,9 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Dire le son de la lettre plutôt que seulement son nom; garder une prononciation anglaise.",
-            "adaptation": "Faire pointer le mot ou mimer le verbe avant de demander une lecture. Ne pas noter l’accent.",
-            "follow_up": "Changer l’ordre des cartes-mots, puis relire la phrase."
+            "preparation": "Lire les mots et la phrase modèle en anglais. Garder la phrase du tableau pour l’essai de l’enfant.",
+            "adaptation": "Laisser l’enfant pointer et lire les mots qu’il reconnaît. Lire ensuite la phrase entière et lui proposer de réessayer.",
+            "follow_up": "Distinguer les mots lus au premier essai de ceux relus après le modèle oral. Reprendre avec une autre phrase courte."
           },
           "story_en": "tap, top\nThe bus is at the stop.",
           "visual": {
@@ -171,6 +180,16 @@
             "items": [
               "tap",
               "top"
+            ]
+          },
+          "table": {
+            "headers": [
+              "Phrase à lire / Read aloud"
+            ],
+            "rows": [
+              [
+                "Stop the bus."
+              ]
             ]
           }
         },
@@ -1187,19 +1206,19 @@
           "type": "motor",
           "title_fr": "Coopérer en mouvement",
           "title_en": "Moving together",
-          "goal_fr": "En petit groupe, essaie de former un train de marche sans se tenir ni pousser.",
-          "goal_en": "In a small group, try to form a walking train without holding or pushing.",
-          "prompt_fr": "En petit groupe, essaie de former un train de marche sans se tenir ni pousser. Décidez qui commence, avancez lentement puis échangez les rôles.",
-          "prompt_en": "In a small group, try to form a walking train without holding or pushing. Agree who starts, move slowly, then swap roles.",
+          "goal_fr": "Adapter sa marche à un partenaire et repartir ensemble.",
+          "goal_en": "Adjust your walking pace to a partner and start again together.",
+          "prompt_fr": "Formez un petit train dans un espace dégagé. Marchez l’un derrière l’autre en gardant de la place entre vous.",
+          "prompt_en": "Make a small walking train in a clear space. Walk one behind the other and leave a gap.",
           "steps_fr": [
-            "Préparer avec l’adulte : En petit groupe, essaie de former un train de marche sans se tenir ni pousser. Décidez qui commence, avancez lentement puis échangez les rôles.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment aider si un partenaire n’arrive pas à suivre ?"
+            "À deux, choisissez qui mène le train. Marchez doucement en gardant un espace entre vous.",
+            "Quand l’adulte dit « ralentissez », le premier ralentit et l’autre ajuste sa marche. Au mot « stop », arrêtez-vous tous les deux.",
+            "Repartez ensemble au signal, puis échangez les rôles."
           ],
           "steps_en": [
-            "Prepare with the adult: In a small group, try to form a walking train without holding or pushing. Agree who starts, move slowly, then swap roles.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How can you help if a partner cannot keep up?"
+            "Work in pairs. Choose a leader and walk slowly with a gap between you.",
+            "When the adult says “slow down”, the leader slows down and the other adjusts their pace. At “stop”, both stop.",
+            "Start again together at the signal, then swap roles."
           ],
           "questions": [
             {
@@ -1209,13 +1228,13 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Ralentir, s’arrêter ou adapter le déplacement avec l’adulte.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Ralentit en gardant un espace avec le partenaire.",
+            "S’arrête et repart avec le partenaire au signal.",
+            "Essaie les deux rôles."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "trajet court et dégagé",
+            "adulte accompagnateur"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -1227,9 +1246,9 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
-            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "preparation": "Commencer par deux enfants. Convenez des mots pour ralentir, s’arrêter et repartir. Laisser un espace entre les groupes.",
+            "adaptation": "Montrer une fois le ralentissement avec un partenaire, puis refaire la séquence à deux.",
+            "follow_up": "Noter séparément l’ajustement de l’allure et la réaction au signal. Refaire l’essai après l’échange des rôles."
           }
         }
       ]

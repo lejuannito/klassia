@@ -441,13 +441,14 @@
         {
           "id": "T6-ST2",
           "type": "math",
-          "title_fr": "Combien de pattes ?",
-          "title_en": "How many legs?",
-          "goal_fr": "Dénombrer 0, 2 ou 4 pattes sur des exemples familiers.",
-          "goal_en": "Count 0, 2 or 4 legs on familiar examples.",
+          "title_fr": "Cinq animaux à compter",
+          "title_en": "Five animals to count",
+          "goal_fr": "Compter cinq animaux, puis compter les pattes d’un animal choisi.",
+          "goal_en": "Count five animals, then count the legs of one animal.",
           "visual": {
-            "kind": "legs",
+            "kind": "count",
             "items": [
+              "🐟 🐔 🐕 🐈 🐐",
               "🐟 0",
               "🐔 2",
               "🐕 4",
@@ -455,14 +456,31 @@
             ]
           },
           "observe": [
-            "Compte sur l’image.",
-            "Associe 2 et 4.",
-            "Comprend que tous les animaux ne se classent pas seulement par nombre de pattes."
+            "Compte cinq animaux en pointant chacun une fois.",
+            "Associe le total à la carte 5.",
+            "Compte séparément les pattes de l’animal choisi."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "steps_fr": [
+            "Pointe chaque animal de la première carte une seule fois.",
+            "Dis combien d’animaux tu as comptés, puis montre la carte du nombre.",
+            "Choisis ensuite un animal et compte ses pattes."
+          ],
+          "steps_en": [
+            "Point to each animal in the first picture once.",
+            "Say how many animals you counted, then show the number card.",
+            "Then choose one animal and count its legs."
+          ],
+          "questions": [
+            {
+              "fr": "Combien d’animaux y a-t-il dans le groupe ? Combien de pattes a la poule ?",
+              "en": "How many animals are in the group? How many legs does the hen have?",
+              "answer": "Cinq animaux dans le groupe. La poule a deux pattes. / Five animals in the group. The hen has two legs."
+            }
+          ]
         },
         {
           "id": "T6-ST3",

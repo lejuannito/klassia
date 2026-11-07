@@ -335,6 +335,64 @@ async function run() {
     await page.locator('#themeSelect').selectOption('T6');
     await page.locator('.hero').getByText('Code Klassia T6 · thème 5 du programme francophone').waitFor();
     console.log('PASS offline SIL primary colours, GS seat numbering and MS curriculum theme mapping');
+
+    await page.setViewportSize({ width: 320, height: 844 });
+    await page.goto(base + 'ms/?theme=T1#domain:ST:0');
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.locator('#msNumber').fill('1');
+    await page.locator('#msCheckNumber').click();
+    assert.match(await page.locator('#msNumberResult').innerText(), /Bravo.*1 crayon/);
+    const counting = [
+      ['T2', 0, /La carte 2/],
+      ['T3', 0, /Trois personnages/],
+      ['T4', 0, /Quatre gobelets/],
+      ['T6', 1, /Cinq animaux dans le groupe/]
+    ];
+    for (const [theme, position, answer] of counting) {
+      await page.goto(base + 'ms/?theme=' + theme + '#domain:ST:' + position);
+      const guide = page.locator('.answer-reveal');
+      await guide.locator('summary').click();
+      assert.match(await guide.innerText(), answer);
+    }
+    await page.goto(base + 'ms/?theme=T8#domain:ST:1');
+    const countingGuide = page.getByText('Préparer et adapter l’activité', { exact: true });
+    await countingGuide.click();
+    await page.getByText(/plus grand nombre retrouvé seul dans deux dispositions/).waitFor();
+
+    await page.goto(base + 'gs/?theme=T1#domain:MO:0');
+    await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
+    await page.getByText(/Suit la ligne droite puis le virage/).waitFor();
+    await page.getByText(/S’arrête au signal et attend le départ/).waitFor();
+    await page.goto(base + 'gs/?theme=T8#domain:MO:2');
+    await page.getByText(/Ralentit en gardant un espace avec le partenaire/).waitFor();
+    console.log('PASS offline MS counting progression and GS movement criteria');
+
+    for (const [theme, sentence] of [['T1', 'Can Sam sit?'], ['T8', 'Stop the bus.']]) {
+      await page.goto(base + 'gs/?theme=' + theme + '#domain:LC:2');
+      await page.getByRole('cell', { name: sentence, exact: true }).waitFor();
+      await page.getByText(/premier essai et la relecture après modèle/).waitFor();
+    }
+
+    await page.goto(base + 'ce1/#lesson:CE1-U8-L03');
+    const secondMessage = page.locator('.practice-item');
+    await secondMessage.getByRole('button', { name: /Listen in English/ }).waitFor();
+    const transcript = secondMessage.locator('details.adult-guide');
+    assert.equal(await transcript.getAttribute('open'), null);
+    await transcript.locator('summary').click();
+    assert.match(await transcript.innerText(), /Music club.*Thursday/);
+    await secondMessage.getByText('Show feedback', { exact: true }).click();
+    assert.match(await secondMessage.locator('.answer-reveal').innerText(), /music club.*Thursday.*I will bring my song book/);
+
+    await page.goto(base + '?unit=U8#lesson:FR-U8-L3');
+    const opinion = page.locator('.exercise-card').filter({ hasText: /quel geste d’Éric a le plus aidé/ });
+    await opinion.getByRole('button', { name: 'Voir la correction' }).click();
+    assert.match(await opinion.locator('.feedback').innerText(), /Ton détail vient du récit.*justifie ton choix/s);
+
+    await page.goto(base + '?unit=U8#lesson:EN-U8-L3');
+    const telephone = page.locator('.exercise-card').filter({ hasText: /write the whole call/ });
+    await telephone.getByRole('button', { name: 'Voir la correction' }).click();
+    assert.match(await telephone.locator('.feedback').innerText(), /Can you bring a pencil.*Yes, I’ll bring one.*Goodbye/s);
+    console.log('PASS offline GS reading, CE1 listening and CE2 opinion and telephone writing');
   } finally {
     await browser?.close();
     server.close();

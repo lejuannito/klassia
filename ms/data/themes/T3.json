@@ -416,27 +416,33 @@
           "type": "math",
           "title_fr": "Combien sommes-nous ?",
           "title_en": "How many are we?",
-          "goal_fr": "Compter une petite collection de personnages jusqu’à 5.",
-          "goal_en": "Count a small set of people up to 5.",
+          "goal_fr": "Dénombrer une petite collection jusqu’à 3 et reconnaître le nombre 3.",
+          "goal_en": "Count a small set up to 3 and recognise the number 3.",
           "visual": {
             "kind": "count",
             "items": [
-              "👩👨👧 = 3",
-              "👩👨👧👦 = 4",
-              "👵👩👨👧👦 = 5"
+              "🧒 = 1",
+              "🧒 🧒 = 2",
+              "🧒 🧒 🧒 = 3"
             ]
           },
-          "game_fr": "Construire des familles fictives avec 1 à 5 figurines et les compter.",
-          "game_en": "Build pretend families with 1 to 5 figures and count them.",
+          "game_fr": "Prépare un groupe de deux personnages. Ajoute un personnage et recompte. Associe le groupe à la carte du nombre.",
+          "game_en": "Make a group of two figures. Add one figure and count again. Match the group to its number card.",
           "observe": [
-            "Compte sans doubler un personnage.",
-            "Répond combien/how many.",
-            "Compare plus/moins à l’oral."
+            "Pointe chaque personnage une fois.",
+            "Donne le total et le relie à la carte 3."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "questions": [
+            {
+              "fr": "Combien de personnages y a-t-il après l’ajout ?",
+              "en": "How many figures are there after adding one?",
+              "answer": "Trois personnages. Le dernier nombre dit est 3. / Three figures. The last number you say is 3."
+            }
+          ]
         },
         {
           "id": "T3-ST2",

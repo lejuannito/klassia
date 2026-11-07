@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "228fd8282568ff0600e160c9229ce27c2d27a2e926cbdc74e6fd5efe2274e50c",
+  "version": "ceb28627d8f216f2a2419a4c6df7825dbe7b14a9c6bf3b263ee883ba70383659",
   "files": [
     {
       "url": "./app.js",
@@ -100,6 +100,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/count-school.svg",
       "sha256": "da7b8061cdc256641fa18fb07ae88f0ed958b926820863372a96b7de2340cec9"
+    },
+    {
+      "url": "./assets/gs-cartes-prenom.svg",
+      "sha256": "aed147b4fc0502a3ff5d1412cfb41498f8c6db32e267d55dea55235f089cee0f"
+    },
+    {
+      "url": "./assets/gs-t1-cahier-cartes.svg",
+      "sha256": "575b7b8889f6605d1f914aa60099140229661a7c53df3ad78660c4a59e540d23"
     },
     {
       "url": "./assets/gs-t8-places-du-bus.svg",
@@ -207,7 +215,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "55b81866cef1240fcaacf022fd9f7a2b318627e6e83a4d7d653acf93b81f2499"
+      "sha256": "f6fb429bd25b78864c6b5e1e89fbeeb26ee2a2e603f473e31ad3d264b6c770b0"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -251,7 +259,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/themes/T1.json",
-      "sha256": "bdb6150a5da6b6342253e46a0b08c1819a0b5577feda14f469d356b1a6fb2200"
+      "sha256": "2c9db84a45e74166e6374cffd7cc72e6242f162443b4f3d03287c78888ae20e4"
     },
     {
       "url": "./gs/data/themes/T2.json",
@@ -279,7 +287,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/themes/T8.json",
-      "sha256": "58ccc9469c343f8c32f62348802d99fdd9f17c16eebba1425191764e7512b383"
+      "sha256": "6553464caa0247068591ace489b0758d263d0ffa27005c7891c4d9ac6664d601"
     },
     {
       "url": "./gs/index.html",
@@ -427,7 +435,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u4.json",
-      "sha256": "0e6bebe270b821d68a0a4e49839c99dd3b88bd99ba0d5ca1728edd098f10ec15"
+      "sha256": "ae973c7953bd85f3e6ea3196d3fc2c0392147b627ab2e6a54af4cb0077796848"
     },
     {
       "url": "./sil/data/sil-u5.json",

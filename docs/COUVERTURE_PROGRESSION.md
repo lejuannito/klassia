@@ -5,11 +5,11 @@ Relevé initial du 6 novembre 2026 au commit de référence [de701af](https://gi
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
 | Moyenne section | 160 | 5 | 1 | 0 |
-| Grande section | 162 | 2 | 4 | 0 |
-| SIL | 88 | 5 | 1 | 0 |
+| Grande section | 162 | 4 | 2 | 0 |
+| SIL | 88 | 6 | 0 | 0 |
 | CE1 | 87 | 5 | 1 | 0 |
 | CE2 | 347 | 4 | 2 | 0 |
-| **Total** | **844** | **21** | **9** | **0** |
+| **Total** | **844** | **24** | **6** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -41,15 +41,16 @@ La lecture de l’U1 s’appuie sur un récit original en trois épisodes, des c
 La correspondance s’affiche dans le parcours MS et à l’ouverture de chaque thème. Les codes Klassia restent les clés des liens et de la progression enregistrée. En GS, T5 et T6 suivent l’ordre du programme. [Curriculum maternel francophone, tableau 17, p. 66–67](https://fr.scribd.com/document/578040708/Programme-Maternel-2019-01)
 
 - **GS, thème des transports.** L’enfant complète les numéros manquants des places du bus, puis écrit la suite entière de 1 à 10. Le cahier du thème fournit les dix modèles à repasser. L’adulte observe l’ordre, la lisibilité des chiffres et l’écriture de 10. [Activité GS-T8-ST2](../gs/data/themes/T8.json)
+- **GS, récit et prénom.** Trois cartes du « Cahier retrouvé » permettent de raconter dans l’ordre puis de proposer une autre fin. Pour le prénom, l’enfant apprend en T1 à comparer des cartes avec un modèle visible. En T8, il essaie avec des prénoms proches, puis vérifie et copie. [Activités de T1](../gs/data/themes/T1.json) · [Activité du prénom en T8](../gs/data/themes/T8.json)
 - **SIL, unité 1.** L’enfant repère le rouge, le jaune et le bleu dans un nuancier de cinq couleurs, puis les utilise pour colorier trois éléments de la maison. Le corrigé sert à vérifier le classement et le dessin. [Leçon SIL-U1-L07](../sil/data/sil-u1.json)
+- **SIL, unité 4.** Dans « Lou a mal. », l’enfant réemploie ou et al, puis explique ce qui arrive à Lou en s’appuyant sur un mot. Une deuxième phrase fait relire il et vérifier le sens. [Leçon SIL-U4-L01](../sil/data/sil-u4.json)
 
 ## Prochains lots de consolidation
 
-1. **Langage, lecture et premiers écrits en GS et SIL.** En GS, faire remettre un récit en ordre, proposer une fin et reconnaître puis copier son prénom. En SIL, faire lire une phrase qui réemploie les graphies étudiées en U4 et vérifier sa compréhension.
-2. **Numération et motricité en maternelle.** Jalonner les petites quantités en MS. En GS, observer le trajet, l’arrêt au signal et l’ajustement du déplacement à un partenaire.
-3. **Lecture au CE2 et anglais en GS, CE1 et CE2.** Faire justifier un avis sur un récit au CE2. En anglais, observer la lecture d’une phrase en GS, la compréhension d’un message oral au CE1 et la rédaction d’un échange téléphonique au CE2.
+1. **Numération et motricité en maternelle.** Jalonner les petites quantités en MS. En GS, observer le trajet, l’arrêt au signal et l’ajustement du déplacement à un partenaire.
+2. **Lecture au CE2 et anglais en GS, CE1 et CE2.** Faire justifier un avis sur un récit au CE2. En anglais, observer la lecture d’une phrase en GS, la compréhension d’un message oral au CE1 et la rédaction d’un échange téléphonique au CE2.
 
-Ces lots traitent les neuf repères encore partiels. La trajectoire prévoit ensuite d’élargir le rapprochement avec les programmes, de produire les supports sonores et visuels, puis de mener le pilote sur Android et iOS. [Trajectoire consolidée](TRAJECTOIRE.md)
+Ces lots traitent les six repères encore partiels. La trajectoire prévoit ensuite d’élargir le rapprochement avec les programmes, de produire les supports sonores et visuels, puis de mener le pilote sur Android et iOS. [Trajectoire consolidée](TRAJECTOIRE.md)
 
 Pour étendre la matrice, attribuer un identifiant interne à chaque nouvel attendu, indiquer la colonne de classe et la page imprimée, puis vérifier le support et le critère de réussite avant d’attribuer le statut. Une même ressource peut servir plusieurs repères. Les essais de terrain renseignent ensuite ce que l’élève réalise seul ou avec aide.
 

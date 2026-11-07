@@ -17,35 +17,47 @@
           "type": "story",
           "title_fr": "Le cahier retrouvé",
           "title_en": "The missing notebook",
-          "goal_fr": "Écoute le récit, puis raconte le début, le problème et la fin.",
-          "goal_en": "Listen, then tell the beginning, problem and ending.",
-          "prompt_fr": "Écoute le récit, puis raconte le début, le problème et la fin. Imagine une autre fin qui respecte les personnages.",
-          "prompt_en": "Listen, then tell the beginning, problem and ending. Imagine another ending that fits the characters.",
+          "goal_fr": "Remets trois moments du récit dans l’ordre et raconte une autre fin.",
+          "goal_en": "Put three events in order and tell a different ending.",
+          "prompt_fr": "Écoute l’histoire de Nina et de Sami. Regarde les trois cartes pour retrouver le début, la suite et la fin.",
+          "prompt_en": "Listen to Nina and Sami’s story. Look at the three cards to find the beginning, what happens next and the ending.",
+          "figure": {
+            "src": "../assets/gs-t1-cahier-cartes.svg",
+            "alt": "Carte A. Nina reprend son cahier et remercie Sami. Carte B. Nina pose son cahier sur le banc et le vent tourne les pages. Carte C. Sami tient le cahier sous un abri."
+          },
           "steps_fr": [
-            "Préparer avec l’adulte : Écoute le récit, puis raconte le début, le problème et la fin. Imagine une autre fin qui respecte les personnages.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Pourquoi Sami déplace-t-il le cahier ? Raconte ce qui se passe ensuite."
+            "Montre les cartes dans l’ordre de l’histoire. Si tu as les cartes sur papier, place-les de gauche à droite.",
+            "Raconte ce que tu vois sur chaque carte avec « d’abord », « ensuite » et « à la fin ».",
+            "Repars du moment où Sami met le cahier à l’abri. Imagine une autre fin qui dit ce que fait Nina à son retour et ce qui arrive au cahier."
           ],
           "steps_en": [
-            "Prepare with the adult: Listen, then tell the beginning, problem and ending. Imagine another ending that fits the characters.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Why does Sami move the notebook? Tell what happens next."
+            "Point to the cards in story order. If you have the paper cards, put them in order from left to right.",
+            "Tell what you see on each card using ‘first’, ‘next’ and ‘at the end’.",
+            "Start where Sami puts the notebook in a safe place. Imagine a different ending that says what Nina does when she comes back and what happens to the notebook."
           ],
           "questions": [
             {
               "fr": "Pourquoi Sami déplace-t-il le cahier ? Raconte ce qui se passe ensuite.",
               "en": "Why does Sami move the notebook? Tell what happens next.",
-              "answer": "Il le met à l’abri du vent; Nina le retrouve et le remercie. / He protects it from the wind; Nina finds it and thanks him."
+              "answer": "Sami met le cahier à l’abri du vent. Nina le retrouve et le remercie. / Sami protects the notebook from the wind. Nina finds it and thanks him."
+            },
+            {
+              "fr": "Quelles cartes montres-tu pour raconter le début, la suite et la fin ?",
+              "en": "Which cards show the beginning, what happens next and the ending?",
+              "answer": "B, C puis A. Nina pose le cahier, Sami le met à l’abri, puis Nina le retrouve. / B, C, then A. Nina leaves the notebook, Sami puts it in a safe place, and Nina finds it."
+            },
+            {
+              "fr": "Quelle autre fin imagines-tu quand Nina revient ?",
+              "en": "What different ending can you imagine when Nina comes back?",
+              "answer": "Par exemple, Nina demande à la maîtresse de l’aider. Elles trouvent le cahier sous l’abri et Nina le range dans son sac. Une fin convient si elle suit les événements et dit ce qui arrive au cahier. / For example, Nina asks her teacher for help. They find the notebook under the shelter, and Nina puts it in her bag. An ending fits if it follows the events and says what happens to the notebook."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Il le met à l’abri du vent; Nina le retrouve et le remercie.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Remet les trois cartes dans l’ordre et raconte une action pour chacune.",
+            "Propose une fin qui reprend la situation de Nina et dit ce qui arrive au cahier."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "trois cartes visibles à l’écran, imprimées ou recopiées sur papier"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -57,12 +69,12 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
-            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "preparation": "Lire le récit une première fois, puis montrer les cartes. Préparer les trois cartes séparément si l’enfant doit les manipuler.",
+            "adaptation": "Demander d’abord de montrer la première et la dernière carte. Reprendre ensuite les trois. Pour la fin inventée, inviter l’enfant à dire ou à mimer la première action de Nina.",
+            "follow_up": "Noter séparément l’aide donnée pour remettre les événements dans l’ordre et pour inventer une fin."
           },
-          "story_fr": "Nina pose son cahier sur le banc. Le vent tourne les pages. Sami le trouve et le met à l’abri. Nina revient, cherche son cahier et remercie Sami. Ensemble, ils écrivent leurs prénoms sur leurs affaires.",
-          "story_en": "Nina leaves her notebook on a bench. The wind turns its pages. Sami finds it and puts it in a safe place. Nina returns, finds her notebook and thanks Sami. They write their names on their things."
+          "story_fr": "Nina pose son cahier sur le banc. Le vent tourne les pages. Sami le trouve et le met sous l’abri. Nina revient, cherche son cahier, le retrouve et remercie Sami. Ensemble, ils écrivent leurs prénoms sur leurs affaires.",
+          "story_en": "Nina leaves her notebook on a bench. The wind turns its pages. Sami finds it and puts it under the shelter. Nina returns, looks for her notebook, finds it and thanks Sami. They write their names on their things."
         },
         {
           "id": "GS-T1-LC2",
@@ -227,38 +239,46 @@
         {
           "id": "GS-T1-LC5",
           "type": "prewriting",
-          "title_fr": "Des lettres et mon prénom",
-          "title_en": "Letters and my name",
-          "goal_fr": "Observe les modèles A B C et a b c.",
-          "goal_en": "Look at A B C and a b c.",
-          "prompt_fr": "Observe les modèles A B C et a b c. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
-          "prompt_en": "Look at A B C and a b c. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
+          "title_fr": "Je reconnais et je copie mon prénom",
+          "title_en": "I find and copy my first name",
+          "goal_fr": "Retrouve ton prénom parmi plusieurs cartes, puis copie-le avec un modèle.",
+          "goal_en": "Find your first name among several cards, then copy it from a model.",
+          "prompt_fr": "Entraîne-toi avec le prénom LINA. Montre la carte qui porte le même prénom que le modèle. Cherche ensuite ton propre prénom parmi les cartes de l’adulte.",
+          "prompt_en": "Practise with the name LINA. Point to the card with the same name as the model. Then find your own first name among the cards prepared by the adult.",
+          "figure": {
+            "src": "../assets/gs-cartes-prenom.svg",
+            "alt": "Le modèle indique LINA. La carte A indique LILA, la carte B indique NINA et la carte C indique LINA."
+          },
           "steps_fr": [
-            "Préparer avec l’adulte : Observe les modèles A B C et a b c. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?"
+            "Compare les lettres du modèle LINA aux lettres de chaque carte, de gauche à droite.",
+            "Montre la carte de ton prénom parmi les cartes de l’adulte. Pointe une lettre qui t’a aidé à le retrouver.",
+            "Trace A, B, C puis a, b, c dans l’air ou sur papier. Place la carte de ton prénom devant toi, copie-le puis compare chaque lettre au modèle."
           ],
           "steps_en": [
-            "Prepare with the adult: Look at A B C and a b c. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How do you check your name’s letters are in order?"
+            "Compare LINA with the letters on each card, from left to right.",
+            "Point to your name card among the cards prepared by the adult. Show a letter that helped you find it.",
+            "Trace A, B, C, then a, b, c in the air or on paper. Put your name card in front of you, copy it and compare each letter with the model."
           ],
           "questions": [
             {
               "fr": "Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?",
               "en": "How do you check your name’s letters are in order?",
               "answer": "Je compare au modèle de gauche à droite, une lettre après l’autre. / Compare with the model from left to right, one letter at a time."
+            },
+            {
+              "fr": "Quelle carte porte le même prénom que le modèle LINA ?",
+              "en": "Which card has the same name as the model LINA?",
+              "answer": "La carte C. Les lettres L, I, N et A sont dans le même ordre que dans le modèle. / Card C. The letters L, I, N and A are in the same order as in the model."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je compare au modèle de gauche à droite, une lettre après l’autre.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Reconnaît son prénom parmi les cartes et montre une lettre qui l’aide.",
+            "Copie le prénom dans l’ordre et compare sa copie au modèle."
           ],
           "materials": [
             "feuille",
             "crayon adapté",
-            "modèle du prénom fourni par l’adulte"
+            "deux ou trois cartes de prénoms et un modèle du prénom de l’enfant"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -270,9 +290,9 @@
             "validation": "pending"
           },
           "teacher_guide": {
-            "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
-            "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "preparation": "Écrire le prénom de l’enfant et deux autres prénoms dans la même écriture, sur des cartes identiques. Préparer un double de son prénom comme modèle et mélanger les cartes.",
+            "adaptation": "Commencer avec deux cartes et laisser le modèle visible. Augmenter à trois quand l’enfant compare les lettres avec aisance.",
+            "follow_up": "Changer la place des cartes et noter séparément l’aide donnée pour reconnaître le prénom et pour le copier."
           },
           "visual": {
             "kind": "letters",

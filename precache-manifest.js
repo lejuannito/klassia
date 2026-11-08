@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "6e48d93c49a13d913a1be25d7a24e38bcaa026e0a15e368940131fe5ad46962b",
+  "version": "e6f02120e605213682e0b5263b418363e652e0d7ee810e4096618c84abef5873",
   "files": [
     {
       "url": "./app.js",
@@ -467,11 +467,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./pilote.html",
-      "sha256": "b3c764539585ec8ef6bd01ff1fb4bf1c614b95cbbaaeb134bda7d68b01ee815f"
+      "sha256": "14a4a74b9782ac384d449c486506b52a0fa45ca3dfd64b2f06bf724e050275dc"
     },
     {
       "url": "./pwa.js",
-      "sha256": "915725203285baca50a64675364bb12aca8028b5baefc43bc6a56421375dd405"
+      "sha256": "c4cdd32eded10e69f4b826e3ede44188b83f4c03b525d6e014536f6c6f73da8e"
     },
     {
       "url": "./search.html",
@@ -511,7 +511,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/pilot.js",
-      "sha256": "ac14acd71095f52dd02c05ffdc569e332c1caac49e219828791b3b8b45541303"
+      "sha256": "233640dc4666c37ce442743824c4cf7f25a71a0ef5922ed376eb1e77f54ca8f1"
     },
     {
       "url": "./shared/print-ce2.js",

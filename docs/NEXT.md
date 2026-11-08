@@ -6,6 +6,8 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 
 ## Lots techniques à essayer sur appareils réels
 
+Les trois correctifs sont fusionnés. Les essais Android et iPhone se comparent dans le carnet par édition, adresse, mode d’ouverture et réseau. La lecture des prises bassa intégrées a son propre contrôle. [Guide du pilote](GUIDE_PILOTE.md#relevé-à-transmettre)
+
 - Ouvrir une fiche A4 depuis l’icône et essayer l’impression ou l’export PDF. En cas de difficulté, essayer la même fiche dans Chrome ou Safari. [Impression](https://github.com/lejuannito/klassia/issues/35)
 - Vérifier dans les cinq classes que le corrigé s’ouvre après une tentative, puis vérifier l’accès direct dans un espace adulte. [Corrigés](https://github.com/lejuannito/klassia/issues/36)
 - Comparer les extraits fixes et les voix de l’appareil sur la tablette qui a posé problème, sur Android et sur iPhone. Relever la compréhension et les mots mal prononcés. [Voix FR/EN](https://github.com/lejuannito/klassia/issues/37) · [Carnet du pilote](GUIDE_PILOTE.md)

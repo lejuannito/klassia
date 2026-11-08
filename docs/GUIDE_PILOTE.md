@@ -1,6 +1,6 @@
 # Guide du pilote pour les parents et enseignants
 
-Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du pilote**. Les séances sur les longueurs et sur la lecture et l’écriture donnent une activité à essayer, un geste à observer et une piste pour proposer une variante. Le carnet conserve séparément les essais téléphone et les observations pédagogiques. Exporter les relevés en JSON pour les transmettre, puis importer les fichiers reçus dans un même carnet pour les regrouper par édition et par exercice. [Ouvrir le carnet](https://lejuannito.github.io/klassia/pilote.html)
+Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du pilote**. Les séances sur les longueurs et sur la lecture et l’écriture donnent une activité à essayer, un geste à observer et une piste pour proposer une variante. Exporter les relevés en JSON pour les transmettre, puis importer les fichiers reçus dans un même carnet. La synthèse regroupe les observations pédagogiques par exercice et compare les essais téléphone par plateforme. [Ouvrir le carnet](https://lejuannito.github.io/klassia/pilote.html)
 
 1. Créez un profil par enfant avec un prénom ou pseudonyme. Choisissez le bon profil avant chaque séance.
 2. Attendez la confirmation de téléchargement avant de travailler sans réseau. Sur un nouvel appareil, importez la sauvegarde de l’enfant dans le profil choisi.
@@ -34,14 +34,16 @@ Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de t
 | 5. Vérifier l’écran LCN Bassa | En CE2, ouvrir « Apprendre › LCN · Bassa », puis « 8 thèmes » et une leçon. Essayer aussi l’ouverture de « Matière / PDF ». Une fois les prises intégrées, les écouter dans `BA-U3-L1` en mode avion, puis refaire l’écoute après reconnexion. | Titres, boutons et caractères bassa lisibles dans les deux orientations. Pour chaque prise, relever la lecture, la pause et l’arrêt en quittant la leçon. [Leçon des quatre entrées](https://lejuannito.github.io/klassia/?unit=U3#lesson:BA-U3-L1) |
 | 6. Vérifier la progression | Dans le profil de test, choisir « Je me sens prêt » dans une leçon CE2 ou « Réalisé » en SIL ou CE1. Fermer puis rouvrir Klassia. Si une mise à jour est disponible, fermer les autres onglets Klassia, appliquer la mise à jour en ligne, puis repasser en mode avion. | Le même profil et le marqueur de la leçon sont retrouvés après réouverture, puis après mise à jour. |
 | 7. Enregistrer une prise d’essai | Dans l’espace Enseignant, ouvrir l’atelier Bassa, autoriser le micro, enregistrer une forme et la réécouter. La conserver, fermer puis rouvrir Klassia en mode avion. Essayer un nouvel enregistrement en mode avion, puis l’écarter. | La première prise est toujours disponible dans le même profil. Le micro s’arrête à la fin de la prise ou en quittant l’atelier. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia) |
-| 8. Imprimer ou exporter en PDF | Depuis l’icône installée, ouvrir une fiche élève dans chaque classe et attendre « Fiche prête ». Essayer le PDF et, si nécessaire, le lien de repli dans le navigateur. Ouvrir aussi un guide adulte. | Fiche A4 lisible, images présentes, réponses dans le guide adulte. Indiquer le mode qui fonctionne. |
+| 8. Imprimer ou exporter en PDF | Depuis l’icône installée, ouvrir une fiche élève dans chaque classe et attendre « Fiche prête ». Essayer le PDF et, si nécessaire, le lien de repli dans le navigateur. Ouvrir aussi un guide adulte. | Fiche A4 lisible, images présentes, réponses dans le guide adulte. Si seul le repli fonctionne, marquer l’essai depuis l’icône « À reprendre » et décrire le repli. |
 | 9. Essayer avant la correction | En espace Enfant, vérifier une réponse vide, puis valider un essai écrit ou oral. En MS ou GS, faire confirmer une manipulation. Réessayer dans l’espace Parent. | Correction inaccessible au départ, accessible après tentative, accès direct pour l’adulte. |
 
 ### Relevé à transmettre
 
-Dans **Essai téléphone**, choisir le résultat de chaque contrôle effectivement réalisé, puis enregistrer l’essai. Les contrôles laissés sur « non essayé » restent visibles dans le relevé.
+Dans **Essai téléphone**, vérifier l’édition et l’adresse proposées par le carnet. Si le carnet a été ouvert depuis l’icône installée, ce mode est proposé. Renseigner les conditions effectivement utilisées et choisir le résultat de chaque contrôle réalisé. Laisser l’écoute des prises bassa sur « Non essayé » jusqu’à leur intégration.
 
 Indiquer pour chaque appareil le code de séance, la date, le modèle, le système, le navigateur, l’adresse et l’édition. Dans chaque cellule, utiliser « réussi », « à reprendre » ou « non essayé ». En cas d’écart, noter l’identifiant de leçon ou de prise, le mode réseau, l’action précise et le message éventuel. Pour l’écoute, relever aussi les mots difficiles à comprendre et le nombre d’écoutes.
+
+Dans **Synthèse › Essais Android et iPhone**, sélectionner la même édition, la même adresse et les mêmes modes d’ouverture et de réseau. Comparer les résultats par code de séance. Une réussite et un écart sur un même contrôle restent tous deux affichés. Consulter alors le détail des relevés pour choisir l’essai à refaire.
 
 | Contrôle | Android · Chrome | iPhone · Safari | Écart observé |
 |---|---|---|---|

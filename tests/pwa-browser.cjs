@@ -168,6 +168,7 @@ async function testPilotNotebook(page, base) {
   await page.getByRole('link', { name: 'Carnet du pilote', exact: true }).click();
   await page.getByRole('heading', { name: 'Carnet du pilote', exact: true }).waitFor();
   await page.getByText('Aucun relevé saisi.', { exact: true }).waitFor();
+  await page.getByText('Aucun essai téléphone saisi ou importé.', { exact: true }).waitFor();
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
   assert.equal(await page.locator('#activites .pilot-cards article').count(), 5);
 
@@ -192,6 +193,9 @@ async function testPilotNotebook(page, base) {
   await page.getByRole('link', { name: 'Noter l’essai CE1' }).click();
   const observation = page.locator('#pilotObservation');
   const field = (form, name) => form.locator('[name="' + name + '"]');
+  await page.waitForFunction(() => /^[0-9a-f]{8}$/.test(document.querySelector('#pilotObservation [name="edition"]').value));
+  const activeEdition = (await page.locator('#pwaTools').innerText()).match(/édition ([0-9a-f]{8})/)[1];
+  assert.equal(await field(observation, 'edition').inputValue(), activeEdition);
   assert.equal(await field(observation, 'lesson').inputValue(), 'CE1-U1-L11');
   await field(observation, 'session').fill('FAM-01');
   await field(observation, 'edition').fill('TEST-01');
@@ -208,15 +212,22 @@ async function testPilotNotebook(page, base) {
     ['CE1 · CE1-U1-L11 · 1', 'test-01', '2', '2', 'À reprendre']);
 
   const phone = page.locator('#pilotDevice');
+  assert.equal(await field(phone, 'address').inputValue(), base);
+  assert.equal(await field(phone, 'edition').inputValue(), activeEdition);
   await field(phone, 'session').fill('TEL-01');
   await field(phone, 'edition').fill('TEST-01');
   await field(phone, 'device').fill('Appareil simulé');
+  await field(phone, 'opening').selectOption('icone');
   await field(phone, 'micro').selectOption('reussi');
   await field(phone, 'impression').selectOption('a-reprendre');
   await field(phone, 'corriges').selectOption('reussi');
   await field(phone, 'extraits').selectOption('a-reprendre');
   await phone.getByRole('button', { name: 'Conserver l’essai téléphone' }).click();
   await page.getByText(/1 essai\(s\) téléphone · 1 relevé\(s\) technique/).waitFor();
+  assert.equal(await field(phone, 'impression').inputValue(), 'non-essaye');
+  const deviceTable = page.locator('#pilotDeviceRows');
+  const printRow = deviceTable.getByRole('row').filter({ hasText: 'Fiche A4' });
+  assert.deepEqual(await printRow.locator('td').allTextContents(), ['1 à reprendre', 'Non essayé']);
   const [download] = await Promise.all([
     page.waitForEvent('download'), page.getByRole('button', { name: 'Exporter les relevés' }).click()
   ]);
@@ -224,15 +235,34 @@ async function testPilotNotebook(page, base) {
   const payload = JSON.parse(bytes);
   assert.equal(payload.format, 'klassia-pilot');
   assert.equal(payload.records.length, 3);
-  assert.equal(payload.records.find(record => record.kind === 'appareil').results.voix, 'non-essaye');
-  assert.equal(payload.records.find(record => record.kind === 'appareil').results.impression, 'a-reprendre');
-  assert.equal(payload.records.find(record => record.kind === 'appareil').results.corriges, 'reussi');
+  const phoneReport = payload.records.find(record => record.kind === 'appareil');
+  assert.equal(phoneReport.results.voix, 'non-essaye');
+  assert.equal(phoneReport.results.impression, 'a-reprendre');
+  assert.equal(phoneReport.results.corriges, 'reussi');
+  assert.equal(phoneReport.results.prises_bassa, 'non-essaye');
   assert.ok(payload.records.some(record => record.suggestion === 'Essayer avec un départ à 4 cm.'));
   await page.locator('#pilotImport').setInputFiles({ name: 'releves.json', mimeType: 'application/json', buffer: bytes });
   await page.getByText(/0 relevé\(s\) ajouté\(s\)/).waitFor();
+  const imported = { ...payload, records: [
+    { ...phoneReport, id: 'a'.repeat(32), session: 'TEL-02', platform: 'iPhone',
+      results: { ...phoneReport.results, impression: 'reussi', prises_bassa: 'reussi' } },
+    { ...phoneReport, id: 'b'.repeat(32), session: 'TEL-03', opening: 'onglet', network: 'en-ligne',
+      results: { ...phoneReport.results, impression: 'reussi' } }
+  ] };
+  await page.locator('#pilotImport').setInputFiles({ name: 'autres-releves.json', mimeType: 'application/json',
+    buffer: Buffer.from(JSON.stringify(imported)) });
+  await page.getByText(/2 relevé\(s\) ajouté\(s\)/).waitFor();
+  assert.deepEqual(await printRow.locator('td').allTextContents(), ['1 à reprendre', '1 réussi']);
+  const audioRow = deviceTable.getByRole('row').filter({ hasText: 'Lecture des prises bassa intégrées' });
+  assert.deepEqual(await audioRow.locator('td').allTextContents(), ['Non essayé', '1 réussi']);
+  await page.locator('#pilotDeviceScope').selectOption(JSON.stringify(['test-01', base, 'onglet', 'en-ligne']));
+  assert.deepEqual(await printRow.locator('td').allTextContents(), ['1 réussi', 'Non essayé']);
+  assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+  await page.addInitScript(() => Object.defineProperty(navigator, 'standalone', { value: true }));
   await page.reload();
-  await page.getByText(/2 observation\(s\) · 1 essai\(s\) téléphone/).waitFor();
-  console.log('PASS offline length activities in five grades, pilot observation, device checklist, export and deduplicated import');
+  await page.getByText(/2 observation\(s\) · 3 essai\(s\) téléphone/).waitFor();
+  assert.equal(await field(phone, 'opening').inputValue(), 'icone');
+  console.log('PASS offline length activities, pilot observations, phone coverage by platform and conditions, export and import');
 }
 
 async function testReadingWorkshops(page, base) {

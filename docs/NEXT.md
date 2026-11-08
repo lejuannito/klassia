@@ -68,7 +68,7 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 ## Consolidation
 
-Le relevé examine 60 repères dans les cinq classes. Le calcul pratique complète cinq ressources après les longueurs et la lecture-écriture. Le carnet propose quinze séances et un contrôle du tracé sur téléphone. La navigation de classe est harmonisée. Le cahier de maternelle et les exercices ouverts du primaire permettent le tracé au doigt. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Carnet du pilote](GUIDE_PILOTE.md)
+Le relevé examine 70 repères dans les cinq classes. Le lot arts et motricité enrichit dix ressources. Le carnet propose vingt séances et un contrôle du tracé sur téléphone. La navigation de classe est harmonisée. Le cahier de maternelle et les exercices ouverts du primaire permettent le tracé au doigt. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Carnet du pilote](GUIDE_PILOTE.md)
 
 1. Dans **Carnet du pilote › Prises bassa**, ouvrir l’atelier et choisir l’espace Enseignant. Enregistrer `BA002`, `BA004`, `BA005` et `BA006`, puis consigner l’avis du référent et l’accord éventuel pour l’écoute locale par l’élève. Le sélecteur de l’atelier couvre toutes les entrées du lexique. Après l’accord de diffusion, télécharger le dossier privé et préparer le MP3. L’intégrer après réécoute et contrôle de l’empreinte. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia)
 2. Remplir le relevé du carnet sur Android et iPhone. Vérifier l’écran Bassa, le micro, l’écoute en mode avion, le tracé tactile et la reprise de la progression. Refaire l’écoute Bassa après intégration des prises. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
@@ -76,7 +76,7 @@ Le relevé examine 60 repères dans les cinq classes. Le calcul pratique complè
 
 Les listes de thèmes, unités et matières partagent désormais les mêmes cartes. L’accueil Enfant du CE2 s’ouvre sur les unités. Le menu Outils donne accès hors connexion à l’alphabet, aux tables de 1 à 10, aux nombres jusqu’à 99 999 et aux montants en francs CFA jusqu’à 10 000. Les leçons de numération U2 et de monnaie U8 explicitent l’écriture des milliers et la vérifient dans un exercice. [Outils de référence](https://lejuannito.github.io/klassia/outils.html)
 
-Poursuivre avec les arts et la motricité dans les cinq classes, en reliant les tâches à des attendus vérifiables et à des gestes observables. Préparer l’intégration progressive du CP après cette consolidation, puis celle des autres classes selon la feuille de route.
+Essayer les cinq séances d’arts et de motricité. Pour chaque classe, relever séparément l’aide nécessaire pour l’expression artistique et le déplacement ou la coopération. Préparer l’intégration progressive du CP après l’exploitation des retours, puis celle des autres classes selon la feuille de route.
 
 ## Règle pour chaque nouvelle session
 

@@ -282,7 +282,7 @@
       "materials": "Cartes de rythme, mains ou instruments sûrs",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
-        "pages": "CE1 uniquement · tableau musique · p. 145",
+        "pages": "Tableau 49, p. 149, CE1, U7",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
       },
       "editorial": {
@@ -293,6 +293,36 @@
       },
       "competencies": [
         "musique"
+      ],
+      "support": {
+        "title": "Deux temps que le groupe garde ensemble",
+        "text": "Un meneur compte régulièrement. La carte indique le geste à chaque temps. Changez de meneur au deuxième essai.",
+        "table": {
+          "headers": [
+            "Motif",
+            "Temps 1",
+            "Temps 2"
+          ],
+          "rows": [
+            [
+              "A",
+              "Frapper des mains",
+              "Toucher les genoux"
+            ],
+            [
+              "B",
+              "Attendre un temps",
+              "Frapper des mains"
+            ]
+          ]
+        }
+      },
+      "practice": [
+        {
+          "prompt": "Joue A deux fois puis B deux fois. Dans B, à quel temps frappes-tu ? Dessine ou dis ta variante à un camarade.",
+          "answer": "Je frappe au deuxième temps de B. Par exemple, ma variante est « genoux, silence ».",
+          "explanation": "La variante garde deux temps et le silence prend la même durée que les autres gestes."
+        }
       ]
     },
     {

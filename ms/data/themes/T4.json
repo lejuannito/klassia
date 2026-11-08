@@ -666,12 +666,51 @@
           "observe": [
             "Réagit au signal.",
             "Contrôle mieux l’intensité.",
-            "Respecte le silence."
+            "Respecte le silence.",
+            "Distingue les deux intensités et laisse passer la carte silence sans frapper."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "source_refs": [
+            "FR · Maternelle, tableau 18, p. 74, et tableau 27, p. 99, première année, thème 4."
+          ],
+          "table": {
+            "headers": [
+              "Carte / Card",
+              "Geste / Action"
+            ],
+            "rows": [
+              [
+                "Fort / Loud",
+                "Tape des mains une fois. / Clap once."
+              ],
+              [
+                "Doux / Soft",
+                "Touche doucement tes genoux. / Tap your knees gently."
+              ],
+              [
+                "Silence / Quiet",
+                "Garde les mains immobiles. / Keep your hands still."
+              ]
+            ]
+          },
+          "steps_fr": [
+            "L’adulte montre les cartes « fort », « doux » et « silence » à intervalles réguliers. Fais le geste de chaque carte.",
+            "Recommence avec « doux », « silence », « fort ». Garde le même temps pour la carte silence."
+          ],
+          "steps_en": [
+            "The adult shows the loud, soft and quiet cards at steady intervals. Do the action on each card.",
+            "Try soft, quiet, loud. Keep the same amount of time for the quiet card."
+          ],
+          "questions": [
+            {
+              "fr": "Dans « doux, silence, fort », à quel moment gardes-tu les mains immobiles ?",
+              "en": "In soft, quiet, loud, when do your hands stay still?",
+              "answer": "Au deuxième moment. / On the second beat."
+            }
+          ]
         },
         {
           "id": "T4-AR3",
@@ -713,12 +752,33 @@
           "observe": [
             "S’arrête au signal.",
             "Respecte l’espace des autres.",
-            "Varie les mouvements."
+            "Varie les mouvements.",
+            "S’immobilise au signal et attend le nouveau départ pendant deux essais."
           ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "source_refs": [
+            "FR · Maternelle, tableau 27, p. 99, musique et danse, première année, thème 4."
+          ],
+          "steps_fr": [
+            "Avec un adulte, choisis une place libre. Au signe de départ, balance doucement les bras ou fais de petits pas sur place.",
+            "Quand l’adulte lève la paume, immobilise-toi le temps de compter un, deux. Repars au signe de départ.",
+            "Essaie assis avec les bras, ou change le geste entre deux passages."
+          ],
+          "steps_en": [
+            "Choose a clear space with an adult. On the start signal, swing your arms gently or take small steps in place.",
+            "When the adult lifts a palm, freeze for a count of one, two. Start again on the start signal.",
+            "Try the arm movements while seated, or change the movement for the next turn."
+          ],
+          "questions": [
+            {
+              "fr": "Que fais-tu quand la paume se lève ?",
+              "en": "What do you do when the palm goes up?",
+              "answer": "Je m’immobilise et j’attends le signe de départ. / I freeze and wait for the start signal."
+            }
+          ]
         },
         {
           "id": "T4-MT2",

@@ -51,7 +51,7 @@ async function subjectsAllPage(){
   const units=await allUnits();
   if(location.hash!=='#subjects-all')return;
   const first=units[0]?.content?.subjects||[];
-  let body=`<div class="browse-tabs-v14"><button onclick="location.hash='#learn'">Par thème / unité</button><button class="active">Par matière</button></div><div class="page-head"><div><div class="eyebrow">CE2 · PAR MATIÈRE</div><h1>Choisir d’abord une matière</h1><p>Parcours ensuite les huit thèmes de cette matière.</p></div><span class="pill">8 unités</span></div><div class="subject-grid wide">`;
+  let body=`<div class="page-head"><div><div class="eyebrow">CE2 · PAR MATIÈRE</div><h1>Choisir d’abord une matière</h1><p>Parcours ensuite les huit thèmes de cette matière.</p></div><span class="pill">8 unités</span></div><div class="subject-grid wide">`;
   for(const s0 of first){
     const total=units.reduce((n,u)=>n+(u.content.subjects.find(s=>s.id===s0.id)?.lessons.length||0),0);
     const m=subjectMeta(s0.id);
@@ -70,7 +70,7 @@ async function subjectAllPage(id){
   }
   body+=`<section class="subject-hero"><div class="subject-icon xlarge">${subjectMeta(id).icon}</div><div class="grow"><div class="eyebrow">CE2 · 8 UNITÉS</div><h1>${esc14(subjectName)}</h1><p>Commence par la matière, puis choisis le thème à étudier.</p></div><button class="btn soft" id="printSubAllV14">🖨 Imprimer / PDF</button></section><div class="unit-subject-grid-v14">${cards.join('')}</div>`;
   shell(body,'learn');
-  document.querySelectorAll('[data-open-unit]').forEach(b=>b.onclick=async()=>{await loadUnit(b.dataset.openUnit);location.hash='#subject:'+encodeURIComponent(id);subject(id);});
+  document.querySelectorAll('[data-open-unit]').forEach(b=>b.onclick=()=>location.assign('?unit='+b.dataset.openUnit+'#subject:'+encodeURIComponent(id)));
   document.getElementById('printSubAllV14').onclick=()=>openPrint('matiere-complete',id);
 }
 const domainGroups=[
@@ -87,10 +87,10 @@ async function domainsPage(index){
  else {body+='<a href="#domains-all">← Domaines</a>';for(const u of all){body+=`<h2>${esc14(u.meta.title)}</h2><div class="gs-grid">`;for(const sub of u.content.subjects.filter(x=>g[1].includes(x.id)))for(const l of sub.lessons)body+=`<a class="gs-card" href="?unit=${u.meta.id}#lesson:${encodeURIComponent(l.id)}"><b>${esc14(l.title)}</b><p>${esc14(sub.name)}</p></a>`;body+='</div>';}}
  shell(body,'learn');
 }
-function injectBrowseTabs(){
-  if(location.hash==='#learn'&&document.querySelector('.page-head')&&!document.querySelector('.browse-tabs-v14')){
+function injectPrintActions(){
+  if(location.hash==='#learn'&&document.querySelector('.page-head')&&!document.getElementById('printUnitV14')){
     const ph=document.querySelector('.page-head');
-    ph.insertAdjacentHTML('beforebegin',`<div class="browse-tabs-v14 klassia-learning-mode"><button class="active">Par thème / unité</button><button onclick="location.hash='#subjects-all'">Par matière</button><button onclick="location.hash='#domains-all'">Par domaine</button><button id="printUnitV14">🖨 Thème / PDF</button></div>`);
+    ph.insertAdjacentHTML('beforebegin',`<div class="print-actions-v14"><button class="btn soft" id="printUnitV14">🖨 Thème / PDF</button></div>`);
     document.getElementById('printUnitV14').onclick=()=>openPrint('theme');
   }
   if(location.hash.startsWith('#subject:')){
@@ -125,10 +125,12 @@ async function coveragePage(){
 async function bassaPage(){
  const r=await fetch('./data/bassa-lexicon-variants.json');if(!r.ok)throw Error('Lexique Bassa indisponible');const data=await r.json();if(location.hash!=='#bassa')return;
  const rows=data.entries,reviews=()=>{try{return JSON.parse(localStorage.getItem('klassia_bassa_review_v1')||'{}')}catch{return {}}},saveReviews=x=>localStorage.setItem('klassia_bassa_review_v1',JSON.stringify(x));
- const recorderPanel=Klassia.BassaRecorder&&['ENSEIGNANT','ADMIN'].includes(currentUser().role)
-  ? '<section id="bassaRecorder" class="review-notice bassa-recorder" aria-label="Prises Bassa"></section>' : '';
- shell(`<h1>Atelier Bassa · formes proposées</h1>${recorderPanel}<p class="review-notice"><b>Exercice provisoire :</b> toutes les formes documentées ci-dessous sont acceptées comme réponses. Elles ne sont pas pour autant validées linguistiquement ni pédagogiquement. Les variantes et leurs sources restent visibles.</p><label>Rechercher un mot <input id="bassaSearch" type="search" placeholder="Ex. maison, maison / building"></label><div id="bassaResults"></div><p><a href="#coverage">Ouvrir la revue éditoriale et ses consignes</a></p>`,'bassa');
- if(recorderPanel)Klassia.BassaRecorder.mount(document.getElementById('bassaRecorder'),rows);
+ const canRecord=Klassia.BassaRecorder?.canEdit();
+ const recorderPanel=canRecord
+  ? '<section id="bassaRecorder" class="review-notice bassa-recorder" aria-label="Prises Bassa"></section>'
+  : '<section class="review-notice"><h2>Prises du pilote</h2><p>Pour enregistrer BA002, BA004, BA005 ou BA006 et consigner l’avis du référent, ouvrez l’espace Enseignant.</p><button class="btn primary" data-bassa-teacher type="button">Passer en espace Enseignant</button></section>';
+ shell(`<h1>Atelier Bassa</h1>${recorderPanel}<h2>Formes proposées et sources</h2><p class="review-notice"><b>Exercice provisoire :</b> toutes les formes documentées ci-dessous sont acceptées comme réponses. Elles ne sont pas pour autant validées linguistiquement ni pédagogiquement. Les variantes et leurs sources restent visibles.</p><label>Rechercher un mot <input id="bassaSearch" type="search" placeholder="Ex. maison, maison / building"></label><div id="bassaResults"></div><p><a href="#coverage">Ouvrir la revue éditoriale et ses consignes</a></p>`,'bassa');
+ if(canRecord)Klassia.BassaRecorder.mount(document.getElementById('bassaRecorder'),rows);
  const norm=s=>String(s||'').normalize('NFC').trim().replace(/\s+/g,' ').toLocaleLowerCase();
  function draw(){const query=document.getElementById('bassaSearch').value.toLocaleLowerCase('fr'),decisions=reviews();const found=rows.filter(x=>(x.concept+' '+x.forms.join(' ')+' '+x.sources.join(' ')).toLocaleLowerCase('fr').includes(query));document.getElementById('bassaResults').innerHTML=`<p>${found.length} traductions proposées à partir du lexique documentaire. Par défaut toutes les formes sont acceptées à l’entraînement avec la mention « proposition non validée ».</p>`+found.map((x,i)=>{const decisionsFor=decisions[x.concept]||{};return `<article class="adult-guide"><h2>${esc14(x.concept)}</h2><p>Exercice : écris une forme bassa correspondant au concept. Toutes les formes documentées restent acceptées pendant l’arbitrage.</p><p><input class="bassa-answer" aria-label="Réponse à l’exercice : ${esc14(x.concept)}" data-index="${i}"> <button class="btn soft bassa-check" data-index="${i}">Vérifier</button></p><p class="bassa-feedback" id="bassa-feedback-${i}" role="status">Aucune note : exercice d’entraînement, pas une évaluation certificative.</p><details><summary>Propositions, sources et arbitrage enseignant</summary><p><b>Sources documentaires :</b> ${x.sources.map(esc14).join(' · ')}</p>${x.notes.length?`<ul>${x.notes.map(n=>`<li>${esc14(n)}</li>`).join('')}</ul>`:''}<ul>${x.forms.map((f,j)=>{const d=decisionsFor[f]||{};return `<li><b>${esc14(f)}</b> · ${esc14(d.decision==='exclude'?'Signalée à revoir — toujours acceptée à l’entraînement':d.decision==='retain'?'Retenue provisoirement par arbitrage enseignant':'Proposition documentaire non validée')} <label>Décision <select class="bassa-decision" data-concept="${esc14(x.concept)}" data-form="${esc14(f)}"><option value="pending" ${!d.decision||d.decision==='pending'?'selected':''}>Garder en proposition</option><option value="retain" ${d.decision==='retain'?'selected':''}>Retenir</option><option value="exclude" ${d.decision==='exclude'?'selected':''}>Signaler à revoir</option></select></label> <input class="bassa-note" data-concept="${esc14(x.concept)}" data-form="${esc14(f)}" value="${esc14(d.notes||'')}" placeholder="Motif (facultatif)"></li>`}).join('')}</ul><button class="btn soft bassa-save" data-concept="${esc14(x.concept)}">Enregistrer l’arbitrage</button></details></article>`}).join('');document.querySelectorAll('.bassa-save').forEach(b=>b.onclick=()=>{const concept=b.dataset.concept,all=reviews(),items={};document.querySelectorAll(`.bassa-decision[data-concept="${CSS.escape(concept)}"]`).forEach(s=>{const form=s.dataset.form,n=document.querySelector(`.bassa-note[data-concept="${CSS.escape(concept)}"][data-form="${CSS.escape(form)}"]`).value.trim();items[form]={decision:s.value,notes:n,reviewer:Klassia.profile().name,date:new Date().toISOString()}});all[concept]=items;saveReviews(all);draw()});document.querySelectorAll('.bassa-check').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.index),x=found[i],input=document.querySelector(`.bassa-answer[data-index="${i}"]`),msg=document.getElementById(`bassa-feedback-${i}`),d=reviews()[x.concept]||{},ok=x.forms.some(f=>norm(f)===norm(input.value));msg.textContent=ok?'Réponse acceptée pour l’entraînement. Cette forme reste une proposition, pas une validation linguistique.':'Forme non reconnue dans les propositions documentaires. Consulte les propositions et leurs sources dans le détail.';});}
  document.getElementById('bassaSearch').oninput=draw;draw();
@@ -146,6 +148,6 @@ function routeSpecial(h){
  return true;
 }
 Klassia.registerRoutes('CE2',routeSpecial);
-function decorateV14(){injectBrowseTabs();injectPractice();if(/^#(?:subjects-all|subject-all:|domains-all|domain-all:)/.test(location.hash)&&!document.querySelector('.klassia-learning-mode')){document.querySelector('main')?.insertAdjacentHTML('afterbegin',`<nav class="klassia-learning-mode"><a href="#learn">Par unité</a><a href="#subjects-all">Par matière</a><a href="#domains-all">Par domaine</a></nav>`);}}
+function decorateV14(){injectPrintActions();injectPractice();}
 document.addEventListener('klassia:render',decorateV14);
 })();

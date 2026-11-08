@@ -83,13 +83,14 @@ async function testBassaMicrophone(context, page, base) {
     };
   });
   await page.setViewportSize({ width: 320, height: 844 });
-  await page.goto(base + '#bassa');
+  await page.goto(base);
+  await page.evaluate(() => Klassia.write('klassia_user', { role: 'PARENT' }));
+  await page.goto(base + 'pilote.html#prises-bassa');
+  await page.getByRole('link', { name: 'Ouvrir l’atelier des prises bassa' }).click();
   await page.locator('#bassaSearch').waitFor();
   const panel = page.locator('#bassaRecorder');
-  assert.equal(await panel.count(), 0, 'The learner workshop has no microphone controls');
-  await page.locator('[data-space]').click();
-  await page.locator('#localRole').selectOption('ENSEIGNANT');
-  await page.getByRole('link', { name: 'Ouvrir l’atelier Bassa' }).click();
+  assert.equal(await panel.count(), 0, 'The parent workshop offers a local role change');
+  await page.getByRole('button', { name: 'Passer en espace Enseignant' }).click();
 
   const entry = panel.locator('[data-entry]'), form = panel.locator('[data-form]');
   const status = panel.locator('[data-status]'), audio = panel.locator('audio');
@@ -117,18 +118,34 @@ async function testBassaMicrophone(context, page, base) {
   assert.equal(await panel.evaluate(element => element.scrollWidth > element.clientWidth), false);
   await panel.getByRole('button', { name: 'Conserver la prise', exact: true }).click();
   await status.filter({ hasText: 'Prise conservée sur cet appareil.' }).waitFor();
+  const review = panel.locator('[data-take-review]');
+  await review.getByLabel('Nom ou code du référent').fill('REF-PILOTE');
+  await review.getByLabel('Décision').selectOption('confirme');
+  await review.getByRole('button', { name: 'Enregistrer l’avis' }).click();
+  await status.filter({ hasText: /Avis du référent conservé/ }).waitFor();
+  await review.getByText(/Prononciation et tons confirmés ·/).waitFor();
 
   await form.selectOption('malet');
   await status.filter({ hasText: 'Choisissez une forme et lancez la prise.' }).waitFor();
   assert.equal(await audio.isVisible(), false);
+  assert.equal(await review.isVisible(), false);
   await page.reload();
   await entry.selectOption('BA004');
   await audio.waitFor();
+  assert.equal(await review.getByLabel('Nom ou code du référent').inputValue(), 'REF-PILOTE');
+  assert.equal(await review.getByLabel('Décision').inputValue(), 'confirme');
   const [download] = await Promise.all([
     page.waitForEvent('download'), panel.getByRole('link', { name: 'Télécharger la source' }).click()
   ]);
   assert.match(download.suggestedFilename(), /^BA004-01\.(webm|m4a|mp4|ogg)$/);
   assert.equal(await download.failure(), null);
+  await record.click();
+  await status.filter({ hasText: /Enregistrement en cours/ }).waitFor();
+  await page.waitForTimeout(350);
+  await stop.click();
+  await panel.getByRole('button', { name: 'Remplacer la prise' }).click();
+  await status.filter({ hasText: 'Prise conservée sur cet appareil.' }).waitFor();
+  assert.equal(await review.getByLabel('Décision').inputValue(), '');
 
   await record.click();
   await status.filter({ hasText: /Enregistrement en cours/ }).waitFor();

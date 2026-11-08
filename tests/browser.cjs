@@ -43,6 +43,29 @@ for(const width of [320,390,1280]){await p.setViewportSize({width,height:844});a
 await p.goto('http://localhost:8765/?unit=U4#lesson:MA-U4-L2');await p.waitForFunction(()=>Klassia.storage.getItem('klassia_unit')==='U4');assert.equal(await p.evaluate(()=>Klassia.storage.getItem('klassia_unit')),'U4');
 await route('#domains-all');await p.getByRole('heading',{name:'Parcourir les domaines'}).waitFor();await route('#domain-all:2');assert.ok(await p.locator('a[href*="?unit="]').count()>0);
 await p.goto('http://localhost:8765/ms/#subjects-all');await p.getByRole('heading',{name:'Parcourir les matières et activités'}).waitFor();await p.getByRole('link',{name:/Arts et création/}).click();await p.getByRole('heading',{name:'Arts et création'}).waitFor();assert.ok(await p.locator('a[href*="?theme="]').count()>0);
+for(const [route,first] of [['/','Par unité'],['/ms/','Par thème'],['/gs/','Par thème'],['/sil/','Par unité'],['/ce1/','Par unité']]){
+ await p.goto('http://localhost:8765'+route);
+ const navigation=p.getByRole('navigation',{name:'Parcourir la classe'});
+ await navigation.waitFor();
+ assert.deepEqual(await navigation.getByRole('link').allTextContents(),[first,'Par matière','Par domaine']);
+}
+await p.evaluate(()=>Klassia.write('klassia_user',{role:'PARENT'}));
+await p.goto('http://localhost:8765/#units');
+await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();
+await p.getByRole('link',{name:/U4 Les métiers/}).click();
+await p.getByRole('heading',{name:'Apprendre',exact:true}).waitFor();
+assert.match(p.url(),/\?unit=U4#learn$/);
+await p.locator('.subject-card').filter({hasText:'Mathématiques'}).click();
+await p.getByRole('heading',{name:'Mathématiques',exact:true}).waitFor();
+await p.getByRole('link',{name:'Page précédente',exact:false}).click();
+await p.getByRole('heading',{name:'Apprendre',exact:true}).waitFor();
+await p.getByRole('link',{name:'Page précédente',exact:false}).click();
+await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();
+await p.locator('[data-grade]').selectOption('CE1');
+await p.waitForURL('**/ce1/');
+await p.getByRole('link',{name:'Page précédente',exact:false}).click();
+await p.waitForURL('**/#units');
+await p.evaluate(()=>Klassia.write('klassia_user',{role:'ELEVE'}));
 for (const [route,button,label,content] of [
  ['/sil/#lesson:SIL-U4-L11','#printLesson','SIL','.lesson-support img'],
  ['/ce1/#lesson:CE1-U7-L04','#printLesson','CE1','.lesson-support table'],

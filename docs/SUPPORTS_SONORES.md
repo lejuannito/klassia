@@ -39,12 +39,13 @@ Commencer par quatre entrées de l’école, `BA002` (salle de classe), `BA004` 
 
 ### Enregistrer au micro dans Klassia
 
-1. Ouvrir Klassia en HTTPS. Choisir **Espace Enseignant** ou **Administration locale**, puis **Validation pédagogique › Ouvrir l’atelier Bassa**.
+1. Ouvrir Klassia en HTTPS. Dans le **Carnet du pilote**, choisir **Prises bassa › Ouvrir l’atelier des prises bassa**. Si l’atelier propose **Passer en espace Enseignant**, choisir ce bouton. Le raccourci **Prises bassa** apparaît aussi dans les espaces adultes.
 2. Dans **Enregistrer une prononciation**, choisir l’entrée et la forme. Utiliser la situation proposée pour préciser le sens avec le locuteur. Appuyer sur **Enregistrer au micro** et autoriser le micro dans le navigateur. Prononcer la forme puis appuyer sur **Arrêter la prise**. L’essai s’arrête automatiquement au bout de 12 secondes.
 3. Réécouter, puis **Conserver la prise** ou refaire l’essai. Klassia garde une prise par forme et par profil sur cet appareil. Une nouvelle prise ne remplace la précédente qu’après avoir choisi **Remplacer la prise**.
-4. Faire écouter la prise au référent sur le même appareil. Pour la transférer ou préparer sa diffusion, utiliser **Télécharger la source** et noter le nom généré dans le relevé. Le fichier utilise le format enregistré par le navigateur, par exemple WebM ou M4A. Conserver la source téléchargée avant d’effacer les données du site.
+4. Faire écouter la prise au référent sur le même appareil. Dans **Vérifier la prononciation**, renseigner son nom ou code, choisir **Prononciation et tons confirmés** ou **À reprendre**, puis **Enregistrer l’avis**. Une prise de remplacement demande un nouvel avis.
+5. Pour transmettre la prise, utiliser **Télécharger la source** et reporter l’avis dans le relevé privé. Le fichier utilise le format enregistré par le navigateur, par exemple WebM ou M4A. Conserver la source et le relevé avant d’effacer les données du site.
 
-Ouvrir l’atelier avec la même adresse et le même profil pour retrouver les prises. Sauvegarder les sources avec **Télécharger la source**, séparément de la sauvegarde des progrès. Après téléchargement de l’édition, vérifier également la capture et la réécoute en mode avion. Les prises de l’atelier sont des brouillons locaux. La revue linguistique et l’accord de diffusion restent nécessaires pour les intégrer aux leçons.
+Ouvrir l’atelier avec la même adresse et le même profil pour retrouver les prises et leurs avis. Après téléchargement de l’édition, vérifier la capture et la réécoute en mode avion. Pour intégrer une prise aux leçons, conserver l’avis favorable et l’accord de diffusion dans le dossier privé, puis suivre la procédure d’intégration ci-dessous.
 
 Si un locuteur propose un autre contexte d’emploi ou si une variante prête à confusion, utiliser le lien **Proposer une autre situation ou signaler une difficulté**. Il ouvre le carnet sur le code de l’entrée choisie. Réserver la décision linguistique et les justificatifs d’accord au dossier privé de la prise.
 

@@ -36,7 +36,7 @@ function themesPage(){
  let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><div class="sectionTitle"><h2>Parcours ${esc(NURSERY.label)}</h2><p>Huit thèmes intégrateurs, tous disponibles dans cette édition.</p></div><div class="themes">`;
  catalog.themes.forEach(t=>body+=`<button class="themeCard themeOpen" data-theme="${t.id}"><div class="themeNum">${t.number}</div><div><strong>${esc(t.title_fr)}</strong><div>${esc(t.title_en)}</div>${curriculumThemeNote(t)}</div><div class="spacer"></div><span class="badge">Disponible</span></button>`);
  body+=`</div>`;shell(body);
- document.querySelectorAll('[data-theme]').forEach(b=>b.onclick=async()=>{await loadTheme(b.dataset.theme);history.replaceState(null,'',`?theme=${b.dataset.theme}#home`);home()});
+ document.querySelectorAll('[data-theme]').forEach(b=>b.onclick=()=>location.assign('?theme='+b.dataset.theme+'#home'));
 }
 function assessmentPage(){
  let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><section class="hero"><div class="eyebrow">SUIVI PAR OBSERVATION</div><h1>${esc(theme.assessment.title_fr)}</h1><p>${esc(theme.assessment.title_en)}</p></section><div class="notice">Évaluer ici signifie observer pour mieux accompagner. On ne cherche ni classement ni note.</div>`;

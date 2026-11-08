@@ -46,3 +46,9 @@
 .speech-picker summary { cursor: pointer; }
 .speech-availability { margin: 6px 0 0; }
 .speech-availability:empty { display: none; }
+
+.klassia-learning-mode { display: flex; flex-wrap: wrap; gap: .4rem; margin: .65rem 0 1rem; }
+.klassia-learning-mode a { padding: .5rem .7rem; border: 1px solid #c5d0e5; border-radius: .55rem; color: #233f83; background: #fff; text-decoration: none; }
+.klassia-learning-mode a[aria-current=page] { color: #fff; background: #3157d5; border-color: #3157d5; }
+.klassia-global-nav [data-klassia-back] { overflow-wrap: anywhere; }
+.klassia-unit-link { text-decoration: none; color: inherit; }

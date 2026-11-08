@@ -10,13 +10,14 @@
   <link rel="stylesheet" href="./shared/pilot.css">
 </head>
 <body>
-  <header><a href="./">Klassia · Accueil</a></header>
+  <header><a href="./">Klassia · Accueil</a><a class="pilot-back" data-klassia-back="" href="./" hidden>← Page précédente</a></header>
   <main>
     <h1>Carnet du pilote</h1>
     <p>Essayez une activité, notez ce que l’enfant réalise et proposez une variante. Utilisez un code de séance convenu avec l’équipe du pilote et des observations sans nom ni coordonnées.</p>
     <nav aria-label="Sections du carnet">
       <a href="#activites">Longueurs</a>
       <a href="#ecrits">Lecture et écriture</a>
+      <a href="#prises-bassa">Prises bassa</a>
       <a href="#observations">Observation</a>
       <a href="#appareil">Essai téléphone</a>
       <a href="#synthese">Synthèse</a>
@@ -58,7 +59,7 @@
           <a href="?classe=CE2&amp;lecon=MA-U1-L5&amp;exercice=MA-U1-L5-E4#observations">Noter l’essai CE2</a>
         </article>
       </div>
-      <p><a href="./?unit=U3#lesson:BA-U3-L1">Bassa · Les quatre entrées de l’école</a> · <a href="./#bassa">Atelier Bassa en espace Enseignant</a></p>
+      <p><a href="./?unit=U3#lesson:BA-U3-L1">Bassa · Les quatre entrées de l’école</a></p>
     </section>
 
     <section id="ecrits">
@@ -125,6 +126,17 @@
       </form>
     </section>
 
+    <section id="prises-bassa">
+      <h2>Enregistrer et vérifier les prises bassa</h2>
+      <p>Les quatre entrées du pilote sont BA002 (salle de classe), BA004 (enseignant ou enseignante), BA005 (livre) et BA006 (crayon).</p>
+      <p><a href="./#bassa">Ouvrir l’atelier des prises bassa</a>. Choisir l’espace Enseignant si l’atelier le propose.</p>
+      <ol>
+        <li>Avec l’accord du locuteur, choisir l’entrée et la forme. Enregistrer, réécouter et conserver la prise.</li>
+        <li>Dans la même fiche, faire réécouter la prise au référent et enregistrer son avis dans « Vérifier la prononciation ».</li>
+        <li>Pour préparer la diffusion, télécharger la source et conserver en privé l’avis et l’autorisation du locuteur.</li>
+      </ol>
+    </section>
+
     <section id="appareil">
       <h2>Vérifier sur un téléphone</h2>
       <p>Après téléchargement de l’édition, refaire les étapes en mode avion avec le Wi-Fi coupé. Comparer l’extrait intégré et la voix de l’appareil. Vérifier le passage de la tentative au corrigé et l’ouverture de la fiche imprimable depuis l’icône.</p>
@@ -179,6 +191,7 @@
   </main>
   <p id="pilotStatus" role="status" aria-live="polite"></p>
   <script src="./shared/pilot.js"></script>
+  <script src="./shared/navigation.js"></script>
   <script src="./pwa.js"></script>
 </body>
 </html>

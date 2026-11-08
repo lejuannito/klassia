@@ -81,7 +81,7 @@
   async function run(){
    const token=++revision,query=input.value.trim(),gradeFilter=grade.value,subjectFilter=subject.value;
    const state=new URLSearchParams();if(query)state.set('q',query);if(gradeFilter)state.set('grade',gradeFilter);if(subjectFilter)state.set('subject',subjectFilter);
-   history.replaceState(null,'',location.pathname+(state.size?'?'+state:''));
+   history.replaceState(history.state,'',location.pathname+(state.size?'?'+state:''));
    results.replaceChildren();more.hidden=true;
    if(!terms(query).length){status.textContent='Saisissez une notion, par exemple : les états de l’eau.';return;}
    status.textContent='Recherche dans les cinq classes…';

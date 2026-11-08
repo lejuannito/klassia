@@ -19,7 +19,31 @@ const gradeNames={CE2:'CE2',MS:'Moyenne section',GS:'Grande section bilingue',SI
 function context(){const match=location.pathname.match(/\/(ms|gs|sil|ce1)(?:\/|\/index\.html)$/);const grade=match?match[1].toUpperCase():'CE2';return {grade,base:new URL(match?'../':'./',location.href)};}
 function rememberClass(){const c=context();if(!['#coverage','#bassa'].includes(location.hash)){sessionStorage.setItem('klassia_return',location.href);sessionStorage.setItem('klassia_review_grade',c.grade);}return c;}
 function returnToClass(){const c=context(),raw=sessionStorage.getItem('klassia_return');let url=new URL(raw||gradePaths[c.grade],c.base);if(url.origin!==location.origin||!url.pathname.startsWith(c.base.pathname))url=new URL('',c.base);location.href=url.href;}
-function changeSpace(role){K.write('klassia_user',{role,name:K.profile().name});document.getElementById('profilesDialog')?.close();if(role==='PARENT'){decorate();openOverview(true);return;}if(['ENSEIGNANT','ADMIN'].includes(role)){const c=rememberClass();location.href=new URL('#coverage',c.base).href;return;}if(['#coverage','#bassa'].includes(location.hash))returnToClass();else location.reload();}
+function changeSpace(role, destination='#coverage'){
+ K.write('klassia_user',{role,name:K.profile().name});
+ document.getElementById('profilesDialog')?.close();
+ if(role==='PARENT'){decorate();openOverview(true);return;}
+ if(['ENSEIGNANT','ADMIN'].includes(role)){
+  const c=rememberClass(), target=new URL(destination,c.base);
+  if(target.href===location.href)location.reload();
+  else location.href=target.href;
+  return;
+ }
+ if(['#coverage','#bassa'].includes(location.hash))returnToClass();
+ else location.reload();
+}
+function classNavigation(grade){
+ const nursery=grade==='MS'||grade==='GS', older=grade==='CE2'||nursery;
+ const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],
+  ['subject',older?'#subjects-all':'#subjects','Par matière'],
+  ['domain',older?'#domains-all':'#domains','Par domaine']];
+ const hash=location.hash;
+ const mode=/^#(?:subjects?|subject-all|subjects-all|activity-subject)(?::|$)/.test(hash)?'subject':
+  /^#(?:domains?|domain-all|domains-all)(?::|$)/.test(hash)?'domain':
+  /^#(?:learn|units?|themes)(?::|$)/.test(hash)?'unit':'';
+ return `<nav class="klassia-learning-mode" aria-label="Parcourir la classe">${routes.map(([key,href,label])=>`<a href="${href}" ${mode===key?'aria-current="page"':''}>${label}</a>`).join('')}</nav>`;
+}
+
 async function openOverview(refreshOnClose=false){
  document.getElementById('overviewDialog')?.remove();const d=document.createElement('dialog');d.id='overviewDialog';d.className='profiles-dialog';d.innerHTML='<form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form><h2>Suivi de '+esc(K.profile().name)+'</h2><p>Chargement des progrès…</p>';document.body.append(d);d.showModal();
  d.addEventListener('close',()=>{d.remove();if(refreshOnClose)location.reload();else document.querySelector('[data-overview]')?.focus();});
@@ -34,20 +58,26 @@ async function openOverview(refreshOnClose=false){
 function decorate(){
  const top=document.querySelector('.topbar,.top,.gs-top');if(!top)return;
  const c=rememberClass(),role=K.read('klassia_user',{})?.role||'ELEVE',roleName={ELEVE:'Enfant',PARENT:'Parent',ENSEIGNANT:'Enseignant',ADMIN:'Administration'}[role]||'Enfant';
- document.querySelectorAll('.klassia-global-nav,.klassia-space-menu,.klassia-class-switch,.profile-trigger').forEach(e=>e.remove());
+ document.querySelectorAll('.klassia-global-nav,.klassia-learning-mode,.klassia-space-menu,.klassia-class-switch,.profile-trigger').forEach(e=>e.remove());
  const searchBack=new URL('search.html',c.base);searchBack.search=new URLSearchParams(location.search).get('recherche')||'';
- const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');nav.innerHTML=`<label>Classe <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label><a data-search href="${new URL('search.html',c.base)}">Rechercher</a>${new URLSearchParams(location.search).has('recherche')?`<a data-search-return href="${esc(searchBack.href)}">Retour aux résultats</a>`:''}<button data-space class="space-trigger">Espace : ${roleName} · changer</button><button data-profiles>Profil : ${esc(K.profile().name)}</button><button data-overview>Suivi des classes</button><a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>${role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':''}${['#coverage','#bassa'].includes(location.hash)?'<button data-return>Retour à ma classe</button>':''}`;top.insertAdjacentElement('afterend',nav);
+ const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');nav.innerHTML=`<a data-klassia-back="← Parcours de la classe" href="${['MS','GS'].includes(c.grade)?'#themes':'#units'}">← Parcours de la classe</a><label>Classe <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label><a data-search href="${new URL('search.html',c.base)}">Rechercher</a>${new URLSearchParams(location.search).has('recherche')?`<a data-search-return href="${esc(searchBack.href)}">Retour aux résultats</a>`:''}<button data-space class="space-trigger">Espace : ${roleName} · changer</button><button data-profiles>Profil : ${esc(K.profile().name)}</button><button data-overview>Suivi des classes</button><a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>${role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':''}${['#coverage','#bassa'].includes(location.hash)?'<button data-return>Retour à ma classe</button>':''}`;top.insertAdjacentElement('afterend',nav);
  if (['PARENT','ENSEIGNANT','ADMIN'].includes(role)) {
   const pilot=document.createElement('a');
   pilot.href=new URL('pilote.html',c.base);
   pilot.textContent='Carnet du pilote';
-  nav.insertBefore(pilot,nav.querySelector('[data-child]'));
+  const child=nav.querySelector('[data-child]');
+  nav.insertBefore(pilot,child);
+  const bassa=document.createElement('a');
+  bassa.href=new URL('#bassa',c.base);
+  bassa.textContent='Prises bassa';
+  nav.insertBefore(bassa,child);
  }
- const main=document.querySelector('main');if(main&&!main.querySelector('.edition-notice,.gs-notice')){const n=document.createElement('p');n.className='edition-notice';n.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(n);}
+ const main=document.querySelector('main');if(main)main.insertAdjacentHTML('afterbegin',classNavigation(c.grade));if(main&&!main.querySelector('.edition-notice,.gs-notice')){const n=document.createElement('p');n.className='edition-notice';n.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(n);}
+ K.navigation.update();
  document.getElementById('logout')?.remove();
 }
 // Delegation survives DOM replacement in every grade and on browser back/forward.
-document.addEventListener('click',e=>{const t=e.target.closest('[data-space],[data-profiles],[data-overview],[data-child],[data-return],[data-review]');if(!t)return;if(t.matches('[data-space],[data-profiles]'))openProfiles();else if(t.hasAttribute('data-overview'))openOverview();else if(t.hasAttribute('data-child'))changeSpace('ELEVE');else if(t.hasAttribute('data-return'))returnToClass();else rememberClass();});
+document.addEventListener('click',e=>{const t=e.target.closest('[data-space],[data-profiles],[data-overview],[data-child],[data-return],[data-review],[data-bassa-teacher]');if(!t)return;if(t.matches('[data-space],[data-profiles]'))openProfiles();else if(t.hasAttribute('data-overview'))openOverview();else if(t.hasAttribute('data-child'))changeSpace('ELEVE');else if(t.hasAttribute('data-return'))returnToClass();else if(t.hasAttribute('data-bassa-teacher'))changeSpace('ENSEIGNANT','#bassa');else rememberClass();});
 document.addEventListener('change',e=>{if(e.target.matches('[data-grade]')){const c=context();location.href=new URL(gradePaths[e.target.value],c.base).href;}});
 K.openOverview=openOverview;
 // Optional device speech is explicitly labelled; it is not a validated audio pack.

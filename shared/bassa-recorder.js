@@ -8,8 +8,10 @@
   BA006: 'Montrez un crayon, puis un autre crayon de forme différente. Vérifiez que le locuteur désigne bien le même objet.'
  };
  const duration = 12_000;
+ const decisions = { confirme: 'Prononciation et tons confirmés', reprendre: 'À reprendre' };
  const canEdit = () => ['ENSEIGNANT', 'ADMIN'].includes(K.read('klassia_user', {})?.role);
  const stopTracks = stream => stream?.getTracks().forEach(track => track.stop());
+ const newId = () => crypto.getRandomValues(new Uint32Array(2)).join('-');
 
  function openTakes() {
   return new Promise((resolve, reject) => {
@@ -73,6 +75,19 @@
      <button class="btn soft" data-delete type="button">Supprimer la prise</button>
     </div>
    </div>
+   <form class="adult-guide" data-take-review hidden>
+    <h3>Vérifier la prononciation</h3>
+    <p>Faites réécouter la prise conservée au référent. Consignez son avis sur la prononciation et les tons de cette forme.</p>
+    <fieldset class="bassa-recorder-fields">
+     <legend>Avis du référent</legend>
+     <label>Nom ou code du référent <input name="referent" maxlength="100" required></label>
+     <label>Décision <select name="decision" required><option value="">Choisir</option>
+      ${Object.entries(decisions).map(([value, label]) => `<option value="${value}">${label}</option>`).join('')}</select></label>
+     <label>Observation facultative <textarea name="note" rows="2" maxlength="240"></textarea></label>
+     <button class="btn primary" type="submit">Enregistrer l’avis</button>
+    </fieldset>
+    <p data-review-status></p>
+   </form>
    <p>Les prises restent dans le profil local, sur cet appareil. Pour la diffusion, faites vérifier la prononciation et les tons par le référent et recueillez l’accord du locuteur.</p>`;
 
   const find = selector => panel.querySelector(selector);
@@ -80,6 +95,7 @@
   const record = find('[data-record]'), stop = find('[data-stop]'), cancel = find('[data-cancel]');
   const player = find('[data-player]'), audio = find('audio'), download = find('[data-download]');
   const keep = find('[data-keep]'), discard = find('[data-discard]'), remove = find('[data-delete]');
+  const review = find('[data-take-review]'), reviewFields = review.querySelector('fieldset');
   const key = () => [profile, entry.value, form.value];
   const active = () => !listeners.signal.aborted && panel.isConnected && location.hash === '#bassa'
    && K.profile().id === profile && canEdit();
@@ -117,6 +133,19 @@
    keep.textContent = saved ? 'Remplacer la prise' : 'Conserver la prise';
    remove.hidden = Boolean(draft) || !saved;
    showAudio(take);
+   review.hidden = !saved || Boolean(draft) || Boolean(capture);
+   reviewFields.disabled = locked;
+   if (review.hidden) delete review.dataset.take;
+   else if (review.dataset.take !== saved.id) {
+    review.dataset.take = saved.id;
+    const opinion = saved.review;
+    review.elements.referent.value = opinion?.referent || '';
+    review.elements.decision.value = opinion?.decision || '';
+    review.elements.note.value = opinion?.note || '';
+    find('[data-review-status]').textContent = opinion
+     ? `${decisions[opinion.decision]} · ${new Date(opinion.date).toLocaleDateString('fr-FR')}`
+     : 'Avis à consigner après écoute.';
+   }
    status.textContent = message ?? (saved ? 'Prise conservée sur cet appareil.' : unsupported || 'Choisissez une forme et lancez la prise.');
   }
 
@@ -129,6 +158,7 @@
     busy = false;
     render();
    } catch {
+    busy = false;
     render('Impossible de lire les prises locales. Rouvrez l’atelier pour réessayer.');
    }
   }
@@ -199,7 +229,7 @@
       render('Prise interrompue ou vide. Vous pouvez recommencer.');
       return;
      }
-     draft = { audio: blob, id: crypto.getRandomValues(new Uint32Array(2)).join('-') };
+     draft = { audio: blob, id: newId() };
      render('Réécoutez l’essai, puis choisissez de le conserver ou de le refaire.');
     };
     recorder.start();
@@ -214,7 +244,7 @@
    }
   }
 
-  async function writeTake(take) {
+  async function writeTake(take, message) {
    busy = true;
    render('Mise à jour de la prise locale…');
    try {
@@ -236,7 +266,7 @@
     }
     saved = take;
     draft = undefined;
-    render(take ? 'Prise conservée sur cet appareil.' : 'Prise supprimée de cet appareil.');
+    render(message ?? (take ? 'Prise conservée sur cet appareil.' : 'Prise supprimée de cet appareil.'));
    } catch {
     busy = false;
     render('Impossible de modifier la prise conservée. Vous pouvez réessayer.');
@@ -273,6 +303,19 @@
   keep.onclick = () => writeTake(draft);
   discard.onclick = () => { draft = undefined; render('Essai écarté.'); };
   remove.onclick = () => { if (confirm('Supprimer la prise conservée pour « ' + form.value + ' » ?')) writeTake(); };
+  review.onsubmit = event => {
+   event.preventDefault();
+   if (!active() || !saved || review.hidden || busy) return;
+   const referent = review.elements.referent.value.trim();
+   const decision = review.elements.decision.value;
+   if (!referent || !Object.hasOwn(decisions, decision)) {
+    render('Indiquez le référent et sa décision après écoute.');
+    return;
+   }
+   const note = review.elements.note.value.trim();
+   writeTake({ ...saved, id: newId(), review: { referent, decision, note, date: new Date().toISOString() } },
+    'Avis du référent conservé avec cette prise sur cet appareil.');
+  };
 
   render('Chargement de l’atelier…');
   openTakes().then(connection => {
@@ -282,5 +325,5 @@
   }).catch(() => render('Le stockage des prises est indisponible dans ce navigateur.'));
  }
 
- K.BassaRecorder = { mount };
+ K.BassaRecorder = { mount, canEdit };
 })(Klassia);

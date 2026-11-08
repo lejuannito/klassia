@@ -70,7 +70,7 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 Le relevé examine 55 repères dans les cinq classes. Après les longueurs, le lot lecture et écriture enrichit cinq ressources et ajoute cinq séances au carnet. La synthèse du carnet regroupe les observations par édition et par exercice. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Carnet du pilote](GUIDE_PILOTE.md)
 
-1. Utiliser les quatre situations de l’atelier pour enregistrer `BA002`, `BA004`, `BA005` et `BA006`. Faire confirmer la prononciation et les tons par le référent, recueillir l’accord de diffusion et intégrer les MP3. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia)
+1. Dans **Carnet du pilote › Prises bassa**, ouvrir l’atelier et choisir l’espace Enseignant. Enregistrer `BA002`, `BA004`, `BA005` et `BA006`, puis consigner l’avis du référent sous la prise. Recueillir l’accord de diffusion avant intégration des MP3. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia)
 2. Remplir le relevé du carnet sur Android et iPhone. Vérifier l’écran Bassa, le micro, l’écoute en mode avion et la reprise de la progression. Refaire l’écoute Bassa après intégration des prises. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
 3. Importer les relevés des familles et des enseignants, traiter les exercices signalés et faire un nouvel essai. Utiliser les variantes proposées pour le prochain lot des cinq classes. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
 

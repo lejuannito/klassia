@@ -12,6 +12,26 @@ await route('#lesson:FR-U1-L1');await p.locator('input[name="q_ans_FRU1L1_1"][va
 await route('#lesson:MA-U1-L2');await p.locator('.numeric-check').first().locator('..').locator('input').fill('600');await p.locator('.numeric-check').first().click();assert.match(await p.locator('.numeric-check').first().locator('..').locator('[role=status]').innerText(),/Bravo/);
 for(const h of ['#subjects-all','#subject-all:MA','#progress']){await route(h);await p.evaluate(()=>{window.changes=0;window.observer?.disconnect();window.observer=new MutationObserver(()=>changes++);observer.observe(document.getElementById('app'),{childList:true,subtree:true});});await p.waitForTimeout(500);assert.equal(await p.evaluate(()=>changes),0,'Idle rendering: '+h);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Overflow: '+h);}
 await route('#coverage');await p.locator('#coverageSearch').fill('MA-U4-L2');assert.match(await p.locator('#coverageResults').innerText(),/1 ressources/);await p.locator('#coverageSearch').fill('FR-U1-L1');await p.locator('#reviewerName').fill('Enseignant de test');const reviewCard=p.locator('#coverageResults details').filter({hasText:'FR-U1-L1'});await reviewCard.locator('summary').click();await reviewCard.locator('.review-scope').fill('Objectif et exercices');await reviewCard.getByRole('button',{name:'Enregistrer cette décision'}).click();assert.match(await p.locator('#reviewMessage').innerText(),/enregistrée/);
+// Opening a reviewed lesson from another unit must preserve the review draft.
+await p.goto('http://localhost:8765/?unit=U1#coverage');
+await p.locator('#coverageSearch').fill('MA-U4-L2');
+const reviewDraft = p.locator('#coverageResults details');
+await reviewDraft.locator('summary').click();
+await reviewDraft.locator('.review-notes').fill('Brouillon de revue');
+let reviewNavigations = 0;
+const countReviewNavigation = frame => { if (frame === p.mainFrame()) reviewNavigations++; };
+p.on('framenavigated', countReviewNavigation);
+const [reviewedLesson] = await Promise.all([
+ p.waitForEvent('popup'), reviewDraft.getByRole('link', {name:/Consulter le contenu/}).click()
+]);
+await reviewedLesson.waitForURL('**/?unit=U4#lesson:MA-U4-L2');
+await reviewedLesson.locator('.lesson-header h1').waitFor();
+await reviewedLesson.evaluate(() => Klassia.write('klassia_recent', {lessonId:'MA-U4-L2',at:Date.now()+1000}));
+await p.waitForTimeout(500);
+assert.equal(reviewNavigations, 0, 'Progress written in the lesson tab must not reload the review');
+assert.equal(await reviewDraft.locator('.review-notes').inputValue(), 'Brouillon de revue');
+p.off('framenavigated', countReviewNavigation);
+await reviewedLesson.close();
 await route('#bassa');await p.locator('#bassaSearch').fill('école maternelle');await p.locator('.bassa-answer').fill('Ntôñ diséé');await p.locator('.bassa-check').click();assert.match(await p.locator('.bassa-feedback').innerText(),/acceptée/);
 await route('#eval:FR');await p.getByRole('button',{name:'Enregistrer',exact:true}).click();assert.match(await p.locator('#evalMsg').innerText(),/Entre un score/);
 for(let u=1;u<=8;u++){await p.evaluate(async id=>{await loadUnit(id);location.hash='#qcm:0';qcmPage(0);},'U'+u);await p.locator('.qcmQuestion').first().waitFor();await p.evaluate(()=>{qcm.epreuves[0].questions.forEach((q,i)=>document.querySelector(`input[name="qq${i}"][value="${q.bonne}"]`).checked=true);correctQcm(0);});assert.match(await p.locator('#scoreQcm').innerText(),/5\/5/);}

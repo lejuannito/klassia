@@ -68,6 +68,7 @@
  function mount(panel, lexicon) {
   if (!panel || !canEdit()) return;
   const entries = lexicon.filter(entry => entry.forms.length);
+  const publishedCount = entries.filter(entry => entry.recordings?.length).length;
   const title = entry => `${entry.id} · ${entry.concept.split(' / ')[0]}`;
   const byId = new Map(entries.map(entry => [entry.id, entry]));
   const profile = K.profile().id;
@@ -80,6 +81,7 @@
 
   panel.innerHTML = `<h2>Enregistrer une prononciation</h2>
    <p>Obtenez l’accord du locuteur pour la prise. Choisissez la forme à prononcer. Chaque essai dure au plus 12 secondes.</p>
+   <p>Dans cette édition, ${publishedCount} entrées sur ${entries.length} disposent d’au moins une prise publiée.</p>
    <p><b>Les quatre prises du pilote</b></p>
    <div class="bassa-recorder-actions">
     ${Object.keys(pilot).map(id => `<button class="btn soft" type="button" data-quick="${id}">${K.escape(title(byId.get(id)))}</button>`).join('')}
@@ -127,6 +129,21 @@
     </fieldset>
     <p data-review-status></p>
    </form>
+   <details class="adult-guide" data-publication hidden>
+    <summary>Préparer la diffusion sur tous les appareils</summary>
+    <p>Obtenez l’accord du locuteur pour la diffusion sur le site. Indiquez les codes des justificatifs conservés en privé. Le dossier contient la voix et doit être transmis en privé.</p>
+    <form>
+     <fieldset class="bassa-recorder-fields">
+      <legend>Justificatifs de la prise</legend>
+      <label>Sens prononcé <input name="sense" maxlength="160" required></label>
+      <label>Référence de l’avis favorable <input name="reviewRef" maxlength="64" required></label>
+      <label>Référence de l’accord de diffusion <input name="consentRef" maxlength="64" required></label>
+      <label>Crédit public autorisé (facultatif) <input name="credit" maxlength="100"></label>
+      <button class="btn primary" type="submit">Télécharger le dossier de diffusion</button>
+     </fieldset>
+    </form>
+    <p data-publication-status role="status"></p>
+   </details>
    <p>Les prises restent dans le profil local, sur cet appareil. Pour la diffusion, faites vérifier la prononciation et les tons par le référent et recueillez l’accord du locuteur.</p>`;
 
   const find = selector => panel.querySelector(selector);
@@ -137,6 +154,8 @@
   const player = find('[data-player]'), audio = find('audio'), download = find('[data-download]');
   const keep = find('[data-keep]'), discard = find('[data-discard]'), remove = find('[data-delete]');
   const review = find('[data-take-review]'), reviewFields = review.querySelector('fieldset');
+  const publication = find('[data-publication]'), packageForm = publication.querySelector('form');
+  const publicationStatus = find('[data-publication-status]');
   const key = () => [profile, entry.value, form.value];
   const active = () => !listeners.signal.aborted && panel.isConnected && location.hash === '#bassa'
    && K.profile().id === profile && canEdit();
@@ -188,6 +207,15 @@
     find('[data-review-status]').textContent = opinion
      ? `${decisions[opinion.decision]} · ${new Date(opinion.date).toLocaleDateString('fr-FR')}${opinion.localListening ? ' · écoute élève activée' : ''}`
      : 'Avis à consigner après écoute.';
+   }
+   publication.hidden = review.hidden || saved?.review?.decision !== 'confirme';
+   packageForm.querySelector('fieldset').disabled = locked;
+   if (!publication.hidden && publication.dataset.take !== saved.id) {
+    publication.dataset.take = saved.id;
+    packageForm.reset();
+    packageForm.elements.sense.value = byId.get(entry.value).concept.split(' / ')[0];
+    publicationStatus.textContent = '';
+    publication.open = false;
    }
    status.textContent = message ?? (saved ? 'Prise conservée sur cet appareil.' : (!entry.value ? 'Aucune entrée trouvée. Modifiez la recherche.' : unsupported || 'Choisissez une forme et lancez la prise.'));
   }
@@ -378,6 +406,54 @@
    const localListening = decision === 'confirme' && review.elements.localListening.checked;
    writeTake({ ...saved, id: newId(), review: { referent, decision, note, localListening, date: new Date().toISOString() } },
     'Avis du référent conservé avec cette prise sur cet appareil.');
+  };
+
+  packageForm.onsubmit = async event => {
+   event.preventDefault();
+   if (!active() || publication.hidden || busy) return;
+   const fields = packageForm.elements;
+   const sense = fields.sense.value.trim(), review_ref = fields.reviewRef.value.trim();
+   const consent_ref = fields.consentRef.value.trim(), credit = fields.credit.value.trim();
+   const validRef = value => /^[A-Za-z0-9][A-Za-z0-9_-]{0,63}$/.test(value);
+   if (!sense || !validRef(review_ref) || !validRef(consent_ref)) {
+    publicationStatus.textContent = 'Indiquez le sens et les deux références avec des lettres, chiffres, tirets ou soulignés.';
+    return;
+   }
+   const take = saved, takeKey = key();
+   busy = true;
+   render();
+   publicationStatus.textContent = 'Préparation du dossier…';
+   try {
+    const base64 = await new Promise((resolve, reject) => {
+     const reader = new FileReader();
+     reader.onload = () => resolve(reader.result.split(',')[1]);
+     reader.onerror = () => reject(reader.error);
+     reader.readAsDataURL(take.audio);
+    });
+    if (!active()) return;
+    const latest = await transact(db, 'readonly', store => store.get(takeKey));
+    if (!active()) return;
+    if (latest?.id !== take.id) {
+     publicationStatus.textContent = 'La prise a changé. Rouvrez cette entrée et vérifiez son avis.';
+     return;
+    }
+    const [, id, selectedForm] = takeKey;
+    const dossier = { format: 'klassia-bassa-publication', version: 1, id, form: selectedForm,
+     sense, reviewed_on: take.review.date.slice(0, 10), review_ref, consent_ref,
+     ...(credit ? { credit } : {}), source: { type: take.audio.type, base64 } };
+    const url = URL.createObjectURL(new Blob([JSON.stringify(dossier)], { type: 'application/json' }));
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `Klassia-${id}-${String(form.selectedIndex + 1).padStart(2, '0')}-diffusion.json`;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    publicationStatus.textContent = 'Dossier téléchargé. Transmettez-le en privé pour intégration dans l’édition.';
+   } catch {
+    publicationStatus.textContent = 'Impossible de préparer le dossier. Vous pouvez réessayer.';
+   } finally {
+    busy = false;
+    render();
+   }
   };
 
   render('Chargement de l’atelier…');

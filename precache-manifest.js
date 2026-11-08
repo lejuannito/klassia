@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "9ded66fd347874e064cb08634b2ff5172c5cf453acc6130fc53e7ed430b973dd",
+  "version": "f67fb8521e0fc71343b943d2cc5c4953498bd82cc2c711fa0bc6fd47ce4b573c",
   "files": [
     {
       "url": "./app.js",
@@ -487,7 +487,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/bassa-recorder.js",
-      "sha256": "4e55294a3f5079a23dae919ce998307c8e215cd8078e24ce5b67b7306b04b830"
+      "sha256": "4995099489bcc6e68caae295132302ca12171ea5326c27c5ae0631ffa7342dfe"
     },
     {
       "url": "./shared/bassa.js",
@@ -571,7 +571,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "bff33dbfcfcef4924d7e0ca09960f1a810234e3226bbf04d792dc96eef817f90"
+      "sha256": "aa5ebda14b5ca3c3f889b24f51197a7e3eb791370d0c93defdd2c197d25d4513"
     },
     {
       "url": "./sil/data/curriculum.json",

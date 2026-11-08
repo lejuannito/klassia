@@ -373,7 +373,7 @@ function lesson(id) {
       <details class="source-note"><summary>Référence pédagogique</summary><p>${esc(l.source || '')}</p>${(l.notes || []).map(n => `<p>${esc(n)}</p>`).join('')}</details>
     </article>`;
 
-  if(l.teacher_guide)body+=teacherGuideHtml(l.teacher_guide);
+  if(l.teacher_guide&&Klassia.isAdultSpace())body+=teacherGuideHtml(l.teacher_guide);
   shell(body, 'learn');
   if(s.id==='BA')Klassia.Bassa.mount(document.querySelector('.lesson-page'),'CE2',l.id);
   document.querySelectorAll('.numeric-check').forEach(button=>button.onclick=()=>{const e=l.exercises[Number(button.dataset.exercise)],raw=document.getElementById('num_'+button.dataset.feedback).value.trim().replace(/\s/g,'').replace(',','.');const box=document.getElementById(button.dataset.feedback);box.classList.remove('hidden');if(raw===''||!/^[-+]?\d+(\.\d+)?$/.test(raw)){box.textContent='Écris un nombre avant de vérifier.';return;}const ok=Number(raw)===e.answer;box.textContent=(ok?'Bravo ! ':'Essaie encore. ')+e.explanation;const key=l.id+':'+button.dataset.exercise;const d=exerciseData();d[key]={ok,at:new Date().toISOString()};save(S.exercises,d);Klassia.append('klassia_attempts',{kind:'number',exercise:e.id,ok});});
@@ -389,10 +389,11 @@ function exerciseHtml(e, lid, i) {
   if (e.type === 'mcq' && e.choices) {
     return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${e.choices.map((c, j) => `<label class="choice"><input type="radio" name="q_${ansId}" value="${j}"><span>${esc(c)}</span></label>`).join('')}<button class="btn soft" onclick="checkMcq('${ansId}',${e.correct_choice},'${key}')">Vérifier ma réponse</button><div id="${ansId}" class="feedback hidden"></div>${history ? `<div class="exercise-history">Dernière tentative : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
   }
-  return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b><p class="exercise-hint">Réfléchis d’abord, puis compare avec la correction.</p><button class="btn soft" onclick="showOpenCorrection('${ansId}')">Voir la correction</button><div id="${ansId}" class="feedback hidden"><b>Correction proposée</b><p>${nl(e.answer || '')}</p>${e.explanation ? `<p class="muted">${nl(e.explanation)}</p>` : ''}<div class="self-check"><span>As-tu réussi seul ?</span><button class="btn mini review" onclick="rateOpen('${key}',false,'${ansId}')">Pas encore</button><button class="btn mini success" onclick="rateOpen('${key}',true,'${ansId}')">Oui ✓</button></div><div class="remediation hidden" data-remed="${ansId}"><b>Remédiation</b><p>${nl(e.explanation || 'Relis « Je retiens », reprends l’exemple puis essaie de résoudre la question une seconde fois.')}</p></div></div>${history ? `<div class="exercise-history">Auto-évaluation : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
+  const en = lid.startsWith('EN-');
+  const correction = `<b>${en?'Suggested answer':'Correction proposée'}</b><p>${nl(e.answer || '')}</p>${e.explanation ? `<p class="muted">${nl(e.explanation)}</p>` : ''}<div class="self-check"><span>${en?'Did you manage on your own?':'As-tu réussi seul ?'}</span><button type="button" class="btn mini review" onclick="rateOpen('${key}',false,'${ansId}')">${en?'Not yet':'Pas encore'}</button><button type="button" class="btn mini success" onclick="rateOpen('${key}',true,'${ansId}')">${en?'Yes':'Oui'} ✓</button></div><div class="remediation hidden" data-remed="${ansId}"><b>${en?'Try again with help':'Remédiation'}</b><p>${nl(e.explanation || (en?'Read the example and try the question again.':'Relis « Je retiens », reprends l’exemple puis essaie de résoudre la question une seconde fois.'))}</p></div>`;
+  return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${Klassia.correction.html(ansId,correction,{en})}${history ? `<div class="exercise-history">Auto-évaluation : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
 }
 
-window.showOpenCorrection = id => document.getElementById(id)?.classList.remove('hidden');
 window.rateOpen = (key, ok, id) => {
   const d = exerciseData();
   d[key] = { ok, at: new Date().toISOString() };
@@ -433,7 +434,7 @@ function evaluation(id) {
     <div class="assessment-list">`;
   a.items.forEach((it, i) => {
     const rid = `corr_${id}_${i}`;
-    body += `<article class="evalItem"><div class="eval-head"><span class="eval-number">${i + 1}</span><span class="points">${it.points} pt${it.points > 1 ? 's' : ''}</span></div><b>${esc(it.prompt)}</b><button class="text-btn correction-btn" onclick="toggle('${rid}')">Voir les éléments de correction</button><div id="${rid}" class="feedback hidden">${nl(it.answer)}</div></article>`;
+    body += `<article class="evalItem"><div class="eval-head"><span class="eval-number">${i + 1}</span><span class="points">${it.points} pt${it.points > 1 ? 's' : ''}</span></div><b>${esc(it.prompt)}</b>${Klassia.correction.html(rid,nl(it.answer),{en:id==='EN'})}</article>`;
   });
   body += `</div>
     <section class="score-entry"><div><div class="eyebrow">MON RÉSULTAT</div><h3>Enregistrer mon score</h3><p>Pour ce pilote, la correction est accompagnée et le score est saisi après comparaison avec les réponses proposées.</p></div><div class="score-controls"><input id="score" type="number" min="0" max="20" step="0.5" value="${e?.score ?? ''}" aria-label="Score sur 20"><span>/20</span><button class="btn primary" onclick="saveEval('${id}')">Enregistrer</button></div><div id="evalMsg" class="eval-message">${e ? evalFeedback(Number(e.score)) : ''}</div></section>
@@ -447,7 +448,6 @@ function evalFeedback(score) {
   return `<strong>${score}/20.</strong> Klassia recommande une remédiation ciblée et une nouvelle tentative.`;
 }
 
-window.toggle = id => document.getElementById(id)?.classList.toggle('hidden');
 window.saveEval = id => {
   const input = document.getElementById('score');
   const v = input.value.trim()==='' ? NaN : Number(input.value);
@@ -498,21 +498,35 @@ function qcmPage(i) {
   e.questions.forEach((q, qi) => {
     body += `<article class="qcmQuestion"><div class="eval-head"><span class="eval-number">${qi + 1}</span><span class="points">1 pt</span></div><b>${esc(q.enonce)}</b>${Klassia.shuffleOptions(q).map(c => `<label class="choice"><input type="radio" name="qq${qi}" value="${c.id}"><span>${esc(c.text)}</span></label>`).join('')}<div id="qc${qi}" class="feedback hidden"></div></article>`;
   });
-  body += `</div><button class="btn primary large-action" onclick="correctQcm(${Number(i)})">Corriger la série</button><div id="scoreQcm" class="scoreBox"></div>`;
+  body += `</div><button class="btn primary large-action" onclick="correctQcm(${Number(i)})">Corriger la série</button>${Klassia.isAdultSpace()?`<button class="btn soft large-action" onclick="correctQcm(${Number(i)},true)">Voir le corrigé adulte</button>`:''}<div id="scoreQcm" class="scoreBox" role="status"></div>`;
   shell(body, 'revise');
 }
-window.correctQcm = i => {
-  const e = qcm.epreuves[i]; let score = 0;
+window.correctQcm = (i, adultPreview = false) => {
+  const e = qcm.epreuves[i];
+  if (!e || (adultPreview && !Klassia.isAdultSpace())) return;
+  const responses = e.questions.map((_, qi) => document.querySelector(`input[name="qq${qi}"]:checked`));
+  const scoreBox = document.getElementById('scoreQcm');
+  if (!adultPreview && responses.some(response => !response)) {
+    scoreBox.textContent = 'Réponds à chaque question avant de corriger la série.';
+    return;
+  }
+  let score = 0;
   e.questions.forEach((q, qi) => {
-    const r = [...document.querySelectorAll(`input[name="qq${qi}"]`)].find(x => x.checked);
-    const b = document.getElementById('qc' + qi); b.classList.remove('hidden');
-    const ok = r && Number(r.value) === q.bonne; if (ok) score++;
-    b.innerHTML = `${ok ? '<div class="feedback-good"><b>Correct ✓</b>' : '<div class="feedback-retry"><b>À revoir</b>'}<p>${esc(q.corrige || '')}</p>${q.methode?`<p class="muted"><b>Méthode :</b> ${esc(q.methode)}</p>`:''}</div>`;
+    const box = document.getElementById('qc' + qi);
+    const ok = Number(responses[qi]?.value) === q.bonne;
+    if (ok) score++;
+    box.classList.remove('hidden');
+    const title = adultPreview ? 'Corrigé adulte' : ok ? 'Correct ✓' : 'À revoir';
+    box.innerHTML = `<div class="feedback-${ok&&!adultPreview?'good':'retry'}"><b>${title}</b><p>${esc(q.corrige || '')}</p>${q.methode?`<p class="muted"><b>Méthode :</b> ${esc(q.methode)}</p>`:''}</div>`;
   });
+  if (adultPreview) {
+    scoreBox.textContent = 'Corrigé affiché pour l’adulte.';
+    return;
+  }
   const pct = Math.round(score * 100 / e.questions.length);
   Klassia.append('klassia_attempts',{kind:'qcm',unit:currentUnit.id,series:seriesKey(e,i),score,total:e.questions.length});
   const scores=qcmScoreData(); const key=seriesKey(e,i); scores[key]={score,total:e.questions.length,pct,date:new Date().toISOString(),type:e.serie_type}; saveQcmScoreData(scores);
-  document.getElementById('scoreQcm').innerHTML = `<strong>${score}/${e.questions.length}</strong><span>${pct >= 80 ? 'Très bien !' : pct >= 50 ? 'Bon début. Reprends les corrections.' : 'Revois les leçons correspondantes avant de réessayer.'}</span>`;
+  scoreBox.innerHTML = `<strong>${score}/${e.questions.length}</strong><span>${pct >= 80 ? 'Très bien !' : pct >= 50 ? 'Bon début. Reprends les corrections.' : 'Revois les leçons correspondantes avant de réessayer.'}</span>`;
 };
 
 function project() {

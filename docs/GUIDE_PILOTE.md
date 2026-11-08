@@ -4,7 +4,7 @@ Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du 
 
 1. Créez un profil par enfant avec un prénom ou pseudonyme. Choisissez le bon profil avant chaque séance.
 2. Attendez la confirmation de téléchargement avant de travailler sans réseau. Sur un nouvel appareil, importez la sauvegarde de l’enfant dans le profil choisi.
-3. En CE2, laissez l’enfant essayer avant d’ouvrir la correction. Les boutons de compréhension expriment son ressenti ; les notes d’évaluation sont saisies après une correction accompagnée.
+3. Dans l’espace Enfant, l’élève valide une réponse saisie ou indique qu’il a répondu à l’oral ou sur papier, puis ouvre la correction. En MS et GS, l’adulte confirme l’essai oral ou la manipulation. Les espaces adultes donnent accès directement aux guides. En CE2, les réponses ouvertes restent à comparer et les notes d’évaluation sont saisies après une correction accompagnée.
 4. En MS, préparez le matériel, montrez le geste et utilisez une activité à la fois. Alternez avec la manipulation et les jeux sans écran. Ne transformez pas la séance en examen.
 5. Dans « Observation de l’adulte », notez un fait concret, la langue utilisée et l’aide donnée. Évitez les données sensibles ; une observation simple suffit : « suit deux consignes après répétition ».
 6. Six extraits sonores sont intégrés aux fiches de SIL et de CE1. Les autres commandes de lecture utilisent les voix de l’appareil. Si l’extrait ou la voix est indisponible, lisez le texte à l’enfant. [Repères sur les voix](SUPPORTS_SONORES.md)
@@ -35,6 +35,7 @@ Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de t
 | 6. Vérifier la progression | Dans le profil de test, choisir « Je me sens prêt » dans une leçon CE2 ou « Réalisé » en SIL ou CE1. Fermer puis rouvrir Klassia. Si une mise à jour est disponible, fermer les autres onglets Klassia, appliquer la mise à jour en ligne, puis repasser en mode avion. | Le même profil et le marqueur de la leçon sont retrouvés après réouverture, puis après mise à jour. |
 | 7. Enregistrer une prise d’essai | Dans l’espace Enseignant, ouvrir l’atelier Bassa, autoriser le micro, enregistrer une forme et la réécouter. La conserver, fermer puis rouvrir Klassia en mode avion. Essayer un nouvel enregistrement en mode avion, puis l’écarter. | La première prise est toujours disponible dans le même profil. Le micro s’arrête à la fin de la prise ou en quittant l’atelier. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia) |
 | 8. Imprimer ou exporter en PDF | Depuis l’icône installée, ouvrir une fiche élève dans chaque classe et attendre « Fiche prête ». Essayer le PDF et, si nécessaire, le lien de repli dans le navigateur. Ouvrir aussi un guide adulte. | Fiche A4 lisible, images présentes, réponses dans le guide adulte. Indiquer le mode qui fonctionne. |
+| 9. Essayer avant la correction | En espace Enfant, vérifier une réponse vide, puis valider un essai écrit ou oral. En MS ou GS, faire confirmer une manipulation. Réessayer dans l’espace Parent. | Correction inaccessible au départ, accessible après tentative, accès direct pour l’adulte. |
 
 ### Relevé à transmettre
 
@@ -47,6 +48,7 @@ Indiquer pour chaque appareil le code de séance, la date, le modèle, le systè
 | Téléchargement et ouverture depuis l’icône | À renseigner | À renseigner | |
 | Six extraits FR/EN en ligne et en mode avion | À renseigner | À renseigner | Préciser les extraits concernés |
 | Voix de l’appareil en ligne et en mode avion | À renseigner | À renseigner | Distinguer voix de l’appareil et extrait intégré |
+| Corrigés après une tentative et accès adulte | À renseigner | À renseigner | Préciser la classe et le mode de réponse |
 | Fiche A4 / PDF depuis l’icône et lien de repli | À renseigner | À renseigner | Préciser l’impression et l’ouverture dans le navigateur |
 | Écran Bassa en portrait et en paysage | À renseigner | À renseigner | |
 | Prises Bassa dans `BA-U3-L1` en ligne et en mode avion | À renseigner | À renseigner | Noter « non essayé » si les prises sont encore en préparation |

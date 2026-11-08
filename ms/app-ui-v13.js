@@ -12,10 +12,10 @@ function activityCard(a,i){
  if(a.activity_fr||a.activity_en)main+=`<div class="bilingual">${a.activity_fr?`<div class="lang"><b>👐 Activité</b>${esc(a.activity_fr)}</div>`:''}${a.activity_en?`<div class="lang"><b>👐 Activity</b>${esc(a.activity_en)}</div>`:''}</div>`;
  if(a.materials)main+=`<div class="lang"><b>Matériel</b>${a.materials.map(esc).join(' · ')}</div>`;
  if(a.course)main+=renderList('Parcours',a.course);
- if(a.questions?.length)main+=`<div class="observe"><b>Questions / Questions</b>${a.questions.map(q=>`<div style="margin:7px 0">${esc(q.fr)}<br><i>${esc(q.en)}</i>${q.answer?`<details class="answer-reveal"><summary>Repère de réponse / Answer guide</summary><p>${esc(q.answer)}</p></details>`:''}</div>`).join('')}</div>`;
+ if(a.questions?.length)main+=`<div class="observe"><b>Questions</b>${a.questions.map((q,index)=>`<div class="nursery-question"><p>${esc(q.fr)}<br><i lang="en">${esc(q.en)}</i></p>${q.answer?Klassia.correction.html(a.id+'_question_'+index,`<p>${esc(q.answer)}</p>`,{nursery:true}):''}</div>`).join('')}</div>`;
  if(a.source_note)main+=`<div class="notice">${esc(a.source_note)}</div>`;
  if(a.observe?.length)main+=`<div class="observe"><b>👀 J’observe</b>${a.observe.map(x=>`<div>• ${esc(x)}</div>`).join('')}</div>`;
- if(a.teacher_guide)main+=`<details class="adult-guide"><summary>Préparer et adapter l’activité</summary><p>${esc(a.teacher_guide.preparation)}</p><p>${esc(a.teacher_guide.adaptation)}</p><p>${esc(a.teacher_guide.follow_up)}</p></details>`;
+ if(a.teacher_guide&&Klassia.isAdultSpace())main+=`<details class="adult-guide"><summary>Préparer et adapter l’activité</summary><p>${esc(a.teacher_guide.preparation)}</p><p>${esc(a.teacher_guide.adaptation)}</p><p>${esc(a.teacher_guide.follow_up)}</p></details>`;
  main+=`<div class="statusRow"><button data-id="${a.id}" data-st="D" class="${st==='D'?'active':''}">Découvre</button><button data-id="${a.id}" data-st="EC" class="${st==='EC'?'active':''}">En cours</button><button data-id="${a.id}" data-st="A" class="${st==='A'?'active':''}">Acquis</button></div>`;
  return `<article class="activityCard" data-activity-id="${esc(a.id)}"><div class="activityHead"><div class="num">${i+1}</div><div><h3>${esc(a.title_fr)}</h3><p>${esc(a.title_en)}</p></div></div><div class="activityBody"><div class="bilingual"><div class="lang"><b>Objectif</b>${esc(a.goal_fr||'')}</div><div class="lang" lang="en"><b>Goal</b>${esc(a.goal_en||'')}</div></div>${main}</div></article>`;
 }

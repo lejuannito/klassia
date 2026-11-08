@@ -1,4 +1,4 @@
-/* Local recording workshop for the first four Bassa entries. */
+/* Local recording and review for documented Bassa forms. */
 (function (K) {
  'use strict';
  const pilot = {
@@ -31,6 +31,34 @@
   });
  }
 
+ async function approvedTakes(entries) {
+  const profile = K.profile().id;
+  const allowed = new Map(entries.map(entry => [entry.id, entry.forms]));
+  const db = await openTakes();
+  const takes = [];
+  try {
+   await transact(db, 'readonly', store => {
+    const range = IDBKeyRange.bound([profile], [profile, []]);
+    const request = store.openCursor(range);
+    request.onsuccess = () => {
+     const cursor = request.result;
+     if (!cursor) return;
+     const [, id, form] = cursor.key;
+     const take = cursor.value;
+     if (allowed.get(id)?.includes(form) && take.review?.decision === 'confirme' &&
+         take.review.localListening === true && take.audio instanceof Blob && take.audio.size) {
+      takes.push({ id, form, audio: take.audio });
+     }
+     cursor.continue();
+    };
+    return request;
+   });
+   return K.profile().id === profile ? takes : [];
+  } finally {
+   db.close();
+  }
+ }
+
  function extension(blob) {
   const format = blob.type.split(';')[0];
   return { 'audio/mp4': 'm4a', 'video/mp4': 'mp4', 'audio/webm': 'webm',
@@ -39,7 +67,9 @@
 
  function mount(panel, lexicon) {
   if (!panel || !canEdit()) return;
-  const entries = lexicon.filter(entry => Object.hasOwn(pilot, entry.id));
+  const entries = lexicon.filter(entry => entry.forms.length);
+  const title = entry => `${entry.id} · ${entry.concept.split(' / ')[0]}`;
+  const byId = new Map(entries.map(entry => [entry.id, entry]));
   const profile = K.profile().id;
   const listeners = new AbortController();
   const listenerOptions = { signal: listeners.signal };
@@ -50,8 +80,16 @@
 
   panel.innerHTML = `<h2>Enregistrer une prononciation</h2>
    <p>Obtenez l’accord du locuteur pour la prise. Choisissez la forme à prononcer. Chaque essai dure au plus 12 secondes.</p>
+   <p><b>Les quatre prises du pilote</b></p>
+   <div class="bassa-recorder-actions">
+    ${Object.keys(pilot).map(id => `<button class="btn soft" type="button" data-quick="${id}">${K.escape(title(byId.get(id)))}</button>`).join('')}
+   </div>
+   <form class="bassa-recorder-actions" data-entry-filter>
+    <label>Filtrer les ${entries.length} entrées <input name="query" type="search" placeholder="Code, mot ou forme bassa"></label>
+    <button class="btn soft" type="submit">Filtrer les entrées</button>
+   </form>
    <div class="bassa-recorder-fields">
-    <label>Entrée <select data-entry>${entries.map(entry => `<option value="${entry.id}">${entry.id} · ${K.escape(entry.concept.split(' / ')[0])}</option>`).join('')}</select></label>
+    <label>Entrée <select data-entry></select></label>
     <label>Forme bassa <select data-form></select></label>
    </div>
    <div class="adult-guide">
@@ -84,6 +122,7 @@
      <label>Décision <select name="decision" required><option value="">Choisir</option>
       ${Object.entries(decisions).map(([value, label]) => `<option value="${value}">${label}</option>`).join('')}</select></label>
      <label>Observation facultative <textarea name="note" rows="2" maxlength="240"></textarea></label>
+     <label><span><input type="checkbox" name="localListening"> Le locuteur autorise l’écoute par l’élève sur cet appareil</span></label>
      <button class="btn primary" type="submit">Enregistrer l’avis</button>
     </fieldset>
     <p data-review-status></p>
@@ -91,6 +130,8 @@
    <p>Les prises restent dans le profil local, sur cet appareil. Pour la diffusion, faites vérifier la prononciation et les tons par le référent et recueillez l’accord du locuteur.</p>`;
 
   const find = selector => panel.querySelector(selector);
+  const filter = find('[data-entry-filter]');
+  const quick = [...panel.querySelectorAll('[data-quick]')];
   const entry = find('[data-entry]'), form = find('[data-form]'), status = find('[data-status]');
   const record = find('[data-record]'), stop = find('[data-stop]'), cancel = find('[data-cancel]');
   const player = find('[data-player]'), audio = find('audio'), download = find('[data-download]');
@@ -122,6 +163,7 @@
    const locked = busy || Boolean(capture) || !db;
    const take = draft || saved;
    entry.disabled = form.disabled = locked || Boolean(draft);
+   for (const control of [...filter.elements, ...quick]) control.disabled = entry.disabled;
    record.hidden = Boolean(capture);
    record.disabled = locked || Boolean(unsupported) || !form.value;
    record.textContent = take ? 'Faire un autre essai' : 'Enregistrer au micro';
@@ -142,11 +184,12 @@
     review.elements.referent.value = opinion?.referent || '';
     review.elements.decision.value = opinion?.decision || '';
     review.elements.note.value = opinion?.note || '';
+    review.elements.localListening.checked = opinion?.localListening === true;
     find('[data-review-status]').textContent = opinion
-     ? `${decisions[opinion.decision]} · ${new Date(opinion.date).toLocaleDateString('fr-FR')}`
+     ? `${decisions[opinion.decision]} · ${new Date(opinion.date).toLocaleDateString('fr-FR')}${opinion.localListening ? ' · écoute élève activée' : ''}`
      : 'Avis à consigner après écoute.';
    }
-   status.textContent = message ?? (saved ? 'Prise conservée sur cet appareil.' : unsupported || 'Choisissez une forme et lancez la prise.');
+   status.textContent = message ?? (saved ? 'Prise conservée sur cet appareil.' : (!entry.value ? 'Aucune entrée trouvée. Modifiez la recherche.' : unsupported || 'Choisissez une forme et lancez la prise.'));
   }
 
   async function readTake() {
@@ -154,7 +197,7 @@
    saved = undefined;
    render('Recherche de la prise locale…');
    try {
-    saved = await transact(db, 'readonly', store => store.get(key()));
+    saved = entry.value ? await transact(db, 'readonly', store => store.get(key())) : undefined;
     busy = false;
     render();
    } catch {
@@ -164,11 +207,24 @@
   }
 
   function selectEntry() {
-   const forms = entries.find(item => item.id === entry.value)?.forms || [];
+   const forms = byId.get(entry.value)?.forms || [];
    form.replaceChildren(...forms.map(value => new Option(value, value)));
-   find('[data-situation]').textContent = pilot[entry.value] || '';
-   find('[data-pilot-note]').href = './pilote.html?classe=CE2&lecon=BA-U3-L1&exercice=' + encodeURIComponent(entry.value) + '#observations';
+   find('[data-situation]').textContent = pilot[entry.value] || (entry.value
+    ? 'Montrez ou décrivez « ' + byId.get(entry.value).concept.split(' / ')[0] + ' ». Précisez avec le référent le sens de la forme prononcée.'
+    : 'Choisissez une entrée du lexique.');
+   const note = find('[data-pilot-note]');
+   note.hidden = !Object.hasOwn(pilot, entry.value);
+   note.href = './pilote.html?classe=CE2&lecon=BA-U3-L1&exercice=' + encodeURIComponent(entry.value) + '#observations';
    return readTake();
+  }
+
+  function filterEntries(selected = entry.value) {
+   const fold = value => value.normalize('NFD').replace(/\p{M}/gu, '').toLocaleLowerCase('fr').trim();
+   const query = fold(filter.elements.query.value);
+   const found = entries.filter(item => fold(`${item.id} ${item.concept} ${item.forms.join(' ')}`).includes(query));
+   entry.replaceChildren(...found.map(item => new Option(title(item), item.id)));
+   if (found.some(item => item.id === selected)) entry.value = selected;
+   return selectEntry();
   }
 
   function release(session) {
@@ -267,6 +323,7 @@
     saved = take;
     draft = undefined;
     render(message ?? (take ? 'Prise conservée sur cet appareil.' : 'Prise supprimée de cet appareil.'));
+    panel.dispatchEvent(new Event('klassia:bassa-audio'));
    } catch {
     busy = false;
     render('Impossible de modifier la prise conservée. Vous pouvez réessayer.');
@@ -295,6 +352,11 @@
    if (capture?.recorder) cancelCapture('Prise interrompue. Vous pouvez recommencer.');
   }, listenerOptions);
 
+  filter.onsubmit = event => { event.preventDefault(); filterEntries(); };
+  for (const button of quick) button.onclick = () => {
+   filter.elements.query.value = '';
+   filterEntries(button.dataset.quick);
+  };
   entry.onchange = selectEntry;
   form.onchange = readTake;
   record.onclick = startCapture;
@@ -313,7 +375,8 @@
     return;
    }
    const note = review.elements.note.value.trim();
-   writeTake({ ...saved, id: newId(), review: { referent, decision, note, date: new Date().toISOString() } },
+   const localListening = decision === 'confirme' && review.elements.localListening.checked;
+   writeTake({ ...saved, id: newId(), review: { referent, decision, note, localListening, date: new Date().toISOString() } },
     'Avis du référent conservé avec cette prise sur cet appareil.');
   };
 
@@ -321,9 +384,9 @@
   openTakes().then(connection => {
    if (!active()) { connection.close(); return; }
    db = connection;
-   return selectEntry();
+   return filterEntries('BA002');
   }).catch(() => render('Le stockage des prises est indisponible dans ce navigateur.'));
  }
 
- K.BassaRecorder = { mount, canEdit };
+ K.BassaRecorder = { mount, canEdit, approvedTakes };
 })(Klassia);

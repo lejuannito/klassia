@@ -98,7 +98,17 @@ function unavailable() {
   });
 }
 
-async function audioResponse(request, response, url) {
+async function releaseResponse(request, response, url) {
+  // Cloudflare's HTML redirects are followed during installation. Navigations
+  // cannot reuse a redirected Response, even after its content was verified.
+  if (request.mode === 'navigate' && response.redirected) {
+    return new Response(response.body, {
+      status: response.status,
+      statusText: response.statusText,
+      headers: response.headers
+    });
+  }
+
   if (!url.pathname.endsWith('.mp3') || request.headers.has('If-Range')) return response;
   const range = /^bytes=(\d*)-(\d*)$/.exec(request.headers.get('Range') || '');
   if (!range || (!range[1] && !range[2])) return response;
@@ -126,10 +136,13 @@ async function serve(request, url) {
   url.search = '';
   url.hash = '';
   if (url.pathname.endsWith('/')) url.pathname += 'index.html';
+  else if (request.mode === 'navigate' && !filesByUrl.has(url.href) && filesByUrl.has(url.href + '.html')) {
+    url.pathname += '.html';
+  }
 
   const cache = await caches.open(CACHE_NAME);
   const cached = await cache.match(url);
-  if (cached) return audioResponse(request, cached, url);
+  if (cached) return releaseResponse(request, cached, url);
 
   try {
     const file = filesByUrl.get(url.href);
@@ -138,7 +151,7 @@ async function serve(request, url) {
     // Repair a missing file only if the server still has the installed bytes.
     const response = await verifiedResponse(file);
     try { await cache.put(url, response.clone()); } catch { /* The verified response is still usable online. */ }
-    return await audioResponse(request, response, url);
+    return await releaseResponse(request, response, url);
   } catch {
     return unavailable();
   }

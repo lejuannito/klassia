@@ -510,9 +510,11 @@ async function run() {
     await page.evaluate(() => Klassia.write('klassia_user', { role: 'ENSEIGNANT' }));
     await page.reload();
     const attemptsBeforePreview = await page.evaluate(() => Klassia.read('klassia_attempts', []).length);
+    const activitiesBeforePreview = await page.evaluate(() => Klassia.read('klassia_activity_v9', []).length);
     await page.getByRole('button', { name: 'Voir le corrigé adulte' }).click();
     assert.match(await planetQuestion.locator('.feedback').innerText(), /Corrigé adulte.*Terre est au rang 3/s);
     assert.equal(await page.evaluate(() => Klassia.read('klassia_attempts', []).length), attemptsBeforePreview);
+    assert.equal(await page.evaluate(() => Klassia.read('klassia_activity_v9', []).length), activitiesBeforePreview);
     await page.evaluate(() => Klassia.write('klassia_user', { role: 'ELEVE' }));
     console.log('PASS offline CE2 social studies map, assessment and quiz correction');
 

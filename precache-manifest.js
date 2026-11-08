@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "4ce4f39ad8e6f121a8461476b14c2c4ce76778030b62ebda8a5d4b75e8d1e949",
+  "version": "9e50a3a94096da5968e2427cdd93977c698267cdb31a838155b80c869caf1de0",
   "files": [
     {
       "url": "./app.js",
-      "sha256": "5c3df1df1976378e427ef126b7b49ce8421ab66ffe5d098481e648d2ca10d89e"
+      "sha256": "a344f507ca5ad61c9cef2242c5e0635ff489a0a52f775d6b9fee6e183b045da9"
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -591,7 +591,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v9.js",
-      "sha256": "eee6758b47eb83f5adb2652d413d8d417e55cb73ccf8d99adad6548c29acbc16"
+      "sha256": "5221cecd87a6277c72eed0d751a37aff87b7f0377321463314c98db3a2a84fc7"
     }
   ]
 };

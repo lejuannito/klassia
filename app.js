@@ -527,6 +527,7 @@ window.correctQcm = (i, adultPreview = false) => {
   Klassia.append('klassia_attempts',{kind:'qcm',unit:currentUnit.id,series:seriesKey(e,i),score,total:e.questions.length});
   const scores=qcmScoreData(); const key=seriesKey(e,i); scores[key]={score,total:e.questions.length,pct,date:new Date().toISOString(),type:e.serie_type}; saveQcmScoreData(scores);
   scoreBox.innerHTML = `<strong>${score}/${e.questions.length}</strong><span>${pct >= 80 ? 'Très bien !' : pct >= 50 ? 'Bon début. Reprends les corrections.' : 'Revois les leçons correspondantes avant de réessayer.'}</span>`;
+  return true;
 };
 
 function project() {

@@ -2,12 +2,19 @@ import fs from 'node:fs';import path from 'node:path';import assert from 'node:a
 import {validateBassaRecordings} from './validate-bassa-recordings.mjs';
 const root=path.resolve(import.meta.dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));let lessons=0,activities=0,questions=0;const ids=new Set();
 const published=process.argv.includes('--public');
-function checkAudio(src, transcript, id) {
+function checkAudio(src, transcript, id, prefix = '../assets/') {
  if (src === undefined) return;
- assert.match(src, /^\.\.\/assets\/[\w.-]+\.mp3$/, 'Invalid lesson audio path '+id);
+ assert.ok(typeof src === 'string' && src.startsWith(prefix) && /^[\w.-]+\.mp3$/.test(src.slice(prefix.length)), 'Invalid lesson audio path '+id);
  assert.ok(typeof transcript === 'string' && transcript.trim(), 'Missing lesson audio transcript '+id);
  const file = fs.statSync(path.join(root, 'assets', path.basename(src)), { throwIfNoEntry: false });
  assert.ok(file?.isFile() && file.size > 0, 'Missing or empty lesson audio '+id);
+}
+function nurseryAudio(a) {
+ for (const lang of ['fr','en']) {
+  const src = a['audio_'+lang];
+  if (src !== undefined) assert.notEqual(a.type,'bassa','Synthetic audio is reserved for FR/EN');
+  checkAudio(src,a['story_'+lang] || a['prompt_'+lang],a.id);
+ }
 }
 function learningExtras(l){
  assert.ok(!ids.has(l.id),'Duplicate lesson '+l.id);ids.add(l.id);
@@ -29,9 +36,9 @@ function learningExtras(l){
 function editorial(x){assert.ok(['draft','in_review','validated','published','withdrawn'].includes(x.editorial?.status),'Editorial status required');if(published){assert.equal(x.editorial.status,'published','Public release blocked: pedagogical validation pending');assert.ok(x.editorial.reviewer&&x.editorial.validated_at,'Named review and date required');}}
 for(let i=1;i<=8;i++){
  const c=read(`data/content-u${i}.json`),q=read(`data/qcm-u${i}.json`);
- for(const s of c.subjects){assert.equal(s.assessment.items.reduce((n,e)=>n+e.points,0),s.assessment.total);for(const l of s.lessons){lessons++;assert.ok(!ids.has(l.id));ids.add(l.id);assert.ok(l.source&&l.objectives.length&&l.learn.length);editorial(l);for(const e of l.exercises){assert.ok(e.id&&e.prompt);assert.ok(['open','mcq','number'].includes(e.type));if(e.type==='mcq'){assert.ok(Number.isInteger(e.correct_choice));assert.equal(e.answer,e.choices[e.correct_choice]);}if(e.type==='number')assert.ok(Number.isFinite(e.answer));}if(l.figure)assert.ok(fs.existsSync(path.join(root,l.figure.src)));}}
+ for(const s of c.subjects){assert.equal(s.assessment.items.reduce((n,e)=>n+e.points,0),s.assessment.total);for(const l of s.lessons){lessons++;assert.ok(!ids.has(l.id));ids.add(l.id);assert.ok(l.source&&l.objectives.length&&l.learn.length);editorial(l);for(const e of l.exercises){assert.ok(e.id&&e.prompt);assert.ok(['open','mcq','number'].includes(e.type));if(e.audio!==undefined){assert.equal(e.type,'open');assert.ok(['FR','EN'].includes(s.id));checkAudio(e.audio,e.prompt,e.id,'./assets/');}if(e.type==='mcq'){assert.ok(Number.isInteger(e.correct_choice));assert.equal(e.answer,e.choices[e.correct_choice]);}if(e.type==='number')assert.ok(Number.isFinite(e.answer));}if(l.figure)assert.ok(fs.existsSync(path.join(root,l.figure.src)));}}
  for(const e of q.epreuves)for(const x of e.questions){questions++;assert.ok(x.id&&x.choix.length>=2&&new Set(x.choix).size===x.choix.length,x.id);assert.ok(Number.isInteger(x.bonne)&&x.bonne>=0&&x.bonne<x.choix.length);if(published)assert.equal(x.editorial_status,'published');}
- const t=read(`ms/data/themes/T${i}.json`),seen=new Set();for(const d of t.domains)for(const a of d.activities){activities++;assert.ok(!seen.has(a.id));seen.add(a.id);editorial(a);assert.ok(a.title_fr&&a.title_en&&a.goal_fr&&a.goal_en);if(a.figure)assert.ok(fs.existsSync(path.join(root,'ms',a.figure.src)));}
+ const t=read(`ms/data/themes/T${i}.json`),seen=new Set();for(const d of t.domains)for(const a of d.activities){activities++;assert.ok(!seen.has(a.id));seen.add(a.id);editorial(a);nurseryAudio(a);assert.ok(a.title_fr&&a.title_en&&a.goal_fr&&a.goal_en);if(a.figure)assert.ok(fs.existsSync(path.join(root,'ms',a.figure.src)));}
 }
 const sil=read('sil/data/curriculum.json');assert.equal(sil.grade,'SIL');assert.equal(sil.units.length,8);assert.equal(sil.releaseStatus,'in_review');
 for(const ref of sil.units){const u=read(`sil/data/${ref.path}`);assert.ok(u.title_fr&&u.title_en&&u.subcentres.length===3);for(const l of u.lessons){lessons++;learningExtras(l);assert.ok(l.id&&l.domain&&l.objective&&l.course&&l.model&&l.guided&&l.exercise&&l.answer&&l.remediation&&l.transfer&&l.materials,`Incomplete SIL lesson ${l.id}`);assert.ok(l.source?.title&&l.source?.url);if(l.domain==='English')assert.ok(l.course.includes('Class 1 English literacy progression'),`Incomplete English SIL track ${l.id}`);editorial(l);}}
@@ -53,7 +60,7 @@ for (const ref of ce1Catalog.units) {
 }
 assert.equal(ce1Lessons, 89);
 const gs=read('gs/data/catalog-v13.json');assert.equal(gs.themes.length,8);let gsActivities=0;
-for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);assert.equal(t.grade,'GS');assert.equal(t.domains.length,5);for(const d of t.domains)for(const a of d.activities){gsActivities++;assert.ok(!ids.has(a.id),'Duplicate GS activity');ids.add(a.id);editorial(a);for(const f of ['title_fr','title_en','goal_fr','goal_en','prompt_fr','prompt_en'])assert.ok(a[f],a.id+' '+f);assert.ok(a.steps_fr.length>=3&&a.steps_en.length>=3);assert.ok(a.questions.every(q=>q.fr&&q.en&&q.answer));assert.ok(a.source_refs.length===2);assert.ok(a.materials.length&&a.observe.length);}}assert.equal(gsActivities,162);
+for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);assert.equal(t.grade,'GS');assert.equal(t.domains.length,5);for(const d of t.domains)for(const a of d.activities){gsActivities++;assert.ok(!ids.has(a.id),'Duplicate GS activity');ids.add(a.id);editorial(a);nurseryAudio(a);for(const f of ['title_fr','title_en','goal_fr','goal_en','prompt_fr','prompt_en'])assert.ok(a[f],a.id+' '+f);assert.ok(a.steps_fr.length>=3&&a.steps_en.length>=3);assert.ok(a.questions.every(q=>q.fr&&q.en&&q.answer));assert.ok(a.source_refs.length===2);assert.ok(a.materials.length&&a.observe.length);}}assert.equal(gsActivities,162);
 const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.json');
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}

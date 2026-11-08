@@ -3,6 +3,7 @@ function activityCard(a,i){
  let main='';
  if(a.prompt_fr||a.prompt_en)main+=`<div class="bilingual">${a.prompt_fr?`<div class="lang"><b>🇫🇷 Français</b>${esc(a.prompt_fr)}</div>`:''}${a.prompt_en?`<div class="lang" lang="en"><b>🇬🇧 English</b>${esc(a.prompt_en)}</div>`:''}</div>`;
  if(a.story_fr||a.story_en)main+=`<div class="bilingual">${a.story_fr?`<div class="lang"><b>📖 Histoire</b>${esc(a.story_fr)}</div>`:''}${a.story_en?`<div class="lang" lang="en"><b>📖 Story</b>${esc(a.story_en)}</div>`:''}</div>`;
+ if(a.type!=='bassa')main+=Klassia.speech.clip(a.audio_fr,'fr-FR')+Klassia.speech.clip(a.audio_en,'en-GB');
  if(a.figure)main+=`<img class="lesson-figure" src="${esc(a.figure.src)}" alt="${esc(a.figure.alt)}">`;
  if(a.interactive)main+=`<div class="lang"><label for="msNumber"><b>${esc(a.interactive.prompt_fr)}</b> <span lang="en">${esc(a.interactive.prompt_en)}</span></label><input id="msNumber" inputmode="numeric"><button class="classBtn" id="msCheckNumber">Vérifier / Check</button><p id="msNumberResult" role="status"></p></div>`;
  if(a.source_refs)main+=`<details class="adult-guide"><summary>Repères du curriculum</summary><p>${esc(a.source_refs.join(' · '))}</p><p>Activité originale Klassia; correspondance proposée à relire.</p></details>`;

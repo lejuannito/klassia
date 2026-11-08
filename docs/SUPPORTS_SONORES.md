@@ -1,19 +1,25 @@
 # Extraits sonores du pilote Klassia
 
-Six clips de synthèse créés à partir des textes de Klassia sont intégrés à l’édition pilote. Le lecteur de la fiche peut les rejouer après le téléchargement de l’édition, y compris en mode avion. La commande générale « Écouter » utilise la voix de l’appareil. [Protocole d’essai](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
+Douze extraits de synthèse accompagnent des activités des cinq classes. Ouvrir le lecteur **Extrait Klassia hors connexion** après le téléchargement de l’édition. Il joue le même fichier sur chaque appareil. La commande **Voix de cet appareil** permet d’écouter d’autres textes. Ouvrir **Choisir et essayer une voix** pour sélectionner et préécouter une voix disponible en français ou en anglais. Le choix reste sur l’appareil. Les voix signalées comme dépendantes du réseau peuvent être indisponibles en mode avion. [Protocole d’essai](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
 
-| Leçon | Extrait et usage | Voix de synthèse |
+| Leçon | Extrait et usage | Voix |
 |---|---|---|
-| `SIL-U4-L01` | « Lou a mal. » à écouter après un premier essai de lecture. [MP3](../assets/sil-u4-l01-lou-a-mal.mp3) | `fr-fr`, français |
-| `SIL-U4-L11` | Consigne de reproduction d’une figure sur quadrillage. [MP3](../assets/sil-u4-l11-modeles-quadrillage.mp3) | `fr-fr`, français |
-| `SIL-U5-L02` | Destination et moyen de transport à repérer à l’écoute. [MP3](../assets/sil-u5-l02-school-by-bus.mp3) | `en-gb`, anglais britannique |
-| `CE1-U1-L01` | Passage de « L’album sous la table » à écouter pour retrouver un indice et un lieu. [MP3](../assets/ce1-u1-l01-marque-page.mp3) | `fr-fr`, français |
-| `CE1-U5-L03` | Départ et premier arrêt à retrouver dans un itinéraire oral. [MP3](../assets/ce1-u5-l03-from-library.mp3) | `en-gb`, anglais britannique |
-| `CE1-U8-L03` | Deuxième message de l’entraînement, sur le club de musique. Le texte reste dans le volet adulte. [MP3](../assets/ce1-u8-l03-music-club.mp3) | `en-gb`, anglais britannique |
+| `MS-T1-LC2` | Modèle « Je m’appelle Amina » et équivalent anglais. [FR](../assets/ms-t1-je-me-presente-fr.mp3) · [EN](../assets/ms-t1-je-me-presente-en.mp3) | Français et anglais britannique |
+| `GS-T1-LC1` | Le récit du cahier retrouvé. Faire retrouver l’ordre des trois cartes après l’écoute. [FR](../assets/gs-t1-cahier-retrouve-fr.mp3) · [EN](../assets/gs-t1-cahier-retrouve-en.mp3) | Français et anglais britannique |
+| `SIL-U4-L01` | « Lou a mal. » à écouter après un premier essai de lecture. [MP3](../assets/sil-u4-l01-lou-a-mal.mp3) | Français |
+| `SIL-U4-L11` | Consigne de reproduction d’une figure sur quadrillage. [MP3](../assets/sil-u4-l11-modeles-quadrillage.mp3) | Français |
+| `SIL-U5-L02` | Destination et moyen de transport à repérer à l’écoute. [MP3](../assets/sil-u5-l02-school-by-bus.mp3) | Anglais britannique |
+| `CE1-U1-L01` | Passage de « L’album sous la table » à écouter pour retrouver un indice et un lieu. [MP3](../assets/ce1-u1-l01-marque-page.mp3) | Français |
+| `CE1-U5-L03` | Départ et premier arrêt à retrouver dans un itinéraire oral. [MP3](../assets/ce1-u5-l03-from-library.mp3) | Anglais britannique |
+| `CE1-U8-L03` | Deuxième message de l’entraînement, sur le club de musique. Le texte est dans le volet adulte. [MP3](../assets/ce1-u8-l03-music-club.mp3) | Anglais britannique |
+| `FR-U7-L2-E2` · CE2 | Consigne pour écrire une notice en trois étapes. [MP3](../assets/ce2-u7-notice-cartes-fr.mp3) | Français |
+| `EN-U7-L2-E2` · CE2 | Question sur l’action à effectuer si le ballon tombe. [MP3](../assets/ce2-u7-passing-game-en.mp3) | Anglais britannique |
 
-Les textes ont été générés à 142 mots par minute avec eSpeak NG (distribution JavaScript 1.0.2), puis normalisés et encodés en MP3 mono à 24 kHz et 48 kbit/s. Les six clips totalisent environ 212 ko. Le service worker les inclut dans la vérification d’intégrité de l’édition et sert les plages d’octets demandées par le lecteur. [eSpeak NG](https://github.com/espeak-ng/espeak-ng) · [Distribution utilisée](https://www.npmjs.com/package/espeak-ng/v/1.0.2) · [Lecture de médias en cache](https://developer.chrome.com/docs/workbox/serving-cached-audio-and-video)
+Les extraits ont été générés à partir des textes de Klassia avec Piper 1.4.2, un facteur de durée de 1,10 et une normalisation ciblant −17 LUFS, puis encodés en MP3 mono à 24 kHz et 40 kbit/s. Ils représentent environ 365 ko. Le moteur et les modèles ont servi à la préparation des fichiers. Les MP3 sont vérifiés et téléchargés avec l’édition. [Piper](https://github.com/OHF-Voice/piper1-gpl)
 
-Faire écouter les six extraits lors de la vérification finale sur téléphone. Noter les mots difficiles à comprendre et le nombre d’écoutes nécessaires pour retrouver l’information.
+La voix française utilise le modèle `fr_FR-siwis-medium`. Le corpus de Yamagishi, Honnet, Garner et Lazaridis est attribué à l’Université d’Édimbourg et diffusé sous CC BY 4.0. La voix anglaise utilise le modèle `en_GB-cori-medium` de Bryce Beattie, entraîné sur des enregistrements LibriVox indiqués comme relevant du domaine public dans la fiche du modèle. Klassia a utilisé ces modèles pour synthétiser ses propres textes. [Corpus SIWIS](https://doi.org/10.7488/ds/1705) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Modèle SIWIS](https://huggingface.co/rhasspy/piper-voices/blob/e7229f7d33a10e145e109b886d661984201ac3c4/fr/fr_FR/siwis/medium/MODEL_CARD) · [Modèle Cori](https://huggingface.co/rhasspy/piper-voices/blob/e7229f7d33a10e145e109b886d661984201ac3c4/en/en_GB/cori/medium/MODEL_CARD)
+
+Pendant le pilote, faire écouter les extraits sur les appareils retenus. Noter les mots mal compris, la vitesse perçue et le nombre d’écoutes nécessaires. Le référent bassa examine séparément les prises des locuteurs.
 
 ## Préparer les prises bassa
 

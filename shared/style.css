@@ -38,3 +38,11 @@
 [data-attempt-form] + .correction-toggle { margin-top: 6px; }
 .nursery-question + .nursery-question { margin-top: 10px; }
 @media print { .answer-reveal, .adult-guide { display: none !important; } }
+
+.speech-source { font-size: .92rem; font-weight: 700; margin: 0 0 4px; }
+.speech-picker { flex-basis: 100%; max-width: 100%; }
+.speech-picker label { display: block; margin: 8px 0; }
+.speech-picker select { box-sizing: border-box; display: block; max-width: 100%; padding: 6px; font: inherit; }
+.speech-picker summary { cursor: pointer; }
+.speech-availability { margin: 6px 0 0; }
+.speech-availability:empty { display: none; }

@@ -212,6 +212,8 @@ async function testPilotNotebook(page, base) {
   await field(phone, 'edition').fill('TEST-01');
   await field(phone, 'device').fill('Appareil simulé');
   await field(phone, 'micro').selectOption('reussi');
+  await field(phone, 'impression').selectOption('a-reprendre');
+  await field(phone, 'corriges').selectOption('reussi');
   await field(phone, 'extraits').selectOption('a-reprendre');
   await phone.getByRole('button', { name: 'Conserver l’essai téléphone' }).click();
   await page.getByText(/1 essai\(s\) téléphone · 1 relevé\(s\) technique/).waitFor();
@@ -223,6 +225,8 @@ async function testPilotNotebook(page, base) {
   assert.equal(payload.format, 'klassia-pilot');
   assert.equal(payload.records.length, 3);
   assert.equal(payload.records.find(record => record.kind === 'appareil').results.voix, 'non-essaye');
+  assert.equal(payload.records.find(record => record.kind === 'appareil').results.impression, 'a-reprendre');
+  assert.equal(payload.records.find(record => record.kind === 'appareil').results.corriges, 'reussi');
   assert.ok(payload.records.some(record => record.suggestion === 'Essayer avec un départ à 4 cm.'));
   await page.locator('#pilotImport').setInputFiles({ name: 'releves.json', mimeType: 'application/json', buffer: bytes });
   await page.getByText(/0 relevé\(s\) ajouté\(s\)/).waitFor();
@@ -403,6 +407,12 @@ async function run() {
     console.log('PASS Bassa recording gate in all five classes, offline media playback and stop on CE2 navigation');
 
     for (const [lessonRoute, file, hasTranscript] of [
+      ['ms/?theme=T1#domain:LC:1', 'ms-t1-je-me-presente-fr.mp3'],
+      ['ms/?theme=T1#domain:LC:1', 'ms-t1-je-me-presente-en.mp3'],
+      ['gs/?theme=T1#domain:LC:0', 'gs-t1-cahier-retrouve-fr.mp3'],
+      ['gs/?theme=T1#domain:LC:0', 'gs-t1-cahier-retrouve-en.mp3'],
+      ['?unit=U7#lesson:FR-U7-L2', 'ce2-u7-notice-cartes-fr.mp3'],
+      ['?unit=U7#lesson:EN-U7-L2', 'ce2-u7-passing-game-en.mp3'],
       ['sil/#lesson:SIL-U4-L01', 'sil-u4-l01-lou-a-mal.mp3'],
       ['sil/#lesson:SIL-U4-L11', 'sil-u4-l11-modeles-quadrillage.mp3'],
       ['sil/#lesson:SIL-U5-L02', 'sil-u5-l02-school-by-bus.mp3', true],
@@ -411,7 +421,7 @@ async function run() {
       ['ce1/#lesson:CE1-U8-L03', 'ce1-u8-l03-music-club.mp3', true]
     ]) {
       await page.goto(base + lessonRoute);
-      const audio = page.locator('.lesson-audio audio');
+      const audio = page.locator('.lesson-audio audio[src$="'+file+'"]');
       const bytes = fs.readFileSync(path.join(root, 'assets', file));
       const partial = await audio.evaluate(async element => {
         const response = await fetch(element.src, { headers: { Range: 'bytes=0-1' } });
@@ -423,18 +433,24 @@ async function run() {
       });
       assert.deepEqual(partial, { status: 206, range: `bytes 0-1/${bytes.length}`, bytes: Array.from(bytes.subarray(0, 2)) });
 
-      await audio.evaluate(element => element.play());
-      await page.waitForFunction(() => document.querySelector('.lesson-audio audio')?.currentTime > 0.1);
+      const playing = await audio.elementHandle();
+      await playing.evaluate(element => element.play());
+      await page.waitForFunction(element => element.currentTime > 0.1, playing);
       if (hasTranscript) {
         assert.equal(await page.locator('.practice-item .adult-guide').count(), 0);
       }
-      const playing = await audio.elementHandle();
       await page.evaluate(() => { location.hash = '#units'; });
       await audio.waitFor({ state: 'detached' });
       assert.equal(await playing.evaluate(element => element.paused), true);
       await playing.dispose();
     }
-    console.log('PASS six offline French and English clips, byte ranges, hidden transcripts and stop on navigation');
+    await page.goto(base + 'gs/?theme=T1#domain:LC:0');
+    const firstClip = await page.locator('.lesson-audio audio').first().elementHandle();
+    await firstClip.evaluate(audio => audio.play());
+    await page.locator('.lesson-audio audio').last().evaluate(audio => audio.play());
+    await page.waitForFunction(audio => audio.paused, firstClip);
+    await firstClip.dispose();
+    console.log('PASS twelve offline French and English clips, byte ranges, hidden transcripts and exclusive playback');
 
     await page.setViewportSize({ width: 320, height: 844 });
     await page.goto(base + '?unit=U1#subject:BA');

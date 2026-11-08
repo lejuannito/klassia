@@ -1,14 +1,14 @@
 # Klassia — prochain travail
 
-_Mise à jour le 7 novembre 2026_
+_Mise à jour le 8 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
-## Correctif audio — intégré, validation terrain à effectuer
+## Lots techniques à essayer sur appareils réels
 
-Le correctif du moteur de lecture française est **présent sur `main`** (commit `9aee6d0`). Une voix française explicite reste prioritaire ; si `getVoices()` est vide ou incomplet, une tentative de synthèse avec `lang="fr-FR"` est autorisée sans affecter de voix anglaise. Tests automatisés annoncés comme réussis.
-
-**Reste à vérifier sur smartphone réel** : prononciation effectivement française, démarrage, arrêt, changement de page et disponibilité hors connexion. Si échec, noter navigateur/appareil/message affiché et ouvrir une tâche de diagnostic ciblée plutôt que reprendre toute l'architecture.
+- Ouvrir une fiche A4 depuis l’icône et essayer l’impression ou l’export PDF. En cas de difficulté, essayer la même fiche dans Chrome ou Safari. [Impression](https://github.com/lejuannito/klassia/issues/35)
+- Vérifier dans les cinq classes que le corrigé s’ouvre après une tentative, puis vérifier l’accès direct dans un espace adulte. [Corrigés](https://github.com/lejuannito/klassia/issues/36)
+- Comparer les extraits fixes et les voix de l’appareil sur la tablette qui a posé problème, sur Android et sur iPhone. Relever la compréhension et les mots mal prononcés. [Voix FR/EN](https://github.com/lejuannito/klassia/issues/37) · [Carnet du pilote](GUIDE_PILOTE.md)
 
 ## Recherche et mises à jour hors connexion
 
@@ -16,7 +16,7 @@ La recherche des 844 ressources a été fusionnée le 4 novembre 2026. Le guide 
 
 Le lot du 6 novembre protège le cache installé lors d’un échec, indique le résultat de la vérification et demande de fermer les autres onglets Klassia avant le rechargement. Après fusion, vérifier sur téléphone le passage à la nouvelle édition, la reprise de la leçon et l’accès en mode avion. Pour ce premier passage depuis l’ancienne interface, fermer les autres onglets Klassia avant de cliquer sur « Recharger avec la nouvelle édition ».
 
-Le correctif de navigation Cloudflare traite le `ERR_FAILED` reproduit dans Chromium après l’activation du service worker. La vérification sur Chrome Android après déploiement reste suivie dans le ticket. [Procédure de vérification](DEPLOIEMENT_CLOUDFLARE.md#rechargement-dans-chrome-après-installation) · [Ticket Chrome](https://github.com/lejuannito/klassia/issues/34)
+Le correctif de navigation Cloudflare traite le `ERR_FAILED` reproduit dans Chromium après l’activation du service worker. L’affichage dans Chrome a été signalé comme rétabli. Le parcours complet depuis l’icône reste à relever sur les appareils du pilote. [Procédure de vérification](DEPLOIEMENT_CLOUDFLARE.md#rechargement-dans-chrome-après-installation) · [Ticket Chrome](https://github.com/lejuannito/klassia/issues/34)
 
 ## Lot éditorial / documentaire
 
@@ -73,8 +73,6 @@ Le relevé examine 55 repères dans les cinq classes. Après les longueurs, le l
 3. Importer les relevés des familles et des enseignants, traiter les exercices signalés et faire un nouvel essai. Utiliser les variantes proposées pour le prochain lot des cinq classes. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
 
 Poursuivre la couverture des cinq classes par lots reliés à des attendus vérifiables et à des tâches observables. Préparer l’intégration progressive du CP après cette consolidation, puis celle des autres classes selon la feuille de route.
-
-Les retours techniques du pilote suivent quatre tickets. Le diagnostic de l’accès dans Chrome est prioritaire. Les lots suivants couvrent l’impression depuis l’application installée, l’ouverture des corrigés après un premier essai et la qualité des voix FR/EN. [Chrome](https://github.com/lejuannito/klassia/issues/34) · [Impression](https://github.com/lejuannito/klassia/issues/35) · [Corrigés](https://github.com/lejuannito/klassia/issues/36) · [Audio](https://github.com/lejuannito/klassia/issues/37)
 
 ## Règle pour chaque nouvelle session
 

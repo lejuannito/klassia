@@ -44,5 +44,12 @@ test('pilot device reports require an observed outcome and preserve untried chec
   const report = normalizeRecord({ ...base, results: { ...results, micro: 'a-reprendre' } });
   assert.equal(report.results.micro, 'a-reprendre');
   assert.equal(report.results.voix, 'non-essaye');
+  assert.equal(report.results.impression, 'non-essaye');
+  assert.equal(report.results.corriges, 'non-essaye');
+  const legacy = { ...report, results: { ...results, micro: 'a-reprendre' } };
+  assert.deepEqual(additions([legacy], [report]), []);
+  const withPrint = normalizeRecord({ ...base, results: { ...results, impression: 'reussi', corriges: 'a-reprendre' } });
+  assert.equal(withPrint.results.impression, 'reussi');
+  assert.equal(withPrint.results.corriges, 'a-reprendre');
   assert.deepEqual(summarize([report]), []);
 });

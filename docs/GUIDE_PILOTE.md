@@ -1,10 +1,10 @@
 # Guide du pilote pour les parents et enseignants
 
-Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du pilote**. Les séances sur les longueurs et sur la lecture et l’écriture donnent une activité à essayer, un geste à observer et une piste pour proposer une variante. Exporter les relevés en JSON pour les transmettre, puis importer les fichiers reçus dans un même carnet. La synthèse regroupe les observations pédagogiques par exercice et compare les essais téléphone par plateforme. [Ouvrir le carnet](https://lejuannito.github.io/klassia/pilote.html)
+Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du pilote**. Les quinze séances sur les longueurs, la lecture et l’écriture et le calcul pratique donnent une activité à essayer, un geste à observer et une piste pour proposer une variante. Exporter les relevés en JSON pour les transmettre, puis importer les fichiers reçus dans un même carnet. La synthèse regroupe les observations pédagogiques par exercice et compare les essais téléphone par plateforme. [Ouvrir le carnet](https://lejuannito.github.io/klassia/pilote.html)
 
 1. Créez un profil par enfant avec un prénom ou pseudonyme. Choisissez le bon profil avant chaque séance.
 2. Attendez la confirmation de téléchargement avant de travailler sans réseau. Sur un nouvel appareil, importez la sauvegarde de l’enfant dans le profil choisi.
-3. Dans l’espace Enfant, l’élève valide une réponse saisie ou indique qu’il a répondu à l’oral ou sur papier, puis ouvre la correction. En MS et GS, l’adulte confirme l’essai oral ou la manipulation. Les espaces adultes donnent accès directement aux guides. En CE2, les réponses ouvertes restent à comparer et les notes d’évaluation sont saisies après une correction accompagnée.
+3. Dans l’espace Enfant, l’élève valide une réponse saisie ou indique qu’il a répondu à l’oral, sur papier ou au doigt, puis ouvre la correction. En MS et GS, l’adulte confirme l’essai oral ou la manipulation. Les espaces adultes donnent accès directement aux guides. En CE2, les réponses ouvertes restent à comparer et les notes d’évaluation sont saisies après une correction accompagnée.
 4. En MS, préparez le matériel, montrez le geste et utilisez une activité à la fois. Alternez avec la manipulation et les jeux sans écran. Ne transformez pas la séance en examen.
 5. Dans « Observation de l’adulte », notez un fait concret, la langue utilisée et l’aide donnée. Évitez les données sensibles ; une observation simple suffit : « suit deux consignes après répétition ».
 6. Douze extraits de synthèse sont intégrés aux fiches des cinq classes. Ils s’écoutent après le téléchargement de l’édition. Pour la lecture par l’appareil, ouvrir **Choisir et essayer une voix** et écouter un exemple en français ou en anglais. [Repères sur les voix](SUPPORTS_SONORES.md)
@@ -21,6 +21,12 @@ Faire lire 1 684, utiliser le tableau de numération, demander la valeur du chif
 
 Préparer un gros crayon ou un objet familier. Faire montrer l’objet et dire « un », puis demander d’apporter un seul objet. Vérifier sur le dessin à un crayon de T1. Pour reprendre le dénombrement jusqu’à cinq, utiliser l’activité de T8 avec deux dispositions de la même collection.
 
+## Tracer avec le doigt ou le stylet
+
+En MS et GS, ouvrir un thème, puis **Ouvrir le cahier**. Choisir une fiche de coloriage, de lettres, de chiffres ou de graphisme. Les séances de calcul pratique proposent aussi un espace libre pour dessiner des objets. En SIL et CE1, le tracé est disponible dans la tâche ouverte principale. En CE2, il apparaît dans les exercices à réponse ouverte.
+
+Appuyer sur **Écrire ou dessiner au doigt**, choisir la couleur et la largeur du trait, puis tracer. Utiliser **Annuler le dernier trait** ou **Tout effacer** pour recommencer. **Terminer le tracé** rend le défilement à la surface. Les tracés se retrouvent en rouvrant la fiche avec le même profil, sur la même adresse et le même appareil, y compris hors connexion. L’export des progrès porte sur la progression. Le tracé sert à montrer sa démarche et à la comparer au corrigé avec un adulte.
+
 ## Essai sur Android et iPhone
 
 Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de test et relever la date, le modèle, la version du système et du navigateur, l’adresse utilisée et l’édition affichée. Garder la même adresse du téléchargement à l’essai hors connexion. Réaliser les étapes sur chaque appareil. Si l’ouverture échoue, noter l’adresse, le message et le mode utilisé (onglet du navigateur ou icône installée). [Klassia](https://lejuannito.github.io/klassia/) · [Installation Android](https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid&hl=fr) · [Installation iPhone](https://support.apple.com/fr-fr/guide/iphone/iphea86e5236/ios)
@@ -36,6 +42,7 @@ Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de t
 | 7. Enregistrer une prise d’essai | Dans **Carnet du pilote › Prises bassa**, ouvrir l’atelier. Passer en espace Enseignant, autoriser le micro, enregistrer une forme et la réécouter. Conserver la prise, puis ouvrir **Vérifier la prononciation** avec le référent. Fermer puis rouvrir Klassia en mode avion. | La prise et son avis local sont disponibles dans le même profil. Le micro s’arrête à la fin de la prise ou en quittant l’atelier. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia) |
 | 8. Imprimer ou exporter en PDF | Depuis l’icône installée, ouvrir une fiche élève dans chaque classe et attendre « Fiche prête ». Essayer le PDF et, si nécessaire, le lien de repli dans le navigateur. Ouvrir aussi un guide adulte. | Fiche A4 lisible, images présentes, réponses dans le guide adulte. Si seul le repli fonctionne, marquer l’essai depuis l’icône « À reprendre » et décrire le repli. |
 | 9. Essayer avant la correction | En espace Enfant, vérifier une réponse vide, puis valider un essai écrit ou oral. En MS ou GS, faire confirmer une manipulation. Réessayer dans l’espace Parent. | Correction inaccessible au départ, accessible après tentative, accès direct pour l’adulte. |
+| 10. Tracer au doigt | Dans le cahier GS, choisir une couleur, tracer deux traits puis en annuler un. Refaire l’essai dans le coloriage SIL. En mode avion, fermer et rouvrir la fiche depuis l’icône. | Le trait restant se retrouve dans le même profil. Le défilement reprend après avoir choisi « Terminer le tracé ». |
 
 ### Relevé à transmettre
 
@@ -52,6 +59,7 @@ Dans **Synthèse › Essais Android et iPhone**, sélectionner la même édition
 | Choix et aperçu des voix de l’appareil en ligne et en mode avion | À renseigner | À renseigner | Distinguer voix de l’appareil et extrait intégré |
 | Corrigés après une tentative et accès adulte | À renseigner | À renseigner | Préciser la classe et le mode de réponse |
 | Fiche A4 / PDF depuis l’icône et lien de repli | À renseigner | À renseigner | Préciser l’impression et l’ouverture dans le navigateur |
+| Tracé au doigt, annulation et reprise en mode avion | À renseigner | À renseigner | Préciser la fiche et le mode d’ouverture |
 | Écran Bassa en portrait et en paysage | À renseigner | À renseigner | |
 | Prises Bassa dans `BA-U3-L1` en ligne et en mode avion | À renseigner | À renseigner | Noter « non essayé » si les prises sont encore en préparation |
 | Profil et progression après fermeture, puis après mise à jour | À renseigner | À renseigner | Indiquer si aucune mise à jour n’était disponible |

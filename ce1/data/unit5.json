@@ -143,7 +143,7 @@
       "materials": "Jetons, cartes de problèmes",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
-        "pages": "CE1 uniquement · tableau calcul · p. 78–79",
+        "pages": "Tableau 19, p. 79, CE1, U5",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
       },
       "editorial": {
@@ -165,6 +165,12 @@
           "prompt": "Peut-on partager 13 jetons entre 3 joueurs en donnant 4 à chacun sans reste ?",
           "answer": "Non, il reste 1 jeton.",
           "explanation": "3 × 4 = 12; 13 − 12 = 1."
+        },
+        {
+          "prompt": "Pour un voyage fictif, on répartit 36 cartes entre deux équipes. Chaque équipe doit recevoir le même nombre de cartes. Combien de cartes reçoit-elle ? Retrouve 36 en calculant le double de ta réponse.",
+          "answer": "Chaque équipe reçoit 18 cartes. Le double de 18 est 36.",
+          "explanation": "On partage 30 en deux groupes de 15, puis 6 en deux groupes de 3. Chaque équipe a 15 + 3 = 18 cartes. Contrôle : 18 + 18 = 36.",
+          "ink": "grille"
         }
       ]
     },

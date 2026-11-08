@@ -461,8 +461,8 @@
           "type": "math",
           "title_fr": "Je compte jusqu’à 10",
           "title_en": "Counting to 10",
-          "goal_fr": "Prends 7 jetons.",
-          "goal_en": "Take 7 counters.",
+          "goal_fr": "Réunir deux groupes d’objets puis compter le total, avec des collections jusqu’à 10.",
+          "goal_en": "Join two groups of objects, then count how many there are altogether, with up to 10 objects.",
           "prompt_fr": "Prends 7 jetons. Ajoute 3 jetons. Compte chaque jeton une seule fois. Pour 10, forme des groupes de dix quand c’est possible.",
           "prompt_en": "Take 7 counters. Add 3 counters. Count each once. Group ten together when possible.",
           "steps_fr": [
@@ -480,12 +480,18 @@
               "fr": "Combien de jetons as-tu maintenant ?",
               "en": "How many counters do you have now?",
               "answer": "10 jetons. / 10 counters."
+            },
+            {
+              "fr": "Combien de fruits y a-t-il maintenant ? Montre ce qui était déjà là et ce qui a été apporté.",
+              "en": "How many pieces of fruit are there now? Show what was already there and what was brought over.",
+              "answer": "Trois fruits. On réunit le premier et les deux autres. / Three pieces of fruit. Put the first one and the other two together."
             }
           ],
           "observe": [
             "Comprend la consigne et commence avec une aide adaptée.",
             "Répond ou montre sa démarche : 10 jetons.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Explique ou montre un choix sans recherche de vitesse.",
+            "Montre séparément les deux groupes et compte tous les fruits une seule fois."
           ],
           "materials": [
             "papier et crayons",
@@ -493,7 +499,7 @@
           ],
           "duration_minutes": 12,
           "source_refs": [
-            "FR : tableau 17, p. 63–71, deuxième année",
+            "FR : tableau 17, p. 65 et 67, deuxième année, thème 3. La collection jusqu’à 10 sert de prolongement.",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
           "editorial": {
@@ -517,7 +523,10 @@
             "items": [
               "● ● ● ● ● ● ● ● ● ● "
             ]
-          }
+          },
+          "ink": "libre",
+          "activity_fr": "Sur une table, il y a un fruit. On en apporte deux autres. Dessine le premier d’une couleur et les deux autres d’une autre couleur, ou représente-les avec des jetons.",
+          "activity_en": "There is one piece of fruit on a table. Two more are brought over. Draw the first in one colour and the other two in a different colour, or use counters."
         },
         {
           "id": "GS-T3-ST2",

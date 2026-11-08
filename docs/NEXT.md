@@ -68,13 +68,13 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 ## Consolidation
 
-Le relevé examine 55 repères dans les cinq classes. Après les longueurs, le lot lecture et écriture enrichit cinq ressources et ajoute cinq séances au carnet. La synthèse du carnet regroupe les observations par édition et par exercice. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Carnet du pilote](GUIDE_PILOTE.md)
+Le relevé examine 60 repères dans les cinq classes. Le calcul pratique complète cinq ressources après les longueurs et la lecture-écriture. Le carnet propose quinze séances et un contrôle du tracé sur téléphone. La navigation de classe est harmonisée. Le cahier de maternelle et les exercices ouverts du primaire permettent le tracé au doigt. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Carnet du pilote](GUIDE_PILOTE.md)
 
 1. Dans **Carnet du pilote › Prises bassa**, ouvrir l’atelier et choisir l’espace Enseignant. Enregistrer `BA002`, `BA004`, `BA005` et `BA006`, puis consigner l’avis du référent sous la prise. Recueillir l’accord de diffusion avant intégration des MP3. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia)
-2. Remplir le relevé du carnet sur Android et iPhone. Vérifier l’écran Bassa, le micro, l’écoute en mode avion et la reprise de la progression. Refaire l’écoute Bassa après intégration des prises. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
+2. Remplir le relevé du carnet sur Android et iPhone. Vérifier l’écran Bassa, le micro, l’écoute en mode avion, le tracé tactile et la reprise de la progression. Refaire l’écoute Bassa après intégration des prises. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
 3. Importer les relevés des familles et des enseignants, traiter les exercices signalés et faire un nouvel essai. Utiliser les variantes proposées pour le prochain lot des cinq classes. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
 
-Poursuivre la couverture des cinq classes par lots reliés à des attendus vérifiables et à des tâches observables. Préparer l’intégration progressive du CP après cette consolidation, puis celle des autres classes selon la feuille de route.
+Poursuivre avec les arts et la motricité dans les cinq classes, en reliant les tâches à des attendus vérifiables et à des gestes observables. Préparer l’intégration progressive du CP après cette consolidation, puis celle des autres classes selon la feuille de route.
 
 ## Règle pour chaque nouvelle session
 

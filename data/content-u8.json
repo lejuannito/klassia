@@ -1144,6 +1144,14 @@
               "prompt": "Explique à un camarade comment vérifier ta réponse à l’exercice précédent.",
               "answer": "10 000 − 6 500 = 3 500. Par exemple 2 000 F + 1 000 F + 500 F.",
               "explanation": "Une vérification doit porter sur les données et les opérations de cet exercice."
+            },
+            {
+              "id": "MA-U8-L4-E3",
+              "type": "open",
+              "prompt": "Tu achètes trois cahiers à 650 F chacun et deux crayons à 275 F chacun. Tu donnes 3 000 F. Calcule le total et la monnaie à recevoir. Avec la même somme, peux-tu aussi acheter une gomme à 600 F ?",
+              "answer": "Le total est de 2 500 F et tu reçois 500 F. Il manque 100 F pour acheter aussi la gomme.",
+              "explanation": "Cahiers : 3 × 650 = 1 950 F. Crayons : 2 × 275 = 550 F. Total : 1 950 + 550 = 2 500 F. On vérifie que 2 500 + 500 = 3 000 F. La gomme coûterait 600 F et il reste 500 F.",
+              "ink": "grille"
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, U8, p.87.",
@@ -1162,6 +1170,15 @@
                 "Je précise ce que je cherche.",
                 "J’explique mes étapes et mes unités.",
                 "Je contrôle le résultat avec une autre méthode ou le matériel."
+              ]
+            },
+            {
+              "title": "Préparer un achat et vérifier la monnaie",
+              "kind": "method",
+              "items": [
+                "Pour chaque article, multiplie le prix d’un article par la quantité.",
+                "Additionne les montants, puis compare le total à l’argent disponible.",
+                "Si l’argent suffit, calcule la monnaie. Vérifie que le total et la monnaie reconstituent la somme donnée."
               ]
             }
           ],

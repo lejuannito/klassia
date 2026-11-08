@@ -52,3 +52,16 @@
 .klassia-learning-mode a[aria-current=page] { color: #fff; background: #3157d5; border-color: #3157d5; }
 .klassia-global-nav [data-klassia-back] { overflow-wrap: anywhere; }
 .klassia-unit-link { text-decoration: none; color: inherit; }
+
+.ink-editor { margin: .75rem 0; }
+.ink-tools { display: flex; align-items: end; flex-wrap: wrap; gap: .45rem; margin-top: .5rem; }
+.ink-tools label { display: grid; gap: .25rem; font-weight: 700; }
+.ink-editor :is(button,select) { box-sizing: border-box; min-height: 44px; padding: .45rem .65rem; font: inherit; border: 1px solid #9fb1ce; border-radius: .55rem; background: #fff; color: #213c6d; }
+.ink-editor button:disabled { opacity: .55; }
+.ink-editor [hidden], .ink-status:empty { display: none; }
+.ink-status { margin: .35rem 0; font-size: .9rem; }
+.ink-pad { display: block; box-sizing: border-box; width: 100%; height: auto; min-height: 110px; margin-top: .5rem; border: 1px solid #bfcde2; border-radius: .5rem; background: #fff; }
+.ink-active .ink-surfaces svg { touch-action: none; cursor: crosshair; user-select: none; }
+@media print {
+ .ink-tools, .ink-toggle, .ink-status { display: none !important; }
+}

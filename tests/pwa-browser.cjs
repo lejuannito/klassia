@@ -238,6 +238,7 @@ async function testPilotNotebook(page, base) {
   await field(phone, 'micro').selectOption('reussi');
   await field(phone, 'impression').selectOption('a-reprendre');
   await field(phone, 'corriges').selectOption('reussi');
+  await field(phone, 'tactile').selectOption('reussi');
   await field(phone, 'extraits').selectOption('a-reprendre');
   await phone.getByRole('button', { name: 'Conserver l’essai téléphone' }).click();
   await page.getByText(/1 essai\(s\) téléphone · 1 relevé\(s\) technique/).waitFor();
@@ -257,6 +258,7 @@ async function testPilotNotebook(page, base) {
   assert.equal(phoneReport.results.impression, 'a-reprendre');
   assert.equal(phoneReport.results.corriges, 'reussi');
   assert.equal(phoneReport.results.prises_bassa, 'non-essaye');
+  assert.equal(phoneReport.results.tactile, 'reussi');
   assert.ok(payload.records.some(record => record.suggestion === 'Essayer avec un départ à 4 cm.'));
   await page.locator('#pilotImport').setInputFiles({ name: 'releves.json', mimeType: 'application/json', buffer: bytes });
   await page.getByText(/0 relevé\(s\) ajouté\(s\)/).waitFor();
@@ -316,6 +318,101 @@ async function testReadingWorkshops(page, base) {
   assert.equal(await page.locator('#pilotObservation [name="lesson"]').inputValue(), 'FR-U7-L2');
   assert.equal(await page.locator('#pilotObservation [name="exercise"]').inputValue(), 'FR-U7-L2-E4');
   console.log('PASS offline reading and writing workshops, five routes, corrections and prefilled pilot feedback');
+}
+
+async function testInkAndCalcul(context, page, base) {
+  const notebook = base + 'pilote.html#calcul';
+  const coloring = base + 'sil/#lesson:SIL-U1-L07';
+  await page.goto(coloring);
+  const originalProfile = await page.evaluate(() => {
+    Klassia.write('klassia_user', { role: 'ELEVE' });
+    return Klassia.profile().id;
+  });
+  await page.reload();
+  const editor = page.locator('[data-ink-key="SIL:SIL-U1-L07"]');
+  const status = editor.locator('[data-ink-status]');
+  const board = editor.getByRole('img', { name: /Maison à colorier/ });
+  const stroke = board.locator('[data-ink-stroke]');
+  const cdp = await context.newCDPSession(page);
+  await cdp.send('Emulation.setTouchEmulationEnabled', { enabled: true });
+  async function touchStroke(surface) {
+    await surface.scrollIntoViewIfNeeded();
+    const rect = await surface.boundingBox();
+    const x = Math.round(rect.x + rect.width * 0.48), y = Math.round(rect.y + rect.height * 0.33);
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x, y }] });
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ x: x + 26, y: y + 9 }] });
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+  }
+  async function openInk(pad) {
+    await pad.getByRole('button', { name: 'Écrire ou dessiner au doigt' }).click();
+    await pad.locator('[data-ink-status]').filter({ hasText: 'Choisis une couleur.' }).waitFor();
+  }
+  await openInk(editor);
+  await editor.getByLabel('Couleur').selectOption('rouge');
+  await editor.getByLabel('Trait').selectOption('large');
+  assert.equal(await board.evaluate(svg => getComputedStyle(svg).touchAction), 'none');
+  await touchStroke(board);
+  await status.filter({ hasText: 'Tracés conservés' }).waitFor();
+  assert.equal(await stroke.count(), 1);
+  assert.equal(await stroke.getAttribute('stroke'), '#c6333d');
+  assert.ok(Number(await stroke.getAttribute('stroke-width')) > 10);
+  await editor.getByRole('button', { name: 'Terminer le tracé' }).click();
+  assert.equal(await board.evaluate(svg => getComputedStyle(svg).touchAction), 'auto');
+  assert.equal(await stroke.isVisible(), true);
+  await revealCorrection(page.locator('.lesson-card section').filter({
+    has: page.getByRole('heading', { name: 'À toi de jouer', exact: true })
+  }));
+  await page.reload();
+  await openInk(editor);
+  assert.equal(await stroke.count(), 1);
+  await page.evaluate(() => Klassia.createProfile('Autre profil de test'));
+  await page.reload();
+  await openInk(editor);
+  assert.equal(await stroke.count(), 0);
+  await page.evaluate(id => Klassia.selectProfile(id), originalProfile);
+  await page.reload();
+  await openInk(editor);
+  assert.equal(await stroke.count(), 1);
+  await editor.getByRole('button', { name: 'Annuler le dernier trait' }).click();
+  await status.filter({ hasText: 'Tracés conservés' }).waitFor();
+  await page.reload();
+  await openInk(editor);
+  assert.equal(await stroke.count(), 0);
+
+  await page.goto(base + 'gs/?theme=T8#worksheets');
+  const numbers = page.locator('.worksheetCard').filter({ hasText: 'J’écris les nombres de 1 à 10' });
+  const numberPad = numbers.locator('.ink-editor');
+  await openInk(numberPad);
+  assert.equal(await numberPad.locator('.trace-svg text').count(), 10);
+  const line = numberPad.locator('[data-ink-extra] svg');
+  await touchStroke(line);
+  await numberPad.locator('[data-ink-status]').filter({ hasText: 'Tracés conservés' }).waitFor();
+  assert.equal(await line.locator('[data-ink-stroke]').count(), 1);
+  page.once('dialog', dialog => dialog.accept());
+  await numberPad.getByRole('button', { name: 'Tout effacer' }).click();
+  await numberPad.locator('[data-ink-status]').filter({ hasText: 'Tracés conservés' }).waitFor();
+  assert.equal(await line.locator('[data-ink-stroke]').count(), 0);
+  await cdp.detach();
+
+  for (const [link, exercise, response] of [
+    ['Ouvrir la distribution des gobelets', '.nursery-question', /Une personne/],
+    ['Ouvrir le comptage des fruits', '.nursery-question', /Trois fruits/],
+    ['Ouvrir l’addition des étiquettes', '.practice-item', /17 étiquettes, dix-sept/],
+    ['Ouvrir le partage des cartes', '.practice-item', /18 cartes/],
+    ['Ouvrir l’achat des fournitures', '.exercise-card', /Il manque 100 F/]
+  ]) {
+    await page.goto(notebook);
+    await page.getByRole('link', { name: link, exact: true }).click();
+    await page.getByRole('button', { name: 'Écrire ou dessiner au doigt' }).first().waitFor();
+    const task = page.locator(exercise).last();
+    await revealCorrection(task);
+    assert.match(await task.locator('.correction-body').innerText(), response);
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+  }
+  await page.goto(notebook);
+  await page.getByRole('link', { name: 'Noter l’essai calcul CE2' }).click();
+  assert.equal(await page.locator('#pilotObservation [name="exercise"]').inputValue(), 'MA-U8-L4-E3');
+  console.log('PASS offline touch coloring and handwriting, profile isolation, undo and erase, and five practical calculation workshops');
 }
 
 async function testCloudflareNavigation(browser, origin) {
@@ -794,7 +891,7 @@ async function run() {
     ];
     for (const [theme, position, answer] of counting) {
       await page.goto(base + 'ms/?theme=' + theme + '#domain:ST:' + position);
-      const guide = page.locator('.answer-reveal');
+      const guide = page.locator('.answer-reveal').first();
       await revealCorrection(guide);
       assert.match(await guide.innerText(), answer);
     }
@@ -851,6 +948,7 @@ async function run() {
     await testBassaMicrophone(context, page, base);
     await testPilotNotebook(page, base);
     await testReadingWorkshops(page, base);
+    await testInkAndCalcul(context, page, base);
   } finally {
     await browser?.close();
     server.close();

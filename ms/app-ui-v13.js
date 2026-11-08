@@ -13,6 +13,7 @@ function activityCard(a,i){
  if(a.activity_fr||a.activity_en)main+=`<div class="bilingual">${a.activity_fr?`<div class="lang"><b>👐 Activité</b>${esc(a.activity_fr)}</div>`:''}${a.activity_en?`<div class="lang"><b>👐 Activity</b>${esc(a.activity_en)}</div>`:''}</div>`;
  if(a.materials)main+=`<div class="lang"><b>Matériel</b>${a.materials.map(esc).join(' · ')}</div>`;
  if(a.course)main+=renderList('Parcours',a.course);
+ if(a.ink)main+=Klassia.ink.pad(NURSERY.grade+':'+a.id,a.ink);
  if(a.questions?.length)main+=`<div class="observe"><b>Questions</b>${a.questions.map((q,index)=>`<div class="nursery-question"><p>${esc(q.fr)}<br><i lang="en">${esc(q.en)}</i></p>${q.answer?Klassia.correction.html(a.id+'_question_'+index,`<p>${esc(q.answer)}</p>`,{nursery:true}):''}</div>`).join('')}</div>`;
  if(a.source_note)main+=`<div class="notice">${esc(a.source_note)}</div>`;
  if(a.observe?.length)main+=`<div class="observe"><b>👀 J’observe</b>${a.observe.map(x=>`<div>• ${esc(x)}</div>`).join('')}</div>`;

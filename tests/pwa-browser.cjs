@@ -137,6 +137,23 @@ async function testBassaMicrophone(context, page, base) {
   await review.getByText(/écoute élève activée/).waitFor();
   await page.locator('[data-bassa-audio="BA004"] audio[src^="blob:"]').waitFor();
 
+  const publication = panel.locator('[data-publication]');
+  await publication.locator('summary').click();
+  await publication.getByLabel('Référence de l’avis favorable').fill('REV-04');
+  await publication.getByLabel('Référence de l’accord de diffusion').fill('ACC-04');
+  const [packageDownload] = await Promise.all([
+    page.waitForEvent('download'),
+    publication.getByRole('button', { name: 'Télécharger le dossier de diffusion' }).click()
+  ]);
+  assert.equal(packageDownload.suggestedFilename(), 'Klassia-BA004-01-diffusion.json');
+  const dossier = JSON.parse(fs.readFileSync(await packageDownload.path(), 'utf8'));
+  assert.equal(dossier.id, 'BA004');
+  assert.equal(dossier.form, 'málêt');
+  assert.equal(dossier.review_ref, 'REV-04');
+  assert.equal(dossier.consent_ref, 'ACC-04');
+  assert.ok(Buffer.from(dossier.source.base64, 'base64').length > 0);
+  assert.equal(JSON.stringify(dossier).includes('REF-PILOTE'), false);
+
   const profile = await page.evaluate(() => {
     Klassia.write('klassia_user', { role: 'ELEVE' });
     return Klassia.profile().id;

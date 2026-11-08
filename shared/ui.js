@@ -94,7 +94,21 @@ K.openOverview=openOverview;
 // Optional device speech is explicitly labelled; it is not a validated audio pack.
 function addSpeech(container,text,lang){K.speech.add(container,text,lang);}
 window.addEventListener('error',e=>{if(/quota|storage/i.test(e.message)){alert('Enregistrement local impossible. Exportez vos progrès et vérifiez l’espace disponible.');}});
-window.addEventListener('storage',e=>{if(e.key==='klassia_profiles_v15')location.reload();});
+// Lesson visits and theme selection write progress in each tab. Only a change
+// of the displayed profile or role requires restarting the current view.
+function displayContext(raw) {
+ const state = JSON.parse(raw);
+ const profile = state?.profiles?.[state.active];
+ return [state?.active, profile?.name, JSON.parse(profile?.data?.klassia_user || '{}')?.role || 'ELEVE'];
+}
+window.addEventListener('storage', event => {
+ if (event.storageArea !== localStorage || event.key !== 'klassia_profiles_v15') return;
+ try {
+  const before = displayContext(event.oldValue);
+  const after = displayContext(event.newValue);
+  if (before.some((value, index) => value !== after[index])) location.reload();
+ } catch { /* A malformed external write must not restart the application. */ }
+});
 K.openProfiles=openProfiles;K.downloadBackup=download;K.addSpeech=addSpeech;
 document.addEventListener('klassia:render',decorate);
 })();

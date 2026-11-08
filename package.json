@@ -14,7 +14,8 @@
     "test:gs": "node tests/gs-browser.cjs",
     "test:speech": "node tests/speech-browser.cjs",
     "test:search": "node tests/search-browser.cjs",
-    "build:cloudflare": "node scripts/build-cloudflare.mjs"
+    "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "bassa:diffusion": "node scripts/bassa-diffusion.mjs"
   },
   "engines": {
     "node": ">=22"

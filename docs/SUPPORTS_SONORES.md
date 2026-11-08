@@ -64,6 +64,20 @@ Dupliquer une ligne si le référent retient une deuxième forme. Consigner le n
 
 ### Intégration des prises autorisées
 
+L’atelier accepte toutes les formes documentées du lexique. Après confirmation de la prononciation, développer **Préparer la diffusion sur tous les appareils**. Renseigner le sens et les codes de l’avis favorable et de l’accord de diffusion. **Télécharger le dossier de diffusion** regroupe la source et les références. Transmettre ce fichier en privé. Les justificatifs et le dossier source restent dans le suivi privé.
+
+Depuis le dépôt, avec FFmpeg et l’encodeur libmp3lame, préparer puis réécouter le candidat. Consigner l’empreinte affichée uniquement après l’accord sur ce MP3. Réutiliser le même environnement FFmpeg pour l’intégration.
+
+```sh
+npm run bassa:diffusion -- preparer /chemin/prive/dossier.json /chemin/prive/candidat.mp3
+npm run bassa:diffusion -- integrer /chemin/prive/dossier.json /chemin/prive/candidat.mp3 EMPREINTE_APPROUVEE
+npm run validate && npm run build
+```
+
+Le script vérifie la forme, les références, la provenance du MP3 et son empreinte. Il prépare uniquement le MP3 public et sa fiche dans le lexique. Après revue et mise en ligne, l’extrait se charge avec l’édition et reste disponible hors connexion. Répéter l’opération pour chaque forme validée et autorisée.
+
+La procédure manuelle reste possible.
+
 1. Exporter le MP3 mono à 24 kHz et 48 kbit/s. Retirer les métadonnées du fichier source. Réécouter le MP3 avec le référent et conserver dans le dossier privé son empreinte et les références de l’avis et de l’accord couvrant cette prise.
 2. Ajouter le MP3 à `assets/` et renseigner le tableau facultatif `recordings` dans l’entrée correspondante de `data/bassa-lexicon-variants.json`. Pour une graphie corrigée par le référent, documenter d’abord cette forme dans le lexique en conservant les variantes documentaires existantes.
 

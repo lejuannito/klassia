@@ -145,6 +145,25 @@ async function testBassaMicrophone(context, page, base) {
   console.log('PASS Bassa workshop offline mic capture, refusal, playback, per-form storage, download and mic release');
 }
 
+async function revealCorrection(panel, written = false) {
+  const toggle = panel.locator('.correction-toggle');
+  if (await toggle.isDisabled()) {
+    assert.equal(await panel.locator('.correction-body').isVisible(), false);
+    assert.equal(await panel.locator('.correction-body').textContent(), '');
+    if (written) await panel.getByRole('button', { name: 'Valider ma tentative' }).click();
+    else await panel.locator('[data-attempt-oral]').click();
+  }
+  await toggle.click();
+  assert.equal(await toggle.getAttribute('aria-expanded'), 'true');
+}
+
+async function finishQuiz(page) {
+  for (const question of await page.locator('.qcmQuestion').all()) {
+    if (!(await question.locator('input:checked').count())) await question.locator('input').first().check();
+  }
+  await page.getByRole('button', { name: 'Corriger la série' }).click();
+}
+
 async function testPilotNotebook(page, base) {
   await page.getByRole('link', { name: 'Carnet du pilote', exact: true }).click();
   await page.getByRole('heading', { name: 'Carnet du pilote', exact: true }).waitFor();
@@ -166,7 +185,7 @@ async function testPilotNotebook(page, base) {
       [...document.images].some(img => img.src.endsWith(name) && img.naturalWidth > 0), figure);
   }
   const exercise = page.locator('.exercise-card').filter({ hasText: 'Il faut couper une bande de 2 m 40 cm' });
-  await exercise.getByRole('button', { name: 'Voir la correction' }).click();
+  await revealCorrection(exercise);
   assert.match(await exercise.locator('.feedback').innerText(), /60 cm/);
 
   await page.goto(base + 'pilote.html');
@@ -233,13 +252,13 @@ async function testReadingWorkshops(page, base) {
         img.src.endsWith('ms-cartes-objets-classe.svg') && img.naturalWidth > 0));
     }
     const answer = content.locator('.answer-reveal').nth(index);
-    await answer.locator('summary').click();
+    await revealCorrection(answer);
     assert.match(await answer.innerText(), correction);
   }
   await page.goto(notebook);
   await page.getByRole('link', { name: 'Ouvrir le jeu du cercle', exact: true }).click();
   const exercise = page.locator('.exercise-card').filter({ hasText: 'Écris la règle du jeu du cercle' });
-  await exercise.getByRole('button', { name: 'Voir la correction' }).click();
+  await revealCorrection(exercise);
   assert.match(await exercise.locator('.feedback').innerText(), /Après les six essais/);
   await page.goto(notebook);
   await page.getByRole('link', { name: 'Noter l’essai lecture CE2', exact: true }).click();
@@ -407,7 +426,7 @@ async function run() {
       await audio.evaluate(element => element.play());
       await page.waitForFunction(() => document.querySelector('.lesson-audio audio')?.currentTime > 0.1);
       if (hasTranscript) {
-        assert.equal(await page.locator('.practice-item .adult-guide').evaluate(details => details.open), false);
+        assert.equal(await page.locator('.practice-item .adult-guide').count(), 0);
       }
       const playing = await audio.elementHandle();
       await page.evaluate(() => { location.hash = '#units'; });
@@ -437,7 +456,7 @@ async function run() {
     await page.locator('#lessonResponse').click();
     await page.keyboard.type('sac 27 +');
     assert.equal(await page.locator('#lessonResponse').inputValue(), 'sac 27 +');
-    await page.locator('.practice-item .answer-reveal summary').click();
+    await revealCorrection(page.locator('.practice-item'));
     await page.getByText(/Le clic sur le bouton ouvre la correction/).waitFor();
 
     for (const [lessonRoute, imageFile] of [
@@ -461,12 +480,12 @@ async function run() {
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     await page.getByLabel(/Quelle température/).fill('24');
     await page.getByRole('button', { name: 'Vérifier le nombre' }).click();
-    assert.match(await page.locator('.exercise-card [role="status"]').innerText(), /Bravo.*24 °C/);
+    assert.match(await page.locator('.exercise-card .feedback[role="status"]').innerText(), /Bravo.*24 °C/);
 
     await page.goto(base + '?unit=U8#lesson:TI-U8-L2');
     await page.getByText('Assembler les trois blocs de haut en bas', { exact: true }).click();
     await page.getByRole('cell', { name: 'quand [drapeau vert] est cliqué', exact: true }).waitFor();
-    await page.getByRole('button', { name: 'Voir la correction' }).first().click();
+    await revealCorrection(page.locator('.exercise-card').first());
     assert.match(await page.locator('#ans_TIU8L2_0').innerText(), /d’abord « Merci ! », puis « Bonjour ! »/);
     console.log('PASS offline CE2 U5 map, U6 measurement and U8 Scratch lesson');
 
@@ -476,7 +495,7 @@ async function run() {
     await page.getByRole('cell', { name: 'Il y a plusieurs milliers d’années', exact: true }).waitFor();
 
     await page.evaluate(() => { location.hash = '#eval:SH'; });
-    await page.getByRole('button', { name: 'Voir les éléments de correction' }).nth(2).click();
+    await revealCorrection(page.locator('.evalItem').nth(2));
     assert.match(await page.locator('#corr_SH_2').innerText(), /16 bulletins déposés, 14 voix valables/);
 
     await page.goto(base + '?unit=U8#reviseSubject:SH');
@@ -484,21 +503,33 @@ async function run() {
     const planetQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quelle planète vient juste après la Terre' });
     await planetQuestion.getByLabel('Mars', { exact: true }).check();
     await page.getByRole('button', { name: 'Corriger la série' }).click();
+    assert.match(await page.locator('#scoreQcm').innerText(), /Réponds à chaque question/);
+    assert.equal(await page.locator('.qcmQuestion .feedback:not(.hidden)').count(), 0);
+    await finishQuiz(page);
     assert.match(await planetQuestion.locator('.feedback').innerText(), /Correct.*Terre est au rang 3/s);
+    await page.evaluate(() => Klassia.write('klassia_user', { role: 'ENSEIGNANT' }));
+    await page.reload();
+    const attemptsBeforePreview = await page.evaluate(() => Klassia.read('klassia_attempts', []).length);
+    const activitiesBeforePreview = await page.evaluate(() => Klassia.read('klassia_activity_v9', []).length);
+    await page.getByRole('button', { name: 'Voir le corrigé adulte' }).click();
+    assert.match(await planetQuestion.locator('.feedback').innerText(), /Corrigé adulte.*Terre est au rang 3/s);
+    assert.equal(await page.evaluate(() => Klassia.read('klassia_attempts', []).length), attemptsBeforePreview);
+    assert.equal(await page.evaluate(() => Klassia.read('klassia_activity_v9', []).length), activitiesBeforePreview);
+    await page.evaluate(() => Klassia.write('klassia_user', { role: 'ELEVE' }));
     console.log('PASS offline CE2 social studies map, assessment and quiz correction');
 
     await page.goto(base + '?unit=U7#lesson:DP-U7-L1');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     await page.getByRole('cell', { name: '4 cm de long', exact: true }).waitFor();
     const quilleExercise = page.locator('.exercise-card').first();
-    await quilleExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    await revealCorrection(quilleExercise);
     assert.match(await quilleExercise.locator('.feedback').innerText(), /14 cm − 4 cm = 10 cm/);
 
     await page.goto(base + '?unit=U7#reviseSubject:DP');
     await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
     const harvestQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quelle est la recette' });
     await harvestQuestion.getByLabel('400 F CFA', { exact: true }).check();
-    await page.getByRole('button', { name: 'Corriger la série' }).click();
+    await finishQuiz(page);
     assert.match(await harvestQuestion.locator('.feedback').innerText(), /Correct.*quatre bottes vendues/s);
     console.log('PASS offline CE2 personal development template, open correction and quiz');
 
@@ -506,14 +537,14 @@ async function run() {
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     await page.getByRole('cell', { name: 'Soupir', exact: true }).waitFor();
     const silenceExercise = page.locator('.exercise-card').first();
-    await silenceExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    await revealCorrection(silenceExercise);
     assert.match(await silenceExercise.locator('.feedback').innerText(), /soupir est au temps 3/);
 
     await page.goto(base + '?unit=U6#reviseSubject:AR');
     await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
     const silenceQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quel signe occupe le troisième temps' });
     await silenceQuestion.getByLabel('Le soupir', { exact: true }).check();
-    await page.getByRole('button', { name: 'Corriger la série' }).click();
+    await finishQuiz(page);
     assert.match(await silenceQuestion.locator('.feedback').innerText(), /Correct.*temps 3/s);
     console.log('PASS offline CE2 arts score, open correction and quiz');
 
@@ -521,14 +552,14 @@ async function run() {
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     await page.getByRole('cell', { name: 'Renvoyer de l’autre côté.', exact: true }).waitFor();
     const volleyExercise = page.locator('.exercise-card').nth(1);
-    await volleyExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    await revealCorrection(volleyExercise);
     assert.match(await volleyExercise.locator('.feedback').innerText(), /B prépare vers C, puis C renvoie/);
 
     await page.goto(base + '?unit=U7#reviseSubject:EP');
     await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
     const volleyQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Combien de touches au plus' });
     await volleyQuestion.getByLabel('Trois', { exact: true }).check();
-    await page.getByRole('button', { name: 'Corriger la série' }).click();
+    await finishQuiz(page);
     assert.match(await volleyQuestion.locator('.feedback').innerText(), /Correct.*troisième touche/s);
     console.log('PASS offline CE2 physical education diagram, open correction and quiz');
 
@@ -553,7 +584,7 @@ async function run() {
       }
     }
     const bassaExercise = page.locator('.exercise-card').nth(1);
-    await bassaExercise.getByRole('button', { name: 'Voir la correction' }).click();
+    await revealCorrection(bassaExercise);
     assert.match(await bassaExercise.locator('.feedback').innerText(), /cahier.*s’il te plaît/);
     console.log('PASS offline CE2 Bassa lessons, proposed forms and open correction');
 
@@ -567,9 +598,9 @@ async function run() {
     const cardBounds = await cards.boundingBox();
     assert.ok(cardBounds && cardBounds.x >= 0 && cardBounds.x + cardBounds.width <= 390);
     assert.equal(await reading.getByRole('listitem').count(), 3);
-    assert.equal(await page.locator('.answer-reveal[open]').count(), 0);
+    assert.equal(await page.locator('.correction-toggle[aria-expanded=true]').count(), 0);
     const chronology = page.locator('.practice-item').first();
-    await chronology.locator('summary').click();
+    await revealCorrection(chronology);
     assert.match(await chronology.locator('.answer-reveal').innerText(), /B, C, A/);
 
     await page.goto(base + 'ce1/#lesson:CE1-U6-L01');
@@ -577,13 +608,20 @@ async function run() {
     assert.match(await page.locator('.lesson-support').innerText(), /Le début.*Fin A.*Fin B/s);
     await page.getByText(/Écris ta propre fin en deux ou trois phrases/).waitFor();
     const response = page.locator('#lessonResponse');
+    const rubric = page.locator('.answer-reveal').first();
+    await response.fill('   ');
+    await rubric.getByRole('button', { name: 'Valider ma tentative' }).focus();
+    await page.keyboard.press('Enter');
+    assert.equal(await rubric.locator('.correction-toggle').isDisabled(), true);
+    assert.match(await rubric.locator('[role=status]').innerText(), /Écris une réponse/);
     const ending = 'Nelly aperçoit la gourde sur le banc. Amadou la prend avant de rejoindre la classe.';
     await response.fill(ending);
-    assert.equal(await page.locator('.answer-reveal[open]').count(), 0);
-    const rubric = page.locator('.answer-reveal').first();
-    await rubric.locator('summary').click();
+    assert.equal(await page.locator('.correction-toggle[aria-expanded=true]').count(), 0);
+    assert.equal(await rubric.locator('.correction-toggle').isDisabled(), true);
+    await revealCorrection(rubric, true);
     assert.match(await rubric.innerText(), /Pour relire ta fin.*personnage du début.*problème de la gourde.*résultat.*ponctuation/s);
     assert.equal(await response.inputValue(), ending);
+    assert.equal(await page.evaluate(value => JSON.stringify(Klassia.exportBackup()).includes(value), ending), false);
     console.log('PASS offline CE1 illustrated reading and open ending with a correction rubric');
 
     const observationLessons = [
@@ -613,7 +651,7 @@ async function run() {
       }
       assert.ok(await observation.evaluate(table => table.offsetWidth <= table.parentElement.clientWidth + 1), caption);
       const example = page.locator('.answer-reveal');
-      await example.locator('summary').click();
+      await revealCorrection(example);
       assert.match(await example.innerText(), feedback);
     }
     await page.setViewportSize({ width: 390, height: 844 });
@@ -623,7 +661,7 @@ async function run() {
     await page.getByRole('link', { name: /Les couleurs primaires de la maison/ }).click();
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     const colors = page.locator('.answer-reveal');
-    await colors.locator('summary').click();
+    await revealCorrection(colors);
     assert.match(await colors.innerText(), /A \(bleu\), C \(rouge\) et E \(jaune\)/);
 
     await page.goto(base + 'gs/?theme=T8#domain:ST');
@@ -631,7 +669,7 @@ async function run() {
     await page.getByRole('heading', { name: /écrire les nombres de 1 à 10/ }).waitFor();
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     const missingNumbers = page.locator('.answer-reveal').last();
-    await missingNumbers.locator('summary').click();
+    await revealCorrection(missingNumbers);
     assert.match(await missingNumbers.innerText(), /3 et 5.*7 et 10/);
 
     await page.setViewportSize({ width: 320, height: 844 });
@@ -639,10 +677,10 @@ async function run() {
     await page.getByRole('heading', { name: 'Le cahier retrouvé' }).waitFor();
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     const storyOrder = page.locator('.answer-reveal').nth(1);
-    await storyOrder.locator('summary').click();
+    await revealCorrection(storyOrder);
     assert.match(await storyOrder.innerText(), /B, C puis A/);
     const alternateEnding = page.locator('.answer-reveal').nth(2);
-    await alternateEnding.locator('summary').click();
+    await revealCorrection(alternateEnding);
     assert.match(await alternateEnding.innerText(), /Une fin convient si elle suit les événements/);
 
     for (const [theme, answer] of [['T1', /La carte C/], ['T8', /N dans LINA et L dans LILA/]]) {
@@ -651,7 +689,7 @@ async function run() {
       await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
       assert.ok(await page.locator('.lesson-figure').evaluate(img => img.getBoundingClientRect().right <= innerWidth));
       const nameGuide = page.locator('.answer-reveal').last();
-      await nameGuide.locator('summary').click();
+      await revealCorrection(nameGuide);
       assert.match(await nameGuide.innerText(), answer);
     }
 
@@ -659,11 +697,11 @@ async function run() {
     await page.getByRole('link', { name: /Je lis ou, m et l/ }).click();
     await page.locator('.lesson-support').getByText('Lou a mal.', { exact: true }).waitFor();
     const sentenceGuide = page.locator('.answer-reveal').first();
-    await sentenceGuide.locator('summary').click();
+    await revealCorrection(sentenceGuide);
     assert.match(await sentenceGuide.innerText(), /le mot mal permet de le savoir/);
     const readingPractice = page.locator('.practice-item');
     await readingPractice.getByText(/Lis « Il a lu\. »/).waitFor();
-    await readingPractice.locator('summary').click();
+    await revealCorrection(readingPractice);
     assert.match(await readingPractice.locator('.answer-reveal').innerText(), /La personne a lu/);
     await page.setViewportSize({ width: 390, height: 844 });
     console.log('PASS offline GS story order and name cards, and SIL sentence comprehension');
@@ -694,13 +732,21 @@ async function run() {
     for (const [theme, position, answer] of counting) {
       await page.goto(base + 'ms/?theme=' + theme + '#domain:ST:' + position);
       const guide = page.locator('.answer-reveal');
-      await guide.locator('summary').click();
+      await revealCorrection(guide);
       assert.match(await guide.innerText(), answer);
     }
     await page.goto(base + 'ms/?theme=T8#domain:ST:1');
+    assert.equal(await page.getByText('Préparer et adapter l’activité', { exact: true }).count(), 0);
+    await page.evaluate(() => Klassia.write('klassia_user', { role: 'PARENT' }));
+    await page.reload();
     const countingGuide = page.getByText('Préparer et adapter l’activité', { exact: true });
     await countingGuide.click();
     await page.getByText(/plus grand nombre retrouvé seul dans deux dispositions/).waitFor();
+    const adultCorrection = page.locator('.correction-toggle').first();
+    assert.equal(await adultCorrection.isDisabled(), false);
+    assert.match(await adultCorrection.innerText(), /corrigé adulte/);
+    await adultCorrection.click();
+    await page.evaluate(() => Klassia.write('klassia_user', { role: 'ELEVE' }));
 
     await page.goto(base + 'gs/?theme=T1#domain:MO:0');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
@@ -719,21 +765,24 @@ async function run() {
     await page.goto(base + 'ce1/#lesson:CE1-U8-L03');
     const secondMessage = page.locator('.practice-item');
     await secondMessage.getByRole('button', { name: /Listen in English/ }).waitFor();
-    const transcript = secondMessage.locator('details.adult-guide');
-    assert.equal(await transcript.getAttribute('open'), null);
+    assert.equal(await secondMessage.locator('details.adult-guide').count(), 0);
+    await revealCorrection(secondMessage);
+    assert.match(await secondMessage.locator('.answer-reveal').innerText(), /music club.*Thursday.*I will bring my song book/);
+    await page.evaluate(() => Klassia.write('klassia_user', { role: 'PARENT' }));
+    await page.reload();
+    const transcript = page.locator('.practice-item details.adult-guide');
     await transcript.locator('summary').click();
     assert.match(await transcript.innerText(), /Music club.*Thursday/);
-    await secondMessage.getByText('Show feedback', { exact: true }).click();
-    assert.match(await secondMessage.locator('.answer-reveal').innerText(), /music club.*Thursday.*I will bring my song book/);
+    await page.evaluate(() => Klassia.write('klassia_user', { role: 'ELEVE' }));
 
     await page.goto(base + '?unit=U8#lesson:FR-U8-L3');
     const opinion = page.locator('.exercise-card').filter({ hasText: /quel geste d’Éric a le plus aidé/ });
-    await opinion.getByRole('button', { name: 'Voir la correction' }).click();
+    await revealCorrection(opinion);
     assert.match(await opinion.locator('.feedback').innerText(), /Ton détail vient du récit.*justifie ton choix/s);
 
     await page.goto(base + '?unit=U8#lesson:EN-U8-L3');
     const telephone = page.locator('.exercise-card').filter({ hasText: /write the whole call/ });
-    await telephone.getByRole('button', { name: 'Voir la correction' }).click();
+    await revealCorrection(telephone);
     assert.match(await telephone.locator('.feedback').innerText(), /Can you bring a pencil.*Yes, I’ll bring one.*Goodbye/s);
     console.log('PASS offline GS reading, CE1 listening and CE2 opinion and telephone writing');
     await testBassaMicrophone(context, page, base);

@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "3f2a055c96c52a26658c190ee7b7f827aa334cb05d4b13e32519e96a9cd36e24",
+  "version": "9e50a3a94096da5968e2427cdd93977c698267cdb31a838155b80c869caf1de0",
   "files": [
     {
       "url": "./app.js",
-      "sha256": "b90fe73a799d8ddffc20a16f18ee370c54de9278e25b84de815c37b3bc2c7639"
+      "sha256": "a344f507ca5ad61c9cef2242c5e0635ff489a0a52f775d6b9fee6e183b045da9"
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -219,7 +219,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "63c11105b97047445ba84e348ab2f2d09724e2912e685973ed8f387b7bd7351b"
+      "sha256": "d4c43f6b91584c5e6322c60536e955290a28cc82fe2c7f5477446d2c51993e86"
     },
     {
       "url": "./class-switch-v12.js",
@@ -351,7 +351,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/index.html",
-      "sha256": "e0b90ee9c0073608173303caffa94cad6d03ea5c5596c035493e7d0a0fd80a06"
+      "sha256": "12f305520da5c5a9f1cdcc857c709e712c8fca81817c7f256e9b0de49131e76e"
     },
     {
       "url": "./gs/practice-v14.json",
@@ -363,7 +363,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "7453d08698c4768d8a86b7d9d1133590d88184bc2b756affd7df123672140bab"
+      "sha256": "b15042c1c41e729897c4b6d3884b4d8b1fe3cc9423b84c65c579ab3ee58c574f"
     },
     {
       "url": "./manifest.webmanifest",
@@ -379,7 +379,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-ui-v13.js",
-      "sha256": "1fb2c3407bad06236fadfbd874846a30f56b61fbedf1c757c7f48dd2b3fcf9e0"
+      "sha256": "1cc02cc06c72408ea87d4fbfdca3d4e9096d2404415ce67d941eada1280adc04"
     },
     {
       "url": "./ms/data/catalog-v13.json",
@@ -419,7 +419,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/index.html",
-      "sha256": "c07bfd01511e1121306701ce5f9ac6ca807cdbc08ae07404550ce80c2d823959"
+      "sha256": "c31d20556677462def9125e34f464e9febdc6d201df8a339b7c253db3438bf9b"
     },
     {
       "url": "./ms/ms-v14.css",
@@ -470,8 +470,12 @@ self.KLASSIA_RELEASE = {
       "sha256": "13eb050844e2e4a3cd8873654a23a111c930c0a3b8ee0e2e07f3f550c1bee6c3"
     },
     {
+      "url": "./shared/correction.js",
+      "sha256": "6f06140d7f686d312195fec9b08ff022505a60ace924d105c9880b5506e2bb8f"
+    },
+    {
       "url": "./shared/learning-app.js",
-      "sha256": "7cb358f357e3110f58d32476124ec0d18602e6f766defe39555519e65fc39c4e"
+      "sha256": "360eefaca305c4971fdeb8648b1c706df21e99d4d0fecf8e14b0c0ad1c27bf37"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -519,11 +523,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "155b5bda9ac6dea9dcd444e06f9587c2870a33445e6440729e20c561142d5c11"
+      "sha256": "71f30b1bd0f94f756d459c54a61539539f31f6993175d3f21b5e499db9af503e"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "dbae656ec019c206bbf350923951389dfea967a72c5a35bdd397101247b1a450"
+      "sha256": "837ed03e7b33f49d81a2fb61a2abb6c96162da96e261698bb8920c62f6f687a2"
     },
     {
       "url": "./sil/data/curriculum.json",
@@ -563,7 +567,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "b129830a58d3daebd900ef9e8a7f7c44973dbceb4af6cea6d4808b9c61f86edb"
+      "sha256": "9adb027fd181f82312d1a9cf7b83f8cf7ad192cbe98fb8e6dd29edca7469c6ac"
     },
     {
       "url": "./sil/style.css",
@@ -579,7 +583,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.js",
-      "sha256": "5e4a57adbb8033cd5b4b4774bc2d44adc48cd2b78c423b32b8e25b5bfbb4f1d3"
+      "sha256": "71bdcaeb6e78c6f7fec6ed245d019e3fa7637c53472baf13e127a12bc0b9d0d0"
     },
     {
       "url": "./v9.css",
@@ -587,7 +591,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v9.js",
-      "sha256": "eee6758b47eb83f5adb2652d413d8d417e55cb73ccf8d99adad6548c29acbc16"
+      "sha256": "5221cecd87a6277c72eed0d751a37aff87b7f0377321463314c98db3a2a84fc7"
     }
   ]
 };

@@ -9,6 +9,8 @@
 .bassa-recorder-actions .btn{max-width:100%;white-space:normal}
 .bassa-recorder audio{display:block;width:min(100%,320px)}
 .bassa-recorder [hidden]{display:none}
+.bassa-recorder fieldset{min-inline-size:0;margin:0;padding:0;border:0}
+.bassa-recorder input,.bassa-recorder textarea{display:block;box-sizing:border-box;width:100%;min-width:0;font:inherit}
 @media (max-width: 700px) {
   .unit-subject-v14 { flex-direction: column; }
   .unit-subject-v14 .btn { align-self: stretch; }

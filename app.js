@@ -148,10 +148,11 @@ function shell(body, active = 'home') {
   document.querySelectorAll('[role=button][tabindex]').forEach(el=>el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click();}});
   document.querySelectorAll('[data-go]').forEach(b => b.onclick = () => location.hash = '#' + b.dataset.go);
   const unitSelect = document.getElementById('unitSelect');
-  if (unitSelect) unitSelect.onchange = async () => {
-    await loadUnit(unitSelect.value);
-    location.hash = '#home';
-    route();
+  if (unitSelect) unitSelect.onchange = () => {
+    const url = new URL(location.href);
+    url.searchParams.set('unit', unitSelect.value);
+    url.hash = '#home';
+    location.assign(url.href);
   };
   document.getElementById('logout').onclick = () => {
     Klassia.storage.removeItem(S.user);
@@ -261,6 +262,14 @@ function home() {
   });
   body += '</div>';
   shell(body, 'home');
+}
+
+function unitsPage() {
+  const units = catalog.units.map(u => `<a class="subject-card subject-card-rich klassia-unit-link" href="?unit=${u.id}#learn">
+    <span class="unit-number">U${u.number}</span><strong>${esc(u.title)}</strong><span>${u.lesson_count} leçons</span>
+  </a>`).join('');
+  shell(`<div class="page-head"><div><div class="eyebrow">CE2</div><h1>Parcourir les unités</h1>
+    <p>Choisissez une unité, puis une matière et une leçon.</p></div></div><div class="subject-grid wide">${units}</div>`, 'learn');
 }
 
 function learn() {
@@ -610,9 +619,14 @@ function route() {
   if (!currentUser()) { login(); return; }
   const h = (location.hash || '#home').slice(1);
   if (h === 'login') { login(); return; }
-  if (currentUser()?.role === 'PARENT' && !['home','progress'].includes(h) && !h.startsWith('lesson:')) { location.hash='#home'; home(); return; }
+  if (currentUser().role === 'PARENT' && /^(?:revise(?:Subject)?|project|qcm|admin)(?::|$)/.test(h)) {
+    history.replaceState(history.state, '', '#home');
+    home();
+    return;
+  }
   if (h === 'home') home();
   else if (Klassia.specialRoute('CE2', '#'+h)) return;
+  else if (h === 'units') unitsPage();
   else if (h === 'learn') learn();
   else if (h === 'revise') revise();
   else if (h === 'project') project();

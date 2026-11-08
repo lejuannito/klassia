@@ -27,3 +27,5 @@ th, td { padding: 8px; border-bottom: 1px solid #d8e1f1; text-align: left; }
 #pilotStatus { position: sticky; bottom: 0; width: fit-content; max-width: calc(100% - 32px); margin: 0 auto; padding: 8px 12px; background: #e4edff; border-radius: 8px; }
 #pilotStatus:empty { display: none; }
 @media print { form, nav, .pilot-actions, #pwaTools, #pilotStatus { display: none; } }
+
+header .pilot-back { margin-inline-start: 1rem; }

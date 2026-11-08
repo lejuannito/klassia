@@ -16,7 +16,7 @@ function worksheetsPage(){
  document.getElementById('printAllWs').onclick=()=>openPrint('graphisme');
 }
 function domainsAllPage(){
- const sample=themePack.themes[catalog.themes[0].id].domains;let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><div class="browseTabs"><button onclick="location.hash='#themes'">Par thème</button><button class="active">Par domaine</button></div><section class="hero"><div class="eyebrow">${esc14(NURSERY.label.toUpperCase())} · PAR DOMAINE</div><h1>Choisir d’abord un domaine</h1><p>Parcours ensuite les huit thèmes pour ce même domaine.</p></section><div class="grid">`;
+ const sample=themePack.themes[catalog.themes[0].id].domains;let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><section class="hero"><div class="eyebrow">${esc14(NURSERY.label.toUpperCase())} · PAR DOMAINE</div><h1>Choisir d’abord un domaine</h1><p>Parcours ensuite les huit thèmes pour ce même domaine.</p></section><div class="grid">`;
  sample.forEach(d=>body+=`<button class="domain" data-domain-all="${d.id}"><div class="icon">${d.icon}</div><strong>${esc14(d.name_fr)}</strong><small>${esc14(d.name_en)} · ${d.weight}</small><small>8 thèmes</small></button>`);
  body+='</div>';shell(body);document.querySelectorAll('[data-domain-all]').forEach(b=>b.onclick=()=>location.hash='#domain-all:'+b.dataset.domainAll);
 }
@@ -25,12 +25,12 @@ function domainAllPage(id){
  let body=`<button class="back" onclick="location.hash='#domains-all'">← Domaines</button><section class="hero"><div class="eyebrow">8 THÈMES</div><h1>${sample.icon} ${esc14(sample.name_fr)}</h1><p>${esc14(sample.name_en)}</p><button class="classBtn" id="printDomainAll">🖨 Domaine complet / PDF</button></section><div class="themes">`;
  for(const t of catalog.themes){const th=themePack.themes[t.id],d=th.domains.find(x=>x.id===id);body+=`<article class="themeCard themeDomainCard"><div class="themeNum">${t.number}</div><div><strong>${esc14(th.title_fr)}</strong><div>${esc14(th.title_en)} · ${d.activities.length} activités</div><small>${d.activities.slice(0,3).map(a=>esc14(a.title_fr)).join(' · ')}</small></div><div class="spacer"></div><button class="classBtn" data-open-domain-theme="${t.id}">Ouvrir</button></article>`;}
  body+='</div>';shell(body);document.getElementById('printDomainAll').onclick=()=>openPrint('domaine-complet',id);
- document.querySelectorAll('[data-open-domain-theme]').forEach(b=>b.onclick=async()=>{await loadTheme(b.dataset.openDomainTheme);history.replaceState(null,'',`?theme=${b.dataset.openDomainTheme}#domain:${id}`);domainPage(id)});
+ document.querySelectorAll('[data-open-domain-theme]').forEach(b=>b.onclick=()=>location.assign('?theme='+b.dataset.openDomainTheme+'#domain:'+id));
 }
 function injectHomeEnhancements(){
  if(location.hash&&location.hash!=='#home')return;
- const hero=document.querySelector('.hero');if(!hero||document.querySelector('.browseTabs'))return;
-    hero.insertAdjacentHTML('afterend',`<div class="browseTabs klassia-learning-mode"><button class="active">Par thème</button><button onclick="location.hash='#domains-all'">Par domaine</button><button id="printTheme14">🖨 Thème / PDF</button></div><section class="workbookPromo"><div><b>✍️ Cahier sans écran</b><p>Coloriage, formation des lettres et chiffres, graphisme à imprimer.</p></div><button class="classBtn" onclick="location.hash='#worksheets'">Ouvrir le cahier</button></section>`);
+ const hero=document.querySelector('.hero');if(!hero||document.querySelector('.workbookPromo'))return;
+    hero.insertAdjacentHTML('afterend',`<div class="print-actions"><button class="classBtn" id="printTheme14">🖨 Thème / PDF</button></div><section class="workbookPromo"><div><b>✍️ Cahier sans écran</b><p>Coloriage, formation des lettres et chiffres, graphisme à imprimer.</p></div><button class="classBtn" onclick="location.hash='#worksheets'">Ouvrir le cahier</button></section>`);
  document.getElementById('printTheme14').onclick=()=>openPrint('theme');
 }
 function injectDomainPrints(){
@@ -76,6 +76,6 @@ function routeSpecial(h){
  return false;
 }
 Klassia.registerRoutes(NURSERY.grade,routeSpecial);
-function decorate14(){if(!practice14||!catalog||!themePack)return;injectHomeEnhancements();injectDomainPrints();const tabs=document.querySelector('.browseTabs');if(tabs&&!tabs.querySelector('[data-subjects]'))tabs.insertAdjacentHTML('beforeend',`<a data-subjects href="#subjects-all">Par matière / activité</a>`);if(!tabs&&/^#(?:subjects-all|activity-subject:|domain-all:|themes)/.test(location.hash))document.querySelector('.hero,.sectionTitle')?.insertAdjacentHTML('beforebegin',`<nav class="browseTabs klassia-learning-mode"><a href="#themes">Par thème / unité</a><a href="#subjects-all">Par matière / activité</a><a href="#domains-all">Par domaine</a></nav>`);}
+function decorate14(){if(!practice14||!catalog||!themePack)return;injectHomeEnhancements();injectDomainPrints();}
 document.addEventListener('klassia:render',decorate14);
 })();

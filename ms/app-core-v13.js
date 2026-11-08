@@ -31,7 +31,7 @@ function shell(body){
   app.innerHTML=`<header class="top"><div class="brand"><span class="k">K</span>Klassia</div><div class="topActions"><label class="themeSwitch"><span>Thème</span><select id="themeSelect">${catalog.themes.map(t=>`<option value="${t.id}" ${t.id===theme.id?'selected':''}>${t.number} · ${esc(t.title_fr)}</option>`).join('')}</select></label></div></header><main class="wrap">${body}</main>`;
   Klassia.rendered();
   const sel=document.getElementById('themeSelect');
-  if(sel)sel.onchange=async()=>{await loadTheme(sel.value);history.replaceState(null,'',`?theme=${sel.value}#home`);home()};
+  if(sel)sel.onchange=()=>location.assign('?theme='+sel.value+'#home');
 }
 function route(){
  const h=location.hash||'#home';

@@ -891,7 +891,7 @@ async function run() {
     ];
     for (const [theme, position, answer] of counting) {
       await page.goto(base + 'ms/?theme=' + theme + '#domain:ST:' + position);
-      const guide = page.locator('.answer-reveal');
+      const guide = page.locator('.answer-reveal').first();
       await revealCorrection(guide);
       assert.match(await guide.innerText(), answer);
     }

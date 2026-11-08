@@ -9,7 +9,7 @@ Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du 
 5. Dans « Observation de l’adulte », notez un fait concret, la langue utilisée et l’aide donnée. Évitez les données sensibles ; une observation simple suffit : « suit deux consignes après répétition ».
 6. Six extraits sonores sont intégrés aux fiches de SIL et de CE1. Les autres commandes de lecture utilisent les voix de l’appareil. Si l’extrait ou la voix est indisponible, lisez le texte à l’enfant. [Repères sur les voix](SUPPORTS_SONORES.md)
 7. Les éléments Bassa sont en cours de revue. Ne faites pas mémoriser une graphie provisoire ; sollicitez un référent compétent.
-8. Les commandes d’impression ouvrent une fiche. Choisissez « Imprimer », puis éventuellement « Enregistrer en PDF ». Les fiches d’activités MS incluent les repères de l’adulte ; ne les confondez pas avec une épreuve sans corrigé.
+8. Les commandes d’impression ouvrent une fiche élève sans corrigé. Dans un espace adulte, le guide ou le corrigé s’ouvre séparément. Attendez « Fiche prête », puis choisissez **Imprimer / PDF**. Si l’aperçu reste blanc depuis l’icône installée, développez **Imprimer depuis le navigateur** et ouvrez le lien dans Chrome ou Safari.
 9. Exportez régulièrement les données de chaque enfant. Un nettoyage du navigateur ou la perte du téléphone peut supprimer les progrès locaux.
 10. Signalez les erreurs avec classe, unité/thème, identifiant de leçon, énoncé, réponse attendue et version. Ne transmettez pas de sauvegarde complète contenant des observations personnelles pour signaler une simple coquille.
 
@@ -34,6 +34,7 @@ Prévoir un Android avec Chrome et un iPhone avec Safari. Choisir un profil de t
 | 5. Vérifier l’écran LCN Bassa | En CE2, ouvrir « Apprendre › LCN · Bassa », puis « 8 thèmes » et une leçon. Essayer aussi l’ouverture de « Matière / PDF ». Une fois les prises intégrées, les écouter dans `BA-U3-L1` en mode avion, puis refaire l’écoute après reconnexion. | Titres, boutons et caractères bassa lisibles dans les deux orientations. Pour chaque prise, relever la lecture, la pause et l’arrêt en quittant la leçon. [Leçon des quatre entrées](https://lejuannito.github.io/klassia/?unit=U3#lesson:BA-U3-L1) |
 | 6. Vérifier la progression | Dans le profil de test, choisir « Je me sens prêt » dans une leçon CE2 ou « Réalisé » en SIL ou CE1. Fermer puis rouvrir Klassia. Si une mise à jour est disponible, fermer les autres onglets Klassia, appliquer la mise à jour en ligne, puis repasser en mode avion. | Le même profil et le marqueur de la leçon sont retrouvés après réouverture, puis après mise à jour. |
 | 7. Enregistrer une prise d’essai | Dans l’espace Enseignant, ouvrir l’atelier Bassa, autoriser le micro, enregistrer une forme et la réécouter. La conserver, fermer puis rouvrir Klassia en mode avion. Essayer un nouvel enregistrement en mode avion, puis l’écarter. | La première prise est toujours disponible dans le même profil. Le micro s’arrête à la fin de la prise ou en quittant l’atelier. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia) |
+| 8. Imprimer ou exporter en PDF | Depuis l’icône installée, ouvrir une fiche élève dans chaque classe et attendre « Fiche prête ». Essayer le PDF et, si nécessaire, le lien de repli dans le navigateur. Ouvrir aussi un guide adulte. | Fiche A4 lisible, images présentes, réponses dans le guide adulte. Indiquer le mode qui fonctionne. |
 
 ### Relevé à transmettre
 
@@ -46,6 +47,7 @@ Indiquer pour chaque appareil le code de séance, la date, le modèle, le systè
 | Téléchargement et ouverture depuis l’icône | À renseigner | À renseigner | |
 | Six extraits FR/EN en ligne et en mode avion | À renseigner | À renseigner | Préciser les extraits concernés |
 | Voix de l’appareil en ligne et en mode avion | À renseigner | À renseigner | Distinguer voix de l’appareil et extrait intégré |
+| Fiche A4 / PDF depuis l’icône et lien de repli | À renseigner | À renseigner | Préciser l’impression et l’ouverture dans le navigateur |
 | Écran Bassa en portrait et en paysage | À renseigner | À renseigner | |
 | Prises Bassa dans `BA-U3-L1` en ligne et en mode avion | À renseigner | À renseigner | Noter « non essayé » si les prises sont encore en préparation |
 | Profil et progression après fermeture, puis après mise à jour | À renseigner | À renseigner | Indiquer si aucune mise à jour n’était disponible |

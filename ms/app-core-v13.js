@@ -58,19 +58,7 @@ function home(){
  shell(body);
 }
 function themeIcon(id){if(NURSERY.grade==='GS'&&id==='T5')return '🐾';if(NURSERY.grade==='GS'&&id==='T6')return '🌱';return ({T1:'🏫',T2:'🧍',T3:'🏠',T4:'🎉',T5:'🌱',T6:'🐾',T7:'🧑‍🔧',T8:'🚌'})[id]||'📘'}
-function renderVisual(v){
- if(!v?.items?.length)return '';
- return `<div class="visual">${v.items.map(x=>`<span>${esc(x)}</span>`).join('')}</div>`;
-}
-function renderDiagram(d){
- if(!d?.labels?.length)return '';
- const cls='diagram diagram-'+esc(d.kind||'generic');
- return `<div class="${cls}">${d.labels.map((x,i)=>`<div class="diagramNode"><span>${esc(x)}</span>${i<d.labels.length-1?'<b>→</b>':''}</div>`).join('')}</div>`;
-}
-function renderTable(t){
- if(!t?.headers)return '';
- return `<div class="tableWrap"><table><thead><tr>${t.headers.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${(t.rows||[]).map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-}
+const {renderVisual,renderDiagram,renderTable}=Klassia.nurserySupport;
 function renderList(title,arr){
  return arr?.length?`<div class="lang"><b>${esc(title)}</b><ol class="steps">${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`:'';
 }

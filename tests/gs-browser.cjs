@@ -13,9 +13,9 @@ try{
  const numberModels=Array.from({length:10},(_,i)=>String(i+1));
  const numberWorksheet=p.locator('.worksheetCard').filter({has:p.locator('[data-print-ws="numbers"]')});
  assert.deepEqual(await numberWorksheet.locator('.trace-svg text').allTextContents(),numberModels);
- const numbersPopup=p.waitForEvent('popup');await numberWorksheet.getByRole('button',{name:/Imprimer/}).click();
- const printedNumbers=await numbersPopup;await printedNumbers.locator('.trace-svg text').first().waitFor();
- assert.deepEqual(await printedNumbers.locator('.trace-svg text').allTextContents(),numberModels);await printedNumbers.close();
+ await numberWorksheet.getByRole('button',{name:/Imprimer/}).click();
+ await p.locator('#printNow:enabled').waitFor();
+ assert.deepEqual(await p.locator('.trace-svg text').allTextContents(),numberModels);
  const lex=read('data/bassa-lexicon-variants.json'),map=read('data/bassa-lessons.json').lessons;
  for(const [key,row] of Object.entries(map)){
   const [g,id]=key.split(':');let url;
@@ -28,7 +28,15 @@ try{
  await p.goto('http://localhost:8767/gs/?theme=T1#domain:LC:5');await p.locator('.bassa-choices button').first().click();await p.locator('.bassa-submit').click();assert.match(await p.locator('.bassa-result').innerText(),/acceptée/);assert.match(await p.locator('.bassa-forms').first().innerText(),/signalée à revoir/);
  for(const width of [320,390,1280]){await p.setViewportSize({width,height:844});assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Bassa overflow '+width);}
  await p.setViewportSize({width:390,height:844});await p.screenshot({path:path.join(root,'../gs-bassa-mobile.png'),fullPage:false});
- const popup=p.waitForEvent('popup');await p.locator('.printActivity14').click();const printed=await popup;await printed.waitForLoadState();assert.match(await printed.locator('body').innerText(),/Grande section/);assert.match(await printed.locator('body').innerText(),/Ntôñ diséé/);await printed.close();
+ await p.evaluate(()=>Klassia.write('klassia_user',{role:'ENSEIGNANT'}));
+ await p.reload();
+ await p.locator('.printActivityAdult').click();
+ await p.locator('#printNow:enabled').waitFor();
+ assert.match(await p.locator('#printLabel').innerText(),/Grande section.*adulte/);
+ assert.match(await p.locator('#printBody').innerText(),/Ntôñ diséé/);
+ await p.locator('#printVariant').click();
+ await p.locator('#printNow:enabled').waitFor();
+ assert.equal(await p.locator('#printBody .bassa').count(),0);
  await p.goto('http://localhost:8767/#bassa');await p.locator('#bassaSearch').fill('école maternelle');await p.locator('.bassa-answer').fill(e.forms[0]);await p.locator('.bassa-check').click();assert.match(await p.locator('.bassa-feedback').innerText(),/acceptée/);
  assert.deepEqual(errors,[]);console.log('PASS 162 GS activity routes, 45 Bassa lesson panels, Unicode variants, review annotations, progress, review links, print and mobile widths');
  await b.close();b=await chromium.launch(opts);ctx=await b.newContext({serviceWorkers:'allow'});p=await ctx.newPage();await p.goto('http://localhost:8767/gs/');await p.waitForFunction(()=>document.querySelector('#pwaTools')?.textContent.includes('disponibles hors connexion'),{timeout:30000});await ctx.setOffline(true);await p.goto('http://localhost:8767/gs/?theme=T8#domain:LC:5');await p.locator('.bassa-concept').waitFor();await p.locator('.bassa-choices button').first().click();await p.locator('.bassa-submit').click();assert.match(await p.locator('.bassa-result').innerText(),/acceptée/);console.log('PASS fresh GS installation and offline Bassa practice');

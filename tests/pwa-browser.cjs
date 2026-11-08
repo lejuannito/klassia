@@ -54,7 +54,7 @@ const server = http.createServer((request, response) => {
       ? pathname.slice(0, -'index.html'.length)
       : name.endsWith('.html') ? pathname.slice(0, -'.html'.length) : '';
     if (canonical) return response.writeHead(308, { Location: canonical + url.search }).end();
-    if (name === 'pilote' || name === 'search') name += '.html';
+    if (['pilote', 'search', 'imprimer'].includes(name)) name += '.html';
   }
   if (name === '' || name.endsWith('/')) name += 'index.html';
   const file = path.resolve(root, name);
@@ -275,6 +275,13 @@ async function testCloudflareNavigation(browser, origin) {
     }
     await page.goto(lesson);
     await page.locator('[data-progress="A"][aria-pressed="true"]').waitFor();
+
+    await page.locator('#printLesson').click();
+    await page.locator('#printNow:enabled').waitFor();
+    assert.equal(await page.locator('#printBody table').count(), 1);
+    await page.goto(page.url().replace('/imprimer.html?', '/imprimer?'));
+    await page.locator('#printNow:enabled').waitFor();
+    assert.equal(await page.locator('#printDocument').isVisible(), true);
 
     await page.goto(origin + '/search?q=ecole');
     await page.locator('#searchResults li').first().waitFor();

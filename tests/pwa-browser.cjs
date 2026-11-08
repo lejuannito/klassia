@@ -497,6 +497,38 @@ async function testReferenceTools(page, base) {
   console.log('PASS offline reference tools and lesson on writing amounts');
 }
 
+async function testArtsAndMovement(page, base) {
+  const notebook = base + 'pilote.html#arts-motricite';
+  await page.goto(notebook);
+  assert.equal(await page.locator('#arts-motricite .pilot-cards article').count(), 5);
+  const tasks = [
+    ['Ouvrir les cartes de sons', '.nursery-question', /Au deuxième moment/],
+    ['Ouvrir la danse et l’arrêt', '.nursery-question', /J’attends le signe de départ/i],
+    ['Ouvrir le motif de la fête', '.nursery-question', /au premier temps/],
+    ['Ouvrir le parcours à deux côtés', '.nursery-question', /Je passe à gauche/],
+    ['Ouvrir les deux vers de la classe', '.practice-item', /après « j’attends »/],
+    ['Ouvrir les signaux du couloir', '.practice-item', /nouveau signal de marche/],
+    ['Ouvrir les motifs à deux temps', '.practice-item', /deuxième temps de B/],
+    ['Ouvrir l’appel avant la passe', '.practice-item', /j’attends sa réponse/],
+    ['Ouvrir le dialogue sur huit temps', '.exercise-card', /temps 5.*temps 6 et 8/s],
+    ['Ouvrir la reprise après une pause', '.exercise-card', /Awa répond/]
+  ];
+  for (const [link, selector, answer] of tasks) {
+    await page.goto(notebook);
+    await page.getByRole('link', { name: link, exact: true }).click();
+    const exercise = page.locator(selector).last();
+    await revealCorrection(exercise);
+    assert.match(await exercise.locator('.correction-body').innerText(), answer);
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+  }
+  await page.goto(notebook);
+  await page.getByRole('link', { name: 'Noter l’essai motricité CE2' }).click();
+  const observation = page.locator('#pilotObservation');
+  assert.equal(await observation.locator('[name="lesson"]').inputValue(), 'EP-U8-L1');
+  assert.equal(await observation.locator('[name="exercise"]').inputValue(), 'EP-U8-L1-E3');
+  console.log('PASS ten offline arts and movement activities, corrections and pilot observation links');
+}
+
 async function testCloudflareNavigation(browser, origin) {
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
   try {
@@ -1032,6 +1064,7 @@ async function run() {
     await testReadingWorkshops(page, base);
     await testInkAndCalcul(context, page, base);
     await testReferenceTools(page, base);
+    await testArtsAndMovement(page, base);
   } finally {
     await browser?.close();
     server.close();

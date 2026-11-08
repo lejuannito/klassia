@@ -35,7 +35,9 @@
   "supportLessons": [
     "SIL-U1-L05",
     "SIL-U1-L07",
+    "SIL-U1-L08",
     "SIL-U1-L11",
+    "SIL-U3-L07",
     "SIL-U4-L01",
     "SIL-U4-L11",
     "SIL-U8-L01",
@@ -50,8 +52,10 @@
     "CE1-U6-L08",
     "CE1-U7-L01",
     "CE1-U7-L04",
+    "CE1-U7-L08",
     "CE1-U8-L01",
-    "CE1-U8-L04"
+    "CE1-U8-L04",
+    "CE1-U8-L09"
   ],
   "additionalPractice": [
     {
@@ -63,6 +67,11 @@
       "lesson": "SIL-U1-L05",
       "index": 1,
       "prompt": "Montre A, B et C et nomme chaque partie. Avec l’adulte, allume puis éteins un appareil préparé pour la séance."
+    },
+    {
+      "lesson": "SIL-U1-L08",
+      "index": 1,
+      "prompt": "L’adulte dit « stop » avant l’arrivée. Montre où tu t’arrêtes et explique quand tu peux repartir."
     },
     {
       "lesson": "SIL-U1-L11",
@@ -88,6 +97,11 @@
       "lesson": "SIL-U3-L03",
       "index": 1,
       "prompt": "Il y a 3 jetons. Tu les retires tous. Combien en reste-t-il ?"
+    },
+    {
+      "lesson": "SIL-U3-L07",
+      "index": 1,
+      "prompt": "Joue la scène. Où places-tu la pause et quel geste annonce ton envie de parler ?"
     },
     {
       "lesson": "SIL-U4-L01",
@@ -255,6 +269,11 @@
       "prompt": "Quel est le total des points de l’équipe rouge ?"
     },
     {
+      "lesson": "CE1-U7-L08",
+      "index": 1,
+      "prompt": "Joue A deux fois puis B deux fois. Dans B, à quel temps frappes-tu ? Dessine ou dis ta variante à un camarade."
+    },
+    {
       "lesson": "CE1-U8-L01",
       "index": 1,
       "prompt": "Lis « À la classe. La lecture a lieu jeudi. » Quelle information manque pour savoir où aller ?"
@@ -278,6 +297,11 @@
       "lesson": "CE1-U8-L04",
       "index": 2,
       "prompt": "Quel lieu transmet le plus de messages ?"
+    },
+    {
+      "lesson": "CE1-U8-L09",
+      "index": 1,
+      "prompt": "Ton partenaire se tourne pour regarder ailleurs. Que lui dis-tu et à quel moment fais-tu la passe ?"
     }
   ],
   "warnings": []

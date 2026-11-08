@@ -239,7 +239,7 @@
       "materials": "Coussins ou lignes tracées au sol, surface dégagée.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
-        "pages": "119–124",
+        "pages": "Tableau 39, p. 121 et tableau 40, p. 122, SIL, U1",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
       },
       "editorial": {
@@ -247,7 +247,42 @@
         "reviewer": null,
         "validated_at": null,
         "notes": "Proposition de contenu à relire par un enseignant de la classe."
-      }
+      },
+      "support": {
+        "title": "Deux signaux dans un couloir",
+        "text": "Trace deux lignes sur un sol dégagé. L’adulte montre les signaux. Un seul enfant se déplace dans le couloir à la fois.",
+        "table": {
+          "headers": [
+            "Signal",
+            "Action",
+            "À observer"
+          ],
+          "rows": [
+            [
+              "Marche",
+              "Avance à partir du trait.",
+              "L’enfant attend avant de partir."
+            ],
+            [
+              "Stop",
+              "Immobilise-toi là où tu es.",
+              "Les pieds restent en place."
+            ],
+            [
+              "Marche de nouveau",
+              "Rejoins la ligne d’arrivée.",
+              "L’enfant attend le deuxième départ."
+            ]
+          ]
+        }
+      },
+      "practice": [
+        {
+          "prompt": "L’adulte dit « stop » avant l’arrivée. Montre où tu t’arrêtes et explique quand tu peux repartir.",
+          "answer": "Je m’arrête là où je suis et je repars au nouveau signal de marche.",
+          "explanation": "Au deuxième essai, l’adulte change le moment du signal. Il observe la réaction et la stabilité séparément."
+        }
+      ]
     },
     {
       "id": "SIL-U1-L09",

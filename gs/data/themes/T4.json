@@ -1062,29 +1062,34 @@
           "title_en": "Creating a rhythm",
           "goal_fr": "Reproduis lentement : mains, mains, genoux.",
           "goal_en": "Slowly repeat: clap, clap, knees.",
-          "prompt_fr": "Reproduis lentement : mains, mains, genoux. Répète trois fois puis invente une variation. Un geste silencieux peut remplacer le son.",
-          "prompt_en": "Slowly repeat: clap, clap, knees. Do it three times, then invent a variation. A silent gesture may replace a sound.",
+          "prompt_fr": "Fais le motif de la fête deux fois. Frappe des mains, touche les genoux, puis garde les mains immobiles pendant un temps.",
+          "prompt_en": "Play the party pattern twice. Clap, tap your knees, then keep your hands still for one beat.",
           "steps_fr": [
-            "Préparer avec l’adulte : Reproduis lentement : mains, mains, genoux. Répète trois fois puis invente une variation. Un geste silencieux peut remplacer le son.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment reconnaît-on le motif qui se répète ?"
+            "L’adulte pointe les trois cases à la même vitesse. Suis chaque case.",
+            "Refais le motif sans raccourcir le silence.",
+            "Change un geste et montre la nouvelle version à un partenaire."
           ],
           "steps_en": [
-            "Prepare with the adult: Slowly repeat: clap, clap, knees. Do it three times, then invent a variation. A silent gesture may replace a sound.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How do we recognise the repeating pattern?"
+            "The adult points to the three boxes at a steady pace. Follow each box.",
+            "Repeat the pattern and keep the full rest.",
+            "Change one movement and show the new pattern to a partner."
           ],
           "questions": [
             {
               "fr": "Comment reconnaît-on le motif qui se répète ?",
               "en": "How do we recognise the repeating pattern?",
               "answer": "On retrouve les mêmes gestes dans le même ordre. / The same movements occur in the same order."
+            },
+            {
+              "fr": "Après le troisième temps silencieux, par quel geste reprends-tu le modèle ?",
+              "en": "After the quiet third beat, how do you start the pattern again?",
+              "answer": "Je frappe des mains au premier temps. / I clap on the first beat."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : On retrouve les mêmes gestes dans le même ordre.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Rejoue le motif deux fois dans le même ordre.",
+            "Garde le troisième temps silencieux avant de reprendre.",
+            "Montre la case du geste qu’il a changé."
           ],
           "materials": [
             "papier et crayons",
@@ -1092,7 +1097,7 @@
           ],
           "duration_minutes": 12,
           "source_refs": [
-            "FR : tableaux 27–28, p. 98–105, deuxième année",
+            "FR : tableau 27, p. 99, musique et danse, deuxième année, thème 4.",
             "EN : domaine 4, p. 82–85, Nursery Two"
           ],
           "editorial": {
@@ -1109,6 +1114,28 @@
             "items": [
               "mains, mains, genoux",
               "clap, clap, knees"
+            ]
+          },
+          "table": {
+            "headers": [
+              "Temps / Beat",
+              "1",
+              "2",
+              "3"
+            ],
+            "rows": [
+              [
+                "Motif / Pattern",
+                "Mains / Clap",
+                "Genoux / Knees",
+                "Silence / Rest"
+              ],
+              [
+                "Reprise / Repeat",
+                "Mains / Clap",
+                "Genoux / Knees",
+                "Silence / Rest"
+              ]
             ]
           }
         }
@@ -1128,29 +1155,34 @@
           "title_en": "A controlled route",
           "goal_fr": "Avec l’adulte dans un espace dégagé, suis une marche au rythme puis une pause.",
           "goal_en": "With the adult in a clear space, follow rhythmic walking then a pause.",
-          "prompt_fr": "Avec l’adulte dans un espace dégagé, suis une marche au rythme puis une pause. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
-          "prompt_en": "With the adult in a clear space, follow rhythmic walking then a pause. Move slowly and stop if you lose balance.",
+          "prompt_fr": "Pars au signal, contourne un repère et immobilise-toi à la marque. Commence à la marche.",
+          "prompt_en": "Start on the signal, go around a marker and stop on the line. Begin by walking.",
           "steps_fr": [
-            "Préparer avec l’adulte : Avec l’adulte dans un espace dégagé, suis une marche au rythme puis une pause. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que fais-tu si tu ne te sens pas stable ?"
+            "L’adulte place deux marques au sol et un repère souple entre les deux. Un enfant se déplace à la fois.",
+            "Pars au signal, passe à droite du repère, puis arrête tes pieds à la marque.",
+            "Pour le deuxième passage, montre le côté gauche avant de partir. Essaie quelques petits pas rythmés si le trajet est bien maîtrisé."
           ],
           "steps_en": [
-            "Prepare with the adult: With the adult in a clear space, follow rhythmic walking then a pause. Move slowly and stop if you lose balance.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What do you do if you feel unsteady?"
+            "The adult places two floor marks and a soft marker between them. One child moves at a time.",
+            "Start on the signal, go to the right of the marker and stop your feet at the line.",
+            "For the second turn, point to the left side before starting. Try a few small rhythmic steps if the route feels steady."
           ],
           "questions": [
             {
               "fr": "Que fais-tu si tu ne te sens pas stable ?",
               "en": "What do you do if you feel unsteady?",
               "answer": "Je m’arrête et je demande de l’aide. / Stop and ask for help."
+            },
+            {
+              "fr": "Pour le deuxième passage, de quel côté contournes-tu le repère ?",
+              "en": "Which way do you go around the marker on the second turn?",
+              "answer": "Je passe à gauche et je m’arrête à la marque. / I go to the left and stop at the line."
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je m’arrête et je demande de l’aide.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Part au signal et choisit le côté annoncé.",
+            "Contourne le repère sans le toucher.",
+            "S’arrête à la marque et tient debout sans précipitation."
           ],
           "materials": [
             "papier et crayons",
@@ -1158,7 +1190,7 @@
           ],
           "duration_minutes": 12,
           "source_refs": [
-            "FR : tableau 29, p. 106–109, deuxième année",
+            "FR : tableau 29, p. 107, déplacements avec obstacles, deuxième année, thème 4.",
             "EN : table 53, p. 86, Nursery Two"
           ],
           "editorial": {
@@ -1169,6 +1201,13 @@
             "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
             "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
             "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+          },
+          "diagram": {
+            "labels": [
+              "Départ / Start",
+              "Contourner / Go around",
+              "Arrêt / Stop"
+            ]
           }
         },
         {

@@ -1,15 +1,15 @@
 # Couverture du curriculum et progression des cinq classes
 
-Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute la géométrie et l’orientation et complète le repère TIC du CE1. Le quatrième suit la progression des longueurs. Le cinquième suit le passage de la lecture d’images à la rédaction d’un texte destiné à un lecteur. Le sixième relie le dénombrement et le calcul à des situations de la vie courante. [Matrice des 60 repères](MATRICE_CURRICULUM.csv)
+Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute la géométrie et l’orientation et complète le repère TIC du CE1. Le quatrième suit la progression des longueurs. Le cinquième suit le passage de la lecture d’images à la rédaction d’un texte destiné à un lecteur. Le sixième relie le dénombrement et le calcul à des situations de la vie courante. Le septième suit la pratique des arts et de la motricité. [Matrice des 70 repères](MATRICE_CURRICULUM.csv)
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
-| Moyenne section | 160 | 12 | 0 | 0 |
-| Grande section | 162 | 12 | 0 | 0 |
-| SIL | 90 | 12 | 0 | 0 |
-| CE1 | 89 | 12 | 0 | 0 |
-| CE2 | 347 | 12 | 0 | 0 |
-| **Total** | **848** | **60** | **0** | **0** |
+| Moyenne section | 160 | 14 | 0 | 0 |
+| Grande section | 162 | 14 | 0 | 0 |
+| SIL | 90 | 14 | 0 | 0 |
+| CE1 | 89 | 14 | 0 | 0 |
+| CE2 | 347 | 14 | 0 | 0 |
+| **Total** | **848** | **70** | **0** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -111,6 +111,18 @@ Les séances de la maternelle proposent un geste, une réponse orale ou une copi
 | CE2 | Calculer le coût des fournitures et vérifier la monnaie | L’élève distingue prix unitaire et coût total et explique si le budget suffit pour un article de plus. | `MA-U8-L4` |
 
 Les deux activités de maternelle et les trois problèmes proposent une surface de tracé. L’adulte peut faire reprendre avec du matériel réel et relever ce que l’élève réalise seul. [Séances du carnet](https://lejuannito.github.io/klassia/pilote.html#calcul)
+
+## Septième relevé en arts et motricité
+
+| Classe | Arts | Motricité | Ce que l’adulte observe |
+|---|---|---|---|
+| MS | Distinguer fort, doux et silence (`T4-AR2`) | Danser puis s’immobiliser (`T4-MT1`) | L’enfant laisse passer la carte silence et attend le signe de départ. |
+| GS | Rejouer un motif de trois temps (`GS-T4-AC3`) | Contourner le repère des deux côtés (`GS-T4-MO1`) | Le temps de pause, le côté choisi et la stabilité de l’arrêt. |
+| SIL | Dire deux vers et jouer un geste (`SIL-U3-L07`) | Réagir à deux signaux dans un couloir (`SIL-U1-L08`) | La place de la pause dans la scène et la réaction au signal de marche. |
+| CE1 | Passer entre deux motifs (`CE1-U7-L08`) | Annoncer et confirmer une passe (`CE1-U8-L09`) | La pulsation commune et la réponse avant l’envoi du ballon. |
+| CE2 | Enchaîner l’appel et la réponse sur huit temps (`AR-U8-L3`) | Arrêter, préciser, confirmer et reprendre (`EP-U8-L1`) | Le départ au temps 5, la précision du message et la confirmation avant le mouvement. |
+
+Les activités d’expression et de déplacement ont des critères distincts. Le carnet propose un relevé par tâche et une variante à essayer au deuxième passage. [Séances du carnet](https://lejuannito.github.io/klassia/pilote.html#arts-motricite)
 
 ## Suite de la feuille de route
 

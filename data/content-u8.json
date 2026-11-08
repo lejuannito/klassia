@@ -2316,6 +2316,13 @@
               "explanation": "Il doit y avoir une frappe et trois temps silencieux, tous comptés.",
               "type": "open",
               "id": "AR-U8-L3-E2"
+            },
+            {
+              "id": "AR-U8-L3-E3",
+              "type": "open",
+              "prompt": "Le second groupe commence à compter son motif au temps 4. Indique le bon départ et les temps des deux gestes de la réponse. Essayez le motif en inversant les rôles.",
+              "answer": "Le second groupe commence au temps 5. Il joue les gestes aux temps 6 et 8.",
+              "explanation": "Le temps 4 appartient à l’appel même s’il est silencieux. La réponse compte aussi son premier temps silencieux."
             }
           ],
           "source": "Curriculum CE2, danse, U8, p.149.",
@@ -2350,6 +2357,48 @@
                     "X",
                     "X",
                     "·"
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Enchaîner deux groupes sur huit temps",
+              "kind": "table",
+              "body": "Gardez une pulsation commune. Le premier groupe joue son appel en quatre temps. Le second commence au temps 5. X indique un geste, le point indique un temps silencieux.",
+              "table": {
+                "headers": [
+                  "Tour",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8"
+                ],
+                "rows": [
+                  [
+                    "Appel",
+                    "X",
+                    "·",
+                    "X",
+                    "·",
+                    "—",
+                    "—",
+                    "—",
+                    "—"
+                  ],
+                  [
+                    "Réponse",
+                    "—",
+                    "—",
+                    "—",
+                    "—",
+                    "·",
+                    "X",
+                    "·",
+                    "X"
                   ]
                 ]
               }
@@ -2435,6 +2484,13 @@
               "explanation": "Pose une question sur l’action, puis redis ce que tu vas faire.",
               "type": "open",
               "id": "EP-U8-L1-E2"
+            },
+            {
+              "id": "EP-U8-L1-E3",
+              "type": "open",
+              "prompt": "Deux partenaires avancent au même repère en entendant « viens ». Propose un appel précis, une confirmation et l’action à faire avant de reprendre.",
+              "answer": "Par exemple « Pause. Awa, va au repère gauche ». Awa répond « Je vais à gauche ». Chacun vérifie l’espace avant la reprise.",
+              "explanation": "L’observateur note l’arrêt, le destinataire, le repère et la confirmation. Jouez d’abord la scène à la marche, sans ballon."
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U8, p.156.",
@@ -2472,6 +2528,34 @@
                     "On doit jouer plus écarté.",
                     "« Après la passe, je vais vers le repère libre. »",
                     "À l’entraîneur, pour confirmer."
+                  ]
+                ]
+              }
+            },
+            {
+              "title": "Faire une pause, préciser et reprendre",
+              "kind": "table",
+              "table": {
+                "headers": [
+                  "Moment",
+                  "Message possible",
+                  "Action observable"
+                ],
+                "rows": [
+                  [
+                    "Confusion",
+                    "« Pause, deux joueurs avancent. »",
+                    "Les partenaires s’immobilisent."
+                  ],
+                  [
+                    "Message précis",
+                    "« Awa, place-toi au repère gauche. »",
+                    "La personne désignée confirme le repère."
+                  ],
+                  [
+                    "Reprise",
+                    "« J’ai compris, je vais à gauche. »",
+                    "Awa se place, puis le jeu reprend."
                   ]
                 ]
               }

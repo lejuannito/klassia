@@ -181,7 +181,7 @@
       "materials": "Papier, crayons, images découpées adaptées.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
-        "pages": "113–118",
+        "pages": "Tableau 35, p. 115 et tableau 37, p. 118, SIL, U3",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
       },
       "editorial": {
@@ -189,7 +189,37 @@
         "reviewer": null,
         "validated_at": null,
         "notes": "Proposition de contenu à relire par un enseignant de la classe."
-      }
+      },
+      "support": {
+        "title": "Deux vers pour jouer la règle",
+        "text": "Montre l’affiche de la main levée. Dis les deux vers avec un partenaire. Changez de rôle au deuxième essai.",
+        "table": {
+          "headers": [
+            "Moment",
+            "Voix",
+            "Geste"
+          ],
+          "rows": [
+            [
+              "1",
+              "Main levée, j’attends.",
+              "L’élève lève la main et fait une pause."
+            ],
+            [
+              "2",
+              "Mon tour arrive, je parle.",
+              "Le partenaire donne le tour et l’élève baisse la main."
+            ]
+          ]
+        }
+      },
+      "practice": [
+        {
+          "prompt": "Joue la scène. Où places-tu la pause et quel geste annonce ton envie de parler ?",
+          "answer": "La pause vient après « j’attends ». La main levée annonce que l’élève veut parler.",
+          "explanation": "L’adulte observe la parole audible, la pause et le geste. Faites ensuite la scène en changeant les rôles."
+        }
+      ]
     },
     {
       "id": "SIL-U3-L08",

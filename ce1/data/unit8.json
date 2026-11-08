@@ -360,7 +360,7 @@
       "materials": "Ballon léger, espace sûr, adulte",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
-        "pages": "CE1 uniquement · tableau EPS · p. 156",
+        "pages": "Tableau 52, p. 156, CE1, U8",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
       },
       "editorial": {
@@ -371,6 +371,41 @@
       },
       "competencies": [
         "EPS"
+      ],
+      "support": {
+        "title": "Un appel et une réponse avant la passe",
+        "text": "À deux, choisissez deux repères. Essayez une fois sans ballon, puis avec un ballon souple roulé au sol.",
+        "table": {
+          "headers": [
+            "Rôle",
+            "Parole ou geste",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Passeuse ou passeur",
+              "« Prêt ? »",
+              "Attend en gardant le ballon."
+            ],
+            [
+              "Partenaire",
+              "« Prêt ! » ou signe convenu",
+              "Montre ses mains ou le repère où recevoir."
+            ],
+            [
+              "Passeuse ou passeur",
+              "« À toi. »",
+              "Fait rouler doucement et échange son rôle."
+            ]
+          ]
+        }
+      },
+      "practice": [
+        {
+          "prompt": "Ton partenaire se tourne pour regarder ailleurs. Que lui dis-tu et à quel moment fais-tu la passe ?",
+          "answer": "Je demande « Prêt ? » et j’attends sa réponse ou son geste avant de faire rouler le ballon.",
+          "explanation": "L’observateur vérifie l’ordre de l’appel, de la réponse et de la passe. Refaites avec les rôles inversés."
+        }
       ]
     },
     {

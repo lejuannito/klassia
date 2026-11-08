@@ -1,6 +1,6 @@
 # Guide du pilote pour les parents et enseignants
 
-Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du pilote**. Les quinze séances sur les longueurs, la lecture et l’écriture et le calcul pratique donnent une activité à essayer, un geste à observer et une piste pour proposer une variante. Exporter les relevés en JSON pour les transmettre, puis importer les fichiers reçus dans un même carnet. La synthèse regroupe les observations pédagogiques par exercice et compare les essais téléphone par plateforme. [Ouvrir le carnet](https://lejuannito.github.io/klassia/pilote.html)
+Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du pilote**. Les vingt séances sur les longueurs, la lecture et l’écriture, le calcul pratique, les arts et la motricité donnent une activité à essayer, un geste à observer et une piste pour proposer une variante. Exporter les relevés en JSON pour les transmettre, puis importer les fichiers reçus dans un même carnet. La synthèse regroupe les observations pédagogiques par exercice et compare les essais téléphone par plateforme. [Ouvrir le carnet](https://lejuannito.github.io/klassia/pilote.html)
 
 1. Créez un profil par enfant avec un prénom ou pseudonyme. Choisissez le bon profil avant chaque séance.
 2. Attendez la confirmation de téléchargement avant de travailler sans réseau. Sur un nouvel appareil, importez la sauvegarde de l’enfant dans le profil choisi.

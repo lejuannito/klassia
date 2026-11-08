@@ -96,9 +96,16 @@ async function testBassaMicrophone(context, page, base) {
   const status = panel.locator('[data-status]'), audio = panel.locator('audio');
   const record = panel.locator('[data-record]'), stop = panel.locator('[data-stop]');
   await status.filter({ hasText: 'Choisissez une forme et lancez la prise.' }).waitFor();
-  assert.deepEqual(await entry.locator('option').evaluateAll(options => options.map(option => option.value)),
-    ['BA002', 'BA004', 'BA005', 'BA006']);
-  await entry.selectOption('BA004');
+  assert.equal(await entry.locator('option').count(), lexicon.entries.length);
+  for (const id of ['BA006', 'BA005', 'BA004', 'BA002']) {
+    await panel.locator('[data-quick="' + id + '"]').click();
+    assert.equal(await entry.inputValue(), id);
+  }
+  await panel.locator('[data-entry-filter] input').fill('BA007');
+  await panel.getByRole('button', { name: 'Filtrer les entrées' }).click();
+  assert.equal(await entry.inputValue(), 'BA007');
+  assert.equal(await entry.locator('option').count(), 1);
+  await panel.locator('[data-quick="BA004"]').click();
   assert.equal(await form.inputValue(), 'málêt');
   assert.match(await panel.locator('[data-situation]').innerText(), /personne qui enseigne/);
   assert.match(await panel.locator('[data-pilot-note]').getAttribute('href'), /exercice=BA004#observations$/);
@@ -124,6 +131,34 @@ async function testBassaMicrophone(context, page, base) {
   await review.getByRole('button', { name: 'Enregistrer l’avis' }).click();
   await status.filter({ hasText: /Avis du référent conservé/ }).waitFor();
   await review.getByText(/Prononciation et tons confirmés ·/).waitFor();
+  assert.equal(await page.locator('[data-bassa-audio="BA004"] audio[src^="blob:"]').count(), 0);
+  await review.getByLabel('Le locuteur autorise l’écoute par l’élève sur cet appareil').check();
+  await review.getByRole('button', { name: 'Enregistrer l’avis' }).click();
+  await review.getByText(/écoute élève activée/).waitFor();
+  await page.locator('[data-bassa-audio="BA004"] audio[src^="blob:"]').waitFor();
+
+  const profile = await page.evaluate(() => {
+    Klassia.write('klassia_user', { role: 'ELEVE' });
+    return Klassia.profile().id;
+  });
+  for (const route of ['?unit=U3#lesson:BA-U3-L1', 'sil/#lesson:SIL-U3-L10', 'ce1/#lesson:CE1-U3-L11']) {
+    await page.goto(base + route);
+    const approved = page.locator('[data-bassa-audio="BA004"] audio[src^="blob:"]');
+    await approved.waitFor();
+    await approved.evaluate(element => element.play());
+  }
+  await page.evaluate(() => Klassia.createProfile('Autre élève'));
+  await page.reload();
+  await page.locator('[data-bassa-audio="BA004"]').waitFor({ state: 'attached' });
+  assert.equal(await page.locator('[data-bassa-audio="BA004"] audio[src^="blob:"]').count(), 0);
+  await page.evaluate(id => {
+    Klassia.selectProfile(id);
+    Klassia.write('klassia_user', { role: 'ENSEIGNANT' });
+  }, profile);
+  await page.goto(base + '#bassa');
+  await entry.selectOption('BA004');
+  await review.getByText(/écoute élève activée/).waitFor();
+
 
   await form.selectOption('malet');
   await status.filter({ hasText: 'Choisissez une forme et lancez la prise.' }).waitFor();
@@ -146,6 +181,8 @@ async function testBassaMicrophone(context, page, base) {
   await panel.getByRole('button', { name: 'Remplacer la prise' }).click();
   await status.filter({ hasText: 'Prise conservée sur cet appareil.' }).waitFor();
   assert.equal(await review.getByLabel('Décision').inputValue(), '');
+  assert.equal(await review.getByLabel('Le locuteur autorise l’écoute par l’élève sur cet appareil').isChecked(), false);
+  assert.equal(await page.locator('[data-bassa-audio="BA004"] audio[src^="blob:"]').count(), 0);
 
   await record.click();
   await status.filter({ hasText: /Enregistrement en cours/ }).waitFor();

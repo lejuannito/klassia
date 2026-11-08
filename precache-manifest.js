@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "27ed5cd8de4a51295fd6ea5fef52cfa9aeb93ec0167de93f6e5747b9a9a13c01",
+  "version": "e334cc26769d73385936c2a51bfe7853dd43852bcd458cd5515446f0ae1698e2",
   "files": [
     {
       "url": "./app.js",
@@ -243,7 +243,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "f4db1df8f9a6d2657c4b636668768cba518333ebe146d04216d506aeab04e22b"
+      "sha256": "577525aac1b8156fb5d05c4243ddc1cd233373049d5004122a31f9f1816347d5"
     },
     {
       "url": "./class-switch-v12.js",
@@ -375,7 +375,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/index.html",
-      "sha256": "a223373199cb8dec0db6ec455529c49b52f2d8d095851b5ed9c68d9b77568bce"
+      "sha256": "5fbc185122bae2d2206f8b1a635523d77f8a600cc31fd47a9b8901cb271656e8"
     },
     {
       "url": "./gs/practice-v14.json",
@@ -443,7 +443,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/index.html",
-      "sha256": "6102f00e1104da221e145984f47138fc549270f58479a451b31ed3b206ed9922"
+      "sha256": "d4d30612eeed78e6c2fdd85c0e534e03974dfeaecc301c13ce2a6c1a42b4192d"
     },
     {
       "url": "./ms/ms-v14.css",
@@ -483,11 +483,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/bassa-recorder.js",
-      "sha256": "148a2a201f9a98e0bcdc9ea537d5bc75d3b3f0ce9aba311d84c23520e305c37a"
+      "sha256": "4e55294a3f5079a23dae919ce998307c8e215cd8078e24ce5b67b7306b04b830"
     },
     {
       "url": "./shared/bassa.js",
-      "sha256": "85f621d69281eae0ba6adb729c2ef099289d6948ec37ffa8468a338645f3a99e"
+      "sha256": "c292031628f2f570033647a17e741be7c67eea2cdf2409b684d051c496218a52"
     },
     {
       "url": "./shared/core.js",
@@ -599,7 +599,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "e7bb785acd8fd45fd2fa130fa0db8f3bb8080f3dccc6df3697ea28074412a28b"
+      "sha256": "6a1227c04812824189acac5e41c5635d27dd04409163830630146906d89c3477"
     },
     {
       "url": "./sil/style.css",
@@ -615,7 +615,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.js",
-      "sha256": "2b954dbaa2589aee41f9614ad69a9a6db6acd72536f3be5e981e6347232d07eb"
+      "sha256": "4718f60b72ba9d60002f852b7d7787fc1660558439d7981c353fb10582f217f6"
     },
     {
       "url": "./v9.css",

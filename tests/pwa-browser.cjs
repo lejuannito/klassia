@@ -44,9 +44,18 @@ changes.set(manifestFile, 'self.KLASSIA_RELEASE = ' + JSON.stringify({ version: 
 let published = false;
 let interrupted = false;
 const server = http.createServer((request, response) => {
-  const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname);
-  if (!pathname.startsWith(scope)) return response.writeHead(404).end();
-  let name = pathname.slice(scope.length);
+  const url = new URL(request.url, 'http://localhost');
+  const pathname = decodeURIComponent(url.pathname);
+  const cloudflare = !pathname.startsWith(scope);
+  let name = pathname.slice(cloudflare ? 1 : scope.length);
+  if (cloudflare) {
+    // Cloudflare Pages redirects index files to directories and other HTML to extensionless URLs.
+    const canonical = name === 'index.html' || name.endsWith('/index.html')
+      ? pathname.slice(0, -'index.html'.length)
+      : name.endsWith('.html') ? pathname.slice(0, -'.html'.length) : '';
+    if (canonical) return response.writeHead(308, { Location: canonical + url.search }).end();
+    if (name === 'pilote' || name === 'search') name += '.html';
+  }
   if (name === '' || name.endsWith('/')) name += 'index.html';
   const file = path.resolve(root, name);
   if (!file.startsWith(root + path.sep)) return response.writeHead(403).end();
@@ -239,9 +248,48 @@ async function testReadingWorkshops(page, base) {
   console.log('PASS offline reading and writing workshops, five routes, corrections and prefilled pilot feedback');
 }
 
+async function testCloudflareNavigation(browser, origin) {
+  const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  try {
+    const page = await context.newPage();
+    const index = await context.request.get(origin + '/index.html', { maxRedirects: 0 });
+    assert.equal(index.status(), 308);
+    assert.equal(index.headers().location, '/');
+
+    const first = await page.goto(origin);
+    assert.ok(first.ok() && !first.fromServiceWorker());
+    await page.waitForFunction(() => navigator.serviceWorker.controller?.state === 'activated');
+    for (let attempt = 0; attempt < 5; attempt++) {
+      const response = await page.reload();
+      assert.ok(response.ok() && response.fromServiceWorker());
+    }
+
+    const lesson = origin + '/ce1/#lesson:CE1-U7-L04';
+    await page.goto(lesson);
+    await page.locator('[data-progress="A"]').click();
+    await context.setOffline(true);
+    for (const route of ['/', '/ms/', '/gs/', '/sil/', '/ce1/']) {
+      const response = await page.goto(origin + route);
+      assert.ok(response.ok() && response.fromServiceWorker(), route);
+      await page.locator('#pwaTools').getByText(/disponibles hors connexion/).waitFor();
+    }
+    await page.goto(lesson);
+    await page.locator('[data-progress="A"][aria-pressed="true"]').waitFor();
+
+    await page.goto(origin + '/search?q=ecole');
+    await page.locator('#searchResults li').first().waitFor();
+    await page.goto(origin + '/pilote#observations');
+    await page.locator('#pilotObservation').waitFor();
+    console.log('PASS Cloudflare redirects: first load, worker activation, five reloads, offline navigation and progress');
+  } finally {
+    await context.close();
+  }
+}
+
 async function run() {
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
-  const base = 'http://127.0.0.1:' + server.address().port + scope;
+  const origin = 'http://127.0.0.1:' + server.address().port;
+  const base = origin + scope;
   const route = base + 'ce1/#lesson:CE1-U7-L04';
   let browser;
 
@@ -251,6 +299,7 @@ async function run() {
       headless: true,
       args: ['--no-sandbox', '--disable-dev-shm-usage', '--use-fake-device-for-media-stream', '--use-fake-ui-for-media-stream']
     });
+    await testCloudflareNavigation(browser, origin);
     const context = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'allow' });
     const page = await context.newPage();
     page.setDefaultTimeout(20000);

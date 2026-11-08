@@ -38,6 +38,15 @@ Utiliser la version Node.js 22 ou supérieure compatible. La commande génère l
 - Vérifier l'installation PWA sur Android. L'application installée depuis `github.io` et celle installée depuis `klassia.app` utilisent **deux origines différentes** : les progrès locaux ne sont **pas** automatiquement transférés. Utiliser l'export et la restauration des données pour migrer, si nécessaire.
 - Maintenir les avertissements « édition pilote accompagnée / non certifiée » : le domaine public ne constitue pas une validation pédagogique.
 
+## Rechargement dans Chrome après installation
+
+Sur Cloudflare Pages, `/index.html` redirige vers `/`, `/gs/index.html` vers `/gs/` et `/search.html` vers `/search`. L’ancienne édition pouvait télécharger ces pages, puis déclencher `ERR_FAILED` quand Chromium rejetait la réponse redirigée renvoyée par le service worker. L’édition corrigée renvoie le contenu vérifié et associe aussi `/search` et `/pilote` à leurs pages enregistrées. [Redirections Cloudflare Pages](https://developers.cloudflare.com/pages/configuration/serving-pages/#route-matching)
+
+1. Ouvrir `klassia.app` sur Chrome Android, attendre l’indication « disponibles hors connexion », puis recharger cinq fois et ouvrir les cinq classes.
+2. Marquer une leçon comme acquise, passer en mode avion et vérifier la reprise de la progression, la recherche et le carnet du pilote.
+3. Si une ancienne édition affiche `ERR_FAILED` à l’accueil, ouvrir [la recherche](https://klassia.app/search) sur le même domaine et utiliser « Vérifier les mises à jour » après le déploiement du correctif. Si une mise à jour est proposée, fermer les autres onglets ou fenêtres Klassia avant de la charger.
+4. Si la recherche échoue aussi, comparer `/icons/icon-192.png` et `/manifest.webmanifest` sur `klassia.app` et `klassia.pages.dev`, puis noter l’heure, le réseau, le navigateur et le code d’erreur dans [le ticket Chrome](https://github.com/lejuannito/klassia/issues/34).
+
 ## Vérification locale
 
 ```sh

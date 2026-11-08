@@ -18,7 +18,15 @@ await p.goto('http://localhost:8765/ms/');await p.getByRole('heading',{name:/L�
 await route('#domain:ST:0');await p.locator('#msNumber').fill('1');await p.locator('#msCheckNumber').click();assert.match(await p.locator('#msNumberResult').innerText(),/Bravo/);
 await route('#domain:LC:1');assert.equal(await p.locator('.activityCard').count(),1);await p.getByRole('button',{name:'Acquis',exact:true}).click();await p.reload();await p.getByRole('button',{name:'Acquis',exact:true}).waitFor();assert.match(await p.getByRole('button',{name:'Acquis',exact:true}).getAttribute('class'),/active/);
 await p.getByText('Observation de l’adulte',{exact:true}).click();await p.locator('#observeNote').fill('Se présente sans aide.');await p.getByRole('button',{name:'Enregistrer l’observation'}).click();assert.match(await p.locator('#observeResult').innerText(),/enregistrée/);
-const popupPromise=p.waitForEvent('popup');await p.getByRole('button',{name:'🖨 Activité / PDF',exact:true}).click();const popup=await popupPromise;await popup.waitForLoadState();const text=await popup.locator('body').innerText();assert.match(text,/My name is/);assert.match(text,/Steps/);await popup.close();
+await p.getByRole('button',{name:'🖨 Activité / PDF',exact:true}).click();
+await p.locator('#printNow:enabled').waitFor();
+assert.equal(new URL(p.url()).pathname,'/imprimer.html');
+const text=await p.locator('#printBody').innerText();
+assert.match(text,/My name is/);assert.match(text,/Steps/);assert.doesNotMatch(text,/Repère de réponse/);
+await p.locator('#printFallback summary').click();
+assert.equal(await p.locator('#printExternal').getAttribute('href'),p.url());
+await p.locator('#printBack').click();
+await p.locator('.activityCard').waitFor();
 await p.goto('http://localhost:8765/sil/');await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();assert.equal(await p.locator('.gs-card').count(),8);await p.locator('.klassia-learning-mode').getByRole('link',{name:'Par matière'}).click();await p.getByRole('heading',{name:'Parcourir les matières'}).waitFor();await p.locator('a[href="#subject:Fran%C3%A7ais"]').click();await p.getByRole('heading',{name:'J’écoute, je parle et je découvre l’alphabet'}).waitFor();await p.locator('.gs-picker').first().click();await p.locator('.answer-reveal').first().waitFor();assert.equal(await p.locator('.answer-reveal').first().getAttribute('open'),null);await p.locator('.klassia-learning-mode').getByRole('link',{name:'Par unité'}).click();await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();await p.locator('a[href="#unit:SIL-U1"]').click();await p.locator('.gs-hero').getByRole('heading',{name:/La maison/}).waitFor();await p.goto('http://localhost:8765/ce1/');await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();await p.locator('a[href="#unit:CE1-U1"]').click();await p.getByRole('heading',{name:/Classer des ensembles et composer les nombres jusqu’à 200/}).waitFor();await p.locator('.gs-picker').first().click();await p.locator('.answer-reveal').first().waitFor();assert.equal(await p.locator('.answer-reveal').first().getAttribute('open'),null);
 // A direct lesson link is usable without opening its unit first.
 await p.goto('http://localhost:8765/ce1/#lesson:CE1-U7-L04');await p.locator('.lesson-support table').waitFor();assert.match(await p.locator('.lesson-support').innerText(),/Rouge/);assert.equal(await p.locator('.lesson-card').count(),1);assert.equal(await p.locator('.answer-reveal[open]').count(),0);
@@ -35,9 +43,33 @@ for(const width of [320,390,1280]){await p.setViewportSize({width,height:844});a
 await p.goto('http://localhost:8765/?unit=U4#lesson:MA-U4-L2');await p.waitForFunction(()=>Klassia.storage.getItem('klassia_unit')==='U4');assert.equal(await p.evaluate(()=>Klassia.storage.getItem('klassia_unit')),'U4');
 await route('#domains-all');await p.getByRole('heading',{name:'Parcourir les domaines'}).waitFor();await route('#domain-all:2');assert.ok(await p.locator('a[href*="?unit="]').count()>0);
 await p.goto('http://localhost:8765/ms/#subjects-all');await p.getByRole('heading',{name:'Parcourir les matières et activités'}).waitFor();await p.getByRole('link',{name:/Arts et création/}).click();await p.getByRole('heading',{name:'Arts et création'}).waitFor();assert.ok(await p.locator('a[href*="?theme="]').count()>0);
+for (const [route,button,label,content] of [
+ ['/sil/#lesson:SIL-U4-L11','#printLesson','SIL','.lesson-support img'],
+ ['/ce1/#lesson:CE1-U7-L04','#printLesson','CE1','.lesson-support table'],
+ ['/?unit=U1#lesson:MA-U1-L2','#printLessonV14','CE2','.print-question']
+]) {
+ await p.goto('http://localhost:8765'+route);
+ await p.locator(button).click();
+ await p.locator('#printNow:enabled').waitFor();
+ assert.match(await p.locator('#printLabel').innerText(),new RegExp(label+' · Fiche élève'));
+ assert.ok(await p.locator('#printBody '+content).count(),route);
+ assert.equal(await p.locator('#printBody .print-answer').count(),0);
+ await p.evaluate(()=>{window.print=()=>{document.body.dataset.printed='true';};});
+ await p.locator('#printNow').click();
+ assert.equal(await p.locator('body').getAttribute('data-printed'),'true');
+ const pdf=await p.pdf({preferCSSPageSize:true});
+ assert.ok(pdf.subarray(0,5).equals(Buffer.from('%PDF-')) && pdf.length>10000,route);
+}
+await p.evaluate(()=>Klassia.write('klassia_user',{role:'PARENT'}));
+await p.reload();
+await p.locator('#printVariant').click();
+await p.locator('#printNow:enabled').waitFor();
+assert.match(await p.locator('#printLabel').innerText(),/Guide et corrigé adulte/);
+assert.ok(await p.locator('.print-answer').count());
+const adultSheetUrl=p.url();
 await p.goto('http://localhost:8765/sil/#lesson:inexistant');await p.getByRole('heading',{name:'Ressource introuvable'}).waitFor();
 assert.deepEqual(errors,[]);console.log('PASS mobile navigation, idle DOM, MCQ 8 units, score validation, child isolation, MS observation and bilingual print');
 await b.close();b=await chromium.launch(launchOptions);
 // A fresh direct MS visit registers its own offline root worker.
-ctx=await b.newContext({serviceWorkers:'allow'});const offline=await ctx.newPage();await offline.goto('http://localhost:8765/ms/');await offline.waitForFunction(()=>navigator.serviceWorker.controller,{timeout:20000});await offline.waitForFunction(()=>document.querySelector('#pwaTools')?.textContent.includes('disponibles hors connexion'),{timeout:20000});await ctx.setOffline(true);await offline.goto('http://localhost:8765/ms/?theme=T8#home');await offline.getByRole('heading',{name:/Les voyages/}).waitFor();await offline.goto('http://localhost:8765/#home');await offline.getByRole('heading',{name:/Bonjour/}).waitFor();await offline.evaluate(async()=>{await loadUnit('U8');location.hash='#lesson:MA-U8-L1';});await offline.getByRole('heading',{name:'Nombres entiers de cinq chiffres'}).waitFor();console.log('PASS direct MS install, offline MS T8 and CE2 U8');await offline.goto('http://localhost:8765/ce1/#lesson:CE1-U8-L04');await offline.locator('.lesson-support table').waitFor();await offline.goto('http://localhost:8765/sil/#lesson:SIL-U8-L03');await offline.locator('.answer-reveal').first().waitFor();console.log('PASS offline CE1 and SIL deep links');await b.close();b=await chromium.launch(launchOptions);ctx=await b.newContext({serviceWorkers:'allow'});const direct=await ctx.newPage();await direct.goto('http://localhost:8765/ce1/');await direct.waitForFunction(()=>document.querySelector('#pwaTools')?.textContent.includes('disponibles hors connexion'),{timeout:20000});await ctx.setOffline(true);await direct.goto('http://localhost:8765/sil/#lesson:SIL-U2-L03');await direct.locator('.answer-reveal').first().waitFor();console.log('PASS fresh CE1 installation and offline SIL access');
+ctx=await b.newContext({serviceWorkers:'allow'});const offline=await ctx.newPage();await offline.goto('http://localhost:8765/ms/');await offline.waitForFunction(()=>navigator.serviceWorker.controller,{timeout:20000});await offline.waitForFunction(()=>document.querySelector('#pwaTools')?.textContent.includes('disponibles hors connexion'),{timeout:20000});await ctx.setOffline(true);await offline.goto('http://localhost:8765/ms/?theme=T8#home');await offline.getByRole('heading',{name:/Les voyages/}).waitFor();await offline.goto('http://localhost:8765/#home');await offline.getByRole('heading',{name:/Bonjour/}).waitFor();await offline.evaluate(async()=>{await loadUnit('U8');location.hash='#lesson:MA-U8-L1';});await offline.getByRole('heading',{name:'Nombres entiers de cinq chiffres'}).waitFor();console.log('PASS direct MS install, offline MS T8 and CE2 U8');await offline.goto('http://localhost:8765/ce1/#lesson:CE1-U8-L04');await offline.locator('.lesson-support table').waitFor();await offline.goto('http://localhost:8765/sil/#lesson:SIL-U8-L03');await offline.locator('.answer-reveal').first().waitFor();await offline.locator('#printLesson').click();await offline.locator('#printNow:enabled').waitFor();assert.equal(await offline.locator('#printDocument').isVisible(),true);await offline.reload();await offline.locator('#printNow:enabled').waitFor();console.log('PASS offline CE1 and SIL deep links and printable page');await b.close();b=await chromium.launch(launchOptions);ctx=await b.newContext({serviceWorkers:'allow'});const direct=await ctx.newPage();await direct.goto(adultSheetUrl);await direct.locator('.print-answer').first().waitFor();await direct.goto('http://localhost:8765/ce1/');await direct.waitForFunction(()=>document.querySelector('#pwaTools')?.textContent.includes('disponibles hors connexion'),{timeout:20000});await ctx.setOffline(true);await direct.goto('http://localhost:8765/sil/#lesson:SIL-U2-L03');await direct.locator('.answer-reveal').first().waitFor();console.log('PASS fresh CE1 installation and offline SIL access');
 }finally{await b.close();server.close();}})().catch(e=>{console.error(e);server.close();process.exit(1)});

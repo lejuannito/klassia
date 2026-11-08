@@ -1,0 +1,36 @@
+@page { size: A4; margin: 14mm; }
+* { box-sizing: border-box; }
+body { max-width: 210mm; margin: auto; padding: 16px; color: #172033; font: 11.5pt/1.45 Arial, sans-serif; overflow-wrap: anywhere; }
+[hidden] { display: none !important; }
+a { color: #2346b2; }
+.print-toolbar { padding: 12px; margin-bottom: 20px; border: 1px solid #bdc9e5; border-radius: 8px; background: #f1f6ff; }
+.print-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.print-toolbar button { min-height: 44px; padding: 8px 12px; font: inherit; }
+.print-toolbar details { margin-top: 8px; }
+.print-toolbar summary { cursor: pointer; }
+.print-toolbar label { display: block; margin-top: 8px; }
+.print-toolbar input { width: 100%; font: inherit; }
+.print-toolbar p:last-child { margin-bottom: 0; }
+.print-header { border-bottom: 2px solid #3157d5; margin-bottom: 7mm; }
+h1 { font-size: 22pt; margin: 0 0 4px; }
+h2 { font-size: 16pt; }
+h3 { font-size: 13pt; }
+h2, h3, h4 { break-after: avoid; }
+p { orphans: 2; widows: 2; }
+img, svg { display: block; max-width: 100%; max-height: 210mm; object-fit: contain; }
+table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+th, td { border: 1px solid #9ca5b6; padding: 5px; text-align: left; vertical-align: top; }
+tr, .print-question, img, svg { break-inside: avoid; }
+.box, .take, .manual, .lesson-support, .print-answer, .answer, .bassa { border: 1px solid #b2b9c7; border-radius: 6px; padding: 8px; margin: 8px 0; }
+.p-lesson, .activityPrint { border-bottom: 1px solid #ccd3df; padding-bottom: 4mm; margin-bottom: 6mm; }
+.answer-lines { height: 21mm; margin-bottom: 5mm; break-inside: avoid; background: repeating-linear-gradient(to bottom, transparent 0 6.8mm, #9ca5b6 6.8mm 7mm); print-color-adjust: exact; }
+.preserve-lines { white-space: pre-line; }
+.visual, .diagram { display: flex; flex-wrap: wrap; gap: 8px; }
+.visual span, .diagramNode span { display: inline-block; padding: 4px 7px; border: 1px solid #b2b9c7; border-radius: 4px; }
+.diagramNode b { padding-left: 6px; }
+.worksheet-svg, .trace-svg { width: 100%; }
+@media print {
+ body { max-width: none; padding: 0; }
+ .print-toolbar { display: none; }
+ .print-chapter + .print-chapter { break-before: page; }
+}

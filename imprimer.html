@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3157d5">
+  <title>Fiche imprimable · Klassia</title>
+  <link rel="stylesheet" href="./shared/print.css">
+  <script src="./shared/core.js" defer></script>
+  <script src="./ms/nursery-support.js" defer></script>
+  <script src="./shared/lesson-support.js" defer></script>
+  <script type="module" src="./shared/print-page.js"></script>
+</head>
+<body>
+  <nav class="print-toolbar" aria-label="Commandes d’impression">
+    <div class="print-actions">
+      <a id="printBack" href="./">← Retour à Klassia</a>
+      <button type="button" id="printNow" disabled>Imprimer / PDF</button>
+      <a id="printVariant" hidden></a>
+    </div>
+    <details id="printFallback" hidden>
+      <summary>Imprimer depuis le navigateur</summary>
+      <p>Si l’aperçu reste blanc dans l’application, ouvrez cette fiche dans Chrome ou Safari.</p>
+      <a id="printExternal" target="_blank" rel="noopener noreferrer">Ouvrir dans le navigateur</a>
+      <label for="printAddress">Lien à copier si la fiche reste dans l’application</label>
+      <input id="printAddress" readonly>
+    </details>
+    <p id="printStatus" role="status">Préparation de la fiche…</p>
+  </nav>
+  <main id="printDocument" hidden>
+    <header class="print-header"><h1 id="printTitle"></h1><p id="printLabel"></p></header>
+    <div id="printBody"></div>
+  </main>
+</body>
+</html>

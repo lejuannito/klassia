@@ -94,7 +94,9 @@
   function specialRoute(grade,hash){return routes[grade]?.(hash)||false;}
   function rendered(){if(typeof document!=='undefined')document.dispatchEvent(new CustomEvent('klassia:render'));}
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  return {version:'15.0',storage,exportBackup,prepareImport,restore,undoRestore,createProfile,selectProfile,renameProfile,append,shuffleOptions,registerRoutes,specialRoute,rendered,escape,
+  const read=(k,fallback)=>{try{return JSON.parse(storage.getItem(k))??fallback;}catch{return fallback;}};
+  const isAdultSpace=()=>['PARENT','ENSEIGNANT','ADMIN'].includes(read('klassia_user',{})?.role);
+  return {isAdultSpace,version:'15.0',storage,exportBackup,prepareImport,restore,undoRestore,createProfile,selectProfile,renameProfile,append,shuffleOptions,registerRoutes,specialRoute,rendered,escape,
     profile:()=>{refresh();return {id:state.active,name:state.profiles[state.active].name};},profiles:()=>{refresh();return Object.entries(state.profiles).map(([id,p])=>({id,name:p.name}));},
-    read:(k,fallback)=>{try{return JSON.parse(storage.getItem(k))??fallback;}catch{return fallback;}},write:(k,v)=>storage.setItem(k,JSON.stringify(v))};
+    read,write:(k,v)=>storage.setItem(k,JSON.stringify(v))};
 });

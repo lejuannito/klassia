@@ -6,12 +6,7 @@ let catalog,units,lessons,progress;
 const status=s=>s==='A'?'Réalisé':s==='EC'?'En cours':'À découvrir';
 const source=s=>s?`<a href="${E(s.url||'#')}" target="_blank" rel="noopener">${E(s.title)} · ${E(s.pages||'')}</a>`:'';
 function nav(mode){return `<nav class="klassia-learning-mode" aria-label="Choisir un mode de navigation"><a href="#units" ${mode==='unit'?'aria-current="page"':''}>Par unité</a><a href="#subjects" ${mode==='subject'?'aria-current="page"':''}>Par matière</a><a href="#domains" ${mode==='domain'?'aria-current="page"':''}>Par domaine</a></nav>`;}
-function pauseLessonAudio(except) {
- for (const audio of root.querySelectorAll('.lesson-audio audio')) {
-  if (audio !== except) audio.pause();
- }
-}
-function frame(mode,body){pauseLessonAudio();root.innerHTML=`<header class="gs-top"><a href="${E(c.back)}">K Klassia</a><strong>${E(c.grade)} bilingue</strong></header><main class="gs-wrap"><p class="gs-notice">Édition pilote accompagnée · relecture pédagogique en cours</p>${nav(mode)}${body}</main>`;K.rendered();}
+function frame(mode,body){root.innerHTML=`<header class="gs-top"><a href="${E(c.back)}">K Klassia</a><strong>${E(c.grade)} bilingue</strong></header><main class="gs-wrap"><p class="gs-notice">Édition pilote accompagnée · relecture pédagogique en cours</p>${nav(mode)}${body}</main>`;K.rendered();}
 function hero(title,description){return `<section class="gs-hero"><h1>${E(title)}</h1><p>${E(description)}</p></section>`;}
 function pick(l,u){return `<a class="gs-card gs-picker" href="#lesson:${encodeURIComponent(l.id)}"><p class="eyebrow">${E(l.domain)} · ${E(u.id)}</p><h2>${E(l.title)}</h2><p>${E(l.objective)}</p><span>${status(progress[l.id])} · Ouvrir la leçon →</span></a>`;}
 function listUnits(){frame('unit',hero('Parcourir les unités','Choisissez une unité, puis une leçon. Vous pouvez aussi parcourir les matières et les domaines.')+`<section class="gs-grid">${units.map(u=>`<a class="gs-card gs-picker" href="#unit:${u.id}"><p class="eyebrow">${E(u.id)} · ${u.lessons.length} leçons</p><h2>${E(u.title_fr)}<span lang="en">${E(u.title_en)}</span></h2><p>${E(u.subcentres?.join(' · ')||'')}</p><span>${u.lessons.filter(l=>progress[l.id]==='A').length}/${u.lessons.length} réalisées</span></a>`).join('')}</section>`);}
@@ -20,25 +15,20 @@ function listSubjects(){const ss=[...new Set(lessons.map(x=>x.l.domain))];frame(
 function showSubject(s){const items=lessons.filter(x=>x.l.domain===s);if(!items.length)return notFound();frame('subject',`<a href="#subjects">← Toutes les matières</a>`+hero(s,'Choisissez une leçon.')+`<section class="gs-grid">${items.map(x=>pick(x.l,x.u)).join('')}</section>`);}
 function listDomains(){frame('domain',hero('Parcourir les domaines','Une matière peut contribuer à plusieurs domaines du programme.')+`<section class="gs-grid">${catalog.domains.map((d,i)=>`<a class="gs-card gs-picker" href="#domain:${i}"><h2>${E(d.title)}</h2><p>${E(d.subjects.join(' · '))}</p></a>`).join('')}</section>`);}
 function showDomain(i){const d=catalog.domains[Number(i)];if(!d)return notFound();frame('domain',`<a href="#domains">← Tous les domaines</a>`+hero(d.title,'Leçons rattachées à ce domaine.')+`<section class="gs-grid">${lessons.filter(x=>d.subjects.includes(x.l.domain)).map(x=>pick(x.l,x.u)).join('')}</section>`);}
-function recordedAudio(src,en) {
- if (!src) return '';
- const label = en ? 'Offline clip · synthetic voice' : 'Extrait hors connexion · voix de synthèse';
- return `<div class="lesson-audio"><p>${label}</p><audio aria-label="${label}" controls preload="none" crossorigin="anonymous" src="${E(src)}"></audio></div>`;
-}
 function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)return notFound();const {l,u}=found,i=u.lessons.indexOf(l),en=l.domain.startsWith('English');
- const adult=K.isAdultSpace();
+ const adult=K.isAdultSpace(), lang=en?'en-GB':'fr-FR';
  const lab=en?['Learning goal','Understand','Worked example','Practise together','Your turn','Try again with help','Use it again','Materials']:['Objectif','Comprendre','Exemple expliqué','Ensemble','À toi de jouer','Si c’est difficile','Réinvestir','Matériel'];
  const practice = l.practice || [];
  const extra = practice.map((p, j) => {
   const transcript = p.listen && adult
    ? `<details class="adult-guide"><summary>${en?'Read the message (adult)':'Lire le message (adulte)'}</summary><p>${E(p.listen)}</p></details>`
    : '';
-  const listening = p.listen ? `${recordedAudio(p.audio,en)}<div class="gs-actions" data-listening-practice="${j}"></div>${transcript}` : '';
+  const listening = p.listen ? `${K.speech.clip(p.audio,lang)}<div class="gs-actions" data-listening-practice="${j}"></div>${transcript}` : '';
   const answer = `<p>${E(p.answer)}</p>${p.explanation?`<p>${E(p.explanation)}</p>`:''}`;
   return `<section class="practice-item"><h3>${en?'Practice':'Entraînement'} ${j+2}</h3><p>${E(p.prompt)}</p>${listening}${K.correction.html(id+'_practice_'+j,answer,{en})}</section>`;
  }).join('');
  const proposals=(l.domain.includes('national')?[]:(l.proposedWords||[])).map(w=>`<article><b>${E(w.concept)}</b> : ${w.forms.map(E).join(' / ')}<p>Sources : ${(w.sources||[]).map(E).join('; ')}</p><p>${E(Array.isArray(w.notes)?w.notes.join(' '):w.notes||'')}</p></article>`).join('');
- frame('unit',`<nav class="lesson-breadcrumb" aria-label="Fil d’Ariane"><a href="#units">Unités</a> › <a href="#unit:${u.id}">${E(u.title_fr)}</a> › <a href="#subject:${encodeURIComponent(l.domain)}">${E(l.domain)}</a></nav><article class="gs-card lesson-card" data-lesson="${E(id)}" lang="${en?'en':'fr'}"><h1>${E(l.title)}</h1><p><b>${lab[0]} :</b> ${E(l.objective)}</p>${l.prerequisites?`<p><b>${en?'Before starting':'Avant de commencer'} :</b> ${E(l.prerequisites)}</p>`:''}<section><h2>${lab[1]}</h2><p class="preserve-lines">${E(l.course)}</p></section>${K.lessonSupport(l.support,recordedAudio(l.support?.audio,en))}<section><h2>${lab[2]}</h2><p class="preserve-lines">${E(l.model)}</p></section><section><h2>${lab[3]}</h2><p>${E(l.guided)}</p></section><section><h2>${lab[4]}</h2><p>${E(l.exercise)}</p>${K.correction.html(id+'_exercise',`<p class="preserve-lines">${E(l.answer)}</p>`,{en,inputId:'lessonResponse',rows:3,maxLength:1500})}<p class="muted">${en?'Open task: compare your answer with an adult. Only progress is saved.':'Réponse ouverte : compare ta démarche avec un adulte. Seule la progression est sauvegardée.'}</p></section>${extra}${adult?`<details class="adult-guide"><summary>${lab[5]}</summary><p>${E(l.remediation)}</p><h3>${lab[6]}</h3><p>${E(l.transfer)}</p><p><b>${lab[7]} :</b> ${E(l.materials)}</p></details>`:''}${proposals?`<details class="bassa-proposals"><summary>Propositions bassa documentées, non validées</summary>${proposals}<p>Toutes les variantes présentées restent consultables. <a href="${E(c.back)}#bassa">Ouvrir l’atelier de réponses et d’arbitrage</a></p></details>`:''}<details><summary>${en?'Sources and editorial status':'Sources et statut éditorial'}</summary><p>${source(l.source)}</p><p>À relire · ${E(l.editorial?.notes||'')}</p></details><div class="gs-actions">${['D','EC','A'].map(st=>`<button data-progress="${st}" aria-pressed="${(progress[id]||'D')===st}">${status(st)}</button>`).join('')}<button id="printLesson">Imprimer / Print</button>${K.isAdultSpace()?'<button id="printLessonAdult">Corrigé adulte / PDF</button>':''}</div><p id="progressMessage" role="status"></p></article><nav class="activity-browser" aria-label="Leçons de cette unité">${i>0?`<a href="#lesson:${u.lessons[i-1].id}">← Précédente</a>`:'<span></span>'}<span>${i+1} / ${u.lessons.length}</span>${i<u.lessons.length-1?`<a href="#lesson:${u.lessons[i+1].id}">Suivante →</a>`:'<span></span>'}</nav>`);
+ frame('unit',`<nav class="lesson-breadcrumb" aria-label="Fil d’Ariane"><a href="#units">Unités</a> › <a href="#unit:${u.id}">${E(u.title_fr)}</a> › <a href="#subject:${encodeURIComponent(l.domain)}">${E(l.domain)}</a></nav><article class="gs-card lesson-card" data-lesson="${E(id)}" lang="${en?'en':'fr'}"><h1>${E(l.title)}</h1><p><b>${lab[0]} :</b> ${E(l.objective)}</p>${l.prerequisites?`<p><b>${en?'Before starting':'Avant de commencer'} :</b> ${E(l.prerequisites)}</p>`:''}<section><h2>${lab[1]}</h2><p class="preserve-lines">${E(l.course)}</p></section>${K.lessonSupport(l.support,K.speech.clip(l.support?.audio,lang))}<section><h2>${lab[2]}</h2><p class="preserve-lines">${E(l.model)}</p></section><section><h2>${lab[3]}</h2><p>${E(l.guided)}</p></section><section><h2>${lab[4]}</h2><p>${E(l.exercise)}</p>${K.correction.html(id+'_exercise',`<p class="preserve-lines">${E(l.answer)}</p>`,{en,inputId:'lessonResponse',rows:3,maxLength:1500})}<p class="muted">${en?'Open task: compare your answer with an adult. Only progress is saved.':'Réponse ouverte : compare ta démarche avec un adulte. Seule la progression est sauvegardée.'}</p></section>${extra}${adult?`<details class="adult-guide"><summary>${lab[5]}</summary><p>${E(l.remediation)}</p><h3>${lab[6]}</h3><p>${E(l.transfer)}</p><p><b>${lab[7]} :</b> ${E(l.materials)}</p></details>`:''}${proposals?`<details class="bassa-proposals"><summary>Propositions bassa documentées, non validées</summary>${proposals}<p>Toutes les variantes présentées restent consultables. <a href="${E(c.back)}#bassa">Ouvrir l’atelier de réponses et d’arbitrage</a></p></details>`:''}<details><summary>${en?'Sources and editorial status':'Sources et statut éditorial'}</summary><p>${source(l.source)}</p><p>À relire · ${E(l.editorial?.notes||'')}</p></details><div class="gs-actions">${['D','EC','A'].map(st=>`<button data-progress="${st}" aria-pressed="${(progress[id]||'D')===st}">${status(st)}</button>`).join('')}<button id="printLesson">Imprimer / Print</button>${K.isAdultSpace()?'<button id="printLessonAdult">Corrigé adulte / PDF</button>':''}</div><p id="progressMessage" role="status"></p></article><nav class="activity-browser" aria-label="Leçons de cette unité">${i>0?`<a href="#lesson:${u.lessons[i-1].id}">← Précédente</a>`:'<span></span>'}<span>${i+1} / ${u.lessons.length}</span>${i<u.lessons.length-1?`<a href="#lesson:${u.lessons[i+1].id}">Suivante →</a>`:'<span></span>'}</nav>`);
  root.querySelectorAll('[data-progress]').forEach(b=>b.onclick=()=>{progress=K.read(c.progressKey,{});progress[id]=b.dataset.progress;K.write(c.progressKey,progress);root.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('progressMessage').textContent='Progression enregistrée : '+status(b.dataset.progress);});
  const lessonCard = root.querySelector('.lesson-card');
  if(l.domain.includes('national'))K.Bassa?.mount(lessonCard,c.grade,l.id);
@@ -47,7 +37,6 @@ function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)retur
  if (!l.domain.includes('national')) {
   const title = en ? l.title.replace(/^Séquence pilote conservée : /, '') : l.title;
   const spokenText = [title, l.course, l.support?.text, l.model].filter(Boolean).join('. ');
-  const lang = en ? 'en-GB' : 'fr-FR';
   K.addSpeech(lessonCard, spokenText, lang);
   for (const player of lessonCard.querySelectorAll('[data-listening-practice]')) {
    K.addSpeech(player, practice[Number(player.dataset.listeningPractice)].listen, lang);
@@ -55,16 +44,6 @@ function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)retur
  }
 }
 function notFound(){frame('unit',hero('Ressource introuvable','Ce lien ne correspond pas à une leçon de cette classe.')+'<a href="#units">Revenir aux unités</a>');}
-root.addEventListener('play', event => {
- const audio = event.target;
- if (!audio.matches('.lesson-audio audio') || audio.paused) return;
- pauseLessonAudio(audio);
- K.speech.stop();
-}, true);
-root.addEventListener('click', event => {
- if (event.target.closest('.speech-control')) pauseLessonAudio();
-}, true);
-window.addEventListener('pagehide', () => pauseLessonAudio());
 function route(){try{progress=K.read(c.progressKey,{});const h=decodeURIComponent(location.hash||'#units');if(h==='#units'||h==='#home')return listUnits();if(h==='#subjects')return listSubjects();if(h==='#domains')return listDomains();if(h.startsWith('#unit:'))return showUnit(h.slice(6));if(h.startsWith('#subject:'))return showSubject(h.slice(9));if(h.startsWith('#domain:'))return showDomain(h.slice(8));if(h.startsWith('#lesson:'))return showLesson(h.slice(8));notFound();}catch(e){notFound();}}
 try{catalog=await get(c.catalog);units=await Promise.all(catalog.units.map(u=>u.lessons?u:get(new URL(u.path,new URL(c.catalog,location.href)))));lessons=units.flatMap(u=>u.lessons.map(l=>({l,u})));window.addEventListener('hashchange',route);route();}catch(e){frame('unit',hero('Chargement interrompu',e.message)+'<button onclick="location.reload()">Réessayer</button>');}
 })();

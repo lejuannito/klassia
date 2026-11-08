@@ -11,7 +11,9 @@
   bassa: 'Écran Bassa en portrait et en paysage',
   micro: 'Capture, réécoute et reprise d’une prise Bassa',
   extraits: 'Lecture des extraits intégrés en mode avion',
-  voix: 'Voix FR/EN de l’appareil',
+  voix: 'Choix et essai des voix FR/EN de l’appareil',
+  impression: 'Fiche A4 et repli dans le navigateur',
+  corriges: 'Correction après tentative et accès adulte',
   progression: 'Profil et progression après réouverture ou mise à jour'
  };
  const outcomes = { 'non-essaye': 'Non essayé', reussi: 'Réussi', 'a-reprendre': 'À reprendre' };
@@ -55,8 +57,9 @@
    retry: choose(input.retry, Object.keys(retryLabels), 'Résultat au second essai'),
    suggestion: text(input.suggestion, 300, 'Proposition')
   };
+  const recorded = { impression: 'non-essaye', corriges: 'non-essaye', ...input.results };
   const results = Object.fromEntries(Object.keys(checks).map(key =>
-   [key, choose(input.results?.[key], Object.keys(outcomes), checks[key])]));
+   [key, choose(recorded[key], Object.keys(outcomes), checks[key])]));
   if (Object.values(results).every(value => value === 'non-essaye')) throw Error('Renseignez au moins un contrôle essayé.');
   return {
    ...common, results,
@@ -77,7 +80,7 @@
   const next = [];
   for (const record of incoming) {
    if (known.has(record.id)) {
-    if (JSON.stringify(known.get(record.id)) !== JSON.stringify(record)) throw Error('Deux relevés différents utilisent le même identifiant.');
+    if (JSON.stringify(normalizeRecord(known.get(record.id))) !== JSON.stringify(record)) throw Error('Deux relevés différents utilisent le même identifiant.');
    } else {
     known.set(record.id, record);
     next.push(record);
@@ -119,9 +122,11 @@
    work(tx.objectStore('records'), value => { result = value; }, cause => { error = cause; tx.abort(); });
   });
  }
- const readAll = db => transact(db, 'readonly', (store, done) => {
+ const readAll = db => transact(db, 'readonly', (store, done, fail) => {
   const request = store.getAll();
-  request.onsuccess = () => done(request.result);
+  request.onsuccess = () => {
+   try { done(request.result.map(normalizeRecord)); } catch (error) { fail(error); }
+  };
  });
  const storeRecords = (db, records) => transact(db, 'readwrite', (store, done, fail) => {
   const request = store.getAll();

@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "9e50a3a94096da5968e2427cdd93977c698267cdb31a838155b80c869caf1de0",
+  "version": "6e48d93c49a13d913a1be25d7a24e38bcaa026e0a15e368940131fe5ad46962b",
   "files": [
     {
       "url": "./app.js",
-      "sha256": "a344f507ca5ad61c9cef2242c5e0635ff489a0a52f775d6b9fee6e183b045da9"
+      "sha256": "7572a9264918488416159f272696bf6c04e484def74280232fac171a7261c15f"
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -15,7 +15,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./assets/ce1-u1-l01-marque-page.mp3",
-      "sha256": "be599e1c67235f66359a75a38e8ddd71de58929291fbef7baed07221ea7170ce"
+      "sha256": "f1d37ff04c8650a7b90bf979181d402c75c2fe194fb965a3c4fb0da3371acb6f"
     },
     {
       "url": "./assets/ce1-u3-bureau-icones.svg",
@@ -27,7 +27,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./assets/ce1-u5-l03-from-library.mp3",
-      "sha256": "ae8212b481f1fd2055941deea4d3191c2340b17a6991aa5f503d2a3862d6fa51"
+      "sha256": "51c33b7e04164ac09db9317401134206672515bffc719c0b5623f6ee160906f4"
     },
     {
       "url": "./assets/ce1-u6-modele-collage.svg",
@@ -35,7 +35,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./assets/ce1-u8-l03-music-club.mp3",
-      "sha256": "c2a3fc8d4a15b300dfa713f3d520b66a56e44eda2228e69f9e5c5d055c2d9fbe"
+      "sha256": "969cbb81f6184625a434cc99fae3ddb585a5bb6d70597cf29cf89df62df80071"
     },
     {
       "url": "./assets/ce2-aires-protegees.svg",
@@ -118,6 +118,14 @@ self.KLASSIA_RELEASE = {
       "sha256": "c052f2b5ddb1a432d47ae991dd056fa510d4bdd9c13de2acaa37bae0e396e322"
     },
     {
+      "url": "./assets/ce2-u7-notice-cartes-fr.mp3",
+      "sha256": "ff0dc4ed64df4b8b80c1294166d08afb438b6e77dbf151a70ee267791b927ee7"
+    },
+    {
+      "url": "./assets/ce2-u7-passing-game-en.mp3",
+      "sha256": "993ba138a4ed0edd80607b16f771ff5842b40868634950a2a2929ddf20495193"
+    },
+    {
       "url": "./assets/count-school.svg",
       "sha256": "3ee040ad93c19c015ed631821e5a699a7bfb38a63c845da1773295a1e9a18f09"
     },
@@ -128,6 +136,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/gs-t1-cahier-cartes.svg",
       "sha256": "575b7b8889f6605d1f914aa60099140229661a7c53df3ad78660c4a59e540d23"
+    },
+    {
+      "url": "./assets/gs-t1-cahier-retrouve-en.mp3",
+      "sha256": "5b1436c0b4e64c5866e862171a1b29f1ff3f6bb653f7e651852f06ab1d4b6484"
+    },
+    {
+      "url": "./assets/gs-t1-cahier-retrouve-fr.mp3",
+      "sha256": "ad4c6f8149a8e02a57aab3c732d7c111df6a60ecaf2410f1fcc07389eca89bc7"
     },
     {
       "url": "./assets/gs-t1-cartes-tri.svg",
@@ -144,6 +160,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/ms-cartes-objets-classe.svg",
       "sha256": "fd968bbdacd7f0731305eda735f9b742ac6b02d29e16c286754256a4b2ddf1a2"
+    },
+    {
+      "url": "./assets/ms-t1-je-me-presente-en.mp3",
+      "sha256": "b4069cb0459a36eceb3c2fc016cfa52ed42a045ef65411492501490dcbed684d"
+    },
+    {
+      "url": "./assets/ms-t1-je-me-presente-fr.mp3",
+      "sha256": "12dfdff1b5e4cab4f47d6bf9a807e57dce7aebe2f1a56ea242f991ef7801046e"
     },
     {
       "url": "./assets/ms-tiges-longueurs.svg",
@@ -163,11 +187,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./assets/sil-u4-l01-lou-a-mal.mp3",
-      "sha256": "62466a8217bfa01bd73dd06ea0640f407187e98c2d13acfc7b07196ef6a2903c"
+      "sha256": "c03cf65cf7eece46d8c0a09974341bd68cee7f0bcd19c5412adb8e7251c80cb7"
     },
     {
       "url": "./assets/sil-u4-l11-modeles-quadrillage.mp3",
-      "sha256": "39fa50f8988cdfb2007a0ad87a35d7e7492e4f5719778da6687fd5f1d33d8685"
+      "sha256": "2acebebc2e52296a42cdb642b8a07d7f429714b7430b069b09db12b7b0523895"
     },
     {
       "url": "./assets/sil-u4-modeles-quadrillage.svg",
@@ -175,7 +199,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./assets/sil-u5-l02-school-by-bus.mp3",
-      "sha256": "7b751a242cb59fcc4e7e8cdae0e495a7c2710317a3811ab0ff6709bea5e07642"
+      "sha256": "a5e3cf29a510254d33b87dec51ff87cfcb5f0bccb0d0c2cab94d2621bb466a98"
     },
     {
       "url": "./assets/u6-plan-noeuds.svg",
@@ -267,7 +291,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/content-u7.json",
-      "sha256": "c3d532dc5e4151937141ed75df7494e90b1d1a0d28362743967da136831101aa"
+      "sha256": "b308fba5774d0dc69aa4b08ee01c7743603e4f400c5ebdd4dc3f3be88037ecd7"
     },
     {
       "url": "./data/content-u8.json",
@@ -319,7 +343,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/themes/T1.json",
-      "sha256": "a7f93538c5e57dfbc9547d7fba70e5d5066d30b2a73d119f067fea0dbb8fb437"
+      "sha256": "9cca2c2354dac8b3f51018d6e34eff91d8e3e1c848b046cea53be233d9728ad6"
     },
     {
       "url": "./gs/data/themes/T2.json",
@@ -379,7 +403,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-ui-v13.js",
-      "sha256": "1cc02cc06c72408ea87d4fbfdca3d4e9096d2404415ce67d941eada1280adc04"
+      "sha256": "c1fdd3fa349db6faa53850bba1cb6203e63155cc35d51c144eb712b6561cbb14"
     },
     {
       "url": "./ms/data/catalog-v13.json",
@@ -387,7 +411,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/data/themes/T1.json",
-      "sha256": "19417cf9fca223961c5f093a57d7f8d9ef17e6eaeb7d98cd47a4016e193bc271"
+      "sha256": "fac99bac6aacc4fdf3485566df14ed59de2931561d246b8f99dd049648125059"
     },
     {
       "url": "./ms/data/themes/T2.json",
@@ -443,7 +467,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./pilote.html",
-      "sha256": "88f2cf63138ec46c5e458007fc747711d38871719ad83190c21acd319934b2f4"
+      "sha256": "b3c764539585ec8ef6bd01ff1fb4bf1c614b95cbbaaeb134bda7d68b01ee815f"
     },
     {
       "url": "./pwa.js",
@@ -475,7 +499,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "360eefaca305c4971fdeb8648b1c706df21e99d4d0fecf8e14b0c0ad1c27bf37"
+      "sha256": "321011c61dc41dec25e77e2eae3825c2b3ebf20488e4c5aaec4ba80a95d30ded"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -487,7 +511,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/pilot.js",
-      "sha256": "a11996c13d26ae0fdb06fbb155cf38758ab36bcc0b43ee3e45888124bae45b8c"
+      "sha256": "ac14acd71095f52dd02c05ffdc569e332c1caac49e219828791b3b8b45541303"
     },
     {
       "url": "./shared/print-ce2.js",
@@ -519,11 +543,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/speech.js",
-      "sha256": "9f2abccc50075e837bb3098b567aeb8a7629f8fad15cfcde7e61e1c575a8876c"
+      "sha256": "f0368aaa82ca695027b5cbdecd205552d8a16799d23b2a1d53699a86fdd030cc"
     },
     {
       "url": "./shared/style.css",
-      "sha256": "71f30b1bd0f94f756d459c54a61539539f31f6993175d3f21b5e499db9af503e"
+      "sha256": "65d238c62712de9dc4442ee9a2e1fe150d968b4b8f056976514e596f63092987"
     },
     {
       "url": "./shared/ui.js",

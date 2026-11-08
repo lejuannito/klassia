@@ -38,6 +38,42 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
   for(const route of ['/?unit=U1#lesson:EN-U1-L1','/sil/#lesson:SIL-U1-L02','/sil/#lesson:SIL-U1-P05','/ce1/#lesson:CE1-U1-L02']){await visit(route);const spoken=await say('en-GB');assert.ok(!spoken.text.includes('Séquence pilote conservée'));}
   for(const g of ['ms','gs']){await visit(`/${g}/?theme=T1#domain:LC:0`);await say('fr-FR');await say('en-GB');assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,g+' speech overflow');}
   await visit('/?unit=U4#lesson:FR-U4-L3');const story=await say('fr-FR',1);assert.match(story.text,/Le banc de la classe/);
+  const picker=p.locator('[data-voice-picker="fr-FR"]').first();
+  await picker.locator('summary').click();
+  await p.evaluate(()=>{
+   testVoices.push({voiceURI:'fr-ca-local',name:'Français canadien',lang:'fr-CA',localService:true});
+   testVoices.push({voiceURI:'fr-fr-network',name:'Français réseau',lang:'fr-FR',localService:false});
+   speechSynthesis.dispatchEvent(new Event('voiceschanged'));
+  });
+  const voiceSelect=picker.locator('select');
+  assert.equal(await voiceSelect.locator('option').count(),4);
+  assert.doesNotMatch(await voiceSelect.innerText(),/English default/);
+  await voiceSelect.selectOption('fr-ca-local');
+  await picker.getByRole('button',{name:'Écouter un exemple'}).click();
+  await p.waitForFunction(()=>spoken.length===1);
+  assert.match(await p.evaluate(()=>spoken[0].text),/Bonjour/);
+  assert.equal(await p.evaluate(()=>spoken[0].lang),'fr-CA');
+  assert.equal(await p.locator('[data-voice-picker="fr-FR"]').last().locator('select').inputValue(),'fr-ca-local');
+  await p.reload();
+  await picker.locator('summary').click();
+  await p.evaluate(()=>{
+   testVoices.push({voiceURI:'fr-ca-local',name:'Français canadien',lang:'fr-CA',localService:true});
+   testVoices.push({voiceURI:'fr-fr-network',name:'Français réseau',lang:'fr-FR',localService:false});
+   speechSynthesis.dispatchEvent(new Event('voiceschanged'));
+  });
+  assert.equal(await voiceSelect.inputValue(),'fr-ca-local');
+  await voiceSelect.selectOption('fr-fr-network');
+  await ctx.setOffline(true);
+  await p.waitForFunction(()=>document.querySelector('[data-voice-picker="fr-FR"] option[value="fr-fr-network"]')?.disabled);
+  await p.locator('.speech-control').first().click();
+  await p.waitForFunction(()=>spoken.length===1);
+  assert.equal(await p.evaluate(()=>lastUtterance.voice.localService),true);
+  await ctx.setOffline(false);
+  await p.waitForFunction(()=>document.querySelector('[data-voice-picker="fr-FR"] select')?.value==='fr-fr-network');
+  await voiceSelect.selectOption('');
+  await p.evaluate(()=>{testVoices=[];speechSynthesis.dispatchEvent(new Event('voiceschanged'));});
+  assert.match(await picker.locator('.speech-availability').innerText(),/Aucune voix française/);
+  await picker.locator('summary').click();
   // Voice lists may become available only after the initial user click.
   await p.evaluate(()=>{testVoices=[];spoken=[];});await p.locator('.speech-control').first().click();
   await p.evaluate(()=>{testVoices=[{name:'Français différé',lang:'fr-FR',localService:true}];speechSynthesis.dispatchEvent(new Event('voiceschanged'));});
@@ -79,6 +115,6 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
    await visit(`/?unit=U${u}#lesson:${l.id}`);assert.ok(l.exercises.length>=2,l.id);assert.equal(await p.locator('.exercise-card').count(),l.exercises.length,l.id);assert.ok((await p.locator('.manual-section-body').first().innerText()).length>80,l.id);count++;
   }
   assert.equal(count,39);assert.deepEqual(errors,[]);
-  console.log('PASS speech language/voice across five classes, delayed voices, language-only fallback, engine errors/timeouts, cancellation, Bassa exclusion, 39 French supports');
+  console.log('PASS speech language/voice across five classes, voice selection, previews, preferences, offline fallback, delayed voices, language-only fallback, engine errors/timeouts, cancellation, Bassa exclusion, 39 French supports');
  }finally{await b.close();server.close();}
 })().catch(e=>{console.error(e);server.close();process.exit(1);});

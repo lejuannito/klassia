@@ -18,7 +18,8 @@
   voix: 'Choix et essai des voix FR/EN de l’appareil',
   impression: 'Fiche A4 et repli dans le navigateur',
   corriges: 'Correction après tentative et accès adulte',
-  progression: 'Profil et progression après réouverture ou mise à jour'
+  progression: 'Profil et progression après réouverture ou mise à jour',
+  tactile: 'Tracé au doigt, annulation et réouverture en mode avion'
  };
  const outcomes = { 'non-essaye': 'Non essayé', reussi: 'Réussi', 'a-reprendre': 'À reprendre' };
  const helpLabels = { autonome: 'Autonome', repetition: 'Consigne répétée', guidage: 'Exemple ou guidage', bloque: 'Bloqué' };
@@ -61,7 +62,7 @@
    retry: choose(input.retry, Object.keys(retryLabels), 'Résultat au second essai'),
    suggestion: text(input.suggestion, 300, 'Proposition')
   };
-  const recorded = { impression: 'non-essaye', corriges: 'non-essaye', prises_bassa: 'non-essaye', ...input.results };
+  const recorded = { impression: 'non-essaye', corriges: 'non-essaye', prises_bassa: 'non-essaye', tactile: 'non-essaye', ...input.results };
   const results = Object.fromEntries(Object.keys(checks).map(key =>
    [key, choose(recorded[key], Object.keys(outcomes), checks[key])]));
   if (Object.values(results).every(value => value === 'non-essaye')) throw Error('Renseignez au moins un contrôle essayé.');

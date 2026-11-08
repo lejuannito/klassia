@@ -1,15 +1,15 @@
 # Couverture du curriculum et progression des cinq classes
 
-Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute la géométrie et l’orientation et complète le repère TIC du CE1. Le quatrième suit la progression des longueurs. Le cinquième suit le passage de la lecture d’images à la rédaction d’un texte destiné à un lecteur. [Matrice des 55 repères](MATRICE_CURRICULUM.csv)
+Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute la géométrie et l’orientation et complète le repère TIC du CE1. Le quatrième suit la progression des longueurs. Le cinquième suit le passage de la lecture d’images à la rédaction d’un texte destiné à un lecteur. Le sixième relie le dénombrement et le calcul à des situations de la vie courante. [Matrice des 60 repères](MATRICE_CURRICULUM.csv)
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
-| Moyenne section | 160 | 11 | 0 | 0 |
-| Grande section | 162 | 11 | 0 | 0 |
-| SIL | 90 | 11 | 0 | 0 |
-| CE1 | 89 | 11 | 0 | 0 |
-| CE2 | 347 | 11 | 0 | 0 |
-| **Total** | **848** | **55** | **0** | **0** |
+| Moyenne section | 160 | 12 | 0 | 0 |
+| Grande section | 162 | 12 | 0 | 0 |
+| SIL | 90 | 12 | 0 | 0 |
+| CE1 | 89 | 12 | 0 | 0 |
+| CE2 | 347 | 12 | 0 | 0 |
+| **Total** | **848** | **60** | **0** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -99,6 +99,18 @@ Chaque séance propose un nouvel essai. Le carnet permet de relever l’aide né
 | CE2 | Écrire une règle, la faire essayer et la réviser | Un lecteur comprend les tours, les points et la fin. L’élève précise une consigne si nécessaire. | `FR-U7-L2` |
 
 Les séances de la maternelle proposent un geste, une réponse orale ou une copie courte. Les trois leçons du primaire font lire un modèle, essayer une autre situation et relire la production avant de consulter un exemple de correction. Le carnet propose une fiche de retour par classe. [Guide du pilote](GUIDE_PILOTE.md)
+
+## Sixième relevé en calcul pratique
+
+| Classe | Tâche | Ce que l’adulte observe | Ressource |
+|---|---|---|---|
+| MS | Distribuer un gobelet par personne | L’enfant fait correspondre chaque gobelet à une personne et montre celle qui attend. | `T3-ST1` |
+| GS | Compter après avoir réuni deux groupes de fruits | L’enfant distingue les deux groupes et compte chaque fruit une fois. | `GS-T3-ST1` |
+| SIL | Additionner les étiquettes sans retenue | L’élève garde une dizaine, réunit les unités et sait écrire le total. | `SIL-U6-L03` |
+| CE1 | Partager 36 cartes en deux | L’élève justifie l’égalité des parts et reconstitue le total avec le double. | `CE1-U5-L04` |
+| CE2 | Calculer le coût des fournitures et vérifier la monnaie | L’élève distingue prix unitaire et coût total et explique si le budget suffit pour un article de plus. | `MA-U8-L4` |
+
+Les deux activités de maternelle et les trois problèmes proposent une surface de tracé. L’adulte peut faire reprendre avec du matériel réel et relever ce que l’élève réalise seul. [Séances du carnet](https://lejuannito.github.io/klassia/pilote.html#calcul)
 
 ## Suite de la feuille de route
 

@@ -64,9 +64,9 @@
       "domain": "Mathématiques",
       "title": "Lire 15 à 17 et additionner sans retenue jusqu’à 20",
       "objective": "Lire/écrire 15–17, trouver la moitié d’un nombre inférieur à 20 et additionner des nombres avec résultat inférieur ou égal à 20 sans retenue.",
-      "course": "Pour trouver une moitié, on partage en deux groupes égaux. Pour additionner, on peut réunir des jetons puis recompter le total.",
-      "model": "18 jetons partagés équitablement donnent 9 et 9 ; 8 + 7 = 15.",
-      "guided": "Partager 12 jetons entre deux assiettes ; réunir ensuite 8 et 7 jetons.",
+      "course": "Pour trouver une moitié, on partage en deux groupes égaux. Pour additionner sans retenue, on réunit les unités. Si elles restent moins de dix, on garde les dizaines telles quelles.",
+      "model": "18 jetons partagés équitablement donnent 9 et 9. Pour calculer 13 + 3, garde 1 dizaine et réunis 3 + 3 unités. Cela donne 1 dizaine et 6 unités, soit 16.",
+      "guided": "Partage 12 jetons entre deux assiettes. Forme ensuite un paquet de dix et 4 jetons isolés. Ajoute 2 jetons isolés, puis lis le nouveau total.",
       "exercise": "Écris 16 en chiffres ; partage 10 jetons en deux groupes égaux.",
       "answer": "16 ; 5 et 5.",
       "remediation": "Faire une correspondance un à un entre les deux groupes jusqu’à égalité.",
@@ -74,7 +74,7 @@
       "materials": "20 jetons, deux assiettes vides.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
-        "pages": "65–79",
+        "pages": "Tableau 16, p. 71, SIL, U6",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
       },
       "editorial": {
@@ -88,6 +88,12 @@
           "prompt": "Calcule 12 + 3 avec des bâtonnets.",
           "answer": "15.",
           "explanation": "Garde la dizaine et réunis les unités : 2 + 3 = 5."
+        },
+        {
+          "prompt": "Pour repérer le matériel de la classe, on a préparé 12 étiquettes le matin et 5 de plus l’après-midi. Dessine une dizaine et les unités isolées. Combien d’étiquettes a-t-on préparées ? Écris le total en chiffres et en lettres.",
+          "answer": "17 étiquettes, dix-sept.",
+          "explanation": "Sur les 12 étiquettes, il y en a 10 ensemble et 2 isolées. On ajoute 5 aux 2 isolées. On obtient une dizaine et 7 unités. Il n’y a pas de nouvelle dizaine à former.",
+          "ink": "grille"
         }
       ]
     },

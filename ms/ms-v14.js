@@ -9,8 +9,8 @@ function openPrint(fiche,id,adult=false){
  Klassia.printing.open(NURSERY.grade,fiche,theme.id,id,adult);
 }
 function worksheetsPage(){
- const ws=worksheetsForCurrent();let body=`<button class="back" onclick="location.hash='#home'">← Retour au thème</button><section class="hero"><div class="eyebrow">CAHIER IMPRIMABLE</div><h1>✍️ Coloriage, lettres, chiffres et graphisme</h1><p>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</p></section><div class="worksheetGrid">`;
- ws.forEach(w=>body+=`<article class="worksheetCard"><h2>${w.title}</h2><p>${esc14(w.instruction_fr)}</p><p><i>${esc14(w.instruction_en)}</i></p>${w.html}<button class="classBtn" data-print-ws="${w.id}">🖨 Imprimer / PDF</button></article>`);
+ const ws=worksheetsForCurrent();let body=`<button class="back" onclick="location.hash='#home'">← Retour au thème</button><section class="hero"><div class="eyebrow">CAHIER TACTILE ET IMPRIMABLE</div><h1>✍️ Coloriage, lettres, chiffres et graphisme</h1><p>${esc14(theme.title_fr)} · ${esc14(theme.title_en)}</p></section><div class="worksheetGrid">`;
+ ws.forEach(w=>body+=`<article class="worksheetCard"><h2>${w.title}</h2><p>${esc14(w.instruction_fr)}</p><p><i>${esc14(w.instruction_en)}</i></p>${Klassia.ink.worksheet(NURSERY.grade+':'+theme.id+':cahier:'+w.id,w.html,['letters','numbers'].includes(w.id))}<button class="classBtn" data-print-ws="${w.id}">🖨 Imprimer / PDF</button></article>`);
  body+=`</div><button class="classBtn" id="printAllWs">🖨 Imprimer tout le cahier du thème</button>`;shell(body);
  document.querySelectorAll('[data-print-ws]').forEach(b=>{const w=ws.find(x=>x.id===b.dataset.printWs);b.onclick=()=>openPrint('graphisme',w.id)});
  document.getElementById('printAllWs').onclick=()=>openPrint('graphisme');
@@ -30,7 +30,7 @@ function domainAllPage(id){
 function injectHomeEnhancements(){
  if(location.hash&&location.hash!=='#home')return;
  const hero=document.querySelector('.hero');if(!hero||document.querySelector('.workbookPromo'))return;
-    hero.insertAdjacentHTML('afterend',`<div class="print-actions"><button class="classBtn" id="printTheme14">🖨 Thème / PDF</button></div><section class="workbookPromo"><div><b>✍️ Cahier sans écran</b><p>Coloriage, formation des lettres et chiffres, graphisme à imprimer.</p></div><button class="classBtn" onclick="location.hash='#worksheets'">Ouvrir le cahier</button></section>`);
+    hero.insertAdjacentHTML('afterend',`<div class="print-actions"><button class="classBtn" id="printTheme14">🖨 Thème / PDF</button></div><section class="workbookPromo"><div><b>✍️ Cahier tactile et imprimable</b><p>Coloriage, lettres, chiffres et graphisme. Trace au doigt ou imprime la fiche.</p></div><button class="classBtn" onclick="location.hash='#worksheets'">Ouvrir le cahier</button></section>`);
  document.getElementById('printTheme14').onclick=()=>openPrint('theme');
 }
 function injectDomainPrints(){

@@ -6,10 +6,14 @@
 })(() => {
  'use strict';
  const grades = ['MS', 'GS', 'SIL', 'CE1', 'CE2'];
+ const platforms = ['Android', 'iPhone'];
+ const openings = { icone: 'Icône installée', onglet: 'Onglet' };
+ const networks = { mixte: 'En ligne puis avion', 'en-ligne': 'En ligne', avion: 'Mode avion' };
  const checks = {
   installation: 'Ouverture et édition disponible hors connexion',
   bassa: 'Écran Bassa en portrait et en paysage',
   micro: 'Capture, réécoute et reprise d’une prise Bassa',
+  prises_bassa: 'Lecture des prises bassa intégrées',
   extraits: 'Lecture des extraits intégrés en mode avion',
   voix: 'Choix et essai des voix FR/EN de l’appareil',
   impression: 'Fiche A4 et repli dans le navigateur',
@@ -57,16 +61,16 @@
    retry: choose(input.retry, Object.keys(retryLabels), 'Résultat au second essai'),
    suggestion: text(input.suggestion, 300, 'Proposition')
   };
-  const recorded = { impression: 'non-essaye', corriges: 'non-essaye', ...input.results };
+  const recorded = { impression: 'non-essaye', corriges: 'non-essaye', prises_bassa: 'non-essaye', ...input.results };
   const results = Object.fromEntries(Object.keys(checks).map(key =>
    [key, choose(recorded[key], Object.keys(outcomes), checks[key])]));
   if (Object.values(results).every(value => value === 'non-essaye')) throw Error('Renseignez au moins un contrôle essayé.');
   return {
    ...common, results,
-   platform: choose(input.platform, ['Android', 'iPhone'], 'Plateforme'),
+   platform: choose(input.platform, platforms, 'Plateforme'),
    device: text(input.device, 100, 'Modèle et versions', true),
-   opening: choose(input.opening, ['onglet', 'icone'], 'Mode d’ouverture'),
-   network: choose(input.network, ['mixte', 'en-ligne', 'avion'], 'Mode réseau'),
+   opening: choose(input.opening, Object.keys(openings), 'Mode d’ouverture'),
+   network: choose(input.network, Object.keys(networks), 'Mode réseau'),
    address: text(input.address, 180, 'Adresse', true)
   };
  }
@@ -103,6 +107,33 @@
   return [...groups.values()].map(group => ({
    ...group, sessions: group.sessions.size, help: group.help.size
   })).sort((a, b) => b.help - a.help || a.lesson.localeCompare(b.lesson) || a.exercise.localeCompare(b.exercise));
+ }
+
+ function summarizeDevices(records) {
+  const groups = new Map();
+  for (const record of records) {
+   if (record.kind !== 'appareil') continue;
+   const { edition, address, opening, network, platform, day, session, results } = record;
+   const key = JSON.stringify([edition, address, opening, network]);
+   if (!groups.has(key)) groups.set(key, { key, edition, address, opening, network, day, Android: {}, iPhone: {} });
+   const group = groups.get(key);
+   if (day > group.day) group.day = day;
+   const coverage = group[platform];
+   for (const [check, outcome] of Object.entries(results)) {
+    if (outcome === 'non-essaye') continue;
+    const cell = coverage[check] ??= { reussi: new Set(), 'a-reprendre': new Set() };
+    cell[outcome].add(session);
+   }
+  }
+  return [...groups.values()].sort((a, b) => b.day.localeCompare(a.day) || a.key.localeCompare(b.key));
+ }
+
+ function describeCheck(cell) {
+  if (!cell) return outcomes['non-essaye'];
+  const passed = cell.reussi.size;
+  const toReview = cell['a-reprendre'].size;
+  return [passed && `${passed} réussi${passed > 1 ? 's' : ''}`, toReview && `${toReview} à reprendre`]
+   .filter(Boolean).join(' · ');
  }
 
  function openNotebook() {
@@ -143,6 +174,7 @@
   const byId = id => doc.getElementById(id);
   const observation = byId('pilotObservation'), device = byId('pilotDevice');
   const groups = byId('pilotGroups'), summary = byId('pilotSummary'), reports = byId('pilotRecords');
+  const deviceScope = byId('pilotDeviceScope'), deviceRows = byId('pilotDeviceRows');
   const exportButton = byId('pilotExport'), importInput = byId('pilotImport'), status = byId('pilotStatus');
   const element = (name, content) => {
    const node = doc.createElement(name);
@@ -157,6 +189,15 @@
    label.append(select);
    byId('pilotChecks').append(label);
   }
+  device.elements.address.value = new URL('.', location.href).href;
+  if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true) {
+   device.elements.opening.value = 'icone';
+  }
+  byId('pwaTools').addEventListener('klassia:edition-ready', event => {
+   for (const form of [observation, device]) {
+    if (!form.elements.edition.value) form.elements.edition.value = event.detail;
+   }
+  });
   const params = new URLSearchParams(location.search);
   for (const [name, value, valid] of [
    ['grade', params.get('classe'), value => grades.includes(value)],
@@ -171,8 +212,9 @@
    busy = true;
    try {
     const db = await opened;
-    status.textContent = await action(db) || '';
+    const message = await action(db);
     draw(await readAll(db));
+    status.textContent = message || '';
    } catch (error) {
     status.textContent = error?.message || 'Le carnet local est indisponible.';
    } finally { busy = false; }
@@ -194,13 +236,14 @@
    summary.textContent = records.length
     ? `${records.length - phones} observation(s) · ${phones} essai(s) téléphone · ${technical} relevé(s) technique(s) à reprendre.`
     : 'Aucun relevé saisi.';
+   drawDeviceCoverage(summarizeDevices(records));
    reports.replaceChildren(...records.slice().sort((a, b) => b.day.localeCompare(a.day)).map(record => {
     const item = doc.createElement('li');
     const heading = [record.session, record.edition, record.day].join(' · ');
     const details = record.kind === 'observation'
      ? [record.actor, record.grade, record.lesson, record.exercise, helpLabels[record.help],
       'Difficulté ' + record.cause, 'Second essai ' + retryLabels[record.retry], record.note, record.suggestion].filter(Boolean)
-     : [record.platform, record.device, record.opening, record.network, record.address,
+     : [record.platform, record.device, openings[record.opening], networks[record.network], record.address,
       ...Object.entries(record.results).map(([key, value]) => checks[key] + ' — ' + outcomes[value]), record.note].filter(Boolean);
     const remove = element('button', 'Supprimer ce relevé');
     remove.type = 'button';
@@ -210,6 +253,26 @@
    }));
    exportButton.disabled = records.length === 0;
   }
+  function drawDeviceCoverage(scopes) {
+   byId('pilotDeviceEmpty').hidden = scopes.length > 0;
+   byId('pilotDeviceCoverage').hidden = scopes.length === 0;
+   const previous = deviceScope.value;
+   deviceScope.replaceChildren(...scopes.map(scope => new Option(
+    [scope.edition, scope.address, openings[scope.opening], networks[scope.network]].join(' · '), scope.key)));
+   if (scopes.some(scope => scope.key === previous)) deviceScope.value = previous;
+   function showScope() {
+    const scope = scopes.find(item => item.key === deviceScope.value);
+    deviceRows.replaceChildren(...(scope ? Object.entries(checks).map(([check, label]) => {
+     const row = element('tr');
+     const heading = element('th', label);
+     heading.scope = 'row';
+     row.append(heading, ...platforms.map(platform => element('td', describeCheck(scope[platform][check]))));
+     return row;
+    }) : []));
+   }
+   deviceScope.onchange = showScope;
+   showScope();
+  }
   function saveForm(form, kind) {
    form.addEventListener('submit', event => {
     event.preventDefault();
@@ -218,11 +281,14 @@
      const id = Array.from(crypto.getRandomValues(new Uint8Array(16)), value => value.toString(16).padStart(2, '0')).join('');
      const now = new Date();
      const day = [now.getFullYear(), now.getMonth() + 1, now.getDate()].map(value => String(value).padStart(2, '0')).join('-');
-     const record = normalizeRecord({ ...values, id, kind, day, address: new URL('.', location.href).href,
+     const record = normalizeRecord({ ...values, id, kind, day,
       results: Object.fromEntries(Object.keys(checks).map(key => [key, values[key]])) });
      await storeRecords(db, [record]);
      form.elements.note.value = '';
      if (form.elements.suggestion) form.elements.suggestion.value = '';
+     if (kind === 'appareil') {
+      for (const key of Object.keys(checks)) form.elements[key].value = 'non-essaye';
+     }
      return 'Relevé conservé sur cet appareil.';
     });
    });
@@ -261,5 +327,5 @@
   perform(() => '');
  }
 
- return { normalizeRecord, readExport, additions, summarize, mount };
+ return { normalizeRecord, readExport, additions, summarize, summarizeDevices, mount };
 });

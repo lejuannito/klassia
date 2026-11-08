@@ -133,6 +133,7 @@
         <div class="pilot-fields">
           <label>Code de séance <input name="session" required maxlength="24" pattern="[A-Za-z0-9_\-]{2,24}" placeholder="TEL-01"></label>
           <label>Édition affichée <input name="edition" required maxlength="48" pattern="[A-Za-z0-9_.\-]{2,48}" placeholder="Code de l’édition"></label>
+          <label>Adresse testée <input name="address" type="url" required maxlength="180"></label>
           <label>Plateforme <select name="platform"><option>Android</option><option>iPhone</option></select></label>
           <label>Modèle, système et navigateur <input name="device" required maxlength="100" placeholder="Modèle, versions du système et du navigateur"></label>
           <label>Ouverture <select name="opening"><option value="onglet">Onglet</option><option value="icone">Icône installée</option></select></label>
@@ -153,6 +154,18 @@
           <thead><tr><th scope="col">Exercice</th><th scope="col">Édition</th><th scope="col">Séances</th><th scope="col">Avec guidage ou blocage</th><th scope="col">Suite</th></tr></thead>
           <tbody id="pilotGroups"></tbody>
         </table>
+      </div>
+      <h3>Essais Android et iPhone</h3>
+      <p id="pilotDeviceEmpty">Aucun essai téléphone saisi ou importé.</p>
+      <div id="pilotDeviceCoverage" hidden>
+        <label>Édition, adresse et conditions d’essai <select id="pilotDeviceScope"></select></label>
+        <p>Les résultats sont comptés par code de séance. Si les relevés divergent, les réussites et les écarts restent visibles.</p>
+        <div class="pilot-table" tabindex="0" role="region" aria-label="Comparaison des essais Android et iPhone">
+          <table>
+            <thead><tr><th scope="col">Contrôle</th><th scope="col">Android</th><th scope="col">iPhone</th></tr></thead>
+            <tbody id="pilotDeviceRows"></tbody>
+          </table>
+        </div>
       </div>
       <details>
         <summary>Voir les relevés saisis</summary>

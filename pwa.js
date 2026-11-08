@@ -95,8 +95,9 @@
     if (render !== renderNumber) return;
 
     const ready = status?.ready;
+    const code = ready ? status.version.slice(0, 8) : '';
     const edition = ready
-      ? 'CE2, MS, GS, SIL et CE1 disponibles hors connexion · édition ' + status.version.slice(0, 8) + '.'
+      ? 'CE2, MS, GS, SIL et CE1 disponibles hors connexion · édition ' + code + '.'
       : 'Le téléchargement des cinq classes est incomplet.';
     const result = checkResult === 'failed'
       ? 'La mise à jour a été interrompue. '
@@ -105,6 +106,7 @@
     show(result + edition + (online ? '' : ' Reconnectez-vous pour vérifier les mises à jour.'),
       checkResult === 'failed' || !ready ? 'Réessayer' : 'Vérifier les mises à jour',
       checkForUpdate, !online);
+    if (code && workers.controller) root.dispatchEvent(new CustomEvent('klassia:edition-ready', { detail: code }));
   }
 
   function watchInstallation() {

@@ -1127,7 +1127,8 @@
           ],
           "discover": "Deux cahiers coûtent 750 F chacun et un stylo coûte 250 F. Tu donnes 2 000 F. Quelle monnaie reçois-tu ?",
           "learn": [
-            "Je compose un montant, calcule un total ou une monnaie à rendre et vérifie que les valeurs sont cohérentes."
+            "Je compose un montant, calcule un total ou une monnaie à rendre et vérifie que les valeurs sont cohérentes.",
+            "Pour écrire un montant en lettres, écris le nombre puis l’unité monétaire. 2 480 F CFA s’écrit « deux mille quatre cent quatre-vingts francs CFA »."
           ],
           "takeaway": "Je compose un montant, calcule un total ou une monnaie à rendre et vérifie que les valeurs sont cohérentes.",
           "exercises": [
@@ -1152,6 +1153,14 @@
               "answer": "Le total est de 2 500 F et tu reçois 500 F. Il manque 100 F pour acheter aussi la gomme.",
               "explanation": "Cahiers : 3 × 650 = 1 950 F. Crayons : 2 × 275 = 550 F. Total : 1 950 + 550 = 2 500 F. On vérifie que 2 500 + 500 = 3 000 F. La gomme coûterait 600 F et il reste 500 F.",
               "ink": "grille"
+            },
+            {
+              "id": "MA-U8-L4-E4",
+              "type": "open",
+              "prompt": "Sur un reçu fictif, écris 3 200 F CFA et 4 081 F CFA en lettres. Souligne les mots qui changent entre 4 080 F CFA et 4 081 F CFA.",
+              "answer": "Trois mille deux cents francs CFA. Quatre mille quatre-vingt-un francs CFA. Pour 4 080 F CFA, on écrit quatre mille quatre-vingts francs CFA.",
+              "explanation": "Dans 3 200, cent prend un s. Dans 4 081, vingt est suivi de un. Dans 4 080, quatre-vingts termine le nombre. Mille est toujours invariable.",
+              "ink": "lignes"
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, U8, p.87.",
@@ -1180,6 +1189,40 @@
                 "Additionne les montants, puis compare le total à l’argent disponible.",
                 "Si l’argent suffit, calcule la monnaie. Vérifie que le total et la monnaie reconstituent la somme donnée."
               ]
+            },
+            {
+              "title": "Écrire le montant sur un reçu",
+              "kind": "example",
+              "body": "Sur un reçu fictif, écris la même somme en chiffres et en lettres. Décompose les milliers et le reste, puis ajoute francs CFA. Relis chaque groupe pour vérifier que la somme correspond.",
+              "table": {
+                "headers": [
+                  "En chiffres",
+                  "Décomposition",
+                  "En lettres"
+                ],
+                "rows": [
+                  [
+                    "2 480 F CFA",
+                    "2 000 + 400 + 80",
+                    "deux mille quatre cent quatre-vingts francs CFA"
+                  ],
+                  [
+                    "6 500 F CFA",
+                    "6 000 + 500",
+                    "six mille cinq cents francs CFA"
+                  ],
+                  [
+                    "9 081 F CFA",
+                    "9 000 + 80 + 1",
+                    "neuf mille quatre-vingt-un francs CFA"
+                  ],
+                  [
+                    "10 000 F CFA",
+                    "10 × 1 000",
+                    "dix mille francs CFA"
+                  ]
+                ]
+              }
             }
           ],
           "editorial": {

@@ -8,9 +8,20 @@ const source=s=>s?`<a href="${E(s.url||'#')}" target="_blank" rel="noopener">${E
 function frame(body){root.innerHTML=`<header class="gs-top"><a href="${E(c.back)}">K Klassia</a><strong>${E(c.grade)} bilingue</strong></header><main class="gs-wrap"><p class="gs-notice">Édition pilote accompagnée · relecture pédagogique en cours</p>${body}</main>`;K.rendered();}
 function hero(title,description){return `<section class="gs-hero"><h1>${E(title)}</h1><p>${E(description)}</p></section>`;}
 function pick(l,u){return `<a class="gs-card gs-picker" href="#lesson:${encodeURIComponent(l.id)}"><p class="eyebrow">${E(l.domain)} · ${E(u.id)}</p><h2>${E(l.title)}</h2><p>${E(l.objective)}</p><span>${status(progress[l.id])} · Ouvrir la leçon →</span></a>`;}
-function listUnits(){frame(hero('Parcourir les unités','Choisissez une unité, puis une leçon. Vous pouvez aussi parcourir les matières et les domaines.')+`<section class="gs-grid">${units.map(u=>`<a class="gs-card gs-picker" href="#unit:${u.id}"><p class="eyebrow">${E(u.id)} · ${u.lessons.length} leçons</p><h2>${E(u.title_fr)}<span lang="en">${E(u.title_en)}</span></h2><p>${E(u.subcentres?.join(' · ')||'')}</p><span>${u.lessons.filter(l=>progress[l.id]==='A').length}/${u.lessons.length} réalisées</span></a>`).join('')}</section>`);}
+function listUnits() {
+ const cards = units.map(unit => ({
+  href: '#unit:' + unit.id, title: unit.title_fr, translation: unit.title_en, code: unit.id,
+  detail: unit.subcentres?.join(' · '), count: unit.lessons.length + ' leçons'
+ }));
+ frame(K.catalogue('Parcourir les unités', 'Choisis une unité, puis une leçon.', cards));
+}
 function showUnit(id){const u=units.find(x=>x.id===id);if(!u)return notFound();frame(`<a href="#units">← Toutes les unités</a>`+hero(u.title_fr,u.title_en+' · '+u.project)+`<section class="gs-grid">${u.lessons.map(l=>pick(l,u)).join('')}</section>`);}
-function listSubjects(){const ss=[...new Set(lessons.map(x=>x.l.domain))];frame(hero('Parcourir les matières','Les leçons de chaque matière sont réunies sur les huit unités.')+`<section class="gs-grid">${ss.map(s=>`<a class="gs-card gs-picker" href="#subject:${encodeURIComponent(s)}"><h2>${E(s)}</h2><p>${lessons.filter(x=>x.l.domain===s).length} leçons</p></a>`).join('')}</section>`);}
+function listSubjects() {
+ const names = [...new Set(lessons.map(item => item.l.domain))];
+ const cards = names.map(title => ({ title, href: '#subject:' + encodeURIComponent(title),
+  count: lessons.filter(item => item.l.domain === title).length + ' leçons' }));
+ frame(K.catalogue('Parcourir les matières', 'Les leçons de chaque matière sont réunies sur les huit unités.', cards));
+}
 function showSubject(s){const items=lessons.filter(x=>x.l.domain===s);if(!items.length)return notFound();frame(`<a href="#subjects">← Toutes les matières</a>`+hero(s,'Choisissez une leçon.')+`<section class="gs-grid">${items.map(x=>pick(x.l,x.u)).join('')}</section>`);}
 function listDomains(){frame(hero('Parcourir les domaines','Une matière peut contribuer à plusieurs domaines du programme.')+`<section class="gs-grid">${catalog.domains.map((d,i)=>`<a class="gs-card gs-picker" href="#domain:${i}"><h2>${E(d.title)}</h2><p>${E(d.subjects.join(' · '))}</p></a>`).join('')}</section>`);}
 function showDomain(i){const d=catalog.domains[Number(i)];if(!d)return notFound();frame(`<a href="#domains">← Tous les domaines</a>`+hero(d.title,'Leçons rattachées à ce domaine.')+`<section class="gs-grid">${lessons.filter(x=>d.subjects.includes(x.l.domain)).map(x=>pick(x.l,x.u)).join('')}</section>`);}

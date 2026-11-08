@@ -1197,7 +1197,8 @@
           "discover": "Le nombre 2 438 peut être vu comme 2 milliers, 4 centaines, 3 dizaines et 8 unités.",
           "learn": [
             "Décomposer aide à comprendre la valeur de chaque chiffre selon sa position.",
-            "Pour comparer deux nombres, on regarde d’abord le nombre de milliers, puis les centaines, les dizaines et les unités."
+            "Pour comparer deux nombres, on regarde d’abord le nombre de milliers, puis les centaines, les dizaines et les unités.",
+            "Écris d’abord le groupe des milliers, puis le reste. Dans 2 075, le zéro des centaines marque une place vide. On écrit « deux mille soixante-quinze »."
           ],
           "takeaway": "2 438 = 2 000 + 400 + 30 + 8. Je compare de gauche à droite.",
           "exercises": [
@@ -1214,6 +1215,14 @@
               "explanation": "",
               "type": "open",
               "id": "MA-U2-L1-E2"
+            },
+            {
+              "id": "MA-U2-L1-E3",
+              "type": "open",
+              "prompt": "Écris 2 090, 2 900 et 2 009 en lettres. Explique le s de cents dans ta réponse.",
+              "answer": "Deux mille quatre-vingt-dix. Deux mille neuf cents. Deux mille neuf.",
+              "explanation": "Dans 2 900, neuf multiplie cent et le nombre se termine par cents. Dans 2 090, dix suit vingt.",
+              "ink": "lignes"
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, Unité 2, p.76.",
@@ -1226,14 +1235,38 @@
               "body": "Avant de calculer ou de construire dans « Les nombres jusqu’à 3 000 », lis la consigne jusqu’au bout et reformule la question : quelles données sont connues ? que faut-il trouver ? quelle opération, mesure ou propriété peut aider ? Écris les étapes, pas seulement le résultat."
             },
             {
-              "title": "Exemple guidé",
+              "title": "Lire et écrire les milliers",
               "kind": "example",
-              "body": "Consigne : Décompose 2 705.\n\nRésultat ou correction : 2 000 + 700 + 5.\n\nAprès avoir obtenu une réponse, vérifie si elle est plausible : ordre de grandeur, unité, sens du résultat ou contrôle par une autre méthode."
+              "body": "Sépare les milliers et le reste. Lis les milliers, puis les centaines, les dizaines et les unités présentes. Le mot mille est invariable.",
+              "table": {
+                "headers": [
+                  "Nombre",
+                  "Décomposition",
+                  "En lettres"
+                ],
+                "rows": [
+                  [
+                    "2 075",
+                    "2 000 + 70 + 5",
+                    "deux mille soixante-quinze"
+                  ],
+                  [
+                    "2 200",
+                    "2 000 + 200",
+                    "deux mille deux cents"
+                  ],
+                  [
+                    "2 201",
+                    "2 000 + 200 + 1",
+                    "deux mille deux cent un"
+                  ]
+                ]
+              }
             },
             {
-              "title": "Faire apparaître la méthode",
-              "kind": "text",
-              "body": "En mathématiques, une réponse juste sans démarche peut cacher une erreur de hasard. Pose les calculs quand c’est nécessaire, écris les conversions, marque les points et segments dans une construction, et conserve les unités. Une trace claire permet de retrouver et corriger une erreur."
+              "title": "Justifier l’écriture de cent",
+              "kind": "method",
+              "body": "Dans deux mille deux cents, deux multiplie cent et le nombre s’arrête là. Dans deux mille deux cent un, le mot un suit cent. Écris alors cent sans s."
             },
             {
               "title": "Défi d’application",

@@ -60,11 +60,14 @@ function activitySubject(a,d){
  return 'Vie pratique et sociale';
 }
 function activitiesPage(selected){
- const rows=catalog.themes.flatMap(t=>themePack.themes[t.id].domains.flatMap(d=>d.activities.map((a,i)=>({a,d,t,i,subject:activitySubject(a,d)}))));
- const names=[...new Set(rows.map(x=>x.subject))];let body=`<section class="hero"><h1>${esc14(selected||'Parcourir les matières et activités')}</h1><p>Regroupement pratique des activités sur les huit thèmes; les domaines du curriculum restent accessibles séparément.</p></section><div class="grid">`;
- if(!selected)body+=names.map(n=>`<a class="domain" href="#activity-subject:${encodeURIComponent(n)}"><strong>${esc14(n)}</strong><small>${rows.filter(x=>x.subject===n).length} activités</small></a>`).join('');
- else body+=rows.filter(x=>x.subject===selected).map(x=>`<a class="domain" href="?theme=${x.t.id}#domain:${x.d.id}:${x.i}"><strong>${esc14(x.a.title_fr)}</strong><small lang="en">${esc14(x.a.title_en)}</small><small>${esc14(x.t.title_fr)}</small></a>`).join('');
- shell(body+'</div>');
+ const rows = catalog.themes.flatMap(t => themePack.themes[t.id].domains.flatMap(d => d.activities.map((a,i) => ({a,d,t,i,subject:activitySubject(a,d)}))));
+ const names = [...new Set(rows.map(row => row.subject))];
+ const cards = selected ? rows.filter(row => row.subject === selected).map(({a,d,t,i}) => ({
+  href: '?theme=' + t.id + '#domain:' + d.id + ':' + i, title: a.title_fr, translation: a.title_en, detail: t.title_fr
+ })) : names.map(title => ({
+  title, href: '#activity-subject:' + encodeURIComponent(title), count: rows.filter(row => row.subject === title).length + ' activités'
+ }));
+ shell(Klassia.catalogue(selected || 'Parcourir les matières et activités', 'Les activités sont regroupées sur les huit thèmes.', cards));
 }
 function routeSpecial(h){
  if(!practice14)return false;

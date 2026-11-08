@@ -34,10 +34,11 @@ function domainPage(id,index=0){
  if(a.type!=='bassa'){Klassia.addSpeech(card,[a.title_en,a.prompt_en,a.story_en,...(a.steps_en||[]),a.game_en].filter(Boolean).join('. '),'en-GB');Klassia.addSpeech(card,[a.title_fr,a.prompt_fr,a.story_fr,...(a.steps_fr||[]),a.game_fr].filter(Boolean).join('. '),'fr-FR');}
 }
 function themesPage(){
- let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><div class="sectionTitle"><h2>Parcours ${esc(NURSERY.label)}</h2><p>Huit thèmes intégrateurs, tous disponibles dans cette édition.</p></div><div class="themes">`;
- catalog.themes.forEach(t=>body+=`<button class="themeCard themeOpen" data-theme="${t.id}"><div class="themeNum">${t.number}</div><div><strong>${esc(t.title_fr)}</strong><div>${esc(t.title_en)}</div>${curriculumThemeNote(t)}</div><div class="spacer"></div><span class="badge">Disponible</span></button>`);
- body+=`</div>`;shell(body);
- document.querySelectorAll('[data-theme]').forEach(b=>b.onclick=()=>location.assign('?theme='+b.dataset.theme+'#home'));
+ const cards = catalog.themes.map(theme => ({
+  href: '?theme=' + theme.id + '#home', title: theme.title_fr, translation: theme.title_en, code: theme.id,
+  detail: theme.curriculum_number ? 'Code Klassia ' + theme.id + ' · thème ' + theme.curriculum_number + ' du programme francophone' : ''
+ }));
+ shell(Klassia.catalogue('Parcourir les thèmes', NURSERY.label + ' · Choisis un thème pour ouvrir ses activités.', cards));
 }
 function assessmentPage(){
  let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><section class="hero"><div class="eyebrow">SUIVI PAR OBSERVATION</div><h1>${esc(theme.assessment.title_fr)}</h1><p>${esc(theme.assessment.title_en)}</p></section><div class="notice">Évaluer ici signifie observer pour mieux accompagner. On ne cherche ni classement ni note.</div>`;

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <meta name="theme-color" content="#3157d5">
+ <title>Outils de référence · Klassia</title>
+ <link rel="manifest" href="./manifest.webmanifest">
+ <link rel="stylesheet" href="./sil/style.css">
+ <link rel="stylesheet" href="./shared/style.css">
+ <link rel="stylesheet" href="./shared/reference.css">
+</head>
+<body>
+ <header class="gs-top"><a href="./" data-klassia-back="← Accueil Klassia">K Klassia · Accueil</a></header>
+ <main class="gs-wrap reference-page">
+  <h1>Outils de référence</h1>
+  <nav class="klassia-learning-mode" aria-label="Outils de référence">
+   <a href="#alphabet">Alphabet</a><a href="#nombres">Nombres</a><a href="#tables">Tables de multiplication</a><a href="#montants">Montants en lettres</a>
+  </nav>
+  <section id="alphabet" class="gs-card">
+   <h2>Alphabet français</h2>
+   <p>Chaque carte associe une majuscule et sa minuscule. Suis l’ordre de A à Z.</p>
+   <ol class="reference-alphabet" id="alphabetLetters"></ol>
+  </section>
+  <section id="nombres" class="gs-card" hidden>
+   <h2>Lire et décomposer un nombre</h2>
+   <p>Choisis un nombre entier de 0 à 99 999. Les rangs se lisent de gauche à droite, des dizaines de milliers aux unités.</p>
+   <form data-number-form>
+    <label>Nombre <input name="amount" value="2 075" inputmode="numeric" maxlength="10" required></label>
+    <button type="submit">Lire le nombre</button>
+   </form>
+   <p data-number-result role="status"></p>
+   <p data-number-breakdown></p>
+  </section>
+  <section id="tables" class="gs-card" hidden>
+   <h2>Tables de multiplication</h2>
+   <p>Choisis une table. Lis d’abord les deux facteurs, puis le produit.</p>
+   <label>Table de <select id="tableFactor"></select></label>
+   <table id="multiplicationTable"><caption></caption><thead><tr><th scope="col">Calcul</th><th scope="col">Produit</th></tr></thead><tbody></tbody></table>
+  </section>
+  <section id="montants" class="gs-card" hidden>
+   <h2>Écrire un montant en lettres</h2>
+   <p>Décompose le montant, écris chaque groupe et ajoute l’unité monétaire. Essaie d’abord seul, puis compare avec le résultat.</p>
+   <ul>
+    <li>2 075 F CFA → deux mille soixante-quinze francs CFA</li>
+    <li>2 200 F CFA → deux mille deux cents francs CFA</li>
+    <li>2 201 F CFA → deux mille deux cent un francs CFA</li>
+    <li>10 000 F CFA → dix mille francs CFA</li>
+   </ul>
+   <form data-number-form data-currency>
+    <label>Montant entier en F CFA, de 0 à 10 000 <input name="amount" value="2 480" inputmode="numeric" maxlength="10" required></label>
+    <button type="submit">Voir le montant en lettres</button>
+   </form>
+   <p data-number-result role="status"></p>
+   <p data-number-breakdown></p>
+   <p><strong>Mille</strong> est invariable. <strong>Cent</strong> et <strong>vingt</strong> prennent un <em>s</em> lorsqu’ils sont multipliés et terminent le nombre. Les exemples suivent la graphie traditionnelle.</p>
+   <p><a href="./?unit=U8#lesson:MA-U8-L4">S’exercer dans la leçon CE2 sur la monnaie</a></p>
+  </section>
+ </main>
+ <div id="pwaTools" aria-live="polite"></div>
+ <script src="./shared/navigation.js"></script>
+ <script src="./shared/reference.js"></script>
+ <script src="./pwa.js"></script>
+</body>
+</html>

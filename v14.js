@@ -48,30 +48,30 @@ function injectPractice(){
 }
 
 async function subjectsAllPage(){
-  const units=await allUnits();
-  if(location.hash!=='#subjects-all')return;
-  const first=units[0]?.content?.subjects||[];
-  let body=`<div class="page-head"><div><div class="eyebrow">CE2 · PAR MATIÈRE</div><h1>Choisir d’abord une matière</h1><p>Parcours ensuite les huit thèmes de cette matière.</p></div><span class="pill">8 unités</span></div><div class="subject-grid wide">`;
-  for(const s0 of first){
-    const total=units.reduce((n,u)=>n+(u.content.subjects.find(s=>s.id===s0.id)?.lessons.length||0),0);
-    const m=subjectMeta(s0.id);
-    body+=`<button class="subject-card subject-card-rich" data-suball="${s0.id}"><div class="subject-card-top"><span class="subject-icon large">${m.icon}</span><span class="subject-pct">8 thèmes</span></div><strong>${esc14(s0.name)}</strong><span>${total} leçons dans l’ensemble du CE2</span></button>`;
-  }
-  body+='</div>'; shell(body,'learn');
-  document.querySelectorAll('[data-suball]').forEach(b=>b.onclick=()=>{location.hash='#subject-all:'+b.dataset.suball});
+ const units = await allUnits();
+ if (location.hash !== '#subjects-all') return;
+ const cards = (units[0]?.content.subjects || []).map(subject => {
+  const count = units.reduce((n, unit) => n + (unit.content.subjects.find(item => item.id === subject.id)?.lessons.length || 0), 0);
+  return { title: subject.name, count: count + ' leçons', href: '#subject-all:' + encodeURIComponent(subject.id) };
+ });
+ shell(Klassia.catalogue('Parcourir les matières', 'Choisis une matière pour voir les unités qui la proposent.', cards), 'learn');
 }
 async function subjectAllPage(id){
-  const units=await allUnits(); if(location.hash!=='#subject-all:'+id)return; let subjectName=id;
-  let body=`<div class="crumb"><a onclick="location.hash='#subjects-all'">Matières</a><span>›</span>CE2 complet</div>`;
-  const cards=[];
-  for(const u of units){
-    const s=u.content.subjects.find(x=>x.id===id);if(!s)continue;subjectName=s.name;
-    cards.push(`<article class="unit-subject-v14"><div><span class="unit-number">U${u.meta.number}</span><h3>${esc14(u.meta.title)}</h3><p>${s.lessons.length} leçon${s.lessons.length>1?'s':''}</p><ul>${s.lessons.slice(0,4).map(l=>`<li>${esc14(l.title)}</li>`).join('')}${s.lessons.length>4?`<li>…</li>`:''}</ul></div><button class="btn primary" data-open-unit="${u.meta.id}">Ouvrir</button></article>`);
-  }
-  body+=`<section class="subject-hero"><div class="subject-icon xlarge">${subjectMeta(id).icon}</div><div class="grow"><div class="eyebrow">CE2 · 8 UNITÉS</div><h1>${esc14(subjectName)}</h1><p>Commence par la matière, puis choisis le thème à étudier.</p></div><button class="btn soft" id="printSubAllV14">🖨 Imprimer / PDF</button></section><div class="unit-subject-grid-v14">${cards.join('')}</div>`;
-  shell(body,'learn');
-  document.querySelectorAll('[data-open-unit]').forEach(b=>b.onclick=()=>location.assign('?unit='+b.dataset.openUnit+'#subject:'+encodeURIComponent(id)));
-  document.getElementById('printSubAllV14').onclick=()=>openPrint('matiere-complete',id);
+ const units = await allUnits();
+ if (location.hash !== '#subject-all:' + encodeURIComponent(id)) return;
+ const cards = [];
+ let title = id;
+ for (const {meta, content} of units) {
+  const subject = content.subjects.find(item => item.id === id);
+  if (!subject) continue;
+  title = subject.name;
+  cards.push({ title: meta.title, code: meta.id, href: '?unit=' + meta.id + '#subject:' + encodeURIComponent(id),
+   count: subject.lessons.length + (subject.lessons.length === 1 ? ' leçon' : ' leçons'),
+   detail: subject.lessons.slice(0, 4).map(lesson => lesson.title).join(' · ') });
+ }
+ const actions = '<div class="print-actions-v14"><a href="#subjects-all">← Toutes les matières</a> <button class="btn soft" id="printSubAllV14">🖨 Imprimer / PDF</button></div>';
+ shell(actions + Klassia.catalogue(title, 'Choisis une unité pour ouvrir ses leçons.', cards), 'learn');
+ document.getElementById('printSubAllV14').onclick = () => openPrint('matiere-complete', id);
 }
 const domainGroups=[
  ['Connaissances fondamentales',['FR','EN','MA','SC','TI']],
@@ -88,8 +88,8 @@ async function domainsPage(index){
  shell(body,'learn');
 }
 function injectPrintActions(){
-  if(location.hash==='#learn'&&document.querySelector('.page-head')&&!document.getElementById('printUnitV14')){
-    const ph=document.querySelector('.page-head');
+  if(location.hash==='#learn'&&document.querySelector('.klassia-catalogue-heading')&&!document.getElementById('printUnitV14')){
+    const ph=document.querySelector('.klassia-catalogue-heading');
     ph.insertAdjacentHTML('beforebegin',`<div class="print-actions-v14"><button class="btn soft" id="printUnitV14">🖨 Thème / PDF</button></div>`);
     document.getElementById('printUnitV14').onclick=()=>openPrint('theme');
   }

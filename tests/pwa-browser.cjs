@@ -54,7 +54,7 @@ const server = http.createServer((request, response) => {
       ? pathname.slice(0, -'index.html'.length)
       : name.endsWith('.html') ? pathname.slice(0, -'.html'.length) : '';
     if (canonical) return response.writeHead(308, { Location: canonical + url.search }).end();
-    if (['pilote', 'search', 'imprimer'].includes(name)) name += '.html';
+    if (['pilote', 'search', 'imprimer', 'outils'].includes(name)) name += '.html';
   }
   if (name === '' || name.endsWith('/')) name += 'index.html';
   const file = path.resolve(root, name);
@@ -141,7 +141,8 @@ async function testBassaMicrophone(context, page, base) {
     Klassia.write('klassia_user', { role: 'ELEVE' });
     return Klassia.profile().id;
   });
-  for (const route of ['?unit=U3#lesson:BA-U3-L1', 'sil/#lesson:SIL-U3-L10', 'ce1/#lesson:CE1-U3-L11']) {
+  for (const route of ['ms/?theme=T1#domain:LC:6', 'gs/?theme=T1#domain:LC:5', 'sil/#lesson:SIL-U3-L10',
+    'ce1/#lesson:CE1-U3-L11', '?unit=U3#lesson:BA-U3-L1']) {
     await page.goto(base + route);
     const approved = page.locator('[data-bassa-audio="BA004"] audio[src^="blob:"]');
     await approved.waitFor();
@@ -441,7 +442,8 @@ async function testInkAndCalcul(context, page, base) {
     await page.goto(notebook);
     await page.getByRole('link', { name: link, exact: true }).click();
     await page.getByRole('button', { name: 'Écrire ou dessiner au doigt' }).first().waitFor();
-    const task = page.locator(exercise).last();
+    const tasks = page.locator(exercise);
+    const task = exercise === '.exercise-card' ? tasks.filter({ hasText: 'Tu achètes trois cahiers' }) : tasks.last();
     await revealCorrection(task);
     assert.match(await task.locator('.correction-body').innerText(), response);
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
@@ -450,6 +452,32 @@ async function testInkAndCalcul(context, page, base) {
   await page.getByRole('link', { name: 'Noter l’essai calcul CE2' }).click();
   assert.equal(await page.locator('#pilotObservation [name="exercise"]').inputValue(), 'MA-U8-L4-E3');
   console.log('PASS offline touch coloring and handwriting, profile isolation, undo and erase, and five practical calculation workshops');
+}
+
+async function testReferenceTools(page, base) {
+  await page.goto(base + '?unit=U8#lesson:MA-U8-L4');
+  const receipt = page.locator('.exercise-card').filter({ hasText: 'Sur un reçu fictif' });
+  await revealCorrection(receipt);
+  assert.match(await receipt.locator('.correction-body').innerText(), /Trois mille deux cents francs CFA/);
+  await page.getByRole('link', { name: 'Outil · Montants en lettres' }).click();
+  const money = page.locator('#montants');
+  await money.getByLabel(/Montant entier/).fill('4 081');
+  await money.getByRole('button', { name: 'Voir le montant en lettres' }).click();
+  assert.equal(await money.getByRole('status').innerText(), 'quatre mille quatre-vingt-un francs CFA');
+  const menu = page.getByRole('navigation', { name: 'Outils de référence' });
+  await menu.getByRole('link', { name: 'Nombres', exact: true }).click();
+  const numbers = page.locator('#nombres');
+  await numbers.getByLabel('Nombre', { exact: true }).fill('34 527');
+  await numbers.getByRole('button', { name: 'Lire le nombre' }).click();
+  assert.equal(await numbers.getByRole('status').innerText(), 'trente-quatre mille cinq cent vingt-sept');
+  await menu.getByRole('link', { name: 'Tables de multiplication', exact: true }).click();
+  await page.locator('#tableFactor').selectOption('7');
+  const row = page.getByRole('row').filter({ hasText: '7 × 8' });
+  assert.deepEqual(await row.getByRole('cell').allTextContents(), ['7 × 8', '56']);
+  await menu.getByRole('link', { name: 'Alphabet', exact: true }).click();
+  assert.equal(await page.locator('#alphabetLetters li').count(), 26);
+  assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+  console.log('PASS offline reference tools and lesson on writing amounts');
 }
 
 async function testCloudflareNavigation(browser, origin) {
@@ -645,8 +673,8 @@ async function run() {
     assert.ok(bassaLayout.actionsTop >= bassaLayout.titleBottom, 'Bassa actions must be below the title block');
     assert.equal(bassaLayout.horizontalOverflow, false);
     await themeButton.click();
-    await page.locator('.unit-subject-v14').first().waitFor();
-    assert.equal(await page.locator('.unit-subject-v14').count(), 8);
+    await page.locator('.klassia-catalogue-card').first().waitFor();
+    assert.equal(await page.locator('.klassia-catalogue-card').count(), 8);
 
     await page.goto(base + 'ce1/#lesson:CE1-U3-L06');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
@@ -904,8 +932,8 @@ async function run() {
     console.log('PASS offline GS story order and name cards, and SIL sentence comprehension');
 
     await page.goto(base + 'ms/#themes');
-    const plants = page.locator('.themeOpen[data-theme="T5"]');
-    const animals = page.locator('.themeOpen[data-theme="T6"]');
+    const plants = page.locator('.klassia-catalogue-card[href="?theme=T5#home"]');
+    const animals = page.locator('.klassia-catalogue-card[href="?theme=T6#home"]');
     await plants.getByText('Code Klassia T5 · thème 6 du programme francophone').waitFor();
     await animals.getByText('Code Klassia T6 · thème 5 du programme francophone').waitFor();
     await plants.click();
@@ -986,6 +1014,7 @@ async function run() {
     await testPilotNotebook(page, base);
     await testReadingWorkshops(page, base);
     await testInkAndCalcul(context, page, base);
+    await testReferenceTools(page, base);
   } finally {
     await browser?.close();
     server.close();

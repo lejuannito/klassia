@@ -151,7 +151,7 @@ function shell(body, active = 'home') {
   if (unitSelect) unitSelect.onchange = () => {
     const url = new URL(location.href);
     url.searchParams.set('unit', unitSelect.value);
-    url.hash = '#home';
+    url.hash = Klassia.isAdultSpace() ? '#home' : '#learn';
     location.assign(url.href);
   };
   document.getElementById('logout').onclick = () => {
@@ -207,6 +207,7 @@ function parentHome() {
 
 function home() {
   if (currentUser()?.role === 'PARENT') return parentHome();
+  if (!Klassia.isAdultSpace()) return unitsPage('home');
   const total = lessonTotal();
   const done = masteredCount();
   const pct = Math.round(done * 100 / total);
@@ -264,34 +265,20 @@ function home() {
   shell(body, 'home');
 }
 
-function unitsPage() {
-  const units = catalog.units.map(u => `<a class="subject-card subject-card-rich klassia-unit-link" href="?unit=${u.id}#learn">
-    <span class="unit-number">U${u.number}</span><strong>${esc(u.title)}</strong><span>${u.lesson_count} leçons</span>
-  </a>`).join('');
-  shell(`<div class="page-head"><div><div class="eyebrow">CE2</div><h1>Parcourir les unités</h1>
-    <p>Choisissez une unité, puis une matière et une leçon.</p></div></div><div class="subject-grid wide">${units}</div>`, 'learn');
+function unitsPage(active = 'learn') {
+  const title = active === 'home' ? 'Bonjour ' + Klassia.profile().name : 'Parcourir les unités';
+  const cards = catalog.units.map(unit => ({
+    href: '?unit=' + unit.id + '#learn', title: unit.title, code: unit.id, count: unit.lesson_count + ' leçons'
+  }));
+  shell(Klassia.catalogue(title, 'Choisis une unité, puis une matière et une leçon.', cards), active);
 }
 
 function learn() {
-  const p = progressData();
-  let body = `
-    <div class="page-head"><div><div class="eyebrow">CE2 · UNITÉ ${unitNumber()} · ${esc(unitTitle().toUpperCase())}</div><h1>Apprendre</h1><p>Choisis une matière puis avance leçon par leçon.</p></div><span class="pill">${lessonTotal()} leçons</span></div>
-    <div class="subject-grid wide">`;
-  content.subjects.forEach(s => {
-    const d = s.lessons.filter(l => p[l.id] === 'MAITRISEE').length;
-    const r = s.lessons.filter(l => p[l.id] === 'A_REVOIR').length;
-    const pct = Math.round(d * 100 / s.lessons.length);
-    const m = subjectMeta(s.id);
-    body += `
-      <button class="subject-card subject-card-rich" onclick="location.hash='#subject:${encodeURIComponent(s.id)}'">
-        <div class="subject-card-top"><span class="subject-icon large">${m.icon}</span><span class="subject-pct">${pct}%</span></div>
-        <strong>${esc(s.name)}</strong>
-        <span>${s.lessons.length} leçon${s.lessons.length > 1 ? 's' : ''} · ${d} déclarée comprise${d > 1 ? 's' : ''}${r ? ` · ${r} à revoir` : ''}</span>
-        <div class="progress"><span style="width:${pct}%"></span></div>
-      </button>`;
-  });
-  body += '</div>';
-  shell(body, 'learn');
+  const cards = content.subjects.map(subject => ({
+    href: '#subject:' + encodeURIComponent(subject.id), title: subject.name,
+    count: subject.lessons.length + (subject.lessons.length === 1 ? ' leçon' : ' leçons')
+  }));
+  shell(Klassia.catalogue('Apprendre', unitTitle() + ' · Choisis une matière puis une leçon.', cards), 'learn');
 }
 
 function subject(id) {
@@ -359,6 +346,9 @@ function lesson(id) {
         <div class="row"><span class="pill">${m.icon} ${esc(m.short)}</span><span class="badge ${cls}">${label}</span></div>
         <h1>${esc(l.title)}</h1><span class="editorial-status">${l.editorial?.status==='draft'?'Trame en cours de rédaction · accompagnement nécessaire':'Contenu pilote · relecture pédagogique à confirmer'}</span>
         <p>${esc(l.objectives?.[0] || '')}</p>
+        ${id === 'MA-U8-L4' ? '<p><a href="./outils.html#montants">Outil · Montants en lettres</a></p>'
+         : id === 'MA-U2-L1' ? '<p><a href="./outils.html#nombres">Outil · Nombres</a></p>'
+         : id === 'MA-U4-L3' ? '<p><a href="./outils.html#tables">Outil · Tables de multiplication</a></p>' : ''}
         <div class="lesson-step"><span style="width:${Math.round((index + 1) * 100 / s.lessons.length)}%"></span></div>
       </header>
       <section class="learning-block discover"><div class="block-kicker"><span>👀</span> JE DÉCOUVRE</div><p>${nl(l.discover || '')}</p></section>

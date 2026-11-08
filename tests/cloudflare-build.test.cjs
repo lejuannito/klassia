@@ -14,7 +14,7 @@ test('Cloudflare build publishes all five classes and excludes development files
   assert.equal(build.status, 0, build.stderr || build.stdout || String(build.error));
 
   for (const file of [
-    'index.html', 'search.html', 'pilote.html', 'shared/pilot.js', 'service-worker.js', 'precache-manifest.js',
+    'index.html', 'search.html', 'pilote.html', 'outils.html', 'shared/reference.js', 'shared/pilot.js', 'service-worker.js', 'precache-manifest.js',
     'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-maskable-512.png',
     'data/content-u1.json', 'ms/data/themes/T8.json', 'gs/data/themes/T8.json',
     'sil/data/sil-u8.json', 'ce1/data/unit8.json',

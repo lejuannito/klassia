@@ -37,7 +37,7 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 2. **Vérification finale sur téléphone.** Sur Android et iPhone, vérifier les extraits, les voix de l’appareil, la lisibilité de la page Bassa et la reprise de la progression en mode avion. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
 3. **Retours du pilote.** Consolider les observations des familles et des enseignants. Reprendre les exercices qui demandent trop d’aide et faire un second essai. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
 
-L’approfondissement des cinq classes a commencé par les longueurs. Les séances du carnet proposent un premier essai, un point à observer et une variante à soumettre. Poursuivre le rapprochement des objectifs officiels, des contenus et des évaluations en lecture, écriture, calcul pratique, arts et motricité. Présenter les liens curriculaires comme des propositions de correspondance et exploiter les manuels au niveau réellement consulté. [Progression des longueurs](COUVERTURE_PROGRESSION.md#quatrième-relevé-sur-les-longueurs)
+L’approfondissement des cinq classes a commencé par les longueurs, puis la lecture et l’écriture. Les séances du carnet proposent un premier essai, un point à observer et une variante à soumettre. Poursuivre le rapprochement des objectifs officiels, des contenus et des évaluations en calcul pratique, arts et motricité. Présenter les liens curriculaires comme des propositions de correspondance et exploiter les manuels au niveau réellement consulté. [Progression en lecture et écriture](COUVERTURE_PROGRESSION.md#cinquième-relevé-en-lecture-et-écriture)
 
 ## Évolutions après consolidation de la cible initiale
 

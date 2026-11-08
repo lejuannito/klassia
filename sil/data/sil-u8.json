@@ -13,18 +13,18 @@
       "id": "SIL-U8-L01",
       "domain": "Français",
       "title": "Je consolide les sons et lis un petit texte",
-      "objective": "Reconnaître c/q/k, s/z/f et eu dans la progression SIL, lire des mots et un très court texte adapté aux correspondances étudiées. Tracer et copier progressivement les graphies déjà étudiées.",
-      "course": "La lecture associe décodage et compréhension. Si un mot contient un son qui n’a pas encore été étudié, l’adulte le lit et l’enfant poursuit avec un mot accessible.\n\nComplément curriculum SIL — lecture/écriture : lire et écrire avancent ensemble. L’enfant observe d’abord le modèle, suit le sens conventionnel du tracé, écrit sur ardoise ou papier puis copie un mot court. On ne demande que les graphies déjà enseignées; l’adulte adapte la prise du crayon et la posture.",
-      "model": "Sur une carte connue, on distingue s et z ; le digramme ou le son eu est abordé selon le modèle de l’adulte. Modèle d’écriture : les graphies c, q, k, s, z, f et eu, seulement après lecture guidée.",
-      "guided": "Lire des mots étiquetés, pointer les sons déjà étudiés et raconter le sens à partir d’une phrase courte. L’adulte modèle aussi le geste d’écriture : Choisis une graphie déjà apprise, copie-la et ajoute une courte étiquette lisible à ton dessin.",
-      "exercise": "Lis le mot préparé par l’enseignant puis montre l’image qui correspond. Puis Choisis une graphie déjà apprise, copie-la et ajoute une courte étiquette lisible à ton dessin.",
-      "answer": "L’image correspond au mot lu ; l’enfant explique ou pointe le sens. En écriture, on vérifie une forme reconnaissable, l’ordre gauche-droite et l’usage des graphies montrées; les essais guidés sont acceptés.",
-      "remediation": "Revenir à une lettre et une syllabe familières puis reconstruire le mot avec l’adulte. Revenir à un trait ou à une lettre, montrer le geste lentement, puis laisser l’enfant tracer sans pression de vitesse.",
-      "transfer": "Lire un petit message imprimé avec aide ; ne pas demander d’adresse personnelle. Écrire ou copier une étiquette courte liée au thème, uniquement avec les graphies déjà enseignées.",
-      "materials": "Cartes c/q/k/s/z/f/eu et texte très court contrôlé. Ardoise ou papier, crayon adapté, modèle de lettre.",
+      "objective": "Lire un petit message, en retrouver une information, puis écrire une phrase courte pour transmettre une autre information. Revoir une graphie déjà travaillée dans la leçon.",
+      "course": "Lis d’abord les mots que tu reconnais. Aide-toi des lettres déjà étudiées pour lire les autres. Quand la phrase est lue, cherche ce qu’elle apprend au lecteur. Pour écrire ton message, dis d’abord ta phrase, puis écris-la en gardant un espace entre les mots.",
+      "model": "« Le fil est sur la table. » Les mots « sur la table » disent où se trouve le fil. Tu peux pointer ces mots, puis relire la phrase entière.",
+      "guided": "Avec l’adulte, relis la phrase modèle. Dans sac, repère le c final. Dans fil, repère le f initial. Choisis ensuite une des graphies de la ligne de révision et copie-la. L’adulte peut lire un mot qui résiste après le premier essai.",
+      "exercise": "Lis ce nouveau message à ton rythme. « Le sac est sur le banc. » Où se trouve le sac ? Montre les mots qui t’aident. Écris ta réponse sur papier ou dans la zone de réponse, puis compare-la au corrigé.",
+      "answer": "Le sac est sur le banc. Les mots « sur le banc » indiquent le lieu. L’enfant peut d’abord répondre « sur le banc » à l’oral, puis écrire une phrase en s’aidant du modèle.",
+      "remediation": "Si le décodage gêne, relire un mot à la fois puis reprendre la phrase entière. Si l’enfant lit mais ne retrouve pas le lieu, faire pointer le groupe de mots. Pour l’écriture, dire la phrase avant de la copier ou de la composer.",
+      "transfer": "Choisir un objet et un autre lieu. Écrire une phrase qu’un autre élève peut lire pour retrouver l’objet. L’adulte observe séparément la lecture, la réponse de sens et l’écriture.",
+      "materials": "Ardoise ou papier, crayon et cartes de mots. Reprendre aussi les cartes c/q/k, s/z/f et eu selon les graphies déjà étudiées.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
-        "pages": "23–41 (progression SIL de lecture) ; 35 (Tableau 6, écriture SIL, unité 1)",
+        "pages": "Tableau 5, p. 34, et tableau 6, p. 38, colonne SIL, U8",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
       },
       "editorial": {
@@ -32,7 +32,40 @@
         "reviewer": null,
         "validated_at": null,
         "notes": "Proposition de contenu à relire par un enseignant de la classe."
-      }
+      },
+      "support": {
+        "title": "Une phrase pour dire où est un objet",
+        "text": "Le fil est sur la table.\nPour réviser avec l’adulte : c et s dans sac, qu dans quatre, k dans kilo, z dans zéro, f dans fil et eu dans feu.",
+        "table": {
+          "caption": "Des mots pour fabriquer une autre phrase",
+          "headers": [
+            "Objet",
+            "Lieu"
+          ],
+          "rows": [
+            [
+              "le fil",
+              "sur la table"
+            ],
+            [
+              "le sac",
+              "dans la boîte"
+            ]
+          ]
+        }
+      },
+      "practice": [
+        {
+          "prompt": "Le sac a changé de place. Complète « Le sac est … » pour dire qu’il est sur la table. Écris la phrase, puis relis-la.",
+          "answer": "Le sac est sur la table.",
+          "explanation": "Le début indique l’objet. La fin précise le nouveau lieu. Compare les espaces entre les mots et le point final."
+        },
+        {
+          "prompt": "Invente un message d’une phrase pour dire où est le fil. Choisis un lieu et fais lire la phrase à quelqu’un.",
+          "answer": "Exemple : « Le fil est dans le sac. » Une autre phrase qui indique un lieu convient.",
+          "explanation": "Le lecteur doit pouvoir dire où chercher. Écoute ce qu’il a compris et ajuste la phrase si nécessaire."
+        }
+      ]
     },
     {
       "id": "SIL-U8-L02",

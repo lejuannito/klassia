@@ -66,13 +66,15 @@ L’audit ne relève plus de découverte générique dans le périmètre CE2 sui
 
 ## Consolidation
 
-Le relevé examine 50 repères dans les cinq classes. La progression des longueurs ajoute deux leçons et enrichit trois activités existantes. Le carnet propose un essai par classe, une fiche téléphone et le regroupement des observations par édition et par exercice. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Carnet du pilote](GUIDE_PILOTE.md)
+Le relevé examine 55 repères dans les cinq classes. Après les longueurs, le lot lecture et écriture enrichit cinq ressources et ajoute cinq séances au carnet. La synthèse du carnet regroupe les observations par édition et par exercice. [Matrice et bilan](COUVERTURE_PROGRESSION.md) · [Carnet du pilote](GUIDE_PILOTE.md)
 
 1. Utiliser les quatre situations de l’atelier pour enregistrer `BA002`, `BA004`, `BA005` et `BA006`. Faire confirmer la prononciation et les tons par le référent, recueillir l’accord de diffusion et intégrer les MP3. [Enregistrement dans Klassia](SUPPORTS_SONORES.md#enregistrer-au-micro-dans-klassia)
 2. Remplir le relevé du carnet sur Android et iPhone. Vérifier l’écran Bassa, le micro, l’écoute en mode avion et la reprise de la progression. Refaire l’écoute Bassa après intégration des prises. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
 3. Importer les relevés des familles et des enseignants, traiter les exercices signalés et faire un nouvel essai. Utiliser les variantes proposées pour le prochain lot des cinq classes. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
 
 Poursuivre la couverture des cinq classes par lots reliés à des attendus vérifiables et à des tâches observables. Préparer l’intégration progressive du CP après cette consolidation, puis celle des autres classes selon la feuille de route.
+
+Les retours techniques du pilote suivent quatre tickets. Le diagnostic de l’accès dans Chrome est prioritaire. Les lots suivants couvrent l’impression depuis l’application installée, l’ouverture des corrigés après un premier essai et la qualité des voix FR/EN. [Chrome](https://github.com/lejuannito/klassia/issues/34) · [Impression](https://github.com/lejuannito/klassia/issues/35) · [Corrigés](https://github.com/lejuannito/klassia/issues/36) · [Audio](https://github.com/lejuannito/klassia/issues/37)
 
 ## Règle pour chaque nouvelle session
 

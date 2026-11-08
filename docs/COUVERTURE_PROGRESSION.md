@@ -1,15 +1,15 @@
 # Couverture du curriculum et progression des cinq classes
 
-Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute la géométrie et l’orientation et complète le repère TIC du CE1. Le quatrième suit la progression des longueurs de la MS au CE2. La matrice rapproche les attendus des tableaux du MINEDUB des supports, consignes et retours présents dans Klassia. [Matrice des 50 repères](MATRICE_CURRICULUM.csv)
+Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajoute le tri, le calendrier, les sciences, l’environnement, les mesures et les TIC. Le troisième ajoute la géométrie et l’orientation et complète le repère TIC du CE1. Le quatrième suit la progression des longueurs. Le cinquième suit le passage de la lecture d’images à la rédaction d’un texte destiné à un lecteur. [Matrice des 55 repères](MATRICE_CURRICULUM.csv)
 
 | Classe | Ressources dans l’inventaire | Repères couverts | Partiels | Absents |
 |---|---:|---:|---:|---:|
-| Moyenne section | 160 | 10 | 0 | 0 |
-| Grande section | 162 | 10 | 0 | 0 |
-| SIL | 90 | 10 | 0 | 0 |
-| CE1 | 89 | 10 | 0 | 0 |
-| CE2 | 347 | 10 | 0 | 0 |
-| **Total** | **848** | **50** | **0** | **0** |
+| Moyenne section | 160 | 11 | 0 | 0 |
+| Grande section | 162 | 11 | 0 | 0 |
+| SIL | 90 | 11 | 0 | 0 |
+| CE1 | 89 | 11 | 0 | 0 |
+| CE2 | 347 | 11 | 0 | 0 |
+| **Total** | **848** | **55** | **0** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 
@@ -87,6 +87,18 @@ La correspondance s’affiche dans le parcours MS et à l’ouverture de chaque 
 | CE2 | Choisir une unité commune pour calculer la longueur restante | Conversions cohérentes, opération et unité justifiées | `MA-U1-L5` |
 
 Chaque séance propose un nouvel essai. Le carnet permet de relever l’aide nécessaire et de proposer une situation différente à essayer avec le même objectif. [Carnet du pilote](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
+
+## Cinquième relevé en lecture et écriture
+
+| Classe | Tâche | Ce que l’adulte observe | Ressource |
+|---|---|---|---|
+| MS | Reconnaître et nommer un objet représenté | Le geste ou le mot correspond à l’image, même après changement de place | `T1-LC3` |
+| GS | Retrouver e dans une étiquette, puis copier la lettre | Le repérage dans un deuxième mot et la copie sont observés séparément | `GS-T6-LC5` |
+| SIL | Lire un message, retrouver un lieu, puis en écrire un autre | L’enfant montre les mots qui donnent le lieu et relit sa propre phrase | `SIL-U8-L01` |
+| CE1 | Compléter une fiche fictive et écrire à la classe | Le lecteur retrouve l’activité, le jour et le lieu, puis vérifie le lieu modifié | `CE1-U8-L01` |
+| CE2 | Écrire une règle, la faire essayer et la réviser | Un lecteur comprend les tours, les points et la fin. L’élève précise une consigne si nécessaire. | `FR-U7-L2` |
+
+Les séances de la maternelle proposent un geste, une réponse orale ou une copie courte. Les trois leçons du primaire font lire un modèle, essayer une autre situation et relire la production avant de consulter un exemple de correction. Le carnet propose une fiche de retour par classe. [Guide du pilote](GUIDE_PILOTE.md)
 
 ## Suite de la feuille de route
 

@@ -126,8 +126,8 @@
           "type": "vocabulary",
           "title_fr": "Les objets de ma classe",
           "title_en": "Classroom objects",
-          "goal_fr": "Nommer quelques objets usuels en français et en anglais.",
-          "goal_en": "Name common classroom objects in French and English.",
+          "goal_fr": "Reconnaître une image familière et nommer les objets usuels en français et en anglais.",
+          "goal_en": "Recognise a familiar picture and name common classroom objects in French and English.",
           "table": {
             "headers": [
               "Image",
@@ -170,9 +170,9 @@
           "game_fr": "Pose trois objets devant l’enfant. Demande : « Montre le crayon. » Puis : « Show me the book. »",
           "game_en": "Place three objects in front of the child. Ask: “Show me the pencil.” Then ask the same in French.",
           "observe": [
-            "Associe mot et objet.",
-            "Comprend une consigne simple dans les deux langues.",
-            "Prononce sans exiger la perfection."
+            "Associe un mot entendu à une image.",
+            "Montre un détail qui distingue le livre du cahier.",
+            "Retrouve l’objet après changement de place."
           ],
           "editorial": {
             "status": "in_review",
@@ -183,15 +183,42 @@
           ],
           "duration_minutes": 8,
           "teacher_guide": {
-            "preparation": "Préparer le matériel et montrer le geste ou donner un modèle oral avant de demander à l’enfant de le reproduire.",
+            "preparation": "Préparer un crayon, un cahier fermé et un livre ouvert. Garder les trois objets réels à portée si l’image seule est difficile à lire.",
             "observation": [
-              "Associe mot et objet.",
-              "Comprend une consigne simple dans les deux langues.",
-              "Prononce sans exiger la perfection."
+              "Associe un mot entendu à une image.",
+              "Montre un détail qui distingue le livre du cahier.",
+              "Retrouve l’objet après changement de place."
             ],
-            "adaptation": "Réduire le nombre d’éléments ou répéter une seule consigne. Pour approfondir, changer le matériel et observer si l’enfant réussit encore.",
-            "follow_up": "Reprendre un autre jour et noter la langue utilisée ainsi que l’aide nécessaire."
-          }
+            "adaptation": "Commencer avec deux images ou deux objets. Accepter un geste ou une réponse dans la langue utilisée pendant la séance.",
+            "follow_up": "Changer la place des objets avant un deuxième essai. Proposer au carnet pilote un autre objet courant à illustrer."
+          },
+          "figure": {
+            "src": "../assets/ms-cartes-objets-classe.svg",
+            "alt": "Trois cartes du coin lecture avec un cahier à spirale, un crayon et un livre ouvert."
+          },
+          "steps_fr": [
+            "Regarde les trois images avant de lire les mots avec l’adulte. Montre un objet que tu reconnais.",
+            "Écoute « Montre le crayon ». Pointe une carte, puis nomme l’objet avec tes mots.",
+            "Mélange les cartes ou les objets réels. Montre maintenant le livre ouvert et dis comment tu l’as reconnu."
+          ],
+          "steps_en": [
+            "Look at the three pictures before reading the labels with the adult. Point to an object you recognise.",
+            "Listen to “Show me the pencil.” Point to a card and then name the object.",
+            "Mix the cards or real objects. Find the open book and say how you recognised it."
+          ],
+          "questions": [
+            {
+              "fr": "Avec quel objet peux-tu tracer un trait ? Montre-le sur l’image.",
+              "en": "Which object can you use to draw a line? Point to it in the picture.",
+              "answer": "Le crayon, au milieu. / The pencil in the middle."
+            },
+            {
+              "fr": "Montre le livre ouvert. Quel détail te permet de le reconnaître ?",
+              "en": "Point to the open book. What helps you recognise it?",
+              "answer": "On voit les deux pages ouvertes. / You can see the two open pages."
+            }
+          ],
+          "source_note": "MINEDUB 2018, maternelle francophone, tableau 13, p. 49, première année, lecture d’images familières."
         },
         {
           "id": "LC4",

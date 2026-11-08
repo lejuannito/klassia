@@ -137,6 +137,27 @@ for idx,(tf,te) in enumerate(themes,1):
   number=len(by[domain]['activities'])+1;aid=f'GS-{t}-{domain}{number}'
   a={'id':aid,'type':kind,'title_fr':title,'title_en':titleen,'goal_fr':action.split('. ')[0]+'.','goal_en':actionen.split('. ')[0]+'.','prompt_fr':action,'prompt_en':actionen,'steps_fr':['Préparer avec l’adulte : '+action,'Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.','Reprendre : '+q],'steps_en':['Prepare with the adult: '+actionen,'Try with help, then explain what you did in your own words.','Try again: '+qe],'questions':[{'fr':q,'en':qe,'answer':ans+' / '+anse}],'observe':['Comprend la consigne et commence avec une aide adaptée.','Répond ou montre sa démarche : '+ans,'Explique ou montre un choix sans recherche de vitesse.'],'materials':['papier et crayons','objets courants propres décrits dans la consigne; adulte accompagnateur'],'duration_minutes':12,'source_refs':refs[kind if kind in refs else 'math'],'editorial':{'status':'in_review','validation':'pending'},'teacher_guide':{'preparation':'Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.','adaptation':'Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.','follow_up':'Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée.'}}
   if extra:a.update(extra)
+  if aid=='GS-T6-LC5':
+   a['goal_fr']='Copier des lettres du modèle et retrouver la lettre e dans des étiquettes du jardin.'
+   a['goal_en']='Copy letters from a model and find the letter e on garden labels.'
+   a['steps_fr'].extend([
+    'Observe les étiquettes graine et pot. Cherche e en comparant avec le modèle E e.',
+    'Copie la lettre e sur une étiquette de pot. Cherche-la ensuite dans un mot différent, racine.'
+   ])
+   a['steps_en'].extend([
+    'Look at the seed and pot labels. Find e using the E e model.',
+    'Copy the letter e on a plant label. Find it again in another word, leaf.'
+   ])
+   a['visual']['items'].append('E e')
+   a['table']={'headers':['Étiquettes en français','English labels'],'rows':[['graine','seed'],['pot','pot'],['racine','leaf']]}
+   a['questions'].extend([
+    {'fr':'Sur quelle étiquette vois-tu un e : graine ou pot ?','en':'Which label has the letter e: seed or pot?','answer':'Graine contient un e. / Seed has two e’s.'},
+    {'fr':'Montre e dans racine, puis copie seulement la lettre e.','en':'Point to e in leaf, then copy just the letter e.','answer':'Dans racine, e vient à la fin. / In leaf, e follows l.'}
+   ])
+   a['observe'].extend(['Repère e sur une étiquette différente.','Copie la lettre e à partir du modèle.'])
+   a['materials'].append('étiquettes du jardin écrites par l’adulte')
+   a['source_refs'][0]='FR : tableaux 12–13, p. 47–50, deuxième année, thème 6 pour la voyelle e'
+   a['teacher_guide']['follow_up']='Présenter une autre étiquette familière avec e et une sans e. Distinguer le repérage de la lettre et sa copie.'
   if kind=='bassa':
    lexical=json.loads((ROOT/'data/bassa-lexicon-variants.json').read_text())['entries'];matches=json.loads((ROOT/'data/bassa-lessons.json').read_text())['lessons']['GS:'+aid]['concept_ids'];a['bassa_variants']=[next(x for x in lexical if x['id']==key) for key in matches]
   by[domain]['activities'].append(a);mapping.append({'id':aid,'theme':t,'domain':domain,'references':a['source_refs'],'status':'proposed'})

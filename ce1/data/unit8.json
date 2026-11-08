@@ -36,17 +36,17 @@
       "domain": "Français",
       "title": "Rédiger un court message informatif",
       "objective": "Remplir un formulaire fictif simple et rédiger un message bref avec un destinataire et une information claire.",
-      "course": "Un message court indique à qui il s’adresse et ce qu’il faut savoir. Un formulaire recueille des informations; on n’y inscrit jamais de données personnelles réelles dans l’exercice.",
-      "model": "« À la classe : la réunion du club de lecture a lieu mardi à l’école fictive. »",
-      "guided": "Compléter un formulaire inventé avec un prénom fictif, puis écrire un message de deux phrases.",
-      "exercise": "À qui s’adresse le message et quelle information transmet-il ?",
-      "answer": "À la classe; il annonce le jour de la réunion fictive.",
-      "remediation": "Fournir les mots « à », « quand », « où » comme repères.",
-      "transfer": "Écrire un message fictif et vérifier qu’il n’expose aucune donnée personnelle.",
-      "materials": "Formulaire fictif et cartes de mots",
+      "course": "Une fiche recueille des informations dans des cases. Un message transforme ces informations en phrases que le destinataire comprend. Avant d’envoyer un message, vérifie qui le lira, ce qui se passe, quand et où. Utilise les personnages fictifs de l’exercice.",
+      "model": "À la classe. Jeudi, Nela lit une histoire au coin lecture. Cette phrase reprend l’activité, le jour et le lieu de la fiche.",
+      "guided": "Relis la fiche et le message modèle. Retrouve dans le message ce qui correspond à chaque case. Montre à qui le message est adressé.",
+      "exercise": "Vendredi, le personnage de Rami présente une image en salle 2. Complète les quatre cases de la fiche sur papier, puis écris un court message à la classe. Relis ton message avant de regarder la proposition de correction.",
+      "answer": "Fiche : Rami, présenter une image, vendredi, salle 2. Exemple de message : « À la classe. Vendredi, Rami présente une image en salle 2. » Une formulation différente convient si le destinataire et les informations utiles sont présents.",
+      "remediation": "Faire compléter une case à la fois. Faire dire le message avec « À qui ? », « Quoi ? », « Quand ? » et « Où ? », puis passer à l’écrit.",
+      "transfer": "Inventer une autre fiche fictive, puis demander à un lecteur de retrouver le jour et le lieu dans le message. Observer ce qui a été transmis sans aide.",
+      "materials": "Feuille de brouillon et modèle de fiche à quatre cases.",
       "source": {
         "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2, MINEDUB, 2018",
-        "pages": "CE1 uniquement · tableau production d’écrits · p. 33",
+        "pages": "Tableau 5, p. 33, production d’écrits, colonne CE1, U8",
         "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
       },
       "editorial": {
@@ -57,6 +57,46 @@
       },
       "competencies": [
         "production d’écrits"
+      ],
+      "support": {
+        "title": "Fiche fictive de l’atelier lecture",
+        "table": {
+          "caption": "Un modèle rempli pour le personnage de Nela",
+          "headers": [
+            "Case de la fiche",
+            "Information"
+          ],
+          "rows": [
+            [
+              "Prénom fictif",
+              "Nela"
+            ],
+            [
+              "Activité",
+              "Lire une histoire"
+            ],
+            [
+              "Jour",
+              "Jeudi"
+            ],
+            [
+              "Lieu",
+              "Coin lecture"
+            ]
+          ]
+        }
+      },
+      "practice": [
+        {
+          "prompt": "Lis « À la classe. La lecture a lieu jeudi. » Quelle information manque pour savoir où aller ?",
+          "answer": "Le lieu manque.",
+          "explanation": "Le destinataire, l’activité et le jour sont donnés. Sans lieu, le lecteur ne sait pas où se rendre."
+        },
+        {
+          "prompt": "L’activité de Rami se fera finalement au coin lecture. Réécris son message en changeant seulement l’information nécessaire.",
+          "answer": "Exemple : « À la classe. Vendredi, Rami présente une image au coin lecture. »",
+          "explanation": "Le lieu change. Le destinataire, l’activité et le jour restent les mêmes."
+        }
       ]
     },
     {

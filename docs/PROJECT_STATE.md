@@ -16,7 +16,7 @@ Klassia est un manuel interactif camerounais en **édition pilote accompagnée**
 - CE1 bilingue : 89 leçons / 8 unités.
 - CE2 : 347 leçons / 8 unités.
 
-L’inventaire consolidé compte 848 ressources. La matrice suit 50 repères examinés. [Matrice des repères](MATRICE_CURRICULUM.csv)
+L’inventaire consolidé compte 848 ressources. La matrice suit 55 repères examinés. [Matrice des repères](MATRICE_CURRICULUM.csv)
 
 ## État fonctionnel notable
 
@@ -29,7 +29,7 @@ L’inventaire consolidé compte 848 ressources. La matrice suit 50 repères exa
 - absence volontaire de synthèse vocale bassa avec voix FR/EN ;
 - 45 panneaux de traductions bassa dans les cinq classes ;
 - capture et réécoute des quatre premières entrées bassa dans l’atelier Enseignant, avec conservation par profil sur l’appareil ;
-- carnet du pilote accessible hors connexion, avec cinq séances proposées, un relevé téléphone, une synthèse des observations et l’échange de relevés par import et export ;
+- carnet du pilote accessible hors connexion, avec dix séances proposées, un relevé téléphone, une synthèse des observations et l’échange de relevés par import et export ;
 - toutes les variantes bassa proposées pour le sens demandé restent acceptées ;
 - les 39 leçons de français CE2 U4–U8 ont été enrichies avec supports et exercices corrigés.
 

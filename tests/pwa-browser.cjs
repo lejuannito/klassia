@@ -141,7 +141,7 @@ async function testPilotNotebook(page, base) {
   await page.getByRole('heading', { name: 'Carnet du pilote', exact: true }).waitFor();
   await page.getByText('Aucun relevé saisi.', { exact: true }).waitFor();
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
-  assert.equal(await page.locator('.pilot-cards article').count(), 5);
+  assert.equal(await page.locator('#activites .pilot-cards article').count(), 5);
 
   for (const [href, locator, text, figure] of [
     ['ms/?theme=T5#domain:ST:3', '.activityCard', /Range trois bandes/, 'ms-tiges-longueurs.svg'],
@@ -201,6 +201,42 @@ async function testPilotNotebook(page, base) {
   await page.reload();
   await page.getByText(/2 observation\(s\) · 1 essai\(s\) téléphone/).waitFor();
   console.log('PASS offline length activities in five grades, pilot observation, device checklist, export and deduplicated import');
+}
+
+async function testReadingWorkshops(page, base) {
+  const notebook = base + 'pilote.html#ecrits';
+  await page.goto(notebook);
+  const cards = page.locator('#ecrits .pilot-cards article');
+  await cards.first().waitFor();
+  assert.equal(await cards.count(), 5);
+  for (const [link, activity, cue, correction, index] of [
+    ['Ouvrir les cartes de la classe', '.activityCard', /Montre le livre ouvert/, /Le crayon, au milieu/, 0],
+    ['Ouvrir les étiquettes du jardin', '.activityCard', /Étiquettes en français/, /Graine contient un e/, 1],
+    ['Ouvrir le petit message', '.lesson-card', /Le sac est sur le banc/, /sur le banc.*indiquent le lieu/s, 0],
+    ['Ouvrir la fiche et le message', '.lesson-card', /Fiche fictive de l’atelier lecture/, /Rami.*vendredi.*salle 2/is, 0]
+  ]) {
+    await page.goto(notebook);
+    await page.getByRole('link', { name: link, exact: true }).click();
+    const content = page.locator(activity).filter({ hasText: cue });
+    await content.waitFor();
+    if (link === 'Ouvrir les cartes de la classe') {
+      await page.waitForFunction(() => [...document.images].some(img =>
+        img.src.endsWith('ms-cartes-objets-classe.svg') && img.naturalWidth > 0));
+    }
+    const answer = content.locator('.answer-reveal').nth(index);
+    await answer.locator('summary').click();
+    assert.match(await answer.innerText(), correction);
+  }
+  await page.goto(notebook);
+  await page.getByRole('link', { name: 'Ouvrir le jeu du cercle', exact: true }).click();
+  const exercise = page.locator('.exercise-card').filter({ hasText: 'Écris la règle du jeu du cercle' });
+  await exercise.getByRole('button', { name: 'Voir la correction' }).click();
+  assert.match(await exercise.locator('.feedback').innerText(), /Après les six essais/);
+  await page.goto(notebook);
+  await page.getByRole('link', { name: 'Noter l’essai lecture CE2', exact: true }).click();
+  assert.equal(await page.locator('#pilotObservation [name="lesson"]').inputValue(), 'FR-U7-L2');
+  assert.equal(await page.locator('#pilotObservation [name="exercise"]').inputValue(), 'FR-U7-L2-E4');
+  console.log('PASS offline reading and writing workshops, five routes, corrections and prefilled pilot feedback');
 }
 
 async function run() {
@@ -646,6 +682,7 @@ async function run() {
     console.log('PASS offline GS reading, CE1 listening and CE2 opinion and telephone writing');
     await testBassaMicrophone(context, page, base);
     await testPilotNotebook(page, base);
+    await testReadingWorkshops(page, base);
   } finally {
     await browser?.close();
     server.close();

@@ -229,40 +229,57 @@
           "type": "prewriting",
           "title_fr": "Des lettres et mon prénom",
           "title_en": "Letters and my name",
-          "goal_fr": "Observe les modèles P Q R et p q r.",
-          "goal_en": "Look at P Q R and p q r.",
+          "goal_fr": "Copier des lettres du modèle et retrouver la lettre e dans des étiquettes du jardin.",
+          "goal_en": "Copy letters from a model and find the letter e on garden labels.",
           "prompt_fr": "Observe les modèles P Q R et p q r. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
           "prompt_en": "Look at P Q R and p q r. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
           "steps_fr": [
             "Préparer avec l’adulte : Observe les modèles P Q R et p q r. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
             "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?"
+            "Reprendre : Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?",
+            "Observe les étiquettes graine et pot. Cherche e en comparant avec le modèle E e.",
+            "Copie la lettre e sur une étiquette de pot. Cherche-la ensuite dans un mot différent, racine."
           ],
           "steps_en": [
             "Prepare with the adult: Look at P Q R and p q r. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
             "Try with help, then explain what you did in your own words.",
-            "Try again: How do you check your name’s letters are in order?"
+            "Try again: How do you check your name’s letters are in order?",
+            "Look at the seed and pot labels. Find e using the E e model.",
+            "Copy the letter e on a plant label. Find it again in another word, leaf."
           ],
           "questions": [
             {
               "fr": "Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?",
               "en": "How do you check your name’s letters are in order?",
               "answer": "Je compare au modèle de gauche à droite, une lettre après l’autre. / Compare with the model from left to right, one letter at a time."
+            },
+            {
+              "fr": "Sur quelle étiquette vois-tu un e : graine ou pot ?",
+              "en": "Which label has the letter e: seed or pot?",
+              "answer": "Graine contient un e. / Seed has two e’s."
+            },
+            {
+              "fr": "Montre e dans racine, puis copie seulement la lettre e.",
+              "en": "Point to e in leaf, then copy just the letter e.",
+              "answer": "Dans racine, e vient à la fin. / In leaf, e follows l."
             }
           ],
           "observe": [
             "Comprend la consigne et commence avec une aide adaptée.",
             "Répond ou montre sa démarche : Je compare au modèle de gauche à droite, une lettre après l’autre.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Explique ou montre un choix sans recherche de vitesse.",
+            "Repère e sur une étiquette différente.",
+            "Copie la lettre e à partir du modèle."
           ],
           "materials": [
             "feuille",
             "crayon adapté",
-            "modèle du prénom fourni par l’adulte"
+            "modèle du prénom fourni par l’adulte",
+            "étiquettes du jardin écrites par l’adulte"
           ],
           "duration_minutes": 12,
           "source_refs": [
-            "FR : tableaux 12–13, p. 47–51, deuxième année",
+            "FR : tableaux 12–13, p. 47–50, deuxième année, thème 6 pour la voyelle e",
             "EN : table 37, p. 64, Nursery Two"
           ],
           "editorial": {
@@ -272,13 +289,34 @@
           "teacher_guide": {
             "preparation": "Préparer les objets ou dessiner le support décrit avant la séance. Lire la consigne dans la langue choisie.",
             "adaptation": "Proposer moins d’éléments, un geste ou une réponse pointée. Pour approfondir, changer un élément du support et faire expliquer la nouvelle réponse.",
-            "follow_up": "Reprendre un autre jour; noter la langue et l’aide nécessaire, sans note chiffrée."
+            "follow_up": "Présenter une autre étiquette familière avec e et une sans e. Distinguer le repérage de la lettre et sa copie."
           },
           "visual": {
             "kind": "letters",
             "items": [
               "P Q R",
-              "p q r"
+              "p q r",
+              "E e"
+            ]
+          },
+          "table": {
+            "headers": [
+              "Étiquettes en français",
+              "English labels"
+            ],
+            "rows": [
+              [
+                "graine",
+                "seed"
+              ],
+              [
+                "pot",
+                "pot"
+              ],
+              [
+                "racine",
+                "leaf"
+              ]
             ]
           }
         },

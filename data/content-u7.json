@@ -125,6 +125,20 @@
               "answer": "Exemple : Prends six morceaux de même taille. Dessine un soleil sur deux cartes, un arbre sur deux et une maison sur deux. Vérifie que les dos ne permettent pas de reconnaître les dessins. Accepter d’autres dessins si trois paires sont conservées.",
               "explanation": "Pour une production personnelle, plusieurs formulations sont possibles : respecte les critères indiqués dans la correction.",
               "id": "FR-U7-L2-E2"
+            },
+            {
+              "type": "open",
+              "id": "FR-U7-L2-E3",
+              "prompt": "Une règle indique « Retourne deux cartes. Si elles sont identiques, garde-les. » Le lecteur demande ce qu’il doit faire si elles sont différentes. Ajoute une consigne claire et dis qui joue ensuite.",
+              "answer": "Exemple : « Si les cartes sont différentes, remets-les face cachée à la même place. Ensuite, l’autre joueur joue. »",
+              "explanation": "La première phrase manquante règle le cas des cartes différentes. La deuxième indique à qui revient le tour."
+            },
+            {
+              "type": "open",
+              "id": "FR-U7-L2-E4",
+              "prompt": "Écris la règle du jeu du cercle pour un lecteur qui ne l’a jamais vu. Deux joueurs ont chacun trois jetons en papier. À tour de rôle, chacun fait glisser un jeton depuis un trait vers un cercle. Un jeton entièrement dans le cercle vaut un point. Précise la fin de partie et le résultat en cas d’égalité. Fais jouer un lecteur. Si une consigne lui manque, précise-la.",
+              "answer": "Exemple : « Trace un cercle et un trait de départ. Donne trois jetons en papier à chaque joueur. À tour de rôle, faites glisser un jeton depuis le trait. S’il s’arrête entièrement dans le cercle, notez un point. Retirez le jeton après l’essai. Après les six essais, le meilleur score gagne. Si les scores sont égaux, la partie est nulle. »",
+              "explanation": "Vérifie le matériel, l’ordre des tours, le point, le nombre d’essais et le résultat final. Une autre règle d’égalité clairement expliquée convient. L’essai avec un lecteur aide à repérer une consigne absente."
             }
           ],
           "source": "Curriculum CE2, production d’écrits, U7, p.33.",
@@ -144,6 +158,11 @@
               "title": "Comprendre et appliquer",
               "kind": "example",
               "body": "Une règle précise matériel, joueurs, but, déroulement et fin. Une notice explique comment fabriquer ou utiliser quelque chose.\nL’étape 4 précise qui joue après une réussite : sans elle, les joueurs pourraient suivre des règles différentes.\nJe teste mes consignes avec un lecteur pour trouver ce qui manque."
+            },
+            {
+              "title": "Faire jouer un lecteur",
+              "kind": "method",
+              "body": "Donne ta règle écrite à un joueur qui ne connaît pas le jeu. Observe s’il peut préparer le matériel, jouer un tour, passer le tour et annoncer la fin. S’il te demande une précision, note sa question puis corrige le passage correspondant."
             }
           ],
           "editorial": {
@@ -152,6 +171,16 @@
             "source": "Curriculum CE2, production d’écrits, U7, p.33.",
             "reviewer": null,
             "revision": "fr-specific-2026-11-01"
+          },
+          "teacher_guide": {
+            "preparation": "Préparer six jetons de papier, un cercle et un trait tracés sur une feuille. Confier la règle écrite à un lecteur qui n’a pas vu la démonstration.",
+            "observation": [
+              "Le lecteur sait comment commencer et à qui revient le tour.",
+              "La règle permet de compter les points et de reconnaître la fin.",
+              "L’élève modifie un passage précis après l’essai du lecteur."
+            ],
+            "adaptation": "Faire relire une étape à la fois. Demander au lecteur de dire ce qu’il fait lorsque la consigne laisse deux possibilités.",
+            "follow_up": "Changer le nombre de jetons ou la façon de compter, puis proposer la variante au carnet pilote."
           }
         },
         {

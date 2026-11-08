@@ -3,6 +3,8 @@ const root=path.resolve(__dirname,'..');
 const server=http.createServer((req,res)=>{let p=path.join(root,decodeURIComponent(req.url.split('?')[0]));if(p.endsWith('/'))p+='index.html';try{res.setHeader('Content-Type',p.endsWith('.js')?'text/javascript':p.endsWith('.css')?'text/css':p.endsWith('.html')?'text/html':p.endsWith('.json')?'application/json':'application/octet-stream');res.end(fs.readFileSync(p));}catch{res.statusCode=404;res.end('404')}});
 (async()=>{await new Promise(r=>server.listen(8765,r));const launchOptions={...(process.env.KLASSIA_CHROMIUM?{executablePath:process.env.KLASSIA_CHROMIUM}:{}),headless:true,args:['--no-sandbox','--disable-gpu','--disable-dev-shm-usage','--no-zygote','--single-process']};let b=await chromium.launch(launchOptions),ctx;
 try{ctx=await b.newContext({viewport:{width:390,height:844},serviceWorkers:'block'});const p=await ctx.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://localhost:8765/');await p.getByRole('heading',{name:/Bonjour/}).waitFor();
+assert.equal(await p.locator('.klassia-catalogue-card').count(),8);
+assert.equal(await p.locator('.stats-row,.recommend-card,.v9-plan').count(),0);
 assert.deepEqual(await p.locator('[data-grade] option').allTextContents(),['CE2','Moyenne section','Grande section bilingue','SIL bilingue','CE1 bilingue']);
 await p.locator('[data-profiles]').click();await p.locator('#localRole').selectOption('ENSEIGNANT');await p.waitForLoadState('load');await p.locator('.mobile-nav [data-go="coverage"]').waitFor();await p.locator('.mobile-nav [data-go="bassa"]').waitFor();await p.locator('[data-profiles]').click();await p.locator('#localRole').selectOption('ELEVE');await p.waitForLoadState('load');await p.getByRole('heading',{name:/Bonjour/}).waitFor();
 async function route(h){await p.evaluate(x=>location.hash=x,h);await p.waitForTimeout(250);}
@@ -27,7 +29,7 @@ await p.locator('#printFallback summary').click();
 assert.equal(await p.locator('#printExternal').getAttribute('href'),p.url());
 await p.locator('#printBack').click();
 await p.locator('.activityCard').waitFor();
-await p.goto('http://localhost:8765/sil/');await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();assert.equal(await p.locator('.gs-card').count(),8);await p.locator('.klassia-learning-mode').getByRole('link',{name:'Par matière'}).click();await p.getByRole('heading',{name:'Parcourir les matières'}).waitFor();await p.locator('a[href="#subject:Fran%C3%A7ais"]').click();await p.getByRole('heading',{name:'J’écoute, je parle et je découvre l’alphabet'}).waitFor();await p.locator('.gs-picker').first().click();await p.locator('.answer-reveal').first().waitFor();assert.equal(await p.locator('.answer-reveal').first().locator('.correction-toggle').getAttribute('aria-expanded'),'false');await p.locator('.klassia-learning-mode').getByRole('link',{name:'Par unité'}).click();await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();await p.locator('a[href="#unit:SIL-U1"]').click();await p.locator('.gs-hero').getByRole('heading',{name:/La maison/}).waitFor();await p.goto('http://localhost:8765/ce1/');await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();await p.locator('a[href="#unit:CE1-U1"]').click();await p.getByRole('heading',{name:/Classer des ensembles et composer les nombres jusqu’à 200/}).waitFor();await p.locator('.gs-picker').first().click();await p.locator('.answer-reveal').first().waitFor();assert.equal(await p.locator('.answer-reveal').first().locator('.correction-toggle').getAttribute('aria-expanded'),'false');
+await p.goto('http://localhost:8765/sil/');await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();assert.equal(await p.locator('.klassia-catalogue-card').count(),8);await p.locator('.klassia-learning-mode').getByRole('link',{name:'Par matière'}).click();await p.getByRole('heading',{name:'Parcourir les matières'}).waitFor();await p.locator('a[href="#subject:Fran%C3%A7ais"]').click();await p.getByRole('heading',{name:'J’écoute, je parle et je découvre l’alphabet'}).waitFor();await p.locator('.gs-picker').first().click();await p.locator('.answer-reveal').first().waitFor();assert.equal(await p.locator('.answer-reveal').first().locator('.correction-toggle').getAttribute('aria-expanded'),'false');await p.locator('.klassia-learning-mode').getByRole('link',{name:'Par unité'}).click();await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();await p.locator('a[href="#unit:SIL-U1"]').click();await p.locator('.gs-hero').getByRole('heading',{name:/La maison/}).waitFor();await p.goto('http://localhost:8765/ce1/');await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();await p.locator('a[href="#unit:CE1-U1"]').click();await p.getByRole('heading',{name:/Classer des ensembles et composer les nombres jusqu’à 200/}).waitFor();await p.locator('.gs-picker').first().click();await p.locator('.answer-reveal').first().waitFor();assert.equal(await p.locator('.answer-reveal').first().locator('.correction-toggle').getAttribute('aria-expanded'),'false');
 // A direct lesson link is usable without opening its unit first.
 await p.goto('http://localhost:8765/ce1/#lesson:CE1-U7-L04');await p.locator('.lesson-support table').waitFor();assert.match(await p.locator('.lesson-support').innerText(),/Rouge/);assert.equal(await p.locator('.lesson-card').count(),1);assert.equal(await p.locator('.correction-toggle[aria-expanded=true]').count(),0);
 await p.locator('[data-progress="A"]').click();await p.reload();await p.locator('[data-progress="A"][aria-pressed="true"]').waitFor();
@@ -48,6 +50,12 @@ for(const [route,first] of [['/','Par unité'],['/ms/','Par thème'],['/gs/','Pa
  const navigation=p.getByRole('navigation',{name:'Parcourir la classe'});
  await navigation.waitFor();
  assert.deepEqual(await navigation.getByRole('link').allTextContents(),[first,'Par matière','Par domaine']);
+ for(const label of [first,'Par matière']){
+  await navigation.getByRole('link',{name:label,exact:true}).click();
+  await p.locator('.klassia-catalogue-card').first().waitFor();
+  assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ }
+ await p.getByRole('link',{name:'Outils',exact:true}).waitFor();
 }
 await p.evaluate(()=>Klassia.write('klassia_user',{role:'PARENT'}));
 await p.goto('http://localhost:8765/#units');
@@ -55,7 +63,7 @@ await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();
 await p.getByRole('link',{name:/U4 Les métiers/}).click();
 await p.getByRole('heading',{name:'Apprendre',exact:true}).waitFor();
 assert.match(p.url(),/\?unit=U4#learn$/);
-await p.locator('.subject-card').filter({hasText:'Mathématiques'}).click();
+await p.locator('.klassia-catalogue').getByRole('link',{name:/Mathématiques/}).click();
 await p.getByRole('heading',{name:'Mathématiques',exact:true}).waitFor();
 await p.getByRole('link',{name:'Page précédente',exact:false}).click();
 await p.getByRole('heading',{name:'Apprendre',exact:true}).waitFor();

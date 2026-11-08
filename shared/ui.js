@@ -32,6 +32,17 @@ function changeSpace(role, destination='#coverage'){
  if(['#coverage','#bassa'].includes(location.hash))returnToClass();
  else location.reload();
 }
+function catalogue(title, description, cards) {
+ return `<section class="klassia-catalogue-heading"><h1>${esc(title)}</h1><p>${esc(description)}</p></section>
+ <div class="klassia-catalogue">${cards.map(card => `<a class="klassia-catalogue-card" href="${esc(card.href)}">
+  ${card.code ? `<span class="klassia-catalogue-code">${esc(card.code)}</span>` : ''}
+  <h2>${esc(card.title)}</h2>
+  ${card.translation ? `<span lang="en">${esc(card.translation)}</span>` : ''}
+  ${card.detail ? `<p>${esc(card.detail)}</p>` : ''}
+  ${card.count ? `<span class="klassia-catalogue-count">${esc(card.count)}</span>` : ''}
+ </a>`).join('')}</div>`;
+}
+K.catalogue = catalogue;
 function classNavigation(grade){
  const nursery=grade==='MS'||grade==='GS', older=grade==='CE2'||nursery;
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],
@@ -60,7 +71,7 @@ function decorate(){
  const c=rememberClass(),role=K.read('klassia_user',{})?.role||'ELEVE',roleName={ELEVE:'Enfant',PARENT:'Parent',ENSEIGNANT:'Enseignant',ADMIN:'Administration'}[role]||'Enfant';
  document.querySelectorAll('.klassia-global-nav,.klassia-learning-mode,.klassia-space-menu,.klassia-class-switch,.profile-trigger').forEach(e=>e.remove());
  const searchBack=new URL('search.html',c.base);searchBack.search=new URLSearchParams(location.search).get('recherche')||'';
- const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');nav.innerHTML=`<a data-klassia-back="← Parcours de la classe" href="${['MS','GS'].includes(c.grade)?'#themes':'#units'}">← Parcours de la classe</a><label>Classe <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label><a data-search href="${new URL('search.html',c.base)}">Rechercher</a>${new URLSearchParams(location.search).has('recherche')?`<a data-search-return href="${esc(searchBack.href)}">Retour aux résultats</a>`:''}<button data-space class="space-trigger">Espace : ${roleName} · changer</button><button data-profiles>Profil : ${esc(K.profile().name)}</button><button data-overview>Suivi des classes</button><a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>${role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':''}${['#coverage','#bassa'].includes(location.hash)?'<button data-return>Retour à ma classe</button>':''}`;top.insertAdjacentElement('afterend',nav);
+ const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');nav.innerHTML=`<a data-klassia-back="← Parcours de la classe" href="${['MS','GS'].includes(c.grade)?'#themes':'#units'}">← Parcours de la classe</a><label>Classe <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label><a data-search href="${new URL('search.html',c.base)}">Rechercher</a><a href="${new URL('outils.html',c.base)}">Outils</a>${new URLSearchParams(location.search).has('recherche')?`<a data-search-return href="${esc(searchBack.href)}">Retour aux résultats</a>`:''}<button data-space class="space-trigger">Espace : ${roleName} · changer</button><button data-profiles>Profil : ${esc(K.profile().name)}</button><button data-overview>Suivi des classes</button><a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>${role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':''}${['#coverage','#bassa'].includes(location.hash)?'<button data-return>Retour à ma classe</button>':''}`;top.insertAdjacentElement('afterend',nav);
  if (['PARENT','ENSEIGNANT','ADMIN'].includes(role)) {
   const pilot=document.createElement('a');
   pilot.href=new URL('pilote.html',c.base);

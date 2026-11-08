@@ -1,7 +1,7 @@
 (() => {
  'use strict';
  const base = new URL('../', document.currentScript.src);
- const entryPages = ['', 'index.html', 'search', 'search.html', 'pilote', 'pilote.html', 'imprimer', 'imprimer.html'];
+ const entryPages = ['', 'index.html', 'search', 'search.html', 'pilote', 'pilote.html', 'imprimer', 'imprimer.html', 'outils', 'outils.html'];
  const marker = 'klassiaPrevious';
  const hasPrevious = () => history.state?.[marker] === true;
  function internal(referrer) {

@@ -74,6 +74,8 @@ Le relevé examine 60 repères dans les cinq classes. Le calcul pratique complè
 2. Remplir le relevé du carnet sur Android et iPhone. Vérifier l’écran Bassa, le micro, l’écoute en mode avion, le tracé tactile et la reprise de la progression. Refaire l’écoute Bassa après intégration des prises. [Guide pilote](GUIDE_PILOTE.md#essai-sur-android-et-iphone)
 3. Importer les relevés des familles et des enseignants, traiter les exercices signalés et faire un nouvel essai. Utiliser les variantes proposées pour le prochain lot des cinq classes. [Grille de retours](GUIDE_PILOTE.md#retours-des-familles-et-enseignants)
 
+Les listes de thèmes, unités et matières partagent désormais les mêmes cartes. L’accueil Enfant du CE2 s’ouvre sur les unités. Le menu Outils donne accès hors connexion à l’alphabet, aux tables de 1 à 10, aux nombres jusqu’à 99 999 et aux montants en francs CFA jusqu’à 10 000. Les leçons de numération U2 et de monnaie U8 explicitent l’écriture des milliers et la vérifient dans un exercice. [Outils de référence](https://lejuannito.github.io/klassia/outils.html)
+
 Poursuivre avec les arts et la motricité dans les cinq classes, en reliant les tâches à des attendus vérifiables et à des gestes observables. Préparer l’intégration progressive du CP après cette consolidation, puis celle des autres classes selon la feuille de route.
 
 ## Règle pour chaque nouvelle session

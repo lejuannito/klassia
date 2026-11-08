@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "bdd66345973e6a00c11c6c12a815e796c52c81bb298d1a0dff01e9309792f82e",
+  "version": "8c2ffb7527da1ee282cca91aaccd6399e8ad00ca3a7134066e6a5e1bbf44bc44",
   "files": [
     {
       "url": "./app.js",
@@ -443,7 +443,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./service-worker.js",
-      "sha256": "74e5f6dc069d69bac299c3610b88b971c99c24ff5b68c380e84cead6c4dca40c"
+      "sha256": "fb05d8e84abc481afe6dbc282a589b30c9ece8155f2d67ae1fe20805c9c4b266"
     },
     {
       "url": "./shared/bassa-recorder.js",

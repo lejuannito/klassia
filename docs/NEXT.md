@@ -16,6 +16,8 @@ La recherche des 844 ressources a été fusionnée le 4 novembre 2026. Le guide 
 
 Le lot du 6 novembre protège le cache installé lors d’un échec, indique le résultat de la vérification et demande de fermer les autres onglets Klassia avant le rechargement. Après fusion, vérifier sur téléphone le passage à la nouvelle édition, la reprise de la leçon et l’accès en mode avion. Pour ce premier passage depuis l’ancienne interface, fermer les autres onglets Klassia avant de cliquer sur « Recharger avec la nouvelle édition ».
 
+Le correctif de navigation Cloudflare traite le `ERR_FAILED` reproduit dans Chromium après l’activation du service worker. La vérification sur Chrome Android après déploiement reste suivie dans le ticket. [Procédure de vérification](DEPLOIEMENT_CLOUDFLARE.md#rechargement-dans-chrome-après-installation) · [Ticket Chrome](https://github.com/lejuannito/klassia/issues/34)
+
 ## Lot éditorial / documentaire
 
 ### 1. Couverture des manuels et référentiels

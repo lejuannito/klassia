@@ -139,12 +139,21 @@
       <label>Référence de l’avis favorable <input name="reviewRef" maxlength="64" required></label>
       <label>Référence de l’accord de diffusion <input name="consentRef" maxlength="64" required></label>
       <label>Crédit public autorisé (facultatif) <input name="credit" maxlength="100"></label>
-      <button class="btn primary" type="submit">Télécharger le dossier de diffusion</button>
+      <label><input type="checkbox" name="remoteConsent"> Le locuteur autorise la diffusion de cette prise à tous les élèves.</label>
+      <button class="btn primary" type="submit">Publier pour tous les élèves</button>
+      <button class="btn soft" type="button" data-export-package>Exporter le dossier pour intégration manuelle</button>
      </fieldset>
     </form>
     <p data-publication-status role="status"></p>
    </details>
-   <p>Les prises restent dans le profil local, sur cet appareil. Pour la diffusion, faites vérifier la prononciation et les tons par le référent et recueillez l’accord du locuteur.</p>`;
+   <div class="adult-guide" data-shared-manager>
+     <h3>Enregistrements partagés</h3>
+     <p>La publication et le retrait sont réservés aux référents authentifiés. Le retrait coupe immédiatement l’écoute distante.</p>
+     <p><a href="/api/bassa/author" target="_blank" rel="noopener">Se connecter comme référent</a></p>
+     <button class="btn soft" data-shared-refresh type="button">Afficher les prises publiées</button>
+     <div data-shared-list role="status"></div>
+   </div>
+   <p>Les prises restent locales jusqu’à publication. Publier pour tous exige une session référent authentifiée sur klassia.app et un accord de diffusion vérifié.</p>`;
 
   const find = selector => panel.querySelector(selector);
   const filter = find('[data-entry-filter]');
@@ -156,6 +165,10 @@
   const review = find('[data-take-review]'), reviewFields = review.querySelector('fieldset');
   const publication = find('[data-publication]'), packageForm = publication.querySelector('form');
   const publicationStatus = find('[data-publication-status]');
+  const exportPackage = find('[data-export-package]');
+  const sharedRefresh = find('[data-shared-refresh]');
+  const sharedList = find('[data-shared-list]');
+  const apiBase = location.hostname === 'klassia.app' || location.hostname.endsWith('.klassia.pages.dev') ? '/api/bassa' : '';
   const key = () => [profile, entry.value, form.value];
   const active = () => !listeners.signal.aborted && panel.isConnected && location.hash === '#bassa'
    && K.profile().id === profile && canEdit();
@@ -408,52 +421,100 @@
     'Avis du référent conservé avec cette prise sur cet appareil.');
   };
 
-  packageForm.onsubmit = async event => {
+  async function refreshShared() {
+   sharedList.replaceChildren();
+   if (!apiBase) { sharedList.textContent='Consultez klassia.app pour gérer les publications.'; return; }
+   try {
+    const response=await fetch(apiBase+'/author',{credentials:'same-origin',cache:'no-store'});
+    if(!response.ok)throw Error('Autorisation requise ou service indisponible.');
+    const data=await response.json();
+    if(!(data.recordings||[]).length){sharedList.textContent='Aucune prise partagée.';return;}
+    for(const item of data.recordings){
+     const row=document.createElement('p'),label=document.createElement('span'),button=document.createElement('button');
+     label.textContent=item.entry_id+' · '+item.form+' · '+item.sense+' ';
+     button.type='button';button.className='btn soft';button.textContent='Retirer';
+     button.onclick=async()=>{
+      if(!confirm('Retirer cette prise pour tous les élèves ?'))return;
+      button.disabled=true;
+      try {
+       const response=await fetch(apiBase+'/author/'+encodeURIComponent(item.id),{method:'DELETE',credentials:'same-origin'});
+       if(!response.ok)throw Error('Retrait refusé');
+       document.dispatchEvent(new Event('klassia:bassa-published'));
+       await refreshShared();
+      }catch{button.disabled=false;sharedList.prepend(document.createTextNode('Retrait impossible. Vérifiez votre session. '));}
+     };
+     row.append(label,button);sharedList.append(row);
+    }
+   }catch(error){sharedList.textContent=error.message;}
+  }
+  sharedRefresh.onclick=refreshShared;
+
+  async function validatedPublication() {
+   if (!active() || publication.hidden || busy || saved?.review?.decision !== 'confirme') return null;
+   const f=packageForm.elements;
+   const sense=f.sense.value.trim(), review_ref=f.reviewRef.value.trim(), consent_ref=f.consentRef.value.trim(), credit=f.credit.value.trim();
+   const validRef=value=>/^[A-Za-z0-9][A-Za-z0-9_-]{0,63}$/.test(value);
+   if (!sense || !validRef(review_ref) || !validRef(consent_ref) || !f.remoteConsent.checked) {
+    publicationStatus.textContent='Confirmez l’accord de diffusion et indiquez les deux références de justificatifs conservés en privé.';
+    return null;
+   }
+   const take=saved, latest=await transact(db,'readonly',store=>store.get(key()));
+   if (!active() || latest?.id!==take.id) {
+    publicationStatus.textContent='Cette prise a changé. Vérifiez le nouvel avis avant diffusion.';
+    return null;
+   }
+   return {take,id:entry.value,form:form.value,sense,review_ref,consent_ref,credit};
+  }
+
+  packageForm.onsubmit=async event=>{
    event.preventDefault();
-   if (!active() || publication.hidden || busy) return;
-   const fields = packageForm.elements;
-   const sense = fields.sense.value.trim(), review_ref = fields.reviewRef.value.trim();
-   const consent_ref = fields.consentRef.value.trim(), credit = fields.credit.value.trim();
-   const validRef = value => /^[A-Za-z0-9][A-Za-z0-9_-]{0,63}$/.test(value);
-   if (!sense || !validRef(review_ref) || !validRef(consent_ref)) {
-    publicationStatus.textContent = 'Indiquez le sens et les deux références avec des lettres, chiffres, tirets ou soulignés.';
+   if (!apiBase) {
+    publicationStatus.textContent='La publication directe est disponible depuis le domaine klassia.app.';
     return;
    }
-   const take = saved, takeKey = key();
-   busy = true;
-   render();
-   publicationStatus.textContent = 'Préparation du dossier…';
+   const info=await validatedPublication();
+   if (!info)return;
+   busy=true;render();
+   publicationStatus.textContent='Envoi de la prise validée…';
    try {
-    const base64 = await new Promise((resolve, reject) => {
-     const reader = new FileReader();
-     reader.onload = () => resolve(reader.result.split(',')[1]);
-     reader.onerror = () => reject(reader.error);
-     reader.readAsDataURL(take.audio);
+    const data=new FormData();
+    data.append('audio',info.take.audio,info.id+'.audio');
+    for(const field of ['id','form','sense','review_ref','consent_ref','credit'])
+     data.append(field==='id'?'entry_id':field,info[field]);
+    data.append('confirmed','true');
+    const response=await fetch(apiBase+'/author',{method:'POST',body:data,credentials:'same-origin'});
+    const result=await response.json().catch(()=>({}));
+    if(!response.ok)throw Error(result.error||'Publication refusée. Vérifiez votre authentification.');
+    publicationStatus.textContent='Prise publiée pour tous les élèves. Identifiant : '+result.id;
+    document.dispatchEvent(new Event('klassia:bassa-published'));
+   } catch(error) {
+    publicationStatus.textContent='Publication impossible : '+error.message+' La prise locale est conservée.';
+   } finally {busy=false;render();}
+  };
+
+  exportPackage.onclick=async()=>{
+   const info=await validatedPublication();
+   if(!info)return;
+   busy=true;render();
+   try {
+    const base64=await new Promise((resolve,reject)=>{
+     const reader=new FileReader();
+     reader.onload=()=>resolve(reader.result.split(',')[1]);
+     reader.onerror=()=>reject(reader.error);
+     reader.readAsDataURL(info.take.audio);
     });
-    if (!active()) return;
-    const latest = await transact(db, 'readonly', store => store.get(takeKey));
-    if (!active()) return;
-    if (latest?.id !== take.id) {
-     publicationStatus.textContent = 'La prise a changé. Rouvrez cette entrée et vérifiez son avis.';
-     return;
-    }
-    const [, id, selectedForm] = takeKey;
-    const dossier = { format: 'klassia-bassa-publication', version: 1, id, form: selectedForm,
-     sense, reviewed_on: take.review.date.slice(0, 10), review_ref, consent_ref,
-     ...(credit ? { credit } : {}), source: { type: take.audio.type, base64 } };
-    const url = URL.createObjectURL(new Blob([JSON.stringify(dossier)], { type: 'application/json' }));
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `Klassia-${id}-${String(form.selectedIndex + 1).padStart(2, '0')}-diffusion.json`;
-    link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-    publicationStatus.textContent = 'Dossier téléchargé. Transmettez-le en privé pour intégration dans l’édition.';
-   } catch {
-    publicationStatus.textContent = 'Impossible de préparer le dossier. Vous pouvez réessayer.';
-   } finally {
-    busy = false;
-    render();
-   }
+    if(!active())return;
+    const dossier={format:'klassia-bassa-publication',version:1,id:info.id,form:info.form,
+     sense:info.sense,reviewed_on:info.take.review.date.slice(0,10),
+     review_ref:info.review_ref,consent_ref:info.consent_ref,
+     ...(info.credit?{credit:info.credit}:{}),source:{type:info.take.audio.type,base64}};
+    const url=URL.createObjectURL(new Blob([JSON.stringify(dossier)],{type:'application/json'}));
+    const link=document.createElement('a');
+    link.href=url;link.download='Klassia-'+info.id+'-diffusion.json';link.click();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    publicationStatus.textContent='Dossier exporté pour intégration manuelle.';
+   } catch {publicationStatus.textContent='Export impossible.';}
+   finally {busy=false;render();}
   };
 
   render('Chargement de l’atelier…');

@@ -78,6 +78,14 @@ Les listes de thèmes, unités et matières partagent désormais les mêmes cart
 
 Essayer les cinq séances d’arts et de motricité. Pour chaque classe, relever séparément l’aide nécessaire pour l’expression artistique et le déplacement ou la coopération. Préparer l’intégration progressive du CP après l’exploitation des retours, puis celle des autres classes selon la feuille de route.
 
+## Lot audio partagé et lecture étendue — PR à fusionner
+
+- Lecture des cours élargie aux objectifs, exemples guidés, synthèses et activités, en respectant les langues des parcours. Il s'agit encore de synthèse vocale dépendante de l'appareil ; **aucun nouveau MP3 long n'est livré dans ce lot**.
+- Publication directe de prises bassa approuvées par un référent, avec avis favorable et accord de diffusion, au moyen d'une API Cloudflare Pages + D1 + R2 privé + authentification Cloudflare Access ; liste des prises et retrait depuis l'atelier. L'écoute locale et l'exportation manuelle sont conservées en secours.
+- Catalogue public consultable depuis `klassia.app` et `lejuannito.github.io/klassia` lorsque le service partagé est opérationnel. Le service n'est **pas actif** avant la configuration D1/R2/Access et l'application de la migration.
+- Mise en service et protocole de vérification : [Audio partagé](AUDIO_PARTAGE.md). Avant de déclarer le lot disponible, vérifier les connexions, la publication, l'écoute entre deux appareils, le retrait, le micro sur Android et iPhone et le comportement sans réseau.
+- Lots suivants : (1) enregistrements MP3 longs et stables, avec navigation par séquences et commandes pause/reprise/vitesse ; (2) cache optionnel hors connexion des prises distantes approuvées ; (3) référentiels/consentements et délégation par classe/langue, revue à deux niveaux ; (4) enrichissements des cinq classes à partir des retours terrain et intégration du CP, puis des classes restantes.
+
 ## Règle pour chaque nouvelle session
 
 Ne prendre **qu’un lot ou sous-lot clairement borné**. Éviter les demandes du type « améliorer tout Klassia ».

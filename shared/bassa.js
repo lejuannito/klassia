@@ -53,6 +53,59 @@
    }).join('');
  }
 
+ const apiBase = (() => {
+  const configured = typeof window.KLASSIA_BASSA_API === 'string' ? window.KLASSIA_BASSA_API : '';
+  if (configured && /^https:\/\/[A-Za-z0-9.-]+\/api\/bassa\/?$/.test(configured)) return configured.replace(/\/$/, '');
+  if (location.hostname === 'lejuannito.github.io') return 'https://klassia.app/api/bassa';
+  return location.hostname === 'klassia.app' || location.hostname.endsWith('.klassia.pages.dev')
+   ? '/api/bassa' : '';
+ })();
+ const sharedByEntry = new Map();
+ let sharedFetchedAt = 0;
+ async function sharedCatalog() {
+  if (!apiBase || navigator.onLine === false) return;
+  if (Date.now() - sharedFetchedAt < 30000) return;
+  const response = await fetch(apiBase + '/catalog', { cache: 'no-store' });
+  if (!response.ok) throw Error('Catalogue audio indisponible');
+  const data = await response.json();
+  sharedByEntry.clear();
+  for (const recording of data.recordings || []) {
+   if (!/^[0-9a-f-]{36}$/.test(recording.id)) continue;
+   const list = sharedByEntry.get(recording.entry_id) || [];
+   list.push(recording);
+   sharedByEntry.set(recording.entry_id, list);
+  }
+  sharedFetchedAt = Date.now();
+ }
+ function mountShared(slots, entries) {
+  const available = new Map(entries.map(entry => [entry.id, entry.forms]));
+  for (const [id, slot] of slots) {
+   if (!slot.isConnected) continue;
+   slot.querySelectorAll('.shared-bassa-audio').forEach(node => node.remove());
+   for (const item of sharedByEntry.get(id) || []) {
+    if (!available.get(id)?.includes(item.form)) continue;
+    const player = document.createElement('div');
+    player.className = 'lesson-audio bassa-audio shared-bassa-audio';
+    const label = 'Prononciation bassa validée et partagée · ' + item.form + ' (' + item.sense + ')';
+    const p = document.createElement('p');
+    p.textContent = label;
+    const audio = document.createElement('audio');
+    audio.controls = true;
+    audio.preload = 'none';
+    audio.setAttribute('aria-label', label);
+    audio.src = apiBase + '/audio/' + encodeURIComponent(item.id);
+    player.append(p, audio);
+    if (item.credit) {
+     const credit = document.createElement('p');
+     credit.className = 'source';
+     credit.textContent = 'Voix · ' + item.credit;
+     player.append(credit);
+    }
+    slot.append(player);
+   }
+  }
+ }
+ document.addEventListener('klassia:bassa-published', () => { sharedFetchedAt = 0; });
  function mountAudio(container, entries) {
   releaseDetached();
   const slots = new Map();
@@ -61,6 +114,9 @@
    const slot = slots.get(entry.id);
    if (slot) slot.innerHTML = publicAudio(entry);
   }
+  sharedCatalog().then(() => mountShared(slots, entries)).catch(() => {
+   // Public bundled clips and approved local takes are usable without the remote catalog.
+  });
   K.BassaRecorder.approvedTakes(entries).then(takes => {
    for (const { id, form, audio: blob } of takes) {
     const slot = slots.get(id);

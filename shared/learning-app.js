@@ -46,7 +46,7 @@ function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)retur
  if(K.isAdultSpace())document.getElementById('printLessonAdult').onclick=()=>K.printing.open(c.grade,'lecon',u.id,id,true);
  if (!l.domain.includes('national')) {
   const title = en ? l.title.replace(/^Séquence pilote conservée : /, '') : l.title;
-  const spokenText = [title, l.course, l.support?.text, l.model].filter(Boolean).join('. ');
+  const spokenText = [title,l.objective,l.course,l.support?.text,l.model,l.guided,l.exercise].filter(Boolean).join('. ');
   K.addSpeech(lessonCard, spokenText, lang);
   for (const player of lessonCard.querySelectorAll('[data-listening-practice]')) {
    K.addSpeech(player, practice[Number(player.dataset.listeningPractice)].listen, lang);

@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "0580225794f34bfde59eeb41c52251a62bdc806b8a7d084f8f82cbded2af13de",
+  "version": "e5d8c1f771e445865f38f87fb0e7d0e3a9a7b48183d3d18702e362984e86bb7d",
   "files": [
     {
       "url": "./app.js",
-      "sha256": "ea81179c5b7395a07ec9e200af71664299aafa97b2e3fd609f748e3456a8d2e1"
+      "sha256": "e6da9a5ac9a82bb92e93853e69dda8bf5502040acb0ad15fdff7c7ebcd5fc22f"
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -403,7 +403,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-ui-v13.js",
-      "sha256": "96a7814cdc49fefdaa2aa4da92a1be62e5adac088e990c332d0803c033f52822"
+      "sha256": "cdd4641c73dded559af98298b745b718c8f160c87694a6d4934dc53fc4348f05"
     },
     {
       "url": "./ms/data/catalog-v13.json",
@@ -487,11 +487,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/bassa-recorder.js",
-      "sha256": "4995099489bcc6e68caae295132302ca12171ea5326c27c5ae0631ffa7342dfe"
+      "sha256": "ab292cd59402134bb1bd69c38473d36de8a75dd711be4d18ce5e5655d09b564f"
     },
     {
       "url": "./shared/bassa.js",
-      "sha256": "c292031628f2f570033647a17e741be7c67eea2cdf2409b684d051c496218a52"
+      "sha256": "7d06b20258f3af8e2e519630939d0e063568b1e6b995057bb04feafcaac6dc7f"
     },
     {
       "url": "./shared/core.js",
@@ -507,7 +507,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "bf48bea59afce9095220f6c3bea122cc3f2b377b5140228d136e4e2a6e687624"
+      "sha256": "aa54b110a3d3cdc948234d9cd8b76969ff5c3fed701820695f135c1dbf3cc2f9"
     },
     {
       "url": "./shared/lesson-support.js",

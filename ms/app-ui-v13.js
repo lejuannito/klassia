@@ -31,7 +31,7 @@ function domainPage(id,index=0){
  document.querySelectorAll('.statusRow button').forEach(b=>b.onclick=()=>{const p=loadProg();p[b.dataset.id]=b.dataset.st;saveProg(p);Klassia.append('klassia_observations',{grade:NURSERY.grade,theme:theme.id,activity:a.id,status:b.dataset.st});document.querySelectorAll('.statusRow button').forEach(x=>x.classList.toggle('active',x===b));});
  document.getElementById('observeActivity').onsubmit=e=>{e.preventDefault();Klassia.append('klassia_observations',{grade:NURSERY.grade,theme:theme.id,activity:a.id,language:document.getElementById('observeLang').value,help:document.getElementById('observeHelp').value,note:document.getElementById('observeNote').value});document.getElementById('observeResult').textContent='Observation datée enregistrée pour '+Klassia.profile().name;};
  const card=document.querySelector('.activityBody');if(a.type==='bassa')Klassia.Bassa?.mount(card,NURSERY.grade,a.id);
- if(a.type!=='bassa'){Klassia.addSpeech(card,[a.title_en,a.prompt_en,a.story_en,...(a.steps_en||[]),a.game_en].filter(Boolean).join('. '),'en-GB');Klassia.addSpeech(card,[a.title_fr,a.prompt_fr,a.story_fr,...(a.steps_fr||[]),a.game_fr].filter(Boolean).join('. '),'fr-FR');}
+ if(a.type!=='bassa'){Klassia.addSpeech(card,[a.title_en,a.goal_en,a.prompt_en,a.story_en,...(a.steps_en||[]),a.game_en,a.activity_en,...(a.questions||[]).map(q=>q.en)].filter(Boolean).join('. '),'en-GB');Klassia.addSpeech(card,[a.title_fr,a.goal_fr,a.prompt_fr,a.story_fr,...(a.steps_fr||[]),a.game_fr,a.activity_fr,...(a.questions||[]).map(q=>q.fr)].filter(Boolean).join('. '),'fr-FR');}
 }
 function themesPage(){
  const cards = catalog.themes.map(theme => ({

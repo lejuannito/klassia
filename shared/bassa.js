@@ -56,6 +56,7 @@
  const apiBase = (() => {
   const configured = typeof window.KLASSIA_BASSA_API === 'string' ? window.KLASSIA_BASSA_API : '';
   if (configured && /^https:\/\/[A-Za-z0-9.-]+\/api\/bassa\/?$/.test(configured)) return configured.replace(/\/$/, '');
+  if (location.hostname === 'lejuannito.github.io') return 'https://klassia.app/api/bassa';
   return location.hostname === 'klassia.app' || location.hostname.endsWith('.klassia.pages.dev')
    ? '/api/bassa' : '';
  })();

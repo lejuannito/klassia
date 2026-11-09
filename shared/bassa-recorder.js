@@ -146,6 +146,13 @@
     </form>
     <p data-publication-status role="status"></p>
    </details>
+   <div class="adult-guide" data-shared-manager>
+     <h3>Enregistrements partagés</h3>
+     <p>La publication et le retrait sont réservés aux référents authentifiés. Le retrait coupe immédiatement l’écoute distante.</p>
+     <p><a href="/api/bassa/author" target="_blank" rel="noopener">Se connecter comme référent</a></p>
+     <button class="btn soft" data-shared-refresh type="button">Afficher les prises publiées</button>
+     <div data-shared-list role="status"></div>
+   </div>
    <p>Les prises restent locales jusqu’à publication. Publier pour tous exige une session référent authentifiée sur klassia.app et un accord de diffusion vérifié.</p>`;
 
   const find = selector => panel.querySelector(selector);
@@ -159,6 +166,8 @@
   const publication = find('[data-publication]'), packageForm = publication.querySelector('form');
   const publicationStatus = find('[data-publication-status]');
   const exportPackage = find('[data-export-package]');
+  const sharedRefresh = find('[data-shared-refresh]');
+  const sharedList = find('[data-shared-list]');
   const apiBase = location.hostname === 'klassia.app' || location.hostname.endsWith('.klassia.pages.dev') ? '/api/bassa' : '';
   const key = () => [profile, entry.value, form.value];
   const active = () => !listeners.signal.aborted && panel.isConnected && location.hash === '#bassa'
@@ -411,6 +420,34 @@
    writeTake({ ...saved, id: newId(), review: { referent, decision, note, localListening, date: new Date().toISOString() } },
     'Avis du référent conservé avec cette prise sur cet appareil.');
   };
+
+  async function refreshShared() {
+   sharedList.replaceChildren();
+   if (!apiBase) { sharedList.textContent='Consultez klassia.app pour gérer les publications.'; return; }
+   try {
+    const response=await fetch(apiBase+'/author',{credentials:'same-origin',cache:'no-store'});
+    if(!response.ok)throw Error('Autorisation requise ou service indisponible.');
+    const data=await response.json();
+    if(!(data.recordings||[]).length){sharedList.textContent='Aucune prise partagée.';return;}
+    for(const item of data.recordings){
+     const row=document.createElement('p'),label=document.createElement('span'),button=document.createElement('button');
+     label.textContent=item.entry_id+' · '+item.form+' · '+item.sense+' ';
+     button.type='button';button.className='btn soft';button.textContent='Retirer';
+     button.onclick=async()=>{
+      if(!confirm('Retirer cette prise pour tous les élèves ?'))return;
+      button.disabled=true;
+      try {
+       const response=await fetch(apiBase+'/author/'+encodeURIComponent(item.id),{method:'DELETE',credentials:'same-origin'});
+       if(!response.ok)throw Error('Retrait refusé');
+       document.dispatchEvent(new Event('klassia:bassa-published'));
+       await refreshShared();
+      }catch{button.disabled=false;sharedList.prepend(document.createTextNode('Retrait impossible. Vérifiez votre session. '));}
+     };
+     row.append(label,button);sharedList.append(row);
+    }
+   }catch(error){sharedList.textContent=error.message;}
+  }
+  sharedRefresh.onclick=refreshShared;
 
   async function validatedPublication() {
    if (!active() || publication.hidden || busy || saved?.review?.decision !== 'confirme') return null;

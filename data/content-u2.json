@@ -493,7 +493,15 @@
               "answer": "Temps composé.",
               "explanation": "",
               "type": "open",
-              "id": "FR-U2-L8-E1"
+              "id": "FR-U2-L8-E1",
+              "accept": [
+                "temps composé",
+                "composé"
+              ],
+              "reject": [
+                "temps simple",
+                "simple"
+              ]
             },
             {
               "prompt": "Conjugue « choisir » avec nous et vous au présent.",
@@ -677,7 +685,11 @@
               "answer": "In the morning.",
               "explanation": "",
               "type": "open",
-              "id": "EN-U2-L2-E2"
+              "id": "EN-U2-L2-E2",
+              "accept": [
+                "in the morning",
+                "morning"
+              ]
             }
           ],
           "source": "Cameroon CE2 curriculum, English Reading, Unit 2, p.58.",
@@ -803,21 +815,41 @@
               "answer": "far",
               "explanation": "",
               "type": "open",
-              "id": "EN-U2-L4-E1"
+              "id": "EN-U2-L4-E1",
+              "accept": [
+                "far"
+              ]
             },
             {
               "prompt": "Complete: Yesterday we ___ to the market. (go)",
               "answer": "went",
               "explanation": "",
               "type": "open",
-              "id": "EN-U2-L4-E2"
+              "id": "EN-U2-L4-E2",
+              "accept": [
+                "went"
+              ],
+              "reject": [
+                "go",
+                "goes",
+                "gone",
+                "going",
+                "goed"
+              ]
             },
             {
               "prompt": "Complete: Tomorrow at 9, they ___ travelling to town.",
               "answer": "will be",
               "explanation": "",
               "type": "open",
-              "id": "EN-U2-L4-E3"
+              "id": "EN-U2-L4-E3",
+              "accept": [
+                "will be"
+              ],
+              "reject": [
+                "are",
+                "were"
+              ]
             }
           ],
           "source": "Cameroon CE2 curriculum, English Grammar and Vocabulary, Unit 2, p.62.",
@@ -1207,7 +1239,11 @@
               "answer": "2 000 + 700 + 5.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L1-E1"
+              "id": "MA-U2-L1-E1",
+              "accept": [
+                "2 000 + 700 + 5",
+                "2 milliers 7 centaines 5 unités"
+              ]
             },
             {
               "prompt": "Range 2 090, 2 900, 2 009 du plus petit au plus grand.",
@@ -1299,14 +1335,32 @@
               "answer": "{3}",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L2-E1"
+              "id": "MA-U2-L2-E1",
+              "accept": [
+                "{3}",
+                "3"
+              ],
+              "reject": [
+                "{3, 4}",
+                "{1, 2, 3, 4}",
+                "{1, 2, 3}",
+                "{4}"
+              ]
             },
             {
               "prompt": "Vrai ou faux : 4 ∈ B.",
               "answer": "Vrai.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L2-E2"
+              "id": "MA-U2-L2-E2",
+              "accept": [
+                "vrai",
+                "V"
+              ],
+              "reject": [
+                "faux",
+                "F"
+              ]
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, Unité 2, p.76.",
@@ -1361,14 +1415,20 @@
               "answer": "2 342.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L3-E1"
+              "id": "MA-U2-L3-E1",
+              "accept": [
+                "2 342"
+              ]
             },
             {
               "prompt": "Calcule 2 500 − 786.",
               "answer": "1 714.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L3-E2"
+              "id": "MA-U2-L3-E2",
+              "accept": [
+                "1 714"
+              ]
             }
           ],
           "source": "Curriculum CE2, nombres et calculs, Unité 2, p.76.",
@@ -1423,14 +1483,29 @@
               "answer": "Le sac de 5 kg de riz.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L4-E1"
+              "id": "MA-U2-L4-E1",
+              "accept": [
+                "le sac de 5 kg de riz",
+                "le sac de riz",
+                "le sac",
+                "le riz"
+              ],
+              "reject": [
+                "une orange",
+                "l’orange"
+              ]
             },
             {
               "prompt": "1 kg correspond à combien de grammes ?",
               "answer": "1 000 g.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L4-E2"
+              "id": "MA-U2-L4-E2",
+              "accept": [
+                "1 000 g",
+                "1 000",
+                "1 000 grammes"
+              ]
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, Unité 2, p.85.",
@@ -1483,14 +1558,32 @@
               "answer": "Un carré.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L5-E1"
+              "id": "MA-U2-L5-E1",
+              "accept": [
+                "un carré"
+              ],
+              "reject": [
+                "un cercle",
+                "un rectangle",
+                "un triangle"
+              ]
             },
             {
               "prompt": "Un cylindre posé sur sa base peut laisser quelle empreinte ?",
               "answer": "Un cercle.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U2-L5-E2"
+              "id": "MA-U2-L5-E2",
+              "accept": [
+                "un cercle",
+                "un disque",
+                "un rond"
+              ],
+              "reject": [
+                "un carré",
+                "un rectangle",
+                "un triangle"
+              ]
             }
           ],
           "source": "Curriculum CE2, géométrie et espace, Unité 2, p.89.",
@@ -1955,14 +2048,33 @@
               "answer": "La fusion.",
               "explanation": "",
               "type": "open",
-              "id": "SC-U2-L5-E1"
+              "id": "SC-U2-L5-E1",
+              "accept": [
+                "la fusion"
+              ],
+              "reject": [
+                "la solidification",
+                "la condensation",
+                "l’évaporation",
+                "la vaporisation"
+              ]
             },
             {
               "prompt": "Comment s’appelle le passage de la vapeur d’eau à l’eau liquide ?",
               "answer": "La condensation.",
               "explanation": "",
               "type": "open",
-              "id": "SC-U2-L5-E2"
+              "id": "SC-U2-L5-E2",
+              "accept": [
+                "la condensation",
+                "la liquéfaction"
+              ],
+              "reject": [
+                "la fusion",
+                "la solidification",
+                "l’évaporation",
+                "la vaporisation"
+              ]
             }
           ],
           "source": "Curriculum CE2, sciences physiques et chimiques, Unité 2, p.101.",
@@ -2045,7 +2157,14 @@
               "answer": "Non.",
               "explanation": "",
               "type": "open",
-              "id": "SC-U2-L6-E2"
+              "id": "SC-U2-L6-E2",
+              "accept": [
+                "non",
+                "non, jamais"
+              ],
+              "reject": [
+                "oui"
+              ]
             }
           ],
           "source": "Curriculum CE2, technologies, Unité 2, p.102.",
@@ -2378,7 +2497,13 @@
               "answer": "Une application.",
               "explanation": "",
               "type": "open",
-              "id": "TI-U2-L1-E1"
+              "id": "TI-U2-L1-E1",
+              "accept": [
+                "une application"
+              ],
+              "reject": [
+                "un système d’exploitation"
+              ]
             },
             {
               "prompt": "À quoi sert principalement un système d’exploitation ?",
@@ -2443,7 +2568,13 @@
               "answer": "« Expose_village ».",
               "explanation": "",
               "type": "open",
-              "id": "TI-U2-L2-E1"
+              "id": "TI-U2-L2-E1",
+              "accept": [
+                "Expose_village"
+              ],
+              "reject": [
+                "doc1"
+              ]
             },
             {
               "prompt": "Que faire si plusieurs fichiers ont presque le même nom ?",
@@ -2509,7 +2640,15 @@
               "answer": "L’école elle-même.",
               "explanation": "",
               "type": "open",
-              "id": "TI-U2-L3-E1"
+              "id": "TI-U2-L3-E1",
+              "accept": [
+                "l’école elle-même",
+                "l’école"
+              ],
+              "reject": [
+                "une rumeur",
+                "la rumeur"
+              ]
             },
             {
               "prompt": "Que faire avant de réutiliser une information trouvée en ligne ?",
@@ -2575,7 +2714,13 @@
               "answer": "Non.",
               "explanation": "",
               "type": "open",
-              "id": "TI-U2-L4-E1"
+              "id": "TI-U2-L4-E1",
+              "accept": [
+                "non"
+              ],
+              "reject": [
+                "oui"
+              ]
             },
             {
               "prompt": "Que faire si un câble est abîmé ?",
@@ -2865,7 +3010,13 @@
               "answer": "La région.",
               "explanation": "",
               "type": "open",
-              "id": "SH-U2-L4-E1"
+              "id": "SH-U2-L4-E1",
+              "accept": [
+                "la région"
+              ],
+              "reject": [
+                "le département"
+              ]
             },
             {
               "prompt": "Explique en une phrase l’intégration nationale.",
@@ -3159,7 +3310,13 @@
               "answer": "Les grandes formes.",
               "explanation": "",
               "type": "open",
-              "id": "AR-U2-L1-E1"
+              "id": "AR-U2-L1-E1",
+              "accept": [
+                "les grandes formes"
+              ],
+              "reject": [
+                "les petits détails"
+              ]
             },
             {
               "prompt": "Pourquoi observer plusieurs fois le modèle ?",
@@ -3216,7 +3373,19 @@
               "answer": "Cinq lignes.",
               "explanation": "",
               "type": "open",
-              "id": "AR-U2-L2-E1"
+              "id": "AR-U2-L2-E1",
+              "accept": [
+                "5",
+                "5 lignes",
+                "cinq",
+                "cinq lignes"
+              ],
+              "reject": [
+                "quatre",
+                "quatre lignes",
+                "six",
+                "six lignes"
+              ]
             },
             {
               "prompt": "À quoi sert un silence en musique ?",
@@ -3422,7 +3591,15 @@
               "answer": "L’impulsion.",
               "explanation": "",
               "type": "open",
-              "id": "EP-U2-L2-E1"
+              "id": "EP-U2-L2-E1",
+              "accept": [
+                "l’impulsion"
+              ],
+              "reject": [
+                "la course d’élan",
+                "l’élan",
+                "la réception"
+              ]
             },
             {
               "prompt": "Pourquoi la zone de réception doit-elle être adaptée ?",
@@ -3487,7 +3664,13 @@
               "answer": "Non.",
               "explanation": "",
               "type": "open",
-              "id": "EP-U2-L3-E2"
+              "id": "EP-U2-L3-E2",
+              "accept": [
+                "non"
+              ],
+              "reject": [
+                "oui"
+              ]
             }
           ],
           "source": "Curriculum CE2, techniques élémentaires d’autodéfense, Unité 2, p.157.",
@@ -3629,7 +3812,15 @@
               "answer": "Non, jamais.",
               "explanation": "",
               "type": "open",
-              "id": "DP-U2-L2-E1"
+              "id": "DP-U2-L2-E1",
+              "accept": [
+                "non",
+                "non, jamais",
+                "jamais"
+              ],
+              "reject": [
+                "oui"
+              ]
             },
             {
               "prompt": "Cite une action d’entretien qui ne nécessite pas forcément un produit chimique.",

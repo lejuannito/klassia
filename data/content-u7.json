@@ -785,7 +785,13 @@
               "type": "open",
               "prompt": "Choose a suitable interjection when your team succeeds: Hooray! or Ouch!",
               "answer": "Hooray!",
-              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation.",
+              "accept": [
+                "Hooray!"
+              ],
+              "reject": [
+                "Ouch!"
+              ]
             }
           ],
           "source": "Curriculum CE2, English Language, U7, pp.56-64.",
@@ -998,7 +1004,10 @@
               "type": "open",
               "prompt": "Complète : 9 997, 9 998, …, …",
               "answer": "9 999, 10 000.",
-              "explanation": "On ajoute 1 à chaque étape et on regroupe quand un rang atteint dix."
+              "explanation": "On ajoute 1 à chaque étape et on regroupe quand un rang atteint dix.",
+              "accept": [
+                "9 999, 10 000"
+              ]
             },
             {
               "id": "MA-U7-L1-E2",
@@ -1052,7 +1061,10 @@
               "type": "open",
               "prompt": "Trouve le quadruple de 15 et le quart de 100.",
               "answer": "60 et 25.",
-              "explanation": "4 × 15 = 60 ; 100 ÷ 2 = 50 puis 50 ÷ 2 = 25."
+              "explanation": "4 × 15 = 60 ; 100 ÷ 2 = 50 puis 50 ÷ 2 = 25.",
+              "accept": [
+                "60 et 25"
+              ]
             },
             {
               "id": "MA-U7-L2-E2",
@@ -2977,7 +2989,11 @@
               "answer": "8 − 2 = 6 bottes.",
               "explanation": "Les deux bottes réservées à la cuisine sont retirées du total récolté.",
               "type": "open",
-              "id": "DP-U7-L2-E1"
+              "id": "DP-U7-L2-E1",
+              "accept": [
+                "6 bottes",
+                "6"
+              ]
             },
             {
               "prompt": "Après la vente de quatre bottes, combien reste-t-il au stand et quelle est la recette ?",

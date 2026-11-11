@@ -767,7 +767,13 @@
               "type": "open",
               "prompt": "Choose because or before: I wash my hands ___ I eat.",
               "answer": "before",
-              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation.",
+              "accept": [
+                "before"
+              ],
+              "reject": [
+                "because"
+              ]
             }
           ],
           "source": "Curriculum CE2, English Language, U6, pp.56-64.",
@@ -979,7 +985,10 @@
               "type": "open",
               "prompt": "Écris en chiffres huit mille soixante-dix et décompose ce nombre.",
               "answer": "8 070 = 8 000 + 70.",
-              "explanation": "Il faut conserver le zéro des centaines et celui des unités."
+              "explanation": "Il faut conserver le zéro des centaines et celui des unités.",
+              "accept": [
+                "8 070 = 8 000 + 70"
+              ]
             },
             {
               "id": "MA-U6-L1-E2",
@@ -1033,7 +1042,14 @@
               "type": "open",
               "prompt": "Plie une feuille en deux parties égales puis colorie une partie. Quelle fraction as-tu coloriée ?",
               "answer": "1/2, un demi.",
-              "explanation": "Une partie est coloriée parmi deux parties égales."
+              "explanation": "Une partie est coloriée parmi deux parties égales.",
+              "accept": [
+                "1/2",
+                "un demi",
+                "1/2, un demi",
+                "la moitié",
+                "2/4"
+              ]
             },
             {
               "id": "MA-U6-L2-E2",
@@ -1089,7 +1105,13 @@
               "type": "open",
               "prompt": "Divise 170 par 12. Donne le quotient et le reste.",
               "answer": "Quotient 14, reste 2.",
-              "explanation": "12 × 14 = 168 ; 170 − 168 = 2. Le reste 2 est inférieur à 12."
+              "explanation": "12 × 14 = 168 ; 170 − 168 = 2. Le reste 2 est inférieur à 12.",
+              "accept": [
+                "quotient 14, reste 2",
+                "14 reste 2",
+                "14 et 2",
+                "q = 14, r = 2"
+              ]
             },
             {
               "id": "MA-U6-L3-E2",
@@ -1144,7 +1166,12 @@
               "type": "open",
               "prompt": "Calcule l’aire d’un rectangle de 6 cm de long et 4 cm de large.",
               "answer": "24 cm².",
-              "explanation": "6 × 4 = 24 carrés d’un centimètre de côté."
+              "explanation": "6 × 4 = 24 carrés d’un centimètre de côté.",
+              "accept": [
+                "24 cm²",
+                "24",
+                "24 centimètres carrés"
+              ]
             },
             {
               "id": "MA-U6-L4-E2",
@@ -2380,7 +2407,14 @@
               "prompt": "Quel mot nomme l’activité dans l’étang d’élevage ?",
               "answer": "La pisciculture.",
               "explanation": "Le poisson grandit dans un lieu aménagé pour l’élevage.",
-              "id": "SH-U6-L7-E1"
+              "id": "SH-U6-L7-E1",
+              "accept": [
+                "la pisciculture"
+              ],
+              "reject": [
+                "l’agriculture",
+                "la pêche"
+              ]
             },
             {
               "type": "open",
@@ -2929,7 +2963,14 @@
               "answer": "Un marcher.",
               "explanation": "Dans la situation, le joueur avance en tenant la balle.",
               "type": "open",
-              "id": "EP-U6-L1-E2"
+              "id": "EP-U6-L1-E2",
+              "accept": [
+                "un marcher"
+              ],
+              "reject": [
+                "un dribble",
+                "une passe"
+              ]
             }
           ],
           "source": "Curriculum CE2, sports collectifs, U6, pp.155-156.",

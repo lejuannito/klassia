@@ -623,7 +623,12 @@
               "type": "open",
               "prompt": "What does Biko’s aunt make?",
               "answer": "She makes clothes.",
-              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation.",
+              "accept": [
+                "She makes clothes.",
+                "clothes",
+                "makes clothes"
+              ]
             },
             {
               "id": "EN-U4-L1-E2",
@@ -674,7 +679,12 @@
               "type": "open",
               "prompt": "What does Biko’s aunt make?",
               "answer": "She makes clothes.",
-              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation.",
+              "accept": [
+                "She makes clothes.",
+                "clothes",
+                "makes clothes"
+              ]
             },
             {
               "id": "EN-U4-L2-E2",
@@ -769,7 +779,15 @@
               "type": "open",
               "prompt": "Complete with careful or carefully: The tailor is ____. She works ____.",
               "answer": "careful; carefully",
-              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation.",
+              "accept": [
+                "careful; carefully"
+              ],
+              "reject": [
+                "carefully; careful",
+                "careful; careful",
+                "carefully; carefully"
+              ]
             }
           ],
           "source": "Curriculum CE2, English Language, U4, pp.56-64.",
@@ -1043,7 +1061,11 @@
               "type": "open",
               "prompt": "Un artisan range 36 boutons dans chacun de 12 sachets. Combien de boutons range-t-il ?",
               "answer": "432 boutons.",
-              "explanation": "36 × 12 = 36 × 10 + 36 × 2 = 360 + 72 = 432."
+              "explanation": "36 × 12 = 36 × 10 + 36 × 2 = 360 + 72 = 432.",
+              "accept": [
+                "432 boutons",
+                "432"
+              ]
             },
             {
               "id": "MA-U4-L2-E2",
@@ -1097,7 +1119,10 @@
               "type": "open",
               "prompt": "Calcule 8 × 7 en utilisant 8 × 5, puis 6 × 9 en utilisant 6 × 10.",
               "answer": "56 ; 54.",
-              "explanation": "8 × 7 = 40 + 16 = 56. 6 × 9 = 60 − 6 = 54."
+              "explanation": "8 × 7 = 40 + 16 = 56. 6 × 9 = 60 − 6 = 54.",
+              "accept": [
+                "56 ; 54"
+              ]
             },
             {
               "id": "MA-U4-L3-E2",
@@ -1151,7 +1176,11 @@
               "type": "open",
               "prompt": "Calcule le périmètre d’un rectangle de 9 cm sur 4 cm.",
               "answer": "26 cm.",
-              "explanation": "2 × (9 + 4) = 2 × 13 = 26 cm. L’unité reste une longueur."
+              "explanation": "2 × (9 + 4) = 2 × 13 = 26 cm. L’unité reste une longueur.",
+              "accept": [
+                "26 cm",
+                "26"
+              ]
             },
             {
               "id": "MA-U4-L4-E2",

@@ -470,7 +470,7 @@ async function testInkAndCalcul(context, page, base) {
   }
   await page.goto(notebook);
   await page.getByRole('link', { name: 'Noter l’essai calcul CE2' }).click();
-  assert.equal(await page.locator('#pilotObservation [name="exercise"]').inputValue(), 'MA-U8-L4-E3');
+  await page.waitForFunction(() => document.querySelector('#pilotObservation [name="exercise"]')?.value === 'MA-U8-L4-E3');
   console.log('PASS offline touch coloring and handwriting, profile isolation, undo and erase, and five practical calculation workshops');
 }
 

@@ -1082,7 +1082,10 @@
               "type": "open",
               "prompt": "Complète : 4 000, 5 000, …, …, 8 000.",
               "answer": "6 000, 7 000.",
-              "explanation": "La différence entre deux nombres voisins reste 1 000."
+              "explanation": "La différence entre deux nombres voisins reste 1 000.",
+              "accept": [
+                "6 000, 7 000"
+              ]
             },
             {
               "id": "MA-U8-L3-E2",
@@ -1137,7 +1140,11 @@
               "type": "open",
               "prompt": "Un achat coûte 6 500 F. Tu donnes 10 000 F. Quelle monnaie doit-on te rendre ?",
               "answer": "3 500 F.",
-              "explanation": "10 000 − 6 500 = 3 500. Par exemple 2 000 F + 1 000 F + 500 F."
+              "explanation": "10 000 − 6 500 = 3 500. Par exemple 2 000 F + 1 000 F + 500 F.",
+              "accept": [
+                "3 500 F",
+                "3 500"
+              ]
             },
             {
               "id": "MA-U8-L4-E2",

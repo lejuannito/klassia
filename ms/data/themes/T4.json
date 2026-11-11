@@ -24,6 +24,8 @@
           "title_en": "A celebration: what can we see?",
           "goal_fr": "Nommer quelques éléments d’une fête ou célébration.",
           "goal_en": "Name common celebration items.",
+          "prompt_fr": "Regarde l’image de la fête. Montre et nomme le ballon, le cadeau, le gâteau.",
+          "prompt_en": "Look at the party picture. Point to and name the balloon, the present, the cake.",
           "table": {
             "headers": [
               "Image",
@@ -71,7 +73,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de fête : ballon, cadeau, gâteau"
+          ],
+          "materials_en": [
+            "party pictures: balloon, present, cake"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-LC2",
@@ -80,6 +89,8 @@
           "title_en": "I give good wishes",
           "goal_fr": "Employer une formule simple de félicitation ou de souhait.",
           "goal_en": "Use a simple greeting or wish.",
+          "prompt_fr": "Tire une carte et dis le bon souhait : « Joyeux anniversaire ! » ou « Bravo ! ».",
+          "prompt_en": "Pick a card and say the right wish: “Happy birthday!” or “Well done!”.",
           "table": {
             "headers": [
               "Français",
@@ -114,7 +125,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes situations : anniversaire, réussite, invité"
+          ],
+          "materials_en": [
+            "situation cards: birthday, success, guest"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-LC3",
@@ -123,6 +141,8 @@
           "title_en": "Decoration colours",
           "goal_fr": "Nommer plusieurs couleurs en français et en anglais.",
           "goal_en": "Name several colours in French and English.",
+          "prompt_fr": "Trouve un objet rouge, puis un jaune, puis un vert. Dis la couleur.",
+          "prompt_en": "Find something red, then yellow, then green. Say the colour.",
           "visual": {
             "kind": "colours",
             "items": [
@@ -144,7 +164,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des objets ou décorations de plusieurs couleurs"
+          ],
+          "materials_en": [
+            "objects or decorations of several colours"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-LC4",
@@ -153,6 +180,8 @@
           "title_en": "Little story: The neighbourhood celebration",
           "goal_fr": "Comprendre une histoire sur la coopération et le partage.",
           "goal_en": "Understand a story about cooperation and sharing.",
+          "prompt_fr": "Écoute l’histoire de la fête du quartier. Qu’apporte chaque famille ?",
+          "prompt_en": "Listen to the story of the street party. What does each family bring?",
           "story_fr": "Dans le quartier de Yani, les voisins préparent une petite fête. Une famille apporte des chaises, une autre de l’eau, d’autres décorent l’espace. Les enfants fabriquent une guirlande en papier. Quand la musique commence, personne n’est obligé de danser : certains dansent, d’autres regardent et applaudissent. À la fin, tout le monde aide à ranger.",
           "story_en": "In Yani’s neighbourhood, neighbours prepare a small celebration. One family brings chairs, another brings water, and others decorate the space. The children make a paper garland. When the music starts, nobody has to dance: some dance, others watch and clap. At the end, everyone helps to tidy up.",
           "questions": [
@@ -175,7 +204,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "aucun, ou des images de chaises et de plats"
+          ],
+          "materials_en": [
+            "none, or pictures of chairs and dishes"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T4-LC5",
@@ -196,7 +232,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "deux marionnettes ou figurines"
+          ],
+          "materials_en": [
+            "two puppets or figures"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T4-LC6",
@@ -205,6 +248,8 @@
           "title_en": "I trace garland patterns",
           "goal_fr": "Poursuivre graphiquement un motif simple.",
           "goal_en": "Continue a simple graphic pattern.",
+          "prompt_fr": "Continue la guirlande : rond, triangle, rond, triangle…",
+          "prompt_en": "Continue the garland: circle, triangle, circle, triangle…",
           "visual": {
             "kind": "patterns",
             "items": [
@@ -223,7 +268,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "gommettes ou crayons de couleur",
+            "formes découpées"
+          ],
+          "materials_en": [
+            "paper",
+            "stickers or coloured crayons",
+            "cut-out shapes"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T4-LC7",
@@ -367,7 +423,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "les expressions bassa affichées dans Klassia",
+            "un locuteur bassa si possible"
+          ],
+          "materials_en": [
+            "the Bassa expressions shown in Klassia",
+            "a Bassa speaker if possible"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -407,7 +472,18 @@
               "en": "How many cups do you need for four places?",
               "answer": "Quatre gobelets. Il y a un gobelet par place. / Four cups. There is one cup at each place."
             }
-          ]
+          ],
+          "materials": [
+            "quatre gobelets jouets",
+            "une feuille",
+            "une carte 4"
+          ],
+          "materials_en": [
+            "four toy cups",
+            "a sheet of paper",
+            "a number card 4"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-ST2",
@@ -450,7 +526,13 @@
               "answer": "★ puis ○ / ★ then ○ : le même groupe de deux se répète."
             }
           ],
-          "duration_minutes": 10
+          "duration_minutes": 10,
+          "materials": [
+            "gommettes ou jetons de deux couleurs"
+          ],
+          "materials_en": [
+            "stickers or counters in two colours"
+          ]
         },
         {
           "id": "T4-ST3",
@@ -459,6 +541,8 @@
           "title_en": "Before, during, after",
           "goal_fr": "Ordonner trois moments d’un événement.",
           "goal_en": "Put three moments of an event in order.",
+          "prompt_fr": "Range les images : avant la fête, pendant la fête, après la fête.",
+          "prompt_en": "Sort the pictures: before the party, during the party, after the party.",
           "table": {
             "headers": [
               "Avant / Before",
@@ -483,7 +567,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "six images de fête",
+            "trois feuilles pour avant, pendant, après"
+          ],
+          "materials_en": [
+            "six party pictures",
+            "three sheets for before, during, after"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T4-ST4",
@@ -492,6 +585,8 @@
           "title_en": "Celebration foods",
           "goal_fr": "Observer qu’un repas peut contenir différents types d’aliments.",
           "goal_en": "Notice that a meal can include different types of food.",
+          "prompt_fr": "Mets ensemble les fruits, puis les boissons, puis les autres aliments du repas.",
+          "prompt_en": "Put the fruit together, then the drinks, then the other foods of the meal.",
           "game_fr": "Classer images : eau/boissons, fruits/légumes, féculents, protéines, gourmandises. Aucun aliment n’est présenté comme « mauvais ».",
           "game_en": "Sort pictures into broad food groups. No food is labelled as “bad”.",
           "observe": [
@@ -502,7 +597,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’aliments (pas d’aliments réels)"
+          ],
+          "materials_en": [
+            "pictures of food (no real food)"
+          ],
+          "duration_minutes": 10
         }
       ]
     },
@@ -520,6 +622,8 @@
           "title_en": "I share and take turns",
           "goal_fr": "Participer à une activité collective en respectant les autres.",
           "goal_en": "Join a group activity while respecting others.",
+          "prompt_fr": "Ajoute un élément à la décoration, puis passe-la au suivant. Attends ton tour.",
+          "prompt_en": "Add one piece to the decoration, then pass it on. Wait for your turn.",
           "game_fr": "Un objet de décoration circule ; chacun ajoute un élément puis passe au suivant.",
           "game_en": "A decoration passes around; each child adds one item and passes it on.",
           "observe": [
@@ -530,7 +634,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une décoration à compléter",
+            "des gommettes ou formes"
+          ],
+          "materials_en": [
+            "a decoration to complete",
+            "stickers or shapes"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-PV2",
@@ -539,6 +652,8 @@
           "title_en": "Clean hands before eating",
           "goal_fr": "Relier hygiène des mains et moment du repas.",
           "goal_en": "Link hand hygiene to mealtime.",
+          "prompt_fr": "Avant de manger, lave tes mains et sèche-les. Montre-moi.",
+          "prompt_en": "Before eating, wash and dry your hands. Show me.",
           "visual": {
             "kind": "sequence",
             "items": [
@@ -556,7 +671,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "eau",
+            "savon",
+            "un linge propre"
+          ],
+          "materials_en": [
+            "water",
+            "soap",
+            "a clean cloth"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-PV3",
@@ -575,7 +701,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’un lieu animé",
+            "une figurine"
+          ],
+          "materials_en": [
+            "pictures of a busy place",
+            "a small figure"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-PV4",
@@ -584,6 +719,8 @@
           "title_en": "Families celebrate differently",
           "goal_fr": "Développer le respect de différentes pratiques culturelles ou religieuses.",
           "goal_en": "Respect different cultural and religious practices.",
+          "prompt_fr": "Regarde ces fêtes. Qu’est-ce qui se ressemble ? Qu’est-ce qui est différent ?",
+          "prompt_en": "Look at these celebrations. What is the same? What is different?",
           "activity_fr": "Comparer des images neutres : anniversaire, mariage, fête nationale, fête religieuse, réunion familiale. Chercher ce qui est commun : se rassembler, souhaiter, partager, décorer parfois.",
           "activity_en": "Compare neutral examples of different celebrations and find common ideas such as gathering, wishing and sharing.",
           "observe": [
@@ -594,7 +731,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de fêtes différentes"
+          ],
+          "materials_en": [
+            "pictures of different celebrations"
+          ],
+          "duration_minutes": 10
         }
       ]
     },
@@ -617,6 +761,12 @@
             "ficelle sous surveillance",
             "colle",
             "formes découpées"
+          ],
+          "materials_en": [
+            "paper",
+            "string with an adult",
+            "glue",
+            "cut-out shapes"
           ],
           "observe": [
             "Alterne au moins deux formes/couleurs.",
@@ -653,6 +803,8 @@
           "title_en": "Loud, soft, silence",
           "goal_fr": "Varier l’intensité d’un rythme.",
           "goal_en": "Vary sound intensity in a rhythm.",
+          "prompt_fr": "Regarde la carte : frappe fort, frappe doucement, ou arrête-toi.",
+          "prompt_en": "Look at the card: clap loudly, clap softly, or stop.",
           "visual": {
             "kind": "sound",
             "items": [
@@ -710,7 +862,14 @@
               "en": "In soft, quiet, loud, when do your hands stay still?",
               "answer": "Au deuxième moment. / On the second beat."
             }
-          ]
+          ],
+          "materials": [
+            "trois cartes : fort, doux, silence"
+          ],
+          "materials_en": [
+            "three cards: loud, soft, silence"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-AR3",
@@ -719,6 +878,8 @@
           "title_en": "A card for someone",
           "goal_fr": "Créer une carte simple avec dessin et message dicté à l’adulte.",
           "goal_en": "Create a simple card with a drawing and dictated message.",
+          "prompt_fr": "Fais un dessin pour quelqu’un, puis dis-moi le message à écrire.",
+          "prompt_en": "Draw a picture for someone, then tell me the message to write.",
           "activity_fr": "L’enfant choisit le destinataire réel ou imaginaire et dicte un court message que l’adulte écrit.",
           "activity_en": "The child chooses a real or imaginary recipient and dictates a short message for the adult to write.",
           "observe": [
@@ -729,7 +890,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une feuille pliée en deux",
+            "crayons"
+          ],
+          "materials_en": [
+            "a sheet folded in half",
+            "crayons"
+          ],
+          "duration_minutes": 15
         }
       ]
     },
@@ -747,6 +917,8 @@
           "title_en": "I dance and freeze",
           "goal_fr": "Adapter le mouvement au démarrage et à l’arrêt de la musique.",
           "goal_en": "Start and stop movement with music.",
+          "prompt_fr": "Bouge doucement sur place. Quand je lève la main, tu deviens une statue !",
+          "prompt_en": "Move gently on the spot. When I raise my hand, freeze like a statue!",
           "game_fr": "Danse libre ; à l’arrêt de la musique, statue.",
           "game_en": "Dance freely; freeze when the music stops.",
           "observe": [
@@ -778,7 +950,16 @@
               "en": "What do you do when the palm goes up?",
               "answer": "Je m’immobilise et j’attends le signe de départ. / I freeze and wait for the start signal."
             }
-          ]
+          ],
+          "materials": [
+            "un espace dégagé",
+            "une musique si possible"
+          ],
+          "materials_en": [
+            "a clear space",
+            "music if possible"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T4-MT2",
@@ -787,6 +968,8 @@
           "title_en": "Decoration relay",
           "goal_fr": "Transporter un objet léger dans un petit parcours.",
           "goal_en": "Carry a light object through a short course.",
+          "prompt_fr": "Prends l’anneau de papier, porte-le jusqu’à la boîte, pose-le, puis reviens en marchant.",
+          "prompt_en": "Take the paper ring, carry it to the box, put it in, then walk back.",
           "course": [
             "prendre un anneau de papier",
             "marcher jusqu’à une boîte",
@@ -801,7 +984,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des anneaux de papier",
+            "une boîte"
+          ],
+          "materials_en": [
+            "paper rings",
+            "a box"
+          ],
+          "duration_minutes": 10
         }
       ]
     }

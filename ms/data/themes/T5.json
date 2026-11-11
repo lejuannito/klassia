@@ -24,6 +24,8 @@
           "title_en": "Parts of a plant",
           "goal_fr": "Nommer quelques parties visibles d’une plante.",
           "goal_en": "Name visible parts of a plant.",
+          "prompt_fr": "Montre la racine, la tige, la feuille et la fleur. Dis leur nom.",
+          "prompt_en": "Show the root, the stem, the leaf and the flower. Say their names.",
           "table": {
             "headers": [
               "Image",
@@ -71,7 +73,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une plante entière ou une image de plante"
+          ],
+          "materials_en": [
+            "a whole plant or a picture of a plant"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T5-LC2",
@@ -105,10 +114,14 @@
           "materials": [
             "un pot, de la terre, une graine de haricot, un peu d’eau et du papier, préparés par l’adulte"
           ],
+          "materials_en": [
+            "a pot, soil, a bean seed, a little water and paper, prepared by the adult"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "duration_minutes": 15
         },
         {
           "id": "T5-LC3",
@@ -117,6 +130,8 @@
           "title_en": "I describe a leaf",
           "goal_fr": "Employer couleur, taille et forme pour décrire.",
           "goal_en": "Use colour, size and shape words to describe.",
+          "prompt_fr": "Regarde ces deux feuilles. Laquelle est grande ? Laquelle est verte ?",
+          "prompt_en": "Look at these two leaves. Which one is big? Which one is green?",
           "table": {
             "headers": [
               "Je peux dire…",
@@ -151,7 +166,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "deux feuilles tombées"
+          ],
+          "materials_en": [
+            "two fallen leaves"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T5-LC4",
@@ -160,6 +182,8 @@
           "title_en": "Little story: The patient seed",
           "goal_fr": "Comprendre qu’une plante grandit progressivement.",
           "goal_en": "Understand that plants grow over time.",
+          "prompt_fr": "Écoute l’histoire de la graine. Pourquoi faut-il attendre ?",
+          "prompt_en": "Listen to the story of the seed. Why do we have to wait?",
           "story_fr": "Mina met une graine dans la terre et regarde aussitôt : rien. Le lendemain : rien encore. Elle veut creuser pour vérifier, mais grand-père lui dit d’attendre. Mina arrose un peu, place le pot à la lumière et observe. Quelques jours plus tard, une petite pousse verte apparaît. « Elle travaillait sous la terre ! », s’étonne Mina.",
           "story_en": "Mina puts a seed in the soil and looks immediately: nothing. The next day: still nothing. She wants to dig it up, but Grandpa tells her to wait. Mina adds a little water, places the pot in the light and watches. A few days later, a tiny green shoot appears. “It was working under the soil!” Mina says.",
           "questions": [
@@ -182,7 +206,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une graine ou une image de graine"
+          ],
+          "materials_en": [
+            "a seed or a picture of a seed"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T5-LC5",
@@ -191,6 +222,8 @@
           "title_en": "Stems, leaves and spirals",
           "goal_fr": "Développer le graphisme à partir de formes végétales.",
           "goal_en": "Develop pre-writing through plant-inspired shapes.",
+          "prompt_fr": "Trace des tiges toutes droites, puis des feuilles, puis une spirale.",
+          "prompt_en": "Draw straight stems, then leaves, then a spiral.",
           "visual": {
             "kind": "traces",
             "items": [
@@ -208,7 +241,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayons"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T5-LC6",
@@ -227,7 +269,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "aucun : la voix et les gestes"
+          ],
+          "materials_en": [
+            "none: voice and gestures"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T5-LC7",
@@ -332,7 +381,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "les formes bassa affichées dans Klassia",
+            "un peu d’eau",
+            "un morceau de bois"
+          ],
+          "materials_en": [
+            "the Bassa forms shown in Klassia",
+            "a little water",
+            "a piece of wood"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -350,6 +410,8 @@
           "title_en": "What does a plant need?",
           "goal_fr": "Observer les besoins essentiels d’une plante avec une expérience simple.",
           "goal_en": "Observe basic plant needs through a simple experiment.",
+          "prompt_fr": "Les deux pots reçoivent la même eau. L’un est à la lumière, l’autre à l’ombre. Chaque jour, regarde : que se passe-t-il ?",
+          "prompt_en": "Both pots get the same water. One is in the light, the other in the shade. Look every day: what happens?",
           "diagram": {
             "kind": "plant_needs",
             "labels": [
@@ -379,7 +441,20 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "deux petits pots identiques",
+            "terre",
+            "graines",
+            "eau"
+          ],
+          "materials_en": [
+            "two identical small pots",
+            "soil",
+            "seeds",
+            "water"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T5-ST2",
@@ -412,7 +487,14 @@
             "items": [
               "1 · une graine / one seed"
             ]
-          }
+          },
+          "materials": [
+            "quatre cartes de croissance d’une plante"
+          ],
+          "materials_en": [
+            "four cards showing a plant growing"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T5-ST3",
@@ -421,6 +503,8 @@
           "title_en": "Plant or not?",
           "goal_fr": "Distinguer grossièrement une plante d’un objet non vivant.",
           "goal_en": "Roughly distinguish a plant from a non-living object.",
+          "prompt_fr": "Est-ce une plante ? Mets les plantes d’un côté et les objets de l’autre.",
+          "prompt_en": "Is it a plant? Put the plants on one side and the objects on the other.",
           "visual": {
             "kind": "sort",
             "items": [
@@ -440,7 +524,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images : arbre, herbe, cactus, chaise, voiture, pierre"
+          ],
+          "materials_en": [
+            "pictures: tree, grass, cactus, chair, car, stone"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T5-ST4",
@@ -480,12 +571,17 @@
             "trois bandes de papier de longueurs différentes",
             "un trait tracé par l’adulte"
           ],
+          "materials_en": [
+            "three strips of paper of different lengths",
+            "a line drawn by the adult"
+          ],
           "teacher_guide": {
             "preparation": "Découper trois bandes assez larges pour être prises facilement. Tracer une ligne sur la feuille.",
             "adaptation": "Commencer avec deux bandes. Si l’enfant compare seulement le haut, décaler une bande et l’inviter à remettre les deux bases sur le trait.",
             "follow_up": "Refaire l’essai avec trois bandes nouvelles et une autre disposition. Proposer au carnet pilote un objet de remplacement facile à trouver."
           },
-          "source_note": "MINEDUB 2018, maternelle francophone, tableau 17, p. 64, première année, thème officiel 6."
+          "source_note": "MINEDUB 2018, maternelle francophone, tableau 17, p. 64, première année, thème officiel 6.",
+          "duration_minutes": 10
         }
       ]
     },
@@ -503,6 +599,8 @@
           "title_en": "I care for a plant",
           "goal_fr": "Adopter une routine de soin sans excès d’eau.",
           "goal_en": "Care for a plant without overwatering.",
+          "prompt_fr": "Touche la terre. Si elle est sèche, verse un peu d’eau, pas trop.",
+          "prompt_en": "Touch the soil. If it is dry, pour a little water, not too much.",
           "steps_fr": [
             "Toucher la terre avec l’adulte.",
             "Ajouter un peu d’eau si nécessaire.",
@@ -523,7 +621,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une plante en pot",
+            "un petit arrosoir ou un gobelet"
+          ],
+          "materials_en": [
+            "a potted plant",
+            "a small watering can or a cup"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T5-PV2",
@@ -532,6 +639,8 @@
           "title_en": "I wash fruits and vegetables",
           "goal_fr": "Comprendre qu’on nettoie certains aliments avant de les manger.",
           "goal_en": "Understand that some foods are washed before eating.",
+          "prompt_fr": "Lave le fruit avec moi, puis pose-le pour qu’il sèche.",
+          "prompt_en": "Wash the fruit with me, then put it down to dry.",
           "activity_fr": "Avec un aliment réel adapté et un adulte, montrer lavage puis séchage/égouttage selon le produit.",
           "activity_en": "With a suitable real food and an adult, demonstrate washing and draining/drying as appropriate.",
           "observe": [
@@ -542,7 +651,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un fruit ou un légume à laver",
+            "une bassine d’eau propre",
+            "un linge propre"
+          ],
+          "materials_en": [
+            "a fruit or vegetable to wash",
+            "a bowl of clean water",
+            "a clean cloth"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T5-PV3",
@@ -551,6 +671,8 @@
           "title_en": "Garden tools are not toys",
           "goal_fr": "Différencier petit matériel enfant et outils réservés aux adultes.",
           "goal_en": "Distinguish child-safe tools from adult tools.",
+          "prompt_fr": "Montre les outils que seuls les adultes utilisent. On ne les touche pas.",
+          "prompt_en": "Show the tools that only adults use. We do not touch them.",
           "table": {
             "headers": [
               "Je peux utiliser avec adulte",
@@ -579,7 +701,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’outils (aucun outil réel)"
+          ],
+          "materials_en": [
+            "pictures of tools (no real tools)"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T5-PV4",
@@ -588,6 +717,8 @@
           "title_en": "I protect plants",
           "goal_fr": "Développer une attitude de respect de l’environnement proche.",
           "goal_en": "Care for nearby plants.",
+          "prompt_fr": "Range les images : ce qui protège les plantes, ce qui leur fait du mal.",
+          "prompt_en": "Sort the pictures: what protects plants, what hurts them.",
           "game_fr": "Classer gestes : arroser raisonnablement, piétiner une jeune pousse, arracher une fleur sans raison, ramasser un déchet, planter.",
           "game_en": "Sort actions that help or harm plants.",
           "observe": [
@@ -598,7 +729,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de gestes pour les plantes"
+          ],
+          "materials_en": [
+            "pictures of actions with plants"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -616,10 +754,17 @@
           "title_en": "Leaf prints",
           "goal_fr": "Créer une composition à partir de formes de feuilles.",
           "goal_en": "Create art from leaf shapes.",
+          "prompt_fr": "Mets de la peinture sur une feuille d’arbre, puis appuie-la sur le papier.",
+          "prompt_en": "Put paint on a leaf, then press it onto the paper.",
           "materials": [
             "feuilles tombées",
             "peinture lavable",
             "papier"
+          ],
+          "materials_en": [
+            "fallen leaves",
+            "washable paint",
+            "paper"
           ],
           "activity_fr": "Utiliser des feuilles tombées, pas arracher systématiquement.",
           "activity_en": "Use fallen leaves rather than pulling fresh ones.",
@@ -631,7 +776,8 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "duration_minutes": 15
         },
         {
           "id": "T5-AR2",
@@ -640,6 +786,8 @@
           "title_en": "I draw a plant in 4 steps",
           "goal_fr": "Représenter une plante avec plusieurs parties.",
           "goal_en": "Draw a plant with several parts.",
+          "prompt_fr": "Dessine ta plante en quatre étapes : le sol, la tige, les feuilles, la fleur.",
+          "prompt_en": "Draw your plant in four steps: the ground, the stem, the leaves, the flower.",
           "steps_fr": [
             "sol",
             "tige",
@@ -660,7 +808,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayons"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons"
+          ],
+          "duration_minutes": 15
         },
         {
           "id": "T5-AR3",
@@ -672,6 +829,11 @@
           "materials": [
             "papier de récupération",
             "colle",
+            "crayons"
+          ],
+          "materials_en": [
+            "scrap paper",
+            "glue",
             "crayons"
           ],
           "observe": [
@@ -718,6 +880,8 @@
           "title_en": "I grow like a plant",
           "goal_fr": "Explorer haut/bas, lent/rapide par le mouvement.",
           "goal_en": "Explore high/low and slow/fast through movement.",
+          "prompt_fr": "Tu es une petite graine, tout en bas. Grandis lentement jusqu’en haut !",
+          "prompt_en": "You are a little seed, very low. Grow slowly up to the sky!",
           "course": [
             "graine accroupie",
             "petite pousse",
@@ -733,7 +897,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un espace dégagé",
+            "une musique douce si possible"
+          ],
+          "materials_en": [
+            "a clear space",
+            "soft music if possible"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T5-MT2",
@@ -742,6 +915,8 @@
           "title_en": "Little gardener course",
           "goal_fr": "Transporter une petite quantité d’eau ou un objet léger avec contrôle.",
           "goal_en": "Carry a small amount of water or a light item with control.",
+          "prompt_fr": "Porte le gobelet sur la ligne, contourne le plot, puis verse l’eau dans le pot.",
+          "prompt_en": "Carry the cup along the line, go around the cone, then pour the water into the pot.",
           "course": [
             "prendre un gobelet presque vide",
             "marcher sur une ligne",
@@ -756,7 +931,20 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un gobelet presque vide",
+            "une ligne au sol",
+            "un plot ou une bouteille",
+            "un pot"
+          ],
+          "materials_en": [
+            "an almost empty cup",
+            "a line on the floor",
+            "a cone or a bottle",
+            "a pot"
+          ],
+          "duration_minutes": 10
         }
       ]
     }

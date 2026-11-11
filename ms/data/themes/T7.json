@@ -24,6 +24,8 @@
           "title_en": "People who work around us",
           "goal_fr": "Nommer quelques métiers en français et anglais.",
           "goal_en": "Name a few jobs in French and English.",
+          "prompt_fr": "Montre l’enseignante, le médecin, le cuisinier. Dis ce que fait chacun.",
+          "prompt_en": "Show the teacher, the doctor, the cook. Say what each one does.",
           "table": {
             "headers": [
               "Image",
@@ -71,7 +73,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de métiers"
+          ],
+          "materials_en": [
+            "pictures of jobs"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T7-LC2",
@@ -80,6 +89,8 @@
           "title_en": "Which tool for which job?",
           "goal_fr": "Associer quelques outils simples à une activité professionnelle.",
           "goal_en": "Match simple tools to jobs.",
+          "prompt_fr": "Quel outil va avec ce métier ? Mets les cartes ensemble.",
+          "prompt_en": "Which tool goes with this job? Put the cards together.",
           "table": {
             "headers": [
               "Métier",
@@ -118,7 +129,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes métiers",
+            "des cartes outils"
+          ],
+          "materials_en": [
+            "job cards",
+            "tool cards"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T7-LC3",
@@ -139,7 +159,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "quelques objets sûrs pour jouer : livre, cuillère, carnet"
+          ],
+          "materials_en": [
+            "a few safe objects for pretend play: book, spoon, notebook"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T7-LC4",
@@ -148,6 +175,8 @@
           "title_en": "Little story: The bicycle problem",
           "goal_fr": "Comprendre la coopération entre plusieurs métiers.",
           "goal_en": "Understand cooperation between different jobs.",
+          "prompt_fr": "Écoute l’histoire du vélo de Toma. Qui l’aide à le réparer ?",
+          "prompt_en": "Listen to the story of Toma’s bike. Who helps to fix it?",
           "story_fr": "Le vélo de Toma fait un bruit étrange. Sa tante ne le laisse pas continuer. Ils vont voir une mécanicienne. Elle regarde la roue et explique qu’une pièce doit être resserrée. Pendant qu’elle travaille, Toma observe sans toucher aux outils. Plus tard, il raconte à son enseignant comment la mécanicienne a sécurisé le vélo.",
           "story_en": "Toma’s bicycle makes a strange noise. His aunt does not let him continue riding. They visit a mechanic. She checks the wheel and explains that a part needs tightening. Toma watches without touching the tools. Later he tells his teacher how the mechanic made the bicycle safe.",
           "questions": [
@@ -170,7 +199,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une image de vélo"
+          ],
+          "materials_en": [
+            "a picture of a bike"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T7-LC5",
@@ -179,6 +215,8 @@
           "title_en": "I ask a worker a question",
           "goal_fr": "Préparer une question simple et respectueuse.",
           "goal_en": "Prepare a simple respectful question.",
+          "prompt_fr": "Pose une question à la personne : « Que fais-tu au travail ? »",
+          "prompt_en": "Ask the person a question: “What do you do at work?”",
           "table": {
             "headers": [
               "Français",
@@ -209,7 +247,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une marionnette, ou un adulte de l’entourage"
+          ],
+          "materials_en": [
+            "a puppet, or an adult you know"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T7-LC6",
@@ -253,7 +298,15 @@
               "answer": "L’enfant distingue la ligne droite de la ligne qui change de direction / The child distinguishes straight and curved paths."
             }
           ],
-          "duration_minutes": 10
+          "duration_minutes": 10,
+          "materials": [
+            "papier",
+            "crayons"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons"
+          ]
         },
         {
           "id": "T7-LC7",
@@ -369,7 +422,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "les formes bassa affichées dans Klassia",
+            "un locuteur bassa si possible"
+          ],
+          "materials_en": [
+            "the Bassa forms shown in Klassia",
+            "a Bassa speaker if possible"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -387,6 +449,8 @@
           "title_en": "Who helps in this situation?",
           "goal_fr": "Relier une situation simple à un professionnel possible.",
           "goal_en": "Link a simple situation to a possible worker.",
+          "prompt_fr": "Regarde la situation. Qui peut aider ? Montre la bonne personne.",
+          "prompt_en": "Look at the situation. Who can help? Show the right person.",
           "table": {
             "headers": [
               "Situation",
@@ -423,7 +487,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes situations",
+            "des cartes métiers"
+          ],
+          "materials_en": [
+            "situation cards",
+            "job cards"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T7-ST2",
@@ -467,7 +540,15 @@
               "answer": "Toujours 4 / Still 4 : déplacer les objets ne change pas leur nombre."
             }
           ],
-          "duration_minutes": 10
+          "duration_minutes": 10,
+          "materials": [
+            "cinq cuillères ou petits objets",
+            "des cartes 1 à 5"
+          ],
+          "materials_en": [
+            "five spoons or small objects",
+            "number cards 1 to 5"
+          ]
         },
         {
           "id": "T7-ST3",
@@ -476,6 +557,8 @@
           "title_en": "Shapes in tools and buildings",
           "goal_fr": "Repérer des formes dans des objets techniques.",
           "goal_en": "Find simple shapes in technical objects.",
+          "prompt_fr": "Cherche les formes : un rond dans la roue, un rectangle dans le livre.",
+          "prompt_en": "Find the shapes: a circle in the wheel, a rectangle in the book.",
           "game_fr": "Chercher cercle (roue), rectangle (livre/porte), triangle (panneau/toit), carré (carreau).",
           "game_en": "Find circle, rectangle, triangle and square in job-related scenes.",
           "observe": [
@@ -486,7 +569,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de roue, de livre, de toit, de carreau"
+          ],
+          "materials_en": [
+            "pictures of a wheel, a book, a roof, a tile"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T7-ST4",
@@ -495,6 +585,8 @@
           "title_en": "A task has steps",
           "goal_fr": "Ordonner 3 ou 4 étapes d’une tâche simple.",
           "goal_en": "Order 3 or 4 steps in a simple task.",
+          "prompt_fr": "Mets les images dans l’ordre : d’abord, ensuite, à la fin.",
+          "prompt_en": "Put the pictures in order: first, next, at the end.",
           "activity_fr": "Exemples : cuisiner un fruit simple (laver-couper par adulte-servir), planter (trou-graine-couvrir-arroser), enseigner (préparer-expliquer-faire essayer-ranger).",
           "activity_en": "Use safe simple task sequences.",
           "observe": [
@@ -505,7 +597,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "trois ou quatre images d’étapes"
+          ],
+          "materials_en": [
+            "three or four step pictures"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -523,6 +622,8 @@
           "title_en": "All useful jobs deserve respect",
           "goal_fr": "Développer une attitude respectueuse envers différents métiers.",
           "goal_en": "Respect different kinds of work.",
+          "prompt_fr": "Choisis un métier et dis pourquoi il est utile à tout le monde.",
+          "prompt_en": "Choose a job and say why it helps everyone.",
           "activity_fr": "Présenter des métiers visibles et moins visibles : nettoyage, agriculture, soin, enseignement, sécurité, réparation, commerce. Discuter : « Qu’est-ce que ce travail apporte ? »",
           "activity_en": "Discuss how different jobs help the community.",
           "observe": [
@@ -533,7 +634,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de métiers variés"
+          ],
+          "materials_en": [
+            "pictures of different jobs"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T7-PV2",
@@ -542,6 +650,8 @@
           "title_en": "I do not touch work tools without permission",
           "goal_fr": "Reconnaître qu’un outil peut être dangereux ou fragile.",
           "goal_en": "Recognise that work tools may be dangerous or delicate.",
+          "prompt_fr": "Montre les outils qu’on ne touche pas sans adulte.",
+          "prompt_en": "Show the tools we do not touch without an adult.",
           "table": {
             "headers": [
               "Objet",
@@ -574,7 +684,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’outils (aucun outil réel)"
+          ],
+          "materials_en": [
+            "pictures of tools (no real tools)"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T7-PV3",
@@ -583,6 +700,8 @@
           "title_en": "I know who to ask for help",
           "goal_fr": "Identifier le bon type d’aide dans quelques situations.",
           "goal_en": "Identify suitable help in simple situations.",
+          "prompt_fr": "Tu es perdu, tu as un petit bobo : à qui demandes-tu de l’aide ?",
+          "prompt_en": "You are lost, you have a small cut: who do you ask for help?",
           "game_fr": "Cartes : perdu à l’école, petite blessure, objet cassé, fumée/incendie. Choisir l’adulte/professionnel à alerter.",
           "game_en": "Choose whom to alert in simple scenarios.",
           "observe": [
@@ -593,7 +712,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes situations",
+            "des cartes personnes"
+          ],
+          "materials_en": [
+            "situation cards",
+            "people cards"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T7-PV4",
@@ -602,6 +730,8 @@
           "title_en": "Jobs are for everyone",
           "goal_fr": "Remettre en cause les stéréotypes simples.",
           "goal_en": "Challenge simple gender stereotypes.",
+          "prompt_fr": "Une femme peut-elle être mécanicienne ? Un homme peut-il être infirmier ? Qu’en penses-tu ?",
+          "prompt_en": "Can a woman be a mechanic? Can a man be a nurse? What do you think?",
           "activity_fr": "Présenter femme mécanicienne, homme infirmier, femme conductrice, homme cuisinier, etc. Demander : « Est-ce possible ? » — oui.",
           "activity_en": "Show diverse workers and reinforce that jobs are not limited by gender.",
           "observe": [
@@ -612,7 +742,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de femmes et d’hommes dans différents métiers"
+          ],
+          "materials_en": [
+            "pictures of women and men in different jobs"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -630,10 +767,17 @@
           "title_en": "My pretend job badge",
           "goal_fr": "Créer un badge ou accessoire symbolique.",
           "goal_en": "Create a pretend job badge/accessory.",
+          "prompt_fr": "Fabrique ton badge : dessine ton métier imaginaire et écris ou dicte son nom.",
+          "prompt_en": "Make your badge: draw your pretend job and write or say its name.",
           "materials": [
             "papier",
             "crayons",
             "ruban adhésif sous supervision"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons",
+            "tape with an adult"
           ],
           "observe": [
             "Choisit symbole/couleur.",
@@ -643,7 +787,8 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "duration_minutes": 15
         },
         {
           "id": "T7-AR2",
@@ -652,6 +797,8 @@
           "title_en": "I build a cardboard tool",
           "goal_fr": "Créer un objet symbolique non fonctionnel.",
           "goal_en": "Make a non-functional pretend tool.",
+          "prompt_fr": "Fabrique un outil en carton pour jouer : un livre, un volant ou un stéthoscope.",
+          "prompt_en": "Make a cardboard tool for pretend play: a book, a steering wheel or a stethoscope.",
           "activity_fr": "Exemples : stéthoscope en papier, livre, volant, arrosoir dessiné. Aucun outil dangereux réel.",
           "activity_en": "Make safe symbolic props only.",
           "observe": [
@@ -662,7 +809,20 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "carton",
+            "papier",
+            "colle",
+            "crayons"
+          ],
+          "materials_en": [
+            "card",
+            "paper",
+            "glue",
+            "crayons"
+          ],
+          "duration_minutes": 20
         },
         {
           "id": "T7-AR3",
@@ -681,7 +841,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "aucun : la voix et les mains"
+          ],
+          "materials_en": [
+            "none: voice and hands"
+          ],
+          "duration_minutes": 5
         }
       ]
     },
@@ -699,6 +866,8 @@
           "title_en": "Mime the job",
           "goal_fr": "Utiliser le corps pour représenter une activité professionnelle.",
           "goal_en": "Use movement to represent a job.",
+          "prompt_fr": "Mime un métier sans parler. Je devine lequel !",
+          "prompt_en": "Act out a job without talking. I guess which one!",
           "game_fr": "Mimer écrire au tableau, arroser, conduire en restant sur place, porter un plateau vide, balayer.",
           "game_en": "Mime safe work actions.",
           "observe": [
@@ -709,7 +878,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un espace dégagé"
+          ],
+          "materials_en": [
+            "a clear space"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T7-MT2",
@@ -718,6 +894,8 @@
           "title_en": "Delivery course",
           "goal_fr": "Transporter un objet léger d’un point à un autre avec contrôle.",
           "goal_en": "Carry a light object through a short route.",
+          "prompt_fr": "Tu es livreur : porte l’enveloppe, contourne les deux plots, marche sur la ligne et dépose-la dans la boîte.",
+          "prompt_en": "You are a delivery driver: carry the envelope, go around the two cones, walk on the line and drop it in the box.",
           "course": [
             "prendre une enveloppe vide",
             "contourner deux cônes",
@@ -732,7 +910,20 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une enveloppe vide",
+            "deux plots ou bouteilles",
+            "une ligne au sol",
+            "une boîte"
+          ],
+          "materials_en": [
+            "an empty envelope",
+            "two cones or bottles",
+            "a line on the floor",
+            "a box"
+          ],
+          "duration_minutes": 10
         }
       ]
     }

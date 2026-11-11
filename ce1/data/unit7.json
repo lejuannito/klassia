@@ -92,6 +92,217 @@
       ]
     },
     {
+      "id": "CE1-U7-G1",
+      "domain": "Français · grammaire",
+      "title": "Le groupe verbal et l’accord du verbe",
+      "objective": "Déterminer les constituants du groupe verbal, reconnaître différents types de verbes et accorder le verbe avec son sujet.",
+      "course": "Le groupe verbal est formé du verbe et des mots qui le complètent : Les enfants [lancent le ballon]. Les joueurs [courent vite].\n\nCertains verbes disent une action (courir, lancer), d’autres un état (être, sembler, paraître).\n\nLe verbe s’accorde toujours avec son sujet : l’équipe gagne, les équipes gagnent.",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "Les joueurs lancent le ballon.\nL’arbitre siffle la fin du match.\nLes enfants semblent heureux."
+      },
+      "model": "« lancent le ballon » est le groupe verbal ; lancent s’accorde avec les joueurs (pluriel).",
+      "guided": "Entourez le groupe verbal de chaque phrase et dites si le verbe dit une action ou un état.",
+      "exercise": "Accorde le verbe : « Les filles (sauter) à la corde. L’arbitre (compter) les points. »",
+      "answer": "Les filles sautent à la corde. L’arbitre compte les points.",
+      "remediation": "Trouver le sujet, puis choisir la terminaison qui va avec lui.",
+      "transfer": "Décrire un jeu de la cour en trois phrases et vérifier chaque accord.",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Le verbe « sembler » dit-il une action ou un état ?",
+          "answer": "Un état.",
+          "explanation": "Sembler, comme être, décrit comment est quelqu’un."
+        },
+        {
+          "prompt": "Écoute et écris.",
+          "listen": "Les équipes jouent dans la cour.",
+          "answer": "Les équipes jouent dans la cour.",
+          "explanation": "Sujet pluriel : jouent.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 7 (grammaire), p. 41, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U7-G2",
+      "domain": "Français · grammaire",
+      "title": "Les compléments du verbe et les prépositions",
+      "objective": "Identifier le complément d’objet direct et le complément d’objet indirect, et utiliser les prépositions.",
+      "course": "Le complément d’objet direct (COD) suit directement le verbe et répond à la question quoi ? ou qui ? : Ali lance [le ballon].\n\nLe complément d’objet indirect (COI) est relié au verbe par une préposition (à, de) et répond à à qui ? à quoi ? de quoi ? : Ali passe le ballon [à Moussa]. Il parle [du match].\n\nLes prépositions sont des mots invariables qui relient des mots : à, de, dans, sur, sous, avec, pour, par, vers.",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "Moussa attrape le ballon.\nIl le passe à son ami.\nLes joueurs parlent du match."
+      },
+      "model": "Moussa attrape quoi ? le ballon : COD. Il le passe à qui ? à son ami : COI, avec la préposition à.",
+      "guided": "Posez les questions quoi ? et à qui ? pour trouver le COD et le COI de chaque phrase.",
+      "exercise": "Trouve le COD : « Les filles tiennent la corde. »",
+      "answer": "la corde (les filles tiennent quoi ? la corde).",
+      "remediation": "Poser la question « quoi ? » ou « qui ? » juste après le verbe.",
+      "transfer": "Écrire une phrase sur un jeu avec un COD et un COI.",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Trouve le COI : « Fanta pense à la partie. »",
+          "answer": "à la partie.",
+          "explanation": "Fanta pense à quoi ? à la partie : préposition à."
+        },
+        {
+          "prompt": "Complète avec une préposition : « Le ballon roule … la table. »",
+          "answer": "sous (ou vers).",
+          "explanation": "Une préposition relie le verbe au lieu."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 7 (grammaire), p. 41, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U7-V1",
+      "domain": "Français · vocabulaire",
+      "title": "Le dictionnaire et les mots des jeux",
+      "objective": "Utiliser l’ordre alphabétique pour chercher un mot dans le dictionnaire et expliquer des mots des jeux.",
+      "course": "Les mots du dictionnaire sont rangés dans l’ordre alphabétique. On regarde la première lettre, puis la deuxième si la première est la même : balle avant ballon avant bille.\n\nMots des jeux : la marelle, le cache-cache, la course de relais, l’arbitre, l’équipe, le but, la partie, la règle du jeu.",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "arbitre, balle, but, équipe, marelle, partie\nLa marelle se joue à cloche-pied."
+      },
+      "model": "Pour chercher « marelle », l’adulte ouvre le dictionnaire à la lettre m, puis cherche ma, mar…",
+      "guided": "Rangez ensemble six mots des jeux par ordre alphabétique, puis cherchez-en un dans un dictionnaire.",
+      "exercise": "Range par ordre alphabétique : partie, équipe, but, arbitre.",
+      "answer": "arbitre, but, équipe, partie.",
+      "remediation": "Écrire l’alphabet en haut de la feuille et pointer la première lettre de chaque mot.",
+      "transfer": "Chercher dans le dictionnaire le sens d’un mot d’un jeu que l’on ne connaît pas.",
+      "materials": "Un dictionnaire, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Range : bille, balle, bâton.",
+          "answer": "balle, bâton, bille.",
+          "explanation": "Même première lettre : on compare la deuxième (a, a, i), puis la troisième (l, t)."
+        },
+        {
+          "prompt": "Explique le mot « arbitre ».",
+          "answer": "La personne qui fait respecter les règles du jeu.",
+          "explanation": "On dit le rôle de la personne."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 8 (vocabulaire), p. 45, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U7-O1",
+      "domain": "Français · orthographe",
+      "title": "Dictée préparée : les jeux",
+      "objective": "Écrire sans erreur, sous la dictée, un court texte préparé ou non.",
+      "course": "Avant d’écrire, on repère les mots difficiles et les accords. Après la dictée, on relit trois fois : une fois pour le sens, une fois pour les accords, une fois pour les mots invariables et la ponctuation.",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "À la récréation, les filles sautent à la corde et les garçons jouent au ballon. L’arbitre siffle : la partie est finie."
+      },
+      "model": "L’adulte souligne : sautent, jouent (-ent), à la corde (à, préposition), est (être).",
+      "guided": "Lisez le texte, épelez les mots soulignés, puis cachez-le.",
+      "exercise": "Écris la dictée lue par l’adulte (ou par la voix), puis relis-toi trois fois.",
+      "answer": "À la récréation, les filles sautent à la corde et les garçons jouent au ballon. L’arbitre siffle : la partie est finie.",
+      "remediation": "Dicter par groupes de mots ; relire chaque phrase aussitôt.",
+      "transfer": "Dicter à l’adulte une phrase de son jeu préféré et corriger ensemble.",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Pourquoi écrit-on « à » avec un accent dans « à la corde » ?",
+          "answer": "Parce qu’on ne peut pas dire « avait la corde » : c’est la préposition à.",
+          "explanation": "Le test de l’imparfait permet de choisir entre a et à."
+        },
+        {
+          "prompt": "Écoute et écris.",
+          "listen": "La partie est finie.",
+          "answer": "La partie est finie.",
+          "explanation": "est : verbe être (était).",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 9 (orthographe), p. 48, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U7-C1",
+      "domain": "Français · conjugaison",
+      "title": "Le passé composé : s’entraîner",
+      "objective": "Conjuguer avec assurance les verbes du 1er groupe au passé composé et l’employer dans un récit.",
+      "course": "Au passé composé : avoir au présent + participe passé en -é. On l’emploie pour raconter des actions finies : Nous avons joué, puis nous avons gagné.\n\nAttention : on n’écrit pas « -er » au participe passé. Pour vérifier, on remplace par un verbe comme vendre : nous avons joué → nous avons vendu (pas « vendre »), donc on écrit -é.",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "Hier, nous avons joué à la marelle.\nMoussa a lancé le palet et il a gagné."
+      },
+      "model": "« a lancé » : on peut dire « a vendu », donc on écrit lancé avec -é.",
+      "guided": "Racontez ensemble une partie de jeu en trois phrases au passé composé.",
+      "exercise": "Écris au passé composé : « Les enfants (crier). Tu (sauter). »",
+      "answer": "Les enfants ont crié. Tu as sauté.",
+      "remediation": "Utiliser le test « vendu » quand on hésite entre -é et -er.",
+      "transfer": "Écrire le récit d’un jeu de la semaine au passé composé.",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Choisis : « Nous avons (jouer / joué). »",
+          "answer": "joué.",
+          "explanation": "Après avoir, le participe passé s’écrit -é."
+        },
+        {
+          "prompt": "Écoute et écris.",
+          "listen": "Ils ont gagné la partie.",
+          "answer": "Ils ont gagné la partie.",
+          "explanation": "ont (avoir) + gagné.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 10 (conjugaison), p. 51, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U7-L03",
       "domain": "English",
       "title": "Explain a simple game rule",

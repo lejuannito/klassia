@@ -21,9 +21,9 @@
     },
     {
       "grade": "CE1",
-      "resources": 121,
+      "resources": 157,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 121
+      "unverifiedCurriculumMappings": 157
     },
     {
       "grade": "CE2",
@@ -74,25 +74,48 @@
     "SIL-U8-L01",
     "SIL-U8-R4",
     "CE1-U1-L01",
+    "CE1-U1-G1",
+    "CE1-U1-V1",
+    "CE1-U1-O1",
+    "CE1-U1-C1",
     "CE1-U1-E1",
     "CE1-U1-E2",
     "CE1-U1-E3",
     "CE1-U1-E4",
     "CE1-U1-L11",
+    "CE1-U2-G1",
+    "CE1-U2-G2",
+    "CE1-U2-V1",
+    "CE1-U2-O1",
+    "CE1-U2-C1",
     "CE1-U2-E1",
     "CE1-U2-E2",
     "CE1-U2-E3",
     "CE1-U2-E4",
+    "CE1-U3-G1",
+    "CE1-U3-G2",
+    "CE1-U3-V1",
+    "CE1-U3-O1",
+    "CE1-U3-C1",
     "CE1-U3-E1",
     "CE1-U3-E2",
     "CE1-U3-E3",
     "CE1-U3-E4",
     "CE1-U3-L06",
+    "CE1-U4-G1",
+    "CE1-U4-V1",
+    "CE1-U4-O1",
+    "CE1-U4-O2",
+    "CE1-U4-C1",
     "CE1-U4-E1",
     "CE1-U4-E2",
     "CE1-U4-E3",
     "CE1-U4-E4",
     "CE1-U4-L09",
+    "CE1-U5-G1",
+    "CE1-U5-V1",
+    "CE1-U5-O1",
+    "CE1-U5-C1",
     "CE1-U5-L03",
     "CE1-U5-E1",
     "CE1-U5-E2",
@@ -100,6 +123,10 @@
     "CE1-U5-E4",
     "CE1-U5-L08",
     "CE1-U6-L01",
+    "CE1-U6-G1",
+    "CE1-U6-V1",
+    "CE1-U6-O1",
+    "CE1-U6-C1",
     "CE1-U6-E1",
     "CE1-U6-E2",
     "CE1-U6-E3",
@@ -107,6 +134,11 @@
     "CE1-U6-L12",
     "CE1-U6-L08",
     "CE1-U7-L01",
+    "CE1-U7-G1",
+    "CE1-U7-G2",
+    "CE1-U7-V1",
+    "CE1-U7-O1",
+    "CE1-U7-C1",
     "CE1-U7-E1",
     "CE1-U7-E2",
     "CE1-U7-E3",
@@ -114,6 +146,10 @@
     "CE1-U7-L04",
     "CE1-U7-L08",
     "CE1-U8-L01",
+    "CE1-U8-G1",
+    "CE1-U8-V1",
+    "CE1-U8-O1",
+    "CE1-U8-C1",
     "CE1-U8-E1",
     "CE1-U8-E2",
     "CE1-U8-E3",
@@ -553,6 +589,46 @@
       "prompt": "Écoute le passage. Quel indice permet à Aïcha de repérer l’album ? Où voit-elle cet indice ?"
     },
     {
+      "lesson": "CE1-U1-G1",
+      "index": 1,
+      "prompt": "Classe ces noms : Paul, maison, Yaoundé, lit."
+    },
+    {
+      "lesson": "CE1-U1-G1",
+      "index": 2,
+      "prompt": "Écris au pluriel : un lit, une porte."
+    },
+    {
+      "lesson": "CE1-U1-V1",
+      "index": 1,
+      "prompt": "Quel mot précis peut remplacer « la chose pour faire cuire le repas » ?"
+    },
+    {
+      "lesson": "CE1-U1-V1",
+      "index": 2,
+      "prompt": "Trouve l’intrus : lit, natte, armoire, marmite."
+    },
+    {
+      "lesson": "CE1-U1-O1",
+      "index": 1,
+      "prompt": "Écris au féminin : un cousin, un grand frère → une … sœur."
+    },
+    {
+      "lesson": "CE1-U1-O1",
+      "index": 2,
+      "prompt": "Écoute et écris au pluriel."
+    },
+    {
+      "lesson": "CE1-U1-C1",
+      "index": 1,
+      "prompt": "Trouve le mot qui indique le temps : « Maintenant, je lave les assiettes. »"
+    },
+    {
+      "lesson": "CE1-U1-C1",
+      "index": 2,
+      "prompt": "Mets cette phrase au futur en commençant par « Demain » : « Je range mon lit. »"
+    },
+    {
       "lesson": "CE1-U1-E1",
       "index": 1,
       "prompt": "Who is the father’s son?"
@@ -613,6 +689,56 @@
       "prompt": "Il faut une bande d’un décimètre. La bande du tiroir mesure 9 cm. Combien de centimètres lui manque-t-il ?"
     },
     {
+      "lesson": "CE1-U2-G1",
+      "index": 1,
+      "prompt": "Quel est le nom dans le groupe « les petites cases » ?"
+    },
+    {
+      "lesson": "CE1-U2-G1",
+      "index": 2,
+      "prompt": "Souligne le verbe : « Les femmes vendent des légumes. »"
+    },
+    {
+      "lesson": "CE1-U2-G2",
+      "index": 1,
+      "prompt": "Quel signe termine cette phrase ? « Où se trouve la chefferie »"
+    },
+    {
+      "lesson": "CE1-U2-G2",
+      "index": 2,
+      "prompt": "Transforme en question avec « Est-ce que » : « Le pont est solide. »"
+    },
+    {
+      "lesson": "CE1-U2-V1",
+      "index": 1,
+      "prompt": "Explique le mot « puits »."
+    },
+    {
+      "lesson": "CE1-U2-V1",
+      "index": 2,
+      "prompt": "Quel animal bêle ?"
+    },
+    {
+      "lesson": "CE1-U2-O1",
+      "index": 1,
+      "prompt": "Corrige : « Les enfants joue sur la place. »"
+    },
+    {
+      "lesson": "CE1-U2-O1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
+      "lesson": "CE1-U2-C1",
+      "index": 1,
+      "prompt": "À quel temps est « tu chanteras » ?"
+    },
+    {
+      "lesson": "CE1-U2-C1",
+      "index": 2,
+      "prompt": "Quel est l’infinitif de « nous visitons » ?"
+    },
+    {
       "lesson": "CE1-U2-E1",
       "index": 1,
       "prompt": "What do old people do at night in the text?"
@@ -661,6 +787,56 @@
       "lesson": "CE1-U2-L04",
       "index": 2,
       "prompt": "Complète : 248, 249, …, …"
+    },
+    {
+      "lesson": "CE1-U3-G1",
+      "index": 1,
+      "prompt": "Remplace « à le » par l’article contracté : « Je parle à le maître. »"
+    },
+    {
+      "lesson": "CE1-U3-G1",
+      "index": 2,
+      "prompt": "Complète avec un adjectif possessif : « Nous rangeons … livres. »"
+    },
+    {
+      "lesson": "CE1-U3-G2",
+      "index": 1,
+      "prompt": "Le mot « avec » change-t-il au pluriel ?"
+    },
+    {
+      "lesson": "CE1-U3-G2",
+      "index": 2,
+      "prompt": "Souligne le sujet : « Au tableau, Fanta écrit la date. »"
+    },
+    {
+      "lesson": "CE1-U3-V1",
+      "index": 1,
+      "prompt": "Explique le mot « pupitre »."
+    },
+    {
+      "lesson": "CE1-U3-V1",
+      "index": 2,
+      "prompt": "Remplace le mot souligné par un synonyme : « Le maître est fâché. »"
+    },
+    {
+      "lesson": "CE1-U3-O1",
+      "index": 1,
+      "prompt": "Le mot « beaucoup » prend-il un -s au pluriel ?"
+    },
+    {
+      "lesson": "CE1-U3-O1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
+      "lesson": "CE1-U3-C1",
+      "index": 1,
+      "prompt": "Complète avec être : « Vous … dans la cour. »"
+    },
+    {
+      "lesson": "CE1-U3-C1",
+      "index": 2,
+      "prompt": "Écoute et écris."
     },
     {
       "lesson": "CE1-U3-E1",
@@ -718,6 +894,56 @@
       "prompt": "Avec la souris, remonte jusqu’à l’image puis redescends vers cette question. Vise le bouton de correction, puis clique une fois."
     },
     {
+      "lesson": "CE1-U4-G1",
+      "index": 1,
+      "prompt": "Trouve l’adjectif : « Le boulanger prépare du pain chaud. »"
+    },
+    {
+      "lesson": "CE1-U4-G1",
+      "index": 2,
+      "prompt": "Écris au pluriel : « le grand atelier »."
+    },
+    {
+      "lesson": "CE1-U4-V1",
+      "index": 1,
+      "prompt": "Qui répare les chaussures ?"
+    },
+    {
+      "lesson": "CE1-U4-V1",
+      "index": 2,
+      "prompt": "Complète avec pain ou pin : « Le boulanger cuit le … . »"
+    },
+    {
+      "lesson": "CE1-U4-O1",
+      "index": 1,
+      "prompt": "Corrige : « Les tailleurs coud des habits. »"
+    },
+    {
+      "lesson": "CE1-U4-O1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
+      "lesson": "CE1-U4-O2",
+      "index": 1,
+      "prompt": "Complète avec et ou est : « La couturière … patiente … habile. »"
+    },
+    {
+      "lesson": "CE1-U4-O2",
+      "index": 2,
+      "prompt": "Complète avec son ou sont : « Les ouvriers … arrivés. Le chef prend … casque. »"
+    },
+    {
+      "lesson": "CE1-U4-C1",
+      "index": 1,
+      "prompt": "Mets au futur : « Tu portes la caisse. »"
+    },
+    {
+      "lesson": "CE1-U4-C1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
       "lesson": "CE1-U4-E1",
       "index": 1,
       "prompt": "Where does a farmer work?"
@@ -766,6 +992,46 @@
       "lesson": "CE1-U4-L04",
       "index": 2,
       "prompt": "Quatre sacs contiennent chacun 3 mangues. Combien de mangues au total ?"
+    },
+    {
+      "lesson": "CE1-U5-G1",
+      "index": 1,
+      "prompt": "Donne la nature de « nous » dans « Nous partons demain »."
+    },
+    {
+      "lesson": "CE1-U5-G1",
+      "index": 2,
+      "prompt": "Trouve l’adjectif épithète : « Le chauffeur prudent ralentit. »"
+    },
+    {
+      "lesson": "CE1-U5-V1",
+      "index": 1,
+      "prompt": "Explique le mot « passager »."
+    },
+    {
+      "lesson": "CE1-U5-V1",
+      "index": 2,
+      "prompt": "Trouve le contraire de « long »."
+    },
+    {
+      "lesson": "CE1-U5-O1",
+      "index": 1,
+      "prompt": "Complète avec s ou ss : une vali…e, une cai…e."
+    },
+    {
+      "lesson": "CE1-U5-O1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
+      "lesson": "CE1-U5-C1",
+      "index": 1,
+      "prompt": "Quel est l’infinitif de « tu descends » ?"
+    },
+    {
+      "lesson": "CE1-U5-C1",
+      "index": 2,
+      "prompt": "Écoute et écris."
     },
     {
       "lesson": "CE1-U5-L03",
@@ -833,6 +1099,46 @@
       "prompt": "Quelle fin répond au problème du début ? Cite l’action qui te permet de choisir."
     },
     {
+      "lesson": "CE1-U6-G1",
+      "index": 1,
+      "prompt": "Quel nom remplace « ils » dans « Les malades attendent. Ils sont patients. » ?"
+    },
+    {
+      "lesson": "CE1-U6-G1",
+      "index": 2,
+      "prompt": "Trouve les pronoms personnels : « Nous lavons nos mains, puis vous les séchez. »"
+    },
+    {
+      "lesson": "CE1-U6-V1",
+      "index": 1,
+      "prompt": "Explique le mot « ordonnance »."
+    },
+    {
+      "lesson": "CE1-U6-V1",
+      "index": 2,
+      "prompt": "Quel mot n’est pas de la même famille : dent, dentiste, dentifrice, danse ?"
+    },
+    {
+      "lesson": "CE1-U6-O1",
+      "index": 1,
+      "prompt": "Pourquoi écrit-on « lavent » avec -ent ?"
+    },
+    {
+      "lesson": "CE1-U6-O1",
+      "index": 2,
+      "prompt": "Écoute et écris la phrase."
+    },
+    {
+      "lesson": "CE1-U6-C1",
+      "index": 1,
+      "prompt": "Quel est le participe passé de « laver » ?"
+    },
+    {
+      "lesson": "CE1-U6-C1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
       "lesson": "CE1-U6-E1",
       "index": 1,
       "prompt": "Say this number in words: 180."
@@ -881,6 +1187,56 @@
       "lesson": "CE1-U6-L04",
       "index": 2,
       "prompt": "Un rectangle mesure 4 unités sur 1 unité. Quel est son périmètre ?"
+    },
+    {
+      "lesson": "CE1-U7-G1",
+      "index": 1,
+      "prompt": "Le verbe « sembler » dit-il une action ou un état ?"
+    },
+    {
+      "lesson": "CE1-U7-G1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
+      "lesson": "CE1-U7-G2",
+      "index": 1,
+      "prompt": "Trouve le COI : « Fanta pense à la partie. »"
+    },
+    {
+      "lesson": "CE1-U7-G2",
+      "index": 2,
+      "prompt": "Complète avec une préposition : « Le ballon roule … la table. »"
+    },
+    {
+      "lesson": "CE1-U7-V1",
+      "index": 1,
+      "prompt": "Range : bille, balle, bâton."
+    },
+    {
+      "lesson": "CE1-U7-V1",
+      "index": 2,
+      "prompt": "Explique le mot « arbitre »."
+    },
+    {
+      "lesson": "CE1-U7-O1",
+      "index": 1,
+      "prompt": "Pourquoi écrit-on « à » avec un accent dans « à la corde » ?"
+    },
+    {
+      "lesson": "CE1-U7-O1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
+      "lesson": "CE1-U7-C1",
+      "index": 1,
+      "prompt": "Choisis : « Nous avons (jouer / joué). »"
+    },
+    {
+      "lesson": "CE1-U7-C1",
+      "index": 2,
+      "prompt": "Écoute et écris."
     },
     {
       "lesson": "CE1-U7-E1",
@@ -946,6 +1302,46 @@
       "lesson": "CE1-U8-L01",
       "index": 2,
       "prompt": "L’activité de Rami se fera finalement au coin lecture. Réécris son message en changeant seulement l’information nécessaire."
+    },
+    {
+      "lesson": "CE1-U8-G1",
+      "index": 1,
+      "prompt": "Quelle conjonction propose un choix ?"
+    },
+    {
+      "lesson": "CE1-U8-G1",
+      "index": 2,
+      "prompt": "Complète : « La radio est allumée … on entend la musique. »"
+    },
+    {
+      "lesson": "CE1-U8-V1",
+      "index": 1,
+      "prompt": "Explique le mot « facteur »."
+    },
+    {
+      "lesson": "CE1-U8-V1",
+      "index": 2,
+      "prompt": "Range : message, médecin, maison."
+    },
+    {
+      "lesson": "CE1-U8-O1",
+      "index": 1,
+      "prompt": "Pourquoi écrit-on « est » dans « Elle est contente » ?"
+    },
+    {
+      "lesson": "CE1-U8-O1",
+      "index": 2,
+      "prompt": "Écoute et écris."
+    },
+    {
+      "lesson": "CE1-U8-C1",
+      "index": 1,
+      "prompt": "Conjugue « parler » à l’imparfait avec nous et ils."
+    },
+    {
+      "lesson": "CE1-U8-C1",
+      "index": 2,
+      "prompt": "Écoute et écris."
     },
     {
       "lesson": "CE1-U8-L03",

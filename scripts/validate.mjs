@@ -70,13 +70,15 @@ for(const name of ['champions-francais-ce2','champions-francais-sil']){const m=r
  });}
 for(const ref of sil.units){const u=read(`sil/data/${ref.path}`);assert.ok(u.title_fr&&u.title_en&&u.subcentres.length===3);for(const l of u.lessons){lessons++;learningExtras(l);assert.ok(l.id&&l.domain&&l.objective&&l.course&&l.model&&l.guided&&l.exercise&&l.answer&&l.remediation&&l.transfer&&l.materials,`Incomplete SIL lesson ${l.id}`);assert.ok(l.source?.title&&l.source?.url);if(l.domain==='English')assert.ok(l.course.includes('Class 1 English literacy progression'),`Incomplete English SIL track ${l.id}`);editorial(l);}}
 const ce1Catalog=read('ce1/data/catalog.json');assert.equal(ce1Catalog.grade,'CE1');assert.equal(ce1Catalog.releaseStatus,'in_review');assert.equal(ce1Catalog.availableUnits.length,8);
-const ce1UnitCounts = { 'CE1-U6': 16 };
+const ce1UnitCounts = {'CE1-U1': 19, 'CE1-U2': 20, 'CE1-U3': 20, 'CE1-U4': 20, 'CE1-U5': 19, 'CE1-U6': 20, 'CE1-U7': 20, 'CE1-U8': 19};
 let ce1Lessons = 0;
 for (const ref of ce1Catalog.units) {
  const ce1 = read(`ce1/data/${ref.path}`);
  assert.equal(ce1.grade, 'CE1');
  assert.equal(ce1.releaseStatus, 'in_review');
- assert.equal(ce1.lessons.length, ce1UnitCounts[ref.id] ?? 15);
+ assert.equal(ce1.lessons.length, ce1UnitCounts[ref.id]);
+ // Lot 7b: French language study by « savoir » — grammar, vocabulary, spelling and conjugation in every unit.
+ for(const [code,domain] of [['G1','Français · grammaire'],['V1','Français · vocabulaire'],['O1','Français · orthographe'],['C1','Français · conjugaison']]){const l=ce1.lessons.find(x=>x.id===`${ref.id}-${code}`);assert.ok(l&&l.domain===domain&&/tableau (7|8|9|10) /.test(l.source.pages)&&l.practice.length>=2,'CE1 language '+ref.id+'-'+code);}
  // Lot 7a: four English lessons per unit after the francophone curriculum (listening and speaking, reading, writing, grammar).
  assert.deepEqual(ce1.lessons.filter(l=>/-E\d$/.test(l.id)).map(l=>[l.id,l.domain,/Niveau 2/.test(l.source.title)]),[1,2,3,4].map(k=>[`${ref.id}-E${k}`,'English',true]),'CE1 English '+ref.id);
  for (const l of ce1.lessons) {
@@ -87,7 +89,7 @@ for (const ref of ce1Catalog.units) {
   editorial(l);
  }
 }
-assert.equal(ce1Lessons, 121);
+assert.equal(ce1Lessons, 157);
 const gs=read('gs/data/catalog-v13.json');assert.equal(gs.themes.length,8);let gsActivities=0;
 for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);assert.equal(t.grade,'GS');assert.equal(t.domains.length,5);for(const d of t.domains)for(const a of d.activities){gsActivities++;assert.ok(!ids.has(a.id),'Duplicate GS activity');ids.add(a.id);editorial(a);nurseryAudio(a);for(const f of ['title_fr','title_en','goal_fr','goal_en','prompt_fr','prompt_en'])assert.ok(a[f],a.id+' '+f);assert.ok(a.steps_fr.length>=3&&a.steps_en.length>=3);assert.ok(a.questions.every(q=>q.fr&&q.en&&q.answer));assert.ok(a.source_refs.length===2);assert.ok(a.materials.length&&a.observe.length);
  // Lot 6b: no generated filler left in GS activities; steps, materials and observation points are specific.
@@ -97,5 +99,5 @@ const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.j
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}
 for(const f of ['shared/correction.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);
-assert.equal(lessons,590);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,912);assert.equal(questions,read('docs/metrics.json').storedQuestions);
+assert.equal(lessons,626);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,948);assert.equal(questions,read('docs/metrics.json').storedQuestions);
 console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions, ${shortAnswers} CE2 short answers with automatic check. Editorial validation is separate.`);

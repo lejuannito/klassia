@@ -29,3 +29,10 @@ test('several numbers are compared as a whole, never one by one',()=>{
  assert.equal(matchAnswer('2 000 + 70 + 5',split),'unknown');
  assert.equal(matchAnswer('56',{accept:['56 ; 54'],prompt:'Calcule 8 × 7 puis 6 × 9.'}),'unknown');
 });
+test('written answers stay in the active profile and on this device, outside the backup',()=>{
+ const k=factory(new Memory());k.write('klassia_answers_v1',{'CE2:MA-U1-L3-E1':{text:'Nelly et Amadou',at:new Date().toISOString()}});
+ assert.equal(k.read('klassia_answers_v1',{})['CE2:MA-U1-L3-E1'].text,'Nelly et Amadou');
+ assert.equal(JSON.stringify(k.exportBackup()).includes('Nelly et Amadou'),false);
+ const first=k.profile().id;k.createProfile('Autre');assert.deepEqual(k.read('klassia_answers_v1',{}),{});
+ k.selectProfile(first);assert.equal(k.read('klassia_answers_v1',{})['CE2:MA-U1-L3-E1'].text,'Nelly et Amadou');
+});

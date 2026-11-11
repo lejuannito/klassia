@@ -526,6 +526,7 @@ async function testArtsAndMovement(page, base) {
   }
   await page.goto(notebook);
   await page.getByRole('link', { name: 'Noter l’essai motricité CE2' }).click();
+  await page.waitForFunction(() => document.querySelector('#pilotObservation [name="exercise"]')?.value === 'EP-U8-L1-E3');
   const observation = page.locator('#pilotObservation');
   assert.equal(await observation.locator('[name="lesson"]').inputValue(), 'EP-U8-L1');
   assert.equal(await observation.locator('[name="exercise"]').inputValue(), 'EP-U8-L1-E3');

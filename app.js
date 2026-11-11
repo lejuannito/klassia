@@ -401,7 +401,7 @@ function exerciseHtml(e, lid, i) {
   const en = lid.startsWith('EN-');
   const clip = Klassia.speech.clip(e.audio,en?'en-GB':'fr-FR');
   const correction = `<b>${en?'Suggested answer':'Correction proposée'}</b><p>${nl(e.answer || '')}</p>${e.explanation ? `<p class="muted">${nl(e.explanation)}</p>` : ''}<div class="self-check"><span>${en?'Did you manage on your own?':'As-tu réussi seul ?'}</span><button type="button" class="btn mini review" onclick="rateOpen('${key}',false,'${ansId}')">${en?'Not yet':'Pas encore'}</button><button type="button" class="btn mini success" onclick="rateOpen('${key}',true,'${ansId}')">${en?'Yes':'Oui'} ✓</button></div><div class="remediation hidden" data-remed="${ansId}"><b>${en?'Try again with help':'Remédiation'}</b><p>${nl(e.explanation || (en?'Read the example and try the question again.':'Relis « Je retiens », reprends l’exemple puis essaie de résoudre la question une seconde fois.'))}</p></div>`;
-  return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${clip}${Klassia.ink.pad('CE2:'+e.id,e.ink)}${Klassia.correction.html(ansId,correction,{en,ink:true,record:key,check:e.accept?{accept:e.accept,reject:e.reject||[],prompt:e.prompt}:null})}${history ? `<div class="exercise-history">${history.auto ? 'Dernière vérification' : 'Auto-évaluation'} : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
+  return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${clip}${Klassia.ink.pad('CE2:'+e.id,e.ink)}${Klassia.correction.html(ansId,correction,{en,ink:true,record:key,save:'CE2:'+e.id,check:e.accept?{accept:e.accept,reject:e.reject||[],prompt:e.prompt}:null})}${history ? `<div class="exercise-history">${history.auto ? 'Dernière vérification' : 'Auto-évaluation'} : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
 }
 
 // Short answers recognised by Klassia are recorded like the other exercises; unrecognised ones are not.
@@ -454,7 +454,7 @@ function evaluation(id) {
     <div class="assessment-list">`;
   a.items.forEach((it, i) => {
     const rid = `corr_${id}_${i}`;
-    body += `<article class="evalItem"><div class="eval-head"><span class="eval-number">${i + 1}</span><span class="points">${it.points} pt${it.points > 1 ? 's' : ''}</span></div><b>${esc(it.prompt)}</b>${Klassia.correction.html(rid,nl(it.answer),{en:id==='EN'})}</article>`;
+    body += `<article class="evalItem"><div class="eval-head"><span class="eval-number">${i + 1}</span><span class="points">${it.points} pt${it.points > 1 ? 's' : ''}</span></div><b>${esc(it.prompt)}</b>${Klassia.correction.html(rid,nl(it.answer),{en:id==='EN',save:'CE2:'+currentUnit.id+':'+id+':bilan:'+i})}</article>`;
   });
   body += `</div>
     <section class="score-entry"><div><div class="eyebrow">MON RÉSULTAT</div><h3>Enregistrer mon score</h3><p>Pour ce pilote, la correction est accompagnée et le score est saisi après comparaison avec les réponses proposées.</p></div><div class="score-controls"><input id="score" type="number" min="0" max="20" step="0.5" value="${e?.score ?? ''}" aria-label="Score sur 20"><span>/20</span><button class="btn primary" onclick="saveEval('${id}')">Enregistrer</button></div><div id="evalMsg" class="eval-message">${e ? evalFeedback(Number(e.score)) : ''}</div></section>
@@ -604,6 +604,7 @@ window.resetDemo = () => {
   const ids = currentLessonIds();
   const p = progressData(); Object.keys(p).forEach(id => { if (ids.has(id)) delete p[id]; }); save(S.progress,p);
   const ex = exerciseData(); Object.keys(ex).forEach(k => { if ([...ids].some(id => k.startsWith(id+':'))) delete ex[k]; }); save(S.exercises,ex);
+  const written = Klassia.read('klassia_answers_v1', {}); Object.keys(written).forEach(k => { if (k.startsWith('CE2:'+currentUnit.id+':') || [...ids].some(id => k.startsWith('CE2:'+id+'-'))) delete written[k]; }); Klassia.write('klassia_answers_v1', written);
   Klassia.storage.removeItem(`${S.evals}:${currentUnit.id}`);
   Klassia.storage.removeItem(`${S.project}:${currentUnit.id}`);
   Klassia.storage.removeItem(`${S.qcmScores}:${currentUnit.id}`);

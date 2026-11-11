@@ -17,7 +17,7 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 ## Lot 2 — corrections enrichies (en cours)
 
 - **2a. Réponses courtes vérifiées** — 90 exercices ouverts du CE2 à réponse courte (nombre, mot, choix entre deux termes) disent dès « Valider ma tentative » si la réponse est reconnue juste, reconnue fausse ou non reconnue. Une réponse reconnue est enregistrée comme les autres exercices ; une réponse non reconnue renvoie à la correction sans être comptée fausse. Le bassa n’est pas concerné : ses variantes restent arbitrées par l’enseignant.
-- **2b. Réponse de l’enfant conservée** — à faire : garder la réponse écrite dans le profil et l’afficher près de la correction, dans les cinq classes.
+- **2b. Réponse de l’enfant gardée** — au CE2 (exercices et bilans), en SIL et en CE1, la réponse écrite validée reste dans le profil sur l’appareil (`klassia_answers_v1`, hors sauvegarde exportée, 400 réponses au plus). Au retour sur la leçon, elle est réaffichée, la correction est accessible, et la correction commence par « Ta réponse ». En vue Parent, le corrigé adulte commence par « Réponse écrite par l’enfant ». La maternelle répond à l’oral et n’est pas concernée.
 - **2c. « As-tu réussi seul ? » en SIL et CE1** — à faire.
 - **2d. Explications manquantes** — à faire : 300 exercices du CE2 sur 746 n’ont pas d’explication.
 

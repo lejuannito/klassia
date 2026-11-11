@@ -143,3 +143,8 @@ html[data-klassia-view="family"] .gs-top > a { display: inline-flex; align-items
 .attempt-status[data-verdict="correct"] { color: #1d6b2f; }
 .attempt-status[data-verdict="wrong"] { color: #8a3b00; }
 .attempt-status[data-verdict="number"], .attempt-status[data-verdict="unknown"] { color: #243f83; }
+
+/* Lot 2b: the child's written answer next to the correction */
+.your-answer { margin: 0 0 10px; padding: 10px 12px; background: #fff; border: 1px dashed #9cabc3; border-radius: 8px; color: #172033; }
+.your-answer b { display: block; margin-bottom: 4px; color: #243f83; }
+.your-answer p { margin: 0; overflow-wrap: anywhere; }

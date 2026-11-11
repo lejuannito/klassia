@@ -100,3 +100,20 @@
 .parent-gate-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
 .parent-gate-actions button { min-height: 44px; padding: .5rem 1rem; }
 .parent-gate [data-gate-status] { min-height: 1.4em; color: #7a2e2e; }
+
+/* First launch: school, class and name in one short form. */
+.klassia-welcome { margin: 0 0 1.2rem; padding: 1.1rem; border: 2px solid #3157d5; border-radius: 14px; background: #f5f8ff; }
+.klassia-welcome h2 { margin: 0 0 .3rem; font-size: 1.35rem; }
+.klassia-welcome > p { margin: 0 0 .8rem; }
+.klassia-welcome form > label { display: grid; gap: .3rem; font-weight: 700; }
+.klassia-welcome input[name="name"] { min-height: 44px; padding: .5rem .7rem; font: inherit; border: 1px solid #9fb0d6; border-radius: 9px; }
+.klassia-welcome fieldset { margin: .9rem 0 0; padding: 0; border: 0; display: grid; gap: .45rem; }
+.klassia-welcome legend { font-weight: 800; margin-bottom: .35rem; }
+.klassia-welcome fieldset label { display: flex; align-items: center; gap: .6rem; min-height: 44px; padding: .4rem .7rem; border: 1px solid #c8d5ee; border-radius: 10px; background: #fff; }
+.klassia-welcome fieldset label:has(input:checked) { border-color: #3157d5; box-shadow: inset 0 0 0 1px #3157d5; }
+.klassia-welcome input[type="radio"] { width: 1.2rem; height: 1.2rem; }
+.klassia-welcome-hint { margin: .2rem 0 0; color: #4a5672; font-size: .9rem; }
+.klassia-welcome [data-welcome-note] { margin: .5rem 0 0; color: #644509; }
+.klassia-welcome [data-welcome-note]:empty { display: none; }
+.klassia-welcome-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
+.klassia-welcome-actions button { min-height: 44px; padding: .5rem 1.1rem; }

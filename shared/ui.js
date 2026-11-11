@@ -138,9 +138,36 @@ function decorate(){
   nav.insertBefore(bassa,child);
  }
  const main=document.querySelector('main');if(main)main.insertAdjacentHTML('afterbegin',classNavigation(c.grade));if(main&&!main.querySelector('.edition-notice,.gs-notice')){const n=document.createElement('p');n.className='edition-notice';n.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(n);}
+ if(main&&isLanding(c)&&['ELEVE','PARENT'].includes(role)&&!K.read(FAMILY_KEY,null))main.prepend(welcome(c));
  K.navigation.update();
  document.getElementById('logout')?.remove();
 }
+// First launch: the family states the child's school and class once, then the
+// entry page opens that class directly. Existing addresses are unchanged.
+const FAMILY_KEY='klassia_family';
+const familyClasses=[['MS','Moyenne section','Nursery One'],['GS','Grande section','Nursery Two'],['SIL','SIL','Class 1'],['CE1','CE1','Class 3'],['CE2','CE2','Class 4']];
+function isLanding(c){return c.grade==='CE2'&&!location.search&&['','#home'].includes(location.hash);}
+function cameFromKlassia(base){try{const r=new URL(document.referrer);return r.origin===location.origin&&r.pathname.startsWith(base.pathname);}catch{return false;}}
+function welcome(c){
+ const s=document.createElement('section');s.className='klassia-welcome';s.setAttribute('aria-labelledby','klassiaWelcomeTitle');
+ const name=K.profile().name;
+ s.innerHTML=`<h2 id="klassiaWelcomeTitle">Bienvenue sur Klassia</h2><p>Trois réponses pour ouvrir directement la classe de votre enfant. Vous pourrez les changer plus tard.</p><form data-welcome><label>Prénom ou pseudonyme de l’enfant <input name="name" maxlength="40" autocomplete="off" value="${name==='Mon enfant'?'':esc(name)}" placeholder="Mon enfant"></label><fieldset><legend>École de l’enfant</legend><label><input type="radio" name="school" value="fr" checked> Francophone</label><label><input type="radio" name="school" value="en"> Anglophone</label><label><input type="radio" name="school" value="both"> Bilingue (les deux)</label></fieldset><p data-welcome-note role="status"></p><fieldset><legend>Classe</legend>${familyClasses.map(([g,fr,en])=>`<label><input type="radio" name="grade" value="${g}" required> ${fr} · ${en}</label>`).join('')}<p class="klassia-welcome-hint">Le CP et la Class 2 ne sont pas encore disponibles.</p></fieldset><div class="klassia-welcome-actions"><button type="submit" class="btn primary">Commencer</button><button type="button" data-welcome-later>Plus tard</button></div></form>`;
+ const form=s.querySelector('form'), note=s.querySelector('[data-welcome-note]');
+ form.addEventListener('change',e=>{if(e.target.name==='school')note.textContent=e.target.value==='fr'?'':'Les classes anglophones sont en préparation. En attendant, Klassia ouvre la classe francophone équivalente, où l’anglais est une matière.';});
+ form.onsubmit=e=>{
+  e.preventDefault();
+  const grade=form.elements.grade.value, school=form.elements.school.value, child=form.elements.name.value.trim();
+  if(!grade)return;
+  if(child&&child!==K.profile().name){try{K.renameProfile(child);}catch(error){note.textContent=error.message;return;}}
+  K.write(FAMILY_KEY,{school,grade,at:new Date().toISOString()});
+  if(grade==='CE2')location.reload();else location.href=new URL(gradePaths[grade],c.base).href;
+ };
+ s.querySelector('[data-welcome-later]').onclick=()=>{K.write(FAMILY_KEY,{dismissed:true,at:new Date().toISOString()});s.remove();};
+ return s;
+}
+// Opening Klassia from its icon, a bookmark or a typed address lands on the
+// remembered class. Moving to CE2 from inside Klassia is left untouched.
+(()=>{const c=context(),family=K.read(FAMILY_KEY,null);if(isLanding(c)&&family?.grade&&family.grade!=='CE2'&&gradePaths[family.grade]!==undefined&&!cameFromKlassia(c.base))location.replace(new URL(gradePaths[family.grade],c.base).href);})();
 // Opening « Parents » from the child view goes through the parental gate.
 document.addEventListener('click',e=>{
  const summary=e.target.closest('.klassia-parents-menu > summary');

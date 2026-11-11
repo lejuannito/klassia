@@ -10,7 +10,7 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 - **1a. Barre famille** — fusionné (PR #51). En vue Enfant, la barre ne garde que le retour, la classe, les outils et un menu « Parents » qui regroupe suivi, profil, recherche, espace et validation pédagogique. Les vues adultes sont inchangées.
 - **1b. Porte Parents et atelier** — un calcul à résoudre par l’adulte avant d’ouvrir « Parents » ou de quitter la vue Enfant (valable dix minutes, réarmé au retour en vue Enfant ; ce n’est pas un mot de passe) ; vues Enseignant et Administration regroupées sous « Atelier pédagogique » dans le choix de l’espace.
-- **1c. Premier lancement** — école (francophone, anglophone, les deux), classe, prénom.
+- **1c. Premier lancement** — sur la page d’entrée, un encart demande une fois le prénom, l’école (francophone, anglophone, bilingue) et la classe, enregistrés dans le profil (`klassia_family`, hors sauvegarde). Ensuite, l’ouverture depuis l’icône, un favori ou l’adresse racine mène à la classe mémorisée ; les liens directs et le passage au CE2 depuis Klassia ne sont pas redirigés. Tant que les classes anglophones n’existent pas, la classe francophone équivalente s’ouvre.
 - **1d. Continuer** — bouton vers la prochaine leçon non faite dans les cinq classes.
 - **1e. Mots et confort** — retrait du vocabulaire éditorial et du mot « bilingue » des vues Enfant et Parent, commandes de 44 px, texte de 14 px au moins.
 

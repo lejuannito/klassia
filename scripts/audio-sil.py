@@ -2,6 +2,7 @@
 """Fixed recordings for the SIL reading lessons (lot 5b).
 
 Synthesises with Piper the reading support of each reading lesson (SIL-U<n>-R1 to R4)
+and of each English lesson from the francophone programme (SIL-U<n>-E1)
 and every listening practice of SIL that has no recording yet, then adds the "audio"
 field next to the text in the lesson files. Same pipeline as docs/SUPPORTS_SONORES.md:
 length factor 1.10, loudness normalised to -17 LUFS, MP3 mono 24 kHz 40 kbit/s.
@@ -37,7 +38,7 @@ def items():
             lang = 'en' if lesson['domain'].startswith('English') else 'fr'
             base = lesson['id'].lower()
             support = lesson.get('support') or {}
-            if re.search(r'-R\d$', lesson['id']) and support.get('text') and not support.get('audio'):
+            if re.search(r'-(R|E)\d$', lesson['id']) and support.get('text') and not support.get('audio'):
                 yield path, lesson['id'], 'text', support['text'], lang, 'lecture', f'{base}-lecture.mp3'
             for j, p in enumerate(lesson.get('practice') or []):
                 if p.get('listen') and not p.get('audio'):
@@ -89,8 +90,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--voices', required=True, help='folder with the Piper models and their .json files')
     parser.add_argument('--dry-run', action='store_true', help='list what would be read, without synthesis')
+    parser.add_argument('--match', default='', help='only the recordings whose file name matches this regular expression')
     args = parser.parse_args()
-    todo = list(items())
+    todo = [x for x in items() if re.search(args.match, x[-1])]
     if args.dry_run:
         for path, lid, key, text, lang, kind, src in todo:
             print(src, '|', ' / '.join(spoken(s, lang) for s in segments(text, kind)))

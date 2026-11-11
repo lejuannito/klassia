@@ -522,6 +522,14 @@ function qcmPage(i) {
   body += `</div><button class="btn primary large-action" onclick="correctQcm(${Number(i)})">Corriger la série</button>${Klassia.isAdultSpace()?`<button class="btn soft large-action" onclick="correctQcm(${Number(i)},true)">Voir le corrigé adulte</button>`:''}<div id="scoreQcm" class="scoreBox" role="status"></div>`;
   shell(body, 'revise');
 }
+// Each question may name its lesson (`lecon`); otherwise « Revoir » opens the lessons of the subject.
+function qcmLessonLink(q, e) {
+  const found = q.lecon && allLessons().find(x => x.lesson.id === q.lecon);
+  return found
+    ? { href: '#lesson:' + encodeURIComponent(found.lesson.id), label: `Revoir la leçon « ${found.lesson.title} »` }
+    : { href: '#subject:' + encodeURIComponent(e.subject_id), label: `Revoir les leçons de ${subjectMeta(e.subject_id).short}` };
+}
+
 window.correctQcm = (i, adultPreview = false) => {
   const e = qcm.epreuves[i];
   if (!e || (adultPreview && !Klassia.isAdultSpace())) return;
@@ -532,13 +540,17 @@ window.correctQcm = (i, adultPreview = false) => {
     return;
   }
   let score = 0;
+  const toReview = new Map();
   e.questions.forEach((q, qi) => {
     const box = document.getElementById('qc' + qi);
     const ok = Number(responses[qi]?.value) === q.bonne;
     if (ok) score++;
     box.classList.remove('hidden');
     const title = adultPreview ? 'Corrigé adulte' : ok ? 'Correct ✓' : 'À revoir';
-    box.innerHTML = `<div class="feedback-${ok&&!adultPreview?'good':'retry'}"><b>${title}</b><p>${esc(q.corrige || '')}</p>${q.methode?`<p class="muted"><b>Méthode :</b> ${esc(q.methode)}</p>`:''}</div>`;
+    const link = qcmLessonLink(q, e);
+    if (!ok && !adultPreview) toReview.set(link.href, link);
+    const review = adultPreview ? `<p class="muted">${q.lecon ? 'Leçon liée' : 'Sans leçon précise'} : ${esc(link.label)}</p>` : ok ? '' : `<p class="qcm-review"><a href="${link.href}">${esc(link.label)}</a></p>`;
+    box.innerHTML = `<div class="feedback-${ok&&!adultPreview?'good':'retry'}"><b>${title}</b><p>${esc(q.corrige || '')}</p>${q.methode?`<p class="muted"><b>Méthode :</b> ${esc(q.methode)}</p>`:''}${review}</div>`;
   });
   if (adultPreview) {
     scoreBox.textContent = 'Corrigé affiché pour l’adulte.';
@@ -547,7 +559,8 @@ window.correctQcm = (i, adultPreview = false) => {
   const pct = Math.round(score * 100 / e.questions.length);
   Klassia.append('klassia_attempts',{kind:'qcm',unit:currentUnit.id,series:seriesKey(e,i),score,total:e.questions.length});
   const scores=qcmScoreData(); const key=seriesKey(e,i); scores[key]={score,total:e.questions.length,pct,date:new Date().toISOString(),type:e.serie_type}; saveQcmScoreData(scores);
-  scoreBox.innerHTML = `<strong>${score}/${e.questions.length}</strong><span>${pct >= 80 ? 'Très bien !' : pct >= 50 ? 'Bon début. Reprends les corrections.' : 'Revois les leçons correspondantes avant de réessayer.'}</span>`;
+  const lessonsToReview = toReview.size ? `<div class="qcm-review-list"><b>Leçons à revoir</b>${[...toReview.values()].map(x => `<a href="${x.href}">${esc(x.label)}</a>`).join('')}</div>` : '';
+  scoreBox.innerHTML = `<strong>${score}/${e.questions.length}</strong><span>${pct >= 80 ? 'Très bien !' : pct >= 50 ? 'Bon début. Reprends les corrections.' : 'Revois les leçons correspondantes avant de réessayer.'}</span>${lessonsToReview}`;
   return true;
 };
 

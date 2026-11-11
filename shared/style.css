@@ -93,3 +93,10 @@
  .klassia-family-nav .klassia-grade-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
  .klassia-family-nav select { max-width: 150px; }
 }
+
+/* Parental gate before adult tools. */
+.parent-gate label { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; font-size: 1.5rem; font-weight: 800; }
+.parent-gate input { width: 6em; min-height: 48px; font: inherit; text-align: center; border: 2px solid #9fb0d6; border-radius: 10px; }
+.parent-gate-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
+.parent-gate-actions button { min-height: 44px; padding: .5rem 1rem; }
+.parent-gate [data-gate-status] { min-height: 1.4em; color: #7a2e2e; }

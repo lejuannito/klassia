@@ -17,7 +17,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés dans toutes les matières sauf la langue nationale | — | livre de l’œuvre de littérature |
 | 8. Langue de la maison | enregistreur familial | modèle multilingue des leçons LCN | référence AGLC et relecteur bassa |
 | 9. Confiance et diffusion | bilan de la semaine, partage, mises à jour légères | téléchargement par classe | relecteurs nommés (badge) |
-| Piste anglophone | vue anglaise de la maternelle | — | programmes anglophones (Level I à III, Nursery) |
+| Piste anglophone | vue anglaise de la maternelle ; cartographie des programmes Level I et II | A2 interface anglaise, puis Class 1, Class 3, Class 4 (environ 390 leçons) | programme Nursery complet ; relecteur anglophone |
 
 Hors lots, d’après l’analyse : formats vérifiés (fait, E1), leçons en quatre étapes, encouragements (étoile par leçon, série de jours).
 
@@ -96,7 +96,7 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 - **A1a. Vue anglaise complète en maternelle** — les 438 critères d’observation de MS et les 195 de GS existent en anglais (`observe_en`), en plus du matériel (6a, 6b) et des consignes. `npm run validate` exige la traduction de chaque critère. Les classes anglophones elles-mêmes (Nursery One/Two, Class 1 à 4) attendent les programmes anglophones complets.
 
-Programmes anglophones : les liens eBASE (Level I à III) sont connus mais ne s’ouvrent pas depuis l’environnement de travail ; l’aperçu public du Level I s’arrête avant le contenu d’English Language (p. 41) et de Mathematics (p. 48). Il faudra le PDF complet pour la piste anglophone (A2, Class 1).
+Programmes anglophones : Level I (Class 1 et 2) et Level II (Class 3 et 4) reçus le 11 novembre 2026 ; Nursery seulement en transcription partielle. Cartographie et plan de construction (lots A2 à A7) : [PISTE_ANGLOPHONE.md](PISTE_ANGLOPHONE.md). Les classes anglophones suivent les mêmes huit thèmes mensuels que les unités francophones, mais leurs contenus diffèrent (Class 1 : nombres jusqu’à 100) et ne sont pas répartis par thème dans le programme.
 
 Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine (reportée : ADR-013) ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote (reportée : ADR-012) ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
 

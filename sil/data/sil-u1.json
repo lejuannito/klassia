@@ -252,6 +252,69 @@
       }
     },
     {
+      "id": "SIL-U1-E1",
+      "domain": "English",
+      "title": "At home: things, sounds and plurals",
+      "objective": "Greet people at home, name home objects, hear letter sounds and say one or two objects (cup, cups).",
+      "course": "At home we greet people: “Good morning, Mum!” We name things: a cup, a bed, a pot. One cup, two cups: we add -s for more than one. Opposites: hot / cold, big / small. At SIL, the child listens, repeats, points and reads a few words with the adult; copying a word is enough for writing.",
+      "support": {
+        "title": "Say it with the adult",
+        "text": "Good morning, Mum!\nThis is a cup. These are two cups.\nThe tea is hot. The water is cold.",
+        "audio": "../assets/sil-u1-e1-lecture.mp3"
+      },
+      "model": "“This is a cup.” Show one cup. “These are two cups.” Show two cups and stress the final s.",
+      "guided": "With the adult, touch a home object, say its name, then say it again for two objects.",
+      "exercise": "Show me one cup, then two cups, and say the words.",
+      "answer": "“One cup”, “two cups”. Accept pointing and a short answer; the final s is the target.",
+      "remediation": "Use one object only, then two of the same object. Say the word slowly and let the child repeat.",
+      "transfer": "Name three things on the kitchen table and say how many there are.",
+      "materials": "Cups, a pot, a plate, picture cards of home objects.",
+      "practice": [
+        {
+          "prompt": "Listen and say each word. Point to the object.",
+          "listen": "cup. bed. pot.",
+          "audio": "../assets/sil-u1-e1-ecoute-2.mp3",
+          "answer": "cup, bed, pot.",
+          "explanation": "Say each word after the voice, then point to the object."
+        },
+        {
+          "prompt": "Match each word with its opposite.",
+          "type": "match",
+          "pairs": [
+            [
+              "hot",
+              "cold"
+            ],
+            [
+              "big",
+              "small"
+            ],
+            [
+              "clean",
+              "dirty"
+            ]
+          ],
+          "answer": "hot / cold ; big / small ; clean / dirty.",
+          "explanation": "Opposites say the contrary."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018 — English Language",
+        "pages": "Tables 9 to 12, pp. 45–55, SIL column, unit 1",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Original lesson based on the francophone programme. To be reviewed by a SIL teacher; pronunciation is encouraged, never penalised."
+      },
+      "competencies": [
+        "English language",
+        "francophone SIL programme"
+      ]
+    },
+    {
       "id": "SIL-U1-L03",
       "domain": "Mathématiques",
       "title": "Trier, comparer et compter jusqu’à 5",
@@ -697,6 +760,75 @@
       "competencies": [
         "mesure de longueurs avec une unité non conventionnelle",
         "comparaison de longueurs"
+      ]
+    },
+    {
+      "id": "SIL-U1-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Reconnaître le carré, le rectangle et le triangle",
+      "objective": "Nommer et montrer un carré, un rectangle et un triangle dans la maison.",
+      "course": "Un carré a quatre côtés de même longueur. Un rectangle a quatre côtés : deux longs et deux courts. Un triangle a trois côtés. On compte les côtés en suivant le bord avec le doigt.",
+      "support": {
+        "title": "Les formes de la maison",
+        "text": "La fenêtre est un carré. La porte est un rectangle. Le toit est un triangle."
+      },
+      "model": "Suis le bord de la fenêtre avec le doigt : un, deux, trois, quatre côtés pareils. C’est un carré.",
+      "guided": "Avec l’adulte, cherche une forme dans la pièce, suis son bord avec le doigt et compte ses côtés.",
+      "exercise": "Montre-moi un triangle, puis dis combien il a de côtés.",
+      "answer": "Un triangle a trois côtés. Accepter tout objet ou dessin à trois côtés.",
+      "remediation": "Découper un carré, un rectangle et un triangle en carton. Faire compter les côtés de chaque forme en les touchant.",
+      "transfer": "Chercher les trois formes sur un dessin de maison ou dans la cour.",
+      "materials": "Trois formes en carton (carré, rectangle, triangle), un dessin de maison.",
+      "practice": [
+        {
+          "prompt": "Relie chaque forme au nombre de ses côtés.",
+          "type": "match",
+          "pairs": [
+            [
+              "le triangle",
+              "3 côtés"
+            ],
+            [
+              "le carré",
+              "4 côtés pareils"
+            ],
+            [
+              "le rectangle",
+              "2 côtés longs et 2 courts"
+            ]
+          ],
+          "answer": "Le triangle a 3 côtés ; le carré a 4 côtés pareils ; le rectangle a 2 côtés longs et 2 courts.",
+          "explanation": "On compte les côtés en suivant le bord avec le doigt."
+        },
+        {
+          "prompt": "Combien de côtés a un triangle ?",
+          "answer": "3 côtés.",
+          "accept": [
+            "3",
+            "3 côtés",
+            "trois"
+          ],
+          "reject": [
+            "4",
+            "4 côtés"
+          ],
+          "explanation": "Tri veut dire trois : un triangle a trois côtés et trois coins."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 18, p. 77, colonne SIL, unité 1",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "géométrie et espace",
+        "figures géométriques usuelles"
       ]
     },
     {

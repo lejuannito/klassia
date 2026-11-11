@@ -354,6 +354,73 @@
       }
     },
     {
+      "id": "SIL-U8-E1",
+      "domain": "English",
+      "title": "Means of communication and numbers 15 to 20",
+      "objective": "Name means of communication, count from 15 to 20 and greet with “Hi!” and “Hello!”.",
+      "course": "Means of communication: a telephone, a radio, a television, a letter. We call with a telephone. We listen to the radio. Numbers: fifteen, sixteen, seventeen, eighteen, nineteen, twenty. We greet with “Hi!” or “Hello!”. At SIL, the child listens, repeats, points and reads a few words with the adult; copying a word is enough for writing.",
+      "support": {
+        "title": "Say it with the adult",
+        "text": "Hello! This is a telephone.\nWe listen to the radio.\nsixteen, seventeen, eighteen, nineteen, twenty.",
+        "audio": "../assets/sil-u8-e1-lecture.mp3"
+      },
+      "model": "“Hello!” Hold a toy phone to the ear. “We listen to the radio”: point to the ear.",
+      "guided": "With the adult, play a pretend phone call: say “Hello!” and your name.",
+      "exercise": "Pretend to call a friend. What do you say first?",
+      "answer": "“Hello!” or “Hi!”, then the child’s name.",
+      "remediation": "Model the call first; the child answers only “Hello!”.",
+      "transfer": "Count to twenty in English with the family.",
+      "materials": "A toy phone or picture cards: telephone, radio, television, letter; number cards 15 to 20.",
+      "practice": [
+        {
+          "prompt": "Listen and write the numbers in figures.",
+          "listen": "sixteen. eighteen. twenty.",
+          "audio": "../assets/sil-u8-e1-ecoute-2.mp3",
+          "answer": "16, 18, 20.",
+          "accept": [
+            "16, 18, 20",
+            "16 18 20"
+          ],
+          "explanation": "Sixteen is 16, eighteen is 18, twenty is 20."
+        },
+        {
+          "prompt": "Match each object with what we do with it.",
+          "type": "match",
+          "pairs": [
+            [
+              "a telephone",
+              "we call"
+            ],
+            [
+              "a radio",
+              "we listen"
+            ],
+            [
+              "a television",
+              "we watch"
+            ]
+          ],
+          "answer": "telephone – we call ; radio – we listen ; television – we watch.",
+          "explanation": "Each means of communication has its own use."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018 — English Language",
+        "pages": "Tables 9 to 12, pp. 45–55, SIL column, unit 8",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Original lesson based on the francophone programme. To be reviewed by a SIL teacher; pronunciation is encouraged, never penalised."
+      },
+      "competencies": [
+        "English language",
+        "francophone SIL programme"
+      ]
+    },
+    {
       "id": "SIL-U8-L03",
       "domain": "Mathématiques",
       "title": "Construire 20, partager en moitiés et quarts",
@@ -388,6 +455,136 @@
           ],
           "explanation": "Deux moitiés partagées chacune en deux donnent quatre quarts."
         }
+      ]
+    },
+    {
+      "id": "SIL-U8-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Problèmes de mesure jusqu’à 20",
+      "objective": "Résoudre un petit problème de monnaie, de longueur ou de durée avec des nombres jusqu’à 20.",
+      "course": "Pour résoudre un problème, on écoute l’histoire, on cherche ce qu’on demande, puis on calcule avec des objets ou sur les doigts. On dit la réponse avec son unité : F, pieds, jours.",
+      "support": {
+        "title": "La poste du village",
+        "text": "Un timbre coûte 15 F. Fatou a 10 F. Il lui manque 5 F."
+      },
+      "model": "J’ai 10 F. Le timbre coûte 15 F. Je compte de 10 jusqu’à 15 : onze, douze, treize, quatorze, quinze. Il manque 5 F.",
+      "guided": "Avec l’adulte, joue à la poste : achète une carte et un timbre avec des pièces jusqu’à 20 F.",
+      "exercise": "Une carte coûte 12 F et un timbre 5 F. Combien faut-il payer en tout ?",
+      "answer": "17 F.",
+      "remediation": "Manipuler de vraies pièces dessinées et compter à voix haute à partir du plus grand nombre.",
+      "transfer": "Inventer un problème de la poste avec un prix jusqu’à 20 F.",
+      "materials": "Des pièces dessinées de 1 F, 2 F, 5 F et 10 F, des cartes et des timbres dessinés.",
+      "practice": [
+        {
+          "prompt": "Un timbre coûte 15 F. Fatou a 10 F. Combien lui manque-t-il ?",
+          "answer": "5 F.",
+          "accept": [
+            "5 F",
+            "5",
+            "cinq"
+          ],
+          "reject": [
+            "25 F",
+            "25"
+          ],
+          "explanation": "De 10 F à 15 F, il manque 5 F."
+        },
+        {
+          "prompt": "La lettre arrive dans 2 jours. Aujourd’hui, c’est vendredi. Quel jour arrive-t-elle ?",
+          "answer": "Dimanche.",
+          "accept": [
+            "dimanche"
+          ],
+          "reject": [
+            "samedi",
+            "lundi"
+          ],
+          "explanation": "Samedi, puis dimanche : deux jours après vendredi."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 17, p. 76, colonne SIL, unité 8",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "mesures et grandeurs",
+        "problèmes de mesure"
+      ]
+    },
+    {
+      "id": "SIL-U8-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Le cube et le pavé droit",
+      "objective": "Reconnaître et nommer un cube et un pavé droit parmi des objets de la maison.",
+      "course": "Le cube et le pavé droit sont des solides : on peut les tenir dans la main. Le cube a toutes ses faces carrées et pareilles, comme un dé. Le pavé droit ressemble à une boîte : ses faces sont des rectangles.",
+      "support": {
+        "title": "Les colis de la poste",
+        "text": "Le petit colis est un cube : toutes ses faces sont pareilles. Le grand colis est un pavé droit, comme une boîte de chaussures."
+      },
+      "model": "Je tourne le dé dans ma main : toutes ses faces sont des carrés pareils. C’est un cube.",
+      "guided": "Avec l’adulte, trie des boîtes et des dés : les cubes d’un côté, les pavés droits de l’autre.",
+      "exercise": "Montre-moi un objet qui a la forme d’un cube.",
+      "answer": "Un dé ou une boîte dont toutes les faces sont des carrés pareils.",
+      "remediation": "Poser chaque face du solide sur une feuille et en tracer le contour pour voir les carrés ou les rectangles.",
+      "transfer": "Chercher des cubes et des pavés droits dans la cuisine ou la classe.",
+      "materials": "Un dé, des boîtes (allumettes, sucre, chaussures), une feuille et un crayon.",
+      "practice": [
+        {
+          "prompt": "Relie chaque objet à son solide.",
+          "type": "match",
+          "pairs": [
+            [
+              "un dé",
+              "un cube"
+            ],
+            [
+              "une boîte de chaussures",
+              "un pavé droit"
+            ],
+            [
+              "une balle",
+              "une boule"
+            ]
+          ],
+          "answer": "Le dé est un cube ; la boîte de chaussures est un pavé droit ; la balle est une boule.",
+          "explanation": "Toutes les faces du cube sont des carrés pareils ; le pavé droit a des faces rectangles."
+        },
+        {
+          "prompt": "Les faces d’un cube sont des…",
+          "answer": "Carrés.",
+          "accept": [
+            "carrés",
+            "des carrés",
+            "carré"
+          ],
+          "reject": [
+            "triangles",
+            "rectangles"
+          ],
+          "explanation": "Un cube a six faces carrées toutes pareilles."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 18, p. 79, colonne SIL, unité 8",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "géométrie et espace",
+        "solides"
       ]
     },
     {

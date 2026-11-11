@@ -213,6 +213,62 @@
       }
     },
     {
+      "id": "SIL-U3-E1",
+      "domain": "English",
+      "title": "At school: my name, the days and instructions",
+      "objective": "Say one’s name, greet at school, say the days of the week and carry out simple instructions.",
+      "course": "At school we say: “Good morning, teacher! My name is Awa.” The days of the week are Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday. We follow instructions: Sit down. Stand up. Open your book. At SIL, the child listens, repeats, points and reads a few words with the adult; copying a word is enough for writing.",
+      "support": {
+        "title": "Say it with the adult",
+        "text": "Good morning, teacher! My name is Awa.\nMonday, Tuesday, Wednesday, Thursday, Friday.\nStand up. Sit down. Open your book.",
+        "audio": "../assets/sil-u3-e1-lecture.mp3"
+      },
+      "model": "“My name is …” Point to yourself. Say the five school days with one clap for each day.",
+      "guided": "With the adult, play “teacher says”: listen to an instruction and do it.",
+      "exercise": "Stand up, then sit down. Now say: “My name is …”.",
+      "answer": "The child does both actions and says “My name is” with his or her name.",
+      "remediation": "Give one instruction at a time and show the action first.",
+      "transfer": "Say the day of today in English at breakfast each morning.",
+      "materials": "Day cards, a book, a chair.",
+      "practice": [
+        {
+          "prompt": "Listen and do the action.",
+          "listen": "Stand up. Sit down. Open your book.",
+          "audio": "../assets/sil-u3-e1-ecoute-2.mp3",
+          "answer": "Stand up; sit down; open your book.",
+          "explanation": "Each instruction starts with an action word."
+        },
+        {
+          "prompt": "Put the school days in order.",
+          "type": "order",
+          "items": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "answer": "Monday, Tuesday, Wednesday, Thursday, Friday.",
+          "explanation": "The school week starts on Monday."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018 — English Language",
+        "pages": "Tables 9 to 12, pp. 45–55, SIL column, unit 3",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Original lesson based on the francophone programme. To be reviewed by a SIL teacher; pronunciation is encouraged, never penalised."
+      },
+      "competencies": [
+        "English language",
+        "francophone SIL programme"
+      ]
+    },
+    {
       "id": "SIL-U3-L03",
       "domain": "Mathématiques",
       "title": "Réunir des collections et représenter zéro",
@@ -247,6 +303,122 @@
           ],
           "explanation": "Zéro représente ici une collection vide."
         }
+      ]
+    },
+    {
+      "id": "SIL-U3-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Comparer des capacités",
+      "objective": "Dire quel récipient contient le plus et vérifier en comptant des gobelets.",
+      "course": "La capacité, c’est ce qu’un récipient peut contenir. Pour comparer, on remplit un récipient puis on verse dans l’autre : s’il déborde, le premier contenait plus. On peut aussi compter combien de gobelets remplissent chaque récipient.",
+      "support": {
+        "title": "À la cantine",
+        "text": "Le seau contient plus que le bol. Il faut 3 gobelets pour remplir le bol."
+      },
+      "model": "Je remplis le bol avec le gobelet : un, deux, trois gobelets. Le bol contient 3 gobelets.",
+      "guided": "Avec l’adulte, remplis une bouteille et un bol avec le même gobelet. Compte les gobelets pour chaque récipient.",
+      "exercise": "Lequel contient le plus : le verre ou la bouteille ? Vérifie avec le gobelet.",
+      "answer": "La bouteille contient le plus : il faut plus de gobelets pour la remplir.",
+      "remediation": "Utiliser du sable ou du riz à la place de l’eau, et deux récipients très différents.",
+      "transfer": "Ranger trois récipients du plus petit au plus grand contenu.",
+      "materials": "Un gobelet, un verre, un bol, une bouteille, de l’eau ou du sable, une bassine pour ne pas renverser.",
+      "practice": [
+        {
+          "prompt": "Le bol contient 3 gobelets, la bouteille 5 gobelets. Lequel contient le plus ?",
+          "answer": "La bouteille.",
+          "accept": [
+            "la bouteille",
+            "bouteille"
+          ],
+          "reject": [
+            "le bol",
+            "bol"
+          ],
+          "explanation": "5 gobelets, c’est plus que 3 gobelets."
+        },
+        {
+          "prompt": "Range du plus petit au plus grand contenu.",
+          "type": "order",
+          "items": [
+            "le verre",
+            "le bol",
+            "le seau"
+          ],
+          "answer": "le verre, le bol, le seau.",
+          "explanation": "On verse le contenu d’un récipient dans l’autre pour vérifier."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 17, p. 75, colonne SIL, unité 3",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "mesures et grandeurs",
+        "capacités"
+      ]
+    },
+    {
+      "id": "SIL-U3-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Aligner des points avec la règle",
+      "objective": "Vérifier avec une règle si des points sont alignés et placer un point sur la même ligne.",
+      "course": "Des points sont alignés quand ils sont sur un même trait droit. Pour vérifier, on pose la règle sur deux points : si le troisième touche aussi le bord de la règle, les trois points sont alignés.",
+      "support": {
+        "title": "Les élèves en rang",
+        "text": "Dans la cour, les élèves sont alignés : on peut tirer un trait droit qui passe par eux."
+      },
+      "model": "Je pose la règle sur le point A et le point B. Le point C touche le bord : les trois points sont alignés.",
+      "guided": "Avec l’adulte, place trois cailloux bien alignés, puis vérifie avec une ficelle tendue ou une règle.",
+      "exercise": "Place un troisième point sur la même ligne que ces deux points.",
+      "answer": "Le nouveau point touche le bord de la règle posée sur les deux premiers.",
+      "remediation": "Tendre une ficelle entre deux cailloux et poser le troisième contre la ficelle.",
+      "transfer": "Aligner des bouchons pour faire un rang comme les élèves dans la cour.",
+      "materials": "Une règle non graduée, une ficelle, des cailloux ou des bouchons, une feuille avec deux points.",
+      "practice": [
+        {
+          "prompt": "Trois points touchent le même bord de la règle. Sont-ils alignés ?",
+          "answer": "Oui.",
+          "accept": [
+            "oui"
+          ],
+          "reject": [
+            "non"
+          ],
+          "explanation": "Des points sur un même trait droit sont alignés."
+        },
+        {
+          "prompt": "Range les étapes pour vérifier un alignement.",
+          "type": "order",
+          "items": [
+            "Je pose la règle sur deux points",
+            "Je regarde le troisième point",
+            "Il touche le bord : ils sont alignés"
+          ],
+          "answer": "Je pose la règle sur deux points ; je regarde le troisième ; s’il touche le bord, ils sont alignés.",
+          "explanation": "La règle montre le trait droit qui passe par les deux premiers points."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 18, p. 78, colonne SIL, unité 3",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "géométrie et espace",
+        "alignements"
       ]
     },
     {

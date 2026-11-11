@@ -330,6 +330,67 @@
       }
     },
     {
+      "id": "SIL-U5-E1",
+      "domain": "English",
+      "title": "Travelling and numbers 0 to 5",
+      "objective": "Count, read and write numbers from 0 to 5, name things used for travelling and say how something moves.",
+      "course": "Numbers: zero, one, two, three, four, five. Things for travelling: a bag, a ticket, a car, a bus. The car goes fast. The old man walks slowly. At SIL, the child listens, repeats, points and reads a few words with the adult; copying a word is enough for writing.",
+      "support": {
+        "title": "Say it with the adult",
+        "text": "zero, one, two, three, four, five.\nI have one bag and two tickets.\nThe car goes fast. The man walks slowly.",
+        "audio": "../assets/sil-u5-e1-lecture.mp3"
+      },
+      "model": "Count five fingers: one, two, three, four, five. “The car goes fast”: move a toy car quickly.",
+      "guided": "With the adult, count travel objects from 0 to 5 and write the number on a card.",
+      "exercise": "How many bags? Count them in English.",
+      "answer": "The number of bags, said in English (from zero to five).",
+      "remediation": "Count with fingers, one number at a time, before counting objects.",
+      "transfer": "Sing a counting chant from one to five on the way to school.",
+      "materials": "Number cards 0 to 5, bags and tickets drawn on cards, a toy car.",
+      "practice": [
+        {
+          "prompt": "Listen and write the numbers in figures.",
+          "listen": "one. three. five.",
+          "audio": "../assets/sil-u5-e1-ecoute-2.mp3",
+          "answer": "1, 3, 5.",
+          "accept": [
+            "1, 3, 5",
+            "1 3 5"
+          ],
+          "explanation": "One is 1, three is 3, five is 5."
+        },
+        {
+          "prompt": "Put the numbers in order.",
+          "type": "order",
+          "items": [
+            "zero",
+            "one",
+            "two",
+            "three",
+            "four",
+            "five"
+          ],
+          "answer": "zero, one, two, three, four, five.",
+          "explanation": "We count from zero to five."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018 — English Language",
+        "pages": "Tables 9 to 12, pp. 45–55, SIL column, unit 5",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Original lesson based on the francophone programme. To be reviewed by a SIL teacher; pronunciation is encouraged, never penalised."
+      },
+      "competencies": [
+        "English language",
+        "francophone SIL programme"
+      ]
+    },
+    {
       "id": "SIL-U5-L03",
       "domain": "Mathématiques",
       "title": "Lire et écrire 11 à 14 et trouver doubles simples",
@@ -378,6 +439,138 @@
           "answer": "9, 11, 13, 14, 17.",
           "explanation": "On compte : 9, 10, 11, 12, 13, 14, 15, 16, 17."
         }
+      ]
+    },
+    {
+      "id": "SIL-U5-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Les jours de la semaine",
+      "objective": "Dire les sept jours de la semaine dans l’ordre et utiliser hier, aujourd’hui et demain.",
+      "course": "Une semaine compte sept jours : lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche. Après dimanche, une nouvelle semaine recommence. Hier est le jour d’avant, demain le jour d’après.",
+      "support": {
+        "title": "Le voyage chez grand-mère",
+        "text": "Nous partons samedi. Nous revenons dimanche. Aujourd’hui, c’est vendredi : demain, nous partons."
+      },
+      "model": "Aujourd’hui, c’est mardi. Hier, c’était lundi. Demain, ce sera mercredi.",
+      "guided": "Avec l’adulte, récite les jours de la semaine en touchant les cartes, puis dis le jour d’aujourd’hui.",
+      "exercise": "Quel jour vient après jeudi ?",
+      "answer": "Vendredi.",
+      "remediation": "Afficher les sept cartes des jours en ligne et faire avancer un pion d’une carte chaque jour.",
+      "transfer": "Noter sur un calendrier de la semaine le jour d’un voyage ou d’une fête.",
+      "materials": "Sept cartes avec les jours de la semaine, un pion, un calendrier.",
+      "practice": [
+        {
+          "prompt": "Range les jours dans l’ordre.",
+          "type": "order",
+          "items": [
+            "lundi",
+            "mardi",
+            "mercredi",
+            "jeudi",
+            "vendredi"
+          ],
+          "answer": "lundi, mardi, mercredi, jeudi, vendredi.",
+          "explanation": "On récite la semaine à partir de lundi."
+        },
+        {
+          "prompt": "Quel jour vient juste après dimanche ?",
+          "answer": "Lundi.",
+          "accept": [
+            "lundi"
+          ],
+          "reject": [
+            "samedi",
+            "mardi"
+          ],
+          "explanation": "Après dimanche, une nouvelle semaine recommence avec lundi."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 17, p. 75, colonne SIL, unité 5",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "mesures et grandeurs",
+        "mesure du temps"
+      ]
+    },
+    {
+      "id": "SIL-U5-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Se repérer : gauche, droite, sur, sous, devant, derrière",
+      "objective": "Dire où se trouve un objet avec gauche, droite, sur, sous, devant, derrière, près ou loin.",
+      "course": "Pour dire où est un objet, on le compare à un repère : le sac est sous la chaise, le livre est sur la table, la voiture est devant la case. La main droite est celle qui tient le crayon pour beaucoup d’enfants ; on la montre avant de dire « à droite ».",
+      "support": {
+        "title": "À la gare routière",
+        "text": "Le car est devant la gare. Les sacs sont sur le toit du car. Le chien dort sous le banc."
+      },
+      "model": "Je pose le bol sur la table, puis sous la table. Je dis où il est à chaque fois.",
+      "guided": "Avec l’adulte, place un jouet sur, sous, devant puis derrière une boîte et dis où il est.",
+      "exercise": "Mets la petite voiture derrière la boîte, puis dis où elle est.",
+      "answer": "La petite voiture est derrière la boîte.",
+      "remediation": "Utiliser son propre corps comme repère : « le ballon est devant toi », « le sac est derrière toi ».",
+      "transfer": "Cacher un objet dans la pièce et donner un indice avec sur, sous, devant ou derrière.",
+      "materials": "Une boîte, une petite voiture ou un jouet, une table, une chaise.",
+      "practice": [
+        {
+          "prompt": "Le chien dort sous le banc. Où est le chien ?",
+          "answer": "Sous le banc.",
+          "accept": [
+            "sous le banc",
+            "sous"
+          ],
+          "reject": [
+            "sur le banc",
+            "sur"
+          ],
+          "explanation": "Sous : en dessous du banc."
+        },
+        {
+          "prompt": "Relie chaque mot à son contraire.",
+          "type": "match",
+          "pairs": [
+            [
+              "sur",
+              "sous"
+            ],
+            [
+              "devant",
+              "derrière"
+            ],
+            [
+              "près",
+              "loin"
+            ],
+            [
+              "à gauche",
+              "à droite"
+            ]
+          ],
+          "answer": "sur / sous ; devant / derrière ; près / loin ; à gauche / à droite.",
+          "explanation": "Ces mots vont par deux et disent le contraire."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 18, p. 79, colonne SIL, unité 5",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "géométrie et espace",
+        "repérage dans l’espace"
       ]
     },
     {

@@ -96,7 +96,10 @@ for(const name of ['champions-francais-ce2','champions-francais-sil']){const m=r
    for(const g of l.graphemes||[])for(const ch of g)taught.add(ch);
    if(n>=3){const words=[l.support.text,...(l.support.table?.rows||[]).flat()].join(' ').toLowerCase();for(const ch of words)if(/\p{L}/u.test(ch))assert.ok(taught.has(ch),`Letter « ${ch} » not taught yet in ${l.id}`);}}
  });}
-for(const ref of sil.units){const u=read(`sil/data/${ref.path}`);assert.ok(u.title_fr&&u.title_en&&u.subcentres.length===3);for(const l of u.lessons){lessons++;learningExtras(l);assert.ok(l.id&&l.domain&&l.objective&&l.course&&l.model&&l.guided&&l.exercise&&l.answer&&l.remediation&&l.transfer&&l.materials,`Incomplete SIL lesson ${l.id}`);assert.ok(l.source?.title&&l.source?.url);if(l.domain==='English')assert.ok(l.course.includes('Class 1 English literacy progression'),`Incomplete English SIL track ${l.id}`);editorial(l);}}
+let sil5c=0;
+for(const ref of sil.units){const u=read(`sil/data/${ref.path}`);assert.ok(u.title_fr&&u.title_en&&u.subcentres.length===3);for(const l of u.lessons){lessons++;learningExtras(l);assert.ok(l.id&&l.domain&&l.objective&&l.course&&l.model&&l.guided&&l.exercise&&l.answer&&l.remediation&&l.transfer&&l.materials,`Incomplete SIL lesson ${l.id}`);assert.ok(l.source?.title&&l.source?.url);if(l.domain==='English'&&!/-E\d$/.test(l.id))assert.ok(l.course.includes('Class 1 English literacy progression'),`Incomplete English SIL track ${l.id}`);
+ // Lot 5c: English, measures and geometry from the francophone Niveau 1 programme (SIL column).
+ if(/-(E\d|MM|MG)$/.test(l.id)){assert.ok(/Niveau 1 \(SIL-CP\)/.test(l.source.title)&&/SIL column|colonne SIL/.test(l.source.pages),'SIL programme source '+l.id);sil5c++;}editorial(l);}}
 const ce1Catalog=read('ce1/data/catalog.json');assert.equal(ce1Catalog.grade,'CE1');assert.equal(ce1Catalog.releaseStatus,'in_review');assert.equal(ce1Catalog.availableUnits.length,8);
 const ce1UnitCounts = {'CE1-U1': 22, 'CE1-U2': 24, 'CE1-U3': 23, 'CE1-U4': 23, 'CE1-U5': 23, 'CE1-U6': 23, 'CE1-U7': 23, 'CE1-U8': 22};
 let ce1Lessons = 0;
@@ -141,5 +144,5 @@ const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.j
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}
 for(const f of ['shared/correction.js','shared/exercises.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);
-assert.equal(lessons,652);assert.equal(learningShortAnswers,220);assert.equal(checkedFormats,38);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,974);assert.equal(questions,read('docs/metrics.json').storedQuestions);
+assert.equal(lessons,674);assert.equal(learningShortAnswers,241);assert.equal(checkedFormats,57);assert.equal(sil5c,22);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,996);assert.equal(questions,read('docs/metrics.json').storedQuestions);
 console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions, ${shortAnswers} CE2 + ${learningShortAnswers} SIL/CE1 short answers with automatic check. Editorial validation is separate.`);

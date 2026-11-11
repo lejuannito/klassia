@@ -57,6 +57,17 @@ const sil=read('sil/data/curriculum.json');assert.equal(sil.grade,'SIL');assert.
 for(const name of ['champions-francais-ce2','champions-francais-sil']){const m=read(`data/manuels/${name}.json`);assert.equal(m.format,'klassia-manual-progression');assert.ok(m.title&&m.source?.url&&m.source?.method,'Manual source '+name);assert.deepEqual(m.units.map(u=>u.unit),[1,2,3,4,5,6,7,8]);let last=0;for(const u of m.units){assert.deepEqual(u.weeks.map(w=>w.week),[1,2,3,4],name+' U'+u.unit);for(const w of u.weeks){assert.ok(w.items.length,name+' empty week');const nums=w.items.flatMap(([r,t,p])=>{assert.ok(typeof r==='string'&&r&&typeof t==='string');assert.ok(p===null||Number.isInteger(p)||/^\d+-\d+$/.test(p),'Manual page '+name+' U'+u.unit+' S'+w.week);return p===null?[]:String(p).split('-').map(Number);});assert.ok(Math.min(...nums)>last,name+' pages go back at U'+u.unit+' S'+w.week);last=Math.max(...nums);}}}
 // Niveau 2 (CE1–CE2, MINEDUB 2018, §2.5) : trois sous-centres d’intérêt par centre, communs au CE1 et au CE2.
 {const ce2=read('data/catalog.json').units,ce1=read('ce1/data/catalog.json').units;assert.equal(ce2.length,8);for(const u of ce2){assert.equal(u.subcentres?.length,3,'CE2 sub-centres '+u.id);const ref=ce1[u.number-1];assert.deepEqual(read(`ce1/data/${ref.path}`).subcentres,u.subcentres,'CE1 and CE2 share the Niveau 2 sub-centres '+u.id);}}
+// SIL reading (lot 5): one lesson per week of each unit, R1–R3 for the sounds of weeks 1–3 and R4 for the review,
+// in the weeks where the recorded SIL textbook has a reading lesson. From unit 4 on, the words to read use only letters already taught.
+{const book=read('data/manuels/champions-francais-sil.json');let taught=new Set(['à']);
+ sil.units.forEach((ref,n)=>{const u=read(`sil/data/${ref.path}`),reading=u.lessons.filter(l=>/-R\d$/.test(l.id));
+  assert.deepEqual(reading.map(l=>[l.id,l.week]),[1,2,3,4].map(w=>[`${u.id}-R${w}`,w]),'SIL reading weeks '+u.id);
+  for(const l of u.lessons)if(l.week!==undefined)assert.ok([1,2,3,4].includes(l.week),'Week '+l.id);
+  for(const l of reading){assert.equal(l.domain,'Français · lecture');assert.ok(l.support?.text&&l.practice?.length>=2,'Reading support '+l.id);
+   if(l.week<4)assert.ok(book.units[n].weeks[l.week-1].items.some(([r])=>r==='Lecture'),'No textbook reading lesson for '+l.id);
+   for(const g of l.graphemes||[])for(const ch of g)taught.add(ch);
+   if(n>=3){const words=[l.support.text,...(l.support.table?.rows||[]).flat()].join(' ').toLowerCase();for(const ch of words)if(/\p{L}/u.test(ch))assert.ok(taught.has(ch),`Letter « ${ch} » not taught yet in ${l.id}`);}}
+ });}
 for(const ref of sil.units){const u=read(`sil/data/${ref.path}`);assert.ok(u.title_fr&&u.title_en&&u.subcentres.length===3);for(const l of u.lessons){lessons++;learningExtras(l);assert.ok(l.id&&l.domain&&l.objective&&l.course&&l.model&&l.guided&&l.exercise&&l.answer&&l.remediation&&l.transfer&&l.materials,`Incomplete SIL lesson ${l.id}`);assert.ok(l.source?.title&&l.source?.url);if(l.domain==='English')assert.ok(l.course.includes('Class 1 English literacy progression'),`Incomplete English SIL track ${l.id}`);editorial(l);}}
 const ce1Catalog=read('ce1/data/catalog.json');assert.equal(ce1Catalog.grade,'CE1');assert.equal(ce1Catalog.releaseStatus,'in_review');assert.equal(ce1Catalog.availableUnits.length,8);
 const ce1UnitCounts = { 'CE1-U6': 12 };
@@ -81,5 +92,5 @@ const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.j
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}
 for(const f of ['shared/correction.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);
-assert.equal(lessons,526);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,848);assert.equal(questions,read('docs/metrics.json').storedQuestions);
+assert.equal(lessons,558);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,880);assert.equal(questions,read('docs/metrics.json').storedQuestions);
 console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions, ${shortAnswers} CE2 short answers with automatic check. Editorial validation is separate.`);

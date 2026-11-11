@@ -10,8 +10,240 @@
   "project": "Inventer un jeu de comptage avec des règles simples, du matériel sûr et un rôle pour chacun.",
   "lessons": [
     {
+      "id": "SIL-U7-R1",
+      "domain": "Français · lecture",
+      "week": 1,
+      "graphemes": [
+        "n"
+      ],
+      "title": "Je lis n : na, ni, no, nu",
+      "objective": "Lire les syllabes avec n, ne pas confondre n, m et u, lire des mots et comprendre deux phrases.",
+      "course": "La lettre n, qu’on appelle « ène », fait le son [n], qui passe par le nez : nnnn. On lit na, ni, no, nu, né, nou.\n\nAttention : n a un pont, m en a deux, et u est tourné dans l’autre sens.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "une, domino, lune, banane, Nina\nNina a une balle. Ali a le domino.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "na",
+              "ni",
+              "no",
+              "nu",
+              "né",
+              "nou"
+            ],
+            [
+              "an",
+              "in",
+              "on",
+              "un",
+              "en",
+              "oun"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire domino : do, mi, no, do-mi-no. Pour lire une : u, puis ne, u-ne.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis on compare na et ma, nu et mu, avant de lire les phrases.",
+      "exercise": "Lis « Nina a une balle. Ali a le domino. » Qui a la balle ? Qu’a Ali ?",
+      "answer": "C’est Nina qui a la balle. Ali a le domino : do-mi-no.",
+      "remediation": "Compter les ponts de la lettre avant de lire. Lire la phrase un mot à la fois, puis la relire entière.",
+      "transfer": "Lire avec l’adulte le nom d’un jeu connu et dire s’il contient n.",
+      "materials": "Cartes n, m, u et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Dans cette ligne, combien vois-tu de n et de m : n m n m m ?",
+          "answer": "Deux n et trois m.",
+          "explanation": "m a deux ponts, n un seul."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "na. ni. nou.",
+          "answer": "na, ni, nou.",
+          "explanation": "On écrit n, puis la voyelle entendue.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 7 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 7, leçon de lecture de la semaine 1. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U7-R2",
+      "domain": "Français · lecture",
+      "week": 2,
+      "graphemes": [
+        "an",
+        "am",
+        "en",
+        "em"
+      ],
+      "title": "Je lis an, am, en, em",
+      "objective": "Lire le son « an » écrit an, am, en ou em, lire des mots et comprendre deux phrases.",
+      "course": "Quand a ou e est suivi de n ou de m, les deux lettres font souvent un seul son : « an ». On l’écrit an, am, en ou em, comme dans « maman », « lampe » et « tente ». Devant p et b, on écrit am ou em : lampe, tambour.\n\nAttention : si une voyelle suit le n, on lit séparément, comme dans ba-na-ne.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "maman, ruban, danse, lampe, tambour, tente\nMaman danse. Ali a le tambour.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "m",
+            "t",
+            "d",
+            "l",
+            "r",
+            "p"
+          ],
+          "rows": [
+            [
+              "man",
+              "tan",
+              "dan",
+              "lan",
+              "ran",
+              "pan"
+            ],
+            [
+              "men",
+              "ten",
+              "den",
+              "len",
+              "ren",
+              "pen"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire tambour : tam, puis bour, tam-bour. Dans tam, am fait « an » parce qu’il est devant b.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis il entoure du doigt an, am, en ou em dans chaque mot avant de le lire.",
+      "exercise": "Lis « Maman danse. Ali a le tambour. » Que fait maman ? Qu’a Ali ? Montre les lettres qui font « an » dans « tambour ».",
+      "answer": "Maman danse ; Ali a le tambour. Dans « tambour », le son « an » s’écrit am, parce qu’il est devant b.",
+      "remediation": "Montrer les quatre écritures sur une même carte. Lire d’abord les syllabes du tableau, puis un seul mot à la fois.",
+      "transfer": "Chercher avec l’adulte le son « an » dans les jeux de la cour : danse, ruban, tambour…",
+      "materials": "Carte an, am, en, em ; cartes des syllabes ; ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis « banane » et « ruban ». Dans lequel entends-tu « an » ?",
+          "answer": "Dans ruban : ru-ban.",
+          "explanation": "Dans banane, une voyelle suit chaque n : on lit ba-na-ne."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "man. tan. pan.",
+          "answer": "man, tan, pan.",
+          "explanation": "Le son « an » peut s’écrire an ou en : men, ten, pen sont aussi acceptés à ce stade.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 7 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 7, leçon de lecture de la semaine 2. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U7-R3",
+      "domain": "Français · lecture",
+      "week": 3,
+      "graphemes": [
+        "v"
+      ],
+      "title": "Je lis v : va, vi, vo, vu",
+      "objective": "Lire les syllabes avec v, ne pas confondre v et f, lire des mots et comprendre deux phrases.",
+      "course": "La lettre v, qu’on appelle « vé », fait le son [v] : les dents du haut touchent la lèvre du bas et ça vibre, vvvv. On lit va, vi, vo, vu, vé, vou.\n\nLe son [f], qu’on apprendra bientôt, se fait de la même façon mais sans vibrer.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "vélo, vite, lavabo, rêve, Ève\nÈve va à vélo. Le vélo va vite.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "va",
+              "vi",
+              "vo",
+              "vu",
+              "vé",
+              "vou"
+            ],
+            [
+              "av",
+              "iv",
+              "ov",
+              "uv",
+              "ev",
+              "ouv"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire vélo : vé, puis lo, vé-lo. Pour lire vite : vi, puis te, vi-te.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit, la main sur la gorge pour sentir la vibration. Puis il lit les mots et les phrases.",
+      "exercise": "Lis « Ève va à vélo. Le vélo va vite. » Comment Ève se déplace-t-elle ? Comment va le vélo ?",
+      "answer": "Ève va à vélo. Le vélo va vite : vi-te.",
+      "remediation": "Faire durer [v] en posant les dents sur la lèvre. Lire une phrase à la fois et faire montrer le mot qui répond.",
+      "transfer": "Lire avec l’adulte le nom d’un jeu de la cour et dire s’il contient v.",
+      "materials": "Cartes v, n, an/en et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis : va, av, vou, ov. Lesquelles commencent par v ?",
+          "answer": "va et vou.",
+          "explanation": "av et ov commencent par une voyelle."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "vé. vo. vi.",
+          "answer": "vé, vo, vi.",
+          "explanation": "On écrit v, puis la voyelle entendue.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 7 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 7, leçon de lecture de la semaine 3. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
       "id": "SIL-U7-L01",
       "domain": "Français",
+      "week": 3,
       "title": "Je lis n, v et des syllabes inversées",
       "objective": "Reconnaître n et v, lire an/am/en/em avec étayage et comprendre une phrase courte autour d’un jeu. Tracer et copier progressivement les graphies déjà étudiées.",
       "course": "On écoute et on observe les lettres sans confondre la forme de la lettre et le son. Une phrase lue doit être comprise et peut être reliée à une action réelle.\n\nComplément curriculum SIL — lecture/écriture : lire et écrire avancent ensemble. L’enfant observe d’abord le modèle, suit le sens conventionnel du tracé, écrit sur ardoise ou papier puis copie un mot court. On ne demande que les graphies déjà enseignées; l’adulte adapte la prise du crayon et la posture.",
@@ -499,6 +731,76 @@
         }
       ],
       "scoring": "Aucun score linguistique officiel."
+    },
+    {
+      "id": "SIL-U7-R4",
+      "domain": "Français · lecture",
+      "week": 4,
+      "title": "Bilan : je lis n, an et v",
+      "objective": "Faire le point sur l’unité : lire des syllabes et des mots avec n, an/en et v, comprendre des phrases et écrire des mots.",
+      "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit les syllabes, les mots, puis les phrases.",
+      "support": {
+        "title": "Bilan : je relis",
+        "text": "an, am, en, em\ndomino, maman, vélo, tambour, lune\nNina danse. Le vélo va vite. Ali a le domino.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é"
+          ],
+          "rows": [
+            [
+              "na",
+              "ni",
+              "no",
+              "nu",
+              "né"
+            ],
+            [
+              "va",
+              "vi",
+              "vo",
+              "vu",
+              "vé"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire un mot avec « an », on cherche d’abord an, am, en ou em, puis on lit les syllabes.",
+      "guided": "L’adulte montre une syllabe du tableau au hasard ; l’enfant la lit. Puis il lit les mots et les phrases.",
+      "exercise": "Lis les trois phrases. Que fait Nina ? Puis écris ni, van et vélo.",
+      "answer": "Nina danse. En écriture : n-i, v-an, v-é-l-o, avec l’accent aigu sur le é.",
+      "remediation": "Noter ce qui n’est pas encore réussi, sans le compter comme une faute. Reprendre la leçon de la semaine correspondante quelques minutes par jour, puis refaire seulement la partie du bilan concernée.",
+      "transfer": "Inventer avec l’adulte une phrase sur un jeu, avec les mots de l’unité, et la relire.",
+      "materials": "Cartes de syllabes, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Dans « maman », combien de fois entends-tu « an » ?",
+          "answer": "Une fois : ma-man.",
+          "explanation": "La première syllabe se lit ma, la deuxième man."
+        },
+        {
+          "prompt": "Écoute les mots et écris-les.",
+          "listen": "vélo. lune. maman.",
+          "answer": "vélo, lune, maman.",
+          "explanation": "Dans maman, le son « an » s’écrit an.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 7 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 7, bilan de lecture. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
     }
   ]
 }

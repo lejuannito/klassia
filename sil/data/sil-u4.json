@@ -10,8 +10,208 @@
   "project": "Associer un métier à un outil sûr ou à un produit, puis présenter oralement une tâche professionnelle.",
   "lessons": [
     {
+      "id": "SIL-U4-R1",
+      "domain": "Français · lecture",
+      "week": 1,
+      "graphemes": [
+        "ou"
+      ],
+      "title": "Je lis ou",
+      "objective": "Lire ou comme un seul son, le distinguer de u et l’écrire en liant o et u.",
+      "course": "Quand o et u sont collés, on ne les lit plus séparément : ou fait un seul son, comme dans « hibou », « poule » et « roue ». Deux lettres, un seul son.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "ou OU ou\nou, o u, ou i, a ou, ou é\nu ou u ou"
+      },
+      "model": "Dans « outil », on entend « ou » au début. On glisse un seul doigt sous les deux lettres o et u : c’est un seul son.",
+      "guided": "L’adulte dit un mot : poule, lune, roue, jus, hibou. L’enfant dit s’il entend « ou » ou « u ». Puis on écrit ou en liant le o et le u.",
+      "exercise": "Lis la deuxième ligne. Puis dis si l’on entend « ou » ou « u » dans « hibou » et dans « tortue ».",
+      "answer": "ou ; o, u ; ou, i ; a, ou ; ou, é. Dans « hibou », on entend « ou » ; dans « tortue », on entend « u ».",
+      "remediation": "Poser un cache sur les autres lettres pour ne laisser voir que ou. Comparer « ou » (bouche en rond) et « u » (lèvres serrées en avant).",
+      "transfer": "Chercher le son « ou » dans les noms de métiers ou d’outils : boulanger, couturier, tournevis…",
+      "materials": "Cartes o, u et ou, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Combien de lettres faut-il pour écrire le son « ou » ?",
+          "answer": "Deux : o et u, collés.",
+          "explanation": "On lit les deux lettres ensemble, comme un seul son."
+        },
+        {
+          "prompt": "Écoute les mots. Écris ou si tu entends « ou », u si tu entends « u ».",
+          "listen": "roue. jus. poule.",
+          "answer": "roue : ou ; jus : u ; poule : ou.",
+          "explanation": "Dans jus, on entend « u » ; dans roue et poule, « ou ».",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 4 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 4, leçon de lecture de la semaine 1. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U4-R2",
+      "domain": "Français · lecture",
+      "week": 2,
+      "graphemes": [
+        "l"
+      ],
+      "title": "Je lis l : la, li, lo, lu",
+      "objective": "Lire les syllabes avec l, à l’endroit (la, lou) et à l’envers (al, il), puis lire une phrase courte et la comprendre.",
+      "course": "La lettre l, qu’on appelle « elle », fait le son [l] : on peut le faire durer, llll. Avec une voyelle, on fabrique une syllabe : l et a font la ; l et ou font lou.\n\nQuand la voyelle est devant, on lit dans l’ordre : a puis l font al. On peut maintenant lire de vrais mots : Lola, il a lu.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "Lola, Lili, Lou, il a lu\nLola a lu.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "la",
+              "li",
+              "lo",
+              "lu",
+              "lé",
+              "lou"
+            ],
+            [
+              "al",
+              "il",
+              "ol",
+              "ul",
+              "el",
+              "oul"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire lo, on fait durer [l] puis on enchaîne avec [o] : llo. Pour lire Lola : Lo-la. La majuscule L montre que c’est un prénom.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit en glissant son doigt de gauche à droite. Puis jeu des syllabes retournées : la et al, li et il, lu et ul.",
+      "exercise": "Lis « Lola a lu. » Qui a lu ? Montre le mot qui donne le prénom.",
+      "answer": "Lola a lu. C’est Lola qui a lu : le prénom commence par une majuscule. On lit Lo-la, puis a, puis lu.",
+      "remediation": "Revenir au tableau : faire durer [l] puis ajouter la voyelle. Pour la phrase, lire un mot à la fois, puis relire la phrase entière avant de poser la question.",
+      "transfer": "Écrire avec l’adulte l’étiquette « la » ou « le » devant le nom d’un outil dessiné.",
+      "materials": "Cartes l, a, i, o, u, é, ou ; ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis : la, al, lou, ul. Lesquelles commencent par une voyelle ?",
+          "answer": "al et ul.",
+          "explanation": "Dans al et ul, on lit d’abord la voyelle, puis l."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "la. lo. lu.",
+          "answer": "la, lo, lu.",
+          "explanation": "On écrit d’abord l, puis la voyelle entendue.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 4 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 4, leçon de lecture de la semaine 2. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U4-R3",
+      "domain": "Français · lecture",
+      "week": 3,
+      "graphemes": [
+        "m"
+      ],
+      "title": "Je lis m : ma, mi, mo, mu",
+      "objective": "Lire les syllabes avec m, lire des mots avec l et m, et comprendre deux phrases courtes.",
+      "course": "La lettre m, qu’on appelle « ème », fait le son [m] : on ferme la bouche et ça vibre, mmmm. Avec les voyelles, on lit ma, mi, mo, mu, mé, mou.\n\nAvec l et m, on peut lire beaucoup de mots : ami, mal, lama, Mila.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "ami, mal, lama, mou, Mila, Ali\nAli a mal. Mila a lu.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "ma",
+              "mi",
+              "mo",
+              "mu",
+              "mé",
+              "mou"
+            ],
+            [
+              "am",
+              "im",
+              "om",
+              "um",
+              "em",
+              "oum"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire ami : a, puis mi, a-mi. Pour lire mal : m, puis al, m-al. On relit le mot entier pour l’entendre comme quand on parle.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis on fabrique des mots avec les cartes : a + mi = ami ; la + ma = lama. Enfin, on lit les deux phrases.",
+      "exercise": "Lis « Ali a mal. Mila a lu. » Qui a mal ? Qu’a fait Mila ?",
+      "answer": "Ali a mal. Mila a lu. C’est Ali qui a mal ; Mila a lu. On lit A-li, a, mal ; Mi-la, a, lu.",
+      "remediation": "Lire d’abord les syllabes du tableau, puis les mots, puis une seule phrase. Si l’enfant devine, lui faire montrer chaque syllabe.",
+      "transfer": "Lire avec l’adulte le prénom d’un camarade qui contient m ou l.",
+      "materials": "Cartes m, l et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Avec les syllabes mi, a et la, fabrique deux mots : a + mi, et mi + la.",
+          "answer": "ami ; Mila.",
+          "explanation": "Mila est un prénom : il commence par une majuscule."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "ma. mou. mi.",
+          "answer": "ma, mou, mi.",
+          "explanation": "Pour « mou », on écrit m puis ou, deux lettres pour un seul son.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 4 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 4, leçon de lecture de la semaine 3. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
       "id": "SIL-U4-L01",
       "domain": "Français",
+      "week": 3,
       "title": "Je lis ou, m et l",
       "objective": "Décoder ou, m et l ainsi que les syllabes inversées al, ol, ul, il et el. Lire une phrase courte, dire ce qu’elle signifie et copier les graphies travaillées.",
       "course": "Dans al, on lit la voyelle a, puis la consonne l. Dans ou, deux lettres forment un seul son. Une fois les mots lus, on les relit ensemble et on explique ce que la phrase raconte.\n\nPour écrire, l’adulte montre le tracé. L’enfant suit le geste, puis copie les lettres et les syllabes étudiées sur papier ou sur ardoise.",
@@ -415,6 +615,83 @@
         }
       ],
       "scoring": "Aucun score linguistique officiel."
+    },
+    {
+      "id": "SIL-U4-R4",
+      "domain": "Français · lecture",
+      "week": 4,
+      "title": "Bilan : je lis ou, l et m",
+      "objective": "Faire le point sur l’unité : lire des syllabes et des mots avec ou, l et m, comprendre une phrase et écrire des syllabes.",
+      "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit d’abord les syllabes, puis les mots, puis les phrases.",
+      "support": {
+        "title": "Bilan : je relis",
+        "text": "ami, Lola, mou, lama\nLou a mal. Lili a lu.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "ou"
+          ],
+          "rows": [
+            [
+              "la",
+              "li",
+              "lo",
+              "lu",
+              "lou"
+            ],
+            [
+              "ma",
+              "mi",
+              "mo",
+              "mu",
+              "mou"
+            ],
+            [
+              "al",
+              "il",
+              "ol",
+              "ul",
+              "oul"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire une phrase, on lit chaque mot, puis on relit la phrase entière et on se demande de qui elle parle.",
+      "guided": "L’adulte montre une syllabe du tableau au hasard ; l’enfant la lit. Puis il lit les mots, puis les phrases.",
+      "exercise": "Lis « Lou a mal. Lili a lu. » Qui a lu ? Puis écris ma, lou et mal sur les lignes.",
+      "answer": "C’est Lili qui a lu ; Lou a mal. En écriture, les lettres sont lisibles et dans l’ordre : m-a, l-ou, m-a-l.",
+      "remediation": "Noter ce qui n’est pas encore réussi, sans le compter comme une faute. Reprendre la leçon de la semaine correspondante quelques minutes par jour, puis refaire seulement la partie du bilan concernée.",
+      "transfer": "Fabriquer avec l’adulte une carte « ami » et la donner à un camarade.",
+      "materials": "Cartes de syllabes, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis « mou » et « mu ». Quelle est la différence ?",
+          "answer": "mou s’écrit avec ou et mu avec u : on n’entend pas le même son.",
+          "explanation": "ou fait un seul son avec deux lettres ; u est une seule lettre."
+        },
+        {
+          "prompt": "Écoute les mots et écris-les.",
+          "listen": "ami. mal. Lola.",
+          "answer": "ami, mal, Lola.",
+          "explanation": "Lola est un prénom : il commence par une majuscule.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 4 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 4, bilan de lecture. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
     }
   ]
 }

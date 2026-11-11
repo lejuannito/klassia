@@ -10,8 +10,150 @@
   "project": "Dessiner un trajet sûr entre deux lieux du quartier et présenter une règle de protection de l’eau.",
   "lessons": [
     {
+      "id": "SIL-U2-R1",
+      "domain": "Français · lecture",
+      "week": 1,
+      "graphemes": [
+        "a"
+      ],
+      "title": "J’entends [a] et je lis a",
+      "objective": "Entendre le son [a] dans un mot, dire s’il est au début, au milieu ou à la fin, reconnaître la lettre a et la tracer.",
+      "course": "La lettre a fait le son [a], comme au début de « ananas » et à la fin de « papa ». Pour savoir si on entend [a], on dit le mot lentement en séparant les syllabes.\n\nLa lettre a s’écrit en minuscule (a) ou en majuscule (A). Pour la tracer, on fait un rond, puis une petite canne collée à droite.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "a A a A a\na i a o a\nA a O a I"
+      },
+      "model": "L’adulte dit « papa » lentement : pa-pa. On entend [a] deux fois, à la fin de chaque syllabe. Dans « vélo », on n’entend pas [a].",
+      "guided": "L’adulte dit des mots : ami, lit, sac, tomate, pied. L’enfant lève la main quand il entend [a]. Puis il trace a dans l’air, sur la table, puis sur l’ardoise.",
+      "exercise": "Écoute ces mots dits par l’adulte : « table », « moto », « canard ». Dans lesquels entends-tu [a] ? Puis montre toutes les lettres a de la deuxième ligne.",
+      "answer": "On entend [a] dans « table » et « canard », pas dans « moto ». La deuxième ligne contient trois a : le premier, le troisième et le dernier.",
+      "remediation": "Dire le mot très lentement en frappant les syllabes. Le comparer avec « ami », qui commence par [a]. Pour la lettre, poser la carte a sous la ligne pour comparer.",
+      "transfer": "Chercher à la maison ou au marché trois objets dont le nom contient [a] : sac, table, banane…",
+      "materials": "Carte a/A, images d’objets connus, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Dans « banane », combien de fois entends-tu [a] ?",
+          "answer": "Deux fois : ba-na-ne.",
+          "explanation": "On frappe les syllabes ba, na, ne ; on entend [a] dans ba et dans na."
+        },
+        {
+          "prompt": "Écoute les mots. Écris a si tu entends [a], sinon fais un petit trait.",
+          "listen": "chat. lit. sac.",
+          "answer": "chat : a ; lit : un trait ; sac : a.",
+          "explanation": "On entend [a] dans chat et dans sac. Dans lit, on entend [i].",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 2 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 2, leçon de lecture de la semaine 1. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U2-R2",
+      "domain": "Français · lecture",
+      "week": 2,
+      "graphemes": [
+        "o"
+      ],
+      "title": "J’entends [o] et je lis o",
+      "objective": "Entendre le son [o] dans un mot, le distinguer de [a], reconnaître la lettre o et la tracer.",
+      "course": "La lettre o fait le son [o], comme dans « moto » et « olive ». Pour le dire, on arrondit la bouche.\n\nLe son [o] s’écrit aussi d’autres façons qu’on apprendra plus tard. Cette semaine, on retient la lettre o : un rond bien fermé, tracé en partant du haut.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "o O o O o\na o a o o\nO a o A o"
+      },
+      "model": "Dans « moto » : mo-to, on entend [o] deux fois. Dans « vélo », on l’entend à la fin.",
+      "guided": "Jeu de la bouche ronde : l’enfant arrondit la bouche chaque fois qu’il entend [o] dans les mots dits par l’adulte : pomme, lit, domino, sac, robe. Puis il sépare les cartes a et o mélangées.",
+      "exercise": "Dans « domino », combien de fois entends-tu [o] ? Puis montre les lettres o de la deuxième ligne.",
+      "answer": "On entend [o] deux fois : do-mi-no. La deuxième ligne contient trois o : le deuxième, le quatrième et le cinquième.",
+      "remediation": "Faire répéter le mot syllabe par syllabe en arrondissant la bouche sur [o]. Pour la lettre, comparer o (rond fermé) et a (rond avec une canne).",
+      "transfer": "Chercher dans une comptine connue deux mots où l’on entend [o].",
+      "materials": "Cartes a et o, images d’objets connus, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Où entends-tu [o] : au début, au milieu ou à la fin ? « olive », « vélo », « école ».",
+          "answer": "olive : au début ; vélo : à la fin ; école : au milieu.",
+          "explanation": "On découpe en syllabes : o-live, vé-lo, é-co-le, puis on cherche la syllabe où l’on entend [o]."
+        },
+        {
+          "prompt": "Écoute les mots. Écris o si tu entends [o], a si tu entends [a].",
+          "listen": "pomme. sac. vélo.",
+          "answer": "pomme : o ; sac : a ; vélo : o.",
+          "explanation": "On écoute le mot entier, puis on cherche le son.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 2 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 2, leçon de lecture de la semaine 2. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U2-R3",
+      "domain": "Français · lecture",
+      "week": 3,
+      "graphemes": [
+        "i"
+      ],
+      "title": "J’entends [i] et je lis i",
+      "objective": "Entendre le son [i], reconnaître la lettre i, la tracer et lire une suite de voyelles a, o, i.",
+      "course": "La lettre i fait le son [i], comme dans « lit » et « riz ». On la trace avec un petit trait et un point au-dessus : sans le point, ce n’est pas encore i.\n\nLa lettre y, le i grec, fait souvent le même son, comme dans « stylo ».",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "i I i I\na i o, i a o, o i a\nI A O"
+      },
+      "model": "Dans « ami » : a-mi, on entend [a] au début et [i] à la fin. Dans « sac », on n’entend pas [i].",
+      "guided": "L’adulte dit des mots : tapis, sac, riz, moto, ici. L’enfant montre la carte i quand il entend [i]. Puis on lit ensemble la deuxième ligne en montrant chaque voyelle.",
+      "exercise": "Lis à voix haute la deuxième ligne. Puis dis si on entend [i] dans « tapis » et dans « table ».",
+      "answer": "a, i, o ; i, a, o ; o, i, a. On entend [i] dans « tapis » (ta-pis), pas dans « table ».",
+      "remediation": "Lire une voyelle à la fois en la montrant du doigt. Pour [i], faire sourire en disant iiii, la bouche étirée.",
+      "transfer": "Repérer la lettre i dans le prénom d’un camarade ou d’un membre de la famille.",
+      "materials": "Cartes a, o, i, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Dans « ici », combien de fois entends-tu [i] ?",
+          "answer": "Deux fois : i-ci.",
+          "explanation": "On frappe les syllabes i et ci ; on entend [i] dans chacune."
+        },
+        {
+          "prompt": "Écoute et écris les voyelles dans l’ordre.",
+          "listen": "i. o. a. i.",
+          "answer": "i, o, a, i.",
+          "explanation": "Une voyelle à la fois, de gauche à droite.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 2 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 2, leçon de lecture de la semaine 3. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
       "id": "SIL-U2-L01",
       "domain": "Français",
+      "week": 3,
       "title": "J’entends les voyelles a, o, i",
       "objective": "Prononcer et reconnaître les sons [a], [o], [i], lire les lettres correspondantes et lire des mots courts. Tracer et copier progressivement les graphies déjà étudiées.",
       "course": "Un son entendu peut être associé à une lettre. On commence par écouter le son, on observe la forme de la lettre puis on la retrouve dans un mot ; le décodage reste limité aux lettres déjà étudiées.\n\nComplément curriculum SIL — lecture/écriture : lire et écrire avancent ensemble. L’enfant observe d’abord le modèle, suit le sens conventionnel du tracé, écrit sur ardoise ou papier puis copie un mot court. On ne demande que les graphies déjà enseignées; l’adulte adapte la prise du crayon et la posture.",
@@ -390,6 +532,50 @@
         }
       ],
       "scoring": "Aucun score linguistique officiel."
+    },
+    {
+      "id": "SIL-U2-R4",
+      "domain": "Français · lecture",
+      "week": 4,
+      "title": "Bilan : je lis a, o, i",
+      "objective": "Faire le point sur les voyelles a, o, i : les entendre dans un mot, les lire dans une suite et les écrire.",
+      "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit, on écoute, puis on écrit les trois voyelles de l’unité.",
+      "support": {
+        "title": "Bilan : je relis",
+        "text": "a o i A O I\ni o a, a a o, o i i"
+      },
+      "model": "Pour lire une suite de voyelles, on montre chaque lettre du doigt, de gauche à droite, et on dit son son.",
+      "guided": "L’adulte dit « ami », « moto », « riz », « papa » ; l’enfant dit quelle voyelle il entend le plus. Puis il lit la deuxième ligne en montrant chaque lettre.",
+      "exercise": "Lis la deuxième ligne. Quel son entends-tu au début de « ami » et à la fin de « moto » ? Puis écris a, o et i sur les lignes.",
+      "answer": "i, o, a ; a, a, o ; o, i, i. On entend [a] au début de « ami » et [o] à la fin de « moto ». Les trois lettres sont lisibles et posées sur la ligne.",
+      "remediation": "Noter ce qui n’est pas encore réussi, sans le compter comme une faute. Reprendre la leçon de la semaine correspondante quelques minutes par jour, puis refaire seulement la partie du bilan concernée.",
+      "transfer": "Fabriquer avec l’adulte trois cartes a, o, i et jouer à les montrer quand on entend le son.",
+      "materials": "Cartes a, o, i, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Quelle voyelle entends-tu dans « riz » ? dans « pot » ? dans « chat » ?",
+          "answer": "[i] dans riz, [o] dans pot, [a] dans chat.",
+          "explanation": "Ces mots n’ont qu’une syllabe : on écoute le son qui dure."
+        },
+        {
+          "prompt": "Écoute et écris les voyelles dans l’ordre.",
+          "listen": "o. i. a. o.",
+          "answer": "o, i, a, o.",
+          "explanation": "On écrit de gauche à droite en laissant un petit espace entre les lettres.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 2 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 2, bilan de lecture. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
     }
   ]
 }

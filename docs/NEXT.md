@@ -34,6 +34,13 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 - **4b. Séance guidée en SIL** — chaque leçon de SIL commence par une fiche parent de trois lignes (matériel, ce que je dis, si c’est difficile) et propose « Montrer à l’enfant » : écran plein avec le haut-parleur qui lit la consigne, le support de la leçon (image, phrase à lire en grand, extrait audio) et « J’ai fini ! », qui ramène l’adulte à la réponse. L’écran est construit à l’ouverture, pour ne pas doubler les extraits et les voix. Le CE1 n’est pas concerné : les enfants y lisent seuls.
 - **4c. Format commun** — à faire : sous-système, langue et classe jumelle dans les catalogues.
 
+## Lot 5 — SIL (en cours)
+
+- **5a. Une leçon de lecture par semaine** — 32 leçons « Français · lecture » (`SIL-U<n>-R1` à `R4`) : un son par semaine dans l’ordre de *Champions en français SIL* (voyelles et alphabet en unité 1, puis a, o, i · u, e/é, è/ê · ou, l, m · r, t, p · s, b, d · n, an/en, v · c/qu/k, z/f, eu) et un bilan de lecture en semaine 4. Chaque leçon donne un tableau de syllabes, des mots et une ou deux phrases à comprendre, une dictée écoutée avec la voix de l’appareil et une zone d’écriture au doigt. À partir de l’unité 4, `npm run validate` vérifie que les mots à lire n’emploient que des lettres déjà étudiées. Le champ `week` place ces leçons dans « Cette semaine » (la leçon de synthèse L01 de chaque unité passe en semaine 3, le bilan ouvre la semaine 4) ; la leçon indique la page du manuel pour la semaine. Textes rédigés pour Klassia, à relire par un enseignant de SIL.
+- **5b. À faire** — sons enregistrés (voix Piper non téléchargeables dans l’environnement actuel ; voix de l’appareil en attendant), mesures et géométrie, anglais d’après le programme francophone.
+
+Programmes anglophones : les liens eBASE (Level I à III) sont connus mais ne s’ouvrent pas depuis l’environnement de travail ; l’aperçu public du Level I s’arrête avant le contenu d’English Language (p. 41) et de Mathematics (p. 48). Il faudra le PDF complet pour la piste anglophone (A2, Class 1).
+
 Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
 
 ## Lots techniques à essayer sur appareils réels

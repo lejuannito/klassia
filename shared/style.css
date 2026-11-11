@@ -232,3 +232,12 @@ body > .sil-child .speech-stop { min-height: 44px; padding: 0 14px; border: 1px 
 body > .sil-child .sil-child-done { min-height: 64px; border: 0; border-radius: 16px; background: #1d6b2f; color: #fff; font-size: 1.3rem; font-weight: 900; }
 body > .sil-child img { max-width: 100%; max-height: 55vh; object-fit: contain; }
 body > .sil-child .lesson-support > .preserve-lines { font-size: 1.6rem; font-weight: 700; line-height: 1.4; }
+
+/* Lot 5a: SIL reading lessons — syllables first, then words and the sentence */
+.reading-support { display: flex; flex-direction: column; }
+.reading-support > h2 { order: -2; }
+.reading-support > .manual-table-wrap { order: -1; margin-bottom: 12px; }
+.lesson-support.reading-support th, .lesson-support.reading-support td { text-align: center; font-size: 1.15rem; }
+.reading-support caption { font-size: .9rem; color: #46526b; }
+body > .sil-child .reading-support th, body > .sil-child .reading-support td { font-size: 1.6rem; font-weight: 700; padding: 6px 2px; }
+body > .sil-child .reading-support th { color: #46526b; font-size: 1.2rem; }

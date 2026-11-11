@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "d09bc609baddee180ade4b39bf30a65e846e1088270494567bbdee1e03ffcb52",
+  "version": "3bbd9a7b7b6215f46d471f1ff2a61b0fdb11841235c4d75abd5b8c7e39c3f160",
   "files": [
     {
       "url": "./app.js",
-      "sha256": "e6da9a5ac9a82bb92e93853e69dda8bf5502040acb0ad15fdff7c7ebcd5fc22f"
+      "sha256": "c89fd091ee805bebbf179fb78f7b527ea0ab1eeffe7f85198818dfdc9c6754d2"
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -399,11 +399,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-core-v13.js",
-      "sha256": "9cfe134f759e1cd46679a1ebca5cda5307d6c043d25b98595a918a75bc66740e"
+      "sha256": "38732ccae25008ec78639178ff61da429494d59dd538992811578b6db4397acd"
     },
     {
       "url": "./ms/app-ui-v13.js",
-      "sha256": "cdd4641c73dded559af98298b745b718c8f160c87694a6d4934dc53fc4348f05"
+      "sha256": "d483471fdaab72d2efbddbf3e51db4979e4a45378e4de8b7987f2dca2314121c"
     },
     {
       "url": "./ms/data/catalog-v13.json",
@@ -507,7 +507,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "aa54b110a3d3cdc948234d9cd8b76969ff5c3fed701820695f135c1dbf3cc2f9"
+      "sha256": "9ca8924d813e7ecf120a298bf20dde5b340305bb7a8437ea0e803a9ee5c668dc"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -567,11 +567,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "4b244869689b8ca0d6e52dbb81ff5ea6b0f741c3ef8a73d20d2af04b47d8e195"
+      "sha256": "401f4d39c88be79bbe1c1101cd573fa3cd8c5f9dd7594e1eb4a43044ee698023"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "2bf48e187d1bb044eb166dfa4d21432dab4cca775a94d59cf85a85581a78e512"
+      "sha256": "0cd086226fd60d0746b51dc761282f606f39fcfcd05cca4c607bcf391270dedf"
     },
     {
       "url": "./sil/data/curriculum.json",

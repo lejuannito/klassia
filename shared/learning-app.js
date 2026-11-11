@@ -3,6 +3,9 @@
 const K=Klassia,E=K.escape,c=window.KlassiaLearningConfig,root=document.getElementById('app');
 const get=async url=>{const r=await fetch(url);if(!r.ok)throw Error('Ressource indisponible : '+url);return r.json();};
 let catalog,units,lessons,progress;
+// Shared « Continuer » card (shared/ui.js): last open lesson if unfinished, else the first unfinished one.
+const recentKey='klassia_'+c.grade.toLowerCase()+'_recent_v1';
+K.nextStep=()=>{if(!lessons)return null;const p=K.read(c.progressKey,{}),r=K.read(recentKey,null);const x=(r&&lessons.find(y=>y.l.id===r.lessonId&&p[y.l.id]!=='A'))||lessons.find(y=>p[y.l.id]==='EC')||lessons.find(y=>p[y.l.id]!=='A')||lessons[0];return x?{href:'#lesson:'+encodeURIComponent(x.l.id),title:x.l.title,meta:x.u.title_fr+' · '+x.l.domain,started:Boolean(r)||Object.keys(p).length>0}:null;};
 const status=s=>s==='A'?'Réalisé':s==='EC'?'En cours':'À découvrir';
 const source=s=>s?`<a href="${E(s.url||'#')}" target="_blank" rel="noopener">${E(s.title)} · ${E(s.pages||'')}</a>`:'';
 function frame(body){root.innerHTML=`<header class="gs-top"><a href="${E(c.back)}">K Klassia</a><strong>${E(c.grade)} bilingue</strong></header><main class="gs-wrap"><p class="gs-notice">Édition pilote accompagnée · relecture pédagogique en cours</p>${body}</main>`;K.rendered();}
@@ -25,7 +28,7 @@ function listSubjects() {
 function showSubject(s){const items=lessons.filter(x=>x.l.domain===s);if(!items.length)return notFound();frame(`<a href="#subjects">← Toutes les matières</a>`+hero(s,'Choisissez une leçon.')+`<section class="gs-grid">${items.map(x=>pick(x.l,x.u)).join('')}</section>`);}
 function listDomains(){frame(hero('Parcourir les domaines','Une matière peut contribuer à plusieurs domaines du programme.')+`<section class="gs-grid">${catalog.domains.map((d,i)=>`<a class="gs-card gs-picker" href="#domain:${i}"><h2>${E(d.title)}</h2><p>${E(d.subjects.join(' · '))}</p></a>`).join('')}</section>`);}
 function showDomain(i){const d=catalog.domains[Number(i)];if(!d)return notFound();frame(`<a href="#domains">← Tous les domaines</a>`+hero(d.title,'Leçons rattachées à ce domaine.')+`<section class="gs-grid">${lessons.filter(x=>d.subjects.includes(x.l.domain)).map(x=>pick(x.l,x.u)).join('')}</section>`);}
-function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)return notFound();const {l,u}=found,i=u.lessons.indexOf(l),en=l.domain.startsWith('English');
+function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)return notFound();K.write(recentKey,{lessonId:id,at:Date.now()});const {l,u}=found,i=u.lessons.indexOf(l),en=l.domain.startsWith('English');
  const adult=K.isAdultSpace(), lang=en?'en-GB':'fr-FR';
  const lab=en?['Learning goal','Understand','Worked example','Practise together','Your turn','Try again with help','Use it again','Materials']:['Objectif','Comprendre','Exemple expliqué','Ensemble','À toi de jouer','Si c’est difficile','Réinvestir','Matériel'];
  const practice = l.practice || [];

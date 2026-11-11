@@ -7,6 +7,9 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const progKey=()=>PROG_PREFIX+(theme?.id||'T1');
 const loadProg=()=>{try{return JSON.parse(Klassia.storage.getItem(progKey())||'{}')}catch{return {}}};
 const saveProg=p=>Klassia.storage.setItem(progKey(),JSON.stringify(p));
+// Shared « Continuer » card (shared/ui.js): last open activity of the theme if not acquired, else the first one not acquired.
+const RECENT_KEY='klassia_'+NURSERY.grade.toLowerCase()+'_recent_v1';
+Klassia.nextStep=()=>{if(!theme)return null;const p=loadProg(),r=Klassia.read(RECENT_KEY,null);const items=theme.domains.flatMap(d=>d.activities.map((a,i)=>({d,a,i})));const x=(r&&r.theme===theme.id&&items.find(y=>y.a.id===r.id&&p[y.a.id]!=='A'))||items.find(y=>p[y.a.id]==='EC')||items.find(y=>p[y.a.id]!=='A')||items[0];return x?{href:'#domain:'+x.d.id+':'+x.i,title:x.a.title_fr,meta:x.d.name_fr+' · '+theme.title_fr,started:Boolean(r&&r.theme===theme.id)||Object.keys(p).length>0}:null;};
 const allActivities=()=>theme.domains.flatMap(d=>d.activities);
 const pctDomain=d=>{const p=loadProg(),n=d.activities.length,done=d.activities.filter(a=>p[a.id]==='A').length;return n?Math.round(done*100/n):0};
 const acquiredCount=()=>{const p=loadProg();return allActivities().filter(a=>p[a.id]==='A').length};

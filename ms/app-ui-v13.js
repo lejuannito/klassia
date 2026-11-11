@@ -23,7 +23,7 @@ function activityCard(a,i){
 }
 function domainPage(id,index=0){
  const d=theme.domains.find(x=>x.id===id);if(!d)return home();
- index=Math.max(0,Math.min(d.activities.length-1,index));const a=d.activities[index];
+ index=Math.max(0,Math.min(d.activities.length-1,index));const a=d.activities[index];Klassia.write(RECENT_KEY,{theme:theme.id,id:a.id,at:Date.now()});
  let body=`<button class="back" onclick="location.hash='#home'">← Retour au thème</button><section class="hero"><h1>${d.icon} ${esc(d.name_fr)}</h1><p lang="en">${esc(d.name_en)}</p></section><nav class="activity-browser" aria-label="Activités"><button id="prevActivity" ${index===0?'disabled':''}>← Précédente</button><span>${index+1} / ${d.activities.length}</span><button id="nextActivity" ${index===d.activities.length-1?'disabled':''}>Suivante →</button></nav>`;
  body+=activityCard(a,index);body+=`<details class="adult-guide"><summary>Observation de l’adulte</summary><form id="observeActivity" class="observation-form"><label>Langue <select id="observeLang"><option>Français</option><option>English</option><option>Bassa</option></select></label><label>Aide nécessaire <select id="observeHelp"><option>Seul</option><option>Avec une consigne répétée</option><option>Avec démonstration</option><option>Pas encore réalisé</option></select></label><label>Ce que j’ai observé (sans donnée sensible)<textarea id="observeNote" maxlength="500"></textarea></label><button class="classBtn">Enregistrer l’observation</button><p id="observeResult" role="status"></p></form></details>`;
  shell(body);document.getElementById('prevActivity').onclick=()=>location.hash='#domain:'+id+':'+(index-1);document.getElementById('nextActivity').onclick=()=>location.hash='#domain:'+id+':'+(index+1);

@@ -99,6 +99,7 @@ function decorate(){
  const top=document.querySelector('.topbar,.top,.gs-top');if(!top)return;
  const c=rememberClass(),role=K.read('klassia_user',{})?.role||'ELEVE',roleName={ELEVE:'Enfant',PARENT:'Parent',ENSEIGNANT:'Enseignant',ADMIN:'Administration'}[role]||'Enfant';
  document.querySelectorAll('.klassia-global-nav,.klassia-learning-mode,.klassia-space-menu,.klassia-class-switch,.profile-trigger').forEach(e=>e.remove());
+ document.querySelectorAll('.klassia-welcome,.klassia-continue').forEach(e=>e.remove());
  const searchBack=new URL('search.html',c.base);searchBack.search=new URLSearchParams(location.search).get('recherche')||'';
  const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');
  // Each control keeps its data attribute so the delegated handlers below work
@@ -138,10 +139,16 @@ function decorate(){
   nav.insertBefore(bassa,child);
  }
  const main=document.querySelector('main');if(main)main.insertAdjacentHTML('afterbegin',classNavigation(c.grade));if(main&&!main.querySelector('.edition-notice,.gs-notice')){const n=document.createElement('p');n.className='edition-notice';n.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(n);}
- if(main&&isLanding(c)&&['ELEVE','PARENT'].includes(role)&&!K.read(FAMILY_KEY,null))main.prepend(welcome(c));
+ const showWelcome=main&&isLanding(c)&&['ELEVE','PARENT'].includes(role)&&!K.read(FAMILY_KEY,null);
+ if(showWelcome)main.prepend(welcome(c));
+ else if(main&&role==='ELEVE'&&isClassHome(c)&&typeof K.nextStep==='function'){let step=null;try{step=K.nextStep();}catch{}if(step)main.prepend(continueCard(step));}
  K.navigation.update();
  document.getElementById('logout')?.remove();
 }
+// Continue: each grade engine registers Klassia.nextStep(); the class home
+// shows the next unfinished lesson or activity first, in one tap.
+function isClassHome(c){const h=location.hash;return (c.grade==='CE2'?['','#home','#learn','#units']:['MS','GS'].includes(c.grade)?['','#home']:['','#home','#units']).includes(h);}
+function continueCard(step){const s=document.createElement('section');s.className='klassia-continue';s.setAttribute('aria-label',step.started?'Reprendre':'Pour commencer');s.innerHTML=`<p class="klassia-continue-eyebrow">${step.started?'Ta prochaine étape':'Pour commencer'}</p><h2>${esc(step.title)}</h2>${step.meta?`<p>${esc(step.meta)}</p>`:''}<a class="klassia-continue-btn" href="${esc(step.href)}">${step.started?'Continuer':'Commencer'} ›</a>`;return s;}
 // First launch: the family states the child's school and class once, then the
 // entry page opens that class directly. Existing addresses are unchanged.
 const FAMILY_KEY='klassia_family';

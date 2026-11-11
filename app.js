@@ -109,6 +109,16 @@ function recommendedLesson() {
   return lessons.find(x => p[x.lesson.id] !== 'MAITRISEE') || lessons[0];
 }
 
+// Shared « Continuer » card (shared/ui.js): next lesson of the current unit.
+Klassia.nextStep = () => {
+  if (!content || !currentUnit) return null;
+  const rec = recommendedLesson();
+  if (!rec) return null;
+  const started = Boolean(load(S.recent, {})?.lessonId) || Object.keys(progressData()).length > 0;
+  return { href: '#lesson:' + encodeURIComponent(rec.lesson.id), title: rec.lesson.title,
+    meta: rec.subject.name + ' · ' + currentUnit.title, started };
+};
+
 function login() { Klassia.openProfiles(); home(); }
 
 function shell(body, active = 'home') {

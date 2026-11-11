@@ -108,6 +108,12 @@ for (const ref of ce1Catalog.units) {
  }
 }
 assert.equal(ce1Lessons, 183);
+// CE1 QCM reliés : 24 séries (3 matières × 8 unités), chaque question reliée à une leçon de la même unité.
+{const bank=read('ce1/data/qcm.json'),unitOf=new Map();assert.equal(bank.grade,'CE1');let n=0;
+ for(const ref of ce1Catalog.units)for(const l of read(`ce1/data/${ref.path}`).lessons)unitOf.set(l.id,ref.id);
+ for(const s of bank.series){editorial(s);assert.ok(s.id&&s.subject&&s.questions.length,'CE1 QCM series '+s.id);
+  for(const q of s.questions){n++;assert.ok(q.id&&q.enonce&&q.corrige,'CE1 QCM '+q.id);assert.ok(q.choix.length>=2&&new Set(q.choix).size===q.choix.length&&Number.isInteger(q.bonne)&&q.bonne>=0&&q.bonne<q.choix.length,'CE1 QCM choices '+q.id);assert.equal(unitOf.get(q.lecon),s.unit,'CE1 QCM lesson '+q.id);}}
+ assert.equal(n,120);}
 const gs=read('gs/data/catalog-v13.json');assert.equal(gs.themes.length,8);let gsActivities=0;
 for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);assert.equal(t.grade,'GS');assert.equal(t.domains.length,5);for(const d of t.domains)for(const a of d.activities){gsActivities++;assert.ok(!ids.has(a.id),'Duplicate GS activity');ids.add(a.id);editorial(a);nurseryAudio(a);for(const f of ['title_fr','title_en','goal_fr','goal_en','prompt_fr','prompt_en'])assert.ok(a[f],a.id+' '+f);assert.ok(a.steps_fr.length>=3&&a.steps_en.length>=3);assert.ok(a.questions.every(q=>q.fr&&q.en&&q.answer));assert.ok(a.source_refs.length===2);assert.ok(a.materials.length&&a.observe.length);
  // Lot 6b: no generated filler left in GS activities; steps, materials and observation points are specific.

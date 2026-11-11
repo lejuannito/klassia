@@ -271,3 +271,23 @@ body > .sil-child .reading-support th { color: #46526b; font-size: 1.2rem; }
 .home-language-page button { min-height: 44px; padding: 0 14px; border-radius: 10px; border: 1px solid #c7d0e4; background: #fff; color: #1d2b53; font: inherit; font-weight: 700; }
 .home-language-page [data-play-round], .home-language-page [data-home-name] button { background: #3157d5; border-color: #3157d5; color: #fff; }
 .home-language-page .home-choice { min-height: 96px; }
+
+/* CE1 QCM linked to lessons (lot 7): one series per unit and subject, « Revoir la leçon » after a wrong answer. */
+.klassia-qcm-unit h2 { font-size: 1.05rem; margin: 0 0 .4rem; }
+.klassia-qcm-unit .gs-actions a { min-height: 44px; display: inline-flex; align-items: center; padding: 0 14px; border: 1px solid #c7d0e4; border-radius: 10px; background: #fff; color: #1d2b53; font-weight: 700; text-decoration: none; }
+.klassia-qcm { display: grid; gap: .8rem; }
+.klassia-qcm-question { border: 1px solid #d7deee; border-radius: 14px; background: #fff; padding: .8rem 1rem; margin: 0; }
+.klassia-qcm-question legend { font-weight: 700; padding: 0 .2rem; }
+.klassia-qcm-question label { display: flex; align-items: center; gap: .6rem; min-height: 44px; padding: .2rem .4rem; border-radius: 10px; cursor: pointer; }
+.klassia-qcm-question label:has(input:checked) { background: #eef2ff; }
+.klassia-qcm-question input { width: 20px; height: 20px; flex: 0 0 auto; }
+.klassia-qcm-feedback { margin: .5rem 0 0; padding: .6rem .7rem; border-radius: 10px; background: #fff8ec; }
+.klassia-qcm-feedback[data-ok="true"] { background: #edf8f1; }
+.klassia-qcm-feedback a, .klassia-qcm-review a { font-weight: 700; }
+.klassia-qcm-feedback a { display: block; margin-top: .35rem; }
+.klassia-qcm > button { min-height: 48px; font-weight: 700; }
+.klassia-qcm-score:not(:empty) { padding: .8rem 1rem; border-radius: 14px; background: #fff; border: 1px solid #d7deee; }
+.klassia-qcm-score strong { font-size: 1.4rem; margin-right: .4rem; }
+.klassia-qcm-review { display: grid; gap: .2rem; margin-top: .6rem; }
+.klassia-qcm-review a { min-height: 44px; display: flex; align-items: center; }
+.klassia-qcm-key li { margin-bottom: .8rem; }

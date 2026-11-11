@@ -7,10 +7,10 @@
 | Moyenne section bilingue | 160 activités | 8 thèmes |
 | Grande section bilingue | 162 activités | 8 thèmes, 5 domaines |
 | SIL bilingue | 122 leçons | 82 principales, 32 de lecture (une par semaine) et 8 compléments pilotes |
-| CE1 bilingue | 157 leçons | 8 unités, dont 32 leçons d’anglais du programme francophone et 36 leçons d’étude de la langue |
+| CE1 bilingue | 183 leçons | 8 unités, dont 32 leçons d’anglais du programme francophone, 36 leçons d’étude de la langue et 26 leçons de mathématiques par savoir |
 | CE2 | 347 leçons | 8 unités |
 
-L’inventaire compte 948 ressources. Les progressions francophone et anglophone restent distinctes. Le CP intervient entre la SIL et le CE1.
+L’inventaire compte 974 ressources. Les progressions francophone et anglophone restent distinctes. Le CP intervient entre la SIL et le CE1.
 
 La navigation par unité/thème, matière et domaine, les profils locaux, l’accès permanent à la revue et les 45 panneaux de traductions bassa sont déjà présents. Toutes les variantes bassa affichées pour le sens demandé restent acceptées, y compris lorsqu’un enseignant les signale à revoir.
 

@@ -13,10 +13,10 @@ Klassia est un manuel interactif camerounais en **édition pilote accompagnée**
 - Moyenne Section bilingue : 160 activités / 8 thèmes.
 - Grande Section bilingue : 162 activités / 8 thèmes / 5 domaines.
 - SIL bilingue : 122 leçons, dont 32 leçons de lecture (un son par semaine et un bilan par unité).
-- CE1 bilingue : 157 leçons / 8 unités, dont 32 leçons d’anglais d’après le programme francophone (quatre par unité) et 36 leçons d’étude de la langue (grammaire, vocabulaire, orthographe, conjugaison).
+- CE1 bilingue : 183 leçons / 8 unités, dont 32 leçons d’anglais d’après le programme francophone (quatre par unité) et 36 leçons d’étude de la langue (grammaire, vocabulaire, orthographe, conjugaison), 26 leçons de mathématiques par savoir (nombres, calcul, mesures, géométrie).
 - CE2 : 347 leçons / 8 unités.
 
-L’inventaire consolidé compte 948 ressources. La matrice suit 70 repères examinés. [Matrice des repères](MATRICE_CURRICULUM.csv)
+L’inventaire consolidé compte 974 ressources. La matrice suit 70 repères examinés. [Matrice des repères](MATRICE_CURRICULUM.csv)
 
 ## État fonctionnel notable
 

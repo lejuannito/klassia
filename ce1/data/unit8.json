@@ -602,6 +602,154 @@
       ]
     },
     {
+      "id": "CE1-U8-MN",
+      "domain": "Mathématiques · nombres",
+      "title": "Les nombres de quatre chiffres",
+      "objective": "Composer, décomposer, lire et écrire les nombres de quatre chiffres.",
+      "course": "Après les centaines viennent les milliers : 10 centaines = 1 millier. 2 645 = 2 milliers + 6 centaines + 4 dizaines + 5 unités = 2 000 + 600 + 40 + 5 : deux mille six cent quarante-cinq. On laisse un petit espace entre le chiffre des milliers et celui des centaines pour bien lire.",
+      "support": {
+        "title": "À observer",
+        "text": "2 645 = 2 000 + 600 + 40 + 5\ndeux mille six cent quarante-cinq",
+        "table": {
+          "caption": "Tableau des milliers",
+          "headers": [
+            "Milliers",
+            "Centaines",
+            "Dizaines",
+            "Unités"
+          ],
+          "rows": [
+            [
+              "2",
+              "6",
+              "4",
+              "5"
+            ],
+            [
+              "4",
+              "0",
+              "3",
+              "2"
+            ]
+          ]
+        }
+      },
+      "model": "L’adulte écrit 3 208 dans le tableau des milliers : « il n’y a pas de dizaines, on écrit 0. »",
+      "guided": "Écrivez ensemble trois nombres de quatre chiffres dans le tableau, puis lisez-les.",
+      "exercise": "Écris en chiffres : quatre mille trente-deux.",
+      "answer": "4 032.",
+      "remediation": "Placer un chiffre par colonne (M, C, D, U) et écrire 0 dans les colonnes vides.",
+      "transfer": "Lire les prix de quelques articles chers (un sac de riz, un tissu) écrits avec quatre chiffres.",
+      "materials": "Tableau M/C/D/U, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Décompose 5 307.",
+          "answer": "5 000 + 300 + 7.",
+          "explanation": "Il n’y a pas de dizaines."
+        },
+        {
+          "prompt": "Écoute et écris le nombre en chiffres.",
+          "listen": "mille deux cent cinquante",
+          "answer": "1 250.",
+          "explanation": "mille deux cent cinquante = 1 000 + 200 + 50.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 82, unité 8, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U8-MC",
+      "domain": "Mathématiques · calcul",
+      "title": "La calculatrice et les suites de 100 en 100",
+      "objective": "Identifier les fonctions de base de la calculatrice, l’utiliser pour les quatre opérations, et dire des suites de nombres de 100 en 100 jusqu’à 1 000.",
+      "course": "Sur la calculatrice : les touches des chiffres, les touches des opérations (+ − × ÷), la touche = pour le résultat, et la touche C (ou AC) pour effacer. On tape le premier nombre, l’opération, le deuxième nombre, puis =.\n\nCompter de 100 en 100 : 100, 200, 300… jusqu’à 1 000. On peut aussi partir d’un autre nombre : 150, 250, 350…",
+      "support": {
+        "title": "À observer",
+        "text": "245 + 378 = 623\n12 × 25 = 300\n100, 200, 300, 400, 500…\n150, 250, 350, 450…"
+      },
+      "model": "L’adulte tape 245 + 378 = sur une calculatrice (ou un téléphone) et lit le résultat.",
+      "guided": "Calculez de tête 300 + 400, puis vérifiez avec la calculatrice. Comptez de 100 en 100 à partir de 120.",
+      "exercise": "Avec la calculatrice : 456 − 189 ; 24 × 15 ; 96 ÷ 4.",
+      "answer": "267 ; 360 ; 24.",
+      "remediation": "Estimer avant de taper pour repérer une erreur de frappe.",
+      "transfer": "Utiliser la calculatrice d’un téléphone avec un adulte pour vérifier une facture.",
+      "materials": "Calculatrice ou téléphone, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Complète la suite : 230, 330, 430, …, …",
+          "answer": "530, 630.",
+          "explanation": "On ajoute 100 à chaque fois."
+        },
+        {
+          "prompt": "À quoi sert la touche C de la calculatrice ?",
+          "answer": "À effacer.",
+          "explanation": "C veut dire « clear » : on recommence le calcul."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 82, unité 8, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U8-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "La monnaie : faire des échanges jusqu’à 1 000 F",
+      "objective": "Effectuer des échanges de monnaie pour des valeurs inférieures ou égales à 1 000 F dans des situations de la vie courante.",
+      "course": "Au Cameroun, on paie en francs CFA (F). Pièces courantes : 5 F, 10 F, 25 F, 50 F, 100 F, 500 F. Billets : 500 F et 1 000 F, puis plus grands.\n\nÉchanger, c’est remplacer une pièce ou un billet par d’autres de même valeur : 1 000 F = 2 pièces de 500 F = 10 pièces de 100 F ; 100 F = 2 pièces de 50 F = 4 pièces de 25 F. Pour rendre la monnaie, on part du prix et on complète jusqu’à la somme donnée.",
+      "support": {
+        "title": "À observer",
+        "text": "1 000 F = 2 × 500 F = 10 × 100 F\n100 F = 2 × 50 F = 4 × 25 F\nPrix 650 F, payé avec 1 000 F : rendu 350 F"
+      },
+      "model": "L’adulte achète un article à 650 F avec un billet de 1 000 F et compte la monnaie : 650 + 50 = 700, + 300 = 1 000 : on rend 350 F.",
+      "guided": "Jouez à la marchande avec des pièces dessinées : faites trois achats et rendez la monnaie.",
+      "exercise": "Avec quelles pièces peut-on faire 250 F ? Donne deux façons.",
+      "answer": "Par exemple : 2 × 100 F + 50 F ; ou 5 × 50 F.",
+      "remediation": "Utiliser de vraies pièces ou des pièces dessinées et les grouper.",
+      "transfer": "Accompagner un adulte au marché et calculer la monnaie rendue.",
+      "materials": "Pièces et billets dessinés ou réels, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Combien de pièces de 25 F faut-il pour faire 100 F ?",
+          "answer": "4.",
+          "explanation": "4 × 25 = 100."
+        },
+        {
+          "prompt": "Problème : un timbre coûte 400 F. On paie avec 1 000 F. Combien rend le vendeur ?",
+          "answer": "600 F.",
+          "explanation": "400 + 600 = 1 000."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 20 (mesures et grandeurs), p. 87, unité 8, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U8-L05",
       "domain": "Sciences et technologies",
       "title": "Distinguer un message observé d’une information supposée",

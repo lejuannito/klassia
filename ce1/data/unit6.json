@@ -537,6 +537,131 @@
       ]
     },
     {
+      "id": "CE1-U6-MN",
+      "domain": "Mathématiques · nombres",
+      "title": "Les nombres de 800 à 900 et les fractions simples",
+      "objective": "Lire, écrire, composer et décomposer les nombres de 800 à 900 ; définir et identifier les termes d’une fraction simple.",
+      "course": "854 = 8 centaines + 5 dizaines + 4 unités = 800 + 50 + 4 : huit cent cinquante-quatre.\n\nUne fraction indique une partie d’un tout partagé en parts égales. Dans 3/4, le dénominateur (4, en bas) dit en combien de parts égales on partage ; le numérateur (3, en haut) dit combien de parts on prend. On lit « trois quarts ». 1/2 se lit « un demi », 1/3 « un tiers », 1/4 « un quart ».",
+      "support": {
+        "title": "À observer",
+        "text": "854 = 800 + 50 + 4\n3/4 : numérateur 3, dénominateur 4\n1/2 un demi · 1/3 un tiers · 1/4 un quart"
+      },
+      "model": "L’adulte coupe une galette en 4 parts égales et en donne 3 : « tu as 3/4 de la galette ».",
+      "guided": "Écrivez trois nombres de 800 à 900 en lettres, puis coloriez 2/4 et 1/2 d’un rectangle.",
+      "exercise": "Une pizza est coupée en 8 parts égales. Ali en mange 3. Quelle fraction a-t-il mangée ?",
+      "answer": "3/8 : trois huitièmes.",
+      "remediation": "Plier une feuille en parts égales et colorier les parts prises.",
+      "transfer": "Partager un fruit en parts égales et dire la fraction de chacun.",
+      "materials": "Feuilles à plier, crayons de couleur, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Dans la fraction 2/5, quel est le numérateur ?",
+          "answer": "2.",
+          "explanation": "Le numérateur est en haut : les parts prises."
+        },
+        {
+          "prompt": "Écoute et écris le nombre en chiffres.",
+          "listen": "huit cent soixante-douze",
+          "answer": "872.",
+          "explanation": "huit cent soixante-douze = 800 + 70 + 2.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 80, unité 6, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U6-MC",
+      "domain": "Mathématiques · calcul",
+      "title": "Diviser par un nombre d’un chiffre ; estimer et vérifier",
+      "objective": "Estimer l’ordre de grandeur d’un résultat, diviser un nombre entier par un nombre d’un chiffre et vérifier le résultat.",
+      "course": "Diviser, c’est partager en parts égales ou chercher combien de fois un nombre est contenu dans un autre. 96 ÷ 3 : 9 dizaines ÷ 3 = 3 dizaines ; 6 unités ÷ 3 = 2 unités ; résultat 32.\n\nAvant de calculer, on estime : 96 ÷ 3, c’est un peu moins que 100 ÷ 3, donc un peu plus de 30.\n\nPour vérifier, on multiplie le quotient par le diviseur et on ajoute le reste : 32 × 3 = 96. On peut aussi faire la preuve par 9 sur cette multiplication.",
+      "support": {
+        "title": "À observer",
+        "text": "96 ÷ 3 = 32 car 32 × 3 = 96\n85 ÷ 4 = 21, reste 1, car 21 × 4 + 1 = 85"
+      },
+      "model": "L’adulte partage 84 bonbons entre 4 enfants : 8 dizaines ÷ 4 = 2 dizaines, 4 unités ÷ 4 = 1 : chacun a 21.",
+      "guided": "Calculez ensemble 68 ÷ 2 et 75 ÷ 5, puis vérifiez par une multiplication.",
+      "exercise": "Calcule et vérifie : 84 ÷ 4 ; 91 ÷ 7.",
+      "answer": "84 ÷ 4 = 21 (21 × 4 = 84) ; 91 ÷ 7 = 13 (13 × 7 = 91).",
+      "remediation": "Faire le partage avec des jetons groupés par dix, en échangeant une dizaine contre 10 unités si besoin.",
+      "transfer": "Partager des comprimés ou des fruits selon une consigne, avec l’adulte.",
+      "materials": "Jetons, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Estime : 61 ÷ 3 est-il plus proche de 2, de 20 ou de 200 ?",
+          "answer": "De 20.",
+          "explanation": "60 ÷ 3 = 20."
+        },
+        {
+          "prompt": "Problème : un centre de santé reçoit 96 moustiquaires pour 8 familles. Combien chaque famille en reçoit-elle ?",
+          "answer": "96 ÷ 8 = 12 moustiquaires.",
+          "explanation": "Vérification : 12 × 8 = 96."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 80, unité 6, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U6-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Le périmètre du rectangle et les températures",
+      "objective": "Construire et appliquer la formule du périmètre du rectangle ; identifier l’unité de température et lire un thermomètre.",
+      "course": "Le rectangle a deux longueurs égales et deux largeurs égales : périmètre = (longueur + largeur) × 2. Un rectangle de 8 m sur 5 m a un périmètre de (8 + 5) × 2 = 26 m.\n\nLa température se mesure en degrés Celsius (°C) avec un thermomètre. La température normale du corps est d’environ 37 °C ; au-dessus de 38 °C, on a de la fièvre et il faut consulter.",
+      "support": {
+        "title": "À observer",
+        "text": "Périmètre du rectangle = (L + l) × 2\n(8 + 5) × 2 = 26 m\ncorps : environ 37 °C · fièvre : plus de 38 °C"
+      },
+      "model": "L’adulte lit un thermomètre : « le trait arrive à 37 : la température est de 37 degrés. »",
+      "guided": "Calculez le périmètre de la cour de récréation imaginée de 20 m sur 15 m, puis lisez trois températures dessinées.",
+      "exercise": "Une salle de soins rectangulaire mesure 6 m sur 4 m. Quel est son périmètre ?",
+      "answer": "(6 + 4) × 2 = 20 m.",
+      "remediation": "Dessiner le rectangle et écrire les 4 longueurs avant de calculer.",
+      "transfer": "Écouter la météo à la radio et noter la température annoncée.",
+      "materials": "Thermomètre (ou dessin), règle, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Le thermomètre indique 39 °C pour un enfant. Que faut-il faire ?",
+          "answer": "Il a de la fièvre : prévenir un adulte et consulter.",
+          "explanation": "Au-dessus de 38 °C, c’est de la fièvre."
+        },
+        {
+          "prompt": "Problème : on entoure un jardin rectangulaire de 10 m sur 7 m. Quelle longueur de grillage faut-il ?",
+          "answer": "(10 + 7) × 2 = 34 m.",
+          "explanation": "Le grillage fait le tour : c’est le périmètre."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 20 (mesures et grandeurs), p. 87, unité 6, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U6-L12",
       "domain": "Mathématiques",
       "title": "Repérer les points d’un plan quadrillé",

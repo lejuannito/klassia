@@ -21,9 +21,9 @@
     },
     {
       "grade": "CE1",
-      "resources": 157,
+      "resources": 183,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 157
+      "unverifiedCurriculumMappings": 183
     },
     {
       "grade": "CE2",
@@ -82,6 +82,9 @@
     "CE1-U1-E2",
     "CE1-U1-E3",
     "CE1-U1-E4",
+    "CE1-U1-MC",
+    "CE1-U1-MM",
+    "CE1-U1-MG",
     "CE1-U1-L11",
     "CE1-U2-G1",
     "CE1-U2-G2",
@@ -92,6 +95,10 @@
     "CE1-U2-E2",
     "CE1-U2-E3",
     "CE1-U2-E4",
+    "CE1-U2-MN",
+    "CE1-U2-MC",
+    "CE1-U2-MM",
+    "CE1-U2-MG",
     "CE1-U3-G1",
     "CE1-U3-G2",
     "CE1-U3-V1",
@@ -101,6 +108,9 @@
     "CE1-U3-E2",
     "CE1-U3-E3",
     "CE1-U3-E4",
+    "CE1-U3-MC",
+    "CE1-U3-MM",
+    "CE1-U3-MG",
     "CE1-U3-L06",
     "CE1-U4-G1",
     "CE1-U4-V1",
@@ -111,6 +121,9 @@
     "CE1-U4-E2",
     "CE1-U4-E3",
     "CE1-U4-E4",
+    "CE1-U4-MC",
+    "CE1-U4-MM",
+    "CE1-U4-MG",
     "CE1-U4-L09",
     "CE1-U5-G1",
     "CE1-U5-V1",
@@ -121,6 +134,10 @@
     "CE1-U5-E2",
     "CE1-U5-E3",
     "CE1-U5-E4",
+    "CE1-U5-MN",
+    "CE1-U5-MC",
+    "CE1-U5-MM",
+    "CE1-U5-MG",
     "CE1-U5-L08",
     "CE1-U6-L01",
     "CE1-U6-G1",
@@ -131,6 +148,9 @@
     "CE1-U6-E2",
     "CE1-U6-E3",
     "CE1-U6-E4",
+    "CE1-U6-MN",
+    "CE1-U6-MC",
+    "CE1-U6-MM",
     "CE1-U6-L12",
     "CE1-U6-L08",
     "CE1-U7-L01",
@@ -144,6 +164,9 @@
     "CE1-U7-E3",
     "CE1-U7-E4",
     "CE1-U7-L04",
+    "CE1-U7-MN",
+    "CE1-U7-MC",
+    "CE1-U7-MM",
     "CE1-U7-L08",
     "CE1-U8-L01",
     "CE1-U8-G1",
@@ -155,6 +178,9 @@
     "CE1-U8-E3",
     "CE1-U8-E4",
     "CE1-U8-L04",
+    "CE1-U8-MN",
+    "CE1-U8-MC",
+    "CE1-U8-MM",
     "CE1-U8-L09"
   ],
   "additionalPractice": [
@@ -679,6 +705,36 @@
       "prompt": "Une collection a 5 bouchons et une autre 5 crayons. Ont-elles le même nombre d’objets ?"
     },
     {
+      "lesson": "CE1-U1-MC",
+      "index": 1,
+      "prompt": "Calcule de tête : 68 + 9."
+    },
+    {
+      "lesson": "CE1-U1-MC",
+      "index": 2,
+      "prompt": "Problème : maman a 150 F. Elle achète du pain à 100 F, puis reçoit 25 F. Combien a-t-elle ?"
+    },
+    {
+      "lesson": "CE1-U1-MM",
+      "index": 1,
+      "prompt": "Range du plus court au plus long : 1 m, 80 cm, 12 dm."
+    },
+    {
+      "lesson": "CE1-U1-MM",
+      "index": 2,
+      "prompt": "Problème : un tissu mesure 2 m. La couturière en coupe 50 cm. Combien reste-t-il ?"
+    },
+    {
+      "lesson": "CE1-U1-MG",
+      "index": 1,
+      "prompt": "Quelle est la différence entre un segment et une droite ?"
+    },
+    {
+      "lesson": "CE1-U1-MG",
+      "index": 2,
+      "prompt": "Comment vérifier que deux droites sont perpendiculaires ?"
+    },
+    {
       "lesson": "CE1-U1-L11",
       "index": 1,
       "prompt": "Une étiquette part de 1 cm et arrive à 7 cm. Quelle est sa longueur ?"
@@ -789,6 +845,46 @@
       "prompt": "Complète : 248, 249, …, …"
     },
     {
+      "lesson": "CE1-U2-MN",
+      "index": 1,
+      "prompt": "A = {a ; b ; c}. Complète avec ∈ ou ∉ : b … A ; d … A."
+    },
+    {
+      "lesson": "CE1-U2-MN",
+      "index": 2,
+      "prompt": "Dans un village, l’ensemble des enfants qui jouent au football est {Ali ; Ben ; Céline} et celui de ceux qui jouent au handball est {Céline ; Dora}. Qui joue aux deux ?"
+    },
+    {
+      "lesson": "CE1-U2-MC",
+      "index": 1,
+      "prompt": "Vérifie 304 − 157 = 147 avec une addition."
+    },
+    {
+      "lesson": "CE1-U2-MC",
+      "index": 2,
+      "prompt": "Problème : un car transporte 125 passagers le matin et 168 le soir. Combien en tout ?"
+    },
+    {
+      "lesson": "CE1-U2-MM",
+      "index": 1,
+      "prompt": "Range du plus léger au plus lourd : 1 kg, 800 g, 12 hg."
+    },
+    {
+      "lesson": "CE1-U2-MM",
+      "index": 2,
+      "prompt": "Problème : un régime de plantain pèse 4 kg. On en vend 1 500 g. Quelle masse reste-t-il ?"
+    },
+    {
+      "lesson": "CE1-U2-MG",
+      "index": 1,
+      "prompt": "Combien de sommets a un cube ?"
+    },
+    {
+      "lesson": "CE1-U2-MG",
+      "index": 2,
+      "prompt": "Une boîte de lait en poudre roule sur la table. Quel solide est-ce ?"
+    },
+    {
       "lesson": "CE1-U3-G1",
       "index": 1,
       "prompt": "Remplace « à le » par l’article contracté : « Je parle à le maître. »"
@@ -887,6 +983,36 @@
       "lesson": "CE1-U3-L04",
       "index": 2,
       "prompt": "Range 430, 403 et 340 dans l’ordre croissant."
+    },
+    {
+      "lesson": "CE1-U3-MC",
+      "index": 1,
+      "prompt": "Vrai ou faux : 15 − 6 = 6 − 15."
+    },
+    {
+      "lesson": "CE1-U3-MC",
+      "index": 2,
+      "prompt": "Problème : chaque élève reçoit 12 crayons ; ils sont 4. Combien de crayons en tout ?"
+    },
+    {
+      "lesson": "CE1-U3-MM",
+      "index": 1,
+      "prompt": "Combien de verres de 25 cL peut-on remplir avec 1 L ?"
+    },
+    {
+      "lesson": "CE1-U3-MM",
+      "index": 2,
+      "prompt": "Problème : un bidon contient 5 L d’huile. On en utilise 2 L. Combien en reste-t-il en centilitres ?"
+    },
+    {
+      "lesson": "CE1-U3-MG",
+      "index": 1,
+      "prompt": "Quelle empreinte laisse une face de cube ?"
+    },
+    {
+      "lesson": "CE1-U3-MG",
+      "index": 2,
+      "prompt": "Un rectangle mesure 7 cm sur 4 cm. Combien mesurent ses quatre côtés ?"
     },
     {
       "lesson": "CE1-U3-L06",
@@ -994,6 +1120,36 @@
       "prompt": "Quatre sacs contiennent chacun 3 mangues. Combien de mangues au total ?"
     },
     {
+      "lesson": "CE1-U4-MC",
+      "index": 1,
+      "prompt": "Complète la table de 4 : 4, 8, 12, …, …, 24."
+    },
+    {
+      "lesson": "CE1-U4-MC",
+      "index": 2,
+      "prompt": "Problème : un menuisier fabrique 5 chaises par jour. Combien en 6 jours ?"
+    },
+    {
+      "lesson": "CE1-U4-MM",
+      "index": 1,
+      "prompt": "Pour mettre une bordure autour d’un tableau, a-t-on besoin du périmètre ou de l’aire ?"
+    },
+    {
+      "lesson": "CE1-U4-MM",
+      "index": 2,
+      "prompt": "Pour peindre un mur, a-t-on besoin du périmètre ou de l’aire ?"
+    },
+    {
+      "lesson": "CE1-U4-MG",
+      "index": 1,
+      "prompt": "Combien de sommets a un triangle ?"
+    },
+    {
+      "lesson": "CE1-U4-MG",
+      "index": 2,
+      "prompt": "Un carré a-t-il un axe de symétrie ?"
+    },
+    {
       "lesson": "CE1-U5-G1",
       "index": 1,
       "prompt": "Donne la nature de « nous » dans « Nous partons demain »."
@@ -1094,6 +1250,46 @@
       "prompt": "Pour un voyage fictif, on répartit 36 cartes entre deux équipes. Chaque équipe doit recevoir le même nombre de cartes. Combien de cartes reçoit-elle ? Retrouve 36 en calculant le double de ta réponse."
     },
     {
+      "lesson": "CE1-U5-MN",
+      "index": 1,
+      "prompt": "Quel nombre vient juste après 799 ?"
+    },
+    {
+      "lesson": "CE1-U5-MN",
+      "index": 2,
+      "prompt": "Écoute et écris le nombre en chiffres."
+    },
+    {
+      "lesson": "CE1-U5-MC",
+      "index": 1,
+      "prompt": "Entoure les nombres pairs : 23, 46, 51, 70, 88."
+    },
+    {
+      "lesson": "CE1-U5-MC",
+      "index": 2,
+      "prompt": "Problème : un billet aller coûte 1 500 F. Quel est le prix de l’aller-retour au même prix ?"
+    },
+    {
+      "lesson": "CE1-U5-MM",
+      "index": 1,
+      "prompt": "Le 3 mai est un lundi. Quel jour est le 10 mai ?"
+    },
+    {
+      "lesson": "CE1-U5-MM",
+      "index": 2,
+      "prompt": "Problème : on pose une clôture autour d’un enclos carré de 12 m de côté. Quelle longueur de clôture faut-il ?"
+    },
+    {
+      "lesson": "CE1-U5-MG",
+      "index": 1,
+      "prompt": "Un angle plus grand qu’un angle droit est…"
+    },
+    {
+      "lesson": "CE1-U5-MG",
+      "index": 2,
+      "prompt": "Comment s’appelle le point où se rejoignent les deux côtés d’un angle ?"
+    },
+    {
       "lesson": "CE1-U6-L01",
       "index": 1,
       "prompt": "Quelle fin répond au problème du début ? Cite l’action qui te permet de choisir."
@@ -1187,6 +1383,36 @@
       "lesson": "CE1-U6-L04",
       "index": 2,
       "prompt": "Un rectangle mesure 4 unités sur 1 unité. Quel est son périmètre ?"
+    },
+    {
+      "lesson": "CE1-U6-MN",
+      "index": 1,
+      "prompt": "Dans la fraction 2/5, quel est le numérateur ?"
+    },
+    {
+      "lesson": "CE1-U6-MN",
+      "index": 2,
+      "prompt": "Écoute et écris le nombre en chiffres."
+    },
+    {
+      "lesson": "CE1-U6-MC",
+      "index": 1,
+      "prompt": "Estime : 61 ÷ 3 est-il plus proche de 2, de 20 ou de 200 ?"
+    },
+    {
+      "lesson": "CE1-U6-MC",
+      "index": 2,
+      "prompt": "Problème : un centre de santé reçoit 96 moustiquaires pour 8 familles. Combien chaque famille en reçoit-elle ?"
+    },
+    {
+      "lesson": "CE1-U6-MM",
+      "index": 1,
+      "prompt": "Le thermomètre indique 39 °C pour un enfant. Que faut-il faire ?"
+    },
+    {
+      "lesson": "CE1-U6-MM",
+      "index": 2,
+      "prompt": "Problème : on entoure un jardin rectangulaire de 10 m sur 7 m. Quelle longueur de grillage faut-il ?"
     },
     {
       "lesson": "CE1-U7-G1",
@@ -1287,6 +1513,36 @@
       "lesson": "CE1-U7-L04",
       "index": 2,
       "prompt": "Quel est le total des points de l’équipe rouge ?"
+    },
+    {
+      "lesson": "CE1-U7-MN",
+      "index": 1,
+      "prompt": "Range dans l’ordre croissant : 990, 909, 999, 919."
+    },
+    {
+      "lesson": "CE1-U7-MN",
+      "index": 2,
+      "prompt": "Écoute et écris le nombre en chiffres."
+    },
+    {
+      "lesson": "CE1-U7-MC",
+      "index": 1,
+      "prompt": "Le tiers de 27, c’est…"
+    },
+    {
+      "lesson": "CE1-U7-MC",
+      "index": 2,
+      "prompt": "Problème : au jeu, Moussa marque 40 points et Fanta le triple. Combien Fanta en marque-t-elle ?"
+    },
+    {
+      "lesson": "CE1-U7-MM",
+      "index": 1,
+      "prompt": "Combien de minutes dure une demi-heure ?"
+    },
+    {
+      "lesson": "CE1-U7-MM",
+      "index": 2,
+      "prompt": "Un match commence à 15 h et dure 1 h 30. À quelle heure finit-il ?"
     },
     {
       "lesson": "CE1-U7-L08",
@@ -1397,6 +1653,36 @@
       "lesson": "CE1-U8-L04",
       "index": 2,
       "prompt": "Quel lieu transmet le plus de messages ?"
+    },
+    {
+      "lesson": "CE1-U8-MN",
+      "index": 1,
+      "prompt": "Décompose 5 307."
+    },
+    {
+      "lesson": "CE1-U8-MN",
+      "index": 2,
+      "prompt": "Écoute et écris le nombre en chiffres."
+    },
+    {
+      "lesson": "CE1-U8-MC",
+      "index": 1,
+      "prompt": "Complète la suite : 230, 330, 430, …, …"
+    },
+    {
+      "lesson": "CE1-U8-MC",
+      "index": 2,
+      "prompt": "À quoi sert la touche C de la calculatrice ?"
+    },
+    {
+      "lesson": "CE1-U8-MM",
+      "index": 1,
+      "prompt": "Combien de pièces de 25 F faut-il pour faire 100 F ?"
+    },
+    {
+      "lesson": "CE1-U8-MM",
+      "index": 2,
+      "prompt": "Problème : un timbre coûte 400 F. On paie avec 1 000 F. Combien rend le vendeur ?"
     },
     {
       "lesson": "CE1-U8-L09",

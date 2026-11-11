@@ -589,6 +589,216 @@
       ]
     },
     {
+      "id": "CE1-U2-MN",
+      "domain": "Mathématiques · nombres",
+      "title": "Les ensembles : appartient, réunion, intersection",
+      "objective": "Expliquer la signification des symboles ∈, ∪ et ∩.",
+      "course": "Le symbole ∈ veut dire « appartient à » : si A = {1 ; 2 ; 3}, alors 2 ∈ A. Le symbole ∉ veut dire « n’appartient pas à » : 5 ∉ A.\n\nLa réunion A ∪ B regroupe tous les éléments de A et de B, sans les répéter. L’intersection A ∩ B contient seulement les éléments communs à A et à B.",
+      "support": {
+        "title": "À observer",
+        "text": "A = {mangue ; orange ; papaye}\nB = {orange ; ananas}\nA ∪ B = {mangue ; orange ; papaye ; ananas}\nA ∩ B = {orange}"
+      },
+      "model": "Avec deux cerceaux qui se chevauchent, l’adulte place l’orange dans la partie commune : c’est l’intersection.",
+      "guided": "Dessinez deux ensembles de fruits du marché, puis écrivez leur réunion et leur intersection.",
+      "exercise": "A = {2 ; 4 ; 6 ; 8} et B = {4 ; 5 ; 6}. Écris A ∪ B et A ∩ B.",
+      "answer": "A ∪ B = {2 ; 4 ; 5 ; 6 ; 8} ; A ∩ B = {4 ; 6}.",
+      "remediation": "Colorier d’abord les éléments communs, puis lister tous les éléments en n’écrivant chacun qu’une fois.",
+      "transfer": "Faire deux ensembles avec les jouets de deux enfants et chercher ce qu’ils ont en commun.",
+      "materials": "Deux cerceaux ou deux cercles dessinés, objets ou cartes, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "A = {a ; b ; c}. Complète avec ∈ ou ∉ : b … A ; d … A.",
+          "answer": "b ∈ A ; d ∉ A.",
+          "explanation": "b fait partie de A ; d n’en fait pas partie."
+        },
+        {
+          "prompt": "Dans un village, l’ensemble des enfants qui jouent au football est {Ali ; Ben ; Céline} et celui de ceux qui jouent au handball est {Céline ; Dora}. Qui joue aux deux ?",
+          "answer": "Céline : c’est l’intersection.",
+          "explanation": "L’intersection contient les éléments communs."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 76, unité 2, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U2-MC",
+      "domain": "Mathématiques · calcul",
+      "title": "Addition et soustraction posées, avec et sans retenue",
+      "objective": "Utiliser les techniques opératoires de l’addition et de la soustraction avec et sans retenue.",
+      "course": "Pour poser une opération, on aligne les unités sous les unités, les dizaines sous les dizaines, les centaines sous les centaines. On calcule en commençant par les unités.\n\nAddition avec retenue : si une colonne dépasse 9, on écrit les unités et on retient la dizaine dans la colonne suivante.\nSoustraction avec retenue : si le chiffre du haut est plus petit, on ajoute 10 en haut et 1 en bas dans la colonne suivante.",
+      "support": {
+        "title": "À observer",
+        "text": "  258\n+ 137\n= 395\n\n  352\n− 128\n= 224"
+      },
+      "model": "258 + 137 : 8 + 7 = 15, j’écris 5 et je retiens 1 ; 5 + 3 + 1 = 9 ; 2 + 1 = 3. Résultat : 395.",
+      "guided": "Posez ensemble 352 − 128 en disant chaque étape.",
+      "exercise": "Pose et calcule : 276 + 148 ; 304 − 157.",
+      "answer": "276 + 148 = 424 ; 304 − 157 = 147.",
+      "remediation": "Utiliser un tableau centaines / dizaines / unités et des jetons pour voir l’échange de dix unités contre une dizaine.",
+      "transfer": "Additionner le prix de deux articles achetés au marché.",
+      "materials": "Tableau C/D/U, jetons, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Vérifie 304 − 157 = 147 avec une addition.",
+          "answer": "147 + 157 = 304 : le résultat est juste.",
+          "explanation": "La soustraction se vérifie par l’addition."
+        },
+        {
+          "prompt": "Problème : un car transporte 125 passagers le matin et 168 le soir. Combien en tout ?",
+          "answer": "125 + 168 = 293 passagers.",
+          "explanation": "On additionne les deux nombres ; 5 + 8 = 13, on retient 1."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 76, unité 2, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U2-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Les masses : unités, balance et conversions",
+      "objective": "Estimer et ranger des objets selon leur masse, utiliser la balance, utiliser et convertir les unités de masse.",
+      "course": "La masse dit si un objet est lourd ou léger. L’unité principale est le gramme (g). 1 kilogramme (kg) = 10 hectogrammes (hg) = 100 décagrammes (dag) = 1 000 g.\n\nPour peser, on utilise une balance. Avec une balance à plateaux, l’équilibre montre que les deux côtés ont la même masse.",
+      "support": {
+        "title": "À observer",
+        "text": "1 kg = 1 000 g\n1 hg = 100 g\n1 dag = 10 g",
+        "table": {
+          "caption": "Tableau des unités de masse",
+          "headers": [
+            "kg",
+            "hg",
+            "dag",
+            "g"
+          ],
+          "rows": [
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        }
+      },
+      "model": "L’adulte pèse un sac de riz de 1 kg et montre qu’il équilibre deux paquets de 500 g.",
+      "guided": "Soupesez trois objets, rangez-les du plus léger au plus lourd, puis vérifiez avec une balance si possible.",
+      "exercise": "Convertis : 2 kg = … g ; 3 000 g = … kg ; 5 hg = … g.",
+      "answer": "2 kg = 2 000 g ; 3 000 g = 3 kg ; 5 hg = 500 g.",
+      "remediation": "Utiliser le tableau kg / hg / dag / g en plaçant un chiffre par colonne.",
+      "transfer": "Lire la masse écrite sur trois emballages de la cuisine.",
+      "materials": "Balance si possible, paquets de denrées, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Range du plus léger au plus lourd : 1 kg, 800 g, 12 hg.",
+          "answer": "800 g, 1 kg, 12 hg (800 g, 1 000 g, 1 200 g).",
+          "explanation": "On convertit tout en grammes."
+        },
+        {
+          "prompt": "Problème : un régime de plantain pèse 4 kg. On en vend 1 500 g. Quelle masse reste-t-il ?",
+          "answer": "2 500 g (2 kg 500 g).",
+          "explanation": "4 kg = 4 000 g ; 4 000 − 1 500 = 2 500 g."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 20 (mesures et grandeurs), p. 85, unité 2, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U2-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Le cube, le pavé droit et le cylindre",
+      "objective": "Donner les caractéristiques du cube, du pavé droit et du cylindre.",
+      "course": "Le cube a 6 faces carrées toutes pareilles, 12 arêtes et 8 sommets (un dé).\nLe pavé droit a 6 faces rectangulaires (les faces opposées sont pareilles), 12 arêtes et 8 sommets (une boîte d’allumettes).\nLe cylindre a 2 faces planes en forme de disque et une face courbe ; il peut rouler (une boîte de conserve).",
+      "support": {
+        "title": "À observer",
+        "text": "cube : 6 faces carrées, 12 arêtes, 8 sommets\npavé droit : 6 faces rectangulaires, 12 arêtes, 8 sommets\ncylindre : 2 disques, 1 face courbe",
+        "table": {
+          "caption": "Comparer les solides",
+          "headers": [
+            "Solide",
+            "Faces",
+            "Arêtes",
+            "Sommets"
+          ],
+          "rows": [
+            [
+              "cube",
+              "6 carrés",
+              "12",
+              "8"
+            ],
+            [
+              "pavé droit",
+              "6 rectangles",
+              "12",
+              "8"
+            ],
+            [
+              "cylindre",
+              "2 disques + 1 face courbe",
+              "2 bords courbes",
+              "0"
+            ]
+          ]
+        }
+      },
+      "model": "L’adulte montre un dé et compte avec l’enfant les faces, les arêtes et les sommets.",
+      "guided": "Cherchez dans la maison un cube, un pavé droit et un cylindre, puis comparez-les.",
+      "exercise": "Quel solide a 6 faces rectangulaires ? Lequel peut rouler ?",
+      "answer": "Le pavé droit a 6 faces rectangulaires ; le cylindre peut rouler.",
+      "remediation": "Toucher chaque face et poser un jeton dessus pour les compter sans oublier.",
+      "transfer": "Trier les emballages de la cuisine en cubes, pavés et cylindres.",
+      "materials": "Un dé, une boîte, une boîte de conserve vide et propre.",
+      "practice": [
+        {
+          "prompt": "Combien de sommets a un cube ?",
+          "answer": "8.",
+          "explanation": "4 sommets en haut et 4 en bas."
+        },
+        {
+          "prompt": "Une boîte de lait en poudre roule sur la table. Quel solide est-ce ?",
+          "answer": "Un cylindre.",
+          "explanation": "Le cylindre a une face courbe qui lui permet de rouler."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 21 (géométrie et espace), p. 89, unité 2, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U2-L05",
       "domain": "Sciences et technologies",
       "title": "Relier les êtres vivants à leurs milieux",

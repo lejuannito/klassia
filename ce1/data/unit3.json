@@ -573,6 +573,144 @@
       ]
     },
     {
+      "id": "CE1-U3-MC",
+      "domain": "Mathématiques · calcul",
+      "title": "Les propriétés des opérations : commutativité et distributivité",
+      "objective": "Utiliser la commutativité de l’addition et de la multiplication et la distributivité pour calculer plus facilement.",
+      "course": "Commutativité : on peut changer l’ordre des termes d’une addition ou des facteurs d’une multiplication sans changer le résultat : 7 + 25 = 25 + 7 ; 4 × 6 = 6 × 4. Ce n’est pas vrai pour la soustraction.\n\nDistributivité : pour multiplier une somme, on peut multiplier chaque terme : 3 × 12 = 3 × (10 + 2) = 30 + 6 = 36.",
+      "support": {
+        "title": "À observer",
+        "text": "8 + 47 = 47 + 8 = 55\n5 × 4 = 4 × 5 = 20\n3 × 12 = 3 × 10 + 3 × 2 = 36"
+      },
+      "model": "« 8 + 47 : je commence par le plus grand, 47 + 8 = 55, c’est plus facile. »",
+      "guided": "Calculez ensemble 4 × 13 en décomposant 13 en 10 + 3.",
+      "exercise": "Calcule en décomposant : 5 × 14 ; 2 × 36.",
+      "answer": "5 × 14 = 50 + 20 = 70 ; 2 × 36 = 60 + 12 = 72.",
+      "remediation": "Dessiner des paquets : 5 paquets de 14 = 5 paquets de 10 et 5 paquets de 4.",
+      "transfer": "Calculer de tête le prix de 3 cahiers à 120 F : 3 × 100 + 3 × 20.",
+      "materials": "Jetons groupés par dix, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Vrai ou faux : 15 − 6 = 6 − 15.",
+          "answer": "Faux.",
+          "explanation": "On ne peut pas changer l’ordre dans une soustraction."
+        },
+        {
+          "prompt": "Problème : chaque élève reçoit 12 crayons ; ils sont 4. Combien de crayons en tout ?",
+          "answer": "4 × 12 = 40 + 8 = 48 crayons.",
+          "explanation": "4 × 10 = 40 et 4 × 2 = 8."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 77, unité 3, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U3-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Les capacités : le litre et ses sous-unités",
+      "objective": "Estimer et ranger des récipients selon leur capacité, utiliser le litre, utiliser et convertir les unités de capacité.",
+      "course": "La capacité est la quantité de liquide qu’un récipient peut contenir. L’unité principale est le litre (L). 1 L = 10 décilitres (dL) = 100 centilitres (cL).\n\nUne bouteille d’eau contient souvent 1,5 L ; un verre environ 20 cL ; une cuillère à soupe environ 1 cL.",
+      "support": {
+        "title": "À observer",
+        "text": "1 L = 10 dL = 100 cL\n1 dL = 10 cL",
+        "table": {
+          "caption": "Tableau des unités de capacité",
+          "headers": [
+            "L",
+            "dL",
+            "cL"
+          ],
+          "rows": [
+            [
+              "1",
+              "0",
+              "0"
+            ]
+          ]
+        }
+      },
+      "model": "L’adulte verse une bouteille de 1 L dans des verres de 20 cL : il en remplit 5.",
+      "guided": "Rangez quatre récipients de la cuisine du plus petit au plus grand selon leur capacité, puis vérifiez avec de l’eau.",
+      "exercise": "Convertis : 3 L = … cL ; 50 cL = … dL.",
+      "answer": "3 L = 300 cL ; 50 cL = 5 dL.",
+      "remediation": "Utiliser le tableau L / dL / cL et faire de vrais transvasements.",
+      "transfer": "Lire la capacité écrite sur une bouteille et une canette.",
+      "materials": "Bouteilles, verres, un récipient gradué si possible, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Combien de verres de 25 cL peut-on remplir avec 1 L ?",
+          "answer": "4 verres.",
+          "explanation": "1 L = 100 cL ; 4 × 25 cL = 100 cL."
+        },
+        {
+          "prompt": "Problème : un bidon contient 5 L d’huile. On en utilise 2 L. Combien en reste-t-il en centilitres ?",
+          "answer": "3 L, soit 300 cL.",
+          "explanation": "5 − 2 = 3 L ; 1 L = 100 cL."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 20 (mesures et grandeurs), p. 85, unité 3, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U3-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Empreintes des solides ; construire le carré et le rectangle",
+      "objective": "Établir le lien entre le cube, le pavé droit et leurs empreintes, et construire un carré et un rectangle.",
+      "course": "Si on pose un cube dans du sable ou sur l’encre, il laisse une empreinte carrée. Un pavé droit laisse un rectangle (ou un carré, selon la face).\n\nLe carré a 4 côtés égaux et 4 angles droits. Le rectangle a 4 angles droits et ses côtés opposés égaux deux à deux (2 longueurs et 2 largeurs). Pour les construire, on utilise la règle pour les longueurs et l’équerre pour les angles droits.",
+      "support": {
+        "title": "À observer",
+        "text": "cube → empreinte carrée\npavé droit → empreinte rectangulaire\ncarré : 4 côtés égaux, 4 angles droits\nrectangle : côtés opposés égaux, 4 angles droits"
+      },
+      "model": "L’adulte trace un segment de 4 cm, place l’équerre à une extrémité, trace un côté de 4 cm, et continue pour fermer le carré.",
+      "guided": "Tracez ensemble un rectangle de 6 cm de longueur et 3 cm de largeur.",
+      "exercise": "Construis un carré de 5 cm de côté.",
+      "answer": "Un carré dont les 4 côtés mesurent 5 cm et les 4 angles sont droits (vérifiés à l’équerre).",
+      "remediation": "Utiliser une feuille quadrillée : suivre les lignes aide à faire des angles droits.",
+      "transfer": "Poser une boîte sur une feuille et tracer le contour de chaque face.",
+      "materials": "Règle, équerre, feuille, une boîte, un dé.",
+      "practice": [
+        {
+          "prompt": "Quelle empreinte laisse une face de cube ?",
+          "answer": "Un carré.",
+          "explanation": "Toutes les faces du cube sont carrées."
+        },
+        {
+          "prompt": "Un rectangle mesure 7 cm sur 4 cm. Combien mesurent ses quatre côtés ?",
+          "answer": "7 cm, 4 cm, 7 cm, 4 cm.",
+          "explanation": "Les côtés opposés d’un rectangle sont égaux."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 21 (géométrie et espace), p. 90, unité 3, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U3-L05",
       "domain": "Sciences et technologies",
       "title": "Observer les parties d’une plante de la cour",

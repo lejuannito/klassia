@@ -2,6 +2,13 @@
   "format": "klassia-grade-catalog",
   "schemaVersion": 1,
   "grade": "CE1",
+  "subsystem": "francophone",
+  "language": "fr",
+  "twin": {
+    "subsystem": "anglophone",
+    "grade": "Class 3",
+    "status": "planned"
+  },
   "releaseStatus": "in_review",
   "availableUnits": [
     "CE1-U1",

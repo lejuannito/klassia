@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "fa4e9287845deb532168e6675ef1a5af739cdf3a1b5f3983dd4a9d84cd3d8c83",
+  "version": "61e31b0d6e1778c7eaace4cc2c292a0199fe49e1069b85a6ba51d135834d40d0",
   "files": [
     {
       "url": "./app.js",
-      "sha256": "92458e1190149b0d7f087ec5eff49a1eddd10f242e5e468d6dafe5495e9d42d1"
+      "sha256": "da4bd7372dcda2b7751a7adedeb4faee3e903dae951f1d7d238977d15f7c4d2e"
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -243,7 +243,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "2d1b457bbb9ea9ca17e2ad96234f5bdf37067b509cc6ccfb966b5e35a12c40c8"
+      "sha256": "661e51daf0c95dfd5e26cd1d9711a5848219ebe9696dbf46ca8d07821adc847a"
     },
     {
       "url": "./class-switch-v12.js",
@@ -300,6 +300,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./data/coverage.json",
       "sha256": "ae85383cd735c4d0d8889824126875684c684bf2e031e7776dd27d0bb498bd82"
+    },
+    {
+      "url": "./data/manuels/champions-francais-ce2.json",
+      "sha256": "2ac5cea8c7ceb277364e1430f3f522bc8c9be356dcaade6a3af04e4169484d49"
+    },
+    {
+      "url": "./data/manuels/champions-francais-sil.json",
+      "sha256": "4becff5670b95c904d11900440123aa8a31bb9b2b913325b4bfafa0b92ce6a82"
     },
     {
       "url": "./data/qcm-u1.json",
@@ -387,7 +395,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "8710da19d90ed387f925c2df06f88735564889a02a175dfd206683b07cc5e048"
+      "sha256": "3e60c431dc3698c60b5dc13ff996dd474a6ea6e1757adc6ad9f28a2c3b0271a0"
     },
     {
       "url": "./manifest.webmanifest",
@@ -507,7 +515,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "deb89624072097f5d7c2c400fcadb42005749e48d7ea49bfb04e9e2abfbfd4f3"
+      "sha256": "f8795308cfb646138d6bdcbb0a168586592fcd0e16f4ee835558581b37d54c7c"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -567,11 +575,15 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "60c7d2e94f3bf4c362a0d148aefe004e0ef6bd48564361cb9b13c6c844cfc2af"
+      "sha256": "1ec8fd56aad38dd922a3bacc91de62a7ddf9fddc00e968153ad644c641c22961"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "4ff4bf874b22b0ec1f0b7a029ede9e556ae83634c3d3dfdafc8f208e63e8a9fd"
+      "sha256": "a0a6b390689a62b90baf8a84c35f6f2d8d293b7439a3869a1a1bc79fe03b53a1"
+    },
+    {
+      "url": "./shared/week.js",
+      "sha256": "9100d9f254dcc1149134d4609250d730e220dc31ed8d043bacb897f33fc52ad9"
     },
     {
       "url": "./sil/data/curriculum.json",
@@ -611,7 +623,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "b94740ebac55c373d6b503d3726b8b0734fbcca0fb557ca547abc49dc7aac72c"
+      "sha256": "b38abad410588b6c7e03432cd714c8d905ffd1a0e1f15d3c524eaba5fcf1494f"
     },
     {
       "url": "./sil/style.css",

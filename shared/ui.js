@@ -77,10 +77,11 @@ function classNavigation(grade){
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],
   ['subject',older?'#subjects-all':'#subjects','Par matière'],
   ['domain',older?'#domains-all':'#domains','Par domaine']];
+ if(['CE2','SIL','CE1'].includes(grade))routes.push(['week','#semaine','Cette semaine']);
  const hash=location.hash;
  const mode=/^#(?:subjects?|subject-all|subjects-all|activity-subject)(?::|$)/.test(hash)?'subject':
   /^#(?:domains?|domain-all|domains-all)(?::|$)/.test(hash)?'domain':
-  /^#(?:learn|units?|themes)(?::|$)/.test(hash)?'unit':'';
+  /^#(?:learn|units?|themes)(?::|$)/.test(hash)?'unit':hash==='#semaine'?'week':'';
  return `<nav class="klassia-learning-mode" aria-label="Parcourir la classe">${routes.map(([key,href,label])=>`<a href="${href}" ${mode===key?'aria-current="page"':''}>${label}</a>`).join('')}</nav>`;
 }
 

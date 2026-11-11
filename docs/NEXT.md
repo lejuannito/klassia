@@ -4,6 +4,23 @@ _Mise à jour le 11 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
+## État des lots
+
+| Lot | Fait | Reste faisable ici | Attend une ressource |
+|---|---|---|---|
+| 1. Mode famille | tout | — | — |
+| 2. Corrections enrichies | 2a à 2g | — | — |
+| 3. Semaine et manuels | SIL, CE1, CE2 ; manuels de français SIL et CE2 | — | sommaires des autres manuels |
+| 4. Format commun et séance guidée | séance guidée MS, GS, SIL | 4c : sous-système, langue et classe jumelle dans les catalogues | — |
+| 5. SIL | 32 leçons de lecture | — | programme Niveau 1 (mesures, géométrie, anglais) ; sons enregistrés |
+| 6. Maternelle | MS complétée, GS réécrite, vue anglaise | parcours « pour aller plus loin » | programme de maternelle (parcours de base) ; images et voix |
+| 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés | QCM des autres matières | livre de l’œuvre de littérature |
+| 8. Langue de la maison | enregistreur familial | modèle multilingue des leçons LCN | référence AGLC et relecteur bassa |
+| 9. Confiance et diffusion | bilan de la semaine, partage, mises à jour légères | téléchargement par classe | relecteurs nommés (badge) |
+| Piste anglophone | vue anglaise de la maternelle | — | programmes anglophones (Level I à III, Nursery) |
+
+Hors lots, d’après l’analyse : nouveaux formats vérifiables (texte à trous, appariement, remise en ordre), leçons en quatre étapes, encouragements (étoile par leçon, série de jours).
+
 ## Lot 1 — mode famille (PR #51 à #56)
 
 Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livrés séparément.
@@ -14,7 +31,7 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 - **1d. Continuer** — en vue Enfant, l’accueil de chaque classe commence par une carte « Commencer » puis « Continuer » : dernière leçon ou activité ouverte si elle n’est pas acquise, sinon la première non acquise (unité en cours au CE2, thème en cours en maternelle). Chaque moteur déclare `Klassia.nextStep()` ; SIL, CE1, MS et GS mémorisent la dernière ouverture (`klassia_<classe>_recent_v1`, hors sauvegarde).
 - **1e. Mots et confort** — « bilingue » retiré des noms de classes ; application installée nommée « Klassia » ; en vue Enfant, bandeau pilote et statut éditorial des leçons déplacés (bandeau visible pour les adultes et dans le menu Parents) ; écran QCM reformulé pour les familles ; en vues Enfant et Parent (`html[data-klassia-view="family"]`), commandes de 44 px et texte de 14 px au moins. Les vues de l’atelier gardent leur mise en page compacte.
 
-## Lot 2 — corrections enrichies (en cours)
+## Lot 2 — corrections enrichies (terminé)
 
 - **2a. Réponses courtes vérifiées** — 90 exercices ouverts du CE2 à réponse courte (nombre, mot, choix entre deux termes) disent dès « Valider ma tentative » si la réponse est reconnue juste, reconnue fausse ou non reconnue. Une réponse reconnue est enregistrée comme les autres exercices ; une réponse non reconnue renvoie à la correction sans être comptée fausse. Le bassa n’est pas concerné : ses variantes restent arbitrées par l’enseignant.
 - **2b. Réponse de l’enfant gardée** — au CE2 (exercices et bilans), en SIL et en CE1, la réponse écrite validée reste dans le profil sur l’appareil (`klassia_answers_v1`, incluse dans la sauvegarde exportée, 400 réponses au plus). Au retour sur la leçon, elle est réaffichée, la correction est accessible, et la correction commence par « Ta réponse ». En vue Parent, le corrigé adulte commence par « Réponse écrite par l’enfant ». La maternelle répond à l’oral et n’est pas concernée.
@@ -23,6 +40,7 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 - **2e. Réponses courtes vérifiées en SIL et CE1** — 220 réponses courtes (170 au CE1, 50 en SIL) portent des formes acceptées (`accept`) et, quand une erreur fréquente est prévisible, des formes refusées (`reject`) : nombres, mots, contraires, nombres en lettres anglais, phrases à accorder, syllabes et mots dictés. Même comparaison qu’au CE2 : la vérification ne bloque jamais la correction, une réponse non reconnue n’est pas comptée fausse. Une réponse reconnue est notée dans le journal des essais (`short_answer`) et une leçon « À découvrir » passe « En cours » ; en vue Parent, le corrigé affiche « Dernière vérification automatique ». Restent sans vérification automatique les réponses où la comparaison tolérante tromperait l’enfant : accents et cédille qui portent la leçon (participe passé en -é, ç), majuscules à corriger, « a / à » et « et / est », lettres isolées où « a » est un mot-outil, ainsi que les réponses ouvertes. `npm run validate` vérifie chaque forme acceptée et refusée, et qu’aucune réponse du corrigé n’est jugée fausse.
 - **SC-U3-L1** : la note éditoriale (« intitulé officiel à valider ») a quitté le titre et le cours de l’enfant ; elle reste dans les notes de la leçon pour la revue. L’exercice 2 porte sur les branchies et les poumons.
 - **2f. QCM reliés aux leçons (CE2)** — 1 073 des 1 187 QCM hors bassa portent `lecon`, l’identifiant de la leçon qu’ils vérifient (même unité, même matière). Après « Corriger la série », chaque erreur propose « Revoir la leçon « … » », et le score liste les leçons à revoir. Les 114 questions de la banque complémentaire historique qui ne correspondent à aucune leçon de l’unité (tressage, jardinage, handball, vannerie…) renvoient aux leçons de la matière. Le rattachement a été proposé par comparaison de vocabulaire puis relu question par question ; il reste à confirmer à la relecture enseignante. Le corrigé adulte affiche la leçon liée pour faciliter cette relecture. `npm run validate` vérifie chaque lien.
+- **2g. Je révise** — sur l’accueil de la classe (SIL, CE1, CE2), sous « Ta prochaine étape », une carte « Je révise » propose jusqu’à cinq exercices à refaire : un exercice ou un entraînement marqué « pas encore » (auto-évaluation ou réponse courte reconnue fausse) revient le lendemain, puis une semaine après tant qu’il n’a pas été réussi à ces dates. Le calcul se fait à partir du journal des essais déjà présent (`klassia_attempts`), sans nouvelle donnée. Le lien ouvre la leçon et met l’exercice en évidence. Chaque moteur dit où se trouve un exercice (`Klassia.describeExercise`) ; au CE2, un exercice d’une autre unité s’ouvre dans son unité.
 
 ## Lot 3 — semaine et manuels (en cours)
 

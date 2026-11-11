@@ -119,6 +119,20 @@ Klassia.nextStep = () => {
     meta: rec.subject.name + ' · ' + currentUnit.title, started };
 };
 
+// « Je révise » (shared/ui.js): where to redo a CE2 exercise answered « pas encore », in any unit.
+Klassia.describeExercise = key => {
+  const m = /^([A-Z]{2})-U([1-8])-L(\d+):(\d+)$/.exec(key);
+  if (!m) return null;
+  const lid = key.split(':')[0], i = Number(m[4]);
+  const found = currentUnit?.id === 'U' + m[2] && allLessons().find(x => x.lesson.id === lid);
+  return {
+    href: '?unit=U' + m[2] + '#lesson:' + encodeURIComponent(lid),
+    anchor: '#ans_' + lid.replace(/\W/g, '') + '_' + i,
+    title: found ? found.lesson.title : subjectMeta(m[1]).short + ' · unité ' + m[2] + ', leçon ' + m[3],
+    detail: 'Exercice ' + (i + 1)
+  };
+};
+
 function login() { Klassia.openProfiles(); home(); }
 
 function shell(body, active = 'home') {

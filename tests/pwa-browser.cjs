@@ -526,6 +526,7 @@ async function testArtsAndMovement(page, base) {
   }
   await page.goto(notebook);
   await page.getByRole('link', { name: 'Noter l’essai motricité CE2' }).click();
+  await page.waitForFunction(() => document.querySelector('#pilotObservation [name="exercise"]')?.value === 'EP-U8-L1-E3');
   const observation = page.locator('#pilotObservation');
   assert.equal(await observation.locator('[name="lesson"]').inputValue(), 'EP-U8-L1');
   assert.equal(await observation.locator('[name="exercise"]').inputValue(), 'EP-U8-L1-E3');
@@ -898,7 +899,7 @@ async function run() {
     await revealCorrection(rubric, true);
     assert.match(await rubric.innerText(), /Pour relire ta fin.*personnage du début.*problème de la gourde.*résultat.*ponctuation/s);
     assert.equal(await response.inputValue(), ending);
-    assert.equal(await page.evaluate(value => JSON.stringify(Klassia.exportBackup()).includes(value), ending), false);
+    assert.equal(await page.evaluate(value => JSON.stringify(Klassia.exportBackup()).includes(value), ending), true, 'The written answer travels with the backup');
     console.log('PASS offline CE1 illustrated reading and open ending with a correction rubric');
 
     const observationLessons = [

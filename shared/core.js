@@ -15,7 +15,7 @@
       safeTree(v, depth + 1);
     }
   }
-  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_(ms|gs)_theme_v2|klassia_(ms|gs)_progress_v2:T[1-8]|klassia_sil_progress_v1|klassia_ce1_progress_v1)$/.test(k);
+  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_(ms|gs)_theme_v2|klassia_(ms|gs)_progress_v2:T[1-8]|klassia_sil_progress_v1|klassia_ce1_progress_v1|klassia_answers_v1)$/.test(k);
   function validate(k, raw) {
     if (!known(k) || typeof raw !== 'string' || raw.length > 2000000) throw Error('Donnée de sauvegarde non reconnue : ' + k);
     if (k === 'klassia_unit') { if (!/^U[1-8]$/.test(raw)) throw Error('Unité invalide.'); return; }
@@ -33,6 +33,7 @@
     if (k.startsWith('klassia_evals') && Object.values(v).some(e=>!object(e)||!Number.isFinite(e.score)||e.score<0||e.score>20)) throw Error('Évaluation invalide.');
     if (k.startsWith('klassia_qcm_scores') && Object.values(v).some(e=>!object(e)||!Number.isFinite(e.score)||!Number.isFinite(e.total)||e.total<=0||e.score<0||e.score>e.total)) throw Error('Score QCM invalide.');
     if (k === 'klassia_exercises' && Object.values(v).some(e=>!object(e)||typeof e.ok!=='boolean')) throw Error('Exercice invalide.');
+    if (k === 'klassia_answers_v1' && (Object.keys(v).length > 400 || Object.values(v).some(e=>!object(e)||typeof e.text!=='string'||e.text.length>1500||typeof e.at!=='string'))) throw Error('Réponse écrite invalide.');
     if (k.startsWith('klassia_project') && Object.values(v).some(e=>typeof e!=='boolean')) throw Error('Projet invalide.');
     if (k === 'klassia_recent' && v.lessonId!==undefined && typeof v.lessonId!=='string') throw Error('Reprise invalide.');
   }

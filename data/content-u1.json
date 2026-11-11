@@ -250,7 +250,12 @@
               "answer": "prope → propre",
               "explanation": "La lettre r manque.",
               "type": "open",
-              "id": "FR-U1-L3-E3"
+              "id": "FR-U1-L3-E3",
+              "accept": [
+                "propre",
+                "prope",
+                "prope → propre"
+              ]
             },
             {
               "prompt": "Écris trois phrases pour décrire une pièce de ta maison. Utilise au moins deux mots précis du vocabulaire de la maison.",
@@ -446,7 +451,10 @@
               "answer": "adjectif",
               "explanation": "",
               "type": "open",
-              "id": "FR-U1-L5-E3"
+              "id": "FR-U1-L5-E3",
+              "accept": [
+                "adjectif"
+              ]
             },
             {
               "prompt": "Range dans l’ordre : le soir, le matin, la nuit, l’après-midi, midi.",
@@ -554,7 +562,15 @@
               "answer": "des murs blancs",
               "explanation": "",
               "type": "open",
-              "id": "FR-U1-L6-E3"
+              "id": "FR-U1-L6-E3",
+              "accept": [
+                "des murs blancs"
+              ],
+              "reject": [
+                "des mur blanc",
+                "des murs blanc",
+                "des mur blancs"
+              ]
             },
             {
               "prompt": "Accorde l’adjectif : une (grand) chambre ; des volets (vert) ; des fenêtres (ouvert) ; une cuisine (propre) ; des (petit) lampes.",
@@ -637,7 +653,10 @@
               "answer": "Hier",
               "explanation": "",
               "type": "open",
-              "id": "FR-U1-L7-E3"
+              "id": "FR-U1-L7-E3",
+              "accept": [
+                "Hier"
+              ]
             },
             {
               "prompt": "Complète avec une forme correcte de être ou avoir : Nous … dans la cour. J’… une chambre bleue. Les enfants … contents. Tu … la clé ?",
@@ -777,7 +796,12 @@
               "answer": "grandfather",
               "explanation": "",
               "type": "open",
-              "id": "EN-U1-L1-E1"
+              "id": "EN-U1-L1-E1",
+              "accept": [
+                "grandfather",
+                "grandpa",
+                "grand-father"
+              ]
             },
             {
               "prompt": "Answer in a full sentence: Who is your mother’s sister?",
@@ -983,7 +1007,14 @@
               "answer": "aunt",
               "explanation": "",
               "type": "open",
-              "id": "EN-U1-L3-E3"
+              "id": "EN-U1-L3-E3",
+              "accept": [
+                "aunt"
+              ],
+              "reject": [
+                "sister",
+                "mother"
+              ]
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 58 and 60 – Reading/Writing, Unit 1 CE2.",
@@ -1042,14 +1073,24 @@
               "answer": "dirty",
               "explanation": "",
               "type": "open",
-              "id": "EN-U1-L4-E1"
+              "id": "EN-U1-L4-E1",
+              "accept": [
+                "dirty"
+              ]
             },
             {
               "prompt": "Choose the proper noun: house / Douala / room.",
               "answer": "Douala",
               "explanation": "",
               "type": "open",
-              "id": "EN-U1-L4-E2"
+              "id": "EN-U1-L4-E2",
+              "accept": [
+                "Douala"
+              ],
+              "reject": [
+                "house",
+                "room"
+              ]
             },
             {
               "prompt": "Correct: « lila lives in douala. »",
@@ -1465,7 +1506,16 @@
               "answer": "{chaise, lampe}",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L1-E1"
+              "id": "MA-U1-L1-E1",
+              "accept": [
+                "{chaise, lampe}",
+                "{lampe, chaise}"
+              ],
+              "reject": [
+                "{lit, chaise, table, lampe}",
+                "{chaise, table, lampe}",
+                "{lit, chaise, lampe}"
+              ]
             },
             {
               "prompt": "Donne A∪B.",
@@ -1545,14 +1595,25 @@
               "answer": "1 908",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L2-E2"
+              "id": "MA-U1-L2-E2",
+              "accept": [
+                "1 908"
+              ]
             },
             {
               "prompt": "Compare avec < ou > : 1 752 __ 1 725.",
               "answer": "1 752 > 1 725",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L2-E3"
+              "id": "MA-U1-L2-E3",
+              "accept": [
+                ">",
+                "1 752 > 1 725"
+              ],
+              "reject": [
+                "<",
+                "1 752 < 1 725"
+              ]
             },
             {
               "id": "MA-U1-L2-N1",
@@ -1656,21 +1717,30 @@
               "answer": "480",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L3-E1"
+              "id": "MA-U1-L3-E1",
+              "accept": [
+                "480"
+              ]
             },
             {
               "prompt": "720 − 50",
               "answer": "670",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L3-E2"
+              "id": "MA-U1-L3-E2",
+              "accept": [
+                "670"
+              ]
             },
             {
               "prompt": "1 200 + 300",
               "answer": "1 500",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L3-E3"
+              "id": "MA-U1-L3-E3",
+              "accept": [
+                "1 500"
+              ]
             },
             {
               "prompt": "Explique une stratégie pour 560 + 25.",
@@ -1737,14 +1807,21 @@
               "answer": "1 400",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L4-E1"
+              "id": "MA-U1-L4-E1",
+              "accept": [
+                "1 400"
+              ]
             },
             {
               "prompt": "Une famille a 1 800 F et dépense 650 F. Combien reste-t-il ?",
               "answer": "1 150 F",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L4-E2"
+              "id": "MA-U1-L4-E2",
+              "accept": [
+                "1 150 F",
+                "1 150"
+              ]
             },
             {
               "prompt": "Pourquoi faut-il écrire F dans la réponse précédente ?",
@@ -1812,28 +1889,50 @@
               "answer": "300 cm",
               "explanation": "Un mètre vaut 100 cm. Trois mètres valent donc 3 × 100 cm.",
               "type": "open",
-              "id": "MA-U1-L5-E1"
+              "id": "MA-U1-L5-E1",
+              "accept": [
+                "300 cm",
+                "300"
+              ]
             },
             {
               "prompt": "Convertis 2 dam en m.",
               "answer": "20 m",
               "explanation": "Un décamètre vaut 10 m. Deux décamètres valent donc 2 × 10 m.",
               "type": "open",
-              "id": "MA-U1-L5-E2"
+              "id": "MA-U1-L5-E2",
+              "accept": [
+                "20 m",
+                "20"
+              ]
             },
             {
               "prompt": "Quelle unité convient mieux pour une porte : mm ou m ?",
               "answer": "m",
               "explanation": "Une porte a une hauteur de l’ordre de deux mètres. Le mètre donne une mesure plus commode à lire.",
               "type": "open",
-              "id": "MA-U1-L5-E3"
+              "id": "MA-U1-L5-E3",
+              "accept": [
+                "m",
+                "le mètre",
+                "mètres"
+              ],
+              "reject": [
+                "mm",
+                "le millimètre",
+                "millimètres"
+              ]
             },
             {
               "id": "MA-U1-L5-E4",
               "type": "open",
               "prompt": "Un ruban mesure 3 m. Il faut couper une bande de 2 m 40 cm. Quelle longueur restera-t-il ? Justifie avec une unité commune.",
               "answer": "Il reste 60 cm.",
-              "explanation": "3 m = 300 cm et 2 m 40 cm = 240 cm. Le reste est 300 − 240 = 60 cm."
+              "explanation": "3 m = 300 cm et 2 m 40 cm = 240 cm. Le reste est 300 − 240 = 60 cm.",
+              "accept": [
+                "60 cm",
+                "60"
+              ]
             },
             {
               "id": "MA-U1-L5-E5",
@@ -1939,14 +2038,24 @@
               "answer": "L’équerre.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L6-E1"
+              "id": "MA-U1-L6-E1",
+              "accept": [
+                "l’équerre"
+              ]
             },
             {
               "prompt": "Une portion de droite limitée par deux points s’appelle…",
               "answer": "un segment",
               "explanation": "",
               "type": "open",
-              "id": "MA-U1-L6-E2"
+              "id": "MA-U1-L6-E2",
+              "accept": [
+                "un segment"
+              ],
+              "reject": [
+                "une droite",
+                "une demi-droite"
+              ]
             },
             {
               "prompt": "Trace sur papier deux droites parallèles puis une droite perpendiculaire à l’une d’elles.",
@@ -2215,7 +2324,10 @@
               "answer": "Une émulsion.",
               "explanation": "",
               "type": "open",
-              "id": "SC-U1-L3-E2"
+              "id": "SC-U1-L3-E2",
+              "accept": [
+                "une émulsion"
+              ]
             },
             {
               "prompt": "Quelle méthode simple peut séparer du sable et de l’eau ?",
@@ -2283,14 +2395,30 @@
               "answer": "transparente",
               "explanation": "",
               "type": "open",
-              "id": "SC-U1-L4-E1"
+              "id": "SC-U1-L4-E1",
+              "accept": [
+                "transparente",
+                "transparent"
+              ],
+              "reject": [
+                "opaque",
+                "translucide"
+              ]
             },
             {
               "prompt": "Un carton épais est…",
               "answer": "opaque",
               "explanation": "",
               "type": "open",
-              "id": "SC-U1-L4-E2"
+              "id": "SC-U1-L4-E2",
+              "accept": [
+                "opaque"
+              ],
+              "reject": [
+                "transparent",
+                "transparente",
+                "translucide"
+              ]
             },
             {
               "prompt": "Pourquoi ne faut-il pas regarder directement le Soleil ?",
@@ -2357,7 +2485,16 @@
               "answer": "La pile.",
               "explanation": "",
               "type": "open",
-              "id": "SC-U1-L5-E1"
+              "id": "SC-U1-L5-E1",
+              "accept": [
+                "la pile",
+                "les piles"
+              ],
+              "reject": [
+                "l’ampoule",
+                "la LED",
+                "l’interrupteur"
+              ]
             },
             {
               "prompt": "Quel est le rôle de l’interrupteur ?",
@@ -2577,14 +2714,26 @@
               "answer": "Entrée.",
               "explanation": "",
               "type": "open",
-              "id": "TI-U1-L1-E1"
+              "id": "TI-U1-L1-E1",
+              "accept": [
+                "entrée"
+              ],
+              "reject": [
+                "sortie"
+              ]
             },
             {
               "prompt": "Haut-parleur : entrée ou sortie ?",
               "answer": "Sortie.",
               "explanation": "",
               "type": "open",
-              "id": "TI-U1-L1-E2"
+              "id": "TI-U1-L1-E2",
+              "accept": [
+                "sortie"
+              ],
+              "reject": [
+                "entrée"
+              ]
             },
             {
               "prompt": "Explique le rôle d’un microphone.",
@@ -2678,7 +2827,13 @@
               "answer": "Texte.",
               "explanation": "",
               "type": "open",
-              "id": "TI-U1-L2-E1"
+              "id": "TI-U1-L2-E1",
+              "accept": [
+                "texte"
+              ],
+              "reject": [
+                "audio"
+              ]
             },
             {
               "prompt": "Que faut-il vérifier avant l’envoi ?",
@@ -3202,7 +3357,15 @@
               "answer": "naissance → entrée au CE2 → aujourd’hui",
               "explanation": "",
               "type": "open",
-              "id": "SH-U1-L6-E1"
+              "id": "SH-U1-L6-E1",
+              "accept": [
+                "naissance, entrée au CE2, aujourd’hui",
+                "naissance, CE2, aujourd’hui"
+              ],
+              "reject": [
+                "aujourd’hui, entrée au CE2, naissance",
+                "aujourd’hui, naissance, entrée au CE2"
+              ]
             },
             {
               "prompt": "Dessine un arbre généalogique simple sur trois générations, réel ou fictif.",
@@ -3274,7 +3437,16 @@
               "answer": "Une plaine.",
               "explanation": "",
               "type": "open",
-              "id": "SH-U1-L7-E2"
+              "id": "SH-U1-L7-E2",
+              "accept": [
+                "une plaine"
+              ],
+              "reject": [
+                "une montagne",
+                "une colline",
+                "un plateau",
+                "une vallée"
+              ]
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 138 – Géographie physique, CE2.",
@@ -3489,7 +3661,22 @@
               "answer": "Le premier.",
               "explanation": "",
               "type": "open",
-              "id": "AR-U1-L2-E2"
+              "id": "AR-U1-L2-E2",
+              "accept": [
+                "le premier",
+                "le premier temps",
+                "1er",
+                "UN",
+                "1"
+              ],
+              "reject": [
+                "le deuxième",
+                "deux",
+                "le troisième",
+                "trois",
+                "2",
+                "3"
+              ]
             }
           ],
           "source": "Curriculum MINEDUB 2018, p. 145 – Musique, CE2.",

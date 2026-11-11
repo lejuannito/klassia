@@ -764,7 +764,15 @@
               "type": "open",
               "prompt": "Replace the names: Nia and her father went by bus. ___ went by bus.",
               "answer": "They",
-              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation."
+              "explanation": "Find the information in the text. For a personal answer, keep a clear meaning and check word order, capital letters and punctuation.",
+              "accept": [
+                "They"
+              ],
+              "reject": [
+                "he",
+                "she",
+                "we"
+              ]
             }
           ],
           "source": "Curriculum CE2, English Language, U5, pp.56-64.",
@@ -1082,7 +1090,11 @@
               "type": "open",
               "prompt": "Un rectangle a un périmètre de 28 cm et une longueur de 8 cm. Trouve sa largeur.",
               "answer": "6 cm.",
-              "explanation": "28 ÷ 2 = 14 ; 14 − 8 = 6. Contrôle : 8 + 6 + 8 + 6 = 28."
+              "explanation": "28 ÷ 2 = 14 ; 14 − 8 = 6. Contrôle : 8 + 6 + 8 + 6 = 28.",
+              "accept": [
+                "6 cm",
+                "6"
+              ]
             },
             {
               "id": "MA-U5-L3-E2",
@@ -1137,7 +1149,13 @@
               "type": "open",
               "prompt": "Un trajet commence à 10 h 40 et finit à 11 h 20. Quelle est sa durée ?",
               "answer": "40 minutes.",
-              "explanation": "20 minutes jusqu’à 11 h, puis 20 minutes : 20 + 20 = 40."
+              "explanation": "20 minutes jusqu’à 11 h, puis 20 minutes : 20 + 20 = 40.",
+              "accept": [
+                "40 minutes",
+                "40 min",
+                "40 mn",
+                "40"
+              ]
             },
             {
               "id": "MA-U5-L4-E2",
@@ -1245,7 +1263,11 @@
               "type": "open",
               "prompt": "Trois billets coûtent 1 200 F chacun. On donne 5 000 F. Quelle monnaie reçoit-on ?",
               "answer": "1 400 F.",
-              "explanation": "3 × 1 200 = 3 600 F ; 5 000 − 3 600 = 1 400 F."
+              "explanation": "3 × 1 200 = 3 600 F ; 5 000 − 3 600 = 1 400 F.",
+              "accept": [
+                "1 400 F",
+                "1 400"
+              ]
             },
             {
               "id": "MA-U5-L6-E2",

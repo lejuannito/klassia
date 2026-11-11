@@ -401,8 +401,18 @@ function exerciseHtml(e, lid, i) {
   const en = lid.startsWith('EN-');
   const clip = Klassia.speech.clip(e.audio,en?'en-GB':'fr-FR');
   const correction = `<b>${en?'Suggested answer':'Correction proposée'}</b><p>${nl(e.answer || '')}</p>${e.explanation ? `<p class="muted">${nl(e.explanation)}</p>` : ''}<div class="self-check"><span>${en?'Did you manage on your own?':'As-tu réussi seul ?'}</span><button type="button" class="btn mini review" onclick="rateOpen('${key}',false,'${ansId}')">${en?'Not yet':'Pas encore'}</button><button type="button" class="btn mini success" onclick="rateOpen('${key}',true,'${ansId}')">${en?'Yes':'Oui'} ✓</button></div><div class="remediation hidden" data-remed="${ansId}"><b>${en?'Try again with help':'Remédiation'}</b><p>${nl(e.explanation || (en?'Read the example and try the question again.':'Relis « Je retiens », reprends l’exemple puis essaie de résoudre la question une seconde fois.'))}</p></div>`;
-  return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${clip}${Klassia.ink.pad('CE2:'+e.id,e.ink)}${Klassia.correction.html(ansId,correction,{en,ink:true})}${history ? `<div class="exercise-history">Auto-évaluation : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
+  return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${clip}${Klassia.ink.pad('CE2:'+e.id,e.ink)}${Klassia.correction.html(ansId,correction,{en,ink:true,record:key,check:e.accept?{accept:e.accept,reject:e.reject||[],prompt:e.prompt}:null})}${history ? `<div class="exercise-history">${history.auto ? 'Dernière vérification' : 'Auto-évaluation'} : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
 }
+
+// Short answers recognised by Klassia are recorded like the other exercises; unrecognised ones are not.
+document.addEventListener('klassia:answer-checked', event => {
+  const { record, verdict } = event.detail || {};
+  if (!record || !['correct', 'wrong'].includes(verdict)) return;
+  const ok = verdict === 'correct', d = exerciseData();
+  d[record] = { ok, at: new Date().toISOString(), auto: true };
+  save(S.exercises, d);
+  Klassia.append('klassia_attempts', { kind: 'short_answer', exercise: record, ok });
+});
 
 window.rateOpen = (key, ok, id) => {
   const d = exerciseData();

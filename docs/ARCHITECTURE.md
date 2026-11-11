@@ -20,7 +20,7 @@ Les rôles enfant/adulte/revue sont des **affichages locaux libres**, sans contr
 
 ## Données pédagogiques
 
-Une leçon possède identifiant stable, objectifs, référence, cours, exercices et statut éditorial. Un exercice est `open`, `mcq` ou `number`. Les QCM de banque gardent une identité de choix indépendante de la position affichée ; un mélange est conservé tant que la page de tentative reste ouverte.
+Une leçon possède identifiant stable, objectifs, référence, cours, exercices et statut éditorial. Un exercice est `open`, `mcq` ou `number`. Un exercice `open` à réponse courte peut porter `accept` (formes reconnues comme justes) et `reject` (formes reconnues comme fausses) : la comparaison `Klassia.matchAnswer` tolère majuscules, accents, articles, espaces des nombres, phrase réponse et calcul posé ; une réponse non reconnue n’est jamais comptée fausse et la correction reste accessible après toute tentative. `npm run validate` vérifie que la réponse écrite et chaque forme acceptée sont reconnues, et que chaque forme refusée l’est. Les QCM de banque gardent une identité de choix indépendante de la position affichée ; un mélange est conservé tant que la page de tentative reste ouverte.
 
 Les observations, tentatives et confiance déclarée sont distinctes. Les anciennes valeurs `MAITRISEE` restent compatibles, mais sont présentées comme compréhension déclarée. Les observations MS incluent activité, thème, date, langue et aide lorsqu’elles sont saisies par l’adulte.
 

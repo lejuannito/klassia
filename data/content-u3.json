@@ -387,7 +387,15 @@
               "answer": "Amina.",
               "explanation": "",
               "type": "open",
-              "id": "FR-U3-L6-E1"
+              "id": "FR-U3-L6-E1",
+              "accept": [
+                "Amina"
+              ],
+              "reject": [
+                "lit",
+                "au tableau",
+                "tableau"
+              ]
             },
             {
               "prompt": "Le mot « souvent » change-t-il de forme dans « il vient souvent / ils viennent souvent » ?",
@@ -849,7 +857,14 @@
               "answer": "at",
               "explanation": "",
               "type": "open",
-              "id": "EN-U3-L4-E2"
+              "id": "EN-U3-L4-E2",
+              "accept": [
+                "at"
+              ],
+              "reject": [
+                "in",
+                "on"
+              ]
             }
           ],
           "source": "Curriculum CE2, English Grammar and Vocabulary, Unit 3, p.63.",
@@ -1116,7 +1131,11 @@
               "answer": "4 000 + 500 + 8.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U3-L1-E1"
+              "id": "MA-U3-L1-E1",
+              "accept": [
+                "4 000 + 500 + 8",
+                "4 milliers 5 centaines 8 unités"
+              ]
             },
             {
               "prompt": "Range 3 905, 4 035 et 3 950 du plus petit au plus grand.",
@@ -1284,14 +1303,24 @@
               "answer": "40 L.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U3-L4-E1"
+              "id": "MA-U3-L4-E1",
+              "accept": [
+                "40 L",
+                "40",
+                "40 litres"
+              ]
             },
             {
               "prompt": "Combien de décalitres représentent 20 L ?",
               "answer": "2 daL.",
               "explanation": "",
               "type": "open",
-              "id": "MA-U3-L4-E2"
+              "id": "MA-U3-L4-E2",
+              "accept": [
+                "2 daL",
+                "2",
+                "2 décalitres"
+              ]
             }
           ],
           "source": "Curriculum CE2, mesures et grandeurs, Unité 3, p.85.",
@@ -1729,7 +1758,13 @@
               "answer": "L’énergie électrique.",
               "explanation": "",
               "type": "open",
-              "id": "SC-U3-L4-E1"
+              "id": "SC-U3-L4-E1",
+              "accept": [
+                "l’énergie électrique",
+                "électrique",
+                "l’électricité",
+                "le courant électrique"
+              ]
             },
             {
               "prompt": "Cite une source d’énergie renouvelable.",
@@ -2153,7 +2188,14 @@
               "answer": "Le clavier.",
               "explanation": "",
               "type": "open",
-              "id": "TI-U3-L2-E1"
+              "id": "TI-U3-L2-E1",
+              "accept": [
+                "le clavier"
+              ],
+              "reject": [
+                "la souris",
+                "l’écran"
+              ]
             },
             {
               "prompt": "À quoi sert un clic simple dans de nombreuses interfaces ?",
@@ -2520,7 +2562,17 @@
               "answer": "Le pouvoir législatif.",
               "explanation": "",
               "type": "open",
-              "id": "SH-U3-L4-E2"
+              "id": "SH-U3-L4-E2",
+              "accept": [
+                "le pouvoir législatif",
+                "législatif"
+              ],
+              "reject": [
+                "le pouvoir exécutif",
+                "exécutif",
+                "le pouvoir judiciaire",
+                "judiciaire"
+              ]
             }
           ],
           "source": "Curriculum CE2, éducation à la citoyenneté, Unité 3, p.130.",

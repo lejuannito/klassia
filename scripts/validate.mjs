@@ -1,5 +1,17 @@
 import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import {execFileSync} from 'node:child_process';
 import {validateBassaRecordings} from './validate-bassa-recordings.mjs';
+import {createRequire} from 'node:module';
+// Same comparison as the application: every accepted form and the written answer must be recognised.
+const answers=createRequire(import.meta.url)('../shared/core.js')({m:new Map(),get length(){return this.m.size},key(i){return [...this.m.keys()][i]},getItem(k){return this.m.get(k)??null},setItem(k,v){this.m.set(k,String(v))},removeItem(k){this.m.delete(k)}});
+let shortAnswers=0;
+function shortAnswer(e){
+ const list=x=>Array.isArray(x)&&x.length&&x.every(v=>typeof v==='string'&&answers.answerTokens(v).length);
+ assert.equal(e.type,'open','Short answer check on a non-open exercise '+e.id);
+ assert.ok(list(e.accept)&&(e.reject===undefined||list(e.reject)),'Invalid accepted or rejected forms '+e.id);
+ for(const v of [e.answer,...e.accept])assert.equal(answers.matchAnswer(v,e),'correct','Accepted form not recognised '+e.id+' : '+v);
+ for(const v of e.reject||[])assert.equal(answers.matchAnswer(v,e),'wrong','Rejected form not refused '+e.id+' : '+v);
+ shortAnswers++;
+}
 const root=path.resolve(import.meta.dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));let lessons=0,activities=0,questions=0;const ids=new Set();
 const published=process.argv.includes('--public');
 function checkAudio(src, transcript, id, prefix = '../assets/') {
@@ -36,7 +48,7 @@ function learningExtras(l){
 function editorial(x){assert.ok(['draft','in_review','validated','published','withdrawn'].includes(x.editorial?.status),'Editorial status required');if(published){assert.equal(x.editorial.status,'published','Public release blocked: pedagogical validation pending');assert.ok(x.editorial.reviewer&&x.editorial.validated_at,'Named review and date required');}}
 for(let i=1;i<=8;i++){
  const c=read(`data/content-u${i}.json`),q=read(`data/qcm-u${i}.json`);
- for(const s of c.subjects){assert.equal(s.assessment.items.reduce((n,e)=>n+e.points,0),s.assessment.total);for(const l of s.lessons){lessons++;assert.ok(!ids.has(l.id));ids.add(l.id);assert.ok(l.source&&l.objectives.length&&l.learn.length);editorial(l);for(const e of l.exercises){assert.ok(e.id&&e.prompt);assert.ok(['open','mcq','number'].includes(e.type));if(e.audio!==undefined){assert.equal(e.type,'open');assert.ok(['FR','EN'].includes(s.id));checkAudio(e.audio,e.prompt,e.id,'./assets/');}if(e.type==='mcq'){assert.ok(Number.isInteger(e.correct_choice));assert.equal(e.answer,e.choices[e.correct_choice]);}if(e.type==='number')assert.ok(Number.isFinite(e.answer));}if(l.figure)assert.ok(fs.existsSync(path.join(root,l.figure.src)));}}
+ for(const s of c.subjects){assert.equal(s.assessment.items.reduce((n,e)=>n+e.points,0),s.assessment.total);for(const l of s.lessons){lessons++;assert.ok(!ids.has(l.id));ids.add(l.id);assert.ok(l.source&&l.objectives.length&&l.learn.length);editorial(l);for(const e of l.exercises){assert.ok(e.id&&e.prompt);if(e.accept!==undefined||e.reject!==undefined)shortAnswer(e);assert.ok(['open','mcq','number'].includes(e.type));if(e.audio!==undefined){assert.equal(e.type,'open');assert.ok(['FR','EN'].includes(s.id));checkAudio(e.audio,e.prompt,e.id,'./assets/');}if(e.type==='mcq'){assert.ok(Number.isInteger(e.correct_choice));assert.equal(e.answer,e.choices[e.correct_choice]);}if(e.type==='number')assert.ok(Number.isFinite(e.answer));}if(l.figure)assert.ok(fs.existsSync(path.join(root,l.figure.src)));}}
  for(const e of q.epreuves)for(const x of e.questions){questions++;assert.ok(x.id&&x.choix.length>=2&&new Set(x.choix).size===x.choix.length,x.id);assert.ok(Number.isInteger(x.bonne)&&x.bonne>=0&&x.bonne<x.choix.length);if(published)assert.equal(x.editorial_status,'published');}
  const t=read(`ms/data/themes/T${i}.json`),seen=new Set();for(const d of t.domains)for(const a of d.activities){activities++;assert.ok(!seen.has(a.id));seen.add(a.id);editorial(a);nurseryAudio(a);assert.ok(a.title_fr&&a.title_en&&a.goal_fr&&a.goal_en);if(a.figure)assert.ok(fs.existsSync(path.join(root,'ms',a.figure.src)));}
 }
@@ -66,4 +78,4 @@ validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}
 for(const f of ['shared/correction.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);
 assert.equal(lessons,526);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,848);assert.equal(questions,read('docs/metrics.json').storedQuestions);
-console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions. Editorial validation is separate.`);
+console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions, ${shortAnswers} CE2 short answers with automatic check. Editorial validation is separate.`);

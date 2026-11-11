@@ -4,7 +4,7 @@ _Mise à jour le 11 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
-## Lot 1 — mode famille (en cours)
+## Lot 1 — mode famille (PR #51 à #56)
 
 Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livrés séparément.
 
@@ -13,6 +13,13 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 - **1c. Premier lancement** — sur la page d’entrée, un encart demande une fois le prénom, l’école (francophone, anglophone, bilingue) et la classe, enregistrés dans le profil (`klassia_family`, hors sauvegarde). Ensuite, l’ouverture depuis l’icône, un favori ou l’adresse racine mène à la classe mémorisée ; les liens directs et le passage au CE2 depuis Klassia ne sont pas redirigés. Tant que les classes anglophones n’existent pas, la classe francophone équivalente s’ouvre.
 - **1d. Continuer** — en vue Enfant, l’accueil de chaque classe commence par une carte « Commencer » puis « Continuer » : dernière leçon ou activité ouverte si elle n’est pas acquise, sinon la première non acquise (unité en cours au CE2, thème en cours en maternelle). Chaque moteur déclare `Klassia.nextStep()` ; SIL, CE1, MS et GS mémorisent la dernière ouverture (`klassia_<classe>_recent_v1`, hors sauvegarde).
 - **1e. Mots et confort** — « bilingue » retiré des noms de classes ; application installée nommée « Klassia » ; en vue Enfant, bandeau pilote et statut éditorial des leçons déplacés (bandeau visible pour les adultes et dans le menu Parents) ; écran QCM reformulé pour les familles ; en vues Enfant et Parent (`html[data-klassia-view="family"]`), commandes de 44 px et texte de 14 px au moins. Les vues de l’atelier gardent leur mise en page compacte.
+
+## Lot 2 — corrections enrichies (en cours)
+
+- **2a. Réponses courtes vérifiées** — 90 exercices ouverts du CE2 à réponse courte (nombre, mot, choix entre deux termes) disent dès « Valider ma tentative » si la réponse est reconnue juste, reconnue fausse ou non reconnue. Une réponse reconnue est enregistrée comme les autres exercices ; une réponse non reconnue renvoie à la correction sans être comptée fausse. Le bassa n’est pas concerné : ses variantes restent arbitrées par l’enseignant.
+- **2b. Réponse de l’enfant conservée** — à faire : garder la réponse écrite dans le profil et l’afficher près de la correction, dans les cinq classes.
+- **2c. « As-tu réussi seul ? » en SIL et CE1** — à faire.
+- **2d. Explications manquantes** — à faire : 300 exercices du CE2 sur 746 n’ont pas d’explication.
 
 Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
 

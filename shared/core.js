@@ -93,10 +93,42 @@
   function registerRoutes(grade,fn){routes[grade]=fn;}
   function specialRoute(grade,hash){return routes[grade]?.(hash)||false;}
   function rendered(){if(typeof document!=='undefined')document.dispatchEvent(new CustomEvent('klassia:render'));}
+  // Short answers: tolerant comparison with the accepted and rejected forms written in the content.
+  const ANSWER_STOP=new Set(['le','la','les','l','un','une','des','du','de','d','au','aux','a','an','the','et','and']);
+  const ANSWER_FILLER=new Set(['il','elle','on','je','j','y','c','ca','cela','est','sont','fait','font','egal','egale','reste','restera','recoit','rend','rendre','doit','faut','resultat','reponse','total','trouve','en','tout','it','is','are','answer']);
+  const ANSWER_UNIT={francs:'f',franc:'f',fcfa:'f',cfa:'f',frs:'f'};
+  function answerTokens(s){
+    let t=String(s??'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[’‘`´]/g,"'").replace(/aujourd'?hui/g,'aujourdhui').replace(/²/g,'2').replace(/³/g,'3');
+    t=t.replace(/\b\d{1,3}(?:[ \u00a0\u202f.]\d{3})+\b/g,m=>m.replace(/[ \u00a0\u202f.]/g,'')).replace(/(\d),(\d)/g,'$1.$2');
+    const words=(t.match(/\d+(?:[.\/]\d+)+|[a-z0-9]+|[<>=]/g)||[]).map(w=>ANSWER_UNIT[w]||w),kept=words.filter(w=>!ANSWER_STOP.has(w));
+    return kept.length?kept:words;
+  }
+  // Returns correct, wrong, number (right number, other words) or unknown. Unknown never means wrong.
+  function matchAnswer(input,{accept=[],reject=[],prompt=''}={}){
+    const A=accept.map(answerTokens).filter(x=>x.length),R=reject.map(answerTokens).filter(x=>x.length);
+    const num=w=>/^\d+(?:[.\/]\d+)?$/.test(w),keep=new Set([...A,...R].flat()),context=new Set(answerTokens(prompt));
+    const lean=c=>c.filter(w=>keep.has(w)||num(w)||!(ANSWER_FILLER.has(w)||context.has(w)));
+    const all=answerTokens(input);if(!all.length)return 'unknown';
+    const at=all.lastIndexOf('='),base=at>=0&&at<all.length-1?[all,all.slice(at+1)]:[all];
+    const cands=[...base,...base.map(lean)].filter(c=>c.length),key=c=>c.join(' ');
+    if(cands.some(c=>A.some(x=>key(x)===key(c))))return 'correct';
+    if(cands.some(c=>R.some(x=>key(x)===key(c))))return 'wrong';
+    const numeric=A.filter(x=>x.some(num));
+    if(numeric.length&&numeric.every(x=>x.filter(num).length===1)){
+      const last=lean(base[base.length-1]),n=last.filter(num);
+      if(n.length===1){
+        const same=numeric.filter(x=>x.find(num)===n[0]);
+        if(!same.length)return 'wrong';
+        const words=last.filter(w=>!num(w));
+        return same.some(x=>words.every(w=>x.includes(w)))?'correct':'number';
+      }
+    }
+    return 'unknown';
+  }
   const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const read=(k,fallback)=>{try{return JSON.parse(storage.getItem(k))??fallback;}catch{return fallback;}};
   const isAdultSpace=()=>['PARENT','ENSEIGNANT','ADMIN'].includes(read('klassia_user',{})?.role);
-  return {isAdultSpace,version:'15.0',storage,exportBackup,prepareImport,restore,undoRestore,createProfile,selectProfile,renameProfile,append,shuffleOptions,registerRoutes,specialRoute,rendered,escape,
+  return {isAdultSpace,version:'15.0',matchAnswer,answerTokens,storage,exportBackup,prepareImport,restore,undoRestore,createProfile,selectProfile,renameProfile,append,shuffleOptions,registerRoutes,specialRoute,rendered,escape,
     profile:()=>{refresh();return {id:state.active,name:state.profiles[state.active].name};},profiles:()=>{refresh();return Object.entries(state.profiles).map(([id,p])=>({id,name:p.name}));},
     read,write:(k,v)=>storage.setItem(k,JSON.stringify(v))};
 });

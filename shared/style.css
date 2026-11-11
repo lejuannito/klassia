@@ -137,3 +137,9 @@ html[data-klassia-view="family"] .subject-pct { font-size: max(14px, .875rem) !i
 html[data-klassia-view="family"] :is(.lesson-nav .btn, .source-note summary, .source-note p, p.source, #masteryMsg) { font-size: max(14px, .875rem); }
 html[data-klassia-view="family"] :is(#pwaTools button, #app input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"])) { min-height: 44px; }
 html[data-klassia-view="family"] .gs-top > a { display: inline-flex; align-items: center; min-height: 44px; }
+
+/* Lot 2a: short answers recognised by Klassia */
+.attempt-status[data-verdict] { font-weight: 700; }
+.attempt-status[data-verdict="correct"] { color: #1d6b2f; }
+.attempt-status[data-verdict="wrong"] { color: #8a3b00; }
+.attempt-status[data-verdict="number"], .attempt-status[data-verdict="unknown"] { color: #243f83; }

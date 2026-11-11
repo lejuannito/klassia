@@ -7,26 +7,42 @@ const CACHE_NAME = 'klassia-v15-' + release.version;
 const files = release.files.map(file => ({ ...file, url: new URL(file.url, scope).href }));
 const filesByUrl = new Map(files.map(file => [file.url, file]));
 
+async function sameBytes(response, file) {
+  const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', await response.clone().arrayBuffer()));
+  return Array.from(digest, byte => byte.toString(16).padStart(2, '0')).join('') === file.sha256;
+}
+
 async function verifiedResponse(file, controller = new AbortController()) {
   const timer = setTimeout(() => controller.abort(new Error('Délai de téléchargement dépassé pour ' + file.url)), 30000);
   try {
     const response = await fetch(file.url, { cache: 'reload', signal: controller.signal });
     if (!response.ok) throw new Error('Téléchargement incomplet : ' + file.url);
-
-    const bytes = await response.clone().arrayBuffer();
-    const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', bytes));
-    const hash = Array.from(digest, byte => byte.toString(16).padStart(2, '0')).join('');
-    if (hash !== file.sha256) throw new Error('Version incohérente : ' + file.url);
+    if (!await sameBytes(response, file)) throw new Error('Version incohérente : ' + file.url);
     return response;
   } finally {
     clearTimeout(timer);
   }
 }
 
+// An update only downloads what changed: a file already installed by an earlier
+// edition is reused when its bytes match the new release exactly.
+async function installedCopy(file, editions) {
+  for (const edition of editions) {
+    const response = await edition.match(file.url);
+    try {
+      if (response && await sameBytes(response, file)) return response;
+    } catch { /* An unreadable copy is downloaded again. */ }
+  }
+  return null;
+}
+
 async function installRelease() {
   // A stale manifest can name the cache of the edition already in use.
   const existed = await caches.has(CACHE_NAME);
   const cache = await caches.open(CACHE_NAME);
+  const editions = await Promise.all((await caches.keys())
+    .filter(key => key.startsWith('klassia-') && key !== CACHE_NAME).reverse()
+    .map(key => caches.open(key)));
   const controller = new AbortController();
   let index = 0;
 
@@ -34,8 +50,9 @@ async function installRelease() {
     try {
       while (!controller.signal.aborted && index < files.length) {
         const file = files[index++];
-        const response = await verifiedResponse(file, controller);
-        if (!existed || !await cache.match(file.url)) await cache.put(file.url, response);
+        if (existed && await installedCopy(file, [cache])) continue;
+        const response = await installedCopy(file, editions) || await verifiedResponse(file, controller);
+        await cache.put(file.url, response);
       }
     } catch (error) {
       controller.abort(error);

@@ -30,7 +30,7 @@ Une question de banque QCM du CE2 (`data/qcm-u*.json`) peut porter `lecon`, l’
 
 ## Hors connexion
 
-`scripts/build.mjs` calcule les empreintes SHA-256 des fichiers critiques. Le service worker vérifie l’édition avec quatre téléchargements simultanés au maximum. Un échec ou un délai dépassé annule les téléchargements restants. Le service worker attend les écritures en cours avant de supprimer le cache créé par cette tentative. Il conserve les caches préexistants, y compris lorsque le manifeste désigne l’édition installée.
+`scripts/build.mjs` calcule les empreintes SHA-256 des fichiers critiques. Le service worker vérifie l’édition avec quatre téléchargements simultanés au maximum. Un échec ou un délai dépassé annule les téléchargements restants. Le service worker attend les écritures en cours avant de supprimer le cache créé par cette tentative. Il conserve les caches préexistants, y compris lorsque le manifeste désigne l’édition installée. Une mise à jour ne télécharge que les fichiers modifiés : un fichier déjà présent dans une édition installée est recopié lorsque ses octets correspondent à l’empreinte de la nouvelle édition.
 
 Le service worker sert les pages et données de l’édition active. Lorsqu’un fichier critique manque, il vérifie l’empreinte de la réponse du serveur avant de l’utiliser. Les paramètres de thème conservent la même clé HTML. L’activation demandée depuis un onglet attend la fermeture des autres fenêtres Klassia. Le premier chargement continue sur la page ouverte lorsque le service worker prend le contrôle.
 

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "c674cf146c72e67cefd12fa9f47e6c8dfd2648b714e5e9498bde0d1cc85220b0",
+  "version": "655f48de23550bac72b27a4cb684ea6aa00f5f3fd256e6a51e0dc904ac61dcfe",
   "files": [
     {
       "url": "./app.js",
@@ -267,15 +267,15 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/content-u1.json",
-      "sha256": "8424566a86a71768b6ca8c3d84c5bb64cf57b971b8d7b3bb3ad0a9f957ddd1a0"
+      "sha256": "2df0a5d889b836d8ea52732b7683817d0007599f1e89d1a89fd8fe32b26d4909"
     },
     {
       "url": "./data/content-u2.json",
-      "sha256": "2053af9c2b63c56a3b5f735163fa7ad604133d49ed33fb96db016849a885ce7c"
+      "sha256": "5457d6b6e09369b4dc4fd6828a24ff7e7ad517c83b56df3af3a1bdb6656e6be4"
     },
     {
       "url": "./data/content-u3.json",
-      "sha256": "8465863eb551dbbc616ae0d43386c8a626f27ffdca80a050d14d71921005fe78"
+      "sha256": "29eefbe05c1900ccdcf954d6778df11a887549e0b0a0b83dc0ca023a3332da9d"
     },
     {
       "url": "./data/content-u4.json",

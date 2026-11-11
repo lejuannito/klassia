@@ -12,6 +12,18 @@ function shortAnswer(e){
  for(const v of e.reject||[])assert.equal(answers.matchAnswer(v,e),'wrong','Rejected form not refused '+e.id+' : '+v);
  shortAnswers++;
 }
+// Lot 2e: SIL and CE1 short answers use the same comparison; the written answer may stay unrecognised but never refused.
+let learningShortAnswers=0;
+function learningShort(x,prompt,id){
+ if(x.accept===undefined&&x.reject===undefined)return;
+ const list=v=>Array.isArray(v)&&v.length&&v.every(w=>typeof w==='string'&&answers.answerTokens(w).length);
+ assert.ok(list(x.accept)&&(x.reject===undefined||list(x.reject)),'Invalid accepted or rejected forms '+id);
+ const rule={accept:x.accept,reject:x.reject||[],prompt};
+ for(const v of x.accept)assert.equal(answers.matchAnswer(v,rule),'correct','Accepted form not recognised '+id+' : '+v);
+ for(const v of x.reject||[])assert.equal(answers.matchAnswer(v,rule),'wrong','Rejected form not refused '+id+' : '+v);
+ assert.notEqual(answers.matchAnswer(x.answer,rule),'wrong','Written answer refused '+id);
+ learningShortAnswers++;
+}
 const root=path.resolve(import.meta.dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));let lessons=0,activities=0,questions=0;const ids=new Set();
 const published=process.argv.includes('--public');
 function checkAudio(src, transcript, id, prefix = '../assets/') {
@@ -34,7 +46,9 @@ function learningExtras(l){
   assert.ok(p.prompt && p.answer && p.explanation, 'Incomplete additional practice ' + l.id);
   if (p.listen !== undefined) assert.ok(typeof p.listen === 'string' && p.listen.trim(), 'Invalid listening message ' + l.id);
   checkAudio(p.audio, p.listen, l.id);
+  learningShort(p, p.prompt, l.id);
  }
+ learningShort(l, l.exercise, l.id);
  checkAudio(l.support?.audio, l.support?.text, l.id);
  if(l.support?.table){const t=l.support.table;assert.ok(t.headers.length&&t.rows.length,'Empty table '+l.id);for(const row of t.rows)assert.equal(row.length,t.headers.length,'Table alignment '+l.id);}
  const figure = l.support?.figure;
@@ -101,5 +115,5 @@ const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.j
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}
 for(const f of ['shared/correction.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);
-assert.equal(lessons,652);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,974);assert.equal(questions,read('docs/metrics.json').storedQuestions);
-console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions, ${shortAnswers} CE2 short answers with automatic check. Editorial validation is separate.`);
+assert.equal(lessons,652);assert.equal(learningShortAnswers,220);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,974);assert.equal(questions,read('docs/metrics.json').storedQuestions);
+console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions, ${shortAnswers} CE2 + ${learningShortAnswers} SIL/CE1 short answers with automatic check. Editorial validation is separate.`);

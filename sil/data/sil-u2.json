@@ -34,6 +34,15 @@
         {
           "prompt": "Dans « banane », combien de fois entends-tu [a] ?",
           "answer": "Deux fois : ba-na-ne.",
+          "accept": [
+            "deux fois",
+            "deux",
+            "2"
+          ],
+          "reject": [
+            "une fois",
+            "trois fois"
+          ],
           "explanation": "On frappe les syllabes ba, na, ne ; on entend [a] dans ba et dans na."
         },
         {
@@ -128,6 +137,15 @@
         {
           "prompt": "Dans « ici », combien de fois entends-tu [i] ?",
           "answer": "Deux fois : i-ci.",
+          "accept": [
+            "deux fois",
+            "deux",
+            "2"
+          ],
+          "reject": [
+            "une fois",
+            "trois fois"
+          ],
           "explanation": "On frappe les syllabes i et ci ; on entend [i] dans chacune."
         },
         {

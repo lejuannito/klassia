@@ -63,12 +63,18 @@
         {
           "prompt": "Lis : ra, ar, rou, our. Lesquelles se terminent par r ?",
           "answer": "ar et our.",
+          "accept": [
+            "ar et our"
+          ],
           "explanation": "Dans ar et our, on lit la voyelle puis r."
         },
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "ra. rou. ri.",
           "answer": "ra, rou, ri.",
+          "accept": [
+            "ra, rou, ri"
+          ],
           "explanation": "On écrit r, puis la voyelle entendue.",
           "ink": "lignes"
         }
@@ -139,12 +145,18 @@
         {
           "prompt": "Lis : to, ot, tou, ti. Lesquelles commencent par t ?",
           "answer": "to, tou et ti.",
+          "accept": [
+            "to, tou et ti"
+          ],
           "explanation": "ot commence par la voyelle o."
         },
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "tu. tou. té.",
           "answer": "tu, tou, té.",
+          "accept": [
+            "tu, tou, té"
+          ],
           "explanation": "Pour « tou », on écrit t puis ou.",
           "ink": "lignes"
         }
@@ -221,6 +233,9 @@
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "pa. pou. pi.",
           "answer": "pa, pou, pi.",
+          "accept": [
+            "pa, pou, pi"
+          ],
           "explanation": "On écrit p, puis la voyelle entendue.",
           "ink": "lignes"
         }
@@ -307,6 +322,9 @@
       "guided": "Construire 13 avec une dizaine et trois unités, puis faire deux groupes de 4 jetons.",
       "exercise": "Écris le nombre composé d’une dizaine et de quatre unités ; trouve le double de 5.",
       "answer": "14 ; 10.",
+      "accept": [
+        "14 ; 10"
+      ],
       "remediation": "Utiliser un paquet de dix jetons puis ajouter les unités une par une.",
       "transfer": "Compter des places ou objets d’un trajet fictif, sans compter des personnes en mouvement.",
       "materials": "Cadre de dix, jetons, cartes 11–14.",
@@ -325,6 +343,9 @@
         {
           "prompt": "Tu as 10 jetons groupés et 3 jetons seuls. Quel nombre cela représente-t-il ?",
           "answer": "13.",
+          "accept": [
+            "13"
+          ],
           "explanation": "13 = 10 + 3 : une dizaine et trois unités."
         }
       ]
@@ -684,12 +705,18 @@
         {
           "prompt": "Lis : ra, ar, tou, out, pi, ip. Dans lesquelles lit-on d’abord la voyelle ?",
           "answer": "ar, out et ip.",
+          "accept": [
+            "ar, out et ip"
+          ],
           "explanation": "On lit toujours de gauche à droite : la voyelle, puis la consonne."
         },
         {
           "prompt": "Écoute les mots et écris-les.",
           "listen": "moto. papa.",
           "answer": "moto, papa.",
+          "accept": [
+            "moto, papa"
+          ],
           "explanation": "Chaque mot a deux syllabes : mo-to, pa-pa.",
           "ink": "lignes"
         }

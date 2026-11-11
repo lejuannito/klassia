@@ -105,6 +105,12 @@
       "guided": "Entourez le groupe verbal de chaque phrase et dites si le verbe dit une action ou un état.",
       "exercise": "Accorde le verbe : « Les filles (sauter) à la corde. L’arbitre (compter) les points. »",
       "answer": "Les filles sautent à la corde. L’arbitre compte les points.",
+      "accept": [
+        "Les filles sautent à la corde. L’arbitre compte les points."
+      ],
+      "reject": [
+        "Les filles saute à la corde. L’arbitre compte les points."
+      ],
       "remediation": "Trouver le sujet, puis choisir la terminaison qui va avec lui.",
       "transfer": "Décrire un jeu de la cour en trois phrases et vérifier chaque accord.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -112,12 +118,24 @@
         {
           "prompt": "Le verbe « sembler » dit-il une action ou un état ?",
           "answer": "Un état.",
+          "accept": [
+            "un état"
+          ],
+          "reject": [
+            "une action"
+          ],
           "explanation": "Sembler, comme être, décrit comment est quelqu’un."
         },
         {
           "prompt": "Écoute et écris.",
           "listen": "Les équipes jouent dans la cour.",
           "answer": "Les équipes jouent dans la cour.",
+          "accept": [
+            "Les équipes jouent dans la cour"
+          ],
+          "reject": [
+            "Les équipes joue dans la cour"
+          ],
           "explanation": "Sujet pluriel : jouent.",
           "ink": "lignes"
         }
@@ -148,6 +166,12 @@
       "guided": "Posez les questions quoi ? et à qui ? pour trouver le COD et le COI de chaque phrase.",
       "exercise": "Trouve le COD : « Les filles tiennent la corde. »",
       "answer": "la corde (les filles tiennent quoi ? la corde).",
+      "accept": [
+        "la corde"
+      ],
+      "reject": [
+        "les filles"
+      ],
       "remediation": "Poser la question « quoi ? » ou « qui ? » juste après le verbe.",
       "transfer": "Écrire une phrase sur un jeu avec un COD et un COI.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -155,6 +179,12 @@
         {
           "prompt": "Trouve le COI : « Fanta pense à la partie. »",
           "answer": "à la partie.",
+          "accept": [
+            "à la partie"
+          ],
+          "reject": [
+            "Fanta"
+          ],
           "explanation": "Fanta pense à quoi ? à la partie : préposition à."
         },
         {
@@ -189,6 +219,9 @@
       "guided": "Rangez ensemble six mots des jeux par ordre alphabétique, puis cherchez-en un dans un dictionnaire.",
       "exercise": "Range par ordre alphabétique : partie, équipe, but, arbitre.",
       "answer": "arbitre, but, équipe, partie.",
+      "accept": [
+        "arbitre, but, équipe, partie"
+      ],
       "remediation": "Écrire l’alphabet en haut de la feuille et pointer la première lettre de chaque mot.",
       "transfer": "Chercher dans le dictionnaire le sens d’un mot d’un jeu que l’on ne connaît pas.",
       "materials": "Un dictionnaire, ardoise ou cahier, crayon.",
@@ -196,6 +229,9 @@
         {
           "prompt": "Range : bille, balle, bâton.",
           "answer": "balle, bâton, bille.",
+          "accept": [
+            "balle, bâton, bille"
+          ],
           "explanation": "Même première lettre : on compare la deuxième (a, a, i), puis la troisième (l, t)."
         },
         {
@@ -243,6 +279,9 @@
           "prompt": "Écoute et écris.",
           "listen": "La partie est finie.",
           "answer": "La partie est finie.",
+          "accept": [
+            "La partie est finie"
+          ],
           "explanation": "est : verbe être (était).",
           "ink": "lignes"
         }
@@ -280,6 +319,13 @@
         {
           "prompt": "Choisis : « Nous avons (jouer / joué). »",
           "answer": "joué.",
+          "accept": [
+            "joué",
+            "nous avons joué"
+          ],
+          "reject": [
+            "jouer"
+          ],
           "explanation": "Après avoir, le participe passé s’écrit -é."
         },
         {
@@ -351,6 +397,9 @@
         {
           "prompt": "Say this number in words: 233.",
           "answer": "two hundred and thirty-three.",
+          "accept": [
+            "two hundred and thirty-three"
+          ],
           "explanation": "Two hundred, and, thirty-three."
         },
         {
@@ -387,6 +436,12 @@
       "guided": "The child reads the text aloud, then the numbers.",
       "exercise": "Read the text. How many counters does each player have?",
       "answer": "Each player has four counters.",
+      "accept": [
+        "Each player has four counters",
+        "four counters",
+        "four",
+        "4"
+      ],
       "remediation": "Read one sentence at a time; the answer is in the second sentence.",
       "transfer": "Play a board game at home and say the actions in English.",
       "materials": "The text on screen, number cards.",
@@ -394,11 +449,18 @@
         {
           "prompt": "Who wins the game?",
           "answer": "The first player home wins.",
+          "accept": [
+            "The first player home wins",
+            "the first player"
+          ],
           "explanation": "Read the last sentence."
         },
         {
           "prompt": "Read the number: 236.",
           "answer": "two hundred and thirty-six.",
+          "accept": [
+            "two hundred and thirty-six"
+          ],
           "explanation": "Two hundred, and, thirty-six."
         }
       ],
@@ -428,6 +490,9 @@
       "guided": "The child writes three school games and three numbers dictated by the adult.",
       "exercise": "Write in figures: two hundred and forty-one.",
       "answer": "241.",
+      "accept": [
+        "241"
+      ],
       "remediation": "Say the number slowly: two hundred → 2, forty → 4, one → 1.",
       "transfer": "Make a list of the games you play at break time.",
       "materials": "Lined paper or the writing pad.",
@@ -435,12 +500,18 @@
         {
           "prompt": "Write in figures: two hundred and six.",
           "answer": "206.",
+          "accept": [
+            "206"
+          ],
           "explanation": "No tens: write 0 in the middle."
         },
         {
           "prompt": "Listen and write the games.",
           "listen": "football. skipping.",
           "answer": "football, skipping.",
+          "accept": [
+            "football, skipping"
+          ],
           "explanation": "Listen to each word and write it.",
           "ink": "lignes"
         }
@@ -478,11 +549,21 @@
         {
           "prompt": "What is the opposite of win?",
           "answer": "lose.",
+          "accept": [
+            "lose"
+          ],
+          "reject": [
+            "win"
+          ],
           "explanation": "We win or we lose a game."
         },
         {
           "prompt": "You meet a friend in the street. What do you say?",
           "answer": "Hi!",
+          "accept": [
+            "Hi",
+            "Hello"
+          ],
           "explanation": "Hi is a greeting."
         }
       ],
@@ -575,6 +656,12 @@
       "guided": "Lisez et écrivez en lettres trois nombres entre 900 et 1 000, puis comptez de 990 à 1 000.",
       "exercise": "Écris en lettres : 968.",
       "answer": "neuf cent soixante-huit.",
+      "accept": [
+        "neuf cent soixante-huit"
+      ],
+      "reject": [
+        "neuf cents soixante-huit"
+      ],
       "remediation": "Écrire d’abord la décomposition (900 + 60 + 8), puis lire chaque partie.",
       "transfer": "Compter les points d’un jeu jusqu’à 1 000.",
       "materials": "Tableau C/D/U, bâtonnets, ardoise ou cahier, crayon.",
@@ -582,12 +669,18 @@
         {
           "prompt": "Range dans l’ordre croissant : 990, 909, 999, 919.",
           "answer": "909, 919, 990, 999.",
+          "accept": [
+            "909, 919, 990, 999"
+          ],
           "explanation": "On compare les dizaines quand les centaines sont pareilles."
         },
         {
           "prompt": "Écoute et écris le nombre en chiffres.",
           "listen": "neuf cent cinquante-quatre",
           "answer": "954.",
+          "accept": [
+            "954"
+          ],
           "explanation": "neuf cent cinquante-quatre = 900 + 50 + 4.",
           "ink": "lignes"
         }
@@ -618,6 +711,9 @@
       "guided": "Trouvez ensemble le triple de 15 et le tiers de 90.",
       "exercise": "Trouve : le triple de 32 ; le tiers de 63.",
       "answer": "96 ; 21.",
+      "accept": [
+        "96 ; 21"
+      ],
       "remediation": "Pour le tiers, partager les dizaines puis les unités : 63 = 60 + 3 → 20 + 1 = 21.",
       "transfer": "Partager les points d’un jeu en trois équipes égales.",
       "materials": "Billes ou jetons, ardoise ou cahier, crayon.",
@@ -625,11 +721,18 @@
         {
           "prompt": "Le tiers de 27, c’est…",
           "answer": "9.",
+          "accept": [
+            "9"
+          ],
           "explanation": "9 × 3 = 27."
         },
         {
           "prompt": "Problème : au jeu, Moussa marque 40 points et Fanta le triple. Combien Fanta en marque-t-elle ?",
           "answer": "120 points.",
+          "accept": [
+            "120 points",
+            "120"
+          ],
           "explanation": "3 × 40 = 120."
         }
       ],
@@ -659,6 +762,14 @@
       "guided": "Lisez trois heures sur une horloge dessinée et la même heure sur un affichage numérique.",
       "exercise": "La petite aiguille est entre 4 et 5, la grande sur 6. Quelle heure est-il ?",
       "answer": "4 h 30 (quatre heures et demie).",
+      "accept": [
+        "4 h 30",
+        "4h30",
+        "quatre heures et demie"
+      ],
+      "reject": [
+        "5 h 30"
+      ],
       "remediation": "Lire d’abord la petite aiguille, puis la grande en comptant de 5 en 5.",
       "transfer": "Noter l’heure de début et de fin d’un match ou d’un jeu.",
       "materials": "Horloge dessinée ou réelle, ardoise ou cahier, crayon.",
@@ -666,11 +777,20 @@
         {
           "prompt": "Combien de minutes dure une demi-heure ?",
           "answer": "30 minutes.",
+          "accept": [
+            "30 minutes",
+            "30 min",
+            "30"
+          ],
           "explanation": "1 h = 60 min ; la moitié est 30 min."
         },
         {
           "prompt": "Un match commence à 15 h et dure 1 h 30. À quelle heure finit-il ?",
           "answer": "À 16 h 30.",
+          "accept": [
+            "16 h 30",
+            "16h30"
+          ],
           "explanation": "15 h + 1 h = 16 h ; + 30 min = 16 h 30."
         }
       ],

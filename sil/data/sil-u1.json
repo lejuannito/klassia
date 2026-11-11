@@ -75,6 +75,10 @@
         {
           "prompt": "Quelle lettre vient juste après d dans l’alphabet ? Et juste avant k ?",
           "answer": "Après d vient e. Avant k vient j.",
+          "accept": [
+            "e, j",
+            "e et j"
+          ],
           "explanation": "On récite l’alphabet depuis le début ou depuis une lettre connue, en montrant les lettres."
         },
         {
@@ -117,12 +121,22 @@
         {
           "prompt": "Quelle lettre manque ? n o … q r",
           "answer": "p.",
+          "accept": [
+            "p"
+          ],
+          "reject": [
+            "o",
+            "q"
+          ],
           "explanation": "Dans l’alphabet, p vient entre o et q."
         },
         {
           "prompt": "Écoute le nom des lettres. Écris-les ou montre-les, dans l’ordre.",
           "listen": "r. s. v.",
           "answer": "r, s, v.",
+          "accept": [
+            "r, s, v"
+          ],
           "explanation": "On entend le nom de la lettre : erre, esse, vé. On l’écrit de gauche à droite.",
           "ink": "lignes"
         }
@@ -228,6 +242,10 @@
         {
           "prompt": "Tu as 2 jetons. Ajoute 1 jeton. Combien en as-tu ?",
           "answer": "3 jetons.",
+          "accept": [
+            "3 jetons",
+            "3"
+          ],
           "explanation": "Pointe chaque jeton : un, deux, trois."
         }
       ]
@@ -877,6 +895,9 @@
         {
           "prompt": "Montre les majuscules dans cette ligne : a B c D e.",
           "answer": "B et D.",
+          "accept": [
+            "B et D"
+          ],
           "explanation": "Une majuscule est souvent plus grande ; ici, B et D sont les majuscules de b et d."
         },
         {

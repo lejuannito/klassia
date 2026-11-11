@@ -63,12 +63,19 @@
         {
           "prompt": "Dans cette ligne, combien vois-tu de n et de m : n m n m m ?",
           "answer": "Deux n et trois m.",
+          "accept": [
+            "deux n et trois m",
+            "2 n et 3 m"
+          ],
           "explanation": "m a deux ponts, n un seul."
         },
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "na. ni. nou.",
           "answer": "na, ni, nou.",
+          "accept": [
+            "na, ni, nou"
+          ],
           "explanation": "On écrit n, puis la voyelle entendue.",
           "ink": "lignes"
         }
@@ -142,12 +149,22 @@
         {
           "prompt": "Lis « banane » et « ruban ». Dans lequel entends-tu « an » ?",
           "answer": "Dans ruban : ru-ban.",
+          "accept": [
+            "ruban",
+            "dans ruban"
+          ],
+          "reject": [
+            "banane"
+          ],
           "explanation": "Dans banane, une voyelle suit chaque n : on lit ba-na-ne."
         },
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "man. tan. pan.",
           "answer": "man, tan, pan.",
+          "accept": [
+            "man, tan, pan"
+          ],
           "explanation": "Le son « an » peut s’écrire an ou en : men, ten, pen sont aussi acceptés à ce stade.",
           "ink": "lignes"
         }
@@ -218,12 +235,18 @@
         {
           "prompt": "Lis : va, av, vou, ov. Lesquelles commencent par v ?",
           "answer": "va et vou.",
+          "accept": [
+            "va et vou"
+          ],
           "explanation": "av et ov commencent par une voyelle."
         },
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "vé. vo. vi.",
           "answer": "vé, vo, vi.",
+          "accept": [
+            "vé, vo, vi"
+          ],
           "explanation": "On écrit v, puis la voyelle entendue.",
           "ink": "lignes"
         }
@@ -301,6 +324,9 @@
       "guided": "Placer deux jetons dans trois cercles et compter chaque jeton dans l’ordre.",
       "exercise": "Quel nombre vient après 18 ? Combien de jetons dans 3 groupes de 2 ?",
       "answer": "19 ; 6.",
+      "accept": [
+        "19 ; 6"
+      ],
       "remediation": "Reprendre le comptage avec un groupe à la fois et déplacer chaque jeton compté.",
       "transfer": "Compter des éléments d’un jeu coopératif sans attribuer de compétition au résultat.",
       "materials": "Jetons, cercles dessinés, cartes 18–19.",
@@ -319,6 +345,10 @@
         {
           "prompt": "Trois groupes contiennent chacun 2 jetons. Combien de jetons en tout ?",
           "answer": "6 jetons.",
+          "accept": [
+            "6 jetons",
+            "6"
+          ],
           "explanation": "Compte les groupes : 2 + 2 + 2 = 6."
         }
       ]
@@ -780,12 +810,23 @@
         {
           "prompt": "Dans « maman », combien de fois entends-tu « an » ?",
           "answer": "Une fois : ma-man.",
+          "accept": [
+            "1 fois",
+            "1"
+          ],
+          "reject": [
+            "2 fois",
+            "deux fois"
+          ],
           "explanation": "La première syllabe se lit ma, la deuxième man."
         },
         {
           "prompt": "Écoute les mots et écris-les.",
           "listen": "vélo. lune. maman.",
           "answer": "vélo, lune, maman.",
+          "accept": [
+            "vélo, lune, maman"
+          ],
           "explanation": "Dans maman, le son « an » s’écrit an.",
           "ink": "lignes"
         }

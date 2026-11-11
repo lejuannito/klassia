@@ -40,6 +40,9 @@
           "prompt": "Écoute et écris les voyelles dans l’ordre.",
           "listen": "u. i. u. o.",
           "answer": "u, i, u, o.",
+          "accept": [
+            "u, i, u, o"
+          ],
           "explanation": "On écoute une voyelle à la fois.",
           "ink": "lignes"
         }
@@ -231,6 +234,11 @@
         {
           "prompt": "Il y a 3 jetons. Tu les retires tous. Combien en reste-t-il ?",
           "answer": "0 jeton.",
+          "accept": [
+            "0 jeton",
+            "0",
+            "zéro"
+          ],
           "explanation": "Zéro représente ici une collection vide."
         }
       ]
@@ -245,6 +253,12 @@
       "guided": "Comparer une boîte vide et une balle ; prédire laquelle roule puis vérifier doucement sur une table basse.",
       "exercise": "Quel objet roule : la boîte ou la balle ?",
       "answer": "La balle ; la réponse vient de l’observation.",
+      "accept": [
+        "la balle"
+      ],
+      "reject": [
+        "la boîte"
+      ],
       "remediation": "Faire rouler chaque objet lentement puis nommer la différence.",
       "transfer": "Choisir un rangement adapté à des objets de classe.",
       "materials": "Balle souple, boîte vide, table stable.",
@@ -270,6 +284,12 @@
       "guided": "Remettre deux cartes-étapes dans le bon ordre et faire l’action avec l’adulte.",
       "exercise": "Que fais-tu en premier : prendre la feuille ou poser le crayon ?",
       "answer": "Prendre la feuille.",
+      "accept": [
+        "Prendre la feuille"
+      ],
+      "reject": [
+        "Poser le crayon"
+      ],
       "remediation": "Représenter chaque action par un dessin et les placer dans l’ordre.",
       "transfer": "Lire une consigne illustrée avec l’aide d’un adulte.",
       "materials": "Cartes dessinées, feuille, crayon.",

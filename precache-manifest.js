@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "03fd3297ded688c7e9e9469cb6adc498afde1c63abbd1a7fa432f8138c375fa9",
+  "version": "23d914d7dace455c114d68e146b22599e4c2a0b94985249672f32da73f1a7b9e",
   "files": [
     {
       "url": "./app.js",
@@ -299,7 +299,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "694ca9cad4880b59a54eb71ae3f41be34042b6a21b2e05abd528f905de8c0f52"
+      "sha256": "52b47e0dfdc03a7cd28aea2e6f4e1da88ffb48e4328be53df9e4cc76e2950481"
     },
     {
       "url": "./data/manuels/champions-francais-ce2.json",

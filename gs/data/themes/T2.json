@@ -17,19 +17,19 @@
           "type": "story",
           "title_fr": "Une pause pour Lila",
           "title_en": "A rest for Lila",
-          "goal_fr": "Écoute le récit, puis raconte le début, le problème et la fin.",
-          "goal_en": "Listen, then tell the beginning, problem and ending.",
+          "goal_fr": "Comprendre un récit court, le raconter dans l’ordre et imaginer une autre fin.",
+          "goal_en": "Understand a short story, retell it in order and imagine another ending.",
           "prompt_fr": "Écoute le récit, puis raconte le début, le problème et la fin. Imagine une autre fin qui respecte les personnages.",
           "prompt_en": "Listen, then tell the beginning, problem and ending. Imagine another ending that fits the characters.",
           "steps_fr": [
-            "Préparer avec l’adulte : Écoute le récit, puis raconte le début, le problème et la fin. Imagine une autre fin qui respecte les personnages.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment Lila prend-elle soin de son corps ?"
+            "Écoute l’histoire « Une pause pour Lila » jusqu’au bout.",
+            "Raconte avec tes mots : le début, le problème, puis la fin.",
+            "Réponds à la question de l’adulte, puis invente une autre fin possible."
           ],
           "steps_en": [
-            "Prepare with the adult: Listen, then tell the beginning, problem and ending. Imagine another ending that fits the characters.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How does Lila look after herself?"
+            "Listen to the story “A break for Lila” to the end.",
+            "Tell it in your own words: the beginning, the problem, then the ending.",
+            "Answer the adult’s question, then make up another possible ending."
           ],
           "questions": [
             {
@@ -39,13 +39,14 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Elle reconnaît sa fatigue, prévient l’adulte et se repose.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Raconte le début, le problème et la fin dans l’ordre.",
+            "Répond à la question en s’appuyant sur l’histoire et propose une fin qui garde les mêmes personnages."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "l’histoire lue à l’écran ou par l’adulte"
+          ],
+          "materials_en": [
+            "the story read on screen or by the adult"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -69,19 +70,19 @@
           "type": "poem",
           "title_fr": "La comptine du thème",
           "title_en": "Our theme rhyme",
-          "goal_fr": "Écoute les quatre lignes.",
-          "goal_en": "Listen to the four lines.",
-          "prompt_fr": "Écoute les quatre lignes. Redis-les par deux avec un geste de ton choix. Alterne une ligne avec un partenaire.",
-          "prompt_en": "Listen to the four lines. Say two at a time with a gesture you choose. Take turns saying a line.",
+          "goal_fr": "Mémoriser une comptine courte et l’accompagner de gestes.",
+          "goal_en": "Learn a short rhyme by heart and add actions.",
+          "prompt_fr": "Écoute la comptine. Redis-la deux lignes à la fois avec un geste, puis dis-la avec l’adulte, une ligne chacun.",
+          "prompt_en": "Listen to the rhyme. Say it two lines at a time with an action, then say it with the adult, one line each.",
           "steps_fr": [
-            "Préparer avec l’adulte : Écoute les quatre lignes. Redis-les par deux avec un geste de ton choix. Alterne une ligne avec un partenaire.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel geste accompagne une ligne ? Explique ton choix."
+            "Écoute la comptine en entier, sans répéter.",
+            "Redis-la deux lignes à la fois, avec un geste pour chaque ligne.",
+            "Dis-la avec l’adulte : une ligne chacun, puis toute la comptine."
           ],
           "steps_en": [
-            "Prepare with the adult: Listen to the four lines. Say two at a time with a gesture you choose. Take turns saying a line.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which gesture goes with one line? Explain your choice."
+            "Listen to the whole rhyme without repeating.",
+            "Say it two lines at a time, with an action for each line.",
+            "Say it with the adult: one line each, then the whole rhyme."
           ],
           "questions": [
             {
@@ -91,15 +92,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Un geste en rapport avec le sens; accepter les créations de l’enfant.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Redit au moins deux lignes avec les mots justes.",
+            "Choisit un geste en lien avec le sens d’une ligne."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "aucun : la voix et les gestes"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "none: voice and gestures"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 11, p. 44–46, deuxième année",
             "EN : table 34, p. 61, Nursery Two"
@@ -121,19 +123,19 @@
           "type": "reading",
           "title_fr": "Petite lecture en anglais : hat, hand",
           "title_en": "English sounds and reading: hat, hand",
-          "goal_fr": "Écoute les mots anglais et le son de départ.",
-          "goal_en": "Listen to the English words and their first sound.",
+          "goal_fr": "Entendre le son /h/ au début de mots anglais et lire deux mots courts dans une phrase.",
+          "goal_en": "Hear the sound /h/ at the start of English words and read two short words in a sentence.",
           "prompt_fr": "Écoute les mots anglais et le son de départ. Repère les mots dans la phrase, puis essaie de lire avec l’adulte.",
           "prompt_en": "Listen to the English words and their first sound. Find the words in the sentence, then try reading with the adult.",
           "steps_fr": [
-            "Préparer avec l’adulte : Écoute les mots anglais et le son de départ. Repère les mots dans la phrase, puis essaie de lire avec l’adulte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Question en anglais : Which word starts with /h/: hand or sun?"
+            "Écoute les deux mots anglais : hat, hand. Répète le premier son, /h/.",
+            "Retrouve ces deux mots dans la phrase du tableau et montre-les.",
+            "Lis la phrase avec l’adulte en pointant chaque mot, puis réponds à la question en anglais."
           ],
           "steps_en": [
-            "Prepare with the adult: Listen to the English words and their first sound. Find the words in the sentence, then try reading with the adult.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which word starts with /h/: hand or sun?"
+            "Listen to the two English words: hat, hand. Say the first sound, /h/.",
+            "Find these two words in the sentence in the table and point to them.",
+            "Read the sentence with the adult, pointing to each word, then answer the question in English."
           ],
           "questions": [
             {
@@ -143,15 +145,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : hand",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Dit si un mot commence par /h/.",
+            "Pointe hat et hand dans la phrase."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "le tableau de l’activité à l’écran",
+            "papier et crayon pour recopier un mot"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "the activity table on screen",
+            "paper and a pencil to copy a word"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableaux 13–14, p. 49–56, deuxième année",
             "EN : table 36, p. 63, Nursery Two"
@@ -179,19 +184,19 @@
           "type": "oral",
           "title_fr": "Décrire une sensation",
           "title_en": "Describing a feeling",
-          "goal_fr": "Mime une personne qui a froid puis une personne qui a chaud.",
-          "goal_en": "Act feeling cold and feeling hot.",
+          "goal_fr": "Dire ce que l’on ressent dans son corps pour demander de l’aide.",
+          "goal_en": "Say how one’s body feels in order to ask for help.",
           "prompt_fr": "Mime une personne qui a froid puis une personne qui a chaud. Dis comment elle peut le signaler à un adulte.",
           "prompt_en": "Act feeling cold and feeling hot. Say how you can tell an adult.",
           "steps_fr": [
-            "Préparer avec l’adulte : Mime une personne qui a froid puis une personne qui a chaud. Dis comment elle peut le signaler à un adulte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que peux-tu dire si tu es fatigué ?"
+            "Mime une personne qui a froid, puis une personne qui a chaud.",
+            "Dis la phrase qui va avec : « J’ai froid », « J’ai chaud ».",
+            "Dis à qui tu le dis et ce que tu demandes : « J’ai froid, je peux mettre mon pull ? »"
           ],
           "steps_en": [
-            "Prepare with the adult: Act feeling cold and feeling hot. Say how you can tell an adult.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What can you say when you feel tired?"
+            "Act out someone who is cold, then someone who is hot.",
+            "Say the matching sentence: “I am cold”, “I am hot”.",
+            "Say who you tell and what you ask: “I am cold, can I put my jumper on?”"
           ],
           "questions": [
             {
@@ -201,15 +206,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : « Je suis fatigué; je voudrais me reposer. »",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Nomme une sensation avec une phrase : j’ai froid, j’ai chaud, je suis fatigué.",
+            "Formule une demande à un adulte."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "aucun : la voix et les gestes"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "none: voice and gestures"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 9, p. 37–40, deuxième année",
             "EN : table 38, p. 65, Nursery Two"
@@ -229,19 +235,19 @@
           "type": "prewriting",
           "title_fr": "Des lettres et mon prénom",
           "title_en": "Letters and my name",
-          "goal_fr": "Observe les modèles D E F et d e f.",
-          "goal_en": "Look at D E F and d e f.",
+          "goal_fr": "Reconnaître et tracer les lettres D E F ; copier son prénom.",
+          "goal_en": "Recognise and write the letters D E F; copy one’s name.",
           "prompt_fr": "Observe les modèles D E F et d e f. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
           "prompt_en": "Look at D E F and d e f. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
           "steps_fr": [
-            "Préparer avec l’adulte : Observe les modèles D E F et d e f. Trace dans l’air puis sur papier; copie ton prénom depuis le modèle écrit par l’adulte. Ne force pas une prise douloureuse.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment vérifies-tu que les lettres de ton prénom sont dans l’ordre ?"
+            "Regarde les lettres D E F et d e f sur le modèle. Dis leur nom avec l’adulte.",
+            "Trace chaque lettre avec le doigt dans l’air, puis au crayon entre deux lignes.",
+            "Copie ton prénom sous le modèle écrit par l’adulte, une lettre après l’autre."
           ],
           "steps_en": [
-            "Prepare with the adult: Look at D E F and d e f. Trace in the air and on paper; copy your name from the adult’s model. Stop if your grip hurts.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How do you check your name’s letters are in order?"
+            "Look at the letters D E F and d e f on the model. Say their names with the adult.",
+            "Trace each letter in the air with your finger, then with a pencil between two lines.",
+            "Copy your name under the adult’s model, one letter after another."
           ],
           "questions": [
             {
@@ -251,14 +257,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je compare au modèle de gauche à droite, une lettre après l’autre.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Trace les lettres en partant du bon endroit, comme sur le modèle.",
+            "Copie son prénom dans l’ordre, de gauche à droite."
           ],
           "materials": [
-            "feuille",
-            "crayon adapté",
-            "modèle du prénom fourni par l’adulte"
+            "une feuille avec deux lignes",
+            "un crayon adapté à la main",
+            "le prénom de l’enfant écrit par l’adulte"
+          ],
+          "materials_en": [
+            "a sheet with two lines",
+            "a pencil that suits the child’s hand",
+            "the child’s name written by the adult"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -287,19 +297,19 @@
           "type": "bassa",
           "title_fr": "Les mots bassa du thème",
           "title_en": "Bassa words for this theme",
-          "goal_fr": "Observe les traductions bassa proposées ci-dessous.",
-          "goal_en": "Look at the proposed Bassa translations below.",
+          "goal_fr": "Découvrir quelques mots bassa du thème et les relier à leur sens.",
+          "goal_en": "Discover a few Bassa words of the theme and link them to their meaning.",
           "prompt_fr": "Observe les traductions bassa proposées ci-dessous. Associe un mot à un objet, un geste ou un dessin; compare les variantes avec l’adulte.",
           "prompt_en": "Look at the proposed Bassa translations below. Match a word to an object, action or drawing; compare the variants with the adult.",
           "steps_fr": [
-            "Préparer avec l’adulte : Observe les traductions bassa proposées ci-dessous. Associe un mot à un objet, un geste ou un dessin; compare les variantes avec l’adulte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Choisis un sens et retrouve une de ses traductions proposées."
+            "Écoute ou lis avec l’adulte les mots bassa du thème.",
+            "Associe chaque mot à un objet, un geste ou un dessin.",
+            "Compare les formes proposées pour un même sens : toutes sont acceptées."
           ],
           "steps_en": [
-            "Prepare with the adult: Look at the proposed Bassa translations below. Match a word to an object, action or drawing; compare the variants with the adult.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Choose a meaning and find one proposed translation."
+            "Listen to or read the theme’s Bassa words with the adult.",
+            "Match each word with an object, a gesture or a drawing.",
+            "Compare the forms given for the same meaning: all of them are accepted."
           ],
           "questions": [
             {
@@ -309,15 +319,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Toutes les formes affichées pour ce sens sont acceptées; le statut documentaire reste visible.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Associe au moins deux mots bassa à leur sens.",
+            "Accepte qu’un même sens ait plusieurs formes."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "les mots bassa du thème affichés dans Klassia",
+            "quelques objets ou dessins du thème"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "the theme’s Bassa words shown in Klassia",
+            "a few objects or drawings of the theme"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 15, p. 57–58, deuxième année",
             "EN : table 3, p. 22, Nursery Two, national languages"
@@ -507,19 +520,19 @@
           "type": "math",
           "title_fr": "Je compte jusqu’à 8",
           "title_en": "Counting to 8",
-          "goal_fr": "Prends 6 jetons.",
-          "goal_en": "Take 6 counters.",
-          "prompt_fr": "Prends 6 jetons. Ajoute 2 jetons. Compte chaque jeton une seule fois. Pour 8, forme des groupes de dix quand c’est possible.",
-          "prompt_en": "Take 6 counters. Add 2 counters. Count each once. Group ten together when possible.",
+          "goal_fr": "Réunir deux collections et trouver le total, jusqu’à 8.",
+          "goal_en": "Put two sets together and find the total, up to 8.",
+          "prompt_fr": "Prends 6 jetons. Ajoute 2 jetons. Compte chaque jeton une seule fois.",
+          "prompt_en": "Take 6 counters. Add 2 counters. Count each counter once.",
           "steps_fr": [
-            "Préparer avec l’adulte : Prends 6 jetons. Ajoute 2 jetons. Compte chaque jeton une seule fois. Pour 8, forme des groupes de dix quand c’est possible.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Combien de jetons as-tu maintenant ?"
+            "Pose 6 jetons en ligne et compte-les.",
+            "Ajoute 2 jetons, un par un.",
+            "Compte tous les jetons en touchant chacun une fois. Combien y en a-t-il ?"
           ],
           "steps_en": [
-            "Prepare with the adult: Take 6 counters. Add 2 counters. Count each once. Group ten together when possible.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How many counters do you have now?"
+            "Put 6 counters in a line and count them.",
+            "Add 2 counters, one by one.",
+            "Count all the counters, touching each one once. How many are there?"
           ],
           "questions": [
             {
@@ -529,13 +542,14 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : 8 jetons.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Touche chaque jeton une seule fois en comptant.",
+            "Annonce le total, 8, et sait le montrer ou l’écrire."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "8 jetons, bouchons ou graines"
+          ],
+          "materials_en": [
+            "8 counters, bottle tops or seeds"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -570,19 +584,19 @@
           "type": "math",
           "title_fr": "Partager des jetons",
           "title_en": "Sharing counters",
-          "goal_fr": "Prends 8 jetons.",
-          "goal_en": "Take 8 counters.",
+          "goal_fr": "Partager une collection en deux parts égales en distribuant un par un.",
+          "goal_en": "Share a set into two equal parts by giving out one at a time.",
           "prompt_fr": "Prends 8 jetons. Distribue-les un par un dans deux coupelles. Vérifie que chacun reçoit autant.",
           "prompt_en": "Take 8 counters. Deal them one at a time into two bowls. Check both have the same amount.",
           "steps_fr": [
-            "Préparer avec l’adulte : Prends 8 jetons. Distribue-les un par un dans deux coupelles. Vérifie que chacun reçoit autant.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Combien y a-t-il dans chaque coupelle ?"
+            "Pose 8 jetons et deux coupelles.",
+            "Distribue les jetons un par un : un dans chaque coupelle, puis encore.",
+            "Compte chaque coupelle. Ont-elles autant ?"
           ],
           "steps_en": [
-            "Prepare with the adult: Take 8 counters. Deal them one at a time into two bowls. Check both have the same amount.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How many are in each bowl?"
+            "Put out 8 counters and two bowls.",
+            "Give out the counters one at a time: one in each bowl, then again.",
+            "Count each bowl. Do they have the same number?"
           ],
           "questions": [
             {
@@ -592,13 +606,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : 4, car 4 et 4 font 8.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Distribue un par un en alternant les coupelles.",
+            "Trouve 4 dans chaque coupelle et dit que c’est pareil."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "8 jetons, bouchons ou graines",
+            "deux coupelles ou deux assiettes"
+          ],
+          "materials_en": [
+            "8 counters, bottle tops or seeds",
+            "two bowls or two plates"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -620,19 +637,19 @@
           "type": "science",
           "title_fr": "Mon souffle déplace du papier",
           "title_en": "My breath moves paper",
-          "goal_fr": "Souffle doucement vers une bande de papier tenue par l’adulte.",
-          "goal_en": "Blow gently towards a paper strip held by the adult.",
+          "goal_fr": "Observer que l’air soufflé peut faire bouger un objet léger.",
+          "goal_en": "Observe that blown air can move a light object.",
           "prompt_fr": "Souffle doucement vers une bande de papier tenue par l’adulte. Compare avec le papier quand tu ne souffles plus.",
           "prompt_en": "Blow gently towards a paper strip held by the adult. Compare it when you stop blowing.",
           "steps_fr": [
-            "Préparer avec l’adulte : Souffle doucement vers une bande de papier tenue par l’adulte. Compare avec le papier quand tu ne souffles plus.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Qu’est-ce qui fait bouger la bande ?"
+            "L’adulte tient une bande de papier devant ta bouche, à une main de distance.",
+            "Souffle doucement, puis plus fort : regarde la bande.",
+            "Arrête de souffler et compare."
           ],
           "steps_en": [
-            "Prepare with the adult: Blow gently towards a paper strip held by the adult. Compare it when you stop blowing.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What makes the strip move?"
+            "The adult holds a strip of paper in front of your mouth, a hand’s width away.",
+            "Blow gently, then harder: watch the strip.",
+            "Stop blowing and compare."
           ],
           "questions": [
             {
@@ -642,15 +659,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : L’air soufflé; le papier reste plus immobile sans souffle.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Décrit le mouvement de la bande quand il souffle.",
+            "Explique que c’est l’air soufflé qui la fait bouger."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une bande de papier léger"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a strip of light paper"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableaux 20–22, p. 79–86, deuxième année",
             "EN : domaine 2, p. 66–76, Nursery Two"
@@ -670,19 +688,19 @@
           "type": "digital",
           "title_fr": "Un bouton pour allumer",
           "title_en": "A power button",
-          "goal_fr": "Observe le signe ⏻ dessiné sur une carte.",
-          "goal_en": "Look at the ⏻ symbol on a card.",
+          "goal_fr": "Reconnaître le symbole de mise en marche et savoir qu’on demande avant d’utiliser un appareil.",
+          "goal_en": "Recognise the power symbol and know that we ask before using a device.",
           "prompt_fr": "Observe le signe ⏻ dessiné sur une carte. Retrouve-le sur une télécommande débranchée ou une maquette.",
           "prompt_en": "Look at the ⏻ symbol on a card. Find it on a disconnected remote or model.",
           "steps_fr": [
-            "Préparer avec l’adulte : Observe le signe ⏻ dessiné sur une carte. Retrouve-le sur une télécommande débranchée ou une maquette.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que demande-t-on avant d’utiliser un appareil ?"
+            "Regarde le symbole ⏻ dessiné sur une carte.",
+            "Cherche-le sur une télécommande débranchée ou sur un dessin d’appareil.",
+            "Dis ce que tu fais avant d’appuyer sur un vrai appareil."
           ],
           "steps_en": [
-            "Prepare with the adult: Look at the ⏻ symbol on a card. Find it on a disconnected remote or model.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What do we do before using a device?"
+            "Look at the ⏻ symbol drawn on a card.",
+            "Find it on an unplugged remote control or on a drawing of a device.",
+            "Say what you do before pressing a real device."
           ],
           "questions": [
             {
@@ -692,15 +710,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : La permission de l’adulte.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Retrouve le symbole ⏻ sur l’objet ou le dessin.",
+            "Dit qu’il demande la permission à l’adulte."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une carte avec le symbole ⏻",
+            "une télécommande débranchée ou un dessin"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a card with the ⏻ symbol",
+            "an unplugged remote control or a drawing"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 19, p. 77–78, deuxième année",
             "EN : table 40, p. 68, Nursery Two"
@@ -720,19 +741,19 @@
           "type": "sensory",
           "title_fr": "Écouter un son court ou long",
           "title_en": "Short and long sounds",
-          "goal_fr": "L’adulte frappe une fois dans les mains puis fredonne une note tenue.",
-          "goal_en": "The adult claps once and then hums a held note.",
+          "goal_fr": "Comparer la durée de deux sons.",
+          "goal_en": "Compare how long two sounds last.",
           "prompt_fr": "L’adulte frappe une fois dans les mains puis fredonne une note tenue. Compare la durée, pas la force.",
           "prompt_en": "The adult claps once and then hums a held note. Compare length, not loudness.",
           "steps_fr": [
-            "Préparer avec l’adulte : L’adulte frappe une fois dans les mains puis fredonne une note tenue. Compare la durée, pas la force.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel son dure le plus longtemps ?"
+            "Écoute l’adulte frapper une fois dans les mains.",
+            "Écoute-le chanter une note longtemps : « mmmmm ».",
+            "Dis quel son a duré le plus longtemps, puis fais un son court et un son long."
           ],
           "steps_en": [
-            "Prepare with the adult: The adult claps once and then hums a held note. Compare length, not loudness.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which sound lasts longer?"
+            "Listen to the adult clapping once.",
+            "Listen to them humming one note for a long time: “mmmmm”.",
+            "Say which sound lasted longer, then make a short sound and a long sound."
           ],
           "questions": [
             {
@@ -742,15 +763,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : La note tenue, dans cet essai.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Distingue son court et son long.",
+            "Produit à son tour un son court puis un son long."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "aucun : la voix et les gestes"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "none: voice and gestures"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableau 18, p. 72–76, deuxième année",
             "EN : domaine 2, p. 66–76, Nursery Two"
@@ -779,19 +801,19 @@
           "type": "care",
           "title_fr": "Des mains propres",
           "title_en": "Clean hands",
-          "goal_fr": "Mime avec l’adulte : mouiller, savonner et frotter toutes les faces des mains, rincer, sécher.",
-          "goal_en": "With the adult, act wetting, soaping and rubbing all parts of the hands, rinsing and drying.",
+          "goal_fr": "Se laver les mains en suivant toutes les étapes.",
+          "goal_en": "Wash one’s hands following every step.",
           "prompt_fr": "Mime avec l’adulte : mouiller, savonner et frotter toutes les faces des mains, rincer, sécher. Pratique au lavabo accompagné.",
           "prompt_en": "With the adult, act wetting, soaping and rubbing all parts of the hands, rinsing and drying. Practise at the sink with help.",
           "steps_fr": [
-            "Préparer avec l’adulte : Mime avec l’adulte : mouiller, savonner et frotter toutes les faces des mains, rincer, sécher. Pratique au lavabo accompagné.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que fait-on après avoir frotté avec le savon ?"
+            "Mime avec l’adulte : mouiller, savonner, frotter toutes les faces des mains.",
+            "Rince, puis sèche avec un linge propre.",
+            "Fais-le pour de vrai au lavabo ou avec une bassine, avec l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: With the adult, act wetting, soaping and rubbing all parts of the hands, rinsing and drying. Practise at the sink with help.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What comes after rubbing with soap?"
+            "Mime with the adult: wet, soap, rub every side of your hands.",
+            "Rinse, then dry with a clean cloth.",
+            "Do it for real at the sink or with a bowl, with the adult."
           ],
           "questions": [
             {
@@ -801,15 +823,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : On rince puis on sèche.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Suit les étapes dans l’ordre.",
+            "Frotte le dos des mains et entre les doigts."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "eau, savon",
+            "un linge propre"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "water, soap",
+            "a clean cloth"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableaux 23–24, p. 87–93, deuxième année",
             "EN : domaine 3, p. 77–81, Nursery Two"
@@ -829,19 +854,19 @@
           "type": "social",
           "title_fr": "Respecter un refus",
           "title_en": "Respecting a refusal",
-          "goal_fr": "Demande à un partenaire s’il veut jouer à se toucher les mains.",
-          "goal_en": "Ask a partner whether they want a hand-touch game.",
-          "prompt_fr": "Demande à un partenaire s’il veut jouer à se toucher les mains. S’il dit non, propose un jeu sans contact.",
-          "prompt_en": "Ask a partner whether they want a hand-touch game. If they say no, offer a game without contact.",
+          "goal_fr": "Demander avant de toucher quelqu’un et respecter un refus.",
+          "goal_en": "Ask before touching someone and respect a no.",
+          "prompt_fr": "Demande à l’adulte s’il veut jouer à taper dans les mains. S’il dit non, propose un jeu sans contact.",
+          "prompt_en": "Ask the adult whether they want to play a clapping game. If they say no, suggest a game without touching.",
           "steps_fr": [
-            "Préparer avec l’adulte : Demande à un partenaire s’il veut jouer à se toucher les mains. S’il dit non, propose un jeu sans contact.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que fais-tu après un refus ?"
+            "Demande à l’adulte : « Veux-tu jouer à taper dans les mains ? »",
+            "L’adulte répond parfois oui, parfois non.",
+            "Si c’est non, propose un jeu sans contact."
           ],
           "steps_en": [
-            "Prepare with the adult: Ask a partner whether they want a hand-touch game. If they say no, offer a game without contact.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What do you do after a refusal?"
+            "Ask the adult: “Do you want to play a clapping game?”",
+            "The adult sometimes answers yes, sometimes no.",
+            "If it is no, suggest a game without touching."
           ],
           "questions": [
             {
@@ -851,15 +876,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je respecte le refus et je n’insiste pas.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Pose la question avant le contact.",
+            "Accepte le refus et propose autre chose sans insister."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "aucun : la voix et les gestes"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "none: voice and gestures"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableau 25, p. 94–95, deuxième année",
             "EN : domaine 3, p. 77–81, Nursery Two"
@@ -879,19 +905,19 @@
           "type": "safety",
           "title_fr": "Mon corps m’appartient",
           "title_en": "My body belongs to me",
-          "goal_fr": "Avec une marionnette, joue une demande de contact et une réponse non.",
-          "goal_en": "Use a puppet to act a request for contact and a refusal.",
+          "goal_fr": "Savoir dire non à un contact qui gêne et en parler à un adulte de confiance.",
+          "goal_en": "Know how to say no to a touch that feels wrong and tell a trusted adult.",
           "prompt_fr": "Avec une marionnette, joue une demande de contact et une réponse non. L’adulte montre comment demander de l’aide à une personne de confiance.",
           "prompt_en": "Use a puppet to act a request for contact and a refusal. The adult models asking a trusted person for help.",
           "steps_fr": [
-            "Préparer avec l’adulte : Avec une marionnette, joue une demande de contact et une réponse non. L’adulte montre comment demander de l’aide à une personne de confiance.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Si un contact te gêne, peux-tu en parler ?"
+            "Avec une marionnette, l’adulte joue une demande de contact qui gêne.",
+            "Dis « Non ! », éloigne-toi d’un pas.",
+            "Dis à quel adulte de confiance tu en parles."
           ],
           "steps_en": [
-            "Prepare with the adult: Use a puppet to act a request for contact and a refusal. The adult models asking a trusted person for help.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Can you tell someone about uncomfortable contact?"
+            "With a puppet, the adult acts out a request for a touch that feels wrong.",
+            "Say “No!” and take a step back.",
+            "Say which trusted adult you would tell."
           ],
           "questions": [
             {
@@ -901,15 +927,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Oui; je peux dire non, m’éloigner et en parler à un adulte de confiance.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Dit non clairement et s’éloigne.",
+            "Nomme un adulte de confiance à qui en parler."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une marionnette ou une poupée"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a puppet or a doll"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableau 26, p. 96–97, deuxième année",
             "EN : domaine 3, p. 77–81, Nursery Two"
@@ -938,19 +965,19 @@
           "type": "art",
           "title_fr": "Je dessine et je raconte",
           "title_en": "Drawing and telling",
-          "goal_fr": "Dessine un visage avec yeux, nez et bouche placés.",
-          "goal_en": "Draw a face with eyes, nose and mouth positioned.",
+          "goal_fr": "Représenter une idée par le dessin et la présenter en une ou deux phrases.",
+          "goal_en": "Show an idea in a drawing and present it in one or two sentences.",
           "prompt_fr": "Dessine un visage avec yeux, nez et bouche placés. Commence par les grandes formes, ajoute deux détails puis présente ton dessin.",
           "prompt_en": "Draw a face with eyes, nose and mouth positioned. Start with large shapes, add two details and present your work.",
           "steps_fr": [
-            "Préparer avec l’adulte : Dessine un visage avec yeux, nez et bouche placés. Commence par les grandes formes, ajoute deux détails puis présente ton dessin.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel détail aide à comprendre ton dessin ?"
+            "Trace un grand ovale pour le visage, puis place les yeux, le nez et la bouche.",
+            "Ajoute deux détails qui aident à reconnaître ton dessin.",
+            "Présente ton dessin à l’adulte : dis ce que tu as dessiné et montre un détail."
           ],
           "steps_en": [
-            "Prepare with the adult: Draw a face with eyes, nose and mouth positioned. Start with large shapes, add two details and present your work.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which detail helps explain your drawing?"
+            "Draw a big oval for the face, then place the eyes, nose and mouth.",
+            "Add two details that help people recognise your drawing.",
+            "Present your drawing to the adult: say what you drew and point to a detail."
           ],
           "questions": [
             {
@@ -960,15 +987,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : L’enfant désigne un détail cohérent et explique son rôle.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Organise son dessin : grandes formes d’abord, détails ensuite.",
+            "Présente son dessin et explique le rôle d’un détail."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une feuille",
+            "crayons de couleur ou feutres"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a sheet of paper",
+            "coloured pencils or felt pens"
+          ],
+          "duration_minutes": 15,
           "source_refs": [
             "FR : tableaux 27–28, p. 98–105, deuxième année",
             "EN : domaine 4, p. 82–85, Nursery Two"
@@ -988,19 +1018,19 @@
           "type": "art",
           "title_fr": "Je fabrique une maquette",
           "title_en": "Making a model",
-          "goal_fr": "Fabrique une silhouette en papier avec deux bras mobiles.",
-          "goal_en": "Make a paper figure with two moving arms.",
+          "goal_fr": "Fabriquer une silhouette en papier aux bras mobiles en essayant deux organisations avant de coller.",
+          "goal_en": "Make a paper figure with moving arms, trying two layouts before gluing.",
           "prompt_fr": "Fabrique une silhouette en papier avec deux bras mobiles. Dispose les éléments sans coller; compare deux organisations avant de choisir. Utilise seulement des ciseaux adaptés avec l’adulte.",
           "prompt_en": "Make a paper figure with two moving arms. Arrange the pieces without glue; compare two layouts before choosing. Use child-safe scissors only with the adult.",
           "steps_fr": [
-            "Préparer avec l’adulte : Fabrique une silhouette en papier avec deux bras mobiles. Dispose les éléments sans coller; compare deux organisations avant de choisir. Utilise seulement des ciseaux adaptés avec l’adulte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Pourquoi essayer avant de coller ?"
+            "Découpe avec l’adulte un corps et deux bras en papier épais.",
+            "Pose les éléments sans coller et essaie deux façons de les placer.",
+            "Choisis la façon qui tient le mieux, puis colle ou assemble avec l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: Make a paper figure with two moving arms. Arrange the pieces without glue; compare two layouts before choosing. Use child-safe scissors only with the adult.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Why try the layout before gluing?"
+            "With the adult, cut out a body and two arms from thick paper.",
+            "Place the pieces without glue and try two ways of arranging them.",
+            "Choose the way that holds best, then glue or put it together with the adult."
           ],
           "questions": [
             {
@@ -1010,15 +1040,20 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Pour changer de place et choisir une organisation qui tient.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Essaie au moins deux façons de placer les éléments.",
+            "Explique pourquoi il garde une organisation."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "du papier épais ou du carton fin",
+            "deux attaches parisiennes ou du ruban adhésif",
+            "colle et ciseaux à bouts ronds, avec l’adulte"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "thick paper or thin card",
+            "two paper fasteners or sticky tape",
+            "glue and round-tipped scissors, with the adult"
+          ],
+          "duration_minutes": 20,
           "source_refs": [
             "FR : tableaux 27–28, p. 98–105, deuxième année",
             "EN : domaine 4, p. 82–85, Nursery Two"
@@ -1038,19 +1073,19 @@
           "type": "art",
           "title_fr": "Je crée un rythme",
           "title_en": "Creating a rhythm",
-          "goal_fr": "Reproduis lentement : genoux, mains, pause.",
-          "goal_en": "Slowly repeat: knees, clap, pause.",
+          "goal_fr": "Reproduire un motif rythmique de trois temps, puis en inventer une variation.",
+          "goal_en": "Copy a three-beat rhythm pattern, then invent a variation.",
           "prompt_fr": "Reproduis lentement : genoux, mains, pause. Répète trois fois puis invente une variation. Un geste silencieux peut remplacer le son.",
           "prompt_en": "Slowly repeat: knees, clap, pause. Do it three times, then invent a variation. A silent gesture may replace a sound.",
           "steps_fr": [
-            "Préparer avec l’adulte : Reproduis lentement : genoux, mains, pause. Répète trois fois puis invente une variation. Un geste silencieux peut remplacer le son.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment reconnaît-on le motif qui se répète ?"
+            "Regarde et écoute l’adulte faire le motif : genoux, mains, pause.",
+            "Refais le motif trois fois, lentement, sans t’arrêter.",
+            "Invente une variation : change un geste, puis fais-la répéter à l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: Slowly repeat: knees, clap, pause. Do it three times, then invent a variation. A silent gesture may replace a sound.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How do we recognise the repeating pattern?"
+            "Watch and listen to the adult doing the pattern: knees, hands, rest.",
+            "Do the pattern three times, slowly, without stopping.",
+            "Invent a variation: change one movement, then get the adult to copy it."
           ],
           "questions": [
             {
@@ -1060,15 +1095,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : On retrouve les mêmes gestes dans le même ordre.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Reproduit trois fois le motif dans le même ordre.",
+            "Invente une variation et la répète de la même façon."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "aucun : les mains et le corps"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "none: hands and body"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableaux 27–28, p. 98–105, deuxième année",
             "EN : domaine 4, p. 82–85, Nursery Two"
@@ -1104,19 +1140,19 @@
           "type": "motor",
           "title_fr": "Un parcours maîtrisé",
           "title_en": "A controlled route",
-          "goal_fr": "Avec l’adulte dans un espace dégagé, suis trois pas puis un arrêt équilibré.",
-          "goal_en": "With the adult in a clear space, follow three steps then a balanced stop.",
-          "prompt_fr": "Avec l’adulte dans un espace dégagé, suis trois pas puis un arrêt équilibré. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
-          "prompt_en": "With the adult in a clear space, follow three steps then a balanced stop. Move slowly and stop if you lose balance.",
+          "goal_fr": "Se déplacer en contrôlant son équilibre et s’arrêter au signal.",
+          "goal_en": "Move while keeping one’s balance and stop at the signal.",
+          "prompt_fr": "Avec l’adulte, fais trois pas sur la ligne, puis arrête-toi en équilibre sur les deux pieds. Arrête-toi si tu perds l’équilibre.",
+          "prompt_en": "With the adult, take three steps on the line, then stop and balance on both feet. Stop if you lose your balance.",
           "steps_fr": [
-            "Préparer avec l’adulte : Avec l’adulte dans un espace dégagé, suis trois pas puis un arrêt équilibré. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que fais-tu si tu ne te sens pas stable ?"
+            "Marche sur la ligne : un, deux, trois pas.",
+            "Arrête-toi pieds joints et compte jusqu’à trois sans bouger.",
+            "Recommence en levant un pied, avec l’adulte à côté."
           ],
           "steps_en": [
-            "Prepare with the adult: With the adult in a clear space, follow three steps then a balanced stop. Move slowly and stop if you lose balance.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What do you do if you feel unsteady?"
+            "Walk on the line: one, two, three steps.",
+            "Stop with your feet together and count to three without moving.",
+            "Do it again lifting one foot, with the adult next to you."
           ],
           "questions": [
             {
@@ -1126,13 +1162,14 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je m’arrête et je demande de l’aide.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Suit le trajet sans courir et garde son équilibre.",
+            "S’arrête au signal ou demande de l’aide s’il ne se sent pas stable."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une ligne au sol : craie, corde ou ruban adhésif"
+          ],
+          "materials_en": [
+            "a line on the floor: chalk, rope or tape"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -1154,19 +1191,19 @@
           "type": "motor",
           "title_fr": "Viser puis attendre",
           "title_en": "Aim, then wait",
-          "goal_fr": "Avec l’adulte, essaie un ballon roulé vers un partenaire assis.",
-          "goal_en": "With the adult, try a ball rolled towards a seated partner.",
-          "prompt_fr": "Avec l’adulte, essaie un ballon roulé vers un partenaire assis. Attends que tous les gestes soient terminés avant de récupérer le matériel.",
-          "prompt_en": "With the adult, try a ball rolled towards a seated partner. Wait until all movements have stopped before collecting equipment.",
+          "goal_fr": "Lancer ou faire rouler un objet vers une cible et attendre le signal pour le récupérer.",
+          "goal_en": "Throw or roll an object towards a target and wait for the signal to collect it.",
+          "prompt_fr": "Avec l’adulte, fais rouler un ballon vers l’adulte assis en face. Attends le signal avant d’aller chercher l’objet.",
+          "prompt_en": "With the adult, roll a ball towards the adult sitting opposite you. Wait for the signal before fetching the object.",
           "steps_fr": [
-            "Préparer avec l’adulte : Avec l’adulte, essaie un ballon roulé vers un partenaire assis. Attends que tous les gestes soient terminés avant de récupérer le matériel.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quand peux-tu récupérer l’objet ?"
+            "Place-toi derrière la ligne de départ, face à l’adulte.",
+            "Fais rouler un ballon vers l’adulte assis en face, trois fois, en dosant ta force.",
+            "Attends que tout soit fini, puis va chercher l’objet au signal de l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: With the adult, try a ball rolled towards a seated partner. Wait until all movements have stopped before collecting equipment.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: When can you collect the object?"
+            "Stand behind the starting line, facing the adult.",
+            "Roll a ball towards the adult sitting opposite you, three times, controlling your strength.",
+            "Wait until everything has stopped, then fetch the object at the adult’s signal."
           ],
           "questions": [
             {
@@ -1176,15 +1213,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Au signal de l’adulte, quand personne ne lance ni ne roule.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Vise la cible en contrôlant la force de son geste.",
+            "Attend le signal avant d’aller chercher l’objet."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "un ballon",
+            "une ligne de départ au sol"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a ball",
+            "a starting line on the floor"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableau 29, p. 106–109, deuxième année",
             "EN : table 53, p. 86, Nursery Two"
@@ -1204,19 +1244,19 @@
           "type": "motor",
           "title_fr": "Coopérer en mouvement",
           "title_en": "Moving together",
-          "goal_fr": "En petit groupe, essaie de imiter à deux trois gestes sans contact.",
-          "goal_en": "In a small group, try to copy three movements in pairs without contact.",
-          "prompt_fr": "En petit groupe, essaie de imiter à deux trois gestes sans contact. Décidez qui commence, avancez lentement puis échangez les rôles.",
-          "prompt_en": "In a small group, try to copy three movements in pairs without contact. Agree who starts, move slowly, then swap roles.",
+          "goal_fr": "Coordonner ses gestes avec un partenaire et échanger les rôles.",
+          "goal_en": "Coordinate movements with a partner and swap roles.",
+          "prompt_fr": "À deux ou en petit groupe : faites trois gestes en miroir, sans vous toucher. Décidez qui commence, avancez lentement, puis échangez les rôles.",
+          "prompt_en": "In pairs or a small group: do three mirror movements, without touching. Decide who starts, move slowly, then swap roles.",
           "steps_fr": [
-            "Préparer avec l’adulte : En petit groupe, essaie de imiter à deux trois gestes sans contact. Décidez qui commence, avancez lentement puis échangez les rôles.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment aider si un partenaire n’arrive pas à suivre ?"
+            "Décidez ensemble qui commence et qui aide.",
+            "Faites trois gestes en miroir, sans vous toucher, lentement, en vous regardant.",
+            "Échangez les rôles et recommencez."
           ],
           "steps_en": [
-            "Prepare with the adult: In a small group, try to copy three movements in pairs without contact. Agree who starts, move slowly, then swap roles.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How can you help if a partner cannot keep up?"
+            "Decide together who starts and who helps.",
+            "Do three mirror movements, without touching, slowly, watching each other.",
+            "Swap roles and do it again."
           ],
           "questions": [
             {
@@ -1226,15 +1266,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Ralentir, s’arrêter ou adapter le déplacement avec l’adulte.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Adapte son allure à celle de son partenaire.",
+            "Accepte d’échanger les rôles."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "aucun : la voix et les gestes",
+            "un partenaire : l’adulte, un frère, une sœur ou un camarade"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "none: voice and gestures",
+            "a partner: the adult, a brother, a sister or a friend"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableau 29, p. 106–109, deuxième année",
             "EN : table 53, p. 86, Nursery Two"

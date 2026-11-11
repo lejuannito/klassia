@@ -17,19 +17,19 @@
           "type": "story",
           "title_fr": "Le départ du bus",
           "title_en": "The bus leaves",
-          "goal_fr": "Écoute le récit, puis raconte le début, le problème et la fin.",
-          "goal_en": "Listen, then tell the beginning, problem and ending.",
+          "goal_fr": "Comprendre un récit court, le raconter dans l’ordre et imaginer une autre fin.",
+          "goal_en": "Understand a short story, retell it in order and imagine another ending.",
           "prompt_fr": "Écoute le récit, puis raconte le début, le problème et la fin. Imagine une autre fin qui respecte les personnages.",
           "prompt_en": "Listen, then tell the beginning, problem and ending. Imagine another ending that fits the characters.",
           "steps_fr": [
-            "Préparer avec l’adulte : Écoute le récit, puis raconte le début, le problème et la fin. Imagine une autre fin qui respecte les personnages.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que fait l’enfant qui a oublié son sac ? Pourquoi ?"
+            "Écoute l’histoire « Le départ du bus » jusqu’au bout.",
+            "Raconte avec tes mots : le début, le problème, puis la fin.",
+            "Réponds à la question de l’adulte, puis invente une autre fin possible."
           ],
           "steps_en": [
-            "Prepare with the adult: Listen, then tell the beginning, problem and ending. Imagine another ending that fits the characters.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What does the child with the missing bag do? Why?"
+            "Listen to the story “The bus is leaving” to the end.",
+            "Tell it in your own words: the beginning, the problem, then the ending.",
+            "Answer the adult’s question, then make up another possible ending."
           ],
           "questions": [
             {
@@ -39,13 +39,14 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Il prévient l’adulte pour ne pas quitter seul le groupe.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Raconte le début, le problème et la fin dans l’ordre.",
+            "Répond à la question en s’appuyant sur l’histoire et propose une fin qui garde les mêmes personnages."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "l’histoire lue à l’écran ou par l’adulte"
+          ],
+          "materials_en": [
+            "the story read on screen or by the adult"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -69,19 +70,19 @@
           "type": "poem",
           "title_fr": "La comptine du thème",
           "title_en": "Our theme rhyme",
-          "goal_fr": "Écoute les quatre lignes.",
-          "goal_en": "Listen to the four lines.",
-          "prompt_fr": "Écoute les quatre lignes. Redis-les par deux avec un geste de ton choix. Alterne une ligne avec un partenaire.",
-          "prompt_en": "Listen to the four lines. Say two at a time with a gesture you choose. Take turns saying a line.",
+          "goal_fr": "Mémoriser une comptine courte et l’accompagner de gestes.",
+          "goal_en": "Learn a short rhyme by heart and add actions.",
+          "prompt_fr": "Écoute la comptine. Redis-la deux lignes à la fois avec un geste, puis dis-la avec l’adulte, une ligne chacun.",
+          "prompt_en": "Listen to the rhyme. Say it two lines at a time with an action, then say it with the adult, one line each.",
           "steps_fr": [
-            "Préparer avec l’adulte : Écoute les quatre lignes. Redis-les par deux avec un geste de ton choix. Alterne une ligne avec un partenaire.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel geste accompagne une ligne ? Explique ton choix."
+            "Écoute la comptine en entier, sans répéter.",
+            "Redis-la deux lignes à la fois, avec un geste pour chaque ligne.",
+            "Dis-la avec l’adulte : une ligne chacun, puis toute la comptine."
           ],
           "steps_en": [
-            "Prepare with the adult: Listen to the four lines. Say two at a time with a gesture you choose. Take turns saying a line.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which gesture goes with one line? Explain your choice."
+            "Listen to the whole rhyme without repeating.",
+            "Say it two lines at a time, with an action for each line.",
+            "Say it with the adult: one line each, then the whole rhyme."
           ],
           "questions": [
             {
@@ -91,15 +92,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Un geste en rapport avec le sens; accepter les créations de l’enfant.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Redit au moins deux lignes avec les mots justes.",
+            "Choisit un geste en lien avec le sens d’une ligne."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "aucun : la voix et les gestes"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "none: voice and gestures"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 11, p. 44–46, deuxième année",
             "EN : table 34, p. 61, Nursery Two"
@@ -157,8 +159,12 @@
             "Lit les mots de la phrase dans l’ordre. L’adulte note séparément le premier essai et la relecture après modèle."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "le tableau de l’activité à l’écran",
+            "papier et crayon pour recopier un mot"
+          ],
+          "materials_en": [
+            "the activity table on screen",
+            "paper and a pencil to copy a word"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -198,19 +204,19 @@
           "type": "oral",
           "title_fr": "Donner un itinéraire",
           "title_en": "Giving directions",
-          "goal_fr": "Pose trois cartes nommées école, arbre, arrêt.",
-          "goal_en": "Place cards named school, tree and stop.",
+          "goal_fr": "Décrire un trajet en nommant les repères dans l’ordre.",
+          "goal_en": "Describe a route by naming the landmarks in order.",
           "prompt_fr": "Pose trois cartes nommées école, arbre, arrêt. Guide un personnage de l’école à l’arrêt en passant par l’arbre.",
           "prompt_en": "Place cards named school, tree and stop. Guide a figure from the school to the stop past the tree.",
           "steps_fr": [
-            "Préparer avec l’adulte : Pose trois cartes nommées école, arbre, arrêt. Guide un personnage de l’école à l’arrêt en passant par l’arbre.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel repère vient entre l’école et l’arrêt ?"
+            "Pose trois cartes : école, arbre, arrêt.",
+            "Fais avancer un personnage de l’école à l’arrêt en passant par l’arbre.",
+            "Raconte le trajet : « D’abord…, ensuite…, enfin… »."
           ],
           "steps_en": [
-            "Prepare with the adult: Place cards named school, tree and stop. Guide a figure from the school to the stop past the tree.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What is between the school and the stop?"
+            "Put out three cards: school, tree, bus stop.",
+            "Move a figure from the school to the bus stop, going past the tree.",
+            "Tell the route: “First…, next…, finally…”."
           ],
           "questions": [
             {
@@ -220,15 +226,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : L’arbre.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Nomme les trois repères dans l’ordre du trajet.",
+            "Emploie des mots d’ordre : d’abord, ensuite, enfin."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "trois cartes : école, arbre, arrêt",
+            "une figurine"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "three cards: school, tree, bus stop",
+            "a small figure"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 9, p. 37–40, deuxième année",
             "EN : table 38, p. 65, Nursery Two"
@@ -287,6 +296,11 @@
             "crayon adapté",
             "deux ou trois cartes de prénoms et un modèle du prénom de l’enfant"
           ],
+          "materials_en": [
+            "a sheet of paper",
+            "a pencil that suits the child’s hand",
+            "two or three name cards and a model of the child’s name"
+          ],
           "duration_minutes": 12,
           "source_refs": [
             "FR : tableaux 12–13, p. 47–51, deuxième année",
@@ -314,19 +328,19 @@
           "type": "bassa",
           "title_fr": "Les mots bassa du thème",
           "title_en": "Bassa words for this theme",
-          "goal_fr": "Observe les traductions bassa proposées ci-dessous.",
-          "goal_en": "Look at the proposed Bassa translations below.",
+          "goal_fr": "Découvrir quelques mots bassa du thème et les relier à leur sens.",
+          "goal_en": "Discover a few Bassa words of the theme and link them to their meaning.",
           "prompt_fr": "Observe les traductions bassa proposées ci-dessous. Associe un mot à un objet, un geste ou un dessin; compare les variantes avec l’adulte.",
           "prompt_en": "Look at the proposed Bassa translations below. Match a word to an object, action or drawing; compare the variants with the adult.",
           "steps_fr": [
-            "Préparer avec l’adulte : Observe les traductions bassa proposées ci-dessous. Associe un mot à un objet, un geste ou un dessin; compare les variantes avec l’adulte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Choisis un sens et retrouve une de ses traductions proposées."
+            "Écoute ou lis avec l’adulte les mots bassa du thème.",
+            "Associe chaque mot à un objet, un geste ou un dessin.",
+            "Compare les formes proposées pour un même sens : toutes sont acceptées."
           ],
           "steps_en": [
-            "Prepare with the adult: Look at the proposed Bassa translations below. Match a word to an object, action or drawing; compare the variants with the adult.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Choose a meaning and find one proposed translation."
+            "Listen to or read the theme’s Bassa words with the adult.",
+            "Match each word with an object, a gesture or a drawing.",
+            "Compare the forms given for the same meaning: all of them are accepted."
           ],
           "questions": [
             {
@@ -336,15 +350,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Toutes les formes affichées pour ce sens sont acceptées; le statut documentaire reste visible.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Associe au moins deux mots bassa à leur sens.",
+            "Accepte qu’un même sens ait plusieurs formes."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "les mots bassa du thème affichés dans Klassia",
+            "quelques objets ou dessins du thème"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "the theme’s Bassa words shown in Klassia",
+            "a few objects or drawings of the theme"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 15, p. 57–58, deuxième année",
             "EN : table 3, p. 22, Nursery Two, national languages"
@@ -499,19 +516,19 @@
           "type": "math",
           "title_fr": "Je compte jusqu’à 20",
           "title_en": "Counting to 20",
-          "goal_fr": "Prends 20 jetons.",
-          "goal_en": "Take 20 counters.",
-          "prompt_fr": "Prends 20 jetons. Compte chaque jeton une seule fois. Pour 20, forme des groupes de dix quand c’est possible.",
-          "prompt_en": "Take 20 counters. Count each once. Group ten together when possible.",
+          "goal_fr": "Dénombrer une collection de 20 objets en faisant des paquets de dix.",
+          "goal_en": "Count a set of 20 objects by making groups of ten.",
+          "prompt_fr": "Prends 20 jetons. Fais deux paquets de dix, puis compte tous les jetons, chacun une seule fois.",
+          "prompt_en": "Take 20 counters. Make two groups of ten, then count all the counters, each one once.",
           "steps_fr": [
-            "Préparer avec l’adulte : Prends 20 jetons. Compte chaque jeton une seule fois. Pour 20, forme des groupes de dix quand c’est possible.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Combien de jetons as-tu maintenant ?"
+            "Pose 20 jetons en vrac sur la table.",
+            "Fais un paquet de dix jetons, puis un deuxième paquet de dix.",
+            "Compte : dix, vingt. Vérifie en recomptant un par un."
           ],
           "steps_en": [
-            "Prepare with the adult: Take 20 counters. Count each once. Group ten together when possible.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How many counters do you have now?"
+            "Put 20 counters on the table.",
+            "Make a group of ten counters, then a second group of ten.",
+            "Count: ten, twenty. Check by counting again one by one."
           ],
           "questions": [
             {
@@ -521,13 +538,15 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : 20 jetons.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Touche chaque jeton une seule fois en comptant.",
+            "Fait un paquet de dix et continue le comptage à partir de dix.",
+            "Annonce le total, 20, et sait le montrer ou l’écrire."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "20 jetons, bouchons ou graines"
+          ],
+          "materials_en": [
+            "20 counters, bottle tops or seeds"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -602,6 +621,10 @@
             "fiche imprimée ou dix cases dessinées sur papier ou ardoise",
             "crayon ou craie et six jetons"
           ],
+          "materials_en": [
+            "a printed sheet or ten boxes drawn on paper or a slate",
+            "a pencil or chalk and six counters"
+          ],
           "duration_minutes": 12,
           "source_refs": [
             "FR : tableau 17, p. 67, thème 8, deuxième année",
@@ -622,19 +645,19 @@
           "type": "science",
           "title_fr": "Faire rouler une maquette",
           "title_en": "Rolling a model",
-          "goal_fr": "Sur le sol, pousse doucement une petite boîte puis une voiture-jouet.",
-          "goal_en": "On the floor, gently push a small box and a toy car.",
+          "goal_fr": "Comparer le déplacement d’un objet qui glisse et d’un objet à roues.",
+          "goal_en": "Compare how an object that slides and an object with wheels move.",
           "prompt_fr": "Sur le sol, pousse doucement une petite boîte puis une voiture-jouet. Compare les déplacements sans lancer les objets.",
           "prompt_en": "On the floor, gently push a small box and a toy car. Compare their movements without throwing.",
           "steps_fr": [
-            "Préparer avec l’adulte : Sur le sol, pousse doucement une petite boîte puis une voiture-jouet. Compare les déplacements sans lancer les objets.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel élément du jouet facilite le roulement ?"
+            "Sur le sol, pousse doucement une petite boîte.",
+            "Pousse de la même façon une petite voiture.",
+            "Compare : lequel va le plus loin ? Qu’est-ce qui l’aide ?"
           ],
           "steps_en": [
-            "Prepare with the adult: On the floor, gently push a small box and a toy car. Compare their movements without throwing.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which part helps the toy roll?"
+            "On the floor, gently push a small box.",
+            "Push a toy car the same way.",
+            "Compare: which one goes further? What helps it?"
           ],
           "questions": [
             {
@@ -644,15 +667,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Les roues.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Pousse les deux objets de la même façon.",
+            "Explique que les roues aident à rouler."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une petite boîte",
+            "une voiture-jouet"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a small box",
+            "a toy car"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableaux 20–22, p. 79–86, deuxième année",
             "EN : domaine 2, p. 66–76, Nursery Two"
@@ -672,19 +698,19 @@
           "type": "digital",
           "title_fr": "Un appel accompagné",
           "title_en": "A supervised call",
-          "goal_fr": "Deux boîtes figurent des téléphones.",
-          "goal_en": "Use two boxes as phones.",
+          "goal_fr": "Jouer un appel téléphonique poli et savoir ne pas donner son adresse à un inconnu.",
+          "goal_en": "Act out a polite phone call and know not to give one’s address to a stranger.",
           "prompt_fr": "Deux boîtes figurent des téléphones. Joue un appel avec l’adulte : saluer, dire le message, écouter puis terminer.",
           "prompt_en": "Use two boxes as phones. Act greeting, giving a message, listening and ending the call.",
           "steps_fr": [
-            "Préparer avec l’adulte : Deux boîtes figurent des téléphones. Joue un appel avec l’adulte : saluer, dire le message, écouter puis terminer.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que fais-tu si un inconnu demande ton adresse ?"
+            "Prenez deux boîtes comme téléphones.",
+            "Joue un appel avec l’adulte : dis bonjour, donne ton message, écoute, dis au revoir.",
+            "L’adulte joue un inconnu qui demande ton adresse : passe le téléphone à l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: Use two boxes as phones. Act greeting, giving a message, listening and ending the call.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What do you do if a stranger asks for your address?"
+            "Use two boxes as phones.",
+            "Act out a call with the adult: say hello, give your message, listen, say goodbye.",
+            "The adult plays a stranger asking for your address: hand the phone to the adult."
           ],
           "questions": [
             {
@@ -694,15 +720,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je ne la donne pas; je passe l’appareil à l’adulte.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Suit les étapes d’un appel : saluer, parler, écouter, terminer.",
+            "Ne donne pas son adresse et passe l’appareil à l’adulte."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "deux boîtes ou deux téléphones-jouets"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "two boxes or two toy phones"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 19, p. 77–78, deuxième année",
             "EN : table 40, p. 68, Nursery Two"
@@ -722,19 +749,19 @@
           "type": "sensory",
           "title_fr": "Près et loin dans une scène",
           "title_en": "Near and far in a scene",
-          "goal_fr": "Place un bus-jouet près d’une boîte-école, puis loin.",
-          "goal_en": "Put a toy bus near a box school, then far away.",
+          "goal_fr": "Décrire la position d’un objet : près, loin.",
+          "goal_en": "Describe where an object is: near, far.",
           "prompt_fr": "Place un bus-jouet près d’une boîte-école, puis loin. Décris la position sans parler de la taille du jouet.",
           "prompt_en": "Put a toy bus near a box school, then far away. Describe position, not toy size.",
           "steps_fr": [
-            "Préparer avec l’adulte : Place un bus-jouet près d’une boîte-école, puis loin. Décris la position sans parler de la taille du jouet.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Le bus devient-il plus petit quand tu le déplaces ?"
+            "Place un bus-jouet près d’une boîte qui sera l’école.",
+            "Déplace-le loin de l’école.",
+            "Dis où il est à chaque fois : près ou loin de l’école."
           ],
           "steps_en": [
-            "Prepare with the adult: Put a toy bus near a box school, then far away. Describe position, not toy size.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Does the bus itself become smaller when moved?"
+            "Put a toy bus near a box that will be the school.",
+            "Move it far from the school.",
+            "Say where it is each time: near or far from the school."
           ],
           "questions": [
             {
@@ -744,15 +771,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Non; sa position change, pas sa taille.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Emploie près et loin à bon escient.",
+            "Dit que la taille du bus ne change pas quand il s’éloigne."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "un bus-jouet ou une petite voiture",
+            "une boîte"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a toy bus or a small car",
+            "a box"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableau 18, p. 72–76, deuxième année",
             "EN : domaine 2, p. 66–76, Nursery Two"
@@ -781,19 +811,19 @@
           "type": "care",
           "title_fr": "Préparer son petit sac",
           "title_en": "Packing a small bag",
-          "goal_fr": "Choisis des cartes livre, eau, vêtement et gros jouet.",
-          "goal_en": "Choose book, water, clothing and large-toy cards.",
+          "goal_fr": "Préparer un petit sac léger pour une sortie, avec l’adulte.",
+          "goal_en": "Pack a light little bag for an outing, with the adult.",
           "prompt_fr": "Choisis des cartes livre, eau, vêtement et gros jouet. Prépare un sac fictif léger avec l’adulte pour une sortie.",
           "prompt_en": "Choose book, water, clothing and large-toy cards. Pack a light pretend bag with the adult for a trip.",
           "steps_fr": [
-            "Préparer avec l’adulte : Choisis des cartes livre, eau, vêtement et gros jouet. Prépare un sac fictif léger avec l’adulte pour une sortie.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Qui vérifie le contenu avant la sortie ?"
+            "Regarde les cartes : livre, eau, vêtement, gros jouet.",
+            "Choisis ce qui est utile pour la sortie.",
+            "Vérifie le sac avec l’adulte : est-il léger ?"
           ],
           "steps_en": [
-            "Prepare with the adult: Choose book, water, clothing and large-toy cards. Pack a light pretend bag with the adult for a trip.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Who checks the bag before leaving?"
+            "Look at the cards: book, water, clothes, big toy.",
+            "Choose what is useful for the outing.",
+            "Check the bag with the adult: is it light?"
           ],
           "questions": [
             {
@@ -803,15 +833,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : L’adulte responsable avec l’enfant.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Choisit l’eau et le vêtement, laisse le gros jouet.",
+            "Vérifie le sac avec l’adulte."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "quatre cartes : livre, eau, vêtement, gros jouet",
+            "un petit sac"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "four cards: book, water, clothes, big toy",
+            "a small bag"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableaux 23–24, p. 87–93, deuxième année",
             "EN : domaine 3, p. 77–81, Nursery Two"
@@ -831,19 +864,19 @@
           "type": "social",
           "title_fr": "Voyager en groupe",
           "title_en": "Travelling together",
-          "goal_fr": "Dessine trois personnages dans un bus.",
-          "goal_en": "Draw three people on a bus.",
+          "goal_fr": "Être poli et attentif aux autres dans un transport.",
+          "goal_en": "Be polite and thoughtful towards others when travelling.",
           "prompt_fr": "Dessine trois personnages dans un bus. Imagine comment laisser passer une personne qui a besoin d’aide sans la pousser.",
           "prompt_en": "Draw three people on a bus. Imagine making room for someone needing help without pushing.",
           "steps_fr": [
-            "Préparer avec l’adulte : Dessine trois personnages dans un bus. Imagine comment laisser passer une personne qui a besoin d’aide sans la pousser.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que peux-tu proposer poliment ?"
+            "Dessine trois personnes dans un bus.",
+            "Une personne a besoin de s’asseoir : imagine comment l’aider.",
+            "Dis ce que tu proposes, poliment."
           ],
           "steps_en": [
-            "Prepare with the adult: Draw three people on a bus. Imagine making room for someone needing help without pushing.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What can you offer politely?"
+            "Draw three people in a bus.",
+            "One person needs to sit down: think of a way to help.",
+            "Say what you would offer, politely."
           ],
           "questions": [
             {
@@ -853,15 +886,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Faire de la place ou demander à l’adulte comment aider.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Propose une aide polie : faire de la place, laisser passer.",
+            "Ne pousse pas et demande à l’adulte comment aider."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une feuille",
+            "crayons de couleur ou feutres"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a sheet of paper",
+            "coloured pencils or felt pens"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableau 25, p. 94–95, deuxième année",
             "EN : domaine 3, p. 77–81, Nursery Two"
@@ -881,19 +917,19 @@
           "type": "safety",
           "title_fr": "Traverser en simulation",
           "title_en": "Pretend crossing",
-          "goal_fr": "Sur une route dessinée au sol, reste au bord avec l’adulte.",
-          "goal_en": "On a drawn road, wait at the edge with the adult.",
+          "goal_fr": "Connaître les étapes pour traverser, toujours avec un adulte.",
+          "goal_en": "Know the steps for crossing a road, always with an adult.",
           "prompt_fr": "Sur une route dessinée au sol, reste au bord avec l’adulte. Mime l’arrêt, l’observation puis le passage au signal. Ce jeu ne remplace pas l’accompagnement réel.",
           "prompt_en": "On a drawn road, wait at the edge with the adult. Act stopping, looking and crossing at the signal. This does not replace real adult supervision.",
           "steps_fr": [
-            "Préparer avec l’adulte : Sur une route dessinée au sol, reste au bord avec l’adulte. Mime l’arrêt, l’observation puis le passage au signal. Ce jeu ne remplace pas l’accompagnement réel.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Traverses-tu seul une vraie route après ce jeu ?"
+            "Sur une route dessinée au sol, reste au bord avec l’adulte.",
+            "Arrête-toi, regarde à gauche et à droite, écoute.",
+            "Traverse en marchant quand l’adulte le dit."
           ],
           "steps_en": [
-            "Prepare with the adult: On a drawn road, wait at the edge with the adult. Act stopping, looking and crossing at the signal. This does not replace real adult supervision.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Do you cross a real road alone after this game?"
+            "On a road drawn on the floor, stay at the edge with the adult.",
+            "Stop, look left and right, listen.",
+            "Walk across when the adult says so."
           ],
           "questions": [
             {
@@ -903,15 +939,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Non; je reste accompagné.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Suit les étapes : s’arrêter, regarder, écouter, traverser au signal.",
+            "Dit qu’il ne traverse jamais seul une vraie route."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une route dessinée au sol : craie ou ruban adhésif"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a road drawn on the floor: chalk or tape"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableau 26, p. 96–97, deuxième année",
             "EN : domaine 3, p. 77–81, Nursery Two"
@@ -940,19 +977,19 @@
           "type": "art",
           "title_fr": "Je dessine et je raconte",
           "title_en": "Drawing and telling",
-          "goal_fr": "Dessine un véhicule imaginaire avec roues ou ailes.",
-          "goal_en": "Draw an imaginary vehicle with wheels or wings.",
+          "goal_fr": "Représenter une idée par le dessin et la présenter en une ou deux phrases.",
+          "goal_en": "Show an idea in a drawing and present it in one or two sentences.",
           "prompt_fr": "Dessine un véhicule imaginaire avec roues ou ailes. Commence par les grandes formes, ajoute deux détails puis présente ton dessin.",
           "prompt_en": "Draw an imaginary vehicle with wheels or wings. Start with large shapes, add two details and present your work.",
           "steps_fr": [
-            "Préparer avec l’adulte : Dessine un véhicule imaginaire avec roues ou ailes. Commence par les grandes formes, ajoute deux détails puis présente ton dessin.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quel détail aide à comprendre ton dessin ?"
+            "Dessine d’abord la forme du véhicule, puis ses roues ou ses ailes.",
+            "Ajoute deux détails qui aident à reconnaître ton dessin.",
+            "Présente ton dessin à l’adulte : dis ce que tu as dessiné et montre un détail."
           ],
           "steps_en": [
-            "Prepare with the adult: Draw an imaginary vehicle with wheels or wings. Start with large shapes, add two details and present your work.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Which detail helps explain your drawing?"
+            "First draw the shape of the vehicle, then its wheels or wings.",
+            "Add two details that help people recognise your drawing.",
+            "Present your drawing to the adult: say what you drew and point to a detail."
           ],
           "questions": [
             {
@@ -962,15 +999,18 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : L’enfant désigne un détail cohérent et explique son rôle.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Organise son dessin : grandes formes d’abord, détails ensuite.",
+            "Présente son dessin et explique le rôle d’un détail."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une feuille",
+            "crayons de couleur ou feutres"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a sheet of paper",
+            "coloured pencils or felt pens"
+          ],
+          "duration_minutes": 15,
           "source_refs": [
             "FR : tableaux 27–28, p. 98–105, deuxième année",
             "EN : domaine 4, p. 82–85, Nursery Two"
@@ -990,19 +1030,19 @@
           "type": "art",
           "title_fr": "Je fabrique une maquette",
           "title_en": "Making a model",
-          "goal_fr": "Fabrique un bus en boîte avec fenêtres de papier.",
-          "goal_en": "Make a box bus with paper windows.",
+          "goal_fr": "Fabriquer un bus en boîte en essayant deux organisations avant de coller.",
+          "goal_en": "Make a bus made from a box, trying two layouts before gluing.",
           "prompt_fr": "Fabrique un bus en boîte avec fenêtres de papier. Dispose les éléments sans coller; compare deux organisations avant de choisir. Utilise seulement des ciseaux adaptés avec l’adulte.",
           "prompt_en": "Make a box bus with paper windows. Arrange the pieces without glue; compare two layouts before choosing. Use child-safe scissors only with the adult.",
           "steps_fr": [
-            "Préparer avec l’adulte : Fabrique un bus en boîte avec fenêtres de papier. Dispose les éléments sans coller; compare deux organisations avant de choisir. Utilise seulement des ciseaux adaptés avec l’adulte.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Pourquoi essayer avant de coller ?"
+            "Choisis une boîte longue ; découpe des fenêtres et des roues dans du papier.",
+            "Pose les éléments sans coller et essaie deux façons de les placer.",
+            "Choisis la façon qui tient le mieux, puis colle ou assemble avec l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: Make a box bus with paper windows. Arrange the pieces without glue; compare two layouts before choosing. Use child-safe scissors only with the adult.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: Why try the layout before gluing?"
+            "Choose a long box; cut windows and wheels out of paper.",
+            "Place the pieces without glue and try two ways of arranging them.",
+            "Choose the way that holds best, then glue or put it together with the adult."
           ],
           "questions": [
             {
@@ -1012,15 +1052,20 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Pour changer de place et choisir une organisation qui tient.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Essaie au moins deux façons de placer les éléments.",
+            "Explique pourquoi il garde une organisation."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "une boîte longue et propre",
+            "du papier de couleur",
+            "colle et ciseaux à bouts ronds, avec l’adulte"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a long, clean box",
+            "coloured paper",
+            "glue and round-tipped scissors, with the adult"
+          ],
+          "duration_minutes": 20,
           "source_refs": [
             "FR : tableaux 27–28, p. 98–105, deuxième année",
             "EN : domaine 4, p. 82–85, Nursery Two"
@@ -1040,19 +1085,19 @@
           "type": "art",
           "title_fr": "Je crée un rythme",
           "title_en": "Creating a rhythm",
-          "goal_fr": "Reproduis lentement : mains, genoux, pause.",
-          "goal_en": "Slowly repeat: clap, knees, pause.",
+          "goal_fr": "Reproduire un motif rythmique de trois temps, puis en inventer une variation.",
+          "goal_en": "Copy a three-beat rhythm pattern, then invent a variation.",
           "prompt_fr": "Reproduis lentement : mains, genoux, pause. Répète trois fois puis invente une variation. Un geste silencieux peut remplacer le son.",
           "prompt_en": "Slowly repeat: clap, knees, pause. Do it three times, then invent a variation. A silent gesture may replace a sound.",
           "steps_fr": [
-            "Préparer avec l’adulte : Reproduis lentement : mains, genoux, pause. Répète trois fois puis invente une variation. Un geste silencieux peut remplacer le son.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Comment reconnaît-on le motif qui se répète ?"
+            "Regarde et écoute l’adulte faire le motif : mains, genoux, pause.",
+            "Refais le motif trois fois, lentement, sans t’arrêter.",
+            "Invente une variation : change un geste, puis fais-la répéter à l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: Slowly repeat: clap, knees, pause. Do it three times, then invent a variation. A silent gesture may replace a sound.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: How do we recognise the repeating pattern?"
+            "Watch and listen to the adult doing the pattern: hands, knees, rest.",
+            "Do the pattern three times, slowly, without stopping.",
+            "Invent a variation: change one movement, then get the adult to copy it."
           ],
           "questions": [
             {
@@ -1062,15 +1107,16 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : On retrouve les mêmes gestes dans le même ordre.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Reproduit trois fois le motif dans le même ordre.",
+            "Invente une variation et la répète de la même façon."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "aucun : les mains et le corps"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "none: hands and body"
+          ],
+          "duration_minutes": 8,
           "source_refs": [
             "FR : tableaux 27–28, p. 98–105, deuxième année",
             "EN : domaine 4, p. 82–85, Nursery Two"
@@ -1106,19 +1152,19 @@
           "type": "motor",
           "title_fr": "Un parcours maîtrisé",
           "title_en": "A controlled route",
-          "goal_fr": "Avec l’adulte dans un espace dégagé, suis un trajet arrêt-avance-tourne.",
-          "goal_en": "With the adult in a clear space, follow a stop-go-turn route.",
-          "prompt_fr": "Avec l’adulte dans un espace dégagé, suis un trajet arrêt-avance-tourne. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
-          "prompt_en": "With the adult in a clear space, follow a stop-go-turn route. Move slowly and stop if you lose balance.",
+          "goal_fr": "Se déplacer en contrôlant son équilibre et s’arrêter au signal.",
+          "goal_en": "Move while keeping one’s balance and stop at the signal.",
+          "prompt_fr": "Avec l’adulte, joue au bus : avance, arrête-toi à l’arrêt, puis tourne au repère. Avance sans courir.",
+          "prompt_en": "With the adult, play bus: move forward, stop at the bus stop, then turn at the marker. Move without running.",
           "steps_fr": [
-            "Préparer avec l’adulte : Avec l’adulte dans un espace dégagé, suis un trajet arrêt-avance-tourne. Avance sans vitesse; arrête-toi si tu perds l’équilibre.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Que fais-tu si tu ne te sens pas stable ?"
+            "Avance en marchant jusqu’à l’arrêt.",
+            "Arrête-toi et compte jusqu’à trois.",
+            "Repars, tourne autour du repère et reviens au départ."
           ],
           "steps_en": [
-            "Prepare with the adult: With the adult in a clear space, follow a stop-go-turn route. Move slowly and stop if you lose balance.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: What do you do if you feel unsteady?"
+            "Walk forward to the bus stop.",
+            "Stop and count to three.",
+            "Set off again, go round the marker and come back to the start."
           ],
           "questions": [
             {
@@ -1128,13 +1174,14 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Je m’arrête et je demande de l’aide.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Suit le trajet sans courir et garde son équilibre.",
+            "S’arrête au signal ou demande de l’aide s’il ne se sent pas stable."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "deux repères au sol : l’arrêt et le tournant"
+          ],
+          "materials_en": [
+            "two markers on the floor: the bus stop and the turning point"
           ],
           "duration_minutes": 12,
           "source_refs": [
@@ -1156,19 +1203,19 @@
           "type": "motor",
           "title_fr": "Viser puis attendre",
           "title_en": "Aim, then wait",
-          "goal_fr": "Avec l’adulte, essaie un ballon roulé vers un arrêt dessiné.",
-          "goal_en": "With the adult, try a ball rolled towards a drawn stop.",
-          "prompt_fr": "Avec l’adulte, essaie un ballon roulé vers un arrêt dessiné. Attends que tous les gestes soient terminés avant de récupérer le matériel.",
-          "prompt_en": "With the adult, try a ball rolled towards a drawn stop. Wait until all movements have stopped before collecting equipment.",
+          "goal_fr": "Lancer ou faire rouler un objet vers une cible et attendre le signal pour le récupérer.",
+          "goal_en": "Throw or roll an object towards a target and wait for the signal to collect it.",
+          "prompt_fr": "Avec l’adulte, fais rouler un ballon jusqu’à un arrêt dessiné au sol. Attends le signal avant d’aller chercher l’objet.",
+          "prompt_en": "With the adult, roll a ball to a bus stop drawn on the floor. Wait for the signal before fetching the object.",
           "steps_fr": [
-            "Préparer avec l’adulte : Avec l’adulte, essaie un ballon roulé vers un arrêt dessiné. Attends que tous les gestes soient terminés avant de récupérer le matériel.",
-            "Faire un premier essai accompagné, puis expliquer ce que l’on a fait avec ses mots.",
-            "Reprendre : Quand peux-tu récupérer l’objet ?"
+            "Place-toi derrière la ligne de départ, face à l’arrêt dessiné.",
+            "Fais rouler un ballon jusqu’à un arrêt dessiné au sol, trois fois, en dosant ta force.",
+            "Attends que tout soit fini, puis va chercher l’objet au signal de l’adulte."
           ],
           "steps_en": [
-            "Prepare with the adult: With the adult, try a ball rolled towards a drawn stop. Wait until all movements have stopped before collecting equipment.",
-            "Try with help, then explain what you did in your own words.",
-            "Try again: When can you collect the object?"
+            "Stand behind the starting line, facing the drawn bus stop.",
+            "Roll a ball to a bus stop drawn on the floor, three times, controlling your strength.",
+            "Wait until everything has stopped, then fetch the object at the adult’s signal."
           ],
           "questions": [
             {
@@ -1178,15 +1225,20 @@
             }
           ],
           "observe": [
-            "Comprend la consigne et commence avec une aide adaptée.",
-            "Répond ou montre sa démarche : Au signal de l’adulte, quand personne ne lance ni ne roule.",
-            "Explique ou montre un choix sans recherche de vitesse."
+            "Vise la cible en contrôlant la force de son geste.",
+            "Attend le signal avant d’aller chercher l’objet."
           ],
           "materials": [
-            "papier et crayons",
-            "objets courants propres décrits dans la consigne; adulte accompagnateur"
+            "un ballon",
+            "un arrêt dessiné à la craie ou une feuille au sol",
+            "une ligne de départ au sol"
           ],
-          "duration_minutes": 12,
+          "materials_en": [
+            "a ball",
+            "a bus stop drawn in chalk or a sheet on the floor",
+            "a starting line on the floor"
+          ],
+          "duration_minutes": 10,
           "source_refs": [
             "FR : tableau 29, p. 106–109, deuxième année",
             "EN : table 53, p. 86, Nursery Two"
@@ -1235,6 +1287,10 @@
           "materials": [
             "trajet court et dégagé",
             "adulte accompagnateur"
+          ],
+          "materials_en": [
+            "a short, clear route",
+            "an adult"
           ],
           "duration_minutes": 12,
           "source_refs": [

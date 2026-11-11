@@ -14,7 +14,8 @@ function sayText(a,l){return pick(a,'prompt',l)||pick(a,'activity',l)||pick(a,'g
 function lastRating(id){const p=loadProg()[id],o=[...Klassia.read('klassia_observations',[])].reverse().find(x=>x.grade===NURSERY.grade&&x.activity===id&&x.rating);return o?.rating||(p==='A'?'alone':p==='EC'?'helped':'');}
 function activityCard(a,i){
  const l=nurseryLang(),t=NL[l],voice=l==='fr'?'fr-FR':'en-GB',say=sayText(a,l),watch=a['observe_'+l]||a.observe||[],rated=lastRating(a.id);
- const card=[a.duration_minutes?`<div><dt>⏱ ${t.time}</dt><dd>${esc(t.minutes(a.duration_minutes))}</dd></div>`:'',a.materials?.length?`<div><dt>🧺 ${t.materials}</dt><dd>${a.materials.map(esc).join(' · ')}</dd></div>`:'',say?`<div><dt>💬 ${t.say}</dt><dd>${esc(say)}</dd></div>`:'',watch.length?`<div><dt>👀 ${t.watch}</dt><dd>${watch.map(esc).join(' · ')}</dd></div>`:''].join('');
+ const mats=(l==='en'&&a.materials_en?.length?a.materials_en:a.materials)||[];
+ const card=[a.duration_minutes?`<div><dt>⏱ ${t.time}</dt><dd>${esc(t.minutes(a.duration_minutes))}</dd></div>`:'',mats.length?`<div><dt>🧺 ${t.materials}</dt><dd>${mats.map(esc).join(' · ')}</dd></div>`:'',say?`<div><dt>💬 ${t.say}</dt><dd>${esc(say)}</dd></div>`:'',watch.length?`<div><dt>👀 ${t.watch}</dt><dd>${watch.map(esc).join(' · ')}</dd></div>`:''].join('');
  let stage='';
  if(a.type!=='bassa')stage+=Klassia.speech.clip(a['audio_'+l],voice);
  if(a.figure)stage+=`<img class="lesson-figure" src="${esc(a.figure.src)}" alt="${esc(a.figure.alt)}">`;

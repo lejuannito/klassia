@@ -24,6 +24,8 @@
           "title_en": "I name body parts",
           "goal_fr": "Nommer des parties visibles du corps en français et en anglais.",
           "goal_en": "Name visible body parts in French and English.",
+          "prompt_fr": "Écoute le mot et touche cette partie de ton corps : la tête, les yeux, la main…",
+          "prompt_en": "Listen to the word and touch that part of your body: head, eyes, hand…",
           "table": {
             "headers": [
               "👤",
@@ -78,7 +80,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "le tableau des mots du corps à l’écran"
+          ],
+          "materials_en": [
+            "the body words table on screen"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T2-LC2",
@@ -106,7 +115,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "aucun : la voix et les gestes"
+          ],
+          "materials_en": [
+            "none: voice and gestures"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T2-LC3",
@@ -115,6 +131,8 @@
           "title_en": "I see, hear and smell",
           "goal_fr": "Employer des verbes simples liés aux sens.",
           "goal_en": "Use simple verbs linked to the senses.",
+          "prompt_fr": "Regarde, écoute, sens. Puis dis ce que tu fais : je vois, j’entends, je sens.",
+          "prompt_en": "Look, listen, smell. Then say what you are doing: I see, I hear, I smell.",
           "table": {
             "headers": [
               "Action",
@@ -159,7 +177,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un objet à regarder",
+            "une clochette ou deux cuillères",
+            "une peau d’orange"
+          ],
+          "materials_en": [
+            "an object to look at",
+            "a small bell or two spoons",
+            "an orange peel"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T2-LC4",
@@ -168,6 +197,8 @@
           "title_en": "Little story: Sami’s mirror",
           "goal_fr": "Écouter une histoire et identifier des parties du visage.",
           "goal_en": "Listen to a story and identify facial features.",
+          "prompt_fr": "Écoute l’histoire de Sami. Ensuite, montre tes yeux, tes oreilles et ta bouche.",
+          "prompt_en": "Listen to Sami’s story. Then show your eyes, your ears and your mouth.",
           "story_fr": "Sami se regarde dans un miroir. Il ouvre grand les yeux, gonfle les joues et sourit. « Mes yeux voient, mes oreilles écoutent et ma bouche parle », dit-il. Puis il ferme les yeux : il entend maman taper doucement dans ses mains. Sami rit : même sans regarder, ses oreilles travaillent !",
           "story_en": "Sami looks in a mirror. He opens his eyes wide, puffs his cheeks and smiles. “My eyes see, my ears listen and my mouth speaks,” he says. Then he closes his eyes and hears Mum clap softly. Sami laughs: even without looking, his ears are working!",
           "questions": [
@@ -190,7 +221,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un miroir si possible"
+          ],
+          "materials_en": [
+            "a mirror if possible"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T2-LC5",
@@ -199,6 +237,8 @@
           "title_en": "I trace curves and circles",
           "goal_fr": "Préparer le geste graphique avec des courbes et formes arrondies.",
           "goal_en": "Prepare handwriting movements with curves and circles.",
+          "prompt_fr": "Trace de grands ronds avec ton doigt dans l’air, puis sur la feuille.",
+          "prompt_en": "Draw big circles in the air with your finger, then on the paper.",
           "visual": {
             "kind": "traces",
             "items": [
@@ -226,7 +266,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayon gras ou craie",
+            "un bouchon ou un gobelet"
+          ],
+          "materials_en": [
+            "paper",
+            "thick crayon or chalk",
+            "a bottle top or a cup"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T2-LC6",
@@ -235,6 +286,8 @@
           "title_en": "My face shows how I feel",
           "goal_fr": "Nommer quelques émotions et écouter celles des autres.",
           "goal_en": "Name a few emotions and listen to others.",
+          "prompt_fr": "Choisis un visage et fais la même tête. Dis : « Je suis content » ou « Je suis triste ».",
+          "prompt_en": "Choose a face and make the same face. Say: “I am happy” or “I am sad”.",
           "table": {
             "headers": [
               "Visage",
@@ -279,7 +332,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes visages ou le tableau à l’écran"
+          ],
+          "materials_en": [
+            "face cards or the table on screen"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T2-LC7",
@@ -453,7 +513,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "les formes bassa affichées dans Klassia",
+            "un locuteur bassa si possible"
+          ],
+          "materials_en": [
+            "the Bassa forms shown in Klassia",
+            "a Bassa speaker if possible"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -471,6 +540,8 @@
           "title_en": "One, two: body pairs",
           "goal_fr": "Reconnaître 2 et distinguer une paire d’un seul élément.",
           "goal_en": "Recognise 2 and tell a pair from one item.",
+          "prompt_fr": "Montre-moi deux mains. Maintenant, montre-moi un nez. Combien en as-tu ?",
+          "prompt_en": "Show me two hands. Now show me one nose. How many do you have?",
           "table": {
             "headers": [
               "J’en ai…",
@@ -513,7 +584,16 @@
               "en": "Which number card matches the two counters?",
               "answer": "La carte 2. Chaque jeton est compté une fois. / Card 2. Count each counter once."
             }
-          ]
+          ],
+          "materials": [
+            "deux jetons",
+            "une carte 1 et une carte 2"
+          ],
+          "materials_en": [
+            "two counters",
+            "a number card 1 and a number card 2"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T2-ST2",
@@ -522,6 +602,8 @@
           "title_en": "Which sense helps me?",
           "goal_fr": "Choisir le sens utile dans une petite expérience.",
           "goal_en": "Choose the useful sense in a simple experiment.",
+          "prompt_fr": "Devine sans regarder : touche, écoute, regarde, sens. Quel sens t’aide ?",
+          "prompt_en": "Guess without looking: touch, listen, look, smell. Which sense helps you?",
           "diagram": {
             "kind": "senses",
             "labels": [
@@ -551,7 +633,22 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un sac opaque",
+            "un objet sûr à toucher",
+            "une clochette",
+            "deux objets de couleurs différentes",
+            "une peau d’orange"
+          ],
+          "materials_en": [
+            "an opaque bag",
+            "a safe object to touch",
+            "a small bell",
+            "two objects of different colours",
+            "an orange peel"
+          ],
+          "duration_minutes": 15
         },
         {
           "id": "T2-ST3",
@@ -560,6 +657,8 @@
           "title_en": "What helps my body",
           "goal_fr": "Classer quelques habitudes favorables ou défavorables à la santé.",
           "goal_en": "Sort simple habits that help or do not help health.",
+          "prompt_fr": "Range chaque carte : est-ce que ça aide ton corps, ou faut-il en faire moins ?",
+          "prompt_en": "Sort each card: does it help your body, or should we do less of it?",
           "visual": {
             "kind": "sort",
             "items": [
@@ -581,7 +680,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "les cartes d’habitudes",
+            "deux paniers ou deux feuilles"
+          ],
+          "materials_en": [
+            "the habit cards",
+            "two baskets or two sheets of paper"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T2-ST4",
@@ -590,6 +698,8 @@
           "title_en": "My body in day and night",
           "goal_fr": "Ordonner quelques moments de la journée.",
           "goal_en": "Put a few daily moments in order.",
+          "prompt_fr": "Mets les cartes dans l’ordre de ta journée : d’abord, ensuite, à la fin.",
+          "prompt_en": "Put the cards in the order of your day: first, next, at the end.",
           "visual": {
             "kind": "sequence",
             "items": [
@@ -610,7 +720,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "cinq cartes des moments de la journée"
+          ],
+          "materials_en": [
+            "five cards showing moments of the day"
+          ],
+          "duration_minutes": 10
         }
       ]
     },
@@ -628,6 +745,8 @@
           "title_en": "I wash my face and hands",
           "goal_fr": "Réaliser une routine simple d’hygiène.",
           "goal_en": "Perform a simple hygiene routine.",
+          "prompt_fr": "Lave tes mains : mouille, savonne, frotte, rince et sèche.",
+          "prompt_en": "Wash your hands: wet, soap, rub, rinse and dry.",
           "steps_fr": [
             "Mouiller.",
             "Savonner les mains.",
@@ -650,7 +769,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "eau",
+            "savon",
+            "un linge propre"
+          ],
+          "materials_en": [
+            "water",
+            "soap",
+            "a clean cloth"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T2-PV2",
@@ -659,6 +789,8 @@
           "title_en": "I care for my teeth",
           "goal_fr": "Identifier les gestes de base du brossage.",
           "goal_en": "Identify basic tooth-brushing steps.",
+          "prompt_fr": "Brosse les dents de la poupée, puis les tiennes, devant et derrière.",
+          "prompt_en": "Brush the doll’s teeth, then your own, at the front and at the back.",
           "visual": {
             "kind": "sequence",
             "items": [
@@ -679,7 +811,20 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une brosse à dents",
+            "un peu de dentifrice",
+            "un gobelet",
+            "une poupée ou une bouche dessinée"
+          ],
+          "materials_en": [
+            "a toothbrush",
+            "a little toothpaste",
+            "a cup",
+            "a doll or a drawn mouth"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T2-PV3",
@@ -688,6 +833,8 @@
           "title_en": "I cough safely",
           "goal_fr": "Adopter un geste simple pour limiter la transmission des microbes.",
           "goal_en": "Use a simple cough etiquette routine.",
+          "prompt_fr": "Quand tu tousses, cache ta bouche dans ton coude. Montre-moi.",
+          "prompt_en": "When you cough, cover your mouth with your elbow. Show me.",
           "table": {
             "headers": [
               "Quand je tousse / éternue",
@@ -716,7 +863,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un mouchoir en papier"
+          ],
+          "materials_en": [
+            "a paper tissue"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T2-PV4",
@@ -737,7 +891,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "deux marionnettes ou figurines"
+          ],
+          "materials_en": [
+            "two puppets or figures"
+          ],
+          "duration_minutes": 10
         }
       ]
     },
@@ -755,10 +916,18 @@
           "title_en": "I build a face",
           "goal_fr": "Placer les principaux éléments du visage dans une création.",
           "goal_en": "Place main facial features in an artwork.",
+          "prompt_fr": "Choisis la forme du visage, puis colle deux yeux, un nez et une bouche.",
+          "prompt_en": "Choose the shape of the face, then stick on two eyes, a nose and a mouth.",
           "materials": [
             "papier",
             "formes découpées",
             "colle",
+            "crayons"
+          ],
+          "materials_en": [
+            "paper",
+            "cut-out shapes",
+            "glue",
             "crayons"
           ],
           "steps_fr": [
@@ -781,7 +950,8 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "duration_minutes": 15
         },
         {
           "id": "T2-AR2",
@@ -790,6 +960,8 @@
           "title_en": "My self-portrait",
           "goal_fr": "Observer son visage et réaliser un dessin personnel.",
           "goal_en": "Observe one’s face and create a personal drawing.",
+          "prompt_fr": "Regarde-toi dans le miroir, puis dessine ton visage comme tu le vois.",
+          "prompt_en": "Look at yourself in the mirror, then draw your face as you see it.",
           "activity_fr": "Utiliser un miroir. L’adulte décrit sans corriger : « Tu as choisi de dessiner… »",
           "activity_en": "Use a mirror. The adult describes without correcting: “You chose to draw…”",
           "observe": [
@@ -800,7 +972,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un miroir",
+            "papier",
+            "crayons"
+          ],
+          "materials_en": [
+            "a mirror",
+            "paper",
+            "crayons"
+          ],
+          "duration_minutes": 15
         },
         {
           "id": "T2-AR3",
@@ -809,6 +992,8 @@
           "title_en": "My body rhythm",
           "goal_fr": "Produire un rythme avec le corps.",
           "goal_en": "Make a rhythm using the body.",
+          "prompt_fr": "Fais comme moi : je frappe des mains, je tape du pied, je m’arrête.",
+          "prompt_en": "Do as I do: clap, stamp, stop.",
           "visual": {
             "kind": "rhythm",
             "items": [
@@ -828,7 +1013,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "aucun : les mains et les pieds"
+          ],
+          "materials_en": [
+            "none: hands and feet"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -846,6 +1038,8 @@
           "title_en": "I move each part",
           "goal_fr": "Coordonner plusieurs parties du corps sur consigne.",
           "goal_en": "Coordinate body parts on instruction.",
+          "prompt_fr": "Lève les bras, touche tes genoux, tourne doucement la tête, marche sur place… et stop !",
+          "prompt_en": "Lift your arms, touch your knees, turn your head gently, march on the spot… and stop!",
           "course": [
             "Lever les bras.",
             "Toucher les genoux.",
@@ -861,7 +1055,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un espace dégagé"
+          ],
+          "materials_en": [
+            "a clear space"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T2-MT2",
@@ -870,6 +1071,8 @@
           "title_en": "I balance",
           "goal_fr": "Maintenir brièvement un équilibre simple.",
           "goal_en": "Hold a simple balance briefly.",
+          "prompt_fr": "Marche sur la ligne, arrête-toi pieds joints, puis lève un pied.",
+          "prompt_en": "Walk on the line, stop with your feet together, then lift one foot.",
           "steps_fr": [
             "Marcher sur une ligne au sol.",
             "S’arrêter pieds joints.",
@@ -888,7 +1091,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une ligne au sol : corde, craie ou ruban adhésif"
+          ],
+          "materials_en": [
+            "a line on the floor: rope, chalk or tape"
+          ],
+          "duration_minutes": 10
         }
       ]
     }

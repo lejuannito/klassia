@@ -24,6 +24,8 @@
           "title_en": "Animals around us",
           "goal_fr": "Nommer quelques animaux familiers en français et anglais.",
           "goal_en": "Name familiar animals in French and English.",
+          "prompt_fr": "Montre le chien, le chat, la poule. Dis le nom de chaque animal.",
+          "prompt_en": "Show the dog, the cat, the hen. Say the name of each animal.",
           "table": {
             "headers": [
               "Image",
@@ -76,7 +78,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images ou figurines d’animaux"
+          ],
+          "materials_en": [
+            "pictures or toy animals"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T6-LC2",
@@ -85,6 +94,8 @@
           "title_en": "Who makes this sound?",
           "goal_fr": "Associer quelques sons à des animaux.",
           "goal_en": "Match simple animal sounds.",
+          "prompt_fr": "Écoute le bruit et montre l’animal qui le fait.",
+          "prompt_en": "Listen to the sound and show the animal that makes it.",
           "game_fr": "L’adulte imite ou fait écouter un son court ; l’enfant choisit une carte animal.",
           "game_en": "The adult imitates or plays a short sound; the child picks the animal card.",
           "observe": [
@@ -95,7 +106,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes animaux"
+          ],
+          "materials_en": [
+            "animal cards"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T6-LC3",
@@ -104,6 +122,8 @@
           "title_en": "Big, small, fast, slow",
           "goal_fr": "Décrire un animal avec un adjectif ou une action.",
           "goal_en": "Describe an animal using a simple adjective/action.",
+          "prompt_fr": "Dis comment est l’animal : grand ou petit ? Il va vite ou lentement ?",
+          "prompt_en": "Say what the animal is like: big or small? Does it move fast or slowly?",
           "table": {
             "headers": [
               "Français",
@@ -136,7 +156,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’animaux grands et petits"
+          ],
+          "materials_en": [
+            "pictures of big and small animals"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T6-LC4",
@@ -145,6 +172,8 @@
           "title_en": "Little story: Where is Koki?",
           "goal_fr": "Suivre une recherche simple dans une histoire.",
           "goal_en": "Follow a simple search in a story.",
+          "prompt_fr": "Écoute l’histoire. Où Ayo cherche-t-elle Koki ? Où le trouve-t-elle ?",
+          "prompt_en": "Listen to the story. Where does Ayo look for Koki? Where does she find him?",
           "story_fr": "Koki le petit chien n’est pas devant la maison. Ayo regarde sous la chaise : rien. Elle écoute près du portail : elle entend un petit bruit. Koki est derrière un panier, occupé à sentir une feuille. Ayo ne crie pas. Elle l’appelle doucement et Koki revient.",
           "story_en": "Koki the little dog is not in front of the house. Ayo looks under the chair: nothing. She listens near the gate and hears a small sound. Koki is behind a basket, smelling a leaf. Ayo does not shout. She calls him gently and Koki comes back.",
           "questions": [
@@ -167,7 +196,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une figurine de chien",
+            "une chaise",
+            "une boîte"
+          ],
+          "materials_en": [
+            "a toy dog",
+            "a chair",
+            "a box"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T6-LC5",
@@ -176,6 +216,8 @@
           "title_en": "I follow tracks",
           "goal_fr": "Développer le graphisme avec des trajectoires variées.",
           "goal_en": "Develop pre-writing with different paths.",
+          "prompt_fr": "Trace le chemin de chaque animal jusqu’à sa maison.",
+          "prompt_en": "Draw the path of each animal to its home.",
           "visual": {
             "kind": "tracks",
             "items": [
@@ -195,7 +237,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayons"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T6-LC6",
@@ -204,6 +255,8 @@
           "title_en": "Farm, home, forest…",
           "goal_fr": "Utiliser des mots de lieu pour parler des animaux.",
           "goal_en": "Use place words to talk about animals.",
+          "prompt_fr": "Où vit cet animal ? À la maison, à la ferme ou dans la forêt ?",
+          "prompt_en": "Where does this animal live? At home, on the farm or in the forest?",
           "table": {
             "headers": [
               "Lieu",
@@ -236,7 +289,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’animaux",
+            "trois feuilles : maison, ferme, forêt"
+          ],
+          "materials_en": [
+            "animal pictures",
+            "three sheets: home, farm, forest"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T6-LC7",
@@ -390,7 +452,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "les formes bassa affichées dans Klassia",
+            "des images d’animaux"
+          ],
+          "materials_en": [
+            "the Bassa forms shown in Klassia",
+            "animal pictures"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -408,6 +479,8 @@
           "title_en": "Fur, feathers or scales?",
           "goal_fr": "Observer quelques revêtements corporels.",
           "goal_en": "Observe simple animal body coverings.",
+          "prompt_fr": "Regarde l’animal : a-t-il des poils, des plumes ou des écailles ?",
+          "prompt_en": "Look at the animal: does it have fur, feathers or scales?",
           "table": {
             "headers": [
               "Couverture",
@@ -436,7 +509,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’animaux"
+          ],
+          "materials_en": [
+            "animal pictures"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T6-ST2",
@@ -480,7 +560,16 @@
               "en": "How many animals are in the group? How many legs does the hen have?",
               "answer": "Cinq animaux dans le groupe. La poule a deux pattes. / Five animals in the group. The hen has two legs."
             }
-          ]
+          ],
+          "materials": [
+            "des images de cinq animaux",
+            "cinq jetons"
+          ],
+          "materials_en": [
+            "pictures of five animals",
+            "five counters"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T6-ST3",
@@ -489,6 +578,8 @@
           "title_en": "Where does an animal find what it needs?",
           "goal_fr": "Relier animal, eau, nourriture et abri.",
           "goal_en": "Link animals with water, food and shelter.",
+          "prompt_fr": "Choisis un animal. De quoi a-t-il besoin ? De l’eau, à manger, un abri.",
+          "prompt_en": "Choose an animal. What does it need? Water, food, a home.",
           "diagram": {
             "kind": "needs",
             "labels": [
@@ -508,7 +599,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes animaux",
+            "des pictogrammes eau, nourriture, abri"
+          ],
+          "materials_en": [
+            "animal cards",
+            "water, food and shelter symbols"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T6-ST4",
@@ -517,6 +617,8 @@
           "title_en": "Domestic and wild: first distinction",
           "goal_fr": "Découvrir une distinction simple sans en faire une règle absolue.",
           "goal_en": "Explore a basic domestic/wild distinction.",
+          "prompt_fr": "Cet animal vit-il avec les gens ou dans la nature ?",
+          "prompt_en": "Does this animal live with people or in the wild?",
           "activity_fr": "Classer quelques exemples puis discuter : certains animaux domestiques peuvent redevenir errants ; certains animaux sauvages sont observés dans des parcs.",
           "activity_en": "Sort a few examples and discuss that categories are not always simple.",
           "observe": [
@@ -527,7 +629,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’animaux domestiques et sauvages"
+          ],
+          "materials_en": [
+            "pictures of pet and wild animals"
+          ],
+          "duration_minutes": 10
         }
       ]
     },
@@ -545,6 +654,8 @@
           "title_en": "I ask before touching an animal",
           "goal_fr": "Adopter une conduite prudente avec un animal.",
           "goal_en": "Behave safely around animals.",
+          "prompt_fr": "Avant de toucher un animal, que dis-tu à l’adulte ? Montre-moi.",
+          "prompt_en": "Before you touch an animal, what do you ask the adult? Show me.",
           "steps_fr": [
             "Je demande à l’adulte/propriétaire.",
             "Je reste calme.",
@@ -565,7 +676,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’enfants et d’animaux"
+          ],
+          "materials_en": [
+            "pictures of children and animals"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T6-PV2",
@@ -574,6 +692,8 @@
           "title_en": "After animals, I wash my hands",
           "goal_fr": "Relier contact animal et hygiène.",
           "goal_en": "Link animal contact and hygiene.",
+          "prompt_fr": "Après avoir touché un animal, lave tes mains : savon, frotte, rince, sèche.",
+          "prompt_en": "After touching an animal, wash your hands: soap, rub, rinse, dry.",
           "visual": {
             "kind": "sequence",
             "items": [
@@ -592,7 +712,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "eau",
+            "savon",
+            "un linge propre"
+          ],
+          "materials_en": [
+            "water",
+            "soap",
+            "a clean cloth"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T6-PV3",
@@ -601,6 +732,8 @@
           "title_en": "Care without causing harm",
           "goal_fr": "Développer empathie et responsabilité envers les animaux.",
           "goal_en": "Develop empathy and responsibility.",
+          "prompt_fr": "Range les images : ce qui fait du bien à l’animal, ce qui lui fait mal.",
+          "prompt_en": "Sort the pictures: what is good for the animal, what hurts it.",
           "game_fr": "Comparer des gestes : donner de l’eau, frapper, enfermer sans raison, nourrir correctement, crier près de l’animal.",
           "game_en": "Compare caring and harmful actions.",
           "observe": [
@@ -611,7 +744,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de gestes envers les animaux"
+          ],
+          "materials_en": [
+            "pictures of actions towards animals"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T6-PV4",
@@ -620,6 +760,8 @@
           "title_en": "Keep habitats clean",
           "goal_fr": "Comprendre que les déchets peuvent nuire aux animaux.",
           "goal_en": "Understand that litter can harm animals.",
+          "prompt_fr": "Trouve les déchets sur l’image. Pourquoi faut-il les enlever ?",
+          "prompt_en": "Find the litter in the picture. Why should we take it away?",
           "activity_fr": "Sur une image de rivière/terrain, repérer plastiques, ficelles, boîtes et discuter de leur retrait par un adulte/avec équipement adapté.",
           "activity_en": "Spot litter in a picture of a river/field and discuss safe clean-up.",
           "observe": [
@@ -630,7 +772,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une image de rivière ou de terrain avec des déchets"
+          ],
+          "materials_en": [
+            "a picture of a river or field with litter"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -648,11 +797,19 @@
           "title_en": "Paper animal mask",
           "goal_fr": "Créer un visage d’animal à partir de formes.",
           "goal_en": "Create an animal face from shapes.",
+          "prompt_fr": "Fais un masque d’animal : choisis l’animal, puis dessine ses yeux et ses oreilles.",
+          "prompt_en": "Make an animal mask: choose the animal, then draw its eyes and ears.",
           "materials": [
             "assiette en carton ou papier",
             "crayons",
             "formes",
             "élastique uniquement sous supervision ou bâtonnet"
+          ],
+          "materials_en": [
+            "a paper or card plate",
+            "crayons",
+            "shapes",
+            "elastic only with an adult, or a stick"
           ],
           "observe": [
             "Choisit des caractéristiques.",
@@ -662,7 +819,8 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "duration_minutes": 20
         },
         {
           "id": "T6-AR2",
@@ -671,6 +829,8 @@
           "title_en": "Patterns: fur, feathers, scales",
           "goal_fr": "Explorer textures et motifs sans utiliser de matières animales réelles.",
           "goal_en": "Explore textures and patterns without real animal materials.",
+          "prompt_fr": "Dessine des points, des rayures ou des plumes pour habiller ton animal.",
+          "prompt_en": "Draw spots, stripes or feathers to dress your animal.",
           "activity_fr": "Dessiner/peindre points, rayures, plumes stylisées, écailles.",
           "activity_en": "Draw or paint spots, stripes, stylised feathers and scales.",
           "observe": [
@@ -681,7 +841,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayons ou peinture"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons or paint"
+          ],
+          "duration_minutes": 15
         },
         {
           "id": "T6-AR3",
@@ -690,6 +859,8 @@
           "title_en": "Animal sound orchestra",
           "goal_fr": "Organiser des sons et silences dans un jeu collectif.",
           "goal_en": "Organise sounds and silences in a group game.",
+          "prompt_fr": "Quand je montre ta carte, fais le bruit de ton animal. Sinon, silence !",
+          "prompt_en": "When I show your card, make your animal’s sound. Otherwise, silence!",
           "game_fr": "Chaque groupe choisit un animal et un son. Le chef montre une carte : un groupe joue, puis deux, puis silence.",
           "game_en": "Each group chooses an animal and sound. The leader cues groups and silence.",
           "observe": [
@@ -700,7 +871,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes animaux"
+          ],
+          "materials_en": [
+            "animal cards"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -718,6 +896,8 @@
           "title_en": "Move like an animal",
           "goal_fr": "Explorer différentes locomotions en sécurité.",
           "goal_en": "Explore different ways of moving safely.",
+          "prompt_fr": "Déplace-toi comme un animal : marche lourdement comme un éléphant, fais de petits pas comme un oiseau.",
+          "prompt_en": "Move like an animal: walk heavily like an elephant, take tiny steps like a bird.",
           "course": [
             "marcher lourd comme un éléphant",
             "petits pas comme un oiseau",
@@ -732,7 +912,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un espace dégagé",
+            "un tapis pour ramper"
+          ],
+          "materials_en": [
+            "a clear space",
+            "a mat for crawling"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T6-MT2",
@@ -741,6 +930,8 @@
           "title_en": "I jump over puddles",
           "goal_fr": "Sauter pieds joints sur une petite distance.",
           "goal_en": "Jump with feet together over a short distance.",
+          "prompt_fr": "Saute pieds joints par-dessus chaque flaque jusqu’à l’arrivée.",
+          "prompt_en": "Jump with your feet together over each puddle to the finish.",
           "visual": {
             "kind": "course",
             "items": [
@@ -758,7 +949,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des feuilles ou cerceaux pour les flaques",
+            "un repère d’arrivée"
+          ],
+          "materials_en": [
+            "sheets of paper or hoops for puddles",
+            "a finish marker"
+          ],
+          "duration_minutes": 10
         }
       ]
     }

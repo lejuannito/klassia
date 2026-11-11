@@ -108,11 +108,27 @@
         {
           "prompt": "Donne la nature de « nous » dans « Nous partons demain ».",
           "answer": "Pronom personnel.",
+          "accept": [
+            "pronom personnel",
+            "un pronom personnel"
+          ],
+          "reject": [
+            "nom",
+            "verbe",
+            "déterminant"
+          ],
           "explanation": "Nous remplace des personnes."
         },
         {
           "prompt": "Trouve l’adjectif épithète : « Le chauffeur prudent ralentit. »",
           "answer": "prudent.",
+          "accept": [
+            "prudent"
+          ],
+          "reject": [
+            "chauffeur",
+            "ralentit"
+          ],
           "explanation": "Prudent est placé tout près du nom chauffeur."
         }
       ],
@@ -142,6 +158,9 @@
       "guided": "Trouvez dans le texte trois mots qui ont un contraire, puis expliquez « destination ».",
       "exercise": "Donne le contraire : partir, rapide, près.",
       "answer": "arriver, lent, loin.",
+      "accept": [
+        "arriver, lent, loin"
+      ],
       "remediation": "Mimer le mot, puis mimer son contraire.",
       "transfer": "Raconter un voyage en employant deux paires de contraires.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -154,6 +173,9 @@
         {
           "prompt": "Trouve le contraire de « long ».",
           "answer": "court.",
+          "accept": [
+            "court"
+          ],
           "explanation": "Long et court sont des contraires."
         }
       ],
@@ -190,6 +212,12 @@
         {
           "prompt": "Complète avec s ou ss : une vali…e, une cai…e.",
           "answer": "une valise, une caisse.",
+          "accept": [
+            "une valise, une caisse"
+          ],
+          "reject": [
+            "une valisse, une caise"
+          ],
           "explanation": "Entre deux voyelles, s fait [z] ; pour [s], on double."
         },
         {
@@ -266,6 +294,12 @@
       "guided": "Trouvez l’infinitif de cinq verbes du texte, puis récitez être et avoir au futur.",
       "exercise": "Complète au futur : je (être) prêt ; ils (avoir) des valises.",
       "answer": "je serai prêt ; ils auront des valises.",
+      "accept": [
+        "je serai prêt ; ils auront des valises"
+      ],
+      "reject": [
+        "je serais prêt ; ils auront des valises"
+      ],
       "remediation": "Réciter la conjugaison en entier pour retrouver la forme.",
       "transfer": "Dire trois phrases au futur sur un voyage avec être et avoir.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -273,6 +307,12 @@
         {
           "prompt": "Quel est l’infinitif de « tu descends » ?",
           "answer": "descendre.",
+          "accept": [
+            "descendre"
+          ],
+          "reject": [
+            "descends"
+          ],
           "explanation": "Il faut descendre."
         },
         {
@@ -357,6 +397,9 @@
         {
           "prompt": "Say this number in words: 140.",
           "answer": "one hundred and forty.",
+          "accept": [
+            "one hundred and forty"
+          ],
           "explanation": "One hundred, then and, then forty."
         },
         {
@@ -393,6 +436,9 @@
       "guided": "The child reads each word and finds the picture, then reads the numbers aloud.",
       "exercise": "Read: “I have a ticket and a map.” What does the person have?",
       "answer": "A ticket and a map.",
+      "accept": [
+        "A ticket and a map"
+      ],
       "remediation": "Read the short words first; for numbers, say “one hundred and”, then the last two digits.",
       "transfer": "Read the bus or taxi numbers you see in town.",
       "materials": "Word cards, number cards.",
@@ -400,11 +446,20 @@
         {
           "prompt": "Read the number: 149.",
           "answer": "one hundred and forty-nine.",
+          "accept": [
+            "one hundred and forty-nine"
+          ],
           "explanation": "One hundred, and, forty-nine."
         },
         {
           "prompt": "Which word is something you use to know the way: map or bag?",
           "answer": "map.",
+          "accept": [
+            "map"
+          ],
+          "reject": [
+            "bag"
+          ],
           "explanation": "A map shows the way."
         }
       ],
@@ -434,6 +489,9 @@
       "guided": "The child writes three travelling words and three numbers dictated by the adult.",
       "exercise": "Write in figures: one hundred and thirty-five.",
       "answer": "135.",
+      "accept": [
+        "135"
+      ],
       "remediation": "Say the number slowly and write one digit for each part: hundred → 1, thirty → 3, five → 5.",
       "transfer": "Write a pretend bus ticket with a number between 101 and 150.",
       "materials": "Lined paper or the writing pad.",
@@ -441,12 +499,18 @@
         {
           "prompt": "Write in figures: one hundred and seven.",
           "answer": "107.",
+          "accept": [
+            "107"
+          ],
           "explanation": "There are no tens: write 0 in the middle."
         },
         {
           "prompt": "Listen and write the words.",
           "listen": "bus. boat. ticket.",
           "answer": "bus, boat, ticket.",
+          "accept": [
+            "bus, boat, ticket"
+          ],
           "explanation": "Listen to each word and write it.",
           "ink": "lignes"
         }
@@ -484,11 +548,24 @@
         {
           "prompt": "What is the opposite of arrive?",
           "answer": "leave.",
+          "accept": [
+            "leave"
+          ],
+          "reject": [
+            "arrive"
+          ],
           "explanation": "We arrive at the station and we leave the station."
         },
         {
           "prompt": "Complete: He washes … .",
           "answer": "himself.",
+          "accept": [
+            "himself"
+          ],
+          "reject": [
+            "herself",
+            "itself"
+          ],
           "explanation": "He → himself."
         }
       ],
@@ -564,6 +641,9 @@
       "guided": "Lisez et décomposez trois nombres de 700 à 800, puis placez-les sur une droite graduée.",
       "exercise": "Écris en chiffres : sept cent quatre-vingt-trois. Décompose-le.",
       "answer": "783 = 700 + 80 + 3.",
+      "accept": [
+        "783 = 700 + 80 + 3"
+      ],
       "remediation": "Utiliser le tableau centaines / dizaines / unités.",
       "transfer": "Lire les numéros de trois maisons ou de trois pages entre 700 et 800 dans un livre épais.",
       "materials": "Tableau C/D/U, droite graduée, ardoise ou cahier, crayon.",
@@ -571,12 +651,18 @@
         {
           "prompt": "Quel nombre vient juste après 799 ?",
           "answer": "800.",
+          "accept": [
+            "800"
+          ],
           "explanation": "799 + 1 = 800 : 8 centaines."
         },
         {
           "prompt": "Écoute et écris le nombre en chiffres.",
           "listen": "sept cent soixante-cinq",
           "answer": "765.",
+          "accept": [
+            "765"
+          ],
           "explanation": "sept cent soixante-cinq = 700 + 60 + 5.",
           "ink": "lignes"
         }
@@ -614,11 +700,18 @@
         {
           "prompt": "Entoure les nombres pairs : 23, 46, 51, 70, 88.",
           "answer": "46, 70, 88.",
+          "accept": [
+            "46, 70, 88"
+          ],
           "explanation": "Ils se terminent par 6, 0 et 8."
         },
         {
           "prompt": "Problème : un billet aller coûte 1 500 F. Quel est le prix de l’aller-retour au même prix ?",
           "answer": "Le double : 3 000 F.",
+          "accept": [
+            "3 000 F",
+            "3 000"
+          ],
           "explanation": "Aller + retour = 2 fois 1 500 F."
         }
       ],
@@ -648,6 +741,9 @@
       "guided": "Calculez le périmètre de deux carrés, puis cherchez la date d’un anniversaire sur le calendrier.",
       "exercise": "Un jardin carré a 9 m de côté. Quel est son périmètre ?",
       "answer": "9 × 4 = 36 m.",
+      "accept": [
+        "36 m"
+      ],
       "remediation": "Dessiner le carré et écrire la longueur sur chaque côté avant de multiplier.",
       "transfer": "Faire l’emploi du temps d’une semaine de vacances ou d’une journée d’école.",
       "materials": "Calendrier, règle, ardoise ou cahier, crayon.",
@@ -655,11 +751,21 @@
         {
           "prompt": "Le 3 mai est un lundi. Quel jour est le 10 mai ?",
           "answer": "Un lundi aussi.",
+          "accept": [
+            "un lundi"
+          ],
+          "reject": [
+            "un mardi",
+            "un dimanche"
+          ],
           "explanation": "Une semaine a 7 jours : 3 + 7 = 10."
         },
         {
           "prompt": "Problème : on pose une clôture autour d’un enclos carré de 12 m de côté. Quelle longueur de clôture faut-il ?",
           "answer": "12 × 4 = 48 m.",
+          "accept": [
+            "48 m"
+          ],
           "explanation": "La clôture fait le tour : c’est le périmètre."
         }
       ],
@@ -696,11 +802,21 @@
         {
           "prompt": "Un angle plus grand qu’un angle droit est…",
           "answer": "obtus.",
+          "accept": [
+            "obtus"
+          ],
+          "reject": [
+            "aigu",
+            "droit"
+          ],
           "explanation": "Obtus veut dire plus ouvert que l’angle droit."
         },
         {
           "prompt": "Comment s’appelle le point où se rejoignent les deux côtés d’un angle ?",
           "answer": "Le sommet.",
+          "accept": [
+            "le sommet"
+          ],
           "explanation": "Les deux demi-droites partent du sommet."
         }
       ],

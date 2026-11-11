@@ -113,6 +113,12 @@
       "guided": "Pour chaque pronom du texte, dites quel nom il remplace.",
       "exercise": "Remplace le nom souligné par un pronom : « Awa prend son médicament. »",
       "answer": "Elle prend son médicament.",
+      "accept": [
+        "Elle prend son médicament"
+      ],
+      "reject": [
+        "Il prend son médicament"
+      ],
       "remediation": "Se demander : est-ce une fille, un garçon, plusieurs personnes ? puis choisir le pronom.",
       "transfer": "Raconter une visite au centre de santé en employant des pronoms pour ne pas répéter les noms.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -120,6 +126,9 @@
         {
           "prompt": "Quel nom remplace « ils » dans « Les malades attendent. Ils sont patients. » ?",
           "answer": "les malades.",
+          "accept": [
+            "les malades"
+          ],
           "explanation": "Ils remplace un nom masculin pluriel."
         },
         {
@@ -166,6 +175,9 @@
         {
           "prompt": "Quel mot n’est pas de la même famille : dent, dentiste, dentifrice, danse ?",
           "answer": "danse.",
+          "accept": [
+            "danse"
+          ],
           "explanation": "Danse ne vient pas du mot dent."
         }
       ],
@@ -208,6 +220,12 @@
           "prompt": "Écoute et écris la phrase.",
           "listen": "Ils boivent de l’eau propre.",
           "answer": "Ils boivent de l’eau propre.",
+          "accept": [
+            "Ils boivent de l’eau propre"
+          ],
+          "reject": [
+            "Ils boive de l’eau propre"
+          ],
           "explanation": "boivent : verbe boire, sujet ils.",
           "ink": "lignes"
         }
@@ -349,6 +367,9 @@
         {
           "prompt": "Say this number in words: 180.",
           "answer": "one hundred and eighty.",
+          "accept": [
+            "one hundred and eighty"
+          ],
           "explanation": "One hundred, and, eighty."
         },
         {
@@ -385,6 +406,11 @@
       "guided": "The child reads the text sentence by sentence, then reads the numbers.",
       "exercise": "Read the text. How can we protect ourselves from malaria?",
       "answer": "We sleep under a (mosquito) net.",
+      "accept": [
+        "We sleep under a mosquito net",
+        "We sleep under a net",
+        "under a mosquito net"
+      ],
       "remediation": "Read one sentence at a time and ask: what does this sentence tell me?",
       "transfer": "Look at the mosquito net at home and say in English what it is for.",
       "materials": "The text on screen, number cards.",
@@ -392,11 +418,18 @@
         {
           "prompt": "What gives malaria in the text?",
           "answer": "A mosquito bite.",
+          "accept": [
+            "A mosquito bite",
+            "a mosquito"
+          ],
           "explanation": "Read the second sentence again."
         },
         {
           "prompt": "Read the number: 188.",
           "answer": "one hundred and eighty-eight.",
+          "accept": [
+            "one hundred and eighty-eight"
+          ],
           "explanation": "One hundred, and, eighty-eight."
         }
       ],
@@ -433,12 +466,18 @@
         {
           "prompt": "Write in figures: one hundred and ninety-four.",
           "answer": "194.",
+          "accept": [
+            "194"
+          ],
           "explanation": "1 for the hundred, 9 for ninety, 4."
         },
         {
           "prompt": "Listen and write the sentence.",
           "listen": "I have a fever.",
           "answer": "I have a fever.",
+          "accept": [
+            "I have a fever"
+          ],
           "explanation": "Capital I, spaces, full stop.",
           "ink": "lignes"
         }
@@ -476,11 +515,21 @@
         {
           "prompt": "What is the opposite of weak?",
           "answer": "strong.",
+          "accept": [
+            "strong"
+          ],
           "explanation": "Weak and strong are opposites."
         },
         {
           "prompt": "Complete: Do you want an orange … a banana?",
           "answer": "or.",
+          "accept": [
+            "or"
+          ],
+          "reject": [
+            "and",
+            "but"
+          ],
           "explanation": "It is a choice: or."
         }
       ],
@@ -550,6 +599,14 @@
       "guided": "Écrivez trois nombres de 800 à 900 en lettres, puis coloriez 2/4 et 1/2 d’un rectangle.",
       "exercise": "Une pizza est coupée en 8 parts égales. Ali en mange 3. Quelle fraction a-t-il mangée ?",
       "answer": "3/8 : trois huitièmes.",
+      "accept": [
+        "3/8",
+        "trois huitièmes"
+      ],
+      "reject": [
+        "5/8",
+        "3/5"
+      ],
       "remediation": "Plier une feuille en parts égales et colorier les parts prises.",
       "transfer": "Partager un fruit en parts égales et dire la fraction de chacun.",
       "materials": "Feuilles à plier, crayons de couleur, ardoise ou cahier, crayon.",
@@ -557,12 +614,18 @@
         {
           "prompt": "Dans la fraction 2/5, quel est le numérateur ?",
           "answer": "2.",
+          "accept": [
+            "2"
+          ],
           "explanation": "Le numérateur est en haut : les parts prises."
         },
         {
           "prompt": "Écoute et écris le nombre en chiffres.",
           "listen": "huit cent soixante-douze",
           "answer": "872.",
+          "accept": [
+            "872"
+          ],
           "explanation": "huit cent soixante-douze = 800 + 70 + 2.",
           "ink": "lignes"
         }
@@ -593,6 +656,9 @@
       "guided": "Calculez ensemble 68 ÷ 2 et 75 ÷ 5, puis vérifiez par une multiplication.",
       "exercise": "Calcule et vérifie : 84 ÷ 4 ; 91 ÷ 7.",
       "answer": "84 ÷ 4 = 21 (21 × 4 = 84) ; 91 ÷ 7 = 13 (13 × 7 = 91).",
+      "accept": [
+        "21 ; 13"
+      ],
       "remediation": "Faire le partage avec des jetons groupés par dix, en échangeant une dizaine contre 10 unités si besoin.",
       "transfer": "Partager des comprimés ou des fruits selon une consigne, avec l’adulte.",
       "materials": "Jetons, ardoise ou cahier, crayon.",
@@ -600,11 +666,18 @@
         {
           "prompt": "Estime : 61 ÷ 3 est-il plus proche de 2, de 20 ou de 200 ?",
           "answer": "De 20.",
+          "accept": [
+            "de 20"
+          ],
           "explanation": "60 ÷ 3 = 20."
         },
         {
           "prompt": "Problème : un centre de santé reçoit 96 moustiquaires pour 8 familles. Combien chaque famille en reçoit-elle ?",
           "answer": "96 ÷ 8 = 12 moustiquaires.",
+          "accept": [
+            "12 moustiquaires",
+            "12"
+          ],
           "explanation": "Vérification : 12 × 8 = 96."
         }
       ],
@@ -634,6 +707,9 @@
       "guided": "Calculez le périmètre de la cour de récréation imaginée de 20 m sur 15 m, puis lisez trois températures dessinées.",
       "exercise": "Une salle de soins rectangulaire mesure 6 m sur 4 m. Quel est son périmètre ?",
       "answer": "(6 + 4) × 2 = 20 m.",
+      "accept": [
+        "20 m"
+      ],
       "remediation": "Dessiner le rectangle et écrire les 4 longueurs avant de calculer.",
       "transfer": "Écouter la météo à la radio et noter la température annoncée.",
       "materials": "Thermomètre (ou dessin), règle, ardoise ou cahier, crayon.",
@@ -646,6 +722,9 @@
         {
           "prompt": "Problème : on entoure un jardin rectangulaire de 10 m sur 7 m. Quelle longueur de grillage faut-il ?",
           "answer": "(10 + 7) × 2 = 34 m.",
+          "accept": [
+            "34 m"
+          ],
           "explanation": "Le grillage fait le tour : c’est le périmètre."
         }
       ],

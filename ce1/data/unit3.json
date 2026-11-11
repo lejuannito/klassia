@@ -113,6 +113,14 @@
         {
           "prompt": "Complète avec un adjectif possessif : « Nous rangeons … livres. »",
           "answer": "nos livres.",
+          "accept": [
+            "nos livres",
+            "nos"
+          ],
+          "reject": [
+            "notre livres",
+            "notre"
+          ],
           "explanation": "Les livres sont à nous : nos."
         }
       ],
@@ -154,6 +162,13 @@
         {
           "prompt": "Souligne le sujet : « Au tableau, Fanta écrit la date. »",
           "answer": "Fanta.",
+          "accept": [
+            "Fanta"
+          ],
+          "reject": [
+            "la date",
+            "le tableau"
+          ],
           "explanation": "Qui est-ce qui écrit ? Fanta."
         }
       ],
@@ -224,6 +239,9 @@
       "guided": "Lisez la liste, cachez-la, puis écrivez de mémoire cinq mots.",
       "exercise": "Complète avec un mot invariable : « Je range mon livre … mon cartable. »",
       "answer": "dans.",
+      "accept": [
+        "dans"
+      ],
       "remediation": "Lire le mot, l’épeler, le cacher, l’écrire, vérifier.",
       "transfer": "Écrire chaque jour trois mots invariables sur l’ardoise.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -314,6 +332,15 @@
         {
           "prompt": "Complète avec être : « Vous … dans la cour. »",
           "answer": "êtes.",
+          "accept": [
+            "êtes",
+            "vous êtes"
+          ],
+          "reject": [
+            "est",
+            "sommes",
+            "sont"
+          ],
           "explanation": "vous êtes : accent circonflexe sur le ê."
         },
         {
@@ -378,6 +405,17 @@
       "guided": "Role play: the child greets the adult, then introduces a parent with a picture. Then the child gives two instructions to the adult.",
       "exercise": "It is 9 o’clock in the morning. Greet your teacher.",
       "answer": "Good morning, teacher! (“Good morning, Sir / Madam” is also accepted.)",
+      "accept": [
+        "Good morning, teacher",
+        "Good morning",
+        "Good morning, Sir",
+        "Good morning, Madam"
+      ],
+      "reject": [
+        "Good afternoon",
+        "Good evening",
+        "Good night"
+      ],
       "remediation": "Practise one greeting at a time with a picture of the sun (morning) or the moon (evening).",
       "transfer": "Greet each member of the family in English at the right time of the day.",
       "materials": "Pictures: sun (morning), moon (evening), a parent.",
@@ -391,6 +429,9 @@
           "prompt": "Listen and do the action, then write the instruction.",
           "listen": "Stand up.",
           "answer": "Stand up.",
+          "accept": [
+            "Stand up"
+          ],
           "explanation": "An instruction starts with a verb.",
           "ink": "lignes"
         }
@@ -428,11 +469,21 @@
         {
           "prompt": "Which month comes after October?",
           "answer": "November.",
+          "accept": [
+            "November"
+          ],
+          "reject": [
+            "September",
+            "December"
+          ],
           "explanation": "September, October, November…"
         },
         {
           "prompt": "Which word is not a classroom item: pen, desk, goat, bag?",
           "answer": "goat.",
+          "accept": [
+            "goat"
+          ],
           "explanation": "A goat is an animal."
         }
       ],
@@ -462,6 +513,11 @@
       "guided": "The child writes three school objects, then one instruction.",
       "exercise": "Write an instruction to ask a friend to close the door.",
       "answer": "Close the door. (“Please close the door.” is also accepted.)",
+      "accept": [
+        "Close the door",
+        "Please close the door",
+        "Close the door, please"
+      ],
       "remediation": "Start from the verb card “Close”, then add “the door”.",
       "transfer": "Write two classroom instructions on cards for a pretend lesson at home.",
       "materials": "Lined paper or the writing pad, word cards.",
@@ -475,6 +531,9 @@
           "prompt": "Listen and write the instruction.",
           "listen": "Sit down.",
           "answer": "Sit down.",
+          "accept": [
+            "Sit down"
+          ],
           "explanation": "Capital S, a space, a full stop.",
           "ink": "lignes"
         }
@@ -512,11 +571,21 @@
         {
           "prompt": "What is the opposite of full?",
           "answer": "empty.",
+          "accept": [
+            "empty"
+          ],
           "explanation": "A full cup has water; an empty cup has none."
         },
         {
           "prompt": "Complete: The cat is … the chair. (It is below the chair.)",
           "answer": "under.",
+          "accept": [
+            "under"
+          ],
+          "reject": [
+            "on",
+            "in"
+          ],
           "explanation": "Below the chair means under the chair."
         }
       ],
@@ -586,6 +655,9 @@
       "guided": "Calculez ensemble 4 × 13 en décomposant 13 en 10 + 3.",
       "exercise": "Calcule en décomposant : 5 × 14 ; 2 × 36.",
       "answer": "5 × 14 = 50 + 20 = 70 ; 2 × 36 = 60 + 12 = 72.",
+      "accept": [
+        "70 ; 72"
+      ],
       "remediation": "Dessiner des paquets : 5 paquets de 14 = 5 paquets de 10 et 5 paquets de 4.",
       "transfer": "Calculer de tête le prix de 3 cahiers à 120 F : 3 × 100 + 3 × 20.",
       "materials": "Jetons groupés par dix, ardoise ou cahier, crayon.",
@@ -593,11 +665,21 @@
         {
           "prompt": "Vrai ou faux : 15 − 6 = 6 − 15.",
           "answer": "Faux.",
+          "accept": [
+            "Faux"
+          ],
+          "reject": [
+            "Vrai"
+          ],
           "explanation": "On ne peut pas changer l’ordre dans une soustraction."
         },
         {
           "prompt": "Problème : chaque élève reçoit 12 crayons ; ils sont 4. Combien de crayons en tout ?",
           "answer": "4 × 12 = 40 + 8 = 48 crayons.",
+          "accept": [
+            "48 crayons",
+            "48"
+          ],
           "explanation": "4 × 10 = 40 et 4 × 2 = 8."
         }
       ],
@@ -649,6 +731,10 @@
         {
           "prompt": "Combien de verres de 25 cL peut-on remplir avec 1 L ?",
           "answer": "4 verres.",
+          "accept": [
+            "4 verres",
+            "4"
+          ],
           "explanation": "1 L = 100 cL ; 4 × 25 cL = 100 cL."
         },
         {
@@ -690,6 +776,15 @@
         {
           "prompt": "Quelle empreinte laisse une face de cube ?",
           "answer": "Un carré.",
+          "accept": [
+            "un carré"
+          ],
+          "reject": [
+            "un rectangle",
+            "un triangle",
+            "un rond",
+            "un cercle"
+          ],
           "explanation": "Toutes les faces du cube sont carrées."
         },
         {

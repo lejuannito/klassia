@@ -141,6 +141,13 @@
       "guided": "Soulignez les conjonctions du texte et dites ce que chacune exprime.",
       "exercise": "Complète avec et, mais ou car : « Je téléphone à grand-mère … elle est malade. »",
       "answer": "car.",
+      "accept": [
+        "car"
+      ],
+      "reject": [
+        "mais",
+        "et"
+      ],
       "remediation": "Se demander : est-ce une addition, une opposition, un choix, une cause ou une conséquence ?",
       "transfer": "Écrire deux phrases sur les moyens de communication avec deux conjonctions différentes.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -148,11 +155,23 @@
         {
           "prompt": "Quelle conjonction propose un choix ?",
           "answer": "ou.",
+          "accept": [
+            "ou"
+          ],
+          "reject": [
+            "et",
+            "mais",
+            "car"
+          ],
           "explanation": "Ou laisse choisir entre deux possibilités."
         },
         {
           "prompt": "Complète : « La radio est allumée … on entend la musique. »",
           "answer": "donc (ou et).",
+          "accept": [
+            "donc",
+            "et"
+          ],
           "explanation": "Donc exprime la conséquence."
         }
       ],
@@ -182,6 +201,9 @@
       "guided": "Rangez ensemble cinq mots des communications, puis expliquez « timbre » et « réseau ».",
       "exercise": "Range par ordre alphabétique : timbre, lettre, téléphone, facteur.",
       "answer": "facteur, lettre, téléphone, timbre.",
+      "accept": [
+        "facteur, lettre, téléphone, timbre"
+      ],
       "remediation": "Quand la première lettre est la même, avancer lettre par lettre.",
       "transfer": "Faire le répertoire alphabétique des prénoms de la famille.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -194,6 +216,9 @@
         {
           "prompt": "Range : message, médecin, maison.",
           "answer": "maison, médecin, message.",
+          "accept": [
+            "maison, médecin, message"
+          ],
           "explanation": "On compare la deuxième lettre : a, é, e ; puis la troisième pour médecin et message."
         }
       ],
@@ -236,6 +261,9 @@
           "prompt": "Écoute et écris.",
           "listen": "Le facteur apporte une lettre.",
           "answer": "Le facteur apporte une lettre.",
+          "accept": [
+            "Le facteur apporte une lettre"
+          ],
           "explanation": "apporte : sujet singulier, terminaison -e.",
           "ink": "lignes"
         }
@@ -299,6 +327,12 @@
       "guided": "Conjuguez « parler » à l’imparfait, puis transformez une phrase en changeant l’indicateur de temps.",
       "exercise": "Transforme en commençant par « Autrefois » : « Aujourd’hui, mon oncle écoute la radio. »",
       "answer": "Autrefois, mon oncle écoutait la radio.",
+      "accept": [
+        "Autrefois, mon oncle écoutait la radio"
+      ],
+      "reject": [
+        "Autrefois, mon oncle écoute la radio"
+      ],
       "remediation": "Garder le radical (écout-) et ajouter la terminaison de l’imparfait (-ait).",
       "transfer": "Demander à un grand-parent comment on communiquait autrefois et le raconter à l’imparfait.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -306,12 +340,24 @@
         {
           "prompt": "Conjugue « parler » à l’imparfait avec nous et ils.",
           "answer": "nous parlions, ils parlaient.",
+          "accept": [
+            "nous parlions, ils parlaient"
+          ],
+          "reject": [
+            "nous parlons, ils parlent"
+          ],
           "explanation": "nous -ions, ils -aient."
         },
         {
           "prompt": "Écoute et écris.",
           "listen": "Autrefois, ils écoutaient la radio.",
           "answer": "Autrefois, ils écoutaient la radio.",
+          "accept": [
+            "Autrefois, ils écoutaient la radio"
+          ],
+          "reject": [
+            "Autrefois, ils écoutait la radio"
+          ],
           "explanation": "écout- + aient.",
           "ink": "lignes"
         }
@@ -386,6 +432,9 @@
         {
           "prompt": "Say this number in words: 290.",
           "answer": "two hundred and ninety.",
+          "accept": [
+            "two hundred and ninety"
+          ],
           "explanation": "Two hundred, and, ninety."
         },
         {
@@ -422,6 +471,9 @@
       "guided": "The child reads the other sentences, then the numbers.",
       "exercise": "Read: “We send a letter by post.” How do we send a letter?",
       "answer": "By post.",
+      "accept": [
+        "By post"
+      ],
       "remediation": "Read the sentence twice; the answer is at the end.",
       "transfer": "Find a letter or an envelope at home and read the address with an adult.",
       "materials": "The text on screen, number cards.",
@@ -429,11 +481,17 @@
         {
           "prompt": "What do we watch on television in the text?",
           "answer": "The news.",
+          "accept": [
+            "The news"
+          ],
           "explanation": "Read the second sentence."
         },
         {
           "prompt": "Read the number: 281.",
           "answer": "two hundred and eighty-one.",
+          "accept": [
+            "two hundred and eighty-one"
+          ],
           "explanation": "Two hundred, and, eighty-one."
         }
       ],
@@ -470,12 +528,18 @@
         {
           "prompt": "Write in figures: two hundred and seventy-six.",
           "answer": "276.",
+          "accept": [
+            "276"
+          ],
           "explanation": "2 for two hundred, 7 for seventy, 6."
         },
         {
           "prompt": "Listen and write the sentence.",
           "listen": "We send a letter.",
           "answer": "We send a letter.",
+          "accept": [
+            "We send a letter"
+          ],
           "explanation": "Capital W, spaces, full stop.",
           "ink": "lignes"
         }
@@ -513,6 +577,12 @@
         {
           "prompt": "What is the opposite of ask?",
           "answer": "answer.",
+          "accept": [
+            "answer"
+          ],
+          "reject": [
+            "ask"
+          ],
           "explanation": "We ask a question and we answer it."
         },
         {
@@ -638,6 +708,13 @@
       "guided": "Écrivez ensemble trois nombres de quatre chiffres dans le tableau, puis lisez-les.",
       "exercise": "Écris en chiffres : quatre mille trente-deux.",
       "answer": "4 032.",
+      "accept": [
+        "4 032"
+      ],
+      "reject": [
+        "432",
+        "4 320"
+      ],
       "remediation": "Placer un chiffre par colonne (M, C, D, U) et écrire 0 dans les colonnes vides.",
       "transfer": "Lire les prix de quelques articles chers (un sac de riz, un tissu) écrits avec quatre chiffres.",
       "materials": "Tableau M/C/D/U, ardoise ou cahier, crayon.",
@@ -645,12 +722,18 @@
         {
           "prompt": "Décompose 5 307.",
           "answer": "5 000 + 300 + 7.",
+          "accept": [
+            "5 000 + 300 + 7"
+          ],
           "explanation": "Il n’y a pas de dizaines."
         },
         {
           "prompt": "Écoute et écris le nombre en chiffres.",
           "listen": "mille deux cent cinquante",
           "answer": "1 250.",
+          "accept": [
+            "1 250"
+          ],
           "explanation": "mille deux cent cinquante = 1 000 + 200 + 50.",
           "ink": "lignes"
         }
@@ -681,6 +764,9 @@
       "guided": "Calculez de tête 300 + 400, puis vérifiez avec la calculatrice. Comptez de 100 en 100 à partir de 120.",
       "exercise": "Avec la calculatrice : 456 − 189 ; 24 × 15 ; 96 ÷ 4.",
       "answer": "267 ; 360 ; 24.",
+      "accept": [
+        "267 ; 360 ; 24"
+      ],
       "remediation": "Estimer avant de taper pour repérer une erreur de frappe.",
       "transfer": "Utiliser la calculatrice d’un téléphone avec un adulte pour vérifier une facture.",
       "materials": "Calculatrice ou téléphone, ardoise ou cahier, crayon.",
@@ -688,11 +774,18 @@
         {
           "prompt": "Complète la suite : 230, 330, 430, …, …",
           "answer": "530, 630.",
+          "accept": [
+            "530, 630"
+          ],
           "explanation": "On ajoute 100 à chaque fois."
         },
         {
           "prompt": "À quoi sert la touche C de la calculatrice ?",
           "answer": "À effacer.",
+          "accept": [
+            "à effacer",
+            "effacer"
+          ],
           "explanation": "C veut dire « clear » : on recommence le calcul."
         }
       ],
@@ -729,11 +822,19 @@
         {
           "prompt": "Combien de pièces de 25 F faut-il pour faire 100 F ?",
           "answer": "4.",
+          "accept": [
+            "4",
+            "4 pièces"
+          ],
           "explanation": "4 × 25 = 100."
         },
         {
           "prompt": "Problème : un timbre coûte 400 F. On paie avec 1 000 F. Combien rend le vendeur ?",
           "answer": "600 F.",
+          "accept": [
+            "600 F",
+            "600"
+          ],
           "explanation": "400 + 600 = 1 000."
         }
       ],

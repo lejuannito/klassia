@@ -63,12 +63,18 @@
         {
           "prompt": "Lis : sa, as, sou, os. Lesquelles se terminent par s ?",
           "answer": "as et os.",
+          "accept": [
+            "as et os"
+          ],
           "explanation": "On lit la voyelle, puis s."
         },
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "sa. si. sou.",
           "answer": "sa, si, sou.",
+          "accept": [
+            "sa, si, sou"
+          ],
           "explanation": "Pour « sou », on écrit s puis ou.",
           "ink": "lignes"
         }
@@ -145,6 +151,9 @@
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "ba. bou. bi.",
           "answer": "ba, bou, bi.",
+          "accept": [
+            "ba, bou, bi"
+          ],
           "explanation": "On écrit b, puis la voyelle entendue.",
           "ink": "lignes"
         }
@@ -215,6 +224,9 @@
         {
           "prompt": "Lis : da, ta, do, to. Lesquelles commencent par d ?",
           "answer": "da et do.",
+          "accept": [
+            "da et do"
+          ],
           "explanation": "Avec d, la gorge vibre ; avec t, elle ne vibre pas."
         },
         {
@@ -316,11 +328,19 @@
         {
           "prompt": "Calcule 12 + 3 avec des bâtonnets.",
           "answer": "15.",
+          "accept": [
+            "15"
+          ],
           "explanation": "Garde la dizaine et réunis les unités : 2 + 3 = 5."
         },
         {
           "prompt": "Pour repérer le matériel de la classe, on a préparé 12 étiquettes le matin et 5 de plus l’après-midi. Dessine une dizaine et les unités isolées. Combien d’étiquettes a-t-on préparées ? Écris le total en chiffres et en lettres.",
           "answer": "17 étiquettes, dix-sept.",
+          "accept": [
+            "17 étiquettes",
+            "17",
+            "dix-sept"
+          ],
           "explanation": "Sur les 12 étiquettes, il y en a 10 ensemble et 2 isolées. On ajoute 5 aux 2 isolées. On obtient une dizaine et 7 unités. Il n’y a pas de nouvelle dizaine à former.",
           "ink": "grille"
         }
@@ -746,6 +766,9 @@
           "prompt": "Écoute les mots et écris-les.",
           "listen": "bébé. midi. sale.",
           "answer": "bébé, midi, sale.",
+          "accept": [
+            "bébé, midi, sale"
+          ],
           "explanation": "Le e à la fin de sale s’entend à peine, mais on l’écrit.",
           "ink": "lignes"
         }

@@ -71,6 +71,9 @@
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "ca. cou. qui.",
           "answer": "ca, cou, qui.",
+          "accept": [
+            "ca, cou, qui"
+          ],
           "explanation": "Pour « qui », écrire ki est accepté à ce stade : c’est le même son.",
           "ink": "lignes"
         }
@@ -143,12 +146,22 @@
         {
           "prompt": "Lis « case » et « sac ». Dans quel mot s se lit-il [z] ?",
           "answer": "Dans case.",
+          "accept": [
+            "case",
+            "dans case"
+          ],
+          "reject": [
+            "sac"
+          ],
           "explanation": "Dans case, s est entre a et e ; dans sac, s est au début du mot."
         },
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "fa. zé. fou.",
           "answer": "fa, zé, fou.",
+          "accept": [
+            "fa, zé, fou"
+          ],
           "explanation": "On écrit f ou z, puis la voyelle entendue.",
           "ink": "lignes"
         }
@@ -225,6 +238,9 @@
           "prompt": "Écoute les mots et écris-les.",
           "listen": "feu. peu. bleu.",
           "answer": "feu, peu, bleu.",
+          "accept": [
+            "feu, peu, bleu"
+          ],
           "explanation": "Chaque mot se termine par eu.",
           "ink": "lignes"
         }
@@ -291,6 +307,12 @@
         {
           "prompt": "Le sac a changé de place. Complète « Le sac est … » pour dire qu’il est sur la table. Écris la phrase, puis relis-la.",
           "answer": "Le sac est sur la table.",
+          "accept": [
+            "Le sac est sur la table"
+          ],
+          "reject": [
+            "Le sac est sous la table"
+          ],
           "explanation": "Le début indique l’objet. La fin précise le nouveau lieu. Compare les espaces entre les mots et le point final."
         },
         {
@@ -353,6 +375,11 @@
         {
           "prompt": "Plie un carré de papier en deux parts égales, puis encore en deux. Combien de parts égales vois-tu en le dépliant ?",
           "answer": "4 parts égales; chacune est un quart du carré.",
+          "accept": [
+            "4 parts égales",
+            "4",
+            "quatre"
+          ],
           "explanation": "Deux moitiés partagées chacune en deux donnent quatre quarts."
         }
       ]
@@ -714,6 +741,9 @@
           "prompt": "Écoute les mots et écris-les.",
           "listen": "café. rose. feu.",
           "answer": "café, rose, feu.",
+          "accept": [
+            "café, rose, feu"
+          ],
           "explanation": "Dans café, le é porte un accent aigu.",
           "ink": "lignes"
         }

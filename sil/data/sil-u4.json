@@ -34,6 +34,11 @@
         {
           "prompt": "Combien de lettres faut-il pour écrire le son « ou » ?",
           "answer": "Deux : o et u, collés.",
+          "accept": [
+            "deux",
+            "2",
+            "o et u"
+          ],
           "explanation": "On lit les deux lettres ensemble, comme un seul son."
         },
         {
@@ -110,6 +115,9 @@
         {
           "prompt": "Lis : la, al, lou, ul. Lesquelles commencent par une voyelle ?",
           "answer": "al et ul.",
+          "accept": [
+            "al et ul"
+          ],
           "explanation": "Dans al et ul, on lit d’abord la voyelle, puis l."
         },
         {
@@ -186,12 +194,18 @@
         {
           "prompt": "Avec les syllabes mi, a et la, fabrique deux mots : a + mi, et mi + la.",
           "answer": "ami ; Mila.",
+          "accept": [
+            "ami ; Mila"
+          ],
           "explanation": "Mila est un prénom : il commence par une majuscule."
         },
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "ma. mou. mi.",
           "answer": "ma, mou, mi.",
+          "accept": [
+            "ma, mou, mi"
+          ],
           "explanation": "Pour « mou », on écrit m puis ou, deux lettres pour un seul son.",
           "ink": "lignes"
         }
@@ -299,6 +313,10 @@
         {
           "prompt": "Regroupe 10 bâtonnets. Combien de dizaines as-tu ?",
           "answer": "1 dizaine.",
+          "accept": [
+            "1 dizaine",
+            "1"
+          ],
           "explanation": "Une dizaine contient exactement dix unités."
         }
       ]
@@ -677,6 +695,9 @@
           "prompt": "Écoute les mots et écris-les.",
           "listen": "ami. mal. Lola.",
           "answer": "ami, mal, Lola.",
+          "accept": [
+            "ami, mal, Lola"
+          ],
           "explanation": "Lola est un prénom : il commence par une majuscule.",
           "ink": "lignes"
         }

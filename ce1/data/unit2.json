@@ -108,11 +108,24 @@
         {
           "prompt": "Quel est le nom dans le groupe « les petites cases » ?",
           "answer": "cases.",
+          "accept": [
+            "cases"
+          ],
+          "reject": [
+            "petites"
+          ],
           "explanation": "les est le déterminant, petites l’adjectif."
         },
         {
           "prompt": "Souligne le verbe : « Les femmes vendent des légumes. »",
           "answer": "vendent.",
+          "accept": [
+            "vendent"
+          ],
+          "reject": [
+            "femmes",
+            "légumes"
+          ],
           "explanation": "Hier, les femmes vendaient : c’est le mot qui change."
         }
       ],
@@ -142,6 +155,12 @@
       "guided": "Transformez ensemble « Le marché est ouvert » en phrase négative puis en question. Ajoutez la bonne ponctuation.",
       "exercise": "Transforme en phrase négative : « Mon oncle habite en ville. »",
       "answer": "Mon oncle n’habite pas en ville.",
+      "accept": [
+        "Mon oncle n’habite pas en ville"
+      ],
+      "reject": [
+        "Mon oncle habite pas en ville"
+      ],
       "remediation": "Montrer le verbe d’abord, puis placer ne avant et pas après. Devant une voyelle, ne devient n’.",
       "transfer": "Poser trois questions à un adulte sur son village avec « Est-ce que ».",
       "materials": "Ardoise ou cahier, crayon.",
@@ -154,6 +173,9 @@
         {
           "prompt": "Transforme en question avec « Est-ce que » : « Le pont est solide. »",
           "answer": "Est-ce que le pont est solide ?",
+          "accept": [
+            "Est-ce que le pont est solide ?"
+          ],
           "explanation": "Est-ce que se place au début ; la phrase se termine par ?"
         }
       ],
@@ -256,6 +278,12 @@
         {
           "prompt": "Corrige : « Les enfants joue sur la place. »",
           "answer": "Les enfants jouent sur la place.",
+          "accept": [
+            "Les enfants jouent sur la place"
+          ],
+          "reject": [
+            "Les enfants joue sur la place"
+          ],
           "explanation": "Avec un sujet au pluriel (ils), le verbe prend -ent."
         },
         {
@@ -332,11 +360,24 @@
         {
           "prompt": "À quel temps est « tu chanteras » ?",
           "answer": "Au futur.",
+          "accept": [
+            "au futur"
+          ],
+          "reject": [
+            "au présent",
+            "au passé"
+          ],
           "explanation": "Le futur indique une action qui se passera plus tard."
         },
         {
           "prompt": "Quel est l’infinitif de « nous visitons » ?",
           "answer": "visiter.",
+          "accept": [
+            "visiter"
+          ],
+          "reject": [
+            "visitons"
+          ],
           "explanation": "On retrouve l’infinitif en disant « il faut… » : il faut visiter."
         }
       ],
@@ -401,6 +442,10 @@
         {
           "prompt": "What do old people do at night in the text?",
           "answer": "They tell stories.",
+          "accept": [
+            "They tell stories",
+            "tell stories"
+          ],
           "explanation": "Read the second sentence again: “Old people tell stories at night.”"
         },
         {
@@ -437,6 +482,10 @@
       "guided": "The child says the letter names with the adult, reads the sight words, then reads the text sentence by sentence.",
       "exercise": "Read the text. What do they share?",
       "answer": "They share food.",
+      "accept": [
+        "They share food",
+        "food"
+      ],
       "remediation": "Read the sight words first, then one sentence at a time.",
       "transfer": "Find the sight word “the” in a poster or a book at home.",
       "materials": "Alphabet card, the short text on screen.",
@@ -491,6 +540,9 @@
           "prompt": "Listen and write the sentence.",
           "listen": "We sing.",
           "answer": "We sing.",
+          "accept": [
+            "We sing"
+          ],
           "explanation": "Capital W, then the word sing, then a full stop.",
           "ink": "lignes"
         }
@@ -528,11 +580,20 @@
         {
           "prompt": "What is the opposite of near?",
           "answer": "far.",
+          "accept": [
+            "far"
+          ],
+          "reject": [
+            "near"
+          ],
           "explanation": "Near and far are opposites."
         },
         {
           "prompt": "Write the past of: play, walk.",
           "answer": "played, walked.",
+          "accept": [
+            "played, walked"
+          ],
           "explanation": "Regular verbs add -ed in the simple past."
         }
       ],
@@ -643,6 +704,9 @@
       "guided": "Posez ensemble 352 − 128 en disant chaque étape.",
       "exercise": "Pose et calcule : 276 + 148 ; 304 − 157.",
       "answer": "276 + 148 = 424 ; 304 − 157 = 147.",
+      "accept": [
+        "424 ; 147"
+      ],
       "remediation": "Utiliser un tableau centaines / dizaines / unités et des jetons pour voir l’échange de dix unités contre une dizaine.",
       "transfer": "Additionner le prix de deux articles achetés au marché.",
       "materials": "Tableau C/D/U, jetons, ardoise ou cahier, crayon.",
@@ -655,6 +719,10 @@
         {
           "prompt": "Problème : un car transporte 125 passagers le matin et 168 le soir. Combien en tout ?",
           "answer": "125 + 168 = 293 passagers.",
+          "accept": [
+            "293 passagers",
+            "293"
+          ],
           "explanation": "On additionne les deux nombres ; 5 + 8 = 13, on retient 1."
         }
       ],
@@ -778,11 +846,23 @@
         {
           "prompt": "Combien de sommets a un cube ?",
           "answer": "8.",
+          "accept": [
+            "8",
+            "8 sommets"
+          ],
           "explanation": "4 sommets en haut et 4 en bas."
         },
         {
           "prompt": "Une boîte de lait en poudre roule sur la table. Quel solide est-ce ?",
           "answer": "Un cylindre.",
+          "accept": [
+            "un cylindre"
+          ],
+          "reject": [
+            "un cube",
+            "un pavé droit",
+            "une boule"
+          ],
           "explanation": "Le cylindre a une face courbe qui lui permet de rouler."
         }
       ],

@@ -120,6 +120,12 @@
         {
           "prompt": "Écris au pluriel : un lit, une porte.",
           "answer": "des lits, des portes.",
+          "accept": [
+            "des lits, des portes"
+          ],
+          "reject": [
+            "des lit, des porte"
+          ],
           "explanation": "Au pluriel, le déterminant change (des) et le nom prend souvent un -s."
         }
       ],
@@ -161,6 +167,14 @@
         {
           "prompt": "Trouve l’intrus : lit, natte, armoire, marmite.",
           "answer": "marmite.",
+          "accept": [
+            "marmite"
+          ],
+          "reject": [
+            "lit",
+            "natte",
+            "armoire"
+          ],
           "explanation": "Les trois autres sont dans la chambre ; la marmite est dans la cuisine."
         }
       ],
@@ -190,6 +204,13 @@
       "guided": "Écrivez ensemble le pluriel de trois noms de la maison, puis le féminin de deux noms de personnes.",
       "exercise": "Écris au pluriel : un bol, un rideau, un tapis.",
       "answer": "des bols, des rideaux, des tapis.",
+      "accept": [
+        "des bols, des rideaux, des tapis"
+      ],
+      "reject": [
+        "des bols, des rideaus, des tapis",
+        "des bol, des rideau, des tapis"
+      ],
       "remediation": "Regarder la fin du nom au singulier avant d’écrire le pluriel : -eau → x ; -s → rien ne change ; sinon -s.",
       "transfer": "Écrire le pluriel des objets que l’on compte en mettant la table.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -245,6 +266,13 @@
         {
           "prompt": "Mets cette phrase au futur en commençant par « Demain » : « Je range mon lit. »",
           "answer": "Demain, je rangerai mon lit.",
+          "accept": [
+            "Demain, je rangerai mon lit",
+            "je rangerai mon lit"
+          ],
+          "reject": [
+            "Demain, je range mon lit"
+          ],
           "explanation": "Au futur, le verbe ranger devient rangerai avec je."
         }
       ],
@@ -299,6 +327,9 @@
       "guided": "Point to each person in the drawing and say the word together. Then sing the song twice with gestures. Finally, put the word cards “is / This / my / father” in order.",
       "exercise": "Put the words in order and say the sentence: “sister / my / This / is”.",
       "answer": "This is my sister.",
+      "accept": [
+        "This is my sister"
+      ],
       "remediation": "Say the family words one by one with the drawing, then build the sentence with only three cards: “This is … ”, adding the last word.",
       "transfer": "Introduce the members of a pretend family with a drawing: “This is my father…”",
       "materials": "A drawing of a family (not a real photo), word cards.",
@@ -306,6 +337,14 @@
         {
           "prompt": "Who is the father’s son?",
           "answer": "He is the brother. “The brother” is accepted.",
+          "accept": [
+            "the brother",
+            "He is the brother"
+          ],
+          "reject": [
+            "the sister",
+            "the father"
+          ],
           "explanation": "In a nuclear family, the son is the brother of the other children."
         },
         {
@@ -349,11 +388,26 @@
         {
           "prompt": "Which word does not belong: mother, father, table, sister?",
           "answer": "table.",
+          "accept": [
+            "table"
+          ],
+          "reject": [
+            "mother",
+            "father",
+            "sister"
+          ],
           "explanation": "A table is a thing in the home, not a member of the family."
         },
         {
           "prompt": "Read the words aloud: baby, sister, father. Which word has “th”?",
           "answer": "father.",
+          "accept": [
+            "father"
+          ],
+          "reject": [
+            "baby",
+            "sister"
+          ],
           "explanation": "In father, the letters t and h go together."
         }
       ],
@@ -390,12 +444,21 @@
         {
           "prompt": "Which word is a thing in the home: brother or chair?",
           "answer": "chair.",
+          "accept": [
+            "chair"
+          ],
+          "reject": [
+            "brother"
+          ],
           "explanation": "A chair is an object; a brother is a person."
         },
         {
           "prompt": "Listen and write the words.",
           "listen": "bed. cup. sister.",
           "answer": "bed, cup, sister.",
+          "accept": [
+            "bed, cup, sister"
+          ],
           "explanation": "Listen to each word, say it softly, then write it.",
           "ink": "lignes"
         }
@@ -426,6 +489,13 @@
       "guided": "The adult says a word; the child says the opposite. Then the child makes the plural of bed, dish and lady.",
       "exercise": "Give the plural: one plate → two …; one dish → two …; one lady → two …",
       "answer": "two plates, two dishes, two ladies.",
+      "accept": [
+        "two plates, two dishes, two ladies",
+        "plates, dishes, ladies"
+      ],
+      "reject": [
+        "two plates, two dishs, two ladys"
+      ],
       "remediation": "Look at the end of the noun first: -sh → add -es; consonant + y → -ies; otherwise add -s.",
       "transfer": "Count objects at home in English: two chairs, three cups, two boxes.",
       "materials": "A few home objects or pictures.",
@@ -433,11 +503,21 @@
         {
           "prompt": "What is the opposite of clean?",
           "answer": "dirty.",
+          "accept": [
+            "dirty"
+          ],
           "explanation": "Clean and dirty mean the opposite."
         },
         {
           "prompt": "Write the plural: one box, one family.",
           "answer": "two boxes, two families.",
+          "accept": [
+            "two boxes, two families",
+            "boxes, families"
+          ],
+          "reject": [
+            "two boxs, two familys"
+          ],
           "explanation": "Box ends in x: add -es. Family ends in consonant + y: change y to -ies."
         }
       ],
@@ -510,6 +590,9 @@
       "guided": "L’adulte dit un calcul ; l’enfant répond et explique comment il a fait. Puis calculez ensemble 60 − 15 + 5.",
       "exercise": "Calcule en ligne : 80 − 30 + 12.",
       "answer": "80 − 30 = 50 ; 50 + 12 = 62.",
+      "accept": [
+        "62"
+      ],
       "remediation": "Écrire chaque étape sous la précédente ; utiliser des bâtonnets groupés par dix si besoin.",
       "transfer": "Calculer de tête la monnaie lors d’un petit achat imaginaire à la maison.",
       "materials": "Bâtonnets ou jetons, ardoise ou cahier, crayon.",
@@ -517,11 +600,18 @@
         {
           "prompt": "Calcule de tête : 68 + 9.",
           "answer": "77.",
+          "accept": [
+            "77"
+          ],
           "explanation": "68 + 10 = 78, puis 78 − 1 = 77."
         },
         {
           "prompt": "Problème : maman a 150 F. Elle achète du pain à 100 F, puis reçoit 25 F. Combien a-t-elle ?",
           "answer": "150 − 100 + 25 = 75 F.",
+          "accept": [
+            "75 F",
+            "75"
+          ],
           "explanation": "On calcule de gauche à droite : 150 − 100 = 50, puis 50 + 25 = 75."
         }
       ],

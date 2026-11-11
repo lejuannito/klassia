@@ -108,11 +108,25 @@
         {
           "prompt": "Trouve l’adjectif : « Le boulanger prépare du pain chaud. »",
           "answer": "chaud.",
+          "accept": [
+            "chaud"
+          ],
+          "reject": [
+            "pain",
+            "boulanger"
+          ],
           "explanation": "Chaud précise le nom pain."
         },
         {
           "prompt": "Écris au pluriel : « le grand atelier ».",
           "answer": "les grands ateliers.",
+          "accept": [
+            "les grands ateliers"
+          ],
+          "reject": [
+            "les grand ateliers",
+            "les grands atelier"
+          ],
           "explanation": "Le déterminant, l’adjectif et le nom prennent la marque du pluriel."
         }
       ],
@@ -142,6 +156,13 @@
       "guided": "Lisez le texte et trouvez les homophones, puis associez chaque métier à ce sur quoi il travaille.",
       "exercise": "Complète avec mer, mère ou maire : « La … du pêcheur prépare le repas. »",
       "answer": "mère.",
+      "accept": [
+        "mère"
+      ],
+      "reject": [
+        "mer",
+        "maire"
+      ],
       "remediation": "Remplacer par un mot de même sens pour vérifier : la maman du pêcheur → mère.",
       "transfer": "Trouver le métier de trois personnes du quartier et dire leur outil principal.",
       "materials": "Ardoise ou cahier, crayon.",
@@ -149,11 +170,23 @@
         {
           "prompt": "Qui répare les chaussures ?",
           "answer": "Le cordonnier.",
+          "accept": [
+            "le cordonnier"
+          ],
+          "reject": [
+            "le tailleur"
+          ],
           "explanation": "Le cordonnier travaille le cuir des chaussures."
         },
         {
           "prompt": "Complète avec pain ou pin : « Le boulanger cuit le … . »",
           "answer": "pain.",
+          "accept": [
+            "pain"
+          ],
+          "reject": [
+            "pin"
+          ],
           "explanation": "Le pin est un arbre ; le pain se mange."
         }
       ],
@@ -190,12 +223,25 @@
         {
           "prompt": "Corrige : « Les tailleurs coud des habits. »",
           "answer": "Les tailleurs cousent des habits.",
+          "accept": [
+            "Les tailleurs cousent des habits"
+          ],
+          "reject": [
+            "Les tailleurs coud des habits",
+            "Les tailleurs cousents des habits"
+          ],
           "explanation": "Le sujet est au pluriel : le verbe aussi."
         },
         {
           "prompt": "Écoute et écris.",
           "listen": "Les pêcheurs rentrent au port.",
           "answer": "Les pêcheurs rentrent au port.",
+          "accept": [
+            "Les pêcheurs rentrent au port"
+          ],
+          "reject": [
+            "Les pêcheurs rentre au port"
+          ],
           "explanation": "Les pêcheurs : pluriel ; rentrent : -ent.",
           "ink": "lignes"
         }
@@ -238,6 +284,14 @@
         {
           "prompt": "Complète avec son ou sont : « Les ouvriers … arrivés. Le chef prend … casque. »",
           "answer": "sont ; son.",
+          "accept": [
+            "sont ; son"
+          ],
+          "reject": [
+            "son ; sont",
+            "son ; son",
+            "sont ; sont"
+          ],
           "explanation": "sont → étaient ; son → mon."
         }
       ],
@@ -307,6 +361,13 @@
         {
           "prompt": "Mets au futur : « Tu portes la caisse. »",
           "answer": "Tu porteras la caisse.",
+          "accept": [
+            "Tu porteras la caisse"
+          ],
+          "reject": [
+            "Tu portera la caisse",
+            "Tu portes la caisse"
+          ],
           "explanation": "porter + as = porteras."
         },
         {
@@ -378,6 +439,11 @@
         {
           "prompt": "Where does a farmer work?",
           "answer": "On a farm.",
+          "accept": [
+            "On a farm",
+            "on the farm",
+            "farm"
+          ],
           "explanation": "A farmer works on a farm."
         },
         {
@@ -414,6 +480,11 @@
       "guided": "The child reads the second riddle aloud and finds the clue words.",
       "exercise": "Read: “I work in a bakery. I make bread every morning. Who am I?”",
       "answer": "You are a baker.",
+      "accept": [
+        "You are a baker",
+        "I am a baker",
+        "a baker"
+      ],
       "remediation": "Read one sentence at a time and look for one clue word in each.",
       "transfer": "Make a riddle about an occupation for the family to guess.",
       "materials": "The riddles on screen, occupation cards.",
@@ -421,11 +492,21 @@
         {
           "prompt": "“I drive a taxi. I take people to town.” Who am I?",
           "answer": "A driver (a taxi driver).",
+          "accept": [
+            "A driver",
+            "a taxi driver"
+          ],
           "explanation": "The clue words are drive and taxi."
         },
         {
           "prompt": "Which word is a clue for a nurse: hospital or bakery?",
           "answer": "hospital.",
+          "accept": [
+            "hospital"
+          ],
+          "reject": [
+            "bakery"
+          ],
           "explanation": "A nurse works in a hospital."
         }
       ],
@@ -462,12 +543,18 @@
         {
           "prompt": "Which word in the text is an occupation?",
           "answer": "farmer.",
+          "accept": [
+            "farmer"
+          ],
           "explanation": "A farmer is a person who works on a farm."
         },
         {
           "prompt": "Listen and write.",
           "listen": "A baker makes bread.",
           "answer": "A baker makes bread.",
+          "accept": [
+            "A baker makes bread"
+          ],
           "explanation": "Capital A, spaces, full stop.",
           "ink": "lignes"
         }
@@ -498,6 +585,14 @@
       "guided": "The adult says an adjective; the child says the adverb and mimes it.",
       "exercise": "Make the adverb and complete: The nurse works … (careful).",
       "answer": "The nurse works carefully.",
+      "accept": [
+        "The nurse works carefully",
+        "carefully"
+      ],
+      "reject": [
+        "The nurse works careful",
+        "careful"
+      ],
       "remediation": "Say the adjective, then add -ly at the end.",
       "transfer": "Say how someone at home does a task: “Mum cooks quickly.”",
       "materials": "Occupation cards.",
@@ -505,11 +600,23 @@
         {
           "prompt": "What is the opposite of fast?",
           "answer": "slow.",
+          "accept": [
+            "slow"
+          ],
+          "reject": [
+            "fast"
+          ],
           "explanation": "Fast and slow are opposites."
         },
         {
           "prompt": "Write the adverb: quiet, sad.",
           "answer": "quietly, sadly.",
+          "accept": [
+            "quietly, sadly"
+          ],
+          "reject": [
+            "quiet, sad"
+          ],
           "explanation": "Add -ly to the adjective."
         }
       ],
@@ -586,11 +693,18 @@
         {
           "prompt": "Complète la table de 4 : 4, 8, 12, …, …, 24.",
           "answer": "16, 20.",
+          "accept": [
+            "16, 20"
+          ],
           "explanation": "On ajoute 4 à chaque fois."
         },
         {
           "prompt": "Problème : un menuisier fabrique 5 chaises par jour. Combien en 6 jours ?",
           "answer": "5 × 6 = 30 chaises.",
+          "accept": [
+            "30 chaises",
+            "30"
+          ],
           "explanation": "6 fois 5, c’est la table de 5."
         }
       ],
@@ -627,11 +741,23 @@
         {
           "prompt": "Pour mettre une bordure autour d’un tableau, a-t-on besoin du périmètre ou de l’aire ?",
           "answer": "Du périmètre.",
+          "accept": [
+            "du périmètre"
+          ],
+          "reject": [
+            "de l’aire"
+          ],
           "explanation": "La bordure fait le tour."
         },
         {
           "prompt": "Pour peindre un mur, a-t-on besoin du périmètre ou de l’aire ?",
           "answer": "De l’aire.",
+          "accept": [
+            "de l’aire"
+          ],
+          "reject": [
+            "du périmètre"
+          ],
           "explanation": "On peint toute la surface."
         }
       ],
@@ -668,11 +794,24 @@
         {
           "prompt": "Combien de sommets a un triangle ?",
           "answer": "3.",
+          "accept": [
+            "3",
+            "3 sommets",
+            "trois"
+          ],
           "explanation": "Un triangle a 3 sommets et 3 côtés."
         },
         {
           "prompt": "Un carré a-t-il un axe de symétrie ?",
           "answer": "Oui, il en a même quatre.",
+          "accept": [
+            "oui",
+            "oui, quatre",
+            "oui, 4"
+          ],
+          "reject": [
+            "non"
+          ],
           "explanation": "On peut le plier en deux de quatre façons : deux médianes et deux diagonales."
         }
       ],

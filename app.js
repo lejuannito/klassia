@@ -278,7 +278,7 @@ function home() {
 function unitsPage(active = 'learn') {
   const title = active === 'home' ? 'Bonjour ' + Klassia.profile().name : 'Parcourir les unités';
   const cards = catalog.units.map(unit => ({
-    href: '?unit=' + unit.id + '#learn', title: unit.title, code: unit.id, count: unit.lesson_count + ' leçons'
+    href: '?unit=' + unit.id + '#learn', title: unit.title, code: unit.id, detail: unit.subcentres?.join(' · '), count: unit.lesson_count + ' leçons'
   }));
   shell(Klassia.catalogue(title, 'Choisis une unité, puis une matière et une leçon.', cards), active);
 }

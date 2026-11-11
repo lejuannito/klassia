@@ -53,6 +53,8 @@ for(let i=1;i<=8;i++){
  const t=read(`ms/data/themes/T${i}.json`),seen=new Set();for(const d of t.domains)for(const a of d.activities){activities++;assert.ok(!seen.has(a.id));seen.add(a.id);editorial(a);nurseryAudio(a);assert.ok(a.title_fr&&a.title_en&&a.goal_fr&&a.goal_en);if(a.figure)assert.ok(fs.existsSync(path.join(root,'ms',a.figure.src)));}
 }
 const sil=read('sil/data/curriculum.json');assert.equal(sil.grade,'SIL');assert.equal(sil.units.length,8);assert.equal(sil.releaseStatus,'in_review');
+// Niveau 2 (CE1–CE2, MINEDUB 2018, §2.5) : trois sous-centres d’intérêt par centre, communs au CE1 et au CE2.
+{const ce2=read('data/catalog.json').units,ce1=read('ce1/data/catalog.json').units;assert.equal(ce2.length,8);for(const u of ce2){assert.equal(u.subcentres?.length,3,'CE2 sub-centres '+u.id);const ref=ce1[u.number-1];assert.deepEqual(read(`ce1/data/${ref.path}`).subcentres,u.subcentres,'CE1 and CE2 share the Niveau 2 sub-centres '+u.id);}}
 for(const ref of sil.units){const u=read(`sil/data/${ref.path}`);assert.ok(u.title_fr&&u.title_en&&u.subcentres.length===3);for(const l of u.lessons){lessons++;learningExtras(l);assert.ok(l.id&&l.domain&&l.objective&&l.course&&l.model&&l.guided&&l.exercise&&l.answer&&l.remediation&&l.transfer&&l.materials,`Incomplete SIL lesson ${l.id}`);assert.ok(l.source?.title&&l.source?.url);if(l.domain==='English')assert.ok(l.course.includes('Class 1 English literacy progression'),`Incomplete English SIL track ${l.id}`);editorial(l);}}
 const ce1Catalog=read('ce1/data/catalog.json');assert.equal(ce1Catalog.grade,'CE1');assert.equal(ce1Catalog.releaseStatus,'in_review');assert.equal(ce1Catalog.availableUnits.length,8);
 const ce1UnitCounts = { 'CE1-U6': 12 };

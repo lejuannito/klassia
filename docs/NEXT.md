@@ -22,6 +22,12 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 - **2d. Explications** — les 282 exercices du CE2 qui n’en avaient pas (unités 1 à 3, hors bassa) ont reçu une explication courte adressée à l’enfant : la raison de la réponse ou la méthode pour vérifier, et, pour les activités pratiques, ce qui fait réussir. Elle s’affiche dans la correction et sert d’aide après « Pas encore ». `npm run validate` exige désormais une explication pour tout exercice CE2 hors bassa. Les 18 exercices bassa des unités 1 à 3 restent sans explication, en attendant l’arbitrage des formes.
 - **À reprendre** : la leçon SC-U3-L1 affiche encore à l’enfant une note éditoriale (« intitulé officiel à valider » dans le titre et le premier paragraphe). Son exercice 2, qui portait sur cette note, a été remplacé par une question sur les branchies et les poumons.
 
+## Lot 3 — semaine et manuels (en cours)
+
+- **3a. Sous-centres officiels** — le curriculum du Niveau 2 (MINEDUB 2018, §2.5) donne trois sous-centres d’intérêt par centre, un par semaine, et réserve la quatrième semaine à l’intégration et à l’évaluation. Les cartes d’unités du CE2 les affichent désormais ; ceux du CE1, qui n’étaient pas ceux du programme, sont remplacés par les mêmes. `npm run validate` vérifie que le CE1 et le CE2 partagent les sous-centres officiels.
+- **3b. Cette semaine** — à faire : répartition proposée des leçons sur les trois semaines de chaque unité, page « Cette semaine » où le parent indique l’unité et la semaine de l’école.
+- **3c. Dans ton manuel** — en attente des sommaires des manuels (aucune correspondance de page n’est inventée).
+
 Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
 
 ## Lots techniques à essayer sur appareils réels

@@ -88,6 +88,248 @@
       ]
     },
     {
+      "id": "CE1-U4-G1",
+      "domain": "Français · grammaire",
+      "title": "L’adjectif qualificatif et les accords",
+      "objective": "Définir et identifier l’adjectif qualificatif ; l’accorder avec le nom ; accorder le nom avec son déterminant.",
+      "course": "L’adjectif qualificatif donne une précision sur le nom : un menuisier habile, une couturière patiente. Il s’accorde en genre et en nombre avec le nom : un outil solide, des outils solides ; un grand atelier, une grande boutique.\n\nLe déterminant et le nom s’accordent aussi : le marteau, les marteaux ; une aiguille, des aiguilles.",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "Le forgeron habile frappe le fer chaud.\nLes couturières patientes cousent de belles robes."
+      },
+      "model": "Dans « les couturières patientes », patientes est un adjectif : il est au féminin pluriel comme couturières.",
+      "guided": "Soulignez les adjectifs du texte, puis dites avec quel nom chacun s’accorde.",
+      "exercise": "Accorde l’adjectif : « des outils (lourd) » ; « une table (solide) » ; « des femmes (courageux) ».",
+      "answer": "des outils lourds ; une table solide ; des femmes courageuses.",
+      "remediation": "Trouver d’abord le nom, son genre et son nombre, puis accorder l’adjectif.",
+      "transfer": "Décrire le métier d’un proche avec deux adjectifs bien accordés.",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Trouve l’adjectif : « Le boulanger prépare du pain chaud. »",
+          "answer": "chaud.",
+          "explanation": "Chaud précise le nom pain."
+        },
+        {
+          "prompt": "Écris au pluriel : « le grand atelier ».",
+          "answer": "les grands ateliers.",
+          "explanation": "Le déterminant, l’adjectif et le nom prennent la marque du pluriel."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 7 (grammaire), p. 39, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U4-V1",
+      "domain": "Français · vocabulaire",
+      "title": "Homonymes, homophones et mots des métiers",
+      "objective": "Identifier des homonymes et des homophones, et expliquer des mots des métiers.",
+      "course": "Des homophones se prononcent de la même façon mais s’écrivent différemment et n’ont pas le même sens : le maire / la mer / la mère ; le pain / le pin. Des homonymes s’écrivent et se prononcent pareil mais ont des sens différents : la tour (le bâtiment) / le tour (faire le tour).\n\nMots des métiers : le menuisier (le bois), le maçon (les murs), le cordonnier (les chaussures), le pêcheur (les poissons), l’infirmière (les soins).",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "Le pêcheur part sur la mer ; sa mère l’attend.\nLe maire visite l’atelier du menuisier."
+      },
+      "model": "« mer », « mère » et « maire » se prononcent pareil : ce sont des homophones ; le sens de la phrase aide à choisir l’écriture.",
+      "guided": "Lisez le texte et trouvez les homophones, puis associez chaque métier à ce sur quoi il travaille.",
+      "exercise": "Complète avec mer, mère ou maire : « La … du pêcheur prépare le repas. »",
+      "answer": "mère.",
+      "remediation": "Remplacer par un mot de même sens pour vérifier : la maman du pêcheur → mère.",
+      "transfer": "Trouver le métier de trois personnes du quartier et dire leur outil principal.",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Qui répare les chaussures ?",
+          "answer": "Le cordonnier.",
+          "explanation": "Le cordonnier travaille le cuir des chaussures."
+        },
+        {
+          "prompt": "Complète avec pain ou pin : « Le boulanger cuit le … . »",
+          "answer": "pain.",
+          "explanation": "Le pin est un arbre ; le pain se mange."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 8 (vocabulaire), p. 43, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U4-O1",
+      "domain": "Français · orthographe",
+      "title": "Les accords dans la phrase",
+      "objective": "Appliquer la règle de l’accord du verbe avec le sujet et accorder sans erreur le déterminant et le nom.",
+      "course": "Le verbe s’accorde avec son sujet : le maçon construit, les maçons construisent. Pour accorder, on cherche le sujet (Qui est-ce qui… ?) puis on regarde s’il est au singulier ou au pluriel.\n\nLe déterminant et le nom vont ensemble : les → nom au pluriel (les briques) ; une → nom au singulier féminin (une truelle).",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "Le maçon construit un mur.\nLes maçons construisent des murs."
+      },
+      "model": "L’adulte change « le maçon » en « les maçons » et montre ce qui change dans toute la phrase.",
+      "guided": "Mettez ensemble la phrase « L’infirmière soigne le malade » au pluriel.",
+      "exercise": "Mets au pluriel : « Le mécanicien répare la voiture. »",
+      "answer": "Les mécaniciens réparent les voitures.",
+      "remediation": "Faire la chaîne des accords : déterminant → nom → verbe.",
+      "transfer": "Écrire deux phrases sur des métiers, au singulier puis au pluriel.",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Corrige : « Les tailleurs coud des habits. »",
+          "answer": "Les tailleurs cousent des habits.",
+          "explanation": "Le sujet est au pluriel : le verbe aussi."
+        },
+        {
+          "prompt": "Écoute et écris.",
+          "listen": "Les pêcheurs rentrent au port.",
+          "answer": "Les pêcheurs rentrent au port.",
+          "explanation": "Les pêcheurs : pluriel ; rentrent : -ent.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 9 (orthographe), p. 47, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U4-O2",
+      "domain": "Français · orthographe",
+      "title": "a ou à, on ou ont, et ou est, son ou sont",
+      "objective": "Écrire sans erreur les homophones grammaticaux a/à, on/ont, et/est, son/sont.",
+      "course": "Pour choisir, on remplace par l’imparfait ou par un autre mot :\n– a (verbe avoir) → avait ; à → ne peut pas être remplacé : Il a un outil. Il va à l’atelier.\n– ont (verbe avoir) → avaient ; on → il : Ils ont du travail. On travaille.\n– est (verbe être) → était ; et → et puis : Le pain est chaud et bon.\n– sont (verbe être) → étaient ; son → mon : Ils sont prêts. Il prend son marteau.",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "Le menuisier a une scie. Il va à l’atelier.\nOn admire les tables qu’ils ont faites.\nLe bois est dur et lourd.\nIls sont fiers de son travail."
+      },
+      "model": "« Le menuisier a une scie » : je peux dire « avait une scie », donc j’écris a sans accent.",
+      "guided": "Pour chaque mot souligné du texte, faites le test de remplacement ensemble.",
+      "exercise": "Complète : « Le boulanger … du pain … vendre. » (a ou à)",
+      "answer": "Le boulanger a du pain à vendre.",
+      "remediation": "Dire la phrase avec avait : si ça marche, c’est a ; sinon, à.",
+      "transfer": "Inventer une phrase pour chaque paire et la relire avec le test.",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Complète avec et ou est : « La couturière … patiente … habile. »",
+          "answer": "La couturière est patiente et habile.",
+          "explanation": "est → était ; et → et puis."
+        },
+        {
+          "prompt": "Complète avec son ou sont : « Les ouvriers … arrivés. Le chef prend … casque. »",
+          "answer": "sont ; son.",
+          "explanation": "sont → étaient ; son → mon."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 9 (orthographe), p. 47, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U4-C1",
+      "domain": "Français · conjugaison",
+      "title": "Le futur des verbes du 1er groupe",
+      "objective": "Conjuguer les verbes du 1er groupe au futur simple de l’indicatif.",
+      "course": "Le futur dit ce qui se passera plus tard. Pour les verbes en -er, on garde l’infinitif et on ajoute : -ai, -as, -a, -ons, -ez, -ont. Je travaillerai, tu travailleras, il travaillera, nous travaillerons, vous travaillerez, ils travailleront.",
+      "support": {
+        "title": "À lire et à observer",
+        "text": "Demain, je travaillerai à l’atelier.\nPlus tard, nous soignerons les malades.",
+        "table": {
+          "caption": "Le futur de travailler",
+          "headers": [
+            "Personne",
+            "travailler"
+          ],
+          "rows": [
+            [
+              "je",
+              "travaillerai"
+            ],
+            [
+              "tu",
+              "travailleras"
+            ],
+            [
+              "il / elle",
+              "travaillera"
+            ],
+            [
+              "nous",
+              "travaillerons"
+            ],
+            [
+              "vous",
+              "travaillerez"
+            ],
+            [
+              "ils / elles",
+              "travailleront"
+            ]
+          ]
+        }
+      },
+      "model": "L’adulte écrit « travailler » puis ajoute -ai : « je travaillerai ». L’infinitif entier reste visible.",
+      "guided": "Conjuguez « soigner » au futur avec toutes les personnes.",
+      "exercise": "Conjugue au futur : je (réparer), nous (planter), ils (cuisiner).",
+      "answer": "je réparerai, nous planterons, ils cuisineront.",
+      "remediation": "Écrire d’abord l’infinitif en entier, puis ajouter la terminaison.",
+      "transfer": "Dire quel métier on fera plus tard : « Plus tard, je … ».",
+      "materials": "Ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Mets au futur : « Tu portes la caisse. »",
+          "answer": "Tu porteras la caisse.",
+          "explanation": "porter + as = porteras."
+        },
+        {
+          "prompt": "Écoute et écris.",
+          "listen": "Nous chanterons. Elles danseront.",
+          "answer": "Nous chanterons. Elles danseront.",
+          "explanation": "chanter + ons ; danser + ont.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 10 (conjugaison), p. 50, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon d’étude de la langue rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U4-L03",
       "domain": "English",
       "title": "Describe a worker and a familiar job",

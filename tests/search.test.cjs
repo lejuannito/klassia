@@ -2,9 +2,9 @@ const {test,before}=require('node:test'),assert=require('node:assert/strict'),fs
 const S=require('../shared/search.js'),root=path.resolve(__dirname,'..');
 let records;
 before(async()=>{records=await S.load(async p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')));});
-test('all 912 public resources from the five grades have unique, valid direct routes',()=>{
- assert.deepEqual(Object.fromEntries(['MS','GS','SIL','CE1','CE2'].map(g=>[g,records.filter(r=>r.grade===g).length])),{MS:160,GS:162,SIL:122,CE1:121,CE2:347});
- assert.equal(new Set(records.map(r=>r.href)).size,912);
+test('all 948 public resources from the five grades have unique, valid direct routes',()=>{
+ assert.deepEqual(Object.fromEntries(['MS','GS','SIL','CE1','CE2'].map(g=>[g,records.filter(r=>r.grade===g).length])),{MS:160,GS:162,SIL:122,CE1:157,CE2:347});
+ assert.equal(new Set(records.map(r=>r.href)).size,948);
  for(const r of records){const u=new URL(r.href,'https://example.org/klassia/');
   if(['MS','GS'].includes(r.grade)){
    const t=JSON.parse(fs.readFileSync(path.join(root,r.grade.toLowerCase(),'data/themes',u.searchParams.get('theme')+'.json')));

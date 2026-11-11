@@ -71,7 +71,32 @@ function decorate(){
  const c=rememberClass(),role=K.read('klassia_user',{})?.role||'ELEVE',roleName={ELEVE:'Enfant',PARENT:'Parent',ENSEIGNANT:'Enseignant',ADMIN:'Administration'}[role]||'Enfant';
  document.querySelectorAll('.klassia-global-nav,.klassia-learning-mode,.klassia-space-menu,.klassia-class-switch,.profile-trigger').forEach(e=>e.remove());
  const searchBack=new URL('search.html',c.base);searchBack.search=new URLSearchParams(location.search).get('recherche')||'';
- const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');nav.innerHTML=`<a data-klassia-back="← Parcours de la classe" href="${['MS','GS'].includes(c.grade)?'#themes':'#units'}">← Parcours de la classe</a><label>Classe <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label><a data-search href="${new URL('search.html',c.base)}">Rechercher</a><a href="${new URL('outils.html',c.base)}">Outils</a>${new URLSearchParams(location.search).has('recherche')?`<a data-search-return href="${esc(searchBack.href)}">Retour aux résultats</a>`:''}<button data-space class="space-trigger">Espace : ${roleName} · changer</button><button data-profiles>Profil : ${esc(K.profile().name)}</button><button data-overview>Suivi des classes</button><a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>${role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':''}${['#coverage','#bassa'].includes(location.hash)?'<button data-return>Retour à ma classe</button>':''}`;top.insertAdjacentElement('afterend',nav);
+ const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');
+ // Each control keeps its data attribute so the delegated handlers below work
+ // wherever it is placed.
+ const parts={
+  back:`<a data-klassia-back="← Parcours de la classe" href="${['MS','GS'].includes(c.grade)?'#themes':'#units'}">← Parcours de la classe</a>`,
+  grade:`<label><span class="klassia-grade-label">Classe</span> <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label>`,
+  search:`<a data-search href="${new URL('search.html',c.base)}">Rechercher</a>`,
+  tools:`<a href="${new URL('outils.html',c.base)}">Outils</a>`,
+  searchReturn:new URLSearchParams(location.search).has('recherche')?`<a data-search-return href="${esc(searchBack.href)}">Retour aux résultats</a>`:'',
+  space:`<button data-space class="space-trigger">Espace : ${roleName} · changer</button>`,
+  profiles:`<button data-profiles>Profil : ${esc(K.profile().name)}</button>`,
+  overview:`<button data-overview>Suivi des classes</button>`,
+  review:`<a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>`,
+  child:role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':'',
+  back2:['#coverage','#bassa'].includes(location.hash)?'<button data-return>Retour à ma classe</button>':''
+ };
+ if(role==='ELEVE'){
+  // Child view: only what a child needs to move around. Adult tools stay one
+  // tap away behind « Parents »; nothing is removed.
+  nav.classList.add('klassia-family-nav');
+  nav.innerHTML=parts.back+parts.grade+parts.tools+parts.searchReturn+parts.back2+
+   `<details class="klassia-parents-menu"><summary>Parents</summary><div class="klassia-parents-panel" role="group" aria-label="Outils des parents"><p>Suivi, profils, sauvegarde et recherche.</p>${parts.overview}${parts.profiles}${parts.search}${parts.space}<p class="klassia-parents-workshop">Atelier pédagogique</p>${parts.review}</div></details>`;
+ } else {
+  nav.innerHTML=parts.back+parts.grade+parts.search+parts.tools+parts.searchReturn+parts.space+parts.profiles+parts.overview+parts.review+parts.child+parts.back2;
+ }
+ top.insertAdjacentElement('afterend',nav);
  if (['PARENT','ENSEIGNANT','ADMIN'].includes(role)) {
   const pilot=document.createElement('a');
   pilot.href=new URL('pilote.html',c.base);

@@ -41,7 +41,7 @@ const server=http.createServer((req,res)=>{
  // Profiles/annotations never supply search terms.
  await p.evaluate(()=>localStorage.setItem('klassia_private_test','privéuniquexyz'));await query('privéuniquexyz');assert.equal(await p.locator('#searchResults li').count(),0);
  // A parent can open a CE2 result without the role guard redirecting to the dashboard.
- await p.goto(base);await p.locator('[data-profiles]').waitFor();await p.evaluate(()=>Klassia.write('klassia_user',{role:'PARENT'}));
+ await p.goto(base);await p.locator('[data-profiles]').waitFor({state:'attached'});await p.evaluate(()=>Klassia.write('klassia_user',{role:'PARENT'}));
  await p.goto(base+'search.html?q=les+états+de+l’eau');await p.locator('#searchResults h2 a').first().click();await p.locator('.lesson-header h1').waitFor();
  await p.locator('[data-search-return]').click();await p.locator('#searchResults li').first().waitFor();
  await p.locator('#pwaTools').filter({hasText:'disponibles hors connexion'}).waitFor();

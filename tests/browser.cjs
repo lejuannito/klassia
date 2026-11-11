@@ -1,4 +1,5 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs'),http=require('node:http'),path=require('node:path');
+const openParents=async p=>{const m=p.locator('.klassia-parents-menu');if(await m.count()&&!(await m.evaluate(e=>e.open)))await m.locator('summary').click();};
 const root=path.resolve(__dirname,'..');
 const server=http.createServer((req,res)=>{let p=path.join(root,decodeURIComponent(req.url.split('?')[0]));if(p.endsWith('/'))p+='index.html';try{res.setHeader('Content-Type',p.endsWith('.js')?'text/javascript':p.endsWith('.css')?'text/css':p.endsWith('.html')?'text/html':p.endsWith('.json')?'application/json':'application/octet-stream');res.end(fs.readFileSync(p));}catch{res.statusCode=404;res.end('404')}});
 (async()=>{await new Promise(r=>server.listen(8765,r));const launchOptions={...(process.env.KLASSIA_CHROMIUM?{executablePath:process.env.KLASSIA_CHROMIUM}:{}),headless:true,args:['--no-sandbox','--disable-gpu','--disable-dev-shm-usage','--no-zygote','--single-process']};let b=await chromium.launch(launchOptions),ctx;
@@ -6,7 +7,7 @@ try{ctx=await b.newContext({viewport:{width:390,height:844},serviceWorkers:'bloc
 assert.equal(await p.locator('.klassia-catalogue-card').count(),8);
 assert.equal(await p.locator('.stats-row,.recommend-card,.v9-plan').count(),0);
 assert.deepEqual(await p.locator('[data-grade] option').allTextContents(),['CE2','Moyenne section','Grande section bilingue','SIL bilingue','CE1 bilingue']);
-await p.locator('[data-profiles]').click();await p.locator('#localRole').selectOption('ENSEIGNANT');await p.waitForLoadState('load');await p.locator('.mobile-nav [data-go="coverage"]').waitFor();await p.locator('.mobile-nav [data-go="bassa"]').waitFor();await p.locator('[data-profiles]').click();await p.locator('#localRole').selectOption('ELEVE');await p.waitForLoadState('load');await p.getByRole('heading',{name:/Bonjour/}).waitFor();
+assert.equal(await p.locator('.klassia-family-nav [data-review]').isVisible(),false,'Child bar hides the review link until Parents is opened');await openParents(p);await p.locator('[data-profiles]').click();await p.locator('#localRole').selectOption('ENSEIGNANT');await p.waitForLoadState('load');await p.locator('.mobile-nav [data-go="coverage"]').waitFor();await p.locator('.mobile-nav [data-go="bassa"]').waitFor();await p.locator('[data-profiles]').click();await p.locator('#localRole').selectOption('ELEVE');await p.waitForLoadState('load');await p.getByRole('heading',{name:/Bonjour/}).waitFor();
 async function route(h){await p.evaluate(x=>location.hash=x,h);await p.waitForTimeout(250);}
 await route('#lesson:FR-U1-L1');await p.locator('input[name="q_ans_FRU1L1_1"][value="1"]').check();await p.getByRole('button',{name:'Vérifier ma réponse'}).click();assert.match(await p.locator('#ans_FRU1L1_1').innerText(),/Bravo/);
 await route('#lesson:MA-U1-L2');await p.locator('.numeric-check').first().locator('..').locator('input').fill('600');await p.locator('.numeric-check').first().click();assert.match(await p.locator('.numeric-check').first().locator('..').locator('[role=status]').innerText(),/Bravo/);
@@ -53,14 +54,14 @@ await p.goto('http://localhost:8765/sil/');await p.getByRole('heading',{name:'Pa
 // A direct lesson link is usable without opening its unit first.
 await p.goto('http://localhost:8765/ce1/#lesson:CE1-U7-L04');await p.locator('.lesson-support table').waitFor();assert.match(await p.locator('.lesson-support').innerText(),/Rouge/);assert.equal(await p.locator('.lesson-card').count(),1);assert.equal(await p.locator('.correction-toggle[aria-expanded=true]').count(),0);
 await p.locator('[data-progress="A"]').click();await p.reload();await p.locator('[data-progress="A"][aria-pressed="true"]').waitFor();
-await p.locator('[data-review]').click();await p.locator('#coverageGrade').waitFor();assert.equal(await p.locator('#coverageGrade').inputValue(),'CE1');await p.locator('[data-return]').click();await p.getByRole('heading',{name:'Lire un tableau à double entrée sur un jeu'}).waitFor();
-await p.locator('[data-space]').click();await p.locator('#localRole').selectOption('PARENT');
+await openParents(p);await p.locator('[data-review]').click();await p.locator('#coverageGrade').waitFor();assert.equal(await p.locator('#coverageGrade').inputValue(),'CE1');await p.locator('[data-return]').click();await p.getByRole('heading',{name:'Lire un tableau à double entrée sur un jeu'}).waitFor();
+await openParents(p);await p.locator('[data-space]').click();await p.locator('#localRole').selectOption('PARENT');
 await p.locator('#overviewDialog progress').last().waitFor();
 assert.equal(await p.locator('#overviewDialog progress').count(),5);
 assert.match(await p.locator('#overviewDialog').innerText(),/CE1 bilingue\s+1 \/ 89/);
 await p.locator('#overviewDialog [aria-label="Fermer"]').click();
 await p.getByRole('link',{name:'Carnet du pilote',exact:true}).waitFor();
-await p.locator('[data-child]').click();await p.locator('[data-space]').filter({hasText:'Enfant'}).waitFor();
+await p.locator('[data-child]').click();await p.locator('.klassia-parents-menu summary').waitFor();await openParents(p);await p.locator('[data-space]').filter({hasText:'Enfant'}).waitFor();
 for(const width of [320,390,1280]){await p.setViewportSize({width,height:844});assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'CE1 lesson overflow at '+width);}
 await p.goto('http://localhost:8765/?unit=U4#lesson:MA-U4-L2');await p.waitForFunction(()=>Klassia.storage.getItem('klassia_unit')==='U4');assert.equal(await p.evaluate(()=>Klassia.storage.getItem('klassia_unit')),'U4');
 await route('#domains-all');await p.getByRole('heading',{name:'Parcourir les domaines'}).waitFor();await route('#domain-all:2');assert.ok(await p.locator('a[href*="?unit="]').count()>0);

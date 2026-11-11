@@ -74,3 +74,22 @@
 .klassia-catalogue-card h2 { margin: 0; font-size: 1.15rem; line-height: 1.35; }
 .klassia-catalogue-card p { margin: .25rem 0; font-size: .9rem; }
 .klassia-catalogue-code, .klassia-catalogue-count { color: #3157a9; font-size: .9rem; font-weight: 650; }
+
+/* Child view: a short bar, adult tools grouped behind « Parents ». */
+.klassia-family-nav { position: relative; }
+.klassia-family-nav > a, .klassia-family-nav > button, .klassia-family-nav select { min-height: 44px; }
+.klassia-parents-menu { margin-left: auto; }
+.klassia-parents-menu > summary { display: inline-flex; align-items: center; gap: .4rem; min-height: 44px; padding: .5rem .9rem; border: 1px solid #b7c4df; border-radius: 9px; background: #fff; color: #243f83; font-weight: 800; cursor: pointer; list-style: none; }
+.klassia-parents-menu > summary::-webkit-details-marker { display: none; }
+.klassia-parents-menu > summary::after { content: "▾"; font-size: .8em; }
+.klassia-parents-menu[open] > summary { background: #243f83; color: #fff; border-color: #243f83; }
+.klassia-parents-menu[open] > summary::after { content: "▴"; }
+.klassia-parents-panel { position: absolute; z-index: 30; right: 8px; top: calc(100% - 4px); width: min(320px, calc(100vw - 16px)); display: flex; flex-direction: column; gap: .5rem; padding: .9rem; background: #fff; border: 1px solid #ccd5e8; border-radius: 12px; box-shadow: 0 10px 28px rgba(23, 32, 51, .18); }
+.klassia-parents-panel p { margin: 0; color: #4a5672; font-size: .9rem; }
+.klassia-parents-panel .klassia-parents-workshop { margin-top: .4rem; padding-top: .6rem; border-top: 1px solid #e1e6f2; font-weight: 700; }
+.klassia-global-nav .klassia-parents-panel a, .klassia-global-nav .klassia-parents-panel button { display: flex; align-items: center; width: 100%; max-width: none; min-height: 44px; font-size: .95rem; text-align: left; white-space: normal; justify-content: flex-start; }
+@media (max-width: 620px) { .klassia-global-nav .klassia-parents-panel a, .klassia-global-nav .klassia-parents-panel button { font-size: .9rem; } }
+@media (max-width: 480px) {
+ .klassia-family-nav .klassia-grade-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+ .klassia-family-nav select { max-width: 150px; }
+}

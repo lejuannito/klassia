@@ -9,6 +9,7 @@ const names=['search.html','shared/search.js','shared/search.css','index.html','
 for(let i=1;i<=8;i++)names.push(`data/content-u${i}.json`,`data/qcm-u${i}.json`,`ms/data/themes/T${i}.json`,`sil/data/sil-u${i}.json`);
 names.push('shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','data/bassa-lessons.json','gs/index.html','gs/practice-v14.json','gs/data/catalog-v13.json','gs/data/curriculum-map.json');
 names.push('pilote.html','shared/pilot.js','shared/pilot.css');
+names.push('shared/week.js','data/manuels/champions-francais-ce2.json','data/manuels/champions-francais-sil.json');
 names.push('shared/correction.js', 'shared/ink.js', 'outils.html', 'shared/reference.js', 'shared/reference.css');
 names.push('imprimer.html','shared/print.js','shared/print-page.js','shared/print-ce2.js','shared/print-nursery.js','shared/print.css','shared/lesson-support.js','ms/nursery-support.js');
 for(let i=1;i<=8;i++)names.push(`gs/data/themes/T${i}.json`);

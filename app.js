@@ -356,6 +356,7 @@ function lesson(id) {
         <div class="row"><span class="pill">${m.icon} ${esc(m.short)}</span><span class="badge ${cls}">${label}</span></div>
         <h1>${esc(l.title)}</h1><span class="editorial-status">${l.editorial?.status==='draft'?'Trame en cours de rédaction · accompagnement nécessaire':'Contenu pilote · relecture pédagogique à confirmer'}</span>
         <p>${esc(l.objectives?.[0] || '')}</p>
+        ${s.id === 'FR' ? '<p class="klassia-manual-ref" data-manual-ref hidden></p>' : ''}
         ${id === 'MA-U8-L4' ? '<p><a href="./outils.html#montants">Outil · Montants en lettres</a></p>'
          : id === 'MA-U2-L1' ? '<p><a href="./outils.html#nombres">Outil · Nombres</a></p>'
          : id === 'MA-U4-L3' ? '<p><a href="./outils.html#tables">Outil · Tables de multiplication</a></p>' : ''}
@@ -638,6 +639,7 @@ function route() {
   if (h === 'home') home();
   else if (Klassia.specialRoute('CE2', '#'+h)) return;
   else if (h === 'units') unitsPage();
+  else if (h === 'semaine') weekPage();
   else if (h === 'learn') learn();
   else if (h === 'revise') revise();
   else if (h === 'project') project();
@@ -651,6 +653,45 @@ function route() {
   else home();
   window.scrollTo({ top: 0, behavior: 'auto' });
 }
+
+// « Cette semaine à l'école » (shared/week.js): the chosen unit becomes the CE2 unit shown everywhere.
+const CE2_MANUAL = './data/manuels/champions-francais-ce2.json';
+async function weekPage() {
+  const saved = Klassia.week.read('CE2');
+  const sel = saved && catalog.units.some(u => u.id === saved.unit) ? saved : { unit: currentUnit.id, week: 1 };
+  if (sel.unit !== currentUnit.id) await loadUnit(sel.unit);
+  const book = await Klassia.week.manual(CE2_MANUAL);
+  if (location.hash !== '#semaine') return;
+  const p = progressData(), label = id => p[id] ? statusLabel(p[id])[0] : '';
+  const subjects = content.subjects.map(s => ({
+    name: subjectMeta(s.id).short,
+    lessons: s.lessons.filter((l, i) => Klassia.week.weekOf(i, s.lessons.length) === sel.week)
+      .map(l => ({ title: l.title, href: '#lesson:' + encodeURIComponent(l.id), status: label(l.id) }))
+  }));
+  const toReview = content.subjects.flatMap(s => s.lessons.filter(l => p[l.id] !== 'MAITRISEE')
+    .map(l => ({ title: l.title, href: '#lesson:' + encodeURIComponent(l.id), detail: subjectMeta(s.id).short + (p[l.id] ? ' · ' + label(l.id) : '') })));
+  const review = [
+    ...content.subjects.filter(s => s.assessment).map(s => ({ title: 'Évaluation · ' + subjectMeta(s.id).short, href: '#eval:' + encodeURIComponent(s.id) })),
+    ...toReview.slice(0, 12)
+  ];
+  shell(Klassia.week.render({
+    grade: 'CE2', unit: currentUnit.id, week: sel.week, book, subjects, review,
+    units: catalog.units.map(u => ({ id: u.id, number: u.number, label: u.number + ' · ' + u.title, subcentres: u.subcentres }))
+  }), 'learn');
+}
+Klassia.week.bind(() => weekPage());
+// « Dans ton manuel » on French lessons: the unit's pages in the textbook, then the week view.
+function fillManualRef() {
+  const el = document.querySelector('[data-manual-ref]');
+  if (!el) return;
+  Klassia.week.manual(CE2_MANUAL).then(book => {
+    const pagesText = Klassia.week.unitSpan(book, unitNumber());
+    if (!pagesText || !el.isConnected) return;
+    el.innerHTML = `<span>Dans ton manuel</span> ${esc(book.title)}, unité ${unitNumber()}, ${esc(pagesText)}. <a href="#semaine">Voir les pages de la semaine</a>`;
+    el.hidden = false;
+  });
+}
+document.addEventListener('klassia:render', fillManualRef);
 
 window.addEventListener('hashchange', route);
 boot().catch(e => {

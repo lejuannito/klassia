@@ -90,21 +90,22 @@ function classNavigation(grade){
 function weekReport(){
  const since=Date.now()-7*864e5,recent=x=>x&&Date.parse(x.at)>=since,rows={};
  const row=g=>rows[g]||(rows[g]={tried:new Map(),qcm:0,ratings:new Map()});
- const gradeOf=a=>a.grade||(/^SIL[-:]/.test(a.exercise||'')?'SIL':/^CE1[-:]/.test(a.exercise||'')?'CE1':'CE2');
+ const gradeOf=a=>a.grade||(/^HOME:/.test(a.exercise||'')?'MAISON':/^SIL[-:]/.test(a.exercise||'')?'SIL':/^CE1[-:]/.test(a.exercise||'')?'CE1':'CE2');
  for(const a of K.read('klassia_attempts',[]).filter(recent)){const r=row(gradeOf(a));if(a.kind==='qcm')r.qcm++;else if(a.exercise||a.activity)r.tried.set(a.exercise||a.activity,a.ok===true);}
  for(const o of K.read('klassia_observations',[]).filter(recent))if(o.rating&&o.grade)row(o.grade).ratings.set(o.activity,o.rating);
  const n=(k,one,many)=>k+' '+(k>1?many:one),lines=[];
- for(const g of Object.keys(gradeNames))if(rows[g]){const r=rows[g],parts=[];
+ const label=g=>gradeNames[g]||'Langue de la maison';
+ for(const g of [...Object.keys(gradeNames),'MAISON'])if(rows[g]){const r=rows[g],parts=[];
   if(r.tried.size){const ok=[...r.tried.values()].filter(Boolean).length;parts.push(n(r.tried.size,'exercice essayé','exercices essayés')+(ok?', dont '+n(ok,'réussi','réussis'):''));}
   if(r.qcm)parts.push(n(r.qcm,'série de QCM','séries de QCM'));
   if(r.ratings.size){const c=k=>[...r.ratings.values()].filter(v=>v===k).length,detail=[[c('alone'),'seul'],[c('helped'),'avec aide'],[c('notyet'),'pas encore']].filter(([k])=>k).map(([k,w])=>k+' '+w).join(', ');parts.push(n(r.ratings.size,'activité','activités')+' ('+detail+')');}
   if(parts.length)lines.push([g,parts.join(' ; ')]);}
- const text=['Klassia — la semaine de '+K.profile().name,...lines.map(([g,l])=>'• '+gradeNames[g]+' : '+l),'Suivi déclaré sur l’appareil, sans note.'].join('\n');
- return {lines,text};
+ const text=['Klassia — la semaine de '+K.profile().name,...lines.map(([g,l])=>'• '+label(g)+' : '+l),'Suivi déclaré sur l’appareil, sans note.'].join('\n');
+ return {lines:lines.map(([g,l])=>[label(g),l]),text};
 }
 function weekReportHtml(){
  const {lines,text}=weekReport();
- return '<section class="klassia-week-report adult-guide"><h3>Les 7 derniers jours</h3>'+(lines.length?'<ul>'+lines.map(([g,l])=>'<li><strong>'+esc(gradeNames[g])+'</strong> : '+esc(l)+'</li>').join('')+'</ul><p class="klassia-share"><a href="https://wa.me/?text='+encodeURIComponent(text)+'" target="_blank" rel="noopener" data-share-whatsapp>Envoyer par WhatsApp</a> <button type="button" data-share-copy>Copier le message</button> <span role="status" data-share-status></span></p><p class="klassia-share-note">Le message donne seulement ces nombres et le prénom du profil : ni réponses écrites, ni notes.</p>':'<p>Aucune activité enregistrée ces 7 derniers jours sur cet appareil.</p>')+'</section>';
+ return '<section class="klassia-week-report adult-guide"><h3>Les 7 derniers jours</h3>'+(lines.length?'<ul>'+lines.map(([g,l])=>'<li><strong>'+esc(g)+'</strong> : '+esc(l)+'</li>').join('')+'</ul><p class="klassia-share"><a href="https://wa.me/?text='+encodeURIComponent(text)+'" target="_blank" rel="noopener" data-share-whatsapp>Envoyer par WhatsApp</a> <button type="button" data-share-copy>Copier le message</button> <span role="status" data-share-status></span></p><p class="klassia-share-note">Le message donne seulement ces nombres et le prénom du profil : ni réponses écrites, ni notes.</p>':'<p>Aucune activité enregistrée ces 7 derniers jours sur cet appareil.</p>')+'</section>';
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-share-copy]');if(!b)return;const status=b.parentElement.querySelector('[data-share-status]'),{text}=weekReport();
  Promise.resolve(navigator.clipboard?.writeText(text)).then(()=>{if(!navigator.clipboard)throw Error();status.textContent='Message copié.';}).catch(()=>{status.textContent='Copie impossible ici : utilisez « Envoyer par WhatsApp ».';});});
@@ -137,6 +138,7 @@ function decorate(){
   space:`<button data-space class="space-trigger">Espace : ${roleName} · changer</button>`,
   profiles:`<button data-profiles>Profil : ${esc(K.profile().name)}</button>`,
   overview:`<button data-overview>Suivi des classes</button>`,
+  homeLanguage:`<a data-home-language-link href="${new URL('maison.html',c.base)}">Langue de la maison</a>`,
   recommend:`<a data-recommend href="https://wa.me/?text=${encodeURIComponent('Je te conseille Klassia, un manuel interactif pour les enfants de la maternelle au CE2, qui marche aussi sans connexion : '+new URL('./',c.base).href)}" target="_blank" rel="noopener">Recommander Klassia (WhatsApp)</a>`,
   review:`<a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>`,
   child:role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':'',
@@ -147,9 +149,9 @@ function decorate(){
   // tap away behind « Parents »; nothing is removed.
   nav.classList.add('klassia-family-nav');
   nav.innerHTML=parts.back+parts.grade+parts.tools+parts.searchReturn+parts.back2+
-   `<details class="klassia-parents-menu"><summary>Parents</summary><div class="klassia-parents-panel" role="group" aria-label="Outils des parents"><p>Suivi, profils, sauvegarde et recherche.</p><p class="klassia-parents-edition">Édition pilote accompagnée : les contenus sont en cours de relecture pédagogique.</p>${parts.overview}${parts.profiles}${parts.search}${parts.recommend}${parts.space}<p class="klassia-parents-workshop">Atelier pédagogique</p>${parts.review}</div></details>`;
+   `<details class="klassia-parents-menu"><summary>Parents</summary><div class="klassia-parents-panel" role="group" aria-label="Outils des parents"><p>Suivi, profils, sauvegarde et recherche.</p><p class="klassia-parents-edition">Édition pilote accompagnée : les contenus sont en cours de relecture pédagogique.</p>${parts.overview}${parts.homeLanguage}${parts.profiles}${parts.search}${parts.recommend}${parts.space}<p class="klassia-parents-workshop">Atelier pédagogique</p>${parts.review}</div></details>`;
  } else {
-  nav.innerHTML=parts.back+parts.grade+parts.search+parts.tools+parts.searchReturn+parts.space+parts.profiles+parts.overview+parts.recommend+parts.review+parts.child+parts.back2;
+  nav.innerHTML=parts.back+parts.grade+parts.search+parts.tools+parts.searchReturn+parts.space+parts.profiles+parts.overview+parts.homeLanguage+parts.recommend+parts.review+parts.child+parts.back2;
  }
  top.insertAdjacentElement('afterend',nav);
  if (['PARENT','ENSEIGNANT','ADMIN'].includes(role)) {

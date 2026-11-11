@@ -67,3 +67,8 @@ Ce fichier conserve uniquement les décisions structurantes utiles aux prochaine
 **Décision :** utiliser un modèle courant pour l’implémentation et réserver les modèles les plus coûteux aux diagnostics, décisions architecturales, sécurité et blocages persistants.
 
 **Conséquence :** après diagnostic par un modèle haut de gamme, revenir à un modèle courant pour appliquer et itérer sur la correction.
+## ADR-012 — La langue nationale est celle de la famille
+
+**Décision (porteur de projet, 11 novembre 2026) :** la langue et culture nationale travaillée est celle que parlent les parents ; le bassa reste la première langue documentée dans Klassia. La page « Langue de la maison » (lot 8a) permet à un adulte d’enregistrer des mots du quotidien dans sa langue et à l’enfant de les écouter et de les reconnaître.
+
+**Conséquence :** les enregistrements familiaux restent sur l’appareil, dans le profil de l’enfant (IndexedDB), sans envoi ni inclusion dans la sauvegarde JSON ; ils ne sont pas présentés comme des formes validées. Les formes bassa documentées gardent leur circuit de relecture et de diffusion propre.

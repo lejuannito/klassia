@@ -52,6 +52,11 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 - **7c. Mathématiques par savoir** — 26 leçons d’après les tableaux 19 à 21 du programme de niveau 2 (p. 75 à 91, colonne CE1) : calcul (`-MC`) et mesures (`-MM`) dans chaque unité, nombres (`-MN`) et géométrie (`-MG`) là où les leçons existantes ne les couvraient pas. Calcul mental et suites d’opérations, ensembles (∈, ∪, ∩), addition et soustraction posées, commutativité et distributivité, tables de 3, 4, 5 et preuve par 9, double et moitié, nombres pairs, division par un chiffre, triple et tiers, calculatrice ; longueurs, masses, capacités, périmètre et aire, périmètre du carré et du rectangle, calendrier, températures, heure, angles en degrés, monnaie jusqu’à 1 000 F ; règle et équerre, parallèles et perpendiculaires, cube, pavé, cylindre et empreintes, carré, rectangle, triangle, symétrie, angles ; nombres jusqu’à quatre chiffres et fractions simples. Chaque leçon finit par un petit problème de la vie courante.
 - **À faire** — œuvre de littérature accompagnée (il faut le livre), QCM reliés.
 
+## Lot 8 — langue de la maison (en cours)
+
+- **8a. Enregistreur familial** — page `maison.html` (menu Parents, « Langue de la maison ») : la famille note le nom de sa langue, enregistre 29 mots du quotidien (salutations, famille, corps, nombres de 1 à 5, maison et repas), peut écrire le mot si elle le souhaite ; l’enfant joue à « Écouter et trouver » (trois images, dès trois mots enregistrés). Audio dans IndexedDB par profil, hors sauvegarde ; le jeu compte dans le bilan de la semaine. Décision reportée dans ADR-012.
+- **À faire** — forme principale AGLC et exercice d’écoute pour le bassa documenté (référence orthographique et relecteur bassa à obtenir), modèle multilingue des leçons LCN.
+
 ## Lot 9 — confiance et diffusion (en cours)
 
 - **9a. Bilan de la semaine et partage** — « Suivi des classes » commence par « Les 7 derniers jours » : par classe, exercices essayés et réussis, séries de QCM, activités de maternelle notées seul / avec aide / pas encore, d’après les traces datées déjà enregistrées sur l’appareil (`klassia_attempts`, `klassia_observations`). Le parent peut envoyer ce bilan par WhatsApp (lien `wa.me`, sans compte ni serveur) ou le copier ; le message ne contient que ces nombres et le prénom du profil, ni réponses écrites ni notes. Le menu Parents propose aussi « Recommander Klassia (WhatsApp) » avec l’adresse de l’application.
@@ -59,7 +64,7 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 Programmes anglophones : les liens eBASE (Level I à III) sont connus mais ne s’ouvrent pas depuis l’environnement de travail ; l’aperçu public du Level I s’arrête avant le contenu d’English Language (p. 41) et de Mathematics (p. 48). Il faudra le PDF complet pour la piste anglophone (A2, Class 1).
 
-Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
+Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote (reportée : ADR-012) ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
 
 ## Lots techniques à essayer sur appareils réels
 

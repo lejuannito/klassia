@@ -35,3 +35,11 @@
   .assessment-card { flex-direction: column; align-items: flex-start; }
   .assessment-card > div { max-width: 100%; overflow-wrap: anywhere; }
 }
+
+/* QCM linked to lessons: « Revoir » after a wrong answer and the list of lessons to review. */
+.scoreBox { flex-wrap: wrap; gap: 6px 12px; }
+.qcm-review { margin: 8px 0 0; }
+.qcm-review a, .qcm-review-list a { color: var(--brand); font-weight: 750; text-decoration: underline; text-underline-offset: 2px; }
+.qcm-review-list { flex-basis: 100%; display: grid; gap: 4px; margin-top: 8px; padding-top: 10px; border-top: 1px solid var(--line); }
+.qcm-review-list b { color: var(--ink); font-size: 14px; }
+.qcm-review-list a { display: flex; align-items: center; min-height: 44px; }

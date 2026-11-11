@@ -24,6 +24,8 @@ Une leçon possède identifiant stable, objectifs, référence, cours, exercices
 
 Les observations, tentatives et confiance déclarée sont distinctes. Les anciennes valeurs `MAITRISEE` restent compatibles, mais sont présentées comme compréhension déclarée. Les observations MS incluent activité, thème, date, langue et aide lorsqu’elles sont saisies par l’adulte.
 
+Une question de banque QCM du CE2 (`data/qcm-u*.json`) peut porter `lecon`, l’identifiant d’une leçon de la même unité et de la même matière : après une erreur, la correction propose « Revoir la leçon » ; sans `lecon`, elle renvoie aux leçons de la matière.
+
 `data/coverage.json` est un inventaire dérivé, non un référentiel officiel. Ses `official_competency_id` restent nuls jusqu’à un rapprochement documentaire réellement effectué. Les identifiants de ressources ne doivent pas être renommés sans migration de progression.
 
 ## Hors connexion

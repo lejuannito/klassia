@@ -66,7 +66,7 @@ let bank=null;const qcmKey='klassia_'+c.grade.toLowerCase()+'_qcm_v1';
 const qcmBank=async()=>bank||(bank=await get(c.qcm));
 async function showReview(){const b=await qcmBank();if(location.hash!=='#reviser')return;const scores=K.read(qcmKey,{});
  const blocks=units.map((u,i)=>{const ss=b.series.filter(s=>s.unit===u.id);return ss.length?`<section class="gs-card klassia-qcm-unit"><h2>Unité ${i+1} · ${E(u.title_fr)}</h2><div class="gs-actions">${ss.map(s=>{const r=scores[s.id];return `<a href="#qcm:${E(s.id)}">${E(s.subject)}${r?` · ${r.score}/${r.total}`:''}</a>`;}).join('')}</div></section>`:'';}).join('');
- frame(hero('Réviser avec les QCM','Cinq questions par matière et par unité. Après une erreur, « Revoir la leçon » ouvre la leçon à relire.')+blocks);}
+ frame(hero('Réviser avec les QCM','Une série de questions par matière et par unité. Après une erreur, « Revoir la leçon » ouvre la leçon à relire.')+blocks);}
 async function showSeries(id){const b=await qcmBank(),s=b.series.find(x=>x.id===id);if(!s)return notFound();if(location.hash!=='#qcm:'+id)return;
  const en=s.subject==='English',adult=K.isAdultSpace(),u=units.find(x=>x.id===s.unit),title=s.subject+' · '+(en?'Unit ':'Unité ')+(units.indexOf(u)+1);
  const lessonOf=q=>lessons.find(x=>x.l.id===q.lecon)?.l,link=l=>l?`<a href="#lesson:${encodeURIComponent(l.id)}">${en?'Review the lesson':'Revoir la leçon'} « ${E(l.title)} »</a>`:'';

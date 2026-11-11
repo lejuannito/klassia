@@ -14,6 +14,17 @@ function shortAnswer(e){
 }
 // Lot 2e: SIL and CE1 short answers use the same comparison; the written answer may stay unrecognised but never refused.
 let learningShortAnswers=0;
+// Checked formats (shared/exercises.js): order at least three distinct items, match at least three pairs with distinct sides, gaps written [[answer|variant]].
+let checkedFormats=0;
+function checkedFormat(p,id){
+ if(p.type===undefined)return;
+ const text=v=>typeof v==='string'&&v.trim();
+ assert.ok(['order','match','gaps'].includes(p.type),'Unknown practice type '+id);
+ if(p.type==='order')assert.ok(Array.isArray(p.items)&&p.items.length>=3&&p.items.every(text)&&new Set(p.items).size===p.items.length,'Order items '+id);
+ if(p.type==='match')assert.ok(Array.isArray(p.pairs)&&p.pairs.length>=3&&p.pairs.every(x=>Array.isArray(x)&&x.length===2&&x.every(text))&&[0,1].every(k=>new Set(p.pairs.map(x=>x[k])).size===p.pairs.length),'Match pairs '+id);
+ if(p.type==='gaps'){const gaps=[...String(p.text||'').matchAll(/\[\[([^\]]+)\]\]/g)];assert.ok(gaps.length&&gaps.every(g=>g[1].split('|').every(text)),'Gaps '+id);}
+ checkedFormats++;
+}
 function learningShort(x,prompt,id){
  if(x.accept===undefined&&x.reject===undefined)return;
  const list=v=>Array.isArray(v)&&v.length&&v.every(w=>typeof w==='string'&&answers.answerTokens(w).length);
@@ -47,6 +58,7 @@ function learningExtras(l){
   if (p.listen !== undefined) assert.ok(typeof p.listen === 'string' && p.listen.trim(), 'Invalid listening message ' + l.id);
   checkAudio(p.audio, p.listen, l.id);
   learningShort(p, p.prompt, l.id);
+  checkedFormat(p, l.id);
  }
  learningShort(l, l.exercise, l.id);
  checkAudio(l.support?.audio, l.support?.text, l.id);
@@ -128,6 +140,6 @@ for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);assert
 const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.json');
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}
-for(const f of ['shared/correction.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);
-assert.equal(lessons,652);assert.equal(learningShortAnswers,220);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,974);assert.equal(questions,read('docs/metrics.json').storedQuestions);
+for(const f of ['shared/correction.js','shared/exercises.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);
+assert.equal(lessons,652);assert.equal(learningShortAnswers,220);assert.equal(checkedFormats,38);assert.equal(activities,160);assert.equal(read('data/coverage.json').items.length,974);assert.equal(questions,read('docs/metrics.json').storedQuestions);
 console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions, ${shortAnswers} CE2 + ${learningShortAnswers} SIL/CE1 short answers with automatic check. Editorial validation is separate.`);

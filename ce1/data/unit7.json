@@ -238,6 +238,18 @@
           "prompt": "Explique le mot « arbitre ».",
           "answer": "La personne qui fait respecter les règles du jeu.",
           "explanation": "On dit le rôle de la personne."
+        },
+        {
+          "prompt": "Range ces mots dans l’ordre alphabétique.",
+          "type": "order",
+          "items": [
+            "balle",
+            "ballon",
+            "bille",
+            "but"
+          ],
+          "answer": "balle, ballon, bille, but.",
+          "explanation": "On compare lettre par lettre : balle avant ballon (e avant o), puis bille (i), puis but (u)."
         }
       ],
       "source": {
@@ -565,6 +577,26 @@
             "Hello"
           ],
           "explanation": "Hi is a greeting."
+        },
+        {
+          "prompt": "Match each interjection with what it shows.",
+          "type": "match",
+          "pairs": [
+            [
+              "Hi!",
+              "a greeting"
+            ],
+            [
+              "Great!",
+              "joy"
+            ],
+            [
+              "Hey!",
+              "surprise"
+            ]
+          ],
+          "answer": "Hi!: a greeting ; Great!: joy ; Hey!: surprise.",
+          "explanation": "Interjections show feelings; we write an exclamation mark after them."
         }
       ],
       "source": {
@@ -734,6 +766,13 @@
             "120"
           ],
           "explanation": "3 × 40 = 120."
+        },
+        {
+          "prompt": "Complète.",
+          "type": "gaps",
+          "text": "Le triple de 20 est [[60]]. Le tiers de 30 est [[10]].",
+          "answer": "60 ; 10.",
+          "explanation": "Le triple : 3 fois le nombre. Le tiers : partager en 3 parts égales."
         }
       ],
       "source": {
@@ -792,6 +831,26 @@
             "16h30"
           ],
           "explanation": "15 h + 1 h = 16 h ; + 30 min = 16 h 30."
+        },
+        {
+          "prompt": "Relie chaque durée à sa valeur en minutes.",
+          "type": "match",
+          "pairs": [
+            [
+              "1 heure",
+              "60 minutes"
+            ],
+            [
+              "une demi-heure",
+              "30 minutes"
+            ],
+            [
+              "un quart d’heure",
+              "15 minutes"
+            ]
+          ],
+          "answer": "1 heure = 60 min ; une demi-heure = 30 min ; un quart d’heure = 15 min.",
+          "explanation": "1 heure = 60 minutes ; la moitié fait 30 ; le quart fait 15."
         }
       ],
       "source": {

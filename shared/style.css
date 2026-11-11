@@ -300,3 +300,22 @@ body > .sil-child .reading-support th { color: #46526b; font-size: 1.2rem; }
 .klassia-review a { display: grid; gap: .1rem; min-height: 48px; padding: .55rem .8rem; border-radius: 12px; background: #fff; border: 1px solid #ecd7a6; color: #172033; text-decoration: none; }
 .klassia-review a span { font-size: .92rem; color: #5a4a2a; }
 .klassia-review-target { outline: 3px solid #f0b429; outline-offset: 4px; border-radius: 12px; }
+
+/* Checked formats (shared/exercises.js): put in order, match, fill the gaps. */
+.klassia-ex { display: grid; gap: .6rem; margin-top: .4rem; }
+.klassia-ex-hint { margin: 0; font-size: .92rem; color: #46526b; }
+.klassia-order-answer { min-height: 56px; display: flex; flex-wrap: wrap; gap: .4rem; padding: .4rem; border: 2px dashed #b9c5e0; border-radius: 12px; background: #f7f9ff; }
+.klassia-order-pool { display: flex; flex-wrap: wrap; gap: .4rem; }
+.klassia-ex [data-item] { min-height: 44px; min-width: 44px; padding: 0 14px; border: 1px solid #b9c5e0; border-radius: 10px; background: #fff; color: #172033; font: inherit; font-weight: 700; }
+.klassia-match { display: grid; gap: .4rem; }
+.klassia-match label { display: grid; grid-template-columns: minmax(6rem, 1fr) minmax(8rem, 1.4fr); gap: .5rem; align-items: center; padding: .3rem .4rem; border-radius: 10px; }
+.klassia-match select { min-height: 44px; font: inherit; max-width: 100%; }
+.klassia-gaps { line-height: 2.6; margin: 0; }
+.klassia-gaps input { min-height: 40px; font: inherit; text-align: center; border: 1px solid #b9c5e0; border-radius: 8px; margin: 0 .2rem; max-width: 60vw; }
+.klassia-ex-actions button { min-height: 44px; padding: 0 18px; border-radius: 10px; border: 0; background: #3157d5; color: #fff; font: inherit; font-weight: 700; }
+.klassia-ex [data-ok="true"] { border-color: #1f8f4e; background: #edf8f1; outline: 2px solid #1f8f4e; }
+.klassia-ex [data-ok="false"] { border-color: #b45309; background: #fff4e5; outline: 2px solid #d97706; }
+.klassia-ex-status:empty { display: none; }
+.klassia-ex-status { margin: 0; font-weight: 700; }
+.klassia-ex-status[data-verdict="correct"] { color: #1f6f3f; }
+.klassia-ex-status[data-verdict="wrong"] { color: #9a3412; }

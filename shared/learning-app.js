@@ -54,13 +54,16 @@ document.addEventListener('click',ev=>{const b=ev.target.closest('[data-self]'),
 });
 // « Je révise » (shared/ui.js): where to redo an exercise or a practice item answered « pas encore ».
 K.describeExercise=key=>{const m=new RegExp('^'+c.grade+':([^:]+)(?::entrainement:(\\d+))?$').exec(key),x=m&&lessons?.find(y=>y.l.id===m[1]);if(!x)return null;const en=x.l.domain.startsWith('English');
- return {href:'#lesson:'+encodeURIComponent(x.l.id),anchor:`[data-save="${key}"]`,title:x.l.title,detail:m[2]===undefined?(en?'Your turn':'À toi de jouer'):(en?'Practice ':'Entraînement ')+(Number(m[2])+2)};};
+ return {href:'#lesson:'+encodeURIComponent(x.l.id),anchor:`[data-save="${key}"],[data-key="${key}"]`,title:x.l.title,detail:m[2]===undefined?(en?'Your turn':'À toi de jouer'):(en?'Practice ':'Entraînement ')+(Number(m[2])+2)};};
 // Short answers (Lot 2e): accepted and rejected forms written in the content; the check never blocks the correction.
 const shortCheck=(x,prompt)=>x.accept?{accept:x.accept,reject:x.reject||[],prompt}:null;
+// A checked answer moves a lesson still « À découvrir » to « En cours ».
+function started(target){const lid=target.closest('[data-lesson]')?.dataset.lesson,p=K.read(c.progressKey,{});if(lid&&(p[lid]||'D')==='D'){p[lid]='EC';K.write(c.progressKey,p);progress=p;document.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.progress==='EC')));}}
 document.addEventListener('klassia:answer-checked',ev=>{const {record,verdict}=ev.detail||{};if(!record||!['correct','wrong'].includes(verdict))return;
- K.append('klassia_attempts',{kind:'short_answer',exercise:record,ok:verdict==='correct'});
- const lid=ev.target.closest('[data-lesson]')?.dataset.lesson,p=K.read(c.progressKey,{});if(lid&&(p[lid]||'D')==='D'){p[lid]='EC';K.write(c.progressKey,p);progress=p;document.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.progress==='EC')));}
+ K.append('klassia_attempts',{kind:'short_answer',exercise:record,ok:verdict==='correct'});started(ev.target);
 });
+// Checked formats (shared/exercises.js): put in order, match, fill the gaps.
+document.addEventListener('klassia:exercise-checked',ev=>{const {key,ok}=ev.detail||{};if(!key)return;K.append('klassia_attempts',{kind:'exercise',exercise:key,ok:Boolean(ok)});started(ev.target);});
 // QCM reliés (lot 7) : une série de questions par unité et par matière ; après une erreur, « Revoir la leçon » ouvre la leçon vérifiée.
 let bank=null;const qcmKey='klassia_'+c.grade.toLowerCase()+'_qcm_v1';
 const qcmBank=async()=>bank||(bank=await get(c.qcm));
@@ -114,6 +117,8 @@ function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)retur
    : '';
   const listening = p.listen ? `${K.speech.clip(p.audio,lang)}<div class="gs-actions" data-listening-practice="${j}"></div>${transcript}` : '';
   const answer = `<p>${E(p.answer)}</p>${p.explanation?`<p>${E(p.explanation)}</p>`:''}${selfCheck(c.grade+':'+id+':entrainement:'+j,id,en)}`;
+  const key=c.grade+':'+id+':entrainement:'+j;
+  if(K.exercises?.types.includes(p.type))return `<section class="practice-item"><h3>${en?'Practice':'Entraînement'} ${j+2}</h3><p>${E(p.prompt)}</p>${listening}${K.exercises.html(p,key,en)}</section>`;
   return `<section class="practice-item"><h3>${en?'Practice':'Entraînement'} ${j+2}</h3><p>${E(p.prompt)}</p>${listening}${p.ink?K.ink.pad(c.grade+':'+id+':entrainement:'+j,p.ink):''}${K.correction.html(id+'_practice_'+j,answer,{en,ink:Boolean(p.ink),save:c.grade+':'+id+':entrainement:'+j,record:c.grade+':'+id+':entrainement:'+j,check:shortCheck(p,p.prompt)})}</section>`;
  }).join('');
  const proposals=(l.domain.includes('national')?[]:(l.proposedWords||[])).map(w=>`<article><b>${E(w.concept)}</b> : ${w.forms.map(E).join(' / ')}<p>Sources : ${(w.sources||[]).map(E).join('; ')}</p><p>${E(Array.isArray(w.notes)?w.notes.join(' '):w.notes||'')}</p></article>`).join('');

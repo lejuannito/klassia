@@ -159,6 +159,17 @@
           ],
           "explanation": "Pour « tou », on écrit t puis ou.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Range les syllabes pour écrire le mot « tomate ».",
+          "type": "order",
+          "items": [
+            "to",
+            "ma",
+            "te"
+          ],
+          "answer": "to-ma-te : tomate.",
+          "explanation": "On dit le mot lentement : to, ma, te."
         }
       ],
       "source": {
@@ -347,6 +358,19 @@
             "13"
           ],
           "explanation": "13 = 10 + 3 : une dizaine et trois unités."
+        },
+        {
+          "prompt": "Range ces nombres du plus petit au plus grand.",
+          "type": "order",
+          "items": [
+            "9",
+            "11",
+            "13",
+            "14",
+            "17"
+          ],
+          "answer": "9, 11, 13, 14, 17.",
+          "explanation": "On compte : 9, 10, 11, 12, 13, 14, 15, 16, 17."
         }
       ]
     },

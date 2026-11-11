@@ -30,8 +30,13 @@ async function printPrimary({grade,kind,unit,id,adult,get,asset}) {
  const correction = (answer,explanation) => adult
   ? `<div class="print-answer"><b>${en?'Suggested answer':'Correction proposée'}</b>${paragraph(answer)}${explanation?paragraph(explanation):''}</div>`
   : '<div class="answer-lines"></div>';
+ // Checked formats on paper: the gaps become lines, the cards and the right-hand column are given out of order.
+ const turn = a => a.map((x,i) => a[(i+1)%a.length]);
+ const material = p => p.type==='gaps' ? paragraph(String(p.text).replace(/\[\[[^\]]+\]\]/g,'________'))
+  : p.type==='order' ? `<p>${turn(p.items).map(E).join(' · ')}</p>`
+  : p.type==='match' ? `<table class="print-match"><tbody>${p.pairs.map((x,i)=>`<tr><td>${E(x[0])}</td><td>•&nbsp;&nbsp;&nbsp;•</td><td>${E(turn(p.pairs)[i][1])}</td></tr>`).join('')}</tbody></table>` : '';
  const practice = (l.practice||[]).map((p,index)=>
-  `<section class="print-question"><h2>${en?'Practice':'Entraînement'} ${index+2}</h2>${paragraph(p.prompt)}${p.listen&&adult?section(en?'Message to read aloud':'Message à lire à voix haute',p.listen):''}${correction(p.answer,p.explanation)}</section>`).join('');
+  `<section class="print-question"><h2>${en?'Practice':'Entraînement'} ${index+2}</h2>${paragraph(p.prompt)}${material(p)}${p.listen&&adult?section(en?'Message to read aloud':'Message à lire à voix haute',p.listen):''}${p.type&&!adult&&p.type!=='order'?'':correction(p.answer,p.explanation)}</section>`).join('');
  const guide = adult ? `<section><h2>${en?'Adult guide':'Guide adulte'}</h2>${paragraph(l.remediation)}${paragraph(l.transfer)}${paragraph(l.materials)}</section>` : '';
  return {title:l.title,back:'./'+directory+'#lesson:'+encodeURIComponent(id),body:`<article lang="${en?'en':'fr'}">
   ${section(en?'Learning goal':'Objectif',l.objective)}

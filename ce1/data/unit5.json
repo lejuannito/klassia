@@ -177,6 +177,30 @@
             "court"
           ],
           "explanation": "Long et court sont des contraires."
+        },
+        {
+          "prompt": "Relie chaque mot à son contraire.",
+          "type": "match",
+          "pairs": [
+            [
+              "partir",
+              "arriver"
+            ],
+            [
+              "long",
+              "court"
+            ],
+            [
+              "rapide",
+              "lent"
+            ],
+            [
+              "monter",
+              "descendre"
+            ]
+          ],
+          "answer": "partir / arriver ; long / court ; rapide / lent ; monter / descendre.",
+          "explanation": "Des mots contraires ont des sens opposés."
         }
       ],
       "source": {
@@ -226,6 +250,13 @@
           "answer": "nous voyageons, le garçon, la guitare.",
           "explanation": "ge devant o ; ç devant o ; gu devant i.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Complète avec c ou ç.",
+          "type": "gaps",
+          "text": "un gar[[ç]]on ; nous avan[[ç]]ons ; le [[c]]ar",
+          "answer": "un garçon ; nous avançons ; le car.",
+          "explanation": "Devant a, o, u, il faut une cédille pour entendre [s] ; c se lit [k] dans car."
         }
       ],
       "source": {
@@ -408,6 +439,26 @@
           "answer": "Row, row, row your boat.",
           "explanation": "Say it with the rhythm of the voice.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Match each number with its name.",
+          "type": "match",
+          "pairs": [
+            [
+              "101",
+              "one hundred and one"
+            ],
+            [
+              "120",
+              "one hundred and twenty"
+            ],
+            [
+              "150",
+              "one hundred and fifty"
+            ]
+          ],
+          "answer": "101: one hundred and one ; 120: one hundred and twenty ; 150: one hundred and fifty.",
+          "explanation": "Say the hundred, then “and”, then the rest."
         }
       ],
       "source": {
@@ -665,6 +716,19 @@
           ],
           "explanation": "sept cent soixante-cinq = 700 + 60 + 5.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Range ces nombres du plus petit au plus grand.",
+          "type": "order",
+          "items": [
+            "709",
+            "746",
+            "764",
+            "790",
+            "800"
+          ],
+          "answer": "709, 746, 764, 790, 800.",
+          "explanation": "On compare les centaines, puis les dizaines, puis les unités."
         }
       ],
       "source": {

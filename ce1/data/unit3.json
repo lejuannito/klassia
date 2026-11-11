@@ -122,6 +122,13 @@
             "notre"
           ],
           "explanation": "Les livres sont à nous : nos."
+        },
+        {
+          "prompt": "Complète avec ce, cet ou cette.",
+          "type": "gaps",
+          "text": "[[ce]] crayon, [[cette]] ardoise, [[cet]] arbre",
+          "answer": "ce crayon, cette ardoise, cet arbre.",
+          "explanation": "Cette devant un nom féminin ; cet devant un nom masculin qui commence par une voyelle ; ce sinon."
         }
       ],
       "source": {
@@ -349,6 +356,30 @@
           "answer": "Ils ont un livre. Elle est gentille.",
           "explanation": "ils ont (avoir) ; elle est (être).",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Relie chaque pronom à la forme du verbe être au présent.",
+          "type": "match",
+          "pairs": [
+            [
+              "je",
+              "suis"
+            ],
+            [
+              "tu",
+              "es"
+            ],
+            [
+              "nous",
+              "sommes"
+            ],
+            [
+              "ils",
+              "sont"
+            ]
+          ],
+          "answer": "je suis ; tu es ; nous sommes ; ils sont.",
+          "explanation": "Être a des formes particulières à apprendre par cœur."
         }
       ],
       "source": {
@@ -485,6 +516,18 @@
             "goat"
           ],
           "explanation": "A goat is an animal."
+        },
+        {
+          "prompt": "Put the months in order.",
+          "type": "order",
+          "items": [
+            "September",
+            "October",
+            "November",
+            "December"
+          ],
+          "answer": "September, October, November, December.",
+          "explanation": "The school year starts in September."
         }
       ],
       "source": {
@@ -587,6 +630,13 @@
             "in"
           ],
           "explanation": "Below the chair means under the chair."
+        },
+        {
+          "prompt": "Complete with in, on or under.",
+          "type": "gaps",
+          "text": "The pen is [[in]] the bag. The book is [[on]] the desk. The bag is [[under]] the chair.",
+          "answer": "in ; on ; under.",
+          "explanation": "In: inside. On: on top of. Under: below."
         }
       ],
       "source": {

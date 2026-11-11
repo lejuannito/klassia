@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "11dfdd612d993a6834f087c59082dc671bd9c3150c61adcc5e7a9ec7555c6271",
+  "version": "cc745e6c5beb0400b14711490f129fef6a5e289138216cb6a5c113ef13793bb7",
   "files": [
     {
       "url": "./app.js",
@@ -215,39 +215,39 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/unit1.json",
-      "sha256": "ddab4af835bfa23df260989c393ef1301ad1283158ca437695881acf1dd8593c"
+      "sha256": "72dbfb8012b06d99e5f0b12007d71de4576bededfbee764f318b92abf7fb89d0"
     },
     {
       "url": "./ce1/data/unit2.json",
-      "sha256": "d84df655408fbfce126cfa5a6da3bee0df09ec55ff6720a9e8f41e3d09eaf775"
+      "sha256": "aa6a87b9a3cb8931b7f5f65e9edd471da7625d4408425eb408207d3d84a0dd8c"
     },
     {
       "url": "./ce1/data/unit3.json",
-      "sha256": "717ba0ddf0962a68b04af8989e885ac5261b055b601a8ed36d7fb7e6ff349f3f"
+      "sha256": "aba162eaf59b789b2a7283852d1a48e84d1d7e5ef6eb80e261ef4f996c69fe4e"
     },
     {
       "url": "./ce1/data/unit4.json",
-      "sha256": "d9e53bdcd21b1253f9d973c800447384ffe31bc10a50ac766512e1ffff490da7"
+      "sha256": "dcadfc9a70c4e3fd5f4e04ba33078d67aaf3ebd2e033a29ff50bee73ae20532f"
     },
     {
       "url": "./ce1/data/unit5.json",
-      "sha256": "79e1132312cac9fbfc9a47beafbdcabf33a2ed10e59ae785530b8d466811d71b"
+      "sha256": "21e79553f52216eda61675a6d329bbdc7ba90b370d8091414bdbfea494740395"
     },
     {
       "url": "./ce1/data/unit6.json",
-      "sha256": "f2fdb089cbc54e8e16c86a56af0f793e1e7ffdf874a024603acd571234d24867"
+      "sha256": "c0110a99d549e01b060e0fe09c25a86489f617e774f470a66100f9cb202f740a"
     },
     {
       "url": "./ce1/data/unit7.json",
-      "sha256": "89468821640c6ae3ea5cf9e0493647e43fc8f35ebd5e3f907e6be6ba6599b258"
+      "sha256": "cd2e7a8b6fd1d9176d7988a5525c54229c883270e244e4df0395fdfd6dd31154"
     },
     {
       "url": "./ce1/data/unit8.json",
-      "sha256": "2ee38c5426142c74521beab7b86611367a0d7da70ca363d0940b01e4dc8ffb75"
+      "sha256": "8943e1e604a4d25b8b0160041da5aab5ba8a8256ff129e73d79246a41ad2a744"
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "262e156fd394029ba47536c3000c69309364c71d1f1656a580d688fe6b7d1ce4"
+      "sha256": "9044e4a698ca60bf5fab63548b509950d72a7e90d45cb340249f7ed8cadad03d"
     },
     {
       "url": "./class-switch-v12.js",
@@ -518,6 +518,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "40d5f3b4507de366121f02c7d2865df98e4c978fd841cb051133545a4b58eb82"
     },
     {
+      "url": "./shared/exercises.js",
+      "sha256": "24a96b3d91d08c8a9b3a7b51b900e8758ae973ffc1c8bc12563ca9d40cea39b1"
+    },
+    {
       "url": "./shared/home-language.js",
       "sha256": "f6df6023d88aaefb1d3feec11e61eeb4f569270e65e45a812368405477e912df"
     },
@@ -527,7 +531,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "bbe5a3a240d3f80a6996501e9baa6eb4cb64dbd668131a52c5452d488f198d52"
+      "sha256": "8295d0524e947f6d28792a84e8fa0c9d50ac4ce1a5e52b56273be59a73a4f7f5"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -555,11 +559,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/print-page.js",
-      "sha256": "b9cf09e245130365278f0ceb37442c0dfc899df328e49707e280aa3e74709802"
+      "sha256": "878506a6075faf36ee2991371ac93e0c9a0659fc88bd86bc63445ad34fe1b4fd"
     },
     {
       "url": "./shared/print.css",
-      "sha256": "f4163e3a33d384bbf1d3b403c513d0ed5c593aa0d33d107bbd2ed0350b4b08ae"
+      "sha256": "c96f97fa9a6cc03957f9d31a283351226eea3c53384296d9c1dfb14294c29cb1"
     },
     {
       "url": "./shared/print.js",
@@ -587,7 +591,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "56f8503324b421952b8bdc321ca5b5ce5cdf662446abe61d68b88820b893fbd5"
+      "sha256": "b862644560d318f7a12842e045a9448e39f6b99cf20668716166a7b3f38d84d4"
     },
     {
       "url": "./shared/ui.js",
@@ -603,7 +607,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "87a5c54f891ecaec168107f93a6833bccef09eab1ea911562b1b4cb518edd5c7"
+      "sha256": "0f42a9e943faa70d2b95027fb36fb43c3585ebde81b457e0a2017c8d2fa8edb4"
     },
     {
       "url": "./sil/data/sil-u2.json",
@@ -619,15 +623,15 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u5.json",
-      "sha256": "17f97c91652686de0e7076089cf24d7ea00f9936d937aa8f2cdf4b90b44ff8a7"
+      "sha256": "179a27ac6da4e234741f45a027803b11aea3402aa7de2352c03fc61caf6e0190"
     },
     {
       "url": "./sil/data/sil-u6.json",
-      "sha256": "5e36055de8ff02cb9fec3510c2e1a35e269980da85dcd2c26a560bc870ac7f16"
+      "sha256": "3f6a5eceaf0f99d32978667dee3d75993d3e9d080f368fe19a93ce7380f1fe1b"
     },
     {
       "url": "./sil/data/sil-u7.json",
-      "sha256": "991377245727d0b58443564b99ba170a9230535e83ff4ff5d9694e8303c79d4e"
+      "sha256": "b0168521431d9363e11b72551d7900001e4bb689deabca3924d5a26246048174"
     },
     {
       "url": "./sil/data/sil-u8.json",
@@ -635,7 +639,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "b38abad410588b6c7e03432cd714c8d905ffd1a0e1f15d3c524eaba5fcf1494f"
+      "sha256": "e8d18573464f1fd8c60bde6ac608ecc276b845ef65376609baaaf134c525506b"
     },
     {
       "url": "./sil/style.css",

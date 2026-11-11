@@ -85,6 +85,30 @@
           "prompt": "Associe chaque majuscule à sa minuscule : A, D, G, M.",
           "answer": "A va avec a, D avec d, G avec g et M avec m.",
           "explanation": "La majuscule et la minuscule ont le même nom, même quand leur forme change beaucoup, comme G et g."
+        },
+        {
+          "prompt": "Relie chaque majuscule à sa minuscule.",
+          "type": "match",
+          "pairs": [
+            [
+              "A",
+              "a"
+            ],
+            [
+              "D",
+              "d"
+            ],
+            [
+              "G",
+              "g"
+            ],
+            [
+              "M",
+              "m"
+            ]
+          ],
+          "answer": "A–a ; D–d ; G–g ; M–m.",
+          "explanation": "Une même lettre s’écrit en majuscule et en minuscule."
         }
       ],
       "source": {
@@ -139,6 +163,19 @@
           ],
           "explanation": "On entend le nom de la lettre : erre, esse, vé. On l’écrit de gauche à droite.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Range ces lettres dans l’ordre de l’alphabet.",
+          "type": "order",
+          "items": [
+            "n",
+            "o",
+            "p",
+            "q",
+            "r"
+          ],
+          "answer": "n, o, p, q, r.",
+          "explanation": "On récite l’alphabet pour vérifier : … m, n, o, p, q, r…"
         }
       ],
       "source": {

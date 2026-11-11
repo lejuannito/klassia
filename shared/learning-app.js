@@ -52,6 +52,9 @@ document.addEventListener('click',ev=>{const b=ev.target.closest('[data-self]'),
  box.parentElement.querySelector('[data-self-help]').hidden=ok;
  const p=K.read(c.progressKey,{});if((p[lid]||'D')==='D'){p[lid]='EC';K.write(c.progressKey,p);progress=p;document.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.progress==='EC')));const m=document.getElementById('progressMessage');if(m)m.textContent='Progression enregistrée : '+status('EC');}
 });
+// « Je révise » (shared/ui.js): where to redo an exercise or a practice item answered « pas encore ».
+K.describeExercise=key=>{const m=new RegExp('^'+c.grade+':([^:]+)(?::entrainement:(\\d+))?$').exec(key),x=m&&lessons?.find(y=>y.l.id===m[1]);if(!x)return null;const en=x.l.domain.startsWith('English');
+ return {href:'#lesson:'+encodeURIComponent(x.l.id),anchor:`[data-save="${key}"]`,title:x.l.title,detail:m[2]===undefined?(en?'Your turn':'À toi de jouer'):(en?'Practice ':'Entraînement ')+(Number(m[2])+2)};};
 // Short answers (Lot 2e): accepted and rejected forms written in the content; the check never blocks the correction.
 const shortCheck=(x,prompt)=>x.accept?{accept:x.accept,reject:x.reject||[],prompt}:null;
 document.addEventListener('klassia:answer-checked',ev=>{const {record,verdict}=ev.detail||{};if(!record||!['correct','wrong'].includes(verdict))return;

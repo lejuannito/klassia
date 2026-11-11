@@ -86,12 +86,51 @@ function classNavigation(grade){
  return `<nav class="klassia-learning-mode" aria-label="Parcourir la classe">${routes.map(([key,href,label])=>`<a href="${href}" ${mode===key?'aria-current="page"':''}>${label}</a>`).join('')}</nav>`;
 }
 
+const attemptGrade=a=>a.grade||(/^HOME:/.test(a.exercise||'')?'MAISON':/^SIL[-:]/.test(a.exercise||'')?'SIL':/^CE1[-:]/.test(a.exercise||'')?'CE1':'CE2');
+// « Je révise » (lot 2g): an exercise answered « pas encore » comes back the next day, then a week later.
+// Each engine registers Klassia.describeExercise(key) to say where the exercise is.
+const dayOf=t=>{const d=new Date(t);return Math.floor((d.getTime()-d.getTimezoneOffset()*6e4)/864e5);};
+function dueReviews(grade,now=Date.now()){
+ const today=dayOf(now),byKey=new Map(),due=[];
+ for(const a of K.read('klassia_attempts',[])){
+  if(!a?.exercise||typeof a.ok!=='boolean'||!a.at||a.kind==='qcm'||attemptGrade(a)!==grade)continue;
+  if(!byKey.has(a.exercise))byKey.set(a.exercise,[]);byKey.get(a.exercise).push({ok:a.ok,day:dayOf(a.at)});
+ }
+ for(const [key,list] of byKey){
+  const i=list.map(x=>x.ok).lastIndexOf(false);if(i<0)continue;
+  const failed=list[i].day,later=list.slice(i+1).filter(x=>x.ok);
+  const nextDay=later.some(x=>x.day>=failed+1),nextWeek=later.some(x=>x.day>=failed+7);
+  if(!nextDay&&today>=failed+1)due.push({key,failed,stage:1});
+  else if(nextDay&&!nextWeek&&today>=failed+7)due.push({key,failed,stage:2});
+ }
+ return due.sort((a,b)=>a.failed-b.failed);
+}
+K.dueReviews=dueReviews;
+function reviewCard(grade){
+ if(typeof K.describeExercise!=='function')return null;
+ const items=[];for(const d of dueReviews(grade)){let x=null;try{x=K.describeExercise(d.key);}catch{}if(x?.href)items.push({...d,...x});if(items.length===5)break;}
+ if(!items.length)return null;
+ const s=document.createElement('section');s.className='klassia-review';s.setAttribute('aria-labelledby','klassiaReviewTitle');
+ s.innerHTML=`<h2 id="klassiaReviewTitle">Je révise</h2><p>${items.length===1?'Un exercice à refaire':'Des exercices à refaire'} pour bien retenir.</p><ul>${items.map(x=>`<li><a href="${esc(x.href)}" data-review-anchor="${esc(x.anchor||'')}"><b>${esc(x.title)}</b><span>${esc(x.detail||'')} · ${x.stage===1?'tu avais dit « pas encore »':'une semaine après'}</span></a></li>`).join('')}</ul>`;
+ s.addEventListener('click',e=>{const a=e.target.closest('[data-review-anchor]');if(a?.dataset.reviewAnchor)try{sessionStorage.setItem('klassia_review_anchor',a.dataset.reviewAnchor);}catch{}});
+ return s;
+}
+function showReviewTarget(){
+ let anchor=null;try{anchor=sessionStorage.getItem('klassia_review_anchor');}catch{}
+ if(!anchor||!/^#lesson:/.test(location.hash))return;
+ let el=null;try{el=document.querySelector(anchor);}catch{}
+ if(!el)return;
+ try{sessionStorage.removeItem('klassia_review_anchor');}catch{}
+ const box=el.closest('.exercise-card,.practice-item,section')||el;box.classList.add('klassia-review-target');
+ setTimeout(()=>box.scrollIntoView({block:'center'}),0);
+}
+
 // Lot 9a: what was done these last 7 days on this device, and a short message the parent can send.
 // Written answers, notes and scores per question are never included in the message.
 function weekReport(){
  const since=Date.now()-7*864e5,recent=x=>x&&Date.parse(x.at)>=since,rows={};
  const row=g=>rows[g]||(rows[g]={tried:new Map(),qcm:0,ratings:new Map()});
- const gradeOf=a=>a.grade||(/^HOME:/.test(a.exercise||'')?'MAISON':/^SIL[-:]/.test(a.exercise||'')?'SIL':/^CE1[-:]/.test(a.exercise||'')?'CE1':'CE2');
+ const gradeOf=attemptGrade;
  for(const a of K.read('klassia_attempts',[]).filter(recent)){const r=row(gradeOf(a));if(a.kind==='qcm')r.qcm++;else if(a.exercise||a.activity)r.tried.set(a.exercise||a.activity,a.ok===true);}
  for(const o of K.read('klassia_observations',[]).filter(recent))if(o.rating&&o.grade)row(o.grade).ratings.set(o.activity,o.rating);
  const n=(k,one,many)=>k+' '+(k>1?many:one),lines=[];
@@ -125,7 +164,7 @@ function decorate(){
  const top=document.querySelector('.topbar,.top,.gs-top');if(!top)return;
  const c=rememberClass(),role=K.read('klassia_user',{})?.role||'ELEVE',roleName={ELEVE:'Enfant',PARENT:'Parent',ENSEIGNANT:'Enseignant',ADMIN:'Administration'}[role]||'Enfant';
  document.querySelectorAll('.klassia-global-nav,.klassia-learning-mode,.klassia-space-menu,.klassia-class-switch,.profile-trigger').forEach(e=>e.remove());
- document.querySelectorAll('.klassia-welcome,.klassia-continue').forEach(e=>e.remove());
+ document.querySelectorAll('.klassia-welcome,.klassia-continue,.klassia-review').forEach(e=>e.remove());
  const searchBack=new URL('search.html',c.base);searchBack.search=new URLSearchParams(location.search).get('recherche')||'';
  const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');
  // Each control keeps its data attribute so the delegated handlers below work
@@ -169,7 +208,9 @@ function decorate(){
  const main=document.querySelector('main');if(main)main.insertAdjacentHTML('afterbegin',classNavigation(c.grade));document.documentElement.dataset.klassiaView=['ELEVE','PARENT'].includes(role)?'family':'workshop';document.documentElement.dataset.klassiaRole=role;if(role==='ELEVE')main?.querySelectorAll('.edition-notice,.gs-notice').forEach(e=>e.remove());else if(main&&!main.querySelector('.edition-notice,.gs-notice')){const n=document.createElement('p');n.className='edition-notice';n.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(n);}
  const showWelcome=main&&isLanding(c)&&['ELEVE','PARENT'].includes(role)&&!K.read(FAMILY_KEY,null);
  if(showWelcome)main.prepend(welcome(c));
- else if(main&&role==='ELEVE'&&isClassHome(c)&&typeof K.nextStep==='function'){let step=null;try{step=K.nextStep();}catch{}if(step)main.prepend(continueCard(step,c.grade));}
+ else if(main&&role==='ELEVE'&&isClassHome(c)&&typeof K.nextStep==='function'){let step=null;try{step=K.nextStep();}catch{}const card=step?continueCard(step,c.grade):null;if(card)main.prepend(card);
+  const review=['SIL','CE1','CE2'].includes(c.grade)?reviewCard(c.grade):null;if(review){if(card)card.after(review);else main.prepend(review);}}
+ showReviewTarget();
  K.navigation.update();
  document.getElementById('logout')?.remove();
 }

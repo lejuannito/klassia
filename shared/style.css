@@ -291,3 +291,12 @@ body > .sil-child .reading-support th { color: #46526b; font-size: 1.2rem; }
 .klassia-qcm-review { display: grid; gap: .2rem; margin-top: .6rem; }
 .klassia-qcm-review a { min-height: 44px; display: flex; align-items: center; }
 .klassia-qcm-key li { margin-bottom: .8rem; }
+
+/* « Je révise » (lot 2g): exercises answered « pas encore » come back the next day, then a week later. */
+.klassia-review { margin: 0 0 1.1rem; padding: 1rem 1.1rem; border-radius: 14px; background: #fff8e6; border: 1px solid #f2d79b; }
+.klassia-review h2 { margin: 0 0 .2rem; font-size: 1.2rem; color: #6b4300; }
+.klassia-review p { margin: 0 0 .5rem; color: #5a4a2a; }
+.klassia-review ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .4rem; }
+.klassia-review a { display: grid; gap: .1rem; min-height: 48px; padding: .55rem .8rem; border-radius: 12px; background: #fff; border: 1px solid #ecd7a6; color: #172033; text-decoration: none; }
+.klassia-review a span { font-size: .92rem; color: #5a4a2a; }
+.klassia-review-target { outline: 3px solid #f0b429; outline-offset: 4px; border-radius: 12px; }

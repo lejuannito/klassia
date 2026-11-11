@@ -81,6 +81,14 @@ for(const width of [320,390,1280]){await p.setViewportSize({width,height:844});a
  assert.deepEqual((await p.evaluate(()=>Klassia.read('klassia_attempts',[]))).filter(a=>a.kind==='qcm'&&a.grade==='CE1').map(a=>[a.series,a.score,a.total]),[['CE1-U2-MA',4,5]]);
  await p.locator('.klassia-qcm-review a').click();await p.getByRole('heading',{name:'Addition et soustraction posées, avec et sans retenue'}).waitFor();
  await p.goto('http://localhost:8765/ce1/#reviser');await p.locator('.klassia-qcm-unit').nth(1).getByRole('link',{name:'Mathématiques · 4/5'}).waitFor();}
+// « Je révise » : un exercice « pas encore » revient le lendemain, puis une semaine après ; le lien ouvre l'exercice à refaire.
+{await p.evaluate(()=>{const d=n=>new Date(Date.now()-n*864e5).toISOString();Klassia.write('klassia_attempts',[...Klassia.read('klassia_attempts',[]),{kind:'self_report',exercise:'CE1:CE1-U1-G1',ok:false,at:d(2)},{kind:'short_answer',exercise:'CE1:CE1-U2-E4:entrainement:1',ok:false,at:d(9)},{kind:'short_answer',exercise:'CE1:CE1-U2-E4:entrainement:1',ok:true,at:d(8)},{kind:'self_report',exercise:'CE1:CE1-U3-V1',ok:false,at:d(0)}]);});
+ await p.goto('http://localhost:8765/ce1/#units');const card=p.locator('.klassia-review');await card.waitFor();
+ assert.deepEqual(await card.locator('a b').allTextContents(),['Grammar: past and future','Le nom : nom commun, nom propre, genre et nombre']);
+ assert.match(await card.innerText(),/Practice 3 · une semaine après[\s\S]*À toi de jouer · tu avais dit « pas encore »/);
+ await card.getByRole('link',{name:/Le nom/}).click();await p.locator('.klassia-review-target [data-save="CE1:CE1-U1-G1"]').waitFor();
+ await p.goto('http://localhost:8765/?unit=U1#lesson:FR-U1-L4');await p.locator('.lesson-header h1').waitFor();
+ assert.deepEqual(await p.evaluate(()=>[Klassia.describeExercise('FR-U3-L2:1'),Klassia.describeExercise('FR-U1-L4:0').title]),[{href:'?unit=U3#lesson:FR-U3-L2',anchor:'#ans_FRU3L2_1',title:'Français · unité 3, leçon 2',detail:'Exercice 2'},'Nom propre, nom commun, genre et nombre']);}
 await p.goto('http://localhost:8765/?unit=U4#lesson:MA-U4-L2');await p.waitForFunction(()=>Klassia.storage.getItem('klassia_unit')==='U4');assert.equal(await p.evaluate(()=>Klassia.storage.getItem('klassia_unit')),'U4');
 await route('#domains-all');await p.getByRole('heading',{name:'Parcourir les domaines'}).waitFor();await route('#domain-all:2');assert.ok(await p.locator('a[href*="?unit="]').count()>0);
 await p.goto('http://localhost:8765/ms/#subjects-all');await p.getByRole('heading',{name:'Parcourir les matières et activités'}).waitFor();await p.getByRole('link',{name:/Arts et création/}).click();await p.getByRole('heading',{level:1,name:'Arts et création'}).waitFor();assert.ok(await p.locator('a[href*="?theme="]').count()>0);

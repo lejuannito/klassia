@@ -38,7 +38,8 @@ function worker(fetchFile = async name => new Response(name)) {
           match: async url => cache.get(String(url))
         };
       },
-      delete: async name => maps.delete(name)
+      delete: async name => maps.delete(name),
+      keys: async () => [...maps.keys()]
     },
     fetch: (url, options) => fetchFile(String(url).slice(scope.length), options)
   };
@@ -80,12 +81,27 @@ test('an inconsistent file stops installation', async () => {
 });
 
 test('a stale manifest cannot erase a cache already used by another worker', async () => {
-  const w = worker(async name => new Response(name === 'app.js' ? 'new script' : name));
+  let downloads = 0;
+  const w = worker(async name => { downloads++; return new Response(name === 'app.js' ? 'new script' : name); });
   const installed = new Map(files.map(file => [scope + file.url, new Response(file.url)]));
   const original = [...installed];
   w.maps.set(candidate, installed);
-  await assert.rejects(w.install(), /incohérente/);
+  await w.install();
+  assert.equal(downloads, 0, 'the verified copies already installed are kept');
   assert.deepEqual([...w.maps.get(candidate)], original);
+});
+
+test('an update downloads only the files whose bytes changed', async () => {
+  const asked = [];
+  const w = worker(async name => { asked.push(name); return new Response(name); });
+  // The previous edition holds app.js unchanged, an older content file and no copy of ms/index.html.
+  w.maps.get(previous).set(scope + 'app.js', new Response('app.js'));
+  w.maps.get(previous).set(scope + 'data/content-u1.json', new Response('older content'));
+  await w.install();
+  assert.deepEqual(asked.sort(), ['data/content-u1.json', 'ms/index.html']);
+  assert.equal(await w.maps.get(candidate).get(scope + 'app.js').text(), 'app.js');
+  assert.equal(w.maps.get(candidate).size, files.length);
+  assert.ok(w.maps.has(previous), 'the installed edition stays usable until activation');
 });
 
 test('a failed download aborts other requests before the candidate cache is removed', async () => {

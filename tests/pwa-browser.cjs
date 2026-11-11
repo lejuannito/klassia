@@ -43,6 +43,9 @@ changes.set(manifestFile, 'self.KLASSIA_RELEASE = ' + JSON.stringify({ version: 
 
 let published = false;
 let interrupted = false;
+// Files asked of the server while an update installs: unchanged files must come from the installed edition.
+let recordRequests = false;
+const requested = new Set();
 const server = http.createServer((request, response) => {
   const url = new URL(request.url, 'http://localhost');
   const pathname = decodeURIComponent(url.pathname);
@@ -59,7 +62,8 @@ const server = http.createServer((request, response) => {
   if (name === '' || name.endsWith('/')) name += 'index.html';
   const file = path.resolve(root, name);
   if (!file.startsWith(root + path.sep)) return response.writeHead(403).end();
-  if (published && interrupted && name === 'data/content-u2.json') return response.writeHead(503).end();
+  if (published && interrupted && name === 'ce1/index.html') return response.writeHead(503).end();
+  if (recordRequests) requested.add(name);
 
   const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.mp3': 'audio/mpeg' };
   try {
@@ -660,8 +664,12 @@ async function run() {
 
     await context.setOffline(false);
     interrupted = false;
+    recordRequests = true;
     await check.click();
     await apply.waitFor();
+    recordRequests = false;
+    for (const name of ['ce1/index.html', lexiconPath, recordingPath]) assert.ok(requested.has(name), 'changed file downloaded: ' + name);
+    for (const name of ['app.js', 'data/content-u1.json', 'ms/data/themes/T1.json', 'assets/sil-u4-l01-lou-a-mal.mp3']) assert.ok(!requested.has(name), 'unchanged file reused: ' + name);
     assert.equal(await page.locator('meta[name="' + marker + '"]').count(), 0);
     await apply.click();
     await status.getByText(/Fermez les autres onglets ou fenêtres Klassia/).waitFor();

@@ -62,7 +62,8 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 ## Lot 9 — confiance et diffusion (en cours)
 
 - **9a. Bilan de la semaine et partage** — « Suivi des classes » commence par « Les 7 derniers jours » : par classe, exercices essayés et réussis, séries de QCM, activités de maternelle notées seul / avec aide / pas encore, d’après les traces datées déjà enregistrées sur l’appareil (`klassia_attempts`, `klassia_observations`). Le parent peut envoyer ce bilan par WhatsApp (lien `wa.me`, sans compte ni serveur) ou le copier ; le message ne contient que ces nombres et le prénom du profil, ni réponses écrites ni notes. Le menu Parents propose aussi « Recommander Klassia (WhatsApp) » avec l’adresse de l’application.
-- **À faire** — relecture nominative du noyau et badge (relecteurs à désigner), téléchargement par classe.
+- **9b. Mises à jour légères** — une nouvelle édition ne télécharge plus que les fichiers modifiés : le service worker recopie depuis l’édition installée chaque fichier dont les octets correspondent à l’empreinte SHA-256 de la nouvelle édition, puis télécharge et vérifie le reste. L’installation reste tout ou rien et l’édition installée reste utilisable en cas d’échec. Jusqu’ici, chaque mise à jour retéléchargeait les 5,6 Mo des cinq classes ; une mise à jour de contenu courante ne coûte plus que quelques fichiers. `tests/pwa-browser.cjs` vérifie qu’une mise à jour ne demande au serveur que les fichiers modifiés.
+- **À faire** — relecture nominative du noyau et badge (relecteurs à désigner), téléchargement par classe (pack commun d’environ 1,1 Mo, puis 0,3 à 2,3 Mo par classe ; à faire avant l’arrivée des sons enregistrés).
 
 ## Piste anglophone (début)
 

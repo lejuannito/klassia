@@ -87,7 +87,10 @@ for (const ref of ce1Catalog.units) {
 }
 assert.equal(ce1Lessons, 89);
 const gs=read('gs/data/catalog-v13.json');assert.equal(gs.themes.length,8);let gsActivities=0;
-for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);assert.equal(t.grade,'GS');assert.equal(t.domains.length,5);for(const d of t.domains)for(const a of d.activities){gsActivities++;assert.ok(!ids.has(a.id),'Duplicate GS activity');ids.add(a.id);editorial(a);nurseryAudio(a);for(const f of ['title_fr','title_en','goal_fr','goal_en','prompt_fr','prompt_en'])assert.ok(a[f],a.id+' '+f);assert.ok(a.steps_fr.length>=3&&a.steps_en.length>=3);assert.ok(a.questions.every(q=>q.fr&&q.en&&q.answer));assert.ok(a.source_refs.length===2);assert.ok(a.materials.length&&a.observe.length);}}assert.equal(gsActivities,162);
+for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);assert.equal(t.grade,'GS');assert.equal(t.domains.length,5);for(const d of t.domains)for(const a of d.activities){gsActivities++;assert.ok(!ids.has(a.id),'Duplicate GS activity');ids.add(a.id);editorial(a);nurseryAudio(a);for(const f of ['title_fr','title_en','goal_fr','goal_en','prompt_fr','prompt_en'])assert.ok(a[f],a.id+' '+f);assert.ok(a.steps_fr.length>=3&&a.steps_en.length>=3);assert.ok(a.questions.every(q=>q.fr&&q.en&&q.answer));assert.ok(a.source_refs.length===2);assert.ok(a.materials.length&&a.observe.length);
+ // Lot 6b: no generated filler left in GS activities; steps, materials and observation points are specific.
+ assert.ok(a.duration_minutes>0&&a.materials_en?.length===a.materials.length,'GS parent card '+a.id);assert.equal(a.steps_fr.length,a.steps_en.length,'GS steps '+a.id);
+ assert.ok(!a.steps_fr.some(s=>s.startsWith('Préparer avec l’adulte :'))&&!a.materials.some(m=>/décrits dans la consigne|^papier et crayons$/.test(m))&&!a.observe.some(o=>o.startsWith('Répond ou montre sa démarche')||o==='Comprend la consigne et commence avec une aide adaptée.'),'GS generated filler '+a.id);}}assert.equal(gsActivities,162);
 const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.json');
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}

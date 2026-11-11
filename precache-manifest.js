@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "7b16ad157c2a9989a5078ec79f2ee3915bc928cfa5d9c1e79423f0764640685e",
+  "version": "03fd3297ded688c7e9e9469cb6adc498afde1c63abbd1a7fa432f8138c375fa9",
   "files": [
     {
       "url": "./app.js",
@@ -351,35 +351,35 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/themes/T1.json",
-      "sha256": "9cca2c2354dac8b3f51018d6e34eff91d8e3e1c848b046cea53be233d9728ad6"
+      "sha256": "c54dc0302f09f518e1b0d26386d7a241a379684328a2adf7c605fa81659ee9ed"
     },
     {
       "url": "./gs/data/themes/T2.json",
-      "sha256": "274314781cf446bafe5023f7bc08b3b2ce6144b752baedd5971bdc4798ed4158"
+      "sha256": "63aec4c107acfeb3eb6b265305e68fc1b594521f54b83b08e3d276b0edb50382"
     },
     {
       "url": "./gs/data/themes/T3.json",
-      "sha256": "75ab905b89863e0e2c33e4a508b4dfb22cbc461ad29d5faf208da794fb8acea9"
+      "sha256": "434e460d5ea0b6a623c807f6b94d54b26572ebc4370af064829f7d8e672debf8"
     },
     {
       "url": "./gs/data/themes/T4.json",
-      "sha256": "7eda82faa7ff365bf1a72111525f5343ab77448aac93c0a58bc360cdc47e5ef7"
+      "sha256": "d9ee41b14e742b9f8b85e0c93234456ec1fd45476c8296357124b64b34243556"
     },
     {
       "url": "./gs/data/themes/T5.json",
-      "sha256": "5d3edbcbb7d2b14a3cd0080a1a189a7fde80336a6e4d1453a19ac84e21f03a6e"
+      "sha256": "82c08696206ad3ebe237477421f8856f1e2e5e13342d7184a8a9296e58ef8315"
     },
     {
       "url": "./gs/data/themes/T6.json",
-      "sha256": "6bddf7eb8a02de0ada767f324a6cbb5f9624e83b02d4c9739aa3aac8edad2616"
+      "sha256": "f93dc2cc3a8b35de75eaae25ff6807672a539719c0c518cd0626925d9c1d1a3a"
     },
     {
       "url": "./gs/data/themes/T7.json",
-      "sha256": "ca20c5517bcd3f9a17d40825187ca1336187390a671fe8032ad92bae5e4f6353"
+      "sha256": "b8009ced79431bde8068133083a51a34adde8e663fc8ce4705370beecc79929d"
     },
     {
       "url": "./gs/data/themes/T8.json",
-      "sha256": "cb2f8f3e580677198d799275983cf86e1c6758f09a1ffaf2aa8e9af7f0ab7fdf"
+      "sha256": "223fffb5faba700657b5f7fd5c39096f92831aec7a26da721e2c7500eae67cad"
     },
     {
       "url": "./gs/index.html",

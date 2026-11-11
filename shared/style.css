@@ -148,3 +148,11 @@ html[data-klassia-view="family"] .gs-top > a { display: inline-flex; align-items
 .your-answer { margin: 0 0 10px; padding: 10px 12px; background: #fff; border: 1px dashed #9cabc3; border-radius: 8px; color: #172033; }
 .your-answer b { display: block; margin-bottom: 4px; color: #243f83; }
 .your-answer p { margin: 0; overflow-wrap: anywhere; }
+
+/* Lot 2c: « As-tu réussi seul ? » in SIL and CE1 */
+.lesson-card .self-check { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 12px; padding-top: 10px; border-top: 1px solid #c9d8c9; }
+.lesson-card .self-check button[aria-pressed="true"] { background: #3157d5; color: #fff; border-color: #3157d5; }
+.lesson-card .self-result { flex-basis: 100%; font-weight: 700; color: #1d4d2c; }
+.lesson-card .self-result:empty { display: none; }
+.lesson-card .remediation { margin: 10px 0 0; padding: 10px 12px; background: #fff9ed; border: 1px solid #f0d6a8; border-radius: 8px; color: #6c4b14; }
+.lesson-card .exercise-history { margin: 8px 0 0; color: #475467; }

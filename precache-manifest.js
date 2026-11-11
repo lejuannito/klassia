@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "c771dc402dd8aa5d8b4c0f30b6ba83620db5f931a8d78b7fa7f249d30fa3a2b8",
+  "version": "c674cf146c72e67cefd12fa9f47e6c8dfd2648b714e5e9498bde0d1cc85220b0",
   "files": [
     {
       "url": "./app.js",
@@ -507,7 +507,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "50bc14435110d868098bdfa6dc98a692bb6cc69fb20cb9ee3a3cf7338c149b39"
+      "sha256": "deb89624072097f5d7c2c400fcadb42005749e48d7ea49bfb04e9e2abfbfd4f3"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -567,7 +567,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "48a5a0d3da389d7e352699c6d46fb66fe4b273ce810bda4b017faf246705e8e0"
+      "sha256": "60c7d2e94f3bf4c362a0d148aefe004e0ef6bd48564361cb9b13c6c844cfc2af"
     },
     {
       "url": "./shared/ui.js",

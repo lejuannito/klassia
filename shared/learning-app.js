@@ -58,6 +58,28 @@ document.addEventListener('klassia:answer-checked',ev=>{const {record,verdict}=e
  K.append('klassia_attempts',{kind:'short_answer',exercise:record,ok:verdict==='correct'});
  const lid=ev.target.closest('[data-lesson]')?.dataset.lesson,p=K.read(c.progressKey,{});if(lid&&(p[lid]||'D')==='D'){p[lid]='EC';K.write(c.progressKey,p);progress=p;document.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.progress==='EC')));}
 });
+// QCM reliés (lot 7) : une série de questions par unité et par matière ; après une erreur, « Revoir la leçon » ouvre la leçon vérifiée.
+let bank=null;const qcmKey='klassia_'+c.grade.toLowerCase()+'_qcm_v1';
+const qcmBank=async()=>bank||(bank=await get(c.qcm));
+async function showReview(){const b=await qcmBank();if(location.hash!=='#reviser')return;const scores=K.read(qcmKey,{});
+ const blocks=units.map((u,i)=>{const ss=b.series.filter(s=>s.unit===u.id);return ss.length?`<section class="gs-card klassia-qcm-unit"><h2>Unité ${i+1} · ${E(u.title_fr)}</h2><div class="gs-actions">${ss.map(s=>{const r=scores[s.id];return `<a href="#qcm:${E(s.id)}">${E(s.subject)}${r?` · ${r.score}/${r.total}`:''}</a>`;}).join('')}</div></section>`:'';}).join('');
+ frame(hero('Réviser avec les QCM','Cinq questions par matière et par unité. Après une erreur, « Revoir la leçon » ouvre la leçon à relire.')+blocks);}
+async function showSeries(id){const b=await qcmBank(),s=b.series.find(x=>x.id===id);if(!s)return notFound();if(location.hash!=='#qcm:'+id)return;
+ const en=s.subject==='English',adult=K.isAdultSpace(),u=units.find(x=>x.id===s.unit),title=s.subject+' · '+(en?'Unit ':'Unité ')+(units.indexOf(u)+1);
+ const lessonOf=q=>lessons.find(x=>x.l.id===q.lecon)?.l,link=l=>l?`<a href="#lesson:${encodeURIComponent(l.id)}">${en?'Review the lesson':'Revoir la leçon'} « ${E(l.title)} »</a>`:'';
+ const back=`<a href="#reviser">← ${en?'All quizzes':'Toutes les séries'}</a>`;
+ if(adult){frame(back+hero(title,'Corrigé adulte : bonne réponse et leçon vérifiée par chaque question.')+`<ol class="klassia-qcm-key">${s.questions.map(q=>`<li><b>${E(q.enonce)}</b><p>${E(q.choix[q.bonne])} — ${E(q.corrige)}</p><p class="muted">Leçon liée : ${E(lessonOf(q)?.title||q.lecon)}</p></li>`).join('')}</ol>`);return;}
+ frame(back+hero(title,en?'Choose one answer for each question, then check.':'Choisis une réponse par question, puis corrige la série.')+`<form class="klassia-qcm" lang="${en?'en':'fr'}">${s.questions.map((q,i)=>`<fieldset class="klassia-qcm-question"><legend>${i+1}. ${E(q.enonce)}</legend>${K.shuffleOptions(q).map(o=>`<label><input type="radio" name="q${i}" value="${o.id}"><span>${E(o.text)}</span></label>`).join('')}<p class="klassia-qcm-feedback" data-feedback="${i}" hidden></p></fieldset>`).join('')}<button type="submit">${en?'Check my answers':'Corriger la série'}</button><div class="klassia-qcm-score" role="status"></div></form>`);
+ const form=root.querySelector('.klassia-qcm');
+ form.onsubmit=ev=>{ev.preventDefault();const out=form.querySelector('.klassia-qcm-score'),picks=s.questions.map((q,i)=>form.querySelector(`input[name="q${i}"]:checked`));
+  if(picks.some(x=>!x)){out.textContent=en?'Answer every question first.':'Réponds à chaque question avant de corriger.';return;}
+  let score=0;const review=new Map();
+  s.questions.forEach((q,i)=>{const ok=Number(picks[i].value)===q.bonne,l=lessonOf(q),box=form.querySelector(`[data-feedback="${i}"]`);if(ok)score++;else if(l)review.set(l.id,link(l));
+   box.hidden=false;box.dataset.ok=String(ok);box.innerHTML=`<b>${ok?(en?'Correct ✓':'Juste ✓'):(en?'Not yet':'À revoir')}</b> ${E(q.corrige)}${ok?'':' '+link(l)}`;});
+  const total=s.questions.length;K.append('klassia_attempts',{kind:'qcm',grade:c.grade,unit:s.unit,series:s.id,score,total});
+  const scores=K.read(qcmKey,{});scores[s.id]={score,total,at:new Date().toISOString()};K.write(qcmKey,scores);
+  out.innerHTML=`<strong>${score}/${total}</strong> ${score===total?(en?'Well done!':'Bravo !'):(en?'Read the feedback, then review these lessons.':'Lis les corrections, puis revois ces leçons.')}${review.size?`<span class="klassia-qcm-review"><b>${en?'Lessons to review':'Leçons à revoir'}</b>${[...review.values()].join('')}</span>`:''}`;};
+}
 const source=s=>s?`<a href="${E(s.url||'#')}" target="_blank" rel="noopener">${E(s.title)} · ${E(s.pages||'')}</a>`:'';
 function frame(body){root.innerHTML=`<header class="gs-top"><a href="${E(c.back)}">K Klassia</a><strong>${E(c.grade)}</strong></header><main class="gs-wrap"><p class="gs-notice">Édition pilote accompagnée · relecture pédagogique en cours</p>${body}</main>`;K.rendered();}
 function hero(title,description){return `<section class="gs-hero"><h1>${E(title)}</h1><p>${E(description)}</p></section>`;}
@@ -111,6 +133,6 @@ function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)retur
  }
 }
 function notFound(){frame(hero('Ressource introuvable','Ce lien ne correspond pas à une leçon de cette classe.')+'<a href="#units">Revenir aux unités</a>');}
-function route(){document.querySelectorAll('body > .sil-child').forEach(e=>e.remove());document.documentElement.classList.remove('nursery-child-open');try{progress=K.read(c.progressKey,{});const h=decodeURIComponent(location.hash||'#units');if(h==='#units'||h==='#home')return listUnits();if(h==='#subjects')return listSubjects();if(h==='#domains')return listDomains();if(h.startsWith('#unit:'))return showUnit(h.slice(6));if(h.startsWith('#subject:'))return showSubject(h.slice(9));if(h.startsWith('#domain:'))return showDomain(h.slice(8));if(h.startsWith('#lesson:'))return showLesson(h.slice(8));if(h==='#semaine')return showWeek().catch(()=>notFound());notFound();}catch(e){notFound();}}
+function route(){document.querySelectorAll('body > .sil-child').forEach(e=>e.remove());document.documentElement.classList.remove('nursery-child-open');try{progress=K.read(c.progressKey,{});const h=decodeURIComponent(location.hash||'#units');if(h==='#units'||h==='#home')return listUnits();if(h==='#subjects')return listSubjects();if(h==='#domains')return listDomains();if(h.startsWith('#unit:'))return showUnit(h.slice(6));if(h.startsWith('#subject:'))return showSubject(h.slice(9));if(h.startsWith('#domain:'))return showDomain(h.slice(8));if(h.startsWith('#lesson:'))return showLesson(h.slice(8));if(h==='#semaine')return showWeek().catch(()=>notFound());if(c.qcm&&h==='#reviser')return showReview().catch(()=>notFound());if(c.qcm&&h.startsWith('#qcm:'))return showSeries(h.slice(5)).catch(()=>notFound());notFound();}catch(e){notFound();}}
 try{catalog=await get(c.catalog);units=await Promise.all(catalog.units.map(u=>u.lessons?u:get(new URL(u.path,new URL(c.catalog,location.href)))));lessons=units.flatMap(u=>u.lessons.map(l=>({l,u})));window.addEventListener('hashchange',route);route();}catch(e){frame(hero('Chargement interrompu',e.message)+'<button onclick="location.reload()">Réessayer</button>');}
 })();

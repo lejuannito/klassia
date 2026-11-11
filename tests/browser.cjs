@@ -72,6 +72,15 @@ await p.locator('#overviewDialog [aria-label="Fermer"]').click();
 await p.getByRole('link',{name:'Carnet du pilote',exact:true}).waitFor();
 await p.locator('[data-child]').click();await p.locator('.klassia-parents-menu summary').waitFor();assert.equal(await p.evaluate(()=>sessionStorage.getItem('klassia_parent_gate_until')),null,'Returning to the child view re-arms the parental question');await openParents(p);await p.locator('[data-space]').filter({hasText:'Enfant'}).waitFor();
 for(const width of [320,390,1280]){await p.setViewportSize({width,height:844});assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'CE1 lesson overflow at '+width);}
+// QCM reliés du CE1 : une erreur propose « Revoir la leçon », le score est gardé et compte dans le bilan de la semaine.
+{await p.goto('http://localhost:8765/ce1/#reviser');await p.locator('.klassia-qcm-unit').first().waitFor();assert.equal(await p.locator('.klassia-qcm-unit').count(),8);assert.equal(await p.locator('.klassia-learning-mode [aria-current="page"]').innerText(),'Réviser');
+ await p.locator('.klassia-qcm-unit').nth(1).getByRole('link',{name:'Mathématiques'}).click();await p.locator('.klassia-qcm-question').first().waitFor();
+ const qs=await p.evaluate(async()=>(await (await fetch('data/qcm.json')).json()).series.find(s=>s.id==='CE1-U2-MA').questions);
+ for(let i=0;i<qs.length;i++)await p.locator(`input[name="q${i}"][value="${i===2?(qs[i].bonne+1)%qs[i].choix.length:qs[i].bonne}"]`).check();
+ await p.getByRole('button',{name:'Corriger la série'}).click();assert.match(await p.locator('.klassia-qcm-score').innerText(),/4\/5[\s\S]*Leçons à revoir[\s\S]*Revoir la leçon « Addition et soustraction posées, avec et sans retenue »/);
+ assert.deepEqual((await p.evaluate(()=>Klassia.read('klassia_attempts',[]))).filter(a=>a.kind==='qcm'&&a.grade==='CE1').map(a=>[a.series,a.score,a.total]),[['CE1-U2-MA',4,5]]);
+ await p.locator('.klassia-qcm-review a').click();await p.getByRole('heading',{name:'Addition et soustraction posées, avec et sans retenue'}).waitFor();
+ await p.goto('http://localhost:8765/ce1/#reviser');await p.locator('.klassia-qcm-unit').nth(1).getByRole('link',{name:'Mathématiques · 4/5'}).waitFor();}
 await p.goto('http://localhost:8765/?unit=U4#lesson:MA-U4-L2');await p.waitForFunction(()=>Klassia.storage.getItem('klassia_unit')==='U4');assert.equal(await p.evaluate(()=>Klassia.storage.getItem('klassia_unit')),'U4');
 await route('#domains-all');await p.getByRole('heading',{name:'Parcourir les domaines'}).waitFor();await route('#domain-all:2');assert.ok(await p.locator('a[href*="?unit="]').count()>0);
 await p.goto('http://localhost:8765/ms/#subjects-all');await p.getByRole('heading',{name:'Parcourir les matières et activités'}).waitFor();await p.getByRole('link',{name:/Arts et création/}).click();await p.getByRole('heading',{level:1,name:'Arts et création'}).waitFor();assert.ok(await p.locator('a[href*="?theme="]').count()>0);
@@ -79,7 +88,7 @@ for(const [route,first] of [['/','Par unité'],['/ms/','Par thème'],['/gs/','Pa
  await p.goto('http://localhost:8765'+route);
  const navigation=p.getByRole('navigation',{name:'Parcourir la classe'});
  await navigation.waitFor();
- assert.deepEqual(await navigation.getByRole('link').allTextContents(),[first,'Par matière','Par domaine',...(first==='Par unité'?['Cette semaine']:[])]);
+ assert.deepEqual(await navigation.getByRole('link').allTextContents(),[first,'Par matière','Par domaine',...(first==='Par unité'?['Cette semaine']:[]),...(route==='/ce1/'?['Réviser']:[])]);
  for(const label of [first,'Par matière']){
   await navigation.getByRole('link',{name:label,exact:true}).click();
   await p.locator('.klassia-catalogue-card').first().waitFor();

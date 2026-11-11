@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "1bfdadbe347e70f09a0e1654a3ce6e81652616ba5cc2a52187cb4a0134479a25",
+  "version": "b281208c8a386ec72d4125a66ce1cd98612f5ae7bb70369632e4d0e6aeea7a20",
   "files": [
     {
       "url": "./app.js",
@@ -210,6 +210,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "c05f3ea960a3ccea761882b5067c2193ae473a0ed8dbdddf2a05774350b67563"
     },
     {
+      "url": "./ce1/data/qcm.json",
+      "sha256": "aedd090186a77571ee73b4c6fbdad97d031614ab60226460cfddd4d165e8ae9c"
+    },
+    {
       "url": "./ce1/data/unit1.json",
       "sha256": "ddab4af835bfa23df260989c393ef1301ad1283158ca437695881acf1dd8593c"
     },
@@ -243,7 +247,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "661e51daf0c95dfd5e26cd1d9711a5848219ebe9696dbf46ca8d07821adc847a"
+      "sha256": "262e156fd394029ba47536c3000c69309364c71d1f1656a580d688fe6b7d1ce4"
     },
     {
       "url": "./class-switch-v12.js",
@@ -507,7 +511,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/core.js",
-      "sha256": "0d0a254f78870aa0b049fcf9fd5dcf83a4a2b8c729f46657408e5dcb750bb85c"
+      "sha256": "c6fcce0c257d06fb47a48a74b1d43b3e3ce86708ef6f0e0886227f045d4f6f37"
     },
     {
       "url": "./shared/correction.js",
@@ -523,7 +527,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "350383cea8857f5a205966fe7af484ddd61e7754084361724689d06e46ea9c64"
+      "sha256": "353bcfb13acb531d2a94150781572b0b900460581e525c47be651cfe942d1bd9"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -583,11 +587,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "172daef65993a2bdcf162bc89948284935f8466d7603bd2d94b76b93eaa61269"
+      "sha256": "0b57e52142b66a4601883f8c03727574f0f30edd67c8f5114ec6303146fa9937"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "7093ec18e3021e30c92738cf712b9c9cd62d1ace7307aba8d767d0eeb43c5bf8"
+      "sha256": "3077cd1cd7d8f82b497bb35a8f5558086c7b395600352c570692264f4751a70f"
     },
     {
       "url": "./shared/week.js",

@@ -15,7 +15,7 @@
       safeTree(v, depth + 1);
     }
   }
-  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_(ms|gs)_theme_v2|klassia_(ms|gs)_progress_v2:T[1-8]|klassia_sil_progress_v1|klassia_ce1_progress_v1|klassia_answers_v1)$/.test(k);
+  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_(ms|gs)_theme_v2|klassia_(ms|gs)_progress_v2:T[1-8]|klassia_sil_progress_v1|klassia_ce1_(progress|qcm)_v1|klassia_answers_v1)$/.test(k);
   function validate(k, raw) {
     if (!known(k) || typeof raw !== 'string' || raw.length > 2000000) throw Error('Donnée de sauvegarde non reconnue : ' + k);
     if (k === 'klassia_unit') { if (!/^U[1-8]$/.test(raw)) throw Error('Unité invalide.'); return; }

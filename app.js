@@ -474,7 +474,7 @@ function seriesKey(e, i) { return e.id || e.cle || `${e.subject_id || 'Q'}-${i}`
 
 function revise() {
   let body = `<div class="page-head"><div><div class="eyebrow">ENTRAÎNEMENT</div><h1>Réviser avec les QCM</h1><p>Commence par la série essentielle, puis utilise la banque complémentaire pour t’entraîner davantage.</p></div><span class="pill">${qcmTotal()} QCM</span></div>
-    <section class="bank-note"><div><strong>${qcm.epreuves.filter(e=>e.subject_id!=='BA'&&e.serie_type==='ESSENTIELLE').reduce((n,e)=>n+e.questions.length,0)} questions essentielles</strong><span> à relire et mettre en correspondance avec les leçons</span></div><div><strong>${qcm.epreuves.filter(e=>e.subject_id!=='BA'&&e.serie_type==='COMPLEMENTAIRE').reduce((n,e)=>n+e.questions.length,0)} complémentaires</strong><span> issues de la banque historique, à conserver sous revue pédagogique</span></div></section>
+    <section class="bank-note"><div><strong>${qcm.epreuves.filter(e=>e.subject_id!=='BA'&&e.serie_type==='ESSENTIELLE').reduce((n,e)=>n+e.questions.length,0)} questions essentielles</strong><span> pour vérifier ce que tu as appris</span></div><div><strong>${qcm.epreuves.filter(e=>e.subject_id!=='BA'&&e.serie_type==='COMPLEMENTAIRE').reduce((n,e)=>n+e.questions.length,0)} complémentaires</strong><span> pour t’entraîner davantage</span></div></section>
     <div class="subject-grid wide">`;
   content.subjects.forEach(s => {
     if(s.id==='BA')return;
@@ -495,7 +495,7 @@ function reviseSubject(id) {
     const key=seriesKey(e,i); const last=scores[key]; const essential=e.serie_type==='ESSENTIELLE';
     body += `<article class="series-card ${essential?'essential':''}"><div class="row between"><span class="series-tag">${essential?'ESSENTIEL':'COMPLÉMENT'}</span><span class="pill">${e.questions.length} questions</span></div><h3>${esc(e.serie_label || e.titre)}</h3><p>${esc(e.description || '')}</p>${last?`<div class="last-score">Dernier score : <b>${last.score}/${last.total}</b> · ${last.pct}%</div>`:''}<button class="btn ${essential?'primary':'soft'} full" onclick="location.hash='#qcm:${i}'">${last?'Recommencer':'Commencer'}</button></article>`;
   });
-  body += `</div><section class="source-note always"><h3>Pourquoi deux séries ?</h3><p>La série essentielle vérifie les acquis directement liés aux leçons riches. La banque complémentaire augmente le volume d’entraînement ; ses questions historiques restent identifiées séparément afin de faciliter leur revue pédagogique.</p></section>`;
+  body += `</div><section class="source-note always"><h3>Pourquoi deux séries ?</h3><p>La série essentielle vérifie ce que tu as appris dans les leçons. La série complémentaire te donne plus d’exercices pour t’entraîner.</p></section>`;
   shell(body,'revise');
 }
 

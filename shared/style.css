@@ -125,3 +125,15 @@
 .klassia-continue p { margin: 0; color: #e3ecff; }
 .klassia-continue-btn { justify-self: start; display: inline-flex; align-items: center; min-height: 48px; margin-top: .4rem; padding: .6rem 1.4rem; border-radius: 12px; background: #ffd34d; color: #172033; font-size: 1.1rem; font-weight: 800; text-decoration: none; }
 .klassia-continue-btn:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+
+/* Family views (Enfant, Parent): tap targets of 44 px and text of 14 px at
+   least. Workshop views keep their compact layout. */
+html[data-klassia-view="family"] :is(#app, main, .topbar, .top, .gs-top, .klassia-global-nav, .mobile-nav) :is(button, select, summary) { min-height: 44px; }
+html[data-klassia-view="family"] .klassia-learning-mode a { display: inline-flex; align-items: center; min-height: 44px; }
+html[data-klassia-view="family"] :is(.klassia-learning-mode a, .klassia-global-nav a, .klassia-global-nav button, .klassia-global-nav select, .lesson-breadcrumb a, .crumb, .crumb a, .eyebrow, .block-kicker, .block-kicker span, .chip, .pill, .badge, .subject-pct, .subject-card strong, .subject-card span, .subject-card .card-action, .domain small, .gs-actions button, .statusRow button, .speech-tools button, .speech-preview, .themeSwitch span, .klassia-continue-eyebrow, .mobile-nav span) { font-size: max(14px, .875rem); }
+html[data-klassia-role="ELEVE"] :is(.editorial-status, .lesson-sources) { display: none; }
+.klassia-parents-panel .klassia-parents-edition { color: #644509; }
+html[data-klassia-view="family"] .subject-pct { font-size: max(14px, .875rem) !important; }
+html[data-klassia-view="family"] :is(.lesson-nav .btn, .source-note summary, .source-note p, p.source, #masteryMsg) { font-size: max(14px, .875rem); }
+html[data-klassia-view="family"] :is(#pwaTools button, #app input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"])) { min-height: 44px; }
+html[data-klassia-view="family"] .gs-top > a { display: inline-flex; align-items: center; min-height: 44px; }

@@ -53,7 +53,7 @@
             {
               "prompt": "Un camarade explique qu’il faut garder la rue propre. Donne une réponse pertinente en une phrase.",
               "answer": "Exemple : « Je suis d’accord, car les déchets peuvent salir le quartier. »",
-              "explanation": "",
+              "explanation": "Une réponse pertinente reprend l’idée du camarade, dit si tu es d’accord ou non, puis donne une raison avec « car » ou « parce que ».",
               "type": "open",
               "id": "FR-U2-L1-E2"
             }
@@ -112,14 +112,14 @@
             {
               "prompt": "Lis puis récite : « Au matin, la rue s’éveille. Les pas se croisent, les boutiques s’ouvrent et la ville commence sa journée. »",
               "answer": "Récitation attendue avec articulation, pauses et intonation adaptées.",
-              "explanation": "",
+              "explanation": "Fais une petite pause à chaque virgule et un arrêt plus long à chaque point. Articule et donne vie à la rue qui se réveille.",
               "type": "open",
               "id": "FR-U2-L2-E1"
             },
             {
               "prompt": "Où placerais-tu une pause dans la phrase : « Au marché les vendeurs installent leurs produits puis les clients arrivent » ?",
               "answer": "Exemple : après « marché » et après « produits ».",
-              "explanation": "",
+              "explanation": "On fait une pause là où l’on pourrait mettre une virgule : après le lieu (« Au marché ») et avant l’action suivante (« puis »).",
               "type": "open",
               "id": "FR-U2-L2-E2"
             }
@@ -173,14 +173,14 @@
             {
               "prompt": "Classe ces idées dans un ordre logique : « j’aime ce lieu » ; « la place est près de la mairie » ; « des enfants y jouent ».",
               "answer": "1. La place est près de la mairie. 2. Des enfants y jouent. 3. J’aime ce lieu.",
-              "explanation": "",
+              "explanation": "On présente d’abord le lieu, on décrit ensuite ce qu’on y voit, et on termine par son avis.",
               "type": "open",
               "id": "FR-U2-L3-E1"
             },
             {
               "prompt": "Écris quatre phrases pour décrire une rue ou un chemin que tu connais.",
               "answer": "Réponse personnelle : vérifier ordre logique, phrases correctes et ponctuation.",
-              "explanation": "",
+              "explanation": "Avant d’écrire, note tes idées dans l’ordre : où est la rue, ce qu’on y voit, ce qu’on y fait, ce que tu en penses. Relis ensuite majuscules et points.",
               "type": "open",
               "id": "FR-U2-L3-E2"
             }
@@ -234,14 +234,14 @@
             {
               "prompt": "Une enfant retrouve un portefeuille sur la place du marché et le remet au chef de quartier. Quel trait de caractère montre-t-elle ?",
               "answer": "Elle montre de l’honnêteté ou de la sincérité.",
-              "explanation": "",
+              "explanation": "Elle rend un objet qui ne lui appartient pas au lieu de le garder : c’est de l’honnêteté.",
               "type": "open",
               "id": "FR-U2-L4-E1"
             },
             {
               "prompt": "Donne ton avis sur son choix en une phrase justifiée.",
               "answer": "Exemple : « Son choix est bon parce qu’elle cherche à rendre l’objet à son propriétaire. »",
-              "explanation": "",
+              "explanation": "Un avis justifié dit ce que tu penses puis pourquoi, avec « parce que » et un élément de l’histoire.",
               "type": "open",
               "id": "FR-U2-L4-E2"
             }
@@ -295,14 +295,14 @@
             {
               "prompt": "Dans « une rue calme », repère déterminant, nom et adjectif.",
               "answer": "Déterminant : une ; nom : rue ; adjectif : calme.",
-              "explanation": "",
+              "explanation": "Le nom est le mot principal (rue). Le déterminant le précède (une) et l’adjectif le décrit (calme).",
               "type": "open",
               "id": "FR-U2-L5-E1"
             },
             {
               "prompt": "Classe : « Le marché est animé » / « Les commerçants installent les étals ».",
               "answer": "est : verbe d’état ; installent : verbe d’action.",
-              "explanation": "",
+              "explanation": "« Installent » dit ce que font les commerçants : c’est une action. « Est » décrit comment est le marché : c’est un état.",
               "type": "open",
               "id": "FR-U2-L5-E2"
             }
@@ -362,14 +362,14 @@
             {
               "prompt": "Transforme « Les enfants jouent sur la place. » en phrase interrogative.",
               "answer": "« Les enfants jouent-ils sur la place ? » ou « Est-ce que les enfants jouent sur la place ? »",
-              "explanation": "",
+              "explanation": "Pour poser une question, on peut inverser le sujet et le verbe (jouent-ils) ou commencer par « Est-ce que ». La phrase finit par « ? ».",
               "type": "open",
               "id": "FR-U2-L6-E1"
             },
             {
               "prompt": "Ponctue : Le guide dit attention traversez au passage protégé",
               "answer": "Exemple : Le guide dit : « Attention ! Traversez au passage protégé. »",
-              "explanation": "",
+              "explanation": "Les deux-points et les guillemets annoncent les paroles du guide. « Attention ! » est un cri : il prend un point d’exclamation.",
               "type": "open",
               "id": "FR-U2-L6-E2"
             }
@@ -429,14 +429,14 @@
             {
               "prompt": "Donne quatre mots du champ lexical de la ville.",
               "answer": "Exemples : rue, carrefour, quartier, mairie.",
-              "explanation": "",
+              "explanation": "Le champ lexical de la ville regroupe les mots qui parlent de la ville : ses lieux, ses voies, ses bâtiments.",
               "type": "open",
               "id": "FR-U2-L7-E1"
             },
             {
               "prompt": "Quel mot est le plus précis : « endroit » ou « carrefour » pour désigner le croisement de plusieurs voies ?",
               "answer": "« carrefour » est plus précis.",
-              "explanation": "",
+              "explanation": "« Endroit » peut désigner n’importe quel lieu ; « carrefour » nomme exactement le croisement de plusieurs voies.",
               "type": "open",
               "id": "FR-U2-L7-E2"
             }
@@ -491,7 +491,7 @@
             {
               "prompt": "« Ils ont fini le travail. » : temps simple ou composé ?",
               "answer": "Temps composé.",
-              "explanation": "",
+              "explanation": "« Ont fini » est formé de deux mots, l’auxiliaire « avoir » et le participe passé « fini » : c’est un temps composé.",
               "type": "open",
               "id": "FR-U2-L8-E1",
               "accept": [
@@ -506,7 +506,7 @@
             {
               "prompt": "Conjugue « choisir » avec nous et vous au présent.",
               "answer": "Nous choisissons ; vous choisissez.",
-              "explanation": "",
+              "explanation": "« Choisir » se conjugue comme « finir », un verbe du 2e groupe : -issons avec nous, -issez avec vous.",
               "type": "open",
               "id": "FR-U2-L8-E2"
             }
@@ -609,14 +609,14 @@
             {
               "prompt": "Say two characteristics of a town.",
               "answer": "Example: A town has many roads. A town has shops and offices.",
-              "explanation": "",
+              "explanation": "Think of what you can see in a town: roads, shops, offices, cars. Say each idea in a short sentence: A town has …",
               "type": "open",
               "id": "EN-U2-L1-E1"
             },
             {
               "prompt": "Complete: “There are many ___ on the road.”",
               "answer": "Possible answer: cars / vehicles.",
-              "explanation": "",
+              "explanation": "« There are many » needs a plural word: cars, buses, motorbikes, vehicles …",
               "type": "open",
               "id": "EN-U2-L1-E2"
             }
@@ -676,14 +676,14 @@
             {
               "prompt": "Name three places in the paragraph.",
               "answer": "market, school, health centre",
-              "explanation": "",
+              "explanation": "Read the paragraph again slowly and look for the words that name places.",
               "type": "open",
               "id": "EN-U2-L2-E1"
             },
             {
               "prompt": "When do many people walk along the main road?",
               "answer": "In the morning.",
-              "explanation": "",
+              "explanation": "Find the sentence about the main road in the paragraph: it tells you the time of day.",
               "type": "open",
               "id": "EN-U2-L2-E2",
               "accept": [
@@ -746,14 +746,14 @@
             {
               "prompt": "Copy: “There is a market near the main road.”",
               "answer": "Exact legible copy expected.",
-              "explanation": "",
+              "explanation": "Compare word by word with the model: a capital T, spaces between words and a full stop at the end.",
               "type": "open",
               "id": "EN-U2-L3-E1"
             },
             {
               "prompt": "Correct the copy: “the Town has many shop.”",
               "answer": "“The town has many shops.”",
-              "explanation": "",
+              "explanation": "A sentence starts with a capital letter, « town » is a common noun with no capital, and « many » goes with a plural: shops.",
               "type": "open",
               "id": "EN-U2-L3-E2"
             }
@@ -813,7 +813,7 @@
             {
               "prompt": "Give the opposite of “near”.",
               "answer": "far",
-              "explanation": "",
+              "explanation": "Near means close; its opposite is far.",
               "type": "open",
               "id": "EN-U2-L4-E1",
               "accept": [
@@ -823,7 +823,7 @@
             {
               "prompt": "Complete: Yesterday we ___ to the market. (go)",
               "answer": "went",
-              "explanation": "",
+              "explanation": "« Yesterday » shows the past. « Go » is irregular: its past form is « went ».",
               "type": "open",
               "id": "EN-U2-L4-E2",
               "accept": [
@@ -840,7 +840,7 @@
             {
               "prompt": "Complete: Tomorrow at 9, they ___ travelling to town.",
               "answer": "will be",
-              "explanation": "",
+              "explanation": "« Tomorrow at 9 » shows an action that will be happening: will be + verb-ing (will be travelling).",
               "type": "open",
               "id": "EN-U2-L4-E3",
               "accept": [
@@ -1237,7 +1237,7 @@
             {
               "prompt": "Décompose 2 705.",
               "answer": "2 000 + 700 + 5.",
-              "explanation": "",
+              "explanation": "2 705 = 2 milliers, 7 centaines, 0 dizaine et 5 unités : 2 000 + 700 + 5. Le zéro des dizaines ne s’écrit pas dans la somme.",
               "type": "open",
               "id": "MA-U2-L1-E1",
               "accept": [
@@ -1248,7 +1248,7 @@
             {
               "prompt": "Range 2 090, 2 900, 2 009 du plus petit au plus grand.",
               "answer": "2 009 < 2 090 < 2 900.",
-              "explanation": "",
+              "explanation": "Les milliers sont égaux. 2 900 a 9 centaines : c’est le plus grand. Pour 2 009 et 2 090, on compare les dizaines : 0 < 9.",
               "type": "open",
               "id": "MA-U2-L1-E2"
             },
@@ -1333,7 +1333,7 @@
             {
               "prompt": "A={1,2,3}, B={3,4}. Donne A∩B.",
               "answer": "{3}",
-              "explanation": "",
+              "explanation": "A ∩ B garde seulement les éléments présents dans A et dans B : seul 3 est dans les deux.",
               "type": "open",
               "id": "MA-U2-L2-E1",
               "accept": [
@@ -1350,7 +1350,7 @@
             {
               "prompt": "Vrai ou faux : 4 ∈ B.",
               "answer": "Vrai.",
-              "explanation": "",
+              "explanation": "B = {3, 4} : 4 est bien dans B, donc « 4 ∈ B » est vrai.",
               "type": "open",
               "id": "MA-U2-L2-E2",
               "accept": [
@@ -1413,7 +1413,7 @@
             {
               "prompt": "Calcule 1 475 + 867.",
               "answer": "2 342.",
-              "explanation": "",
+              "explanation": "Pose l’addition en alignant les rangs. 5 + 7 = 12 : écris 2, retiens 1. Continue de rang en rang avec les retenues.",
               "type": "open",
               "id": "MA-U2-L3-E1",
               "accept": [
@@ -1423,7 +1423,7 @@
             {
               "prompt": "Calcule 2 500 − 786.",
               "answer": "1 714.",
-              "explanation": "",
+              "explanation": "Pose la soustraction en alignant les rangs. Quand le chiffre du haut est trop petit, échange 1 du rang de gauche contre 10. Vérifie : 1 714 + 786 = 2 500.",
               "type": "open",
               "id": "MA-U2-L3-E2",
               "accept": [
@@ -1481,7 +1481,7 @@
             {
               "prompt": "Quel objet est probablement le plus lourd : une orange ou un sac de 5 kg de riz ?",
               "answer": "Le sac de 5 kg de riz.",
-              "explanation": "",
+              "explanation": "Une orange pèse quelques centaines de grammes, bien moins que 5 kg : le sac de riz est le plus lourd.",
               "type": "open",
               "id": "MA-U2-L4-E1",
               "accept": [
@@ -1498,7 +1498,7 @@
             {
               "prompt": "1 kg correspond à combien de grammes ?",
               "answer": "1 000 g.",
-              "explanation": "",
+              "explanation": "« Kilo » veut dire mille : 1 kilogramme = 1 000 grammes.",
               "type": "open",
               "id": "MA-U2-L4-E2",
               "accept": [
@@ -1556,7 +1556,7 @@
             {
               "prompt": "Quelle empreinte peut laisser un cube posé sur une face ?",
               "answer": "Un carré.",
-              "explanation": "",
+              "explanation": "Les faces d’un cube sont des carrés : posé sur une face, il laisse une empreinte carrée.",
               "type": "open",
               "id": "MA-U2-L5-E1",
               "accept": [
@@ -1571,7 +1571,7 @@
             {
               "prompt": "Un cylindre posé sur sa base peut laisser quelle empreinte ?",
               "answer": "Un cercle.",
-              "explanation": "",
+              "explanation": "La base d’un cylindre est un disque : son empreinte a la forme d’un cercle.",
               "type": "open",
               "id": "MA-U2-L5-E2",
               "accept": [
@@ -1637,14 +1637,14 @@
             {
               "prompt": "Construis un carré de 4 cm de côté.",
               "answer": "Figure à vérifier : 4 côtés de 4 cm et 4 angles droits.",
-              "explanation": "",
+              "explanation": "Trace un côté de 4 cm, construis les angles droits à l’équerre, puis vérifie à la règle que les quatre côtés mesurent 4 cm.",
               "type": "open",
               "id": "MA-U2-L6-E1"
             },
             {
               "prompt": "Construis un rectangle de 6 cm sur 3 cm.",
               "answer": "Figure à vérifier : deux côtés de 6 cm, deux de 3 cm et quatre angles droits.",
-              "explanation": "",
+              "explanation": "Trace un côté de 6 cm, place les angles droits à l’équerre, puis vérifie : deux côtés de 6 cm et deux côtés de 3 cm face à face.",
               "type": "open",
               "id": "MA-U2-L6-E2"
             }
@@ -1745,14 +1745,14 @@
             {
               "prompt": "Donne un exemple d’animal qui pond des œufs et un qui met bas.",
               "answer": "Exemples : poule ; chèvre.",
-              "explanation": "",
+              "explanation": "Certains animaux pondent des œufs (poule, canard) ; d’autres donnent naissance à des petits déjà formés (chèvre, chat).",
               "type": "open",
               "id": "SC-U2-L1-E1"
             },
             {
               "prompt": "Pourquoi un poisson nage-t-il facilement ?",
               "answer": "Son corps et ses nageoires sont adaptés au déplacement dans l’eau.",
-              "explanation": "",
+              "explanation": "Le corps du poisson est allongé et ses nageoires le poussent et le dirigent : il est adapté à la vie dans l’eau.",
               "type": "open",
               "id": "SC-U2-L1-E2"
             }
@@ -1831,14 +1831,14 @@
             {
               "prompt": "Pourquoi le piston d’une seringue bouchée résiste-t-il ?",
               "answer": "Parce que l’air emprisonné est comprimé.",
-              "explanation": "",
+              "explanation": "L’air enfermé ne peut pas sortir : quand on pousse, on le comprime, et il résiste de plus en plus.",
               "type": "open",
               "id": "SC-U2-L2-E1"
             },
             {
               "prompt": "Que faut-il comparer dans une expérience ?",
               "answer": "Ce qui change et ce qui reste identique, puis observer le résultat.",
-              "explanation": "",
+              "explanation": "On ne change qu’une seule chose à la fois et on garde le reste identique : ainsi, on sait ce qui a causé le résultat.",
               "type": "open",
               "id": "SC-U2-L2-E2"
             }
@@ -1897,14 +1897,14 @@
             {
               "prompt": "Une girouette sert surtout à observer quoi ?",
               "answer": "La direction du vent.",
-              "explanation": "",
+              "explanation": "La girouette tourne avec le vent : elle montre d’où il vient. La vitesse du vent se mesure avec un anémomètre.",
               "type": "open",
               "id": "SC-U2-L3-E1"
             },
             {
               "prompt": "Donne un signe montrant que le vent devient plus fort.",
               "answer": "Exemple : les branches et feuilles bougent davantage.",
-              "explanation": "",
+              "explanation": "Plus le vent est fort, plus les feuilles, les branches ou le linge bougent.",
               "type": "open",
               "id": "SC-U2-L3-E2"
             }
@@ -1964,14 +1964,14 @@
             {
               "prompt": "Pourquoi ne faut-il jamais jouer avec une flamme ?",
               "answer": "Risque de brûlure et d’incendie.",
-              "explanation": "",
+              "explanation": "Une flamme peut brûler la peau et mettre le feu aux objets autour. On ne s’en approche qu’avec un adulte.",
               "type": "open",
               "id": "SC-U2-L4-E1"
             },
             {
               "prompt": "Quel élément du milieu est important pour entretenir une combustion ?",
               "answer": "L’air, notamment le dioxygène qu’il contient.",
-              "explanation": "",
+              "explanation": "Le feu a besoin de l’oxygène de l’air : sans air, la flamme s’éteint, comme la bougie sous un verre.",
               "type": "open",
               "id": "SC-U2-L4-E2"
             }
@@ -2046,7 +2046,7 @@
             {
               "prompt": "Comment s’appelle le passage de la glace à l’eau liquide ?",
               "answer": "La fusion.",
-              "explanation": "",
+              "explanation": "Quand la glace se réchauffe, elle fond et devient liquide : c’est la fusion.",
               "type": "open",
               "id": "SC-U2-L5-E1",
               "accept": [
@@ -2062,7 +2062,7 @@
             {
               "prompt": "Comment s’appelle le passage de la vapeur d’eau à l’eau liquide ?",
               "answer": "La condensation.",
-              "explanation": "",
+              "explanation": "Quand la vapeur d’eau se refroidit, elle redevient liquide : c’est la condensation, comme la buée sur une vitre froide.",
               "type": "open",
               "id": "SC-U2-L5-E2",
               "accept": [
@@ -2148,14 +2148,14 @@
             {
               "prompt": "Que peut retenir un filtre ?",
               "answer": "Des particules solides selon la taille des pores du filtre.",
-              "explanation": "",
+              "explanation": "Un filtre retient les morceaux plus gros que ses trous, comme le sable ou les débris.",
               "type": "open",
               "id": "SC-U2-L6-E1"
             },
             {
               "prompt": "Peut-on boire automatiquement une eau parce qu’elle paraît claire après filtration ?",
               "answer": "Non.",
-              "explanation": "",
+              "explanation": "Des microbes invisibles peuvent traverser le filtre : une eau claire n’est pas forcément bonne à boire.",
               "type": "open",
               "id": "SC-U2-L6-E2",
               "accept": [
@@ -2218,14 +2218,14 @@
             {
               "prompt": "Cite trois besoins réguliers d’un animal domestique.",
               "answer": "Eau, nourriture adaptée, abri propre ; soins possibles.",
-              "explanation": "",
+              "explanation": "Comme toi, un animal a besoin chaque jour de boire, de manger ce qui lui convient et d’avoir un abri propre.",
               "type": "open",
               "id": "SC-U2-L7-E1"
             },
             {
               "prompt": "Qui peut diagnostiquer et soigner une maladie animale ?",
               "answer": "Un vétérinaire ou service vétérinaire compétent.",
-              "explanation": "",
+              "explanation": "Le vétérinaire est le médecin des animaux : c’est lui qui sait reconnaître une maladie et la soigner.",
               "type": "open",
               "id": "SC-U2-L7-E2"
             }
@@ -2292,14 +2292,14 @@
             {
               "prompt": "Pourquoi sèche-t-on certains produits agricoles ?",
               "answer": "Pour réduire l’humidité et limiter leur altération.",
-              "explanation": "",
+              "explanation": "Les moisissures et les insectes aiment l’humidité : un produit bien sec se garde plus longtemps.",
               "type": "open",
               "id": "SC-U2-L8-E1"
             },
             {
               "prompt": "Donne une règle d’hygiène de stockage.",
               "answer": "Exemple : utiliser un récipient propre et protéger des nuisibles.",
-              "explanation": "",
+              "explanation": "Un récipient propre, sec et bien fermé protège les récoltes de l’humidité, des insectes et des rongeurs.",
               "type": "open",
               "id": "SC-U2-L8-E2"
             }
@@ -2372,14 +2372,14 @@
             {
               "prompt": "Cite une action humaine qui peut dégrader un milieu.",
               "answer": "Exemples : jeter des déchets, polluer l’eau, détruire inutilement la végétation.",
-              "explanation": "",
+              "explanation": "Une action dégrade un milieu quand elle le salit ou le détruit : déchets, eau polluée, arbres coupés, feux de brousse.",
               "type": "open",
               "id": "SC-U2-L9-E1"
             },
             {
               "prompt": "Propose une action de protection.",
               "answer": "Exemples : ne pas jeter les déchets, planter/protéger des arbres, garder les cours d’eau propres.",
-              "explanation": "",
+              "explanation": "Une action de protection évite de salir ou de détruire le milieu, ou aide à le réparer, comme planter un arbre.",
               "type": "open",
               "id": "SC-U2-L9-E2"
             }
@@ -2495,7 +2495,7 @@
             {
               "prompt": "Un traitement de texte est-il plutôt un système d’exploitation ou une application ?",
               "answer": "Une application.",
-              "explanation": "",
+              "explanation": "Un traitement de texte sert à une tâche précise, écrire : c’est une application. Le système d’exploitation fait fonctionner tout l’appareil.",
               "type": "open",
               "id": "TI-U2-L1-E1",
               "accept": [
@@ -2508,7 +2508,7 @@
             {
               "prompt": "À quoi sert principalement un système d’exploitation ?",
               "answer": "À gérer l’appareil et permettre l’exécution des applications.",
-              "explanation": "",
+              "explanation": "Le système d’exploitation fait marcher l’appareil et permet d’ouvrir les applications, comme un chef d’orchestre.",
               "type": "open",
               "id": "TI-U2-L1-E2"
             }
@@ -2566,7 +2566,7 @@
             {
               "prompt": "Quel nom est plus facile à retrouver : « doc1 » ou « Expose_village » ?",
               "answer": "« Expose_village ».",
-              "explanation": "",
+              "explanation": "Le nom « Expose_village » dit ce que contient le fichier ; « doc1 » ne donne aucun indice.",
               "type": "open",
               "id": "TI-U2-L2-E1",
               "accept": [
@@ -2579,7 +2579,7 @@
             {
               "prompt": "Que faire si plusieurs fichiers ont presque le même nom ?",
               "answer": "Vérifier le dossier, le type, la date ou un aperçu avant d’ouvrir.",
-              "explanation": "",
+              "explanation": "Regarde le dossier, la date ou l’aperçu avant d’ouvrir : tu évites de modifier le mauvais fichier.",
               "type": "open",
               "id": "TI-U2-L2-E2"
             }
@@ -2638,7 +2638,7 @@
             {
               "prompt": "Pour connaître les horaires officiels d’une école, quelle source est la plus fiable : une rumeur ou l’école elle-même ?",
               "answer": "L’école elle-même.",
-              "explanation": "",
+              "explanation": "L’école connaît ses propres horaires : c’est une source sûre. Une rumeur peut être fausse.",
               "type": "open",
               "id": "TI-U2-L3-E1",
               "accept": [
@@ -2653,7 +2653,7 @@
             {
               "prompt": "Que faire avant de réutiliser une information trouvée en ligne ?",
               "answer": "Vérifier la source et, si besoin, demander à l’enseignant ou à un adulte.",
-              "explanation": "",
+              "explanation": "Demande-toi qui a publié l’information. Si tu n’es pas sûr, demande à l’enseignant ou à un adulte avant de la réutiliser.",
               "type": "open",
               "id": "TI-U2-L3-E2"
             }
@@ -2712,7 +2712,7 @@
             {
               "prompt": "Peux-tu lire les messages du téléphone d’un camarade sans son accord ?",
               "answer": "Non.",
-              "explanation": "",
+              "explanation": "Les messages d’un camarade sont privés : on ne les lit pas sans sa permission.",
               "type": "open",
               "id": "TI-U2-L4-E1",
               "accept": [
@@ -2725,7 +2725,7 @@
             {
               "prompt": "Que faire si un câble est abîmé ?",
               "answer": "Ne pas l’utiliser et prévenir immédiatement un adulte.",
-              "explanation": "",
+              "explanation": "Un câble abîmé peut donner une décharge électrique : ne le touche pas et préviens tout de suite un adulte.",
               "type": "open",
               "id": "TI-U2-L4-E2"
             }
@@ -2825,14 +2825,14 @@
             {
               "prompt": "Tu casses accidentellement un objet collectif. Quelle attitude sincère adopter ?",
               "answer": "Prévenir un adulte et expliquer honnêtement ce qui s’est passé.",
-              "explanation": "",
+              "explanation": "Être sincère, c’est dire ce qui s’est vraiment passé : prévenir un adulte permet aussi de réparer ou de remplacer l’objet.",
               "type": "open",
               "id": "SH-U2-L1-E1"
             },
             {
               "prompt": "Cite un bienfait de la sincérité.",
               "answer": "Confiance, résolution plus facile des problèmes, responsabilité.",
-              "explanation": "",
+              "explanation": "Quand on dit la vérité, les autres peuvent nous faire confiance et les problèmes se règlent plus facilement.",
               "type": "open",
               "id": "SH-U2-L1-E2"
             }
@@ -2885,14 +2885,14 @@
             {
               "prompt": "Dans une saynète, donne une phrase que pourrait dire l’enfant.",
               "answer": "Exemple : « J’ai besoin d’aller à l’école pour apprendre et développer mes capacités. »",
-              "explanation": "",
+              "explanation": "La phrase de l’enfant dit qu’il veut aller à l’école et pourquoi : pour apprendre et grandir.",
               "type": "open",
               "id": "SH-U2-L2-E1"
             },
             {
               "prompt": "Qui doit aider à protéger ce droit ?",
               "answer": "La famille, l’école, la communauté et les autorités selon leurs responsabilités.",
-              "explanation": "",
+              "explanation": "Ce droit est protégé par plusieurs personnes : la famille qui inscrit l’enfant, l’école qui l’accueille, la communauté et les autorités.",
               "type": "open",
               "id": "SH-U2-L2-E2"
             }
@@ -2946,14 +2946,14 @@
             {
               "prompt": "Donne deux comportements qui facilitent le vivre-ensemble.",
               "answer": "Respecter les autres, éviter les insultes, garder les lieux propres, respecter les règles.",
-              "explanation": "",
+              "explanation": "Le vivre-ensemble, c’est respecter les autres et les lieux communs : parler poliment, garder propre, suivre les règles.",
               "type": "open",
               "id": "SH-U2-L3-E1"
             },
             {
               "prompt": "Avant de traverser une route, que dois-tu faire ?",
               "answer": "Observer la circulation, utiliser un passage adapté s’il existe et suivre les consignes de sécurité/adulte.",
-              "explanation": "",
+              "explanation": "Avant de traverser, arrête-toi, regarde à gauche et à droite, utilise le passage prévu s’il existe et écoute l’adulte.",
               "type": "open",
               "id": "SH-U2-L3-E2"
             }
@@ -3008,7 +3008,7 @@
             {
               "prompt": "Quel niveau est plus large : département ou région ?",
               "answer": "La région.",
-              "explanation": "",
+              "explanation": "Une région regroupe plusieurs départements : c’est le niveau le plus large.",
               "type": "open",
               "id": "SH-U2-L4-E1",
               "accept": [
@@ -3021,7 +3021,7 @@
             {
               "prompt": "Explique en une phrase l’intégration nationale.",
               "answer": "Exemple : vivre et coopérer comme membres d’une même nation tout en respectant les différences.",
-              "explanation": "",
+              "explanation": "L’intégration nationale, c’est vivre ensemble comme une seule nation en respectant nos différences de langues et de cultures.",
               "type": "open",
               "id": "SH-U2-L4-E2"
             }
@@ -3076,14 +3076,14 @@
             {
               "prompt": "Donne une règle utile dans un espace public.",
               "answer": "Exemples : ne pas jeter les déchets, respecter une file, respecter les consignes de circulation.",
-              "explanation": "",
+              "explanation": "Une règle utile protège les personnes ou les lieux de tous, par exemple jeter ses déchets à la poubelle.",
               "type": "open",
               "id": "SH-U2-L5-E1"
             },
             {
               "prompt": "Pourquoi existe-t-il des lois ?",
               "answer": "Pour organiser et protéger la vie en société, définir droits, devoirs et conséquences.",
-              "explanation": "",
+              "explanation": "Les lois disent les droits et les devoirs de chacun, pour que tous puissent vivre ensemble en sécurité.",
               "type": "open",
               "id": "SH-U2-L5-E2"
             }
@@ -3137,14 +3137,14 @@
             {
               "prompt": "Cite deux sources utiles pour connaître l’évolution d’une localité.",
               "answer": "Photos datées, témoignages, cartes, documents administratifs, presse locale, etc.",
-              "explanation": "",
+              "explanation": "Une source montre comment c’était avant : une photo ancienne datée, le témoignage d’un aîné, une vieille carte.",
               "type": "open",
               "id": "SH-U2-L6-E1"
             },
             {
               "prompt": "Pourquoi faut-il vérifier les informations sur une personnalité locale ?",
               "answer": "Pour éviter les erreurs et distinguer faits, souvenirs et opinions.",
-              "explanation": "",
+              "explanation": "Les souvenirs peuvent se tromper : on compare plusieurs sources pour séparer les faits des opinions.",
               "type": "open",
               "id": "SH-U2-L6-E2"
             }
@@ -3199,14 +3199,14 @@
             {
               "prompt": "Pourquoi la végétation est-elle importante ?",
               "answer": "Elle protège les sols, abrite des êtres vivants, fournit des ressources et contribue au fonctionnement des milieux.",
-              "explanation": "",
+              "explanation": "Les plantes retiennent le sol avec leurs racines, abritent des animaux et nous donnent du bois, des fruits et de l’ombre.",
               "type": "open",
               "id": "SH-U2-L7-E1"
             },
             {
               "prompt": "Nomme un cours d’eau de ta localité après vérification avec l’enseignant ou une carte.",
               "answer": "Réponse locale à valider.",
-              "explanation": "",
+              "explanation": "Cherche le nom sur une carte de ta région ou demande à l’enseignant de confirmer avant de l’écrire.",
               "type": "open",
               "id": "SH-U2-L7-E2"
             }
@@ -3308,7 +3308,7 @@
             {
               "prompt": "Quelle étape vient d’abord : les petits détails ou les grandes formes ?",
               "answer": "Les grandes formes.",
-              "explanation": "",
+              "explanation": "On place d’abord les grandes formes et les proportions ; les petits détails viennent à la fin, sur une base juste.",
               "type": "open",
               "id": "AR-U2-L1-E1",
               "accept": [
@@ -3321,7 +3321,7 @@
             {
               "prompt": "Pourquoi observer plusieurs fois le modèle ?",
               "answer": "Pour corriger proportions, positions et détails.",
-              "explanation": "",
+              "explanation": "En regardant plusieurs fois le modèle, tu vois ce qui ne ressemble pas encore : taille, position, détails à ajouter.",
               "type": "open",
               "id": "AR-U2-L1-E2"
             }
@@ -3371,7 +3371,7 @@
             {
               "prompt": "Combien de lignes comporte une portée musicale usuelle ?",
               "answer": "Cinq lignes.",
-              "explanation": "",
+              "explanation": "Une portée est faite de cinq lignes horizontales ; on place les notes sur les lignes ou dans les interlignes.",
               "type": "open",
               "id": "AR-U2-L2-E1",
               "accept": [
@@ -3390,7 +3390,7 @@
             {
               "prompt": "À quoi sert un silence en musique ?",
               "answer": "À indiquer une durée sans son.",
-              "explanation": "",
+              "explanation": "Un silence indique un moment où l’on ne joue pas ; il a une durée, comme une note.",
               "type": "open",
               "id": "AR-U2-L2-E2"
             }
@@ -3438,14 +3438,14 @@
             {
               "prompt": "Pourquoi faut-il identifier la localité ou la tradition d’origine d’une danse ?",
               "answer": "Parce que les danses et leur signification varient selon les communautés.",
-              "explanation": "",
+              "explanation": "Chaque communauté a ses danses, avec leur sens et leurs règles : connaître leur origine permet de les respecter.",
               "type": "open",
               "id": "AR-U2-L3-E1"
             },
             {
               "prompt": "Cite deux éléments à respecter pendant une danse collective.",
               "answer": "Rythme, espace, coordination, sécurité, respect des autres.",
-              "explanation": "",
+              "explanation": "Dans une danse à plusieurs, on suit le même rythme et on garde sa place pour ne bousculer personne.",
               "type": "open",
               "id": "AR-U2-L3-E2"
             }
@@ -3531,14 +3531,14 @@
             {
               "prompt": "Pourquoi personne ne doit-il se trouver devant la zone de lancer ?",
               "answer": "Pour éviter les blessures.",
-              "explanation": "",
+              "explanation": "L’engin lancé peut toucher quelqu’un et le blesser : la zone devant le lanceur doit rester vide.",
               "type": "open",
               "id": "EP-U2-L1-E1"
             },
             {
               "prompt": "Que faut-il attendre avant de récupérer l’engin ?",
               "answer": "Le signal de l’enseignant et l’arrêt des lancers.",
-              "explanation": "",
+              "explanation": "On récupère son engin seulement quand tous les lancers sont finis et que l’enseignant donne le signal.",
               "type": "open",
               "id": "EP-U2-L1-E2"
             }
@@ -3589,7 +3589,7 @@
             {
               "prompt": "Quelle phase vient juste avant le franchissement ?",
               "answer": "L’impulsion.",
-              "explanation": "",
+              "explanation": "Dans l’ordre : course d’élan, impulsion (le pied pousse le sol), franchissement, réception.",
               "type": "open",
               "id": "EP-U2-L2-E1",
               "accept": [
@@ -3604,7 +3604,7 @@
             {
               "prompt": "Pourquoi la zone de réception doit-elle être adaptée ?",
               "answer": "Pour réduire le risque de blessure lors de la réception.",
-              "explanation": "",
+              "explanation": "Une réception sur une surface adaptée amortit la chute et évite de se faire mal.",
               "type": "open",
               "id": "EP-U2-L2-E2"
             }
@@ -3655,14 +3655,14 @@
             {
               "prompt": "Quelle est la priorité face à une situation dangereuse ?",
               "answer": "S’éloigner, chercher de l’aide et éviter l’affrontement.",
-              "explanation": "",
+              "explanation": "S’éloigner et appeler un adulte protège mieux que se battre : on ne cherche jamais l’affrontement.",
               "type": "open",
               "id": "EP-U2-L3-E1"
             },
             {
               "prompt": "Faut-il s’entraîner à porter de vrais coups ?",
               "answer": "Non.",
-              "explanation": "",
+              "explanation": "On s’entraîne lentement et sans frapper : un vrai coup peut blesser un camarade.",
               "type": "open",
               "id": "EP-U2-L3-E2",
               "accept": [
@@ -3753,14 +3753,14 @@
             {
               "prompt": "Pourquoi faut-il contrôler la quantité d’eau dans l’argile ?",
               "answer": "Pour obtenir une consistance adaptée au travail.",
-              "explanation": "",
+              "explanation": "Trop d’eau rend l’argile molle et collante ; pas assez la fait craquer. Ajoute l’eau peu à peu.",
               "type": "open",
               "id": "DP-U2-L1-E1"
             },
             {
               "prompt": "Quelle étape vient après le moulage ?",
               "answer": "Démouler avec soin puis laisser sécher selon la technique utilisée.",
-              "explanation": "",
+              "explanation": "Après le moulage, on démoule doucement pour ne pas casser la forme, puis on laisse sécher.",
               "type": "open",
               "id": "DP-U2-L1-E2"
             }
@@ -3810,7 +3810,7 @@
             {
               "prompt": "Peut-on mélanger deux produits ménagers pour “mieux nettoyer” ?",
               "answer": "Non, jamais.",
-              "explanation": "",
+              "explanation": "Certains produits mélangés dégagent des gaz dangereux : on n’en mélange jamais.",
               "type": "open",
               "id": "DP-U2-L2-E1",
               "accept": [
@@ -3825,7 +3825,7 @@
             {
               "prompt": "Cite une action d’entretien qui ne nécessite pas forcément un produit chimique.",
               "answer": "Balayer, ramasser les déchets, essuyer avec de l’eau, ranger.",
-              "explanation": "",
+              "explanation": "Beaucoup de gestes d’entretien n’ont besoin d’aucun produit : balayer, ramasser, ranger, essuyer avec de l’eau.",
               "type": "open",
               "id": "DP-U2-L2-E2"
             }

@@ -72,3 +72,9 @@ Ce fichier conserve uniquement les décisions structurantes utiles aux prochaine
 **Décision (porteur de projet, 11 novembre 2026) :** la langue et culture nationale travaillée est celle que parlent les parents ; le bassa reste la première langue documentée dans Klassia. La page « Langue de la maison » (lot 8a) permet à un adulte d’enregistrer des mots du quotidien dans sa langue et à l’enfant de les écouter et de les reconnaître.
 
 **Conséquence :** les enregistrements familiaux restent sur l’appareil, dans le profil de l’enfant (IndexedDB), sans envoi ni inclusion dans la sauvegarde JSON ; ils ne sont pas présentés comme des formes validées. Les formes bassa documentées gardent leur circuit de relecture et de diffusion propre.
+
+## ADR-013 — Des classes anglophones jumelles plutôt qu’une classe « bilingue »
+
+**Décision (porteur de projet, 11 novembre 2026) :** Klassia ne présente plus de classe « bilingue ». Chaque classe francophone a une classe anglophone jumelle du sous-système anglophone (MS ↔ Nursery One, GS ↔ Nursery Two, SIL ↔ Class 1, CE1 ↔ Class 3, CE2 ↔ Class 4), reliée par thème et par semaine quand ses contenus existeront.
+
+**Conséquence :** chaque catalogue de classe déclare `subsystem`, `language` et `twin` (sous-système, classe et statut de la jumelle) ; `npm run validate` vérifie que ces jumelles sont celles que propose l’accueil. Tant que les programmes anglophones ne sont pas disponibles, la jumelle est au statut `planned` et l’accueil ouvre la classe francophone équivalente, où l’anglais est une matière. Les classes anglophones auront leurs propres catalogues (`subsystem: anglophone`, `language: en`) ; les identifiants de ressources francophones ne changent pas.

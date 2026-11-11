@@ -11,7 +11,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 1. Mode famille | tout | — | — |
 | 2. Corrections enrichies | 2a à 2g | — | — |
 | 3. Semaine et manuels | SIL, CE1, CE2 ; manuels de français SIL et CE2 | — | sommaires des autres manuels |
-| 4. Format commun et séance guidée | séance guidée MS, GS, SIL | 4c : sous-système, langue et classe jumelle dans les catalogues | — |
+| 4. Format commun et séance guidée | séance guidée MS, GS, SIL ; classes jumelles déclarées (4c) | moteur unique (refonte, à décider) | — |
 | 5. SIL | 32 leçons de lecture | — | programme Niveau 1 (mesures, géométrie, anglais) ; sons enregistrés |
 | 6. Maternelle | MS complétée, GS réécrite, vue anglaise | parcours « pour aller plus loin » | programme de maternelle (parcours de base) ; images et voix |
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés | QCM des autres matières | livre de l’œuvre de littérature |
@@ -52,7 +52,8 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 - **4a. Séance guidée en maternelle** — chaque activité de MS et de GS s’affiche dans une seule langue, avec un choix Français / English gardé dans le profil (`klassia_nursery_lang_v1`, anglais par défaut pour une école anglophone). Une fiche parent de quatre lignes ouvre l’activité (durée, matériel, ce que je dis, ce que je regarde) quand ces données existent ; « Montrer à l’enfant » ouvre un écran plein sans texte à lire (image, haut-parleur, action, « J’ai fini ! »). La réussite se note en un geste : Seul (Acquis), Avec aide, Pas encore (En cours), avec l’échelle enregistrée dans les observations ; la note libre reste possible. La carte « Continuer » devient « L’activité du jour ». En MS (lot 6a) et en GS (lot 6b), la fiche est complète ; le matériel et les critères d’observation s’affichent en anglais dans la vue anglaise (A1a). Seul le guide « Préparer et adapter l’activité », réservé à l’espace adulte, reste en français.
 - **4b. Séance guidée en SIL** — chaque leçon de SIL commence par une fiche parent de trois lignes (matériel, ce que je dis, si c’est difficile) et propose « Montrer à l’enfant » : écran plein avec le haut-parleur qui lit la consigne, le support de la leçon (image, phrase à lire en grand, extrait audio) et « J’ai fini ! », qui ramène l’adulte à la réponse. L’écran est construit à l’ouverture, pour ne pas doubler les extraits et les voix. Le CE1 n’est pas concerné : les enfants y lisent seuls.
-- **4c. Format commun** — à faire : sous-système, langue et classe jumelle dans les catalogues.
+- **4c. Classes jumelles** — les cinq catalogues déclarent leur sous-système (`francophone`), leur langue (`fr`) et leur classe anglophone jumelle (`twin`, statut `planned`) : Nursery One, Nursery Two, Class 1, Class 3, Class 4. `npm run validate` vérifie que ce sont les jumelles proposées par l’accueil. Décision reportée dans ADR-013.
+- **À décider** — un moteur unique pour les cinq classes (aujourd’hui trois : `app.js` pour le CE2, `ms/app-core-v13.js` pour la maternelle, `shared/learning-app.js` pour SIL et CE1) : refonte importante, à engager seulement si les classes anglophones doivent partager le même code.
 
 ## Lot 5 — SIL (en cours)
 
@@ -90,7 +91,7 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 Programmes anglophones : les liens eBASE (Level I à III) sont connus mais ne s’ouvrent pas depuis l’environnement de travail ; l’aperçu public du Level I s’arrête avant le contenu d’English Language (p. 41) et de Mathematics (p. 48). Il faudra le PDF complet pour la piste anglophone (A2, Class 1).
 
-Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote (reportée : ADR-012) ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
+Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine (reportée : ADR-013) ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote (reportée : ADR-012) ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
 
 ## Lots techniques à essayer sur appareils réels
 

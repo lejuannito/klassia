@@ -218,3 +218,17 @@ html[data-klassia-view="family"] .gs-top > a { display: inline-flex; align-items
 #app .activityCard.nursery-child .lesson-figure { width: 100%; max-height: 55vh; object-fit: contain; }
 #app .activityCard.nursery-child .nursery-number input { font-size: 2rem; min-height: 64px; text-align: center; }
 html.nursery-child-open, html.nursery-child-open body { overflow: hidden; }
+
+/* Lot 4b: guided session in SIL */
+.sil-card { margin-top: 12px; }
+body > .sil-child[hidden] { display: none; }
+body > .sil-child { position: fixed; inset: 0; z-index: 1000; overflow: auto; display: grid; align-content: start; gap: 14px; padding: 16px 16px 28px; background: #fff; color: #172033; }
+body > .sil-child h2 { margin: 0; text-align: center; font-size: 1.5rem; }
+body > .sil-child .sil-child-close { justify-self: end; min-height: 44px; padding: 0 14px; border: 1px solid #cad4ee; border-radius: 12px; background: #fff; color: #243f83; font-weight: 800; }
+body > .sil-child .speech-tools { margin: 0; }
+body > .sil-child .speech-tools :is(.speech-source, .speech-picker, .speech-status) { display: none; }
+body > .sil-child .speech-control { width: 100%; min-height: 72px; font-size: 1.4rem !important; font-weight: 800; border-radius: 16px; }
+body > .sil-child .speech-stop { min-height: 44px; padding: 0 14px; border: 1px solid #cad4ee; border-radius: 12px; background: #fff; color: #243f83; font-weight: 700; }
+body > .sil-child .sil-child-done { min-height: 64px; border: 0; border-radius: 16px; background: #1d6b2f; color: #fff; font-size: 1.3rem; font-weight: 900; }
+body > .sil-child img { max-width: 100%; max-height: 55vh; object-fit: contain; }
+body > .sil-child .lesson-support > .preserve-lines { font-size: 1.6rem; font-weight: 700; line-height: 1.4; }

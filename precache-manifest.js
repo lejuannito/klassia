@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "e44ce704cc8030494cb780879f4a036c4477a43d004cef4cd48620e1e55ad586",
+  "version": "3a89d41b806f46628876347212e066438354e4ef54dcbe54b89229a3cff0b5f2",
   "files": [
     {
       "url": "./app.js",
@@ -407,7 +407,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-core-v13.js",
-      "sha256": "1b3eb94c19d484874084850e29714ccf1442a498468aadd2499e907823dbe81c"
+      "sha256": "2bc43e780b303ec84ee29e7b14c8e69743b60a78ffe3658d15ddc189b7919a56"
     },
     {
       "url": "./ms/app-ui-v13.js",
@@ -515,7 +515,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "f8795308cfb646138d6bdcbb0a168586592fcd0e16f4ee835558581b37d54c7c"
+      "sha256": "4762945cfcab32161094d1b2839193a34ca000d2f1735fbe2415cb483712f077"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -575,7 +575,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "8eb9af0b4a12216b14edd4e6da2e7c4416531ec6090d90cc6728fcedd1cd752e"
+      "sha256": "3fde107407de1f861bd314746e8a1d6f14fc9434712ed6a0cfdf17c1d94e0289"
     },
     {
       "url": "./shared/ui.js",

@@ -37,6 +37,7 @@ function shell(body){
   if(sel)sel.onchange=()=>location.assign('?theme='+sel.value+'#home');
 }
 function route(){
+ document.documentElement.classList.remove('nursery-child-open');
  const h=location.hash||'#home';
  if(Klassia.specialRoute(NURSERY.grade,h))return;
  if(h.startsWith('#domain:')) return domainPage(h.split(':')[1],Number(h.split(':')[2]||0));

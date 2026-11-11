@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "608f3534b3a1eed4ad078715129972051d8c2304f666ee4ea37b15708aa50c10",
+  "version": "11dfdd612d993a6834f087c59082dc671bd9c3150c61adcc5e7a9ec7555c6271",
   "files": [
     {
       "url": "./app.js",
@@ -211,7 +211,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/qcm.json",
-      "sha256": "aedd090186a77571ee73b4c6fbdad97d031614ab60226460cfddd4d165e8ae9c"
+      "sha256": "3cd4d52407130ba9bcb30d05b185be52ed2f639ed2e73e68256d3661e5661345"
     },
     {
       "url": "./ce1/data/unit1.json",
@@ -527,7 +527,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "0a440571788e63c7922fb7297bb19f3536d9b2793e756d56bec667085c3b5e8d"
+      "sha256": "bbe5a3a240d3f80a6996501e9baa6eb4cb64dbd668131a52c5452d488f198d52"
     },
     {
       "url": "./shared/lesson-support.js",

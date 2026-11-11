@@ -108,12 +108,12 @@ for (const ref of ce1Catalog.units) {
  }
 }
 assert.equal(ce1Lessons, 183);
-// CE1 QCM reliés : 24 séries (3 matières × 8 unités), chaque question reliée à une leçon de la même unité.
+// CE1 QCM reliés : 32 séries (français, mathématiques, anglais et autres matières × 8 unités), chaque question reliée à une leçon de la même unité.
 {const bank=read('ce1/data/qcm.json'),unitOf=new Map();assert.equal(bank.grade,'CE1');let n=0;
  for(const ref of ce1Catalog.units)for(const l of read(`ce1/data/${ref.path}`).lessons)unitOf.set(l.id,ref.id);
  for(const s of bank.series){editorial(s);assert.ok(s.id&&s.subject&&s.questions.length,'CE1 QCM series '+s.id);
   for(const q of s.questions){n++;assert.ok(q.id&&q.enonce&&q.corrige,'CE1 QCM '+q.id);assert.ok(q.choix.length>=2&&new Set(q.choix).size===q.choix.length&&Number.isInteger(q.bonne)&&q.bonne>=0&&q.bonne<q.choix.length,'CE1 QCM choices '+q.id);assert.equal(unitOf.get(q.lecon),s.unit,'CE1 QCM lesson '+q.id);}}
- assert.equal(n,120);}
+ assert.equal(n,168);assert.equal(bank.series.length,32);}
 // Lot 4c : chaque classe francophone déclare son sous-système, sa langue et sa classe anglophone jumelle,
 // la même que celle que propose l'accueil (familyClasses dans shared/ui.js).
 {const ui=fs.readFileSync(path.join(root,'shared/ui.js'),'utf8'),family=JSON.parse(/const familyClasses=(\[.*?\]);/.exec(ui)[1].replace(/'/g,'"'));

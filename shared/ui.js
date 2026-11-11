@@ -15,7 +15,7 @@ function openProfiles(){
  d.addEventListener('click',e=>{if(e.target===d)d.close();});d.addEventListener('close',()=>{d.remove();document.querySelector('[data-profiles]')?.focus();});d.showModal();
 }
 const gradePaths={CE2:'',MS:'ms/',GS:'gs/',SIL:'sil/',CE1:'ce1/'};
-const gradeNames={CE2:'CE2',MS:'Moyenne section',GS:'Grande section bilingue',SIL:'SIL bilingue',CE1:'CE1 bilingue'};
+const gradeNames={CE2:'CE2',MS:'Moyenne section',GS:'Grande section',SIL:'SIL',CE1:'CE1'};
 function context(){const match=location.pathname.match(/\/(ms|gs|sil|ce1)(?:\/|\/index\.html)$/);const grade=match?match[1].toUpperCase():'CE2';return {grade,base:new URL(match?'../':'./',location.href)};}
 function rememberClass(){const c=context();if(!['#coverage','#bassa'].includes(location.hash)){sessionStorage.setItem('klassia_return',location.href);sessionStorage.setItem('klassia_review_grade',c.grade);}return c;}
 function returnToClass(){const c=context(),raw=sessionStorage.getItem('klassia_return');let url=new URL(raw||gradePaths[c.grade],c.base);if(url.origin!==location.origin||!url.pathname.startsWith(c.base.pathname))url=new URL('',c.base);location.href=url.href;}
@@ -122,7 +122,7 @@ function decorate(){
   // tap away behind « Parents »; nothing is removed.
   nav.classList.add('klassia-family-nav');
   nav.innerHTML=parts.back+parts.grade+parts.tools+parts.searchReturn+parts.back2+
-   `<details class="klassia-parents-menu"><summary>Parents</summary><div class="klassia-parents-panel" role="group" aria-label="Outils des parents"><p>Suivi, profils, sauvegarde et recherche.</p>${parts.overview}${parts.profiles}${parts.search}${parts.space}<p class="klassia-parents-workshop">Atelier pédagogique</p>${parts.review}</div></details>`;
+   `<details class="klassia-parents-menu"><summary>Parents</summary><div class="klassia-parents-panel" role="group" aria-label="Outils des parents"><p>Suivi, profils, sauvegarde et recherche.</p><p class="klassia-parents-edition">Édition pilote accompagnée : les contenus sont en cours de relecture pédagogique.</p>${parts.overview}${parts.profiles}${parts.search}${parts.space}<p class="klassia-parents-workshop">Atelier pédagogique</p>${parts.review}</div></details>`;
  } else {
   nav.innerHTML=parts.back+parts.grade+parts.search+parts.tools+parts.searchReturn+parts.space+parts.profiles+parts.overview+parts.review+parts.child+parts.back2;
  }
@@ -138,7 +138,7 @@ function decorate(){
   bassa.textContent='Prises bassa';
   nav.insertBefore(bassa,child);
  }
- const main=document.querySelector('main');if(main)main.insertAdjacentHTML('afterbegin',classNavigation(c.grade));if(main&&!main.querySelector('.edition-notice,.gs-notice')){const n=document.createElement('p');n.className='edition-notice';n.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(n);}
+ const main=document.querySelector('main');if(main)main.insertAdjacentHTML('afterbegin',classNavigation(c.grade));document.documentElement.dataset.klassiaView=['ELEVE','PARENT'].includes(role)?'family':'workshop';document.documentElement.dataset.klassiaRole=role;if(role==='ELEVE')main?.querySelectorAll('.edition-notice,.gs-notice').forEach(e=>e.remove());else if(main&&!main.querySelector('.edition-notice,.gs-notice')){const n=document.createElement('p');n.className='edition-notice';n.textContent='Édition pilote accompagnée · contenus en cours de relecture pédagogique.';main.prepend(n);}
  const showWelcome=main&&isLanding(c)&&['ELEVE','PARENT'].includes(role)&&!K.read(FAMILY_KEY,null);
  if(showWelcome)main.prepend(welcome(c));
  else if(main&&role==='ELEVE'&&isClassHome(c)&&typeof K.nextStep==='function'){let step=null;try{step=K.nextStep();}catch{}if(step)main.prepend(continueCard(step));}

@@ -1,4 +1,4 @@
-const NURSERY=window.KlassiaNurseryConfig||{grade:'MS',label:'Moyenne section bilingue'};
+const NURSERY=window.KlassiaNurseryConfig||{grade:'MS',label:'Moyenne section'};
 const app=document.getElementById('app');
 let catalog=null,theme=null,currentThemeMeta=null;
 const THEME_KEY='klassia_'+NURSERY.grade.toLowerCase()+'_theme_v2';

@@ -6,7 +6,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
 try{ctx=await b.newContext({viewport:{width:390,height:844},serviceWorkers:'block'});const p=await ctx.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://localhost:8765/');await p.getByRole('heading',{name:/Bonjour/}).waitFor();
 assert.equal(await p.locator('.klassia-catalogue-card').count(),8);
 assert.equal(await p.locator('.stats-row,.recommend-card,.v9-plan').count(),0);
-assert.deepEqual(await p.locator('[data-grade] option').allTextContents(),['CE2','Moyenne section','Grande section bilingue','SIL bilingue','CE1 bilingue']);
+assert.deepEqual(await p.locator('[data-grade] option').allTextContents(),['CE2','Moyenne section','Grande section','SIL','CE1']);
 assert.equal(await p.locator('.klassia-family-nav [data-review]').isVisible(),false,'Child bar hides the review link until Parents is opened');{const gate=p.locator('#parentGateDialog');await p.locator('.klassia-parents-menu summary').click();await gate.waitFor();await gate.locator('input').fill('0');await gate.getByRole('button',{name:'Continuer'}).click();await gate.locator('[data-gate-status]').filter({hasText:'pas le bon résultat'}).waitFor();await gate.getByRole('button',{name:'Annuler'}).click();await gate.waitFor({state:'detached'});assert.equal(await p.locator('.klassia-parents-menu').evaluate(e=>e.open),false,'A wrong answer keeps Parents closed');}await openParents(p);await p.locator('[data-profiles]').click();await p.locator('#localRole').selectOption('ENSEIGNANT');await p.waitForLoadState('load');await p.locator('.mobile-nav [data-go="coverage"]').waitFor();await p.locator('.mobile-nav [data-go="bassa"]').waitFor();await p.locator('[data-profiles]').click();await p.locator('#localRole').selectOption('ELEVE');await p.waitForLoadState('load');await p.getByRole('heading',{name:/Bonjour/}).waitFor();
 async function route(h){await p.evaluate(x=>location.hash=x,h);await p.waitForTimeout(250);}
 await route('#lesson:FR-U1-L1');await p.locator('input[name="q_ans_FRU1L1_1"][value="1"]').check();await p.getByRole('button',{name:'Vérifier ma réponse'}).click();assert.match(await p.locator('#ans_FRU1L1_1').innerText(),/Bravo/);
@@ -58,7 +58,7 @@ await openParents(p);await p.locator('[data-review]').click();await p.locator('#
 await openParents(p);await p.locator('[data-space]').click();await p.locator('#localRole').selectOption('PARENT');
 await p.locator('#overviewDialog progress').last().waitFor();
 assert.equal(await p.locator('#overviewDialog progress').count(),5);
-assert.match(await p.locator('#overviewDialog').innerText(),/CE1 bilingue\s+1 \/ 89/);
+assert.match(await p.locator('#overviewDialog').innerText(),/CE1\s+1 \/ 89/);
 await p.locator('#overviewDialog [aria-label="Fermer"]').click();
 await p.getByRole('link',{name:'Carnet du pilote',exact:true}).waitFor();
 await p.locator('[data-child]').click();await p.locator('.klassia-parents-menu summary').waitFor();assert.equal(await p.evaluate(()=>sessionStorage.getItem('klassia_parent_gate_until')),null,'Returning to the child view re-arms the parental question');await openParents(p);await p.locator('[data-space]').filter({hasText:'Enfant'}).waitFor();

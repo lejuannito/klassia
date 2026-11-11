@@ -21,7 +21,8 @@
       "course": "La lettre a fait le son [a], comme au début de « ananas » et à la fin de « papa ». Pour savoir si on entend [a], on dit le mot lentement en séparant les syllabes.\n\nLa lettre a s’écrit en minuscule (a) ou en majuscule (A). Pour la tracer, on fait un rond, puis une petite canne collée à droite.",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "a A a A a\na i a o a\nA a O a I"
+        "text": "a A a A a\na i a o a\nA a O a I",
+        "audio": "../assets/sil-u2-r1-lecture.mp3"
       },
       "model": "L’adulte dit « papa » lentement : pa-pa. On entend [a] deux fois, à la fin de chaque syllabe. Dans « vélo », on n’entend pas [a].",
       "guided": "L’adulte dit des mots : ami, lit, sac, tomate, pied. L’enfant lève la main quand il entend [a]. Puis il trace a dans l’air, sur la table, puis sur l’ardoise.",
@@ -48,6 +49,7 @@
         {
           "prompt": "Écoute les mots. Écris a si tu entends [a], sinon fais un petit trait.",
           "listen": "chat. lit. sac.",
+          "audio": "../assets/sil-u2-r1-ecoute-3.mp3",
           "answer": "chat : a ; lit : un trait ; sac : a.",
           "explanation": "On entend [a] dans chat et dans sac. Dans lit, on entend [i].",
           "ink": "lignes"
@@ -77,7 +79,8 @@
       "course": "La lettre o fait le son [o], comme dans « moto » et « olive ». Pour le dire, on arrondit la bouche.\n\nLe son [o] s’écrit aussi d’autres façons qu’on apprendra plus tard. Cette semaine, on retient la lettre o : un rond bien fermé, tracé en partant du haut.",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "o O o O o\na o a o o\nO a o A o"
+        "text": "o O o O o\na o a o o\nO a o A o",
+        "audio": "../assets/sil-u2-r2-lecture.mp3"
       },
       "model": "Dans « moto » : mo-to, on entend [o] deux fois. Dans « vélo », on l’entend à la fin.",
       "guided": "Jeu de la bouche ronde : l’enfant arrondit la bouche chaque fois qu’il entend [o] dans les mots dits par l’adulte : pomme, lit, domino, sac, robe. Puis il sépare les cartes a et o mélangées.",
@@ -95,6 +98,7 @@
         {
           "prompt": "Écoute les mots. Écris o si tu entends [o], a si tu entends [a].",
           "listen": "pomme. sac. vélo.",
+          "audio": "../assets/sil-u2-r2-ecoute-3.mp3",
           "answer": "pomme : o ; sac : a ; vélo : o.",
           "explanation": "On écoute le mot entier, puis on cherche le son.",
           "ink": "lignes"
@@ -124,7 +128,8 @@
       "course": "La lettre i fait le son [i], comme dans « lit » et « riz ». On la trace avec un petit trait et un point au-dessus : sans le point, ce n’est pas encore i.\n\nLa lettre y, le i grec, fait souvent le même son, comme dans « stylo ».",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "i I i I\na i o, i a o, o i a\nI A O"
+        "text": "i I i I\na i o, i a o, o i a\nI A O",
+        "audio": "../assets/sil-u2-r3-lecture.mp3"
       },
       "model": "Dans « ami » : a-mi, on entend [a] au début et [i] à la fin. Dans « sac », on n’entend pas [i].",
       "guided": "L’adulte dit des mots : tapis, sac, riz, moto, ici. L’enfant montre la carte i quand il entend [i]. Puis on lit ensemble la deuxième ligne en montrant chaque voyelle.",
@@ -151,6 +156,7 @@
         {
           "prompt": "Écoute et écris les voyelles dans l’ordre.",
           "listen": "i. o. a. i.",
+          "audio": "../assets/sil-u2-r3-ecoute-3.mp3",
           "answer": "i, o, a, i.",
           "explanation": "Une voyelle à la fois, de gauche à droite.",
           "ink": "lignes"
@@ -560,7 +566,8 @@
       "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit, on écoute, puis on écrit les trois voyelles de l’unité.",
       "support": {
         "title": "Bilan : je relis",
-        "text": "a o i A O I\ni o a, a a o, o i i"
+        "text": "a o i A O I\ni o a, a a o, o i i",
+        "audio": "../assets/sil-u2-r4-lecture.mp3"
       },
       "model": "Pour lire une suite de voyelles, on montre chaque lettre du doigt, de gauche à droite, et on dit son son.",
       "guided": "L’adulte dit « ami », « moto », « riz », « papa » ; l’enfant dit quelle voyelle il entend le plus. Puis il lit la deuxième ligne en montrant chaque lettre.",
@@ -578,6 +585,7 @@
         {
           "prompt": "Écoute et écris les voyelles dans l’ordre.",
           "listen": "o. i. a. o.",
+          "audio": "../assets/sil-u2-r4-ecoute-3.mp3",
           "answer": "o, i, a, o.",
           "explanation": "On écrit de gauche à droite en laissant un petit espace entre les lettres.",
           "ink": "lignes"

@@ -21,7 +21,8 @@
       "course": "Quand o et u sont collés, on ne les lit plus séparément : ou fait un seul son, comme dans « hibou », « poule » et « roue ». Deux lettres, un seul son.",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "ou OU ou\nou, o u, ou i, a ou, ou é\nu ou u ou"
+        "text": "ou OU ou\nou, o u, ou i, a ou, ou é\nu ou u ou",
+        "audio": "../assets/sil-u4-r1-lecture.mp3"
       },
       "model": "Dans « outil », on entend « ou » au début. On glisse un seul doigt sous les deux lettres o et u : c’est un seul son.",
       "guided": "L’adulte dit un mot : poule, lune, roue, jus, hibou. L’enfant dit s’il entend « ou » ou « u ». Puis on écrit ou en liant le o et le u.",
@@ -44,6 +45,7 @@
         {
           "prompt": "Écoute les mots. Écris ou si tu entends « ou », u si tu entends « u ».",
           "listen": "roue. jus. poule.",
+          "audio": "../assets/sil-u4-r1-ecoute-3.mp3",
           "answer": "roue : ou ; jus : u ; poule : ou.",
           "explanation": "Dans jus, on entend « u » ; dans roue et poule, « ou ».",
           "ink": "lignes"
@@ -74,6 +76,7 @@
       "support": {
         "title": "À lire avec l’adulte",
         "text": "Lola, Lili, Lou, il a lu\nLola a lu.",
+        "audio": "../assets/sil-u4-r2-lecture.mp3",
         "table": {
           "caption": "Tableau des syllabes",
           "headers": [
@@ -123,6 +126,7 @@
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "la. lo. lu.",
+          "audio": "../assets/sil-u4-r2-ecoute-3.mp3",
           "answer": "la, lo, lu.",
           "explanation": "On écrit d’abord l, puis la voyelle entendue.",
           "ink": "lignes"
@@ -153,6 +157,7 @@
       "support": {
         "title": "À lire avec l’adulte",
         "text": "ami, mal, lama, mou, Mila, Ali\nAli a mal. Mila a lu.",
+        "audio": "../assets/sil-u4-r3-lecture.mp3",
         "table": {
           "caption": "Tableau des syllabes",
           "headers": [
@@ -202,6 +207,7 @@
         {
           "prompt": "Écoute les syllabes et écris-les.",
           "listen": "ma. mou. mi.",
+          "audio": "../assets/sil-u4-r3-ecoute-3.mp3",
           "answer": "ma, mou, mi.",
           "accept": [
             "ma, mou, mi"
@@ -644,6 +650,7 @@
       "support": {
         "title": "Bilan : je relis",
         "text": "ami, Lola, mou, lama\nLou a mal. Lili a lu.",
+        "audio": "../assets/sil-u4-r4-lecture.mp3",
         "table": {
           "caption": "Tableau des syllabes",
           "headers": [
@@ -694,6 +701,7 @@
         {
           "prompt": "Écoute les mots et écris-les.",
           "listen": "ami. mal. Lola.",
+          "audio": "../assets/sil-u4-r4-ecoute-3.mp3",
           "answer": "ami, mal, Lola.",
           "accept": [
             "ami, mal, Lola"

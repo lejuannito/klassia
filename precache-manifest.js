@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "cc745e6c5beb0400b14711490f129fef6a5e289138216cb6a5c113ef13793bb7",
+  "version": "8a603c017d6599ee062351fd2aa9ce08d72d29b345e35e9e5127517feaf285ee",
   "files": [
     {
       "url": "./app.js",
@@ -182,8 +182,100 @@ self.KLASSIA_RELEASE = {
       "sha256": "8ed71e5b9177819a7d095e46347a066fa6b83668ac30cb1a5a825b0604571413"
     },
     {
+      "url": "./assets/sil-u1-r1-ecoute-3.mp3",
+      "sha256": "1acab9d0de64a1cc831dd8bcfaade7144d5662c9a6997638421dba5e21a865e6"
+    },
+    {
+      "url": "./assets/sil-u1-r1-lecture.mp3",
+      "sha256": "b6f6d1622f4d3a296bddb1382e0826ba0ce275fa3a4e3b2c446e2f4c4afbf3f8"
+    },
+    {
+      "url": "./assets/sil-u1-r2-lecture.mp3",
+      "sha256": "83d109273d2d247fa36867376438c5a9903563a0fcbb161232ce2d11dc87af61"
+    },
+    {
+      "url": "./assets/sil-u1-r3-ecoute-3.mp3",
+      "sha256": "18b2dba65c589ccf0fe5db1f33dbd33fb76c09c2013c9e92553c6735a4c7a058"
+    },
+    {
+      "url": "./assets/sil-u1-r3-lecture.mp3",
+      "sha256": "f4409ef5850e10abeb1d75fad68197622bb0ce22d085517cf4ab9a8444bfef10"
+    },
+    {
+      "url": "./assets/sil-u1-r4-ecoute-3.mp3",
+      "sha256": "a339091a24df303bd77a76cc318d56de5ec681c4406224b20485da4becf74a30"
+    },
+    {
+      "url": "./assets/sil-u1-r4-lecture.mp3",
+      "sha256": "0fb1f2e54503a118d84265ce34308aab01c85f9cbb3306023c6e445e2182aa33"
+    },
+    {
       "url": "./assets/sil-u1-telephone.svg",
       "sha256": "d0fe89504315c85b4af6c3c70dfdd15b8a8df14366fa56a2a293332deda1d896"
+    },
+    {
+      "url": "./assets/sil-u2-r1-ecoute-3.mp3",
+      "sha256": "76abeb50adae26d21587eefbfba3a8d3c35f614c02822fa20502541bc06bd20a"
+    },
+    {
+      "url": "./assets/sil-u2-r1-lecture.mp3",
+      "sha256": "4d7c70ef0977245488e9bffbfe0d9d1e0d33f1895456c8e2d2e7391393c3f832"
+    },
+    {
+      "url": "./assets/sil-u2-r2-ecoute-3.mp3",
+      "sha256": "60b7306d514b0be65b826213dafc33b3a29d402e18e18ac85d0ddf2c4fbddfba"
+    },
+    {
+      "url": "./assets/sil-u2-r2-lecture.mp3",
+      "sha256": "d70a101da6b49a2edebaa31f57ce34270ed97c0d1a04a9a6c4f0694e1889dd20"
+    },
+    {
+      "url": "./assets/sil-u2-r3-ecoute-3.mp3",
+      "sha256": "c32582256c73f9449fc1ca0876f4c79593bb37f9da8baebc2ecaf8ff9ef34ac8"
+    },
+    {
+      "url": "./assets/sil-u2-r3-lecture.mp3",
+      "sha256": "ea07256b845bcbb1ed03f81bcb58b0d34472aa7a882cb6afd83cd23254709756"
+    },
+    {
+      "url": "./assets/sil-u2-r4-ecoute-3.mp3",
+      "sha256": "2ec7a63a1b616da132ef676e48744f478fb6e4f6d30808ba524ee493b039f11a"
+    },
+    {
+      "url": "./assets/sil-u2-r4-lecture.mp3",
+      "sha256": "3fbd70d679ea109a4c9a0b98980d60855488ec4a98bae184bf3d4b0a7f9dcdeb"
+    },
+    {
+      "url": "./assets/sil-u3-r1-ecoute-3.mp3",
+      "sha256": "1afc49f07e6dd926419b879c9c1c83b7b95ce18590d2eee97e943f05b2bea2cb"
+    },
+    {
+      "url": "./assets/sil-u3-r1-lecture.mp3",
+      "sha256": "d008cb795aa2aac1c645a27f55aecd9e7d979a513f49106c97ae2d131629387a"
+    },
+    {
+      "url": "./assets/sil-u3-r2-ecoute-3.mp3",
+      "sha256": "c5b2286a19dafca01edd797e1ceb610ab626bd47c3e19e4e0bd683de3490d01b"
+    },
+    {
+      "url": "./assets/sil-u3-r2-lecture.mp3",
+      "sha256": "56e8d248adabf2d9071b7fc99af45501a8a4b296b5746d2ef8d3e51e8d1200d2"
+    },
+    {
+      "url": "./assets/sil-u3-r3-ecoute-3.mp3",
+      "sha256": "815c954a0136a4c0e6c3ee49938e2db035ed4f114df36dca918aa0d1610142db"
+    },
+    {
+      "url": "./assets/sil-u3-r3-lecture.mp3",
+      "sha256": "b48793b124ee96fa9031e1fa36ac30696fa26cb8dd296221a4608ff45af58202"
+    },
+    {
+      "url": "./assets/sil-u3-r4-ecoute-3.mp3",
+      "sha256": "464a1968fb1868dbc433df4b0dc44a7999e87e8fb2a803258f6af92a1a828ab0"
+    },
+    {
+      "url": "./assets/sil-u3-r4-lecture.mp3",
+      "sha256": "d1a492ddab437811f9394d22c24abc852b953ba7322ea9525cf8bf2c11473129"
     },
     {
       "url": "./assets/sil-u4-l01-lou-a-mal.mp3",
@@ -198,8 +290,168 @@ self.KLASSIA_RELEASE = {
       "sha256": "374c12c97086c48fba7d1020711ddec0baa36baabcbbb99e116a896f14601efb"
     },
     {
+      "url": "./assets/sil-u4-r1-ecoute-3.mp3",
+      "sha256": "e04ec718687727e92c69a6b5d9151381204f3be8ddc352f2bfbffc18e3a8aba9"
+    },
+    {
+      "url": "./assets/sil-u4-r1-lecture.mp3",
+      "sha256": "0c5d962b4035ecb15f558d93a5e78427b3967b2e7f778d0453f9aec27aa72dea"
+    },
+    {
+      "url": "./assets/sil-u4-r2-ecoute-3.mp3",
+      "sha256": "da07938863ca78d2aa8866040ba83cc1aadd724eed041d61bf3155f8d0ef9194"
+    },
+    {
+      "url": "./assets/sil-u4-r2-lecture.mp3",
+      "sha256": "f1a8f71e4a54fb1af9afae498706b530aec2f0a6ac45dd3d824f1b6cd8240db8"
+    },
+    {
+      "url": "./assets/sil-u4-r3-ecoute-3.mp3",
+      "sha256": "d134e728b88e88a2198799ad2be07c93719eb29689c6885823250cd59697dc92"
+    },
+    {
+      "url": "./assets/sil-u4-r3-lecture.mp3",
+      "sha256": "8521c4f8367d7802068b16885d40a2948e407be72ee6e9daee40ab8e26cda05d"
+    },
+    {
+      "url": "./assets/sil-u4-r4-ecoute-3.mp3",
+      "sha256": "c50e0bba6adaaa2329c6d4a738f126c867954832571720b7c7e2a89bb697e649"
+    },
+    {
+      "url": "./assets/sil-u4-r4-lecture.mp3",
+      "sha256": "31385d6f221e59ada93108fbbe52929a5e5e9b91cdd2600f610eb4ebb4544803"
+    },
+    {
       "url": "./assets/sil-u5-l02-school-by-bus.mp3",
       "sha256": "a5e3cf29a510254d33b87dec51ff87cfcb5f0bccb0d0c2cab94d2621bb466a98"
+    },
+    {
+      "url": "./assets/sil-u5-r1-ecoute-3.mp3",
+      "sha256": "fd50b2b03c61c7d77ee2b3a46ce620d18ea9fb1f6092ae103081e543d486aefb"
+    },
+    {
+      "url": "./assets/sil-u5-r1-lecture.mp3",
+      "sha256": "f9670ec1cc9b0325189ebe643957f8bb1759d28a2666b398c30cac1294517fcb"
+    },
+    {
+      "url": "./assets/sil-u5-r2-ecoute-3.mp3",
+      "sha256": "75b4278f2f4d6a439583ffdd911657018ab1c13f65e6d8bbb905380d4b7c26b7"
+    },
+    {
+      "url": "./assets/sil-u5-r2-lecture.mp3",
+      "sha256": "9eb5a89da6f0f87844dc9add3ad2a661e34184f186b42f5159791a59d51e2790"
+    },
+    {
+      "url": "./assets/sil-u5-r3-ecoute-3.mp3",
+      "sha256": "68a992f5499be48a522ed28d4f8d62eda2ca15e8d059408b8d1410e6692ee243"
+    },
+    {
+      "url": "./assets/sil-u5-r3-lecture.mp3",
+      "sha256": "4b67258982a1d78092536c7c0a3b8b2d8bd2d510792ec4c69684cb8828452c0d"
+    },
+    {
+      "url": "./assets/sil-u5-r4-ecoute-3.mp3",
+      "sha256": "491e0edabd43359706d86e1b844373332fa534d952eb1309f507d0df5de8b141"
+    },
+    {
+      "url": "./assets/sil-u5-r4-lecture.mp3",
+      "sha256": "2c41be8f24243d0af2f3f42571cf63f5c016ada609ee53c5e33b5e41ff7ee65f"
+    },
+    {
+      "url": "./assets/sil-u6-r1-ecoute-3.mp3",
+      "sha256": "a20ea90d6fdfde78c6a2300dc4034f19661b1d4254cb42d890e896676a176f31"
+    },
+    {
+      "url": "./assets/sil-u6-r1-lecture.mp3",
+      "sha256": "786d399cfa7aa6648e728db30418199cd42548211dd941150f0d001ed35a14f5"
+    },
+    {
+      "url": "./assets/sil-u6-r2-ecoute-3.mp3",
+      "sha256": "e623f9492727efdefd7f3ac9cbe9d9bee7a800ea606470f5919989523e4b8af8"
+    },
+    {
+      "url": "./assets/sil-u6-r2-lecture.mp3",
+      "sha256": "e656ff79610c0f0368ac6e49ddd8372e3c269151f836a390e9b3df09019ea05c"
+    },
+    {
+      "url": "./assets/sil-u6-r3-ecoute-3.mp3",
+      "sha256": "c47445ac86ba8dd34f372dd8931859df5e1f0510fca8ed8a6f34aad39bcfa37b"
+    },
+    {
+      "url": "./assets/sil-u6-r3-lecture.mp3",
+      "sha256": "d31d6b947066241a81ef5f57af4e643ca5a2e66d5edd416bba2a4a4dbd94f3fa"
+    },
+    {
+      "url": "./assets/sil-u6-r4-ecoute-3.mp3",
+      "sha256": "5d35c0dec36ea2bf2e8f5a4d9ffce4cb2600706d2678affce42b39b20a137ab3"
+    },
+    {
+      "url": "./assets/sil-u6-r4-lecture.mp3",
+      "sha256": "81227d0ebe4f3858c1ac298964c0f682cc4915115dd48dffaec05f001ba7f7c8"
+    },
+    {
+      "url": "./assets/sil-u7-r1-ecoute-3.mp3",
+      "sha256": "e9d414942959d4e4eed36ef067a1dfe2e59c4b054f893e2cfd19278ab3f6cc97"
+    },
+    {
+      "url": "./assets/sil-u7-r1-lecture.mp3",
+      "sha256": "c0620a3911cea218d5058dae21b193659d0c18fecfc298250bdfe4f549c42c2d"
+    },
+    {
+      "url": "./assets/sil-u7-r2-ecoute-3.mp3",
+      "sha256": "49c7da8077a686f9f956c225b9f12343acbe5f3613e8731ec2096fe5639ec566"
+    },
+    {
+      "url": "./assets/sil-u7-r2-lecture.mp3",
+      "sha256": "719edd875772592d9b681651dad818373ebb3e8e7d39d7fbb11c4b3cee7efe06"
+    },
+    {
+      "url": "./assets/sil-u7-r3-ecoute-3.mp3",
+      "sha256": "9b42bdcf831642569ebf1d90303dd73c04987ad36d68c3b32097bf5d9d56a6df"
+    },
+    {
+      "url": "./assets/sil-u7-r3-lecture.mp3",
+      "sha256": "204c1955924f6df95a2cf603be23094957d14759010d9de122e77081b1b259d9"
+    },
+    {
+      "url": "./assets/sil-u7-r4-ecoute-3.mp3",
+      "sha256": "4cfd103aafc2e8062d41adc2da892ff16eb0241bae754e65e18e363cf19d8796"
+    },
+    {
+      "url": "./assets/sil-u7-r4-lecture.mp3",
+      "sha256": "751d8fdc0dacceda38fc977b8c37aa081ee6ba9aff17427693c04202ab777c18"
+    },
+    {
+      "url": "./assets/sil-u8-r1-ecoute-3.mp3",
+      "sha256": "02b7262bc09776f6976d207fbbeaee21969c15e6ef4c9e5e6dc25e1fa60996c6"
+    },
+    {
+      "url": "./assets/sil-u8-r1-lecture.mp3",
+      "sha256": "a85974f2f44dd5bdae0510a99ab3e50e60d1431eab395d54d62b02f6a87505e4"
+    },
+    {
+      "url": "./assets/sil-u8-r2-ecoute-3.mp3",
+      "sha256": "1a0f9e29417929c32bc7131abd8224b4dffcf8adee6b5e7acee92890cbc5013f"
+    },
+    {
+      "url": "./assets/sil-u8-r2-lecture.mp3",
+      "sha256": "09cab56e9337f2fab86ee08aa48a49cde8fb10af2c3f7879aa42aeb7cc5c6892"
+    },
+    {
+      "url": "./assets/sil-u8-r3-ecoute-3.mp3",
+      "sha256": "e39e9bbbbe3dc8793167b57e2fbca009a1a507a15d7f8af8306c5cb9482871ab"
+    },
+    {
+      "url": "./assets/sil-u8-r3-lecture.mp3",
+      "sha256": "33a6f06e824b8c7ad61d7b3e27d4416d43dc89564108d9355e82b01b5f278d68"
+    },
+    {
+      "url": "./assets/sil-u8-r4-ecoute-3.mp3",
+      "sha256": "086237da51ee5b6721cc600249a01d84daa1c4fab6dab1aff3c497cbb8135040"
+    },
+    {
+      "url": "./assets/sil-u8-r4-lecture.mp3",
+      "sha256": "0d0be441f174c3d93aec696fffa696e43ecd699be2e615f33bc4e7835ec28515"
     },
     {
       "url": "./assets/u6-plan-noeuds.svg",
@@ -607,35 +859,35 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "0f42a9e943faa70d2b95027fb36fb43c3585ebde81b457e0a2017c8d2fa8edb4"
+      "sha256": "b1b1ba86a8dc6eedd250cd4f71c63ea434b112dff1cf815fe3dc030bb46b582f"
     },
     {
       "url": "./sil/data/sil-u2.json",
-      "sha256": "4239f5208ebf6aadf8df4af60c3ef814643f774854f9f8410bacdac0b1f3d2b4"
+      "sha256": "d9f2f3500fa3d81b14d326313f8a25556cb628575352eb0c27bceafab3b9d937"
     },
     {
       "url": "./sil/data/sil-u3.json",
-      "sha256": "6c7cbf660e96cedac93af72171315c01da125b0ad423efc9d5df4afca3c4d77d"
+      "sha256": "54eb9b66d2e474ecd69fc083c013f8b01beb1b47b46135af309623e86d03527e"
     },
     {
       "url": "./sil/data/sil-u4.json",
-      "sha256": "bc7eae9d3d32511f6348b94b70fdaa772460706659fab3eca3530bae4e2c050f"
+      "sha256": "42af1e05c7e91ba9be541aa0d8af10be4b93f77a60105b39f22c4dfa0d6ed341"
     },
     {
       "url": "./sil/data/sil-u5.json",
-      "sha256": "179a27ac6da4e234741f45a027803b11aea3402aa7de2352c03fc61caf6e0190"
+      "sha256": "1ca8d6b7bdb2a53e453fa982c12690f80109e154a5ef3abd3bde5d14ec48c806"
     },
     {
       "url": "./sil/data/sil-u6.json",
-      "sha256": "3f6a5eceaf0f99d32978667dee3d75993d3e9d080f368fe19a93ce7380f1fe1b"
+      "sha256": "c0c9c2b8a5bf9ea47250a7d5a962f6eea92037e259f6dbed76b36f3197a71bce"
     },
     {
       "url": "./sil/data/sil-u7.json",
-      "sha256": "b0168521431d9363e11b72551d7900001e4bb689deabca3924d5a26246048174"
+      "sha256": "d17f0cbac265efbec0faa2b3be6500d4ffcd4b18c04a803c44727a774abfe369"
     },
     {
       "url": "./sil/data/sil-u8.json",
-      "sha256": "935c958ae673a1bd6913308cc9a0e663d77ca320fc89f1a7ab1f3911c4d0d4f3"
+      "sha256": "bad852515bc0bdbc26572d0279f67e8b6e9f26f054f3a09a80ed42ae63e43b9d"
     },
     {
       "url": "./sil/index.html",

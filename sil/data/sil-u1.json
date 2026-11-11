@@ -18,7 +18,8 @@
       "course": "Les lettres servent à écrire les mots. Six lettres s’appellent des voyelles : a, e, i, o, u et y. On peut les chanter longtemps, la bouche ouverte : aaaa, oooo.\n\nLes autres lettres s’appellent des consonnes. Cette semaine, on apprend à reconnaître la forme des voyelles et à dire leur nom. On ne lit pas encore de mots.",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "a e i o u y\nA E I O U Y\nm a t i r o s u l e"
+        "text": "a e i o u y\nA E I O U Y\nm a t i r o s u l e",
+        "audio": "../assets/sil-u1-r1-lecture.mp3"
       },
       "model": "L’adulte montre a et dit : « a, comme au début de ami ». Il fait de même avec o (« olive »), i (« île »), u (« usine ») et e (« le »). La lettre y s’appelle i grec.",
       "guided": "L’adulte dit le nom d’une voyelle ; l’enfant la montre sur la première ligne. Puis on échange : l’enfant montre une voyelle et l’adulte la nomme. Ensemble, on chante chaque voyelle en ouvrant grand la bouche.",
@@ -36,6 +37,7 @@
         {
           "prompt": "Écoute les voyelles. Écris-les sur les lignes ou montre les cartes, dans l’ordre.",
           "listen": "o. a. i.",
+          "audio": "../assets/sil-u1-r1-ecoute-3.mp3",
           "answer": "o, a, i.",
           "explanation": "On écoute une voyelle à la fois et on écrit de gauche à droite. Montrer la carte suffit si l’enfant ne trace pas encore.",
           "ink": "lignes"
@@ -62,7 +64,8 @@
       "course": "L’alphabet est la liste des 26 lettres qui servent à écrire les mots, toujours dans le même ordre. Chaque lettre a un nom (a, bé, cé, dé…) et une forme.\n\nUne lettre s’écrit en minuscule (a) ou en majuscule (A). La majuscule sert au début d’un prénom et au début d’une phrase.",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "a b c d e f g h i j k l m\nA B C D E F G H I J K L M\nAwa, Bello, Fanta, Lamine"
+        "text": "a b c d e f g h i j k l m\nA B C D E F G H I J K L M\nAwa, Bello, Fanta, Lamine",
+        "audio": "../assets/sil-u1-r2-lecture.mp3"
       },
       "model": "L’adulte récite l’alphabet en montrant chaque lettre. Puis il montre le prénom Bello : « Bello commence par B, la majuscule de b. »",
       "guided": "Récitez ensemble l’alphabet en montrant les lettres. L’adulte cache une lettre de a à m ; l’enfant dit laquelle manque. Puis associez des paires : a et A, b et B, d et D, e et E.",
@@ -132,7 +135,8 @@
       "course": "On termine l’alphabet : n o p q r s t u v w x y z. Certaines lettres se ressemblent : b et d, p et q, n et u. Pour ne pas les confondre, on regarde de quel côté se trouve le rond et vers où la lettre est tournée.",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "n o p q r s t u v w x y z\nN O P Q R S T U V W X Y Z\nb d, p q, n u"
+        "text": "n o p q r s t u v w x y z\nN O P Q R S T U V W X Y Z\nb d, p q, n u",
+        "audio": "../assets/sil-u1-r3-lecture.mp3"
       },
       "model": "Dans b, le rond est à droite de la canne. Dans d, le rond est à gauche. L’adulte trace les deux lettres l’une sous l’autre en disant leur nom.",
       "guided": "L’adulte montre une lettre parmi b, d, p, q, n et u ; l’enfant la nomme. Puis l’enfant range trois cartes dans l’ordre de l’alphabet : s, p, v devient p, s, v.",
@@ -157,6 +161,7 @@
         {
           "prompt": "Écoute le nom des lettres. Écris-les ou montre-les, dans l’ordre.",
           "listen": "r. s. v.",
+          "audio": "../assets/sil-u1-r3-ecoute-3.mp3",
           "answer": "r, s, v.",
           "accept": [
             "r, s, v"
@@ -919,7 +924,8 @@
       "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On fait les exercices sans se presser. Ce qui n’est pas encore réussi sera repris avec l’adulte.",
       "support": {
         "title": "Bilan : je relis",
-        "text": "a e i o u y\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nAwa, Fanta, Omar, Ida"
+        "text": "a e i o u y\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nAwa, Fanta, Omar, Ida",
+        "audio": "../assets/sil-u1-r4-lecture.mp3"
       },
       "model": "Pour trouver l’initiale d’un prénom, on regarde la première lettre, à gauche. Dans Omar, c’est O : une voyelle en majuscule.",
       "guided": "L’adulte demande : « Montre-moi une voyelle », « Montre-moi la lettre r », « Récite l’alphabet jusqu’à h ». L’enfant répond à son rythme.",
@@ -940,6 +946,7 @@
         {
           "prompt": "Écoute et écris les lettres, ou montre-les, dans l’ordre.",
           "listen": "a. f. o.",
+          "audio": "../assets/sil-u1-r4-ecoute-3.mp3",
           "answer": "a, f, o.",
           "explanation": "a et o sont des voyelles, f est une consonne.",
           "ink": "lignes"

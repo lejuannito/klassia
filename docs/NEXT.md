@@ -12,7 +12,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 2. Corrections enrichies | 2a à 2g | — | — |
 | 3. Semaine et manuels | SIL, CE1, CE2 ; manuels de français SIL et CE2 | — | sommaires des autres manuels |
 | 4. Format commun et séance guidée | séance guidée MS, GS, SIL ; classes jumelles déclarées (4c) | moteur unique (refonte, à décider) | — |
-| 5. SIL | 32 leçons de lecture | — | programme Niveau 1 (mesures, géométrie, anglais) ; sons enregistrés |
+| 5. SIL | 32 leçons de lecture avec sons enregistrés | mesures, géométrie, anglais (programme reçu) | — |
 | 6. Maternelle | MS complétée, GS réécrite, vue anglaise | parcours « pour aller plus loin » | programme de maternelle (parcours de base) ; images et voix |
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés dans toutes les matières sauf la langue nationale | — | livre de l’œuvre de littérature |
 | 8. Langue de la maison | enregistreur familial | modèle multilingue des leçons LCN | référence AGLC et relecteur bassa |
@@ -58,7 +58,8 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 ## Lot 5 — SIL (en cours)
 
 - **5a. Une leçon de lecture par semaine** — 32 leçons « Français · lecture » (`SIL-U<n>-R1` à `R4`) : un son par semaine dans l’ordre de *Champions en français SIL* (voyelles et alphabet en unité 1, puis a, o, i · u, e/é, è/ê · ou, l, m · r, t, p · s, b, d · n, an/en, v · c/qu/k, z/f, eu) et un bilan de lecture en semaine 4. Chaque leçon donne un tableau de syllabes, des mots et une ou deux phrases à comprendre, une dictée écoutée avec la voix de l’appareil et une zone d’écriture au doigt. À partir de l’unité 4, `npm run validate` vérifie que les mots à lire n’emploient que des lettres déjà étudiées. Le champ `week` place ces leçons dans « Cette semaine » (la leçon de synthèse L01 de chaque unité passe en semaine 3, le bilan ouvre la semaine 4) ; la leçon indique la page du manuel pour la semaine. Textes rédigés pour Klassia, à relire par un enseignant de SIL.
-- **5b. À faire** — sons enregistrés (voix Piper non téléchargeables dans l’environnement actuel ; voix de l’appareil en attendant), mesures et géométrie, anglais d’après le programme francophone.
+- **5b. Sons enregistrés** — les 32 leçons de lecture de SIL ont maintenant un enregistrement fixe du support (lettres, syllabes, mots et phrases) et de la dictée écoutée : 63 extraits (2,1 Mo) générés avec la voix française Piper `fr_FR-siwis-medium`, avec le même réglage que les extraits du pilote, et téléchargés avec l’édition. La voix de l’appareil reste proposée en plus. Pour que la voix lise un son et non le nom d’une lettre, quelques graphies isolées sont réécrites pour la synthèse seulement (é, è, ê, am, em, man) ; le texte affiché ne change pas. Script reproductible : `scripts/audio-sil.py` (modèles hors dépôt). À faire écouter pendant le pilote.
+- **5c. À faire** — mesures et géométrie, anglais d’après le programme Niveau 1 (programme SIL–CP reçu le 11 novembre 2026).
 
 ## Lot 6 — maternelle (en cours)
 

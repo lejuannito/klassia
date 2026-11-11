@@ -21,7 +21,8 @@
       "course": "La lettre u fait le son [u], comme dans « lune », « jus » et « tortue ». Pour le dire, on avance les lèvres serrées.\n\nAttention : u n’est pas n. La lettre u est ouverte en haut ; la lettre n est ouverte en bas.",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "u U u U\nu a, i u, o u i, a u o\nu n u"
+        "text": "u U u U\nu a, i u, o u i, a u o\nu n u",
+        "audio": "../assets/sil-u3-r1-lecture.mp3"
       },
       "model": "Dans « tortue » : tor-tue, on entend [u] à la fin. Dans « lit », on entend [i], pas [u].",
       "guided": "L’adulte dit des mots : jus, riz, mur, lit, plume. L’enfant montre la carte u ou la carte i selon ce qu’il entend. Puis on lit ensemble la deuxième ligne.",
@@ -39,6 +40,7 @@
         {
           "prompt": "Écoute et écris les voyelles dans l’ordre.",
           "listen": "u. i. u. o.",
+          "audio": "../assets/sil-u3-r1-ecoute-3.mp3",
           "answer": "u, i, u, o.",
           "accept": [
             "u, i, u, o"
@@ -72,7 +74,8 @@
       "course": "La lettre e se lit « e », comme dans « le » et « petit ». La lettre é, avec un accent aigu, se lit « é », comme dans « école » et « bébé ».\n\nL’accent aigu est un petit trait qui monte vers la droite. On trace d’abord la lettre, puis l’accent.",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "e E é É\né a, e i, é u, o é e"
+        "text": "e E é É\né a, e i, é u, o é e",
+        "audio": "../assets/sil-u3-r2-lecture.mp3"
       },
       "model": "Dans « vélo », on entend « é » : on l’écrit é, avec l’accent aigu. Dans « le », on entend « e » : pas d’accent.",
       "guided": "L’adulte dit un mot : le, été, petit, bébé, de. L’enfant montre la carte e ou la carte é. Puis on trace é ensemble : la lettre, puis l’accent.",
@@ -90,6 +93,7 @@
         {
           "prompt": "Écoute les mots. Pour chacun, écris é ou e selon le son que tu entends à la fin.",
           "listen": "bébé. le. été.",
+          "audio": "../assets/sil-u3-r2-ecoute-3.mp3",
           "answer": "bébé : é ; le : e ; été : é.",
           "explanation": "On écoute la dernière syllabe : bé, le, té.",
           "ink": "lignes"
@@ -120,7 +124,8 @@
       "course": "Les lettres è, avec un accent grave, et ê, avec un accent circonflexe, se lisent toutes les deux « è », comme dans « mère », « fête » et « tête ».\n\nL’accent grave descend vers la droite. L’accent circonflexe ressemble à un petit chapeau. Il ne faut pas confondre é (« école ») et è (« mère »).",
       "support": {
         "title": "À lire avec l’adulte",
-        "text": "è ê é e\nè a, ê i, é è, e ê u"
+        "text": "è ê é e\nè a, ê i, é è, e ê u",
+        "audio": "../assets/sil-u3-r3-lecture.mp3"
       },
       "model": "Dans « élève » : é-lè-ve. On entend « é » au début, écrit é, puis « è » au milieu, écrit è.",
       "guided": "Jeu des accents : l’adulte dit « é » ou « è » ; l’enfant montre la carte é ou la carte è. Puis on dessine les trois accents : aigu, grave et circonflexe.",
@@ -138,6 +143,7 @@
         {
           "prompt": "Écoute les mots. Écris é ou è selon le son que tu entends.",
           "listen": "fête. bébé. mère.",
+          "audio": "../assets/sil-u3-r3-ecoute-3.mp3",
           "answer": "fête : è ; bébé : é ; mère : è.",
           "explanation": "Dans « fête », le son « è » s’écrit ê : à ce stade, écrire è est accepté.",
           "ink": "lignes"
@@ -696,7 +702,8 @@
       "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit toutes les voyelles apprises depuis le début de l’année.",
       "support": {
         "title": "Bilan : je relis",
-        "text": "a o i u e é è ê\nu é, è i, o ê, é a u"
+        "text": "a o i u e é è ê\nu é, è i, o ê, é a u",
+        "audio": "../assets/sil-u3-r4-lecture.mp3"
       },
       "model": "Pour lire une voyelle avec accent, on regarde d’abord l’accent : aigu, grave ou circonflexe.",
       "guided": "L’adulte dit « école », « mur », « fête », « ami » ; l’enfant montre la voyelle qu’il entend au début ou dans le mot. Puis il lit la deuxième ligne.",
@@ -714,6 +721,7 @@
         {
           "prompt": "Écoute les mots. Écris la voyelle que tu entends : u, é ou è.",
           "listen": "mur. été. tête.",
+          "audio": "../assets/sil-u3-r4-ecoute-3.mp3",
           "answer": "mur : u ; été : é ; tête : è.",
           "explanation": "Dans « tête », on écrit ê ; à ce stade, è est accepté.",
           "ink": "lignes"

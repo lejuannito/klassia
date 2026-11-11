@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "8a603c017d6599ee062351fd2aa9ce08d72d29b345e35e9e5127517feaf285ee",
+  "version": "a36db6629fd5731efeaeaa0f3aa770436426e3771f1d59c8a3a64215292c5fb1",
   "files": [
     {
       "url": "./app.js",
@@ -182,6 +182,14 @@ self.KLASSIA_RELEASE = {
       "sha256": "8ed71e5b9177819a7d095e46347a066fa6b83668ac30cb1a5a825b0604571413"
     },
     {
+      "url": "./assets/sil-u1-e1-ecoute-2.mp3",
+      "sha256": "54adad6572c6f67f852e4cbe7c78c41e61d17428271a3d8292fddbce0c4ac94a"
+    },
+    {
+      "url": "./assets/sil-u1-e1-lecture.mp3",
+      "sha256": "6ed7ea9812b0aa9d3d9b5aa0de2267d8d4122a2c6fd917d1a3d1d38b6a3b2ede"
+    },
+    {
       "url": "./assets/sil-u1-r1-ecoute-3.mp3",
       "sha256": "1acab9d0de64a1cc831dd8bcfaade7144d5662c9a6997638421dba5e21a865e6"
     },
@@ -212,6 +220,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/sil-u1-telephone.svg",
       "sha256": "d0fe89504315c85b4af6c3c70dfdd15b8a8df14366fa56a2a293332deda1d896"
+    },
+    {
+      "url": "./assets/sil-u2-e1-ecoute-2.mp3",
+      "sha256": "838e05ff30e4451746769aa6377d23bfdaa134111d35479144cfb563fe149f04"
+    },
+    {
+      "url": "./assets/sil-u2-e1-lecture.mp3",
+      "sha256": "dee15163d0e4e5daf75763b8fff15ec9807930c66521fced1de6d14f2d8fd303"
     },
     {
       "url": "./assets/sil-u2-r1-ecoute-3.mp3",
@@ -246,6 +262,14 @@ self.KLASSIA_RELEASE = {
       "sha256": "3fbd70d679ea109a4c9a0b98980d60855488ec4a98bae184bf3d4b0a7f9dcdeb"
     },
     {
+      "url": "./assets/sil-u3-e1-ecoute-2.mp3",
+      "sha256": "0ac49ea2a288d4a0297d1219e4a66c3b18733a3ae598ddae579bd5707a8d99ea"
+    },
+    {
+      "url": "./assets/sil-u3-e1-lecture.mp3",
+      "sha256": "bfbbdda8d440e73068a6b655bf50084f5ec94fb879b540f21e6497cc441d07ab"
+    },
+    {
       "url": "./assets/sil-u3-r1-ecoute-3.mp3",
       "sha256": "1afc49f07e6dd926419b879c9c1c83b7b95ce18590d2eee97e943f05b2bea2cb"
     },
@@ -276,6 +300,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/sil-u3-r4-lecture.mp3",
       "sha256": "d1a492ddab437811f9394d22c24abc852b953ba7322ea9525cf8bf2c11473129"
+    },
+    {
+      "url": "./assets/sil-u4-e1-ecoute-2.mp3",
+      "sha256": "bda82527b795d109d47e29965ed99911f8515b3290be6d66db1cf5bdbdb03465"
+    },
+    {
+      "url": "./assets/sil-u4-e1-lecture.mp3",
+      "sha256": "8f4de7bdc7f49a5e292136b0d4cfa7cd122b415b5d604c6c0d76d2cb74411895"
     },
     {
       "url": "./assets/sil-u4-l01-lou-a-mal.mp3",
@@ -322,6 +354,14 @@ self.KLASSIA_RELEASE = {
       "sha256": "31385d6f221e59ada93108fbbe52929a5e5e9b91cdd2600f610eb4ebb4544803"
     },
     {
+      "url": "./assets/sil-u5-e1-ecoute-2.mp3",
+      "sha256": "d385c92ba12b8150a5d7d6926db44dd94731f2acd365aa68eb43cbb3e730e331"
+    },
+    {
+      "url": "./assets/sil-u5-e1-lecture.mp3",
+      "sha256": "ac766f03c04861fb651b32ea03eb601706ecfa691354b34361d7ac254a4e9ce5"
+    },
+    {
       "url": "./assets/sil-u5-l02-school-by-bus.mp3",
       "sha256": "a5e3cf29a510254d33b87dec51ff87cfcb5f0bccb0d0c2cab94d2621bb466a98"
     },
@@ -358,6 +398,14 @@ self.KLASSIA_RELEASE = {
       "sha256": "2c41be8f24243d0af2f3f42571cf63f5c016ada609ee53c5e33b5e41ff7ee65f"
     },
     {
+      "url": "./assets/sil-u6-e1-ecoute-2.mp3",
+      "sha256": "c72cfc74c119867ffa6a54c57fd65e3293242463b10b7ac2f0f23453683725fa"
+    },
+    {
+      "url": "./assets/sil-u6-e1-lecture.mp3",
+      "sha256": "4411e6f96879344584fec6ed51bec51cc46e84c3f7a5f746c1cf1770fc5ef6c3"
+    },
+    {
       "url": "./assets/sil-u6-r1-ecoute-3.mp3",
       "sha256": "a20ea90d6fdfde78c6a2300dc4034f19661b1d4254cb42d890e896676a176f31"
     },
@@ -390,6 +438,14 @@ self.KLASSIA_RELEASE = {
       "sha256": "81227d0ebe4f3858c1ac298964c0f682cc4915115dd48dffaec05f001ba7f7c8"
     },
     {
+      "url": "./assets/sil-u7-e1-ecoute-2.mp3",
+      "sha256": "e3954e0e2ee4bc03a0b58d8cf7f149cc710255182286111f7cdd537328b834b4"
+    },
+    {
+      "url": "./assets/sil-u7-e1-lecture.mp3",
+      "sha256": "1a1b3b57a7686a5d6be8c1ae7c8c5e80554de71253f7066fd40adbd68e0a3752"
+    },
+    {
       "url": "./assets/sil-u7-r1-ecoute-3.mp3",
       "sha256": "e9d414942959d4e4eed36ef067a1dfe2e59c4b054f893e2cfd19278ab3f6cc97"
     },
@@ -420,6 +476,14 @@ self.KLASSIA_RELEASE = {
     {
       "url": "./assets/sil-u7-r4-lecture.mp3",
       "sha256": "751d8fdc0dacceda38fc977b8c37aa081ee6ba9aff17427693c04202ab777c18"
+    },
+    {
+      "url": "./assets/sil-u8-e1-ecoute-2.mp3",
+      "sha256": "d5c4677be265b219b8db0f703ecb6b33995437ce99cd3510c178822d3819a62f"
+    },
+    {
+      "url": "./assets/sil-u8-e1-lecture.mp3",
+      "sha256": "4e970bfd47fdc796e2d456b76386118ae5b63cde3c0315dfc030181f2c9b67a6"
     },
     {
       "url": "./assets/sil-u8-r1-ecoute-3.mp3",
@@ -555,7 +619,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "79d4c3ff6c5d781f709e1ced3b586094279c1c0867bec0201a324dc90d3f90d2"
+      "sha256": "4004b8071535513a9446694a1b7a62f57900f16243552b88ed56dfa3aac1a411"
     },
     {
       "url": "./data/manuels/champions-francais-ce2.json",
@@ -859,35 +923,35 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "b1b1ba86a8dc6eedd250cd4f71c63ea434b112dff1cf815fe3dc030bb46b582f"
+      "sha256": "89f219ade57e5d132232a85e3815838a4f47d42ad61b5fa225d7815d561ed081"
     },
     {
       "url": "./sil/data/sil-u2.json",
-      "sha256": "d9f2f3500fa3d81b14d326313f8a25556cb628575352eb0c27bceafab3b9d937"
+      "sha256": "da1bddd6d81f59160bd41342591aeb66839a4e0c4b26b44d99e1d2f392108e9e"
     },
     {
       "url": "./sil/data/sil-u3.json",
-      "sha256": "54eb9b66d2e474ecd69fc083c013f8b01beb1b47b46135af309623e86d03527e"
+      "sha256": "84ee0689e82d9a31bdea518a39d32e028c22ecb8b983debe4877f67dc5e0de60"
     },
     {
       "url": "./sil/data/sil-u4.json",
-      "sha256": "42af1e05c7e91ba9be541aa0d8af10be4b93f77a60105b39f22c4dfa0d6ed341"
+      "sha256": "16888b6fd99962f8bbaf4e8289f405148931cafd493c807c6dbbe0c0818e460b"
     },
     {
       "url": "./sil/data/sil-u5.json",
-      "sha256": "1ca8d6b7bdb2a53e453fa982c12690f80109e154a5ef3abd3bde5d14ec48c806"
+      "sha256": "0f39248bd7899a348ba0600ad8707f7d4b4b8381dad91cc3cd34149b3b678298"
     },
     {
       "url": "./sil/data/sil-u6.json",
-      "sha256": "c0c9c2b8a5bf9ea47250a7d5a962f6eea92037e259f6dbed76b36f3197a71bce"
+      "sha256": "d0a5e8846eb853a2880154704f7462f3958f15c038c22b50b19e3165c263d889"
     },
     {
       "url": "./sil/data/sil-u7.json",
-      "sha256": "d17f0cbac265efbec0faa2b3be6500d4ffcd4b18c04a803c44727a774abfe369"
+      "sha256": "cee53164bd2b9a7fda1d26af1c3f50fed8fe209982999e98896a0e7f7dc18189"
     },
     {
       "url": "./sil/data/sil-u8.json",
-      "sha256": "bad852515bc0bdbc26572d0279f67e8b6e9f26f054f3a09a80ed42ae63e43b9d"
+      "sha256": "3f49cb4af46945bf3b8b7adaec776750691a6726cd45845e80427d037e2ce056"
     },
     {
       "url": "./sil/index.html",

@@ -318,6 +318,73 @@
       }
     },
     {
+      "id": "SIL-U6-E1",
+      "domain": "English",
+      "title": "Health words and numbers 6 to 10",
+      "objective": "Say the names of common illnesses, count from 6 to 10 and use he, she and they.",
+      "course": "When we are ill we say: I have a cough. I have a fever. I have a headache. Numbers: six, seven, eight, nine, ten. Ali is a boy: he. Awa is a girl: she. Ali and Awa: they. At SIL, the child listens, repeats, points and reads a few words with the adult; copying a word is enough for writing.",
+      "support": {
+        "title": "Say it with the adult",
+        "text": "I have a cough.\nShe has a fever.\nsix, seven, eight, nine, ten.",
+        "audio": "../assets/sil-u6-e1-lecture.mp3"
+      },
+      "model": "“I have a cough”: cough softly. “She has a fever”: point to a picture of a girl in bed.",
+      "guided": "With the adult, count from six to ten with objects, then point to a picture and say “he” or “she”.",
+      "exercise": "Point to the boy and say “he”, then to the girl and say “she”.",
+      "answer": "The child points and says “he” for the boy and “she” for the girl.",
+      "remediation": "Use the child’s family: “Mum: she. Dad: he.”",
+      "transfer": "Count ten steps in English when washing hands.",
+      "materials": "Number cards 6 to 10, pictures of a boy and a girl, picture cards of a cough and a fever.",
+      "practice": [
+        {
+          "prompt": "Listen and write the numbers in figures.",
+          "listen": "six. eight. ten.",
+          "audio": "../assets/sil-u6-e1-ecoute-2.mp3",
+          "answer": "6, 8, 10.",
+          "accept": [
+            "6, 8, 10",
+            "6 8 10"
+          ],
+          "explanation": "Six is 6, eight is 8, ten is 10."
+        },
+        {
+          "prompt": "Match each name with he, she or they.",
+          "type": "match",
+          "pairs": [
+            [
+              "Ali",
+              "he"
+            ],
+            [
+              "Awa",
+              "she"
+            ],
+            [
+              "Ali and Awa",
+              "they"
+            ]
+          ],
+          "answer": "Ali – he ; Awa – she ; Ali and Awa – they.",
+          "explanation": "He for a boy, she for a girl, they for two people or more."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018 — English Language",
+        "pages": "Tables 9 to 12, pp. 45–55, SIL column, unit 6",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Original lesson based on the francophone programme. To be reviewed by a SIL teacher; pronunciation is encouraged, never penalised."
+      },
+      "competencies": [
+        "English language",
+        "francophone SIL programme"
+      ]
+    },
+    {
       "id": "SIL-U6-L03",
       "domain": "Mathématiques",
       "title": "Lire 15 à 17 et additionner sans retenue jusqu’à 20",
@@ -361,6 +428,132 @@
           "explanation": "Sur les 12 étiquettes, il y en a 10 ensemble et 2 isolées. On ajoute 5 aux 2 isolées. On obtient une dizaine et 7 unités. Il n’y a pas de nouvelle dizaine à former.",
           "ink": "grille"
         }
+      ]
+    },
+    {
+      "id": "SIL-U6-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Une semaine, c’est sept jours",
+      "objective": "Compter les jours d’une semaine et dire combien de jours il reste avant un rendez-vous.",
+      "course": "Une semaine dure sept jours. Pour savoir combien de jours il reste, on compte les jours sur le calendrier, en commençant par le jour qui suit aujourd’hui.",
+      "support": {
+        "title": "Le carnet de santé",
+        "text": "Le vaccin est dans une semaine : dans sept jours. Aujourd’hui, c’est lundi : le vaccin sera lundi prochain."
+      },
+      "model": "Aujourd’hui, c’est lundi. Je compte : mardi un, mercredi deux, jeudi trois… lundi sept. Le rendez-vous est dans sept jours.",
+      "guided": "Avec l’adulte, colorie une case du calendrier chaque jour et compte combien il en faut pour faire une semaine.",
+      "exercise": "Aujourd’hui, c’est mercredi. Le rendez-vous est vendredi. Dans combien de jours ?",
+      "answer": "Dans 2 jours : jeudi, puis vendredi.",
+      "remediation": "Compter les jours en avançant un pion sur sept cartes posées en ligne.",
+      "transfer": "Noter sur un calendrier familial les jours de prise d’un sirop indiqués par un adulte.",
+      "materials": "Un calendrier de la semaine, sept cartes des jours, un pion, des crayons de couleur.",
+      "practice": [
+        {
+          "prompt": "Combien de jours y a-t-il dans une semaine ?",
+          "answer": "7 jours.",
+          "accept": [
+            "7",
+            "7 jours",
+            "sept",
+            "sept jours"
+          ],
+          "reject": [
+            "5",
+            "6",
+            "8"
+          ],
+          "explanation": "Lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche : sept jours."
+        },
+        {
+          "prompt": "Aujourd’hui, c’est lundi. Le rendez-vous est jeudi. Dans combien de jours ?",
+          "answer": "Dans 3 jours.",
+          "accept": [
+            "3",
+            "3 jours",
+            "dans 3 jours",
+            "trois"
+          ],
+          "reject": [
+            "4",
+            "2"
+          ],
+          "explanation": "Mardi, mercredi, jeudi : trois jours."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 17, p. 76, colonne SIL, unité 6",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "mesures et grandeurs",
+        "mesure du temps"
+      ]
+    },
+    {
+      "id": "SIL-U6-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Déplacer un objet par rapport à un repère",
+      "objective": "Déplacer un objet selon une consigne : à droite de, à gauche de, devant, derrière un repère.",
+      "course": "Un repère est un objet qui ne bouge pas. On déplace un autre objet par rapport à lui : « pose le savon à droite de la cuvette ». On vérifie en regardant le repère.",
+      "support": {
+        "title": "Le coin lavage des mains",
+        "text": "Le savon est à droite de la cuvette. La serviette est à gauche. Le seau d’eau est derrière."
+      },
+      "model": "La cuvette est mon repère. Je pose le savon à droite de la cuvette.",
+      "guided": "Avec l’adulte, choisis un repère sur la table, puis déplace un bouchon devant, derrière, à droite et à gauche de ce repère.",
+      "exercise": "Pose la serviette à gauche de la cuvette.",
+      "answer": "La serviette est posée du côté gauche de la cuvette.",
+      "remediation": "Mettre un ruban au poignet droit de l’enfant pour retrouver la droite.",
+      "transfer": "Ranger le coin lavage des mains en suivant trois consignes de l’adulte.",
+      "materials": "Une cuvette ou une boîte comme repère, un savon, une serviette, des bouchons, un ruban.",
+      "practice": [
+        {
+          "prompt": "Le savon est à droite de la cuvette. Où est la cuvette par rapport au savon ?",
+          "answer": "À gauche du savon.",
+          "accept": [
+            "à gauche",
+            "à gauche du savon",
+            "gauche"
+          ],
+          "reject": [
+            "à droite",
+            "droite"
+          ],
+          "explanation": "Si le savon est à droite de la cuvette, la cuvette est à gauche du savon."
+        },
+        {
+          "prompt": "Range les étapes pour suivre la consigne « pose le bouchon devant la boîte ».",
+          "type": "order",
+          "items": [
+            "Je regarde la boîte",
+            "Je prends le bouchon",
+            "Je le pose devant la boîte"
+          ],
+          "answer": "Je regarde la boîte ; je prends le bouchon ; je le pose devant la boîte.",
+          "explanation": "On repère d’abord l’objet qui ne bouge pas."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 18, p. 79, colonne SIL, unité 6",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "géométrie et espace",
+        "déplacements dans l’espace"
       ]
     },
     {

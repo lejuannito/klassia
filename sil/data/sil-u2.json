@@ -226,6 +226,69 @@
       }
     },
     {
+      "id": "SIL-U2-E1",
+      "domain": "English",
+      "title": "In the village",
+      "objective": "Name things found in a village, describe a village activity and spell a short word with English letter names.",
+      "course": "In the village there is a hut, a well, a farm and a market. People fetch water at the well. We can spell a word with letter names: g-o-a-t, goat. Opposites: near / far, old / new. At SIL, the child listens, repeats, points and reads a few words with the adult; copying a word is enough for writing.",
+      "support": {
+        "title": "Say it with the adult",
+        "text": "This is the well. We fetch water at the well.\nThis is a goat. G-O-A-T: goat.",
+        "audio": "../assets/sil-u2-e1-lecture.mp3"
+      },
+      "model": "“We fetch water at the well.” Mime carrying a bucket. Spell “goat” with letter names: gee, oh, ay, tee.",
+      "guided": "With the adult, point to a picture of the village and say what people do there.",
+      "exercise": "Where do we fetch water? Point and say the word.",
+      "answer": "“At the well.” Accept “well” or pointing to the well.",
+      "remediation": "Use two picture cards only: the well and the market.",
+      "transfer": "Draw the village and label two places with their English names.",
+      "materials": "Picture cards of a village: hut, well, farm, market, goat.",
+      "practice": [
+        {
+          "prompt": "Listen and say each word. Point to the picture.",
+          "listen": "hut. well. goat.",
+          "audio": "../assets/sil-u2-e1-ecoute-2.mp3",
+          "answer": "hut, well, goat.",
+          "explanation": "Say each word after the voice."
+        },
+        {
+          "prompt": "Match each sentence with the right place.",
+          "type": "match",
+          "pairs": [
+            [
+              "We fetch water at the",
+              "well"
+            ],
+            [
+              "We buy food at the",
+              "market"
+            ],
+            [
+              "We grow maize on the",
+              "farm"
+            ]
+          ],
+          "answer": "well ; market ; farm.",
+          "explanation": "Each place has its own activity."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018 — English Language",
+        "pages": "Tables 9 to 12, pp. 45–55, SIL column, unit 2",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Original lesson based on the francophone programme. To be reviewed by a SIL teacher; pronunciation is encouraged, never penalised."
+      },
+      "competencies": [
+        "English language",
+        "francophone SIL programme"
+      ]
+    },
+    {
       "id": "SIL-U2-L03",
       "domain": "Mathématiques",
       "title": "Compter et composer les collections de 6 à 9",
@@ -255,6 +318,124 @@
           "answer": "5 et 3.",
           "explanation": "Réunis les deux groupes pour vérifier : 5 + 3 = 8."
         }
+      ]
+    },
+    {
+      "id": "SIL-U2-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Comparer des masses avec une balance",
+      "objective": "Dire quel objet est le plus lourd en soupesant, puis vérifier avec une balance et des bouchons.",
+      "course": "Pour savoir quel objet est le plus lourd, on peut le soupeser dans chaque main. Pour vérifier, on utilise une balance : le plateau le plus lourd descend. On peut aussi compter combien de bouchons il faut pour équilibrer un objet.",
+      "support": {
+        "title": "La balance du marché",
+        "text": "Sur la balance, la mangue est plus lourde que la banane : son plateau descend."
+      },
+      "model": "Je mets la mangue d’un côté et la banane de l’autre. Le côté de la mangue descend : la mangue est plus lourde.",
+      "guided": "Avec l’adulte, prends deux objets du marché. Dis d’abord lequel est le plus lourd, puis vérifie sur la balance.",
+      "exercise": "Prends le caillou et la gomme. Lequel est le plus lourd ? Vérifie avec la balance.",
+      "answer": "Le caillou est le plus lourd : son plateau descend. Accepter une autre réponse si la balance la confirme.",
+      "remediation": "Soupeser deux objets très différents (un caillou et une feuille) avant de comparer des objets proches.",
+      "transfer": "Ranger trois fruits du plus léger au plus lourd, puis vérifier deux par deux sur la balance.",
+      "materials": "Une balance à plateaux ou un cintre avec deux sacs, des bouchons, des fruits et de petits objets de la maison.",
+      "practice": [
+        {
+          "prompt": "Sur la balance, quel plateau descend ?",
+          "answer": "Le plateau le plus lourd.",
+          "accept": [
+            "le plus lourd",
+            "le plateau le plus lourd",
+            "lourd"
+          ],
+          "reject": [
+            "le plus léger",
+            "léger"
+          ],
+          "explanation": "L’objet le plus lourd fait descendre son plateau."
+        },
+        {
+          "prompt": "La mangue équilibre 6 bouchons et l’orange 4 bouchons. Quel fruit est le plus lourd ?",
+          "answer": "La mangue.",
+          "accept": [
+            "la mangue",
+            "mangue"
+          ],
+          "reject": [
+            "l’orange",
+            "orange"
+          ],
+          "explanation": "6 bouchons, c’est plus que 4 bouchons : la mangue est plus lourde."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 17, p. 74, colonne SIL, unité 2",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "mesures et grandeurs",
+        "masses non conventionnelles"
+      ]
+    },
+    {
+      "id": "SIL-U2-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Tracer avec une règle ou un gabarit",
+      "objective": "Tracer un trait droit avec une règle non graduée et le contour d’une forme avec un gabarit.",
+      "course": "Pour tracer un trait droit, on pose la règle à plat, on la tient avec la main ouverte et on fait glisser le crayon le long du bord. Pour dessiner une forme, on pose un gabarit en carton et on suit son bord avec le crayon.",
+      "support": {
+        "title": "Le plan du village",
+        "text": "Les routes du village sont des traits droits. Les cases sont tracées autour d’un gabarit."
+      },
+      "model": "Je tiens la règle avec ma main bien ouverte. Je fais glisser mon crayon le long du bord, sans m’arrêter.",
+      "guided": "Avec l’adulte, trace une route droite entre deux points, puis dessine une case en suivant le bord d’un gabarit.",
+      "exercise": "Trace une route bien droite entre la case et le puits.",
+      "answer": "Le trait est droit et va d’un point à l’autre. Le crayon a suivi le bord de la règle.",
+      "remediation": "Tenir la règle avec l’enfant. Marquer les deux points à relier avant de tracer.",
+      "transfer": "Tracer le contour de trois gabarits (carré, rectangle, triangle) pour dessiner un village.",
+      "materials": "Une règle non graduée ou une bande de carton droite, des gabarits en carton, du papier et un crayon.",
+      "practice": [
+        {
+          "prompt": "Range les étapes pour tracer un trait droit.",
+          "type": "order",
+          "items": [
+            "Je pose la règle",
+            "Je la tiens avec la main ouverte",
+            "Je fais glisser le crayon le long du bord"
+          ],
+          "answer": "Je pose la règle ; je la tiens avec la main ouverte ; je fais glisser le crayon le long du bord.",
+          "explanation": "La règle doit rester immobile pendant le tracé."
+        },
+        {
+          "prompt": "Avec quel outil traces-tu le contour d’une case en carton ?",
+          "answer": "Avec un gabarit.",
+          "accept": [
+            "un gabarit",
+            "gabarit",
+            "avec un gabarit"
+          ],
+          "explanation": "On pose le gabarit et on suit son bord avec le crayon."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 18, p. 78, colonne SIL, unité 2",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "géométrie et espace",
+        "instruments de traçage"
       ]
     },
     {

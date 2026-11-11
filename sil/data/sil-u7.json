@@ -332,6 +332,66 @@
       }
     },
     {
+      "id": "SIL-U7-E1",
+      "domain": "English",
+      "title": "Games, numbers 11 to 15 and where things are",
+      "objective": "Name school games, count from 11 to 15 and say where a ball is with in, on and under.",
+      "course": "School games: football, skipping, hide and seek. Numbers: eleven, twelve, thirteen, fourteen, fifteen. The ball is in the box. The ball is on the box. The ball is under the box. We join words with “and”: football and skipping. At SIL, the child listens, repeats, points and reads a few words with the adult; copying a word is enough for writing.",
+      "support": {
+        "title": "Say it with the adult",
+        "text": "We play football and skipping.\nThe ball is under the table.\neleven, twelve, thirteen, fourteen, fifteen.",
+        "audio": "../assets/sil-u7-e1-lecture.mp3"
+      },
+      "model": "Put a ball in, on, then under a box and say each sentence.",
+      "guided": "With the adult, hide a ball and say where it is: in, on or under.",
+      "exercise": "Put the ball on the box and say: “The ball is on the box.”",
+      "answer": "The ball is on the box and the child says the sentence or the word “on”.",
+      "remediation": "Use one preposition at a time, with the action first.",
+      "transfer": "Count to fifteen in English while skipping.",
+      "materials": "A ball, a box, number cards 11 to 15.",
+      "practice": [
+        {
+          "prompt": "Listen and write the numbers in figures.",
+          "listen": "eleven. thirteen. fifteen.",
+          "audio": "../assets/sil-u7-e1-ecoute-2.mp3",
+          "answer": "11, 13, 15.",
+          "accept": [
+            "11, 13, 15",
+            "11 13 15"
+          ],
+          "explanation": "Eleven is 11, thirteen is 13, fifteen is 15."
+        },
+        {
+          "prompt": "Put the numbers in order.",
+          "type": "order",
+          "items": [
+            "eleven",
+            "twelve",
+            "thirteen",
+            "fourteen",
+            "fifteen"
+          ],
+          "answer": "eleven, twelve, thirteen, fourteen, fifteen.",
+          "explanation": "We count from eleven to fifteen."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018 — English Language",
+        "pages": "Tables 9 to 12, pp. 45–55, SIL column, unit 7",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Original lesson based on the francophone programme. To be reviewed by a SIL teacher; pronunciation is encouraged, never penalised."
+      },
+      "competencies": [
+        "English language",
+        "francophone SIL programme"
+      ]
+    },
+    {
       "id": "SIL-U7-L03",
       "domain": "Mathématiques",
       "title": "Lire 18 et 19 et compter des groupes identiques",
@@ -368,6 +428,121 @@
           ],
           "explanation": "Compte les groupes : 2 + 2 + 2 = 6."
         }
+      ]
+    },
+    {
+      "id": "SIL-U7-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Mesurer au jeu : longueurs et durées",
+      "objective": "Mesurer un saut en pieds et comparer des durées de jeu en comptant.",
+      "course": "Pour mesurer un saut, on pose les pieds l’un devant l’autre depuis la ligne jusqu’au talon et on compte. Pour comparer deux durées, on compte lentement en même temps : celui qui finit avant a été le plus rapide.",
+      "support": {
+        "title": "La marelle et le saut",
+        "text": "Ali a sauté 5 pieds. Nina a sauté 4 pieds. Ali a sauté le plus loin."
+      },
+      "model": "Je pars de la ligne et je pose mes pieds l’un devant l’autre : un, deux, trois, quatre, cinq pieds.",
+      "guided": "Avec l’adulte, mesure deux sauts en pieds, puis compare-les.",
+      "exercise": "Mesure ton saut en pieds. Combien de pieds ?",
+      "answer": "Le nombre de pieds comptés depuis la ligne jusqu’au talon. Accepter toute mesure bien comptée.",
+      "remediation": "Marquer chaque pied avec un bâton ou un caillou pour ne pas perdre le compte.",
+      "transfer": "Mesurer la longueur de la marelle avec des pieds, puis avec des bâtons.",
+      "materials": "Une ligne tracée au sol, des cailloux ou bâtons pour marquer, un espace dégagé.",
+      "practice": [
+        {
+          "prompt": "Ali a sauté 5 pieds et Nina 4 pieds. Qui a sauté le plus loin ?",
+          "answer": "Ali.",
+          "accept": [
+            "Ali"
+          ],
+          "reject": [
+            "Nina"
+          ],
+          "explanation": "5 pieds, c’est plus que 4 pieds."
+        },
+        {
+          "prompt": "Range ces sauts du plus court au plus long.",
+          "type": "order",
+          "items": [
+            "3 pieds",
+            "5 pieds",
+            "7 pieds"
+          ],
+          "answer": "3 pieds, 5 pieds, 7 pieds.",
+          "explanation": "Plus il y a de pieds, plus le saut est long."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 17, p. 76, colonne SIL, unité 7",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "mesures et grandeurs",
+        "problèmes de mesure"
+      ]
+    },
+    {
+      "id": "SIL-U7-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Se déplacer suivant un repère",
+      "objective": "Suivre un parcours donné par rapport à des repères : vers l’arbre, autour du seau, jusqu’au mur.",
+      "course": "Dans un jeu, on se déplace en suivant des repères : un arbre, un seau, une ligne. On écoute toute la consigne avant de partir, puis on vérifie qu’on est arrivé au bon repère.",
+      "support": {
+        "title": "Le jeu du trésor",
+        "text": "Avance jusqu’à l’arbre. Tourne autour du seau. Arrête-toi devant le mur : le trésor est là."
+      },
+      "model": "J’écoute : « avance jusqu’à l’arbre ». Je marche vers l’arbre et je m’arrête à côté.",
+      "guided": "Avec l’adulte, suis un parcours de trois repères dans la cour, puis invente un parcours pour l’adulte.",
+      "exercise": "Va jusqu’au seau, puis reviens derrière la ligne.",
+      "answer": "L’enfant touche le seau, puis s’arrête derrière la ligne.",
+      "remediation": "Donner une seule consigne à la fois, puis deux.",
+      "transfer": "Dessiner le parcours du trésor avec ses repères.",
+      "materials": "Trois repères dans la cour (seau, plot, ligne), un objet caché comme trésor.",
+      "practice": [
+        {
+          "prompt": "Range les étapes du parcours du trésor.",
+          "type": "order",
+          "items": [
+            "Avance jusqu’à l’arbre",
+            "Tourne autour du seau",
+            "Arrête-toi devant le mur"
+          ],
+          "answer": "Avance jusqu’à l’arbre ; tourne autour du seau ; arrête-toi devant le mur.",
+          "explanation": "On suit les repères dans l’ordre de la consigne."
+        },
+        {
+          "prompt": "Où s’arrête-t-on à la fin du jeu du trésor ?",
+          "answer": "Devant le mur.",
+          "accept": [
+            "devant le mur",
+            "le mur"
+          ],
+          "reject": [
+            "derrière le mur"
+          ],
+          "explanation": "La dernière consigne dit : arrête-toi devant le mur."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Tableau 18, p. 79, colonne SIL, unité 7",
+        "url": "https://champions-edicef-cle.com/fichiers/Curriculum-SIL-CP.pdf"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon originale d’après le programme. Faire relire par un enseignant de SIL et observer une première séance accompagnée."
+      },
+      "competencies": [
+        "géométrie et espace",
+        "déplacements dans l’espace"
       ]
     },
     {

@@ -243,6 +243,26 @@
           "prompt": "Quel animal bêle ?",
           "answer": "La chèvre (ou le mouton).",
           "explanation": "Bêler est le cri de la chèvre et du mouton."
+        },
+        {
+          "prompt": "Relie chaque animal à son cri.",
+          "type": "match",
+          "pairs": [
+            [
+              "le chien",
+              "aboie"
+            ],
+            [
+              "le chat",
+              "miaule"
+            ],
+            [
+              "la poule",
+              "caquette"
+            ]
+          ],
+          "answer": "le chien aboie ; le chat miaule ; la poule caquette.",
+          "explanation": "Chaque animal domestique a son cri."
         }
       ],
       "source": {
@@ -292,6 +312,13 @@
           "answer": "Nous chantons. Ils dansent.",
           "explanation": "nous → -ons ; ils → -ent.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Écris la terminaison du verbe porter au présent.",
+          "type": "gaps",
+          "text": "tu port[[es]] ; nous port[[ons]] ; elles port[[ent]]",
+          "answer": "tu portes ; nous portons ; elles portent.",
+          "explanation": "Au présent, les verbes en -er font -es avec tu, -ons avec nous, -ent avec ils ou elles."
         }
       ],
       "source": {
@@ -595,6 +622,13 @@
             "played, walked"
           ],
           "explanation": "Regular verbs add -ed in the simple past."
+        },
+        {
+          "prompt": "Complete with the verb dance.",
+          "type": "gaps",
+          "text": "Yesterday, we [[danced]]. Tomorrow, we [[will dance]].",
+          "answer": "Yesterday, we danced. Tomorrow, we will dance.",
+          "explanation": "Past: add -ed. Future: will + verb."
         }
       ],
       "source": {
@@ -646,6 +680,19 @@
           "prompt": "Complète : 248, 249, …, …",
           "answer": "250, 251.",
           "explanation": "Après 249, une unité de plus forme une nouvelle dizaine."
+        },
+        {
+          "prompt": "Range ces nombres du plus petit au plus grand.",
+          "type": "order",
+          "items": [
+            "203",
+            "230",
+            "248",
+            "284",
+            "299"
+          ],
+          "answer": "203, 230, 248, 284, 299.",
+          "explanation": "Les centaines sont les mêmes : on compare les dizaines, puis les unités."
         }
       ]
     },

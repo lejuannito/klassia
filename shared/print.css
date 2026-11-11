@@ -34,3 +34,4 @@ tr, .print-question, img, svg { break-inside: avoid; }
  .print-toolbar { display: none; }
  .print-chapter + .print-chapter { break-before: page; }
 }
+.print-match { border-collapse: collapse; margin: .4rem 0; } .print-match td { padding: .35rem .7rem; border-bottom: 1px solid #ccd; }

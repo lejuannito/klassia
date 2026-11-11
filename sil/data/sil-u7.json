@@ -78,6 +78,17 @@
           ],
           "explanation": "On écrit n, puis la voyelle entendue.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Range les syllabes pour écrire le mot « domino ».",
+          "type": "order",
+          "items": [
+            "do",
+            "mi",
+            "no"
+          ],
+          "answer": "do-mi-no : domino.",
+          "explanation": "On dit le mot lentement : do, mi, no."
         }
       ],
       "source": {

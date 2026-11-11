@@ -179,6 +179,26 @@
             "danse"
           ],
           "explanation": "Danse ne vient pas du mot dent."
+        },
+        {
+          "prompt": "Relie chaque verbe à un nom de sa famille.",
+          "type": "match",
+          "pairs": [
+            [
+              "soigner",
+              "le soin"
+            ],
+            [
+              "laver",
+              "le lavage"
+            ],
+            [
+              "vacciner",
+              "le vaccin"
+            ]
+          ],
+          "answer": "soigner : le soin ; laver : le lavage ; vacciner : le vaccin.",
+          "explanation": "Les mots d’une famille partagent le même radical."
         }
       ],
       "source": {
@@ -304,6 +324,13 @@
           "answer": "Nous avons mangé des fruits.",
           "explanation": "avons (avoir) + mangé.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Complète avec avoir pour former le passé composé.",
+          "type": "gaps",
+          "text": "j’[[ai]] soigné ; nous [[avons]] mangé ; ils [[ont]] lavé",
+          "answer": "j’ai soigné ; nous avons mangé ; ils ont lavé.",
+          "explanation": "Passé composé : avoir au présent + participe passé."
         }
       ],
       "source": {
@@ -531,6 +558,13 @@
             "but"
           ],
           "explanation": "It is a choice: or."
+        },
+        {
+          "prompt": "Complete with and, but or or.",
+          "type": "gaps",
+          "text": "I wash my hands [[and]] my face. I am tired [[but]] I am happy. Do you want water [[or]] tea?",
+          "answer": "and ; but ; or.",
+          "explanation": "And adds, but shows a difference, or gives a choice."
         }
       ],
       "source": {

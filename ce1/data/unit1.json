@@ -176,6 +176,26 @@
             "armoire"
           ],
           "explanation": "Les trois autres sont dans la chambre ; la marmite est dans la cuisine."
+        },
+        {
+          "prompt": "Relie chaque mot à ce qu’il désigne.",
+          "type": "match",
+          "pairs": [
+            [
+              "la tante",
+              "une personne"
+            ],
+            [
+              "la poule",
+              "un animal"
+            ],
+            [
+              "la marmite",
+              "une chose"
+            ]
+          ],
+          "answer": "la tante : une personne ; la poule : un animal ; la marmite : une chose.",
+          "explanation": "On classe les noms de la maison : personnes, animaux, choses."
         }
       ],
       "source": {
@@ -226,6 +246,13 @@
           "answer": "des seaux, des chaises.",
           "explanation": "seau prend -x au pluriel, chaise prend -s.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Complète au pluriel ou au féminin.",
+          "type": "gaps",
+          "text": "un seau → des [[seaux]] ; une souris → des [[souris]] ; un ami → une [[amie]]",
+          "answer": "des seaux ; des souris ; une amie.",
+          "explanation": "Les noms en -eau prennent -x ; un nom en -s ne change pas ; au féminin, on ajoute souvent -e."
         }
       ],
       "source": {
@@ -519,6 +546,30 @@
             "two boxs, two familys"
           ],
           "explanation": "Box ends in x: add -es. Family ends in consonant + y: change y to -ies."
+        },
+        {
+          "prompt": "Match each word with its opposite.",
+          "type": "match",
+          "pairs": [
+            [
+              "big",
+              "small"
+            ],
+            [
+              "hot",
+              "cold"
+            ],
+            [
+              "clean",
+              "dirty"
+            ],
+            [
+              "open",
+              "shut"
+            ]
+          ],
+          "answer": "big / small ; hot / cold ; clean / dirty ; open / shut.",
+          "explanation": "Opposites have opposite meanings."
         }
       ],
       "source": {
@@ -677,6 +728,18 @@
           "prompt": "Problème : un tissu mesure 2 m. La couturière en coupe 50 cm. Combien reste-t-il ?",
           "answer": "150 cm (1 m 50 cm).",
           "explanation": "2 m = 200 cm ; 200 − 50 = 150 cm."
+        },
+        {
+          "prompt": "Range ces longueurs de la plus courte à la plus longue.",
+          "type": "order",
+          "items": [
+            "5 mm",
+            "3 cm",
+            "2 dm",
+            "1 m"
+          ],
+          "answer": "5 mm, 3 cm, 2 dm, 1 m.",
+          "explanation": "En centimètres : 0,5 cm ; 3 cm ; 20 cm ; 100 cm."
         }
       ],
       "source": {

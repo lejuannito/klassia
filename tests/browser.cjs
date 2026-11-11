@@ -89,6 +89,19 @@ for(const width of [320,390,1280]){await p.setViewportSize({width,height:844});a
  await card.getByRole('link',{name:/Le nom/}).click();await p.locator('.klassia-review-target [data-save="CE1:CE1-U1-G1"]').waitFor();
  await p.goto('http://localhost:8765/?unit=U1#lesson:FR-U1-L4');await p.locator('.lesson-header h1').waitFor();
  assert.deepEqual(await p.evaluate(()=>[Klassia.describeExercise('FR-U3-L2:1'),Klassia.describeExercise('FR-U1-L4:0').title]),[{href:'?unit=U3#lesson:FR-U3-L2',anchor:'#ans_FRU3L2_1',title:'Français · unité 3, leçon 2',detail:'Exercice 2'},'Nom propre, nom commun, genre et nombre']);}
+// Formats vérifiés : remise en ordre, appariement, texte à trous (accents exigés) ; chaque vérification est notée.
+{await p.goto('http://localhost:8765/ce1/#lesson:CE1-U7-V1');const ex=p.locator('.klassia-ex[data-ex="order"]'),check=ex.getByRole('button',{name:'Vérifier'});await ex.waitFor();
+ const card=w=>ex.locator('[data-item]',{hasText:new RegExp('^'+w+'$')});
+ for(const w of ['but','balle','ballon','bille'])await card(w).click();await check.click();assert.equal(await ex.locator('.klassia-ex-status').innerText(),'4 réponses à corriger. Essaie encore.');
+ for(const w of ['but','balle','ballon','bille'])await card(w).click();assert.equal(await ex.locator('[data-order-answer] [data-item]').count(),0);
+ for(const w of ['balle','ballon','bille','but'])await card(w).click();await check.click();assert.equal(await ex.locator('.klassia-ex-status').innerText(),'Bravo, tout est juste !');
+ await p.goto('http://localhost:8765/ce1/#lesson:CE1-U3-C1');const m=p.locator('.klassia-ex[data-ex="match"]');await m.waitFor();
+ for(const [left,right] of [['je','suis'],['tu','es'],['nous','sommes'],['ils','sont']])await m.locator('label',{hasText:new RegExp('^'+left)}).locator('select').selectOption({label:right});
+ await m.getByRole('button',{name:'Vérifier'}).click();assert.equal(await m.locator('.klassia-ex-status').innerText(),'Bravo, tout est juste !');
+ await p.goto('http://localhost:8765/ce1/#lesson:CE1-U4-O2');const g=p.locator('.klassia-ex[data-ex="gaps"]');await g.waitFor();
+ for(const [i,v] of ['a','a','ont','On'].entries())await g.locator(`input[data-gap="${i}"]`).fill(v);await g.getByRole('button',{name:'Vérifier'}).click();
+ assert.equal(await g.locator('.klassia-ex-status').innerText(),'1 réponse à corriger. Essaie encore.');assert.equal(await g.locator('input[data-gap="1"]').getAttribute('data-ok'),'false');
+ assert.deepEqual((await p.evaluate(()=>Klassia.read('klassia_attempts',[]))).filter(a=>a.kind==='exercise').map(a=>[a.exercise,a.ok]),[['CE1:CE1-U7-V1:entrainement:2',false],['CE1:CE1-U7-V1:entrainement:2',true],['CE1:CE1-U3-C1:entrainement:2',true],['CE1:CE1-U4-O2:entrainement:2',false]]);}
 await p.goto('http://localhost:8765/?unit=U4#lesson:MA-U4-L2');await p.waitForFunction(()=>Klassia.storage.getItem('klassia_unit')==='U4');assert.equal(await p.evaluate(()=>Klassia.storage.getItem('klassia_unit')),'U4');
 await route('#domains-all');await p.getByRole('heading',{name:'Parcourir les domaines'}).waitFor();await route('#domain-all:2');assert.ok(await p.locator('a[href*="?unit="]').count()>0);
 await p.goto('http://localhost:8765/ms/#subjects-all');await p.getByRole('heading',{name:'Parcourir les matières et activités'}).waitFor();await p.getByRole('link',{name:/Arts et création/}).click();await p.getByRole('heading',{level:1,name:'Arts et création'}).waitFor();assert.ok(await p.locator('a[href*="?theme="]').count()>0);

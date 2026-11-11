@@ -128,6 +128,13 @@
             "les grands atelier"
           ],
           "explanation": "Le déterminant, l’adjectif et le nom prennent la marque du pluriel."
+        },
+        {
+          "prompt": "Accorde l’adjectif entre parenthèses.",
+          "type": "gaps",
+          "text": "des outils (solide) → des outils [[solides]] ; une boutique (grand) → une [[grande]] boutique",
+          "answer": "des outils solides ; une grande boutique.",
+          "explanation": "L’adjectif s’accorde en genre et en nombre avec le nom."
         }
       ],
       "source": {
@@ -293,6 +300,13 @@
             "sont ; sont"
           ],
           "explanation": "sont → étaient ; son → mon."
+        },
+        {
+          "prompt": "Complète avec a ou à, ont ou on.",
+          "type": "gaps",
+          "text": "Il [[a]] un outil. Il va [[à]] l’atelier. Ils [[ont]] du travail. [[On]] travaille.",
+          "answer": "Il a un outil. Il va à l’atelier. Ils ont du travail. On travaille.",
+          "explanation": "a → avait ; à ne se remplace pas ; ont → avaient ; on → il."
         }
       ],
       "source": {
@@ -376,6 +390,30 @@
           "answer": "Nous chanterons. Elles danseront.",
           "explanation": "chanter + ons ; danser + ont.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Relie chaque pronom au verbe travailler au futur.",
+          "type": "match",
+          "pairs": [
+            [
+              "je",
+              "travaillerai"
+            ],
+            [
+              "tu",
+              "travailleras"
+            ],
+            [
+              "nous",
+              "travaillerons"
+            ],
+            [
+              "ils",
+              "travailleront"
+            ]
+          ],
+          "answer": "je travaillerai ; tu travailleras ; nous travaillerons ; ils travailleront.",
+          "explanation": "Futur : infinitif + -ai, -as, -a, -ons, -ez, -ont."
         }
       ],
       "source": {
@@ -618,6 +656,26 @@
             "quiet, sad"
           ],
           "explanation": "Add -ly to the adjective."
+        },
+        {
+          "prompt": "Match each adjective with its adverb.",
+          "type": "match",
+          "pairs": [
+            [
+              "slow",
+              "slowly"
+            ],
+            [
+              "careful",
+              "carefully"
+            ],
+            [
+              "quick",
+              "quickly"
+            ]
+          ],
+          "answer": "slow → slowly ; careful → carefully ; quick → quickly.",
+          "explanation": "Add -ly to the adjective."
         }
       ],
       "source": {
@@ -706,6 +764,13 @@
             "30"
           ],
           "explanation": "6 fois 5, c’est la table de 5."
+        },
+        {
+          "prompt": "Complète la table de 4.",
+          "type": "gaps",
+          "text": "4, 8, [[12]], 16, [[20]], 24",
+          "answer": "4, 8, 12, 16, 20, 24.",
+          "explanation": "On ajoute 4 à chaque fois."
         }
       ],
       "source": {

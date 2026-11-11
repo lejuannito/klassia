@@ -173,6 +173,13 @@
             "et"
           ],
           "explanation": "Donc exprime la conséquence."
+        },
+        {
+          "prompt": "Complète avec et, mais ou ou.",
+          "type": "gaps",
+          "text": "J’écris [[et]] je dessine. Il appelle [[mais]] personne ne répond. Tu veux du thé [[ou]] de l’eau ?",
+          "answer": "et ; mais ; ou.",
+          "explanation": "Et ajoute, mais oppose, ou propose un choix."
         }
       ],
       "source": {
@@ -220,6 +227,19 @@
             "maison, médecin, message"
           ],
           "explanation": "On compare la deuxième lettre : a, é, e ; puis la troisième pour médecin et message."
+        },
+        {
+          "prompt": "Range ces mots dans l’ordre alphabétique.",
+          "type": "order",
+          "items": [
+            "appel",
+            "enveloppe",
+            "lettre",
+            "message",
+            "timbre"
+          ],
+          "answer": "appel, enveloppe, lettre, message, timbre.",
+          "explanation": "On compare la première lettre : a, e, l, m, t."
         }
       ],
       "source": {
@@ -360,6 +380,26 @@
           ],
           "explanation": "écout- + aient.",
           "ink": "lignes"
+        },
+        {
+          "prompt": "Relie chaque pronom au verbe parler à l’imparfait.",
+          "type": "match",
+          "pairs": [
+            [
+              "je",
+              "parlais"
+            ],
+            [
+              "nous",
+              "parlions"
+            ],
+            [
+              "ils",
+              "parlaient"
+            ]
+          ],
+          "answer": "je parlais ; nous parlions ; ils parlaient.",
+          "explanation": "Imparfait : -ais, -ais, -ait, -ions, -iez, -aient."
         }
       ],
       "source": {
@@ -589,6 +629,26 @@
           "prompt": "Which mark ends this sentence: “Do you have a radio”?",
           "answer": "A question mark: ?",
           "explanation": "It is a question."
+        },
+        {
+          "prompt": "Match each word with its opposite.",
+          "type": "match",
+          "pairs": [
+            [
+              "send",
+              "receive"
+            ],
+            [
+              "ask",
+              "answer"
+            ],
+            [
+              "loud",
+              "quiet"
+            ]
+          ],
+          "answer": "send / receive ; ask / answer ; loud / quiet.",
+          "explanation": "Opposites have opposite meanings."
         }
       ],
       "source": {

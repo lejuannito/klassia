@@ -11,7 +11,7 @@ Dans l’espace Parent, Enseignant ou Administration locale, ouvrir **Carnet du 
 7. Les éléments Bassa sont en cours de revue. Ne faites pas mémoriser une graphie provisoire ; sollicitez un référent compétent.
 8. Les commandes d’impression ouvrent une fiche élève sans corrigé. Dans un espace adulte, le guide ou le corrigé s’ouvre séparément. Attendez « Fiche prête », puis choisissez **Imprimer / PDF**. Si l’aperçu reste blanc depuis l’icône installée, développez **Imprimer depuis le navigateur** et ouvrez le lien dans Chrome ou Safari.
 9. Exportez régulièrement les données de chaque enfant. Un nettoyage du navigateur ou la perte du téléphone peut supprimer les progrès locaux.
-10. Signalez les erreurs avec classe, unité/thème, identifiant de leçon, énoncé, réponse attendue et version. Ne transmettez pas de sauvegarde complète contenant des observations personnelles pour signaler une simple coquille.
+10. Signalez les erreurs avec classe, unité/thème, identifiant de leçon, énoncé, réponse attendue et version. Ne transmettez pas de sauvegarde complète, qui contient des observations personnelles et les réponses écrites de l’enfant, pour signaler une simple coquille.
 
 ## Séance de référence CE2 — U1, numération
 

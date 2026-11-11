@@ -899,7 +899,7 @@ async function run() {
     await revealCorrection(rubric, true);
     assert.match(await rubric.innerText(), /Pour relire ta fin.*personnage du début.*problème de la gourde.*résultat.*ponctuation/s);
     assert.equal(await response.inputValue(), ending);
-    assert.equal(await page.evaluate(value => JSON.stringify(Klassia.exportBackup()).includes(value), ending), false);
+    assert.equal(await page.evaluate(value => JSON.stringify(Klassia.exportBackup()).includes(value), ending), true, 'The written answer travels with the backup');
     console.log('PASS offline CE1 illustrated reading and open ending with a correction rubric');
 
     const observationLessons = [

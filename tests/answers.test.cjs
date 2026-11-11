@@ -29,10 +29,11 @@ test('several numbers are compared as a whole, never one by one',()=>{
  assert.equal(matchAnswer('2 000 + 70 + 5',split),'unknown');
  assert.equal(matchAnswer('56',{accept:['56 ; 54'],prompt:'Calcule 8 × 7 puis 6 × 9.'}),'unknown');
 });
-test('written answers stay in the active profile and on this device, outside the backup',()=>{
+test('written answers stay in the active profile, travel with the backup and are validated',()=>{
  const k=factory(new Memory());k.write('klassia_answers_v1',{'CE2:MA-U1-L3-E1':{text:'Nelly et Amadou',at:new Date().toISOString()}});
- assert.equal(k.read('klassia_answers_v1',{})['CE2:MA-U1-L3-E1'].text,'Nelly et Amadou');
- assert.equal(JSON.stringify(k.exportBackup()).includes('Nelly et Amadou'),false);
- const first=k.profile().id;k.createProfile('Autre');assert.deepEqual(k.read('klassia_answers_v1',{}),{});
- k.selectProfile(first);assert.equal(k.read('klassia_answers_v1',{})['CE2:MA-U1-L3-E1'].text,'Nelly et Amadou');
+ const backup=k.exportBackup();assert.equal(backup.data.klassia_answers_v1.includes('Nelly et Amadou'),true);
+ k.createProfile('Autre');assert.deepEqual(k.read('klassia_answers_v1',{}),{});
+ const other=factory(new Memory());other.restore(backup);assert.equal(other.read('klassia_answers_v1',{})['CE2:MA-U1-L3-E1'].text,'Nelly et Amadou');
+ const many=Object.fromEntries(Array.from({length:401},(_,i)=>['CE2:x'+i,{text:'a',at:'d'}]));
+ for(const bad of [{x:{text:1,at:'d'}},{x:{text:'a'.repeat(1501),at:'d'}},{x:'480'},many])assert.throws(()=>other.restore({product:'Klassia',schemaVersion:2,data:{klassia_answers_v1:bad}}));
 });

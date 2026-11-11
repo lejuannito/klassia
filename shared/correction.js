@@ -66,7 +66,7 @@ document.addEventListener('submit', event => {
  }
  if (panel.dataset.save) {
   try {
-   // Kept on this device only (outside backups, like the earlier free answers); the oldest are dropped past 400.
+   // Kept in the child's profile and in the exported backup; the oldest are dropped past 400.
    const all = K.read(ANSWERS, {});
    all[panel.dataset.save] = {text:field.value.trim().slice(0, 1500), at:new Date().toISOString()};
    const ids = Object.keys(all).sort((a, b) => String(all[b].at).localeCompare(String(all[a].at)));

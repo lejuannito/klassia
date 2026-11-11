@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "9c65855f236d024cf3f2c91e70c3a9953faf595b7ba046579ec851a75735de32",
+  "version": "c771dc402dd8aa5d8b4c0f30b6ba83620db5f931a8d78b7fa7f249d30fa3a2b8",
   "files": [
     {
       "url": "./app.js",
@@ -495,11 +495,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/core.js",
-      "sha256": "9be2696737a14dd8df8f3e768425be112707ae78b9584006300c2b3db529cb16"
+      "sha256": "0d0a254f78870aa0b049fcf9fd5dcf83a4a2b8c729f46657408e5dcb750bb85c"
     },
     {
       "url": "./shared/correction.js",
-      "sha256": "7eeafa1d4697ef146f101df1dd95c34901f3e32175fc48365d50710ab3c0b677"
+      "sha256": "40d5f3b4507de366121f02c7d2865df98e4c978fd841cb051133545a4b58eb82"
     },
     {
       "url": "./shared/ink.js",

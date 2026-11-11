@@ -16,7 +16,14 @@ jobs:
       - run: npm install --ignore-scripts
       - run: npm run catalog && npm run validate && npm test && npm run build
       - run: git diff --exit-code -- precache-manifest.js data/catalog.json data/coverage.json docs/couverture.csv docs/metrics.json
-      - run: npx playwright install --with-deps chromium
+      # The test browser comes from the Playwright download only, without apt-get:
+      # the Ubuntu package mirrors are sometimes unreachable from the runners, and the
+      # runner image already provides the system libraries Chromium needs.
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package.json') }}
+      - run: npx playwright install chromium
       - run: npm run test:browser
       - run: npm run test:gs && npm run test:speech
       - run: npm run test:search

@@ -141,11 +141,12 @@ async function testBassaMicrophone(context, page, base) {
   await publication.locator('summary').click();
   await publication.getByLabel('Référence de l’avis favorable').fill('REV-04');
   await publication.getByLabel('Référence de l’accord de diffusion').fill('ACC-04');
+  await publication.getByLabel('Le locuteur autorise la diffusion de cette prise à tous les élèves.').check();
   const [packageDownload] = await Promise.all([
     page.waitForEvent('download'),
-    publication.getByRole('button', { name: 'Télécharger le dossier de diffusion' }).click()
+    publication.getByRole('button', { name: 'Exporter le dossier pour intégration manuelle' }).click()
   ]);
-  assert.equal(packageDownload.suggestedFilename(), 'Klassia-BA004-01-diffusion.json');
+  assert.equal(packageDownload.suggestedFilename(), 'Klassia-BA004-diffusion.json');
   const dossier = JSON.parse(fs.readFileSync(await packageDownload.path(), 'utf8'));
   assert.equal(dossier.id, 'BA004');
   assert.equal(dossier.form, 'málêt');
@@ -370,6 +371,8 @@ async function testReadingWorkshops(page, base) {
   assert.match(await exercise.locator('.feedback').innerText(), /Après les six essais/);
   await page.goto(notebook);
   await page.getByRole('link', { name: 'Noter l’essai lecture CE2', exact: true }).click();
+  await page.waitForURL(/lecon=FR-U7-L2/);
+  await page.waitForFunction(() => document.querySelector('#pilotObservation [name="lesson"]')?.value === 'FR-U7-L2');
   assert.equal(await page.locator('#pilotObservation [name="lesson"]').inputValue(), 'FR-U7-L2');
   assert.equal(await page.locator('#pilotObservation [name="exercise"]').inputValue(), 'FR-U7-L2-E4');
   console.log('PASS offline reading and writing workshops, five routes, corrections and prefilled pilot feedback');

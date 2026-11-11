@@ -241,3 +241,10 @@ body > .sil-child .lesson-support > .preserve-lines { font-size: 1.6rem; font-we
 .reading-support caption { font-size: .9rem; color: #46526b; }
 body > .sil-child .reading-support th, body > .sil-child .reading-support td { font-size: 1.6rem; font-weight: 700; padding: 6px 2px; }
 body > .sil-child .reading-support th { color: #46526b; font-size: 1.2rem; }
+
+/* Lot 9a: the week at a glance and sharing */
+.klassia-week-report ul { margin: .4rem 0; padding-left: 1.2rem; }
+.klassia-share { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.klassia-share a, .klassia-share button { min-height: 44px; display: inline-flex; align-items: center; padding: 0 14px; border-radius: 10px; }
+.klassia-share a { background: #1f8f4e; color: #fff; text-decoration: none; font-weight: 700; }
+.klassia-share-note { font-size: .9rem; color: #46526b; }

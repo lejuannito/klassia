@@ -1,8 +1,20 @@
 # Klassia — prochain travail
 
-_Mise à jour le 8 novembre 2026_
+_Mise à jour le 11 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
+
+## Lot 1 — mode famille (en cours)
+
+Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livrés séparément.
+
+- **1a. Barre famille** — en vue Enfant, la barre ne garde que le retour, la classe, les outils et un menu « Parents » qui regroupe suivi, profil, recherche, espace et validation pédagogique. Les vues adultes sont inchangées.
+- **1b. Porte Parents et atelier** — un calcul simple avant la vue Parent ; vues Enseignant et Administration depuis une page atelier.
+- **1c. Premier lancement** — école (francophone, anglophone, les deux), classe, prénom.
+- **1d. Continuer** — bouton vers la prochaine leçon non faite dans les cinq classes.
+- **1e. Mots et confort** — retrait du vocabulaire éditorial et du mot « bilingue » des vues Enfant et Parent, commandes de 44 px, texte de 14 px au moins.
+
+Décisions du porteur de projet (11 novembre 2026), à reporter dans `DECISIONS.md` lors du lot qui les met en œuvre : remplacer « bilingue » par des classes anglophones équivalentes avec passerelle par thème et semaine ; la langue nationale est celle des parents, le bassa étant la première traitée pour la famille pilote ; en maternelle, parcours de base calé sur le programme et parcours « pour aller plus loin ».
 
 ## Lots techniques à essayer sur appareils réels
 

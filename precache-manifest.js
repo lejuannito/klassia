@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "e5d8c1f771e445865f38f87fb0e7d0e3a9a7b48183d3d18702e362984e86bb7d",
+  "version": "b6200aab07ad3acf1c9293ce458b6213207dd45fd10bfaf1d39bdc2f466676f2",
   "files": [
     {
       "url": "./app.js",
@@ -567,11 +567,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "68f004b4e2d254699f08e27006c032e58b73c233fc07f045297e1d9eeeae7407"
+      "sha256": "e0964b07eb3884535c0f76233339d01ac7449b5ab141faa1455eb9cd0a13dd9e"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "aa5ebda14b5ca3c3f889b24f51197a7e3eb791370d0c93defdd2c197d25d4513"
+      "sha256": "ae8429e4cf754d759aacd1fe2b755ea074362bfb00d0ae335d8a94ac97a1640d"
     },
     {
       "url": "./sil/data/curriculum.json",

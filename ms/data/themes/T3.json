@@ -24,6 +24,8 @@
           "title_en": "My family",
           "goal_fr": "Nommer quelques membres de la famille en français et en anglais.",
           "goal_en": "Name a few family members in French and English.",
+          "prompt_fr": "Montre la maman, le papa, le bébé. Qui d’autre vit dans une famille ?",
+          "prompt_en": "Show the mum, the dad, the baby. Who else lives in a family?",
           "table": {
             "headers": [
               "👪",
@@ -78,7 +80,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des dessins, photos fictives ou poupées de famille"
+          ],
+          "materials_en": [
+            "drawings, made-up photos or family dolls"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T3-LC2",
@@ -99,7 +108,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de personnes ou des poupées"
+          ],
+          "materials_en": [
+            "pictures of people or dolls"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T3-LC3",
@@ -108,6 +124,8 @@
           "title_en": "At home",
           "goal_fr": "Nommer quelques espaces et objets de la maison.",
           "goal_en": "Name a few rooms and home objects.",
+          "prompt_fr": "Montre la cuisine, la chambre, la porte. Dis le nom de chaque endroit.",
+          "prompt_en": "Show the kitchen, the bedroom, the door. Say the name of each place.",
           "table": {
             "headers": [
               "Image",
@@ -155,7 +173,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "le tableau des mots de la maison à l’écran"
+          ],
+          "materials_en": [
+            "the home words table on screen"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T3-LC4",
@@ -164,6 +189,8 @@
           "title_en": "Little story: The family basket",
           "goal_fr": "Comprendre une histoire sur l’entraide familiale.",
           "goal_en": "Understand a story about helping at home.",
+          "prompt_fr": "Écoute l’histoire. Qui aide la famille de Lila, et comment ?",
+          "prompt_en": "Listen to the story. Who helps Lila’s family, and how?",
           "story_fr": "Après le marché, la famille de Lila porte un panier. Papa range les bouteilles d’eau. Maman lave les tomates. Lila apporte les cuillères et son frère range les fruits. Le bébé ne range rien : il regarde tout le monde et rit. Quand le travail est fini, chacun s’assoit. « Merci ! », dit maman.",
           "story_en": "After the market, Lila’s family carries a basket. Dad puts away the water bottles. Mum washes the tomatoes. Lila brings the spoons and her brother puts away the fruit. The baby does not tidy anything; he watches everyone and laughs. When the work is done, everyone sits down. “Thank you!” says Mum.",
           "questions": [
@@ -186,7 +213,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un panier",
+            "quelques objets du marché en image"
+          ],
+          "materials_en": [
+            "a basket",
+            "a few market items in pictures"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T3-LC5",
@@ -195,6 +231,8 @@
           "title_en": "I draw a house with shapes",
           "goal_fr": "Associer graphisme et formes géométriques.",
           "goal_en": "Combine pre-writing and simple shapes.",
+          "prompt_fr": "Dessine une maison : un carré pour le mur, un triangle pour le toit, un rectangle pour la porte.",
+          "prompt_en": "Draw a house: a square for the wall, a triangle for the roof, a rectangle for the door.",
           "visual": {
             "kind": "house",
             "items": [
@@ -224,7 +262,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayons",
+            "des formes découpées en modèle"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons",
+            "cut-out shapes as models"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T3-LC6",
@@ -233,6 +282,8 @@
           "title_en": "Helpful family words",
           "goal_fr": "Utiliser merci, s’il te plaît et excuse-moi.",
           "goal_en": "Use thank you, please and sorry/excuse me.",
+          "prompt_fr": "Dans chaque petite scène, dis le bon mot : merci, s’il te plaît ou pardon.",
+          "prompt_en": "In each little scene, say the right word: thank you, please or sorry.",
           "table": {
             "headers": [
               "Français",
@@ -272,7 +323,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "deux marionnettes ou figurines"
+          ],
+          "materials_en": [
+            "two puppets or figures"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T3-LC7",
@@ -400,7 +458,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "les formes bassa affichées dans Klassia",
+            "un dessin de famille ou de maison"
+          ],
+          "materials_en": [
+            "the Bassa forms shown in Klassia",
+            "a drawing of a family or a house"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -454,7 +521,18 @@
           "activity_en": "Three people sit at the table. Draw three dots for the people, then a circle below each dot for a cup. You can also try with large counters.",
           "source_refs": [
             "FR · Maternelle, tableau 17, p. 65 et 67, première année, thème 3."
-          ]
+          ],
+          "materials": [
+            "trois gobelets",
+            "trois jetons",
+            "une carte 3"
+          ],
+          "materials_en": [
+            "three cups",
+            "three counters",
+            "a number card 3"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T3-ST2",
@@ -463,6 +541,8 @@
           "title_en": "Shapes at home",
           "goal_fr": "Repérer cercle, carré, rectangle et triangle dans une scène domestique.",
           "goal_en": "Find circle, square, rectangle and triangle in a home scene.",
+          "prompt_fr": "Cherche dans la maison un rond, un carré, un rectangle et un triangle.",
+          "prompt_en": "Find a circle, a square, a rectangle and a triangle in the house.",
           "table": {
             "headers": [
               "Forme",
@@ -495,7 +575,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une assiette",
+            "un carreau ou une boîte",
+            "une image de porte et de toit"
+          ],
+          "materials_en": [
+            "a plate",
+            "a tile or a box",
+            "a picture of a door and a roof"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T3-ST3",
@@ -514,10 +605,14 @@
           "materials": [
             "trois boîtes légères et stables, de tailles différentes, posées au sol avec l’adulte"
           ],
+          "materials_en": [
+            "three light, steady boxes of different sizes, placed on the floor with the adult"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "duration_minutes": 10
         },
         {
           "id": "T3-ST4",
@@ -526,6 +621,8 @@
           "title_en": "Wood, metal, fabric, plastic",
           "goal_fr": "Observer quelques matériaux courants sans viser une nomenclature exhaustive.",
           "goal_en": "Observe common materials without requiring exhaustive terminology.",
+          "prompt_fr": "Touche chaque objet et mets ensemble ceux qui se ressemblent.",
+          "prompt_en": "Touch each object and put together the ones that are alike.",
           "table": {
             "headers": [
               "Matériau",
@@ -560,7 +657,20 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une cuillère en bois",
+            "une clé",
+            "un tissu",
+            "une boîte en plastique"
+          ],
+          "materials_en": [
+            "a wooden spoon",
+            "a key",
+            "a piece of cloth",
+            "a plastic box"
+          ],
+          "duration_minutes": 10
         }
       ]
     },
@@ -578,6 +688,8 @@
           "title_en": "I help at home",
           "goal_fr": "Identifier de petites responsabilités adaptées à l’âge.",
           "goal_en": "Identify age-appropriate ways to help.",
+          "prompt_fr": "Choisis une petite tâche pour aider à la maison et fais-la avec moi.",
+          "prompt_en": "Choose a small job to help at home and do it with me.",
           "visual": {
             "kind": "chores",
             "items": [
@@ -595,7 +707,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des jouets à ranger",
+            "un panier à linge",
+            "des cuillères"
+          ],
+          "materials_en": [
+            "toys to tidy",
+            "a laundry basket",
+            "spoons"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T3-PV2",
@@ -604,6 +727,8 @@
           "title_en": "Kitchen safety",
           "goal_fr": "Reconnaître quelques dangers domestiques.",
           "goal_en": "Recognise a few home hazards.",
+          "prompt_fr": "Montre sur l’image ce qu’on ne touche pas, et dis qui tu appelles.",
+          "prompt_en": "Show on the picture what we do not touch, and say who you call.",
           "table": {
             "headers": [
               "Objet/situation",
@@ -636,7 +761,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une image de cuisine (aucun objet dangereux réel)"
+          ],
+          "materials_en": [
+            "a picture of a kitchen (no real dangerous objects)"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T3-PV3",
@@ -645,6 +777,8 @@
           "title_en": "A clear walkway",
           "goal_fr": "Comprendre que ranger améliore aussi la sécurité.",
           "goal_en": "Understand that tidying also improves safety.",
+          "prompt_fr": "Trouve ce qui bloque le passage et range-le pour qu’on ne tombe pas.",
+          "prompt_en": "Find what is blocking the way and put it away so nobody falls.",
           "game_fr": "Sur une image ou une scène préparée, repérer sac, jouet ou chaussure qui bloque le passage et les ranger.",
           "game_en": "In a prepared scene or picture, find items blocking the walkway and put them away.",
           "observe": [
@@ -655,7 +789,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un sac",
+            "un jouet",
+            "une chaussure"
+          ],
+          "materials_en": [
+            "a bag",
+            "a toy",
+            "a shoe"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T3-PV4",
@@ -664,6 +809,8 @@
           "title_en": "Adults who can help me",
           "goal_fr": "Identifier des adultes de confiance dans différents lieux.",
           "goal_en": "Identify trusted adults in different settings.",
+          "prompt_fr": "Montre les personnes qui peuvent t’aider à la maison, à l’école ou au dispensaire.",
+          "prompt_en": "Show the people who can help you at home, at school or at the clinic.",
           "activity_fr": "Avec des personnages fictifs : parent/tuteur, enseignant, professionnel de santé, agent de sécurité identifié. Discuter de qui demander de l’aide selon la situation.",
           "activity_en": "Use fictional characters: parent/carer, teacher, health worker, identified safety officer. Discuss whom to ask for help.",
           "observe": [
@@ -674,7 +821,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images ou figurines de personnes (parent, enseignant, soignant)"
+          ],
+          "materials_en": [
+            "pictures or figures of people (parent, teacher, health worker)"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -692,10 +846,17 @@
           "title_en": "An imaginary family portrait",
           "goal_fr": "Composer une scène avec plusieurs personnages.",
           "goal_en": "Create a scene with several people.",
+          "prompt_fr": "Dessine une famille : la tienne ou une famille inventée. Qui est sur ton dessin ?",
+          "prompt_en": "Draw a family: yours or a made-up one. Who is in your picture?",
           "materials": [
             "papier",
             "crayons",
             "formes autocollantes facultatives"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons",
+            "optional stickers"
           ],
           "activity_fr": "Dessiner sa famille réelle ou une famille inventée, au choix.",
           "activity_en": "Draw one’s real family or an invented family, by choice.",
@@ -707,7 +868,8 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "duration_minutes": 15
         },
         {
           "id": "T3-AR2",
@@ -716,10 +878,18 @@
           "title_en": "I build a little house",
           "goal_fr": "Assembler des formes ou boîtes pour créer une maison.",
           "goal_en": "Assemble shapes or boxes to create a house.",
+          "prompt_fr": "Choisis une boîte pour ta maison, puis ajoute une porte, des fenêtres et un toit.",
+          "prompt_en": "Choose a box for your house, then add a door, windows and a roof.",
           "materials": [
             "petite boîte propre",
             "papier",
             "ruban adhésif/colle sous surveillance",
+            "crayons"
+          ],
+          "materials_en": [
+            "a small clean box",
+            "paper",
+            "tape or glue with an adult",
             "crayons"
           ],
           "steps_fr": [
@@ -742,7 +912,8 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "duration_minutes": 20
         },
         {
           "id": "T3-AR3",
@@ -761,7 +932,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "aucun : la voix"
+          ],
+          "materials_en": [
+            "none: your voice"
+          ],
+          "duration_minutes": 5
         }
       ]
     },
@@ -779,6 +957,8 @@
           "title_en": "I mime home actions",
           "goal_fr": "Coordonner gestes et verbes d’action.",
           "goal_en": "Coordinate movement with action words.",
+          "prompt_fr": "Fais semblant : balaie, porte un panier, plie un tissu, range un jouet. Je devine ce que tu fais.",
+          "prompt_en": "Pretend: sweep, carry a basket, fold a cloth, tidy a toy. I guess what you are doing.",
           "course": [
             "balayer sans balai réel",
             "porter un panier léger",
@@ -794,7 +974,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un espace dégagé"
+          ],
+          "materials_en": [
+            "a clear space"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T3-MT2",
@@ -803,6 +990,8 @@
           "title_en": "Home obstacle course",
           "goal_fr": "Se déplacer dans un petit parcours sécurisé.",
           "goal_en": "Move through a safe indoor course.",
+          "prompt_fr": "Fais le parcours : contourne la chaise, marche sur la ligne, passe sous le ruban, pose l’objet dans le panier.",
+          "prompt_en": "Do the course: go around the chair, walk on the line, go under the ribbon, put the object in the basket.",
           "course": [
             "passer autour d’une chaise",
             "marcher sur une ligne",
@@ -817,7 +1006,22 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une chaise",
+            "une ligne au sol",
+            "un ruban tendu en hauteur",
+            "un objet léger",
+            "un panier"
+          ],
+          "materials_en": [
+            "a chair",
+            "a line on the floor",
+            "a ribbon stretched up high",
+            "a light object",
+            "a basket"
+          ],
+          "duration_minutes": 10
         }
       ]
     }

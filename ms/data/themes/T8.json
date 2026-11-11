@@ -24,6 +24,8 @@
           "title_en": "How do we travel?",
           "goal_fr": "Nommer quelques moyens de déplacement.",
           "goal_en": "Name simple means of transport.",
+          "prompt_fr": "Montre le vélo, le bus, le bateau, l’avion. Dis leur nom.",
+          "prompt_en": "Show the bike, the bus, the boat, the plane. Say their names.",
           "table": {
             "headers": [
               "Image",
@@ -71,7 +73,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de moyens de transport"
+          ],
+          "materials_en": [
+            "pictures of means of transport"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T8-LC2",
@@ -80,6 +89,8 @@
           "title_en": "Where are we going?",
           "goal_fr": "Employer aller/go et quelques lieux familiers.",
           "goal_en": "Use go and familiar destinations.",
+          "prompt_fr": "Écoute et va vers la bonne carte : « Je vais à l’école. »",
+          "prompt_en": "Listen and go to the right card: “I go to school.”",
           "table": {
             "headers": [
               "Français",
@@ -114,7 +125,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "quatre cartes lieux : école, marché, maison, grand-mère"
+          ],
+          "materials_en": [
+            "four place cards: school, market, home, Grandma’s"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T8-LC3",
@@ -123,6 +141,8 @@
           "title_en": "Front, behind, near, far",
           "goal_fr": "Comprendre quelques mots de position et distance.",
           "goal_en": "Understand simple position and distance words.",
+          "prompt_fr": "Mets la voiture devant la boîte, puis derrière, puis loin.",
+          "prompt_en": "Put the car in front of the box, then behind it, then far away.",
           "visual": {
             "kind": "position",
             "items": [
@@ -142,7 +162,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une petite voiture",
+            "une boîte"
+          ],
+          "materials_en": [
+            "a toy car",
+            "a box"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T8-LC4",
@@ -151,6 +180,8 @@
           "title_en": "Little story: Nia’s journey",
           "goal_fr": "Suivre un petit itinéraire narratif.",
           "goal_en": "Follow a simple narrated route.",
+          "prompt_fr": "Écoute le voyage de Nia. Où va-t-elle d’abord ? Et ensuite ?",
+          "prompt_en": "Listen to Nia’s trip. Where does she go first? And then?",
           "story_fr": "Nia quitte la maison avec sa tante. Elles marchent jusqu’à l’arrêt de bus. Le bus les conduit près du marché. Elles traversent seulement au passage indiqué avec l’adulte. Au retour, il pleut : elles attendent sous un abri plutôt que de courir sur la route. Nia raconte ensuite les trois étapes de son trajet.",
           "story_en": "Nia leaves home with her aunt. They walk to the bus stop. The bus takes them near the market. They cross only at the marked place with the adult. On the way back it rains, so they wait under shelter instead of running on the road. Later Nia tells the three steps of her journey.",
           "questions": [
@@ -173,7 +204,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images : maison, arrêt de bus, marché"
+          ],
+          "materials_en": [
+            "pictures: home, bus stop, market"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T8-LC5",
@@ -182,6 +220,8 @@
           "title_en": "My pretend ticket",
           "goal_fr": "Reconnaître quelques informations simples sur un support symbolique.",
           "goal_en": "Recognise simple information on a pretend ticket.",
+          "prompt_fr": "Fabrique ton billet : dessine le bus, puis le lieu où tu vas.",
+          "prompt_en": "Make your ticket: draw the bus, then the place you are going to.",
           "table": {
             "headers": [
               "🎫 Billet",
@@ -216,7 +256,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayons",
+            "ciseaux à bouts ronds avec un adulte"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons",
+            "round-tipped scissors with an adult"
+          ],
+          "duration_minutes": 15
         },
         {
           "id": "T8-LC6",
@@ -225,6 +276,8 @@
           "title_en": "I trace roads",
           "goal_fr": "Suivre des lignes droites, courbes et carrefours simples.",
           "goal_en": "Trace straight, curved and simple branching paths.",
+          "prompt_fr": "Trace des routes : une droite, une qui tourne, puis un carrefour.",
+          "prompt_en": "Draw roads: a straight one, a curvy one, then a crossroads.",
           "visual": {
             "kind": "roads",
             "items": [
@@ -242,7 +295,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayons",
+            "une petite voiture si possible"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons",
+            "a toy car if possible"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T8-LC7",
@@ -380,7 +444,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "les formes bassa affichées dans Klassia",
+            "un locuteur bassa si possible"
+          ],
+          "materials_en": [
+            "the Bassa forms shown in Klassia",
+            "a Bassa speaker if possible"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -398,6 +471,8 @@
           "title_en": "Land, water, air",
           "goal_fr": "Classer quelques moyens de transport par milieu principal.",
           "goal_en": "Sort transport by main environment.",
+          "prompt_fr": "Ce véhicule va-t-il sur la route, sur l’eau ou dans l’air ?",
+          "prompt_en": "Does this vehicle go on the road, on the water or in the air?",
           "table": {
             "headers": [
               "Terre / Land",
@@ -420,7 +495,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images de véhicules",
+            "trois feuilles : terre, eau, air"
+          ],
+          "materials_en": [
+            "vehicle pictures",
+            "three sheets: land, water, air"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T8-ST2",
@@ -468,7 +552,15 @@
             "preparation": "Préparer un bus dessiné, cinq jetons et les cartes 1 à 5.",
             "adaptation": "Proposer un groupe plus petit, puis écarter les jetons pour faciliter le pointage.",
             "follow_up": "Présenter plusieurs groupes de un à cinq voyageurs et laisser l’enfant les compter. Déplacer les jetons de chaque groupe et faire recompter. Noter le plus grand nombre retrouvé seul dans deux dispositions."
-          }
+          },
+          "materials": [
+            "cinq jetons",
+            "une image de bus"
+          ],
+          "materials_en": [
+            "five counters",
+            "a picture of a bus"
+          ]
         },
         {
           "id": "T8-ST3",
@@ -477,6 +569,8 @@
           "title_en": "My first simple map",
           "goal_fr": "Suivre un itinéraire sur un plan très simplifié.",
           "goal_en": "Follow a route on a very simple map.",
+          "prompt_fr": "Avec ton doigt, va de la maison à l’école en passant par l’arrêt.",
+          "prompt_en": "With your finger, go from home to school, past the bus stop.",
           "diagram": {
             "kind": "map",
             "labels": [
@@ -496,7 +590,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "un plan dessiné : maison, arrêt, école"
+          ],
+          "materials_en": [
+            "a drawn map: home, bus stop, school"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T8-ST4",
@@ -505,6 +606,8 @@
           "title_en": "Near or far?",
           "goal_fr": "Comparer des distances de façon qualitative.",
           "goal_en": "Compare distances qualitatively.",
+          "prompt_fr": "Quel endroit est près ? Lequel est loin ? Marche jusqu’à chacun.",
+          "prompt_en": "Which place is near? Which one is far? Walk to each one.",
           "game_fr": "Placer deux destinations fictives sur le sol : une près, une loin. Demander quel trajet est le plus court.",
           "game_en": "Place two pretend destinations: near and far. Ask which route is shorter.",
           "observe": [
@@ -515,7 +618,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "deux repères au sol"
+          ],
+          "materials_en": [
+            "two markers on the floor"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -533,6 +643,8 @@
           "title_en": "I cross with an adult",
           "goal_fr": "Acquérir une première routine de sécurité routière.",
           "goal_en": "Learn a basic road-crossing routine.",
+          "prompt_fr": "Pour traverser, je donne la main à l’adulte, je regarde, j’attends. Montre-moi.",
+          "prompt_en": "To cross the road, I hold the adult’s hand, I look, I wait. Show me.",
           "steps_fr": [
             "Je reste avec l’adulte.",
             "Je m’arrête au bord sécurisé.",
@@ -553,7 +665,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une route dessinée au sol",
+            "une figurine"
+          ],
+          "materials_en": [
+            "a road drawn on the floor",
+            "a small figure"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T8-PV2",
@@ -572,7 +693,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une chaise",
+            "une écharpe pour faire la ceinture"
+          ],
+          "materials_en": [
+            "a chair",
+            "a scarf as a pretend seat belt"
+          ],
+          "duration_minutes": 5
         },
         {
           "id": "T8-PV3",
@@ -581,6 +711,8 @@
           "title_en": "If I get lost",
           "goal_fr": "Savoir rester dans une zone sûre et demander de l’aide.",
           "goal_en": "Know to stay safe and ask for help.",
+          "prompt_fr": "Si tu te perds, que fais-tu ? Reste où tu es et demande à un adulte du lieu.",
+          "prompt_en": "If you get lost, what do you do? Stay where you are and ask a grown-up who works there.",
           "activity_fr": "Jeu de rôle : rester visible, chercher un adulte identifié (personnel du lieu, policier/gendarme en service, enseignant, agent clairement identifié), dire son prénom mais ne pas inventer d’adresse à mémoriser publiquement.",
           "activity_en": "Role-play staying visible and asking identified staff for help.",
           "observe": [
@@ -591,7 +723,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des images d’un lieu public",
+            "une figurine"
+          ],
+          "materials_en": [
+            "pictures of a public place",
+            "a small figure"
+          ],
+          "duration_minutes": 8
         },
         {
           "id": "T8-PV4",
@@ -600,6 +741,8 @@
           "title_en": "I pack a small bag",
           "goal_fr": "Choisir quelques objets utiles pour une sortie courte.",
           "goal_en": "Choose useful items for a short outing.",
+          "prompt_fr": "Choisis ce qu’on met dans le sac pour une petite sortie.",
+          "prompt_en": "Choose what goes in the bag for a short trip.",
           "game_fr": "Parmi des cartes, choisir eau, chapeau selon météo, mouchoir, vêtement léger adapté ; écarter objets lourds/dangereux.",
           "game_en": "Choose suitable items for a short outing.",
           "observe": [
@@ -610,7 +753,14 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "des cartes objets : eau, chapeau, mouchoir, jouet, verre"
+          ],
+          "materials_en": [
+            "object cards: water, hat, tissue, toy, glass"
+          ],
+          "duration_minutes": 8
         }
       ]
     },
@@ -633,6 +783,12 @@
             "formes",
             "crayons",
             "boîtes propres facultatives"
+          ],
+          "materials_en": [
+            "paper",
+            "shapes",
+            "crayons",
+            "optional clean boxes"
           ],
           "observe": [
             "Combine plusieurs formes.",
@@ -669,6 +825,8 @@
           "title_en": "I draw a route",
           "goal_fr": "Représenter un trajet simple par une ligne et des repères.",
           "goal_en": "Represent a route with a line and landmarks.",
+          "prompt_fr": "Dessine ta maison, une route, puis l’endroit où tu vas.",
+          "prompt_en": "Draw your home, a road, then the place you are going to.",
           "activity_fr": "Dessiner un point de départ fictif, une route et une destination avec 2 repères.",
           "activity_en": "Draw a pretend start, route and destination with 2 landmarks.",
           "observe": [
@@ -679,7 +837,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "papier",
+            "crayons"
+          ],
+          "materials_en": [
+            "paper",
+            "crayons"
+          ],
+          "duration_minutes": 15
         },
         {
           "id": "T8-AR3",
@@ -722,7 +889,13 @@
               "answer": "J’arrête le geste / I stop moving. Observer l’écoute du signal, sans exiger une synchronisation parfaite."
             }
           ],
-          "duration_minutes": 10
+          "duration_minutes": 10,
+          "materials": [
+            "aucun : les mains et les pieds"
+          ],
+          "materials_en": [
+            "none: hands and feet"
+          ]
         }
       ]
     },
@@ -740,6 +913,8 @@
           "title_en": "Red light, green light",
           "goal_fr": "Contrôler départ et arrêt sur signal.",
           "goal_en": "Control starting and stopping on a signal.",
+          "prompt_fr": "Vert, tu marches. Orange, tu ralentis. Rouge, tu t’arrêtes !",
+          "prompt_en": "Green, walk. Orange, slow down. Red, stop!",
           "game_fr": "Vert : marcher ; orange : ralentir ; rouge : s’arrêter. Utiliser uniquement dans un espace de jeu, pas comme simulation complète de circulation.",
           "game_en": "Green: walk; amber: slow; red: stop. Use only as a movement game.",
           "observe": [
@@ -750,7 +925,16 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "trois cartes rouge, orange, vert",
+            "un espace dégagé"
+          ],
+          "materials_en": [
+            "three cards: red, orange, green",
+            "a clear space"
+          ],
+          "duration_minutes": 10
         },
         {
           "id": "T8-MT2",
@@ -759,6 +943,8 @@
           "title_en": "Little travel course",
           "goal_fr": "Suivre plusieurs étapes motrices dans l’ordre.",
           "goal_en": "Follow a multi-step movement route.",
+          "prompt_fr": "Fais le voyage : marche sur la route, fais le tour du rond-point, arrête-toi à l’arrêt, puis arrive à l’école.",
+          "prompt_en": "Do the trip: walk along the road, go round the roundabout, stop at the bus stop, then arrive at school.",
           "course": [
             "maison : départ",
             "marcher sur une ligne",
@@ -774,7 +960,18 @@
           "editorial": {
             "status": "in_review",
             "validation": "pending"
-          }
+          },
+          "materials": [
+            "une ligne au sol",
+            "un plot ou une bouteille pour le rond-point",
+            "deux repères : l’arrêt et l’école"
+          ],
+          "materials_en": [
+            "a line on the floor",
+            "a cone or a bottle for the roundabout",
+            "two markers: the bus stop and the school"
+          ],
+          "duration_minutes": 10
         }
       ]
     }

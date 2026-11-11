@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "48e9a5b844820d1be0c5bbeb20234af7c5a69a051572d810eb029499493955b4",
+  "version": "7b16ad157c2a9989a5078ec79f2ee3915bc928cfa5d9c1e79423f0764640685e",
   "files": [
     {
       "url": "./app.js",
@@ -411,7 +411,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-ui-v13.js",
-      "sha256": "5bd026e7561428006a7f22e0f3e1cd096344448970a7eca4c978d9deee68fe11"
+      "sha256": "825ee340b6cfa74e3b9f9afcadbf06f752eb3ca52cd50600f969ab6481ca88cf"
     },
     {
       "url": "./ms/data/catalog-v13.json",
@@ -419,35 +419,35 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/data/themes/T1.json",
-      "sha256": "fac99bac6aacc4fdf3485566df14ed59de2931561d246b8f99dd049648125059"
+      "sha256": "acfab1d974102c4ee03e4fafae2826ed8c9311f4c92001630d8dbcb89402a6dc"
     },
     {
       "url": "./ms/data/themes/T2.json",
-      "sha256": "0d3202dfd7ec7fa27365da8efaf304d4ea39e9a9675211c931651ad572d9f358"
+      "sha256": "21f09899f34f7609b6fd2a4598cfffe795ef14eb70352e176f28ddfa5e0f429e"
     },
     {
       "url": "./ms/data/themes/T3.json",
-      "sha256": "c323a491f10a63ee6729a7f67b1297039ad2353149cbdbd47458444d9788d9d5"
+      "sha256": "bd7302ac62eda95077e4c0ae86efcfcc84ce1568938a9ec54da4ff1e3ebdba03"
     },
     {
       "url": "./ms/data/themes/T4.json",
-      "sha256": "ab319d9dec59a885c09f7d155639fd26a47cff2498e0caa54f93f43edc2740d3"
+      "sha256": "f62cda678c97196b0ff7b567224ba8051113e0b0cc72d57d6ad6ce522f12e37e"
     },
     {
       "url": "./ms/data/themes/T5.json",
-      "sha256": "211001a4084c4a61826136f06c74aa58dc61b73927caa743e1cfe81b2667c9e1"
+      "sha256": "adb5c11d8331609fecadd2cfab9a2e899ae03d8d134b2509acfcd0562469645b"
     },
     {
       "url": "./ms/data/themes/T6.json",
-      "sha256": "bb5d813a8f14ebc54b11d5369236bb97316cf54b4d03075c1f1dad159fb26847"
+      "sha256": "dbbc89c9c2174082064fd30f9e66247a58f85eacad146fa8c4a71ac603584289"
     },
     {
       "url": "./ms/data/themes/T7.json",
-      "sha256": "3bc99bf251bf827c91656a642d34ddd809b39910e0e81483b25f7aa08759e04c"
+      "sha256": "a014acea58a8dc5ed41e886acda53f81644b0b802fb428f0adadb950484d03a3"
     },
     {
       "url": "./ms/data/themes/T8.json",
-      "sha256": "3cca7b7e2dfa19f56a0b6fda8810c38ecbdcb56d1579975dc756969779bdad30"
+      "sha256": "8eb3ea32acf25364937f06ef22a1529f6c407f6450e87787bece3f0615fbadb1"
     },
     {
       "url": "./ms/index.html",

@@ -183,3 +183,38 @@ html[data-klassia-view="family"] .gs-top > a { display: inline-flex; align-items
 .klassia-manual-ref { margin: 10px 0; padding: 10px 12px; border: 1px solid #f0d6a8; border-radius: 10px; background: #fff7df; color: #4a3500; }
 .klassia-manual-ref span { font-weight: 800; margin-right: 4px; }
 .klassia-manual-ref a { font-weight: 700; }
+
+/* Lot 4a: nursery guided session (MS, GS) */
+.nursery-lang { display: flex; gap: 8px; margin: 10px 0; }
+.nursery-lang button { flex: 1 1 0; min-height: 44px; border: 2px solid #cad4ee; border-radius: 12px; background: #fff; color: #243f83; font-weight: 800; font-size: 1rem; }
+.nursery-lang button[aria-pressed="true"] { background: #243f83; border-color: #243f83; color: #fff; }
+.nursery-goal { margin: 0 0 10px; }
+.nursery-card { margin: 0 0 12px; padding: 12px 14px; border: 1px solid #f0d6a8; border-radius: 14px; background: #fffaf0; display: grid; gap: 8px; }
+.nursery-card div { display: grid; gap: 2px; }
+.nursery-card dt { font-weight: 800; color: #6c4b14; font-size: .9rem; }
+.nursery-card dd { margin: 0; }
+#app .nursery-show { display: block; width: 100%; min-height: 52px; margin: 0 0 12px; border: 0; border-radius: 14px; background: #ffd34d; color: #172033; font-weight: 900; font-size: 1.1rem; cursor: pointer; }
+.nursery-stage { display: grid; gap: 12px; }
+.nursery-stage .nursery-close, .nursery-stage .nursery-done { display: none; }
+.nursery-rating { margin: 14px 0 0; padding: 12px; border: 1px solid #d6deef; border-radius: 14px; background: #f7f9ff; }
+.nursery-rating h4 { margin: 0 0 8px; font-size: 1rem; }
+.nursery-rating div { display: flex; flex-wrap: wrap; gap: 8px; }
+.nursery-rating button { flex: 1 1 110px; min-height: 48px; border: 2px solid #cad4ee; border-radius: 12px; background: #fff; color: #243f83; font-weight: 800; font-size: 1rem; }
+.nursery-rating button[aria-pressed="true"] { background: #1d6b2f; border-color: #1d6b2f; color: #fff; }
+.nursery-rated { margin: 6px 0 0; color: #1d6b2f; font-weight: 700; }
+.nursery-rated:empty { display: none; }
+/* Child screen: the picture, the speaker and the action fill the screen; no text to read. */
+#app .activityCard.nursery-child { position: fixed; inset: 0; z-index: 1000; margin: 0; border: 0; border-radius: 0; overflow: auto; background: #fff; }
+#app .activityCard.nursery-child .activityHead { justify-content: center; text-align: center; }
+#app .activityCard.nursery-child :is(.activityHead .num, .print-actions) { display: none; }
+#app .activityCard.nursery-child .activityHead h3 { font-size: 1.6rem; }
+#app .activityCard.nursery-child :is(.nursery-goal, .nursery-card, .nursery-show, .nursery-more, .nursery-rating) { display: none; }
+#app .activityCard.nursery-child .nursery-stage { padding: 0 16px 24px; }
+#app .activityCard.nursery-child .nursery-stage .nursery-close { display: block; justify-self: end; min-height: 44px; border: 1px solid #cad4ee; border-radius: 12px; background: #fff; color: #243f83; font-weight: 800; padding: 0 14px; order: -2; }
+#app .activityCard.nursery-child .nursery-stage .nursery-done { display: block; min-height: 64px; border: 0; border-radius: 16px; background: #1d6b2f; color: #fff; font-size: 1.3rem; font-weight: 900; }
+#app .activityCard.nursery-child .speech-tools { order: -1; border: 0; background: transparent; padding: 0; }
+#app .activityCard.nursery-child .speech-tools :is(.speech-source, .speech-picker, .speech-status) { display: none; }
+#app .activityCard.nursery-child .speech-control { width: 100%; min-height: 72px; font-size: 1.4rem; border-radius: 16px; }
+#app .activityCard.nursery-child .lesson-figure { width: 100%; max-height: 55vh; object-fit: contain; }
+#app .activityCard.nursery-child .nursery-number input { font-size: 2rem; min-height: 64px; text-align: center; }
+html.nursery-child-open, html.nursery-child-open body { overflow: hidden; }

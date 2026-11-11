@@ -683,6 +683,13 @@ async function run() {
       ['ce1/#lesson:CE1-U8-L03', 'ce1-u8-l03-music-club.mp3', true]
     ]) {
       await page.goto(base + lessonRoute);
+      // Nursery activities show one language at a time: choose the language of the clip.
+      if (/^(ms|gs)\//.test(lessonRoute)) {
+        const lang = file.endsWith('-en.mp3') ? 'en' : 'fr';
+        await page.locator('.activityCard').waitFor();
+        if (await page.locator('.activityCard').getAttribute('lang') !== lang) await page.locator(`[data-nursery-lang="${lang}"]`).click();
+        await page.locator(`.activityCard[lang="${lang}"]`).waitFor();
+      }
       const audio = page.locator('.lesson-audio audio[src$="'+file+'"]');
       const bytes = fs.readFileSync(path.join(root, 'assets', file));
       const partial = await audio.evaluate(async element => {
@@ -942,6 +949,7 @@ async function run() {
     await revealCorrection(colors);
     assert.match(await colors.innerText(), /A \(bleu\), C \(rouge\) et E \(jaune\)/);
 
+    await page.evaluate(() => Klassia.write('klassia_nursery_lang_v1', 'fr'));
     await page.goto(base + 'gs/?theme=T8#domain:ST');
     await page.getByRole('button', { name: 'Suivante →' }).click();
     await page.getByRole('heading', { name: /écrire les nombres de 1 à 10/ }).waitFor();

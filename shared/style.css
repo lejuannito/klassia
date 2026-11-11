@@ -117,3 +117,11 @@
 .klassia-welcome [data-welcome-note]:empty { display: none; }
 .klassia-welcome-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
 .klassia-welcome-actions button { min-height: 44px; padding: .5rem 1.1rem; }
+
+/* « Continuer » card on the class home (child view). */
+.klassia-continue { display: grid; gap: .35rem; margin: 0 0 1.1rem; padding: 1rem 1.1rem; border-radius: 14px; background: #243f83; color: #fff; }
+.klassia-continue-eyebrow { margin: 0; font-size: .85rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: #cfe0ff; }
+.klassia-continue h2 { margin: 0; font-size: 1.3rem; line-height: 1.25; color: #fff; }
+.klassia-continue p { margin: 0; color: #e3ecff; }
+.klassia-continue-btn { justify-self: start; display: inline-flex; align-items: center; min-height: 48px; margin-top: .4rem; padding: .6rem 1.4rem; border-radius: 12px; background: #ffd34d; color: #172033; font-size: 1.1rem; font-weight: 800; text-decoration: none; }
+.klassia-continue-btn:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }

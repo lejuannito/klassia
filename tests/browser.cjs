@@ -63,7 +63,7 @@ await openParents(p);await p.locator('[data-review]').click();await p.locator('#
 await openParents(p);await p.locator('[data-space]').click();await p.locator('#localRole').selectOption('PARENT');
 await p.locator('#overviewDialog progress').last().waitFor();
 assert.equal(await p.locator('#overviewDialog progress').count(),5);
-assert.match(await p.locator('#overviewDialog').innerText(),/CE1\s+1 \/ 89/);
+assert.match(await p.locator('#overviewDialog').innerText(),/CE1\s+1 \/ 121/);
 await p.locator('#overviewDialog [aria-label="Fermer"]').click();
 await p.getByRole('link',{name:'Carnet du pilote',exact:true}).waitFor();
 await p.locator('[data-child]').click();await p.locator('.klassia-parents-menu summary').waitFor();assert.equal(await p.evaluate(()=>sessionStorage.getItem('klassia_parent_gate_until')),null,'Returning to the child view re-arms the parental question');await openParents(p);await p.locator('[data-space]').filter({hasText:'Enfant'}).waitFor();

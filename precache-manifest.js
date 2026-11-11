@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "23d914d7dace455c114d68e146b22599e4c2a0b94985249672f32da73f1a7b9e",
+  "version": "3f3653aedd0036bee20a78c012953e77d348f4f5462200e50715e5de9e01225b",
   "files": [
     {
       "url": "./app.js",
@@ -211,35 +211,35 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/data/unit1.json",
-      "sha256": "0e8e4813f80acda825c5113256aeb2060703b9b1a15e39f156bebba33532af7a"
+      "sha256": "8e53cb274d48286fa9de1c444148e21543ed8045d6461edd87c6ef17eb4a42d3"
     },
     {
       "url": "./ce1/data/unit2.json",
-      "sha256": "6d1af4ef79a122039a4ff48060ac01b01f968c51f5b8a8115ae246df45d0ee15"
+      "sha256": "b99b8cde5c557322599c7a07a0e74f8e43462c4154a218cf859ea020a6723223"
     },
     {
       "url": "./ce1/data/unit3.json",
-      "sha256": "b5b0b827db3300e14771e26d4e1e6160a836aad56109df2a209597af22ceccd6"
+      "sha256": "50b852dda67b168908579bf465a925c79c23b66917248f546fe9304042527dc8"
     },
     {
       "url": "./ce1/data/unit4.json",
-      "sha256": "6aa608784c3ac24e61554e38b4859389eff1b8644efe176accbdfa59a47f7f40"
+      "sha256": "c0eb003bedf37e9c805fb22585576de948279de2437ead6177222461dd293712"
     },
     {
       "url": "./ce1/data/unit5.json",
-      "sha256": "ef0a8412fa40ef11d1b10059ae8b4b569385af0fd7a6d495e4f357c5db46fd4d"
+      "sha256": "895ea9b565cb9622df099521d19405e61932519930a5ce90e532cc85a91c5cca"
     },
     {
       "url": "./ce1/data/unit6.json",
-      "sha256": "e1c570805c3092daada41353966cb6b6a5a0676860ed083e532f16e15c7859d1"
+      "sha256": "9590a7cdd1981006c5f43048152c20bb57ce9d95b0aadf193909d4276050af0a"
     },
     {
       "url": "./ce1/data/unit7.json",
-      "sha256": "b299b22d980b8e22cf9a9618c438734fac0a67b49e12417ea64b337d2e590022"
+      "sha256": "2df4df814fbf665e891bf2a665ebc22bb66f293c360c9baf8fda0a4c4cbeefc9"
     },
     {
       "url": "./ce1/data/unit8.json",
-      "sha256": "7718cf50686c35ac7424ea7b3a7d6515b6295c0127ec2b5c4d51ef8559bdb0ad"
+      "sha256": "8416b318a5cfe0efb3967637c101e83d01a3bf21404b865939db63b825eb4eb7"
     },
     {
       "url": "./ce1/index.html",
@@ -299,7 +299,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "52b47e0dfdc03a7cd28aea2e6f4e1da88ffb48e4328be53df9e4cc76e2950481"
+      "sha256": "eb7c3bde1d73c2883df501e11250af2614911a932384fa9a83b69de61177935c"
     },
     {
       "url": "./data/manuels/champions-francais-ce2.json",

@@ -723,7 +723,10 @@ async function run() {
       ['sil/#lesson:SIL-U5-L02', 'sil-u5-l02-school-by-bus.mp3', true],
       ['ce1/#lesson:CE1-U1-L01', 'ce1-u1-l01-marque-page.mp3', true],
       ['ce1/#lesson:CE1-U5-L03', 'ce1-u5-l03-from-library.mp3', true],
-      ['ce1/#lesson:CE1-U8-L03', 'ce1-u8-l03-music-club.mp3', true]
+      ['ce1/#lesson:CE1-U8-L03', 'ce1-u8-l03-music-club.mp3', true],
+      // Lot 5b: reading support and dictation of a SIL reading lesson.
+      ['sil/#lesson:SIL-U5-R2', 'sil-u5-r2-lecture.mp3'],
+      ['sil/#lesson:SIL-U5-R2', 'sil-u5-r2-ecoute-3.mp3', true]
     ]) {
       await page.goto(base + lessonRoute);
       // Nursery activities show one language at a time: choose the language of the clip.
@@ -762,7 +765,7 @@ async function run() {
     await page.locator('.lesson-audio audio').last().evaluate(audio => audio.play());
     await page.waitForFunction(audio => audio.paused, firstClip);
     await firstClip.dispose();
-    console.log('PASS twelve offline French and English clips, byte ranges, hidden transcripts and exclusive playback');
+    console.log('PASS fourteen offline French and English clips, byte ranges, hidden transcripts and exclusive playback');
 
     await page.setViewportSize({ width: 320, height: 844 });
     await page.goto(base + '?unit=U1#subject:BA');

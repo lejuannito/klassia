@@ -10,8 +10,139 @@
   "project": "Réaliser avec des objets sûrs un plan légendé de la maison et présenter une règle de sécurité.",
   "lessons": [
     {
+      "id": "SIL-U1-R1",
+      "domain": "Français · lecture",
+      "week": 1,
+      "title": "Je reconnais les voyelles",
+      "objective": "Reconnaître et nommer les six voyelles a, e, i, o, u, y, et les distinguer des autres lettres.",
+      "course": "Les lettres servent à écrire les mots. Six lettres s’appellent des voyelles : a, e, i, o, u et y. On peut les chanter longtemps, la bouche ouverte : aaaa, oooo.\n\nLes autres lettres s’appellent des consonnes. Cette semaine, on apprend à reconnaître la forme des voyelles et à dire leur nom. On ne lit pas encore de mots.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "a e i o u y\nA E I O U Y\nm a t i r o s u l e"
+      },
+      "model": "L’adulte montre a et dit : « a, comme au début de ami ». Il fait de même avec o (« olive »), i (« île »), u (« usine ») et e (« le »). La lettre y s’appelle i grec.",
+      "guided": "L’adulte dit le nom d’une voyelle ; l’enfant la montre sur la première ligne. Puis on échange : l’enfant montre une voyelle et l’adulte la nomme. Ensemble, on chante chaque voyelle en ouvrant grand la bouche.",
+      "exercise": "Dans la dernière ligne, « m a t i r o s u l e », montre toutes les voyelles et dis leur nom. Combien en trouves-tu ?",
+      "answer": "Les voyelles sont a, i, o, u et e : il y en a cinq. Les lettres m, t, r, s et l sont des consonnes.",
+      "remediation": "Ne garder d’abord que deux voyelles très différentes, a et o, puis ajouter les autres une à une. Montrer la carte de la voyelle à côté de la ligne pour comparer les formes.",
+      "transfer": "Chercher les voyelles dans le prénom de l’enfant et dans ceux de la famille, écrits par l’adulte sur une feuille.",
+      "materials": "Cartes-lettres a, e, i, o, u, y et quelques consonnes ; prénoms de la famille écrits par l’adulte.",
+      "practice": [
+        {
+          "prompt": "Dans ton prénom écrit par l’adulte, montre les voyelles et dis leur nom.",
+          "answer": "La réponse dépend du prénom. Par exemple, dans AWA on trouve deux fois A.",
+          "explanation": "Une voyelle peut revenir plusieurs fois dans un mot : on la montre chaque fois."
+        },
+        {
+          "prompt": "Écoute les voyelles. Écris-les sur les lignes ou montre les cartes, dans l’ordre.",
+          "listen": "o. a. i.",
+          "answer": "o, a, i.",
+          "explanation": "On écoute une voyelle à la fois et on écrit de gauche à droite. Montrer la carte suffit si l’enfant ne trace pas encore.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 1 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 1, leçon de lecture de la semaine 1. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U1-R2",
+      "domain": "Français · lecture",
+      "week": 2,
+      "title": "Je découvre l’alphabet de a à m",
+      "objective": "Réciter l’alphabet dans l’ordre, reconnaître les lettres de a à m et associer une minuscule à sa majuscule.",
+      "course": "L’alphabet est la liste des 26 lettres qui servent à écrire les mots, toujours dans le même ordre. Chaque lettre a un nom (a, bé, cé, dé…) et une forme.\n\nUne lettre s’écrit en minuscule (a) ou en majuscule (A). La majuscule sert au début d’un prénom et au début d’une phrase.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "a b c d e f g h i j k l m\nA B C D E F G H I J K L M\nAwa, Bello, Fanta, Lamine"
+      },
+      "model": "L’adulte récite l’alphabet en montrant chaque lettre. Puis il montre le prénom Bello : « Bello commence par B, la majuscule de b. »",
+      "guided": "Récitez ensemble l’alphabet en montrant les lettres. L’adulte cache une lettre de a à m ; l’enfant dit laquelle manque. Puis associez des paires : a et A, b et B, d et D, e et E.",
+      "exercise": "Par quelle lettre commencent les prénoms Bello, Fanta et Lamine ? Montre chaque lettre dans l’alphabet et dis son nom.",
+      "answer": "Bello commence par B, Fanta par F et Lamine par L. Ce sont des majuscules ; en minuscule, on écrit b, f et l.",
+      "remediation": "Réciter l’alphabet par petits morceaux (a b c d, puis e f g h…) en montrant chaque lettre. Pour la majuscule, poser les deux cartes côte à côte.",
+      "transfer": "Trouver l’initiale du prénom de chaque membre de la famille et la montrer dans l’alphabet.",
+      "materials": "Alphabet écrit par l’adulte ou affiché, cartes minuscules et majuscules de a à m.",
+      "practice": [
+        {
+          "prompt": "Quelle lettre vient juste après d dans l’alphabet ? Et juste avant k ?",
+          "answer": "Après d vient e. Avant k vient j.",
+          "explanation": "On récite l’alphabet depuis le début ou depuis une lettre connue, en montrant les lettres."
+        },
+        {
+          "prompt": "Associe chaque majuscule à sa minuscule : A, D, G, M.",
+          "answer": "A va avec a, D avec d, G avec g et M avec m.",
+          "explanation": "La majuscule et la minuscule ont le même nom, même quand leur forme change beaucoup, comme G et g."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 1 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 1, leçon de lecture de la semaine 2. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U1-R3",
+      "domain": "Français · lecture",
+      "week": 3,
+      "title": "Je découvre l’alphabet de n à z",
+      "objective": "Reconnaître les lettres de n à z, ne pas confondre les lettres qui se ressemblent et ranger des lettres dans l’ordre de l’alphabet.",
+      "course": "On termine l’alphabet : n o p q r s t u v w x y z. Certaines lettres se ressemblent : b et d, p et q, n et u. Pour ne pas les confondre, on regarde de quel côté se trouve le rond et vers où la lettre est tournée.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "n o p q r s t u v w x y z\nN O P Q R S T U V W X Y Z\nb d, p q, n u"
+      },
+      "model": "Dans b, le rond est à droite de la canne. Dans d, le rond est à gauche. L’adulte trace les deux lettres l’une sous l’autre en disant leur nom.",
+      "guided": "L’adulte montre une lettre parmi b, d, p, q, n et u ; l’enfant la nomme. Puis l’enfant range trois cartes dans l’ordre de l’alphabet : s, p, v devient p, s, v.",
+      "exercise": "Range ces lettres dans l’ordre de l’alphabet : t, o, r. Puis montre la lettre d dans la dernière ligne.",
+      "answer": "o, r, t. La lettre d est la deuxième de la ligne : son rond est à gauche de la canne.",
+      "remediation": "Réciter l’alphabet en montrant les lettres jusqu’à trouver la première, puis continuer. Pour b et d, faire tracer la lettre dans l’air ou sur la table avec le doigt.",
+      "transfer": "Repérer des lettres de n à z sur une boîte, un calendrier ou une étiquette à la maison.",
+      "materials": "Alphabet complet, cartes-lettres de n à z, cartes b, d, p et q.",
+      "practice": [
+        {
+          "prompt": "Quelle lettre manque ? n o … q r",
+          "answer": "p.",
+          "explanation": "Dans l’alphabet, p vient entre o et q."
+        },
+        {
+          "prompt": "Écoute le nom des lettres. Écris-les ou montre-les, dans l’ordre.",
+          "listen": "r. s. v.",
+          "answer": "r, s, v.",
+          "explanation": "On entend le nom de la lettre : erre, esse, vé. On l’écrit de gauche à droite.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 1 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 1, leçon de lecture de la semaine 3. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
       "id": "SIL-U1-L01",
       "domain": "Français",
+      "week": 3,
       "title": "J’écoute, je parle et je découvre l’alphabet",
       "objective": "Écouter un court échange familial, prendre la parole à son tour, reconnaître et nommer des lettres de l’alphabet. Tracer et copier progressivement les graphies déjà étudiées.",
       "course": "À la maison, on décrit une personne ou un objet que l’on connaît. Une phrase orale commence par une idée complète : « Voici… », « Je vois… ». En SIL, on découvre les lettres et leurs sons avant d’exiger le décodage de syllabes.\n\nComplément curriculum SIL — lecture/écriture : lire et écrire avancent ensemble. L’enfant observe d’abord le modèle, suit le sens conventionnel du tracé, écrit sur ardoise ou papier puis copie un mot court. On ne demande que les graphies déjà enseignées; l’adulte adapte la prise du crayon et la posture.",
@@ -723,6 +854,50 @@
         "notes": "Séquence initiale conservée, distincte des attendus SIL cartographiés."
       },
       "pilotSupplement": true
+    },
+    {
+      "id": "SIL-U1-R4",
+      "domain": "Français · lecture",
+      "week": 4,
+      "title": "Bilan : les voyelles et l’alphabet",
+      "objective": "Faire le point sur l’unité : nommer les voyelles, réciter l’alphabet, reconnaître les majuscules et l’initiale d’un prénom.",
+      "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On fait les exercices sans se presser. Ce qui n’est pas encore réussi sera repris avec l’adulte.",
+      "support": {
+        "title": "Bilan : je relis",
+        "text": "a e i o u y\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\nAwa, Fanta, Omar, Ida"
+      },
+      "model": "Pour trouver l’initiale d’un prénom, on regarde la première lettre, à gauche. Dans Omar, c’est O : une voyelle en majuscule.",
+      "guided": "L’adulte demande : « Montre-moi une voyelle », « Montre-moi la lettre r », « Récite l’alphabet jusqu’à h ». L’enfant répond à son rythme.",
+      "exercise": "Nomme les six voyelles. Puis dis par quelle lettre commencent Awa et Fanta : laquelle est une voyelle ? Enfin, récite l’alphabet de a à z en montrant les lettres.",
+      "answer": "Les voyelles sont a, e, i, o, u et y. Awa commence par A et Fanta par F ; A est une voyelle. Pour l’alphabet, une hésitation n’est pas une faute : on note seulement les lettres à revoir.",
+      "remediation": "Noter ce qui n’est pas encore réussi, sans le compter comme une faute. Reprendre la leçon de la semaine correspondante quelques minutes par jour, puis refaire seulement la partie du bilan concernée.",
+      "transfer": "Écrire avec l’adulte le prénom de l’enfant sur une carte et y entourer les voyelles.",
+      "materials": "Cartes-lettres, alphabet affiché, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Montre les majuscules dans cette ligne : a B c D e.",
+          "answer": "B et D.",
+          "explanation": "Une majuscule est souvent plus grande ; ici, B et D sont les majuscules de b et d."
+        },
+        {
+          "prompt": "Écoute et écris les lettres, ou montre-les, dans l’ordre.",
+          "listen": "a. f. o.",
+          "answer": "a, f, o.",
+          "explanation": "a et o sont des voyelles, f est une consonne.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 1 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 1, bilan de lecture. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
     }
   ]
 }

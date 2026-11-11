@@ -15,9 +15,9 @@
     },
     {
       "grade": "SIL",
-      "resources": 90,
+      "resources": 122,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 90
+      "unverifiedCurriculumMappings": 122
     },
     {
       "grade": "CE1",
@@ -33,14 +33,46 @@
     }
   ],
   "supportLessons": [
+    "SIL-U1-R1",
+    "SIL-U1-R2",
+    "SIL-U1-R3",
     "SIL-U1-L05",
     "SIL-U1-L07",
     "SIL-U1-L08",
     "SIL-U1-L11",
+    "SIL-U1-R4",
+    "SIL-U2-R1",
+    "SIL-U2-R2",
+    "SIL-U2-R3",
+    "SIL-U2-R4",
+    "SIL-U3-R1",
+    "SIL-U3-R2",
+    "SIL-U3-R3",
     "SIL-U3-L07",
+    "SIL-U3-R4",
+    "SIL-U4-R1",
+    "SIL-U4-R2",
+    "SIL-U4-R3",
     "SIL-U4-L01",
     "SIL-U4-L11",
+    "SIL-U4-R4",
+    "SIL-U5-R1",
+    "SIL-U5-R2",
+    "SIL-U5-R3",
+    "SIL-U5-R4",
+    "SIL-U6-R1",
+    "SIL-U6-R2",
+    "SIL-U6-R3",
+    "SIL-U6-R4",
+    "SIL-U7-R1",
+    "SIL-U7-R2",
+    "SIL-U7-R3",
+    "SIL-U7-R4",
+    "SIL-U8-R1",
+    "SIL-U8-R2",
+    "SIL-U8-R3",
     "SIL-U8-L01",
+    "SIL-U8-R4",
     "CE1-U1-L01",
     "CE1-U1-L11",
     "CE1-U3-L06",
@@ -58,6 +90,36 @@
     "CE1-U8-L09"
   ],
   "additionalPractice": [
+    {
+      "lesson": "SIL-U1-R1",
+      "index": 1,
+      "prompt": "Dans ton prénom écrit par l’adulte, montre les voyelles et dis leur nom."
+    },
+    {
+      "lesson": "SIL-U1-R1",
+      "index": 2,
+      "prompt": "Écoute les voyelles. Écris-les sur les lignes ou montre les cartes, dans l’ordre."
+    },
+    {
+      "lesson": "SIL-U1-R2",
+      "index": 1,
+      "prompt": "Quelle lettre vient juste après d dans l’alphabet ? Et juste avant k ?"
+    },
+    {
+      "lesson": "SIL-U1-R2",
+      "index": 2,
+      "prompt": "Associe chaque majuscule à sa minuscule : A, D, G, M."
+    },
+    {
+      "lesson": "SIL-U1-R3",
+      "index": 1,
+      "prompt": "Quelle lettre manque ? n o … q r"
+    },
+    {
+      "lesson": "SIL-U1-R3",
+      "index": 2,
+      "prompt": "Écoute le nom des lettres. Écris-les ou montre-les, dans l’ordre."
+    },
     {
       "lesson": "SIL-U1-L03",
       "index": 1,
@@ -84,6 +146,46 @@
       "prompt": "Nina compte 5 petites bandes. Sami compte 4 grandes bandes. Peut-on choisir le chemin le plus long avec ces deux nombres ?"
     },
     {
+      "lesson": "SIL-U1-R4",
+      "index": 1,
+      "prompt": "Montre les majuscules dans cette ligne : a B c D e."
+    },
+    {
+      "lesson": "SIL-U1-R4",
+      "index": 2,
+      "prompt": "Écoute et écris les lettres, ou montre-les, dans l’ordre."
+    },
+    {
+      "lesson": "SIL-U2-R1",
+      "index": 1,
+      "prompt": "Dans « banane », combien de fois entends-tu [a] ?"
+    },
+    {
+      "lesson": "SIL-U2-R1",
+      "index": 2,
+      "prompt": "Écoute les mots. Écris a si tu entends [a], sinon fais un petit trait."
+    },
+    {
+      "lesson": "SIL-U2-R2",
+      "index": 1,
+      "prompt": "Où entends-tu [o] : au début, au milieu ou à la fin ? « olive », « vélo », « école »."
+    },
+    {
+      "lesson": "SIL-U2-R2",
+      "index": 2,
+      "prompt": "Écoute les mots. Écris o si tu entends [o], a si tu entends [a]."
+    },
+    {
+      "lesson": "SIL-U2-R3",
+      "index": 1,
+      "prompt": "Dans « ici », combien de fois entends-tu [i] ?"
+    },
+    {
+      "lesson": "SIL-U2-R3",
+      "index": 2,
+      "prompt": "Écoute et écris les voyelles dans l’ordre."
+    },
+    {
       "lesson": "SIL-U2-L03",
       "index": 1,
       "prompt": "Sépare 8 jetons en deux groupes : 5 et combien ?"
@@ -92,6 +194,46 @@
       "lesson": "SIL-U2-L09",
       "index": 1,
       "prompt": "Awa se savonne les mains. Le robinet coule encore. Que peut-elle faire maintenant et quand rouvrira-t-elle le robinet ?"
+    },
+    {
+      "lesson": "SIL-U2-R4",
+      "index": 1,
+      "prompt": "Quelle voyelle entends-tu dans « riz » ? dans « pot » ? dans « chat » ?"
+    },
+    {
+      "lesson": "SIL-U2-R4",
+      "index": 2,
+      "prompt": "Écoute et écris les voyelles dans l’ordre."
+    },
+    {
+      "lesson": "SIL-U3-R1",
+      "index": 1,
+      "prompt": "Montre les lettres u dans la dernière ligne. Combien y en a-t-il ?"
+    },
+    {
+      "lesson": "SIL-U3-R1",
+      "index": 2,
+      "prompt": "Écoute et écris les voyelles dans l’ordre."
+    },
+    {
+      "lesson": "SIL-U3-R2",
+      "index": 1,
+      "prompt": "Combien de lettres portent un accent dans cette ligne : e é e é E ?"
+    },
+    {
+      "lesson": "SIL-U3-R2",
+      "index": 2,
+      "prompt": "Écoute les mots. Pour chacun, écris é ou e selon le son que tu entends à la fin."
+    },
+    {
+      "lesson": "SIL-U3-R3",
+      "index": 1,
+      "prompt": "Parmi é, è, ê, lesquelles se lisent « è » ?"
+    },
+    {
+      "lesson": "SIL-U3-R3",
+      "index": 2,
+      "prompt": "Écoute les mots. Écris é ou è selon le son que tu entends."
     },
     {
       "lesson": "SIL-U3-L03",
@@ -104,6 +246,46 @@
       "prompt": "Joue la scène. Où places-tu la pause et quel geste annonce ton envie de parler ?"
     },
     {
+      "lesson": "SIL-U3-R4",
+      "index": 1,
+      "prompt": "Quelle voyelle entends-tu dans « jus » ? dans « lit » ? dans « tête » ?"
+    },
+    {
+      "lesson": "SIL-U3-R4",
+      "index": 2,
+      "prompt": "Écoute les mots. Écris la voyelle que tu entends : u, é ou è."
+    },
+    {
+      "lesson": "SIL-U4-R1",
+      "index": 1,
+      "prompt": "Combien de lettres faut-il pour écrire le son « ou » ?"
+    },
+    {
+      "lesson": "SIL-U4-R1",
+      "index": 2,
+      "prompt": "Écoute les mots. Écris ou si tu entends « ou », u si tu entends « u »."
+    },
+    {
+      "lesson": "SIL-U4-R2",
+      "index": 1,
+      "prompt": "Lis : la, al, lou, ul. Lesquelles commencent par une voyelle ?"
+    },
+    {
+      "lesson": "SIL-U4-R2",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U4-R3",
+      "index": 1,
+      "prompt": "Avec les syllabes mi, a et la, fabrique deux mots : a + mi, et mi + la."
+    },
+    {
+      "lesson": "SIL-U4-R3",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
       "lesson": "SIL-U4-L01",
       "index": 1,
       "prompt": "Lis « Il a lu. ». Qu’a fait la personne dont parle la phrase ?"
@@ -112,6 +294,46 @@
       "lesson": "SIL-U4-L03",
       "index": 1,
       "prompt": "Regroupe 10 bâtonnets. Combien de dizaines as-tu ?"
+    },
+    {
+      "lesson": "SIL-U4-R4",
+      "index": 1,
+      "prompt": "Lis « mou » et « mu ». Quelle est la différence ?"
+    },
+    {
+      "lesson": "SIL-U4-R4",
+      "index": 2,
+      "prompt": "Écoute les mots et écris-les."
+    },
+    {
+      "lesson": "SIL-U5-R1",
+      "index": 1,
+      "prompt": "Lis : ra, ar, rou, our. Lesquelles se terminent par r ?"
+    },
+    {
+      "lesson": "SIL-U5-R1",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U5-R2",
+      "index": 1,
+      "prompt": "Lis : to, ot, tou, ti. Lesquelles commencent par t ?"
+    },
+    {
+      "lesson": "SIL-U5-R2",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U5-R3",
+      "index": 1,
+      "prompt": "Montre les p dans cette ligne : q p d b p."
+    },
+    {
+      "lesson": "SIL-U5-R3",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
     },
     {
       "lesson": "SIL-U5-L02",
@@ -124,6 +346,46 @@
       "prompt": "Tu as 10 jetons groupés et 3 jetons seuls. Quel nombre cela représente-t-il ?"
     },
     {
+      "lesson": "SIL-U5-R4",
+      "index": 1,
+      "prompt": "Lis : ra, ar, tou, out, pi, ip. Dans lesquelles lit-on d’abord la voyelle ?"
+    },
+    {
+      "lesson": "SIL-U5-R4",
+      "index": 2,
+      "prompt": "Écoute les mots et écris-les."
+    },
+    {
+      "lesson": "SIL-U6-R1",
+      "index": 1,
+      "prompt": "Lis : sa, as, sou, os. Lesquelles se terminent par s ?"
+    },
+    {
+      "lesson": "SIL-U6-R1",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U6-R2",
+      "index": 1,
+      "prompt": "Montre les b dans cette ligne : b d b p d."
+    },
+    {
+      "lesson": "SIL-U6-R2",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U6-R3",
+      "index": 1,
+      "prompt": "Lis : da, ta, do, to. Lesquelles commencent par d ?"
+    },
+    {
+      "lesson": "SIL-U6-R3",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
       "lesson": "SIL-U6-L03",
       "index": 1,
       "prompt": "Calcule 12 + 3 avec des bâtonnets."
@@ -134,9 +396,89 @@
       "prompt": "Pour repérer le matériel de la classe, on a préparé 12 étiquettes le matin et 5 de plus l’après-midi. Dessine une dizaine et les unités isolées. Combien d’étiquettes a-t-on préparées ? Écris le total en chiffres et en lettres."
     },
     {
+      "lesson": "SIL-U6-R4",
+      "index": 1,
+      "prompt": "Lis « bébé » et « dodo ». Dans quel mot le rond de la lettre est-il à droite ?"
+    },
+    {
+      "lesson": "SIL-U6-R4",
+      "index": 2,
+      "prompt": "Écoute les mots et écris-les."
+    },
+    {
+      "lesson": "SIL-U7-R1",
+      "index": 1,
+      "prompt": "Dans cette ligne, combien vois-tu de n et de m : n m n m m ?"
+    },
+    {
+      "lesson": "SIL-U7-R1",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U7-R2",
+      "index": 1,
+      "prompt": "Lis « banane » et « ruban ». Dans lequel entends-tu « an » ?"
+    },
+    {
+      "lesson": "SIL-U7-R2",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U7-R3",
+      "index": 1,
+      "prompt": "Lis : va, av, vou, ov. Lesquelles commencent par v ?"
+    },
+    {
+      "lesson": "SIL-U7-R3",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
       "lesson": "SIL-U7-L03",
       "index": 1,
       "prompt": "Trois groupes contiennent chacun 2 jetons. Combien de jetons en tout ?"
+    },
+    {
+      "lesson": "SIL-U7-R4",
+      "index": 1,
+      "prompt": "Dans « maman », combien de fois entends-tu « an » ?"
+    },
+    {
+      "lesson": "SIL-U7-R4",
+      "index": 2,
+      "prompt": "Écoute les mots et écris-les."
+    },
+    {
+      "lesson": "SIL-U8-R1",
+      "index": 1,
+      "prompt": "Pourquoi écrit-on qui et pas ci pour dire « ki » ?"
+    },
+    {
+      "lesson": "SIL-U8-R1",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U8-R2",
+      "index": 1,
+      "prompt": "Lis « case » et « sac ». Dans quel mot s se lit-il [z] ?"
+    },
+    {
+      "lesson": "SIL-U8-R2",
+      "index": 2,
+      "prompt": "Écoute les syllabes et écris-les."
+    },
+    {
+      "lesson": "SIL-U8-R3",
+      "index": 1,
+      "prompt": "Lis « feu » et « fou ». Quelle est la différence ?"
+    },
+    {
+      "lesson": "SIL-U8-R3",
+      "index": 2,
+      "prompt": "Écoute les mots et écris-les."
     },
     {
       "lesson": "SIL-U8-L01",
@@ -152,6 +494,16 @@
       "lesson": "SIL-U8-L03",
       "index": 1,
       "prompt": "Plie un carré de papier en deux parts égales, puis encore en deux. Combien de parts égales vois-tu en le dépliant ?"
+    },
+    {
+      "lesson": "SIL-U8-R4",
+      "index": 1,
+      "prompt": "Dans « rose » et « café », quel son fait la lettre s ? Et la lettre c ?"
+    },
+    {
+      "lesson": "SIL-U8-R4",
+      "index": 2,
+      "prompt": "Écoute les mots et écris-les."
     },
     {
       "lesson": "CE1-U1-L01",

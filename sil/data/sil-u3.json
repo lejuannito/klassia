@@ -10,8 +10,152 @@
   "project": "Préparer un mini-guide illustré de trois espaces de l’école et de leurs règles de sécurité.",
   "lessons": [
     {
+      "id": "SIL-U3-R1",
+      "domain": "Français · lecture",
+      "week": 1,
+      "graphemes": [
+        "u"
+      ],
+      "title": "J’entends [u] et je lis u",
+      "objective": "Entendre le son [u], le distinguer de [i], reconnaître la lettre u et lire des suites de voyelles.",
+      "course": "La lettre u fait le son [u], comme dans « lune », « jus » et « tortue ». Pour le dire, on avance les lèvres serrées.\n\nAttention : u n’est pas n. La lettre u est ouverte en haut ; la lettre n est ouverte en bas.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "u U u U\nu a, i u, o u i, a u o\nu n u"
+      },
+      "model": "Dans « tortue » : tor-tue, on entend [u] à la fin. Dans « lit », on entend [i], pas [u].",
+      "guided": "L’adulte dit des mots : jus, riz, mur, lit, plume. L’enfant montre la carte u ou la carte i selon ce qu’il entend. Puis on lit ensemble la deuxième ligne.",
+      "exercise": "Lis la deuxième ligne. Puis dis si on entend [u] dans « lune », dans « lit » et dans « mur ».",
+      "answer": "u, a ; i, u ; o, u, i ; a, u, o. On entend [u] dans « lune » et « mur » ; dans « lit », on entend [i].",
+      "remediation": "Faire avancer les lèvres pour [u] et sourire pour [i], devant un miroir si possible. Lire une seule voyelle à la fois.",
+      "transfer": "Chercher deux objets de l’école dont le nom contient [u] : une plume, un mur…",
+      "materials": "Cartes a, o, i, u, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Montre les lettres u dans la dernière ligne. Combien y en a-t-il ?",
+          "answer": "Deux : la première et la dernière. Celle du milieu est n.",
+          "explanation": "u est ouvert en haut, n est ouvert en bas."
+        },
+        {
+          "prompt": "Écoute et écris les voyelles dans l’ordre.",
+          "listen": "u. i. u. o.",
+          "answer": "u, i, u, o.",
+          "explanation": "On écoute une voyelle à la fois.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 3 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 3, leçon de lecture de la semaine 1. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U3-R2",
+      "domain": "Français · lecture",
+      "week": 2,
+      "graphemes": [
+        "e",
+        "é"
+      ],
+      "title": "Je lis e et é",
+      "objective": "Distinguer la lettre e et la lettre é, entendre leurs sons dans un mot et tracer l’accent aigu.",
+      "course": "La lettre e se lit « e », comme dans « le » et « petit ». La lettre é, avec un accent aigu, se lit « é », comme dans « école » et « bébé ».\n\nL’accent aigu est un petit trait qui monte vers la droite. On trace d’abord la lettre, puis l’accent.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "e E é É\né a, e i, é u, o é e"
+      },
+      "model": "Dans « vélo », on entend « é » : on l’écrit é, avec l’accent aigu. Dans « le », on entend « e » : pas d’accent.",
+      "guided": "L’adulte dit un mot : le, été, petit, bébé, de. L’enfant montre la carte e ou la carte é. Puis on trace é ensemble : la lettre, puis l’accent.",
+      "exercise": "Lis la deuxième ligne. Puis dis si l’on écrit e ou é pour le son que tu entends à la fin de « bébé ».",
+      "answer": "é, a ; e, i ; é, u ; o, é, e. À la fin de « bébé », on entend « é » : on écrit é, avec l’accent aigu.",
+      "remediation": "Comparer en exagérant : « e » bouche arrondie, « é » bouche souriante. Montrer l’accent du doigt avant de lire la lettre.",
+      "transfer": "Chercher la lettre é sur une affiche de l’école ou dans un cahier.",
+      "materials": "Cartes e et é, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Combien de lettres portent un accent dans cette ligne : e é e é E ?",
+          "answer": "Deux : les deux é.",
+          "explanation": "L’accent aigu change la lettre e en é."
+        },
+        {
+          "prompt": "Écoute les mots. Pour chacun, écris é ou e selon le son que tu entends à la fin.",
+          "listen": "bébé. le. été.",
+          "answer": "bébé : é ; le : e ; été : é.",
+          "explanation": "On écoute la dernière syllabe : bé, le, té.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 3 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 3, leçon de lecture de la semaine 2. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U3-R3",
+      "domain": "Français · lecture",
+      "week": 3,
+      "graphemes": [
+        "è",
+        "ê"
+      ],
+      "title": "Je lis è et ê",
+      "objective": "Reconnaître è et ê, qui se lisent « è », les distinguer de é et lire des suites de voyelles.",
+      "course": "Les lettres è, avec un accent grave, et ê, avec un accent circonflexe, se lisent toutes les deux « è », comme dans « mère », « fête » et « tête ».\n\nL’accent grave descend vers la droite. L’accent circonflexe ressemble à un petit chapeau. Il ne faut pas confondre é (« école ») et è (« mère »).",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "è ê é e\nè a, ê i, é è, e ê u"
+      },
+      "model": "Dans « élève » : é-lè-ve. On entend « é » au début, écrit é, puis « è » au milieu, écrit è.",
+      "guided": "Jeu des accents : l’adulte dit « é » ou « è » ; l’enfant montre la carte é ou la carte è. Puis on dessine les trois accents : aigu, grave et circonflexe.",
+      "exercise": "Lis la deuxième ligne. Puis dis quel accent porte la lettre du son « è » dans « fête ».",
+      "answer": "è, a ; ê, i ; é, è ; e, ê, u. Dans « fête », le son « è » s’écrit ê, avec l’accent circonflexe.",
+      "remediation": "Montrer le sens de l’accent avec le bras : il monte pour é, il descend pour è. Lire la lettre avec son accent, jamais la lettre seule.",
+      "transfer": "Chercher la lettre ê dans le mot « fête » écrit par l’adulte sur une carte d’invitation.",
+      "materials": "Cartes e, é, è, ê, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Parmi é, è, ê, lesquelles se lisent « è » ?",
+          "answer": "è et ê.",
+          "explanation": "é se lit « é » ; è et ê se lisent « è »."
+        },
+        {
+          "prompt": "Écoute les mots. Écris é ou è selon le son que tu entends.",
+          "listen": "fête. bébé. mère.",
+          "answer": "fête : è ; bébé : é ; mère : è.",
+          "explanation": "Dans « fête », le son « è » s’écrit ê : à ce stade, écrire è est accepté.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 3 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 3, leçon de lecture de la semaine 3. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
       "id": "SIL-U3-L01",
       "domain": "Français",
+      "week": 3,
       "title": "Je lis u, e, é, è, ê",
       "objective": "Prononcer et reconnaître les sons de u et e, puis observer les formes é, è et ê dans des mots présentés oralement. Tracer et copier progressivement les graphies déjà étudiées.",
       "course": "Le même son peut être noté par des lettres différentes. L’adulte prononce un mot, isole le son cible et montre seulement les graphies travaillées.\n\nComplément curriculum SIL — lecture/écriture : lire et écrire avancent ensemble. L’enfant observe d’abord le modèle, suit le sens conventionnel du tracé, écrit sur ardoise ou papier puis copie un mot court. On ne demande que les graphies déjà enseignées; l’adulte adapte la prise du crayon et la posture.",
@@ -522,6 +666,50 @@
         }
       ],
       "scoring": "Aucun score linguistique officiel."
+    },
+    {
+      "id": "SIL-U3-R4",
+      "domain": "Français · lecture",
+      "week": 4,
+      "title": "Bilan : je lis u, e, é, è, ê",
+      "objective": "Faire le point sur les voyelles de l’unité : les lire dans une suite, les entendre dans un mot et les écrire avec le bon accent.",
+      "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit toutes les voyelles apprises depuis le début de l’année.",
+      "support": {
+        "title": "Bilan : je relis",
+        "text": "a o i u e é è ê\nu é, è i, o ê, é a u"
+      },
+      "model": "Pour lire une voyelle avec accent, on regarde d’abord l’accent : aigu, grave ou circonflexe.",
+      "guided": "L’adulte dit « école », « mur », « fête », « ami » ; l’enfant montre la voyelle qu’il entend au début ou dans le mot. Puis il lit la deuxième ligne.",
+      "exercise": "Lis la deuxième ligne. Dans « école », quelle voyelle avec accent entends-tu au début ? Puis écris u, é et è sur les lignes.",
+      "answer": "u, é ; è, i ; o, ê ; é, a, u. Au début de « école », on entend « é », écrit é. Les accents sont bien orientés : é monte vers la droite, è descend.",
+      "remediation": "Noter ce qui n’est pas encore réussi, sans le compter comme une faute. Reprendre la leçon de la semaine correspondante quelques minutes par jour, puis refaire seulement la partie du bilan concernée.",
+      "transfer": "Fabriquer une carte par accent et les afficher près du coin de lecture.",
+      "materials": "Cartes des voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Quelle voyelle entends-tu dans « jus » ? dans « lit » ? dans « tête » ?",
+          "answer": "[u] dans jus, [i] dans lit, « è » dans tête.",
+          "explanation": "Dans « tête », le son « è » s’écrit ê."
+        },
+        {
+          "prompt": "Écoute les mots. Écris la voyelle que tu entends : u, é ou è.",
+          "listen": "mur. été. tête.",
+          "answer": "mur : u ; été : é ; tête : è.",
+          "explanation": "Dans « tête », on écrit ê ; à ce stade, è est accepté.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 3 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 3, bilan de lecture. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
     }
   ]
 }

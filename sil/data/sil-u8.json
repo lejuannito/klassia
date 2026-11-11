@@ -10,8 +10,241 @@
   "project": "Créer un petit panneau « je communique avec respect et en sécurité » et jouer un appel fictif.",
   "lessons": [
     {
+      "id": "SIL-U8-R1",
+      "domain": "Français · lecture",
+      "week": 1,
+      "graphemes": [
+        "c",
+        "qu",
+        "k"
+      ],
+      "title": "Je lis le son [k] : c, qu, k",
+      "objective": "Lire le son [k] écrit c, qu ou k, savoir que c se lit [k] devant a, o, u, et comprendre deux phrases.",
+      "course": "Le son [k] s’écrit de plusieurs façons. Devant a, o, u et ou, on écrit souvent c : ca, co, cu, cou. Devant i et e, on écrit qu : qui, que. La lettre k est plus rare : kilo, Kalla.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "carte, coco, école, kilo, cube\nKalla a posté la carte. Qui a lu la carte ?",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "o",
+            "u",
+            "ou",
+            "i",
+            "e"
+          ],
+          "rows": [
+            [
+              "ca",
+              "co",
+              "cu",
+              "cou",
+              "qui",
+              "que"
+            ],
+            [
+              "ka",
+              "ko",
+              "ku",
+              "kou",
+              "ki",
+              "ke"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire carte : car, puis te, car-te. Dans qui, les lettres qu font le son [k].",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis il cherche dans les phrases les trois façons d’écrire [k].",
+      "exercise": "Lis « Kalla a posté la carte. Qui a lu la carte ? » Qu’a fait Kalla ? Montre les trois façons d’écrire [k] dans les deux phrases.",
+      "answer": "Kalla a posté la carte. On écrit [k] avec k dans Kalla, avec c dans carte et avec qu dans qui.",
+      "remediation": "Montrer les trois écritures sur une carte-mémoire. Lire d’abord ca, co, cu, puis qui et que.",
+      "transfer": "Écrire avec l’adulte l’adresse d’une carte imaginaire et y repérer le son [k].",
+      "materials": "Carte c, qu, k ; cartes des syllabes ; ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Pourquoi écrit-on qui et pas ci pour dire « ki » ?",
+          "answer": "Devant i, la lettre c ne se lit pas [k] ; pour entendre [k], on écrit qu : qui.",
+          "explanation": "Dans « ici », on entend que c se lit « s » devant i."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "ca. cou. qui.",
+          "answer": "ca, cou, qui.",
+          "explanation": "Pour « qui », écrire ki est accepté à ce stade : c’est le même son.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 8 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 8, leçon de lecture de la semaine 1. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U8-R2",
+      "domain": "Français · lecture",
+      "week": 2,
+      "graphemes": [
+        "z",
+        "f",
+        "s"
+      ],
+      "title": "Je lis z, f et s entre deux voyelles",
+      "objective": "Lire les syllabes avec z et f, savoir que s entre deux voyelles se lit [z], et comprendre deux phrases.",
+      "course": "La lettre z fait le son [z], comme une abeille : zzzz. Entre deux voyelles, la lettre s se lit aussi [z] : rose, case.\n\nLa lettre f, qu’on appelle « effe », fait le son [f] : on souffle entre les dents et la lèvre, sans vibrer.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "zéro, zébu, rose, case, café, fumée\nFatou a fini sa carte. Zoé a vu la rose.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "za",
+              "zi",
+              "zo",
+              "zu",
+              "zé",
+              "zou"
+            ],
+            [
+              "fa",
+              "fi",
+              "fo",
+              "fu",
+              "fé",
+              "fou"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire rose : ro, puis se ; le s est entre o et e, il se lit [z]. Pour lire café : ca, puis fé.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis on compare fa et va : avec la main sur la gorge, f ne vibre pas.",
+      "exercise": "Lis « Fatou a fini sa carte. Zoé a vu la rose. » Qu’a fini Fatou ? Dans « rose », quel son fait la lettre s ?",
+      "answer": "Fatou a fini sa carte. Dans « rose », s est entre deux voyelles, o et e : il se lit [z].",
+      "remediation": "Faire chercher les voyelles de chaque côté du s avant de lire. Comparer [f] et [v] avec la main sur la gorge.",
+      "transfer": "Lire avec l’adulte un message court et y entourer les s qui se lisent [z].",
+      "materials": "Cartes z, f, s et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis « case » et « sac ». Dans quel mot s se lit-il [z] ?",
+          "answer": "Dans case.",
+          "explanation": "Dans case, s est entre a et e ; dans sac, s est au début du mot."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "fa. zé. fou.",
+          "answer": "fa, zé, fou.",
+          "explanation": "On écrit f ou z, puis la voyelle entendue.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 8 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 8, leçon de lecture de la semaine 2. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U8-R3",
+      "domain": "Français · lecture",
+      "week": 3,
+      "graphemes": [
+        "eu"
+      ],
+      "title": "Je lis eu",
+      "objective": "Lire eu comme un seul son, le distinguer de ou, lire des mots et comprendre deux phrases.",
+      "course": "Quand e et u sont collés, ils font un seul son : eu, comme dans « feu », « bleu » et « facteur ». Comme pour ou, deux lettres font un seul son.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "feu, peu, bleu, neveu, moteur, facteur\nLe facteur roule à moto. Il a le sac bleu.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "f",
+            "p",
+            "l",
+            "d",
+            "v",
+            "m"
+          ],
+          "rows": [
+            [
+              "feu",
+              "peu",
+              "leu",
+              "deu",
+              "veu",
+              "meu"
+            ],
+            [
+              "fou",
+              "pou",
+              "lou",
+              "dou",
+              "vou",
+              "mou"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire facteur : fac, puis teur, fac-teur. Pour lire bleu : b, l, puis eu, bleu.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis on compare feu et fou, peu et pou.",
+      "exercise": "Lis « Le facteur roule à moto. Il a le sac bleu. » Comment roule le facteur ? De quelle couleur est son sac ?",
+      "answer": "Le facteur roule à moto. Son sac est bleu : on lit b-l-eu, bleu.",
+      "remediation": "Poser un cache pour ne laisser voir que eu. Comparer eu et ou en changeant une seule carte.",
+      "transfer": "Parler avec l’adulte du métier de facteur et de la façon dont une lettre arrive à la maison.",
+      "materials": "Cartes eu et ou, cartes des syllabes, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis « feu » et « fou ». Quelle est la différence ?",
+          "answer": "feu s’écrit avec eu, fou avec ou : on n’entend pas le même son.",
+          "explanation": "Une seule lettre change, et le mot change."
+        },
+        {
+          "prompt": "Écoute les mots et écris-les.",
+          "listen": "feu. peu. bleu.",
+          "answer": "feu, peu, bleu.",
+          "explanation": "Chaque mot se termine par eu.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 8 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 8, leçon de lecture de la semaine 3. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
       "id": "SIL-U8-L01",
       "domain": "Français",
+      "week": 3,
       "title": "Je consolide les sons et lis un petit texte",
       "objective": "Lire un petit message, en retrouver une information, puis écrire une phrase courte pour transmettre une autre information. Revoir une graphie déjà travaillée dans la leçon.",
       "course": "Lis d’abord les mots que tu reconnais. Aide-toi des lettres déjà étudiées pour lire les autres. Quand la phrase est lue, cherche ce qu’elle apprend au lecteur. Pour écrire ton message, dis d’abord ta phrase, puis écris-la en gardant un espace entre les mots.",
@@ -419,6 +652,83 @@
         }
       ],
       "scoring": "Aucun score linguistique officiel."
+    },
+    {
+      "id": "SIL-U8-R4",
+      "domain": "Français · lecture",
+      "week": 4,
+      "title": "Bilan : je lis c, qu, k, z, f et eu",
+      "objective": "Faire le point sur l’unité : lire des syllabes et des mots avec [k], [z], [f] et eu, comprendre deux phrases et écrire des mots.",
+      "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit les syllabes, les mots, puis les phrases.",
+      "support": {
+        "title": "Bilan : je relis",
+        "text": "carte, école, rose, café, moteur, bleu\nLe facteur a posté la carte. Qui a vu le feu ?",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "o",
+            "i",
+            "é",
+            "eu"
+          ],
+          "rows": [
+            [
+              "ca",
+              "co",
+              "qui",
+              "qué",
+              "queu"
+            ],
+            [
+              "za",
+              "zo",
+              "zi",
+              "zé",
+              "zeu"
+            ],
+            [
+              "fa",
+              "fo",
+              "fi",
+              "fé",
+              "feu"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire un mot, on cherche d’abord les lettres qui vont ensemble (qu, eu, ou), puis on lit les syllabes.",
+      "guided": "L’adulte montre une syllabe du tableau au hasard ; l’enfant la lit. Puis il lit les mots et les phrases.",
+      "exercise": "Lis « Le facteur a posté la carte. Qui a vu le feu ? » Qu’a fait le facteur ? Puis écris café, rose et feu.",
+      "answer": "Le facteur a posté la carte. En écriture : ca-fé avec l’accent aigu, ro-se avec un s, f-eu.",
+      "remediation": "Noter ce qui n’est pas encore réussi, sans le compter comme une faute. Reprendre la leçon de la semaine correspondante quelques minutes par jour, puis refaire seulement la partie du bilan concernée.",
+      "transfer": "Écrire avec l’adulte une carte courte pour un membre de la famille, avec un ou deux mots de l’unité.",
+      "materials": "Cartes de syllabes, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Dans « rose » et « café », quel son fait la lettre s ? Et la lettre c ?",
+          "answer": "s se lit [z] dans rose ; c se lit [k] dans café.",
+          "explanation": "s est entre deux voyelles ; c est devant a."
+        },
+        {
+          "prompt": "Écoute les mots et écris-les.",
+          "listen": "café. rose. feu.",
+          "answer": "café, rose, feu.",
+          "explanation": "Dans café, le é porte un accent aigu.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 8 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 8, bilan de lecture. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
     }
   ]
 }

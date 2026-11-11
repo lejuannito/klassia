@@ -10,8 +10,237 @@
   "project": "Créer un panneau illustré des gestes d’hygiène et du recours à un adulte ou à un professionnel de santé.",
   "lessons": [
     {
+      "id": "SIL-U6-R1",
+      "domain": "Français · lecture",
+      "week": 1,
+      "graphemes": [
+        "s"
+      ],
+      "title": "Je lis s : sa, si, so, su",
+      "objective": "Lire les syllabes avec s, reconnaître le petit mot « est » et comprendre deux phrases.",
+      "course": "La lettre s, qu’on appelle « esse », fait le son [s], comme un serpent : ssss. On lit sa, si, so, su, sé, sou, et à l’envers as, is, os.\n\nLe petit mot « est » revient souvent dans les phrases : on le lit « è ». On le reconnaît d’un coup d’œil.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "sale, soupe, sur, Sami, tasse\nSami a sali sa tasse. La tasse est sale.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "sa",
+              "si",
+              "so",
+              "su",
+              "sé",
+              "sou"
+            ],
+            [
+              "as",
+              "is",
+              "os",
+              "us",
+              "es",
+              "ous"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire sali : sa, puis li, sa-li. Dans tasse, les deux s se lisent comme un seul : ta-sse.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis il cherche le mot « est » dans les phrases avant de les lire.",
+      "exercise": "Lis « Sami a sali sa tasse. La tasse est sale. » Qui a sali la tasse ? Comment est la tasse ?",
+      "answer": "C’est Sami qui a sali sa tasse. La tasse est sale. Le mot « est » se lit « è ».",
+      "remediation": "Faire durer [s] avant d’ajouter la voyelle. Montrer « est » sur une carte à part et le faire relire plusieurs fois.",
+      "transfer": "Parler de l’hygiène : après avoir lu, laver une tasse avec l’adulte et dire « La tasse est propre ».",
+      "materials": "Cartes s, p, t, r, l, m et voyelles, carte du mot « est », ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis : sa, as, sou, os. Lesquelles se terminent par s ?",
+          "answer": "as et os.",
+          "explanation": "On lit la voyelle, puis s."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "sa. si. sou.",
+          "answer": "sa, si, sou.",
+          "explanation": "Pour « sou », on écrit s puis ou.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 6 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 6, leçon de lecture de la semaine 1. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U6-R2",
+      "domain": "Français · lecture",
+      "week": 2,
+      "graphemes": [
+        "b"
+      ],
+      "title": "Je lis b : ba, bi, bo, bu",
+      "objective": "Lire les syllabes avec b, ne pas confondre b et d, lire des mots et comprendre deux phrases.",
+      "course": "La lettre b, qu’on appelle « bé », fait le son [b] : les lèvres se ferment puis s’ouvrent, et la gorge vibre. On lit ba, bi, bo, bu, bé, bou.\n\nAttention : dans b, le rond est à droite de la canne ; dans d, il est à gauche.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "bébé, robe, bol, tube, bobo\nLe bébé a bu. Il a sali sa robe.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "ba",
+              "bi",
+              "bo",
+              "bu",
+              "bé",
+              "bou"
+            ],
+            [
+              "ab",
+              "ib",
+              "ob",
+              "ub",
+              "eb",
+              "oub"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire bébé : bé, puis bé, bé-bé. Pour lire robe : ro, puis be, ro-be.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis il lit les mots en montrant le rond de chaque b.",
+      "exercise": "Lis « Le bébé a bu. Il a sali sa robe. » Qui a bu ? Qu’est-ce qui est sali ?",
+      "answer": "C’est le bébé qui a bu. Il a sali sa robe : on lit sa-li, ro-be.",
+      "remediation": "Comparer b et d avec les cartes côte à côte et le geste du doigt. Lire une syllabe à la fois avant le mot entier.",
+      "transfer": "Lire avec l’adulte le nom d’un objet de soin : bol, coton, savon… et dire celui qui contient b.",
+      "materials": "Cartes b, d, s, p, t, r, l, m et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Montre les b dans cette ligne : b d b p d.",
+          "answer": "Le premier et le troisième.",
+          "explanation": "Le rond de b est à droite de la canne."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "ba. bou. bi.",
+          "answer": "ba, bou, bi.",
+          "explanation": "On écrit b, puis la voyelle entendue.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 6 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 6, leçon de lecture de la semaine 2. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U6-R3",
+      "domain": "Français · lecture",
+      "week": 3,
+      "graphemes": [
+        "d"
+      ],
+      "title": "Je lis d : da, di, do, du",
+      "objective": "Lire les syllabes avec d, ne pas confondre d avec t ou b, lire des mots et comprendre deux phrases.",
+      "course": "La lettre d, qu’on appelle « dé », fait le son [d] : la langue tape derrière les dents et la gorge vibre. Avec t, la gorge ne vibre pas. On lit da, di, do, du, dé, dou.\n\nDans la phrase, le petit mot « à », avec un accent, se lit « a ».",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "malade, midi, dodo, radio, madame\nLe malade a dormi à midi. Il a bu de la soupe.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "da",
+              "di",
+              "do",
+              "du",
+              "dé",
+              "dou"
+            ],
+            [
+              "ad",
+              "id",
+              "od",
+              "ud",
+              "ed",
+              "oud"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire malade : ma, la, de, ma-la-de. Pour lire dormi : dor, puis mi, dor-mi.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis on compare da et ta, do et to, la main sur la gorge pour sentir la vibration.",
+      "exercise": "Lis « Le malade a dormi à midi. Il a bu de la soupe. » Quand le malade a-t-il dormi ? Qu’a-t-il bu ?",
+      "answer": "Il a dormi à midi. Il a bu de la soupe. Le mot « à » se lit « a ».",
+      "remediation": "Faire sentir la vibration de [d] avec la main sur la gorge. Lire une phrase à la fois et reposer la question après la relecture.",
+      "transfer": "Dire avec l’adulte ce qu’on fait quand on est malade : dormir, boire, aller au centre de santé.",
+      "materials": "Cartes d, b, t, s, p, r, l, m et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis : da, ta, do, to. Lesquelles commencent par d ?",
+          "answer": "da et do.",
+          "explanation": "Avec d, la gorge vibre ; avec t, elle ne vibre pas."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "dé. dou. di.",
+          "answer": "dé, dou, di.",
+          "explanation": "On écrit d, puis la voyelle entendue.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 6 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 6, leçon de lecture de la semaine 3. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
       "id": "SIL-U6-L01",
       "domain": "Français",
+      "week": 3,
       "title": "Je lis s, b, d et des phrases courtes",
       "objective": "Prononcer s, reconnaître b et d, puis lire avec aide des mots ou phrases construits à partir de graphies déjà apprises. Tracer et copier progressivement les graphies déjà étudiées.",
       "course": "Une phrase courte communique une idée. On lit de gauche à droite, on s’arrête aux espaces, puis on demande si la phrase a du sens.\n\nComplément curriculum SIL — lecture/écriture : lire et écrire avancent ensemble. L’enfant observe d’abord le modèle, suit le sens conventionnel du tracé, écrit sur ardoise ou papier puis copie un mot court. On ne demande que les graphies déjà enseignées; l’adulte adapte la prise du crayon et la posture.",
@@ -455,6 +684,83 @@
         }
       ],
       "scoring": "Aucun score linguistique officiel."
+    },
+    {
+      "id": "SIL-U6-R4",
+      "domain": "Français · lecture",
+      "week": 4,
+      "title": "Bilan : je lis s, b et d",
+      "objective": "Faire le point sur l’unité : lire des syllabes et des mots avec s, b et d, comprendre deux phrases et écrire des mots.",
+      "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit les syllabes, les mots, puis les phrases.",
+      "support": {
+        "title": "Bilan : je relis",
+        "text": "bébé, malade, soupe, robe, midi\nLe bébé a dormi. Sami a bu de la soupe.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "ou"
+          ],
+          "rows": [
+            [
+              "sa",
+              "si",
+              "so",
+              "su",
+              "sou"
+            ],
+            [
+              "ba",
+              "bi",
+              "bo",
+              "bu",
+              "bou"
+            ],
+            [
+              "da",
+              "di",
+              "do",
+              "du",
+              "dou"
+            ]
+          ]
+        }
+      },
+      "model": "Pour ne pas confondre b et d, on regarde de quel côté est le rond avant de lire.",
+      "guided": "L’adulte montre une syllabe du tableau au hasard ; l’enfant la lit. Puis il lit les mots et les phrases.",
+      "exercise": "Lis « Le bébé a dormi. Sami a bu de la soupe. » Qui a dormi ? Qu’a bu Sami ? Puis écris bu, sa et dé.",
+      "answer": "C’est le bébé qui a dormi. Sami a bu de la soupe. En écriture : b-u, s-a, d-é, avec l’accent aigu.",
+      "remediation": "Noter ce qui n’est pas encore réussi, sans le compter comme une faute. Reprendre la leçon de la semaine correspondante quelques minutes par jour, puis refaire seulement la partie du bilan concernée.",
+      "transfer": "Lire avec l’adulte une affiche de santé simple et y retrouver des lettres de l’unité.",
+      "materials": "Cartes de syllabes, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis « bébé » et « dodo ». Dans quel mot le rond de la lettre est-il à droite ?",
+          "answer": "Dans bébé : b a le rond à droite. Dans dodo, d a le rond à gauche.",
+          "explanation": "Regarder le rond aide à ne pas confondre b et d."
+        },
+        {
+          "prompt": "Écoute les mots et écris-les.",
+          "listen": "bébé. midi. sale.",
+          "answer": "bébé, midi, sale.",
+          "explanation": "Le e à la fin de sale s’entend à peine, mais on l’écrit.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 6 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 6, bilan de lecture. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
     }
   ]
 }

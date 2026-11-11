@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "3a89d41b806f46628876347212e066438354e4ef54dcbe54b89229a3cff0b5f2",
+  "version": "48e9a5b844820d1be0c5bbeb20234af7c5a69a051572d810eb029499493955b4",
   "files": [
     {
       "url": "./app.js",
@@ -299,7 +299,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "8071ae1478ff4e00694ccaa0dcc2f691024e0091b2a0ec4048b21bdeacd7d66e"
+      "sha256": "694ca9cad4880b59a54eb71ae3f41be34042b6a21b2e05abd528f905de8c0f52"
     },
     {
       "url": "./data/manuels/champions-francais-ce2.json",
@@ -515,7 +515,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "4762945cfcab32161094d1b2839193a34ca000d2f1735fbe2415cb483712f077"
+      "sha256": "d957a1f71dc80736b0f7a9f5bd15d47da43d226e4d20f92b031319e3dcb35403"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -575,7 +575,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "3fde107407de1f861bd314746e8a1d6f14fc9434712ed6a0cfdf17c1d94e0289"
+      "sha256": "f258c96ed949456e7a332d1cb390164456ed3ea21398bb88882b7537a39f03ae"
     },
     {
       "url": "./shared/ui.js",
@@ -591,35 +591,35 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "6bae6385faf1fa1916dbe14698394ccda9ea4c6f2a4a1a9aca62fba1b7e84258"
+      "sha256": "0664d59d8062df5be1808602b4de55faa615637e8c4fdd042a0f86068395ec52"
     },
     {
       "url": "./sil/data/sil-u2.json",
-      "sha256": "db40f2d64f989d876b18ab0c2c7dde85b006a50fc174c8fc20d28ad9fa308a64"
+      "sha256": "96cfeb3a47bab327f60e09bed19a829df3ca30f15047b7ebec34343cee56cee0"
     },
     {
       "url": "./sil/data/sil-u3.json",
-      "sha256": "ff5b6903e0c8f51b18ad3ecfa8b3ae896f2c671b7f039cd4817231c37b0782b9"
+      "sha256": "d81489d5258d344e52e348878130211092cee2234c91bda9fbd6d67701d06b21"
     },
     {
       "url": "./sil/data/sil-u4.json",
-      "sha256": "9ebeeaef6c44d5b651da24f2a6b1406a1c8d8376b25d3781b37d90d92a75e974"
+      "sha256": "48b0ceca8efb840986be0f00790a5aa99a41230d328e9fc0f089741135a05b09"
     },
     {
       "url": "./sil/data/sil-u5.json",
-      "sha256": "a5f5a7d29cf2c525a7278774e60b326a28cd9401a50d3f035844ff6eca6462a2"
+      "sha256": "62d39c6fd2a2f6e634989955fee18d91e04d02d428275b194f8e4c7134323223"
     },
     {
       "url": "./sil/data/sil-u6.json",
-      "sha256": "f8dc46d2c066e7685dd363a4b7dcb8a366c751bdf2ea6033ca9cd2fe1b823f58"
+      "sha256": "6e9aa554a1ed774b895f95a29a4995345aa5855cec5a71c3244fcad9ad53dd76"
     },
     {
       "url": "./sil/data/sil-u7.json",
-      "sha256": "cc70731c46d482a35b185c724033c3bc13b7ad4c71ad9b944aa420cf7cc0c76f"
+      "sha256": "bd9a1f28cc2fd50b79520c20807389a7952ad8dadbb0959e372baa4664e598cf"
     },
     {
       "url": "./sil/data/sil-u8.json",
-      "sha256": "83cbf74646930a8aaa114afd0ab7c09812c0d5d1c8bb9ff71a81d2e6856cec08"
+      "sha256": "e5418047c4960a26cca7c64945af8c18d0b7efa4069058e84b1db0108a56fdff"
     },
     {
       "url": "./sil/index.html",

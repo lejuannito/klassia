@@ -10,8 +10,237 @@
   "project": "Préparer une petite carte illustrée du voyage avec moyen de transport, ordre des étapes et règle de sécurité.",
   "lessons": [
     {
+      "id": "SIL-U5-R1",
+      "domain": "Français · lecture",
+      "week": 1,
+      "graphemes": [
+        "r"
+      ],
+      "title": "Je lis r : ra, ri, ro, ru",
+      "objective": "Lire les syllabes avec r, à l’endroit et à l’envers, lire des mots et comprendre deux phrases.",
+      "course": "La lettre r, qu’on appelle « erre », fait le son [r], qui roule au fond de la gorge : rrrr. On lit ra, ri, ro, ru, ré, rou, et à l’envers ar, ir, or, ur.\n\nÀ la fin d’un mot, la lettre e s’entend à peine : dans « rame », on entend surtout « ram ».",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "mur, rame, roue, Rémi, rire\nRémi a ramé. Lola a ri.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "ra",
+              "ri",
+              "ro",
+              "ru",
+              "ré",
+              "rou"
+            ],
+            [
+              "ar",
+              "ir",
+              "or",
+              "ur",
+              "er",
+              "our"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire ramé : ra, puis mé, ra-mé. Pour lire mur : mu, puis r, mur.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis il lit les mots en frappant les syllabes, avant de lire les phrases.",
+      "exercise": "Lis « Rémi a ramé. Lola a ri. » Qui a ramé ? Qu’a fait Lola ?",
+      "answer": "Rémi a ramé : on lit Ré-mi, a, ra-mé. Lola a ri.",
+      "remediation": "Faire rouler [r] longtemps avant d’ajouter la voyelle. Lire les syllabes inversées en montrant d’abord la voyelle.",
+      "transfer": "Chercher r dans des mots du voyage écrits par l’adulte : route, rue, gare.",
+      "materials": "Cartes r, l, m et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis : ra, ar, rou, our. Lesquelles se terminent par r ?",
+          "answer": "ar et our.",
+          "explanation": "Dans ar et our, on lit la voyelle puis r."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "ra. rou. ri.",
+          "answer": "ra, rou, ri.",
+          "explanation": "On écrit r, puis la voyelle entendue.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 5 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 5, leçon de lecture de la semaine 1. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U5-R2",
+      "domain": "Français · lecture",
+      "week": 2,
+      "graphemes": [
+        "t"
+      ],
+      "title": "Je lis t : ta, ti, to, tu",
+      "objective": "Lire les syllabes avec t, lire des mots de deux ou trois syllabes et comprendre deux phrases.",
+      "course": "La lettre t, qu’on appelle « té », fait le son [t] : la langue tape derrière les dents, t, t, t. Ce son ne dure pas. On lit ta, ti, to, tu, té, tou, et à l’envers at, it, ot.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "moto, tomate, tortue, été, tête\nLa moto roule. Rita a la tomate.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "ta",
+              "ti",
+              "to",
+              "tu",
+              "té",
+              "tou"
+            ],
+            [
+              "at",
+              "it",
+              "ot",
+              "ut",
+              "et",
+              "out"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire tomate : to, ma, te, to-ma-te. Pour lire moto : mo-to.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis il frappe les syllabes de chaque mot avant de le lire.",
+      "exercise": "Lis « La moto roule. Rita a la tomate. » Qu’est-ce qui roule ? Qui a la tomate ?",
+      "answer": "La moto roule. C’est Rita qui a la tomate. On lit mo-to, rou-le, to-ma-te.",
+      "remediation": "Lire les mots syllabe par syllabe avec un cache. Si une phrase résiste, lire un mot à la fois puis relire toute la phrase.",
+      "transfer": "Lire avec l’adulte un mot du voyage : moto, auto, route… et dire celui qui contient t.",
+      "materials": "Cartes t, r, l, m et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis : to, ot, tou, ti. Lesquelles commencent par t ?",
+          "answer": "to, tou et ti.",
+          "explanation": "ot commence par la voyelle o."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "tu. tou. té.",
+          "answer": "tu, tou, té.",
+          "explanation": "Pour « tou », on écrit t puis ou.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 5 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 5, leçon de lecture de la semaine 2. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
+      "id": "SIL-U5-R3",
+      "domain": "Français · lecture",
+      "week": 3,
+      "graphemes": [
+        "p"
+      ],
+      "title": "Je lis p : pa, pi, po, pu",
+      "objective": "Lire les syllabes avec p, ne pas confondre p et q, lire des mots et comprendre deux phrases.",
+      "course": "La lettre p, qu’on appelle « pé », fait le son [p] : les lèvres se ferment puis s’ouvrent d’un coup, comme un petit souffle. On lit pa, pi, po, pu, pé, pou.\n\nAttention : la canne de p descend sous la ligne, à gauche du rond ; celle de q est à droite.",
+      "support": {
+        "title": "À lire avec l’adulte",
+        "text": "papa, poule, purée, pirate, parti\nLe pilote a parlé. Papa a ri.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "é",
+            "ou"
+          ],
+          "rows": [
+            [
+              "pa",
+              "pi",
+              "po",
+              "pu",
+              "pé",
+              "pou"
+            ],
+            [
+              "ap",
+              "ip",
+              "op",
+              "up",
+              "ep",
+              "oup"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire pilote : pi, lo, te, pi-lo-te. Pour lire parlé : par, lé, par-lé.",
+      "guided": "L’adulte montre une syllabe du tableau ; l’enfant la lit. Puis il lit les mots et les deux phrases.",
+      "exercise": "Lis « Le pilote a parlé. Papa a ri. » Qui a parlé ? Qu’a fait papa ?",
+      "answer": "C’est le pilote qui a parlé : pi-lo-te, par-lé. Papa a ri.",
+      "remediation": "Comparer p et q avec les cartes posées côte à côte. Lire les syllabes avant les mots, puis une phrase à la fois.",
+      "transfer": "Préparer avec l’adulte une étiquette « papa » ou « maman » pour un bagage imaginaire.",
+      "materials": "Cartes p, q, t, r, l, m et voyelles, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Montre les p dans cette ligne : q p d b p.",
+          "answer": "Le deuxième et le dernier.",
+          "explanation": "La canne de p est à gauche du rond ; celle de q est à droite."
+        },
+        {
+          "prompt": "Écoute les syllabes et écris-les.",
+          "listen": "pa. pou. pi.",
+          "answer": "pa, pou, pi.",
+          "explanation": "On écrit p, puis la voyelle entendue.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 5 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 5, leçon de lecture de la semaine 3. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
+    },
+    {
       "id": "SIL-U5-L01",
       "domain": "Français",
+      "week": 3,
       "title": "Je lis r, t, p et les syllabes inversées",
       "objective": "Reconnaître r, t, p, lire ar/or/ur/ir/er avec modèle et donner le sens de phrases courtes lues avec l’adulte. Tracer et copier progressivement les graphies déjà étudiées.",
       "course": "On combine les correspondances déjà étudiées et on vérifie le sens. Les mots d’une phrase peuvent être accompagnés d’images ; l’enfant ne devine pas uniquement à partir du dessin.\n\nComplément curriculum SIL — lecture/écriture : lire et écrire avancent ensemble. L’enfant observe d’abord le modèle, suit le sens conventionnel du tracé, écrit sur ardoise ou papier puis copie un mot court. On ne demande que les graphies déjà enseignées; l’adulte adapte la prise du crayon et la posture.",
@@ -399,6 +628,83 @@
         }
       ],
       "scoring": "Aucun score linguistique officiel."
+    },
+    {
+      "id": "SIL-U5-R4",
+      "domain": "Français · lecture",
+      "week": 4,
+      "title": "Bilan : je lis r, t et p",
+      "objective": "Faire le point sur l’unité : lire des syllabes et des mots avec r, t et p, comprendre deux phrases et écrire des mots.",
+      "course": "Le bilan montre ce qui est déjà su et ce qu’il faut revoir. On lit les syllabes, les mots, puis les phrases.",
+      "support": {
+        "title": "Bilan : je relis",
+        "text": "moto, purée, tortue, pirate, rame\nLe pirate a ramé. La moto roule.",
+        "table": {
+          "caption": "Tableau des syllabes",
+          "headers": [
+            "a",
+            "i",
+            "o",
+            "u",
+            "ou"
+          ],
+          "rows": [
+            [
+              "ra",
+              "ri",
+              "ro",
+              "ru",
+              "rou"
+            ],
+            [
+              "ta",
+              "ti",
+              "to",
+              "tu",
+              "tou"
+            ],
+            [
+              "pa",
+              "pi",
+              "po",
+              "pu",
+              "pou"
+            ]
+          ]
+        }
+      },
+      "model": "Pour lire un mot long, on le découpe en syllabes : tor-tue, pi-ra-te.",
+      "guided": "L’adulte montre une syllabe du tableau au hasard ; l’enfant la lit. Puis il lit les mots et les phrases.",
+      "exercise": "Lis « Le pirate a ramé. La moto roule. » Qui a ramé ? Puis écris pa, tou et ri sur les lignes.",
+      "answer": "C’est le pirate qui a ramé ; la moto roule. En écriture : p-a, t-ou, r-i, lettres lisibles et dans l’ordre.",
+      "remediation": "Noter ce qui n’est pas encore réussi, sans le compter comme une faute. Reprendre la leçon de la semaine correspondante quelques minutes par jour, puis refaire seulement la partie du bilan concernée.",
+      "transfer": "Lire avec l’adulte un petit mot du voyage écrit sur un billet imaginaire.",
+      "materials": "Cartes de syllabes, ardoise ou papier.",
+      "practice": [
+        {
+          "prompt": "Lis : ra, ar, tou, out, pi, ip. Dans lesquelles lit-on d’abord la voyelle ?",
+          "answer": "ar, out et ip.",
+          "explanation": "On lit toujours de gauche à droite : la voyelle, puis la consonne."
+        },
+        {
+          "prompt": "Écoute les mots et écris-les.",
+          "listen": "moto. papa.",
+          "answer": "moto, papa.",
+          "explanation": "Chaque mot a deux syllabes : mo-to, pa-pa.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 1 (SIL-CP), MINEDUB, 2018",
+        "pages": "Lecture (tableau 5), p. 33–34, colonne SIL, unité 5 · écriture (tableau 6), p. 35–41",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/01-Programme_Niveau_01__2019_01.pdf?v=1745409608"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Unité 5, bilan de lecture. Ordre des sons aligné sur le sommaire de Champions en français SIL ; syllabes, mots et phrases rédigés pour Klassia avec les seules lettres déjà étudiées. À relire par un enseignant de SIL."
+      }
     }
   ]
 }

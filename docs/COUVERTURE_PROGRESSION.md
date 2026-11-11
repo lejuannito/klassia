@@ -6,10 +6,10 @@ Le premier relevé examine 30 repères dans les cinq classes. Le deuxième ajout
 |---|---:|---:|---:|---:|
 | Moyenne section | 160 | 14 | 0 | 0 |
 | Grande section | 162 | 14 | 0 | 0 |
-| SIL | 90 | 14 | 0 | 0 |
+| SIL | 122 | 14 | 0 | 0 |
 | CE1 | 89 | 14 | 0 | 0 |
 | CE2 | 347 | 14 | 0 | 0 |
-| **Total** | **848** | **70** | **0** | **0** |
+| **Total** | **880** | **70** | **0** | **0** |
 
 Un repère est **couvert** lorsque le support, la tâche et le critère d’évaluation permettent de travailler l’attendu retenu. Il est **partiel** lorsqu’il manque une composante du support, une mise en pratique ou une preuve de réalisation. **Absent** désigne un attendu ciblé sans tâche correspondante dans le périmètre indiqué. Les chiffres portent sur les repères examinés. La relecture pédagogique et la couverture de l’année se vérifient à leurs propres échelles. [Inventaire des ressources](couverture.csv) · [Procédure de relecture](VALIDATION_PEDAGOGIQUE.md)
 

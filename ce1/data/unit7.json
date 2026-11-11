@@ -562,6 +562,131 @@
       ]
     },
     {
+      "id": "CE1-U7-MN",
+      "domain": "Mathématiques · nombres",
+      "title": "Les nombres de 900 à 1 000",
+      "objective": "Lire, écrire, composer et décomposer les nombres de 900 à 1 000.",
+      "course": "927 = 9 centaines + 2 dizaines + 7 unités = 900 + 20 + 7 : neuf cent vingt-sept. Après 999 vient 1 000 (mille) : 10 centaines font 1 millier.\n\nAttention à l’écriture en lettres : cent ne prend pas de -s quand il est suivi d’un autre nombre (neuf cent vingt-sept) ; mille ne prend jamais de -s.",
+      "support": {
+        "title": "À observer",
+        "text": "927 = 900 + 20 + 7\n999 + 1 = 1 000\n10 centaines = 1 millier"
+      },
+      "model": "L’adulte groupe 10 paquets de 100 bâtonnets : « 10 centaines, c’est mille. »",
+      "guided": "Lisez et écrivez en lettres trois nombres entre 900 et 1 000, puis comptez de 990 à 1 000.",
+      "exercise": "Écris en lettres : 968.",
+      "answer": "neuf cent soixante-huit.",
+      "remediation": "Écrire d’abord la décomposition (900 + 60 + 8), puis lire chaque partie.",
+      "transfer": "Compter les points d’un jeu jusqu’à 1 000.",
+      "materials": "Tableau C/D/U, bâtonnets, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Range dans l’ordre croissant : 990, 909, 999, 919.",
+          "answer": "909, 919, 990, 999.",
+          "explanation": "On compare les dizaines quand les centaines sont pareilles."
+        },
+        {
+          "prompt": "Écoute et écris le nombre en chiffres.",
+          "listen": "neuf cent cinquante-quatre",
+          "answer": "954.",
+          "explanation": "neuf cent cinquante-quatre = 900 + 50 + 4.",
+          "ink": "lignes"
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 81, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U7-MC",
+      "domain": "Mathématiques · calcul",
+      "title": "Le triple et le tiers",
+      "objective": "Trouver le triple et le tiers d’un nombre.",
+      "course": "Le triple d’un nombre, c’est 3 fois ce nombre : le triple de 25 est 75. Le tiers, c’est partager en 3 parts égales : le tiers de 75 est 25.\n\nLe triple et le tiers sont des opérations inverses, comme le double et la moitié.",
+      "support": {
+        "title": "À observer",
+        "text": "triple de 25 = 75 · tiers de 75 = 25\ntriple de 40 = 120 · tiers de 120 = 40"
+      },
+      "model": "L’adulte partage 30 billes en 3 tas égaux : 10, 10, 10. « Le tiers de 30 est 10. »",
+      "guided": "Trouvez ensemble le triple de 15 et le tiers de 90.",
+      "exercise": "Trouve : le triple de 32 ; le tiers de 63.",
+      "answer": "96 ; 21.",
+      "remediation": "Pour le tiers, partager les dizaines puis les unités : 63 = 60 + 3 → 20 + 1 = 21.",
+      "transfer": "Partager les points d’un jeu en trois équipes égales.",
+      "materials": "Billes ou jetons, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Le tiers de 27, c’est…",
+          "answer": "9.",
+          "explanation": "9 × 3 = 27."
+        },
+        {
+          "prompt": "Problème : au jeu, Moussa marque 40 points et Fanta le triple. Combien Fanta en marque-t-elle ?",
+          "answer": "120 points.",
+          "explanation": "3 × 40 = 120."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 81, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U7-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Lire l’heure ; l’unité de mesure des angles",
+      "objective": "Identifier les instruments de mesure du temps, lire l’heure sur différents types de montres et identifier l’unité de mesure des angles.",
+      "course": "On mesure le temps avec une montre, une horloge, un chronomètre, un sablier. Sur une montre à aiguilles, la petite aiguille montre les heures et la grande les minutes. 1 heure = 60 minutes. Quand la grande aiguille est sur 6, il est « et demie » (30 minutes). Sur une montre numérique, on lit directement : 14:15 se lit « quatorze heures quinze ».\n\nLes angles se mesurent en degrés (°). Un angle droit mesure 90°.",
+      "support": {
+        "title": "À observer",
+        "text": "1 h = 60 min\n8 h 30 = huit heures et demie\n14:15 = quatorze heures quinze\nangle droit = 90°"
+      },
+      "model": "L’adulte place les aiguilles d’une horloge dessinée sur 3 h 30 et l’enfant lit l’heure.",
+      "guided": "Lisez trois heures sur une horloge dessinée et la même heure sur un affichage numérique.",
+      "exercise": "La petite aiguille est entre 4 et 5, la grande sur 6. Quelle heure est-il ?",
+      "answer": "4 h 30 (quatre heures et demie).",
+      "remediation": "Lire d’abord la petite aiguille, puis la grande en comptant de 5 en 5.",
+      "transfer": "Noter l’heure de début et de fin d’un match ou d’un jeu.",
+      "materials": "Horloge dessinée ou réelle, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Combien de minutes dure une demi-heure ?",
+          "answer": "30 minutes.",
+          "explanation": "1 h = 60 min ; la moitié est 30 min."
+        },
+        {
+          "prompt": "Un match commence à 15 h et dure 1 h 30. À quelle heure finit-il ?",
+          "answer": "À 16 h 30.",
+          "explanation": "15 h + 1 h = 16 h ; + 30 min = 16 h 30."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 20 (mesures et grandeurs), p. 87, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U7-L05",
       "domain": "Sciences et technologies",
       "title": "Décrire les composants visibles d’une pile de jouet",

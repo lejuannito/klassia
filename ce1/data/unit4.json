@@ -566,6 +566,129 @@
       ]
     },
     {
+      "id": "CE1-U4-MC",
+      "domain": "Mathématiques · calcul",
+      "title": "Tables de 3, 4 et 5 ; multiplier et vérifier par la preuve par 9",
+      "objective": "Construire les tables de multiplication par 3, 4 et 5, multiplier un nombre par un nombre d’un chiffre et vérifier avec la preuve par 9.",
+      "course": "La table de 3 se construit en ajoutant 3 à chaque fois : 3, 6, 9, 12, 15… ; de même pour 4 et 5.\n\nPour multiplier 123 × 4, on multiplie les unités, puis les dizaines, puis les centaines : 123 × 4 = 492.\n\nPreuve par 9 : on additionne les chiffres de chaque nombre jusqu’à n’avoir qu’un chiffre (9 compte comme 0). 123 → 1 + 2 + 3 = 6 ; 4 → 4 ; 6 × 4 = 24 → 2 + 4 = 6. Résultat 492 → 4 + 9 + 2 = 15 → 1 + 5 = 6. Les deux chiffres sont pareils : le calcul est probablement juste. S’ils sont différents, il y a une erreur.",
+      "support": {
+        "title": "À observer",
+        "text": "3 × 7 = 21 · 4 × 8 = 32 · 5 × 9 = 45\n123 × 4 = 492\npreuve : 6 × 4 = 24 → 6 ; 492 → 6"
+      },
+      "model": "L’adulte récite la table de 4 en ajoutant 4 à chaque fois, puis montre la preuve par 9 sur 123 × 4.",
+      "guided": "Récitez ensemble la table de 5, puis calculez 214 × 3 et faites la preuve par 9.",
+      "exercise": "Calcule 132 × 3, puis vérifie avec la preuve par 9.",
+      "answer": "132 × 3 = 396. Preuve : 1 + 3 + 2 = 6 ; 6 × 3 = 18 → 9 → 0 ; 396 → 3 + 9 + 6 = 18 → 9 → 0. Mêmes chiffres : c’est probablement juste.",
+      "remediation": "Construire la table avec des paquets de jetons ; pour la preuve, écrire chaque étape dans une croix.",
+      "transfer": "Calculer le prix de 4 pains à 125 F.",
+      "materials": "Jetons, tableau des tables, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Complète la table de 4 : 4, 8, 12, …, …, 24.",
+          "answer": "16, 20.",
+          "explanation": "On ajoute 4 à chaque fois."
+        },
+        {
+          "prompt": "Problème : un menuisier fabrique 5 chaises par jour. Combien en 6 jours ?",
+          "answer": "5 × 6 = 30 chaises.",
+          "explanation": "6 fois 5, c’est la table de 5."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 78, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U4-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Périmètre et aire : quelle différence ?",
+      "objective": "Définir le périmètre et l’aire d’une figure et faire la différence entre les deux.",
+      "course": "Le périmètre est la longueur du tour d’une figure : on additionne les longueurs de tous ses côtés. Il se mesure en cm, m…\n\nL’aire est la surface à l’intérieur de la figure. Sur un quadrillage, on la compte en carreaux.\n\nDeux figures peuvent avoir le même périmètre et des aires différentes.",
+      "support": {
+        "title": "À observer",
+        "text": "Rectangle de 4 carreaux sur 2 carreaux :\npérimètre = 4 + 2 + 4 + 2 = 12 côtés de carreau\naire = 8 carreaux"
+      },
+      "model": "L’adulte fait le tour d’un tapis avec le doigt (périmètre), puis le couvre avec des feuilles (aire).",
+      "guided": "Sur une feuille quadrillée, dessinez un rectangle de 3 sur 2 carreaux ; comptez son périmètre et son aire.",
+      "exercise": "Un carré a 3 carreaux de côté. Quel est son périmètre (en côtés de carreau) ? Quelle est son aire (en carreaux) ?",
+      "answer": "Périmètre : 3 + 3 + 3 + 3 = 12. Aire : 9 carreaux.",
+      "remediation": "Repasser le tour en couleur pour le périmètre, colorier l’intérieur pour l’aire.",
+      "transfer": "Dire si l’on mesure un périmètre ou une aire quand on pose une clôture autour d’un jardin.",
+      "materials": "Feuille quadrillée, crayons de couleur.",
+      "practice": [
+        {
+          "prompt": "Pour mettre une bordure autour d’un tableau, a-t-on besoin du périmètre ou de l’aire ?",
+          "answer": "Du périmètre.",
+          "explanation": "La bordure fait le tour."
+        },
+        {
+          "prompt": "Pour peindre un mur, a-t-on besoin du périmètre ou de l’aire ?",
+          "answer": "De l’aire.",
+          "explanation": "On peint toute la surface."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 20 (mesures et grandeurs), p. 86, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U4-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Le triangle et la symétrie",
+      "objective": "Construire un triangle, trouver l’axe de symétrie d’une figure et reproduire le symétrique d’une figure.",
+      "course": "Un triangle a 3 côtés et 3 sommets. Pour le construire, on trace un segment, on place un troisième point hors du segment, puis on relie ce point aux deux extrémités.\n\nUne figure a un axe de symétrie si, en la pliant le long de cet axe, les deux moitiés se superposent exactement (un papillon, un cœur). Pour reproduire le symétrique sur un quadrillage, on compte les carreaux de chaque point jusqu’à l’axe et on en compte autant de l’autre côté.",
+      "support": {
+        "title": "À observer",
+        "text": "triangle : 3 côtés, 3 sommets\naxe de symétrie : pliage, deux moitiés identiques"
+      },
+      "model": "L’adulte plie une feuille en deux, découpe une demi-maison et ouvre : la maison est symétrique.",
+      "guided": "Construisez un triangle ABC avec AB = 5 cm, puis tracez l’axe de symétrie d’un cœur dessiné.",
+      "exercise": "Sur un quadrillage, un point est à 3 carreaux à gauche de l’axe. Où places-tu son symétrique ?",
+      "answer": "À 3 carreaux à droite de l’axe, sur la même ligne.",
+      "remediation": "Plier réellement la feuille pour vérifier.",
+      "transfer": "Chercher dans la maison des objets symétriques : une chaise, une fenêtre.",
+      "materials": "Règle, feuille quadrillée, ciseaux à bouts ronds.",
+      "practice": [
+        {
+          "prompt": "Combien de sommets a un triangle ?",
+          "answer": "3.",
+          "explanation": "Un triangle a 3 sommets et 3 côtés."
+        },
+        {
+          "prompt": "Un carré a-t-il un axe de symétrie ?",
+          "answer": "Oui, il en a même quatre.",
+          "explanation": "On peut le plier en deux de quatre façons : deux médianes et deux diagonales."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 21 (géométrie et espace), p. 90, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U4-L05",
       "domain": "Sciences et technologies",
       "title": "Comparer des aliments et parler d’équilibre sans jugement",

@@ -497,6 +497,152 @@
       ]
     },
     {
+      "id": "CE1-U1-MC",
+      "domain": "Mathématiques · calcul",
+      "title": "Calcul mental et suites d’opérations en ligne",
+      "objective": "Calculer mentalement des sommes et des différences et effectuer une suite d’opérations en ligne.",
+      "course": "Pour calculer de tête, on décompose : 46 + 30 = 76 (on ajoute 3 dizaines) ; 58 − 20 = 38 (on enlève 2 dizaines) ; 47 + 9 = 47 + 10 − 1 = 56.\n\nUne suite d’opérations en ligne se calcule de gauche à droite : 25 + 10 − 5 = 35 − 5 = 30.",
+      "support": {
+        "title": "À observer",
+        "text": "46 + 30 = 76\n47 + 9 = 47 + 10 − 1 = 56\n25 + 10 − 5 = 30"
+      },
+      "model": "« 47 + 9 : j’ajoute 10, cela fait 57, puis j’enlève 1 : 56. »",
+      "guided": "L’adulte dit un calcul ; l’enfant répond et explique comment il a fait. Puis calculez ensemble 60 − 15 + 5.",
+      "exercise": "Calcule en ligne : 80 − 30 + 12.",
+      "answer": "80 − 30 = 50 ; 50 + 12 = 62.",
+      "remediation": "Écrire chaque étape sous la précédente ; utiliser des bâtonnets groupés par dix si besoin.",
+      "transfer": "Calculer de tête la monnaie lors d’un petit achat imaginaire à la maison.",
+      "materials": "Bâtonnets ou jetons, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Calcule de tête : 68 + 9.",
+          "answer": "77.",
+          "explanation": "68 + 10 = 78, puis 78 − 1 = 77."
+        },
+        {
+          "prompt": "Problème : maman a 150 F. Elle achète du pain à 100 F, puis reçoit 25 F. Combien a-t-elle ?",
+          "answer": "150 − 100 + 25 = 75 F.",
+          "explanation": "On calcule de gauche à droite : 150 − 100 = 50, puis 50 + 25 = 75."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 19 (nombres et calculs), p. 75, unité 1, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U1-MM",
+      "domain": "Mathématiques · mesures",
+      "title": "Les mesures de longueur : unités et conversions",
+      "objective": "Expliquer ce qu’est mesurer, estimer et ranger des objets selon leur longueur, utiliser et convertir les unités de longueur.",
+      "course": "Mesurer, c’est comparer une grandeur à une unité. L’unité principale de longueur est le mètre (m). 1 m = 10 décimètres (dm) = 100 centimètres (cm) = 1 000 millimètres (mm). Pour les grandes distances : 1 kilomètre (km) = 1 000 m.\n\nAvant de mesurer, on estime : une porte mesure environ 2 m, un crayon environ 15 cm.",
+      "support": {
+        "title": "À observer",
+        "text": "1 m = 10 dm = 100 cm\n1 dm = 10 cm\n1 km = 1 000 m",
+        "table": {
+          "caption": "Tableau des unités de longueur",
+          "headers": [
+            "km",
+            "hm",
+            "dam",
+            "m",
+            "dm",
+            "cm",
+            "mm"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "1",
+              "0",
+              "0",
+              ""
+            ]
+          ]
+        }
+      },
+      "model": "L’adulte mesure la table avec un mètre : « 1 m et 20 cm, c’est 120 cm. »",
+      "guided": "Estimez puis mesurez trois objets de la maison ; rangez-les du plus court au plus long.",
+      "exercise": "Convertis : 3 m = … cm ; 40 mm = … cm.",
+      "answer": "3 m = 300 cm ; 40 mm = 4 cm.",
+      "remediation": "Utiliser le tableau des unités : écrire le nombre, puis ajouter ou enlever des zéros en passant d’une colonne à l’autre.",
+      "transfer": "Mesurer la longueur de son lit en mètres et centimètres.",
+      "materials": "Règle graduée, mètre de couturière ou ruban, ardoise ou cahier, crayon.",
+      "practice": [
+        {
+          "prompt": "Range du plus court au plus long : 1 m, 80 cm, 12 dm.",
+          "answer": "80 cm, 1 m, 12 dm (80 cm, 100 cm, 120 cm).",
+          "explanation": "On convertit tout en centimètres pour comparer."
+        },
+        {
+          "prompt": "Problème : un tissu mesure 2 m. La couturière en coupe 50 cm. Combien reste-t-il ?",
+          "answer": "150 cm (1 m 50 cm).",
+          "explanation": "2 m = 200 cm ; 200 − 50 = 150 cm."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 20 (mesures et grandeurs), p. 84, unité 1, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
+      "id": "CE1-U1-MG",
+      "domain": "Mathématiques · géométrie",
+      "title": "Tracer avec la règle et l’équerre : droites, parallèles, perpendiculaires",
+      "objective": "Utiliser la règle et l’équerre pour tracer des droites, des segments, des demi-droites, des droites parallèles et perpendiculaires.",
+      "course": "Une droite n’a pas de fin : on la note (d) ou (AB). Un segment a deux extrémités : [AB]. Une demi-droite a un point de départ et pas de fin : [AB).\n\nDeux droites perpendiculaires se coupent en formant un angle droit : on le vérifie avec l’équerre. Deux droites parallèles ne se coupent jamais : l’écart entre elles reste le même.",
+      "support": {
+        "title": "À observer",
+        "text": "(AB) droite · [AB] segment · [AB) demi-droite\nperpendiculaires : angle droit\nparallèles : même écart partout"
+      },
+      "model": "L’adulte trace une droite, place l’équerre contre elle et trace une perpendiculaire.",
+      "guided": "Tracez ensemble un segment [AB] de 6 cm, puis une perpendiculaire passant par A.",
+      "exercise": "Trace une droite (d), puis une droite parallèle à (d) à 3 cm.",
+      "answer": "Deux droites qui restent à 3 cm l’une de l’autre sur toute leur longueur et ne se coupent pas.",
+      "remediation": "Pour la parallèle, tracer deux perpendiculaires, y marquer 3 cm, puis joindre les deux points.",
+      "transfer": "Chercher à la maison des bords parallèles (les côtés d’une porte) et perpendiculaires (le coin d’une table).",
+      "materials": "Règle graduée, équerre, crayon bien taillé, feuille.",
+      "practice": [
+        {
+          "prompt": "Quelle est la différence entre un segment et une droite ?",
+          "answer": "Le segment a deux extrémités ; la droite n’a pas de fin.",
+          "explanation": "On trace le segment de A à B ; la droite continue des deux côtés."
+        },
+        {
+          "prompt": "Comment vérifier que deux droites sont perpendiculaires ?",
+          "answer": "Avec l’équerre : l’angle qu’elles forment est un angle droit.",
+          "explanation": "On place l’angle droit de l’équerre contre les deux droites."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Mathématiques, tableau 21 (géométrie et espace), p. 89, unité 1, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Leçon de mathématiques rédigée pour Klassia d’après les savoirs du programme de CE1 pour l’unité ; elle complète les leçons de mathématiques déjà présentes. À relire par un enseignant de CE1."
+      }
+    },
+    {
       "id": "CE1-U1-L04",
       "domain": "Sciences et technologies",
       "title": "Observer un besoin, une matière et un usage domestique",

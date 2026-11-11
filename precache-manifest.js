@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "bff264519b943d719635b5d291c35fb948de599a7f3d89e57dc94b4258740c8d",
+  "version": "d730a0668d92d913a762e42b2b1f8793eba2b274296e02b29bdac51d15a3a4b0",
   "files": [
     {
       "url": "./app.js",
@@ -398,6 +398,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "3e60c431dc3698c60b5dc13ff996dd474a6ea6e1757adc6ad9f28a2c3b0271a0"
     },
     {
+      "url": "./maison.html",
+      "sha256": "0af7916c80061a1c3f776fcf8f0725cb254f8b36cbe6dc87837a26993a1eea24"
+    },
+    {
       "url": "./manifest.webmanifest",
       "sha256": "1b1a31cfbbd1c26b10aee96b37fb43a5f6b6fb5f458c90c74364177c860a523c"
     },
@@ -510,6 +514,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "40d5f3b4507de366121f02c7d2865df98e4c978fd841cb051133545a4b58eb82"
     },
     {
+      "url": "./shared/home-language.js",
+      "sha256": "f6df6023d88aaefb1d3feec11e61eeb4f569270e65e45a812368405477e912df"
+    },
+    {
       "url": "./shared/ink.js",
       "sha256": "344e09ca53d92eb2b8b1ff65faa29a02d87c76c83b2162d4d01fedddabe9d251"
     },
@@ -575,11 +583,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "71bbb6df86c970bc95c6d9aa97d2a7dea92269a95e60c906e9a19be1d72d2d83"
+      "sha256": "172daef65993a2bdcf162bc89948284935f8466d7603bd2d94b76b93eaa61269"
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "dd96d1d7021cc4bd3de185f840a185cfba996164601295fc0da67b726f811dfa"
+      "sha256": "7093ec18e3021e30c92738cf712b9c9cd62d1ace7307aba8d767d0eeb43c5bf8"
     },
     {
       "url": "./shared/week.js",

@@ -54,7 +54,7 @@ const server = http.createServer((request, response) => {
       ? pathname.slice(0, -'index.html'.length)
       : name.endsWith('.html') ? pathname.slice(0, -'.html'.length) : '';
     if (canonical) return response.writeHead(308, { Location: canonical + url.search }).end();
-    if (['pilote', 'search', 'imprimer', 'outils'].includes(name)) name += '.html';
+    if (['pilote', 'search', 'imprimer', 'outils', 'maison'].includes(name)) name += '.html';
   }
   if (name === '' || name.endsWith('/')) name += 'index.html';
   const file = path.resolve(root, name);
@@ -71,6 +71,41 @@ const server = http.createServer((request, response) => {
     response.writeHead(404).end();
   }
 });
+
+async function testHomeLanguage(page, base) {
+  await page.setViewportSize({ width: 320, height: 844 });
+  await page.goto(base + 'maison.html');
+  const root = page.locator('[data-home-language]'), status = page.locator('[data-home-status]');
+  await root.getByLabel('Nom de la langue parlée à la maison').fill('bassa');
+  await root.getByRole('button', { name: 'Enregistrer le nom' }).click();
+  await root.locator('p').filter({ hasText: 'Langue choisie : bassa.' }).waitFor();
+  await root.locator('[data-home-game]').filter({ hasText: 'Il faut au moins trois mots' }).waitFor();
+  for (const id of ['hello', 'mother', 'water']) {
+    await root.locator(`[data-record="${id}"]`).click();
+    await status.filter({ hasText: 'Enregistrement en cours' }).waitFor();
+    await page.waitForTimeout(350); // Give the fake microphone samples to encode.
+    await root.locator(`[data-record="${id}"]`).click();
+    await root.locator(`[data-word="${id}"] audio[src^="blob:"]`).waitFor();
+  }
+  assert.match(await root.innerText(), /3 mots enregistrés sur 29/);
+  assert.equal(await root.locator('[data-choice]').count(), 3);
+  const result = root.locator('[data-home-result]');
+  for (let i = 0; i < 3 && !/Bravo/.test(await result.innerText()); i++) await root.locator('[data-choice]').nth(i).click();
+  await result.filter({ hasText: 'Bravo' }).waitFor();
+  assert.ok(await page.evaluate(() => Klassia.read('klassia_attempts', []).some(a => a.kind === 'home_language' && a.ok)));
+  await root.locator('[data-written="hello"]').fill('essai');
+  await root.locator('[data-written="hello"]').dispatchEvent('change');
+  assert.equal(await page.evaluate(() => Klassia.read('klassia_home_words_v1', {}).hello), 'essai');
+  await root.locator('[data-delete="water"]').click();
+  await status.filter({ hasText: 'Enregistrement effacé.' }).waitFor();
+  await page.reload();
+  await root.locator('[data-word="mother"] audio').waitFor();
+  assert.match(await root.innerText(), /2 mots enregistrés sur 29/);
+  assert.equal(await root.locator('[data-written="hello"]').inputValue(), 'essai');
+  assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+  assert.ok(!JSON.stringify(await page.evaluate(() => Klassia.exportBackup())).includes('klassia_home_'), 'Home language data stays out of the backup');
+  console.log('PASS home language: name, three recordings, listening game, written word, deletion, reload, kept out of the backup');
+}
 
 async function testBassaMicrophone(context, page, base) {
   await context.addInitScript(() => {
@@ -1077,6 +1112,7 @@ async function run() {
     await testInkAndCalcul(context, page, base);
     await testReferenceTools(page, base);
     await testArtsAndMovement(page, base);
+    await testHomeLanguage(page, base);
   } finally {
     await browser?.close();
     server.close();

@@ -8,8 +8,8 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 
 Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livrés séparément.
 
-- **1a. Barre famille** — en vue Enfant, la barre ne garde que le retour, la classe, les outils et un menu « Parents » qui regroupe suivi, profil, recherche, espace et validation pédagogique. Les vues adultes sont inchangées.
-- **1b. Porte Parents et atelier** — un calcul simple avant la vue Parent ; vues Enseignant et Administration depuis une page atelier.
+- **1a. Barre famille** — fusionné (PR #51). En vue Enfant, la barre ne garde que le retour, la classe, les outils et un menu « Parents » qui regroupe suivi, profil, recherche, espace et validation pédagogique. Les vues adultes sont inchangées.
+- **1b. Porte Parents et atelier** — un calcul à résoudre par l’adulte avant d’ouvrir « Parents » ou de quitter la vue Enfant (valable dix minutes, réarmé au retour en vue Enfant ; ce n’est pas un mot de passe) ; vues Enseignant et Administration regroupées sous « Atelier pédagogique » dans le choix de l’espace.
 - **1c. Premier lancement** — école (francophone, anglophone, les deux), classe, prénom.
 - **1d. Continuer** — bouton vers la prochaine leçon non faite dans les cinq classes.
 - **1e. Mots et confort** — retrait du vocabulaire éditorial et du mot « bilingue » des vues Enfant et Parent, commandes de 44 px, texte de 14 px au moins.

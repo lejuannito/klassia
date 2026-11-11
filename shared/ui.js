@@ -3,7 +3,7 @@
 function download(){const b=K.exportBackup(),u=URL.createObjectURL(new Blob([JSON.stringify(b,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=u;a.download=`Klassia-${K.profile().id}-${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);}
 function openProfiles(){
  document.getElementById('profilesDialog')?.remove();const d=document.createElement('dialog');d.id='profilesDialog';d.className='profiles-dialog';
- d.innerHTML=`<form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form><h2>Profil et espace de travail</h2><p>Klassia fonctionne sans compte en ligne. Choisissez le profil de l’enfant, puis l’espace à afficher. Ces choix restent sur cet appareil et ne sont pas protégés par mot de passe.</p><label>Enfant actif <select id="profileSelect">${K.profiles().map(p=>`<option value="${esc(p.id)}" ${p.id===K.profile().id?'selected':''}>${esc(p.name)}</option>`).join('')}</select></label><form id="newProfile"><label>Ajouter un enfant (prénom ou pseudonyme) <input id="profileName" maxlength="40" required autocomplete="off"></label><button>Ajouter le profil</button></form><p><button id="renameProfile">Renommer le profil actif</button></p><label>Espace affiché <select id="localRole"><option value="ELEVE">Enfant · apprendre et réviser</option><option value="PARENT">Parent · consulter la progression</option><option value="ENSEIGNANT">Enseignant · revue éditoriale et Bassa</option><option value="ADMIN">Administration locale</option></select></label><p>Changer d’espace ne crée pas de session sécurisée et ne modifie pas les données de l’enfant.</p><hr><h3>Sauvegarde de ${esc(K.profile().name)}</h3><p>Exporter régulièrement les progrès avant de changer d’appareil.</p><button id="exportProfile">Télécharger la sauvegarde</button><label>Restaurer dans ce profil <input id="importProfile" type="file" accept=".json,application/json"></label><button id="undoImport">Annuler la dernière restauration</button><p id="profileMessage" role="status"></p>`;
+ d.innerHTML=`<form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form><h2>Profil et espace de travail</h2><p>Klassia fonctionne sans compte en ligne. Choisissez le profil de l’enfant, puis l’espace à afficher. Ces choix restent sur cet appareil et ne sont pas protégés par mot de passe.</p><label>Enfant actif <select id="profileSelect">${K.profiles().map(p=>`<option value="${esc(p.id)}" ${p.id===K.profile().id?'selected':''}>${esc(p.name)}</option>`).join('')}</select></label><form id="newProfile"><label>Ajouter un enfant (prénom ou pseudonyme) <input id="profileName" maxlength="40" required autocomplete="off"></label><button>Ajouter le profil</button></form><p><button id="renameProfile">Renommer le profil actif</button></p><label>Espace affiché <select id="localRole"><optgroup label="Famille"><option value="ELEVE">Enfant · apprendre et réviser</option><option value="PARENT">Parent · consulter la progression</option></optgroup><optgroup label="Atelier pédagogique"><option value="ENSEIGNANT">Enseignant · revue éditoriale et Bassa</option><option value="ADMIN">Administration locale</option></optgroup></select></label><p>Changer d’espace ne crée pas de session sécurisée et ne modifie pas les données de l’enfant.</p><hr><h3>Sauvegarde de ${esc(K.profile().name)}</h3><p>Exporter régulièrement les progrès avant de changer d’appareil.</p><button id="exportProfile">Télécharger la sauvegarde</button><label>Restaurer dans ce profil <input id="importProfile" type="file" accept=".json,application/json"></label><button id="undoImport">Annuler la dernière restauration</button><p id="profileMessage" role="status"></p>`;
  document.body.appendChild(d);const message=s=>d.querySelector('#profileMessage').textContent=s;
  d.querySelector('#profileSelect').onchange=e=>{K.selectProfile(e.target.value);location.reload();};
  d.querySelector('#newProfile').onsubmit=e=>{e.preventDefault();try{K.createProfile(d.querySelector('#profileName').value);location.reload();}catch(e){message(e.message);}};
@@ -19,7 +19,36 @@ const gradeNames={CE2:'CE2',MS:'Moyenne section',GS:'Grande section bilingue',SI
 function context(){const match=location.pathname.match(/\/(ms|gs|sil|ce1)(?:\/|\/index\.html)$/);const grade=match?match[1].toUpperCase():'CE2';return {grade,base:new URL(match?'../':'./',location.href)};}
 function rememberClass(){const c=context();if(!['#coverage','#bassa'].includes(location.hash)){sessionStorage.setItem('klassia_return',location.href);sessionStorage.setItem('klassia_review_grade',c.grade);}return c;}
 function returnToClass(){const c=context(),raw=sessionStorage.getItem('klassia_return');let url=new URL(raw||gradePaths[c.grade],c.base);if(url.origin!==location.origin||!url.pathname.startsWith(c.base.pathname))url=new URL('',c.base);location.href=url.href;}
-function changeSpace(role, destination='#coverage'){
+// Parental gate: a question an adult answers before leaving the child view.
+// It only prevents accidental taps; it is not a password and protects nothing.
+const GATE_KEY='klassia_parent_gate_until', GATE_MINUTES=10;
+function gatePassed(){try{return Number(sessionStorage.getItem(GATE_KEY))>Date.now();}catch{return false;}}
+function rememberGate(){try{sessionStorage.setItem(GATE_KEY,String(Date.now()+GATE_MINUTES*60000));}catch{}}
+function resetGate(){try{sessionStorage.removeItem(GATE_KEY);}catch{}}
+function parentGate(){
+ if(gatePassed())return Promise.resolve(true);
+ return new Promise(resolve=>{
+  document.getElementById('parentGateDialog')?.remove();
+  const d=document.createElement('dialog');d.id='parentGateDialog';d.className='profiles-dialog parent-gate';
+  d.innerHTML=`<form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form><h2>Espace des parents</h2><p>Pour continuer, un adulte répond à ce calcul. Ce n’est pas un mot de passe : la question évite seulement les ouvertures par erreur.</p><form data-gate-form><label><span data-gate-question></span> <input name="answer" inputmode="numeric" autocomplete="off" required></label><div class="parent-gate-actions"><button type="submit" class="btn primary">Continuer</button><button type="button" data-gate-cancel>Annuler</button></div><p data-gate-status role="status"></p></form>`;
+  document.body.appendChild(d);
+  let answer=0, ok=false;
+  const input=d.querySelector('input'), status=d.querySelector('[data-gate-status]');
+  const ask=()=>{const a=12+Math.floor(Math.random()*8), b=3+Math.floor(Math.random()*7);answer=a*b;d.querySelector('[data-gate-question]').textContent=`${a} × ${b} =`;input.value='';input.focus();};
+  d.querySelector('[data-gate-form]').onsubmit=e=>{e.preventDefault();if(Number(input.value.trim())===answer){ok=true;rememberGate();d.close();}else{status.textContent='Ce n’est pas le bon résultat. Voici un autre calcul.';ask();}};
+  d.querySelector('[data-gate-cancel]').onclick=()=>d.close();
+  d.addEventListener('close',()=>{d.remove();resolve(ok);});
+  d.showModal();ask();
+ });
+}
+K.parentGate=parentGate;
+async function changeSpace(role, destination='#coverage'){
+ const current=K.read('klassia_user',{})?.role||'ELEVE';
+ if(current==='ELEVE'&&role!=='ELEVE'&&!(await parentGate())){
+  const select=document.getElementById('localRole');if(select)select.value=current;
+  return;
+ }
+ if(role==='ELEVE')resetGate();
  K.write('klassia_user',{role,name:K.profile().name});
  document.getElementById('profilesDialog')?.close();
  if(role==='PARENT'){decorate();openOverview(true);return;}
@@ -112,6 +141,15 @@ function decorate(){
  K.navigation.update();
  document.getElementById('logout')?.remove();
 }
+// Opening « Parents » from the child view goes through the parental gate.
+document.addEventListener('click',e=>{
+ const summary=e.target.closest('.klassia-parents-menu > summary');
+ if(!summary)return;
+ const menu=summary.parentElement;
+ if(menu.open||gatePassed())return;
+ e.preventDefault();
+ parentGate().then(ok=>{if(ok&&menu.isConnected){menu.open=true;menu.querySelector('.klassia-parents-panel button,.klassia-parents-panel a')?.focus();}else summary.focus();});
+});
 // Delegation survives DOM replacement in every grade and on browser back/forward.
 document.addEventListener('click',e=>{const t=e.target.closest('[data-space],[data-profiles],[data-overview],[data-child],[data-return],[data-review],[data-bassa-teacher]');if(!t)return;if(t.matches('[data-space],[data-profiles]'))openProfiles();else if(t.hasAttribute('data-overview'))openOverview();else if(t.hasAttribute('data-child'))changeSpace('ELEVE');else if(t.hasAttribute('data-return'))returnToClass();else if(t.hasAttribute('data-bassa-teacher'))changeSpace('ENSEIGNANT','#bassa');else rememberClass();});
 document.addEventListener('change',e=>{if(e.target.matches('[data-grade]')){const c=context();location.href=new URL(gradePaths[e.target.value],c.base).href;}});

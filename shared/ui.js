@@ -82,13 +82,19 @@ function lessonList(items) {
   ${x.status ? `<span class="klassia-lesson-status">${esc(x.status.label)}</span>` : ''}<span class="klassia-lesson-go" aria-hidden="true">›</span></a></li>`).join('')}</ol>`;
 }
 K.lessonList = lessonList;
+// Barre d'onglets commune aux classes du primaire (ADR-014, M3f) : en bas de l'écran sur téléphone.
+// tabs : [id, icône, libellé, adresse] ; mobileOnly : masquée sur grand écran quand la page a déjà une barre en haut.
+function tabBar(tabs, active, mobileOnly = false) {
+ return `<nav class="klassia-tabs${mobileOnly ? ' klassia-tabs-mobile' : ''}" aria-label="Navigation de la classe">${tabs.map(([id, icon, label, href]) => `<a href="${esc(href)}" data-tab="${esc(id)}"${active === id ? ' aria-current="page"' : ''}><span class="klassia-tabs-icon" aria-hidden="true">${icon}</span><span>${esc(label)}</span></a>`).join('')}</nav>`;
+}
+K.tabBar = tabBar;
 function classNavigation(grade){
  const info=K.classInfo(grade),nursery=K.isNurseryClass(grade), older=info.engine!=='lessons';
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],
   ['subject',older?'#subjects-all':'#subjects','Par matière'],
   ['domain',older?'#domains-all':'#domains','Par domaine']];
- if(info.week)routes.push(['week','#semaine','Cette semaine']);
- if(info.revise)routes.push(['revise','#reviser','Réviser']);
+ // Avec la barre d'onglets (moteur des leçons), Semaine et Réviser sont des onglets ; cette rangée ne garde que les trois parcours.
+ if(info.engine!=='lessons'){if(info.week)routes.push(['week','#semaine','Cette semaine']);if(info.revise)routes.push(['revise','#reviser','Réviser']);}
  const hash=location.hash;
  const mode=/^#(?:subjects?|subject-all|subjects-all|activity-subject)(?::|$)/.test(hash)?'subject':
   /^#(?:domains?|domain-all|domains-all)(?::|$)/.test(hash)?'domain':

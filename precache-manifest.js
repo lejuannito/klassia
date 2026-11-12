@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "4f7782dbaa6b6a97ee0bdccebbeb830ab18856a7b970eca1f99abe056a833118",
+  "version": "41321e76a98b02ad59fc479f598d5efe012daf857abca3017ae94f896ab2bcdd",
   "packs": {
     "common": {
       "files": 69,
-      "bytes": 580215
+      "bytes": 583009
     },
     "CE1": {
       "files": 52,
@@ -33,8 +33,8 @@ self.KLASSIA_RELEASE = {
   "files": [
     {
       "url": "./app.js",
-      "sha256": "8c5b2ee80cd81402d5ff32bf813ba6380dc6da86d8ea4da1d2cb45b5a52451ac",
-      "size": 48624
+      "sha256": "a0c9234e84a8db1556b548844a64ff36d67b13457d310149a56e70a81ffc5aaf",
+      "size": 48454
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -1459,8 +1459,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/classes.js",
-      "sha256": "487fb55863f4b28356e4377ce3f8b6ca210140346cdf8350027ebe368d1c76a3",
-      "size": 3090
+      "sha256": "f7838efa00de06f4f7ef65de859392379015690630aafa7ab3e1aff448c7af3f",
+      "size": 3070
     },
     {
       "url": "./shared/core.js",
@@ -1499,8 +1499,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "9eaacc0fd004d22000fa93edba49a62ac4963bb11247fe8be475288d2cf81da2",
-      "size": 24567
+      "sha256": "39c6440b2498609272a1812da2790aab727d75c31950de2cb9336cf052809ad1",
+      "size": 25726
     },
     {
       "url": "./shared/lesson-model.js",
@@ -1589,13 +1589,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "8169b42bda4876c9ab3bf619a5fefcdaf5ed1b56649e87c75d9e3ba6d28fd401",
-      "size": 41138
+      "sha256": "2241e33931b49e0813deb075cd63855cf687a69f64879384902ad9e0a20696b6",
+      "size": 42135
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "a5c27db54fb8f39799b90382ab867be7aef18e464fe1109d5f31231a8e450851",
-      "size": 31271
+      "sha256": "e9cee8630a71fbf77e8242457fc4ec29dafded715ae4aa56a6425e7beb6c33f9",
+      "size": 32099
     },
     {
       "url": "./shared/week.js",

@@ -22,7 +22,7 @@ Un repère est **couvert** lorsque le support, la tâche et le critère d’éva
 | SIL → CP → CE1 | En SIL, groupements autour de dix puis nombres jusqu’à vingt. En CE1, le premier chapitre mobilise les centaines. | Le CP se situe entre les deux niveaux et ne figure pas dans l’offre actuelle de Klassia. Relever les acquis en lecture de phrases, en écriture et en dizaines-unités avant la première unité CE1. [Fiche de positionnement](DIAGNOSTIC_ENTREE_CE1.md) |
 | CE1 → CE2 | Passer d’un récit suivi et d’une production courte à un avis justifié et à des écrits plus différenciés | Vérifier que l’élève peut citer un détail du texte pour expliquer son avis et relire son écrit selon son destinataire. |
 
-L’anglais est rapproché des références effectivement visées par les contenus. Les repères maternels utilisent Nursery One et Nursery Two, la SIL utilise Class 1 et le CE1 Class 3 pour les activités de langue. Le repère d’anglais du CE2 suit la discipline English Language du curriculum francophone. La comparaison avec Class 4 relève d’un travail distinct.
+L’anglais est rapproché des références effectivement visées par les contenus. Les repères maternels utilisent Nursery One et Nursery Two, la SIL suit la discipline English Language du programme francophone de Niveau 1 (colonne SIL) et le CE1 utilise Class 3 pour les activités de langue. Le repère d’anglais du CE2 suit la discipline English Language du curriculum francophone. La comparaison avec Class 4 relève d’un travail distinct.
 
 ## Corrections du CE1
 

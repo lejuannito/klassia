@@ -24,7 +24,7 @@ L’inventaire consolidé compte 974 ressources. La matrice suit 70 repères exa
 - profils et rôles locaux : Enfant, Parent, Enseignant, Administration ;
 - sauvegarde/restauration locale avec profils séparés ;
 - revue éditoriale accessible et exportable ;
-- fonctionnement hors connexion avec contrôle d’intégrité du précache ;
+- fonctionnement hors connexion avec contrôle d’intégrité du précache, téléchargeable classe par classe (base commune 0,5 Mo, puis 0,4 à 3 Mo par classe) ;
 - lecture optionnelle FR/EN via les voix disponibles sur l’appareil et six extraits intégrés pour la SIL et le CE1 ;
 - absence volontaire de synthèse vocale bassa avec voix FR/EN ;
 - 45 panneaux de traductions bassa dans les cinq classes ;

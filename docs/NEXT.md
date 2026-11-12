@@ -16,7 +16,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 6. Maternelle | MS complétée, GS réécrite, vue anglaise ; parcours « programme » et « pour aller plus loin », 13 activités du programme ajoutées (6c) | — | relecture par un enseignant de maternelle ; images et voix |
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés dans toutes les matières sauf la langue nationale ; guide de lecture de l’œuvre de littérature et son QCM (7d) ; 35 dictées enregistrées | — | relecture du guide livre en main |
 | 8. Langue de la maison | enregistreur familial ; repères d’écriture du bassa, touches de lettres et de tons, saisie sans tons annotée (8b) | modèle multilingue des leçons LCN | relecteur bassa (forme principale) |
-| 9. Confiance et diffusion | bilan de la semaine, partage, mises à jour légères | téléchargement par classe | relecteurs nommés (badge) |
+| 9. Confiance et diffusion | bilan de la semaine, partage, mises à jour légères, téléchargement par classe (9c) | — | relecteurs nommés (badge) |
 | Piste anglophone | vue anglaise de la maternelle ; cartographie des programmes Level I et II | A2 interface anglaise, puis Class 1, Class 3, Class 4 (environ 390 leçons) | programme Nursery complet ; relecteur anglophone |
 
 Hors lots, d’après l’analyse : formats vérifiés (fait, E1), encouragements (fait : étoiles et jours de suite sur l’accueil de chaque classe), leçons en quatre étapes (fait pour SIL et CE1 avec l’étape M2 du moteur unique ; CE2 et maternelle suivront avec M3 et M4).
@@ -89,7 +89,8 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 - **9a. Bilan de la semaine et partage** — « Suivi des classes » commence par « Les 7 derniers jours » : par classe, exercices essayés et réussis, séries de QCM, activités de maternelle notées seul / avec aide / pas encore, d’après les traces datées déjà enregistrées sur l’appareil (`klassia_attempts`, `klassia_observations`). Le parent peut envoyer ce bilan par WhatsApp (lien `wa.me`, sans compte ni serveur) ou le copier ; le message ne contient que ces nombres et le prénom du profil, ni réponses écrites ni notes. Le menu Parents propose aussi « Recommander Klassia (WhatsApp) » avec l’adresse de l’application.
 - **9b. Mises à jour légères** — une nouvelle édition ne télécharge plus que les fichiers modifiés : le service worker recopie depuis l’édition installée chaque fichier dont les octets correspondent à l’empreinte SHA-256 de la nouvelle édition, puis télécharge et vérifie le reste. L’installation reste tout ou rien et l’édition installée reste utilisable en cas d’échec. Jusqu’ici, chaque mise à jour retéléchargeait les 5,6 Mo des cinq classes ; une mise à jour de contenu courante ne coûte plus que quelques fichiers. `tests/pwa-browser.cjs` vérifie qu’une mise à jour ne demande au serveur que les fichiers modifiés.
-- **À faire** — relecture nominative du noyau et badge (relecteurs à désigner), téléchargement par classe (pack commun d’environ 1,1 Mo, puis 0,3 à 2,3 Mo par classe ; à faire avant l’arrivée des sons enregistrés).
+- **9c. Téléchargement par classe** — un appareil neuf n’installe que la base commune (0,5 Mo) et la classe de l’enfant (0,4 à 3 Mo) au lieu de tout (9 Mo). Le panneau « Classes hors connexion » ajoute ou retire des classes ; la revue éditoriale (0,7 Mo) est un paquet à part pour l’atelier pédagogique. Les appareils déjà installés gardent les cinq classes. Hors connexion, la recherche et le suivi signalent les classes non installées. Détail dans `ARCHITECTURE.md`, section « Hors connexion ».
+- **À faire** — relecture nominative du noyau et badge (relecteurs à désigner).
 
 ## Expérience de l’enfant (d’après l’analyse, hors lots)
 

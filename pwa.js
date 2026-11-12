@@ -17,6 +17,76 @@
   bar.append(description, button, installButton);
   root.append(bar);
 
+  // Téléchargement par classe (lot 9c). Le choix vaut pour l'appareil (clé brute, hors profils et hors sauvegarde). Le service
+  // worker le reçoit dans son adresse d'inscription, puis par message ; la page ne touche jamais au cache elle-même.
+  const OFFLINE_KEY = 'klassia_offline_classes_v1';
+  const ORDER = ['CE2', 'MS', 'GS', 'SIL', 'CE1'];
+  const NAMES = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', ATELIER: 'Revue éditoriale (atelier pédagogique)' };
+  const LONG = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1' };
+  const panel = document.createElement('details');
+  panel.className = 'offline-classes';
+  panel.hidden = true;
+  root.append(panel);
+  let selection = null;
+  let lastStatus = null;
+
+  function savedSelection() {
+    try {
+      const value = JSON.parse(localStorage.getItem(OFFLINE_KEY));
+      return value === 'all' || (Array.isArray(value) && value.every(x => typeof x === 'string')) ? value : null;
+    } catch { return null; }
+  }
+  function saveSelection(value) {
+    selection = value;
+    const text = JSON.stringify(value);
+    try { if (localStorage.getItem(OFFLINE_KEY) !== text) localStorage.setItem(OFFLINE_KEY, text); } catch { /* The worker keeps its own copy. */ }
+  }
+  function pageGrade() {
+    try { const c = window.Klassia?.currentClass?.(); return c && c.dir ? c.grade : null; } catch { return null; }
+  }
+  function familyGrade() {
+    try { const g = window.Klassia?.read?.('klassia_family', null)?.grade; return ORDER.includes(g) ? g : null; } catch { return null; }
+  }
+  // Premier choix : un appareil déjà installé garde tout ; sinon la classe de l'enfant (accueil) ou de la page.
+  function resolveSelection(installed) {
+    const saved = savedSelection();
+    if (saved) return saved;
+    const grade = familyGrade() || pageGrade();
+    const value = installed ? 'all' : grade ? [grade] : null;
+    if (value) saveSelection(value);
+    return value;
+  }
+  const isAll = value => value === 'all' || ORDER.every(g => value?.includes(g));
+  const chosenGrades = value => ORDER.filter(g => value === 'all' || value?.includes(g));
+  const listText = grades => grades.length > 1 ? grades.slice(0, -1).join(', ') + ' et ' + grades[grades.length - 1] : grades[0] || '';
+  const mo = bytes => (bytes / 1e6).toLocaleString('fr-FR', { maximumFractionDigits: 1, minimumFractionDigits: 1 }) + ' Mo';
+  const preparing = () => isAll(selection) ? 'Préparation des cinq classes hors connexion…'
+    : 'Préparation de ' + (listText(chosenGrades(selection)) || 'Klassia') + ' hors connexion…';
+
+  function drawPanel(status) {
+    const packs = status?.packs;
+    if (!packs) { panel.hidden = true; return; }
+    const keys = [...ORDER, 'ATELIER'].filter(k => packs[k]);
+    const on = k => selection === 'all' || selection?.includes(k);
+    panel.hidden = false;
+    panel.innerHTML = `<summary>Classes hors connexion</summary><p>Choisissez les classes à garder sur cet appareil. La base commune (${mo(packs.common?.bytes || 0)}) est toujours installée.</p><fieldset><legend>Classes</legend>${keys.map(k => `<label><input type="checkbox" value="${k}" ${on(k) ? 'checked' : ''}> ${NAMES[k]} <span>${mo(packs[k].bytes)}</span></label>`).join('')}</fieldset><button type="button" data-offline-save>Enregistrer ce choix</button><p data-offline-message role="status"></p>`;
+    panel.querySelector('[data-offline-save]').onclick = () => {
+      const picked = [...panel.querySelectorAll('input:checked')].map(x => x.value);
+      if (!picked.some(k => ORDER.includes(k))) { panel.querySelector('[data-offline-message]').textContent = 'Gardez au moins une classe.'; return; }
+      applyClasses(picked.length === keys.length ? 'all' : picked);
+    };
+  }
+
+  async function applyClasses(value) {
+    saveSelection(value);
+    const worker = workers.controller || registration?.active;
+    if (!worker) { checkForUpdate(); return; }
+    show('Mise à jour des classes hors connexion…');
+    const reply = await askWorker(worker, 'SET_CLASSES', 120000, { classes: value });
+    if (!reply || reply.error) checkResult = 'failed';
+    refresh();
+  }
+
   function show(message, label, action, disabled = false) {
     description.textContent = message;
     button.textContent = label || '';
@@ -40,7 +110,7 @@
   let reloadNeeded = false;
   let renderNumber = 0;
 
-  function askWorker(worker, type, deadline = 5000) {
+  function askWorker(worker, type, deadline = 5000, extra = {}) {
     if (!worker) return Promise.resolve(null);
 
     return new Promise(resolve => {
@@ -54,7 +124,7 @@
 
       channel.port1.onmessage = event => finish(event.data);
       try {
-        worker.postMessage({ type }, [channel.port2]);
+        worker.postMessage({ type, ...extra }, [channel.port2]);
       } catch {
         finish(null);
       }
@@ -81,31 +151,44 @@
         registration?.waiting || registration?.active?.state === 'activating') {
       show(registration.active
         ? 'Téléchargement et vérification de la nouvelle édition… L’édition installée reste utilisable.'
-        : 'Préparation des cinq classes hors connexion…');
+        : preparing());
       return;
     }
     if (checking) {
       show(registration?.active
         ? 'Vérification des mises à jour…'
-        : 'Préparation des cinq classes hors connexion…');
+        : preparing());
       return;
     }
 
     const status = await askWorker(workers.controller || registration?.active, 'OFFLINE_STATUS');
     if (render !== renderNumber) return;
 
+    if (status?.selection) selection = status.selection;
+    lastStatus = status;
+    drawPanel(status);
     const ready = status?.ready;
     const code = ready ? status.version.slice(0, 8) : '';
+    const grades = chosenGrades(selection || 'all');
     const edition = ready
-      ? 'CE2, MS, GS, SIL et CE1 disponibles hors connexion · édition ' + code + '.'
-      : 'Le téléchargement des cinq classes est incomplet.';
+      ? listText(grades) + (grades.length > 1 ? ' disponibles' : ' disponible') + ' hors connexion · édition ' + code + '.'
+      : isAll(selection || 'all') ? 'Le téléchargement des cinq classes est incomplet.' : 'Le téléchargement de ' + listText(grades) + ' est incomplet.';
+    const here = pageGrade() || (location.pathname.endsWith('/') && familyGrade() === 'CE2' ? 'CE2' : null);
+    const missing = ready && here && !grades.includes(here) && status.packs?.[here]
+      ? ' ' + LONG[here] + ' n’est pas installée hors connexion sur cet appareil.' : '';
     const result = checkResult === 'failed'
       ? 'La mise à jour a été interrompue. '
       : checkResult === 'current' && ready ? 'L’édition installée est à jour. ' : '';
     const online = navigator.onLine;
+    if (missing && online) {
+      show(result + edition + missing, 'Ajouter ' + LONG[here] + ' (' + mo(status.packs[here].bytes) + ')',
+        () => applyClasses([...chosenGrades(selection), here]));
+      return;
+    }
+    const retry = !ready && registration?.active && !registration.waiting && !registration.installing;
     show(result + edition + (online ? '' : ' Reconnectez-vous pour vérifier les mises à jour.'),
       checkResult === 'failed' || !ready ? 'Réessayer' : 'Vérifier les mises à jour',
-      checkForUpdate, !online);
+      retry ? () => applyClasses(selection || 'all') : checkForUpdate, !online);
     if (code && workers.controller) root.dispatchEvent(new CustomEvent('klassia:edition-ready', { detail: code }));
   }
 
@@ -139,7 +222,9 @@
   }
 
   function register() {
-    return workers.register(workerUrl, {
+    // « Tout » est le comportement par défaut du service worker : l'adresse ne porte un paramètre que pour un choix restreint.
+    const query = Array.isArray(selection) ? '?classes=' + encodeURIComponent(selection.join(',')) : '';
+    return workers.register(workerUrl + query, {
       scope: base.pathname,
       updateViaCache: 'none'
     });
@@ -147,7 +232,7 @@
 
   function isCurrentRegistration() {
     const latest = registration?.installing || registration?.waiting || registration?.active;
-    return latest?.scriptURL === workerUrl && registration.updateViaCache === 'none';
+    return latest?.scriptURL.split('?')[0] === workerUrl && registration.updateViaCache === 'none';
   }
 
   async function checkForUpdate() {
@@ -217,9 +302,17 @@
   window.addEventListener('appinstalled', () => { installButton.hidden = true; });
 
   async function start() {
-    show('Préparation des cinq classes hors connexion…');
     try {
       const existing = await workers.getRegistration(base.href);
+      selection = resolveSelection(existing?.scope === base.href);
+      // Première visite sans classe connue (page d'entrée) : l'installation attend le choix de la famille.
+      if (!selection && !(existing?.scope === base.href)) {
+        show('Pour utiliser Klassia sans connexion, choisissez la classe de votre enfant à l’accueil, ou installez tout.',
+          'Installer les cinq classes', () => { saveSelection('all'); checkForUpdate(); });
+        return;
+      }
+      if (!selection) selection = 'all';
+      show(preparing());
       if (existing?.scope === base.href) useRegistration(existing);
       if (navigator.onLine && !isCurrentRegistration()) {
         await checkForUpdate();

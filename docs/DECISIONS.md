@@ -84,3 +84,9 @@ Ce fichier conserve uniquement les décisions structurantes utiles aux prochaine
 **Décision (porteur de projet, 12 novembre 2026) :** toutes les classes seront rendues par un seul moteur, pour simplifier l’architecture, renforcer la cohérence et faciliter la maintenance. Pour ce chantier, elle autorise une refonte plus large que la « modification minimale » demandée par `AGENTS.md`.
 
 **Conséquence :** la migration se fait par étapes annulables (`docs/MOTEUR_UNIQUE.md`), sans renommer d’identifiant ni perdre de progression locale. Première étape : `shared/classes.js` est la seule liste des classes ; les pages n’ont plus de configuration en ligne et `npm run validate` le vérifie. Les classes anglophones seront ajoutées sur le moteur commun, pas sur les anciens.
+
+## ADR-015 — Hors connexion, une classe à la fois
+
+**Décision (12 novembre 2026, lot 9c) :** un appareil neuf n’installe plus les cinq classes d’un bloc, mais la base commune et la classe de l’enfant ; la famille ajoute ou retire des classes. Les appareils déjà installés gardent tout.
+
+**Conséquence :** chaque fichier du manifeste appartient à un paquet ; le choix des classes est propre à l’appareil, pas au profil. La recherche et le suivi doivent tolérer une classe absente hors connexion et le dire. Les futures classes anglophones et les sons enregistrés arriveront comme de nouveaux paquets.

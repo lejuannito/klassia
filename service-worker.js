@@ -7,6 +7,33 @@ const CACHE_NAME = 'klassia-v15-' + release.version;
 const files = release.files.map(file => ({ ...file, url: new URL(file.url, scope).href }));
 const filesByUrl = new Map(files.map(file => [file.url, file]));
 
+// Téléchargement par classe (lot 9c). Le premier choix arrive dans l'adresse d'inscription (« service-worker.js?classes=SIL ») ;
+// les choix suivants arrivent par message et le service worker les garde lui-même (la page ne touche pas au cache : ses accès
+// concurrents perturbaient le service des pages). Sans choix, tout est installé, comme avant. La base commune l'est toujours.
+const SETTINGS_CACHE = 'klassia:settings';
+const SETTINGS_URL = new URL('__klassia/offline-classes.json', scope).href;
+const valid = value => value === 'all' || (Array.isArray(value) && value.length > 0 && value.every(x => typeof x === 'string' && /^[A-Z0-9]{2,8}$/.test(x)));
+const fromAddress = (() => {
+  const raw = self.location?.href ? new URL(self.location.href).searchParams.get('classes') : null;
+  const value = raw === 'all' ? 'all' : raw ? raw.split(',').filter(Boolean) : null;
+  return valid(value) ? value : null;
+})();
+let chosen;
+async function readSelection() {
+  try {
+    const saved = await (await caches.open(SETTINGS_CACHE)).match(SETTINGS_URL);
+    const value = saved ? (await saved.json()).classes : null;
+    chosen = valid(value) ? value : fromAddress || 'all';
+  } catch { chosen = fromAddress || 'all'; }
+  return chosen;
+}
+async function saveSelection(value) {
+  const cache = await caches.open(SETTINGS_CACHE);
+  await cache.put(SETTINGS_URL, new Response(JSON.stringify({ classes: value }), { headers: { 'Content-Type': 'application/json' } }));
+  chosen = value;
+}
+const wanted = (file, selection = chosen ?? 'all') => !file.pack || selection === 'all' || selection.includes(file.pack);
+
 async function sameBytes(response, file) {
   const digest = new Uint8Array(await crypto.subtle.digest('SHA-256', await response.clone().arrayBuffer()));
   return Array.from(digest, byte => byte.toString(16).padStart(2, '0')).join('') === file.sha256;
@@ -43,13 +70,15 @@ async function installRelease() {
   const editions = await Promise.all((await caches.keys())
     .filter(key => key.startsWith('klassia-') && key !== CACHE_NAME).reverse()
     .map(key => caches.open(key)));
+  const selection = await readSelection();
+  const list = files.filter(file => wanted(file, selection));
   const controller = new AbortController();
   let index = 0;
 
   async function download() {
     try {
-      while (!controller.signal.aborted && index < files.length) {
-        const file = files[index++];
+      while (!controller.signal.aborted && index < list.length) {
+        const file = list[index++];
         if (existed && await installedCopy(file, [cache])) continue;
         const response = await installedCopy(file, editions) || await verifiedResponse(file, controller);
         await cache.put(file.url, response);
@@ -88,19 +117,43 @@ self.addEventListener('message', event => {
     event.waitUntil(activateOnRequest(event));
   }
   if (event.data?.type === 'OFFLINE_STATUS' && event.ports[0]) {
-    event.waitUntil((async () => {
-      const cache = await caches.open(CACHE_NAME);
-      const matches = await Promise.all(files.map(file => cache.match(file.url)));
-      const count = matches.filter(Boolean).length;
-      event.ports[0].postMessage({
-        ready: count === files.length,
-        count,
-        total: files.length,
-        version: release.version
-      });
-    })());
+    event.waitUntil(status().then(reply => event.ports[0].postMessage(reply)));
+  }
+  if (event.data?.type === 'SET_CLASSES' && event.ports[0]) {
+    const value = event.data.classes;
+    event.waitUntil((valid(value) ? saveSelection(value) : Promise.resolve()).then(applySelection).then(status, error => status().then(reply => ({ ...reply, error: String(error?.message || error) })))
+      .then(reply => event.ports[0].postMessage(reply)));
   }
 });
+
+// État par paquet : la page affiche les classes disponibles et la taille de celles qu'on peut ajouter.
+async function status() {
+  const selection = await readSelection();
+  const cache = await caches.open(CACHE_NAME);
+  const present = await Promise.all(files.map(file => cache.match(file.url).then(Boolean)));
+  const packs = {};
+  files.forEach((file, i) => {
+    const key = file.pack || 'common';
+    const pack = packs[key] ??= { files: 0, cached: 0, bytes: 0 };
+    pack.files++; pack.bytes += file.size || 0; if (present[i]) pack.cached++;
+  });
+  const needed = files.filter(file => wanted(file, selection));
+  const count = needed.filter(file => present[files.indexOf(file)]).length;
+  return { ready: count === needed.length, count, total: needed.length, version: release.version, selection, packs };
+}
+
+// Après un nouveau choix : télécharge (et vérifie) ce qui manque, retire les fichiers des classes enlevées.
+async function applySelection() {
+  const selection = await readSelection();
+  const cache = await caches.open(CACHE_NAME);
+  const editions = await Promise.all((await caches.keys())
+    .filter(key => key.startsWith('klassia-') && key !== CACHE_NAME).map(key => caches.open(key)));
+  for (const file of files) {
+    if (!wanted(file, selection)) { if (file.pack) await cache.delete(file.url); continue; }
+    if (await cache.match(file.url)) continue;
+    await cache.put(file.url, await installedCopy(file, editions) || await verifiedResponse(file));
+  }
+}
 
 self.addEventListener('activate', event => event.waitUntil((async () => {
   const keys = (await caches.keys()).filter(key => key.startsWith('klassia-') && key !== CACHE_NAME);
@@ -108,10 +161,13 @@ self.addEventListener('activate', event => event.waitUntil((async () => {
   await self.clients.claim();
 })()));
 
-function unavailable() {
-  return new Response('Cette ressource manque dans l’édition installée. Reconnectez-vous et vérifiez les mises à jour.', {
+function unavailable(file) {
+  const text = file?.pack && !wanted(file)
+    ? 'Cette classe n’est pas installée hors connexion sur cet appareil. Reconnectez-vous, ou ajoutez-la dans « Classes hors connexion ».'
+    : 'Cette ressource manque dans l’édition installée. Reconnectez-vous et vérifiez les mises à jour.';
+  return new Response(text, {
     status: 503,
-    headers: { 'Content-Type': 'text/plain; charset=utf-8' }
+    headers: { 'Content-Type': 'text/plain; charset=utf-8', ...(file?.pack && !wanted(file) ? { 'X-Klassia-Not-Installed': file.pack } : {}) }
   });
 }
 
@@ -161,16 +217,18 @@ async function serve(request, url) {
   const cached = await cache.match(url);
   if (cached) return releaseResponse(request, cached, url);
 
+  const file = filesByUrl.get(url.href);
+  if (chosen === undefined) await readSelection();
   try {
-    const file = filesByUrl.get(url.href);
     if (!file) return await fetch(request);
 
-    // Repair a missing file only if the server still has the installed bytes.
+    // Repair a missing file only if the server still has the installed bytes. A file of a class that is not
+    // installed on this device is served online without being kept.
     const response = await verifiedResponse(file);
-    try { await cache.put(url, response.clone()); } catch { /* The verified response is still usable online. */ }
+    if (wanted(file)) { try { await cache.put(url, response.clone()); } catch { /* The verified response is still usable online. */ } }
     return await releaseResponse(request, response, url);
   } catch {
-    return unavailable();
+    return unavailable(file);
   }
 }
 

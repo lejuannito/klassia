@@ -13,15 +13,16 @@ const files = ['app.js', 'data/content-u1.json', 'ms/index.html'].map(url => ({
 }));
 const source = fs.readFileSync(require.resolve('../service-worker.js'), 'utf8');
 
-function worker(fetchFile = async name => new Response(name)) {
+function worker(fetchFile = async name => new Response(name), manifest = files, address = '') {
   const maps = new Map([[previous, new Map([['saved', 'old']])]]);
   const events = {};
   const context = {
     self: {
       registration: { scope },
+      location: { href: scope + 'service-worker.js' + address },
       addEventListener: (type, handler) => { events[type] = handler; }
     },
-    importScripts: () => { context.self.KLASSIA_RELEASE = { version: 'test-new', files }; },
+    importScripts: () => { context.self.KLASSIA_RELEASE = { version: 'test-new', files: manifest }; },
     crypto: crypto.webcrypto,
     URL,
     Response,
@@ -35,7 +36,8 @@ function worker(fetchFile = async name => new Response(name)) {
         const cache = maps.get(name);
         return {
           put: async (url, value) => cache.set(String(url), value),
-          match: async url => cache.get(String(url))
+          match: async url => cache.get(String(url))?.clone(),
+          delete: async url => cache.delete(String(url))
         };
       },
       delete: async name => maps.delete(name),
@@ -51,6 +53,9 @@ function worker(fetchFile = async name => new Response(name)) {
       let completion;
       events.install({ waitUntil: promise => { completion = promise; } });
       return completion;
+    },
+    message(type, extra = {}) {
+      return new Promise(resolve => events.message({ data: { type, ...extra }, ports: [{ postMessage: resolve }], waitUntil: () => {} }));
     },
     request(name) {
       let response;
@@ -138,4 +143,60 @@ test('a missing critical file is repaired only with bytes from the installed rel
   const response = await w.request(file + '?cache=2');
   assert.equal(await response.text(), file);
   assert.equal(await w.maps.get(candidate).get(scope + file).text(), file);
+});
+
+// Lot 9c : téléchargement par classe.
+const packed = [['app.js'], ['sil/data/sil-u1.json', 'SIL'], ['ce1/data/unit1.json', 'CE1'], ['assets/sil-son.mp3', 'SIL']]
+  .map(([url, pack]) => ({ url, sha256: crypto.createHash('sha256').update(url).digest('hex'), size: url.length, ...(pack ? { pack } : {}) }));
+const choose = (w, classes) => {
+  w.maps.set('klassia:settings', new Map([[scope + '__klassia/offline-classes.json', new Response(JSON.stringify({ classes }))]]));
+};
+
+test('without a saved choice every class is installed, as before', async () => {
+  const w = worker(undefined, packed);
+  await w.install();
+  assert.equal(w.maps.get(candidate).size, packed.length);
+});
+
+test('a device that chose one class installs the common files and that class only', async () => {
+  const asked = [];
+  const w = worker(async name => { asked.push(name); return new Response(name); }, packed);
+  choose(w, ['SIL']);
+  await w.install();
+  assert.deepEqual(asked.sort(), ['app.js', 'assets/sil-son.mp3', 'sil/data/sil-u1.json']);
+  const status = JSON.parse(JSON.stringify(await w.message('OFFLINE_STATUS'))); // reply built in the worker's realm
+  assert.equal(status.ready, true);
+  assert.deepEqual(status.selection, ['SIL']);
+  assert.deepEqual(status.packs.CE1, { files: 1, cached: 0, bytes: 'ce1/data/unit1.json'.length });
+  const offline = await w.request('ce1/data/unit1.json');
+  assert.ok(offline.status === 200, 'online, a class that is not installed is still served');
+  assert.equal(w.maps.get(candidate).has(scope + 'ce1/data/unit1.json'), false, '… without being kept');
+});
+
+test('a new choice adds the missing class and removes the class taken off', async () => {
+  let online = true;
+  const w = worker(async name => { if (!online) throw new Error('offline'); return new Response(name); }, packed);
+  choose(w, ['SIL']);
+  await w.install();
+  const status = await w.message('SET_CLASSES', { classes: ['CE1'] });
+  assert.equal(status.ready, true);
+  const kept = [...w.maps.get(candidate).keys()].map(url => url.slice(scope.length)).sort();
+  assert.deepEqual(kept, ['app.js', 'ce1/data/unit1.json']);
+  online = false;
+  const missing = await w.request('sil/data/sil-u1.json');
+  assert.equal(missing.status, 503);
+  assert.equal(missing.headers.get('X-Klassia-Not-Installed'), 'SIL');
+  assert.match(await missing.text(), /pas installée hors connexion/);
+});
+
+test('the first choice comes from the registration address; a saved choice takes over', async () => {
+  const asked = [];
+  const w = worker(async name => { asked.push(name); return new Response(name); }, packed, '?classes=CE1');
+  await w.install();
+  assert.deepEqual(asked.sort(), ['app.js', 'ce1/data/unit1.json']);
+  const status = JSON.parse(JSON.stringify(await w.message('SET_CLASSES', { classes: ['SIL', 'CE1'] })));
+  assert.deepEqual(status.selection, ['SIL', 'CE1']);
+  assert.equal(w.maps.get(candidate).size, packed.length);
+  const ignored = JSON.parse(JSON.stringify(await w.message('SET_CLASSES', { classes: ['<script>'] })));
+  assert.deepEqual(ignored.selection, ['SIL', 'CE1'], 'an invalid choice is ignored');
 });

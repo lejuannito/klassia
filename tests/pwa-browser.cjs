@@ -575,6 +575,7 @@ async function testArtsAndMovement(page, base) {
 async function testCloudflareNavigation(browser, origin) {
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
   await require('./whole-lesson.cjs')(context);
+  await require('./offline-all.cjs')(context);
   try {
     const page = await context.newPage();
     const index = await context.request.get(origin + '/index.html', { maxRedirects: 0 });
@@ -618,6 +619,62 @@ async function testCloudflareNavigation(browser, origin) {
   }
 }
 
+// Lot 9c : un appareil neuf n'installe que la classe de l'enfant ; la famille ajoute ou retire des classes.
+async function testOfflineClasses(browser, base) {
+  const context = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'allow' });
+  try {
+    const page = await context.newPage();
+    page.setDefaultTimeout(30000);
+    const status = page.locator('#pwaTools');
+    const notInstalled = path => page.evaluate(async url => { const r = await fetch(url); return [r.status, r.headers.get('X-Klassia-Not-Installed')]; }, base + path);
+
+    // Entry page, class still unknown: nothing is downloaded until the family chooses.
+    await page.goto(base);
+    await status.getByText(/choisissez la classe de votre enfant/).waitFor();
+    await status.getByRole('button', { name: 'Installer les cinq classes' }).waitFor();
+    assert.equal(await page.evaluate(async () => Boolean(await navigator.serviceWorker.getRegistration())), false);
+
+    // A class page installs the common files and that class.
+    await page.goto(base + 'sil/#units');
+    await status.getByText(/^SIL disponible hors connexion · édition/).waitFor();
+    await page.locator('.offline-classes summary').click();
+    assert.equal(await page.locator('.offline-classes input[value="SIL"]').isChecked(), true);
+    assert.equal(await page.locator('.offline-classes input[value="CE1"]').isChecked(), false);
+    assert.match(await page.locator('.offline-classes').innerText(), /CE1\s+\d,\d Mo/);
+    await context.setOffline(true);
+    await page.goto(base + 'sil/#lesson:SIL-U1-L01');
+    await page.locator('.lesson-card').waitFor();
+    assert.deepEqual(await notInstalled('ce1/data/unit1.json'), [503, 'CE1']);
+    await context.setOffline(false);
+
+    // Opening another class proposes to add it.
+    await page.goto(base + 'ce1/#units');
+    await status.getByText(/CE1 n’est pas installée hors connexion/).waitFor();
+    await status.getByRole('button', { name: /^Ajouter CE1 \(\d,\d Mo\)$/ }).click();
+    await status.getByText(/^SIL et CE1 disponibles hors connexion/).waitFor();
+    await context.setOffline(true);
+    await page.goto(base + 'ce1/#lesson:CE1-U1-L01');
+    await page.locator('.lesson-card').waitFor();
+    await page.goto(base + 'search.html?q=ecole');
+    await page.locator('#searchResults li').first().waitFor();
+    assert.match(await page.locator('#searchStatus').innerText(), /ne couvre pas CE2, MS, GS : ces classes ne sont pas installées/);
+    await context.setOffline(false);
+
+    // Taking a class off frees its files.
+    await page.goto(base + 'ce1/#units');
+    await page.locator('.offline-classes summary').click();
+    await page.locator('.offline-classes input[value="SIL"]').uncheck();
+    await page.getByRole('button', { name: 'Enregistrer ce choix' }).click();
+    await status.getByText(/^CE1 disponible hors connexion/).waitFor();
+    await context.setOffline(true);
+    assert.deepEqual(await notInstalled('sil/data/sil-u1.json'), [503, 'SIL']);
+    await context.setOffline(false);
+    console.log('PASS offline classes: entry page waits, one class installed, add a class, search names missing classes, remove a class');
+  } finally {
+    await context.close();
+  }
+}
+
 async function run() {
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   const origin = 'http://127.0.0.1:' + server.address().port;
@@ -634,6 +691,7 @@ async function run() {
     await testCloudflareNavigation(browser, origin);
     const context = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'allow' });
     await require('./whole-lesson.cjs')(context);
+  await require('./offline-all.cjs')(context);
     const page = await context.newPage();
     page.setDefaultTimeout(20000);
     const status = page.locator('#pwaTools');
@@ -1126,6 +1184,9 @@ async function run() {
     await testReferenceTools(page, base);
     await testArtsAndMovement(page, base);
     await testHomeLanguage(page, base);
+    await context.close();
+    // Last, in its own context: a device that installs one class at a time.
+    await testOfflineClasses(browser, base);
   } finally {
     await browser?.close();
     server.close();

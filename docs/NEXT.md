@@ -19,7 +19,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 9. Confiance et diffusion | bilan de la semaine, partage, mises à jour légères | téléchargement par classe | relecteurs nommés (badge) |
 | Piste anglophone | vue anglaise de la maternelle ; cartographie des programmes Level I et II | A2 interface anglaise, puis Class 1, Class 3, Class 4 (environ 390 leçons) | programme Nursery complet ; relecteur anglophone |
 
-Hors lots, d’après l’analyse : formats vérifiés (fait, E1), leçons en quatre étapes, encouragements (étoile par leçon, série de jours).
+Hors lots, d’après l’analyse : formats vérifiés (fait, E1), encouragements (fait : étoiles et jours de suite sur l’accueil de chaque classe), leçons en quatre étapes (à faire avec l’étape M2 du moteur unique).
 
 ## Lot 1 — mode famille (PR #51 à #56)
 
@@ -93,7 +93,8 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 ## Expérience de l’enfant (d’après l’analyse, hors lots)
 
 - **E1. Formats vérifiés** — trois nouveaux formats d’entraînement en SIL et CE1, vérifiés par Klassia : remise en ordre (on touche les étiquettes dans l’ordre), appariement (une liste à choisir en face de chaque mot) et texte à trous (accents et lettres exigés, majuscules et espaces tolérés). 38 entraînements : ordre alphabétique, nombres et longueurs à ranger, mois, syllabes d’un mot ; cris des animaux, contraires, conjugaisons, adverbes, familles de mots, durées ; pluriels, terminaisons, déterminants, a/à et on/ont, c/ç, prépositions et conjonctions. Chaque vérification est notée dans le journal des essais et alimente « Je révise » ; la correction s’ouvre après la première vérification. À l’impression, les trous deviennent des lignes et les étiquettes sont données dans le désordre. Schéma : `type` (`order`, `match`, `gaps`) avec `items`, `pairs` ou `text` (`[[réponse|variante]]`) ; `npm run validate` vérifie chaque entraînement.
-- **À faire** — leçons en quatre étapes ; encouragements sobres (étoile par leçon, série de jours).
+- **Encouragements** — sur l’accueil de chaque classe, en vue Enfant : une étoile par leçon ou activité réalisée, et les jours de suite où l’enfant a travaillé (réponses ou observations). Rien de nouveau n’est enregistré ; aucun message quand la série s’arrête (`shared/encouragement.js`).
+- **À faire** — leçons en quatre étapes, avec le modèle commun de ressource (M2).
 
 ## Piste anglophone (début)
 

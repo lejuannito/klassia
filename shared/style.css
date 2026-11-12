@@ -120,6 +120,7 @@
 
 /* « Continuer » card on the class home (child view). */
 .klassia-continue { display: grid; gap: .35rem; margin: 0 0 1.1rem; padding: 1rem 1.1rem; border-radius: 14px; background: #243f83; color: #fff; }
+.klassia-cheer { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; margin: 0 0 1.1rem; padding: .7rem 1rem; border-radius: 12px; background: #fff7e0; border: 1px solid #ecd28a; color: #4a3500; font-size: 1rem; }
 .klassia-continue-eyebrow { margin: 0; font-size: .85rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: #cfe0ff; }
 .klassia-continue h2 { margin: 0; font-size: 1.3rem; line-height: 1.25; color: #fff; }
 .klassia-continue p { margin: 0; color: #e3ecff; }

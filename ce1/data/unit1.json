@@ -316,6 +316,99 @@
       }
     },
     {
+      "id": "CE1-U1-LT",
+      "domain": "Français · littérature",
+      "week": 2,
+      "title": "Je découvre mon livre de littérature",
+      "objective": "Découvrir une petite œuvre de quelques pages sur la vie d’un enfant à l’école : lire la couverture, nommer l’auteure et l’illustrateur, dire de qui l’histoire va parler.",
+      "prerequisites": "Avoir le livre de littérature de la classe. Sans le livre, fais seulement les entraînements qui n’en ont pas besoin.",
+      "course": "Un livre de littérature raconte une histoire. Sur la couverture, on lit le titre. On lit aussi le nom de la personne qui a écrit l’histoire : l’auteur ou l’auteure. On lit enfin le nom de la personne qui a fait les images : l’illustrateur ou l’illustratrice. La maison qui a fabriqué le livre s’appelle l’éditeur.\nAvant de lire, on regarde la couverture et on imagine l’histoire.",
+      "support": {
+        "title": "La carte d’identité du livre",
+        "table": {
+          "caption": "À vérifier sur ton livre",
+          "headers": [
+            "Ce que je cherche",
+            "Ce que je trouve"
+          ],
+          "rows": [
+            [
+              "Titre",
+              "Comment ça va Benjamin ?"
+            ],
+            [
+              "Auteure",
+              "Kidi Bebey"
+            ],
+            [
+              "Illustrateur",
+              "Christian Epanya"
+            ],
+            [
+              "Éditeur",
+              "Africa Education"
+            ],
+            [
+              "Nombre de pages",
+              "28"
+            ]
+          ]
+        }
+      },
+      "model": "Je regarde la couverture. Le titre est une question : « Comment ça va Benjamin ? ». Je pense que Benjamin est le personnage principal, parce que son prénom est dans le titre.",
+      "guided": "Prends ton livre. Montre le titre, puis le nom de l’auteure, puis le nom de l’illustrateur. Feuillette les pages sans lire : où se passe l’histoire ?",
+      "exercise": "Qui a écrit « Comment ça va Benjamin ? » ?",
+      "answer": "Kidi Bebey a écrit le livre. Christian Epanya a fait les images.",
+      "accept": [
+        "Kidi Bebey",
+        "Bebey"
+      ],
+      "reject": [
+        "Christian Epanya",
+        "Epanya",
+        "Benjamin"
+      ],
+      "remediation": "Si l’enfant confond l’auteure et l’illustrateur, prendre un autre livre de la maison et chercher les deux noms. Lire le titre ensemble, en faisant entendre la question.",
+      "transfer": "Faire la carte d’identité d’un autre livre ou d’un album de la maison : titre, auteur, illustrateur, éditeur.",
+      "materials": "Le livre « Comment ça va Benjamin ? » (Kidi Bebey, images de Christian Epanya, Africa Education). Un cahier pour le carnet de lecture.",
+      "practice": [
+        {
+          "prompt": "Qui a fait les images du livre ?",
+          "answer": "Christian Epanya.",
+          "accept": [
+            "Christian Epanya",
+            "Epanya"
+          ],
+          "reject": [
+            "Kidi Bebey",
+            "Bebey"
+          ],
+          "explanation": "L’illustrateur dessine les images. Son nom est sur la couverture."
+        },
+        {
+          "prompt": "Dans ton carnet de lecture, recopie le titre du livre. Dessine ce que tu vois sur la couverture, puis écris une phrase : « Je pense que l’histoire parle de… »",
+          "ink": "lignes",
+          "answer": "Réponse personnelle. Le titre est recopié sans erreur, avec son point d’interrogation. La phrase parle de Benjamin ou de l’école.",
+          "explanation": "Imaginer l’histoire avant de lire aide à mieux la comprendre ensuite."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 6 (littérature), p. 34, unité 1, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Guide de lecture rédigé sans le texte du livre, d’après la présentation de l’éditeur ; à relire livre en main."
+      },
+      "competencies": [
+        "lecture",
+        "littérature"
+      ]
+    },
+    {
       "id": "CE1-U1-L02",
       "domain": "English",
       "title": "Talk about people and things at home",

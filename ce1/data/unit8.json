@@ -100,6 +100,73 @@
       ]
     },
     {
+      "id": "CE1-U8-LT",
+      "domain": "Français · littérature",
+      "week": 2,
+      "title": "Le décor et la nature dans l’histoire",
+      "objective": "Analyser un récit : repérer le lieu et le moment, et dire ce que la nature change pour les personnages.",
+      "prerequisites": "Avoir le livre de littérature de la classe. Sans le livre, fais seulement les entraînements qui n’en ont pas besoin.",
+      "course": "Une histoire se passe quelque part : c’est le décor. Le décor peut être une classe, une cour, un village, une forêt.\nLa nature fait partie du décor : le soleil, la pluie, les arbres, les animaux. Elle peut aider les personnages, les gêner ou changer leur humeur.\nDans un livre illustré, les images montrent souvent le décor mieux que les mots.",
+      "support": {
+        "title": "Un petit texte pour s’entraîner",
+        "text": "À la récréation, la pluie tombe fort. Les élèves se serrent sous le grand manguier de la cour. Sous les feuilles, ils inventent un jeu avec des mots français et des mots anglais. Quand le soleil revient, personne ne veut quitter l’arbre."
+      },
+      "model": "Dans le petit texte, la pluie oblige les élèves à se mettre sous le manguier. L’arbre les protège et les rapproche : la nature change ce que font les personnages.",
+      "guided": "Ouvre ton livre de littérature. Regarde les images une à une : où sont les personnages ? Vois-tu un arbre, le ciel, un animal ? Dis ce que tu remarques.",
+      "exercise": "Dans le petit texte, sous quel arbre les élèves se mettent-ils à l’abri ?",
+      "answer": "Ils se mettent sous le grand manguier de la cour.",
+      "accept": [
+        "le manguier",
+        "manguier",
+        "sous le manguier",
+        "le grand manguier"
+      ],
+      "reject": [
+        "le baobab",
+        "le palmier"
+      ],
+      "remediation": "Si l’enfant ne repère pas le décor, lui faire décrire d’abord le lieu où il se trouve, puis le lieu d’une image.",
+      "transfer": "Raconter comment la pluie, le soleil ou un arbre a changé un moment de ta journée.",
+      "materials": "Le petit texte de la leçon. Le livre « Comment ça va Benjamin ? » pour observer les images. Un cahier pour le carnet de lecture.",
+      "practice": [
+        {
+          "prompt": "Dans le petit texte, qu’est-ce qui oblige les élèves à se mettre à l’abri ?",
+          "answer": "La pluie.",
+          "accept": [
+            "la pluie",
+            "pluie",
+            "il pleut"
+          ],
+          "reject": [
+            "le soleil",
+            "le vent"
+          ],
+          "explanation": "La pluie tombe fort : les élèves se serrent sous l’arbre."
+        },
+        {
+          "prompt": "Dans ton livre de littérature, choisis une image. Écris où se passe la scène et un élément de la nature que tu vois. S’il n’y en a pas, écris-le.",
+          "ink": "lignes",
+          "answer": "Réponse à vérifier sur l’image choisie, avec un adulte. Le lieu est nommé (la classe, la cour, la maison…). L’élément de la nature est visible sur l’image, ou bien l’enfant écrit qu’il n’y en a pas.",
+          "explanation": "Observer le décor aide à comprendre où et quand se passe l’histoire."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 6 (littérature), p. 36, unité 8, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Guide de lecture rédigé sans le texte du livre, d’après la présentation de l’éditeur ; à relire livre en main."
+      },
+      "competencies": [
+        "lecture",
+        "littérature"
+      ]
+    },
+    {
       "id": "CE1-U8-L02",
       "domain": "Français",
       "title": "Légender un dessin et présenter un compte rendu simple",

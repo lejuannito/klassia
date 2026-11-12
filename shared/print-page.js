@@ -3,7 +3,7 @@ import {printNursery} from './print-nursery.js';
 
 const E = Klassia.escape;
 const $ = id => document.getElementById(id);
-const grades = {CE2:'CE2', MS:'Moyenne section', GS:'Grande section', SIL:'SIL', CE1:'CE1'};
+const grades = Object.fromEntries(Klassia.classes.map(c=>[c.grade,c.label]));
 const base = new URL('./', location.href);
 const params = new URL(location.href).searchParams;
 const grade = params.get('classe'), kind = params.get('fiche');
@@ -17,8 +17,8 @@ async function get(path) {
 }
 
 async function printPrimary({grade,kind,unit,id,adult,get,asset}) {
- const directory = grade.toLowerCase()+'/';
- const path = directory+'data/'+(grade==='SIL'?'curriculum.json':'catalog.json');
+ const directory = Klassia.classInfo(grade).dir;
+ const path = Klassia.classInfo(grade).catalog;
  const catalog = await get(path);
  const selected = catalog.units.find(u=>u.id===unit);
  const data = selected?.lessons ? selected : selected && await get(directory+'data/'+selected.path);
@@ -50,7 +50,7 @@ async function printPrimary({grade,kind,unit,id,adult,get,asset}) {
 }
 
 async function prepare() {
- const nursery = grade==='MS' || grade==='GS';
+ const nursery = Klassia.isNurseryClass(grade);
  if (!Object.hasOwn(grades,grade) || !(nursery?/^T[1-8]$/:grade==='CE2'?/^U[1-8]$/:new RegExp('^'+grade+'-U[1-8]$')).test(unit)) {
   throw Error('Lien de fiche incomplet.');
  }

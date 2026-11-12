@@ -11,7 +11,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 1. Mode famille | tout | — | — |
 | 2. Corrections enrichies | 2a à 2g | — | — |
 | 3. Semaine et manuels | SIL, CE1, CE2 ; manuels de français SIL et CE2 | — | sommaires des autres manuels |
-| 4. Format commun et séance guidée | séance guidée MS, GS, SIL ; classes jumelles déclarées (4c) | moteur unique (refonte, à décider) | — |
+| 4. Format commun | formats d’exercices, classes jumelles ; moteur unique décidé (ADR-014), registre des classes fait (M1) | M2 à M5 : modèle commun, CE2 puis maternelle sur le moteur commun, nettoyage (`MOTEUR_UNIQUE.md`) | — |
 | 5. SIL | lecture avec sons enregistrés ; mesures, géométrie et anglais du programme (5c) | — | — |
 | 6. Maternelle | MS complétée, GS réécrite, vue anglaise ; parcours « programme » et « pour aller plus loin », 13 activités du programme ajoutées (6c) | — | relecture par un enseignant de maternelle ; images et voix |
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés dans toutes les matières sauf la langue nationale ; guide de lecture de l’œuvre de littérature (7d) | — | relecture du guide livre en main |

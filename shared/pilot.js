@@ -5,7 +5,7 @@
  else api.mount(document);
 })(() => {
  'use strict';
- const grades = ['MS', 'GS', 'SIL', 'CE1', 'CE2'];
+ const grades = (typeof module === 'object' && module.exports ? require('./classes.js') : globalThis.Klassia).classes.map(c => c.grade);
  const platforms = ['Android', 'iPhone'];
  const openings = { icone: 'Icône installée', onglet: 'Onglet' };
  const networks = { mixte: 'En ligne puis avion', 'en-ligne': 'En ligne', avion: 'Mode avion' };

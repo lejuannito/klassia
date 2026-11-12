@@ -1,6 +1,6 @@
 (async()=>{
 'use strict';
-const K=Klassia,E=K.escape,c=window.KlassiaLearningConfig,root=document.getElementById('app');
+const K=Klassia,E=K.escape,info=K.currentClass(),c={grade:info.grade,catalog:K.classLocalPath(info,info.catalog),progressKey:info.progressKey,qcm:info.qcm&&K.classLocalPath(info,info.qcm),back:'../'},root=document.getElementById('app');
 const get=async url=>{const r=await fetch(url);if(!r.ok)throw Error('Ressource indisponible : '+url);return r.json();};
 let catalog,units,lessons,progress;
 // Shared « Continuer » card (shared/ui.js): last open lesson if unfinished, else the first unfinished one.
@@ -108,7 +108,7 @@ function showSubject(s){const items=lessons.filter(x=>x.l.domain===s);if(!items.
 function listDomains(){frame(hero('Parcourir les domaines','Une matière peut contribuer à plusieurs domaines du programme.')+`<section class="gs-grid">${catalog.domains.map((d,i)=>`<a class="gs-card gs-picker" href="#domain:${i}"><h2>${E(d.title)}</h2><p>${E(d.subjects.join(' · '))}</p></a>`).join('')}</section>`);}
 function showDomain(i){const d=catalog.domains[Number(i)];if(!d)return notFound();frame(`<a href="#domains">← Tous les domaines</a>`+hero(d.title,'Leçons rattachées à ce domaine.')+`<section class="gs-grid">${lessons.filter(x=>d.subjects.includes(x.l.domain)).map(x=>pick(x.l,x.u)).join('')}</section>`);}
 function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)return notFound();K.write(recentKey,{lessonId:id,at:Date.now()});const {l,u}=found,i=u.lessons.indexOf(l),en=l.domain.startsWith('English');
- const adult=K.isAdultSpace(), lang=en?'en-GB':'fr-FR', guided=c.grade==='SIL';
+ const adult=K.isAdultSpace(), lang=en?'en-GB':'fr-FR', guided=Boolean(info.guided);
  const lab=en?['Learning goal','Understand','Worked example','Practise together','Your turn','Try again with help','Use it again','Materials']:['Objectif','Comprendre','Exemple expliqué','Ensemble','À toi de jouer','Si c’est difficile','Réinvestir','Matériel'];
  const practice = l.practice || [];
  const extra = practice.map((p, j) => {

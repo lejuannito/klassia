@@ -165,7 +165,7 @@ function decorate(){
  const top=document.querySelector('.topbar,.top,.gs-top');if(!top)return;
  const c=rememberClass(),role=K.read('klassia_user',{})?.role||'ELEVE',roleName={ELEVE:'Enfant',PARENT:'Parent',ENSEIGNANT:'Enseignant',ADMIN:'Administration'}[role]||'Enfant';
  document.querySelectorAll('.klassia-global-nav,.klassia-learning-mode,.klassia-space-menu,.klassia-class-switch,.profile-trigger').forEach(e=>e.remove());
- document.querySelectorAll('.klassia-welcome,.klassia-continue,.klassia-review').forEach(e=>e.remove());
+ document.querySelectorAll('.klassia-welcome,.klassia-continue,.klassia-review,.klassia-cheer').forEach(e=>e.remove());
  const searchBack=new URL('search.html',c.base);searchBack.search=new URLSearchParams(location.search).get('recherche')||'';
  const nav=document.createElement('nav');nav.className='klassia-global-nav';nav.setAttribute('aria-label','Classes et espaces');
  // Each control keeps its data attribute so the delegated handlers below work
@@ -210,7 +210,8 @@ function decorate(){
  const showWelcome=main&&isLanding(c)&&['ELEVE','PARENT'].includes(role)&&!K.read(FAMILY_KEY,null);
  if(showWelcome)main.prepend(welcome(c));
  else if(main&&role==='ELEVE'&&isClassHome(c)&&typeof K.nextStep==='function'){let step=null;try{step=K.nextStep();}catch{}const card=step?continueCard(step,c.grade):null;if(card)main.prepend(card);
-  const review=K.classInfo(c.grade).review?reviewCard(c.grade):null;if(review){if(card)card.after(review);else main.prepend(review);}}
+  const review=K.classInfo(c.grade).review?reviewCard(c.grade):null;if(review){if(card)card.after(review);else main.prepend(review);}
+  const cheer=cheerCard(c.grade);if(cheer)(review||card||main.firstElementChild)?.after(cheer);}
  showReviewTarget();
  K.navigation.update();
  document.getElementById('logout')?.remove();
@@ -218,6 +219,8 @@ function decorate(){
 // Continue: each grade engine registers Klassia.nextStep(); the class home
 // shows the next unfinished lesson or activity first, in one tap.
 function isClassHome(c){const h=location.hash;return K.classInfo(c.grade).home.includes(h);}
+// Encouragements sobres (shared/encouragement.js) : étoiles et jours de suite, sans reproche quand la série s'arrête.
+function cheerCard(grade){if(!K.encouragement)return null;let e;try{e=K.encouragement.summary(K.classInfo(grade),K.read);}catch{return null;}const parts=[],nursery=K.isNurseryClass(grade);if(e.stars)parts.push(`<span data-cheer-stars><span aria-hidden="true">⭐</span> <b>${e.stars}</b> ${e.stars>1?'étoiles':'étoile'} · une par ${nursery?'activité réalisée':'leçon réalisée'}</span>`);if(e.days>=2)parts.push(`<span data-cheer-days><b>${e.days}</b> jours de suite</span>`);else if(e.today)parts.push('<span data-cheer-days>Tu as travaillé aujourd’hui</span>');if(!parts.length)return null;const s=document.createElement('p');s.className='klassia-cheer';s.setAttribute('role','status');s.innerHTML=parts.join('');return s;}
 function continueCard(step,grade){const nursery=K.isNurseryClass(grade),label=nursery?'L’activité du jour':step.started?'Ta prochaine étape':'Pour commencer';const s=document.createElement('section');s.className='klassia-continue';s.setAttribute('aria-label',label);s.innerHTML=`<p class="klassia-continue-eyebrow">${label}</p><h2>${esc(step.title)}</h2>${step.meta?`<p>${esc(step.meta)}</p>`:''}<a class="klassia-continue-btn" href="${esc(step.href)}">${step.started?'Continuer':'Commencer'} ›</a>`;return s;}
 // First launch: the family states the child's school and class once, then the
 // entry page opens that class directly. Existing addresses are unchanged.

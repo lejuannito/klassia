@@ -14,9 +14,10 @@ function openProfiles(){
  d.querySelector('#undoImport').onclick=()=>{if(!confirm('Revenir à l’état local précédant la dernière restauration ? Les progrès et profils créés ou modifiés depuis seront également remplacés.'))return;try{K.undoRestore();location.reload();}catch(e){message(e.message);}};
  d.addEventListener('click',e=>{if(e.target===d)d.close();});d.addEventListener('close',()=>{d.remove();document.querySelector('[data-profiles]')?.focus();});d.showModal();
 }
-const gradePaths={CE2:'',MS:'ms/',GS:'gs/',SIL:'sil/',CE1:'ce1/'};
-const gradeNames={CE2:'CE2',MS:'Moyenne section',GS:'Grande section',SIL:'SIL',CE1:'CE1'};
-function context(){const match=location.pathname.match(/\/(ms|gs|sil|ce1)(?:\/|\/index\.html)$/);const grade=match?match[1].toUpperCase():'CE2';return {grade,base:new URL(match?'../':'./',location.href)};}
+// Les classes viennent du registre unique (shared/classes.js) ; le sélecteur garde la classe racine en tête.
+const classList=[...K.classes.filter(x=>!x.dir),...K.classes.filter(x=>x.dir)];
+const gradePaths=Object.fromEntries(classList.map(x=>[x.grade,x.dir])),gradeNames=Object.fromEntries(classList.map(x=>[x.grade,x.label]));
+function context(){const info=K.currentClass();return {grade:info.grade,base:new URL(info.dir?'../':'./',location.href)};}
 function rememberClass(){const c=context();if(!['#coverage','#bassa'].includes(location.hash)){sessionStorage.setItem('klassia_return',location.href);sessionStorage.setItem('klassia_review_grade',c.grade);}return c;}
 function returnToClass(){const c=context(),raw=sessionStorage.getItem('klassia_return');let url=new URL(raw||gradePaths[c.grade],c.base);if(url.origin!==location.origin||!url.pathname.startsWith(c.base.pathname))url=new URL('',c.base);location.href=url.href;}
 // Parental gate: a question an adult answers before leaving the child view.
@@ -73,12 +74,12 @@ function catalogue(title, description, cards) {
 }
 K.catalogue = catalogue;
 function classNavigation(grade){
- const nursery=grade==='MS'||grade==='GS', older=grade==='CE2'||nursery;
+ const info=K.classInfo(grade),nursery=K.isNurseryClass(grade), older=info.engine!=='lessons';
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],
   ['subject',older?'#subjects-all':'#subjects','Par matière'],
   ['domain',older?'#domains-all':'#domains','Par domaine']];
- if(['CE2','SIL','CE1'].includes(grade))routes.push(['week','#semaine','Cette semaine']);
- if(grade==='CE1')routes.push(['revise','#reviser','Réviser']);
+ if(info.week)routes.push(['week','#semaine','Cette semaine']);
+ if(info.revise)routes.push(['revise','#reviser','Réviser']);
  const hash=location.hash;
  const mode=/^#(?:subjects?|subject-all|subjects-all|activity-subject)(?::|$)/.test(hash)?'subject':
   /^#(?:domains?|domain-all|domains-all)(?::|$)/.test(hash)?'domain':
@@ -152,7 +153,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-share-copy
 async function openOverview(refreshOnClose=false){
  document.getElementById('overviewDialog')?.remove();const d=document.createElement('dialog');d.id='overviewDialog';d.className='profiles-dialog';d.innerHTML='<form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form><h2>Suivi de '+esc(K.profile().name)+'</h2><p>Chargement des progrès…</p>';document.body.append(d);d.showModal();
  d.addEventListener('close',()=>{d.remove();if(refreshOnClose)location.reload();else document.querySelector('[data-overview]')?.focus();});
- const {base}=context();try{const get=async p=>{const r=await fetch(new URL(p,base));if(!r.ok)throw Error('Suivi indisponible');return r.json();};const [ce2,ms,sil,ce1,gs]=await Promise.all([get('data/catalog.json'),get('ms/data/catalog-v13.json'),get('sil/data/curriculum.json'),get('ce1/data/catalog.json'),get('gs/data/catalog-v13.json')]);
+ const {base}=context();try{const get=async p=>{const r=await fetch(new URL(p,base));if(!r.ok)throw Error('Suivi indisponible');return r.json();};const [ce2,ms,sil,ce1,gs]=await Promise.all(['CE2','MS','SIL','CE1','GS'].map(g=>get(K.classInfo(g).catalog)));
  const summaries=[['CE2',ce2.summary.lesson_count,Object.values(K.read('klassia_progress',{})).filter(s=>s==='MAITRISEE').length],['MS',ms.summary.activities,ms.themes.reduce((n,t)=>n+Object.values(K.read('klassia_ms_progress_v2:'+t.id,{})).filter(s=>s==='A').length,0)]];
  summaries.push(['GS',gs.summary.activities,gs.themes.reduce((n,t)=>n+Object.values(K.read('klassia_gs_progress_v2:'+t.id,{})).filter(s=>s==='A').length,0)]);
  for(const [grade,catalog] of [['SIL',sil],['CE1',ce1]]){const us=await Promise.all(catalog.units.map(x=>get(grade.toLowerCase()+'/data/'+x.path)));const progress=K.read('klassia_'+grade.toLowerCase()+'_progress_v1',{}),ids=us.flatMap(x=>x.lessons.map(l=>l.id));summaries.push([grade,ids.length,ids.filter(id=>progress[id]==='A').length]);}
@@ -170,7 +171,7 @@ function decorate(){
  // Each control keeps its data attribute so the delegated handlers below work
  // wherever it is placed.
  const parts={
-  back:`<a data-klassia-back="← Parcours de la classe" href="${['MS','GS'].includes(c.grade)?'#themes':'#units'}">← Parcours de la classe</a>`,
+  back:`<a data-klassia-back="← Parcours de la classe" href="${K.classInfo(c.grade).overview}">← Parcours de la classe</a>`,
   grade:`<label><span class="klassia-grade-label">Classe</span> <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label>`,
   search:`<a data-search href="${new URL('search.html',c.base)}">Rechercher</a>`,
   tools:`<a href="${new URL('outils.html',c.base)}">Outils</a>`,
@@ -209,19 +210,19 @@ function decorate(){
  const showWelcome=main&&isLanding(c)&&['ELEVE','PARENT'].includes(role)&&!K.read(FAMILY_KEY,null);
  if(showWelcome)main.prepend(welcome(c));
  else if(main&&role==='ELEVE'&&isClassHome(c)&&typeof K.nextStep==='function'){let step=null;try{step=K.nextStep();}catch{}const card=step?continueCard(step,c.grade):null;if(card)main.prepend(card);
-  const review=['SIL','CE1','CE2'].includes(c.grade)?reviewCard(c.grade):null;if(review){if(card)card.after(review);else main.prepend(review);}}
+  const review=K.classInfo(c.grade).review?reviewCard(c.grade):null;if(review){if(card)card.after(review);else main.prepend(review);}}
  showReviewTarget();
  K.navigation.update();
  document.getElementById('logout')?.remove();
 }
 // Continue: each grade engine registers Klassia.nextStep(); the class home
 // shows the next unfinished lesson or activity first, in one tap.
-function isClassHome(c){const h=location.hash;return (c.grade==='CE2'?['','#home','#learn','#units']:['MS','GS'].includes(c.grade)?['','#home']:['','#home','#units']).includes(h);}
-function continueCard(step,grade){const nursery=['MS','GS'].includes(grade),label=nursery?'L’activité du jour':step.started?'Ta prochaine étape':'Pour commencer';const s=document.createElement('section');s.className='klassia-continue';s.setAttribute('aria-label',label);s.innerHTML=`<p class="klassia-continue-eyebrow">${label}</p><h2>${esc(step.title)}</h2>${step.meta?`<p>${esc(step.meta)}</p>`:''}<a class="klassia-continue-btn" href="${esc(step.href)}">${step.started?'Continuer':'Commencer'} ›</a>`;return s;}
+function isClassHome(c){const h=location.hash;return K.classInfo(c.grade).home.includes(h);}
+function continueCard(step,grade){const nursery=K.isNurseryClass(grade),label=nursery?'L’activité du jour':step.started?'Ta prochaine étape':'Pour commencer';const s=document.createElement('section');s.className='klassia-continue';s.setAttribute('aria-label',label);s.innerHTML=`<p class="klassia-continue-eyebrow">${label}</p><h2>${esc(step.title)}</h2>${step.meta?`<p>${esc(step.meta)}</p>`:''}<a class="klassia-continue-btn" href="${esc(step.href)}">${step.started?'Continuer':'Commencer'} ›</a>`;return s;}
 // First launch: the family states the child's school and class once, then the
 // entry page opens that class directly. Existing addresses are unchanged.
 const FAMILY_KEY='klassia_family';
-const familyClasses=[['MS','Moyenne section','Nursery One'],['GS','Grande section','Nursery Two'],['SIL','SIL','Class 1'],['CE1','CE1','Class 3'],['CE2','CE2','Class 4']];
+const familyClasses=K.classes.map(x=>[x.grade,x.label,x.twin]);
 function isLanding(c){return c.grade==='CE2'&&!location.search&&['','#home'].includes(location.hash);}
 function cameFromKlassia(base){try{const r=new URL(document.referrer);return r.origin===location.origin&&r.pathname.startsWith(base.pathname);}catch{return false;}}
 function welcome(c){

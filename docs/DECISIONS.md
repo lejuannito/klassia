@@ -78,3 +78,9 @@ Ce fichier conserve uniquement les décisions structurantes utiles aux prochaine
 **Décision (porteur de projet, 11 novembre 2026) :** Klassia ne présente plus de classe « bilingue ». Chaque classe francophone a une classe anglophone jumelle du sous-système anglophone (MS ↔ Nursery One, GS ↔ Nursery Two, SIL ↔ Class 1, CE1 ↔ Class 3, CE2 ↔ Class 4), reliée par thème et par semaine quand ses contenus existeront.
 
 **Conséquence :** chaque catalogue de classe déclare `subsystem`, `language` et `twin` (sous-système, classe et statut de la jumelle) ; `npm run validate` vérifie que ces jumelles sont celles que propose l’accueil. Tant que les programmes anglophones ne sont pas disponibles, la jumelle est au statut `planned` et l’accueil ouvre la classe francophone équivalente, où l’anglais est une matière. Les classes anglophones auront leurs propres catalogues (`subsystem: anglophone`, `language: en`) ; les identifiants de ressources francophones ne changent pas.
+
+## ADR-014 — Un moteur unique pour toutes les classes
+
+**Décision (porteur de projet, 12 novembre 2026) :** toutes les classes seront rendues par un seul moteur, pour simplifier l’architecture, renforcer la cohérence et faciliter la maintenance. Pour ce chantier, elle autorise une refonte plus large que la « modification minimale » demandée par `AGENTS.md`.
+
+**Conséquence :** la migration se fait par étapes annulables (`docs/MOTEUR_UNIQUE.md`), sans renommer d’identifiant ni perdre de progression locale. Première étape : `shared/classes.js` est la seule liste des classes ; les pages n’ont plus de configuration en ligne et `npm run validate` le vérifie. Les classes anglophones seront ajoutées sur le moteur commun, pas sur les anciens.

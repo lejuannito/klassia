@@ -27,19 +27,19 @@
  async function load(get){
   const records=[];
   // Read catalog paths instead of maintaining a second curriculum inventory.
-  const [ce2,ms,gs,sil,ce1]=await Promise.all(['data/catalog.json','ms/data/catalog-v13.json','gs/data/catalog-v13.json','sil/data/curriculum.json','ce1/data/catalog.json'].map(get));
+  const C=typeof module==='object'&&module.exports?require('./classes.js'):globalThis.Klassia,catalogs=Object.fromEntries(await Promise.all(C.classes.map(async c=>[c.grade,await get(c.catalog)]))),ce2=catalogs.CE2;
   const jobs=[];
   for(const u of ce2.units)jobs.push(async()=>{
    const data=await get(`data/content-u${u.number}.json`);
    for(const s of data.subjects)for(const l of s.lessons)records.push(record('CE2',s.name,l,`./?unit=${u.id}#lesson:${encodeURIComponent(l.id)}`));
   });
-  for(const [grade,catalog] of [['MS',ms],['GS',gs]])for(const t of catalog.themes)jobs.push(async()=>{
-   const data=await get(`${grade.toLowerCase()}/data/themes/${t.id}.json`);
-   for(const d of data.domains)d.activities.forEach((l,i)=>records.push(record(grade,d.name_fr,l,`${grade.toLowerCase()}/?theme=${t.id}#domain:${d.id}:${i}`)));
+  for(const {grade,dir} of C.classes.filter(c=>c.engine==='activities'))for(const t of catalogs[grade].themes)jobs.push(async()=>{
+   const data=await get(`${dir}data/themes/${t.id}.json`);
+   for(const d of data.domains)d.activities.forEach((l,i)=>records.push(record(grade,d.name_fr,l,`${dir}?theme=${t.id}#domain:${d.id}:${i}`)));
   });
-  for(const [grade,catalog] of [['SIL',sil],['CE1',ce1]])for(const u of catalog.units)jobs.push(async()=>{
-   const data=u.lessons?u:await get(`${grade.toLowerCase()}/data/${u.path}`);
-   for(const l of data.lessons)records.push(record(grade,l.domain,l,`${grade.toLowerCase()}/#lesson:${encodeURIComponent(l.id)}`));
+  for(const {grade,dir} of C.classes.filter(c=>c.engine==='lessons'))for(const u of catalogs[grade].units)jobs.push(async()=>{
+   const data=u.lessons?u:await get(`${dir}data/${u.path}`);
+   for(const l of data.lessons)records.push(record(grade,l.domain,l,`${dir}#lesson:${encodeURIComponent(l.id)}`));
   });
   let next=0;
   await Promise.all(Array.from({length:4},async()=>{while(next<jobs.length)await jobs[next++]();}));

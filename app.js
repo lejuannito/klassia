@@ -365,7 +365,7 @@ function lesson(id) {
 
   let body = `
     <div class="crumb"><a onclick="location.hash='#subject:${encodeURIComponent(s.id)}'">${esc(m.short)}</a><span>›</span>Leçon ${index + 1}/${s.lessons.length}</div>
-    <article class="lesson-page">
+    <article class="lesson-page" data-lesson="${esc(id)}" data-steps="${Klassia.lessonSteps.mode()}">
       <header class="lesson-header">
         <div class="row"><span class="pill">${m.icon} ${esc(m.short)}</span><span class="badge ${cls}">${label}</span></div>
         <h1>${esc(l.title)}</h1><span class="editorial-status">${l.editorial?.status==='draft'?'Trame en cours de rédaction · accompagnement nécessaire':'Contenu pilote · relecture pédagogique à confirmer'}</span>
@@ -374,19 +374,18 @@ function lesson(id) {
         ${id === 'MA-U8-L4' ? '<p><a href="./outils.html#montants">Outil · Montants en lettres</a></p>'
          : id === 'MA-U2-L1' ? '<p><a href="./outils.html#nombres">Outil · Nombres</a></p>'
          : id === 'MA-U4-L3' ? '<p><a href="./outils.html#tables">Outil · Tables de multiplication</a></p>' : ''}
-        <div class="lesson-step"><span style="width:${Math.round((index + 1) * 100 / s.lessons.length)}%"></span></div>
-      </header>
-      <section class="learning-block discover"><div class="block-kicker"><span>👀</span> JE DÉCOUVRE</div><p>${nl(l.discover || '')}</p></section>
-      <section class="learning-block"><div class="block-kicker"><span>🧠</span> JE COMPRENDS</div>${(l.learn || []).map(x => `<p>${nl(x)}</p>`).join('')}</section>
+        <div class="lesson-meter"><span style="width:${Math.round((index + 1) * 100 / s.lessons.length)}%"></span></div>
+      </header>`;
+  // Moteur unique, M3 : la leçon CE2 s'affiche dans les quatre étapes communes (shared/lesson-steps.js).
+  const steps = Klassia.lessonSteps.html([
+    {id: 'decouvrir', html: `<section class="learning-block discover"><div class="block-kicker"><span>👀</span> JE DÉCOUVRE</div><p>${nl(l.discover || '')}</p></section>`},
+    {id: 'retenir', html: `<section class="learning-block"><div class="block-kicker"><span>🧠</span> JE COMPRENDS</div>${(l.learn || []).map(x => `<p>${nl(x)}</p>`).join('')}</section>
       ${renderManualSections(l)}
-      <section class="learning-block takeaway"><div class="block-kicker"><span>💡</span> JE RETIENS</div><p>${nl(l.takeaway || '')}</p></section>`;
-
-  if ((l.practical || []).length) {
-    body += `<section class="learning-block practical"><div class="block-kicker"><span>👐</span> J’EXPÉRIMENTE</div><ul>${l.practical.map(x => `<li>${nl(x)}</li>`).join('')}</ul></section>`;
-  }
-
-  body += `<section class="learning-block practice"><div class="block-kicker"><span>✍️</span> JE M’EXERCE</div>${(l.exercises || []).map((e, i) => exerciseHtml(e, id, i)).join('')}</section>
-      <section class="mastery-card">
+      <section class="learning-block takeaway"><div class="block-kicker"><span>💡</span> JE RETIENS</div><p>${nl(l.takeaway || '')}</p></section>`},
+    {id: 'exercer', html: `${(l.practical || []).length ? `<section class="learning-block practical"><div class="block-kicker"><span>👐</span> J’EXPÉRIMENTE</div><ul>${l.practical.map(x => `<li>${nl(x)}</li>`).join('')}</ul></section>` : ''}
+      <div data-bassa-slot></div>
+      <section class="learning-block practice"><div class="block-kicker"><span>✍️</span> JE M’EXERCE</div>${(l.exercises || []).map((e, i) => exerciseHtml(e, id, i)).join('')}</section>`},
+    {id: 'point', html: `<section class="mastery-card">
         <div><div class="eyebrow">MON SUIVI</div><h3>Comment te sens-tu après cette leçon ?</h3><p id="masteryMsg">Klassia utilisera ce choix pour te proposer la suite.</p></div>
         <div class="mastery-actions"><button class="btn review" onclick="setStatus('${id}','A_REVOIR')">↻ À revoir</button><button class="btn success" onclick="setStatus('${id}','MAITRISEE')">✓ Je me sens prêt</button></div>
       </section>
@@ -394,12 +393,15 @@ function lesson(id) {
         ${prev ? `<button class="btn soft" onclick="location.hash='#lesson:${encodeURIComponent(prev.id)}'">‹ Leçon précédente</button>` : '<span></span>'}
         ${next ? `<button class="btn primary" onclick="location.hash='#lesson:${encodeURIComponent(next.id)}'">Leçon suivante ›</button>` : `<button class="btn primary" onclick="location.hash='#eval:${encodeURIComponent(s.id)}'">Passer l’évaluation ›</button>`}
       </nav>
-      <details class="source-note"><summary>Référence pédagogique</summary><p>${esc(l.source || '')}</p>${(l.notes || []).map(n => `<p>${esc(n)}</p>`).join('')}</details>
+      <details class="source-note"><summary>Référence pédagogique</summary><p>${esc(l.source || '')}</p>${(l.notes || []).map(n => `<p>${esc(n)}</p>`).join('')}</details>`}
+  ], s.id === 'EN');
+  body += `${steps.nav}${steps.body}
     </article>`;
 
   if(l.teacher_guide&&Klassia.isAdultSpace())body+=teacherGuideHtml(l.teacher_guide);
   shell(body, 'learn');
-  if(s.id==='BA')Klassia.Bassa.mount(document.querySelector('.lesson-page'),'CE2',l.id);
+  Klassia.lessonSteps.wire(document.querySelector('.lesson-page'));
+  if(s.id==='BA')Klassia.Bassa.mount(document.querySelector('.lesson-page [data-bassa-slot]'),'CE2',l.id);
   document.querySelectorAll('.numeric-check').forEach(button=>button.onclick=()=>{const e=l.exercises[Number(button.dataset.exercise)],raw=document.getElementById('num_'+button.dataset.feedback).value.trim().replace(/\s/g,'').replace(',','.');const box=document.getElementById(button.dataset.feedback);box.classList.remove('hidden');if(raw===''||!/^[-+]?\d+(\.\d+)?$/.test(raw)){box.textContent='Écris un nombre avant de vérifier.';return;}const ok=Number(raw)===e.answer;box.textContent=(ok?'Bravo ! ':'Essaie encore. ')+e.explanation;const key=l.id+':'+button.dataset.exercise;const d=exerciseData();d[key]={ok,at:new Date().toISOString()};save(S.exercises,d);Klassia.append('klassia_attempts',{kind:'number',exercise:e.id,ok});});
   if(s.id!=='BA')Klassia.addSpeech(document.querySelector('.lesson-header'),[l.title,l.discover,...l.learn,...(l.manual_sections||[]).filter(sec=>!sec.audio_lang||sec.audio_lang.startsWith(s.id==='EN'?'en':'fr')).map(sec=>[sec.title,sec.body].filter(Boolean).join('. ')),l.takeaway,...(l.practical||[])].filter(Boolean).join('. '),s.id==='EN'?'en-GB':'fr-FR');
   (l.manual_sections||[]).forEach((sec,i)=>{if(sec.audio_lang&&sec.body&&s.id!=='BA')Klassia.addSpeech(document.querySelectorAll('.manual-section-body')[i],sec.body,sec.audio_lang);});

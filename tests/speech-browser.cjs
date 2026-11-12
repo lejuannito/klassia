@@ -5,7 +5,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
  await new Promise(r=>server.listen(8768,r));
  const b=await chromium.launch({...(process.env.KLASSIA_CHROMIUM?{executablePath:process.env.KLASSIA_CHROMIUM}:{}),headless:true,args:['--no-sandbox','--disable-gpu','--disable-dev-shm-usage']});
  try{
-  const ctx=await b.newContext({viewport:{width:320,height:844},serviceWorkers:'block'});
+  const ctx=await b.newContext({viewport:{width:320,height:844},serviceWorkers:'block'});await require('./whole-lesson.cjs')(ctx);
   await ctx.addInitScript(()=>{
    const synth=new EventTarget();
    window.testVoices=[{name:'English default',lang:'en-US',default:true,localService:true},{name:'Français',lang:'fr-FR',default:false,localService:true}];

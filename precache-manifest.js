@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "228b11dcda3315b6ca4b940dbee54d9d2172e701eabe1754bea47ebb28af2ddb",
+  "version": "beacffee090e5d7465c9aa5736e1d9c884e73e66bc09b5ecf5293c7e8d7ac85e",
   "packs": {
     "common": {
-      "files": 67,
-      "bytes": 573570
+      "files": 68,
+      "bytes": 575720
     },
     "CE1": {
       "files": 52,
@@ -33,8 +33,8 @@ self.KLASSIA_RELEASE = {
   "files": [
     {
       "url": "./app.js",
-      "sha256": "03f33942a8d5ded7d529a305cf5f3b5663d9233b5ccd7ad0d209248ac7cdbb94",
-      "size": 51655
+      "sha256": "702ea2c3badf20090834fcc6b26f8fb8b40a40ae295d31cb37842aae8929f72f",
+      "size": 52131
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -1080,8 +1080,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "56fa8a74885dd84e890e9e813c718bb65a03bbe296b6461f605b6306f91dec72",
-      "size": 1382
+      "sha256": "ac13c10d6325d22bc0dae1b16a13174f9ef204ee9f08a1dcc9719563112357d3",
+      "size": 1431
     },
     {
       "url": "./class-switch-v12.js",
@@ -1310,8 +1310,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "337115f76df6f33ffda3eb1f5d3f314c69a91254ddcc50eb1bb600508d160cab",
-      "size": 1975
+      "sha256": "7f8d45e8040f8dba83fe324b09c4a43cd6ef198ad0bebcbeed5dc5a422b20fac",
+      "size": 2071
     },
     {
       "url": "./maison.html",
@@ -1434,8 +1434,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./pwa.js",
-      "sha256": "1200ff434636c8087e8b28764caf82b128c474b27ab518985ba1c6d4eea3427e",
-      "size": 13674
+      "sha256": "c2a58d6a5a3a12bba2b0942d7066848e1f46f2dd156618b4d6dffaad5d8ccf5c",
+      "size": 14033
     },
     {
       "url": "./search.html",
@@ -1499,13 +1499,18 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "723a5e1449c32c473daeabcc6b44b3e472e4c93a48fc1b0ed61b06e299c8ab51",
-      "size": 29065
+      "sha256": "e823b73df9838b7887b7b40580ce46ac20f2687fe2e5be6eec6f96bfc2944c2e",
+      "size": 27175
     },
     {
       "url": "./shared/lesson-model.js",
       "sha256": "454d46a7c32252908d0dfbd38e6976ca61eb894864e1a8059d0b6f7999240846",
       "size": 5004
+    },
+    {
+      "url": "./shared/lesson-steps.js",
+      "sha256": "a2f2f559b67145ffb12424c0f02dcf41705eb4b2e8506c5428a63bb98e5aca9d",
+      "size": 2998
     },
     {
       "url": "./shared/lesson-support.js",
@@ -1579,13 +1584,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "1a016b0d1b37700426a2a3fb9d7b225a4e3fb96a14261f711f46dc11ace0dd55",
-      "size": 39164
+      "sha256": "a23cc787d56982952e8f414aeaf1c5666416d90c47adecdf122948c228a20352",
+      "size": 39148
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "b4b34d1fa447ee41025afec9f9b9b7c55d0bf653e6caf09148aed1b1f10fbd79",
-      "size": 30336
+      "sha256": "df5001164b66cfab0a97fd408f2fb34228235bf37a036d4787c1ec7bbea28003",
+      "size": 30363
     },
     {
       "url": "./shared/week.js",
@@ -1647,8 +1652,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "c9fd597e146a70c40a684ab9b83546393ae325cd5fba6edad041e661ac7619df",
-      "size": 1375
+      "sha256": "068229fbaf2e79a6a751bd894dbddd6fbdc2bf88c6dbf1930ae8955bfdbc2ef9",
+      "size": 1424
     },
     {
       "url": "./sil/style.css",
@@ -1657,8 +1662,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./style.css",
-      "sha256": "2049ac0ff383f0a19a44afc339b294b2467141ce73497616047a10c40cf5a823",
-      "size": 22351
+      "sha256": "30fdda0bd20df1c6cd7146b91a23c371b332e08182693e6ec16dbd52972d46a8",
+      "size": 22353
     },
     {
       "url": "./v14.css",

@@ -122,7 +122,7 @@ function showReviewTarget(){
  let el=null;try{el=document.querySelector(anchor);}catch{}
  if(!el)return;
  try{sessionStorage.removeItem('klassia_review_anchor');}catch{}
- const box=el.closest('.exercise-card,.practice-item,section')||el;box.classList.add('klassia-review-target');
+ const box=el.closest('.exercise-card,.practice-item,section')||el;box.classList.add('klassia-review-target');K.lessonSteps?.reveal(box);
  setTimeout(()=>box.scrollIntoView({block:'center'}),0);
 }
 

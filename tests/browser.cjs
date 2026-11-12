@@ -76,7 +76,14 @@ await p.goto('http://localhost:8765/sil/');await p.getByRole('heading',{name:'Pa
  await sp.goto('http://localhost:8765/ce1/#lesson:CE1-U1-G1');await sp.locator('.lesson-steps').getByRole('button',{name:/Je fais le point/}).click();await sp.locator('[data-lesson-qcm] a').filter({hasText:/Je vérifie avec le QCM/}).waitFor();
  await sp.getByRole('button',{name:'Toute la leçon'}).click();assert.equal(await sp.locator('#lessonResponse').isVisible(),true);await sp.reload();await sp.locator('.lesson-card[data-steps="all"]').waitFor();assert.equal(await sp.locator('.lesson-step-next').first().isVisible(),false);
  await sp.getByRole('button',{name:'Toute la leçon'}).click();await sp.goto('http://localhost:8765/ce1/#lesson:CE1-U1-L02');await sp.locator('.lesson-steps').getByRole('button',{name:/Discover/}).waitFor();
- await sp.evaluate(()=>Klassia.write('klassia_lesson_view_v1','all'));console.log('PASS lesson steps: four steps one at a time, live tally, linked QCM, next lesson, whole-lesson view remembered, English labels');}
+ // M3 : la leçon CE2 suit les mêmes quatre étapes, avec le même composant.
+ await sp.goto('http://localhost:8765/?unit=U1#lesson:FR-U1-L1');await sp.locator('.lesson-page[data-steps="one"] .lesson-steps').waitFor();
+ assert.deepEqual((await sp.locator('.lesson-steps ol button').allInnerTexts()).map(x=>x.replace(/^\W+/,'').trim()),['1. Je découvre','2. Je retiens','3. Je m’exerce','4. Je fais le point']);
+ assert.equal(await sp.locator('.learning-block.discover').isVisible(),true);assert.equal(await sp.locator('.learning-block.practice').isVisible(),false);assert.equal(await sp.locator('.mastery-card').isVisible(),false);
+ await sp.locator('.lesson-step[data-current] .lesson-step-next').click();assert.equal(await sp.locator('.learning-block.takeaway').isVisible(),true);
+ await sp.locator('.lesson-steps').getByRole('button',{name:/Je fais le point/}).click();assert.equal(await sp.locator('.mastery-card').isVisible(),true);assert.equal(await sp.locator('.lesson-nav').isVisible(),true);
+ await sp.getByRole('button',{name:'Toute la leçon'}).click();assert.equal(await sp.locator('.learning-block.practice').isVisible(),true);await sp.getByRole('button',{name:'Toute la leçon'}).click();
+ await sp.evaluate(()=>Klassia.write('klassia_lesson_view_v1','all'));console.log('PASS lesson steps: four steps one at a time, live tally, linked QCM, next lesson, whole-lesson view remembered, English labels, same steps in CE2');}
 // Lot 8c : une leçon de langue nationale montre aussi les mots enregistrés par la famille, dans sa langue (valeurs de test).
 {await p.goto('http://localhost:8765/sil/#home');await p.evaluate(async()=>{Klassia.write('klassia_home_language_v1',{name:'ewondo'});Klassia.write('klassia_home_words_v1',{mother:'mot-test'});
   await new Promise((ok,ko)=>{const r=indexedDB.open('klassia-home-language',1);r.onupgradeneeded=()=>r.result.createObjectStore('takes');r.onerror=()=>ko(r.error);r.onsuccess=()=>{const t=r.result.transaction('takes','readwrite');t.objectStore('takes').put(new Blob(['test'],{type:'audio/webm'}),Klassia.profile().id+':mother');t.oncomplete=()=>{r.result.close();ok();};};});});

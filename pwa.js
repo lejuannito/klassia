@@ -42,7 +42,14 @@
     try { if (localStorage.getItem(OFFLINE_KEY) !== text) localStorage.setItem(OFFLINE_KEY, text); } catch { /* The worker keeps its own copy. */ }
   }
   function pageGrade() {
-    try { const c = window.Klassia?.currentClass?.(); return c && c.dir ? c.grade : null; } catch { return null; }
+    // La classe sans dossier (CE2) partage la page d'entrée : elle ne compte que sur un lien direct vers son contenu.
+    try {
+      const c = window.Klassia?.currentClass?.();
+      if (!c) return null;
+      if (c.dir) return c.grade;
+      const deep = /[?&]unit=/.test(location.search) || /^#(lesson|subject|eval|qcm|unit|project)\b/.test(location.hash);
+      return deep && /\/(index\.html)?$/.test(location.pathname) ? c.grade : null;
+    } catch { return null; }
   }
   function familyGrade() {
     try { const g = window.Klassia?.read?.('klassia_family', null)?.grade; return ORDER.includes(g) ? g : null; } catch { return null; }

@@ -270,7 +270,7 @@ async function revealCorrection(panel, written = false) {
 }
 
 async function finishQuiz(page) {
-  for (const question of await page.locator('.qcmQuestion').all()) {
+  for (const question of await page.locator('.klassia-qcm-question').all()) {
     if (!(await question.locator('input:checked').count())) await question.locator('input').first().check();
   }
   await page.getByRole('button', { name: 'Corriger la série' }).click();
@@ -891,19 +891,19 @@ async function run() {
 
     await page.goto(base + '?unit=U8#reviseSubject:SH');
     await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
-    const planetQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quelle planète vient juste après la Terre' });
+    const planetQuestion = page.locator('.klassia-qcm-question').filter({ hasText: 'Quelle planète vient juste après la Terre' });
     await planetQuestion.getByLabel('Mars', { exact: true }).check();
     await page.getByRole('button', { name: 'Corriger la série' }).click();
-    assert.match(await page.locator('#scoreQcm').innerText(), /Réponds à chaque question/);
-    assert.equal(await page.locator('.qcmQuestion .feedback:not(.hidden)').count(), 0);
+    assert.match(await page.locator('.klassia-qcm-score').innerText(), /Réponds à chaque question/);
+    assert.equal(await page.locator('.klassia-qcm-feedback:not([hidden])').count(), 0);
     await finishQuiz(page);
-    assert.match(await planetQuestion.locator('.feedback').innerText(), /Correct.*Terre est au rang 3/s);
+    assert.match(await planetQuestion.locator('.klassia-qcm-feedback').innerText(), /Juste.*Terre est au rang 3/s);
     await page.evaluate(() => Klassia.write('klassia_user', { role: 'ENSEIGNANT' }));
     await page.reload();
     const attemptsBeforePreview = await page.evaluate(() => Klassia.read('klassia_attempts', []).length);
     const activitiesBeforePreview = await page.evaluate(() => Klassia.read('klassia_activity_v9', []).length);
     await page.getByRole('button', { name: 'Voir le corrigé adulte' }).click();
-    assert.match(await planetQuestion.locator('.feedback').innerText(), /Corrigé adulte.*Terre est au rang 3/s);
+    assert.match(await planetQuestion.locator('.klassia-qcm-feedback').innerText(), /Corrigé adulte.*Terre est au rang 3/s);
     assert.equal(await page.evaluate(() => Klassia.read('klassia_attempts', []).length), attemptsBeforePreview);
     assert.equal(await page.evaluate(() => Klassia.read('klassia_activity_v9', []).length), activitiesBeforePreview);
     await page.evaluate(() => Klassia.write('klassia_user', { role: 'ELEVE' }));
@@ -918,10 +918,10 @@ async function run() {
 
     await page.goto(base + '?unit=U7#reviseSubject:DP');
     await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
-    const harvestQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quelle est la recette' });
+    const harvestQuestion = page.locator('.klassia-qcm-question').filter({ hasText: 'Quelle est la recette' });
     await harvestQuestion.getByLabel('400 F CFA', { exact: true }).check();
     await finishQuiz(page);
-    assert.match(await harvestQuestion.locator('.feedback').innerText(), /Correct.*quatre bottes vendues/s);
+    assert.match(await harvestQuestion.locator('.klassia-qcm-feedback').innerText(), /Juste.*quatre bottes vendues/s);
     console.log('PASS offline CE2 personal development template, open correction and quiz');
 
     await page.goto(base + '?unit=U6#lesson:AR-U6-L2');
@@ -933,10 +933,10 @@ async function run() {
 
     await page.goto(base + '?unit=U6#reviseSubject:AR');
     await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
-    const silenceQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Quel signe occupe le troisième temps' });
+    const silenceQuestion = page.locator('.klassia-qcm-question').filter({ hasText: 'Quel signe occupe le troisième temps' });
     await silenceQuestion.getByLabel('Le soupir', { exact: true }).check();
     await finishQuiz(page);
-    assert.match(await silenceQuestion.locator('.feedback').innerText(), /Correct.*temps 3/s);
+    assert.match(await silenceQuestion.locator('.klassia-qcm-feedback').innerText(), /Juste.*temps 3/s);
     console.log('PASS offline CE2 arts score, open correction and quiz');
 
     await page.goto(base + '?unit=U7#lesson:EP-U7-L2');
@@ -948,10 +948,10 @@ async function run() {
 
     await page.goto(base + '?unit=U7#reviseSubject:EP');
     await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
-    const volleyQuestion = page.locator('.qcmQuestion').filter({ hasText: 'Combien de touches au plus' });
+    const volleyQuestion = page.locator('.klassia-qcm-question').filter({ hasText: 'Combien de touches au plus' });
     await volleyQuestion.getByLabel('Trois', { exact: true }).check();
     await finishQuiz(page);
-    assert.match(await volleyQuestion.locator('.feedback').innerText(), /Correct.*troisième touche/s);
+    assert.match(await volleyQuestion.locator('.klassia-qcm-feedback').innerText(), /Juste.*troisième touche/s);
     console.log('PASS offline CE2 physical education diagram, open correction and quiz');
 
     const bassaLessons = [

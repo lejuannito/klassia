@@ -575,19 +575,15 @@ function progressPage() {
   const ev = evalData();
   const scores = Object.values(ev).map(x => Number(x.score)).filter(Number.isFinite);
   const avg = scores.length ? (scores.reduce((a,b)=>a+b,0)/scores.length).toFixed(1) : '—';
-  let body = `
-    <div class="page-head"><div><div class="eyebrow">MON PARCOURS</div><h1>Suivi de progression</h1><p>Confiance déclarée par l’enfant, scores des exercices et notes accompagnées. Une déclaration ne prouve pas une compétence acquise.</p></div></div>
-    <section class="stats-row four"><div class="mini-stat"><span class="mini-icon">✓</span><div><strong>${done}</strong><span>déclarées comprises</span></div></div><div class="mini-stat"><span class="mini-icon">↻</span><div><strong>${review}</strong><span>à revoir</span></div></div><div class="mini-stat"><span class="mini-icon">▶</span><div><strong>${inProgress}</strong><span>en cours</span></div></div><div class="mini-stat"><span class="mini-icon">★</span><div><strong>${avg}</strong><span>moyenne /20</span></div></div></section>
-    <div class="progress-subjects">`;
-  content.subjects.forEach(s => {
-    const m = subjectMeta(s.id);
-    const mastered = s.lessons.filter(l => p[l.id] === 'MAITRISEE').length;
-    const reviser = s.lessons.filter(l => p[l.id] === 'A_REVOIR').length;
-    const pct = Math.round(mastered * 100 / s.lessons.length);
-    const score = ev[s.id]?.score;
-    body += `<article class="progress-subject"><div class="subject-icon">${m.icon}</div><div class="grow"><div class="row between"><strong>${esc(m.short)}</strong><span>${pct}%</span></div><div class="progress"><span style="width:${pct}%"></span></div><div class="progress-details"><span>${mastered}/${s.lessons.length} déclarées comprises</span>${reviser ? `<span class="warn-text">${reviser} à revoir</span>` : ''}${score !== undefined ? `<span>Évaluation : ${esc(score)}/20</span>` : '<span>Évaluation non faite</span>'}</div></div></article>`;
-  });
-  body += `</div><section class="reset-card"><div><h3>Réinitialiser cette unité</h3><p>Efface uniquement cette unité CE2 pour le profil actif. Les autres enfants et la MS sont conservés.</p></div><button class="btn danger-soft" onclick="resetDemo()">Réinitialiser</button></section>`;
+  // M3g : la page Suivi passe par le composant commun (K.progressSummary).
+  let body = Klassia.progressSummary('Suivi de progression', 'Confiance déclarée par l’enfant, scores des exercices et notes accompagnées. Une déclaration ne prouve pas une compétence acquise.',
+    [{ icon: '✓', value: done, label: 'déclarées comprises' }, { icon: '↻', value: review, label: 'à revoir' }, { icon: '▶', value: inProgress, label: 'en cours' }, { icon: '★', value: avg, label: 'moyenne /20' }],
+    content.subjects.map(s => {
+      const reviser = s.lessons.filter(l => p[l.id] === 'A_REVOIR').length, score = ev[s.id]?.score;
+      return { icon: subjectMeta(s.id).icon, title: subjectMeta(s.id).short, done: s.lessons.filter(l => p[l.id] === 'MAITRISEE').length, total: s.lessons.length,
+        notes: ['déclarées comprises', ...(reviser ? [reviser + ' à revoir'] : []), score !== undefined ? `Évaluation : ${score}/20` : 'Évaluation non faite'] };
+    }));
+  body += `<section class="reset-card"><div><h3>Réinitialiser cette unité</h3><p>Efface uniquement cette unité CE2 pour le profil actif. Les autres enfants et la MS sont conservés.</p></div><button class="btn danger-soft" onclick="resetDemo()">Réinitialiser</button></section>`;
   shell(body, 'progress');
 }
 window.resetDemo = () => {

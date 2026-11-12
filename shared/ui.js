@@ -88,6 +88,14 @@ function tabBar(tabs, active, mobileOnly = false) {
  return `<nav class="klassia-tabs${mobileOnly ? ' klassia-tabs-mobile' : ''}" aria-label="Navigation de la classe">${tabs.map(([id, icon, label, href]) => `<a href="${esc(href)}" data-tab="${esc(id)}"${active === id ? ' aria-current="page"' : ''}><span class="klassia-tabs-icon" aria-hidden="true">${icon}</span><span>${esc(label)}</span></a>`).join('')}</nav>`;
 }
 K.tabBar = tabBar;
+// Page « Suivi » commune au primaire (ADR-014, M3g) : chiffres clés, puis une ligne par matière.
+// stats : [{icon, value, label}] ; rows : [{icon?, title, done, total, notes: [texte…]}].
+function progressSummary(title, description, stats, rows) {
+ return `<section class="klassia-catalogue-heading"><h1>${esc(title)}</h1><p>${esc(description)}</p></section>
+ <ul class="klassia-stats">${stats.map(x => `<li><span aria-hidden="true">${x.icon}</span><strong>${esc(x.value)}</strong><span>${esc(x.label)}</span></li>`).join('')}</ul>
+ <ul class="klassia-progress-rows">${rows.map(r => { const pct = r.total ? Math.round(r.done * 100 / r.total) : 0; return `<li>${r.icon ? `<span class="klassia-progress-icon" aria-hidden="true">${r.icon}</span>` : ''}<div><div class="klassia-progress-head"><strong>${esc(r.title)}</strong><span>${pct} %</span></div><progress max="${r.total || 1}" value="${r.done}" aria-label="${esc(r.title)}"></progress><p>${[`${r.done}/${r.total}`, ...(r.notes || [])].map(esc).join(' · ')}</p></div></li>`; }).join('')}</ul>`;
+}
+K.progressSummary = progressSummary;
 function classNavigation(grade){
  const info=K.classInfo(grade),nursery=K.isNurseryClass(grade), older=info.engine!=='lessons';
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],

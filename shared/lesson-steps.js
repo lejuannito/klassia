@@ -28,5 +28,10 @@
    if (all) { const on = card.dataset.steps !== 'all'; card.dataset.steps = on ? 'all' : 'one'; all.setAttribute('aria-pressed', String(on)); K.write(KEY, on ? 'all' : 'one'); }
   });
  }
- K.lessonSteps = {KEY, mode, html, show, reveal, wire};
+ // Bilan de « Je fais le point » : <p data-lesson-tally data-tally-prefix="…" data-tally-en="1">, tenu à jour après chaque vérification.
+ const tallyText = (prefix, en) => K.lessonModel.tallyText(K.lessonModel.attemptsSummary(K.read('klassia_attempts', []), prefix), en);
+ const tallyHtml = (prefix, en) => `<p class="lesson-tally" data-lesson-tally data-tally-prefix="${K.escape(prefix)}"${en ? ' data-tally-en="1"' : ''}>${K.escape(tallyText(prefix, en))}</p>`;
+ const refresh = () => setTimeout(() => document.querySelectorAll('[data-lesson-tally][data-tally-prefix]').forEach(el => { el.textContent = tallyText(el.dataset.tallyPrefix, el.dataset.tallyEn === '1'); }), 0);
+ for (const type of ['klassia:answer-checked', 'klassia:exercise-checked', 'click']) document.addEventListener(type, ev => { if (type !== 'click' || ev.target.closest?.('button')) refresh(); });
+ K.lessonSteps = {KEY, mode, html, show, reveal, wire, tallyHtml};
 })(window.Klassia);

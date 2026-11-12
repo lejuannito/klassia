@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "beacffee090e5d7465c9aa5736e1d9c884e73e66bc09b5ecf5293c7e8d7ac85e",
+  "version": "f1d1dac4cfd5bdc932beb3bf11cd13bb1531b158dcefb0805989337fb9cfe7c6",
   "packs": {
     "common": {
       "files": 68,
-      "bytes": 575720
+      "bytes": 576217
     },
     "CE1": {
       "files": 52,
@@ -33,8 +33,8 @@ self.KLASSIA_RELEASE = {
   "files": [
     {
       "url": "./app.js",
-      "sha256": "702ea2c3badf20090834fcc6b26f8fb8b40a40ae295d31cb37842aae8929f72f",
-      "size": 52131
+      "sha256": "cd1356fb4ea57cb34158e404cb7fb25535cce9d5914a68ead4e65eb7e8dcf2cf",
+      "size": 52182
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -1499,18 +1499,18 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "e823b73df9838b7887b7b40580ce46ac20f2687fe2e5be6eec6f96bfc2944c2e",
-      "size": 27175
+      "sha256": "72f4f65a5ea57d18c9ad463d369474b20142a8aae77d9452ed5d385911730b13",
+      "size": 26060
     },
     {
       "url": "./shared/lesson-model.js",
-      "sha256": "454d46a7c32252908d0dfbd38e6976ca61eb894864e1a8059d0b6f7999240846",
-      "size": 5004
+      "sha256": "037374fee03ac3f7f3b249766cdd9bd915562a3b7f45028542e1e6fbcb0b2b20",
+      "size": 5675
     },
     {
       "url": "./shared/lesson-steps.js",
-      "sha256": "a2f2f559b67145ffb12424c0f02dcf41705eb4b2e8506c5428a63bb98e5aca9d",
-      "size": 2998
+      "sha256": "94ac14099caec807fd133c2a53e58cfe0d31d8cccd01218549c83decfe6d0f6e",
+      "size": 3888
     },
     {
       "url": "./shared/lesson-support.js",

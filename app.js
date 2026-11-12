@@ -385,7 +385,7 @@ function lesson(id) {
     {id: 'exercer', html: `${(l.practical || []).length ? `<section class="learning-block practical"><div class="block-kicker"><span>👐</span> J’EXPÉRIMENTE</div><ul>${l.practical.map(x => `<li>${nl(x)}</li>`).join('')}</ul></section>` : ''}
       <div data-bassa-slot></div>
       <section class="learning-block practice"><div class="block-kicker"><span>✍️</span> JE M’EXERCE</div>${(l.exercises || []).map((e, i) => exerciseHtml(e, id, i)).join('')}</section>`},
-    {id: 'point', html: `<section class="mastery-card">
+    {id: 'point', html: `${Klassia.lessonSteps.tallyHtml(id, s.id === 'EN')}<section class="mastery-card">
         <div><div class="eyebrow">MON SUIVI</div><h3>Comment te sens-tu après cette leçon ?</h3><p id="masteryMsg">Klassia utilisera ce choix pour te proposer la suite.</p></div>
         <div class="mastery-actions"><button class="btn review" onclick="setStatus('${id}','A_REVOIR')">↻ À revoir</button><button class="btn success" onclick="setStatus('${id}','MAITRISEE')">✓ Je me sens prêt</button></div>
       </section>

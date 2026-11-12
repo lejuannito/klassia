@@ -173,6 +173,7 @@
             "FR : tableaux 13–14, p. 49–56, deuxième année",
             "EN : table 36, p. 63, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -392,6 +393,7 @@
             "FR : tableau 15, p. 57–58, deuxième année",
             "EN : table 3, p. 22, Nursery Two, national languages"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -493,6 +495,75 @@
               ]
             }
           ]
+        },
+        {
+          "id": "GS-T6-LC7",
+          "type": "reading_fr",
+          "title_fr": "Je lis et j’écris e, et je revois les voyelles",
+          "title_en": "I read and write e, and review the vowels",
+          "goal_fr": "Lire et écrire la voyelle e, puis écrire les voyelles déjà vues.",
+          "goal_en": "Read and write the vowel e, then write the vowels already seen.",
+          "prompt_fr": "Lis : e, comme dans « melon ». Puis lis toutes les voyelles : a, o, i, u, e. Écris-les entre les lignes.",
+          "prompt_en": "Read: e, as in “melon”. Then read all the vowels: a, o, i, u, e. Write them between the lines.",
+          "visual": {
+            "kind": "letters",
+            "items": [
+              "e",
+              "melon · petit",
+              "a  o  i  u  e"
+            ]
+          },
+          "questions": [
+            {
+              "fr": "Dans « melon », quelle voyelle vient juste après m ?",
+              "en": "In “melon”, which vowel comes just after m?",
+              "answer": "e"
+            }
+          ],
+          "steps_fr": [
+            "Montre la carte e et les mots melon et petit : l’enfant montre chaque e.",
+            "Mélange les cinq cartes a, o, i, u, e : l’enfant les lit une par une.",
+            "L’enfant écrit les cinq voyelles sous la dictée de l’adulte."
+          ],
+          "steps_en": [
+            "Show the e card and the words melon and petit: the child points to each e.",
+            "Mix the five cards a, o, i, u, e: the child reads them one by one.",
+            "The child writes the five vowels as the adult says them."
+          ],
+          "observe": [
+            "Lit les cinq voyelles dans le désordre.",
+            "Écrit une voyelle dictée sans modèle."
+          ],
+          "observe_en": [
+            "Reads the five vowels in any order.",
+            "Writes a dictated vowel without a model."
+          ],
+          "materials": [
+            "des cartes a, o, i, u, e",
+            "deux cartes-mots : melon, petit",
+            "une feuille avec deux lignes",
+            "un crayon"
+          ],
+          "materials_en": [
+            "a, o, i, u, e cards",
+            "two word cards: melon, petit",
+            "a sheet with two lines",
+            "a pencil"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 13, p. 49–51, deuxième année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "ink": "lignes",
+          "teacher_guide": {
+            "preparation": "Préparer les cinq cartes de voyelles et une ligne modèle.",
+            "adaptation": "Si c’est difficile, dicter seulement deux voyelles en laissant le modèle visible. Pour aller plus loin, cacher le modèle.",
+            "follow_up": "Reprendre la dictée des voyelles pendant trois jours, dans un ordre différent."
+          }
         }
       ]
     },
@@ -550,6 +621,7 @@
             "FR : tableau 17, p. 63–71, deuxième année",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -628,6 +700,7 @@
             "FR : tableau 17, p. 64, thème 6, deuxième année",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"

@@ -183,6 +183,7 @@
             "FR : tableaux 13–14, p. 49–56, deuxième année",
             "EN : table 36, p. 63, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -390,6 +391,7 @@
             "FR : tableau 15, p. 57–58, deuxième année",
             "EN : table 3, p. 22, Nursery Two, national languages"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -525,6 +527,76 @@
               ]
             }
           ]
+        },
+        {
+          "id": "GS-T8-LC7",
+          "type": "reading_fr",
+          "title_fr": "Les lettres p et t : je lis des syllabes",
+          "title_en": "The letters p and t: I read syllables",
+          "goal_fr": "Reconnaître les sons de p et de t, lire des syllabes et un mot.",
+          "goal_en": "Recognise the sounds of p and t, read syllables and a word.",
+          "prompt_fr": "Lis : pa, po, pi, pu. Lis : ta, to, ti, tu. Maintenant, lis le mot « papa », puis « patate ».",
+          "prompt_en": "Read: pa, po, pi, pu. Read: ta, to, ti, tu. Now read the word “papa”, then “patate”.",
+          "visual": {
+            "kind": "letters",
+            "items": [
+              "p  t",
+              "pa · po · pi · pu",
+              "ta · to · ti · tu",
+              "papa · tipi · patate"
+            ]
+          },
+          "questions": [
+            {
+              "fr": "Quelle syllabe vois-tu deux fois dans « papa » ?",
+              "en": "Which syllable do you see twice in “papa”?",
+              "answer": "pa"
+            }
+          ],
+          "steps_fr": [
+            "Montre p et t, dis leur son. L’enfant forme pa puis ta avec les cartes.",
+            "L’enfant lit les syllabes avec p, puis avec t, en changeant la voyelle.",
+            "L’enfant lit papa, tipi et patate, puis écrit pa et ta."
+          ],
+          "steps_en": [
+            "Show p and t and say their sounds. The child builds pa, then ta, with the cards.",
+            "The child reads the syllables with p, then with t, changing the vowel.",
+            "The child reads papa, tipi and patate, then writes pa and ta."
+          ],
+          "observe": [
+            "Lit des syllabes avec p et avec t.",
+            "Lit un mot de deux syllabes."
+          ],
+          "observe_en": [
+            "Reads syllables with p and with t.",
+            "Reads a two-syllable word."
+          ],
+          "materials": [
+            "des cartes p, t et a, o, i, u, e",
+            "trois cartes-mots : papa, tipi, patate",
+            "une feuille avec deux lignes",
+            "un crayon"
+          ],
+          "materials_en": [
+            "p, t and a, o, i, u, e cards",
+            "three word cards: papa, tipi, patate",
+            "a sheet with two lines",
+            "a pencil"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 13, p. 49–51, deuxième année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "ink": "lignes",
+          "teacher_guide": {
+            "preparation": "Préparer des cartes mobiles pour p, t et les voyelles.",
+            "adaptation": "Si c’est difficile, travailler p un jour et t le lendemain. Pour aller plus loin, l’enfant invente une syllabe et la lit.",
+            "follow_up": "Reprendre avec les lettres du prénom de l’enfant quand elles sont connues."
+          }
         }
       ]
     },
@@ -582,6 +654,7 @@
             "FR : tableau 17, p. 63–71, deuxième année",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"

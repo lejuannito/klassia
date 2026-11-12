@@ -75,6 +75,9 @@
             "Talks about a celebration without imposing a single tradition.",
             "Understands that not all families celebrate the same events."
           ],
+          "source_refs": [
+            "FR : tableau 9, p. 37–40, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -132,6 +135,9 @@
             "Speaks loudly enough to be heard.",
             "Can answer “Merci / Thank you”."
           ],
+          "source_refs": [
+            "FR : tableau 9, p. 37–40, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -175,6 +181,9 @@
             "Names 4 colours.",
             "Sorts by colour.",
             "Accepts shades without correcting too much."
+          ],
+          "source_refs": [
+            "FR : tableau 18, p. 72–76, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -221,6 +230,9 @@
             "Understands that there are several ways to take part.",
             "Answers two questions."
           ],
+          "source_refs": [
+            "FR : tableau 10, p. 41–43, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -254,6 +266,10 @@
             "Answers politely.",
             "Understands that the other person can say yes or no."
           ],
+          "source_refs": [
+            "FR : tableau 9, p. 37–40, première année"
+          ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -294,6 +310,9 @@
             "Spots the alternation.",
             "Continues 3 elements.",
             "Creates a simple pattern."
+          ],
+          "source_refs": [
+            "FR : tableau 12, p. 47–48, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -450,6 +469,10 @@
           ],
           "activity_fr": "Utiliser les expressions comme repères écrits ; faire modéliser la prononciation par un locuteur si possible.",
           "activity_en": "Use expressions as written guides; have pronunciation modelled by a speaker if possible.",
+          "source_refs": [
+            "FR : tableau 15, p. 57–58, première année"
+          ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -463,6 +486,62 @@
             "a Bassa speaker if possible"
           ],
           "duration_minutes": 8
+        },
+        {
+          "id": "T4-LC8",
+          "type": "letters",
+          "title_fr": "Je reconnais la lettre o",
+          "title_en": "I spot the letter o",
+          "goal_fr": "Reconnaître la lettre o dans un mot et tracer un o.",
+          "goal_en": "Spot the letter o in a word and trace an o.",
+          "prompt_fr": "Regarde : o, comme dans « photo ». Montre tous les o, puis trace un o en tournant.",
+          "prompt_en": "Look: o, as in “photo”. Point to every o, then trace an o by going round.",
+          "visual": {
+            "kind": "letters",
+            "items": [
+              "o  O",
+              "photo · domino · robe"
+            ]
+          },
+          "steps_fr": [
+            "Dis le son « o » et montre la carte o. L’enfant répète en arrondissant la bouche.",
+            "Montre les mots photo, domino, robe. L’enfant pose le doigt sur chaque o.",
+            "L’enfant trace un grand o dans l’air, puis dans le sable, puis au crayon."
+          ],
+          "steps_en": [
+            "Say the sound “o” and show the o card. The child repeats with a round mouth.",
+            "Show the words photo, domino, robe. The child puts a finger on each o.",
+            "The child traces a big o in the air, then in sand, then with a pencil."
+          ],
+          "observe": [
+            "Montre la lettre o parmi d’autres lettres.",
+            "Trace un rond fermé en tournant dans le même sens."
+          ],
+          "observe_en": [
+            "Points to the letter o among other letters.",
+            "Traces a closed circle, turning the same way."
+          ],
+          "materials": [
+            "une carte avec la lettre o",
+            "trois cartes-mots : photo, domino, robe",
+            "un plateau de sable ou de farine",
+            "un crayon"
+          ],
+          "materials_en": [
+            "a card with the letter o",
+            "three word cards: photo, domino, robe",
+            "a tray of sand or flour",
+            "a pencil"
+          ],
+          "duration_minutes": 10,
+          "source_refs": [
+            "FR : tableau 13, p. 49–51, première année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "ink": "lignes"
         }
       ]
     },
@@ -489,6 +568,9 @@
           "observe_en": [
             "Puts one object at each place.",
             "Checks that four objects match the card 4."
+          ],
+          "source_refs": [
+            "FR : tableau 17, p. 63–71, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -543,6 +625,9 @@
             "Anticipates the next element.",
             "Explains with colour, shape or gesture.",
             "Creates a short sequence."
+          ],
+          "source_refs": [
+            "FR : tableau 17, p. 63–71, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -608,6 +693,9 @@
             "Sorts most of the pictures.",
             "Tells a mini sequence."
           ],
+          "source_refs": [
+            "FR : tableau 17, p. 63–71, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -643,6 +731,9 @@
             "Understands that we eat a variety of foods.",
             "Identifies water as the basic drink."
           ],
+          "source_refs": [
+            "FR : tableau 22, p. 84–86, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -654,6 +745,50 @@
             "pictures of food (no real food)"
           ],
           "duration_minutes": 10
+        },
+        {
+          "id": "T4-ST5",
+          "type": "science",
+          "title_fr": "Le soleil, la lune, les étoiles",
+          "title_en": "The sun, the moon, the stars",
+          "goal_fr": "Reconnaître et nommer le soleil, la lune et les étoiles.",
+          "goal_en": "Recognise and name the sun, the moon and the stars.",
+          "prompt_fr": "Regarde le ciel de la fête. Montre le soleil. Montre la lune. Où sont les étoiles ?",
+          "prompt_en": "Look at the party sky. Point to the sun. Point to the moon. Where are the stars?",
+          "steps_fr": [
+            "Dessine ou montre un soleil, une lune et des étoiles. Nomme-les avec l’enfant.",
+            "L’enfant montre l’astre que tu nommes, puis les nomme seul.",
+            "Rappelle : on ne regarde jamais le soleil en face, cela abîme les yeux."
+          ],
+          "steps_en": [
+            "Draw or show a sun, a moon and stars. Name them with the child.",
+            "The child points to the one you name, then names them alone.",
+            "Remind: we never look straight at the sun; it hurts the eyes."
+          ],
+          "observe": [
+            "Montre le soleil, la lune et une étoile.",
+            "Nomme au moins deux astres."
+          ],
+          "observe_en": [
+            "Points to the sun, the moon and a star.",
+            "Names at least two of them."
+          ],
+          "materials": [
+            "trois dessins : un soleil, une lune, des étoiles",
+            "des crayons jaunes"
+          ],
+          "materials_en": [
+            "three drawings: a sun, a moon, stars",
+            "yellow crayons"
+          ],
+          "duration_minutes": 8,
+          "source_refs": [
+            "FR : tableau 20, p. 79–80, première année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
         }
       ]
     },
@@ -684,6 +819,9 @@
             "Waits for their turn.",
             "Asks rather than takes.",
             "Accepts that someone else chooses differently."
+          ],
+          "source_refs": [
+            "FR : tableau 25, p. 94–95, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -727,6 +865,9 @@
             "Avoids touching other people’s food.",
             "Helps tidy up."
           ],
+          "source_refs": [
+            "FR : tableau 23, p. 87–90, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -762,6 +903,10 @@
             "Does not go off alone to look for someone far away.",
             "Knows how to ask for help."
           ],
+          "source_refs": [
+            "FR : tableau 26, p. 96–97, première année"
+          ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -797,6 +942,10 @@
             "Says “at home / in this family” rather than “everybody”.",
             "Asks respectful questions."
           ],
+          "source_refs": [
+            "FR : tableau 25, p. 94–95, première année"
+          ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -846,6 +995,9 @@
             "Alternates at least two shapes or colours.",
             "Helps put it together.",
             "Takes care of the materials."
+          ],
+          "source_refs": [
+            "FR : tableau 28, p. 101–105, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -972,6 +1124,9 @@
             "Dictates a message.",
             "Decorates with care."
           ],
+          "source_refs": [
+            "FR : tableau 27, p. 98–100, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -1076,6 +1231,9 @@
             "Does not run if the space is small.",
             "Keeps hold of the object.",
             "Waits for the way to be clear."
+          ],
+          "source_refs": [
+            "FR : tableau 29, p. 106–109, première année"
           ],
           "editorial": {
             "status": "in_review",

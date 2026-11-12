@@ -1,6 +1,6 @@
 # Klassia — prochain travail
 
-_Mise à jour le 11 novembre 2026_
+_Mise à jour le 12 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
@@ -13,7 +13,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 3. Semaine et manuels | SIL, CE1, CE2 ; manuels de français SIL et CE2 | — | sommaires des autres manuels |
 | 4. Format commun et séance guidée | séance guidée MS, GS, SIL ; classes jumelles déclarées (4c) | moteur unique (refonte, à décider) | — |
 | 5. SIL | lecture avec sons enregistrés ; mesures, géométrie et anglais du programme (5c) | — | — |
-| 6. Maternelle | MS complétée, GS réécrite, vue anglaise | parcours « pour aller plus loin » | programme de maternelle (parcours de base) ; images et voix |
+| 6. Maternelle | MS complétée, GS réécrite, vue anglaise ; parcours « programme » et « pour aller plus loin », 13 activités du programme ajoutées (6c) | — | relecture par un enseignant de maternelle ; images et voix |
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés dans toutes les matières sauf la langue nationale | — | livre de l’œuvre de littérature |
 | 8. Langue de la maison | enregistreur familial | modèle multilingue des leçons LCN | référence AGLC et relecteur bassa |
 | 9. Confiance et diffusion | bilan de la semaine, partage, mises à jour légères | téléchargement par classe | relecteurs nommés (badge) |
@@ -66,7 +66,8 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 - **6a. Fiche parent complète en MS** — les 160 activités de MS ont une durée et un matériel en français et en anglais (`materials_en`, affiché dans la vue anglaise). 123 activités ont reçu une consigne courte adressée à l’enfant (`prompt_fr` / `prompt_en`), qui remplit « Ce que je dis » et que lit le haut-parleur de l’écran de l’enfant ; 136 en ont désormais une, les autres gardent leur consigne directe existante ou relèvent du bassa. Les consignes des parcours moteurs suivent les déroulés existants. `npm run validate` exige désormais ces champs pour chaque activité de MS. Matériel courant de la maison, sans objet dangereux.
 - **6b. GS réécrite** — 148 des 162 activités de GS sortaient d’un gabarit : objectif recopié de la consigne, étapes « Préparer avec l’adulte : … » qui répétaient la consigne, matériel « objets courants décrits dans la consigne », critères d’observation génériques, 12 minutes partout. Chacune a maintenant un objectif réel, trois étapes concrètes en français et en anglais, deux critères d’observation propres à l’activité, un matériel précis en français et en anglais et une durée adaptée (8 à 20 minutes). Les consignes maladroites ont été reprises (« essaie un sac de tissu vers un cercle », groupes de dix pour compter jusqu’à 5…) et les activités à deux se font avec l’adulte, un frère, une sœur ou un camarade. `npm run validate` refuse le retour de ces gabarits. Les familles d’activités (comptine, histoire, lecture en anglais, tracé de lettres, bassa, comptage, dessin, fabrication, rythme, motricité) gardent une démarche commune, avec les mots, nombres et objets propres à chaque thème.
-- **À faire** — parcours « pour aller plus loin », images et voix ; parcours de base calé sur le programme de maternelle (non disponible ici).
+- **6c. Parcours calés sur le programme** — le programme de maternelle francophone (MINEDUB 2018) a été retrouvé en ligne. Chaque activité de MS cite désormais son tableau du programme (`source_refs`, déjà présent en GS) et se range dans le parcours **Programme** (149 en MS, 143 en GS) ou **Pour aller plus loin** (`path: "plus"`, 19 en MS, 24 en GS) ; la fiche l’affiche, l’accueil du thème donne le compte et « À faire maintenant » propose le programme d’abord. Treize activités originales comblent des manques : voyelles et prénom en MS, lettres et syllabes en GS, TIC et astres en MS (MS 168, GS 167). Détail et classement dans `docs/MATERNELLE_PROGRAMME.md`.
+- **À faire** — relecture du classement par un enseignant de maternelle ; images et voix.
 
 ## Lot 7 — CE1 (en cours)
 

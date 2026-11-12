@@ -173,6 +173,7 @@
             "FR : tableaux 13–14, p. 49–56, deuxième année",
             "EN : table 36, p. 63, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -359,6 +360,7 @@
             "FR : tableau 15, p. 57–58, deuxième année",
             "EN : table 3, p. 22, Nursery Two, national languages"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -472,6 +474,75 @@
               ]
             }
           ]
+        },
+        {
+          "id": "GS-T7-LC7",
+          "type": "reading_fr",
+          "title_fr": "La lettre b : ba, bo, bi, bu",
+          "title_en": "The letter b: ba, bo, bi, bu",
+          "goal_fr": "Lire et écrire la lettre b, puis lire des syllabes avec b.",
+          "goal_en": "Read and write the letter b, then read syllables with b.",
+          "prompt_fr": "Voici b. Avec a, il fait « ba ». Lis : ba, bo, bi, bu. Puis lis le mot « bobo ».",
+          "prompt_en": "This is b. With a, it makes “ba”. Read: ba, bo, bi, bu. Then read the word “bobo”.",
+          "visual": {
+            "kind": "letters",
+            "items": [
+              "b",
+              "ba · bo · bi · bu",
+              "bobo"
+            ]
+          },
+          "questions": [
+            {
+              "fr": "b avec o : quelle syllabe lis-tu ?",
+              "en": "b with o: which syllable do you read?",
+              "answer": "bo"
+            }
+          ],
+          "steps_fr": [
+            "Montre la carte b et dis son son. Pose-la à côté de la carte a : « b… a, ba ».",
+            "L’enfant change la voyelle et lit : bo, bi, bu, puis le mot bobo.",
+            "L’enfant écrit b : un grand trait qui descend, puis le rond à droite. Il écrit ba et bo."
+          ],
+          "steps_en": [
+            "Show the b card and say its sound. Put it next to the a card: “b… a, ba”.",
+            "The child changes the vowel and reads: bo, bi, bu, then the word bobo.",
+            "The child writes b: a tall stroke down, then the round part on the right. They write ba and bo."
+          ],
+          "observe": [
+            "Lit au moins trois syllabes avec b.",
+            "Écrit b avec le rond à droite du trait."
+          ],
+          "observe_en": [
+            "Reads at least three syllables with b.",
+            "Writes b with the round part on the right of the stroke."
+          ],
+          "materials": [
+            "une carte b et les cartes a, o, i, u",
+            "une carte-mot : bobo",
+            "une feuille avec deux lignes",
+            "un crayon"
+          ],
+          "materials_en": [
+            "a b card and the a, o, i, u cards",
+            "one word card: bobo",
+            "a sheet with two lines",
+            "a pencil"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 13, p. 49–51, deuxième année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "ink": "lignes",
+          "teacher_guide": {
+            "preparation": "Préparer des cartes mobiles pour former les syllabes en les rapprochant.",
+            "adaptation": "Si c’est difficile, ne former que ba et bo. Pour aller plus loin, lire « baba » et « bibi ».",
+            "follow_up": "Reprendre en faisant fabriquer les syllabes par l’enfant avec les cartes."
+          }
         }
       ]
     },
@@ -529,6 +600,7 @@
             "FR : tableau 17, p. 63–71, deuxième année",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"

@@ -173,6 +173,7 @@
             "FR : tableaux 13–14, p. 49–56, deuxième année",
             "EN : table 36, p. 63, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -359,6 +360,7 @@
             "FR : tableau 15, p. 57–58, deuxième année",
             "EN : table 3, p. 22, Nursery Two, national languages"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -510,6 +512,75 @@
               ]
             }
           ]
+        },
+        {
+          "id": "GS-T5-LC7",
+          "type": "reading_fr",
+          "title_fr": "Je lis et j’écris i et u",
+          "title_en": "I read and write i and u",
+          "goal_fr": "Lire les voyelles i et u dans des mots et les écrire.",
+          "goal_en": "Read the vowels i and u in words and write them.",
+          "prompt_fr": "Lis : i, u. Dans « nid », montre le i. Dans « mule », montre le u. Écris i puis u entre les lignes.",
+          "prompt_en": "Read: i, u. In “nid”, point to the i. In “mule”, point to the u. Write i, then u, between the lines.",
+          "visual": {
+            "kind": "letters",
+            "items": [
+              "i  u",
+              "nid · kiwi",
+              "mule · puce"
+            ]
+          },
+          "questions": [
+            {
+              "fr": "Quelle voyelle porte un point ?",
+              "en": "Which vowel has a dot?",
+              "answer": "i"
+            }
+          ],
+          "steps_fr": [
+            "Montre les cartes i et u, puis o et a : l’enfant lit les quatre voyelles.",
+            "L’enfant montre le i de nid et de kiwi, puis le u de mule et de puce.",
+            "L’enfant écrit une ligne de i avec leur point, puis une ligne de u."
+          ],
+          "steps_en": [
+            "Show the i and u cards, then o and a: the child reads the four vowels.",
+            "The child points to the i in nid and kiwi, then the u in mule and puce.",
+            "The child writes a line of i with their dots, then a line of u."
+          ],
+          "observe": [
+            "Lit i et u sans les confondre.",
+            "N’oublie pas le point du i."
+          ],
+          "observe_en": [
+            "Reads i and u without mixing them up.",
+            "Remembers the dot on the i."
+          ],
+          "materials": [
+            "des cartes i, u, o, a",
+            "quatre cartes-mots : nid, kiwi, mule, puce",
+            "une feuille avec deux lignes",
+            "un crayon"
+          ],
+          "materials_en": [
+            "i, u, o, a cards",
+            "four word cards: nid, kiwi, mule, puce",
+            "a sheet with two lines",
+            "a pencil"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 13, p. 49–51, deuxième année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "ink": "lignes",
+          "teacher_guide": {
+            "preparation": "Écrire les quatre mots en script. Garder les cartes o et a de l’activité précédente.",
+            "adaptation": "Si c’est difficile, faire d’abord trier les cartes i et u. Pour aller plus loin, l’enfant dicte un mot où il entend « i ».",
+            "follow_up": "Reprendre avec un jeu de loto des quatre voyelles a, o, i, u."
+          }
         }
       ]
     },
@@ -567,6 +638,7 @@
             "FR : tableau 17, p. 63–71, deuxième année",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"

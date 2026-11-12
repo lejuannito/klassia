@@ -326,6 +326,11 @@ body > .sil-child .reading-support th { color: #46526b; font-size: 1.2rem; }
 
 /* Checked formats (shared/exercises.js): put in order, match, fill the gaps. */
 .klassia-ex { display: grid; gap: .6rem; margin-top: .4rem; }
+.klassia-mcq { display: grid; gap: 6px; }
+.klassia-mcq .choice { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 6px 10px; border: 1px solid #d5dcec; border-radius: 10px; background: #fff; }
+.klassia-mcq input { width: 20px; height: 20px; }
+.klassia-number { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.klassia-number input { min-height: 44px; padding: 6px 10px; font: inherit; }
 .klassia-ex-hint { margin: 0; font-size: .92rem; color: #46526b; }
 .klassia-order-answer { min-height: 56px; display: flex; flex-wrap: wrap; gap: .4rem; padding: .4rem; border: 2px dashed #b9c5e0; border-radius: 12px; background: #f7f9ff; }
 .klassia-order-pool { display: flex; flex-wrap: wrap; gap: .4rem; }

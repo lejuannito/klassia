@@ -1,15 +1,16 @@
 (() => {
 'use strict';
-// Checked formats in lessons: put in order, match, fill the gaps. Each check dispatches
+// Checked formats in lessons: put in order, match, fill the gaps, single-choice question and number (M3c: shared with CE2). Each check dispatches
 // klassia:exercise-checked {key, ok}; the lesson engine records it like the other attempts.
 const K = Klassia, E = K.escape;
 const T = {
  fr: {check:'Vérifier', choose:'— choisir —', all:'Bravo, tout est juste !', some:n => `${n} réponse${n > 1 ? 's' : ''} à corriger. Essaie encore.`,
-  empty:'Complète d’abord toutes les cases.', order:'Touche les étiquettes dans le bon ordre. Touche une étiquette placée pour la reprendre.', show:'Voir la correction', gap:'Case'},
+  empty:'Complète d’abord toutes les cases.', checkMcq:'Vérifier ma réponse', checkNumber:'Vérifier le nombre', pick:'Choisis d’abord une réponse.', number:'Écris un nombre avant de vérifier.', good:'Bravo ! ', retry:'Essaie encore. ', right:'Bonne réponse.', expected:'Pas encore. Réponse attendue : ', reread:' Relis « Je retiens », puis réessaie.', answerLabel:'Ta réponse', order:'Touche les étiquettes dans le bon ordre. Touche une étiquette placée pour la reprendre.', show:'Voir la correction', gap:'Case'},
  en: {check:'Check', choose:'— choose —', all:'Well done, everything is right!', some:n => `${n} answer${n > 1 ? 's' : ''} to fix. Try again.`,
-  empty:'Fill in every box first.', order:'Tap the cards in the right order. Tap a placed card to take it back.', show:'Show the answer', gap:'Gap'}
+  empty:'Fill in every box first.', checkMcq:'Check my answer', checkNumber:'Check the number', pick:'Choose an answer first.', number:'Write a number before checking.', good:'Well done! ', retry:'Try again. ', right:'Right answer.', expected:'Not yet. Expected answer: ', reread:' Read « Remember » again, then try once more.', answerLabel:'Your answer', order:'Tap the cards in the right order. Tap a placed card to take it back.', show:'Show the answer', gap:'Gap'}
 };
-const TYPES = ['order', 'match', 'gaps'];
+const TYPES = ['order', 'match', 'gaps', 'mcq', 'number'];
+const SIMPLE = ['mcq', 'number']; // one answer, feedback in the status line
 // A shuffled order that is never the answer itself.
 function shuffled(n) {
  const a = Array.from({length:n}, (_, i) => i);
@@ -32,11 +33,17 @@ function html(p, key, en) {
  } else if (p.type === 'gaps') {
   let g = 0;
   body = `<p class="klassia-gaps">${parts(p.text).map(x => x.gap ? `<input data-gap="${g++}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="${t.gap} ${g}" size="${Math.max(3, ...x.gap.map(a => a.length + 1))}">` : E(x.text)).join('')}</p>`;
+ } else if (p.type === 'mcq') {
+  const name = 'mcq_' + String(key).replace(/\W/g, '_');
+  body = `<div class="klassia-mcq" role="radiogroup">${p.choices.map((c, j) => `<label class="choice"><input type="radio" name="${name}" value="${j}"><span>${E(c)}</span></label>`).join('')}</div>`;
+ } else if (p.type === 'number') {
+  body = `<label class="klassia-number"><span>${t.answerLabel}</span> <input data-number inputmode="decimal" autocomplete="off" size="8"></label>`;
  }
- const adult = K.isAdultSpace();
- return `<div class="klassia-ex" data-ex="${E(p.type)}" data-key="${E(key)}" data-solution="${E(JSON.stringify(p.type === 'gaps' ? parts(p.text).filter(x => x.gap).map(x => x.gap) : null))}" lang="${en ? 'en' : 'fr'}">${body}`
-  + `<div class="klassia-ex-actions"><button type="button" data-ex-check>${t.check}</button></div><p class="klassia-ex-status" role="status"></p>`
-  + `<details class="klassia-ex-answer"${adult ? ' open' : ' hidden'}><summary>${t.show}</summary><p class="preserve-lines">${E(p.answer)}</p>${p.explanation ? `<p>${E(p.explanation)}</p>` : ''}</details></div>`;
+ const adult = K.isAdultSpace(), simple = SIMPLE.includes(p.type);
+ const solution = p.type === 'gaps' ? parts(p.text).filter(x => x.gap).map(x => x.gap) : p.type === 'mcq' ? {choice:Number(p.correct_choice ?? p.correct)} : p.type === 'number' ? {number:Number(p.answer), why:p.explanation || ''} : null;
+ return `<div class="klassia-ex" data-ex="${E(p.type)}" data-key="${E(key)}" data-solution="${E(JSON.stringify(solution))}" lang="${en ? 'en' : 'fr'}">${body}`
+  + `<div class="klassia-ex-actions"><button type="button" data-ex-check>${p.type === 'mcq' ? t.checkMcq : p.type === 'number' ? t.checkNumber : t.check}</button></div><p class="klassia-ex-status" role="status"></p>`
+  + (simple && !adult ? '' : `<details class="klassia-ex-answer"${adult ? ' open' : ' hidden'}><summary>${t.show}</summary><p class="preserve-lines">${E(p.answer)}</p>${p.explanation ? `<p>${E(p.explanation)}</p>` : ''}</details>`) + '</div>';
 }
 
 function check(box) {
@@ -72,12 +79,32 @@ document.addEventListener('click', event => {
  const button = event.target.closest('.klassia-ex [data-ex-check]');
  if (!button) return;
  const box = button.closest('.klassia-ex'), t = T[box.lang === 'en' ? 'en' : 'fr'], status = box.querySelector('.klassia-ex-status');
+ if (SIMPLE.includes(box.dataset.ex)) {
+  let sol = {};
+  try { sol = JSON.parse(box.dataset.solution) || {}; } catch {}
+  let ok, text;
+  if (box.dataset.ex === 'mcq') {
+   const picked = box.querySelector('input[type=radio]:checked');
+   if (!picked) { status.textContent = t.pick; delete status.dataset.verdict; return; }
+   ok = Number(picked.value) === sol.choice;
+   text = ok ? t.good + t.right : t.expected + (box.querySelector(`input[value="${sol.choice}"]`)?.nextElementSibling?.textContent || '') + '.' + t.reread;
+  } else {
+   const raw = box.querySelector('[data-number]').value.trim().replace(/\s/g, '').replace(',', '.');
+   if (raw === '' || !/^[-+]?\d+(\.\d+)?$/.test(raw)) { status.textContent = t.number; delete status.dataset.verdict; return; }
+   ok = Number(raw) === sol.number;
+   text = (ok ? t.good : t.retry) + (sol.why || '');
+  }
+  status.textContent = text;
+  status.dataset.verdict = ok ? 'correct' : 'wrong';
+  box.dispatchEvent(new CustomEvent('klassia:exercise-checked', {bubbles:true, detail:{key:box.dataset.key, ok, kind:box.dataset.ex}}));
+  return;
+ }
  const wrong = check(box);
  if (wrong === null) { status.textContent = t.empty; delete status.dataset.verdict; return; }
  status.textContent = wrong ? t.some(wrong) : t.all;
  status.dataset.verdict = wrong ? 'wrong' : 'correct';
  box.querySelector('.klassia-ex-answer').hidden = false;
- box.dispatchEvent(new CustomEvent('klassia:exercise-checked', {bubbles:true, detail:{key:box.dataset.key, ok:!wrong}}));
+ box.dispatchEvent(new CustomEvent('klassia:exercise-checked', {bubbles:true, detail:{key:box.dataset.key, ok:!wrong, kind:box.dataset.ex}}));
 });
 
 // Clearing a mark as soon as the child changes an answer.

@@ -73,6 +73,15 @@ function catalogue(title, description, cards) {
  </a>`).join('')}</div>`;
 }
 K.catalogue = catalogue;
+// Liste de leçons commune à toutes les classes (ADR-014, M3e) : numéro, titre, objectif, état déclaré.
+// items : {href, title, eyebrow?, detail?, status:{label, kind: 'todo'|'doing'|'done'|'review'}}.
+function lessonList(items) {
+ return `<ol class="klassia-lessons">${items.map((x, i) => `<li><a class="klassia-lesson-item" href="${esc(x.href)}" data-status="${esc(x.status?.kind || 'todo')}">
+  <span class="klassia-lesson-no" aria-hidden="true">${i + 1}</span>
+  <span class="klassia-lesson-text">${x.eyebrow ? `<span class="klassia-lesson-eyebrow">${esc(x.eyebrow)}</span>` : ''}<b>${esc(x.title)}</b>${x.detail ? `<span class="klassia-lesson-detail">${esc(x.detail)}</span>` : ''}</span>
+  ${x.status ? `<span class="klassia-lesson-status">${esc(x.status.label)}</span>` : ''}<span class="klassia-lesson-go" aria-hidden="true">›</span></a></li>`).join('')}</ol>`;
+}
+K.lessonList = lessonList;
 function classNavigation(grade){
  const info=K.classInfo(grade),nursery=K.isNurseryClass(grade), older=info.engine!=='lessons';
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],

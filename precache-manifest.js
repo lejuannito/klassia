@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "f1d1dac4cfd5bdc932beb3bf11cd13bb1531b158dcefb0805989337fb9cfe7c6",
+  "version": "36daafe5dfd35ff56902a5377b1d316e8c86714f901d0ff6e0acee730e4ae49a",
   "packs": {
     "common": {
       "files": 68,
-      "bytes": 576217
+      "bytes": 577960
     },
     "CE1": {
       "files": 52,
@@ -33,8 +33,8 @@ self.KLASSIA_RELEASE = {
   "files": [
     {
       "url": "./app.js",
-      "sha256": "cd1356fb4ea57cb34158e404cb7fb25535cce9d5914a68ead4e65eb7e8dcf2cf",
-      "size": 52182
+      "sha256": "cd8a5c8aaa0f5902d7049c0b36566181ce5a17afe76141c67a1f04cde7b582bd",
+      "size": 50743
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -1310,8 +1310,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "7f8d45e8040f8dba83fe324b09c4a43cd6ef198ad0bebcbeed5dc5a422b20fac",
-      "size": 2071
+      "sha256": "5e7539c5ba4a554af5d4bcace9bc4e3ca8f2172a081993fefcb3940982c8a55e",
+      "size": 2116
     },
     {
       "url": "./maison.html",
@@ -1479,8 +1479,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/exercises.js",
-      "sha256": "24a96b3d91d08c8a9b3a7b51b900e8758ae973ffc1c8bc12563ca9d40cea39b1",
-      "size": 5592
+      "sha256": "9f90615e376658594aa06c595227ba09769e1aeae2320fdee326e940e1b5c8a7",
+      "size": 8301
     },
     {
       "url": "./shared/home-language.js",
@@ -1584,8 +1584,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "a23cc787d56982952e8f414aeaf1c5666416d90c47adecdf122948c228a20352",
-      "size": 39148
+      "sha256": "b9d94d749cc211b4505f7a10d99aac84b7520c8522eca2b699b4fc5fb4d9d553",
+      "size": 39576
     },
     {
       "url": "./shared/ui.js",

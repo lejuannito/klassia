@@ -402,7 +402,6 @@ function lesson(id) {
   shell(body, 'learn');
   Klassia.lessonSteps.wire(document.querySelector('.lesson-page'));
   if(s.id==='BA')Klassia.Bassa.mount(document.querySelector('.lesson-page [data-bassa-slot]'),'CE2',l.id);
-  document.querySelectorAll('.numeric-check').forEach(button=>button.onclick=()=>{const e=l.exercises[Number(button.dataset.exercise)],raw=document.getElementById('num_'+button.dataset.feedback).value.trim().replace(/\s/g,'').replace(',','.');const box=document.getElementById(button.dataset.feedback);box.classList.remove('hidden');if(raw===''||!/^[-+]?\d+(\.\d+)?$/.test(raw)){box.textContent='Écris un nombre avant de vérifier.';return;}const ok=Number(raw)===e.answer;box.textContent=(ok?'Bravo ! ':'Essaie encore. ')+e.explanation;const key=l.id+':'+button.dataset.exercise;const d=exerciseData();d[key]={ok,at:new Date().toISOString()};save(S.exercises,d);Klassia.append('klassia_attempts',{kind:'number',exercise:e.id,ok});});
   if(s.id!=='BA')Klassia.addSpeech(document.querySelector('.lesson-header'),[l.title,l.discover,...l.learn,...(l.manual_sections||[]).filter(sec=>!sec.audio_lang||sec.audio_lang.startsWith(s.id==='EN'?'en':'fr')).map(sec=>[sec.title,sec.body].filter(Boolean).join('. ')),l.takeaway,...(l.practical||[])].filter(Boolean).join('. '),s.id==='EN'?'en-GB':'fr-FR');
   (l.manual_sections||[]).forEach((sec,i)=>{if(sec.audio_lang&&sec.body&&s.id!=='BA')Klassia.addSpeech(document.querySelectorAll('.manual-section-body')[i],sec.body,sec.audio_lang);});
 }
@@ -411,9 +410,10 @@ function exerciseHtml(e, lid, i) {
   const ansId = `ans_${lid.replace(/\W/g, '')}_${i}`;
   const key = `${lid}:${i}`;
   const history = exerciseData()[key];
-  if(e.type==='number')return `<div class="exercise-card"><div class="grow"><label for="num_${ansId}"><b>${esc(e.prompt)}</b></label><input id="num_${ansId}" inputmode="decimal" autocomplete="off"><button class="btn soft numeric-check" data-lesson="${lid}" data-exercise="${i}" data-feedback="${ansId}">Vérifier le nombre</button><div id="${ansId}" class="feedback hidden" role="status"></div></div></div>`;
-  if (e.type === 'mcq' && e.choices) {
-    return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${e.choices.map((c, j) => `<label class="choice"><input type="radio" name="q_${ansId}" value="${j}"><span>${esc(c)}</span></label>`).join('')}<button class="btn soft" onclick="checkMcq('${ansId}',${e.correct_choice},'${key}')">Vérifier ma réponse</button><div id="${ansId}" class="feedback hidden"></div>${history ? `<div class="exercise-history">Dernière tentative : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : ''}</div></div>`;
+  // M3c : QCM et réponse numérique sont rendus et vérifiés par le composant d'exercices commun (shared/exercises.js).
+  if (e.type === 'number' || (e.type === 'mcq' && e.choices)) {
+    const past = history ? `<div class="exercise-history">Dernière tentative : ${history.ok ? 'réussie ✓' : 'à retravailler'}</div>` : '';
+    return `<div class="exercise-card"><div class="exercise-number">${i + 1}</div><div class="grow"><b>${esc(e.prompt)}</b>${Klassia.exercises.html(e, key, lid.startsWith('EN-'))}${past}</div></div>`;
   }
   const en = lid.startsWith('EN-');
   const clip = Klassia.speech.clip(e.audio,en?'en-GB':'fr-FR');
@@ -442,16 +442,15 @@ window.rateOpen = (key, ok, id) => {
   const self = box?.querySelector('.self-check');
   if (self) self.insertAdjacentHTML('beforeend', `<span class="self-result ${ok ? 'good' : 'retry'}">${ok ? 'Bien joué !' : 'À retravailler'}</span>`);
 };
-window.checkMcq = (id, answer, key) => {
-  const r = [...document.querySelectorAll(`input[name="q_${id}"]`)].find(x => x.checked);
-  const box = document.getElementById(id);
-  box.classList.remove('hidden');
-  if (!r) { box.innerHTML = '<b>Choisis d’abord une réponse.</b>'; return; }
-  const ok = Number(r.value) === answer;
-  const d = exerciseData(); d[key] = { ok, at: new Date().toISOString() }; save(S.exercises, d);
-  Klassia.append('klassia_attempts',{kind:'mcq',exercise:key,ok});
-  box.innerHTML = ok ? `<div class="feedback-good"><b>Bravo ! 🎉</b><p>Bonne réponse.</p></div>` : `<div class="feedback-retry"><b>Pas encore.</b><p>Réponse attendue : <strong>${esc(document.querySelector(`input[name="q_${id}"][value="${answer}"]`)?.nextElementSibling?.textContent || '')}</strong></p><div class="remediation visible"><b>Remédiation Klassia</b><p>Relis « Je retiens », observe l’exemple puis réessaie avant de poursuivre.</p></div></div>`;
-};
+// Vérifications du composant commun : même journal qu'avant (QCM sous « leçon:n », nombre sous l'identifiant de l'exercice).
+document.addEventListener('klassia:exercise-checked', event => {
+  const { key, ok, kind } = event.detail || {};
+  if (!key || !content) return;
+  const [lid, index] = String(key).split(':');
+  const d = exerciseData(); d[key] = { ok: Boolean(ok), at: new Date().toISOString() }; save(S.exercises, d);
+  const exercise = content.subjects.flatMap(x => x.lessons).find(l => l.id === lid)?.exercises?.[Number(index)];
+  Klassia.append('klassia_attempts', { kind: kind === 'number' ? 'number' : kind === 'mcq' ? 'mcq' : 'exercise', exercise: kind === 'number' && exercise?.id ? exercise.id : key, ok: Boolean(ok) });
+});
 window.setStatus = (id, st) => {
   const p = progressData(); p[id] = st; save(S.progress, p);
   const msg = document.getElementById('masteryMsg');

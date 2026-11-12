@@ -869,9 +869,9 @@ async function run() {
 
     await page.goto(base + '?unit=U6#lesson:SC-U6-L4');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
-    await page.getByLabel(/Quelle température/).fill('24');
+    await page.locator('.exercise-card').filter({ hasText: /Quelle température/ }).locator('[data-number]').fill('24');
     await page.getByRole('button', { name: 'Vérifier le nombre' }).click();
-    assert.match(await page.locator('.exercise-card .feedback[role="status"]').innerText(), /Bravo.*24 °C/);
+    assert.match(await page.locator('.exercise-card').filter({ hasText: /Quelle température/ }).locator('.klassia-ex-status').innerText(), /Bravo.*24 °C/);
 
     await page.goto(base + '?unit=U8#lesson:TI-U8-L2');
     await page.getByText('Assembler les trois blocs de haut en bas', { exact: true }).click();

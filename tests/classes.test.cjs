@@ -29,4 +29,6 @@ test('the common lesson model reads the three data formats in four steps',()=>{
  const act=M.fromActivity({id:'LC1',title_fr:'Titre',title_en:'Title',goal_fr:'But',prompt_fr:'Consigne',steps_fr:['a','b'],steps_en:['x'],questions:[{fr:'q',answer:'r'}],observe:['o'],observe_en:['O'],materials:['m'],materials_en:['M']},true);
  assert.equal(act.title,'Title');assert.deepEqual(act.goals,['But'],'English falls back to French');assert.equal(act.practise.items.length,2);assert.deepEqual(act.review.observe,['O']);
  assert.deepEqual(M.attemptsSummary([{kind:'short_answer',exercise:'SIL:SIL-U1-L1',ok:false},{kind:'short_answer',exercise:'SIL:SIL-U1-L1',ok:true},{kind:'exercise',exercise:'SIL:SIL-U1-L1:entrainement:0',ok:false},{kind:'self_report',exercise:'SIL:SIL-U1-L1:entrainement:1',ok:true},{kind:'exercise',exercise:'SIL:SIL-U1-L10',ok:true}],'SIL:SIL-U1-L1'),{checked:2,right:1,self:1,selfOk:1});
+ assert.deepEqual(M.attemptsSummary([{kind:'mcq',exercise:'FR-U1-L1:1',ok:true},{kind:'number',exercise:'FR-U1-L1-E3',ok:false},{kind:'mcq',exercise:'FR-U1-L10:0',ok:true}],'FR-U1-L1'),{checked:2,right:1,self:0,selfOk:0},'CE2 keys');
+ assert.equal(M.tallyText({checked:2,right:1,self:0,selfOk:0}),'1 réponse juste sur 2 vérifiées');assert.match(M.tallyText({checked:0,self:0},true),/No answer checked/);
 });

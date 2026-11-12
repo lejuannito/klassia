@@ -65,11 +65,17 @@
     const checked = new Map(), self = new Map();
     for (const a of attempts || []) {
       const key = a && typeof a.exercise === 'string' ? a.exercise : '';
-      if (key !== prefix && !key.startsWith(prefix + ':')) continue;
+      if (key !== prefix && !key.startsWith(prefix + ':') && !key.startsWith(prefix + '-E')) continue;
       (a.kind === 'self_report' ? self : checked).set(key, Boolean(a.ok));
     }
     const count = m => [...m.values()].filter(Boolean).length;
     return {checked: checked.size, right: count(checked), self: self.size, selfOk: count(self)};
   }
-  return {STEPS, fromLesson, fromCE2, fromActivity, filled, attemptsSummary};
+  // Phrase du bilan affiché dans « Je fais le point ».
+  function tallyText(t, en) {
+    if (!t.checked && !t.self) return en ? 'No answer checked yet in this lesson.' : 'Aucune réponse vérifiée pour l’instant dans cette leçon.';
+    return [t.checked ? (en ? `${t.right} of ${t.checked} checked answers right` : `${t.right} ${t.right > 1 ? 'réponses justes' : 'réponse juste'} sur ${t.checked} ${t.checked > 1 ? 'vérifiées' : 'vérifiée'}`) : '',
+      t.self ? (en ? `managed alone ${t.selfOk} time(s) out of ${t.self}` : `réussi seul ${t.selfOk} fois sur ${t.self}`) : ''].filter(Boolean).join(' · ');
+  }
+  return {STEPS, fromLesson, fromCE2, fromActivity, filled, attemptsSummary, tallyText};
 });

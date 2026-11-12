@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "5db133cc439ca58df0fba73dc277cdda55cb540164b6455c65b94167a960b1fb",
+  "version": "bf5ee3fa4b234ef29cb8bb1a64dec76553f187ff17ea05182dfe321d1741080b",
   "files": [
     {
       "url": "./app.js",
@@ -623,7 +623,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "4ad84ff51a62dd7e11d6c5900f157a166c4f7714f2c8f0781f511939923af76a"
+      "sha256": "b8ac91b4c1ed7302a610b160f8eb174995e6634ae2f13ece4589a22dfbadc8dc"
     },
     {
       "url": "./data/manuels/champions-francais-ce2.json",
@@ -923,39 +923,39 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/data/curriculum.json",
-      "sha256": "305abb169c43b495f42de7d0783c7a7f72ed2b724b69a67851186199b6dad2c2"
+      "sha256": "6c0e1ca774a0f254e9b7fbb0969a651bcd576615bd68466f198e5788959268ed"
     },
     {
       "url": "./sil/data/sil-u1.json",
-      "sha256": "89f219ade57e5d132232a85e3815838a4f47d42ad61b5fa225d7815d561ed081"
+      "sha256": "b63a1c468c9800974fccf465ceb71cf58e44b8c2a6e4020340a3b59560526a01"
     },
     {
       "url": "./sil/data/sil-u2.json",
-      "sha256": "da1bddd6d81f59160bd41342591aeb66839a4e0c4b26b44d99e1d2f392108e9e"
+      "sha256": "b69c8ebc4dfa0334ec2132ff84664ea158c4ddd07e133d37f06459dae6f4c4d5"
     },
     {
       "url": "./sil/data/sil-u3.json",
-      "sha256": "84ee0689e82d9a31bdea518a39d32e028c22ecb8b983debe4877f67dc5e0de60"
+      "sha256": "551be278b8906dcea658bfd31c9317a6ba21eb123a407bd37d8d56889c9db234"
     },
     {
       "url": "./sil/data/sil-u4.json",
-      "sha256": "16888b6fd99962f8bbaf4e8289f405148931cafd493c807c6dbbe0c0818e460b"
+      "sha256": "76db90760259763e0a498f62226a045a243293b4cac499abc429e03d6ddee77b"
     },
     {
       "url": "./sil/data/sil-u5.json",
-      "sha256": "0f39248bd7899a348ba0600ad8707f7d4b4b8381dad91cc3cd34149b3b678298"
+      "sha256": "692cc74ca372176217a808e2a14002a8620cf2190bdc27c664e27a08e7068f22"
     },
     {
       "url": "./sil/data/sil-u6.json",
-      "sha256": "d0a5e8846eb853a2880154704f7462f3958f15c038c22b50b19e3165c263d889"
+      "sha256": "1bd99f81ec67b13fce1840da625d61e4e72cf2eefbf5e2d8736511c6068f8455"
     },
     {
       "url": "./sil/data/sil-u7.json",
-      "sha256": "cee53164bd2b9a7fda1d26af1c3f50fed8fe209982999e98896a0e7f7dc18189"
+      "sha256": "7601e5605491c47ffe7af5a5655c1d6741de7a8694b45eb48a70e589fd69dc83"
     },
     {
       "url": "./sil/data/sil-u8.json",
-      "sha256": "3f49cb4af46945bf3b8b7adaec776750691a6726cd45845e80427d037e2ce056"
+      "sha256": "ae3524c3fbd7ddb365ce92606aeece3e0bce46c6aa722ad77c2d2321a16ef054"
     },
     {
       "url": "./sil/index.html",

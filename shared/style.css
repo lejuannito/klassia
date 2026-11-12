@@ -139,6 +139,17 @@
 .lesson-tally { padding: 10px 12px; border-radius: 10px; background: #eef6ee; color: #1d4d2c; font-weight: 700; }
 .lesson-next { font-weight: 700; }
 @media print { .lesson-step[data-step] { display: block !important; } .lesson-steps, .lesson-step-next, .lesson-tally { display: none !important; } }
+.klassia-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 0 0 18px; padding: 0; list-style: none; }
+.klassia-stats li { display: grid; gap: 2px; padding: 12px; border: 1px solid #dce2f0; border-radius: 14px; background: #fff; }
+.klassia-stats strong { font-size: 1.5rem; color: #172033; }
+.klassia-stats li > span:last-child { color: #46526b; font-size: .92rem; }
+.klassia-progress-rows { display: grid; gap: 10px; margin: 0 0 18px; padding: 0; list-style: none; }
+.klassia-progress-rows li { display: flex; gap: 12px; align-items: flex-start; padding: 12px; border: 1px solid #dce2f0; border-radius: 14px; background: #fff; }
+.klassia-progress-rows li > div { flex: 1; min-width: 0; }
+.klassia-progress-icon { font-size: 1.5rem; }
+.klassia-progress-head { display: flex; justify-content: space-between; gap: 10px; }
+.klassia-progress-rows progress { width: 100%; height: 10px; margin: 6px 0 4px; }
+.klassia-progress-rows p { margin: 0; color: #46526b; font-size: .92rem; }
 .klassia-tabs { display: flex; justify-content: center; gap: 6px; margin: 18px auto; padding: 6px; max-width: 560px; }
 .klassia-tabs a { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 52px; padding: 6px 4px; border-radius: 12px; color: #52607a; font-size: .8rem; font-weight: 700; text-decoration: none; }
 .klassia-tabs a[aria-current="page"] { color: #243f83; background: #e6edff; }

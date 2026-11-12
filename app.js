@@ -165,9 +165,7 @@ function shell(body, active = 'home') {
         <button id="logout" class="iconBtn" title="Déconnexion" aria-label="Déconnexion">↪</button>
       </header>
       <main class="main">${body}</main>
-      <nav class="mobile-nav" aria-label="Navigation mobile">
-        ${nav.map(([id, icon, label]) => `<button data-go="${id}" class="${active === id ? 'active' : ''}"><span class="mobile-nav-icon">${icon}</span><span>${label}</span></button>`).join('')}
-      </nav>
+      ${Klassia.tabBar(nav.map(([id, icon, label]) => [id, icon, label, '#' + id]), active, true)}
     </div>`;
   document.querySelectorAll('[role=button][tabindex]').forEach(el=>el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.click();}});
   document.querySelectorAll('[data-go]').forEach(b => b.onclick = () => location.hash = '#' + b.dataset.go);

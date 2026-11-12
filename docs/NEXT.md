@@ -11,7 +11,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 1. Mode famille | tout | — | — |
 | 2. Corrections enrichies | 2a à 2g | — | — |
 | 3. Semaine et manuels | SIL, CE1, CE2 ; manuels de français SIL et CE2 | — | sommaires des autres manuels |
-| 4. Format commun | formats d’exercices, classes jumelles ; moteur unique décidé (ADR-014) : registre des classes (M1), modèle commun et leçons en quatre étapes (M2), leçon CE2 en quatre étapes, bilan, exercices, QCM et listes communs (M3a à M3e) | fin de M3 (navigation, évaluation et projet du CE2 sur le moteur commun), M4 maternelle, M5 nettoyage (`MOTEUR_UNIQUE.md`) | — |
+| 4. Format commun | formats d’exercices, classes jumelles ; moteur unique décidé (ADR-014) : registre des classes (M1), modèle commun et leçons en quatre étapes (M2), leçon CE2 en quatre étapes, bilan, exercices, QCM, listes et barre d’onglets communs (M3a à M3f) | fin de M3 (accueil, suivi, évaluation et projet du CE2 sur le moteur commun), M4 maternelle, M5 nettoyage (`MOTEUR_UNIQUE.md`) | — |
 | 5. SIL | lecture avec sons enregistrés ; mesures, géométrie et anglais du programme (5c) | — | — |
 | 6. Maternelle | MS complétée, GS réécrite, vue anglaise ; parcours « programme » et « pour aller plus loin », 13 activités du programme ajoutées (6c) | — | relecture par un enseignant de maternelle ; images et voix |
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés dans toutes les matières sauf la langue nationale ; guide de lecture de l’œuvre de littérature et son QCM (7d) ; 35 dictées enregistrées | — | relecture du guide livre en main |

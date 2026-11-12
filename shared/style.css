@@ -139,6 +139,16 @@
 .lesson-tally { padding: 10px 12px; border-radius: 10px; background: #eef6ee; color: #1d4d2c; font-weight: 700; }
 .lesson-next { font-weight: 700; }
 @media print { .lesson-step[data-step] { display: block !important; } .lesson-steps, .lesson-step-next, .lesson-tally { display: none !important; } }
+.klassia-tabs { display: flex; justify-content: center; gap: 6px; margin: 18px auto; padding: 6px; max-width: 560px; }
+.klassia-tabs a { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 52px; padding: 6px 4px; border-radius: 12px; color: #52607a; font-size: .8rem; font-weight: 700; text-decoration: none; }
+.klassia-tabs a[aria-current="page"] { color: #243f83; background: #e6edff; }
+.klassia-tabs-icon { font-size: 1.15rem; line-height: 1; }
+@media (max-width: 680px) {
+ .klassia-tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; margin: 0; max-width: none; padding: 5px 5px max(5px, env(safe-area-inset-bottom)); background: rgba(255,255,255,.97); border-top: 1px solid #dce2f0; box-shadow: 0 -8px 25px rgba(30,40,70,.07); }
+ body:has(.klassia-tabs) { padding-bottom: 76px; }
+}
+@media (min-width: 681px) { .klassia-tabs-mobile { display: none; } }
+@media print { .klassia-tabs { display: none !important; } }
 .klassia-lessons { display: grid; gap: 8px; margin: 0 0 18px; padding: 0; list-style: none; }
 .klassia-lesson-item { display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 10px 12px; border: 1px solid #dce2f0; border-radius: 14px; background: #fff; color: #172033; text-decoration: none; }
 .klassia-lesson-item:hover, .klassia-lesson-item:focus-visible { border-color: #3157d5; }

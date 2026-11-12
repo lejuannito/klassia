@@ -90,3 +90,9 @@ Ce fichier conserve uniquement les décisions structurantes utiles aux prochaine
 **Décision (12 novembre 2026, lot 9c) :** un appareil neuf n’installe plus les cinq classes d’un bloc, mais la base commune et la classe de l’enfant ; la famille ajoute ou retire des classes. Les appareils déjà installés gardent tout.
 
 **Conséquence :** chaque fichier du manifeste appartient à un paquet ; le choix des classes est propre à l’appareil, pas au profil. La recherche et le suivi doivent tolérer une classe absente hors connexion et le dire. Les futures classes anglophones et les sons enregistrés arriveront comme de nouveaux paquets.
+
+## ADR-016 — Habillage commun du primaire : la barre d’onglets
+
+**Décision (porteur de projet, 12 novembre 2026) :** SIL, CE1 et CE2 partagent la barre d’onglets en bas d’écran et un accueil de classe, sur le modèle du CE2. La maternelle garde sa présentation par thèmes et sa fiche parent, pensées pour l’adulte.
+
+**Conséquence :** un seul moteur en dessous, deux habillages (primaire, maternelle). Les classes anglophones du primaire prendront la barre d’onglets.

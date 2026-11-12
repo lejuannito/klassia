@@ -23,7 +23,11 @@ Les 32 leçons de lecture de SIL (`SIL-U<n>-R1` à `R4`) ont un enregistrement d
 
 Les huit leçons d’anglais de SIL d’après le programme francophone (`SIL-U<n>-E1`) ont de même un support enregistré et une écoute (`sil-u<n>-e1-lecture.mp3`, `sil-u<n>-e1-ecoute-2.mp3`) : 16 extraits, environ 580 ko, avec le modèle `en_GB-cori-medium`.
 
-Pour refaire ou compléter ces extraits : `python3 scripts/audio-sil.py --voices <dossier des modèles>` (paquet `piper-tts`, FFmpeg avec libmp3lame). Le script ne remplace pas un enregistrement existant et ajoute le champ `audio` à côté du texte.
+## Dictées et écoutes du CE1
+
+Les 35 entraînements « Écoute et écris » du CE1 qui n’avaient que le volet adulte (orthographe, conjugaison, grammaire, nombres en lettres, anglais) ont un enregistrement `ce1-u<n>-<leçon>-ecoute-3.mp3` : 35 extraits, environ 530 ko, mêmes réglages (une pause de 1,6 s après chaque élément pour écrire). L’enfant peut s’entraîner sans adulte qui lise ; le texte reste dans le volet adulte.
+
+Pour refaire ou compléter ces extraits : `python3 scripts/audio-sil.py --voices <dossier des modèles>` (ajouter `--grade ce1` pour le CE1) (paquet `piper-tts`, FFmpeg avec libmp3lame). Le script ne remplace pas un enregistrement existant et ajoute le champ `audio` à côté du texte.
 
 La voix française utilise le modèle `fr_FR-siwis-medium`. Le corpus de Yamagishi, Honnet, Garner et Lazaridis est attribué à l’Université d’Édimbourg et diffusé sous CC BY 4.0. La voix anglaise utilise le modèle `en_GB-cori-medium` de Bryce Beattie, entraîné sur des enregistrements LibriVox indiqués comme relevant du domaine public dans la fiche du modèle. Klassia a utilisé ces modèles pour synthétiser ses propres textes. [Corpus SIWIS](https://doi.org/10.7488/ds/1705) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [Modèle SIWIS](https://huggingface.co/rhasspy/piper-voices/blob/e7229f7d33a10e145e109b886d661984201ac3c4/fr/fr_FR/siwis/medium/MODEL_CARD) · [Modèle Cori](https://huggingface.co/rhasspy/piper-voices/blob/e7229f7d33a10e145e109b886d661984201ac3c4/en/en_GB/cori/medium/MODEL_CARD)
 

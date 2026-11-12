@@ -134,7 +134,9 @@ assert.equal(ce1Lessons, 191);
  for(const ref of ce1Catalog.units)for(const l of read(`ce1/data/${ref.path}`).lessons)unitOf.set(l.id,ref.id);
  for(const s of bank.series){editorial(s);assert.ok(s.id&&s.subject&&s.questions.length,'CE1 QCM series '+s.id);
   for(const q of s.questions){n++;assert.ok(q.id&&q.enonce&&q.corrige,'CE1 QCM '+q.id);assert.ok(q.choix.length>=2&&new Set(q.choix).size===q.choix.length&&Number.isInteger(q.bonne)&&q.bonne>=0&&q.bonne<q.choix.length,'CE1 QCM choices '+q.id);assert.equal(unitOf.get(q.lecon),s.unit,'CE1 QCM lesson '+q.id);}}
- assert.equal(n,168);assert.equal(bank.series.length,32);}
+ assert.equal(n,184);assert.equal(bank.series.length,32);
+ // Lot 7d : deux questions par unité sur l'œuvre de littérature, reliées à la leçon CE1-U<n>-LT.
+ for(let u=1;u<=8;u++)assert.equal(bank.series.flatMap(s=>s.questions).filter(q=>q.lecon===`CE1-U${u}-LT`).length,2,'CE1 literature QCM '+u);}
 // Lot 4c : chaque classe francophone déclare son sous-système, sa langue et sa classe anglophone jumelle,
 // la même que celle que propose l'accueil (familyClasses dans shared/ui.js).
 // ADR-013 et ADR-014 : le registre unique des classes (shared/classes.js) est la seule liste de classes ; chaque catalogue

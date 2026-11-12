@@ -11,7 +11,7 @@ const server=http.createServer((req,res)=>{
  await new Promise(r=>server.listen(8770,'127.0.0.1',r));let b;
  try{
  b=await chromium.launch({...(process.env.KLASSIA_CHROMIUM?{executablePath:process.env.KLASSIA_CHROMIUM}:{}),headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
- const ctx=await b.newContext({viewport:{width:320,height:844},serviceWorkers:'allow'}),p=await ctx.newPage(),errors=[];
+ const ctx=await b.newContext({viewport:{width:320,height:844},serviceWorkers:'allow'});await require('./offline-all.cjs')(ctx);const p=await ctx.newPage(),errors=[];
  p.setDefaultTimeout(15000);p.on('pageerror',e=>errors.push(e.message));const base='http://127.0.0.1:8770/klassia/';
  async function query(q){await p.locator('[name=q]').fill(q);await p.locator('button[type=submit]').click();await p.waitForFunction(()=>!document.querySelector('#searchStatus').textContent.includes('Recherche dans'));}
  await p.goto(base+'search.html');await query('les états de l’eau');

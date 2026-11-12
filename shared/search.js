@@ -29,21 +29,26 @@
   // Read catalog paths instead of maintaining a second curriculum inventory.
   const C=typeof module==='object'&&module.exports?require('./classes.js'):globalThis.Klassia,catalogs=Object.fromEntries(await Promise.all(C.classes.map(async c=>[c.grade,await get(c.catalog)]))),ce2=catalogs.CE2;
   const jobs=[];
-  for(const u of ce2.units)jobs.push(async()=>{
+  // Lot 9c : une classe non installée sur cet appareil (réponse du service worker) est sautée et signalée ;
+  // toute autre erreur fait échouer la recherche plutôt que de donner des résultats incomplets sans le dire.
+  const missing=new Set(),guard=(grade,job)=>async()=>{try{await job();}catch(e){if(e&&e.notInstalled)missing.add(grade);else throw e;}};
+  const push=jobs.push.bind(jobs);jobs.push=(grade,job)=>push(guard(grade,job));
+  for(const u of ce2.units)jobs.push('CE2',async()=>{
    const data=await get(`data/content-u${u.number}.json`);
    for(const s of data.subjects)for(const l of s.lessons)records.push(record('CE2',s.name,l,`./?unit=${u.id}#lesson:${encodeURIComponent(l.id)}`));
   });
-  for(const {grade,dir} of C.classes.filter(c=>c.engine==='activities'))for(const t of catalogs[grade].themes)jobs.push(async()=>{
+  for(const {grade,dir} of C.classes.filter(c=>c.engine==='activities'))for(const t of catalogs[grade].themes)jobs.push(grade,async()=>{
    const data=await get(`${dir}data/themes/${t.id}.json`);
    for(const d of data.domains)d.activities.forEach((l,i)=>records.push(record(grade,d.name_fr,l,`${dir}?theme=${t.id}#domain:${d.id}:${i}`)));
   });
-  for(const {grade,dir} of C.classes.filter(c=>c.engine==='lessons'))for(const u of catalogs[grade].units)jobs.push(async()=>{
+  for(const {grade,dir} of C.classes.filter(c=>c.engine==='lessons'))for(const u of catalogs[grade].units)jobs.push(grade,async()=>{
    const data=u.lessons?u:await get(`${dir}data/${u.path}`);
    for(const l of data.lessons)records.push(record(grade,l.domain,l,`${dir}#lesson:${encodeURIComponent(l.id)}`));
   });
   let next=0;
   await Promise.all(Array.from({length:4},async()=>{while(next<jobs.length)await jobs[next++]();}));
-  return records;
+  const list=missing.size?records.filter(r=>!missing.has(r.grade)):records;list.missing=[...missing];
+  return list;
  }
  const matches=(list,q)=>list.some(w=>w===q||(q.length>=4&&w.startsWith(q)));
  function excerpt(r,query){
@@ -86,13 +91,13 @@
    if(!terms(query).length){status.textContent='Saisissez une notion, par exemple : les états de l’eau.';return;}
    status.textContent='Recherche dans les cinq classes…';
    try{
-    if(!loading)loading=load(async p=>{const r=await fetch(new URL(p,location.href));if(!r.ok)throw Error('Contenu indisponible');return r.json();}).catch(e=>{loading=null;throw e;});
+    if(!loading)loading=load(async p=>{const r=await fetch(new URL(p,location.href));if(!r.ok){const e=Error('Contenu indisponible');e.notInstalled=r.headers.has('X-Klassia-Not-Installed');throw e;}return r.json();}).catch(e=>{loading=null;throw e;});
     const records=await loading;if(token!==revision)return;
     const selected=subjectFilter;
     subject.replaceChildren(new Option('Toutes les matières',''),...[...new Set(records.map(r=>r.subject))].sort().map(s=>new Option(s,s)));
     subject.value=selected;
     found=search(records,query,{grade:gradeFilter,subject:subject.value});shown=0;
-    status.textContent=found.length?`${found.length} résultat${found.length>1?'s':''} · les titres et objectifs sont prioritaires.`:'Aucun résultat. Essayez moins de mots ou une autre notion, ou retirez les filtres.';page();
+    status.textContent=(found.length?`${found.length} résultat${found.length>1?'s':''} · les titres et objectifs sont prioritaires.`:'Aucun résultat. Essayez moins de mots ou une autre notion, ou retirez les filtres.')+(records.missing?.length?` Hors connexion, la recherche ne couvre pas ${records.missing.join(', ')} : ${records.missing.length>1?'ces classes ne sont pas installées':'cette classe n’est pas installée'} sur cet appareil.`:'');page();
    }catch{if(token===revision)status.textContent='Recherche indisponible : vérifiez la connexion ou attendez le téléchargement complet des cinq classes, puis réessayez.';}
   }
   form.onsubmit=e=>{e.preventDefault();run();};grade.onchange=run;subject.onchange=run;more.onclick=page;

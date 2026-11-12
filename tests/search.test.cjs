@@ -35,3 +35,10 @@ test('title outranks objectives, which outrank body; relevant exercise/support t
 test('failed loading rejects rather than presenting incomplete search results',async()=>{
  await assert.rejects(S.load(async p=>{if(p==='data/catalog.json')throw Error('offline pack missing');return JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));}),/offline pack missing/);
 });
+
+test('offline, a class that is not installed is skipped and named; other failures still reject',async()=>{
+ const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
+ const records=await S.load(async p=>{if(p.startsWith('sil/data/sil-u')){const e=Error('Contenu indisponible');e.notInstalled=true;throw e;}return read(p);});
+ assert.deepEqual(records.missing,['SIL']);assert.equal(records.filter(r=>r.grade==='SIL').length,0);assert.equal(records.filter(r=>r.grade==='CE1').length,191);
+ await assert.rejects(S.load(async p=>{if(p.startsWith('ce1/data/unit'))throw Error('broken file');return read(p);}),/broken file/);
+});

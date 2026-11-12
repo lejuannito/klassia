@@ -32,3 +32,14 @@ test('the common lesson model reads the three data formats in four steps',()=>{
  assert.deepEqual(M.attemptsSummary([{kind:'mcq',exercise:'FR-U1-L1:1',ok:true},{kind:'number',exercise:'FR-U1-L1-E3',ok:false},{kind:'mcq',exercise:'FR-U1-L10:0',ok:true}],'FR-U1-L1'),{checked:2,right:1,self:0,selfOk:0},'CE2 keys');
  assert.equal(M.tallyText({checked:2,right:1,self:0,selfOk:0}),'1 réponse juste sur 2 vérifiées');assert.match(M.tallyText({checked:0,self:0},true),/No answer checked/);
 });
+
+test('a CE2 unit reads as a unit of the common engine, with the same lesson ids',()=>{
+ const M=require('../shared/lesson-model.js'),fs=require('fs'),path=require('path'),read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
+ const cat=read('data/catalog.json'),u=M.ce2Unit(cat.units[0],read(cat.units[0].content));
+ assert.equal(u.id,'U1');assert.equal(u.title_fr,'La maison');assert.equal(u.lessons.length,cat.units[0].lesson_count);
+ const l=u.lessons.find(x=>x.id==='FR-U1-L1');assert.equal(l.subject,'FR');assert.ok(l.course&&l.model&&l.takeaway&&l.objective);
+ assert.equal(l.practice[1].type,'mcq');assert.ok(Array.isArray(l.practice[1].choices));assert.equal(l.practice[0].type,undefined,'open questions become prompt and answer');
+ for(const x of u.lessons)assert.deepEqual(M.filled(M.fromLesson(x)),{decouvrir:true,retenir:true,exercer:true,point:true},x.id);
+ assert.equal(registry.currentClass('/klassia/ce2/').grade,'CE2');assert.ok(registry.inClassFolder('/klassia/ce2/index.html')&&registry.inClassFolder('/klassia/sil/')&&!registry.inClassFolder('/klassia/'));
+ assert.deepEqual(registry.classInfo('CE2').status,{A:'MAITRISEE',EC:'EN_COURS',R:'A_REVOIR'});
+});

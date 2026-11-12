@@ -46,7 +46,7 @@
     try {
       const c = window.Klassia?.currentClass?.();
       if (!c) return null;
-      if (c.dir) return c.grade;
+      if (c.dir || window.Klassia.inClassFolder?.()) return c.grade;
       const deep = /[?&]unit=/.test(location.search) || /^#(lesson|subject|eval|qcm|unit|project)\b/.test(location.hash);
       return deep && /\/(index\.html)?$/.test(location.pathname) ? c.grade : null;
     } catch { return null; }

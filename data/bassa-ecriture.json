@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "status": "documented_pending_review",
+  "notice": "Repères d’écriture tirés de deux références publiques. Ils décrivent des conventions ; ils ne valident aucune forme du lexique Klassia et n’ont été relus par aucun locuteur référent. Les variantes du lexique restent toutes acceptées.",
+  "sources": [
+    {
+      "id": "LGIDF2024",
+      "title": "Paul Roger Bassong et Anne Zribi-Hertz, « Le basaa », Langues et Grammaires du Monde dans l’Espace Francophone, CNRS, 2024 (HAL 04455092)",
+      "url": "https://lgidf.cnrs.fr/sites/lgidf.cnrs.fr/files/images/BASAA_A5.pdf"
+    },
+    {
+      "id": "AGLC",
+      "title": "Alphabet général des langues camerounaises (Tadadjeu et Sadembouo, Université de Yaoundé, 1979, rééd. 1984), présenté dans l’article « General Alphabet of Cameroon Languages » de Wikipédia",
+      "url": "https://en.wikipedia.org/wiki/General_Alphabet_of_Cameroon_Languages"
+    }
+  ],
+  "letters": [
+    {"letter": "ɓ", "name": "b crosse", "note": "Consonne implosive, différente du b français ; premier son de ɓasàa.", "source": "LGIDF2024"},
+    {"letter": "ŋ", "name": "eng", "note": "Lettre de l’alphabet général, employée dans ŋɛ̂m.", "source": "LGIDF2024"},
+    {"letter": "ɲ", "name": "n crochet", "note": "Lettre de l’alphabet général, employée dans la référence.", "source": "LGIDF2024"},
+    {"letter": "ɛ", "name": "e ouvert", "note": "Une des sept voyelles : i, e, ɛ, a, ɔ, o, u.", "source": "LGIDF2024"},
+    {"letter": "ɔ", "name": "o ouvert", "note": "Une des sept voyelles : i, e, ɛ, a, ɔ, o, u.", "source": "LGIDF2024"},
+    {"letter": "tj", "name": "t j", "note": "Deux lettres pour un seul son, comme « tch ».", "source": "LGIDF2024"},
+    {"letter": "dj", "name": "d j", "note": "Deux lettres pour un seul son, comme « dj ».", "source": "LGIDF2024"}
+  ],
+  "tones": [
+    {"mark": "́", "name": "ton haut", "sign": "accent aigu", "example": "lɔ́", "gloss": "vomir", "source": "LGIDF2024"},
+    {"mark": "", "name": "ton moyen", "sign": "pas d’accent", "example": "lɔ", "gloss": "venir, au présent", "source": "LGIDF2024"},
+    {"mark": "̀", "name": "ton bas", "sign": "accent grave", "example": "lɔ̀", "gloss": "venir", "source": "LGIDF2024"},
+    {"mark": "̂", "name": "ton haut-bas", "sign": "accent circonflexe", "example": "ŋɛ̂m", "gloss": "cœur", "source": "LGIDF2024"},
+    {"mark": "̌", "name": "ton bas-haut", "sign": "accent en forme de v", "example": "djǒl", "gloss": "nez", "source": "LGIDF2024"}
+  ],
+  "examples": [
+    {"form": "káat", "gloss": "livre"},
+    {"form": "lép", "gloss": "rivière"},
+    {"form": "malép", "gloss": "rivières ; eau"},
+    {"form": "mudaá", "gloss": "femme"},
+    {"form": "hinuní", "gloss": "oiseau"},
+    {"form": "dinuní", "gloss": "oiseaux"},
+    {"form": "tambá", "gloss": "chapeau"},
+    {"form": "litjɛɛ́", "gloss": "œuf"},
+    {"form": "djuú", "gloss": "nuit"}
+  ],
+  "examples_source": "LGIDF2024",
+  "open_questions": [
+    "La référence de 2024 n’écrit pas d’accent sur le ton moyen ; l’alphabet général prévoit aussi un macron pour un ton moyen. Le lexique Klassia contient les deux usages.",
+    "Les sources anciennes du lexique emploient ñ et ny ; leur correspondance avec ŋ et ɲ est à établir par un relecteur.",
+    "Quand deux voyelles se suivent, la référence de 2024 donne un ton à chacune (litjɛɛ́) ; l’alphabet général écrit les voyelles longues en doublant la lettre.",
+    "La variété décrite par la référence de 2024 est le mbɛnɛ ; les autres parlers ne sont pas décrits.",
+    "La référence de 2024 note aussi une consonne β (βinân, « ordures ») ; son emploi dans l’écriture scolaire est à confirmer."
+  ],
+  "keys": ["ɓ", "ŋ", "ɲ", "ɛ", "ɔ", "́", "̀", "̂", "̌"]
+}

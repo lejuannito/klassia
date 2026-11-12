@@ -3,6 +3,18 @@
  'use strict';
  const normalize=s=>String(s??'').normalize('NFC').trim().replace(/\s+/g,' ').toLocaleLowerCase('fr').replace(/[.!?]+$/,'').trim();
  const accepts=(entry,value)=>normalize(value)!==''&&entry.forms.some(f=>normalize(f)===normalize(value));
+ // Lot 8b : une réponse tapée sans les marques de ton est acceptée avec une annotation qui montre la forme documentée ;
+ // les lettres (ɓ, ŋ, ɛ, ɔ…) ne sont pas rapprochées d'autres lettres. Les touches aident les claviers qui n'ont pas ces signes.
+ const TONE_MARKS=/[\u0300\u0301\u0302\u0304\u030C\u1DC4-\u1DC9]/g;
+ const toneless=s=>normalize(s).normalize('NFD').replace(TONE_MARKS,'').normalize('NFC');
+ const tonelessMatch=(entry,value)=>toneless(value)===''?null:entry.forms.find(f=>toneless(f)===toneless(value))||null;
+ const KEYS=[['ɓ','b crosse'],['ŋ','eng'],['ɲ','n crochet'],['ɛ','e ouvert'],['ɔ','o ouvert'],['\u0301','ton haut, accent aigu'],['\u0300','ton bas, accent grave'],['\u0302','ton haut-bas, accent circonflexe'],['\u030C','ton bas-haut, accent en v']];
+ function keys(input){
+  const box=document.createElement('div');box.className='bassa-keys';box.setAttribute('role','group');box.setAttribute('aria-label','Lettres et tons du bassa');
+  for(const [ch,label] of KEYS){const b=document.createElement('button');b.type='button';b.textContent=ch.length===1&&ch.charCodeAt(0)>=0x300&&ch.charCodeAt(0)<0x370?'\u25CC'+ch:ch;b.setAttribute('aria-label',label);b.title=label;
+   b.onclick=()=>{const start=input.selectionStart??input.value.length,end=input.selectionEnd??start,head=(input.value.slice(0,start)+ch).normalize('NFC');input.value=head+input.value.slice(end);input.focus();try{input.setSelectionRange(head.length,head.length);}catch{}};box.append(b);}
+  return box;
+ }
  const hasText=value=>typeof value==='string'&&value.trim().length>0;
  const isReference=value=>typeof value==='string'&&/^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(value);
  function isPublishableRecording(entry, recording) {
@@ -15,7 +27,7 @@
    && typeof recording.sha256==='string' && /^[a-f0-9]{64}$/.test(recording.sha256)
    && (recording.credit===undefined || hasText(recording.credit));
  }
- if(!K)return {normalize,accepts,isPublishableRecording};
+ if(!K)return {normalize,accepts,toneless,tonelessMatch,KEYS:KEYS.map(k=>k[0]),isPublishableRecording};
  const base=new URL('../',document.currentScript.src),E=K.escape;
  const get=p=>fetch(new URL(p,base)).then(r=>{if(!r.ok)throw Error('Lexique indisponible');return r.json();});
  let ready, playing;
@@ -156,9 +168,9 @@
    const select=section.querySelector('select'),input=section.querySelector('input'),feedback=section.querySelector('.bassa-result');
    function current(){return entries[Number(select.value)];}
    function draw(){input.value='';feedback.textContent='';const x=current();section.querySelector('.bassa-task').textContent='Donne une forme bassa proposée pour : '+x.concept;const choices=section.querySelector('.bassa-choices');choices.replaceChildren();for(const f of x.forms){const b=document.createElement('button');b.type='button';b.textContent=f;b.onclick=()=>{input.value=f;input.focus();};choices.append(b);}}
-   function check(){feedback.textContent=accepts(current(),input.value)?'Réponse acceptée. Cette traduction reste une proposition documentaire à confirmer.':'Cette forme ne figure pas dans les propositions pour ce sens. Compare les variantes ci-dessus ou choisis-en une; aucune note n’est attribuée.';}
-   select.onchange=draw;section.querySelector('.bassa-submit').onclick=check;input.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();check();}};draw();
+   function check(){const near=accepts(current(),input.value)?null:tonelessMatch(current(),input.value);feedback.textContent=accepts(current(),input.value)?'Réponse acceptée. Cette traduction reste une proposition documentaire à confirmer.':near?'Réponse acceptée sans les marques de ton. Forme proposée : '+near+'. Cette traduction reste une proposition documentaire à confirmer.':'Cette forme ne figure pas dans les propositions pour ce sens. Compare les variantes ci-dessus ou choisis-en une; aucune note n’est attribuée.';}
+   input.closest('label').after(keys(input));select.onchange=draw;section.querySelector('.bassa-submit').onclick=check;input.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();check();}};draw();
   }catch(e){section.innerHTML='<h2>Bassa</h2><p>'+E(e.message)+'</p><button class="classBtn">Réessayer</button>';section.querySelector('button').onclick=()=>{section.remove();mount(container,grade,lessonId);};}
  }
- return {normalize,accepts,mount,mountAudio};
+ return {normalize,accepts,toneless,tonelessMatch,keys,KEYS:KEYS.map(k=>k[0]),mount,mountAudio};
 });

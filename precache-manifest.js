@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "286a0540572bd92593bb19b52917d389eef68b55b3af04b8cf5591822e971590",
+  "version": "4c670663f922b1184c817e4c0f523c81b4ca19eaf9af986962d4bcdc6f45d917",
   "packs": {
     "common": {
       "files": 69,
-      "bytes": 589061
+      "bytes": 597974
     },
     "CE1": {
       "files": 52,
@@ -1499,13 +1499,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "d119c43799fedaeac7269be0e412a8c7b93d6c198c00b7a6439dd49afc2bfe4d",
-      "size": 28340
+      "sha256": "7d87a34f2e6b8a3b96849649e79c90a2b80b3aba245c1724508201aff4d4eff7",
+      "size": 37077
     },
     {
       "url": "./shared/lesson-model.js",
-      "sha256": "6a856f5d89457ed3ac3f74afb2cdeba8ad5b3a4412c624c1b1b558d2ff3e50e5",
-      "size": 7023
+      "sha256": "f366985c2c71cd67b20128bfed6636c98b3202f45d70489b6c6889ddb08d7948",
+      "size": 7199
     },
     {
       "url": "./shared/lesson-steps.js",

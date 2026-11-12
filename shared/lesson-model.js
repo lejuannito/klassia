@@ -81,10 +81,11 @@
       remediation: text(l.teacher_guide?.remediation || ''), transfer: '', materials: '',
       practice: list(l.exercises).map(e => (e.type === 'number' || (e.type === 'mcq' && e.choices)) ? e
         : {prompt: e.prompt, answer: text(e.answer), explanation: text(e.explanation), ...(e.accept ? {accept: e.accept, reject: e.reject || []} : {})}),
-      source: {title: text(l.source)}, editorial: l.editorial || {notes: ''}, manual_sections: l.manual_sections || null, figure: l.figure || null
+      source: {title: text(l.source)}, editorial: l.editorial || {notes: ''}, manual_sections: l.manual_sections || null, figure: l.figure || null, teacher_guide: l.teacher_guide || null
     });
-    return {id: entry.id, number: entry.number, title_fr: entry.title, title_en: '', subcentres: entry.subcentres, project: '',
-      subjects: content.subjects.map(s => ({id: s.id, name: s.name, assessment: s.assessment || null})), lessons};
+    return {id: entry.id, number: entry.number, title_fr: entry.title, title_en: '', subcentres: entry.subcentres, project: text(content.integration_project?.title),
+      integration_project: content.integration_project || null,
+      subjects: content.subjects.map(s => ({id: s.id, name: s.name, assessment: s.assessment || null, remediation: s.remediation || []})), lessons};
   }
   // Phrase du bilan affiché dans « Je fais le point ».
   function tallyText(t, en) {

@@ -83,7 +83,9 @@ async function showSeries(id){const b=await qcmBank(),s=b.series.find(x=>x.id===
 const source=s=>s?`<a href="${E(s.url||'#')}" target="_blank" rel="noopener">${E(s.title)} · ${E(s.pages||'')}</a>`:'';
 function frame(body){root.innerHTML=`<header class="gs-top"><a href="${E(c.back)}">K Klassia</a><strong>${E(c.grade)}</strong></header><main class="gs-wrap"><p class="gs-notice">Édition pilote accompagnée · relecture pédagogique en cours</p>${body}</main>`;K.rendered();}
 function hero(title,description){return `<section class="gs-hero"><h1>${E(title)}</h1><p>${E(description)}</p></section>`;}
-function pick(l,u){return `<a class="gs-card gs-picker" href="#lesson:${encodeURIComponent(l.id)}"><p class="eyebrow">${E(l.domain)} · ${E(u.id)}${l.week?' · '+(l.week===4?'semaine 4, bilan':'semaine '+l.week):''}</p><h2>${E(l.title)}</h2><p>${E(l.objective)}</p><span>${status(progress[l.id])} · Ouvrir la leçon →</span></a>`;}
+// Liste de leçons commune (K.lessonList, shared/ui.js).
+const kind=st=>st==='A'?'done':st==='EC'?'doing':'todo';
+const item=(l,u)=>({href:'#lesson:'+encodeURIComponent(l.id),title:l.title,eyebrow:l.domain+' · '+u.id+(l.week?' · '+(l.week===4?'semaine 4, bilan':'semaine '+l.week):''),detail:l.objective,status:{label:status(progress[l.id]),kind:kind(progress[l.id])}});
 function listUnits() {
  const cards = units.map(unit => ({
   href: '#unit:' + unit.id, title: unit.title_fr, translation: unit.title_en, code: unit.id,
@@ -91,16 +93,16 @@ function listUnits() {
  }));
  frame(K.catalogue('Parcourir les unités', 'Choisis une unité, puis une leçon.', cards));
 }
-function showUnit(id){const u=units.find(x=>x.id===id);if(!u)return notFound();frame(`<a href="#units">← Toutes les unités</a>`+hero(u.title_fr,u.title_en+' · '+u.project)+`<section class="gs-grid">${u.lessons.map(l=>pick(l,u)).join('')}</section>`);}
+function showUnit(id){const u=units.find(x=>x.id===id);if(!u)return notFound();frame(`<a href="#units">← Toutes les unités</a>`+hero(u.title_fr,u.title_en+' · '+u.project)+K.lessonList(u.lessons.map(l=>item(l,u))));}
 function listSubjects() {
  const names = [...new Set(lessons.map(item => item.l.domain))];
  const cards = names.map(title => ({ title, href: '#subject:' + encodeURIComponent(title),
   count: lessons.filter(item => item.l.domain === title).length + ' leçons' }));
  frame(K.catalogue('Parcourir les matières', 'Les leçons de chaque matière sont réunies sur les huit unités.', cards));
 }
-function showSubject(s){const items=lessons.filter(x=>x.l.domain===s);if(!items.length)return notFound();frame(`<a href="#subjects">← Toutes les matières</a>`+hero(s,'Choisissez une leçon.')+`<section class="gs-grid">${items.map(x=>pick(x.l,x.u)).join('')}</section>`);}
+function showSubject(s){const items=lessons.filter(x=>x.l.domain===s);if(!items.length)return notFound();frame(`<a href="#subjects">← Toutes les matières</a>`+hero(s,'Choisissez une leçon.')+K.lessonList(items.map(x=>item(x.l,x.u))));}
 function listDomains(){frame(hero('Parcourir les domaines','Une matière peut contribuer à plusieurs domaines du programme.')+`<section class="gs-grid">${catalog.domains.map((d,i)=>`<a class="gs-card gs-picker" href="#domain:${i}"><h2>${E(d.title)}</h2><p>${E(d.subjects.join(' · '))}</p></a>`).join('')}</section>`);}
-function showDomain(i){const d=catalog.domains[Number(i)];if(!d)return notFound();frame(`<a href="#domains">← Tous les domaines</a>`+hero(d.title,'Leçons rattachées à ce domaine.')+`<section class="gs-grid">${lessons.filter(x=>d.subjects.includes(x.l.domain)).map(x=>pick(x.l,x.u)).join('')}</section>`);}
+function showDomain(i){const d=catalog.domains[Number(i)];if(!d)return notFound();frame(`<a href="#domains">← Tous les domaines</a>`+hero(d.title,'Leçons rattachées à ce domaine.')+K.lessonList(lessons.filter(x=>d.subjects.includes(x.l.domain)).map(x=>item(x.l,x.u))));}
 // Leçons en quatre étapes (ADR-014, M2) : une étape à la fois, ou toute la leçon si l'appareil l'a choisi (« Toute la leçon »).
 const revealStep=el=>K.lessonSteps.reveal(el);
 function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)return notFound();K.write(recentKey,{lessonId:id,at:Date.now()});const {l,u}=found,i=u.lessons.indexOf(l),en=l.domain.startsWith('English');

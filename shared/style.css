@@ -139,6 +139,19 @@
 .lesson-tally { padding: 10px 12px; border-radius: 10px; background: #eef6ee; color: #1d4d2c; font-weight: 700; }
 .lesson-next { font-weight: 700; }
 @media print { .lesson-step[data-step] { display: block !important; } .lesson-steps, .lesson-step-next, .lesson-tally { display: none !important; } }
+.klassia-lessons { display: grid; gap: 8px; margin: 0 0 18px; padding: 0; list-style: none; }
+.klassia-lesson-item { display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 10px 12px; border: 1px solid #dce2f0; border-radius: 14px; background: #fff; color: #172033; text-decoration: none; }
+.klassia-lesson-item:hover, .klassia-lesson-item:focus-visible { border-color: #3157d5; }
+.klassia-lesson-no { flex: 0 0 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; background: #eef2ff; color: #243f83; font-weight: 800; }
+.klassia-lesson-text { flex: 1; min-width: 0; display: grid; gap: 2px; }
+.klassia-lesson-eyebrow { font-size: .875rem; color: #52607a; }
+.klassia-lesson-detail { font-size: .92rem; color: #46526b; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.klassia-lesson-status { flex: none; padding: 3px 9px; border-radius: 999px; background: #eef1f6; color: #3b4660; font-size: .875rem; font-weight: 700; white-space: nowrap; }
+.klassia-lesson-item[data-status="done"] .klassia-lesson-status { background: #e3f4e6; color: #17532a; }
+.klassia-lesson-item[data-status="doing"] .klassia-lesson-status { background: #e6edff; color: #243f83; }
+.klassia-lesson-item[data-status="review"] .klassia-lesson-status { background: #fff1d6; color: #7a4a00; }
+.klassia-lesson-go { color: #7a869f; font-size: 1.3rem; }
+@media (max-width: 480px) { .klassia-lesson-item { flex-wrap: wrap; } .klassia-lesson-status { margin-left: 46px; } .klassia-lesson-go { display: none; } }
 .klassia-cheer { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; margin: 0 0 1.1rem; padding: .7rem 1rem; border-radius: 12px; background: #fff7e0; border: 1px solid #ecd28a; color: #4a3500; font-size: 1rem; }
 .klassia-continue-eyebrow { margin: 0; font-size: .85rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: #cfe0ff; }
 .klassia-continue h2 { margin: 0; font-size: 1.3rem; line-height: 1.25; color: #fff; }

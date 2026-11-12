@@ -319,20 +319,9 @@ function subject(id) {
       <div class="grow"><div class="eyebrow">UNITÉ ${unitNumber()} · ${esc(unitTitle().toUpperCase())}</div><h1>${esc(s.name)}</h1><p>${done}/${s.lessons.length} leçons déclarées comprises</p><div class="progress"><span style="width:${pct}%"></span></div></div>
       <div class="subject-score">${pct}%</div>
     </section>
-    <div class="lessonList">`;
-
-  s.lessons.forEach((l, i) => {
-    const st = p[l.id];
-    const [label, cls] = statusLabel(st);
-    body += `
-      <button class="lessonItem" onclick="location.hash='#lesson:${encodeURIComponent(l.id)}'">
-        <div class="lessonNo">${i + 1}</div>
-        <div class="grow"><b>${esc(l.title)}</b><div class="muted line-clamp">${esc(l.objectives?.[0] || '')}</div></div>
-        <span class="badge ${cls}">${label}</span><span class="chevron">›</span>
-      </button>`;
-  });
+    ${Klassia.lessonList(s.lessons.map(l => { const [label, cls] = statusLabel(p[l.id]); return { href: '#lesson:' + encodeURIComponent(l.id), title: l.title, detail: l.objectives?.[0] || '', status: { label, kind: { ok: 'done', warn: 'review', active: 'doing' }[cls] || 'todo' } }; }))}`;
   const ev = evalData()[id];
-  body += `</div>
+  body += `
     <section class="assessment-card">
       <div><div class="eyebrow">ÉVALUATION DE LA MATIÈRE</div><h3>${esc(s.assessment?.title || 'Évaluation')}</h3><p>${ev ? `Dernier résultat : <b>${esc(ev.score)}/20</b>` : 'À réaliser après les leçons de la matière.'}</p></div>
       <button class="btn primary" onclick="location.hash='#eval:${encodeURIComponent(s.id)}'">${ev ? 'Revoir' : 'Commencer'}</button>

@@ -60,6 +60,68 @@
       ]
     },
     {
+      "id": "CE1-U4-LT",
+      "domain": "Français · littérature",
+      "week": 2,
+      "title": "Ce qui ressemble à la vraie vie",
+      "objective": "Dans une fiction, repérer ce qui ressemble à la réalité : un lieu, une situation, un sentiment.",
+      "prerequisites": "Avoir le livre de littérature de la classe. Sans le livre, fais seulement les entraînements qui n’en ont pas besoin.",
+      "course": "Une fiction peut parler de la vraie vie. Dans ton livre, une élève arrive dans une école où l’on parle français. Elle vient d’une région où l’on parle surtout anglais.\nCette élève est inventée, mais cette situation existe : beaucoup d’enfants changent d’école et de langue.\nQuand on lit, on peut se demander : est-ce que cela m’est déjà arrivé ? Est-ce que je connais quelqu’un à qui c’est arrivé ?",
+      "model": "Dans le livre : la nouvelle camarade a du mal à parler français. Dans la vraie vie : un élève qui arrive d’ailleurs ne comprend pas toujours tous les mots. Les deux situations se ressemblent.",
+      "guided": "Raconte à l’adulte un jour où tu n’as pas compris ce qu’on te disait. Qu’est-ce qui t’a aidé ?",
+      "exercise": "Quelle langue la nouvelle camarade de Benjamin a-t-elle du mal à parler ?",
+      "answer": "Elle a du mal à parler français.",
+      "accept": [
+        "français",
+        "le français",
+        "la langue française"
+      ],
+      "reject": [
+        "anglais",
+        "l’anglais"
+      ],
+      "remediation": "Si l’enfant ne voit pas le lien avec la réalité, partir d’une situation vécue : un cousin, un voisin ou un camarade qui parle une autre langue.",
+      "transfer": "Apprendre trois mots dans la langue d’un camarade ou d’un voisin, et les lui dire.",
+      "materials": "Le livre « Comment ça va Benjamin ? » (Kidi Bebey, images de Christian Epanya, Africa Education). Un cahier pour le carnet de lecture.",
+      "practice": [
+        {
+          "prompt": "D’où vient la nouvelle camarade de Benjamin : d’une région anglophone ou d’une région francophone ?",
+          "answer": "D’une région anglophone.",
+          "accept": [
+            "anglophone",
+            "une région anglophone",
+            "d’une région anglophone"
+          ],
+          "reject": [
+            "francophone",
+            "une région francophone"
+          ],
+          "explanation": "Dans une région anglophone, on parle surtout anglais à l’école."
+        },
+        {
+          "prompt": "Écris deux façons d’aider un camarade qui ne parle pas encore bien la langue de la classe.",
+          "ink": "lignes",
+          "answer": "Exemples : parler lentement ; montrer l’objet ou faire un geste ; répéter ; lui apprendre un mot chaque jour ; jouer avec lui à la récréation.",
+          "explanation": "Aider, c’est chercher un moyen de se comprendre. On ne se moque pas."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 6 (littérature), p. 35, unité 4, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Guide de lecture rédigé sans le texte du livre, d’après la présentation de l’éditeur ; à relire livre en main."
+      },
+      "competencies": [
+        "lecture",
+        "littérature"
+      ]
+    },
+    {
       "id": "CE1-U4-L02",
       "domain": "Français",
       "title": "Employer un adjectif pour préciser un nom",

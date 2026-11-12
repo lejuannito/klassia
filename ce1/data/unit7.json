@@ -64,6 +64,105 @@
       }
     },
     {
+      "id": "CE1-U7-LT",
+      "domain": "Français · littérature",
+      "week": 2,
+      "title": "Le chemin de l’histoire",
+      "objective": "Analyser la dynamique d’un récit : situation de départ, problème, aide, fin ; observer les relations entre les personnages.",
+      "prerequisites": "Avoir le livre de littérature de la classe. Sans le livre, fais seulement les entraînements qui n’en ont pas besoin.",
+      "course": "Une histoire avance comme un chemin.\nAu début, on découvre les personnages et le lieu : c’est la situation de départ.\nPuis un problème arrive. Les personnages cherchent une solution : quelqu’un aide, quelqu’un change.\nÀ la fin, le problème est réglé ou la situation est différente.\nPour comprendre les personnages, on regarde aussi leurs relations : qui aide qui ? Qui apprend quelque chose à qui ?",
+      "support": {
+        "title": "Le chemin de « Comment ça va Benjamin ? »",
+        "table": {
+          "caption": "À compléter avec le livre",
+          "headers": [
+            "Étape",
+            "Dans le livre"
+          ],
+          "rows": [
+            [
+              "Situation de départ",
+              "Le premier jour de classe de Benjamin au CE1"
+            ],
+            [
+              "Problème",
+              "Une nouvelle camarade a du mal à parler français"
+            ],
+            [
+              "Aide",
+              "À chercher dans le livre : qui aide, et comment ?"
+            ],
+            [
+              "Fin",
+              "À chercher dans le livre"
+            ]
+          ]
+        }
+      },
+      "model": "Problème : la nouvelle camarade a du mal à parler français. Je cherche dans le livre : qui fait quelque chose pour l’aider ? Je note le nom du personnage et ce qu’il fait.",
+      "guided": "Avec le livre, montre la page où le problème commence, puis la page où quelqu’un aide.",
+      "exercise": "Dans l’histoire, quel est le problème de la nouvelle camarade ?",
+      "answer": "Elle a du mal à parler français, parce qu’elle vient d’une région anglophone.",
+      "remediation": "Si l’enfant ne trouve pas le problème, relire le passage où la camarade arrive et demander : qu’est-ce qui est difficile pour elle ?",
+      "transfer": "Retrouver le chemin d’une autre histoire connue : situation de départ, problème, aide, fin.",
+      "materials": "Le livre « Comment ça va Benjamin ? » (Kidi Bebey, images de Christian Epanya, Africa Education). Un cahier pour le carnet de lecture.",
+      "practice": [
+        {
+          "prompt": "Range les étapes d’une histoire dans l’ordre.",
+          "type": "order",
+          "items": [
+            "la situation de départ",
+            "le problème",
+            "l’aide",
+            "la fin"
+          ],
+          "answer": "La situation de départ, le problème, l’aide, la fin.",
+          "explanation": "Le problème vient après le début ; l’aide vient avant la fin."
+        },
+        {
+          "prompt": "Relie chaque personnage à ce que l’on sait de lui.",
+          "type": "match",
+          "pairs": [
+            [
+              "Benjamin",
+              "un élève de CE1"
+            ],
+            [
+              "madame Ettia",
+              "la maîtresse"
+            ],
+            [
+              "la nouvelle camarade",
+              "une élève qui vient d’une région anglophone"
+            ]
+          ],
+          "answer": "Benjamin : un élève de CE1 ; madame Ettia : la maîtresse ; la nouvelle camarade : une élève qui vient d’une région anglophone.",
+          "explanation": "On connaît un personnage par ce que le livre dit de lui."
+        },
+        {
+          "prompt": "Dans ton carnet, écris les noms des personnages. Trace une flèche « aide » de celui qui aide vers celui qui est aidé.",
+          "ink": "libre",
+          "answer": "Réponse à vérifier dans le livre avec un adulte. Chaque flèche correspond à un moment précis de l’histoire.",
+          "explanation": "Un schéma montre d’un coup d’œil les relations entre les personnages."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 6 (littérature), p. 36, unité 7, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Guide de lecture rédigé sans le texte du livre, d’après la présentation de l’éditeur ; à relire livre en main."
+      },
+      "competencies": [
+        "lecture",
+        "littérature"
+      ]
+    },
+    {
       "id": "CE1-U7-L02",
       "domain": "Français",
       "title": "Utiliser un dictionnaire pour vérifier un mot de jeu",

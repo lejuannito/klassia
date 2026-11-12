@@ -72,6 +72,66 @@
       ]
     },
     {
+      "id": "CE1-U6-LT",
+      "domain": "Français · littérature",
+      "week": 2,
+      "title": "Je donne mon avis sur le livre",
+      "objective": "Rendre compte d’une œuvre lue et donner son point de vue en l’expliquant.",
+      "prerequisites": "Avoir le livre de littérature de la classe. Sans le livre, fais seulement les entraînements qui n’en ont pas besoin.",
+      "course": "Donner son avis, c’est dire ce que l’on pense du livre et expliquer pourquoi.\nOn peut parler d’un personnage, d’un moment de l’histoire ou des images.\nOn commence par « J’ai aimé… parce que… » ou « Je n’ai pas aimé… parce que… ».\nDeux lecteurs peuvent avoir deux avis différents. L’important est d’expliquer.",
+      "model": "« J’ai aimé la maîtresse parce qu’elle apprend aux élèves à s’aider. » Je donne mon avis, puis ma raison après « parce que ».",
+      "guided": "Choisis ton passage préféré. Lis-le à voix haute à l’adulte, puis dis pourquoi tu l’as choisi.",
+      "exercise": "Écris ton avis sur le livre en deux phrases. Utilise « parce que ».",
+      "answer": "Réponse personnelle. Chaque phrase donne un avis et une raison. Exemple : « J’ai aimé la maîtresse parce qu’elle apprend à aider les autres. J’ai aimé les images parce qu’elles m’aident à comprendre l’histoire. »",
+      "remediation": "Si l’enfant répond seulement « c’est bien », demander : quel personnage ? quel moment ? quelle image ? Puis faire ajouter « parce que ».",
+      "transfer": "Donner son avis sur un autre livre, une chanson ou un dessin animé, toujours avec « parce que ».",
+      "materials": "Le livre « Comment ça va Benjamin ? » (Kidi Bebey, images de Christian Epanya, Africa Education). Un cahier pour le carnet de lecture.",
+      "practice": [
+        {
+          "prompt": "Complète la phrase avec le mot qui annonce la raison.",
+          "type": "gaps",
+          "text": "J’ai aimé ce livre [[parce qu’|parce que|car]] il parle de l’école.",
+          "answer": "J’ai aimé ce livre parce qu’il parle de l’école.",
+          "explanation": "« Parce que » annonce la raison. Devant « il », on écrit « parce qu’ »."
+        },
+        {
+          "prompt": "Quelle valeur la maîtresse enseigne-t-elle aux élèves : aider les autres ou gagner tout seul ?",
+          "answer": "Aider les autres.",
+          "accept": [
+            "aider les autres",
+            "aider",
+            "l’entraide"
+          ],
+          "reject": [
+            "gagner tout seul",
+            "gagner"
+          ],
+          "explanation": "Dans le livre, la maîtresse apprend aux élèves à venir en aide aux autres."
+        },
+        {
+          "prompt": "Dans ton carnet, dessine ton passage préféré et écris le numéro de la page.",
+          "ink": "libre",
+          "answer": "Réponse personnelle. Le dessin montre un moment du livre et le numéro de page permet de le retrouver.",
+          "explanation": "Noter la page permet de relire le passage et de le montrer à quelqu’un."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 6 (littérature), p. 36, unité 6, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Guide de lecture rédigé sans le texte du livre, d’après la présentation de l’éditeur ; à relire livre en main."
+      },
+      "competencies": [
+        "lecture",
+        "littérature"
+      ]
+    },
+    {
       "id": "CE1-U6-L02",
       "domain": "Français",
       "title": "Regrouper des mots en familles et utiliser l’ordre alphabétique",

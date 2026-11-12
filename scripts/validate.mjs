@@ -105,7 +105,7 @@ for(const ref of sil.units){const u=read(`sil/data/${ref.path}`);assert.ok(u.tit
  // Lot 5c: English, measures and geometry from the francophone Niveau 1 programme (SIL column).
  if(/-(E\d|MM|MG)$/.test(l.id)){assert.ok(/Niveau 1 \(SIL-CP\)/.test(l.source.title)&&/SIL column|colonne SIL/.test(l.source.pages),'SIL programme source '+l.id);sil5c++;}editorial(l);}}
 const ce1Catalog=read('ce1/data/catalog.json');assert.equal(ce1Catalog.grade,'CE1');assert.equal(ce1Catalog.releaseStatus,'in_review');assert.equal(ce1Catalog.availableUnits.length,8);
-const ce1UnitCounts = {'CE1-U1': 22, 'CE1-U2': 24, 'CE1-U3': 23, 'CE1-U4': 23, 'CE1-U5': 23, 'CE1-U6': 23, 'CE1-U7': 23, 'CE1-U8': 22};
+const ce1UnitCounts = {'CE1-U1': 23, 'CE1-U2': 25, 'CE1-U3': 24, 'CE1-U4': 24, 'CE1-U5': 24, 'CE1-U6': 24, 'CE1-U7': 24, 'CE1-U8': 23};
 let ce1Lessons = 0;
 for (const ref of ce1Catalog.units) {
  const ce1 = read(`ce1/data/${ref.path}`);
@@ -114,6 +114,8 @@ for (const ref of ce1Catalog.units) {
  assert.equal(ce1.lessons.length, ce1UnitCounts[ref.id]);
  // Lot 7b: French language study by « savoir » — grammar, vocabulary, spelling and conjugation in every unit.
  for(const [code,domain] of [['G1','Français · grammaire'],['V1','Français · vocabulaire'],['O1','Français · orthographe'],['C1','Français · conjugaison']]){const l=ce1.lessons.find(x=>x.id===`${ref.id}-${code}`);assert.ok(l&&l.domain===domain&&/tableau (7|8|9|10) /.test(l.source.pages)&&l.practice.length>=2,'CE1 language '+ref.id+'-'+code);}
+ // Lot 7d : une leçon de littérature par unité autour de l'œuvre au programme ; le livre n'est pas reproduit et la note éditoriale dit que le guide est écrit sans son texte.
+ {const l=ce1.lessons.find(x=>x.id===`${ref.id}-LT`);assert.ok(l&&l.domain==='Français · littérature'&&/tableau 6 \(littérature\), p\. 3[456], /.test(l.source.pages)&&l.practice.length>=2&&/sans le texte du livre/.test(l.editorial.notes),'CE1 literature '+ref.id);}
  // Lot 7c: mathematics by « savoir » — calculation and measures in every unit, numbers and geometry where the existing lessons did not cover them.
  for(const code of ['MC','MM']){const l=ce1.lessons.find(x=>x.id===`${ref.id}-${code}`);assert.ok(l&&l.domain.startsWith('Mathématiques · ')&&/tableau (19|20|21) /.test(l.source.pages)&&l.practice.length>=2,'CE1 maths '+ref.id+'-'+code);}
  // Lot 7a: four English lessons per unit after the francophone curriculum (listening and speaking, reading, writing, grammar).
@@ -126,7 +128,7 @@ for (const ref of ce1Catalog.units) {
   editorial(l);
  }
 }
-assert.equal(ce1Lessons, 183);
+assert.equal(ce1Lessons, 191);
 // CE1 QCM reliés : 32 séries (français, mathématiques, anglais et autres matières × 8 unités), chaque question reliée à une leçon de la même unité.
 {const bank=read('ce1/data/qcm.json'),unitOf=new Map();assert.equal(bank.grade,'CE1');let n=0;
  for(const ref of ce1Catalog.units)for(const l of read(`ce1/data/${ref.path}`).lessons)unitOf.set(l.id,ref.id);
@@ -148,5 +150,5 @@ const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.j
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}
 for(const f of ['shared/correction.js','shared/exercises.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);
-assert.equal(lessons,674);assert.equal(learningShortAnswers,241);assert.equal(checkedFormats,57);assert.equal(sil5c,22);assert.equal(activities,168);assert.deepEqual(nurseryPaths,{MS:{base:149,plus:19},GS:{base:143,plus:24}});assert.equal(read('data/coverage.json').items.length,1009);assert.equal(questions,read('docs/metrics.json').storedQuestions);
+assert.equal(lessons,682);assert.equal(learningShortAnswers,254);assert.equal(checkedFormats,61);assert.equal(sil5c,22);assert.equal(activities,168);assert.deepEqual(nurseryPaths,{MS:{base:149,plus:19},GS:{base:143,plus:24}});assert.equal(read('data/coverage.json').items.length,1017);assert.equal(questions,read('docs/metrics.json').storedQuestions);
 console.log(`Validated structure: ${lessons} lessons, ${activities} MS + ${gsActivities} GS activities, ${questions} stored questions, ${shortAnswers} CE2 + ${learningShortAnswers} SIL/CE1 short answers with automatic check. Editorial validation is separate.`);

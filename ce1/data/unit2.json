@@ -60,6 +60,77 @@
       ]
     },
     {
+      "id": "CE1-U2-LT",
+      "domain": "Français · littérature",
+      "week": 2,
+      "title": "Les personnages de l’histoire",
+      "objective": "Lire le début d’une petite œuvre et nommer les personnages : qui ils sont et ce qui les relie.",
+      "prerequisites": "Avoir le livre de littérature de la classe. Sans le livre, fais seulement les entraînements qui n’en ont pas besoin.",
+      "course": "Les personnages sont les personnes de l’histoire. Le personnage principal est celui dont on parle le plus.\nPour connaître un personnage, on cherche son nom, ce qu’il fait, ce qu’il dit et ce qu’il ressent.\nDans ton livre, l’histoire commence le premier jour de classe de Benjamin, au CE1.",
+      "support": {
+        "title": "Trois personnages à retrouver dans le livre",
+        "items": [
+          "Benjamin, un élève de CE1",
+          "une nouvelle camarade, qui vient d’une région anglophone",
+          "madame Ettia, la maîtresse"
+        ]
+      },
+      "model": "Je lis une page. Je me demande : qui parle ? qui agit ? Je note le nom du personnage et un mot pour dire qui il est. Exemple : madame Ettia — la maîtresse.",
+      "guided": "Lis le début du livre avec un adulte. Chaque fois qu’un nouveau personnage arrive, montre-le sur l’image et dis son nom.",
+      "exercise": "Comment s’appelle la maîtresse de Benjamin ?",
+      "answer": "La maîtresse s’appelle madame Ettia.",
+      "accept": [
+        "madame Ettia",
+        "Ettia",
+        "Mme Ettia"
+      ],
+      "reject": [
+        "Benjamin",
+        "Kidi Bebey"
+      ],
+      "remediation": "Si l’enfant mélange les personnages, fabriquer trois étiquettes (Benjamin, la camarade, la maîtresse) et les poser sur les images pendant la lecture.",
+      "transfer": "Présenter les personnages du livre à quelqu’un de la maison, sans raconter la fin.",
+      "materials": "Le livre « Comment ça va Benjamin ? » (Kidi Bebey, images de Christian Epanya, Africa Education). Un cahier pour le carnet de lecture.",
+      "practice": [
+        {
+          "prompt": "En quelle classe est Benjamin ?",
+          "answer": "Benjamin est au CE1.",
+          "accept": [
+            "CE1",
+            "au CE1",
+            "en CE1"
+          ],
+          "reject": [
+            "CE2",
+            "CP",
+            "SIL"
+          ],
+          "explanation": "L’histoire raconte son premier jour de classe au CE1."
+        },
+        {
+          "prompt": "Dans ton carnet, écris le prénom de la nouvelle camarade de Benjamin : tu le trouveras dans le livre. Écris ensuite un mot pour dire comment elle se sent au début.",
+          "ink": "lignes",
+          "answer": "Le prénom se trouve dans le livre : vérifie avec un adulte. Pour le sentiment, plusieurs mots sont possibles s’ils viennent du texte ou des images.",
+          "explanation": "On retrouve le nom d’un personnage en relisant le passage où il arrive."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 6 (littérature), p. 34, unité 2, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Guide de lecture rédigé sans le texte du livre, d’après la présentation de l’éditeur ; à relire livre en main."
+      },
+      "competencies": [
+        "lecture",
+        "littérature"
+      ]
+    },
+    {
       "id": "CE1-U2-L02",
       "domain": "Français",
       "title": "Construire une phrase et ponctuer une demande",

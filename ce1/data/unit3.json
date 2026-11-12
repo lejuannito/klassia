@@ -60,6 +60,81 @@
       ]
     },
     {
+      "id": "CE1-U3-LT",
+      "domain": "Français · littérature",
+      "week": 2,
+      "title": "Histoire inventée ou histoire vraie ?",
+      "objective": "Lire une petite œuvre de quelques pages en faisant la différence entre la fiction et la réalité.",
+      "prerequisites": "Avoir le livre de littérature de la classe. Sans le livre, fais seulement les entraînements qui n’en ont pas besoin.",
+      "course": "Une fiction est une histoire inventée par un auteur. Les personnages n’existent pas vraiment, même s’ils ressemblent à des personnes que l’on connaît.\nUn texte qui dit la réalité parle de choses qui existent ou qui sont arrivées.\nTon livre de littérature est une fiction : Kidi Bebey a inventé Benjamin et son histoire. Mais l’histoire se passe dans une école qui ressemble à une vraie école.",
+      "model": "« Benjamin entre au CE1 » : c’est dans l’histoire, l’auteure l’a inventé. « Au Cameroun, on apprend le français et l’anglais à l’école » : c’est la réalité.",
+      "guided": "Choisis une page du livre. Dis une chose qui pourrait arriver dans ta classe et une chose que l’auteure a inventée.",
+      "exercise": "« Comment ça va Benjamin ? » est-il une fiction ou un texte qui dit la réalité ?",
+      "answer": "C’est une fiction : une histoire inventée par l’auteure.",
+      "accept": [
+        "fiction",
+        "une fiction",
+        "une histoire inventée"
+      ],
+      "reject": [
+        "réalité",
+        "la réalité",
+        "une histoire vraie"
+      ],
+      "remediation": "Si l’enfant pense que Benjamin existe, expliquer qu’un auteur invente des personnages comme on invente un jeu : on y croit pendant l’histoire, mais on sait que c’est inventé.",
+      "transfer": "Chercher à la maison un texte qui dit la réalité (une recette, une affiche, un carnet de santé) et le comparer au livre.",
+      "materials": "Le livre « Comment ça va Benjamin ? » (Kidi Bebey, images de Christian Epanya, Africa Education). Un cahier pour le carnet de lecture.",
+      "practice": [
+        {
+          "prompt": "Fiction ou réalité ? « Un lion ouvre la porte de la classe et dit bonjour en anglais. »",
+          "answer": "Fiction.",
+          "accept": [
+            "fiction",
+            "une fiction"
+          ],
+          "reject": [
+            "réalité",
+            "la réalité"
+          ],
+          "explanation": "Un lion ne parle pas : c’est inventé."
+        },
+        {
+          "prompt": "Fiction ou réalité ? « Le Cameroun a deux langues officielles : le français et l’anglais. »",
+          "answer": "Réalité.",
+          "accept": [
+            "réalité",
+            "la réalité"
+          ],
+          "reject": [
+            "fiction",
+            "une fiction"
+          ],
+          "explanation": "C’est un fait : on peut le vérifier."
+        },
+        {
+          "prompt": "Dans ton carnet, recopie le titre du livre et termine la phrase : « C’est une fiction parce que… »",
+          "ink": "lignes",
+          "answer": "Exemple : « C’est une fiction parce que l’auteure a inventé les personnages et l’histoire. »",
+          "explanation": "Dans une fiction, l’auteur invente, même si le décor ressemble à la vie de tous les jours."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 6 (littérature), p. 35, unité 3, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Guide de lecture rédigé sans le texte du livre, d’après la présentation de l’éditeur ; à relire livre en main."
+      },
+      "competencies": [
+        "lecture",
+        "littérature"
+      ]
+    },
+    {
       "id": "CE1-U3-L02",
       "domain": "Français",
       "title": "Repérer les articles et le sujet d’une phrase",

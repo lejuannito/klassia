@@ -60,6 +60,91 @@
       ]
     },
     {
+      "id": "CE1-U5-LT",
+      "domain": "Français · littérature",
+      "week": 2,
+      "title": "Je raconte l’histoire",
+      "objective": "Lire une œuvre en entier et en rendre compte : dire le début, le milieu et la fin.",
+      "prerequisites": "Avoir le livre de littérature de la classe. Sans le livre, fais seulement les entraînements qui n’en ont pas besoin.",
+      "course": "Rendre compte d’un livre, c’est dire de quoi il parle à quelqu’un qui ne l’a pas lu.\nOn dit le titre et l’auteur. On dit où se passe l’histoire et qui sont les personnages. On dit ce qui se passe au début, au milieu et à la fin.\nOn ne relit pas tout le livre à voix haute : on choisit ce qui est important.",
+      "support": {
+        "title": "Ma fiche pour raconter",
+        "table": {
+          "caption": "Trois moments, trois questions",
+          "headers": [
+            "Moment",
+            "Question à me poser"
+          ],
+          "rows": [
+            [
+              "Début",
+              "Où est Benjamin ? Quel jour est-ce ?"
+            ],
+            [
+              "Milieu",
+              "Qui arrive ? Quel est le problème ?"
+            ],
+            [
+              "Fin",
+              "Comment le problème se termine-t-il ?"
+            ]
+          ]
+        }
+      },
+      "model": "Début : c’est le premier jour de classe de Benjamin au CE1. Je continue avec le livre : je cherche ce qui arrive ensuite, puis comment l’histoire finit.",
+      "guided": "Lis le livre en entier, en une ou plusieurs fois. À la fin de chaque partie, ferme le livre et dis une phrase sur ce que tu viens de lire.",
+      "exercise": "Remplis ta fiche : écris une phrase pour le début, une pour le milieu et une pour la fin de l’histoire.",
+      "answer": "Début : c’est le premier jour de classe de Benjamin au CE1. Milieu et fin : vérifie tes phrases dans le livre avec un adulte. Chaque phrase dit qui agit et ce qui se passe, dans l’ordre de l’histoire.",
+      "remediation": "Si l’enfant raconte dans le désordre, lui faire faire trois dessins (début, milieu, fin) et les ranger avant de parler.",
+      "transfer": "Raconter le livre en trois phrases à un membre de la famille qui ne l’a pas lu.",
+      "materials": "Le livre « Comment ça va Benjamin ? » (Kidi Bebey, images de Christian Epanya, Africa Education). Un cahier pour le carnet de lecture.",
+      "practice": [
+        {
+          "prompt": "Range dans l’ordre ce que l’on dit pour présenter un livre.",
+          "type": "order",
+          "items": [
+            "le titre et l’auteur",
+            "les personnages",
+            "le début",
+            "le milieu",
+            "la fin"
+          ],
+          "answer": "Le titre et l’auteur, les personnages, le début, le milieu, la fin.",
+          "explanation": "On présente d’abord le livre et les personnages, puis on suit l’ordre de l’histoire."
+        },
+        {
+          "prompt": "Quel jour l’histoire de Benjamin commence-t-elle ?",
+          "answer": "Le premier jour de classe.",
+          "accept": [
+            "le premier jour de classe",
+            "le premier jour d’école",
+            "le jour de la rentrée",
+            "la rentrée"
+          ],
+          "reject": [
+            "les vacances",
+            "le dernier jour de classe"
+          ],
+          "explanation": "C’est la rentrée : Benjamin entre au CE1."
+        }
+      ],
+      "source": {
+        "title": "Curriculum de l’enseignement primaire francophone camerounais, Niveau 2 (CE1–CE2), MINEDUB, 2018",
+        "pages": "Français, tableau 6 (littérature), p. 35, unité 5, colonne CE1",
+        "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Curriculum_CE1-CE2_Niveau_06.pdf?v=1745409650"
+      },
+      "editorial": {
+        "status": "in_review",
+        "reviewer": null,
+        "validated_at": null,
+        "notes": "Guide de lecture rédigé sans le texte du livre, d’après la présentation de l’éditeur ; à relire livre en main."
+      },
+      "competencies": [
+        "lecture",
+        "littérature"
+      ]
+    },
+    {
       "id": "CE1-U5-L02",
       "domain": "Français",
       "title": "Distinguer des mots contraires dans le vocabulaire du voyage",

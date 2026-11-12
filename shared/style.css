@@ -189,6 +189,9 @@ html[data-klassia-view="family"] .gs-top > a { display: inline-flex; align-items
 .nursery-lang button { flex: 1 1 0; min-height: 44px; border: 2px solid #cad4ee; border-radius: 12px; background: #fff; color: #243f83; font-weight: 800; font-size: 1rem; }
 .nursery-lang button[aria-pressed="true"] { background: #243f83; border-color: #243f83; color: #fff; }
 .nursery-goal { margin: 0 0 10px; }
+/* Lot 6c : repère « programme » ou « pour aller plus loin » sur la fiche d'activité. */
+.nursery-path { display: inline-block; margin: 0 0 8px; padding: 3px 10px; border-radius: 999px; background: #e6f4ea; color: #14532d; font-size: .875rem; font-weight: 700; }
+.nursery-path-plus { background: #fff4d6; color: #7a4a00; }
 .nursery-card { margin: 0 0 12px; padding: 12px 14px; border: 1px solid #f0d6a8; border-radius: 14px; background: #fffaf0; display: grid; gap: 8px; }
 .nursery-card div { display: grid; gap: 2px; }
 .nursery-card dt { font-weight: 800; color: #6c4b14; font-size: .9rem; }
@@ -208,7 +211,7 @@ html[data-klassia-view="family"] .gs-top > a { display: inline-flex; align-items
 #app .activityCard.nursery-child .activityHead { justify-content: center; text-align: center; }
 #app .activityCard.nursery-child :is(.activityHead .num, .print-actions) { display: none; }
 #app .activityCard.nursery-child .activityHead h3 { font-size: 1.6rem; }
-#app .activityCard.nursery-child :is(.nursery-goal, .nursery-card, .nursery-show, .nursery-more, .nursery-rating) { display: none; }
+#app .activityCard.nursery-child :is(.nursery-path, .nursery-goal, .nursery-card, .nursery-show, .nursery-more, .nursery-rating) { display: none; }
 #app .activityCard.nursery-child .nursery-stage { padding: 0 16px 24px; }
 #app .activityCard.nursery-child .nursery-stage .nursery-close { display: block; justify-self: end; min-height: 44px; border: 1px solid #cad4ee; border-radius: 12px; background: #fff; color: #243f83; font-weight: 800; padding: 0 14px; order: -2; }
 #app .activityCard.nursery-child .nursery-stage .nursery-done { display: block; min-height: 64px; border: 0; border-radius: 16px; background: #1d6b2f; color: #fff; font-size: 1.3rem; font-weight: 900; }

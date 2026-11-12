@@ -75,6 +75,9 @@
             "Understands that a job can be done by a woman or a man.",
             "Links a job with the service it gives."
           ],
+          "source_refs": [
+            "FR : tableau 9, p. 37–40, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -136,6 +139,9 @@
             "Does not use real dangerous tools.",
             "Explains the service given."
           ],
+          "source_refs": [
+            "FR : tableau 21, p. 81–83, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -170,6 +176,9 @@
             "Joins in the pretend play.",
             "Uses 1 or 2 sentences.",
             "Swaps roles without stereotypes."
+          ],
+          "source_refs": [
+            "FR : tableau 16, p. 59–62, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -215,6 +224,9 @@
             "Spots the job.",
             "Understands the safety rule.",
             "Tells one part of the story."
+          ],
+          "source_refs": [
+            "FR : tableau 10, p. 41–43, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -269,6 +281,10 @@
             "Listens to the answer.",
             "Says thank you."
           ],
+          "source_refs": [
+            "FR : tableau 9, p. 37–40, première année"
+          ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -306,6 +322,9 @@
             "Follows a model.",
             "Varies straight and curved lines.",
             "Gradually gains control."
+          ],
+          "source_refs": [
+            "FR : tableau 12, p. 47–48, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -449,6 +468,10 @@
           ],
           "activity_fr": "Lire les variantes comme des traces de différentes conventions d’écriture. Pour l’usage scolaire, demander validation au spécialiste/local speaker.",
           "activity_en": "Treat variants as evidence of different writing conventions. Validate school use with a specialist/speaker.",
+          "source_refs": [
+            "FR : tableau 15, p. 57–58, première année"
+          ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -462,6 +485,62 @@
             "a Bassa speaker if possible"
           ],
           "duration_minutes": 8
+        },
+        {
+          "id": "T7-LC8",
+          "type": "letters",
+          "title_fr": "Je lis et j’écris la lettre u",
+          "title_en": "I read and write the letter u",
+          "goal_fr": "Lire la lettre u et l’écrire.",
+          "goal_en": "Read the letter u and write it.",
+          "prompt_fr": "Regarde : u, comme dans « mur ». Lis la lettre, puis écris-la : je descends, je tourne, je remonte.",
+          "prompt_en": "Look: u, as in “mur” (wall). Read the letter, then write it: down, round and up again.",
+          "visual": {
+            "kind": "letters",
+            "items": [
+              "u  U",
+              "mur · bus · tissu"
+            ]
+          },
+          "steps_fr": [
+            "Dis le son « u » en avançant les lèvres et montre la carte u.",
+            "Montre les mots mur, bus, tissu. L’enfant montre chaque u et dit « u ».",
+            "L’enfant écrit u entre deux lignes, puis compare avec le modèle."
+          ],
+          "steps_en": [
+            "Say the sound “u” with rounded lips and show the u card.",
+            "Show the words mur, bus, tissu. The child points to each u and says “u”.",
+            "The child writes u between two lines, then compares with the model."
+          ],
+          "observe": [
+            "Dit « u » en voyant la lettre.",
+            "Distingue u de i et de o."
+          ],
+          "observe_en": [
+            "Says “u” when seeing the letter.",
+            "Tells u from i and o."
+          ],
+          "materials": [
+            "des cartes avec les lettres u, i, o",
+            "trois cartes-mots : mur, bus, tissu",
+            "une feuille avec deux lignes",
+            "un crayon"
+          ],
+          "materials_en": [
+            "cards with the letters u, i, o",
+            "three word cards: mur, bus, tissu",
+            "a sheet with two lines",
+            "a pencil"
+          ],
+          "duration_minutes": 10,
+          "source_refs": [
+            "FR : tableau 13, p. 49–51, première année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "ink": "lignes"
         }
       ]
     },
@@ -519,6 +598,9 @@
             "Understands that several professionals may help.",
             "Does not confuse an emergency with role play."
           ],
+          "source_refs": [
+            "FR : tableau 9, p. 37–40, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -558,6 +640,9 @@
             "Counts from 1 to 5.",
             "Matches number and quantity.",
             "Compares more/fewer."
+          ],
+          "source_refs": [
+            "FR : tableau 17, p. 63–71, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -611,6 +696,9 @@
             "Explains where it is.",
             "Draws a shape."
           ],
+          "source_refs": [
+            "FR : tableau 17, p. 63–71, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -644,6 +732,9 @@
             "Understands beginning/end.",
             "Spots the step kept for the adult if it is dangerous."
           ],
+          "source_refs": [
+            "FR : tableau 17, p. 63–71, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -655,6 +746,48 @@
             "three or four step pictures"
           ],
           "duration_minutes": 8
+        },
+        {
+          "id": "T7-ST5",
+          "type": "digital",
+          "title_fr": "Le jeu du téléphone",
+          "title_en": "The telephone game",
+          "goal_fr": "Montrer l’écran et les touches d’un téléphone et jouer un appel utile.",
+          "goal_en": "Show the screen and keys of a telephone and act out a useful call.",
+          "prompt_fr": "Fais semblant d’appeler maman : dis bonjour, dis ton prénom, puis dis au revoir.",
+          "prompt_en": "Pretend to call Mum: say hello, say your name, then say goodbye.",
+          "steps_fr": [
+            "Avec un téléphone en carton ou éteint, montre l’écran et les touches.",
+            "Jouez un appel : l’enfant dit bonjour, son prénom et une phrase, puis au revoir.",
+            "Rappelle : un vrai appel se fait toujours avec un adulte."
+          ],
+          "steps_en": [
+            "With a cardboard or switched-off telephone, show the screen and the keys.",
+            "Act out a call: the child says hello, their name and one sentence, then goodbye.",
+            "Remind: a real call is always made with an adult."
+          ],
+          "observe": [
+            "Montre l’écran et les touches.",
+            "Dit bonjour et son prénom pendant l’appel joué."
+          ],
+          "observe_en": [
+            "Points to the screen and the keys.",
+            "Says hello and their name during the pretend call."
+          ],
+          "materials": [
+            "un téléphone en carton ou un téléphone éteint"
+          ],
+          "materials_en": [
+            "a cardboard telephone or a switched-off telephone"
+          ],
+          "duration_minutes": 8,
+          "source_refs": [
+            "FR : tableau 19, p. 77–78, première année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          }
         }
       ]
     },
@@ -685,6 +818,9 @@
             "Does not make fun of a job.",
             "Identifies a service given.",
             "Understands that a person’s worth does not depend on their job."
+          ],
+          "source_refs": [
+            "FR : tableau 25, p. 94–95, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -741,6 +877,9 @@
             "Recognises several sensitive objects.",
             "Watches from a distance."
           ],
+          "source_refs": [
+            "FR : tableau 26, p. 96–97, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -774,6 +913,10 @@
             "Does not try to fix a danger alone.",
             "Knows how to call for help."
           ],
+          "source_refs": [
+            "FR : tableau 26, p. 96–97, première année"
+          ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -809,6 +952,10 @@
             "Uses the job names for women and men without mocking.",
             "Chooses a role freely."
           ],
+          "source_refs": [
+            "FR : tableau 25, p. 94–95, première année"
+          ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -859,6 +1006,9 @@
             "Explains their pretend job.",
             "Does not have to copy a family member’s job."
           ],
+          "source_refs": [
+            "FR : tableau 28, p. 101–105, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -885,6 +1035,9 @@
             "Puts shapes together.",
             "Understands that it is a pretend toy.",
             "Uses the materials properly."
+          ],
+          "source_refs": [
+            "FR : tableau 21, p. 81–83, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -922,6 +1075,9 @@
             "Follows the chorus.",
             "Suggests a job.",
             "Matches a suitable action."
+          ],
+          "source_refs": [
+            "FR : tableau 27, p. 98–100, première année"
           ],
           "editorial": {
             "status": "in_review",
@@ -965,6 +1121,9 @@
             "Guesses a friend’s mime.",
             "Avoids dangerous movements."
           ],
+          "source_refs": [
+            "FR : tableau 16, p. 59–62, première année"
+          ],
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -1001,6 +1160,9 @@
             "Keeps hold of the object.",
             "Follows the course.",
             "Moves without bumping into anyone."
+          ],
+          "source_refs": [
+            "FR : tableau 29, p. 106–109, première année"
           ],
           "editorial": {
             "status": "in_review",

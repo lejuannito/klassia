@@ -173,6 +173,7 @@
             "FR : tableaux 13–14, p. 49–56, deuxième année",
             "EN : table 36, p. 63, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -359,6 +360,7 @@
             "FR : tableau 15, p. 57–58, deuxième année",
             "EN : table 3, p. 22, Nursery Two, national languages"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -500,6 +502,75 @@
               ]
             }
           ]
+        },
+        {
+          "id": "GS-T4-LC7",
+          "type": "reading_fr",
+          "title_fr": "Je lis et j’écris o et a",
+          "title_en": "I read and write o and a",
+          "goal_fr": "Lire les voyelles o et a dans des mots et les écrire.",
+          "goal_en": "Read the vowels o and a in words and write them.",
+          "prompt_fr": "Lis : o, a. Dans « moto », montre les o. Dans « papa », montre les a. Écris o puis a entre les lignes.",
+          "prompt_en": "Read: o, a. In “moto”, point to each o. In “papa”, point to each a. Write o, then a, between the lines.",
+          "visual": {
+            "kind": "letters",
+            "items": [
+              "o  a",
+              "moto · domino",
+              "papa · sac"
+            ]
+          },
+          "questions": [
+            {
+              "fr": "Dans « moto », quelle voyelle vois-tu deux fois ?",
+              "en": "In “moto”, which vowel do you see twice?",
+              "answer": "o"
+            }
+          ],
+          "steps_fr": [
+            "Montre les cartes o et a. L’enfant les lit dans le désordre.",
+            "L’enfant montre les o de moto et de domino, puis les a de papa et de sac.",
+            "L’enfant écrit une ligne de o, puis une ligne de a, en partant du bon endroit."
+          ],
+          "steps_en": [
+            "Show the o and a cards. The child reads them in any order.",
+            "The child points to each o in moto and domino, then each a in papa and sac.",
+            "The child writes a line of o, then a line of a, starting at the right place."
+          ],
+          "observe": [
+            "Lit o et a sans les confondre.",
+            "Écrit o et a en tournant dans le bon sens."
+          ],
+          "observe_en": [
+            "Reads o and a without mixing them up.",
+            "Writes o and a turning the right way."
+          ],
+          "materials": [
+            "des cartes o et a",
+            "quatre cartes-mots : moto, domino, papa, sac",
+            "une feuille avec deux lignes",
+            "un crayon"
+          ],
+          "materials_en": [
+            "o and a cards",
+            "four word cards: moto, domino, papa, sac",
+            "a sheet with two lines",
+            "a pencil"
+          ],
+          "duration_minutes": 12,
+          "source_refs": [
+            "FR : tableau 13, p. 49–51, deuxième année"
+          ],
+          "editorial": {
+            "status": "in_review",
+            "validation": "pending"
+          },
+          "ink": "lignes",
+          "teacher_guide": {
+            "preparation": "Écrire les quatre mots en script, en grandes lettres. Préparer une ligne modèle de o et de a.",
+            "adaptation": "Si c’est difficile, ne garder que la lettre o et deux mots. Pour aller plus loin, chercher o et a dans le prénom de l’enfant.",
+            "follow_up": "Reprendre le lendemain avec deux nouveaux mots : domino, tomate."
+          }
         }
       ]
     },
@@ -557,6 +628,7 @@
             "FR : tableau 17, p. 63–71, deuxième année",
             "EN : table 39, p. 66–67, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"
@@ -862,6 +934,7 @@
             "FR : tableau 17, p. 69–71, repères temporels, deuxième année",
             "EN : table 38, p. 65, days and months, Nursery Two"
           ],
+          "path": "plus",
           "editorial": {
             "status": "in_review",
             "validation": "pending"

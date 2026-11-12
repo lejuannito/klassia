@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "04a00efb581f3752f2f3391482084a29f5655f0f76aa0f1b764bf0096267c626",
+  "version": "5db133cc439ca58df0fba73dc277cdda55cb540164b6455c65b94167a960b1fb",
   "files": [
     {
       "url": "./app.js",
@@ -570,6 +570,10 @@ self.KLASSIA_RELEASE = {
       "sha256": "d88cce2503f79cd23bcac49e1251bd08343899ea6e189d5ed3dbbb5118d58657"
     },
     {
+      "url": "./data/bassa-ecriture.json",
+      "sha256": "de4628dd5ef8e3d104b4b70c3f8104dc234d2f2fe4ce7c8b0bd870516497323b"
+    },
+    {
       "url": "./data/bassa-lessons.json",
       "sha256": "45d25b59c9e7db1780025e76d9a532bb22cdec5275d95a60b202608eab27c244"
     },
@@ -823,7 +827,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/bassa.js",
-      "sha256": "7d06b20258f3af8e2e519630939d0e063568b1e6b995057bb04feafcaac6dc7f"
+      "sha256": "316e0f8d83fbc6bb74b00661c583f1511086199e1ebd45fa5e971837085d8bdb"
     },
     {
       "url": "./shared/core.js",
@@ -907,7 +911,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "42c6af4ec5bdba6a44ac17baf1c5db2ba268d58220db2c8441eb48cf0f02be3a"
+      "sha256": "5149c86890f63fbedd177137ddf13cd2d6c8aeb0e141e0db46b9f2f580497260"
     },
     {
       "url": "./shared/ui.js",
@@ -971,7 +975,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.js",
-      "sha256": "c900cf838f7a46e47d3ba6e365d9a48af9a8a9251f18deb968ea27a99deecc0f"
+      "sha256": "f3453f819dd6b54f4f278c689086153383312e379d164f53fc7182dfc6ff76c1"
     },
     {
       "url": "./v9.css",

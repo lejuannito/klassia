@@ -3,6 +3,20 @@ const root=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.
 const {accepts}=require('../shared/bassa.js'),lex=read('data/bassa-lexicon-variants.json');
 test('every displayed Bassa form is accepted, including equivalent Unicode and spacing',()=>{for(const e of lex.entries)for(const form of e.forms){assert.ok(accepts(e,form),e.concept+' '+form);assert.ok(accepts(e,'  '+form.normalize('NFD')+'  '));assert.ok(!accepts(e,''));}assert.ok(!accepts(lex.entries[0],'not a documented answer'));});
 
+// Lot 8b : saisie sans marques de ton acceptée avec rappel de la forme ; les lettres ne sont pas rapprochées ; repères d'écriture sourcés.
+test('tone-free typing matches the documented form, letters stay distinct, writing notes are sourced',()=>{
+ const {toneless,tonelessMatch,KEYS}=require('../shared/bassa.js'),w=read('data/bassa-ecriture.json');
+ for(const e of lex.entries)for(const form of e.forms){assert.ok(tonelessMatch(e,toneless(form)),e.concept+' '+form);assert.equal(tonelessMatch(e,''),null);}
+ const sample={forms:['Ntôñ diséé','ŋɛ̂m']};
+ assert.equal(tonelessMatch(sample,'ntoñ disee'),'Ntôñ diséé');assert.equal(tonelessMatch(sample,'ŋɛm'),'ŋɛ̂m');
+ assert.equal(tonelessMatch(sample,'nton disee'),null,'ñ is a letter, not a tone');assert.equal(tonelessMatch(sample,'nem'),null,'ŋ and ɛ are letters');
+ assert.ok(!accepts(sample,'ŋɛm'),'Exact acceptance is unchanged');
+ assert.equal(w.status,'documented_pending_review');assert.match(w.notice,/ne valident aucune forme/);assert.deepEqual(w.keys,KEYS);
+ const ids=new Set(w.sources.map(x=>x.id));assert.ok(w.sources.every(x=>x.title&&/^https:\/\//.test(x.url)));
+ for(const x of [...w.letters,...w.tones])assert.ok(ids.has(x.source),'Unsourced writing note');assert.ok(ids.has(w.examples_source)&&w.examples.every(x=>x.form&&x.gloss));
+ assert.deepEqual(w.tones.map(x=>x.mark),['\u0301','','\u0300','\u0302','\u030C']);for(const t of w.tones)if(t.mark)assert.ok(t.example.normalize('NFD').includes(t.mark),t.name);
+});
+
 test('a Bassa MP3 needs an exact form, approval references and matching bytes', async t => {
  const { createHash } = require('node:crypto');
  const { tmpdir } = require('node:os');

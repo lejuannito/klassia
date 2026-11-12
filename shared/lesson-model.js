@@ -71,11 +71,26 @@
     const count = m => [...m.values()].filter(Boolean).length;
     return {checked: checked.size, right: count(checked), self: self.size, selfOk: count(self)};
   }
+  // Unité CE2 (data/content-uN.json) rangée comme une unité du moteur commun (M3h) : les leçons gardent leurs identifiants.
+  function ce2Unit(entry, content) {
+    const lessons = [];
+    for (const s of content.subjects) for (const l of s.lessons) lessons.push({
+      id: l.id, domain: s.name, subject: s.id, title: l.title, objective: list(l.objectives).join(' '),
+      course: list(l.learn).map(text).filter(Boolean).join('\n'), takeaway: text(l.takeaway), model: text(l.discover),
+      guided: list(l.practical).map(text).filter(Boolean).join('\n'), exercise: '', answer: '',
+      remediation: text(l.teacher_guide?.remediation || ''), transfer: '', materials: '',
+      practice: list(l.exercises).map(e => (e.type === 'number' || (e.type === 'mcq' && e.choices)) ? e
+        : {prompt: e.prompt, answer: text(e.answer), explanation: text(e.explanation), ...(e.accept ? {accept: e.accept, reject: e.reject || []} : {})}),
+      source: {title: text(l.source)}, editorial: l.editorial || {notes: ''}, manual_sections: l.manual_sections || null, figure: l.figure || null
+    });
+    return {id: entry.id, number: entry.number, title_fr: entry.title, title_en: '', subcentres: entry.subcentres, project: '',
+      subjects: content.subjects.map(s => ({id: s.id, name: s.name, assessment: s.assessment || null})), lessons};
+  }
   // Phrase du bilan affiché dans « Je fais le point ».
   function tallyText(t, en) {
     if (!t.checked && !t.self) return en ? 'No answer checked yet in this lesson.' : 'Aucune réponse vérifiée pour l’instant dans cette leçon.';
     return [t.checked ? (en ? `${t.right} of ${t.checked} checked answers right` : `${t.right} ${t.right > 1 ? 'réponses justes' : 'réponse juste'} sur ${t.checked} ${t.checked > 1 ? 'vérifiées' : 'vérifiée'}`) : '',
       t.self ? (en ? `managed alone ${t.selfOk} time(s) out of ${t.self}` : `réussi seul ${t.selfOk} fois sur ${t.self}`) : ''].filter(Boolean).join(' · ');
   }
-  return {STEPS, fromLesson, fromCE2, fromActivity, filled, attemptsSummary, tallyText};
+  return {STEPS, fromLesson, fromCE2, ce2Unit, fromActivity, filled, attemptsSummary, tallyText};
 });

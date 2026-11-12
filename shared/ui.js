@@ -17,7 +17,7 @@ function openProfiles(){
 // Les classes viennent du registre unique (shared/classes.js) ; le sélecteur garde la classe racine en tête.
 const classList=[...K.classes.filter(x=>!x.dir),...K.classes.filter(x=>x.dir)];
 const gradePaths=Object.fromEntries(classList.map(x=>[x.grade,x.dir])),gradeNames=Object.fromEntries(classList.map(x=>[x.grade,x.label]));
-function context(){const info=K.currentClass();return {grade:info.grade,base:new URL(info.dir?'../':'./',location.href)};}
+function context(){const info=K.currentClass();return {grade:info.grade,base:new URL(K.inClassFolder()?'../':'./',location.href)};}
 function rememberClass(){const c=context();if(!['#coverage','#bassa'].includes(location.hash)){sessionStorage.setItem('klassia_return',location.href);sessionStorage.setItem('klassia_review_grade',c.grade);}return c;}
 function returnToClass(){const c=context(),raw=sessionStorage.getItem('klassia_return');let url=new URL(raw||gradePaths[c.grade],c.base);if(url.origin!==location.origin||!url.pathname.startsWith(c.base.pathname))url=new URL('',c.base);location.href=url.href;}
 // Parental gate: a question an adult answers before leaving the child view.

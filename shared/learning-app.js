@@ -1,12 +1,20 @@
 (async()=>{
 'use strict';
-const K=Klassia,E=K.escape,info=K.currentClass(),c={grade:info.grade,catalog:K.classLocalPath(info,info.catalog),progressKey:info.progressKey,qcm:info.qcm&&K.classLocalPath(info,info.qcm),back:'../'},root=document.getElementById('app');
+const K=Klassia,E=K.escape,info=K.currentClass(),legacy=info.engine==='ce2',c={grade:info.grade,catalog:legacy?'../'+info.catalog:K.classLocalPath(info,info.catalog),progressKey:info.progressKey,qcm:info.qcm&&K.classLocalPath(info,info.qcm),back:'../'},root=document.getElementById('app');
 const get=async url=>{const r=await fetch(url);if(!r.ok)throw Error('Ressource indisponible : '+url);return r.json();};
 let catalog,units,lessons,progress;
+// États de progression : le moteur parle « D, EC, R, A » ; une classe peut les enregistrer sous d'autres noms (CE2 : MAITRISEE…),
+// pour que la progression déjà enregistrée reste lue et écrite telle quelle.
+const codes=info.status||null,decode=Object.fromEntries(Object.entries(codes||{}).map(([k,v])=>[v,k]));
+const loadProgress=()=>{const raw=K.read(c.progressKey,{})||{};if(!codes)return raw;const out={};for(const [id,v] of Object.entries(raw))out[id]=decode[v]||v;return out;};
+const saveProgress=p=>{if(!codes)return K.write(c.progressKey,p);const raw=K.read(c.progressKey,{})||{};for(const [id,v] of Object.entries(p))if(v==='D')delete raw[id];else raw[id]=codes[v]||v;K.write(c.progressKey,raw);};
+const choices=codes?['R','A']:['D','EC','A'];
+// Clé d'un entraînement dans le journal : le CE2 garde « leçon:n ».
+const practiceKey=(id,j)=>legacy?id+':'+j:c.grade+':'+id+':entrainement:'+j;
 // Shared « Continuer » card (shared/ui.js): last open lesson if unfinished, else the first unfinished one.
 const recentKey='klassia_'+c.grade.toLowerCase()+'_recent_v1';
-K.nextStep=()=>{if(!lessons)return null;const p=K.read(c.progressKey,{}),r=K.read(recentKey,null);const x=(r&&lessons.find(y=>y.l.id===r.lessonId&&p[y.l.id]!=='A'))||lessons.find(y=>p[y.l.id]==='EC')||lessons.find(y=>p[y.l.id]!=='A')||lessons[0];return x?{href:'#lesson:'+encodeURIComponent(x.l.id),title:x.l.title,meta:x.u.title_fr+' · '+x.l.domain,started:Boolean(r)||Object.keys(p).length>0}:null;};
-const status=s=>s==='A'?'Réalisé':s==='EC'?'En cours':'À découvrir';
+K.nextStep=()=>{if(!lessons)return null;const p=loadProgress(),r=K.read(recentKey,null);const x=(r&&lessons.find(y=>y.l.id===r.lessonId&&p[y.l.id]!=='A'))||lessons.find(y=>p[y.l.id]==='EC')||lessons.find(y=>p[y.l.id]!=='A')||lessons[0];return x?{href:'#lesson:'+encodeURIComponent(x.l.id),title:x.l.title,meta:x.u.title_fr+' · '+x.l.domain,started:Boolean(r)||Object.keys(p).length>0}:null;};
+const status=s=>codes?(s==='A'?'Je me sens prêt':s==='R'?'À revoir':s==='EC'?'En cours':'À faire'):(s==='A'?'Réalisé':s==='EC'?'En cours':'À découvrir');
 // « Cette semaine à l'école » (shared/week.js) and « Dans ton manuel » when the French textbook's table of contents is recorded.
 const manualUrl={SIL:'../data/manuels/champions-francais-sil.json'}[c.grade];
 async function showWeek(){
@@ -50,15 +58,15 @@ document.addEventListener('click',ev=>{const b=ev.target.closest('[data-self]'),
  box.querySelectorAll('[data-self]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
  box.querySelector('[data-self-result]').textContent=ok?(en?'Well done! When everything is done, choose « Réalisé » below.':'Bien joué ! Quand tout est réussi, choisis « Réalisé » en bas de la leçon.'):(en?'Keep going: try again with help.':'Continue : réessaie avec de l’aide.');
  box.parentElement.querySelector('[data-self-help]').hidden=ok;
- const p=K.read(c.progressKey,{});if((p[lid]||'D')==='D'){p[lid]='EC';K.write(c.progressKey,p);progress=p;document.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.progress==='EC')));const m=document.getElementById('progressMessage');if(m)m.textContent='Progression enregistrée : '+status('EC');}
+ const p=loadProgress();if((p[lid]||'D')==='D'){p[lid]='EC';saveProgress(p);progress=p;document.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.progress==='EC')));const m=document.getElementById('progressMessage');if(m)m.textContent='Progression enregistrée : '+status('EC');}
 });
 // « Je révise » (shared/ui.js): where to redo an exercise or a practice item answered « pas encore ».
-K.describeExercise=key=>{const m=new RegExp('^'+c.grade+':([^:]+)(?::entrainement:(\\d+))?$').exec(key),x=m&&lessons?.find(y=>y.l.id===m[1]);if(!x)return null;const en=x.l.domain.startsWith('English');
- return {href:'#lesson:'+encodeURIComponent(x.l.id),anchor:`[data-save="${key}"],[data-key="${key}"]`,title:x.l.title,detail:m[2]===undefined?(en?'Your turn':'À toi de jouer'):(en?'Practice ':'Entraînement ')+(Number(m[2])+2)};};
+K.describeExercise=key=>{const m=legacy?/^([^:]+):(\d+)$/.exec(key):new RegExp('^'+c.grade+':([^:]+)(?::entrainement:(\\d+))?$').exec(key),x=m&&lessons?.find(y=>y.l.id===m[1]);if(!x)return null;const en=x.l.domain.startsWith('English');
+ return {href:'#lesson:'+encodeURIComponent(x.l.id),anchor:`[data-save="${key}"],[data-key="${key}"]`,title:x.l.title,detail:m[2]===undefined?(en?'Your turn':'À toi de jouer'):legacy?'Exercice '+(Number(m[2])+1):(en?'Practice ':'Entraînement ')+(Number(m[2])+2)};};
 // Short answers (Lot 2e): accepted and rejected forms written in the content; the check never blocks the correction.
 const shortCheck=(x,prompt)=>x.accept?{accept:x.accept,reject:x.reject||[],prompt}:null;
 // A checked answer moves a lesson still « À découvrir » to « En cours ».
-function started(target){const lid=target.closest('[data-lesson]')?.dataset.lesson,p=K.read(c.progressKey,{});if(lid&&(p[lid]||'D')==='D'){p[lid]='EC';K.write(c.progressKey,p);progress=p;document.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.progress==='EC')));}}
+function started(target){const lid=target.closest('[data-lesson]')?.dataset.lesson,p=loadProgress();if(lid&&(p[lid]||'D')==='D'){p[lid]='EC';saveProgress(p);progress=p;document.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.progress==='EC')));}}
 document.addEventListener('klassia:answer-checked',ev=>{const {record,verdict}=ev.detail||{};if(!record||!['correct','wrong'].includes(verdict))return;
  K.append('klassia_attempts',{kind:'short_answer',exercise:record,ok:verdict==='correct'});started(ev.target);
 });
@@ -94,7 +102,7 @@ function showProgress(){const names=[...new Set(lessons.map(x=>x.l.domain))],cou
 function frame(body){root.innerHTML=`<header class="gs-top"><a href="${E(c.back)}">K Klassia</a><strong>${E(c.grade)}</strong></header><main class="gs-wrap"><p class="gs-notice">Édition pilote accompagnée · relecture pédagogique en cours</p>${body}</main>${K.tabBar(tabs(),activeTab())}`;K.rendered();}
 function hero(title,description){return `<section class="gs-hero"><h1>${E(title)}</h1><p>${E(description)}</p></section>`;}
 // Liste de leçons commune (K.lessonList, shared/ui.js).
-const kind=st=>st==='A'?'done':st==='EC'?'doing':'todo';
+const kind=st=>st==='A'?'done':st==='EC'?'doing':st==='R'?'review':'todo';
 const item=(l,u)=>({href:'#lesson:'+encodeURIComponent(l.id),title:l.title,eyebrow:l.domain+' · '+u.id+(l.week?' · '+(l.week===4?'semaine 4, bilan':'semaine '+l.week):''),detail:l.objective,status:{label:status(progress[l.id]),kind:kind(progress[l.id])}});
 function listUnits() {
  const cards = units.map(unit => ({
@@ -103,7 +111,7 @@ function listUnits() {
  }));
  frame(K.catalogue('Parcourir les unités', 'Choisis une unité, puis une leçon.', cards));
 }
-function showUnit(id){const u=units.find(x=>x.id===id);if(!u)return notFound();frame(`<a href="#units">← Toutes les unités</a>`+hero(u.title_fr,u.title_en+' · '+u.project)+K.lessonList(u.lessons.map(l=>item(l,u))));}
+function showUnit(id){const u=units.find(x=>x.id===id);if(!u)return notFound();frame(`<a href="#units">← Toutes les unités</a>`+hero(u.title_fr,[u.title_en,u.project].filter(Boolean).join(' · ')||info.label)+K.lessonList(u.lessons.map(l=>item(l,u))));}
 function listSubjects() {
  const names = [...new Set(lessons.map(item => item.l.domain))];
  const cards = names.map(title => ({ title, href: '#subject:' + encodeURIComponent(title),
@@ -124,24 +132,24 @@ function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)retur
    ? `<details class="adult-guide"><summary>${en?'Read the message (adult)':'Lire le message (adulte)'}</summary><p>${E(p.listen)}</p></details>`
    : '';
   const listening = p.listen ? `${K.speech.clip(p.audio,lang)}<div class="gs-actions" data-listening-practice="${j}"></div>${transcript}` : '';
-  const answer = `<p>${E(p.answer)}</p>${p.explanation?`<p>${E(p.explanation)}</p>`:''}${selfCheck(c.grade+':'+id+':entrainement:'+j,id,en)}`;
-  const key=c.grade+':'+id+':entrainement:'+j;
-  if(K.exercises?.types.includes(p.type))return `<section class="practice-item"><h3>${en?'Practice':'Entraînement'} ${j+2}</h3><p>${E(p.prompt)}</p>${listening}${K.exercises.html(p,key,en)}</section>`;
-  return `<section class="practice-item"><h3>${en?'Practice':'Entraînement'} ${j+2}</h3><p>${E(p.prompt)}</p>${listening}${p.ink?K.ink.pad(c.grade+':'+id+':entrainement:'+j,p.ink):''}${K.correction.html(id+'_practice_'+j,answer,{en,ink:Boolean(p.ink),save:c.grade+':'+id+':entrainement:'+j,record:c.grade+':'+id+':entrainement:'+j,check:shortCheck(p,p.prompt)})}</section>`;
+  const answer = `<p>${E(p.answer)}</p>${p.explanation?`<p>${E(p.explanation)}</p>`:''}${selfCheck(practiceKey(id,j),id,en)}`;
+  const key=practiceKey(id,j);
+  if(K.exercises?.types.includes(p.type))return `<section class="practice-item"><h3>${en?'Practice':legacy?'Exercice':'Entraînement'} ${legacy?j+1:j+2}</h3><p>${E(p.prompt)}</p>${listening}${K.exercises.html(p,key,en)}</section>`;
+  return `<section class="practice-item"><h3>${en?'Practice':legacy?'Exercice':'Entraînement'} ${legacy?j+1:j+2}</h3><p>${E(p.prompt)}</p>${listening}${p.ink?K.ink.pad(key,p.ink):''}${K.correction.html(id+'_practice_'+j,answer,{en,ink:Boolean(p.ink),save:key,record:key,check:shortCheck(p,p.prompt)})}</section>`;
  }).join('');
  const proposals=(l.domain.includes('national')?[]:(l.proposedWords||[])).map(w=>`<article><b>${E(w.concept)}</b> : ${w.forms.map(E).join(' / ')}<p>Sources : ${(w.sources||[]).map(E).join('; ')}</p><p>${E(Array.isArray(w.notes)?w.notes.join(' '):w.notes||'')}</p></article>`).join('');
  const M=K.lessonModel,model=M.fromLesson(l),has=M.filled(model),steps=M.STEPS.filter(x=>has[x.id]),next=i<u.lessons.length-1?u.lessons[i+1]:null;
 
  const content={
   decouvrir:`${guided?parentCard(l,en):''}${manualUrl&&l.domain.startsWith('Français')?'<p class="klassia-manual-ref" data-manual-ref hidden></p>':''}${l.prerequisites?`<p><b>${en?'Before starting':'Avant de commencer'} :</b> ${E(l.prerequisites)}</p>`:''}${K.lessonSupport(l.support,K.speech.clip(l.support?.audio,lang))}<section><h3>${lab[2]}</h3><p class="preserve-lines">${E(l.model)}</p></section>`,
-  retenir:`<section><h3>${lab[1]}</h3><p class="preserve-lines">${E(l.course)}</p></section>`,
-  exercer:`<section><h3>${lab[3]}</h3><p>${E(l.guided)}</p></section><section><h3>${lab[4]}</h3><p>${E(l.exercise)}</p>${K.ink.pad(c.grade+':'+id,l.ink)}${K.correction.html(id+'_exercise',`<p class="preserve-lines">${E(l.answer)}</p>${selfCheck(c.grade+':'+id,id,en)}`,{en,ink:true,inputId:'lessonResponse',rows:3,maxLength:1500,save:c.grade+':'+id,record:c.grade+':'+id,check:shortCheck(l,l.exercise)})}<p class="muted">${en?'Compare your answer with an adult. Handwritten work stays in this profile.':'Compare ta démarche avec un adulte. Tes tracés restent dans ce profil.'}</p></section>${extra}<div data-bassa-slot></div>`,
-  point:`${K.lessonSteps.tallyHtml(c.grade+':'+id,en)}<p><b>${en?'Where are you with this lesson?':'Où en es-tu dans cette leçon ?'}</b></p><div class="gs-actions">${['D','EC','A'].map(st=>`<button data-progress="${st}" aria-pressed="${(progress[id]||'D')===st}">${status(st)}</button>`).join('')}<button id="printLesson">Imprimer / Print</button>${K.isAdultSpace()?'<button id="printLessonAdult">Corrigé adulte / PDF</button>':''}</div><p id="progressMessage" role="status"></p><p class="lesson-qcm-link" data-lesson-qcm hidden></p>${next?`<p><a class="lesson-next" href="#lesson:${encodeURIComponent(next.id)}">${en?'Next lesson':'Leçon suivante'} : ${E(next.title)} ›</a></p>`:''}${adult?`<details class="adult-guide"><summary>${lab[5]}</summary><p>${E(l.remediation)}</p><h3>${lab[6]}</h3><p>${E(l.transfer)}</p><p><b>${lab[7]} :</b> ${E(l.materials)}</p></details>`:''}${proposals?`<details class="bassa-proposals"><summary>Propositions bassa documentées, non validées</summary>${proposals}<p>Toutes les variantes présentées restent consultables. <a href="${E(c.back)}#bassa">Ouvrir l’atelier de réponses et d’arbitrage</a></p></details>`:''}<details class="lesson-sources"><summary>${en?'Sources and editorial status':'Sources et statut éditorial'}</summary><p>${source(l.source)}</p><p>À relire · ${E(l.editorial?.notes||'')}</p></details>`};
+  retenir:`<section><h3>${lab[1]}</h3><p class="preserve-lines">${E(l.course)}</p></section>${l.takeaway?`<section class="lesson-takeaway"><h3>${en?'Remember':'Je retiens'}</h3><p class="preserve-lines">${E(l.takeaway)}</p></section>`:''}`,
+  exercer:`${l.guided?`<section><h3>${lab[3]}</h3><p class="preserve-lines">${E(l.guided)}</p></section>`:''}${!l.exercise?'':`<section><h3>${lab[4]}</h3><p>${E(l.exercise)}</p>${K.ink.pad(c.grade+':'+id,l.ink)}${K.correction.html(id+'_exercise',`<p class="preserve-lines">${E(l.answer)}</p>${selfCheck(c.grade+':'+id,id,en)}`,{en,ink:true,inputId:'lessonResponse',rows:3,maxLength:1500,save:c.grade+':'+id,record:c.grade+':'+id,check:shortCheck(l,l.exercise)})}<p class="muted">${en?'Compare your answer with an adult. Handwritten work stays in this profile.':'Compare ta démarche avec un adulte. Tes tracés restent dans ce profil.'}</p></section>`}${extra}<div data-bassa-slot></div>`,
+  point:`${K.lessonSteps.tallyHtml(c.grade+':'+id,en)}<p><b>${en?'Where are you with this lesson?':'Où en es-tu dans cette leçon ?'}</b></p><div class="gs-actions">${choices.map(st=>`<button data-progress="${st}" aria-pressed="${(progress[id]||'D')===st}">${status(st)}</button>`).join('')}<button id="printLesson">Imprimer / Print</button>${K.isAdultSpace()?'<button id="printLessonAdult">Corrigé adulte / PDF</button>':''}</div><p id="progressMessage" role="status"></p><p class="lesson-qcm-link" data-lesson-qcm hidden></p>${next?`<p><a class="lesson-next" href="#lesson:${encodeURIComponent(next.id)}">${en?'Next lesson':'Leçon suivante'} : ${E(next.title)} ›</a></p>`:''}${adult?`<details class="adult-guide"><summary>${lab[5]}</summary><p>${E(l.remediation)}</p><h3>${lab[6]}</h3><p>${E(l.transfer)}</p><p><b>${lab[7]} :</b> ${E(l.materials)}</p></details>`:''}${proposals?`<details class="bassa-proposals"><summary>Propositions bassa documentées, non validées</summary>${proposals}<p>Toutes les variantes présentées restent consultables. <a href="${E(c.back)}#bassa">Ouvrir l’atelier de réponses et d’arbitrage</a></p></details>`:''}<details class="lesson-sources"><summary>${en?'Sources and editorial status':'Sources et statut éditorial'}</summary><p>${source(l.source)}</p><p>À relire · ${E(l.editorial?.notes||'')}</p></details>`};
  const view=K.lessonSteps.html(steps.map(x=>({id:x.id,html:content[x.id]})),en),stepNav=view.nav,stepHtml=view.body,all=view.mode==='all';
  frame(`<nav class="lesson-breadcrumb" aria-label="Fil d’Ariane"><a href="#units">Unités</a> › <a href="#unit:${u.id}">${E(u.title_fr)}</a> › <a href="#subject:${encodeURIComponent(l.domain)}">${E(l.domain)}</a></nav><article class="gs-card lesson-card" data-lesson="${E(id)}" data-steps="${all?'all':'one'}" lang="${en?'en':'fr'}"><h1>${E(l.title)}</h1><p><b>${lab[0]} :</b> ${E(l.objective)}</p>${stepNav}${stepHtml}${guided?childScreen(l,en):''}</article><nav class="activity-browser" aria-label="Leçons de cette unité">${i>0?`<a href="#lesson:${u.lessons[i-1].id}">← Précédente</a>`:'<span></span>'}<span>${i+1} / ${u.lessons.length}</span>${i<u.lessons.length-1?`<a href="#lesson:${u.lessons[i+1].id}">Suivante →</a>`:'<span></span>'}</nav>`);
  K.lessonSteps.wire(root.querySelector('.lesson-card'));
  if(c.qcm)qcmBank().then(b=>{const s=b.series.find(x=>x.questions.some(q=>q.lecon===id)),el=root.querySelector('[data-lesson-qcm]');if(!s||!el||!el.isConnected)return;const n=s.questions.filter(q=>q.lecon===id).length;el.innerHTML=`<a href="#qcm:${encodeURIComponent(s.id)}">${en?'Check yourself':'Je vérifie avec le QCM'} « ${E(s.subject)} » · ${n} ${n>1?'questions liées':'question liée'} ›</a>`;el.hidden=false;}).catch(()=>{});
- root.querySelectorAll('[data-progress]').forEach(b=>b.onclick=()=>{progress=K.read(c.progressKey,{});progress[id]=b.dataset.progress;K.write(c.progressKey,progress);root.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('progressMessage').textContent='Progression enregistrée : '+status(b.dataset.progress);});
+ root.querySelectorAll('[data-progress]').forEach(b=>b.onclick=()=>{progress=loadProgress();progress[id]=b.dataset.progress;saveProgress(progress);root.querySelectorAll('[data-progress]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('progressMessage').textContent='Progression enregistrée : '+status(b.dataset.progress);});
  const lessonCard = root.querySelector('.lesson-card');
  reading(lessonCard,l);
  if(l.domain.includes('national'))K.Bassa?.mount(lessonCard.querySelector('[data-bassa-slot]')||lessonCard,c.grade,l.id);
@@ -159,6 +167,6 @@ function showLesson(id){const found=lessons.find(x=>x.l.id===id);if(!found)retur
  }
 }
 function notFound(){frame(hero('Ressource introuvable','Ce lien ne correspond pas à une leçon de cette classe.')+'<a href="#units">Revenir aux unités</a>');}
-function route(){document.querySelectorAll('body > .sil-child').forEach(e=>e.remove());document.documentElement.classList.remove('nursery-child-open');try{progress=K.read(c.progressKey,{});const h=decodeURIComponent(location.hash||'#home');if(h==='#home')return showHome();if(h==='#units')return listUnits();if(h==='#suivi')return showProgress();if(h==='#subjects')return listSubjects();if(h==='#domains')return listDomains();if(h.startsWith('#unit:'))return showUnit(h.slice(6));if(h.startsWith('#subject:'))return showSubject(h.slice(9));if(h.startsWith('#domain:'))return showDomain(h.slice(8));if(h.startsWith('#lesson:'))return showLesson(h.slice(8));if(h==='#semaine')return showWeek().catch(()=>notFound());if(c.qcm&&h==='#reviser')return showReview().catch(()=>notFound());if(c.qcm&&h.startsWith('#qcm:'))return showSeries(h.slice(5)).catch(()=>notFound());notFound();}catch(e){notFound();}}
-try{catalog=await get(c.catalog);units=await Promise.all(catalog.units.map(u=>u.lessons?u:get(new URL(u.path,new URL(c.catalog,location.href)))));lessons=units.flatMap(u=>u.lessons.map(l=>({l,u})));window.addEventListener('hashchange',route);route();}catch(e){frame(hero('Chargement interrompu',e.message)+'<button onclick="location.reload()">Réessayer</button>');}
+function route(){document.querySelectorAll('body > .sil-child').forEach(e=>e.remove());document.documentElement.classList.remove('nursery-child-open');try{progress=loadProgress();const raw=decodeURIComponent(location.hash||'#home'),h={'#learn':'#units','#subjects-all':'#subjects','#domains-all':catalog.domains?'#domains':'#subjects','#progress':'#suivi'}[raw]||raw;if(h==='#home')return showHome();if(h==='#units')return listUnits();if(h==='#suivi')return showProgress();if(h==='#subjects')return listSubjects();if(h==='#domains'&&catalog.domains)return listDomains();if(h.startsWith('#unit:'))return showUnit(h.slice(6));if(h.startsWith('#subject:'))return showSubject(h.slice(9));if(h.startsWith('#domain:'))return showDomain(h.slice(8));if(h.startsWith('#lesson:'))return showLesson(h.slice(8));if(h==='#semaine')return showWeek().catch(()=>notFound());if(c.qcm&&h==='#reviser')return showReview().catch(()=>notFound());if(c.qcm&&h.startsWith('#qcm:'))return showSeries(h.slice(5)).catch(()=>notFound());notFound();}catch(e){notFound();}}
+try{catalog=await get(c.catalog);units=await Promise.all(catalog.units.map(async u=>legacy?K.lessonModel.ce2Unit(u,await get('../'+u.content)):u.lessons?u:get(new URL(u.path,new URL(c.catalog,location.href)))));lessons=units.flatMap(u=>u.lessons.map(l=>({l,u})));window.addEventListener('hashchange',route);route();}catch(e){frame(hero('Chargement interrompu',e.message)+'<button onclick="location.reload()">Réessayer</button>');}
 })();

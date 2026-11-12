@@ -158,6 +158,13 @@ for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);assert
  assert.ok(a.duration_minutes>0&&a.materials_en?.length===a.materials.length,'GS parent card '+a.id);assert.equal(a.steps_fr.length,a.steps_en.length,'GS steps '+a.id);assert.equal(a.observe_en?.length,a.observe.length,'GS observation in English '+a.id);
  assert.ok(!a.steps_fr.some(s=>s.startsWith('Préparer avec l’adulte :'))&&!a.materials.some(m=>/décrits dans la consigne|^papier et crayons$/.test(m))&&!a.observe.some(o=>o.startsWith('Répond ou montre sa démarche')||o==='Comprend la consigne et commence avec une aide adaptée.'),'GS generated filler '+a.id);}}assert.equal(gsActivities,167);
 const lex=read('data/bassa-lexicon-variants.json'),bm=read('data/bassa-lessons.json');
+// Lot 8c : notions communes des leçons de langue nationale. Les 29 mots du quotidien gardent leurs identifiants (clés des
+// enregistrements familiaux) ; chaque forme bassa documentée renvoie à une seule notion ; chaque leçon trouve ses notions.
+{const lcn=read('data/lcn-concepts.json'),themes=new Set(lcn.themes.map(t=>t.id)),ids=new Set(),bassa=new Map();
+ for(const c of lcn.concepts){assert.ok(/^[a-z_]+$/.test(c.id)&&!ids.has(c.id)&&themes.has(c.theme)&&c.icon&&c.fr&&c.en,'LCN concept '+c.id);ids.add(c.id);for(const b of c.bassa||[]){assert.ok(!bassa.has(b),'Bassa form in two concepts '+b);bassa.set(b,c.id);}}
+ assert.deepEqual(lcn.concepts.filter(c=>c.daily).map(c=>c.id),['hello','thanks','please','howareyou','goodbye','goodnight','mother','father','child','grandmother','grandfather','baby','eyes','ear','nose','mouth','hand','foot','one','two','three','four','five','house','water','eat','bed','sleep','fire']);
+ assert.deepEqual([...bassa.keys()].sort(),lex.entries.map(e=>e.id).sort(),'Every documented Bassa entry has a concept');
+ for(const [k,row] of Object.entries(bm.lessons))assert.ok(row.concept_ids.every(id=>bassa.has(id)),'LCN lesson concepts '+k);}
 validateBassaRecordings(root,lex.entries);
 for(const [lesson,row] of Object.entries(bm.lessons)){assert.ok(row.concept_ids.length,lesson);for(const id of row.concept_ids)assert.ok(lex.entries.some(x=>x.id===id&&x.forms.length&&x.sources.length),lesson+' '+id);}
 for(const f of ['shared/correction.js','shared/exercises.js','shared/search.js','shared/pilot.js','shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','shared/learning-app.js','app.js','v9.js','v14.js','pwa.js','service-worker.js','shared/core.js','shared/ui.js','class-switch-v12.js','ms/app-core-v13.js','ms/app-ui-v13.js','ms/ms-v14.js'])execFileSync(process.execPath,['--check',path.join(root,f)]);

@@ -71,7 +71,7 @@ Ce fichier conserve uniquement les décisions structurantes utiles aux prochaine
 
 **Décision (porteur de projet, 11 novembre 2026) :** la langue et culture nationale travaillée est celle que parlent les parents ; le bassa reste la première langue documentée dans Klassia. La page « Langue de la maison » (lot 8a) permet à un adulte d’enregistrer des mots du quotidien dans sa langue et à l’enfant de les écouter et de les reconnaître.
 
-**Conséquence :** les enregistrements familiaux restent sur l’appareil, dans le profil de l’enfant (IndexedDB), sans envoi ni inclusion dans la sauvegarde JSON ; ils ne sont pas présentés comme des formes validées. Les formes bassa documentées gardent leur circuit de relecture et de diffusion propre.
+**Conséquence :** les enregistrements familiaux restent sur l’appareil, dans le profil de l’enfant (IndexedDB), sans envoi ni inclusion dans la sauvegarde JSON ; ils ne sont pas présentés comme des formes validées. Les formes bassa documentées gardent leur circuit de relecture et de diffusion propre. Depuis le lot 8c, les leçons de langue nationale sont décrites par des notions communes (`data/lcn-concepts.json`) : les formes bassa et les mots de la famille s’y rattachent, ce qui permet d’accueillir une autre langue sans réécrire les leçons.
 
 ## ADR-013 — Des classes anglophones jumelles plutôt qu’une classe « bilingue »
 

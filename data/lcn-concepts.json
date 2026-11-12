@@ -1,0 +1,739 @@
+{
+  "version": 1,
+  "notice": "Notions communes aux leçons de langues et cultures nationales, indépendantes de la langue. Les formes bassa viennent du lexique documentaire (identifiants BA…) ; les mots de la famille sont enregistrés sur l’appareil dans « Langue de la maison ». Aucune forme n’est validée ici.",
+  "themes": [
+    {
+      "id": "salutations",
+      "fr": "Salutations",
+      "en": "Greetings"
+    },
+    {
+      "id": "famille",
+      "fr": "La famille",
+      "en": "Family"
+    },
+    {
+      "id": "corps",
+      "fr": "Le corps",
+      "en": "The body"
+    },
+    {
+      "id": "nombres",
+      "fr": "Les nombres",
+      "en": "Numbers"
+    },
+    {
+      "id": "maison",
+      "fr": "La maison et le repas",
+      "en": "Home and meals"
+    },
+    {
+      "id": "ecole",
+      "fr": "À l’école",
+      "en": "At school"
+    },
+    {
+      "id": "animaux",
+      "fr": "Les animaux",
+      "en": "Animals"
+    },
+    {
+      "id": "trajets",
+      "fr": "Trajets et métiers",
+      "en": "Journeys and jobs"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "hello",
+      "theme": "salutations",
+      "icon": "👋",
+      "fr": "Bonjour",
+      "en": "Hello",
+      "daily": true
+    },
+    {
+      "id": "thanks",
+      "theme": "salutations",
+      "icon": "🙏",
+      "fr": "Merci",
+      "en": "Thank you",
+      "daily": true
+    },
+    {
+      "id": "please",
+      "theme": "salutations",
+      "icon": "🤲",
+      "fr": "S’il te plaît",
+      "en": "Please",
+      "daily": true,
+      "bassa": [
+        "BA027"
+      ]
+    },
+    {
+      "id": "howareyou",
+      "theme": "salutations",
+      "icon": "🙂",
+      "fr": "Comment vas-tu ?",
+      "en": "How are you?",
+      "daily": true
+    },
+    {
+      "id": "goodbye",
+      "theme": "salutations",
+      "icon": "🚶",
+      "fr": "Au revoir",
+      "en": "Goodbye",
+      "daily": true
+    },
+    {
+      "id": "goodnight",
+      "theme": "salutations",
+      "icon": "🌙",
+      "fr": "Bonne nuit",
+      "en": "Good night",
+      "daily": true
+    },
+    {
+      "id": "mother",
+      "theme": "famille",
+      "icon": "👩",
+      "fr": "Maman",
+      "en": "Mother",
+      "daily": true,
+      "bassa": [
+        "BA017"
+      ]
+    },
+    {
+      "id": "father",
+      "theme": "famille",
+      "icon": "👨",
+      "fr": "Papa",
+      "en": "Father",
+      "daily": true,
+      "bassa": [
+        "BA018"
+      ]
+    },
+    {
+      "id": "child",
+      "theme": "famille",
+      "icon": "🧒",
+      "fr": "L’enfant",
+      "en": "Child",
+      "daily": true,
+      "bassa": [
+        "BA019"
+      ]
+    },
+    {
+      "id": "grandmother",
+      "theme": "famille",
+      "icon": "👵",
+      "fr": "Grand-mère",
+      "en": "Grandmother",
+      "daily": true
+    },
+    {
+      "id": "grandfather",
+      "theme": "famille",
+      "icon": "👴",
+      "fr": "Grand-père",
+      "en": "Grandfather",
+      "daily": true
+    },
+    {
+      "id": "baby",
+      "theme": "famille",
+      "icon": "👶",
+      "fr": "Le bébé",
+      "en": "Baby",
+      "daily": true
+    },
+    {
+      "id": "eyes",
+      "theme": "corps",
+      "icon": "👀",
+      "fr": "Les yeux",
+      "en": "Eyes",
+      "daily": true,
+      "bassa": [
+        "BA012"
+      ]
+    },
+    {
+      "id": "ear",
+      "theme": "corps",
+      "icon": "👂",
+      "fr": "L’oreille",
+      "en": "Ear",
+      "daily": true,
+      "bassa": [
+        "BA050"
+      ]
+    },
+    {
+      "id": "nose",
+      "theme": "corps",
+      "icon": "👃",
+      "fr": "Le nez",
+      "en": "Nose",
+      "daily": true
+    },
+    {
+      "id": "mouth",
+      "theme": "corps",
+      "icon": "👄",
+      "fr": "La bouche",
+      "en": "Mouth",
+      "daily": true,
+      "bassa": [
+        "BA014"
+      ]
+    },
+    {
+      "id": "hand",
+      "theme": "corps",
+      "icon": "✋",
+      "fr": "La main",
+      "en": "Hand",
+      "daily": true,
+      "bassa": [
+        "BA011"
+      ]
+    },
+    {
+      "id": "foot",
+      "theme": "corps",
+      "icon": "🦶",
+      "fr": "Le pied",
+      "en": "Foot",
+      "daily": true,
+      "bassa": [
+        "BA015"
+      ]
+    },
+    {
+      "id": "one",
+      "theme": "nombres",
+      "icon": "1️⃣",
+      "fr": "Un",
+      "en": "One",
+      "daily": true,
+      "bassa": [
+        "BA045"
+      ]
+    },
+    {
+      "id": "two",
+      "theme": "nombres",
+      "icon": "2️⃣",
+      "fr": "Deux",
+      "en": "Two",
+      "daily": true,
+      "bassa": [
+        "BA046"
+      ]
+    },
+    {
+      "id": "three",
+      "theme": "nombres",
+      "icon": "3️⃣",
+      "fr": "Trois",
+      "en": "Three",
+      "daily": true,
+      "bassa": [
+        "BA047"
+      ]
+    },
+    {
+      "id": "four",
+      "theme": "nombres",
+      "icon": "4️⃣",
+      "fr": "Quatre",
+      "en": "Four",
+      "daily": true,
+      "bassa": [
+        "BA048"
+      ]
+    },
+    {
+      "id": "five",
+      "theme": "nombres",
+      "icon": "5️⃣",
+      "fr": "Cinq",
+      "en": "Five",
+      "daily": true,
+      "bassa": [
+        "BA049"
+      ]
+    },
+    {
+      "id": "house",
+      "theme": "maison",
+      "icon": "🏠",
+      "fr": "La maison",
+      "en": "House",
+      "daily": true,
+      "bassa": [
+        "BA022"
+      ]
+    },
+    {
+      "id": "water",
+      "theme": "maison",
+      "icon": "💧",
+      "fr": "L’eau",
+      "en": "Water",
+      "daily": true,
+      "bassa": [
+        "BA030"
+      ]
+    },
+    {
+      "id": "eat",
+      "theme": "maison",
+      "icon": "🍽️",
+      "fr": "Manger",
+      "en": "To eat",
+      "daily": true
+    },
+    {
+      "id": "bed",
+      "theme": "maison",
+      "icon": "🛏️",
+      "fr": "Le lit",
+      "en": "Bed",
+      "daily": true
+    },
+    {
+      "id": "sleep",
+      "theme": "maison",
+      "icon": "😴",
+      "fr": "Dormir",
+      "en": "To sleep",
+      "daily": true
+    },
+    {
+      "id": "fire",
+      "theme": "maison",
+      "icon": "🔥",
+      "fr": "Le feu",
+      "en": "Fire",
+      "daily": true
+    },
+    {
+      "id": "nursery_school",
+      "theme": "ecole",
+      "icon": "🏫",
+      "fr": "L’école maternelle",
+      "en": "Nursery school",
+      "bassa": [
+        "BA001"
+      ]
+    },
+    {
+      "id": "classroom",
+      "theme": "ecole",
+      "icon": "🪑",
+      "fr": "La salle de classe",
+      "en": "Classroom",
+      "bassa": [
+        "BA002"
+      ]
+    },
+    {
+      "id": "pupil",
+      "theme": "ecole",
+      "icon": "🧑‍🎓",
+      "fr": "L’élève",
+      "en": "Pupil",
+      "bassa": [
+        "BA003"
+      ]
+    },
+    {
+      "id": "teacher",
+      "theme": "ecole",
+      "icon": "🧑‍🏫",
+      "fr": "L’enseignant, l’enseignante",
+      "en": "Teacher",
+      "bassa": [
+        "BA004"
+      ]
+    },
+    {
+      "id": "book",
+      "theme": "ecole",
+      "icon": "📖",
+      "fr": "Le livre",
+      "en": "Book",
+      "bassa": [
+        "BA005"
+      ]
+    },
+    {
+      "id": "pencil",
+      "theme": "ecole",
+      "icon": "✏️",
+      "fr": "Le crayon",
+      "en": "Pencil",
+      "bassa": [
+        "BA006"
+      ]
+    },
+    {
+      "id": "notebook",
+      "theme": "ecole",
+      "icon": "📓",
+      "fr": "Le cahier",
+      "en": "Exercise book",
+      "bassa": [
+        "BA007"
+      ]
+    },
+    {
+      "id": "chalk",
+      "theme": "ecole",
+      "icon": "🖍️",
+      "fr": "La craie",
+      "en": "Chalk",
+      "bassa": [
+        "BA008"
+      ]
+    },
+    {
+      "id": "eraser",
+      "theme": "ecole",
+      "icon": "⬜",
+      "fr": "La gomme",
+      "en": "Eraser",
+      "bassa": [
+        "BA009"
+      ]
+    },
+    {
+      "id": "pen",
+      "theme": "ecole",
+      "icon": "🖊️",
+      "fr": "Le stylo",
+      "en": "Pen",
+      "bassa": [
+        "BA057"
+      ]
+    },
+    {
+      "id": "name",
+      "theme": "ecole",
+      "icon": "🏷️",
+      "fr": "Le nom",
+      "en": "Name",
+      "bassa": [
+        "BA053"
+      ]
+    },
+    {
+      "id": "greetme",
+      "theme": "salutations",
+      "icon": "🙋",
+      "fr": "Salue-moi",
+      "en": "Greet me",
+      "bassa": [
+        "BA024"
+      ]
+    },
+    {
+      "id": "yes",
+      "theme": "salutations",
+      "icon": "👍",
+      "fr": "Oui",
+      "en": "Yes",
+      "bassa": [
+        "BA028"
+      ]
+    },
+    {
+      "id": "no",
+      "theme": "salutations",
+      "icon": "👎",
+      "fr": "Non",
+      "en": "No",
+      "bassa": [
+        "BA029"
+      ]
+    },
+    {
+      "id": "laugh",
+      "theme": "salutations",
+      "icon": "😄",
+      "fr": "Rire",
+      "en": "To laugh",
+      "bassa": [
+        "BA025"
+      ]
+    },
+    {
+      "id": "clap",
+      "theme": "salutations",
+      "icon": "👏",
+      "fr": "Applaudir",
+      "en": "To clap",
+      "bassa": [
+        "BA026"
+      ]
+    },
+    {
+      "id": "brother",
+      "theme": "famille",
+      "icon": "👦",
+      "fr": "Le frère",
+      "en": "Brother",
+      "bassa": [
+        "BA020"
+      ]
+    },
+    {
+      "id": "sister",
+      "theme": "famille",
+      "icon": "👧",
+      "fr": "La sœur",
+      "en": "Sister",
+      "bassa": [
+        "BA021"
+      ]
+    },
+    {
+      "id": "household",
+      "theme": "famille",
+      "icon": "🏡",
+      "fr": "La maisonnée (la famille qui vit ensemble)",
+      "en": "The household",
+      "bassa": [
+        "BA023"
+      ]
+    },
+    {
+      "id": "friend",
+      "theme": "famille",
+      "icon": "🤝",
+      "fr": "L’ami, l’amie",
+      "en": "Friend",
+      "bassa": [
+        "BA055"
+      ]
+    },
+    {
+      "id": "head",
+      "theme": "corps",
+      "icon": "👤",
+      "fr": "La tête",
+      "en": "Head",
+      "bassa": [
+        "BA010"
+      ]
+    },
+    {
+      "id": "eye",
+      "theme": "corps",
+      "icon": "👁️",
+      "fr": "L’œil",
+      "en": "Eye",
+      "bassa": [
+        "BA013"
+      ]
+    },
+    {
+      "id": "body",
+      "theme": "corps",
+      "icon": "🧍",
+      "fr": "Le corps",
+      "en": "Body",
+      "bassa": [
+        "BA016"
+      ]
+    },
+    {
+      "id": "teeth",
+      "theme": "corps",
+      "icon": "🦷",
+      "fr": "Les dents",
+      "en": "Teeth",
+      "bassa": [
+        "BA051"
+      ]
+    },
+    {
+      "id": "zero",
+      "theme": "nombres",
+      "icon": "0️⃣",
+      "fr": "Zéro",
+      "en": "Zero",
+      "bassa": [
+        "BA044"
+      ]
+    },
+    {
+      "id": "milk",
+      "theme": "maison",
+      "icon": "🥛",
+      "fr": "Le lait",
+      "en": "Milk",
+      "bassa": [
+        "BA052"
+      ]
+    },
+    {
+      "id": "mango",
+      "theme": "maison",
+      "icon": "🥭",
+      "fr": "La mangue",
+      "en": "Mango",
+      "bassa": [
+        "BA031"
+      ]
+    },
+    {
+      "id": "wood",
+      "theme": "maison",
+      "icon": "🪵",
+      "fr": "Le bois",
+      "en": "Wood",
+      "bassa": [
+        "BA032"
+      ]
+    },
+    {
+      "id": "cotton",
+      "theme": "maison",
+      "icon": "🧶",
+      "fr": "Le coton",
+      "en": "Cotton",
+      "bassa": [
+        "BA058"
+      ]
+    },
+    {
+      "id": "dog",
+      "theme": "animaux",
+      "icon": "🐕",
+      "fr": "Le chien",
+      "en": "Dog",
+      "bassa": [
+        "BA033"
+      ]
+    },
+    {
+      "id": "cat",
+      "theme": "animaux",
+      "icon": "🐈",
+      "fr": "Le chat",
+      "en": "Cat",
+      "bassa": [
+        "BA036"
+      ]
+    },
+    {
+      "id": "mouse",
+      "theme": "animaux",
+      "icon": "🐭",
+      "fr": "La souris",
+      "en": "Mouse",
+      "bassa": [
+        "BA035"
+      ]
+    },
+    {
+      "id": "snake",
+      "theme": "animaux",
+      "icon": "🐍",
+      "fr": "Le serpent",
+      "en": "Snake",
+      "bassa": [
+        "BA034"
+      ]
+    },
+    {
+      "id": "gorilla",
+      "theme": "animaux",
+      "icon": "🦍",
+      "fr": "Le gorille",
+      "en": "Gorilla",
+      "bassa": [
+        "BA037"
+      ]
+    },
+    {
+      "id": "pig",
+      "theme": "animaux",
+      "icon": "🐖",
+      "fr": "Le cochon",
+      "en": "Pig",
+      "bassa": [
+        "BA056"
+      ]
+    },
+    {
+      "id": "go",
+      "theme": "trajets",
+      "icon": "🚶",
+      "fr": "Aller",
+      "en": "To go",
+      "bassa": [
+        "BA041"
+      ]
+    },
+    {
+      "id": "letsgo",
+      "theme": "trajets",
+      "icon": "🏃",
+      "fr": "Allons-y !",
+      "en": "Let’s go!",
+      "bassa": [
+        "BA042"
+      ]
+    },
+    {
+      "id": "car",
+      "theme": "trajets",
+      "icon": "🚗",
+      "fr": "La voiture",
+      "en": "Car",
+      "bassa": [
+        "BA039",
+        "BA043"
+      ]
+    },
+    {
+      "id": "road",
+      "theme": "trajets",
+      "icon": "🛣️",
+      "fr": "La route",
+      "en": "Road",
+      "bassa": [
+        "BA040"
+      ]
+    },
+    {
+      "id": "path",
+      "theme": "trajets",
+      "icon": "🛤️",
+      "fr": "Le chemin",
+      "en": "Path",
+      "bassa": [
+        "BA054"
+      ]
+    },
+    {
+      "id": "doctor",
+      "theme": "trajets",
+      "icon": "🧑‍⚕️",
+      "fr": "Le médecin",
+      "en": "Doctor",
+      "bassa": [
+        "BA038"
+      ]
+    }
+  ]
+}

@@ -12,7 +12,7 @@ names.push('shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','data
 names.push('pilote.html','shared/pilot.js','shared/pilot.css');
 names.push('shared/week.js','data/manuels/champions-francais-ce2.json','data/manuels/champions-francais-sil.json');
 names.push('shared/correction.js', 'shared/exercises.js', 'shared/ink.js', 'outils.html', 'shared/reference.js', 'shared/reference.css');
-names.push('maison.html', 'shared/home-language.js');
+names.push('maison.html', 'shared/home-language.js', 'shared/lcn.js', 'data/lcn-concepts.json');
 names.push('imprimer.html','shared/print.js','shared/print-page.js','shared/print-ce2.js','shared/print-nursery.js','shared/print.css','shared/lesson-support.js','ms/nursery-support.js');
 for(let i=1;i<=8;i++)names.push(`gs/data/themes/T${i}.json`);
 const assets=path.join(root,'assets');if(fs.existsSync(assets))for(const f of fs.readdirSync(assets))names.push('assets/'+f);

@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "7f8a42fca9fc2ff6063d2192ea6aa8771e15ecdf296a2edc108eea7f2c9b850a",
+  "version": "228b11dcda3315b6ca4b940dbee54d9d2172e701eabe1754bea47ebb28af2ddb",
   "packs": {
     "common": {
-      "files": 65,
-      "bytes": 554246
+      "files": 67,
+      "bytes": 573570
     },
     "CE1": {
       "files": 52,
@@ -1080,8 +1080,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "767c27a96c6fee45953756de3094fa7579155140f14b9c1ccd2c2b80e1b35b04",
-      "size": 1342
+      "sha256": "56fa8a74885dd84e890e9e813c718bb65a03bbe296b6461f605b6306f91dec72",
+      "size": 1382
     },
     {
       "url": "./class-switch-v12.js",
@@ -1167,6 +1167,11 @@ self.KLASSIA_RELEASE = {
       "sha256": "b8ac91b4c1ed7302a610b160f8eb174995e6634ae2f13ece4589a22dfbadc8dc",
       "size": 714929,
       "pack": "ATELIER"
+    },
+    {
+      "url": "./data/lcn-concepts.json",
+      "sha256": "48d20389076f244f3d67eaab0d0b1002ca275eabf0da64c3489a752ae690aca9",
+      "size": 13118
     },
     {
       "url": "./data/manuels/champions-francais-ce2.json",
@@ -1289,8 +1294,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/index.html",
-      "sha256": "d028926332bd90b469c26a44d7f883546da55d4c357acd87484daf3459c03546",
-      "size": 1299
+      "sha256": "70ce9faacc6fec7fa37fe4dcb79c5a1b2b1d99baa49080a4a102814f649e0c03",
+      "size": 1339
     },
     {
       "url": "./gs/practice-v14.json",
@@ -1305,13 +1310,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "f21a8b8f0dd6586e3490f52b5c24c70f3b753eb7eac3836858d001fc84d62cd8",
-      "size": 1936
+      "sha256": "337115f76df6f33ffda3eb1f5d3f314c69a91254ddcc50eb1bb600508d160cab",
+      "size": 1975
     },
     {
       "url": "./maison.html",
-      "sha256": "6ce10ebcbf37d1e9bcae9dd20d1ea1fc452334c6c4ce15b9efb74f13e6e524a5",
-      "size": 1241
+      "sha256": "416892bb9adfeb41d60181e084f082a3815cf73b79e1fe73ed9303365dabe10d",
+      "size": 1280
     },
     {
       "url": "./manifest.webmanifest",
@@ -1325,8 +1330,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/app-core-v13.js",
-      "sha256": "461e9b62754d07e1a85d99b2ce6b8b7aec51c6c2ff36cd4e4be8377c79c680c2",
-      "size": 7867
+      "sha256": "5786c6e49d1201878d601a071d802077729d0e1c8776c574f80519a5ab5dda3e",
+      "size": 8001
     },
     {
       "url": "./ms/app-ui-v13.js",
@@ -1388,8 +1393,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/index.html",
-      "sha256": "1f62ad8dd308fb395e78cefe4aa7e79b8bcb33c06ef555d3da920d8f39d66c22",
-      "size": 1281
+      "sha256": "29c75f9d4b58ce8d5377cc8df486be59690c58fd2d1d5ab4206d5dddbf98463d",
+      "size": 1321
     },
     {
       "url": "./ms/ms-v14.css",
@@ -1449,8 +1454,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/bassa.js",
-      "sha256": "316e0f8d83fbc6bb74b00661c583f1511086199e1ebd45fa5e971837085d8bdb",
-      "size": 12847
+      "sha256": "7b1ad7bf21944509a706cc55cf51be010da95d4c267849db46bef75f6c208e74",
+      "size": 12973
     },
     {
       "url": "./shared/classes.js",
@@ -1479,13 +1484,18 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/home-language.js",
-      "sha256": "f6df6023d88aaefb1d3feec11e61eeb4f569270e65e45a812368405477e912df",
-      "size": 10183
+      "sha256": "332de64fbca2c89fa031a6b1b00792f606bd821143e9a85a90ee20f3937fc37d",
+      "size": 9932
     },
     {
       "url": "./shared/ink.js",
       "sha256": "344e09ca53d92eb2b8b1ff65faa29a02d87c76c83b2162d4d01fedddabe9d251",
       "size": 9599
+    },
+    {
+      "url": "./shared/lcn.js",
+      "sha256": "6d498840ff12193d97f44e5185960d71ea557aa724ba04e5e2c8fa72987ef56c",
+      "size": 5378
     },
     {
       "url": "./shared/learning-app.js",
@@ -1569,8 +1579,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "128b83cd2d07f6cc581a803a91468253f9ae12dcf41b12495bc3093f7b953ef8",
-      "size": 38583
+      "sha256": "1a016b0d1b37700426a2a3fb9d7b225a4e3fb96a14261f711f46dc11ace0dd55",
+      "size": 39164
     },
     {
       "url": "./shared/ui.js",
@@ -1637,8 +1647,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "2cf8b4af76c27dd4a2dad577ddc2a4570eb1ba3c905bff29e8a71c4551ee6de4",
-      "size": 1335
+      "sha256": "c9fd597e146a70c40a684ab9b83546393ae325cd5fba6edad041e661ac7619df",
+      "size": 1375
     },
     {
       "url": "./sil/style.css",

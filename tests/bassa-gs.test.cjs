@@ -60,3 +60,13 @@ test('all national-language lessons have live sourced Bassa translations',()=>{
 test('GS activities have supplied stories, bilingual tasks and coherent counting answers',()=>{let count=0;for(let u=1;u<=8;u++){const t=read(`gs/data/themes/T${u}.json`);for(const d of t.domains)for(const a of d.activities){count++;if(['story','poem'].includes(a.type))assert.ok(a.story_fr&&a.story_en,a.id);if(a.interactive){const dots=a.visual.items.join('').split('●').length-1;assert.equal(dots,a.interactive.answer,a.id);}}}assert.equal(count,167);});
 
 test('GS tracing models cover all 26 letters without duplication',()=>{const p=read('gs/practice-v14.json');assert.equal(Object.values(p.themes).flatMap(t=>t.letters).join(''),'ABCDEFGHIJKLMNOPQRSTUVWXYZ');});
+
+// Lot 8c : une leçon de langue nationale vise des notions, reliées au bassa documenté et aux mots de la famille.
+test('a national-language lesson finds its concepts, whatever the family language',async()=>{
+ const L=require('../shared/lcn.js'),data=await L.load(async p=>read(p));
+ const sil=L.conceptsFor(data,'SIL','SIL-U1-L10').map(c=>c.id);assert.ok(sil.length>0);
+ const ce2=L.conceptsFor(data,'CE2','BA-U3-L1').map(c=>c.id);assert.ok(ce2.includes('classroom')&&ce2.includes('teacher'));
+ assert.deepEqual(L.conceptsFor(data,'CE1','CE1-U1-L01'),[],'not a national-language lesson');
+ const car=data.concepts.find(c=>c.id==='car');assert.deepEqual(car.bassa,['BA039','BA043']);
+ const dup=L.conceptsFor({concepts:data.concepts,lessons:{'X:1':{concept_ids:['BA039','BA043']}}},'X','1');assert.equal(dup.length,1,'one concept once');
+});

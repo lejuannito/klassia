@@ -143,6 +143,15 @@
 .klassia-stats li { display: grid; gap: 2px; padding: 12px; border: 1px solid #dce2f0; border-radius: 14px; background: #fff; }
 .klassia-stats strong { font-size: 1.5rem; color: #172033; }
 .klassia-stats li > span:last-child { color: #46526b; font-size: .92rem; }
+.klassia-activity { margin: 8px 0; padding: 0; list-style: none; }
+.klassia-activity li { display: flex; gap: 10px; align-items: center; padding: 8px 0; border-top: 1px solid #dce2f0; }
+.klassia-activity li:first-child { border-top: 0; }
+.klassia-activity li > span { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: #eef2ff; }
+.klassia-activity div { display: flex; flex-direction: column; }
+.klassia-activity small { color: #5b6478; }
+.klassia-table { overflow-x: auto; margin: 0 0 18px; }
+.klassia-table table { width: 100%; border-collapse: collapse; background: #fff; }
+.klassia-table th, .klassia-table td { padding: 8px 10px; border: 1px solid #dce2f0; text-align: left; }
 .klassia-progress-rows { display: grid; gap: 10px; margin: 0 0 18px; padding: 0; list-style: none; }
 .klassia-progress-rows li { display: flex; gap: 12px; align-items: flex-start; padding: 12px; border: 1px solid #dce2f0; border-radius: 14px; background: #fff; }
 .klassia-progress-rows li > div { flex: 1; min-width: 0; }

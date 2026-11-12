@@ -183,6 +183,9 @@ function shell(body, active = 'home') {
   Klassia.rendered();
 }
 
+// Les pages indépendantes du moteur (shared/workshop.js) s'affichent par ce point d'entrée.
+Klassia.paint = html => shell(html, 'learn');
+
 function progressRing(pct) {
   const deg = clamp(pct, 0, 100) * 3.6;
   return `<div class="ring" style="--ring:${deg}deg"><div><strong>${pct}%</strong><span>progression</span></div></div>`;

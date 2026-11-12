@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "4c670663f922b1184c817e4c0f523c81b4ca19eaf9af986962d4bcdc6f45d917",
+  "version": "e339f2e31e1a5bd12c424976f9e24979f61f3e90d784bdeed218c75692748b9c",
   "packs": {
     "common": {
-      "files": 69,
-      "bytes": 597974
+      "files": 71,
+      "bytes": 604690
     },
     "CE1": {
       "files": 52,
@@ -33,8 +33,8 @@ self.KLASSIA_RELEASE = {
   "files": [
     {
       "url": "./app.js",
-      "sha256": "938c1283d725abde7bc5fa868bf16fdaeb4ab705128d244462949bf018f9660e",
-      "size": 47693
+      "sha256": "c13990cd6640931ba075f48e95ed449d1f02e6af9a0b68ccf19c460e215d6779",
+      "size": 47835
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -1080,8 +1080,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "7115fc2f50cab95dd0eac6384d5f3b9683d11f66431e0447cc779b981284cbac",
-      "size": 1471
+      "sha256": "ed3bfc62666c2741d61933c97fb717e7fd45da8d336f47449c77928351b7c726",
+      "size": 1516
     },
     {
       "url": "./class-switch-v12.js",
@@ -1310,8 +1310,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "971fec39cc03af2736eda39c5490b9540a8a7b48a46afc47ffc25b1cf7cafe86",
-      "size": 2155
+      "sha256": "b5bab8ee6de2ba922d441a3decac53c21764d487a392e95731ddcc4dfcfafbe3",
+      "size": 2249
     },
     {
       "url": "./maison.html",
@@ -1448,6 +1448,11 @@ self.KLASSIA_RELEASE = {
       "size": 10702
     },
     {
+      "url": "./shared/activity.js",
+      "sha256": "d32335b2069d0a2708bc333ecfaf54489d238e38bbe9c1b90ca0757b949b51c6",
+      "size": 2147
+    },
+    {
       "url": "./shared/bassa-recorder.js",
       "sha256": "ab292cd59402134bb1bd69c38473d36de8a75dd711be4d18ce5e5655d09b564f",
       "size": 25428
@@ -1499,8 +1504,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "7d87a34f2e6b8a3b96849649e79c90a2b80b3aba245c1724508201aff4d4eff7",
-      "size": 37077
+      "sha256": "d7f754f1add5ce8533707fb28db042390de19c5be4dd271a94935edb0236ea31",
+      "size": 41153
     },
     {
       "url": "./shared/lesson-model.js",
@@ -1589,18 +1594,23 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "7eb6cdb004402788e2df708c659241e6f563267ddd5f2e5cc64327a95d745bf7",
-      "size": 43163
+      "sha256": "e78f425d4f0857a7fec5fbbd83ae5fe4f2878e2bfae22a9efde621ec5dafa836",
+      "size": 43890
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "07f96e3e68e98149208642766ecbe6abb3eb5ba8df0d519bc9ab1fc8b8791308",
-      "size": 33202
+      "sha256": "1d22d6eda33289feb7e4f09fd94f35ef63097337a3ba244b306bee2aa2ef102c",
+      "size": 33298
     },
     {
       "url": "./shared/week.js",
       "sha256": "9100d9f254dcc1149134d4609250d730e220dc31ed8d043bacb897f33fc52ad9",
       "size": 5615
+    },
+    {
+      "url": "./shared/workshop.js",
+      "sha256": "6b9102de2c543642d2abe77f75a736f065372b58b501113de674ac5df00cc560",
+      "size": 13267
     },
     {
       "url": "./sil/data/curriculum.json",
@@ -1657,8 +1667,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "655df396f5be96ebd79dd40869379bac1d78abd98931b023001abe53e7949e59",
-      "size": 1464
+      "sha256": "58b67c2bd5aec81c53d40b1fb6683dd9784679e954b119d4dcb67aa31ac488a8",
+      "size": 1509
     },
     {
       "url": "./sil/style.css",
@@ -1677,8 +1687,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v14.js",
-      "sha256": "61a0c7e3c59d710639d1d2b2fa3201d2d1a9554715dc8c4db7f25bb947a1824a",
-      "size": 21310
+      "sha256": "e4a1acb8e57e7767c5fc90be0938619b1308cd086f4ad36edb6ce1463aed072f",
+      "size": 8617
     },
     {
       "url": "./v9.css",
@@ -1687,8 +1697,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v9.js",
-      "sha256": "06ba780d5e27b598a4538212f26cecbaef94616d597d59944cc0aa009c74dd92",
-      "size": 6384
+      "sha256": "56f91f94af5541678d1f3d4b7b717688ab27b61d45a0e35f678d5a4c747a39eb",
+      "size": 5154
     }
   ]
 };

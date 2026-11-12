@@ -93,9 +93,13 @@ K.tabBar = tabBar;
 function progressSummary(title, description, stats, rows) {
  return `<section class="klassia-catalogue-heading"><h1>${esc(title)}</h1><p>${esc(description)}</p></section>
  <ul class="klassia-stats">${stats.map(x => `<li><span aria-hidden="true">${x.icon}</span><strong>${esc(x.value)}</strong><span>${esc(x.label)}</span></li>`).join('')}</ul>
- <ul class="klassia-progress-rows">${rows.map(r => { const pct = r.total ? Math.round(r.done * 100 / r.total) : 0; return `<li>${r.icon ? `<span class="klassia-progress-icon" aria-hidden="true">${r.icon}</span>` : ''}<div><div class="klassia-progress-head"><strong>${esc(r.title)}</strong><span>${pct} %</span></div><progress max="${r.total || 1}" value="${r.done}" aria-label="${esc(r.title)}"></progress><p>${[`${r.done}/${r.total}`, ...(r.notes || [])].map(esc).join(' · ')}</p></div></li>`; }).join('')}</ul>`;
+ ${progressRows(rows)}`;
+}
+function progressRows(rows) {
+ return `<ul class="klassia-progress-rows">${rows.map(r => { const pct = r.total ? Math.round(r.done * 100 / r.total) : 0; return `<li>${r.icon ? `<span class="klassia-progress-icon" aria-hidden="true">${r.icon}</span>` : ''}<div><div class="klassia-progress-head"><strong>${esc(r.title)}</strong><span>${pct} %</span></div><progress max="${r.total || 1}" value="${r.done}" aria-label="${esc(r.title)}"></progress><p>${[`${r.done}/${r.total}`, ...(r.notes || [])].map(esc).join(' · ')}</p></div></li>`; }).join('')}</ul>`;
 }
 K.progressSummary = progressSummary;
+K.progressRows = progressRows;
 function classNavigation(grade){
  const info=K.classInfo(grade),nursery=K.isNurseryClass(grade), older=info.engine!=='lessons';
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],

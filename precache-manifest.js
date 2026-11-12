@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "9b3f47e3d1734ded58d017cdfbdb3c40f71abf855550c62917120cd2f270b1b7",
+  "version": "21ed17f6675872e476514aab5f2c645f196bd5352c6bb92c2d0c01ee7b067b05",
   "files": [
     {
       "url": "./app.js",
@@ -563,7 +563,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "3e5bde6eab84c8efc7d5f37e959b08859637d7b864ff3d8b040fb05898e09ad3"
+      "sha256": "767c27a96c6fee45953756de3094fa7579155140f14b9c1ccd2c2b80e1b35b04"
     },
     {
       "url": "./class-switch-v12.js",
@@ -859,7 +859,11 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "8f55a0af7211b7b80e3330e6675389f4fe3b95cb507d2219cd0100d7a5f97f58"
+      "sha256": "723a5e1449c32c473daeabcc6b44b3e472e4c93a48fc1b0ed61b06e299c8ab51"
+    },
+    {
+      "url": "./shared/lesson-model.js",
+      "sha256": "454d46a7c32252908d0dfbd38e6976ca61eb894864e1a8059d0b6f7999240846"
     },
     {
       "url": "./shared/lesson-support.js",
@@ -919,7 +923,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "8f558c38da0db95610b6e2ea031134c68b4ee2de7420e8e375710f00420211a0"
+      "sha256": "177e1ac699e95fab985184f6b0101bfa18afefcae2e6480e905a0915082efc25"
     },
     {
       "url": "./shared/ui.js",
@@ -967,7 +971,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "76d609cbfb803323b12104518d7db20473db7b6e08b25230d8952a1acae59aa8"
+      "sha256": "2cf8b4af76c27dd4a2dad577ddc2a4570eb1ba3c905bff29e8a71c4551ee6de4"
     },
     {
       "url": "./sil/style.css",

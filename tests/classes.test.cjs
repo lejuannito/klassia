@@ -19,3 +19,14 @@ test('stars count completed resources; the streak counts consecutive days withou
  assert.deepEqual(cheer.summary(registry.classInfo('CE1'),read,now),{stars:2,days:2,today:true},'Opening a page (activity log) is not work');
  assert.equal(cheer.summary(registry.classInfo('CE2'),read,now).stars,1);assert.equal(cheer.summary(registry.classInfo('MS'),read,now).stars,2);
 });
+
+test('the common lesson model reads the three data formats in four steps',()=>{
+ const M=require('../shared/lesson-model.js');assert.deepEqual(M.STEPS.map(x=>x.fr),['Je découvre','Je retiens','Je m’exerce','Je fais le point']);
+ const sil=M.fromLesson({id:'SIL-U1-L01',title:'T',domain:'English',objective:'Goal',course:'Rule',model:'Example',guided:'Together',exercise:'Do',answer:'A',practice:[{prompt:'p'}],remediation:'Help'});
+ assert.equal(sil.english,true);assert.deepEqual(sil.retain.paragraphs,['Rule']);assert.equal(sil.practise.items.length,1);assert.deepEqual(M.filled(sil),{decouvrir:true,retenir:true,exercer:true,point:true});
+ const ce2=M.fromCE2({id:'FR-U1-L1',title:'T',objectives:['O'],discover:'D',learn:['L1',''],takeaway:'K',practical:['P'],exercises:[{prompt:'e'}]});
+ assert.deepEqual(ce2.retain,{paragraphs:['L1'],takeaway:'K',manual:null});assert.equal(ce2.practise.together,'P');
+ const act=M.fromActivity({id:'LC1',title_fr:'Titre',title_en:'Title',goal_fr:'But',prompt_fr:'Consigne',steps_fr:['a','b'],steps_en:['x'],questions:[{fr:'q',answer:'r'}],observe:['o'],observe_en:['O'],materials:['m'],materials_en:['M']},true);
+ assert.equal(act.title,'Title');assert.deepEqual(act.goals,['But'],'English falls back to French');assert.equal(act.practise.items.length,2);assert.deepEqual(act.review.observe,['O']);
+ assert.deepEqual(M.attemptsSummary([{kind:'short_answer',exercise:'SIL:SIL-U1-L1',ok:false},{kind:'short_answer',exercise:'SIL:SIL-U1-L1',ok:true},{kind:'exercise',exercise:'SIL:SIL-U1-L1:entrainement:0',ok:false},{kind:'self_report',exercise:'SIL:SIL-U1-L1:entrainement:1',ok:true},{kind:'exercise',exercise:'SIL:SIL-U1-L10',ok:true}],'SIL:SIL-U1-L1'),{checked:2,right:1,self:1,selfOk:1});
+});

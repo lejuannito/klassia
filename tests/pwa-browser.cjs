@@ -574,6 +574,7 @@ async function testArtsAndMovement(page, base) {
 
 async function testCloudflareNavigation(browser, origin) {
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  await require('./whole-lesson.cjs')(context);
   try {
     const page = await context.newPage();
     const index = await context.request.get(origin + '/index.html', { maxRedirects: 0 });
@@ -632,6 +633,7 @@ async function run() {
     });
     await testCloudflareNavigation(browser, origin);
     const context = await browser.newContext({ viewport: { width: 390, height: 844 }, serviceWorkers: 'allow' });
+    await require('./whole-lesson.cjs')(context);
     const page = await context.newPage();
     page.setDefaultTimeout(20000);
     const status = page.locator('#pwaTools');

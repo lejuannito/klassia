@@ -11,7 +11,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 1. Mode famille | tout | — | — |
 | 2. Corrections enrichies | 2a à 2g | — | — |
 | 3. Semaine et manuels | SIL, CE1, CE2 ; manuels de français SIL et CE2 | — | sommaires des autres manuels |
-| 4. Format commun | formats d’exercices, classes jumelles ; moteur unique décidé (ADR-014), registre des classes fait (M1) | M2 à M5 : modèle commun, CE2 puis maternelle sur le moteur commun, nettoyage (`MOTEUR_UNIQUE.md`) | — |
+| 4. Format commun | formats d’exercices, classes jumelles ; moteur unique décidé (ADR-014) : registre des classes (M1), modèle commun et leçons en quatre étapes (M2) | M3 à M5 : CE2 puis maternelle sur le moteur commun, nettoyage (`MOTEUR_UNIQUE.md`) | — |
 | 5. SIL | lecture avec sons enregistrés ; mesures, géométrie et anglais du programme (5c) | — | — |
 | 6. Maternelle | MS complétée, GS réécrite, vue anglaise ; parcours « programme » et « pour aller plus loin », 13 activités du programme ajoutées (6c) | — | relecture par un enseignant de maternelle ; images et voix |
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés dans toutes les matières sauf la langue nationale ; guide de lecture de l’œuvre de littérature (7d) | — | relecture du guide livre en main |
@@ -19,7 +19,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 9. Confiance et diffusion | bilan de la semaine, partage, mises à jour légères | téléchargement par classe | relecteurs nommés (badge) |
 | Piste anglophone | vue anglaise de la maternelle ; cartographie des programmes Level I et II | A2 interface anglaise, puis Class 1, Class 3, Class 4 (environ 390 leçons) | programme Nursery complet ; relecteur anglophone |
 
-Hors lots, d’après l’analyse : formats vérifiés (fait, E1), encouragements (fait : étoiles et jours de suite sur l’accueil de chaque classe), leçons en quatre étapes (à faire avec l’étape M2 du moteur unique).
+Hors lots, d’après l’analyse : formats vérifiés (fait, E1), encouragements (fait : étoiles et jours de suite sur l’accueil de chaque classe), leçons en quatre étapes (fait pour SIL et CE1 avec l’étape M2 du moteur unique ; CE2 et maternelle suivront avec M3 et M4).
 
 ## Lot 1 — mode famille (PR #51 à #56)
 
@@ -94,7 +94,7 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 - **E1. Formats vérifiés** — trois nouveaux formats d’entraînement en SIL et CE1, vérifiés par Klassia : remise en ordre (on touche les étiquettes dans l’ordre), appariement (une liste à choisir en face de chaque mot) et texte à trous (accents et lettres exigés, majuscules et espaces tolérés). 38 entraînements : ordre alphabétique, nombres et longueurs à ranger, mois, syllabes d’un mot ; cris des animaux, contraires, conjugaisons, adverbes, familles de mots, durées ; pluriels, terminaisons, déterminants, a/à et on/ont, c/ç, prépositions et conjonctions. Chaque vérification est notée dans le journal des essais et alimente « Je révise » ; la correction s’ouvre après la première vérification. À l’impression, les trous deviennent des lignes et les étiquettes sont données dans le désordre. Schéma : `type` (`order`, `match`, `gaps`) avec `items`, `pairs` ou `text` (`[[réponse|variante]]`) ; `npm run validate` vérifie chaque entraînement.
 - **Encouragements** — sur l’accueil de chaque classe, en vue Enfant : une étoile par leçon ou activité réalisée, et les jours de suite où l’enfant a travaillé (réponses ou observations). Rien de nouveau n’est enregistré ; aucun message quand la série s’arrête (`shared/encouragement.js`).
-- **À faire** — leçons en quatre étapes, avec le modèle commun de ressource (M2).
+- **Leçons en quatre étapes** — en SIL et CE1, chaque leçon s’affiche en quatre étapes (Je découvre, Je retiens, Je m’exerce, Je fais le point), une à la fois ou en entier ; la dernière étape fait le bilan des réponses vérifiées et propose le QCM lié et la leçon suivante (`shared/lesson-model.js`).
 
 ## Piste anglophone (début)
 

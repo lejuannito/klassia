@@ -30,7 +30,7 @@ Règles tenues à chaque étape :
 | Étape | Contenu | État |
 |---|---|---|
 | **M1. Registre des classes** | `shared/classes.js` décrit chaque classe (dossier, catalogue, clés, accueil, fonctions). Les trois moteurs, la navigation, le suivi, la recherche, l’impression et le carnet de pilote le lisent ; les configurations écrites dans les pages disparaissent. | **fait** |
-| **M2. Modèle commun de ressource** | Un adaptateur donne la même forme à une leçon CE2, une leçon SIL/CE1 et une activité de maternelle : découvrir, comprendre, retenir, s’exercer. La page de leçon SIL/CE1 passe aux quatre étapes. | à faire |
+| **M2. Modèle commun de ressource** | `shared/lesson-model.js` range une leçon SIL/CE1, une leçon CE2 et une activité de maternelle dans la même forme en quatre étapes : Je découvre, Je retiens, Je m’exerce, Je fais le point. La page de leçon SIL/CE1 s’affiche une étape à la fois (ou toute la leçon, au choix de l’appareil), avec un bilan des réponses vérifiées, le QCM lié et la leçon suivante. | **fait** |
 | **M3. CE2 sur le moteur commun** | Les pages unité, matière, domaine, leçon, semaine et révision du CE2 sont rendues par le moteur commun. Évaluation, projet, espace enseignant, revue éditoriale et atelier Bassa deviennent des modules de page. `app.js` se réduit à ces modules. | à faire |
 | **M4. Maternelle sur le moteur commun** | Thèmes et activités rendus par le moteur commun ; fiche parent, mode enfant et observation deviennent un module. | à faire |
 | **M5. Nettoyage** | Suppression de `app.js`, `v9.js`, `v14.js`, `ms/app-*-v13.js` ; une seule feuille de style de classe ; tests navigateur réécrits sur les sélecteurs communs. | à faire |
@@ -42,5 +42,11 @@ M3 est l’étape la plus lourde : le CE2 porte l’évaluation, les projets, le
 - Ajouter une classe (par exemple Class 1) revient à ajouter une entrée au registre et un dossier de données.
 - `npm run validate` vérifie que le registre et les catalogues disent la même chose (classe jumelle, liste d’unités ou de thèmes), que chaque page de classe charge le registre avant son moteur et qu’aucune configuration en ligne ne revient.
 - Rien ne change à l’écran.
+
+## Ce que change M2
+
+- Les données ne changent pas : les adaptateurs rangent les champs existants. `npm run validate` vérifie que les 1 017 ressources des cinq classes (et la version anglaise des activités de maternelle) remplissent les quatre étapes.
+- Le choix « une étape à la fois » ou « Toute la leçon » est gardé dans le profil (`klassia_lesson_view_v1`). L’impression montre toujours toute la leçon.
+- Les tests de contenu lisent la leçon entière (`tests/whole-lesson.cjs`) ; un test dédié suit le parcours par étapes.
 
 Reste hors du registre : la liste des classes dans la sauvegarde (`shared/core.js`, champ `scope`, purement informatif).

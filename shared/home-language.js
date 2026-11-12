@@ -4,14 +4,10 @@
 (function (K) {
  'use strict';
  const E = K.escape;
- const GROUPS = [
-  ['Salutations', 'Greetings', [['hello', '👋', 'Bonjour', 'Hello'], ['thanks', '🙏', 'Merci', 'Thank you'], ['please', '🤲', 'S’il te plaît', 'Please'], ['howareyou', '🙂', 'Comment vas-tu ?', 'How are you?'], ['goodbye', '🚶', 'Au revoir', 'Goodbye'], ['goodnight', '🌙', 'Bonne nuit', 'Good night']]],
-  ['La famille', 'Family', [['mother', '👩', 'Maman', 'Mother'], ['father', '👨', 'Papa', 'Father'], ['child', '🧒', 'L’enfant', 'Child'], ['grandmother', '👵', 'Grand-mère', 'Grandmother'], ['grandfather', '👴', 'Grand-père', 'Grandfather'], ['baby', '👶', 'Le bébé', 'Baby']]],
-  ['Le corps', 'The body', [['eyes', '👀', 'Les yeux', 'Eyes'], ['ear', '👂', 'L’oreille', 'Ear'], ['nose', '👃', 'Le nez', 'Nose'], ['mouth', '👄', 'La bouche', 'Mouth'], ['hand', '✋', 'La main', 'Hand'], ['foot', '🦶', 'Le pied', 'Foot']]],
-  ['Les nombres', 'Numbers', [['one', '1️⃣', 'Un', 'One'], ['two', '2️⃣', 'Deux', 'Two'], ['three', '3️⃣', 'Trois', 'Three'], ['four', '4️⃣', 'Quatre', 'Four'], ['five', '5️⃣', 'Cinq', 'Five']]],
-  ['La maison et le repas', 'Home and meals', [['house', '🏠', 'La maison', 'House'], ['water', '💧', 'L’eau', 'Water'], ['eat', '🍽️', 'Manger', 'To eat'], ['bed', '🛏️', 'Le lit', 'Bed'], ['sleep', '😴', 'Dormir', 'To sleep'], ['fire', '🔥', 'Le feu', 'Fire']]]
- ];
- const WORDS = GROUPS.flatMap(([, , words]) => words.map(([id, icon, fr, en]) => ({ id, icon, fr, en })));
+ // Lot 8c : les mots viennent des notions communes (data/lcn-concepts.json, via shared/lcn.js). Les 29 mots du quotidien
+ // gardent leurs identifiants ; les autres sont les mots des leçons de langue nationale.
+ let THEMES = [], WORDS = [];
+ const daily = () => WORDS.filter(w => w.daily), lessonWords = () => WORDS.filter(w => !w.daily);
  const LANG_KEY = 'klassia_home_language_v1', TEXT_KEY = 'klassia_home_words_v1', MAX_MS = 6000;
  const supported = () => Boolean(navigator.mediaDevices?.getUserMedia && window.MediaRecorder && window.indexedDB);
  const profileId = () => K.profile().id;
@@ -56,16 +52,19 @@
  }
  function render() {
   const main = document.querySelector('[data-home-language]'); if (!main) return;
-  const name = langName(), count = takes.size;
+  const name = langName(), count = daily().filter(w => takes.has(w.id)).length, extra = lessonWords().filter(w => takes.has(w.id)).length;
+  const groups = list => THEMES.map(t => [t, list.filter(w => w.theme === t.id)]).filter(([, words]) => words.length)
+   .map(([t, words]) => `<h3>${E(t.fr)} <span lang="en">· ${E(t.en)}</span></h3><ul class="home-words">${words.map(wordCard).join('')}</ul>`).join('');
   main.innerHTML = `<section class="gs-card"><h2>La langue de la famille</h2>
    <form data-home-name class="home-name"><label>Nom de la langue parlée à la maison <input name="name" value="${E(name)}" placeholder="par exemple : bassa, ewondo, duala, fulfulde…" maxlength="40" required></label> <button type="submit">Enregistrer le nom</button></form>
-   <p>${name ? `Langue choisie : <strong>${E(name)}</strong>. ` : ''}${count} mot${count > 1 ? 's' : ''} enregistré${count > 1 ? 's' : ''} sur ${WORDS.length}.</p>
+   <p>${name ? `Langue choisie : <strong>${E(name)}</strong>. ` : ''}${count} mot${count > 1 ? 's' : ''} enregistré${count > 1 ? 's' : ''} sur ${daily().length} mots du quotidien${extra ? `, et ${extra} sur ${lessonWords().length} mots des leçons` : ''}.</p>
    <p class="home-privacy">Les enregistrements restent sur cet appareil, dans le profil de l’enfant. Ils ne sont ni envoyés, ni inclus dans la sauvegarde.</p>
    ${supported() ? '' : '<p class="home-warning">L’enregistrement n’est pas possible dans ce navigateur : essayez Chrome à jour.</p>'}
    <p role="status" data-home-status></p></section>
    <section class="gs-card" id="ecouter"><h2>Écouter et trouver</h2><div data-home-game>${game()}</div></section>
    <section class="gs-card" id="enregistrer"><h2>Pour l’adulte : enregistrer les mots</h2><p>Dites le mot une fois, clairement, comme vous le dites à la maison. L’enregistrement s’arrête seul après ${MAX_MS / 1000} secondes.</p>
-   ${GROUPS.map(([fr, en, words]) => `<h3>${E(fr)} <span lang="en">· ${E(en)}</span></h3><ul class="home-words">${words.map(([id]) => wordCard(WORDS.find(w => w.id === id))).join('')}</ul>`).join('')}</section>`;
+   ${groups(daily())}
+   <details class="home-lesson-words"><summary>Mots des leçons de l’école (${lessonWords().length})</summary><p>Ces mots reviennent dans les leçons de langue nationale de la classe. Enregistrés ici, ils apparaissent dans la leçon, sous les formes bassa proposées.</p>${groups(lessonWords())}</details></section>`;
  }
 
  let round = null;
@@ -132,6 +131,7 @@
   if (v) all[input.dataset.written] = v; else delete all[input.dataset.written];
   K.write(TEXT_KEY, all); status('Mot écrit enregistré.');
  });
- K.homeLanguage = { words: WORDS, reload: () => load().then(render) };
- load().catch(() => {}).then(render);
+ K.homeLanguage = { get words() { return WORDS; }, reload: () => load().then(render) };
+ K.Lcn.load().then(data => { THEMES = data.themes; WORDS = data.concepts; })
+  .then(load).catch(() => {}).then(() => WORDS.length ? render() : document.querySelector('[data-home-language]')?.insertAdjacentHTML('afterbegin', '<p class="home-warning">La liste des mots n’a pas pu être chargée. Rechargez la page avec la connexion.</p>'));
 })(window.Klassia);

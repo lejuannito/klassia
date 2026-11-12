@@ -15,7 +15,7 @@ Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il 
 | 5. SIL | lecture avec sons enregistrés ; mesures, géométrie et anglais du programme (5c) | — | — |
 | 6. Maternelle | MS complétée, GS réécrite, vue anglaise ; parcours « programme » et « pour aller plus loin », 13 activités du programme ajoutées (6c) | — | relecture par un enseignant de maternelle ; images et voix |
 | 7. CE1 | français et mathématiques par savoir, anglais, QCM reliés dans toutes les matières sauf la langue nationale ; guide de lecture de l’œuvre de littérature et son QCM (7d) ; 35 dictées enregistrées | — | relecture du guide livre en main |
-| 8. Langue de la maison | enregistreur familial ; repères d’écriture du bassa, touches de lettres et de tons, saisie sans tons annotée (8b) | modèle multilingue des leçons LCN | relecteur bassa (forme principale) |
+| 8. Langue de la maison | enregistreur familial ; repères d’écriture du bassa, touches de lettres et de tons, saisie sans tons annotée (8b) ; modèle multilingue des leçons LCN (8c) | — | relecteur bassa (forme principale) |
 | 9. Confiance et diffusion | bilan de la semaine, partage, mises à jour légères, téléchargement par classe (9c) | — | relecteurs nommés (badge) |
 | Piste anglophone | vue anglaise de la maternelle ; cartographie des programmes Level I et II | A2 interface anglaise, puis Class 1, Class 3, Class 4 (environ 390 leçons) | programme Nursery complet ; relecteur anglophone |
 
@@ -83,7 +83,8 @@ Public prioritaire : élèves et parents. Le lot est découpé en sous-lots livr
 
 - **8a. Enregistreur familial** — page `maison.html` (menu Parents, « Langue de la maison ») : la famille note le nom de sa langue, enregistre 29 mots du quotidien (salutations, famille, corps, nombres de 1 à 5, maison et repas), peut écrire le mot si elle le souhaite ; l’enfant joue à « Écouter et trouver » (trois images, dès trois mots enregistrés). Audio dans IndexedDB par profil, hors sauvegarde ; le jeu compte dans le bilan de la semaine. Décision reportée dans ADR-012.
 - **8b. Écrire le bassa** — une référence publique de 2024 (CNRS, Bassong et Zribi-Hertz) et la présentation de l’alphabet général ont été retrouvées. `data/bassa-ecriture.json` en tire des repères sourcés (lettres ɓ ŋ ɲ ɛ ɔ, cinq tons, exemples, questions ouvertes), affichés dans l’atelier Bassa sans valider aucune forme. Neuf touches insèrent lettres et tons sous les champs de réponse ; une réponse sans marques de ton est acceptée avec rappel de la forme proposée (proposition à confirmer). Voir `docs/BASSA_ECRITURE.md`.
-- **À faire** — forme principale par mot et exercice d’écoute (relecteur bassa à obtenir), modèle multilingue des leçons LCN.
+- **8c. Modèle multilingue** — les leçons de langue nationale visent des notions, pas une langue : `data/lcn-concepts.json` (70 notions, dont les 29 mots du quotidien) relie chaque forme bassa documentée et chaque mot enregistré par la famille à une même notion. Dans les 45 leçons et activités de langue nationale des cinq classes, un panneau « Dans la langue de la maison » suit les formes bassa : il fait écouter les mots que la famille a enregistrés pour ces notions, quelle que soit sa langue, et invite à enregistrer les autres. « Langue de la maison » propose, en plus des 29 mots, les 41 mots des leçons. Rien ne quitte l’appareil (`shared/lcn.js`).
+- **À faire** — forme principale par mot et exercice d’écoute (relecteur bassa à obtenir).
 
 ## Lot 9 — confiance et diffusion (en cours)
 

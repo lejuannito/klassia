@@ -72,19 +72,13 @@ async function showReview(){const b=await qcmBank();if(location.hash!=='#reviser
  frame(hero('Réviser avec les QCM','Une série de questions par matière et par unité. Après une erreur, « Revoir la leçon » ouvre la leçon à relire.')+blocks);}
 async function showSeries(id){const b=await qcmBank(),s=b.series.find(x=>x.id===id);if(!s)return notFound();if(location.hash!=='#qcm:'+id)return;
  const en=s.subject==='English',adult=K.isAdultSpace(),u=units.find(x=>x.id===s.unit),title=s.subject+' · '+(en?'Unit ':'Unité ')+(units.indexOf(u)+1);
- const lessonOf=q=>lessons.find(x=>x.l.id===q.lecon)?.l,link=l=>l?`<a href="#lesson:${encodeURIComponent(l.id)}">${en?'Review the lesson':'Revoir la leçon'} « ${E(l.title)} »</a>`:'';
+ const lessonOf=q=>lessons.find(x=>x.l.id===q.lecon)?.l;
  const back=`<a href="#reviser">← ${en?'All quizzes':'Toutes les séries'}</a>`;
  if(adult){frame(back+hero(title,'Corrigé adulte : bonne réponse et leçon vérifiée par chaque question.')+`<ol class="klassia-qcm-key">${s.questions.map(q=>`<li><b>${E(q.enonce)}</b><p>${E(q.choix[q.bonne])} — ${E(q.corrige)}</p><p class="muted">Leçon liée : ${E(lessonOf(q)?.title||q.lecon)}</p></li>`).join('')}</ol>`);return;}
- frame(back+hero(title,en?'Choose one answer for each question, then check.':'Choisis une réponse par question, puis corrige la série.')+`<form class="klassia-qcm" lang="${en?'en':'fr'}">${s.questions.map((q,i)=>`<fieldset class="klassia-qcm-question"><legend>${i+1}. ${E(q.enonce)}</legend>${K.shuffleOptions(q).map(o=>`<label><input type="radio" name="q${i}" value="${o.id}"><span>${E(o.text)}</span></label>`).join('')}<p class="klassia-qcm-feedback" data-feedback="${i}" hidden></p></fieldset>`).join('')}<button type="submit">${en?'Check my answers':'Corriger la série'}</button><div class="klassia-qcm-score" role="status"></div></form>`);
- const form=root.querySelector('.klassia-qcm');
- form.onsubmit=ev=>{ev.preventDefault();const out=form.querySelector('.klassia-qcm-score'),picks=s.questions.map((q,i)=>form.querySelector(`input[name="q${i}"]:checked`));
-  if(picks.some(x=>!x)){out.textContent=en?'Answer every question first.':'Réponds à chaque question avant de corriger.';return;}
-  let score=0;const review=new Map();
-  s.questions.forEach((q,i)=>{const ok=Number(picks[i].value)===q.bonne,l=lessonOf(q),box=form.querySelector(`[data-feedback="${i}"]`);if(ok)score++;else if(l)review.set(l.id,link(l));
-   box.hidden=false;box.dataset.ok=String(ok);box.innerHTML=`<b>${ok?(en?'Correct ✓':'Juste ✓'):(en?'Not yet':'À revoir')}</b> ${E(q.corrige)}${ok?'':' '+link(l)}`;});
-  const total=s.questions.length;K.append('klassia_attempts',{kind:'qcm',grade:c.grade,unit:s.unit,series:s.id,score,total});
-  const scores=K.read(qcmKey,{});scores[s.id]={score,total,at:new Date().toISOString()};K.write(qcmKey,scores);
-  out.innerHTML=`<strong>${score}/${total}</strong> ${score===total?(en?'Well done!':'Bravo !'):(en?'Read the feedback, then review these lessons.':'Lis les corrections, puis revois ces leçons.')}${review.size?`<span class="klassia-qcm-review"><b>${en?'Lessons to review':'Leçons à revoir'}</b>${[...review.values()].join('')}</span>`:''}`;};
+ frame(back+hero(title,en?'Choose one answer for each question, then check.':'Choisis une réponse par question, puis corrige la série.')+'<div data-qcm></div>');
+ // Lecteur de série commun à toutes les classes (shared/qcm.js).
+ K.qcm.mount(root.querySelector('[data-qcm]'),s.questions,{en,link:q=>{const l=lessonOf(q);return l?{href:'#lesson:'+encodeURIComponent(l.id),label:`${en?'Review the lesson':'Revoir la leçon'} « ${l.title} »`}:null;},
+  onDone:(score,total)=>{K.append('klassia_attempts',{kind:'qcm',grade:c.grade,unit:s.unit,series:s.id,score,total});const scores=K.read(qcmKey,{});scores[s.id]={score,total,at:new Date().toISOString()};K.write(qcmKey,scores);}});
 }
 const source=s=>s?`<a href="${E(s.url||'#')}" target="_blank" rel="noopener">${E(s.title)} · ${E(s.pages||'')}</a>`:'';
 function frame(body){root.innerHTML=`<header class="gs-top"><a href="${E(c.back)}">K Klassia</a><strong>${E(c.grade)}</strong></header><main class="gs-wrap"><p class="gs-notice">Édition pilote accompagnée · relecture pédagogique en cours</p>${body}</main>`;K.rendered();}

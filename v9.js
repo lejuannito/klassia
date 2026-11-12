@@ -42,18 +42,7 @@
   function wrapActions(){
     if(window.setStatus && !window.setStatus.__v9){const base=window.setStatus;window.setStatus=(id,st)=>{try{const title=document.querySelector('.lesson-header h1')?.textContent || id;log(st==='MAITRISEE'?'mastery':'review',`${st==='MAITRISEE'?'Compréhension déclarée':'Leçon à revoir'} : ${title}`,Klassia.storage.getItem('klassia_unit'));}catch{} return base(id,st);};window.setStatus.__v9=true;}
     if(window.saveEval && !window.saveEval.__v9){const base=window.saveEval;window.saveEval=id=>{const raw=document.getElementById('score')?.value;const v=raw?.trim()?Number(raw):NaN;if(Number.isFinite(v)&&v>=0&&v<=20)log('evaluation',`Évaluation enregistrée : ${v}/20`,Klassia.storage.getItem('klassia_unit'));return base(id);};window.saveEval.__v9=true;}
-    if(window.correctQcm && !window.correctQcm.__v9){
-      const correct=window.correctQcm;
-      window.correctQcm=(index,adultPreview)=>{
-        const scored=correct(index,adultPreview);
-        if(scored){
-          const score=document.getElementById('scoreQcm')?.querySelector('strong')?.textContent;
-          if(score)log('qcm','Série QCM : '+score,Klassia.storage.getItem('klassia_unit'));
-        }
-        return scored;
-      };
-      window.correctQcm.__v9=true;
-    }
+    document.addEventListener('klassia:qcm-done',e=>log('qcm',`Série QCM : ${e.detail.score}/${e.detail.total}`,Klassia.storage.getItem('klassia_unit')));
     document.addEventListener('change',e=>{if(e.target?.matches?.('[data-project]')&&e.target.checked)log('project',`Étape ${Number(e.target.dataset.project)+1} du projet réalisée`,Klassia.storage.getItem('klassia_unit'));});
     window.addEventListener('hashchange',()=>{const h=location.hash;if(h.startsWith('#lesson:'))setTimeout(()=>{const t=document.querySelector('.lesson-header h1')?.textContent;if(t)log('lesson',`Leçon consultée : ${t}`,Klassia.storage.getItem('klassia_unit'));renderActivityTargets();},200);});
   }

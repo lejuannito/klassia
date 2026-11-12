@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "36daafe5dfd35ff56902a5377b1d316e8c86714f901d0ff6e0acee730e4ae49a",
+  "version": "b63921a9bd1c47dc1bb0c951ce2d79bd5902b95981487497cf4a35579923df77",
   "packs": {
     "common": {
-      "files": 68,
-      "bytes": 577960
+      "files": 69,
+      "bytes": 578041
     },
     "CE1": {
       "files": 52,
@@ -33,8 +33,8 @@ self.KLASSIA_RELEASE = {
   "files": [
     {
       "url": "./app.js",
-      "sha256": "cd8a5c8aaa0f5902d7049c0b36566181ce5a17afe76141c67a1f04cde7b582bd",
-      "size": 50743
+      "sha256": "96bb890cf327162809b19091340e698cad354d5e9c338809d1b439a3b3ab56ab",
+      "size": 48854
     },
     {
       "url": "./assets/ce1-bandes-regle.svg",
@@ -1080,8 +1080,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ce1/index.html",
-      "sha256": "ac13c10d6325d22bc0dae1b16a13174f9ef204ee9f08a1dcc9719563112357d3",
-      "size": 1431
+      "sha256": "7115fc2f50cab95dd0eac6384d5f3b9683d11f66431e0447cc779b981284cbac",
+      "size": 1471
     },
     {
       "url": "./class-switch-v12.js",
@@ -1310,8 +1310,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "5e7539c5ba4a554af5d4bcace9bc4e3ca8f2172a081993fefcb3940982c8a55e",
-      "size": 2116
+      "sha256": "971fec39cc03af2736eda39c5490b9540a8a7b48a46afc47ffc25b1cf7cafe86",
+      "size": 2155
     },
     {
       "url": "./maison.html",
@@ -1499,8 +1499,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "72f4f65a5ea57d18c9ad463d369474b20142a8aae77d9452ed5d385911730b13",
-      "size": 26060
+      "sha256": "710ca4767f90f0d17c0b9fe7badf8eca35cbc88f699877f4828cd31f0ee5ca4c",
+      "size": 24633
     },
     {
       "url": "./shared/lesson-model.js",
@@ -1556,6 +1556,11 @@ self.KLASSIA_RELEASE = {
       "url": "./shared/print.js",
       "sha256": "71742d56c8f0d3fbbb04a6ed503e45669a49cf8ad114b664ba723c262e368907",
       "size": 440
+    },
+    {
+      "url": "./shared/qcm.js",
+      "sha256": "972ffdf8ad91c257b9eca553e64b3017a95a23f507ecac383498676001d11d60",
+      "size": 3606
     },
     {
       "url": "./shared/reference.css",
@@ -1652,8 +1657,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./sil/index.html",
-      "sha256": "068229fbaf2e79a6a751bd894dbddd6fbdc2bf88c6dbf1930ae8955bfdbc2ef9",
-      "size": 1424
+      "sha256": "655df396f5be96ebd79dd40869379bac1d78abd98931b023001abe53e7949e59",
+      "size": 1464
     },
     {
       "url": "./sil/style.css",
@@ -1682,8 +1687,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./v9.js",
-      "sha256": "5221cecd87a6277c72eed0d751a37aff87b7f0377321463314c98db3a2a84fc7",
-      "size": 6712
+      "sha256": "06ba780d5e27b598a4538212f26cecbaef94616d597d59944cc0aa009c74dd92",
+      "size": 6384
     }
   ]
 };

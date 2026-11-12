@@ -98,12 +98,12 @@ await p.goto('http://localhost:8765/sil/');await p.getByRole('heading',{name:/^B
 // M3h : le CE2 sur le moteur commun (aperçu /ce2/), avec la progression de l'ancien moteur lue et écrite telle quelle.
 {await p.goto('http://localhost:8765/ce2/');await p.getByRole('heading',{name:/^Bonjour /}).waitFor();const before=await p.evaluate(()=>Klassia.read('klassia_progress',{}));
  await p.evaluate(()=>{const v=Klassia.read('klassia_progress',{});v['MA-U1-L1']='A_REVOIR';Klassia.write('klassia_progress',v);});
- await p.locator('.klassia-tabs [data-tab="learn"]').click();assert.equal(await p.locator('.klassia-catalogue-card').count(),8);await p.locator('a[href="#unit:U1"]').click();
+ await p.locator('.klassia-tabs [data-tab="learn"]').click();await p.getByRole('heading',{name:'Parcourir les unités'}).waitFor();assert.equal(await p.locator('.klassia-catalogue-card').count(),8);await p.locator('a[href="#unit:U1"]').click();await p.locator('.klassia-lesson-item').first().waitFor();
  assert.equal(await p.locator('.klassia-lesson-item').count(),46);assert.equal(await p.locator('.klassia-lesson-item[href="#lesson:MA-U1-L1"]').getAttribute('data-status'),'review');
  await p.goto('http://localhost:8765/ce2/#lesson:FR-U1-L1');await p.locator('.lesson-card').waitFor();assert.match(await p.locator('.lesson-takeaway').innerText(),/Je retiens/);
  const mcq=p.locator('.klassia-ex[data-key="FR-U1-L1:1"]');await mcq.locator('input[value="1"]').check();await mcq.getByRole('button',{name:'Vérifier ma réponse'}).click();assert.match(await p.locator('[data-lesson-tally]').innerText(),/réponse/);
  await p.getByRole('button',{name:'Je me sens prêt'}).click();assert.equal(await p.evaluate(()=>Klassia.read('klassia_progress',{})['FR-U1-L1']),'MAITRISEE','same stored state as the CE2 engine');
- await p.goto('http://localhost:8765/?unit=U1#subject:FR');assert.equal(await p.locator('.klassia-lesson-item[href="#lesson:FR-U1-L1"]').getAttribute('data-status'),'done','the CE2 engine reads it back');
+ await p.goto('http://localhost:8765/?unit=U1#subject:FR');await p.locator('.klassia-lesson-item').first().waitFor();assert.equal(await p.locator('.klassia-lesson-item[href="#lesson:FR-U1-L1"]').getAttribute('data-status'),'done','the CE2 engine reads it back');
  await p.goto('http://localhost:8765/ce2/#suivi');await p.getByRole('heading',{name:'Suivi de progression'}).waitFor();await p.goto('http://localhost:8765/ce2/#semaine');await p.locator('.klassia-week').waitFor();
  await p.evaluate(v=>Klassia.write('klassia_progress',v),before);console.log('PASS CE2 on the common engine (preview): units, lesson, exercises, shared progress with the CE2 engine, week and progress pages');}await p.goto('about:blank');}
 // Lot 2e: a short CE1 answer is checked, logged and moves the lesson to « En cours » without blocking the correction.

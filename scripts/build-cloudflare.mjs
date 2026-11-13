@@ -8,8 +8,8 @@ import path from 'node:path';
 const root = path.resolve(import.meta.dirname, '..');
 const dist = path.join(root, 'dist');
 const rootFiles = [
-  'index.html', 'search.html', 'pilote.html', 'imprimer.html', 'outils.html', 'maison.html', 'app.js', 'style.css',
-  'v9.js', 'v9.css', 'v14.js', 'v14.css', 'manual-v11.css',
+  'index.html', 'search.html', 'pilote.html', 'imprimer.html', 'outils.html', 'maison.html', 
+  'manual-v11.css',
   'class-switch-v12.js', 'pwa.js', 'service-worker.js',
   'precache-manifest.js', 'manifest.webmanifest'
 ];

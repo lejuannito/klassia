@@ -269,6 +269,15 @@ async function revealCorrection(panel, written = false) {
   assert.equal(await toggle.getAttribute('aria-expanded'), 'true');
 }
 
+// Ouvre la série essentielle d'une matière du CE2 dans une unité (les séries portent l'unité et leur rang dans la banque).
+async function openSeries(page, base, unit, subject) {
+  const list = JSON.parse(fs.readFileSync(path.join(root, 'data/qcm-' + unit.toLowerCase() + '.json'), 'utf8')).epreuves;
+  const index = list.findIndex(e => e.subject_id === subject && e.serie_type === 'ESSENTIELLE');
+  assert.ok(index >= 0, 'No essential series for ' + subject + ' in ' + unit);
+  await page.goto(base + '?unit=' + unit + '#qcm:' + index);
+  await page.locator('.klassia-qcm-question').first().waitFor();
+}
+
 async function finishQuiz(page) {
   for (const question of await page.locator('.klassia-qcm-question').all()) {
     if (!(await question.locator('input:checked').count())) await question.locator('input').first().check();
@@ -289,7 +298,7 @@ async function testPilotNotebook(page, base) {
     ['gs/?theme=T6#domain:ST:1', '.activityCard', /Bandes identiques/, null],
     ['sil/#lesson:SIL-U1-L11', '.lesson-card', /Deux tapis mesurés avec la même bande/, null],
     ['ce1/#lesson:CE1-U1-L11', '.lesson-card', /9 − 2 = 7 cm/, 'ce1-bandes-regle.svg'],
-    ['?unit=U1#lesson:MA-U1-L5', '.lesson-page', /Il faut couper une bande de 2 m 40 cm/, null]
+    ['?unit=U1#lesson:MA-U1-L5', '.lesson-card', /Il faut couper une bande de 2 m 40 cm/, null]
   ]) {
     await page.goto(base + href);
     const lesson = page.locator(locator).filter({ hasText: text });
@@ -297,9 +306,9 @@ async function testPilotNotebook(page, base) {
     if (figure) await page.waitForFunction(name =>
       [...document.images].some(img => img.src.endsWith(name) && img.naturalWidth > 0), figure);
   }
-  const exercise = page.locator('.exercise-card').filter({ hasText: 'Il faut couper une bande de 2 m 40 cm' });
+  const exercise = page.locator('.practice-item').filter({ hasText: 'Il faut couper une bande de 2 m 40 cm' });
   await revealCorrection(exercise);
-  assert.match(await exercise.locator('.feedback').innerText(), /60 cm/);
+  assert.match(await exercise.locator('.correction-body').innerText(), /60 cm/);
 
   await page.goto(base + 'pilote.html');
   await page.getByRole('link', { name: 'Noter l’essai CE1' }).click();
@@ -405,9 +414,9 @@ async function testReadingWorkshops(page, base) {
   }
   await page.goto(notebook);
   await page.getByRole('link', { name: 'Ouvrir le jeu du cercle', exact: true }).click();
-  const exercise = page.locator('.exercise-card').filter({ hasText: 'Écris la règle du jeu du cercle' });
+  const exercise = page.locator('.practice-item').filter({ hasText: 'Écris la règle du jeu du cercle' });
   await revealCorrection(exercise);
-  assert.match(await exercise.locator('.feedback').innerText(), /Après les six essais/);
+  assert.match(await exercise.locator('.correction-body').innerText(), /Après les six essais/);
   await page.goto(notebook);
   await page.getByRole('link', { name: 'Noter l’essai lecture CE2', exact: true }).click();
   await page.waitForURL(/lecon=FR-U7-L2/);
@@ -496,13 +505,13 @@ async function testInkAndCalcul(context, page, base) {
     ['Ouvrir le comptage des fruits', '.nursery-question', /Trois fruits/],
     ['Ouvrir l’addition des étiquettes', '.practice-item', /17 étiquettes, dix-sept/],
     ['Ouvrir le partage des cartes', '.practice-item', /18 cartes/],
-    ['Ouvrir l’achat des fournitures', '.exercise-card', /Il manque 100 F/]
+    ['Ouvrir l’achat des fournitures', '.practice-item', /Il manque 100 F/]
   ]) {
     await page.goto(notebook);
     await page.getByRole('link', { name: link, exact: true }).click();
     await page.getByRole('button', { name: 'Écrire ou dessiner au doigt' }).first().waitFor();
     const tasks = page.locator(exercise);
-    const task = exercise === '.exercise-card' ? tasks.filter({ hasText: 'Tu achètes trois cahiers' }) : tasks.last();
+    const task = link === 'Ouvrir l’achat des fournitures' ? tasks.filter({ hasText: 'Tu achètes trois cahiers' }) : tasks.last();
     await revealCorrection(task);
     assert.match(await task.locator('.correction-body').innerText(), response);
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
@@ -515,7 +524,7 @@ async function testInkAndCalcul(context, page, base) {
 
 async function testReferenceTools(page, base) {
   await page.goto(base + '?unit=U8#lesson:MA-U8-L4');
-  const receipt = page.locator('.exercise-card').filter({ hasText: 'Sur un reçu fictif' });
+  const receipt = page.locator('.practice-item').filter({ hasText: 'Sur un reçu fictif' });
   await revealCorrection(receipt);
   assert.match(await receipt.locator('.correction-body').innerText(), /Trois mille deux cents francs CFA/);
   await page.getByRole('link', { name: 'Outil · Montants en lettres' }).click();
@@ -552,8 +561,8 @@ async function testArtsAndMovement(page, base) {
     ['Ouvrir les signaux du couloir', '.practice-item', /nouveau signal de marche/],
     ['Ouvrir les motifs à deux temps', '.practice-item', /deuxième temps de B/],
     ['Ouvrir l’appel avant la passe', '.practice-item', /j’attends sa réponse/],
-    ['Ouvrir le dialogue sur huit temps', '.exercise-card', /temps 5.*temps 6 et 8/s],
-    ['Ouvrir la reprise après une pause', '.exercise-card', /Awa répond/]
+    ['Ouvrir le dialogue sur huit temps', '.practice-item', /temps 5.*temps 6 et 8/s],
+    ['Ouvrir la reprise après une pause', '.practice-item', /Awa répond/]
   ];
   for (const [link, selector, answer] of tasks) {
     await page.goto(notebook);
@@ -828,19 +837,13 @@ async function run() {
     console.log('PASS fourteen offline French and English clips, byte ranges, hidden transcripts and exclusive playback');
 
     await page.setViewportSize({ width: 320, height: 844 });
-    await page.goto(base + '?unit=U1#subject:BA');
-    const themeButton = page.getByRole('button', { name: '8 thèmes', exact: true });
-    await themeButton.waitFor();
-    const bassaLayout = await page.locator('.subject-hero').evaluate(hero => ({
-      titleBottom: hero.querySelector('.grow').getBoundingClientRect().bottom,
-      actionsTop: hero.querySelector('.print-actions-v14').getBoundingClientRect().top,
-      horizontalOverflow: document.documentElement.scrollWidth > innerWidth
-    }));
-    assert.ok(bassaLayout.actionsTop >= bassaLayout.titleBottom, 'Bassa actions must be below the title block');
-    assert.equal(bassaLayout.horizontalOverflow, false);
-    await themeButton.click();
-    await page.locator('.klassia-catalogue-card').first().waitFor();
-    assert.equal(await page.locator('.klassia-catalogue-card').count(), 8);
+    await page.goto(base + '#subject:BA');
+    await page.locator('.klassia-lesson-item').first().waitFor();
+    assert.ok(await page.locator('.klassia-lesson-item').count() >= 8, 'Bassa lessons of the eight units');
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+    await page.goto(base + '#unit:U1');
+    await page.locator('[data-print-unit="theme"]').waitFor();
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
 
     await page.goto(base + 'ce1/#lesson:CE1-U3-L06');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
@@ -869,15 +872,15 @@ async function run() {
 
     await page.goto(base + '?unit=U6#lesson:SC-U6-L4');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
-    await page.locator('.exercise-card').filter({ hasText: /Quelle température/ }).locator('[data-number]').fill('24');
+    await page.locator('.practice-item').filter({ hasText: /Quelle température/ }).locator('[data-number]').fill('24');
     await page.getByRole('button', { name: 'Vérifier le nombre' }).click();
-    assert.match(await page.locator('.exercise-card').filter({ hasText: /Quelle température/ }).locator('.klassia-ex-status').innerText(), /Bravo.*24 °C/);
+    assert.match(await page.locator('.practice-item').filter({ hasText: /Quelle température/ }).locator('.klassia-ex-status').innerText(), /Bravo.*24 °C/);
 
     await page.goto(base + '?unit=U8#lesson:TI-U8-L2');
     await page.getByText('Assembler les trois blocs de haut en bas', { exact: true }).click();
     await page.getByRole('cell', { name: 'quand [drapeau vert] est cliqué', exact: true }).waitFor();
-    await revealCorrection(page.locator('.exercise-card').first());
-    assert.match(await page.locator('#ans_TIU8L2_0').innerText(), /d’abord « Merci ! », puis « Bonjour ! »/);
+    await revealCorrection(page.locator('.practice-item').first());
+    assert.match(await page.locator('.practice-item').first().locator('.correction-body').innerText(), /d’abord « Merci ! », puis « Bonjour ! »/);
     console.log('PASS offline CE2 U5 map, U6 measurement and U8 Scratch lesson');
 
     await page.goto(base + '?unit=U4#lesson:SH-U4-L8');
@@ -886,11 +889,10 @@ async function run() {
     await page.getByRole('cell', { name: 'Il y a plusieurs milliers d’années', exact: true }).waitFor();
 
     await page.evaluate(() => { location.hash = '#eval:SH'; });
-    await revealCorrection(page.locator('.evalItem').nth(2));
+    await revealCorrection(page.locator('.klassia-eval li').nth(2));
     assert.match(await page.locator('#corr_SH_2').innerText(), /16 bulletins déposés, 14 voix valables/);
 
-    await page.goto(base + '?unit=U8#reviseSubject:SH');
-    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    await openSeries(page, base, 'U8', 'SH');
     const planetQuestion = page.locator('.klassia-qcm-question').filter({ hasText: 'Quelle planète vient juste après la Terre' });
     await planetQuestion.getByLabel('Mars', { exact: true }).check();
     await page.getByRole('button', { name: 'Corriger la série' }).click();
@@ -902,8 +904,9 @@ async function run() {
     await page.reload();
     const attemptsBeforePreview = await page.evaluate(() => Klassia.read('klassia_attempts', []).length);
     const activitiesBeforePreview = await page.evaluate(() => Klassia.read('klassia_activity_v9', []).length);
-    await page.getByRole('button', { name: 'Voir le corrigé adulte' }).click();
-    assert.match(await planetQuestion.locator('.klassia-qcm-feedback').innerText(), /Corrigé adulte.*Terre est au rang 3/s);
+    // En espace adulte, la série s'ouvre sur son corrigé : rien n'est répondu à la place de l'enfant.
+    assert.match(await page.locator('.klassia-qcm-key li').filter({ hasText: 'Quelle planète vient juste après la Terre' }).innerText(), /Mars.*Terre est au rang 3/s);
+    assert.equal(await page.locator('.klassia-qcm-question').count(), 0);
     assert.equal(await page.evaluate(() => Klassia.read('klassia_attempts', []).length), attemptsBeforePreview);
     assert.equal(await page.evaluate(() => Klassia.read('klassia_activity_v9', []).length), activitiesBeforePreview);
     await page.evaluate(() => Klassia.write('klassia_user', { role: 'ELEVE' }));
@@ -912,12 +915,11 @@ async function run() {
     await page.goto(base + '?unit=U7#lesson:DP-U7-L1');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     await page.getByRole('cell', { name: '4 cm de long', exact: true }).waitFor();
-    const quilleExercise = page.locator('.exercise-card').first();
+    const quilleExercise = page.locator('.practice-item').first();
     await revealCorrection(quilleExercise);
-    assert.match(await quilleExercise.locator('.feedback').innerText(), /14 cm − 4 cm = 10 cm/);
+    assert.match(await quilleExercise.locator('.correction-body').innerText(), /14 cm − 4 cm = 10 cm/);
 
-    await page.goto(base + '?unit=U7#reviseSubject:DP');
-    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    await openSeries(page, base, 'U7', 'DP');
     const harvestQuestion = page.locator('.klassia-qcm-question').filter({ hasText: 'Quelle est la recette' });
     await harvestQuestion.getByLabel('400 F CFA', { exact: true }).check();
     await finishQuiz(page);
@@ -927,12 +929,11 @@ async function run() {
     await page.goto(base + '?unit=U6#lesson:AR-U6-L2');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     await page.getByRole('cell', { name: 'Soupir', exact: true }).waitFor();
-    const silenceExercise = page.locator('.exercise-card').first();
+    const silenceExercise = page.locator('.practice-item').first();
     await revealCorrection(silenceExercise);
-    assert.match(await silenceExercise.locator('.feedback').innerText(), /soupir est au temps 3/);
+    assert.match(await silenceExercise.locator('.correction-body').innerText(), /soupir est au temps 3/);
 
-    await page.goto(base + '?unit=U6#reviseSubject:AR');
-    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    await openSeries(page, base, 'U6', 'AR');
     const silenceQuestion = page.locator('.klassia-qcm-question').filter({ hasText: 'Quel signe occupe le troisième temps' });
     await silenceQuestion.getByLabel('Le soupir', { exact: true }).check();
     await finishQuiz(page);
@@ -942,12 +943,11 @@ async function run() {
     await page.goto(base + '?unit=U7#lesson:EP-U7-L2');
     await page.waitForFunction(() => document.querySelector('.lesson-figure')?.naturalWidth > 0);
     await page.getByRole('cell', { name: 'Renvoyer de l’autre côté.', exact: true }).waitFor();
-    const volleyExercise = page.locator('.exercise-card').nth(1);
+    const volleyExercise = page.locator('.practice-item').nth(1);
     await revealCorrection(volleyExercise);
-    assert.match(await volleyExercise.locator('.feedback').innerText(), /B prépare vers C, puis C renvoie/);
+    assert.match(await volleyExercise.locator('.correction-body').innerText(), /B prépare vers C, puis C renvoie/);
 
-    await page.goto(base + '?unit=U7#reviseSubject:EP');
-    await page.locator('.series-card.essential').getByRole('button', { name: 'Commencer' }).click();
+    await openSeries(page, base, 'U7', 'EP');
     const volleyQuestion = page.locator('.klassia-qcm-question').filter({ hasText: 'Combien de touches au plus' });
     await volleyQuestion.getByLabel('Trois', { exact: true }).check();
     await finishQuiz(page);
@@ -974,9 +974,9 @@ async function run() {
         assert.match(await page.locator('.bassa-result').innerText(), /Réponse acceptée/);
       }
     }
-    const bassaExercise = page.locator('.exercise-card').nth(1);
+    const bassaExercise = page.locator('.practice-item').nth(1);
     await revealCorrection(bassaExercise);
-    assert.match(await bassaExercise.locator('.feedback').innerText(), /cahier.*s’il te plaît/);
+    assert.match(await bassaExercise.locator('.correction-body').innerText(), /cahier.*s’il te plaît/);
     console.log('PASS offline CE2 Bassa lessons, proposed forms and open correction');
 
     await page.goto(base + 'ce1/#lesson:CE1-U1-L01');
@@ -1168,14 +1168,14 @@ async function run() {
     await page.evaluate(() => Klassia.write('klassia_user', { role: 'ELEVE' }));
 
     await page.goto(base + '?unit=U8#lesson:FR-U8-L3');
-    const opinion = page.locator('.exercise-card').filter({ hasText: /quel geste d’Éric a le plus aidé/ });
+    const opinion = page.locator('.practice-item').filter({ hasText: /quel geste d’Éric a le plus aidé/ });
     await revealCorrection(opinion);
-    assert.match(await opinion.locator('.feedback').innerText(), /Ton détail vient du récit.*justifie ton choix/s);
+    assert.match(await opinion.locator('.correction-body').innerText(), /Ton détail vient du récit.*justifie ton choix/s);
 
     await page.goto(base + '?unit=U8#lesson:EN-U8-L3');
-    const telephone = page.locator('.exercise-card').filter({ hasText: /write the whole call/ });
+    const telephone = page.locator('.practice-item').filter({ hasText: /write the whole call/ });
     await revealCorrection(telephone);
-    assert.match(await telephone.locator('.feedback').innerText(), /Can you bring a pencil.*Yes, I’ll bring one.*Goodbye/s);
+    assert.match(await telephone.locator('.correction-body').innerText(), /Can you bring a pencil.*Yes, I’ll bring one.*Goodbye/s);
     console.log('PASS offline GS reading, CE1 listening and CE2 opinion and telephone writing');
     await testBassaMicrophone(context, page, base);
     await testPilotNotebook(page, base);

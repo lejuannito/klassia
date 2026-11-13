@@ -116,7 +116,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
   // Every rewritten lesson must render its supplied support and correction controls.
   let count=0;
   for(let u=4;u<=8;u++)for(const l of JSON.parse(fs.readFileSync(path.join(root,`data/content-u${u}.json`))).subjects.find(s=>s.id==='FR').lessons){
-   await visit(`/?unit=U${u}#lesson:${l.id}`);assert.ok(l.exercises.length>=2,l.id);assert.equal(await p.locator('.exercise-card').count(),l.exercises.length,l.id);assert.ok((await p.locator('.manual-section-body').first().innerText()).length>80,l.id);count++;
+   await visit(`/?unit=U${u}#lesson:${l.id}`);assert.ok(l.exercises.length>=2,l.id);assert.equal(await p.locator('.practice-item').count(),l.exercises.length,l.id);assert.ok((await p.locator('.manual-section-body').first().innerText()).length>80,l.id);count++;
   }
   assert.equal(count,39);assert.deepEqual(errors,[]);
   console.log('PASS speech language/voice across five classes, voice selection, previews, preferences, offline fallback, delayed voices, language-only fallback, engine errors/timeouts, cancellation, Bassa exclusion, 39 French supports');

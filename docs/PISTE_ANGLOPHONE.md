@@ -58,5 +58,7 @@ Chaque classe jumelle reprend le moteur de la SIL et du CE1 (`shared/learning-ap
 | A5 | Class 3 (jumelle du CE1), même découpage, avec la littérature | **fait** : classe proposée, 128 leçons en relecture ; A5a : 64 leçons d’English Language and Literature et de Mathematics (colonnes Class 3 des tableaux 20, p. 41–49, et 21, p. 50–52) ; A5b : une leçon par thème dans les huit autres matières, Social Studies à la place de Citizenship (colonnes Class 3 des tableaux 22 à 29, p. 53–91) |
 | A6 | Class 4 (jumelle du CE2) | **fait** : classe proposée, 128 leçons en relecture ; A6a : 64 leçons d’English Language and Literature et de Mathematics (colonnes Class 4 des tableaux 20, p. 41–49, et 21, p. 50–52) ; A6b : une leçon par thème dans les huit autres matières (colonnes Class 4 des tableaux 22 à 29, p. 53–95) |
 | A7 | Nursery One et Two | bloqué : programme complet manquant |
+| A8 | Pages communes en anglais (recherche, outils, langue de la maison, impression) | **fait** (ADR-019) |
+| — | Class 2 | attend sa jumelle, le CP : une classe anglophone n’entre qu’avec sa jumelle francophone (ADR-019) |
 
 Chaque leçon cite le tableau, la classe et la page du programme et reste au statut `in_review` jusqu’à la relecture d’un enseignant du sous-système anglophone. La relecture par un enseignant anglophone est la condition pour publier ces classes.

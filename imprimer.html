@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#3157d5">
   <title>Fiche imprimable · Klassia</title>
   <link rel="stylesheet" href="./shared/print.css">
-  <script src="./shared/core.js" defer></script><script src="./shared/classes.js" defer></script>
+  <script src="./shared/core.js" defer></script><script src="./shared/classes.js" defer></script><script src="./shared/i18n.js" defer></script>
   <script src="./shared/nursery-support.js" defer></script>
   <script src="./shared/lesson-support.js" defer></script>
   <script type="module" src="./shared/print-page.js"></script>
@@ -28,8 +28,8 @@
     <p id="printStatus" role="status">Préparation de la fiche…</p>
   </nav>
   <main id="printDocument" hidden>
-    <header class="print-header"><h1 id="printTitle"></h1><p id="printLabel"></p></header>
-    <div id="printBody"></div>
+    <header class="print-header"><h1 id="printTitle" translate="no"></h1><p id="printLabel"></p></header>
+    <div id="printBody" translate="no"></div>
   </main>
 </body>
 </html>

@@ -82,12 +82,12 @@
   const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function page(){
    const batch=found.slice(shown,shown+30);shown+=batch.length;
-   for(const r of batch){const href=new URL(r.href,location.href);href.searchParams.set('recherche',location.search.slice(1));const li=document.createElement('li');li.innerHTML=`<article><p class="search-meta">${esc(short(r.grade))} · ${esc(r.subject)}</p><h2><a href="${esc(href.href)}">${esc(r.title)}</a></h2><p>${esc(r.excerpt)}</p></article>`;results.append(li);}
+   for(const r of batch){const href=new URL(r.href,location.href);href.searchParams.set('recherche',location.search.slice(1));const li=document.createElement('li');li.innerHTML=`<article><p class="search-meta">${esc(short(r.grade))} · ${esc(r.subject)}</p><h2 translate="no"><a href="${esc(href.href)}">${esc(r.title)}</a></h2><p translate="no">${esc(r.excerpt)}</p></article>`;results.append(li);}
    more.hidden=shown>=found.length;
   }
   async function run(){
    const token=++revision,query=input.value.trim(),gradeFilter=grade.value,subjectFilter=subject.value;
-   const state=new URLSearchParams();if(query)state.set('q',query);if(gradeFilter)state.set('grade',gradeFilter);if(subjectFilter)state.set('subject',subjectFilter);
+   const state=new URLSearchParams();if(params.get('lang'))state.set('lang',params.get('lang'));if(query)state.set('q',query);if(gradeFilter)state.set('grade',gradeFilter);if(subjectFilter)state.set('subject',subjectFilter);
    history.replaceState(history.state,'',location.pathname+(state.size?'?'+state:''));
    results.replaceChildren();more.hidden=true;
    if(!terms(query).length){status.textContent='Saisissez une notion, par exemple : les états de l’eau.';return;}
@@ -99,7 +99,8 @@
     subject.replaceChildren(new Option('Toutes les matières',''),...[...new Set(records.map(r=>r.subject))].sort().map(s=>new Option(s,s)));
     subject.value=selected;
     found=search(records,query,{grade:gradeFilter,subject:subject.value});shown=0;
-    status.textContent=(found.length?`${found.length} résultat${found.length>1?'s':''} · les titres et objectifs sont prioritaires.`:'Aucun résultat. Essayez moins de mots ou une autre notion, ou retirez les filtres.')+(records.missing?.length?` Hors connexion, la recherche ne couvre pas ${records.missing.map(short).join(', ')} : ${records.missing.length>1?'ces classes ne sont pas installées':'cette classe n’est pas installée'} sur cet appareil.`:'');page();
+    // Une phrase par nœud de texte : l'interface anglaise (shared/i18n.js) traduit chacune.
+    status.replaceChildren(found.length?`${found.length} résultat${found.length>1?'s':''} · les titres et objectifs sont prioritaires.`:'Aucun résultat. Essayez moins de mots ou une autre notion, ou retirez les filtres.',...(records.missing?.length?[' ',`Hors connexion, la recherche ne couvre pas ${records.missing.map(short).join(', ')} : ${records.missing.length>1?'ces classes ne sont pas installées':'cette classe n’est pas installée'} sur cet appareil.`]:[]));page();
    }catch{if(token===revision)status.textContent='Recherche indisponible : vérifiez la connexion ou attendez le téléchargement complet de toutes les classes, puis réessayez.';}
   }
   form.onsubmit=e=>{e.preventDefault();run();};grade.onchange=run;subject.onchange=run;more.onclick=page;

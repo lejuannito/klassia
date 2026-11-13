@@ -34,6 +34,23 @@
   return rest ? label + ' ' + belowThousand(rest) : label;
  }
 
+ // English words for the anglophone classes (shared/i18n.js): British usage, “and” before the last part.
+ const ones = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve',
+  'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+ const tensEn = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+ const hundredEn = number => number < 20 ? ones[number] : tensEn[Math.floor(number / 10)] + (number % 10 ? '-' + ones[number % 10] : '');
+ function thousandEn(number) {
+  if (number < 100) return hundredEn(number);
+  const rest = number % 100;
+  return ones[Math.floor(number / 100)] + ' hundred' + (rest ? ' and ' + hundredEn(rest) : '');
+ }
+ function numberInWordsEn(number) {
+  if (!Number.isInteger(number) || number < 0 || number > 99999) throw RangeError('Number out of range');
+  if (number < 1000) return thousandEn(number);
+  const rest = number % 1000;
+  return hundredEn(Math.floor(number / 1000)) + ' thousand' + (!rest ? '' : rest < 100 ? ' and ' + hundredEn(rest) : ' ' + thousandEn(rest));
+ }
+
  function parseNumber(value, max) {
   const digits = value.trim();
   if (!/^(?:\d+|\d{1,3}(?:[ \u00a0\u202f]\d{3})+)$/.test(digits)) return null;
@@ -42,10 +59,11 @@
  }
 
  if (typeof module === 'object' && module.exports) {
-  module.exports = { numberInWords, parseNumber };
+  module.exports = { numberInWords, numberInWordsEn, parseNumber };
   return;
  }
 
+ const en = window.Klassia?.lang?.() === 'en';
  const alphabet = document.getElementById('alphabetLetters');
  for (const letter of 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
   const item = document.createElement('li');
@@ -83,8 +101,9 @@
     breakdown.textContent = '';
     return;
    }
-   const unit = currency ? (number > 1 ? ' francs CFA' : ' franc CFA') : '';
-   result.textContent = numberInWords(number) + unit;
+   const unit = !currency ? '' : en ? (number === 1 ? ' CFA franc' : ' CFA francs') : (number > 1 ? ' francs CFA' : ' franc CFA');
+   result.textContent = (en ? numberInWordsEn : numberInWords)(number) + unit;
+   result.lang = en ? 'en' : 'fr'; result.translate = false;
    const values = [10000, 1000, 100, 10, 1].map(place => Math.floor(number / place) % 10 * place).filter(Boolean);
    breakdown.textContent = format.format(number) + ' = ' + (values.length ? values.map(value => format.format(value)).join(' + ') : '0');
   }

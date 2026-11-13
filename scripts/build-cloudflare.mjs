@@ -13,7 +13,7 @@ const rootFiles = [
   'precache-manifest.js', 'manifest.webmanifest'
 ];
 const publicDirectories = [
-  'assets', 'icons', 'screenshots', 'data', 'shared', 'ms', 'gs', 'sil', 'ce1'
+  'assets', 'icons', 'screenshots', 'data', 'shared', 'ms', 'gs', 'sil', 'ce1', 'class1'
 ];
 const extensions = new Set([
   '.html', '.css', '.js', '.json', '.webmanifest', '.svg',

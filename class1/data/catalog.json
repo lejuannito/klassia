@@ -1,0 +1,172 @@
+{
+  "format": "klassia-grade-catalog",
+  "schemaVersion": 1,
+  "grade": "CLASS1",
+  "subsystem": "anglophone",
+  "language": "en",
+  "twin": {
+    "subsystem": "francophone",
+    "grade": "SIL",
+    "status": "available"
+  },
+  "releaseStatus": "planned",
+  "title": "Class 1",
+  "scope": "Catalogue of the eight integrated themes of Class 1 (Level I). Lessons are in preparation: English Language and Mathematics first (lot A3), then the other subjects (lot A4).",
+  "sources": [
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level I, MINEDUB, 2018",
+      "reference": "table 18 (integrated themes); tables 20 to 29 (subject contents)",
+      "note": "The curriculum is not reproduced; Klassia cites the table and the class."
+    }
+  ],
+  "subjects": [
+    {
+      "name": "English Language",
+      "hours_per_week": 7.5,
+      "curriculum_table": 20
+    },
+    {
+      "name": "Mathematics",
+      "hours_per_week": 3,
+      "curriculum_table": 21
+    },
+    {
+      "name": "Science and Technology",
+      "hours_per_week": 3,
+      "curriculum_table": 22
+    },
+    {
+      "name": "Français",
+      "hours_per_week": 4.5,
+      "curriculum_table": 23
+    },
+    {
+      "name": "Citizenship",
+      "hours_per_week": 1.5,
+      "curriculum_table": 24
+    },
+    {
+      "name": "Vocational Studies",
+      "hours_per_week": 3,
+      "curriculum_table": 25
+    },
+    {
+      "name": "Arts",
+      "hours_per_week": 1.5,
+      "curriculum_table": 26
+    },
+    {
+      "name": "Physical Education and Sports",
+      "hours_per_week": 1.5,
+      "curriculum_table": 27
+    },
+    {
+      "name": "National Languages and Cultures",
+      "hours_per_week": 1.5,
+      "curriculum_table": 28
+    },
+    {
+      "name": "ICTs",
+      "hours_per_week": 3,
+      "curriculum_table": 29
+    }
+  ],
+  "units": [
+    {
+      "id": "CLASS1-T1",
+      "number": 1,
+      "title_en": "The home",
+      "title_fr": "La maison",
+      "twin": "SIL-U1",
+      "month": 1,
+      "source_refs": [
+        "Level I, table 18, theme 1"
+      ],
+      "lessons": []
+    },
+    {
+      "id": "CLASS1-T2",
+      "number": 2,
+      "title_en": "The village/town",
+      "title_fr": "Le village et la ville",
+      "twin": "SIL-U2",
+      "month": 2,
+      "source_refs": [
+        "Level I, table 18, theme 2"
+      ],
+      "lessons": []
+    },
+    {
+      "id": "CLASS1-T3",
+      "number": 3,
+      "title_en": "The school",
+      "title_fr": "L’école",
+      "twin": "SIL-U3",
+      "month": 3,
+      "source_refs": [
+        "Level I, table 18, theme 3"
+      ],
+      "lessons": []
+    },
+    {
+      "id": "CLASS1-T4",
+      "number": 4,
+      "title_en": "Occupations",
+      "title_fr": "Les métiers",
+      "twin": "SIL-U4",
+      "month": 4,
+      "source_refs": [
+        "Level I, table 18, theme 4"
+      ],
+      "lessons": []
+    },
+    {
+      "id": "CLASS1-T5",
+      "number": 5,
+      "title_en": "Travelling",
+      "title_fr": "Les voyages",
+      "twin": "SIL-U5",
+      "month": 5,
+      "source_refs": [
+        "Level I, table 18, theme 5"
+      ],
+      "lessons": []
+    },
+    {
+      "id": "CLASS1-T6",
+      "number": 6,
+      "title_en": "Health",
+      "title_fr": "La santé",
+      "twin": "SIL-U6",
+      "month": 6,
+      "source_refs": [
+        "Level I, table 18, theme 6"
+      ],
+      "lessons": []
+    },
+    {
+      "id": "CLASS1-T7",
+      "number": 7,
+      "title_en": "Games",
+      "title_fr": "Les jeux",
+      "twin": "SIL-U7",
+      "month": 7,
+      "source_refs": [
+        "Level I, table 18, theme 7"
+      ],
+      "lessons": []
+    },
+    {
+      "id": "CLASS1-T8",
+      "number": 8,
+      "title_en": "Communication",
+      "title_fr": "Les communications",
+      "twin": "SIL-U8",
+      "month": 8,
+      "source_refs": [
+        "Level I, table 18, theme 8"
+      ],
+      "lessons": []
+    }
+  ]
+}

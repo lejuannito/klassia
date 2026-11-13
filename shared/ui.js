@@ -64,22 +64,22 @@ async function changeSpace(role, destination='#coverage'){
 }
 function catalogue(title, description, cards) {
  return `<section class="klassia-catalogue-heading"><h1>${esc(title)}</h1><p>${esc(description)}</p></section>
- <div class="klassia-catalogue">${cards.map(card => `<a class="klassia-catalogue-card" href="${esc(card.href)}">
+ <div class="klassia-catalogue">${cards.map(card => `<${card.href ? 'a' : 'div'} class="klassia-catalogue-card"${card.href ? ` href="${esc(card.href)}"` : ' data-planned'}>
   ${card.code ? `<span class="klassia-catalogue-code">${esc(card.code)}</span>` : ''}
   <h2>${esc(card.title)}</h2>
-  ${card.translation ? `<span lang="en">${esc(card.translation)}</span>` : ''}
+  ${card.translation ? `<span lang="${esc(card.translationLang || 'en')}" translate="no">${esc(card.translation)}</span>` : ''}
   ${card.detail ? `<p>${esc(card.detail)}</p>` : ''}
   ${card.count ? `<span class="klassia-catalogue-count">${esc(card.count)}</span>` : ''}
- </a>`).join('')}</div>`;
+ </${card.href ? 'a' : 'div'}>`).join('')}</div>`;
 }
 K.catalogue = catalogue;
 // Liste de leçons commune à toutes les classes (ADR-014, M3e) : numéro, titre, objectif, état déclaré.
 // items : {href, title, eyebrow?, detail?, status:{label, kind: 'todo'|'doing'|'done'|'review'}}.
 function lessonList(items) {
- return `<ol class="klassia-lessons">${items.map((x, i) => `<li><a class="klassia-lesson-item" href="${esc(x.href)}" data-status="${esc(x.status?.kind || 'todo')}">
+ return `<ol class="klassia-lessons">${items.map((x, i) => `<li><${x.href ? 'a' : 'span'} class="klassia-lesson-item"${x.href ? ` href="${esc(x.href)}"` : ''} data-status="${esc(x.status?.kind || 'todo')}">
   <span class="klassia-lesson-no" aria-hidden="true">${i + 1}</span>
   <span class="klassia-lesson-text">${x.eyebrow ? `<span class="klassia-lesson-eyebrow">${esc(x.eyebrow)}</span>` : ''}<b>${esc(x.title)}</b>${x.detail ? `<span class="klassia-lesson-detail">${esc(x.detail)}</span>` : ''}</span>
-  ${x.status ? `<span class="klassia-lesson-status">${esc(x.status.label)}</span>` : ''}<span class="klassia-lesson-go" aria-hidden="true">›</span></a></li>`).join('')}</ol>`;
+  ${x.status ? `<span class="klassia-lesson-status">${esc(x.status.label)}</span>` : ''}${x.href ? '<span class="klassia-lesson-go" aria-hidden="true">›</span>' : ''}</${x.href ? 'a' : 'span'}></li>`).join('')}</ol>`;
 }
 K.lessonList = lessonList;
 // Barre d'onglets commune aux classes du primaire (ADR-014, M3f) : en bas de l'écran sur téléphone.
@@ -101,10 +101,10 @@ function progressRows(rows) {
 K.progressSummary = progressSummary;
 K.progressRows = progressRows;
 function classNavigation(grade){
- const nursery=K.isNurseryClass(grade), older=nursery;
+ const info=K.classInfo(grade),nursery=K.isNurseryClass(grade), older=nursery;
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],
   ['subject',older?'#subjects-all':'#subjects','Par matière'],
-  ['domain',older?'#domains-all':'#domains','Par domaine']];
+  ...(info.domains===false?[]:[['domain',older?'#domains-all':'#domains','Par domaine']])];
  // Semaine et Réviser sont des onglets de la barre du primaire ; cette rangée ne garde que les trois parcours.
  const hash=location.hash;
  const mode=/^#(?:subjects?|subject-all|subjects-all|activity-subject)(?::|$)/.test(hash)?'subject':
@@ -198,7 +198,7 @@ function decorate(){
  // wherever it is placed.
  const parts={
   back:`<a data-klassia-back="← Parcours de la classe" href="${K.classInfo(c.grade).overview}">← Parcours de la classe</a>`,
-  grade:`<label><span class="klassia-grade-label">Classe</span> <select data-grade>${Object.entries(gradeNames).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label>`,
+  grade:`<label><span class="klassia-grade-label">Classe</span> <select data-grade>${Object.entries(gradeNames[c.grade]?gradeNames:{[c.grade]:K.classInfo(c.grade).label,...gradeNames}).map(([g,n])=>`<option value="${g}" ${g===c.grade?'selected':''}>${n}</option>`).join('')}</select></label>`,
   search:`<a data-search href="${new URL('search.html',c.base)}">Rechercher</a>`,
   tools:`<a href="${new URL('outils.html',c.base)}">Outils</a>`,
   searchReturn:new URLSearchParams(location.search).has('recherche')?`<a data-search-return href="${esc(searchBack.href)}">Retour aux résultats</a>`:'',
@@ -285,7 +285,7 @@ document.addEventListener('click',e=>{
 });
 // Delegation survives DOM replacement in every grade and on browser back/forward.
 document.addEventListener('click',e=>{const t=e.target.closest('[data-space],[data-profiles],[data-overview],[data-child],[data-return],[data-review],[data-bassa-teacher]');if(!t)return;if(t.matches('[data-space],[data-profiles]'))openProfiles();else if(t.hasAttribute('data-overview'))openOverview();else if(t.hasAttribute('data-child'))changeSpace('ELEVE');else if(t.hasAttribute('data-return'))returnToClass();else if(t.hasAttribute('data-bassa-teacher'))changeSpace('ENSEIGNANT','#bassa');else rememberClass();});
-document.addEventListener('change',e=>{if(e.target.matches('[data-grade]')){const c=context();location.href=new URL(gradePaths[e.target.value],c.base).href;}});
+document.addEventListener('change',e=>{if(e.target.matches('[data-grade]')){const c=context();location.href=new URL(gradePaths[e.target.value]??K.classInfo(e.target.value).dir,c.base).href;}});
 K.openOverview=openOverview;
 // Optional device speech is explicitly labelled; it is not a validated audio pack.
 function addSpeech(container,text,lang){K.speech.add(container,text,lang);}

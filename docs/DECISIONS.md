@@ -96,3 +96,9 @@ Ce fichier conserve uniquement les décisions structurantes utiles aux prochaine
 **Décision (porteur de projet, 12 novembre 2026) :** SIL, CE1 et CE2 partagent la barre d’onglets en bas d’écran et un accueil de classe, sur le modèle du CE2. La maternelle garde sa présentation par thèmes et sa fiche parent, pensées pour l’adulte.
 
 **Conséquence :** un seul moteur en dessous, deux habillages (primaire, maternelle). Les classes anglophones du primaire prendront la barre d’onglets.
+
+## ADR-017 — Interface des classes anglophones : traduite à l’affichage
+
+**Décision (lot A2, 13 novembre 2026) :** les pages restent écrites en français. Pour une classe dont la langue est `en` dans le registre, `shared/i18n.js` traduit l’interface au moment où elle s’affiche (textes, `aria-label`, `title`, `placeholder`, y compris ce qui s’ajoute ensuite). Le dictionnaire est indexé par le libellé français exact ; quelques expressions couvrent les libellés qui contiennent un nombre ou un nom. Le contenu pédagogique n’est jamais traduit : une leçon d’une classe anglophone est rédigée en anglais et marquée `translate="no"`, comme tout contenu dans une autre langue que la page.
+
+**Conséquence :** un libellé ajouté au moteur reste en français dans une classe anglophone tant qu’il n’est pas au dictionnaire ; le test navigateur de la Class 1 relève tout texte français visible. Une classe en préparation figure dans `upcoming` du registre : servie à son adresse, mais ni proposée aux familles ni installée hors connexion avant d’avoir des leçons.

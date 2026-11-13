@@ -20,9 +20,9 @@
   // Téléchargement par classe (lot 9c). Le choix vaut pour l'appareil (clé brute, hors profils et hors sauvegarde). Le service
   // worker le reçoit dans son adresse d'inscription, puis par message ; la page ne touche jamais au cache elle-même.
   const OFFLINE_KEY = 'klassia_offline_classes_v1';
-  const ORDER = ['CE2', 'MS', 'GS', 'SIL', 'CE1', 'CLASS1', 'CLASS3', 'CLASS4'];
-  const NAMES = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', CLASS1: 'Class 1', CLASS3: 'Class 3', CLASS4: 'Class 4', ATELIER: 'Revue éditoriale (atelier pédagogique)' };
-  const LONG = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', CLASS1: 'la Class 1', CLASS3: 'la Class 3', CLASS4: 'la Class 4' };
+  const ORDER = ['CE2', 'MS', 'GS', 'SIL', 'CE1', 'NURSERY1', 'CLASS1', 'CLASS3', 'CLASS4'];
+  const NAMES = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', NURSERY1: 'Nursery One', CLASS1: 'Class 1', CLASS3: 'Class 3', CLASS4: 'Class 4', ATELIER: 'Revue éditoriale (atelier pédagogique)' };
+  const LONG = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', NURSERY1: 'la Nursery One', CLASS1: 'la Class 1', CLASS3: 'la Class 3', CLASS4: 'la Class 4' };
   const panel = document.createElement('details');
   panel.className = 'offline-classes';
   panel.hidden = true;
@@ -66,7 +66,7 @@
   }
   const isAll = value => value === 'all' || ORDER.every(g => value?.includes(g));
   const chosenGrades = value => ORDER.filter(g => value === 'all' || value?.includes(g));
-  const short = g => (/^CLASS\d$/.test(g) ? NAMES[g] : g);
+  const short = g => (/^(?:CLASS|NURSERY)\d$/.test(g) ? NAMES[g] : g);
   const listText = list => { const grades = list.map(short); return grades.length > 1 ? grades.slice(0, -1).join(', ') + ' et ' + grades[grades.length - 1] : grades[0] || ''; };
   const mo = bytes => (bytes / 1e6).toLocaleString('fr-FR', { maximumFractionDigits: 1, minimumFractionDigits: 1 }) + ' Mo';
   const preparing = () => isAll(selection) ? 'Préparation de toutes les classes hors connexion…'

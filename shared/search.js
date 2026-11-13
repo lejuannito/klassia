@@ -39,7 +39,7 @@
   });
   for(const {grade,dir} of C.classes.filter(c=>c.format==='nursery'))for(const t of catalogs[grade].themes)jobs.push(grade,async()=>{
    const data=await get(`${dir}data/themes/${t.id}.json`);
-   for(const d of data.domains)d.activities.forEach((l,i)=>records.push(record(grade,d.name_fr,l,`${dir}?theme=${t.id}#domain:${d.id}:${i}`)));
+   for(const d of data.domains)d.activities.forEach((l,i)=>records.push(record(grade,d.name_fr||d.name_en,l,`${dir}?theme=${t.id}#domain:${d.id}:${i}`)));
   });
   for(const {grade,dir} of C.classes.filter(c=>c.engine==='lessons'&&!c.format))for(const u of catalogs[grade].units)jobs.push(grade,async()=>{
    const data=u.lessons?u:await get(`${dir}data/${u.path}`);

@@ -6,6 +6,11 @@
 'use strict';
 async function start({info, root: app, get}) {
 const NURSERY=info,esc=K.escape;
+// Classe anglophone (Nursery One, Nursery Two ; ADR-019) : activités rédigées en anglais, interface traduite par shared/i18n.js.
+// L(o,k) prend le champ de la langue de la classe ; dual(o,k) garde « français · anglais » dans une classe francophone.
+const EN=info.language==='en';
+const L=(o,k)=>(EN?(o?.[k+'_en']??o?.[k+'_fr']):(o?.[k+'_fr']??o?.[k+'_en']))??'';
+const dual=(o,k)=>EN?esc(L(o,k)):`${esc(o?.[k+'_fr'])} · ${esc(o?.[k+'_en'])}`;
 let catalog=null,theme=null,currentThemeMeta=null,themePack=null,practice=null;
 const THEME_KEY='klassia_'+NURSERY.grade.toLowerCase()+'_theme_v2';
 const PROG_PREFIX=NURSERY.progressKey+':';
@@ -14,7 +19,7 @@ const loadProg=()=>{try{return JSON.parse(K.storage.getItem(progKey())||'{}')}ca
 const saveProg=p=>K.storage.setItem(progKey(),JSON.stringify(p));
 // Carte « Continuer » (shared/ui.js) : dernière activité ouverte du thème si elle n'est pas acquise, sinon la première non acquise.
 const RECENT_KEY='klassia_'+NURSERY.grade.toLowerCase()+'_recent_v1';
-K.nextStep=()=>{if(!theme)return null;const p=loadProg(),r=K.read(RECENT_KEY,null);const all=theme.domains.flatMap(d=>d.activities.map((a,i)=>({d,a,i}))),items=[...all.filter(y=>y.a.path!=='plus'),...all.filter(y=>y.a.path==='plus')];const x=(r&&r.theme===theme.id&&items.find(y=>y.a.id===r.id&&p[y.a.id]!=='A'))||items.find(y=>p[y.a.id]==='EC')||items.find(y=>p[y.a.id]!=='A')||items[0];return x?{href:'#domain:'+x.d.id+':'+x.i,title:x.a.title_fr,meta:x.d.name_fr+' · '+theme.title_fr+(x.a.duration_minutes?' · '+x.a.duration_minutes+' min avec un adulte':''),started:Boolean(r&&r.theme===theme.id)||Object.keys(p).length>0}:null;};
+K.nextStep=()=>{if(!theme)return null;const p=loadProg(),r=K.read(RECENT_KEY,null);const all=theme.domains.flatMap(d=>d.activities.map((a,i)=>({d,a,i}))),items=[...all.filter(y=>y.a.path!=='plus'),...all.filter(y=>y.a.path==='plus')];const x=(r&&r.theme===theme.id&&items.find(y=>y.a.id===r.id&&p[y.a.id]!=='A'))||items.find(y=>p[y.a.id]==='EC')||items.find(y=>p[y.a.id]!=='A')||items[0];return x?{href:'#domain:'+x.d.id+':'+x.i,title:L(x.a,'title'),meta:L(x.d,'name')+' · '+L(theme,'title')+(x.a.duration_minutes?' · '+x.a.duration_minutes+' min avec un adulte':''),started:Boolean(r&&r.theme===theme.id)||Object.keys(p).length>0}:null;};
 const allActivities=()=>theme.domains.flatMap(d=>d.activities);
 const pctDomain=d=>{const p=loadProg(),n=d.activities.length,done=d.activities.filter(a=>p[a.id]==='A').length;return n?Math.round(done*100/n):0};
 const acquiredCount=()=>{const p=loadProg();return allActivities().filter(a=>p[a.id]==='A').length};
@@ -26,7 +31,7 @@ function loadTheme(id){
  K.storage.setItem(THEME_KEY,currentThemeMeta.id);
 }
 function shell(body){
- app.innerHTML=`<header class="top"><div class="brand"><span class="k">K</span>Klassia</div><div class="topActions"><label class="themeSwitch"><span>Thème</span><select id="themeSelect">${catalog.themes.map(t=>`<option value="${t.id}" ${t.id===theme.id?'selected':''}>${t.number} · ${esc(t.title_fr)}</option>`).join('')}</select></label></div></header><main class="wrap">${body}</main>`;
+ app.innerHTML=`<header class="top"><div class="brand"><span class="k">K</span>Klassia</div><div class="topActions"><label class="themeSwitch"><span>Thème</span><select id="themeSelect">${catalog.themes.map(t=>`<option value="${t.id}" ${t.id===theme.id?'selected':''}>${t.number} · ${esc(L(t,'title'))}</option>`).join('')}</select></label></div></header><main class="wrap">${body}</main>`;
  K.rendered();
  const sel=document.getElementById('themeSelect');
  if(sel)sel.onchange=()=>location.assign('?theme='+sel.value+'#home');
@@ -38,16 +43,16 @@ function curriculumThemeNote(t){
 function home(){
  const total=allActivities().length,acquired=acquiredCount();
  const plusCount=allActivities().filter(a=>a.path==='plus').length;
- let body=`<section class="hero"><div class="eyebrow">${esc(NURSERY.label.toUpperCase())} · THÈME ${currentThemeMeta.number}</div><h1>${themeIcon(theme.id)} ${esc(theme.title_fr)} · ${esc(theme.title_en)}</h1>${curriculumThemeNote(currentThemeMeta)}<p>Un livre d’éveil interactif pour parler, jouer, manipuler, observer, créer et bouger en français et en anglais, avec des repères Bassa documentés quand ils sont disponibles.</p><div class="chips"><span class="chip">${total} activités</span>${plusCount?`<span class="chip" data-path-count>${total-plusCount} au programme · ${plusCount} pour aller plus loin</span>`:''}<span class="chip">${acquired} acquises</span><span class="chip">${esc(theme.duration||'4 semaines')}</span></div></section>`;
- body+=`<div class="print-actions"><button class="classBtn" id="printTheme14">🖨 Thème / PDF</button></div><section class="workbookPromo"><div><b>✍️ Cahier tactile et imprimable</b><p>Coloriage, lettres, chiffres et graphisme. Trace au doigt ou imprime la fiche.</p></div><button class="classBtn" onclick="location.hash='#worksheets'">Ouvrir le cahier</button></section>`;
- body+=`<div class="notice"><b>Approche maternelle :</b> pas de note sur 20. L’adulte mène l’activité, la montre à l’enfant, puis note en un geste : <b>Seul</b>, <b>Avec aide</b> ou <b>Pas encore</b>. Les activités sont courtes, répétables et adaptables.</div>`;
+ let body=`<section class="hero"><div class="eyebrow">${esc(NURSERY.label.toUpperCase())} · THÈME ${currentThemeMeta.number}</div><h1>${themeIcon(theme.id)} ${dual(theme,'title')}</h1>${curriculumThemeNote(currentThemeMeta)}<p>${EN?'An interactive early-learning book to talk, play, handle, observe, create and move, following the English-subsystem nursery curriculum, with a little French as the curriculum asks.':'Un livre d’éveil interactif pour parler, jouer, manipuler, observer, créer et bouger en français et en anglais, avec des repères Bassa documentés quand ils sont disponibles.'}</p><div class="chips"><span class="chip">${total} activités</span>${plusCount?`<span class="chip" data-path-count>${total-plusCount} au programme · ${plusCount} pour aller plus loin</span>`:''}<span class="chip">${acquired} acquises</span><span class="chip">${esc((EN?theme.duration_en:theme.duration)||'4 semaines')}</span></div></section>`;
+ body+=`<div class="print-actions"><button class="classBtn" id="printTheme14">🖨 Thème / PDF</button></div>`;if(practice)body+=`<section class="workbookPromo"><div><b>✍️ Cahier tactile et imprimable</b><p>Coloriage, lettres, chiffres et graphisme. Trace au doigt ou imprime la fiche.</p></div><button class="classBtn" onclick="location.hash='#worksheets'">Ouvrir le cahier</button></section>`;
+ body+=EN?`<div class="notice"><b>Nursery approach:</b> no marks. The adult leads the activity, shows it to the child, then notes in one tap: <b>On their own</b>, <b>With help</b> or <b>Not yet</b>. Activities are short, can be repeated and adapted.</div>`:`<div class="notice"><b>Approche maternelle :</b> pas de note sur 20. L’adulte mène l’activité, la montre à l’enfant, puis note en un geste : <b>Seul</b>, <b>Avec aide</b> ou <b>Pas encore</b>. Les activités sont courtes, répétables et adaptables.</div>`;
  body+=`<div class="sectionTitle"><h2>Les 5 domaines</h2><p>Les activités mêlent oral, manipulation, visuel, autonomie, création et motricité.</p></div><div class="grid">`;
- theme.domains.forEach(d=>{const pc=pctDomain(d);body+=`<button class="domain" onclick="location.hash='#domain:${d.id}'"><div class="icon">${d.icon}</div><strong>${esc(d.name_fr)}</strong><small>${esc(d.name_en)} · ${d.weight}</small><div class="bar"><span style="width:${pc}%"></span></div><small>${d.activities.length} activités · ${pc}% acquis</small></button>`});
- body+=`</div><div class="sectionTitle"><h2>Projet du thème</h2></div><section class="project"><h3>${esc(theme.project.title_fr)} · ${esc(theme.project.title_en)}</h3><p>${esc(theme.project.description_fr)}</p><p><i>${esc(theme.project.description_en)}</i></p></section>`;
+ theme.domains.forEach(d=>{const pc=pctDomain(d);body+=`<button class="domain" onclick="location.hash='#domain:${d.id}'"><div class="icon">${d.icon}</div><strong>${esc(L(d,'name'))}</strong><small>${EN?'':esc(d.name_en)+' · '}${d.weight}</small><div class="bar"><span style="width:${pc}%"></span></div><small>${d.activities.length} activités · ${pc}% acquis</small></button>`});
+ body+=`</div><div class="sectionTitle"><h2>Projet du thème</h2></div><section class="project"><h3>${dual(theme.project,'title')}</h3>${EN?`<p>${esc(theme.project.description_en)}</p>`:`<p>${esc(theme.project.description_fr)}</p><p><i>${esc(theme.project.description_en)}</i></p>`}</section>`;
  body+=`<div class="sectionTitle"><h2>Suivi</h2></div><section class="project"><p>À la fin du thème, utilisez la grille d’observation pour faire le point sans transformer la maternelle en examen.</p><button class="classBtn" onclick="location.hash='#assessment'">Ouvrir la grille d’observation</button></section>`;
  body+=`<div class="sectionTitle"><h2>Les 8 thèmes</h2></div><button class="classBtn" onclick="location.hash='#themes'">Voir le parcours complet</button>`;
  if(theme.sources?.length) body+=`<p class="source"><b>Repères documentaires :</b> ${theme.sources.map(esc).join(' · ')}</p>`;
- body+=`<p class="source">Base pédagogique : curriculum maternel camerounais et adaptation K. Les propositions Bassa documentées restent consultables avec leur mention « non validé »; l’atelier Bassa permet leur relecture et leur arbitrage.</p>`;
+ body+=EN?`<p class="source">Teaching basis: Cameroon Nursery School Curriculum, English Subsystem (MINEDUB, 2018), cited and not reproduced; original Klassia activities, under teaching review.</p>`:`<p class="source">Base pédagogique : curriculum maternel camerounais et adaptation K. Les propositions Bassa documentées restent consultables avec leur mention « non validé »; l’atelier Bassa permet leur relecture et leur arbitrage.</p>`;
  shell(body);
  document.getElementById('printTheme14').onclick=()=>openPrint('theme');
 }
@@ -61,7 +66,7 @@ function renderBassaVariants(items){
 }
 
 const NURSERY_LANG='klassia_nursery_lang_v1';
-function nurseryLang(){const v=K.read(NURSERY_LANG,null);return v==='fr'||v==='en'?v:(K.read('klassia_family',{})?.school==='en'?'en':'fr');}
+function nurseryLang(){if(EN)return 'en';const v=K.read(NURSERY_LANG,null);return v==='fr'||v==='en'?v:(K.read('klassia_family',{})?.school==='en'?'en':'fr');}
 const NL={
  fr:{name:'Français',goal:'Objectif',card:'Fiche parent',time:'Durée',materials:'Matériel',say:'Ce que je dis',watch:'Ce que je regarde',show:'▶ Montrer à l’enfant',close:'✕ Retour à l’adulte',done:'✋ J’ai fini !',steps:'Déroulement',story:'📖 Histoire',game:'🎲 Jeu',activity:'👐 Activité',questions:'Questions',check:'Vérifier',number:'Écris un nombre.',bravo:'Bravo ! ',again:'Comptons ensemble. ',rate:'Comment ça s’est passé ?',rated:'C’est noté.',minutes:n=>n+' min environ',base:y=>'Programme · '+(y===2?'2e année':'1re année'),plus:'Pour aller plus loin',note:'Ajouter une note d’observation',noteLabel:'Ce que j’ai observé (sans donnée sensible)',save:'Enregistrer l’observation',saved:n=>'Observation datée enregistrée pour '+n},
  en:{name:'English',goal:'Goal',card:'Parent card',time:'Time',materials:'Materials',say:'What I say',watch:'What I watch for',show:'▶ Show the child',close:'✕ Back to the adult',done:'✋ I’ve finished!',steps:'Steps',story:'📖 Story',game:'🎲 Game',activity:'👐 Activity',questions:'Questions',check:'Check',number:'Write a number.',bravo:'Well done! ',again:'Let’s count together. ',rate:'How did it go?',rated:'Noted.',minutes:n=>'about '+n+' min',base:y=>'Curriculum · year '+(y===2?'two':'one'),plus:'Going further',note:'Add an observation note',noteLabel:'What I observed (no sensitive data)',save:'Save the observation',saved:n=>'Dated observation saved for '+n}
@@ -94,13 +99,13 @@ function activityCard(a,i){
  if(a.source_refs)more+=`<details class="adult-guide"><summary>Repères du curriculum</summary><p>${esc(a.source_refs.join(' · '))}</p><p>Activité originale Klassia; correspondance proposée à relire.</p></details>`;
  if(a.teacher_guide&&K.isAdultSpace())more+=`<details class="adult-guide"><summary>Préparer et adapter l’activité</summary><p>${esc(a.teacher_guide.preparation)}</p><p>${esc(a.teacher_guide.adaptation)}</p><p>${esc(a.teacher_guide.follow_up)}</p></details>`;
  const rating=`<section class="nursery-rating" aria-labelledby="rate-${esc(a.id)}"><h4 id="rate-${esc(a.id)}">${t.rate}</h4><div role="group">${RATINGS.map(([key,,label])=>`<button type="button" data-rate="${key}" aria-pressed="${rated===key}">${label[l]}</button>`).join('')}</div><p class="nursery-rated" role="status"></p></section>`;
- return `<article class="activityCard" data-activity-id="${esc(a.id)}" lang="${l}"><div class="activityHead"><div class="num">${i+1}</div><div><h3>${esc(pick(a,'title',l))}</h3>${K.reviewMark(a.editorial,l==='en')}</div><div class="print-actions"><button class="classBtn printActivity14">🖨 Activité / PDF</button>${K.isAdultSpace()?'<button class="classBtn printActivityAdult">Guide adulte de l’activité / PDF</button>':''}</div></div><div class="activityBody"><p class="nursery-path${a.path==='plus'?' nursery-path-plus':''}" data-path="${a.path==='plus'?'plus':'base'}">${a.path==='plus'?t.plus:t.base(NURSERY.grade==='GS'?2:1)}</p><p class="nursery-goal"><b>${t.goal}</b> ${esc(pick(a,'goal',l))}</p>${card?`<dl class="nursery-card" aria-label="${t.card}">${card}</dl>`:''}${a.type==='bassa'?'':`<button type="button" class="nursery-show" data-child-show>${t.show}</button>`}<div class="nursery-stage"><button type="button" class="nursery-close" data-child-close>${t.close}</button>${stage}<button type="button" class="nursery-done" data-child-close>${t.done}</button></div><div class="nursery-more">${more}</div>${rating}</div></article>`;
+ return `<article class="activityCard" data-activity-id="${esc(a.id)}" lang="${l}"><div class="activityHead"><div class="num">${i+1}</div><div><h3>${esc(pick(a,'title',l))}</h3>${K.reviewMark(a.editorial,l==='en')}</div><div class="print-actions"><button class="classBtn printActivity14">🖨 Activité / PDF</button>${K.isAdultSpace()?'<button class="classBtn printActivityAdult">Guide adulte de l’activité / PDF</button>':''}</div></div><div class="activityBody"><p class="nursery-path${a.path==='plus'?' nursery-path-plus':''}" data-path="${a.path==='plus'?'plus':'base'}">${a.path==='plus'?t.plus:EN?'Curriculum · '+esc(NURSERY.label):t.base(NURSERY.grade==='GS'?2:1)}</p><p class="nursery-goal"><b>${t.goal}</b> ${esc(pick(a,'goal',l))}</p>${card?`<dl class="nursery-card" aria-label="${t.card}">${card}</dl>`:''}${a.type==='bassa'?'':`<button type="button" class="nursery-show" data-child-show>${t.show}</button>`}<div class="nursery-stage"><button type="button" class="nursery-close" data-child-close>${t.close}</button>${stage}<button type="button" class="nursery-done" data-child-close>${t.done}</button></div><div class="nursery-more">${more}</div>${rating}</div></article>`;
 }
 function domainPage(id,index=0){
  const d=theme.domains.find(x=>x.id===id);if(!d)return home();
  index=Math.max(0,Math.min(d.activities.length-1,index));const a=d.activities[index];K.write(RECENT_KEY,{theme:theme.id,id:a.id,at:Date.now()});
  const l=nurseryLang(),t=NL[l];
- let body=`<button class="back" onclick="location.hash='#home'">← Retour au thème</button><section class="hero"><h1>${d.icon} ${esc(l==='en'?d.name_en:d.name_fr)}</h1><div class="print-actions"><button class="classBtn printDomain14">🖨 Domaine / PDF</button>${K.isAdultSpace()?'<button class="classBtn printDomainAdult">Guide adulte du domaine / PDF</button>':''}</div></section><div class="nursery-lang" role="group" aria-label="Langue de l’activité · Activity language">${['fr','en'].map(x=>`<button type="button" data-nursery-lang="${x}" aria-pressed="${x===l}" lang="${x}">${NL[x].name}</button>`).join('')}</div><nav class="activity-browser" aria-label="Activités"><button id="prevActivity" ${index===0?'disabled':''}>← Précédente</button><span>${index+1} / ${d.activities.length}</span><button id="nextActivity" ${index===d.activities.length-1?'disabled':''}>Suivante →</button></nav>`;
+ let body=`<button class="back" onclick="location.hash='#home'">← Retour au thème</button><section class="hero"><h1>${d.icon} ${esc(l==='en'?L(d,'name'):d.name_fr)}</h1><div class="print-actions"><button class="classBtn printDomain14">🖨 Domaine / PDF</button>${K.isAdultSpace()?'<button class="classBtn printDomainAdult">Guide adulte du domaine / PDF</button>':''}</div></section>${EN?'':`<div class="nursery-lang" role="group" aria-label="Langue de l’activité · Activity language">${['fr','en'].map(x=>`<button type="button" data-nursery-lang="${x}" aria-pressed="${x===l}" lang="${x}">${NL[x].name}</button>`).join('')}</div>`}<nav class="activity-browser" aria-label="Activités"><button id="prevActivity" ${index===0?'disabled':''}>← Précédente</button><span>${index+1} / ${d.activities.length}</span><button id="nextActivity" ${index===d.activities.length-1?'disabled':''}>Suivante →</button></nav>`;
  body+=activityCard(a,index);body+=`<details class="adult-guide"><summary>${t.note}</summary><form id="observeActivity" class="observation-form"><label>${t.noteLabel}<textarea id="observeNote" maxlength="500"></textarea></label><button class="classBtn">${t.save}</button><p id="observeResult" role="status"></p></form></details>`;
  shell(body);document.getElementById('prevActivity').onclick=()=>location.hash='#domain:'+id+':'+(index-1);document.getElementById('nextActivity').onclick=()=>location.hash='#domain:'+id+':'+(index+1);
  document.querySelectorAll('[data-nursery-lang]').forEach(b=>b.onclick=()=>{K.write(NURSERY_LANG,b.dataset.nurseryLang);domainPage(id,index);});
@@ -119,19 +124,19 @@ function domainPage(id,index=0){
 
 function themesPage(){
  const cards = catalog.themes.map(theme => ({
-  href: '?theme=' + theme.id + '#home', title: theme.title_fr, translation: theme.title_en, code: theme.id,
+  href: '?theme=' + theme.id + '#home', title: L(theme,'title'), translation: EN ? '' : theme.title_en, code: theme.id,
   detail: theme.curriculum_number ? 'Code Klassia ' + theme.id + ' · thème ' + theme.curriculum_number + ' du programme francophone' : ''
  }));
  shell(K.catalogue('Parcourir les thèmes', NURSERY.label + ' · Choisis un thème pour ouvrir ses activités.', cards));
 }
 function assessmentPage(){
- let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><section class="hero"><div class="eyebrow">SUIVI PAR OBSERVATION</div><h1>${esc(theme.assessment.title_fr)}</h1><p>${esc(theme.assessment.title_en)}</p></section><div class="notice">Évaluer ici signifie observer pour mieux accompagner. On ne cherche ni classement ni note.</div>`;
- body+=`<div class="sectionTitle"><h2>Échelle</h2></div>${theme.assessment.scale.map(s=>`<div class="themeCard"><div class="themeNum">${s.code}</div><div><strong>${esc(s.label_fr)} · ${esc(s.label_en)}</strong><div>${esc(s.description)}</div></div></div>`).join('')}`;
+ let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><section class="hero"><div class="eyebrow">SUIVI PAR OBSERVATION</div><h1>${esc(L(theme.assessment,'title'))}</h1>${EN?'':`<p>${esc(theme.assessment.title_en)}</p>`}</section><div class="notice">Évaluer ici signifie observer pour mieux accompagner. On ne cherche ni classement ni note.</div>`;
+ body+=`<div class="sectionTitle"><h2>Échelle</h2></div>${theme.assessment.scale.map(s=>`<div class="themeCard"><div class="themeNum">${s.code}</div><div><strong>${dual(s,'label')}</strong><div>${esc(s.description)}</div></div></div>`).join('')}`;
  body+=`<div class="sectionTitle"><h2>Indicateurs</h2></div><section class="assessment">${theme.assessment.indicators.map(x=>`<div class="indicator"><span>○</span><div>${esc(x)}</div></div>`).join('')}</section>`;
- const observations=K.read('klassia_observations',[]).filter(x=>x.grade===NURSERY.grade&&x.theme===theme.id);body+=`<section class="project"><h2>Observations enregistrées</h2>${observations.slice(-20).reverse().map(x=>`<p><b>${esc(x.activity)}</b> · ${esc(new Date(x.at).toLocaleDateString('fr-FR'))} · ${esc(x.language||'')} ${esc(x.rating?({alone:'Seul',helped:'Avec aide',notyet:'Pas encore'})[x.rating]:(x.help||x.status||''))}<br>${esc(x.note||'')}</p>`).join('')||'<p>Aucune observation enregistrée pour ce thème.</p>'}</section>`;shell(body);
+ const observations=K.read('klassia_observations',[]).filter(x=>x.grade===NURSERY.grade&&x.theme===theme.id);body+=`<section class="project"><h2>Observations enregistrées</h2>${observations.slice(-20).reverse().map(x=>`<p><b>${esc(x.activity)}</b> · ${esc(new Date(x.at).toLocaleDateString(EN?'en-GB':'fr-FR'))} · ${esc(x.language||'')} ${esc(x.rating?({alone:'Seul',helped:'Avec aide',notyet:'Pas encore'})[x.rating]:(x.help||x.status||''))}<br>${esc(x.note||'')}</p>`).join('')||'<p>Aucune observation enregistrée pour ce thème.</p>'}</section>`;shell(body);
 }
 function worksheetsPage(){
- const ws=worksheetsForTheme(practice?.themes?.[theme.id],NURSERY.grade,theme.id);let body=`<button class="back" onclick="location.hash='#home'">← Retour au thème</button><section class="hero"><div class="eyebrow">CAHIER TACTILE ET IMPRIMABLE</div><h1>✍️ Coloriage, lettres, chiffres et graphisme</h1><p>${esc(theme.title_fr)} · ${esc(theme.title_en)}</p></section><div class="worksheetGrid">`;
+ const ws=worksheetsForTheme(practice?.themes?.[theme.id],NURSERY.grade,theme.id);let body=`<button class="back" onclick="location.hash='#home'">← Retour au thème</button><section class="hero"><div class="eyebrow">CAHIER TACTILE ET IMPRIMABLE</div><h1>✍️ Coloriage, lettres, chiffres et graphisme</h1><p>${dual(theme,'title')}</p></section><div class="worksheetGrid">`;
  ws.forEach(w=>body+=`<article class="worksheetCard"><h2>${w.title}</h2><p>${esc(w.instruction_fr)}</p><p><i>${esc(w.instruction_en)}</i></p>${K.ink.worksheet(NURSERY.grade+':'+theme.id+':cahier:'+w.id,w.html,['letters','numbers'].includes(w.id))}<button class="classBtn" data-print-ws="${w.id}">🖨 Imprimer / PDF</button></article>`);
  body+=`</div><button class="classBtn" id="printAllWs">🖨 Imprimer tout le cahier du thème</button>`;shell(body);
  document.querySelectorAll('[data-print-ws]').forEach(b=>{const w=ws.find(x=>x.id===b.dataset.printWs);b.onclick=()=>openPrint('graphisme',w.id)});
@@ -139,17 +144,18 @@ function worksheetsPage(){
 }
 function domainsAllPage(){
  const sample=themePack.themes[catalog.themes[0].id].domains;let body=`<button class="back" onclick="location.hash='#home'">← Retour</button><section class="hero"><div class="eyebrow">${esc(NURSERY.label.toUpperCase())} · PAR DOMAINE</div><h1>Choisir d’abord un domaine</h1><p>Parcours ensuite les huit thèmes pour ce même domaine.</p></section><div class="grid">`;
- sample.forEach(d=>body+=`<button class="domain" data-domain-all="${d.id}"><div class="icon">${d.icon}</div><strong>${esc(d.name_fr)}</strong><small>${esc(d.name_en)} · ${d.weight}</small><small>8 thèmes</small></button>`);
+ sample.forEach(d=>body+=`<button class="domain" data-domain-all="${d.id}"><div class="icon">${d.icon}</div><strong>${esc(L(d,'name'))}</strong><small>${EN?'':esc(d.name_en)+' · '}${d.weight}</small><small>8 thèmes</small></button>`);
  body+='</div>';shell(body);document.querySelectorAll('[data-domain-all]').forEach(b=>b.onclick=()=>location.hash='#domain-all:'+b.dataset.domainAll);
 }
 function domainAllPage(id){
  const sample=themePack.themes[catalog.themes[0].id].domains.find(d=>d.id===id);if(!sample)return home();
- let body=`<button class="back" onclick="location.hash='#domains-all'">← Domaines</button><section class="hero"><div class="eyebrow">8 THÈMES</div><h1>${sample.icon} ${esc(sample.name_fr)}</h1><p>${esc(sample.name_en)}</p><button class="classBtn" id="printDomainAll">🖨 Domaine complet / PDF</button></section><div class="themes">`;
- for(const t of catalog.themes){const th=themePack.themes[t.id],d=th.domains.find(x=>x.id===id);body+=`<article class="themeCard themeDomainCard"><div class="themeNum">${t.number}</div><div><strong>${esc(th.title_fr)}</strong><div>${esc(th.title_en)} · ${d.activities.length} activités</div><small>${d.activities.slice(0,3).map(a=>esc(a.title_fr)).join(' · ')}</small></div><div class="spacer"></div><button class="classBtn" data-open-domain-theme="${t.id}">Ouvrir</button></article>`;}
+ let body=`<button class="back" onclick="location.hash='#domains-all'">← Domaines</button><section class="hero"><div class="eyebrow">8 THÈMES</div><h1>${sample.icon} ${esc(L(sample,'name'))}</h1>${EN?'':`<p>${esc(sample.name_en)}</p>`}<button class="classBtn" id="printDomainAll">🖨 Domaine complet / PDF</button></section><div class="themes">`;
+ for(const t of catalog.themes){const th=themePack.themes[t.id],d=th.domains.find(x=>x.id===id);body+=`<article class="themeCard themeDomainCard"><div class="themeNum">${t.number}</div><div><strong>${esc(L(th,'title'))}</strong><div>${EN?'':esc(th.title_en)+' · '}${d.activities.length} activités</div><small>${d.activities.slice(0,3).map(a=>esc(L(a,'title'))).join(' · ')}</small></div><div class="spacer"></div><button class="classBtn" data-open-domain-theme="${t.id}">Ouvrir</button></article>`;}
  body+='</div>';shell(body);document.getElementById('printDomainAll').onclick=()=>openPrint('domaine-complet',id);
  document.querySelectorAll('[data-open-domain-theme]').forEach(b=>b.onclick=()=>location.assign('?theme='+b.dataset.openDomainTheme+'#domain:'+id));
 }
 function activitySubject(a,d){
+ if(a.area)return a.area; // activités des classes anglophones : la rubrique du programme (Storytelling, Mathematics…)
  if(['math','pattern','patterns','sorting','classification','shape','shapes','measurement','position','distance','laterality'].includes(a.type))return 'Mathématiques';
  if(a.type==='digital')return 'TIC';
  if(['prewriting'].includes(a.type))return 'Graphisme';
@@ -164,7 +170,7 @@ function activitiesPage(selected){
  const rows = catalog.themes.flatMap(t => themePack.themes[t.id].domains.flatMap(d => d.activities.map((a,i) => ({a,d,t,i,subject:activitySubject(a,d)}))));
  const names = [...new Set(rows.map(row => row.subject))];
  const cards = selected ? rows.filter(row => row.subject === selected).map(({a,d,t,i}) => ({
-  href: '?theme=' + t.id + '#domain:' + d.id + ':' + i, title: a.title_fr, translation: a.title_en, detail: t.title_fr
+  href: '?theme=' + t.id + '#domain:' + d.id + ':' + i, title: L(a,'title'), translation: EN ? '' : a.title_en, detail: L(t,'title')
  })) : names.map(title => ({
   title, href: '#activity-subject:' + encodeURIComponent(title), count: rows.filter(row => row.subject === title).length + ' activités'
  }));
@@ -185,10 +191,10 @@ function route(){
  return home();
 }
 try{
- catalog=await get('./data/catalog-v13.json');
+ catalog=await get(K.classLocalPath(NURSERY,NURSERY.catalog));
  const themes={};
  // Le cahier imprimable est facultatif : son absence n'empêche pas d'ouvrir les thèmes.
- [practice]=await Promise.all([get('./practice-v14.json').catch(()=>null),...catalog.themes.map(async t=>{themes[t.id]=await get('./data/themes/'+t.id+'.json');})]);
+ [practice]=await Promise.all([EN?null:get('./practice-v14.json').catch(()=>null),...catalog.themes.map(async t=>{themes[t.id]=await get('./data/themes/'+t.id+'.json');})]);
  themePack={themes};
  const requested=new URLSearchParams(location.search).get('theme')||K.storage.getItem(THEME_KEY)||'T1';
  loadTheme(catalog.themes.some(t=>t.id===requested)?requested:'T1');

@@ -1,0 +1,501 @@
+{
+ "id": "T7",
+ "grade": "NURSERY1",
+ "title_en": "Occupations",
+ "title_fr": "Les métiers",
+ "twin": "T7",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Our little market of jobs",
+  "description_en": "At the end of the theme, the child acts a job (baker, tailor, nurse, mechanic…), names its tools, greets the customer politely in English and in French and counts money or goods up to 10."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "💬",
+   "activities": [
+    {
+     "id": "N1-T7-LC1",
+     "type": "story",
+     "area": "Storytelling",
+     "title_en": "Ewane the baker",
+     "goal_en": "Listen to a story about a job and say the steps in order.",
+     "prompt_en": "Listen to the story of Ewane the baker. What did he do first?",
+     "steps_en": [
+      "Show a loaf of bread.",
+      "Tell the story with gestures: mix, knead, bake.",
+      "Ask: what did Ewane do first, then, at the end?",
+      "Act the baker’s work together."
+     ],
+     "observe_en": [
+      "Listens to the end.",
+      "Says the steps in order with help.",
+      "Acts the baker."
+     ],
+     "materials_en": [
+      "a loaf of bread",
+      "a bowl"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 14 (Storytelling: Short stories), p. 39; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "story_en": "Every night, while the town sleeps, Ewane the baker wakes up. He mixes flour, water and salt in a big bowl. He kneads the dough, push and fold, push and fold. He puts the bread in the hot oven. In the morning, the whole street smells good, and the children say: “Thank you, Ewane, for our bread!”"
+    },
+    {
+     "id": "N1-T7-LC2",
+     "type": "mime",
+     "area": "Sign Language and Gestures",
+     "title_en": "Guess my job!",
+     "goal_en": "Imitate occupations with gestures and guess them.",
+     "prompt_en": "Look: I cut and sew. Who am I? Yes, a tailor!",
+     "steps_en": [
+      "Mime a job without speaking (tailor, driver, farmer, hairdresser).",
+      "The child guesses.",
+      "The child mimes a job; you guess.",
+      "Name the tool used in each job."
+     ],
+     "observe_en": [
+      "Mimes a job clearly.",
+      "Guesses the job of others.",
+      "Names one tool."
+     ],
+     "materials_en": [
+      "pictures of jobs"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 16 (Sign Language and Gestures: Mimes and mimics), p. 41; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "✂️ tailor",
+       "🚕 driver",
+       "🌾 farmer",
+       "💇 hairdresser"
+      ]
+     }
+    },
+    {
+     "id": "N1-T7-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "The letters a and i",
+     "goal_en": "Write the lowercase letters a and i correctly.",
+     "prompt_en": "The a is a round o with a little stick. The i is a stick with a dot on top.",
+     "steps_en": [
+      "Trace a in the air: round, then down.",
+      "Trace i: down, then the dot.",
+      "Trace them in sand.",
+      "Write a row of a and a row of i."
+     ],
+     "observe_en": [
+      "Starts at the right place.",
+      "Forms a with a round part and a stick.",
+      "Adds the dot on i."
+     ],
+     "materials_en": [
+      "paper",
+      "crayons"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery One, table 18 (Writing: Letters and numbers), p. 43; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N1-T7-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "« Bonjour, Madame ! Merci ! » at the shop",
+     "goal_en": "Greet the seller politely in French.",
+     "prompt_en": "At the shop we say: “Bonjour, Madame !” and after: “Merci, au revoir !”",
+     "steps_en": [
+      "Set up a little shop.",
+      "Show how to greet: “Bonjour, Madame !”",
+      "Buy something and say “Merci !”",
+      "Leave saying “Au revoir !”"
+     ],
+     "observe_en": [
+      "Greets in French.",
+      "Says “merci”.",
+      "Says “au revoir” when leaving."
+     ],
+     "materials_en": [
+      "toy goods",
+      "a small table"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 19 (French: Salutations), p. 44; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔢",
+   "activities": [
+    {
+     "id": "N1-T7-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "At the fruit seller: adding to 10",
+     "goal_en": "Add two groups up to 10 in a market game.",
+     "prompt_en": "You buy 4 oranges, then 3 more. How many oranges in your basket?",
+     "steps_en": [
+      "Put 4 oranges (or stones) in a basket.",
+      "Add 3 more, counting on: five, six, seven.",
+      "Count all again to check.",
+      "Play seller and customer with other numbers."
+     ],
+     "observe_en": [
+      "Adds the second group.",
+      "Counts on or counts all.",
+      "Says the total."
+     ],
+     "materials_en": [
+      "10 oranges or stones",
+      "a basket"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 20 (Mathematics: Mathematical operations), p. 45; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "4 oranges and 3 more oranges. How many in the basket?",
+      "answer": 7,
+      "explanation_en": "Start at 4 and count on: five, six, seven. There are 7 oranges."
+     }
+    },
+    {
+     "id": "N1-T7-ST2",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "Building a little house",
+     "goal_en": "Build a miniature house with blocks or cartons.",
+     "prompt_en": "The builder makes houses. Let us build a little house with blocks.",
+     "steps_en": [
+      "Show a picture of a builder at work.",
+      "Put blocks side by side for the walls.",
+      "Add a roof with a piece of carton.",
+      "Leave a door and talk about the materials of real houses."
+     ],
+     "observe_en": [
+      "Builds walls that stand.",
+      "Adds a roof.",
+      "Names one material (blocks, cement, wood)."
+     ],
+     "materials_en": [
+      "blocks or small cartons",
+      "a piece of carton"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery One, table 22 (Science and Technology: Construction), p. 47–48; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T7-ST3",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "Things that use electricity",
+     "goal_en": "Detect appliances that use electricity and ask an adult to use them.",
+     "prompt_en": "The radio, the TV and the iron use electricity. Who can switch them on?",
+     "steps_en": [
+      "Show pictures of appliances: radio, TV, iron, phone charger.",
+      "Find which ones use electricity.",
+      "Explain that only adults plug and unplug them.",
+      "With an adult, switch a radio or a light on and off."
+     ],
+     "observe_en": [
+      "Names two appliances.",
+      "Says that an adult plugs them.",
+      "Switches a light on and off with an adult."
+     ],
+     "materials_en": [
+      "pictures of appliances",
+      "a radio or a light switch"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 22 (Science and Technology: Electrical appliances), p. 47–48; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🧼",
+   "activities": [
+    {
+     "id": "N1-T7-PV1",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "People who lead and help us",
+     "goal_en": "Identify some officials and leaders and respect them.",
+     "prompt_en": "At school, the head teacher leads. In the town, the mayor. In the village, the chief or the Fon.",
+     "steps_en": [
+      "Show pictures: a head teacher, a mayor, a chief or Fon.",
+      "Say what each one does in one sentence.",
+      "Ask the child who the head teacher of the school is.",
+      "Practise greeting an important person politely."
+     ],
+     "observe_en": [
+      "Names the head teacher.",
+      "Says one leader of the town or village.",
+      "Greets politely."
+     ],
+     "materials_en": [
+      "pictures of leaders"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 24 (Citizenship: National emblems and officials), p. 50; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T7-PV2",
+     "type": "safety",
+     "area": "Safety Education",
+     "title_en": "Wires and sockets are dangerous",
+     "goal_en": "Stay away from sockets and wires and ask an adult for help.",
+     "prompt_en": "We never put fingers or objects in a socket and we never touch a broken wire.",
+     "steps_en": [
+      "Show a socket and a wire (switched off).",
+      "Say the danger: it can burn and hurt.",
+      "Act: a child sees a broken wire and calls an adult.",
+      "Repeat the rule with a gesture: hands away!"
+     ],
+     "observe_en": [
+      "Says not to touch sockets.",
+      "Calls an adult in the role play.",
+      "Repeats the rule."
+     ],
+     "materials_en": [
+      "a picture of a socket and a wire"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery One, table 27 (Safety Education: Home safety), p. 53; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T7-PV3",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "At the nurse: telling where it hurts",
+     "goal_en": "Report symptoms of illness to an adult or a nurse.",
+     "prompt_en": "When we are sick, we tell an adult: “My head hurts”, “My tummy hurts”.",
+     "steps_en": [
+      "Show a picture of a nurse.",
+      "Act a visit: the child says where it hurts.",
+      "The nurse uses a bandage on a doll.",
+      "Talk: medicine only from the nurse or parents."
+     ],
+     "observe_en": [
+      "Says where it hurts.",
+      "Plays the nurse or the patient.",
+      "Says who gives medicine."
+     ],
+     "materials_en": [
+      "a doll",
+      "a bandage",
+      "an empty medicine box"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 28 (Health Education and Nutrition: Treatment), p. 54; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N1-T7-AC1",
+     "type": "music",
+     "area": "Music and Dance",
+     "title_en": "Drum, flute, guitar",
+     "goal_en": "Identify traditional and modern musical instruments.",
+     "prompt_en": "Listen: is it a drum or a guitar? Which one is traditional?",
+     "steps_en": [
+      "Show pictures or real instruments: drum, xylophone, flute, guitar, piano.",
+      "Play or imitate each sound.",
+      "Sort: traditional (drum, xylophone) / modern (guitar, piano).",
+      "Play a rhythm on a drum or a bucket."
+     ],
+     "observe_en": [
+      "Names two instruments.",
+      "Sorts traditional and modern with help.",
+      "Plays a simple rhythm."
+     ],
+     "materials_en": [
+      "a drum or a bucket",
+      "pictures of instruments"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 29 (Music and Dance: Musical instruments), p. 55; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N1-T7-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Tug-of-war",
+     "goal_en": "Play tug-of-war as a team and accept the result.",
+     "prompt_en": "Hold the rope with your team. On “pull!”, pull together. Then shake hands.",
+     "steps_en": [
+      "Make two equal teams.",
+      "Mark the middle of the rope.",
+      "Pull on the signal.",
+      "Shake hands after, whoever wins."
+     ],
+     "observe_en": [
+      "Pulls with the team.",
+      "Stops on the signal.",
+      "Accepts defeat or victory calmly."
+     ],
+     "materials_en": [
+      "a strong rope",
+      "soft ground"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 32 (Physical Education and Sports: Team sports), p. 58; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Names three jobs and one tool for each.",
+   "Mimes a job.",
+   "Adds up to 10 with objects.",
+   "Builds a small house with blocks.",
+   "Says who can use electrical appliances.",
+   "Names the head teacher, the mayor or the chief.",
+   "Plays tug-of-war fairly.",
+   "Writes the letters a and i with help."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery One tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

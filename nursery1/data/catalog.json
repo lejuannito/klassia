@@ -1,0 +1,92 @@
+{
+  "format": "klassia-nursery-catalog",
+  "schemaVersion": 1,
+  "grade": "NURSERY1",
+  "class_name": "Nursery One",
+  "subsystem": "anglophone",
+  "language": "en",
+  "twin": {
+    "subsystem": "francophone",
+    "grade": "MS",
+    "status": "available"
+  },
+  "releaseStatus": "in_review",
+  "scope": "Catalogue of the eight integrated learning themes of Nursery One: twelve activities per theme across the five domains, under teaching review.",
+  "sources": [
+    {
+      "title": "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018",
+      "reference": "table 1 (domains and weighting), p. 14; table 13 (integrated learning themes), p. 37; Nursery One tables",
+      "note": "Transcription consulted; the curriculum is not reproduced. Klassia cites the table and the page."
+    }
+  ],
+  "themes": [
+    {
+      "id": "T1",
+      "number": 1,
+      "title_en": "The school",
+      "title_fr": "L’école",
+      "twin": "T1",
+      "status": "in_review"
+    },
+    {
+      "id": "T2",
+      "number": 2,
+      "title_en": "The body",
+      "title_fr": "Le corps",
+      "twin": "T2",
+      "status": "in_review"
+    },
+    {
+      "id": "T3",
+      "number": 3,
+      "title_en": "The family and home",
+      "title_fr": "La famille et la maison",
+      "twin": "T3",
+      "status": "in_review"
+    },
+    {
+      "id": "T4",
+      "number": 4,
+      "title_en": "Festivities and celebrations",
+      "title_fr": "Les fêtes et célébrations",
+      "twin": "T4",
+      "status": "in_review"
+    },
+    {
+      "id": "T5",
+      "number": 5,
+      "title_en": "Plants",
+      "title_fr": "Les plantes",
+      "twin": "T5",
+      "status": "in_review"
+    },
+    {
+      "id": "T6",
+      "number": 6,
+      "title_en": "Animals",
+      "title_fr": "Les animaux",
+      "twin": "T6",
+      "status": "in_review"
+    },
+    {
+      "id": "T7",
+      "number": 7,
+      "title_en": "Occupations",
+      "title_fr": "Les métiers",
+      "twin": "T7",
+      "status": "in_review"
+    },
+    {
+      "id": "T8",
+      "number": 8,
+      "title_en": "Travelling",
+      "title_fr": "Les voyages",
+      "twin": "T8",
+      "status": "in_review"
+    }
+  ],
+  "summary": {
+    "themes": 8,
+    "activities": 96
+  }
+}

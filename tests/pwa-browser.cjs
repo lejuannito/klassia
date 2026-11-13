@@ -666,7 +666,7 @@ async function testOfflineClasses(browser, base) {
     await page.locator('.lesson-card').waitFor();
     await page.goto(base + 'search.html?q=ecole');
     await page.locator('#searchResults li').first().waitFor();
-    assert.match(await page.locator('#searchStatus').innerText(), /ne couvre pas CE2, MS, GS, Class 1, Class 3, Class 4 : ces classes ne sont pas installées/);
+    assert.match(await page.locator('#searchStatus').innerText(), /ne couvre pas CE2, MS, GS, Nursery One, Class 1, Class 3, Class 4 : ces classes ne sont pas installées/);
     await context.setOffline(false);
 
     // Taking a class off frees its files.

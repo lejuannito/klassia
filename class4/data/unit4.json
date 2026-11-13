@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 4 are written (lots A6a and A6b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–95; Class 4 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -518,6 +518,589 @@
    },
    "competencies": [
     "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-S",
+   "domain": "Science and Technology",
+   "title": "The fisherman’s tools and methods",
+   "objective": "Identify the tools of a fisherman, describe fishing methods and the importance of fish in the diet.",
+   "course": "Fishermen use a canoe, paddles or an engine, nets, hooks and lines, traps (baskets) and a lamp for night fishing.\nMethods: line fishing (a hook with bait), net fishing (casting a net or leaving it overnight), trap fishing (baskets in the river). Bad methods destroy fish: poison, explosives, nets with very small holes that catch baby fish.\nFish gives proteins for growth.",
+   "model": "The adult describes fishing on the coast at Limbe or on a river: leaving at dawn, casting nets, selling the catch.",
+   "guided": "Draw three fishing tools and say how each is used. Explain why poison fishing is forbidden.",
+   "exercise": "Why are nets with very small holes bad?",
+   "answer": "They catch baby fish.",
+   "accept": [
+    "they catch baby fish",
+    "they catch young fish",
+    "baby fish",
+    "young fish",
+    "They catch baby fish"
+   ],
+   "remediation": "Start with two tools: the hook and the net.",
+   "transfer": "At the market, find two kinds of fish and ask where they were caught.",
+   "materials": "Pictures of fishing tools.",
+   "practice": [
+    {
+     "prompt": "Match each tool with its use.",
+     "type": "match",
+     "pairs": [
+      [
+       "a hook",
+       "line fishing"
+      ],
+      [
+       "a net",
+       "catching many fish"
+      ],
+      [
+       "a basket trap",
+       "catching fish in a river"
+      ]
+     ],
+     "answer": "hook: line; net: many fish; trap: river.",
+     "explanation": "Each tool has a method."
+    },
+    {
+     "prompt": "Which method destroys the river?",
+     "type": "mcq",
+     "choices": [
+      "poison fishing",
+      "line fishing",
+      "trap fishing"
+     ],
+     "correct": 0,
+     "answer": "poison fishing",
+     "explanation": "Poison kills all life in the water."
+    },
+    {
+     "prompt": "What does fish give our body?",
+     "answer": "Proteins.",
+     "accept": [
+      "proteins",
+      "protein",
+      "Proteins"
+     ],
+     "explanation": "Proteins help the body grow."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Environmental Science: fishing, tools and methods), p. 57, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Environmental Science: fishing, tools and methods"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-F",
+   "domain": "Français",
+   "title": "Raconter la journée du boulanger au passé composé",
+   "objective": "Raconter des actions passées dans l’ordre en utilisant le passé composé.",
+   "course": "Le passé composé = avoir ou être au présent + participe passé : « Le boulanger a préparé la pâte. Il a cuit le pain. Il est allé au marché. »\nParticipes : préparer → préparé ; finir → fini ; vendre → vendu ; faire → fait ; aller → allé (avec être).\nPour l’ordre : d’abord, ensuite, puis, enfin.",
+   "support": {
+    "title": "Lis le récit",
+    "text": "Hier, le boulanger s’est levé à quatre heures. D’abord, il a préparé la pâte. Ensuite, il a cuit le pain. Puis il est allé au marché. Enfin, il a vendu tout son pain."
+   },
+   "model": "L’adulte raconte sa journée d’hier en levant un doigt pour chaque action.",
+   "guided": "Raconte en cinq phrases au passé composé la journée d’hier d’un artisan (couturière, menuisier, mécanicien).",
+   "exercise": "Complète : Hier, il … (vendre) son pain.",
+   "answer": "a vendu",
+   "accept": [
+    "a vendu",
+    "Hier, il a vendu son pain"
+   ],
+   "remediation": "Travaille d’abord trois verbes en -er avec « avoir ».",
+   "transfer": "Raconte en français ta journée d’hier à ta famille.",
+   "materials": "Le récit.",
+   "practice": [
+    {
+     "prompt": "Relie le verbe et son participe passé.",
+     "type": "match",
+     "pairs": [
+      [
+       "préparer",
+       "préparé"
+      ],
+      [
+       "finir",
+       "fini"
+      ],
+      [
+       "vendre",
+       "vendu"
+      ]
+     ],
+     "answer": "préparé, fini, vendu.",
+     "explanation": "-er → é ; -ir → i ; -re → u."
+    },
+    {
+     "prompt": "Remets le récit dans l’ordre.",
+     "type": "order",
+     "items": [
+      "D’abord, il a préparé la pâte.",
+      "Ensuite, il a cuit le pain.",
+      "Puis il est allé au marché.",
+      "Enfin, il a vendu son pain."
+     ],
+     "answer": "D’abord, ensuite, puis, enfin.",
+     "explanation": "Les mots d’ordre aident à raconter."
+    },
+    {
+     "prompt": "Complète avec a ou est.",
+     "type": "gaps",
+     "text": "Elle [[a]] cousu une robe. Elle [[est]] allée au marché.",
+     "answer": "a ; est.",
+     "explanation": "aller se conjugue avec être."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : récits au passé composé), p. 63, p. 68, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : récits au passé composé"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-C",
+   "domain": "Social Studies",
+   "title": "Measuring the weather for farmers",
+   "objective": "Use instruments to measure the weather, keep records and make simple instruments with local materials.",
+   "course": "Weather instruments: the thermometer (temperature), the rain gauge (rainfall), the wind vane (wind direction), the windsock (wind strength). Clouds also help to predict rain: dark, heavy clouds often bring rain.\nFarmers need weather information to plant, spray and harvest at the right time.\nA simple rain gauge: a clear bottle with a ruler scale, placed in an open place.",
+   "model": "The adult makes a rain gauge with a cut plastic bottle and a ruler, then reads the water level after rain.",
+   "guided": "Make a rain gauge and a wind vane with local materials. Record the weather each day for a week in a table.",
+   "exercise": "Which instrument measures rainfall?",
+   "answer": "A rain gauge.",
+   "accept": [
+    "a rain gauge",
+    "rain gauge",
+    "the rain gauge",
+    "A rain gauge"
+   ],
+   "remediation": "Match three instruments with what they measure.",
+   "transfer": "Share your weather table with a farmer in your family.",
+   "materials": "Plastic bottle, ruler, cardboard, a stick.",
+   "practice": [
+    {
+     "prompt": "Match each instrument with what it measures.",
+     "type": "match",
+     "pairs": [
+      [
+       "thermometer",
+       "temperature"
+      ],
+      [
+       "rain gauge",
+       "rainfall"
+      ],
+      [
+       "wind vane",
+       "wind direction"
+      ]
+     ],
+     "answer": "temperature; rainfall; wind direction.",
+     "explanation": "Each instrument measures one thing."
+    },
+    {
+     "prompt": "Monday 12 mm, Tuesday 8 mm, Wednesday 0 mm of rain. Total in mm?",
+     "type": "number",
+     "answer": 20,
+     "explanation": "12 + 8 + 0 = 20."
+    },
+    {
+     "prompt": "Draw your weather table for one week.",
+     "answer": "A table with days and weather.",
+     "explanation": "Write rain, sun, wind each day.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Physical Geography: weather instruments and records), p. 72, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Physical Geography: weather instruments and records"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-V",
+   "domain": "Vocational Studies",
+   "title": "Seams and the chain stitch",
+   "objective": "Sew a running stitch, a chain stitch and a plain seam on pieces of cloth.",
+   "course": "A seam joins two pieces of cloth. A plain seam: put the two pieces right sides together, pin them, sew a line of small running stitches about 1 cm from the edge, then open and press.\nA chain stitch makes loops like a chain; it is used for decoration.\nWe cut a paper pattern before cutting the cloth.",
+   "model": "The adult pins two pieces of cloth and sews a plain seam, then shows a few chain stitches.",
+   "guided": "Cut a paper pattern for a small bag. Join two pieces of cloth with a plain seam. Decorate with chain stitches.",
+   "exercise": "What does a seam do?",
+   "answer": "It joins two pieces of cloth.",
+   "accept": [
+    "joins two pieces of cloth",
+    "it joins two pieces of cloth",
+    "join cloth",
+    "It joins two pieces of cloth"
+   ],
+   "remediation": "Practise stitches on paper with holes before cloth.",
+   "transfer": "Mend a small tear in a cloth at home with an adult.",
+   "materials": "Needle, thread, pins, cloth, scissors, paper (with an adult).",
+   "practice": [
+    {
+     "prompt": "Put the steps of a plain seam in order.",
+     "type": "order",
+     "items": [
+      "Put the right sides together.",
+      "Pin the pieces.",
+      "Sew small stitches.",
+      "Open and press the seam."
+     ],
+     "answer": "together, pin, sew, press.",
+     "explanation": "Follow the steps."
+    },
+    {
+     "prompt": "Which stitch is used to decorate with loops?",
+     "type": "mcq",
+     "choices": [
+      "chain stitch",
+      "running stitch",
+      "no stitch"
+     ],
+     "correct": 0,
+     "answer": "chain stitch",
+     "explanation": "The chain stitch makes loops."
+    },
+    {
+     "prompt": "How far from the edge do we sew a plain seam, about?",
+     "answer": "About 1 cm.",
+     "accept": [
+      "1 cm",
+      "about 1 cm",
+      "1cm",
+      "one centimetre",
+      "About 1 cm"
+     ],
+     "explanation": "Leave a small margin."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Home Economics: needlework, seams and chain stitch), p. 77, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Home Economics: needlework, seams and chain stitch"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-A",
+   "domain": "Arts",
+   "title": "Photographing a craftsman at work",
+   "objective": "Describe the importance of photography and take photographs with appropriate focus to record an event.",
+   "course": "Photos keep memories, show events and inform people. A sharp photo is “in focus”. On a phone, tap the screen on the subject to focus, hold the phone still with two hands, keep the light behind you and fill the frame with the subject.\nWe always ask permission before photographing a person or a workplace.",
+   "model": "The adult photographs a tailor at work (with permission): taps on the tailor to focus, holds still, then shows the photo.",
+   "guided": "With an adult’s phone, photograph a person at work (with permission) three times: one blurred, one sharp, one close-up. Compare.",
+   "exercise": "How do we focus on a subject with a phone?",
+   "answer": "Tap the screen on the subject.",
+   "accept": [
+    "tap the screen on the subject",
+    "tap the subject",
+    "tap on the subject",
+    "tap the screen",
+    "Tap the screen on the subject"
+   ],
+   "remediation": "Practise holding the phone still with both hands.",
+   "transfer": "Make a small photo story of a family member’s work.",
+   "materials": "A phone or camera (with an adult).",
+   "practice": [
+    {
+     "prompt": "Which photo is in focus?",
+     "type": "mcq",
+     "choices": [
+      "a sharp photo",
+      "a blurred photo",
+      "a black photo"
+     ],
+     "correct": 0,
+     "answer": "a sharp photo",
+     "explanation": "In focus means sharp."
+    },
+    {
+     "prompt": "Match each tip with its reason.",
+     "type": "match",
+     "pairs": [
+      [
+       "hold the phone with two hands",
+       "avoid blur"
+      ],
+      [
+       "light behind you",
+       "light the subject"
+      ],
+      [
+       "ask permission",
+       "respect people"
+      ]
+     ],
+     "answer": "blur; light; respect.",
+     "explanation": "Tips for good photos."
+    },
+    {
+     "prompt": "Write two sentences about the photo you took.",
+     "answer": "Two sentences describing the photo.",
+     "explanation": "Say who, what and where.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: photography and focus), p. 81, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: photography and focus"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-P",
+   "domain": "Physical Education and Sports",
+   "title": "High jump: scissors technique",
+   "objective": "Run, take off on one foot and jump over a bar using the scissors technique, landing safely.",
+   "course": "Scissors high jump: run up at an angle to the bar, take off on the foot farther from the bar, swing the inside leg up and over, then the other leg, like scissors. Land on your feet on a soft mat or sand.\nStart with a low bar (a rope or elastic) and raise it little by little.",
+   "model": "The adult shows the run-up at an angle and the scissors movement over a low elastic.",
+   "guided": "Jump over an elastic at knee height, then a little higher. A partner holds the elastic loosely.",
+   "exercise": "Why do we use an elastic instead of a stick at the beginning?",
+   "answer": "So that we do not get hurt if we touch it.",
+   "accept": [
+    "to avoid injury",
+    "so we do not get hurt",
+    "for safety",
+    "so that we do not get hurt if we touch it",
+    "So that we do not get hurt if we touch it"
+   ],
+   "remediation": "Practise the leg movement while walking.",
+   "transfer": "Play high jump with an elastic with friends safely.",
+   "materials": "Elastic or rope, a soft landing area.",
+   "practice": [
+    {
+     "prompt": "Put the high jump in order.",
+     "type": "order",
+     "items": [
+      "Run up at an angle.",
+      "Take off on one foot.",
+      "Swing the legs like scissors.",
+      "Land on your feet."
+     ],
+     "answer": "run, take off, scissors, land.",
+     "explanation": "These are the phases."
+    },
+    {
+     "prompt": "The bar is at 60 cm. It goes up 5 cm each round. Height after 3 rounds, in cm?",
+     "type": "number",
+     "answer": 75,
+     "explanation": "60 + 3 × 5 = 75."
+    },
+    {
+     "prompt": "Where do we land?",
+     "type": "mcq",
+     "choices": [
+      "on a soft mat or sand",
+      "on concrete",
+      "on stones"
+     ],
+     "correct": 0,
+     "answer": "on a soft mat or sand",
+     "explanation": "A soft landing is safe."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Athletics: high jump), p. 83, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Athletics: high jump"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-N",
+   "domain": "National Languages and Cultures",
+   "title": "Months and seasons in our language",
+   "objective": "Use words for months and seasons in the family language in a conversation.",
+   "course": "Many Cameroonian languages name months or periods after activities and nature: planting, harvest, rains, dry wind, a festival. Seasons in much of Cameroon are the rainy season and the dry season; in the North the dry season is longer.\nWith an adult, we learn the family-language words for the seasons and some months or periods and what people do then.",
+   "model": "The adult names the rainy and dry seasons in the family language and says what farmers do in each.",
+   "guided": "With an adult, make a calendar of the year with the family-language words for seasons and two activities for each.",
+   "exercise": "Name the two main seasons in much of Cameroon.",
+   "answer": "The rainy season and the dry season.",
+   "accept": [
+    "rainy and dry",
+    "the rainy season and the dry season",
+    "rainy season and dry season",
+    "dry and rainy",
+    "The rainy season and the dry season"
+   ],
+   "remediation": "Start with the two seasons only.",
+   "transfer": "Ask an elder what the old names of months mean.",
+   "materials": "Paper, an adult who speaks the language.",
+   "practice": [
+    {
+     "prompt": "Match each season with an activity.",
+     "type": "match",
+     "pairs": [
+      [
+       "rainy season",
+       "planting"
+      ],
+      [
+       "dry season",
+       "drying cocoa and maize"
+      ]
+     ],
+     "answer": "rainy: planting; dry: drying.",
+     "explanation": "Activities follow the seasons."
+    },
+    {
+     "prompt": "How many months are there in a year?",
+     "type": "number",
+     "answer": 12,
+     "explanation": "12 months."
+    },
+    {
+     "prompt": "Draw your calendar of seasons with words in the family language.",
+     "answer": "A calendar with seasons and activities.",
+     "explanation": "Ask an adult for the words.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Vocabulary: months and seasons of the year), p. 88, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Vocabulary: months and seasons of the year"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-I",
+   "domain": "ICTs",
+   "title": "Special keys and shortcuts",
+   "objective": "Use special keys of a keyboard and explain the importance of shortcuts.",
+   "course": "Special keys: Shift (capital letters and symbols), Caps Lock, Tab (indent), Enter, Backspace and Delete, the arrow keys, Ctrl and Alt.\nShortcuts save time: Ctrl + C (copy), Ctrl + V (paste), Ctrl + X (cut), Ctrl + Z (undo), Ctrl + S (save).",
+   "model": "The adult types a word, selects it, presses Ctrl + C, then Ctrl + V to paste it twice, then Ctrl + Z to undo.",
+   "guided": "With an adult, practise five shortcuts in a text. Without a computer, play a matching game with shortcut cards.",
+   "exercise": "Which shortcut undoes the last action?",
+   "answer": "Ctrl + Z",
+   "accept": [
+    "Ctrl + Z",
+    "Ctrl+Z",
+    "ctrl z",
+    "control z",
+    "ctrl+z"
+   ],
+   "remediation": "Learn copy and paste first.",
+   "transfer": "Show an adult a shortcut they do not know.",
+   "materials": "A computer (with an adult) or shortcut cards.",
+   "practice": [
+    {
+     "prompt": "Match each shortcut with its action.",
+     "type": "match",
+     "pairs": [
+      [
+       "Ctrl + C",
+       "copy"
+      ],
+      [
+       "Ctrl + V",
+       "paste"
+      ],
+      [
+       "Ctrl + S",
+       "save"
+      ]
+     ],
+     "answer": "copy; paste; save.",
+     "explanation": "Shortcuts save time."
+    },
+    {
+     "prompt": "Which key writes one capital letter?",
+     "type": "mcq",
+     "choices": [
+      "Shift",
+      "Tab",
+      "Alt"
+     ],
+     "correct": 0,
+     "answer": "Shift",
+     "explanation": "Hold Shift and press a letter."
+    },
+    {
+     "prompt": "What does Ctrl + X do?",
+     "answer": "It cuts.",
+     "accept": [
+      "cut",
+      "it cuts",
+      "cuts",
+      "It cuts"
+     ],
+     "explanation": "Cut removes and keeps the text to paste."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Uses of the keyboard: special keys and shortcuts), p. 90, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Uses of the keyboard: special keys and shortcuts"
    ]
   }
  ]

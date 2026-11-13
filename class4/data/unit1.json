@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 4 are written (lots A6a and A6b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–95; Class 4 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -557,6 +557,559 @@
    },
    "competencies": [
     "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-S",
+   "domain": "Science and Technology",
+   "title": "Burns and scalds at home: first aid",
+   "objective": "Differentiate burns from scalds, prevent them at home and associate the items of a first-aid box with simple treatments.",
+   "course": "A burn is caused by dry heat: fire, a hot iron, a hot pot. A scald is caused by a hot liquid or steam: boiling water, hot oil, hot tea.\nFirst aid for a small burn or scald: cool the place under clean running water for about 10 to 20 minutes, remove rings or tight clothes nearby, cover loosely with a clean cloth. Do not put oil, toothpaste, palm oil or salt on it. Large burns, burns on the face and burns in young children need a health worker at once.\nA first-aid box contains: clean gauze, bandages, plasters, scissors, gloves, an antiseptic, a list of emergency numbers.",
+   "model": "The adult shows how to cool a pretend burn on the arm under running water and how to cover it loosely.",
+   "guided": "Make a list of five dangers in the kitchen and how to avoid them (pot handles turned inward, children away from the fire…). Check what is in your school’s or family’s first-aid box.",
+   "exercise": "Boiling water falls on Nfor’s foot. Is it a burn or a scald?",
+   "answer": "A scald.",
+   "accept": [
+    "scald",
+    "a scald",
+    "it is a scald",
+    "A scald"
+   ],
+   "remediation": "Sort pictures: fire and iron (burn), boiling water and steam (scald).",
+   "transfer": "With an adult, make or check a small first-aid box at home.",
+   "materials": "Pictures, a first-aid box, water.",
+   "practice": [
+    {
+     "prompt": "What do we put on a small burn first?",
+     "type": "mcq",
+     "choices": [
+      "clean running water",
+      "palm oil",
+      "toothpaste"
+     ],
+     "correct": 0,
+     "answer": "clean running water",
+     "explanation": "Cool water reduces the damage; oil and toothpaste do not."
+    },
+    {
+     "prompt": "Match each item of the first-aid box with its use.",
+     "type": "match",
+     "pairs": [
+      [
+       "gauze",
+       "covers a wound"
+      ],
+      [
+       "bandage",
+       "holds the gauze"
+      ],
+      [
+       "gloves",
+       "protect the helper"
+      ]
+     ],
+     "answer": "gauze: covers; bandage: holds; gloves: protect.",
+     "explanation": "Each item has a role."
+    },
+    {
+     "prompt": "Name one way to prevent burns in the kitchen.",
+     "answer": "For example: turn pot handles inward.",
+     "explanation": "Keep children away from fire and hot pots."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: minor accidents, burns, scalds and first aid), p. 55, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: minor accidents, burns, scalds and first aid"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-F",
+   "domain": "Français",
+   "title": "Lui, c’est mon oncle ; elle, c’est ma cousine",
+   "objective": "Présenter les membres de sa famille et leur profession.",
+   "course": "Pour présenter quelqu’un : « Lui, c’est mon oncle. Il s’appelle Tanyi. Il est mécanicien. Il répare les voitures. » / « Elle, c’est ma tante. Elle s’appelle Ewane. Elle est enseignante. Elle enseigne au CE2. »\nLa famille : le père, la mère, l’oncle, la tante, le cousin, la cousine, le neveu, la nièce, les grands-parents.",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "Lui, c’est mon grand-père. Il est cultivateur.\nElle, c’est ma cousine. Elle est couturière."
+   },
+   "model": "Ngum montre une photo : « Lui, c’est mon oncle Fon. Il est chauffeur. Il conduit un taxi à Bamenda. »",
+   "guided": "Avec une photo ou un dessin, présente quatre membres de ta famille : nom, lien, métier, ce qu’ils font.",
+   "exercise": "Complète : … , c’est ma tante. (pour une femme)",
+   "answer": "Elle",
+   "accept": [
+    "Elle",
+    "elle",
+    "Elle, c’est ma tante",
+    "Elle, c'est ma tante"
+   ],
+   "remediation": "Commence par « C’est mon père. C’est ma mère. »",
+   "transfer": "Présente un membre de ta famille en français à un ami.",
+   "materials": "Photos de famille ou dessins.",
+   "practice": [
+    {
+     "prompt": "Relie le mot et sa traduction.",
+     "type": "match",
+     "pairs": [
+      [
+       "l’oncle",
+       "uncle"
+      ],
+      [
+       "la nièce",
+       "niece"
+      ],
+      [
+       "le cousin",
+       "cousin"
+      ]
+     ],
+     "answer": "oncle : uncle ; nièce : niece ; cousin : cousin.",
+     "explanation": "Les membres de la famille."
+    },
+    {
+     "prompt": "Complète.",
+     "type": "gaps",
+     "text": "[[Lui]], c’est mon frère. [[Il]] est menuisier.",
+     "answer": "Lui ; Il.",
+     "explanation": "Pour un homme : lui, il."
+    },
+    {
+     "prompt": "Écoute et répète.",
+     "listen": "Lui, c’est mon oncle. Il s’appelle Tanyi. Il est mécanicien. Il répare les voitures.",
+     "answer": "La présentation répétée.",
+     "explanation": "Prononce bien « mécanicien »."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : présentations et membres de la famille), p. 60, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : présentations et membres de la famille"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-C",
+   "domain": "Social Studies",
+   "title": "Rules at home, at school and in the community",
+   "objective": "Explain the importance of rules and regulations and respect hierarchy at home, at school and in the community.",
+   "course": "Rules tell us what to do and what not to do so that people live together in peace and safety. At home: respect parents, do your chores, come back before dark. At school: the school rules (punctuality, uniform, respect). In the community: keep public places clean, respect elders and traditional rules. In the State: laws voted by Parliament.\nHierarchy means respecting those who are in charge: parents, the head teacher, the chief, the mayor.",
+   "model": "The adult reads three rules of the home and three school rules and asks what happens if nobody respects them.",
+   "guided": "Write five rules for your home with your family. Compare them with the school rules.",
+   "exercise": "Who votes the laws of the State?",
+   "answer": "Parliament.",
+   "accept": [
+    "parliament",
+    "the parliament",
+    "Parliament",
+    "the National Assembly",
+    "members of parliament"
+   ],
+   "remediation": "Start with three rules you follow every day.",
+   "transfer": "Display the home rules in your house.",
+   "materials": "Paper, the school rules.",
+   "practice": [
+    {
+     "prompt": "Match each place with a rule.",
+     "type": "match",
+     "pairs": [
+      [
+       "home",
+       "do your chores"
+      ],
+      [
+       "school",
+       "come on time"
+      ],
+      [
+       "community",
+       "keep public places clean"
+      ]
+     ],
+     "answer": "home: chores; school: on time; community: clean.",
+     "explanation": "Every place has rules."
+    },
+    {
+     "prompt": "Why do we need rules?",
+     "type": "mcq",
+     "choices": [
+      "to live together in peace and safety",
+      "to punish people",
+      "to waste time"
+     ],
+     "correct": 0,
+     "answer": "to live together in peace and safety",
+     "explanation": "Rules protect everyone."
+    },
+    {
+     "prompt": "Write three rules for your home.",
+     "answer": "Three home rules.",
+     "explanation": "Write them clearly.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Civics: rules and regulations at home, at school and in the community), p. 73, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Civics: rules and regulations at home, at school and in the community"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-V",
+   "domain": "Vocational Studies",
+   "title": "Washing and ironing our clothes",
+   "objective": "Manage laundry materials and equipment and wash, dry and iron clothes safely.",
+   "course": "Laundry materials: basins, buckets, soap or detergent, a brush, a line and pegs, an iron.\nSteps: sort clothes (white and coloured), soak, wash with soap, rinse in clean water, dry in the sun on a line, fold or iron. Iron safely: on a stable surface, never leave the iron hot alone, unplug it or put the charcoal iron away from children.",
+   "model": "The adult shows how to sort, wash and rinse a school shirt, then how to hang it with pegs.",
+   "guided": "Wash your own socks or a handkerchief with an adult. Write the steps in order.",
+   "exercise": "Why do we sort white and coloured clothes?",
+   "answer": "So that colours do not stain the white clothes.",
+   "accept": [
+    "so colours do not stain white clothes",
+    "so that colours do not stain the white clothes",
+    "colours can stain white clothes",
+    "So that colours do not stain the white clothes"
+   ],
+   "remediation": "Learn three steps first: wash, rinse, dry.",
+   "transfer": "Wash and fold your school uniform once this week with an adult.",
+   "materials": "Basin, soap, water, line, pegs.",
+   "practice": [
+    {
+     "prompt": "Put the laundry steps in order.",
+     "type": "order",
+     "items": [
+      "Sort the clothes.",
+      "Wash with soap.",
+      "Rinse in clean water.",
+      "Dry in the sun."
+     ],
+     "answer": "sort, wash, rinse, dry.",
+     "explanation": "Follow the steps."
+    },
+    {
+     "prompt": "Match each item with its use.",
+     "type": "match",
+     "pairs": [
+      [
+       "pegs",
+       "hold clothes on the line"
+      ],
+      [
+       "iron",
+       "remove creases"
+      ],
+      [
+       "basin",
+       "hold water"
+      ]
+     ],
+     "answer": "pegs: line; iron: creases; basin: water.",
+     "explanation": "Each item has a role."
+    },
+    {
+     "prompt": "Which rule is safe with an iron?",
+     "type": "mcq",
+     "choices": [
+      "never leave a hot iron alone",
+      "leave it on the bed",
+      "touch the plate to test it"
+     ],
+     "correct": 0,
+     "answer": "never leave a hot iron alone",
+     "explanation": "A hot iron can burn people and clothes."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Home Economics: laundry, materials and equipment), p. 78, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Home Economics: laundry, materials and equipment"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-A",
+   "domain": "Arts",
+   "title": "Building a miniature house from a plan",
+   "objective": "Describe the importance of an architect, identify the materials used and build a miniature house from a plan.",
+   "course": "An architect plans buildings that are safe, useful and beautiful. He chooses materials (blocks, wood, iron sheets, glass) and draws plans with measurements.\nA miniature (model) is a small copy of a building. We use a scale: for example 1 cm on the model = 1 m on the real house. Materials for a model: cardboard, matchboxes, sticks, glue, paper.",
+   "model": "The adult draws the plan of a two-room house (4 m × 3 m), then cuts cardboard walls of 4 cm × 3 cm to build the model.",
+   "guided": "Draw a plan with measurements, then build a miniature house with cardboard and sticks. Add a door and windows.",
+   "exercise": "With the scale 1 cm = 1 m, how long is a 5 m wall on the model?",
+   "answer": "5 cm",
+   "accept": [
+    "5 cm",
+    "5",
+    "5cm",
+    "five centimetres"
+   ],
+   "remediation": "Build a single room first.",
+   "transfer": "Show your model to your family and explain the plan.",
+   "materials": "Cardboard, sticks, glue, scissors, ruler.",
+   "practice": [
+    {
+     "prompt": "A room is 4 m by 3 m. With 1 cm = 1 m, how many cm is the long side of the model?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "4 m becomes 4 cm."
+    },
+    {
+     "prompt": "Match each material with its use in a real house.",
+     "type": "match",
+     "pairs": [
+      [
+       "iron sheets",
+       "roof"
+      ],
+      [
+       "blocks",
+       "walls"
+      ],
+      [
+       "glass",
+       "windows"
+      ]
+     ],
+     "answer": "roof; walls; windows.",
+     "explanation": "The architect chooses materials."
+    },
+    {
+     "prompt": "Draw the plan of your miniature house with measurements.",
+     "answer": "A plan with measurements.",
+     "explanation": "Write the length of each wall.",
+     "ink": "maison"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: architecture, house plans and miniature houses), p. 81, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: architecture, house plans and miniature houses"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-P",
+   "domain": "Physical Education and Sports",
+   "title": "Folk dance and rhythmic calisthenics",
+   "objective": "Coordinate muscles and movement through folk dance and calisthenics performed in rhythm.",
+   "course": "Rhythmic activities move the body to a beat: folk dances in a circle or in lines, calisthenics done to counting (1-2-3-4). They develop muscles, balance and coordination, and they are good for the heart.\nAlways warm up first and drink water after.",
+   "model": "The adult leads calisthenics counting aloud: four arm circles, four squats, four side steps, four claps.",
+   "guided": "Make a routine of four movements of four counts each. Perform it in a group, then add a folk dance step.",
+   "exercise": "Name one benefit of rhythmic activities.",
+   "answer": "For example: they develop coordination.",
+   "remediation": "Do two movements only, slowly.",
+   "transfer": "Lead your family in a short routine.",
+   "materials": "Open space, drum or clapping.",
+   "practice": [
+    {
+     "prompt": "A routine has 4 movements of 4 counts. How many counts in all?",
+     "type": "number",
+     "answer": 16,
+     "explanation": "4 × 4 = 16."
+    },
+    {
+     "prompt": "What do we do before exercise?",
+     "type": "mcq",
+     "choices": [
+      "warm up",
+      "eat a big meal",
+      "sleep"
+     ],
+     "correct": 0,
+     "answer": "warm up",
+     "explanation": "Warming up prevents injuries."
+    },
+    {
+     "prompt": "Put your routine in order.",
+     "type": "order",
+     "items": [
+      "Arm circles",
+      "Squats",
+      "Side steps",
+      "Claps"
+     ],
+     "answer": "arm circles, squats, side steps, claps.",
+     "explanation": "Follow the order you planned."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Movement and rhythmic activities: folk dance and pacing calisthenics), p. 83, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Movement and rhythmic activities: folk dance and pacing calisthenics"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-N",
+   "domain": "National Languages and Cultures",
+   "title": "Our extended family and where its members live",
+   "objective": "Name members of the extended family in the family language and say where they live in short sentences.",
+   "course": "The extended family includes grandparents, uncles, aunts, cousins, nephews and nieces. Each language has its words for them, and some languages distinguish, for example, the father’s brother and the mother’s brother.\nWith an adult who speaks the language, we write these words using the letters of the General Alphabet of Cameroonian Languages, then make short sentences: “My uncle lives in…”.\nKlassia does not give the words here: the family knows the language.",
+   "model": "The adult names members of the extended family in the family language and says where each one lives.",
+   "guided": "With an adult, write five family words in the family language and two sentences about where relatives live.",
+   "exercise": "Name two members of the extended family.",
+   "answer": "For example: a grandmother and a cousin.",
+   "remediation": "Start with grandparents, then uncles and aunts.",
+   "transfer": "Make a family tree with the words in the family language and the towns where relatives live.",
+   "materials": "Paper, an adult who speaks the language.",
+   "practice": [
+    {
+     "prompt": "Which person is part of the extended family?",
+     "type": "mcq",
+     "choices": [
+      "a cousin",
+      "a classmate",
+      "a shopkeeper"
+     ],
+     "correct": 0,
+     "answer": "a cousin",
+     "explanation": "Cousins are family."
+    },
+    {
+     "prompt": "Write five family words in the family language with an adult.",
+     "answer": "Five words written with the adult.",
+     "explanation": "Ask the adult to check spelling.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Draw your family tree with three generations.",
+     "answer": "A family tree with grandparents, parents and children.",
+     "explanation": "Write names and towns.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (The family: the extended family and letters of the General Alphabet of Cameroonian Languages), p. 85, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "The family: the extended family and letters of the General Alphabet of Cameroonian Languages"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-I",
+   "domain": "ICTs",
+   "title": "Input, output and the operating system",
+   "objective": "Differentiate input from output devices and describe the functions of operating systems such as Windows and Ubuntu (Linux).",
+   "course": "Input devices send information into the computer: keyboard, mouse, microphone, scanner, camera. Output devices give information out: monitor, printer, speakers.\nThe operating system is the main software that makes the computer work: it starts the computer, manages files, runs applications and connects devices. Examples: Windows, Ubuntu (Linux), macOS; on phones, Android.",
+   "model": "The adult starts a computer: “The operating system is loading. Now I can open programs.”",
+   "guided": "Sort ten devices into input and output. Find which operating system runs on a computer or phone at school or at home (with an adult).",
+   "exercise": "Name one operating system.",
+   "answer": "For example: Windows or Ubuntu.",
+   "remediation": "Learn two input and two output devices first.",
+   "transfer": "Ask an adult which operating system their phone uses.",
+   "materials": "Pictures of devices, a computer (with an adult).",
+   "practice": [
+    {
+     "prompt": "Match each device with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "scanner",
+       "input"
+      ],
+      [
+       "printer",
+       "output"
+      ]
+     ],
+     "answer": "scanner: input; printer: output.",
+     "explanation": "Input in, output out."
+    },
+    {
+     "prompt": "What does the operating system do?",
+     "type": "mcq",
+     "choices": [
+      "makes the computer work and runs programs",
+      "prints photos only",
+      "cleans the screen"
+     ],
+     "correct": 0,
+     "answer": "makes the computer work and runs programs",
+     "explanation": "It is the main software."
+    },
+    {
+     "prompt": "Which one is Linux?",
+     "type": "mcq",
+     "choices": [
+      "Ubuntu",
+      "Word",
+      "Chrome"
+     ],
+     "correct": 0,
+     "answer": "Ubuntu",
+     "explanation": "Ubuntu is a Linux operating system."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Computer system: input and output devices and operating systems), p. 89, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Computer system: input and output devices and operating systems"
    ]
   }
  ]

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "e3c8599855247af0ab3fdb1f9e6db3e132cd897d2478f8e94c9c649a17f1700a",
+  "version": "421d78c2430b7ffdd8979860ab37b7d3e019919c2df59469ca43dc0008938ebe",
   "packs": {
     "CE1": {
       "files": 52,
@@ -23,7 +23,7 @@ self.KLASSIA_RELEASE = {
     },
     "common": {
       "files": 67,
-      "bytes": 554625
+      "bytes": 554557
     },
     "CLASS1": {
       "files": 8,
@@ -35,11 +35,11 @@ self.KLASSIA_RELEASE = {
     },
     "CLASS4": {
       "files": 8,
-      "bytes": 181745
+      "bytes": 369757
     },
     "ATELIER": {
       "files": 1,
-      "bytes": 948865
+      "bytes": 997770
     }
   },
   "files": [
@@ -1208,55 +1208,55 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./class4/data/catalog.json",
-      "sha256": "2ccefe676c6ed3f4440bc7fc954f9efa02f64ce516db836a3095d5dd4280e04e",
-      "size": 4252
+      "sha256": "e6d191e090c70e464466cc836ead0d744f5933dc5d69bae9ba6a140888effe44",
+      "size": 4184
     },
     {
       "url": "./class4/data/unit1.json",
-      "sha256": "f7c465f70b6d90efbdaaf5d83fe9262d9e7f5a75877f6d4ea33e28b27f3a424a",
-      "size": 23708,
+      "sha256": "a580fb99310353efd3839803c4b3fc9ab13b4bf8c799f63cd5a434f038dba2f0",
+      "size": 47822,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit2.json",
-      "sha256": "1143e23116b6c0f20101b1e7b798c436aa92d71f52ec8e7790853ec20d994c1a",
-      "size": 23431,
+      "sha256": "300029989d3b581e0a727a760e43a944b20e4494c64671e1706aacaa0738895d",
+      "size": 46625,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit3.json",
-      "sha256": "1cddb00643fd4e06439709693987c69a44cfcccc8704212731c3796e0babc336",
-      "size": 22334,
+      "sha256": "8862e9f1fbfdf2f0f7533faefea2b3368e2f0315e42b58f16705c7509409e424",
+      "size": 45883,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit4.json",
-      "sha256": "dcb5cbab94722b58307acfe9d7c7e779cefd5d5a727c1b18764f08db1e3ebcea",
-      "size": 21394,
+      "sha256": "e14a9865f6c1832ddb3d103040217441d3b510766a49c30b7d892c8651cb5044",
+      "size": 44857,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit5.json",
-      "sha256": "1727398820de7cb3d26d1742689b6f443810eedb159be5281167d8bf57e570e4",
-      "size": 23395,
+      "sha256": "c6873f1fc0bea0ab933368a20942646b5126a106e14d69f19afff0fd9eab62f3",
+      "size": 46437,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit6.json",
-      "sha256": "9bffe2042e60218cdf22c4800a2ea67eaa504575fdd491fdbe3ecad7ee25dc9b",
-      "size": 22225,
+      "sha256": "21f344629dff4a8e44fc233f3bca4f0eed08af521f9f8d61455362579c88d21a",
+      "size": 46784,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit7.json",
-      "sha256": "c242e4a3bfe3ba69cefd8d750b371f56145e1663cc5a741272bb28861ab9af6e",
-      "size": 22343,
+      "sha256": "3a23dae85b53d6c2d8e954c93b082fdc9df41bb59002e4cf79b70ff569e92d22",
+      "size": 45290,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit8.json",
-      "sha256": "67426c1340bb1d3bfacd33f1db2152cb9c022fb2507096cd8b9aa60f6aab6d18",
-      "size": 22915,
+      "sha256": "fe32aa54c5cf9871ac6f85009367e8e568a7367f76e7c3be738eb87d500ecbca",
+      "size": 46059,
       "pack": "CLASS4"
     },
     {
@@ -1340,8 +1340,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "5abfadfb0fd0c140d56fc558036e0a3f39b69bac412e98c80db80a4abfb3abed",
-      "size": 948865,
+      "sha256": "0045546dcf4a9ba818b1a96c6e14e5bf2ec8d46d7fb679fd8df34541e471e93f",
+      "size": 997770,
       "pack": "ATELIER"
     },
     {

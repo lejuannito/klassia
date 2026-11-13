@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 4 are written (lots A6a and A6b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–95; Class 4 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -543,6 +543,538 @@
    },
    "competencies": [
     "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-S",
+   "domain": "Science and Technology",
+   "title": "Our school water source and our waste",
+   "objective": "Protect the school water source, differentiate types of pollution and dispose of waste responsibly.",
+   "course": "The school water source (tap, well, borehole or tank) must be protected: no washing or bathing near it, no rubbish around it, the lid closed, the container clean.\nPollution makes air, water or soil dirty: water pollution (rubbish in streams), air pollution (smoke, burning plastics), soil pollution (plastic bags, oil). We sort waste: organic waste (peels, leaves) goes to compost; plastics, glass and metal are collected separately.",
+   "model": "The adult walks round the school water point and lists what can pollute it.",
+   "guided": "Draw a plan of the school water point with three rules. Sort a bag of (clean) waste into organic and inorganic.",
+   "exercise": "Where do banana peels go?",
+   "answer": "In the compost.",
+   "accept": [
+    "compost",
+    "in the compost",
+    "the compost",
+    "organic waste",
+    "In the compost"
+   ],
+   "remediation": "Sort only two kinds of waste first: things that rot and things that do not.",
+   "transfer": "Put one bin for organic waste and one for plastics at home.",
+   "materials": "Two boxes, gloves, pictures.",
+   "practice": [
+    {
+     "prompt": "Match each action with the pollution it causes.",
+     "type": "match",
+     "pairs": [
+      [
+       "burning plastics",
+       "air pollution"
+      ],
+      [
+       "rubbish in the stream",
+       "water pollution"
+      ],
+      [
+       "oil on the ground",
+       "soil pollution"
+      ]
+     ],
+     "answer": "air, water, soil.",
+     "explanation": "Pollution has many forms."
+    },
+    {
+     "prompt": "Which action protects the school well?",
+     "type": "mcq",
+     "choices": [
+      "keep the lid closed",
+      "wash clothes next to it",
+      "throw papers in it"
+     ],
+     "correct": 0,
+     "answer": "keep the lid closed",
+     "explanation": "A closed well stays clean."
+    },
+    {
+     "prompt": "Write a slogan to protect the school water source.",
+     "answer": "A short slogan.",
+     "explanation": "For example: “Clean water, healthy school!”",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Environmental Science: the school water source and waste management), p. 58, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Environmental Science: the school water source and waste management"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-F",
+   "domain": "Français",
+   "title": "À mon avis, l’école est importante",
+   "objective": "Exprimer son opinion et la justifier.",
+   "course": "Pour donner son avis : « À mon avis… », « Je pense que… », « D’après moi… », « Je suis d’accord / pas d’accord parce que… ».\nOn donne une raison avec « parce que » : « À mon avis, la récréation est trop courte parce que nous n’avons pas le temps de jouer. »",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "À mon avis, l’uniforme est utile parce que tous les élèves sont égaux.\nJe ne suis pas d’accord parce que…"
+   },
+   "model": "Deux enfants discutent : l’un pense que les devoirs sont utiles, l’autre pense qu’il y en a trop. Chacun donne une raison.",
+   "guided": "Donne ton avis sur trois sujets de l’école (l’uniforme, la cantine, la récréation) avec « parce que ».",
+   "exercise": "Complète : À mon …, la lecture est amusante.",
+   "answer": "avis",
+   "accept": [
+    "avis",
+    "À mon avis, la lecture est amusante"
+   ],
+   "remediation": "Utilise d’abord « Je pense que… parce que… ».",
+   "transfer": "Donne ton avis en français sur un repas ou un jeu.",
+   "materials": "Cartes de sujets.",
+   "practice": [
+    {
+     "prompt": "Quelle expression donne une opinion ?",
+     "type": "mcq",
+     "choices": [
+      "Je pense que…",
+      "Il est huit heures.",
+      "Bonjour."
+     ],
+     "correct": 0,
+     "answer": "Je pense que…",
+     "explanation": "« Je pense que » introduit un avis."
+    },
+    {
+     "prompt": "Complète.",
+     "type": "gaps",
+     "text": "Je ne suis pas [[d’accord|d'accord]] [[parce que]] la classe est trop chaude.",
+     "answer": "d’accord ; parce que.",
+     "explanation": "On justifie avec « parce que »."
+    },
+    {
+     "prompt": "Écoute et répète.",
+     "listen": "À mon avis, l’uniforme est utile parce que tous les élèves sont égaux.",
+     "answer": "L’opinion répétée.",
+     "explanation": "Insiste sur « parce que »."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : expression des opinions), p. 62, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : expression des opinions"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-C",
+   "domain": "Social Studies",
+   "title": "Historical figures: Sultan Njoya and his script",
+   "objective": "Identify some Cameroonian historical figures and their contribution to the history of Cameroon.",
+   "course": "Some important figures of the colonial period:\n• Sultan Ibrahim Njoya, king of the Bamum (Foumban), created a script to write the Bamum language and opened schools to teach it.\n• King Akwa and King Bell (Douala) signed the treaty of July 1884 that placed Cameroon under German protection.\n• Rudolf Duala Manga Bell opposed the Germans when they took the land of the Duala people; he was executed in 1914.\n• Fon Galega I of Bali-Nyonga worked with the Germans; Charles Atangana, Ewondo chief, was a go-between for the colonial administrations.\nHistorians use sources (documents, objects, oral stories) to learn about them.",
+   "model": "The adult tells the story of Sultan Njoya: a king who invented a way of writing his language and built schools.",
+   "guided": "Make a card for two historical figures: name, people or town, what they did. Place 1884 and 1914 on a timeline.",
+   "exercise": "Which king created a script for the Bamum language?",
+   "answer": "Sultan Njoya.",
+   "accept": [
+    "Sultan Njoya",
+    "Njoya",
+    "King Njoya",
+    "Ibrahim Njoya"
+   ],
+   "remediation": "Learn one figure at a time with one sentence each.",
+   "transfer": "Ask an elder about a historical figure of your area.",
+   "materials": "A timeline, paper.",
+   "practice": [
+    {
+     "prompt": "Match each figure with his town or people.",
+     "type": "match",
+     "pairs": [
+      [
+       "Sultan Njoya",
+       "Foumban (Bamum)"
+      ],
+      [
+       "Rudolf Duala Manga Bell",
+       "Douala"
+      ],
+      [
+       "Fon Galega I",
+       "Bali-Nyonga"
+      ]
+     ],
+     "answer": "Njoya: Foumban; Manga Bell: Douala; Galega I: Bali-Nyonga.",
+     "explanation": "Each figure belongs to a place."
+    },
+    {
+     "prompt": "In which year was the German–Duala treaty signed?",
+     "type": "number",
+     "answer": 1884,
+     "explanation": "July 1884."
+    },
+    {
+     "prompt": "Why do we remember Rudolf Duala Manga Bell?",
+     "type": "mcq",
+     "choices": [
+      "He opposed the taking of the Duala land.",
+      "He invented the radio.",
+      "He built the Douala bridge."
+     ],
+     "correct": 0,
+     "answer": "He opposed the taking of the Duala land.",
+     "explanation": "He resisted and was executed in 1914."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (History: historical figures of Cameroon), p. 71, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "History: historical figures of Cameroon"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-V",
+   "domain": "Vocational Studies",
+   "title": "A school vegetable garden: beds and planting distances",
+   "objective": "Prepare a vegetable bed, plant crops at the right distances and care for them.",
+   "course": "A vegetable bed is a raised strip of soil about 1 m wide, so we can work without walking on it. We mix compost into the soil.\nPlanting distances give each plant space, light and food: for example about 30 cm between huckleberry or lettuce plants, about 50 cm between tomato plants. Too close, the plants grow weak.\nCare: water morning or evening, remove weeds, protect from animals.",
+   "model": "The adult marks a bed with sticks and string and shows how to measure 30 cm between holes with a stick.",
+   "guided": "Prepare a small bed, measure the distances with a stick and plant seeds or seedlings. Make a watering rota.",
+   "exercise": "Why do we leave space between plants?",
+   "answer": "So that each plant has space, light and food.",
+   "accept": [
+    "so each plant has space",
+    "for space, light and food",
+    "so that each plant has space, light and food",
+    "so they grow well",
+    "So that each plant has space, light and food"
+   ],
+   "remediation": "Practise measuring 30 cm with a ruler first.",
+   "transfer": "Plant a few vegetables at home with your family.",
+   "materials": "Hoe, sticks, string, ruler, seeds, watering can.",
+   "practice": [
+    {
+     "prompt": "A bed is 3 m long. You plant every 50 cm, starting at 0. How many plants?",
+     "type": "number",
+     "answer": 7,
+     "explanation": "0, 50, 100, 150, 200, 250, 300 cm: 7 plants."
+    },
+    {
+     "prompt": "When is the best time to water?",
+     "type": "mcq",
+     "choices": [
+      "morning or evening",
+      "at midday in the hot sun",
+      "never"
+     ],
+     "correct": 0,
+     "answer": "morning or evening",
+     "explanation": "Less water evaporates."
+    },
+    {
+     "prompt": "Draw your bed with the plants and the distances.",
+     "answer": "A plan of the bed with distances.",
+     "explanation": "Write the distance between plants.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Agro-Pastoral Farming: vegetable garden and planting distances), p. 80, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Agro-Pastoral Farming: vegetable garden and planting distances"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-A",
+   "domain": "Arts",
+   "title": "Writing a short sketch about school",
+   "objective": "Write a short sketch with characters, a problem and a solution, and perform it.",
+   "course": "A sketch script has a title, a list of characters, stage directions in brackets (what actors do) and lines (what they say). A good sketch has a beginning (situation), a middle (problem) and an end (solution), and lasts only a few minutes.",
+   "support": {
+    "title": "Example of a script",
+    "text": "Title: The lost exercise book\nCharacters: Manka, Tabi, the teacher\nMANKA (searching her bag): My exercise book! It’s gone!\nTABI (holding it up): Is this yours? I found it under the bench.\nMANKA: Yes! Thank you, Tabi!\nTEACHER: Well done, Tabi. Honesty is a great quality."
+   },
+   "model": "The adult reads the script, pointing to the title, the characters, the directions and the lines.",
+   "guided": "In groups of three, write a sketch of six to eight lines about school. Act it for the class.",
+   "exercise": "What do we put in brackets in a script?",
+   "answer": "Stage directions.",
+   "accept": [
+    "stage directions",
+    "what the actors do",
+    "directions",
+    "Stage directions"
+   ],
+   "remediation": "Continue the example script with two more lines first.",
+   "transfer": "Perform your sketch for your family.",
+   "materials": "Paper, pencils, simple props.",
+   "practice": [
+    {
+     "prompt": "Put the parts of a sketch in order.",
+     "type": "order",
+     "items": [
+      "Situation",
+      "Problem",
+      "Solution"
+     ],
+     "answer": "situation, problem, solution.",
+     "explanation": "A story has a beginning, a middle and an end."
+    },
+    {
+     "prompt": "In the example, what is the problem?",
+     "type": "mcq",
+     "choices": [
+      "Manka has lost her exercise book.",
+      "Tabi is late.",
+      "The teacher is sick."
+     ],
+     "correct": 0,
+     "answer": "Manka has lost her exercise book.",
+     "explanation": "The problem starts the action."
+    },
+    {
+     "prompt": "Write your sketch (six to eight lines).",
+     "answer": "A short script with characters and lines.",
+     "explanation": "Add stage directions in brackets.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: theatre, writing short sketches), p. 82, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: theatre, writing short sketches"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-P",
+   "domain": "Physical Education and Sports",
+   "title": "The 4 × 100 metres relay",
+   "objective": "Run a 4 × 100 m relay and pass the baton within the exchange zone.",
+   "course": "In a 4 × 100 m relay, four runners each run 100 m. The baton is passed in the exchange zone. The incoming runner says “Hand!”; the next runner reaches back with an open hand without looking and starts running. A team that drops the baton must pick it up; a pass outside the zone is not allowed.",
+   "model": "The adult and a child practise the pass: “Hand!” — the baton goes into the open hand while both run.",
+   "guided": "Practise the pass while walking, then jogging, then running. Run a relay in teams of four.",
+   "exercise": "How many metres does a 4 × 100 m team run in all?",
+   "answer": "400 m",
+   "accept": [
+    "400",
+    "400 m",
+    "400m"
+   ],
+   "remediation": "Practise the pass standing still first.",
+   "transfer": "Organise a relay with friends.",
+   "materials": "A baton (stick), marks for zones.",
+   "practice": [
+    {
+     "prompt": "How many runners are in a 4 × 100 m team?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "Four runners."
+    },
+    {
+     "prompt": "What does the incoming runner say?",
+     "type": "mcq",
+     "choices": [
+      "“Hand!”",
+      "“Stop!”",
+      "nothing"
+     ],
+     "correct": 0,
+     "answer": "“Hand!”",
+     "explanation": "This tells the next runner to reach back."
+    },
+    {
+     "prompt": "Where must the baton be passed?",
+     "answer": "In the exchange zone.",
+     "accept": [
+      "in the exchange zone",
+      "exchange zone",
+      "the exchange zone",
+      "In the exchange zone"
+     ],
+     "explanation": "Outside the zone is not allowed."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Athletics: 4 × 100 metres relay), p. 83, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Athletics: 4 × 100 metres relay"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-N",
+   "domain": "National Languages and Cultures",
+   "title": "Reading and writing numbers 1 to 50 and short messages",
+   "objective": "Read and write numbers from 1 to 50 and short messages of two or more sentences in the family language.",
+   "course": "In many Cameroonian languages, numbers above ten are made from smaller numbers: “twenty” may be “two tens”, “thirty-five” may be “three tens and five”. With an adult who speaks the family language, we learn how 20, 30, 40 and 50 are built, then read and write short messages such as a note for school.",
+   "model": "The adult counts in tens to 50 in the family language and explains how numbers are built.",
+   "guided": "Count 50 seeds in the family language with an adult. Write the tens (10, 20, 30, 40, 50) and a two-sentence message.",
+   "exercise": "How many tens are there in 50?",
+   "answer": "5",
+   "accept": [
+    "5",
+    "five"
+   ],
+   "remediation": "Learn the tens first, then the numbers between.",
+   "transfer": "Count money or items at the market in the family language with an adult.",
+   "materials": "50 seeds, paper, an adult.",
+   "practice": [
+    {
+     "prompt": "How many tens and units are there in 47? Write the number of tens.",
+     "type": "number",
+     "answer": 4,
+     "explanation": "47 = 4 tens and 7 units."
+    },
+    {
+     "prompt": "Write the tens 10 to 50 in the family language with an adult.",
+     "answer": "The tens written with the adult.",
+     "explanation": "Ask the adult to check.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Write a message of two sentences in the family language.",
+     "answer": "A two-sentence message.",
+     "explanation": "Use words you know.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Reading and writing: short messages and numbers 1 to 50), p. 87, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading and writing: short messages and numbers 1 to 50"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-I",
+   "domain": "ICTs",
+   "title": "Formatting a text: bullets, headers and page numbers",
+   "objective": "Type a short passage in a word processor and format it with line spacing, a header, a footer, bullets and page numbers.",
+   "course": "In a word processor (such as Word or LibreOffice Writer):\n• Bullets make a list easy to read.\n• Line spacing puts more space between lines.\n• The header is at the top of every page (for example the school name); the footer is at the bottom (for example the date).\n• Page numbers are added from the Insert menu.",
+   "model": "The adult types a list of class rules, adds bullets, a header “Class 4” and page numbers.",
+   "guided": "With an adult, type five school rules, add bullets, a header with your school’s name and a page number.",
+   "exercise": "Where is the header of a page?",
+   "answer": "At the top.",
+   "accept": [
+    "at the top",
+    "top",
+    "the top",
+    "At the top"
+   ],
+   "remediation": "Use only bullets first.",
+   "transfer": "Type a shopping list with bullets for your family.",
+   "materials": "A computer with a word processor (with an adult).",
+   "practice": [
+    {
+     "prompt": "Match each tool with its place or use.",
+     "type": "match",
+     "pairs": [
+      [
+       "header",
+       "top of the page"
+      ],
+      [
+       "footer",
+       "bottom of the page"
+      ],
+      [
+       "bullets",
+       "make a list"
+      ]
+     ],
+     "answer": "top; bottom; list.",
+     "explanation": "These tools organise a page."
+    },
+    {
+     "prompt": "Which menu adds page numbers?",
+     "type": "mcq",
+     "choices": [
+      "Insert",
+      "File",
+      "Help"
+     ],
+     "correct": 0,
+     "answer": "Insert",
+     "explanation": "Insert, then Page numbers."
+    },
+    {
+     "prompt": "Write the five rules you would type, as a bulleted list.",
+     "answer": "A bulleted list of five rules.",
+     "explanation": "One rule per bullet.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Productivity tools: word processing, spacing, headers, footers, bullets, page numbers), p. 91, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Productivity tools: word processing, spacing, headers, footers, bullets, page numbers"
    ]
   }
  ]

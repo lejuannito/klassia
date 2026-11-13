@@ -1,0 +1,532 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS1",
+ "classTitle": "Class 1",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+  }
+ ],
+ "id": "CLASS1-T3",
+ "title_en": "The school",
+ "title_fr": "L’école",
+ "lessons": [
+  {
+   "id": "CLASS1-T3-E1",
+   "domain": "English Language",
+   "title": "Listen and speak: introducing myself and a friend",
+   "objective": "Introduce oneself (name, age, class) and introduce a friend.",
+   "course": "To introduce myself, I say: My name is Ayuk. I am six years old. I am in Class 1.\nTo introduce a friend, I say: This is my friend. Her name is Manka. or His name is Neba.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "My name is …\nI am … years old.\nThis is my friend. His name is …"
+   },
+   "model": "On the first day of school, Manka stands up and says: “Good morning. My name is Manka. I am six years old.” Then she shows her friend: “This is my friend. His name is Neba.”",
+   "guided": "Play “new pupil”: say your name and age, then introduce a toy or a family member as your friend.",
+   "exercise": "Introduce yourself in two sentences.",
+   "answer": "For example: My name is Ayuk. I am six years old.",
+   "remediation": "Say only “My name is …” several times, then add the age.",
+   "transfer": "Introduce a member of your family to a visitor.",
+   "materials": "A doll or a puppet to play the friend.",
+   "practice": [
+    {
+     "prompt": "Put the words in order.",
+     "type": "order",
+     "items": [
+      "My",
+      "name",
+      "is",
+      "Neba."
+     ],
+     "answer": "My name is Neba.",
+     "explanation": "A sentence starts with a capital letter."
+    },
+    {
+     "prompt": "Complete: This is my friend. ___ name is Manka (a girl).",
+     "type": "gaps",
+     "text": "[[Her]] name is Manka.",
+     "answer": "Her name is Manka.",
+     "explanation": "For a girl we say her; for a boy we say his."
+    },
+    {
+     "prompt": "Listen and say after the voice.",
+     "listen": "My name is Ashu. I am six years old. I am in Class 1.",
+     "answer": "My name is Ashu. I am six years old. I am in Class 1.",
+     "explanation": "Speak slowly and look at the person."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Listening and Speaking), p. 41–43, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-E2",
+   "domain": "English Language",
+   "title": "Read: simple words and short sentences",
+   "objective": "Read simple words and short sentences aloud, from left to right, holding the book correctly.",
+   "course": "We hold the book the right way up and turn pages from right to left. We read each line from left to right and from top to bottom.\nShort sentences: I sit. I can read. The pen is red.",
+   "support": {
+    "title": "Read with the adult",
+    "text": "I sit.\nI can read.\nThe pen is red."
+   },
+   "model": "The adult shows how to hold a book, puts a finger under the first word and reads: “I… can… read.”",
+   "guided": "Read each sentence with a finger under the words. Then read it again without the finger.",
+   "exercise": "Read the sentence: The pen is red.",
+   "answer": "The pen is red.",
+   "remediation": "Read the sentence word by word with the adult, then read it again together.",
+   "transfer": "Read the name of your school or your class on a sign.",
+   "materials": "A short school reader or sentence cards.",
+   "practice": [
+    {
+     "prompt": "Put the words in order to make a sentence.",
+     "type": "order",
+     "items": [
+      "I",
+      "can",
+      "read."
+     ],
+     "answer": "I can read.",
+     "explanation": "We read from left to right."
+    },
+    {
+     "prompt": "Where do we start to read a line?",
+     "type": "mcq",
+     "choices": [
+      "on the left",
+      "on the right",
+      "in the middle"
+     ],
+     "correct": 0,
+     "answer": "on the left",
+     "explanation": "We read from left to right."
+    },
+    {
+     "prompt": "Read and answer: “The bag is red.” What colour is the bag?",
+     "answer": "Red.",
+     "accept": [
+      "red",
+      "The bag is red"
+     ],
+     "explanation": "The sentence says the bag is red."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Reading), p. 43–44, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-E3",
+   "domain": "English Language",
+   "title": "Write: copying names",
+   "objective": "Copy one’s own name and the names of classmates correctly, with a capital letter.",
+   "course": "A person’s name starts with a capital letter: Ayuk, Bih, Neba. We copy each letter in order, from left to right, and leave a space between two names.",
+   "support": {
+    "title": "Copy with the adult",
+    "text": "Ayuk   Bih   Neba"
+   },
+   "model": "The adult writes three names on cards and copies one slowly: “A… y… u… k: Ayuk.”",
+   "guided": "Choose two name cards. Copy each name under the model. Check letter by letter.",
+   "exercise": "Copy the name: Neba.",
+   "answer": "Neba, with a capital N.",
+   "remediation": "Copy one letter, check it, then copy the next.",
+   "transfer": "Write the names of two people in your family.",
+   "materials": "Name cards, pencil.",
+   "practice": [
+    {
+     "prompt": "Copy the names: Bih and Tabi.",
+     "answer": "Bih and Tabi, each with a capital letter.",
+     "explanation": "Names start with a capital letter.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Which name is written correctly?",
+     "type": "mcq",
+     "choices": [
+      "ayuk",
+      "Ayuk",
+      "aYuk"
+     ],
+     "correct": 1,
+     "answer": "Ayuk",
+     "explanation": "Only the first letter of a name is a capital."
+    },
+    {
+     "prompt": "Put the letters in order to write the name “Bih”.",
+     "type": "order",
+     "items": [
+      "B",
+      "i",
+      "h"
+     ],
+     "answer": "B, i, h: Bih.",
+     "explanation": "Copy the letters in order."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Writing), p. 44, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-E4",
+   "domain": "English Language",
+   "title": "I, you, he, she, we, they",
+   "objective": "Use personal pronouns to talk about oneself and others.",
+   "course": "Pronouns replace names. I is me. You is the person I talk to. He is a boy or a man. She is a girl or a woman. We is me and others. They is other people.\nNeba is in class → He is in class. Bih and Manka sing → They sing.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "I  you  he  she  we  they\nBih is happy. → She is happy."
+   },
+   "model": "The adult points: “I am the teacher. You are a pupil. He is Neba. She is Bih. We are in Class 1. They are in Class 2.”",
+   "guided": "Point to people (or dolls) and say the right pronoun. Then replace a name in a sentence with he, she or they.",
+   "exercise": "Replace the name: Ayuk is tall. → ___ is tall.",
+   "answer": "He is tall.",
+   "accept": [
+    "He",
+    "He is tall"
+   ],
+   "remediation": "Practise he and she only, with pictures of a boy and a girl.",
+   "transfer": "Talk about your family with he and she: “She is my mother.”",
+   "materials": "Pictures of a boy, a girl, a group of children.",
+   "practice": [
+    {
+     "prompt": "Complete with he, she or they.",
+     "type": "gaps",
+     "text": "Bih reads. [[She]] reads. Tabi and Ekane play. [[They]] play.",
+     "answer": "She reads. They play.",
+     "explanation": "She for a girl, they for more than one person."
+    },
+    {
+     "prompt": "Match each name with the pronoun.",
+     "type": "match",
+     "pairs": [
+      [
+       "Neba (a boy)",
+       "he"
+      ],
+      [
+       "Manka (a girl)",
+       "she"
+      ],
+      [
+       "Neba and Manka",
+       "they"
+      ]
+     ],
+     "answer": "Neba: he; Manka: she; Neba and Manka: they.",
+     "explanation": "The pronoun replaces the name."
+    },
+    {
+     "prompt": "Which pronoun do you use for yourself?",
+     "type": "mcq",
+     "choices": [
+      "I",
+      "they",
+      "she"
+     ],
+     "correct": 0,
+     "answer": "I",
+     "explanation": "I is used to talk about oneself."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Grammar, vocabulary and pronunciation), p. 44–47, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-M1",
+   "domain": "Mathematics",
+   "title": "The days of the week",
+   "objective": "Name the days of the week in order and relate each day to an event.",
+   "course": "A week has 7 days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.\nWe go to school from Monday to Friday. Saturday and Sunday are the weekend.",
+   "model": "The adult shows a calendar: “Today is Wednesday. Yesterday was Tuesday. Tomorrow will be Thursday.”",
+   "guided": "Say the days in order with a song or a clap. Put a card on each day: school days and weekend days.",
+   "exercise": "Which day comes after Friday?",
+   "answer": "Saturday.",
+   "accept": [
+    "Saturday"
+   ],
+   "remediation": "Learn the school days first, Monday to Friday.",
+   "transfer": "Say what you do on Sunday with your family.",
+   "materials": "Seven day cards, a calendar.",
+   "practice": [
+    {
+     "prompt": "Put the days in order.",
+     "type": "order",
+     "items": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+     ],
+     "answer": "Monday, Tuesday, Wednesday, Thursday, Friday.",
+     "explanation": "These are the school days."
+    },
+    {
+     "prompt": "How many days are there in a week?",
+     "type": "number",
+     "answer": 7,
+     "explanation": "Monday to Sunday: 7 days."
+    },
+    {
+     "prompt": "Which day is in the weekend?",
+     "type": "mcq",
+     "choices": [
+      "Tuesday",
+      "Sunday",
+      "Thursday"
+     ],
+     "correct": 1,
+     "answer": "Sunday",
+     "explanation": "Saturday and Sunday make the weekend."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 49, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-M2",
+   "domain": "Mathematics",
+   "title": "Tens and units up to 50",
+   "objective": "Place numbers up to 50 under tens (T) and units (U).",
+   "course": "In 34 there are 3 tens and 4 units. We write it in a table: T | U → 3 | 4.\nTen units make one ten.",
+   "model": "The adult bundles 30 sticks into 3 bundles of ten and adds 4 loose sticks: “3 tens and 4 units: 34.”",
+   "guided": "Make numbers with bundles and loose sticks. Write each one in a T | U table.",
+   "exercise": "How many tens are there in 47?",
+   "answer": "4 tens.",
+   "accept": [
+    "4",
+    "four",
+    "4 tens"
+   ],
+   "remediation": "Work up to 20 first: 1 ten and some units.",
+   "transfer": "Count the pupils of your class in tens and units.",
+   "materials": "Sticks, rubber bands, a T | U table.",
+   "practice": [
+    {
+     "prompt": "2 tens and 5 units. Which number?",
+     "type": "number",
+     "answer": 25,
+     "explanation": "20 + 5 = 25."
+    },
+    {
+     "prompt": "Complete the table for 38.",
+     "type": "gaps",
+     "text": "Tens: [[3]] ; Units: [[8]]",
+     "answer": "3 tens, 8 units.",
+     "explanation": "38 = 30 + 8."
+    },
+    {
+     "prompt": "Which number has 5 tens and 0 units?",
+     "type": "mcq",
+     "choices": [
+      "5",
+      "50",
+      "15"
+     ],
+     "correct": 1,
+     "answer": "50",
+     "explanation": "5 tens = 50."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-M3",
+   "domain": "Mathematics",
+   "title": "Taking away within 20",
+   "objective": "Subtract within 20 using objects and the signs − and =.",
+   "course": "To take away is to remove some. 9 pencils, 3 are given away: 6 are left.\nWe write: 9 − 3 = 6. The sign − means “take away”.",
+   "model": "The adult puts 10 pieces of chalk on the table and gives away 4: “10 take away 4 leaves 6. 10 − 4 = 6.”",
+   "guided": "Make a group, take some away and count what is left. Write the subtraction.",
+   "exercise": "There are 15 pupils. 5 go home. How many are left?",
+   "answer": "10 pupils.",
+   "accept": [
+    "10",
+    "10 pupils"
+   ],
+   "remediation": "Count back with your fingers: 15… 14, 13, 12, 11, 10.",
+   "transfer": "Count the mangoes in a bowl before and after a snack.",
+   "materials": "Pencils, chalk or stones.",
+   "practice": [
+    {
+     "prompt": "12 − 2 = ?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "Count back 2 from 12: 11, 10."
+    },
+    {
+     "prompt": "Complete the subtractions.",
+     "type": "gaps",
+     "text": "8 − 5 = [[3]] ; 17 − 7 = [[10]]",
+     "answer": "3; 10.",
+     "explanation": "Take away, then count what is left."
+    },
+    {
+     "prompt": "What does the sign − mean?",
+     "type": "mcq",
+     "choices": [
+      "take away",
+      "add",
+      "the same as"
+     ],
+     "correct": 0,
+     "answer": "take away",
+     "explanation": "− means we take away."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-M4",
+   "domain": "Mathematics",
+   "title": "Counting with tallies in 2s",
+   "objective": "Collect simple data and count by tallying in twos.",
+   "course": "To count quickly, we make tally marks: | for each thing. We can count tallies in 2s: 2, 4, 6, 8, 10.\nWe use tallies to count things at school: boys, girls, books.",
+   "model": "The adult counts the pairs of shoes at the door in 2s: “2, 4, 6, 8. Eight shoes.”",
+   "guided": "Count your classmates’ eyes or hands in 2s. Make tally marks in pairs and count them.",
+   "exercise": "Count in 2s: 2, 4, 6, __, 10.",
+   "answer": "8",
+   "accept": [
+    "8",
+    "eight"
+   ],
+   "remediation": "Count objects in pairs: put them two by two, then count.",
+   "transfer": "Count the pairs of socks at home in 2s.",
+   "materials": "Pairs of shoes or socks, chalk.",
+   "practice": [
+    {
+     "prompt": "How many hands do 4 children have? Count in 2s.",
+     "type": "number",
+     "answer": 8,
+     "explanation": "2, 4, 6, 8."
+    },
+    {
+     "prompt": "Complete the count in 2s.",
+     "type": "gaps",
+     "text": "2, 4, [[6]], 8, [[10]], 12",
+     "answer": "6; 10.",
+     "explanation": "Add 2 each time."
+    },
+    {
+     "prompt": "Put the numbers in the order of counting in 2s.",
+     "type": "order",
+     "items": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+     ],
+     "answer": "2, 4, 6, 8, 10.",
+     "explanation": "Each time we add 2."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 50, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,558 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS1",
+ "classTitle": "Class 1",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+  }
+ ],
+ "id": "CLASS1-T4",
+ "title_en": "Occupations",
+ "title_fr": "Les métiers",
+ "lessons": [
+  {
+   "id": "CLASS1-T4-E1",
+   "domain": "English Language",
+   "title": "Listen and speak: describing people at work",
+   "objective": "Describe a person and what he or she does in simple sentences.",
+   "course": "We describe people with simple words: She is tall. He is old. She has a basket.\nWe say their work: He is a farmer. She is a nurse. He is a tailor. She is a teacher.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "He is a farmer.\nShe is a nurse.\nHe has a hoe."
+   },
+   "model": "The adult shows a drawing: “This is Mr Mbah. He is a farmer. He is tall. He has a hoe.”",
+   "guided": "Look at drawings of workers. For each one, say two sentences: what the person is, what he or she has.",
+   "exercise": "Describe a farmer in one sentence.",
+   "answer": "For example: He is a farmer. He has a hoe.",
+   "remediation": "Use only “He is a …” or “She is a …” with three pictures.",
+   "transfer": "Describe the work of one adult in your family.",
+   "materials": "Drawings of workers (farmer, nurse, tailor, teacher, driver).",
+   "practice": [
+    {
+     "prompt": "Match each worker with a tool.",
+     "type": "match",
+     "pairs": [
+      [
+       "a farmer",
+       "a hoe"
+      ],
+      [
+       "a tailor",
+       "a needle"
+      ],
+      [
+       "a teacher",
+       "chalk"
+      ]
+     ],
+     "answer": "farmer: hoe; tailor: needle; teacher: chalk.",
+     "explanation": "Each worker uses tools."
+    },
+    {
+     "prompt": "Listen and say after the voice.",
+     "listen": "She is a nurse. She works in a hospital.",
+     "answer": "She is a nurse. She works in a hospital.",
+     "explanation": "Say the whole sentence."
+    },
+    {
+     "prompt": "Who works in a hospital?",
+     "type": "mcq",
+     "choices": [
+      "a nurse",
+      "a fisherman",
+      "a carpenter"
+     ],
+     "correct": 0,
+     "answer": "a nurse",
+     "explanation": "Nurses care for sick people in a hospital."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Listening and Speaking), p. 41–43, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-E2",
+   "domain": "English Language",
+   "title": "Read: sh and ch",
+   "objective": "Read the digraphs sh and ch and words containing them.",
+   "course": "Two letters can make one sound. s and h together make sh, like when we ask for silence: shhh. c and h together make ch, like a train: ch, ch, ch.\nWords: shop, fish, ship, chin, chop, rich.",
+   "support": {
+    "title": "Read with the adult",
+    "text": "sh: shop  fish  ship\nch: chin  chop  chip"
+   },
+   "model": "The adult reads: “sh-o-p: shop. The tailor has a shop.” Then: “ch-o-p: chop. The cook chops onions.”",
+   "guided": "Sort word cards into two groups: words with sh and words with ch. Read each word aloud.",
+   "exercise": "Read the word: f – i – sh.",
+   "answer": "fish",
+   "accept": [
+    "fish"
+   ],
+   "remediation": "Say the sound sh several times with a finger on the lips, then read sh + one more sound.",
+   "transfer": "Find a word with sh or ch on a shop sign or a box.",
+   "materials": "Word cards with sh and ch.",
+   "practice": [
+    {
+     "prompt": "Which word has the sound sh?",
+     "type": "mcq",
+     "choices": [
+      "chin",
+      "ship",
+      "tin"
+     ],
+     "correct": 1,
+     "answer": "ship",
+     "explanation": "s and h make sh in ship."
+    },
+    {
+     "prompt": "Complete with sh or ch.",
+     "type": "gaps",
+     "text": "The fisherman sells fi[[sh]]. The cook [[ch]]ops onions.",
+     "answer": "fish; chops.",
+     "explanation": "fish ends with sh; chop starts with ch."
+    },
+    {
+     "prompt": "Put the sounds in order to make “shop”.",
+     "type": "order",
+     "items": [
+      "sh",
+      "o",
+      "p"
+     ],
+     "answer": "sh, o, p: shop.",
+     "explanation": "sh is one sound made by two letters."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Reading), p. 43–44, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-E3",
+   "domain": "English Language",
+   "title": "Write: letters n to z",
+   "objective": "Form the small letters n to z from left to right, on the line.",
+   "course": "We finish the alphabet: n, o, p, q, r, s, t, u, v, w, x, y, z. The letters p, q and y go below the line. The letter t is a little tall.\nNow we can write all the letters of the alphabet.",
+   "support": {
+    "title": "Trace with the adult",
+    "text": "n o p q r s t\nu v w x y z"
+   },
+   "model": "The adult writes p: “A stick down below the line, then round.” Then y: “A small v, then a tail below the line.”",
+   "guided": "Trace each letter, then write it three times. Say its sound. Circle the letters that go below the line.",
+   "exercise": "Write the letters p, q, y.",
+   "answer": "p q y, with their tails below the line.",
+   "remediation": "Practise the letters that go below the line with a coloured line under the writing line.",
+   "transfer": "Write the name of a job: a tailor, a nurse.",
+   "materials": "Pencil, lined paper.",
+   "practice": [
+    {
+     "prompt": "Write the letters r, s, t.",
+     "answer": "r s t, on the line.",
+     "explanation": "t is a little taller than r and s.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Put the last letters of the alphabet in order.",
+     "type": "order",
+     "items": [
+      "w",
+      "x",
+      "y",
+      "z"
+     ],
+     "answer": "w, x, y, z.",
+     "explanation": "z is the last letter of the alphabet."
+    },
+    {
+     "prompt": "Write the word “tailor”.",
+     "answer": "tailor",
+     "accept": [
+      "tailor"
+     ],
+     "explanation": "t-a-i-l-o-r.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Writing), p. 44, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-E4",
+   "domain": "English Language",
+   "title": "Action words: the simple present",
+   "objective": "Use action verbs in the simple present with I, you, he and she.",
+   "course": "A verb is an action word: sell, cook, drive, sew.\nWith I, you, we and they, the verb does not change: I cook. They sell.\nWith he and she, we add s: He drives. She sews. The baker bakes bread.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "I cook. → She cooks.\nI drive. → He drives."
+   },
+   "model": "The adult mimes and says: “I sew.” Then points to a picture: “The tailor sews.”",
+   "guided": "Mime an action; the child says what you do with he or she and adds s.",
+   "exercise": "Complete: The farmer ___ (dig) the farm.",
+   "answer": "The farmer digs the farm.",
+   "accept": [
+    "digs",
+    "The farmer digs the farm"
+   ],
+   "remediation": "Practise only with “she”: she cooks, she sells, she sings.",
+   "transfer": "Say three things that people in your family do every day.",
+   "materials": "Pictures of people working.",
+   "practice": [
+    {
+     "prompt": "Add the missing letter.",
+     "type": "gaps",
+     "text": "She sell[[s]] fish. He cook[[s]] rice.",
+     "answer": "She sells fish. He cooks rice.",
+     "explanation": "With he and she, the verb takes s."
+    },
+    {
+     "prompt": "Which sentence is correct?",
+     "type": "mcq",
+     "choices": [
+      "He drive a taxi.",
+      "He drives a taxi.",
+      "He driving a taxi."
+     ],
+     "correct": 1,
+     "answer": "He drives a taxi.",
+     "explanation": "With he, add s: drives."
+    },
+    {
+     "prompt": "Complete: The baker ___ (bake) bread.",
+     "answer": "bakes",
+     "accept": [
+      "bakes",
+      "The baker bakes bread"
+     ],
+     "reject": [
+      "bake"
+     ],
+     "explanation": "With the baker (he or she), add s."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Grammar, vocabulary and pronunciation), p. 44–47, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-M1",
+   "domain": "Mathematics",
+   "title": "Money: our coins up to 100 francs",
+   "objective": "Recognise coins and pay small amounts up to 100 francs.",
+   "course": "We use coins of 5, 10, 25, 50 and 100 francs.\nTwo coins of 50 francs make 100 francs. Two coins of 25 francs make 50 francs.\nWe count the coins to pay the right amount.",
+   "model": "At the shop, a pencil costs 50 francs. The adult pays with two coins of 25 francs: “25 and 25 make 50.”",
+   "guided": "Play shop with real or paper coins. Pay for small things in different ways.",
+   "exercise": "A sweet costs 25 francs. You pay with 50 francs. How much change do you get?",
+   "answer": "25 francs.",
+   "accept": [
+    "25",
+    "25 francs"
+   ],
+   "remediation": "Use only coins of 50 and 100 francs at first.",
+   "transfer": "With an adult, look at the coins in a purse and say their values.",
+   "materials": "Coins or paper coins of 5, 10, 25, 50 and 100 francs.",
+   "practice": [
+    {
+     "prompt": "50 francs + 50 francs = ? francs",
+     "type": "number",
+     "answer": 100,
+     "explanation": "Two coins of 50 make 100 francs."
+    },
+    {
+     "prompt": "Which coins make 30 francs?",
+     "type": "mcq",
+     "choices": [
+      "25 + 5",
+      "10 + 10",
+      "50 + 5"
+     ],
+     "correct": 0,
+     "answer": "25 + 5",
+     "explanation": "25 + 5 = 30."
+    },
+    {
+     "prompt": "Match each price with the coins.",
+     "type": "match",
+     "pairs": [
+      [
+       "20 francs",
+       "10 + 10"
+      ],
+      [
+       "50 francs",
+       "25 + 25"
+      ],
+      [
+       "100 francs",
+       "50 + 50"
+      ]
+     ],
+     "answer": "20: 10+10; 50: 25+25; 100: 50+50.",
+     "explanation": "Add the coins."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 49, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-M2",
+   "domain": "Mathematics",
+   "title": "Number bonds to 10",
+   "objective": "Build the pairs of numbers that make 10 and use them to add quickly.",
+   "course": "Number bonds are pairs that make a number. The bonds of 10: 1 + 9, 2 + 8, 3 + 7, 4 + 6, 5 + 5.\nIf I know 6 + 4 = 10, I know 4 + 6 = 10 too.",
+   "model": "The adult shows ten fingers, folds 3: “3 folded, 7 standing. 3 and 7 make 10.”",
+   "guided": "Use ten bottle tops in two hands. Move some from one hand to the other and say the bond each time.",
+   "exercise": "7 + ? = 10",
+   "answer": "3",
+   "accept": [
+    "3",
+    "three"
+   ],
+   "remediation": "Use ten fingers to see each bond.",
+   "transfer": "Play with a friend: one says a number, the other says what makes 10.",
+   "materials": "Ten bottle tops, fingers.",
+   "practice": [
+    {
+     "prompt": "6 + ? = 10",
+     "type": "number",
+     "answer": 4,
+     "explanation": "6 and 4 make 10."
+    },
+    {
+     "prompt": "Match the numbers that make 10.",
+     "type": "match",
+     "pairs": [
+      [
+       "1",
+       "9"
+      ],
+      [
+       "2",
+       "8"
+      ],
+      [
+       "5",
+       "5"
+      ]
+     ],
+     "answer": "1+9; 2+8; 5+5.",
+     "explanation": "Each pair makes 10."
+    },
+    {
+     "prompt": "Complete the bonds.",
+     "type": "gaps",
+     "text": "3 + [[7]] = 10 ; [[6]] + 4 = 10",
+     "answer": "7; 6.",
+     "explanation": "Think: what is missing to make 10?"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-M3",
+   "domain": "Mathematics",
+   "title": "Adding up to 50",
+   "objective": "Add numbers up to 50 using tens and units, and solve simple problems about work.",
+   "course": "To add 23 + 14, we add the tens and the units: 2 tens + 1 ten = 3 tens; 3 units + 4 units = 7 units. 23 + 14 = 37.",
+   "model": "A tailor sews 20 shirts on Monday and 15 on Tuesday. The adult adds: “20 + 15: 3 tens and 5 units: 35 shirts.”",
+   "guided": "Make each number with bundles and sticks, put them together, then count the tens and the units.",
+   "exercise": "A farmer picks 21 cocoa pods, then 12 more. How many pods?",
+   "answer": "33 pods.",
+   "accept": [
+    "33",
+    "33 pods"
+   ],
+   "remediation": "Add a number of tens first (20 + 10), then add numbers with units.",
+   "transfer": "Make up a problem about a job you know and solve it.",
+   "materials": "Bundles of ten sticks, loose sticks.",
+   "practice": [
+    {
+     "prompt": "32 + 15 = ?",
+     "type": "number",
+     "answer": 47,
+     "explanation": "3 tens + 1 ten = 4 tens; 2 + 5 = 7 units: 47."
+    },
+    {
+     "prompt": "A carpenter makes 10 chairs and then 20 chairs. How many chairs?",
+     "type": "number",
+     "answer": 30,
+     "explanation": "10 + 20 = 30."
+    },
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "24 + 13 = [[37]] ; 40 + 6 = [[46]]",
+     "answer": "37; 46.",
+     "explanation": "Add tens with tens, units with units."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-M4",
+   "domain": "Mathematics",
+   "title": "Straight lines and curved lines",
+   "objective": "Recognise and draw straight lines and curved lines, and make shapes and letters with them.",
+   "course": "A straight line does not bend, like the edge of a ruler. A curved line bends, like a rainbow.\nShapes and letters are made of lines: a triangle has three straight lines; the letter C is a curve.",
+   "model": "The adult shows the tools of workers: “The ruler of the carpenter is straight. The rim of the basin is curved.”",
+   "guided": "With a string, make a straight line, then a curved line. Draw both in sand, then on paper.",
+   "exercise": "Is the letter O made of straight lines or curved lines?",
+   "answer": "Curved lines.",
+   "accept": [
+    "curved",
+    "curved lines",
+    "a curve"
+   ],
+   "remediation": "Trace straight and curved lines on a model before drawing them alone.",
+   "transfer": "Find three straight lines and three curved lines in your house.",
+   "materials": "String, ruler, sand tray, paper.",
+   "practice": [
+    {
+     "prompt": "Which letter has only straight lines?",
+     "type": "mcq",
+     "choices": [
+      "C",
+      "L",
+      "O"
+     ],
+     "correct": 1,
+     "answer": "L",
+     "explanation": "L is made of two straight lines."
+    },
+    {
+     "prompt": "Draw a straight line and a curved line.",
+     "answer": "One straight line and one curved line.",
+     "explanation": "Use a ruler for the straight line.",
+     "ink": "libre"
+    },
+    {
+     "prompt": "Match each thing with its kind of line.",
+     "type": "match",
+     "pairs": [
+      [
+       "a ruler",
+       "straight"
+      ],
+      [
+       "a rainbow",
+       "curved"
+      ],
+      [
+       "the edge of a door",
+       "straight"
+      ]
+     ],
+     "answer": "ruler: straight; rainbow: curved; door edge: straight.",
+     "explanation": "A straight line does not bend."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 49, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  }
+ ]
+}

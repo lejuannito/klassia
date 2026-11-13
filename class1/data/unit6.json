@@ -1,0 +1,535 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS1",
+ "classTitle": "Class 1",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+  }
+ ],
+ "id": "CLASS1-T6",
+ "title_en": "Health",
+ "title_fr": "La santé",
+ "lessons": [
+  {
+   "id": "CLASS1-T6-E1",
+   "domain": "English Language",
+   "title": "Listen and speak: what are you doing?",
+   "objective": "Describe actions happening now with “is …ing”.",
+   "course": "To say what someone is doing now, we use is + verb + ing.\nShe is washing her hands. He is brushing his teeth. They are sweeping the compound.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "She is washing her hands.\nHe is brushing his teeth."
+   },
+   "model": "The adult mimes washing hands and asks: “What am I doing?” Then answers: “I am washing my hands.”",
+   "guided": "Mime healthy actions (washing hands, brushing teeth, drinking clean water). The other person says what you are doing.",
+   "exercise": "Look: Ekane has a toothbrush in his mouth. What is he doing?",
+   "answer": "He is brushing his teeth.",
+   "accept": [
+    "brushing his teeth",
+    "He is brushing his teeth"
+   ],
+   "remediation": "Use only “I am …ing” while doing the action yourself.",
+   "transfer": "Say what each person at home is doing at this moment.",
+   "materials": "Soap, a towel, a toothbrush (or pictures of them).",
+   "practice": [
+    {
+     "prompt": "Listen and say after the voice.",
+     "listen": "She is washing her hands with soap.",
+     "answer": "She is washing her hands with soap.",
+     "explanation": "We use is + ing for actions now."
+    },
+    {
+     "prompt": "Complete with the right action.",
+     "type": "gaps",
+     "text": "He is [[brushing]] his teeth. She is [[drinking]] clean water.",
+     "answer": "brushing; drinking.",
+     "explanation": "The verb ends with ing."
+    },
+    {
+     "prompt": "Which sentence tells what is happening now?",
+     "type": "mcq",
+     "choices": [
+      "She washes.",
+      "She is washing.",
+      "She wash."
+     ],
+     "correct": 1,
+     "answer": "She is washing.",
+     "explanation": "is + ing shows an action happening now."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Listening and Speaking), p. 41–43, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-E2",
+   "domain": "English Language",
+   "title": "Read: looking at pictures, answering questions",
+   "objective": "Interpret a picture and read a very short text silently, then answer questions.",
+   "course": "A picture tells a story. We look at who is in the picture, where they are and what they are doing.\nThen we read the short text and answer the questions with words from the text.",
+   "support": {
+    "title": "Read silently",
+    "text": "Enow is sick. He is in bed. His mother gives him water. The nurse comes to see him."
+   },
+   "model": "The adult looks at a picture of a clinic and says: “I see a nurse. She has a thermometer. A child is sitting on a bed.”",
+   "guided": "Read the short text silently. Then answer: Who is sick? Where is he? Who comes to see him?",
+   "exercise": "Read the text. Who comes to see Enow?",
+   "answer": "The nurse.",
+   "accept": [
+    "the nurse",
+    "nurse",
+    "The nurse comes to see him"
+   ],
+   "remediation": "Read the text aloud with the adult first, then answer one question at a time.",
+   "transfer": "Look at a picture in a book at home and say three things you see.",
+   "materials": "A picture of a clinic or a sick child (drawing).",
+   "practice": [
+    {
+     "prompt": "“Enow is sick. He is in bed.” Where is Enow?",
+     "type": "mcq",
+     "choices": [
+      "at school",
+      "in bed",
+      "at the market"
+     ],
+     "correct": 1,
+     "answer": "in bed",
+     "explanation": "The text says: He is in bed."
+    },
+    {
+     "prompt": "Who gives Enow water?",
+     "answer": "His mother.",
+     "accept": [
+      "his mother",
+      "mother",
+      "His mother gives him water"
+     ],
+     "explanation": "The text says: His mother gives him water."
+    },
+    {
+     "prompt": "Put the sentences in the order of the text.",
+     "type": "order",
+     "items": [
+      "Enow is sick.",
+      "He is in bed.",
+      "His mother gives him water.",
+      "The nurse comes to see him."
+     ],
+     "answer": "Enow is sick. He is in bed. His mother gives him water. The nurse comes to see him.",
+     "explanation": "Follow the order of the story."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Reading), p. 43–44, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-E3",
+   "domain": "English Language",
+   "title": "Build words with jumbled letters",
+   "objective": "Put jumbled letters in order to build words about health.",
+   "course": "Sometimes the letters of a word are mixed up. We say the sounds and try different orders until we find a real word.\np-a-s-o gives soap. d-e-b gives bed.",
+   "support": {
+    "title": "Build with the adult",
+    "text": "o s a p → soap\nd e b → bed"
+   },
+   "model": "The adult mixes the cards b, e, d and says: “Which sound comes first? b… e… d: bed!”",
+   "guided": "Use letter cards. Build the word, read it, then write it.",
+   "exercise": "Build the word with the letters: n, d, a, h (we wash it).",
+   "answer": "hand",
+   "accept": [
+    "hand"
+   ],
+   "remediation": "Give the first letter of the word, then build the rest.",
+   "transfer": "Mix the letters of your name and ask someone to build it again.",
+   "materials": "Letter cards, pencil.",
+   "practice": [
+    {
+     "prompt": "Put the letters in order to build “soap”.",
+     "type": "order",
+     "items": [
+      "s",
+      "o",
+      "a",
+      "p"
+     ],
+     "answer": "soap",
+     "explanation": "We wash with soap."
+    },
+    {
+     "prompt": "Build the word: t-e-e-h-t (we brush them).",
+     "answer": "teeth",
+     "accept": [
+      "teeth"
+     ],
+     "explanation": "We brush our teeth."
+    },
+    {
+     "prompt": "Write the word you built: soap.",
+     "answer": "soap",
+     "explanation": "s-o-a-p.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Writing), p. 44, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-E4",
+   "domain": "English Language",
+   "title": "Describing words and opposites",
+   "objective": "Use common adjectives and their opposites: clean/dirty, big/small, hot/cold, sick/well.",
+   "course": "An adjective describes a noun. Clean hands. A big bottle. Hot tea.\nMany adjectives have an opposite: clean – dirty, big – small, hot – cold, sick – well.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "clean ↔ dirty\nbig ↔ small\nhot ↔ cold"
+   },
+   "model": "The adult shows two cloths: “This cloth is clean. This cloth is dirty.” Then two cups: “This cup is big. This one is small.”",
+   "guided": "Sort picture pairs: say the adjective for each picture and its opposite.",
+   "exercise": "Give the opposite of “clean”.",
+   "answer": "dirty",
+   "accept": [
+    "dirty"
+   ],
+   "remediation": "Work with real objects (two cups, two cloths) and one pair of opposites at a time.",
+   "transfer": "Find something big and something small in your kitchen.",
+   "materials": "Pairs of objects: two cups, two cloths, warm and cool water.",
+   "practice": [
+    {
+     "prompt": "Match each word with its opposite.",
+     "type": "match",
+     "pairs": [
+      [
+       "big",
+       "small"
+      ],
+      [
+       "hot",
+       "cold"
+      ],
+      [
+       "sick",
+       "well"
+      ]
+     ],
+     "answer": "big–small; hot–cold; sick–well.",
+     "explanation": "Opposites mean the contrary."
+    },
+    {
+     "prompt": "Complete with an adjective.",
+     "type": "gaps",
+     "text": "Wash your hands. Keep them [[clean]].",
+     "answer": "clean",
+     "explanation": "We wash our hands to keep them clean."
+    },
+    {
+     "prompt": "Which word describes the water? “The water is ___.”",
+     "type": "mcq",
+     "choices": [
+      "run",
+      "cold",
+      "table"
+     ],
+     "correct": 1,
+     "answer": "cold",
+     "explanation": "Cold is an adjective: it describes the water."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Grammar, vocabulary and pronunciation), p. 44–47, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-M1",
+   "domain": "Mathematics",
+   "title": "Halves and quarters",
+   "objective": "Share a whole into 2 or 4 equal parts and name a half and a quarter.",
+   "course": "When we cut a whole into 2 equal parts, each part is a half (½).\nWhen we cut it into 4 equal parts, each part is a quarter (¼).\nThe parts must be equal.",
+   "model": "The adult cuts a pawpaw into 2 equal parts: “Each part is a half.” Then cuts each half again: “Now there are 4 quarters.”",
+   "guided": "Fold a sheet of paper in 2 equal parts, then in 4. Colour a half, then a quarter.",
+   "exercise": "A mango is cut into 2 equal parts. What is each part called?",
+   "answer": "A half.",
+   "accept": [
+    "a half",
+    "half"
+   ],
+   "remediation": "Fold paper in two and check that the two parts are the same.",
+   "transfer": "Share a fruit equally with a brother or a sister.",
+   "materials": "Paper sheets, a fruit, a knife (used by the adult only).",
+   "practice": [
+    {
+     "prompt": "How many quarters make a whole?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "4 quarters make one whole."
+    },
+    {
+     "prompt": "Which picture shows a half? A cake cut into …",
+     "type": "mcq",
+     "choices": [
+      "2 equal parts",
+      "2 unequal parts",
+      "3 equal parts"
+     ],
+     "correct": 0,
+     "answer": "2 equal parts",
+     "explanation": "A half is one of 2 equal parts."
+    },
+    {
+     "prompt": "Match each sharing with its name.",
+     "type": "match",
+     "pairs": [
+      [
+       "2 equal parts",
+       "halves"
+      ],
+      [
+       "4 equal parts",
+       "quarters"
+      ]
+     ],
+     "answer": "2: halves; 4: quarters.",
+     "explanation": "The number of equal parts gives the name."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-M2",
+   "domain": "Mathematics",
+   "title": "Sharing equally",
+   "objective": "Share items objectively into equal groups and check that each group has the same number.",
+   "course": "To share equally, each person gets the same number. 12 oranges for 3 children: we give one at a time to each child until there are none left. Each child gets 4.",
+   "model": "The adult shares 10 tablets of soap between 2 families: “One for you, one for you… Each family gets 5.”",
+   "guided": "Share stones between 2, then 3, then 4 people, one at a time. Check the groups are equal.",
+   "exercise": "Share 8 bananas equally between 2 children. How many does each child get?",
+   "answer": "4 bananas.",
+   "accept": [
+    "4",
+    "4 bananas"
+   ],
+   "remediation": "Share between 2 people only, with even numbers.",
+   "transfer": "Help to share food equally at home.",
+   "materials": "Stones, fruits, plates.",
+   "practice": [
+    {
+     "prompt": "Share 6 sweets equally between 3 children. How many each?",
+     "type": "number",
+     "answer": 2,
+     "explanation": "6 shared by 3: 2 each."
+    },
+    {
+     "prompt": "Share 15 pencils between 5 pupils. How many each?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "Give one at a time: 3 each."
+    },
+    {
+     "prompt": "Is this fair? Bih gets 4 mangoes, Tabi gets 2 mangoes.",
+     "type": "mcq",
+     "choices": [
+      "Yes, it is fair.",
+      "No, it is not equal."
+     ],
+     "correct": 1,
+     "answer": "No, it is not equal.",
+     "explanation": "Fair sharing gives the same number to each."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-M3",
+   "domain": "Mathematics",
+   "title": "Adding the same number: the table of 2",
+   "objective": "Build the multiplication table of 2 by adding 2 again and again.",
+   "course": "When we add the same number many times, we multiply. 2 + 2 + 2 = 6, so 3 times 2 is 6: 3 × 2 = 6.\nTable of 2: 1 × 2 = 2, 2 × 2 = 4, 3 × 2 = 6, 4 × 2 = 8, 5 × 2 = 10.",
+   "model": "The adult counts the eyes of children: “1 child: 2 eyes. 2 children: 4 eyes. 3 children: 6 eyes. 3 × 2 = 6.”",
+   "guided": "Make groups of 2 stones. Add a group each time and say the table.",
+   "exercise": "4 × 2 = ?",
+   "answer": "8",
+   "accept": [
+    "8",
+    "eight"
+   ],
+   "remediation": "Count in 2s with pairs of objects before writing ×.",
+   "transfer": "Count the legs of the chickens at home with the table of 2.",
+   "materials": "Stones in pairs.",
+   "practice": [
+    {
+     "prompt": "5 × 2 = ?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "2 + 2 + 2 + 2 + 2 = 10."
+    },
+    {
+     "prompt": "Complete the table of 2.",
+     "type": "gaps",
+     "text": "1 × 2 = [[2]] ; 2 × 2 = [[4]] ; 3 × 2 = [[6]]",
+     "answer": "2; 4; 6.",
+     "explanation": "Add 2 each time."
+    },
+    {
+     "prompt": "3 children each wash 2 hands. How many hands?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "3 × 2 = 6."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-M4",
+   "domain": "Mathematics",
+   "title": "A picture graph of healthy food",
+   "objective": "Represent data with a picture graph and read it.",
+   "course": "A picture graph uses pictures to show how many. Each picture stands for one thing.\nThe longest row shows the most. The shortest row shows the least.",
+   "model": "The adult asks the family their favourite fruit and puts one fruit drawing per person in rows: banana, orange, mango.",
+   "guided": "Ask five people their favourite healthy food. Draw one picture per answer in the right row. Say which row is the longest.",
+   "exercise": "In a picture graph: bananas ●●●, oranges ●●●●●, mangoes ●●. Which fruit is liked most?",
+   "answer": "Oranges.",
+   "accept": [
+    "oranges",
+    "orange"
+   ],
+   "remediation": "Make a graph with real objects in rows before drawing it.",
+   "transfer": "Make a picture graph of the fruits eaten at home this week.",
+   "materials": "Paper, coloured pencils or small fruit drawings.",
+   "practice": [
+    {
+     "prompt": "Bananas ●●●, oranges ●●●●●, mangoes ●●. How many people like mangoes?",
+     "type": "number",
+     "answer": 2,
+     "explanation": "There are 2 pictures for mangoes."
+    },
+    {
+     "prompt": "Which fruit is liked least?",
+     "type": "mcq",
+     "choices": [
+      "bananas",
+      "oranges",
+      "mangoes"
+     ],
+     "correct": 2,
+     "answer": "mangoes",
+     "explanation": "The mango row is the shortest."
+    },
+    {
+     "prompt": "How many more people like oranges than bananas?",
+     "type": "number",
+     "answer": 2,
+     "explanation": "5 − 3 = 2."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 50, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  }
+ ]
+}

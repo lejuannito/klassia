@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "825130b8f3724802a26fbdb6c09a4a16b7deb3417e365085ada4e8182f8b2f2b",
+  "version": "8e496ab6d88e6ec0f50ff54985be509ff0e513f43522b723b179549b6e84ec32",
   "packs": {
     "CE1": {
       "files": 52,
@@ -23,7 +23,11 @@ self.KLASSIA_RELEASE = {
     },
     "common": {
       "files": 63,
-      "bytes": 532016
+      "bytes": 536055
+    },
+    "CLASS1": {
+      "files": 8,
+      "bytes": 167361
     },
     "ATELIER": {
       "files": 1,
@@ -1080,8 +1084,56 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./class1/data/catalog.json",
-      "sha256": "12f6394e25b6063c39c02e376862ddd5f22b00f1e0d8d4ea515fd841970e921b",
-      "size": 3879
+      "sha256": "c529f7fa3ccf4d1bfe5aec2abfc34bd5966c322d2c2c53e67949f1d4aee201fe",
+      "size": 4202
+    },
+    {
+      "url": "./class1/data/unit1.json",
+      "sha256": "ab0e5cd86d5579476f71f519404858ff686637201494e5432cd41338cb393562",
+      "size": 23038,
+      "pack": "CLASS1"
+    },
+    {
+      "url": "./class1/data/unit2.json",
+      "sha256": "46129d24fda70e7c3a0d8d4f4a61f63c2c6643d0ef338f0c53950a1ba16bfe83",
+      "size": 21261,
+      "pack": "CLASS1"
+    },
+    {
+      "url": "./class1/data/unit3.json",
+      "sha256": "890c77b944e999be23840439d0c0298db1dd78701effb0d73926269f15b6afb4",
+      "size": 20193,
+      "pack": "CLASS1"
+    },
+    {
+      "url": "./class1/data/unit4.json",
+      "sha256": "4029874d50baf64926cd7dd1d1ecc9dd235c8870f51d7be6810ecff4fe6a46dd",
+      "size": 20628,
+      "pack": "CLASS1"
+    },
+    {
+      "url": "./class1/data/unit5.json",
+      "sha256": "108e5568f2bd9a1b47590bc37002275d750e3ed69d394a52ad69bc1c3676391d",
+      "size": 20342,
+      "pack": "CLASS1"
+    },
+    {
+      "url": "./class1/data/unit6.json",
+      "sha256": "1d3b18836d754c8befe7be5052f4e4cc6babe134929295a233c9c55c48407328",
+      "size": 20724,
+      "pack": "CLASS1"
+    },
+    {
+      "url": "./class1/data/unit7.json",
+      "sha256": "f8943cea763512e1a87cc2a22accfc5cd60455b854342ee93fd9c9617e7241d5",
+      "size": 20212,
+      "pack": "CLASS1"
+    },
+    {
+      "url": "./class1/data/unit8.json",
+      "sha256": "0b7346963532678caa9e2fc7f5afff572daf1195faf1d6fb2df303937b27ca58",
+      "size": 20963,
+      "pack": "CLASS1"
     },
     {
       "url": "./class1/index.html",
@@ -1459,13 +1511,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/i18n.js",
-      "sha256": "960756de44f1693ebf0d681a4ace6f27ca33dd1d1af40c2be16fb7aa49316510",
-      "size": 12121
+      "sha256": "6308468cea1b6d5518d773f60bdeff3e96449ad6b084232f36fe6ac1783c8dd5",
+      "size": 14959
     },
     {
       "url": "./shared/ink.js",
-      "sha256": "344e09ca53d92eb2b8b1ff65faa29a02d87c76c83b2162d4d01fedddabe9d251",
-      "size": 9599
+      "sha256": "4a2679c3c9504c89ff9ebc91ba634dafd0f0d6c9d880813a6417304b43e61280",
+      "size": 9656
     },
     {
       "url": "./shared/lcn.js",
@@ -1474,8 +1526,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "6b9322de4c438a2dbdb376056d0d240ec08606c238d64af9477d5260e29cefe4",
-      "size": 44881
+      "sha256": "93fa17135723f4125e05c0844b50f271e04fee7548a323b9771425dc28936773",
+      "size": 45702
     },
     {
       "url": "./shared/lesson-model.js",

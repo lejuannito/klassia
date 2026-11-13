@@ -8,11 +8,11 @@
   "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 1 are written (lots A3 and A4). Original examples; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–77; Class 1 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
   }
  ],
@@ -526,6 +526,544 @@
    },
    "competencies": [
     "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-S",
+   "domain": "Science and Technology",
+   "title": "Using the toilet and washing my hands",
+   "objective": "Locate the school toilet, use it properly and wash hands with soap after using it.",
+   "course": "At school we use the toilet, not the bush. We keep the toilet clean and we flush or cover after use.\nAfter the toilet, we always wash our hands with soap and clean water: wet, soap, rub, rinse, dry.",
+   "model": "During break, Ayuk goes to the school toilet. Then he goes to the tap, wets his hands, rubs them with soap, rinses and dries them.",
+   "guided": "Visit the school toilet with the teacher. Then practise the five steps of hand washing at the tap.",
+   "exercise": "What do we do after using the toilet?",
+   "answer": "We wash our hands with soap and water.",
+   "accept": [
+    "wash our hands",
+    "wash hands",
+    "we wash our hands",
+    "wash my hands",
+    "We wash our hands with soap and water"
+   ],
+   "remediation": "Practise the five steps with gestures and a song.",
+   "transfer": "At home, remind your brothers and sisters to wash their hands after the toilet.",
+   "materials": "Soap, clean water, a bowl, a towel.",
+   "practice": [
+    {
+     "prompt": "Put the steps of hand washing in order.",
+     "type": "order",
+     "items": [
+      "Wet your hands.",
+      "Put soap.",
+      "Rub your hands.",
+      "Rinse with water.",
+      "Dry your hands."
+     ],
+     "answer": "Wet, soap, rub, rinse, dry.",
+     "explanation": "Follow the five steps each time."
+    },
+    {
+     "prompt": "Where do we go to ease ourselves at school?",
+     "type": "mcq",
+     "choices": [
+      "in the bush",
+      "in the toilet",
+      "behind the classroom"
+     ],
+     "correct": 1,
+     "answer": "in the toilet",
+     "explanation": "We always use the toilet and keep it clean."
+    },
+    {
+     "prompt": "With what do we wash our hands?",
+     "answer": "Soap and clean water.",
+     "accept": [
+      "soap and water",
+      "soap and clean water",
+      "with soap and water",
+      "Soap and clean water"
+     ],
+     "explanation": "Soap removes the dirt and germs."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: toilets and washing hands), p. 52, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: toilets and washing hands"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-F",
+   "domain": "Français",
+   "title": "Les voyelles a, e, i, o, u",
+   "objective": "Reconnaître et lire les voyelles a, e, i, o, u en français.",
+   "course": "En français, les voyelles sont : a, e, i, o, u.\na comme dans « ami », e comme dans « le », i comme dans « île », o comme dans « olive », u comme dans « une ».\nAttention : en français, u ne se dit pas comme en anglais ; on avance les lèvres.",
+   "support": {
+    "title": "Lis avec l’adulte",
+    "text": "a  e  i  o  u\nami  le  île  olive  une"
+   },
+   "model": "L’adulte montre la lettre o et dit : « o, comme dans olive. » Puis il montre u et avance les lèvres : « u, comme dans une. »",
+   "guided": "Cherche les voyelles dans des étiquettes de mots. Entoure-les et dis leur son.",
+   "exercise": "Quelle voyelle entends-tu au début de « ami » ?",
+   "answer": "a",
+   "accept": [
+    "a"
+   ],
+   "remediation": "Travaille deux voyelles par jour avec un geste pour chacune.",
+   "transfer": "Cherche la lettre a dans ton prénom ou dans le nom de ta rue.",
+   "materials": "Étiquettes de lettres et de mots.",
+   "practice": [
+    {
+     "prompt": "Remets les voyelles dans l’ordre.",
+     "type": "order",
+     "items": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+     ],
+     "answer": "a, e, i, o, u.",
+     "explanation": "C’est l’ordre de l’alphabet."
+    },
+    {
+     "prompt": "Quelle lettre est une voyelle ?",
+     "type": "mcq",
+     "choices": [
+      "m",
+      "o",
+      "t"
+     ],
+     "correct": 1,
+     "answer": "o",
+     "explanation": "o est une voyelle ; m et t sont des consonnes."
+    },
+    {
+     "prompt": "Écoute et répète les voyelles.",
+     "listen": "a. e. i. o. u.",
+     "answer": "a, e, i, o, u.",
+     "explanation": "Ouvre bien la bouche."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension écrite : les voyelles), p. 58, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension écrite : les voyelles"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-C",
+   "domain": "Citizenship",
+   "title": "Our class rules",
+   "objective": "Discuss school rules and apply them in class and in the yard.",
+   "course": "At school we follow rules: come on time, wear the uniform, raise your hand to speak, listen to the teacher, keep the classroom clean, play without fighting.\nWhen we break a rule, we say sorry and do better.",
+   "model": "Manka wants to answer. She raises her hand and waits. The teacher says: “Yes, Manka.”",
+   "guided": "With the class or the family, write three class rules. Mime each rule.",
+   "exercise": "What do you do when you want to speak in class?",
+   "answer": "I raise my hand.",
+   "accept": [
+    "raise my hand",
+    "I raise my hand",
+    "raise your hand",
+    "raise the hand"
+   ],
+   "remediation": "Practise one rule at a time with a game (raise your hand before speaking).",
+   "transfer": "Tell an adult one school rule you followed today.",
+   "materials": "A big sheet of paper for the class rules.",
+   "practice": [
+    {
+     "prompt": "Which one is a school rule?",
+     "type": "mcq",
+     "choices": [
+      "Come on time.",
+      "Fight in the yard.",
+      "Throw papers on the floor."
+     ],
+     "correct": 0,
+     "answer": "Come on time.",
+     "explanation": "We come to school on time."
+    },
+    {
+     "prompt": "Put in order: what Ayuk does when he arrives late.",
+     "type": "order",
+     "items": [
+      "He knocks on the door.",
+      "He says sorry.",
+      "He sits down quietly."
+     ],
+     "answer": "knocks, says sorry, sits down quietly.",
+     "explanation": "We say sorry when we break a rule."
+    },
+    {
+     "prompt": "Where do we put papers we do not need?",
+     "answer": "In the dustbin.",
+     "accept": [
+      "in the dustbin",
+      "dustbin",
+      "in the bin",
+      "bin",
+      "In the dustbin"
+     ],
+     "explanation": "We keep the classroom clean."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Citizenship, table 24 (Civics: school rules), p. 63, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Civics: school rules"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-V",
+   "domain": "Vocational Studies",
+   "title": "Threading beads for a school necklace",
+   "objective": "Thread beads or seeds to make a pattern.",
+   "course": "Threading means passing a string through holes. We can thread beads, seeds, bottle tops with holes or pieces of straw.\nWe can make a pattern: red, blue, red, blue…",
+   "model": "Manka threads beads on a string: red, yellow, red, yellow. She makes a necklace to wear on Culture Day.",
+   "guided": "Thread beads or straw pieces on a string with a pattern. Say the pattern aloud.",
+   "exercise": "Continue the pattern: red, blue, red, blue, …",
+   "answer": "red",
+   "accept": [
+    "red"
+   ],
+   "remediation": "Thread big pieces (pieces of straw) before small beads.",
+   "transfer": "Make a bracelet for a friend.",
+   "materials": "String, beads, seeds with holes or pieces of straw.",
+   "practice": [
+    {
+     "prompt": "Put the beads in the order of the pattern.",
+     "type": "order",
+     "items": [
+      "red",
+      "yellow",
+      "red",
+      "yellow"
+     ],
+     "answer": "red, yellow, red, yellow.",
+     "explanation": "The pattern repeats."
+    },
+    {
+     "prompt": "What do we pass through the holes of the beads?",
+     "type": "mcq",
+     "choices": [
+      "a string",
+      "water",
+      "paint"
+     ],
+     "correct": 0,
+     "answer": "a string",
+     "explanation": "Threading uses a string."
+    },
+    {
+     "prompt": "How many beads are there in “red, yellow, red, yellow, red”?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "Count each bead: 5."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: threading), p. 66, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: threading"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-A",
+   "domain": "Arts",
+   "title": "A school song",
+   "objective": "Sing a short song with the right rhythm and enjoy singing with others.",
+   "course": "Singing together is a joy. We listen to the song, we learn it line by line, we sing with a clear voice and we keep the rhythm by clapping.",
+   "support": {
+    "title": "Klassia school song",
+    "text": "Good morning, school, good morning, friends,\nwe learn, we play, we read and write,\nwe help each other, hand in hand,\ngood morning, school, the day is bright!"
+   },
+   "model": "The adult sings the song slowly and claps on each line. The children repeat each line.",
+   "guided": "Learn the song line by line. Then sing it all together while clapping.",
+   "exercise": "What do we do with our hands to keep the rhythm?",
+   "answer": "We clap.",
+   "accept": [
+    "clap",
+    "we clap",
+    "clap our hands",
+    "We clap"
+   ],
+   "remediation": "Sing the first line only, several times, then add the second.",
+   "transfer": "Sing the song at home for your family.",
+   "materials": "Your voice and your hands.",
+   "practice": [
+    {
+     "prompt": "Listen to the song and sing it after the voice.",
+     "listen": "Good morning, school, good morning, friends, we learn, we play, we read and write, we help each other, hand in hand, good morning, school, the day is bright!",
+     "answer": "The song sung line by line.",
+     "explanation": "Sing with a clear voice."
+    },
+    {
+     "prompt": "Put the lines of the song in order.",
+     "type": "order",
+     "items": [
+      "Good morning, school, good morning, friends,",
+      "we learn, we play, we read and write,",
+      "we help each other, hand in hand,",
+      "good morning, school, the day is bright!"
+     ],
+     "answer": "The four lines in order.",
+     "explanation": "The song starts and ends with “good morning, school”."
+    },
+    {
+     "prompt": "Which word rhymes with “write”?",
+     "type": "mcq",
+     "choices": [
+      "bright",
+      "school",
+      "hand"
+     ],
+     "correct": 0,
+     "answer": "bright",
+     "explanation": "write – bright: they end with the same sound."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: music and songs), p. 69, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: music and songs"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-P",
+   "domain": "Physical Education and Sports",
+   "title": "Relay race: touch and run",
+   "objective": "Take part in a relay, stay attentive and help the team.",
+   "course": "In a relay, the team is in a line. The first runner runs to a mark and comes back, touches the hand of the next runner, who then runs. The team that finishes first wins.\nWe stay attentive and we encourage our team.",
+   "model": "Two teams line up. The adult says “Go!” The first runners run, come back and touch the next hands.",
+   "guided": "Play a relay in two teams. Practise touching the hand at the right moment.",
+   "exercise": "When does the next runner start?",
+   "answer": "When his hand is touched.",
+   "accept": [
+    "when his hand is touched",
+    "when the hand is touched",
+    "after the touch",
+    "When his hand is touched"
+   ],
+   "remediation": "Walk the relay first, then run.",
+   "transfer": "Organise a small relay with friends in the yard.",
+   "materials": "An open space, markers (stones, bottles).",
+   "practice": [
+    {
+     "prompt": "Put the relay in order.",
+     "type": "order",
+     "items": [
+      "The first runner runs to the mark.",
+      "He comes back.",
+      "He touches the next runner’s hand.",
+      "The next runner starts."
+     ],
+     "answer": "run, come back, touch, next runner starts.",
+     "explanation": "The touch passes the turn."
+    },
+    {
+     "prompt": "What helps a team win a relay?",
+     "type": "mcq",
+     "choices": [
+      "being attentive and encouraging",
+      "leaving the line",
+      "running before the touch"
+     ],
+     "correct": 0,
+     "answer": "being attentive and encouraging",
+     "explanation": "Good team members pay attention."
+    },
+    {
+     "prompt": "There are 4 runners in a team. How many touches are needed?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "Runner 1 touches 2, 2 touches 3, 3 touches 4: 3 touches."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Relays: touch and run), p. 70, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Relays: touch and run"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-N",
+   "domain": "National Languages and Cultures",
+   "title": "Introducing myself in our language",
+   "objective": "Introduce oneself and others in the home language.",
+   "course": "In our language too, we can say our name and the name of a friend. We look at the person, speak clearly and smile.",
+   "model": "The adult says in the family language: “My name is …”, then the child repeats with his own name.",
+   "guided": "Ask the adult how to say “My name is …” and “This is my friend …” in the family language. Practise.",
+   "exercise": "Introduce yourself in your family language.",
+   "answer": "The child says his name in the family language.",
+   "remediation": "Say only your name with the help of the adult.",
+   "transfer": "Introduce yourself in the family language to a grandparent or an elder.",
+   "materials": "“Home language” page (optional).",
+   "practice": [
+    {
+     "prompt": "Say “This is my friend …” in your family language.",
+     "answer": "The sentence in the family language.",
+     "explanation": "Ask an adult to help you."
+    },
+    {
+     "prompt": "How do we introduce ourselves well?",
+     "type": "mcq",
+     "choices": [
+      "look at the person and speak clearly",
+      "look at the floor and whisper",
+      "shout"
+     ],
+     "correct": 0,
+     "answer": "look at the person and speak clearly",
+     "explanation": "Clear speech shows respect."
+    },
+    {
+     "prompt": "Say your name and your age in English.",
+     "answer": "My name is … I am … years old.",
+     "explanation": "You can also say it in your family language."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Listening and Speaking: introduction of self and others), p. 72, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking: introduction of self and others"
+   ]
+  },
+  {
+   "id": "CLASS1-T3-I",
+   "domain": "ICTs",
+   "title": "The parts of a computer",
+   "objective": "Identify the main parts of a computer: monitor, keyboard, mouse and system unit.",
+   "course": "A computer has main parts. The monitor (screen) shows pictures and words. The keyboard has keys to type letters and numbers. The mouse moves the arrow on the screen. The system unit is the box that makes the computer work.\nSometimes a printer prints on paper.",
+   "model": "In the school office, the head teacher types on the keyboard and the words appear on the monitor.",
+   "guided": "Look at a computer or a picture. Point to each part and say its name.",
+   "exercise": "Which part shows pictures and words?",
+   "answer": "The monitor.",
+   "accept": [
+    "the monitor",
+    "monitor",
+    "the screen",
+    "screen",
+    "The monitor"
+   ],
+   "remediation": "Learn two parts first: the screen and the keyboard.",
+   "transfer": "Draw a computer and write the names of its parts with an adult.",
+   "materials": "A computer or a picture of one.",
+   "practice": [
+    {
+     "prompt": "Match each part with what it does.",
+     "type": "match",
+     "pairs": [
+      [
+       "the monitor",
+       "shows pictures and words"
+      ],
+      [
+       "the keyboard",
+       "types letters"
+      ],
+      [
+       "the mouse",
+       "moves the arrow"
+      ]
+     ],
+     "answer": "monitor: shows; keyboard: types; mouse: moves the arrow.",
+     "explanation": "Each part has its job."
+    },
+    {
+     "prompt": "Which part prints on paper?",
+     "type": "mcq",
+     "choices": [
+      "the printer",
+      "the mouse",
+      "the monitor"
+     ],
+     "correct": 0,
+     "answer": "the printer",
+     "explanation": "The printer puts words and pictures on paper."
+    },
+    {
+     "prompt": "Draw a computer with its four main parts.",
+     "answer": "A drawing with monitor, keyboard, mouse and system unit.",
+     "explanation": "Name each part.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (The computer system), p. 76, Class 1 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "The computer system"
    ]
   }
  ]

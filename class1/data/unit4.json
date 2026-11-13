@@ -8,11 +8,11 @@
   "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 1 are written (lots A3 and A4). Original examples; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–77; Class 1 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
   }
  ],
@@ -552,6 +552,553 @@
    },
    "competencies": [
     "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-S",
+   "domain": "Science and Technology",
+   "title": "Tools and machines people use",
+   "objective": "Identify common tools and machines in the locality and say what they are used for.",
+   "course": "People use tools and machines to work. A hoe digs the soil. A cutlass cuts grass. A hammer drives nails. A sewing machine sews clothes. A grinding machine grinds corn.\nWe use tools carefully and only with an adult.",
+   "model": "The carpenter uses a hammer and a saw. The tailor uses a sewing machine. The farmer uses a hoe.",
+   "guided": "Look at pictures of tools. Say the name of each tool and mime its use.",
+   "exercise": "Which tool does the farmer use to dig?",
+   "answer": "A hoe.",
+   "accept": [
+    "a hoe",
+    "hoe",
+    "the hoe",
+    "A hoe"
+   ],
+   "remediation": "Use three real or drawn tools and their use first.",
+   "transfer": "Find a tool or a machine used in your house and say what it does.",
+   "materials": "Pictures of tools and machines; safe real objects if possible.",
+   "practice": [
+    {
+     "prompt": "Match each tool with its use.",
+     "type": "match",
+     "pairs": [
+      [
+       "a hammer",
+       "drives nails"
+      ],
+      [
+       "a hoe",
+       "digs the soil"
+      ],
+      [
+       "a sewing machine",
+       "sews clothes"
+      ]
+     ],
+     "answer": "hammer: nails; hoe: soil; sewing machine: clothes.",
+     "explanation": "Each tool has a use."
+    },
+    {
+     "prompt": "Who uses a saw?",
+     "type": "mcq",
+     "choices": [
+      "a carpenter",
+      "a nurse",
+      "a teacher"
+     ],
+     "correct": 0,
+     "answer": "a carpenter",
+     "explanation": "The carpenter cuts wood with a saw."
+    },
+    {
+     "prompt": "Why do we use tools only with an adult?",
+     "answer": "Because tools can hurt us.",
+     "explanation": "Many tools are sharp or heavy."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Technology and Engineering: tools and machines in the locality), p. 55, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Technology and Engineering: tools and machines in the locality"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-F",
+   "domain": "Français",
+   "title": "Ma, pa, la : les premières syllabes",
+   "objective": "Lire les consonnes m, p, l, t avec une voyelle pour former des syllabes et des mots courts.",
+   "course": "Une consonne et une voyelle font une syllabe : m + a = ma ; p + a = pa ; l + a = la ; t + o = to.\nAvec deux syllabes, on lit un mot : ma-man (maman), pa-pa (papa), to-ma-te (tomate).",
+   "support": {
+    "title": "Lis avec l’adulte",
+    "text": "ma  pa  la  to\npapa  maman  tomate"
+   },
+   "model": "L’adulte lit : « p… a… pa ; pa… pa… papa ! » Le papa de Bih est tailleur.",
+   "guided": "Avec des cartes, assemble une consonne et une voyelle. Lis la syllabe. Puis assemble deux syllabes pour lire un mot.",
+   "exercise": "Lis : pa + pa.",
+   "answer": "papa",
+   "accept": [
+    "papa"
+   ],
+   "remediation": "Reste sur une consonne (m) avec toutes les voyelles : ma, me, mi, mo, mu.",
+   "transfer": "Lis « papa » et « maman » sur une carte et offre-la à tes parents.",
+   "materials": "Cartes de lettres et de syllabes.",
+   "practice": [
+    {
+     "prompt": "Remets les syllabes dans l’ordre pour lire « tomate ».",
+     "type": "order",
+     "items": [
+      "to",
+      "ma",
+      "te"
+     ],
+     "answer": "to-ma-te : tomate.",
+     "explanation": "On lit de gauche à droite."
+    },
+    {
+     "prompt": "Complète le mot.",
+     "type": "gaps",
+     "text": "ma[[man]]",
+     "answer": "maman",
+     "explanation": "ma-man : maman."
+    },
+    {
+     "prompt": "Quelle syllabe fait m + a ?",
+     "type": "mcq",
+     "choices": [
+      "am",
+      "ma",
+      "mo"
+     ],
+     "correct": 1,
+     "answer": "ma",
+     "explanation": "m puis a : ma."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension écrite : consonnes et syllabes), p. 58, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension écrite : consonnes et syllabes"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-C",
+   "domain": "Citizenship",
+   "title": "Being honest and sharing",
+   "objective": "Show honesty and sharing in daily life.",
+   "course": "An honest person tells the truth and does not take what belongs to others. If we find something, we give it back.\nSharing means giving part of what we have to others: food, toys, our time.",
+   "model": "At the market, a seller gives Tabi too much change. Tabi gives the extra money back. The seller says: “Thank you, you are honest.”",
+   "guided": "Listen to short situations and say what an honest child does. Share a snack equally with a friend.",
+   "exercise": "You find a pen that is not yours. What do you do?",
+   "answer": "I give it back to its owner or to the teacher.",
+   "accept": [
+    "give it back",
+    "I give it back",
+    "give it to the teacher",
+    "I give it back to its owner or to the teacher"
+   ],
+   "remediation": "Use real objects: find, ask “Whose is it?”, give back.",
+   "transfer": "Share something with someone at home today.",
+   "materials": "Small objects, a snack to share.",
+   "practice": [
+    {
+     "prompt": "Which child is honest?",
+     "type": "mcq",
+     "choices": [
+      "Neba keeps a lost purse.",
+      "Bih gives back a lost purse.",
+      "Tabi hides a lost purse."
+     ],
+     "correct": 1,
+     "answer": "Bih gives back a lost purse.",
+     "explanation": "An honest person gives back what is not his."
+    },
+    {
+     "prompt": "Share 6 groundnuts equally between 2 friends. How many each?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "Sharing equally: 3 each."
+    },
+    {
+     "prompt": "What does an honest person always tell?",
+     "answer": "The truth.",
+     "accept": [
+      "the truth",
+      "truth",
+      "The truth"
+     ],
+     "explanation": "Being honest means telling the truth."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Citizenship, table 24 (Civics: universal values (honesty and sharing)), p. 63, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Civics: universal values (honesty and sharing)"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-V",
+   "domain": "Vocational Studies",
+   "title": "The craftsman and his tools",
+   "objective": "Identify the tools of some craftsmen and show interest in craftsmanship.",
+   "course": "A craftsman makes things with his hands. The carpenter uses a saw, a hammer and a plane. The tailor uses scissors, a needle and a tape measure. The basket maker uses raffia and a knife.\nCraftsmen keep their tools clean and safe.",
+   "model": "In the workshop, the carpenter shows Ayuk his saw and says: “I always keep it in its place.”",
+   "guided": "Look at pictures of craftsmen and their tools. Match each tool with its craftsman.",
+   "exercise": "Which craftsman uses a needle?",
+   "answer": "The tailor.",
+   "accept": [
+    "the tailor",
+    "tailor",
+    "a tailor",
+    "The tailor"
+   ],
+   "remediation": "Work with two craftsmen the child has seen.",
+   "transfer": "Visit a craftsman near your house with an adult and name two of his tools.",
+   "materials": "Pictures of craftsmen and tools.",
+   "practice": [
+    {
+     "prompt": "Match each tool with its craftsman.",
+     "type": "match",
+     "pairs": [
+      [
+       "a saw",
+       "the carpenter"
+      ],
+      [
+       "scissors",
+       "the tailor"
+      ],
+      [
+       "raffia",
+       "the basket maker"
+      ]
+     ],
+     "answer": "saw: carpenter; scissors: tailor; raffia: basket maker.",
+     "explanation": "Each craftsman has his tools."
+    },
+    {
+     "prompt": "What does a craftsman use to make things?",
+     "type": "mcq",
+     "choices": [
+      "his hands and tools",
+      "only a phone",
+      "only paper money"
+     ],
+     "correct": 0,
+     "answer": "his hands and tools",
+     "explanation": "Craftsmen work with their hands."
+    },
+    {
+     "prompt": "Say one thing a carpenter makes.",
+     "answer": "For example: a chair, a table, a door.",
+     "explanation": "Carpenters make things with wood."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: a craftsman’s tools), p. 65, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: a craftsman’s tools"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-A",
+   "domain": "Arts",
+   "title": "Painting with colours from nature",
+   "objective": "Identify painting materials and produce paint from local materials.",
+   "course": "Long ago, and still today, artists make paint with things from nature: charcoal gives black, red earth (clay) gives red or brown, white clay (kaolin) gives white, crushed leaves give green.\nWe mix the powder with a little water and paint with a brush or a stick with cotton.",
+   "model": "The adult crushes charcoal, adds a few drops of water and paints a line: “Black paint from charcoal.”",
+   "guided": "With the adult, make two colours from nature. Paint a simple picture on cardboard.",
+   "exercise": "Which material gives black paint?",
+   "answer": "Charcoal.",
+   "accept": [
+    "charcoal",
+    "Charcoal"
+   ],
+   "remediation": "Use one colour only, then add a second.",
+   "transfer": "Look for other things at home that can give colour (turmeric, hibiscus…) with an adult.",
+   "materials": "Charcoal, red earth, white clay, leaves, water, cardboard, a brush or a stick with cotton.",
+   "practice": [
+    {
+     "prompt": "Match each material with its colour.",
+     "type": "match",
+     "pairs": [
+      [
+       "charcoal",
+       "black"
+      ],
+      [
+       "white clay",
+       "white"
+      ],
+      [
+       "crushed leaves",
+       "green"
+      ]
+     ],
+     "answer": "charcoal: black; white clay: white; leaves: green.",
+     "explanation": "Nature gives many colours."
+    },
+    {
+     "prompt": "What do we add to the powder to make paint?",
+     "type": "mcq",
+     "choices": [
+      "a little water",
+      "sand",
+      "sugar"
+     ],
+     "correct": 0,
+     "answer": "a little water",
+     "explanation": "Water turns the powder into paint."
+    },
+    {
+     "prompt": "Draw what you painted.",
+     "answer": "A drawing of the painting.",
+     "explanation": "Show the colours you used.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: painting with local materials), p. 69, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: painting with local materials"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-P",
+   "domain": "Physical Education and Sports",
+   "title": "Throwing a ball with good posture",
+   "objective": "Handle objects of different weights and throw them with good posture.",
+   "course": "To throw well: stand with one foot in front, look at the target, bring the arm back, then throw and follow with the arm.\nWe throw only when nobody is in front of us.",
+   "model": "The adult shows: left foot in front, arm back, throw. The ball goes far into the basket.",
+   "guided": "Throw a light ball into a basket from close, then from farther. Then throw a heavier object (a bean bag).",
+   "exercise": "Where do we look when we throw?",
+   "answer": "At the target.",
+   "accept": [
+    "at the target",
+    "the target",
+    "target",
+    "At the target"
+   ],
+   "remediation": "Throw a big soft ball with two hands first.",
+   "transfer": "Play throwing bottle tops into a box at home.",
+   "materials": "Balls, bean bags, a basket or a box.",
+   "practice": [
+    {
+     "prompt": "Put the steps of a throw in order.",
+     "type": "order",
+     "items": [
+      "Look at the target.",
+      "Bring the arm back.",
+      "Throw.",
+      "Follow with the arm."
+     ],
+     "answer": "look, arm back, throw, follow.",
+     "explanation": "A good posture makes a good throw."
+    },
+    {
+     "prompt": "When can we throw?",
+     "type": "mcq",
+     "choices": [
+      "when nobody is in front of us",
+      "when a friend passes",
+      "at any time"
+     ],
+     "correct": 0,
+     "answer": "when nobody is in front of us",
+     "explanation": "Safety first."
+    },
+    {
+     "prompt": "Ayuk throws 6 balls. 4 go into the basket. How many miss?",
+     "type": "number",
+     "answer": 2,
+     "explanation": "6 − 4 = 2."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Throws: handling and throwing objects), p. 71, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Throws: handling and throwing objects"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-N",
+   "domain": "National Languages and Cultures",
+   "title": "Traditional occupations of my village",
+   "objective": "Use appropriate words to describe traditional occupations of the locality and show love for culture.",
+   "course": "In villages, people do traditional work: farming, fishing, hunting, weaving baskets, making pots, carving wood, palm wine tapping, blacksmithing.\nEach occupation has its tools and its words in the local language.",
+   "model": "Grandfather Ndi shows Tabi how he weaves a basket with raffia and says the name of the basket in his language.",
+   "guided": "Ask an elder about a traditional occupation of your family or village. Learn the name of one tool in the family language.",
+   "exercise": "Name a traditional occupation of your area.",
+   "answer": "For example: farming, fishing, weaving, pottery, carving.",
+   "remediation": "Use pictures of three occupations.",
+   "transfer": "Draw a person doing a traditional occupation and say its name in your language.",
+   "materials": "Pictures of traditional occupations.",
+   "practice": [
+    {
+     "prompt": "Match each occupation with what is made.",
+     "type": "match",
+     "pairs": [
+      [
+       "weaving",
+       "a basket"
+      ],
+      [
+       "pottery",
+       "a clay pot"
+      ],
+      [
+       "carving",
+       "a wooden stool"
+      ]
+     ],
+     "answer": "weaving: basket; pottery: pot; carving: stool.",
+     "explanation": "Each craft makes different things."
+    },
+    {
+     "prompt": "Which one is a traditional occupation?",
+     "type": "mcq",
+     "choices": [
+      "fishing with a canoe",
+      "driving a plane",
+      "repairing a computer"
+     ],
+     "correct": 0,
+     "answer": "fishing with a canoe",
+     "explanation": "Fishing with a canoe is a traditional occupation."
+    },
+    {
+     "prompt": "Ask an elder: what is the name of a hoe in your family language? Say it.",
+     "answer": "The word for hoe in the family language.",
+     "explanation": "Every language has words for tools."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Listening and Speaking: traditional occupations), p. 73, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking: traditional occupations"
+   ]
+  },
+  {
+   "id": "CLASS1-T4-I",
+   "domain": "ICTs",
+   "title": "Using the keyboard and the mouse",
+   "objective": "Describe how we use the keyboard and the mouse.",
+   "course": "On the keyboard, each key has a letter, a number or a sign. We press one key at a time with one finger. The long key is the space bar: it puts a space between words.\nWe hold the mouse gently, we move it on the table, and we click with one finger.",
+   "model": "Ayuk types his name on a computer, letter by letter, then presses the space bar.",
+   "guided": "On a real keyboard or a paper keyboard, find the letters of your name and press them in order.",
+   "exercise": "Which key puts a space between two words?",
+   "answer": "The space bar.",
+   "accept": [
+    "the space bar",
+    "space bar",
+    "space",
+    "The space bar"
+   ],
+   "remediation": "Find the first letter of the name only.",
+   "transfer": "With an adult, type your name on a phone or a computer.",
+   "materials": "A keyboard or a printed paper keyboard.",
+   "practice": [
+    {
+     "prompt": "Put the letters of the name “Bih” in the order to type them.",
+     "type": "order",
+     "items": [
+      "B",
+      "i",
+      "h"
+     ],
+     "answer": "B, i, h.",
+     "explanation": "We type letter by letter, from left to right."
+    },
+    {
+     "prompt": "How do we click with the mouse?",
+     "type": "mcq",
+     "choices": [
+      "press gently with one finger",
+      "hit it hard",
+      "shake it"
+     ],
+     "correct": 0,
+     "answer": "press gently with one finger",
+     "explanation": "The mouse is fragile."
+    },
+    {
+     "prompt": "How many keys do you press to type “CAT”?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "C, A, T: 3 keys."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (The computer system: keyboard and mouse), p. 76, Class 1 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "The computer system: keyboard and mouse"
    ]
   }
  ]

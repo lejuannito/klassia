@@ -8,11 +8,11 @@
   "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 1 are written (lots A3 and A4). Original examples; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–77; Class 1 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
   }
  ],
@@ -556,6 +556,532 @@
    },
    "competencies": [
     "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-S",
+   "domain": "Science and Technology",
+   "title": "Small accidents on the way and the first aid box",
+   "objective": "Name some minor accidents, say what is in a first aid box and how to avoid accidents on the road.",
+   "course": "A minor accident is a small injury: a cut, a fall, a scratch, a bump.\nA first aid box contains plaster, cotton, bandage and an antiseptic. An adult uses it to clean and cover a small wound.\nTo avoid accidents on the road: walk on the side of the road, hold an adult’s hand, look left and right before crossing.",
+   "model": "Neba falls on the way to school and scratches his knee. The teacher cleans it with cotton and antiseptic and puts a plaster.",
+   "guided": "Look inside a first aid box with the adult. Name each item. Then practise crossing a road safely in the yard.",
+   "exercise": "What does an adult put on a small cut after cleaning it?",
+   "answer": "A plaster.",
+   "accept": [
+    "a plaster",
+    "plaster",
+    "a bandage",
+    "bandage",
+    "A plaster"
+   ],
+   "remediation": "Name two items of the first aid box first: plaster and cotton.",
+   "transfer": "Show an adult how you cross the road safely.",
+   "materials": "A first aid box (shown by the adult), pictures of road scenes.",
+   "practice": [
+    {
+     "prompt": "Which one is in a first aid box?",
+     "type": "mcq",
+     "choices": [
+      "a plaster",
+      "a ball",
+      "a spoon"
+     ],
+     "correct": 0,
+     "answer": "a plaster",
+     "explanation": "A plaster covers a small wound."
+    },
+    {
+     "prompt": "Put the steps to cross a road in order.",
+     "type": "order",
+     "items": [
+      "Stop at the side of the road.",
+      "Look left and right.",
+      "Cross when the road is clear."
+     ],
+     "answer": "Stop, look left and right, cross when it is clear.",
+     "explanation": "Stop, look, then cross."
+    },
+    {
+     "prompt": "Who should treat a wound?",
+     "answer": "An adult.",
+     "accept": [
+      "an adult",
+      "adult",
+      "the teacher",
+      "a nurse",
+      "An adult"
+     ],
+     "explanation": "Children call an adult when they are hurt."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: minor accidents and first aid), p. 52, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: minor accidents and first aid"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-F",
+   "domain": "Français",
+   "title": "Compter de 1 à 20 en français",
+   "objective": "Compter de 1 à 20 en français et répondre à la question « Combien y a-t-il de … ? ».",
+   "course": "Un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix.\nOnze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf, vingt.\nPour demander une quantité : « Combien y a-t-il de bus ? » (How many buses are there?) On répond : « Il y a trois bus. »",
+   "support": {
+    "title": "Compte avec l’adulte",
+    "text": "1 un   2 deux   3 trois   4 quatre   5 cinq\n10 dix   15 quinze   20 vingt"
+   },
+   "model": "À la gare routière, l’adulte compte les bus : « Un, deux, trois. Il y a trois bus. »",
+   "guided": "Compte des capsules en français en les touchant. Puis réponds à la question : « Combien y a-t-il de capsules ? »",
+   "exercise": "Combien font « cinq » en chiffres ?",
+   "answer": "5",
+   "accept": [
+    "5",
+    "cinq"
+   ],
+   "remediation": "Compte jusqu’à cinq avec les doigts, puis jusqu’à dix.",
+   "transfer": "Compte en français les marches de ta maison ou les voitures que tu vois.",
+   "materials": "Capsules, cartes-nombres.",
+   "practice": [
+    {
+     "prompt": "Relie le nombre et son nom.",
+     "type": "match",
+     "pairs": [
+      [
+       "3",
+       "trois"
+      ],
+      [
+       "10",
+       "dix"
+      ],
+      [
+       "20",
+       "vingt"
+      ]
+     ],
+     "answer": "3 : trois ; 10 : dix ; 20 : vingt.",
+     "explanation": "Chaque nombre a son nom en français."
+    },
+    {
+     "prompt": "Remets dans l’ordre.",
+     "type": "order",
+     "items": [
+      "un",
+      "deux",
+      "trois",
+      "quatre"
+     ],
+     "answer": "un, deux, trois, quatre.",
+     "explanation": "On ajoute un à chaque fois."
+    },
+    {
+     "prompt": "Écoute et répète.",
+     "listen": "onze, douze, treize, quatorze, quinze.",
+     "answer": "onze, douze, treize, quatorze, quinze.",
+     "explanation": "Ce sont les nombres de 11 à 15."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : les nombres de 1 à 20), p. 57, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : les nombres de 1 à 20"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-C",
+   "domain": "Citizenship",
+   "title": "Staying safe: strangers and strange objects",
+   "objective": "Stay away from strange people and suspicious objects, and report them to an adult.",
+   "course": "A stranger is a person we do not know. We do not follow a stranger, we do not take gifts or rides from a stranger.\nIf we see a strange object (a bag left alone, an unknown parcel), we do not touch it. We go away and tell an adult we trust.",
+   "model": "On the way home, a man in a car offers Bih a ride. Bih says “No, thank you,” walks on with her friends and tells her mother.",
+   "guided": "Role-play: an adult plays a stranger who offers a sweet; the child says no, walks away and tells a trusted adult.",
+   "exercise": "A stranger offers you a ride. What do you do?",
+   "answer": "I say no, I go away and I tell a trusted adult.",
+   "accept": [
+    "say no",
+    "I say no",
+    "tell an adult",
+    "go away",
+    "I say no, I go away and I tell a trusted adult"
+   ],
+   "remediation": "Practise the three steps with gestures: say no, go away, tell.",
+   "transfer": "Name three trusted adults you can tell when something is strange.",
+   "materials": "Pictures of everyday situations (market, road, school gate).",
+   "practice": [
+    {
+     "prompt": "Put the three steps in order.",
+     "type": "order",
+     "items": [
+      "Say no.",
+      "Go away.",
+      "Tell a trusted adult."
+     ],
+     "answer": "Say no, go away, tell.",
+     "explanation": "These three steps keep us safe."
+    },
+    {
+     "prompt": "You see a bag left alone at the bus station. What do you do?",
+     "type": "mcq",
+     "choices": [
+      "open it",
+      "do not touch it and tell an adult",
+      "take it home"
+     ],
+     "correct": 1,
+     "answer": "do not touch it and tell an adult",
+     "explanation": "We never touch a strange object."
+    },
+    {
+     "prompt": "Name one trusted adult.",
+     "answer": "For example: my mother, my father, my teacher.",
+     "explanation": "A trusted adult is someone who takes care of us."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Citizenship, table 24 (Peace and Security Education: safety measures), p. 64, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Peace and Security Education: safety measures"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-V",
+   "domain": "Vocational Studies",
+   "title": "Moulding a little car with clay",
+   "objective": "Mix and use dough or clay to mould simple objects.",
+   "course": "Moulding means shaping a soft material with our hands. We can use clay or dough made of flour, water and a little salt.\nWe roll, press and pinch to make shapes: a ball, a sausage, a flat circle. With them we can make a little car: a body and four wheels.",
+   "model": "Tabi rolls a big piece of clay for the body of the car and four small balls for the wheels. He presses them on.",
+   "guided": "Make dough with the adult (flour, water, salt) or use clay. Roll a ball, a sausage and flat circles. Build a little car or a bus.",
+   "exercise": "How many wheels does your little car have?",
+   "answer": "4",
+   "accept": [
+    "4",
+    "four",
+    "four wheels"
+   ],
+   "remediation": "Make only balls first, then sausages.",
+   "transfer": "Mould another means of transport: a canoe or a bus.",
+   "materials": "Clay or dough (flour, water, salt), a board.",
+   "practice": [
+    {
+     "prompt": "Put the steps in order.",
+     "type": "order",
+     "items": [
+      "Make the dough.",
+      "Roll the body of the car.",
+      "Make four wheels.",
+      "Press the wheels on."
+     ],
+     "answer": "dough, body, wheels, press.",
+     "explanation": "Follow the steps."
+    },
+    {
+     "prompt": "What do we mix to make dough?",
+     "type": "mcq",
+     "choices": [
+      "flour, water and salt",
+      "sand and stones",
+      "oil and sugar only"
+     ],
+     "correct": 0,
+     "answer": "flour, water and salt",
+     "explanation": "Flour, water and a little salt make a soft dough."
+    },
+    {
+     "prompt": "Name one shape you can make with your hands.",
+     "answer": "A ball, a sausage or a flat circle.",
+     "accept": [
+      "a ball",
+      "ball",
+      "a sausage",
+      "sausage",
+      "a circle",
+      "A ball, a sausage or a flat circle"
+     ],
+     "explanation": "We roll, press and pinch."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: moulding), p. 66, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: moulding"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-A",
+   "domain": "Arts",
+   "title": "The rhythm of the train and the bus",
+   "objective": "Identify and produce different beats and respect a rhythm.",
+   "course": "A rhythm is a beat that repeats. We can clap, tap the table or stamp our feet.\nSlow beats: like a big lorry going up a hill. Fast beats: like a train running. We can clap the syllables of words: “mo-tor-bike” has three beats.",
+   "model": "The adult claps slowly: clap … clap … clap (the lorry). Then fast: clap-clap-clap-clap (the train).",
+   "guided": "Clap the syllables of travel words: car (1), ta-xi (2), mo-tor-bike (3). Then follow the adult’s rhythm.",
+   "exercise": "How many beats in “taxi”?",
+   "answer": "2",
+   "accept": [
+    "2",
+    "two"
+   ],
+   "remediation": "Clap one-beat and two-beat words only.",
+   "transfer": "Clap the syllables of the names of your family.",
+   "materials": "Your hands, a small drum or a tin.",
+   "practice": [
+    {
+     "prompt": "How many beats in “motorbike”?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "mo-tor-bike: 3 beats."
+    },
+    {
+     "prompt": "Which one has a fast rhythm?",
+     "type": "mcq",
+     "choices": [
+      "a running train",
+      "a sleeping baby",
+      "a lorry going up a hill"
+     ],
+     "correct": 0,
+     "answer": "a running train",
+     "explanation": "A running train goes fast: fast beats."
+    },
+    {
+     "prompt": "Listen to the words and clap each syllable.",
+     "listen": "car. ta-xi. mo-tor-bike.",
+     "answer": "1 beat, 2 beats, 3 beats.",
+     "explanation": "Clap once for each part of the word."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: rhythm and beats), p. 69, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: rhythm and beats"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-P",
+   "domain": "Physical Education and Sports",
+   "title": "Running fast over 20 metres",
+   "objective": "Run fast over a short distance and stop safely.",
+   "course": "A sprint is a short, fast run. Ready position: one foot in front, body bent forward. On “Go!”, we run straight to the finish line, looking ahead. After the line, we slow down before stopping.",
+   "model": "The adult marks 20 big steps. A child takes the ready position and runs on “Go!”.",
+   "guided": "Practise the ready position. Run 20 metres three times, with a rest between runs.",
+   "exercise": "Where do we look when we sprint?",
+   "answer": "Straight ahead, at the finish line.",
+   "accept": [
+    "straight ahead",
+    "ahead",
+    "at the finish line",
+    "Straight ahead, at the finish line"
+   ],
+   "remediation": "Run a shorter distance (10 metres) first.",
+   "transfer": "Run a short race with a friend, then rest and drink water.",
+   "materials": "An open flat space, a finish line.",
+   "practice": [
+    {
+     "prompt": "Put the sprint in order.",
+     "type": "order",
+     "items": [
+      "Ready position.",
+      "Run on “Go!”.",
+      "Cross the finish line.",
+      "Slow down and stop."
+     ],
+     "answer": "ready, run, cross the line, slow down.",
+     "explanation": "We slow down after the line."
+    },
+    {
+     "prompt": "What is a sprint?",
+     "type": "mcq",
+     "choices": [
+      "a short, fast run",
+      "a long walk",
+      "a jump"
+     ],
+     "correct": 0,
+     "answer": "a short, fast run",
+     "explanation": "A sprint is fast and short."
+    },
+    {
+     "prompt": "What do we drink after running?",
+     "answer": "Clean water.",
+     "accept": [
+      "water",
+      "clean water",
+      "Clean water"
+     ],
+     "explanation": "The body needs water after exercise."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Sprints: 20 metres), p. 70, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sprints: 20 metres"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-N",
+   "domain": "National Languages and Cultures",
+   "title": "Counting 1 to 10 in our language",
+   "objective": "Say, read and write the numbers 1 to 10, and count them in the home language.",
+   "course": "We can count in many languages. In English: one, two, three… ten. In our family language, the numbers have other names.\nWe write the figures 1 to 10 in the same way in every language.",
+   "model": "The adult counts five stones in the family language, then in English.",
+   "guided": "Ask the adult to count to ten in the family language. Repeat while touching stones.",
+   "exercise": "Count to five in your family language.",
+   "answer": "The numbers 1 to 5 said in the family language.",
+   "remediation": "Learn the numbers 1 to 3 first.",
+   "transfer": "Count the plates at the table in your family language.",
+   "materials": "Ten stones or bottle tops; “Home language” page (optional).",
+   "practice": [
+    {
+     "prompt": "Write the figures from 1 to 10.",
+     "answer": "1 2 3 4 5 6 7 8 9 10.",
+     "explanation": "The figures are the same in every language.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Count to ten in your family language and say it aloud.",
+     "answer": "The numbers 1 to 10 in the family language.",
+     "explanation": "Ask an adult to help you."
+    },
+    {
+     "prompt": "How many fingers on two hands?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "5 + 5 = 10."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Reading and Writing: numbers 1 to 10), p. 74, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading and Writing: numbers 1 to 10"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-I",
+   "domain": "ICTs",
+   "title": "The phone keypad: numbers for help",
+   "objective": "Simulate the use of a phone keypad and know when to ask an adult to call for help.",
+   "course": "A phone has a keypad with the numbers 0 to 9. To call, we press the numbers in order, then the green button. To end the call, we press the red button.\nIn danger, a child calls an adult. Families keep an important number (a parent, a neighbour) written near the phone.",
+   "model": "With a toy phone, Manka presses 1, 2, 3, then the green button: “Hello, Mama!” Then the red button.",
+   "guided": "Use a paper keypad. Press the numbers of a pretend number in order. Practise green to call, red to end.",
+   "exercise": "Which button do we press to end a call?",
+   "answer": "The red button.",
+   "accept": [
+    "the red button",
+    "red",
+    "red button",
+    "The red button"
+   ],
+   "remediation": "Find the numbers 1 to 5 on the keypad first.",
+   "transfer": "With an adult, learn the phone number of one parent by heart.",
+   "materials": "A toy phone or a paper keypad.",
+   "practice": [
+    {
+     "prompt": "Put the steps of a call in order.",
+     "type": "order",
+     "items": [
+      "Press the numbers.",
+      "Press the green button.",
+      "Talk.",
+      "Press the red button."
+     ],
+     "answer": "numbers, green, talk, red.",
+     "explanation": "Green to call, red to end."
+    },
+    {
+     "prompt": "How many different number keys are on a keypad (0 to 9)?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "0, 1, 2 … 9: 10 keys."
+    },
+    {
+     "prompt": "In danger, whom does a child call?",
+     "type": "mcq",
+     "choices": [
+      "a trusted adult",
+      "nobody",
+      "a stranger"
+     ],
+     "correct": 0,
+     "answer": "a trusted adult",
+     "explanation": "A trusted adult can help."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (The keypad of a communication device), p. 77, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "The keypad of a communication device"
    ]
   }
  ]

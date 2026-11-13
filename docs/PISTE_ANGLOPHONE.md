@@ -52,7 +52,7 @@ Chaque classe jumelle reprend le moteur de la SIL et du CE1 (`shared/learning-ap
 
 | Lot | Contenu | Volume estimé |
 |---|---|---|
-| A2 | Interface en anglais pour les classes anglophones (navigation, fiches parent, corrections) ; catalogue Class 1 avec ses huit thèmes | technique, sans leçon |
+| A2 | Interface en anglais pour les classes anglophones (navigation, fiches parent, corrections) ; catalogue Class 1 avec ses huit thèmes | **fait** : `shared/i18n.js` (ADR-017), `class1/`, registre `upcoming` |
 | A3 | Class 1 : English Language et Mathematics, quatre leçons par thème et par matière | 64 leçons |
 | A4 | Class 1 : les huit autres matières, une leçon par thème | 64 leçons |
 | A5 | Class 3 (jumelle du CE1), même découpage, avec la littérature | environ 130 leçons |

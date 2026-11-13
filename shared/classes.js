@@ -24,14 +24,23 @@
     {grade: 'CE2', label: 'CE2', twin: 'Class 4', engine: 'lessons', format: 'ce2', dir: '', catalog: 'data/catalog.json', group: 'units',
       progressKey: 'klassia_progress', status: {A: 'MAITRISEE', EC: 'EN_COURS', R: 'A_REVOIR'}, home: ['', '#home'], overview: '#units', week: true, revise: true, review: true}
   ];
-  const byGrade = Object.fromEntries(classes.map(c => [c.grade, c]));
+  // Classes en préparation (piste anglophone, ADR-013) : servies à leur adresse pour la relecture, mais pas encore proposées aux
+  // familles (accueil, sélecteur de classe, hors connexion, recherche). Une classe rejoint « classes » quand ses leçons existent.
+  // language : langue de l'interface et de l'enseignement ; « en » traduit l'interface (shared/i18n.js).
+  // domains: false : le programme ne groupe pas les matières en domaines ; le parcours « Par domaine » n'est pas proposé.
+  const upcoming = [
+    {grade: 'CLASS1', label: 'Class 1', twin: 'SIL', engine: 'lessons', dir: 'class1/', catalog: 'class1/data/catalog.json', group: 'units',
+      language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class1_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false}
+  ];
+  const all = [...classes, ...upcoming];
+  const byGrade = Object.fromEntries(all.map(c => [c.grade, c]));
   const classInfo = grade => byGrade[grade] || null;
   const nursery = grade => byGrade[grade]?.format === 'nursery';
   // Classe de la page ouverte, d'après son dossier ; la racine est la classe sans dossier (CE2).
   function currentClass(pathname) {
     const path = pathname ?? (typeof location === 'object' ? location.pathname : '/');
     const inDir = dir => new RegExp('/' + dir.slice(0, -1) + '(?:/|/index\\.html)$').test(path);
-    const hit = classes.find(c => c.dir && inDir(c.dir));
+    const hit = all.find(c => c.dir && inDir(c.dir));
     return hit || classes.find(c => c.dir === '');
   }
   // Chemin d'une ressource de la classe vu depuis sa propre page (« ./data/… »).
@@ -39,7 +48,7 @@
   // La page ouverte est-elle dans un dossier de classe ? Sert à trouver la racine de l'application.
   function inClassFolder(pathname) {
     const path = pathname ?? (typeof location === 'object' ? location.pathname : '/');
-    return classes.some(c => c.dir && new RegExp('/' + c.dir.slice(0, -1) + '(?:/|/index\\.html)$').test(path));
+    return all.some(c => c.dir && new RegExp('/' + c.dir.slice(0, -1) + '(?:/|/index\\.html)$').test(path));
   }
-  return {classes, classInfo, currentClass, inClassFolder, isNurseryClass: nursery, classLocalPath: local};
+  return {classes, upcoming, classInfo, currentClass, inClassFolder, isNurseryClass: nursery, classLocalPath: local};
 });

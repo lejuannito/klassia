@@ -46,7 +46,8 @@
     try {
       const c = window.Klassia?.currentClass?.();
       if (!c) return null;
-      if (c.dir || window.Klassia.inClassFolder?.()) return c.grade;
+      // Une classe en préparation (shared/classes.js, « upcoming ») n'a pas encore de paquet hors connexion.
+      if (c.dir || window.Klassia.inClassFolder?.()) return ORDER.includes(c.grade) ? c.grade : null;
       const deep = /[?&]unit=/.test(location.search) || /^#(lesson|subject|eval|qcm|unit|project)\b/.test(location.hash);
       return deep && /\/(index\.html)?$/.test(location.pathname) ? c.grade : null;
     } catch { return null; }

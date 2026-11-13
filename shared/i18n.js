@@ -83,7 +83,19 @@ const EN = {
  'Les données appartiennent au profil actif sur cet appareil. Exportez une sauvegarde avant de changer d’appareil.': 'The data belongs to the active profile on this device. Export a backup before changing device.',
  'réalisées': 'done', 'en cours': 'in progress', 'à revoir': 'to look at again',
  // Hors connexion (pwa.js)
- 'Classes hors connexion': 'Offline classes', 'Installer les cinq classes': 'Install the five classes',
+ 'Classes hors connexion': 'Offline classes', 'Installer toutes les classes': 'Install all the classes',
+ 'La mise à jour a été interrompue.': 'The update was interrupted.', 'L’édition installée est à jour.': 'The installed edition is up to date.',
+ 'Le téléchargement de toutes les classes est incomplet.': 'The download of all the classes is incomplete.',
+ 'Reconnectez-vous pour vérifier les mises à jour.': 'Reconnect to check for updates.', 'Vérifier les mises à jour': 'Check for updates',
+ 'Vérification des mises à jour…': 'Checking for updates…', 'Préparation de toutes les classes hors connexion…': 'Preparing all the classes for offline use…',
+ 'Mise à jour des classes hors connexion…': 'Updating the offline classes…', 'Chargement de la nouvelle édition…': 'Loading the new edition…',
+ 'Nouvelle édition téléchargée et vérifiée.': 'New edition downloaded and checked.', 'Recharger avec la nouvelle édition': 'Reload with the new edition',
+ 'Une nouvelle édition est active. Rechargez cette page pour l’utiliser.': 'A new edition is active. Reload this page to use it.',
+ 'Choisissez les classes à garder sur cet appareil.': 'Choose the classes to keep on this device.', 'Enregistrer ce choix': 'Save this choice',
+ 'Gardez au moins une classe.': 'Keep at least one class.',
+ 'Revue éditoriale (atelier pédagogique)': 'Editorial review (teaching workshop)', 'Moyenne section': 'Nursery (MS)', 'Grande section': 'Nursery (GS)',
+ // Mention des contenus en relecture (ADR-018)
+ 'En relecture pédagogique': 'Under teaching review', '· contenu proposé par Klassia, pas encore validé par un enseignant.': '· content proposed by Klassia, not yet validated by a teacher.',
  'Pour utiliser Klassia sans connexion, choisissez la classe de votre enfant à l’accueil, ou installez tout.': 'To use Klassia offline, choose your child’s class on the welcome screen, or install everything.',
 };
 
@@ -108,7 +120,13 @@ const PATTERNS = [
  [/^Suivi de (.+)$/, (m, n) => 'Progress of ' + name(n)],
  [/^(\d+) \/ (\d+) activités ou leçons réalisées$/, '$1 / $2 activities or lessons done'],
  [/^(\d+)\/(\d+) · réalisées$/, '$1/$2 · done'],
- [/^(\d+) en cours$/, '$1 in progress'], [/^(\d+) à revoir$/, '$1 to look at again'],
+ [/^(\d+) en cours$/, '$1 in progress'],
+ [/^(.+) disponibles? hors connexion · édition (\w+)\.$/, (m, list, code) => list.replace(/ et /g, ' and ') + ' available offline · edition ' + code + '.'],
+ [/^Le téléchargement de (.+) est incomplet\.$/, (m, list) => 'The download of ' + list.replace(/ et /g, ' and ') + ' is incomplete.'],
+ [/^(?:la )?(.+) n’est pas installée hors connexion sur cet appareil\.$/, '$1 is not installed offline on this device.'],
+ [/^Ajouter (?:la )?(.+) \((.+) Mo\)$/, 'Add $1 ($2 MB)'], [/^Préparation de (.+) hors connexion…$/, 'Preparing $1 for offline use…'],
+ [/^La base commune \((.+) Mo\) est toujours installée\.$/, 'The common base ($1 MB) is always installed.'],
+ [/^(.+) Mo$/, '$1 MB'], [/^(\d+) à revoir$/, '$1 to look at again'],
  [/^moyenne des évaluations ([\d.,]+)\/20$/, 'assessment average $1/20'], [/^Unité (\d+) · (.+)$/, 'Theme $1 · $2'],
 ];
 
@@ -118,14 +136,17 @@ function whole(core) {
  return undefined;
 }
 // Un libellé fait de morceaux séparés par « · » (« 0/32 · réalisées · 1 en cours ») se traduit morceau par morceau.
+// Un message fait de plusieurs phrases (état hors connexion) se traduit phrase par phrase.
+function pieces(core, sep) {
+ const parts = core.split(sep), done = parts.map(x => whole(x) ?? x);
+ return done.some((x, i) => x !== parts[i]) ? done.join(sep === ' · ' ? ' · ' : ' ') : undefined;
+}
 function translate(text) {
  const core = text.trim();
  if (!core) return text;
  let out = whole(core);
- if (out === undefined && core.includes(' · ')) {
-  const parts = core.split(' · '), done = parts.map(x => whole(x) ?? x);
-  if (done.some((x, i) => x !== parts[i])) out = done.join(' · ');
- }
+ if (out === undefined && core.includes(' · ')) out = pieces(core, ' · ');
+ if (out === undefined && /[.!?…] \S/.test(core)) out = pieces(core, /(?<=[.!?…]) (?=\S)/);
  return out === undefined ? text : text.replace(core, out);
 }
 K.t = text => (lang() === 'en' ? translate(String(text)) : String(text));

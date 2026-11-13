@@ -99,6 +99,16 @@ function progressRows(rows) {
  return `<ul class="klassia-progress-rows">${rows.map(r => { const pct = r.total ? Math.round(r.done * 100 / r.total) : 0; return `<li>${r.icon ? `<span class="klassia-progress-icon" aria-hidden="true">${r.icon}</span>` : ''}<div><div class="klassia-progress-head"><strong>${esc(r.title)}</strong><span>${pct} %</span></div><progress max="${r.total || 1}" value="${r.done}" aria-label="${esc(r.title)}"></progress><p>${[`${r.done}/${r.total}`, ...(r.notes || [])].map(esc).join(' · ')}</p></div></li>`; }).join('')}</ul>`;
 }
 K.progressSummary = progressSummary;
+// ADR-018 : un contenu en relecture est proposé aux familles avec cette mention, tant qu'un enseignant ne l'a pas validé.
+// Le statut vient du contenu (editorial.status) ; validated et published n'ont pas de mention.
+function reviewMark(editorial, en) {
+ const status = editorial?.status || 'in_review';
+ if (status === 'validated' || status === 'published') return '';
+ return `<p class="klassia-review-mark" data-review-mark="${esc(status)}" lang="${en ? 'en' : 'fr'}">${en
+  ? '<b>Under teaching review</b> · content proposed by Klassia, not yet validated by a teacher.'
+  : '<b>En relecture pédagogique</b> · contenu proposé par Klassia, pas encore validé par un enseignant.'}</p>`;
+}
+K.reviewMark = reviewMark;
 K.progressRows = progressRows;
 function classNavigation(grade){
  const info=K.classInfo(grade),nursery=K.isNurseryClass(grade), older=nursery;
@@ -179,10 +189,10 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-share-copy
 async function openOverview(refreshOnClose=false){
  document.getElementById('overviewDialog')?.remove();const d=document.createElement('dialog');d.id='overviewDialog';d.className='profiles-dialog';d.innerHTML='<form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form><h2>Suivi de '+esc(K.profile().name)+'</h2><p>Chargement des progrès…</p>';document.body.append(d);d.showModal();
  d.addEventListener('close',()=>{d.remove();if(refreshOnClose)location.reload();else document.querySelector('[data-overview]')?.focus();});
- const {base}=context();try{const get=async p=>{const r=await fetch(new URL(p,base));if(!r.ok){const e=Error('Suivi indisponible');e.notInstalled=r.headers.has('X-Klassia-Not-Installed');throw e;}return r.json();};const [ce2,ms,sil,ce1,gs]=await Promise.all(['CE2','MS','SIL','CE1','GS'].map(g=>get(K.classInfo(g).catalog)));
+ const {base}=context();try{const get=async p=>{const r=await fetch(new URL(p,base));if(!r.ok){const e=Error('Suivi indisponible');e.notInstalled=r.headers.has('X-Klassia-Not-Installed');throw e;}return r.json();};const [ce2,ms,sil,ce1,gs,class1]=await Promise.all(['CE2','MS','SIL','CE1','GS','CLASS1'].map(g=>get(K.classInfo(g).catalog)));
  const summaries=[['CE2',ce2.summary.lesson_count,Object.values(K.read('klassia_progress',{})).filter(s=>s==='MAITRISEE').length],['MS',ms.summary.activities,ms.themes.reduce((n,t)=>n+Object.values(K.read('klassia_ms_progress_v2:'+t.id,{})).filter(s=>s==='A').length,0)]];
  summaries.push(['GS',gs.summary.activities,gs.themes.reduce((n,t)=>n+Object.values(K.read('klassia_gs_progress_v2:'+t.id,{})).filter(s=>s==='A').length,0)]);
- for(const [grade,catalog] of [['SIL',sil],['CE1',ce1]]){let us;try{us=await Promise.all(catalog.units.map(x=>x.lessons?x:get(K.classInfo(grade).dir+'data/'+x.path)));}catch(e){if(!e.notInstalled)throw e;summaries.push([grade,0,0,true]);continue;}const progress=K.read('klassia_'+grade.toLowerCase()+'_progress_v1',{}),ids=us.flatMap(x=>x.lessons.map(l=>l.id));summaries.push([grade,ids.length,ids.filter(id=>progress[id]==='A').length]);}
+ for(const [grade,catalog] of [['SIL',sil],['CE1',ce1],['CLASS1',class1]]){let us;try{us=await Promise.all(catalog.units.map(x=>x.lessons?x:get(K.classInfo(grade).dir+'data/'+x.path)));}catch(e){if(!e.notInstalled)throw e;summaries.push([grade,0,0,true]);continue;}const progress=K.read('klassia_'+grade.toLowerCase()+'_progress_v1',{}),ids=us.flatMap(x=>x.lessons.map(l=>l.id));summaries.push([grade,ids.length,ids.filter(id=>progress[id]==='A').length]);}
  d.innerHTML='<form method="dialog"><button class="dialog-close" aria-label="Fermer">×</button></form><h2>Suivi de '+esc(K.profile().name)+'</h2><p>Avancement déclaré sur cet appareil. Réaliser une activité ne vaut pas validation pédagogique.</p>'+weekReportHtml()+summaries.map(([g,total,done,absent])=>'<article class="adult-guide"><h3>'+gradeNames[g]+'</h3>'+(absent?'<p>Classe non installée hors connexion sur cet appareil.</p>':'<p>'+done+' / '+total+' activités ou leçons réalisées</p><progress max="'+total+'" value="'+done+'"></progress>')+'<p><a href="'+new URL(gradePaths[g],base).href+'">Ouvrir cette classe</a></p></article>').join('');
  }catch(e){d.querySelector('p').textContent=e.message+' — réessayez avec la connexion ou le pack hors connexion.';}
 
@@ -251,7 +261,10 @@ function continueCard(step,grade){const nursery=K.isNurseryClass(grade),label=nu
 // First launch: the family states the child's school and class once, then the
 // entry page opens that class directly. Existing addresses are unchanged.
 const FAMILY_KEY='klassia_family';
-const familyClasses=K.classes.map(x=>[x.grade,x.label,x.twin]);
+// L'accueil liste les classes francophones avec leur jumelle anglophone ; une famille anglophone dont la classe jumelle
+// existe dans Klassia (Class 1 pour la SIL) y est conduite, sinon vers la classe francophone équivalente.
+const familyClasses=K.classes.filter(x=>x.subsystem!=='anglophone').map(x=>[x.grade,x.label,x.twin]);
+const anglophoneTwin=grade=>K.classes.find(x=>x.subsystem==='anglophone'&&x.twin===grade);
 function isLanding(c){return c.grade==='CE2'&&!location.search&&['','#home'].includes(location.hash);}
 function cameFromKlassia(base){try{const r=new URL(document.referrer);return r.origin===location.origin&&r.pathname.startsWith(base.pathname);}catch{return false;}}
 function welcome(c){
@@ -259,11 +272,11 @@ function welcome(c){
  const name=K.profile().name;
  s.innerHTML=`<h2 id="klassiaWelcomeTitle">Bienvenue sur Klassia</h2><p>Trois réponses pour ouvrir directement la classe de votre enfant. Vous pourrez les changer plus tard.</p><form data-welcome><label>Prénom ou pseudonyme de l’enfant <input name="name" maxlength="40" autocomplete="off" value="${name==='Mon enfant'?'':esc(name)}" placeholder="Mon enfant"></label><fieldset><legend>École de l’enfant</legend><label><input type="radio" name="school" value="fr" checked> Francophone</label><label><input type="radio" name="school" value="en"> Anglophone</label><label><input type="radio" name="school" value="both"> Bilingue (les deux)</label></fieldset><p data-welcome-note role="status"></p><fieldset><legend>Classe</legend>${familyClasses.map(([g,fr,en])=>`<label><input type="radio" name="grade" value="${g}" required> ${fr} · ${en}</label>`).join('')}<p class="klassia-welcome-hint">Le CP et la Class 2 ne sont pas encore disponibles.</p></fieldset><div class="klassia-welcome-actions"><button type="submit" class="btn primary">Commencer</button><button type="button" data-welcome-later>Plus tard</button></div></form>`;
  const form=s.querySelector('form'), note=s.querySelector('[data-welcome-note]');
- form.addEventListener('change',e=>{if(e.target.name==='school')note.textContent=e.target.value==='fr'?'':'Les classes anglophones sont en préparation. En attendant, Klassia ouvre la classe francophone équivalente, où l’anglais est une matière.';});
+ form.addEventListener('change',e=>{if(e.target.name==='school')note.textContent=e.target.value==='fr'?'':e.target.value==='en'?'La Class 1 est disponible en anglais, en relecture pédagogique. Pour les autres classes anglophones, en préparation, Klassia ouvre la classe francophone équivalente, où l’anglais est une matière.':'Pour une école bilingue, Klassia ouvre la classe francophone, où l’anglais est une matière.';});
  form.onsubmit=e=>{
   e.preventDefault();
-  const grade=form.elements.grade.value, school=form.elements.school.value, child=form.elements.name.value.trim();
-  if(!grade)return;
+  const school=form.elements.school.value, chosen=form.elements.grade.value, grade=school==='en'&&anglophoneTwin(chosen)?anglophoneTwin(chosen).grade:chosen, child=form.elements.name.value.trim();
+  if(!chosen)return;
   if(child&&child!==K.profile().name){try{K.renameProfile(child);}catch(error){note.textContent=error.message;return;}}
   K.write(FAMILY_KEY,{school,grade,at:new Date().toISOString()});
   if(grade==='CE2')location.reload();else location.href=new URL(gradePaths[grade],c.base).href;

@@ -640,7 +640,7 @@ async function testOfflineClasses(browser, base) {
     // Entry page, class still unknown: nothing is downloaded until the family chooses.
     await page.goto(base);
     await status.getByText(/choisissez la classe de votre enfant/).waitFor();
-    await status.getByRole('button', { name: 'Installer les cinq classes' }).waitFor();
+    await status.getByRole('button', { name: 'Installer toutes les classes' }).waitFor();
     assert.equal(await page.evaluate(async () => Boolean(await navigator.serviceWorker.getRegistration())), false);
 
     // A class page installs the common files and that class.
@@ -666,7 +666,7 @@ async function testOfflineClasses(browser, base) {
     await page.locator('.lesson-card').waitFor();
     await page.goto(base + 'search.html?q=ecole');
     await page.locator('#searchResults li').first().waitFor();
-    assert.match(await page.locator('#searchStatus').innerText(), /ne couvre pas CE2, MS, GS : ces classes ne sont pas installées/);
+    assert.match(await page.locator('#searchStatus').innerText(), /ne couvre pas CE2, MS, GS, Class 1 : ces classes ne sont pas installées/);
     await context.setOffline(false);
 
     // Taking a class off frees its files.

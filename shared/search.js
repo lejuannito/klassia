@@ -61,6 +61,8 @@
   if(start>0){const space=s.indexOf(' ',start);if(space>=0)start=space+1;}
   return (start?'…':'')+s.slice(start,start+220).trim()+'…';
  }
+ // Nom court d'une classe dans les résultats : le code pour les classes francophones (CE2, MS…), le nom pour les autres (Class 1).
+ const short=g=>{const c=globalThis.Klassia?.classInfo?.(g);return c?.subsystem==='anglophone'?c.label:g;};
  function search(records,query,{grade='',subject=''}={}){
   const qs=terms(query);if(!qs.length)return [];
   return records.filter(r=>(!grade||r.grade===grade)&&(!subject||r.subject===subject)).map(r=>{
@@ -80,7 +82,7 @@
   const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   function page(){
    const batch=found.slice(shown,shown+30);shown+=batch.length;
-   for(const r of batch){const href=new URL(r.href,location.href);href.searchParams.set('recherche',location.search.slice(1));const li=document.createElement('li');li.innerHTML=`<article><p class="search-meta">${esc(r.grade)} · ${esc(r.subject)}</p><h2><a href="${esc(href.href)}">${esc(r.title)}</a></h2><p>${esc(r.excerpt)}</p></article>`;results.append(li);}
+   for(const r of batch){const href=new URL(r.href,location.href);href.searchParams.set('recherche',location.search.slice(1));const li=document.createElement('li');li.innerHTML=`<article><p class="search-meta">${esc(short(r.grade))} · ${esc(r.subject)}</p><h2><a href="${esc(href.href)}">${esc(r.title)}</a></h2><p>${esc(r.excerpt)}</p></article>`;results.append(li);}
    more.hidden=shown>=found.length;
   }
   async function run(){
@@ -89,7 +91,7 @@
    history.replaceState(history.state,'',location.pathname+(state.size?'?'+state:''));
    results.replaceChildren();more.hidden=true;
    if(!terms(query).length){status.textContent='Saisissez une notion, par exemple : les états de l’eau.';return;}
-   status.textContent='Recherche dans les cinq classes…';
+   status.textContent='Recherche dans toutes les classes…';
    try{
     if(!loading)loading=load(async p=>{const r=await fetch(new URL(p,location.href));if(!r.ok){const e=Error('Contenu indisponible');e.notInstalled=r.headers.has('X-Klassia-Not-Installed');throw e;}return r.json();}).catch(e=>{loading=null;throw e;});
     const records=await loading;if(token!==revision)return;
@@ -97,8 +99,8 @@
     subject.replaceChildren(new Option('Toutes les matières',''),...[...new Set(records.map(r=>r.subject))].sort().map(s=>new Option(s,s)));
     subject.value=selected;
     found=search(records,query,{grade:gradeFilter,subject:subject.value});shown=0;
-    status.textContent=(found.length?`${found.length} résultat${found.length>1?'s':''} · les titres et objectifs sont prioritaires.`:'Aucun résultat. Essayez moins de mots ou une autre notion, ou retirez les filtres.')+(records.missing?.length?` Hors connexion, la recherche ne couvre pas ${records.missing.join(', ')} : ${records.missing.length>1?'ces classes ne sont pas installées':'cette classe n’est pas installée'} sur cet appareil.`:'');page();
-   }catch{if(token===revision)status.textContent='Recherche indisponible : vérifiez la connexion ou attendez le téléchargement complet des cinq classes, puis réessayez.';}
+    status.textContent=(found.length?`${found.length} résultat${found.length>1?'s':''} · les titres et objectifs sont prioritaires.`:'Aucun résultat. Essayez moins de mots ou une autre notion, ou retirez les filtres.')+(records.missing?.length?` Hors connexion, la recherche ne couvre pas ${records.missing.map(short).join(', ')} : ${records.missing.length>1?'ces classes ne sont pas installées':'cette classe n’est pas installée'} sur cet appareil.`:'');page();
+   }catch{if(token===revision)status.textContent='Recherche indisponible : vérifiez la connexion ou attendez le téléchargement complet de toutes les classes, puis réessayez.';}
   }
   form.onsubmit=e=>{e.preventDefault();run();};grade.onchange=run;subject.onchange=run;more.onclick=page;
   // URL state survives browser Back, including when the page is restored from memory.

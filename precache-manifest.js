@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "8e496ab6d88e6ec0f50ff54985be509ff0e513f43522b723b179549b6e84ec32",
+  "version": "354deba662f2c81bd817b71f86dc365270fdf308fe7fe725a1c5777d8684d00a",
   "packs": {
     "CE1": {
       "files": 52,
@@ -23,7 +23,7 @@ self.KLASSIA_RELEASE = {
     },
     "common": {
       "files": 63,
-      "bytes": 536055
+      "bytes": 540869
     },
     "CLASS1": {
       "files": 8,
@@ -31,7 +31,7 @@ self.KLASSIA_RELEASE = {
     },
     "ATELIER": {
       "files": 1,
-      "bytes": 714929
+      "bytes": 759797
     }
   },
   "files": [
@@ -1216,8 +1216,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "b8ac91b4c1ed7302a610b160f8eb174995e6634ae2f13ece4589a22dfbadc8dc",
-      "size": 714929,
+      "sha256": "ffdc53651d71db93c0f0bd1db7682b2afcc61c2adff230585600585d3c1a6eca",
+      "size": 759797,
       "pack": "ATELIER"
     },
     {
@@ -1451,13 +1451,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./pwa.js",
-      "sha256": "ffd7ce46da6545edf1dbb553d5b139c22e3683bacd8a603cce1d23537dca58f0",
-      "size": 14215
+      "sha256": "416a268bf8f56a18e104887728dcc93d3c5f69c53f9e83684080c91e94a407b4",
+      "size": 14375
     },
     {
       "url": "./search.html",
-      "sha256": "31f9bbdf582ebaaf6a9bb700fd4f9f86cd435f2c026b0c638b42a3c64aa5edc6",
-      "size": 1628
+      "sha256": "2707135f2778ad04d4f002c781a566e54e4842ed32525625f55f16daeda2e0ad",
+      "size": 1667
     },
     {
       "url": "./service-worker.js",
@@ -1481,8 +1481,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/classes.js",
-      "sha256": "838ad4bf52362ee7d4ae448536efe0af86557a7e047aef8972eac785baa9a826",
-      "size": 4777
+      "sha256": "98cb5b76fddfa89c7bae55eeacf1576dd1e54f1fb8a14b8efeeda142ea2b255f",
+      "size": 4782
     },
     {
       "url": "./shared/core.js",
@@ -1511,8 +1511,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/i18n.js",
-      "sha256": "6308468cea1b6d5518d773f60bdeff3e96449ad6b084232f36fe6ac1783c8dd5",
-      "size": 14959
+      "sha256": "8454a3477fd9b1fbd921b8c0d5834179fec5e15e174d25df940ceafc0c707d48",
+      "size": 17555
     },
     {
       "url": "./shared/ink.js",
@@ -1526,8 +1526,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "93fa17135723f4125e05c0844b50f271e04fee7548a323b9771425dc28936773",
-      "size": 45702
+      "sha256": "e646e1d80414f0ed6fcab3ad1debe9026101a5c5a983ae90a7098792b038b119",
+      "size": 45733
     },
     {
       "url": "./shared/lesson-model.js",
@@ -1561,8 +1561,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/nursery.js",
-      "sha256": "5e0faf8daa2894cbefbd328abc543efa20e3b49a69bcb0a814aea50210632129",
-      "size": 26323
+      "sha256": "e4e461092366cbbc7c326bfd3cfec0040a3c07d522718485c23a9538d2a810ea",
+      "size": 26360
     },
     {
       "url": "./shared/pilot.css",
@@ -1626,8 +1626,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/search.js",
-      "sha256": "7d38afc2a43d6330f976ebb47499189a40e15ddff8c9249a8276a4532c818a1c",
-      "size": 8698
+      "sha256": "f11caaae4189d692976ee968baefde8490c633c095ec3d532702a8b96af6aca6",
+      "size": 8966
     },
     {
       "url": "./shared/speech.js",
@@ -1636,13 +1636,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "b2bdabde1826639ab10353d0ec109b72674bb1f035013151af0c82cbcb01cd7c",
-      "size": 43380
+      "sha256": "e1913757ffa2b1cb2763cfd4ea2841811070093ff5a7e84a66fc0e78d82aefae",
+      "size": 43637
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "ed87401e86794b0ca58192e2cfb9594fbd358426e94ce3255944724d8d5c5867",
-      "size": 33461
+      "sha256": "da1fffe51fd540df69f6a35f8019e0bfe6cd6690a57c9158836996a14c9557bc",
+      "size": 34841
     },
     {
       "url": "./shared/week.js",
@@ -1651,13 +1651,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/workshop.js",
-      "sha256": "6b9102de2c543642d2abe77f75a736f065372b58b501113de674ac5df00cc560",
-      "size": 13267
+      "sha256": "09c006ec78b4596f74e687476551cbefae015b2664ab4e95d4b0409d638c4887",
+      "size": 13306
     },
     {
       "url": "./sil/data/curriculum.json",
-      "sha256": "6c0e1ca774a0f254e9b7fbb0969a651bcd576615bd68466f198e5788959268ed",
-      "size": 8860
+      "sha256": "6bec54fd23db434f43e93bfe47f94ab56b35d9a37d2017e69aa1192c27c2fcd2",
+      "size": 8862
     },
     {
       "url": "./sil/data/sil-u1.json",

@@ -22,16 +22,15 @@
       progressKey: 'klassia_ce1_progress_v1', qcm: 'ce1/data/qcm.json', home: ['', '#home'], overview: '#units', week: true, revise: true, review: true},
     // status : noms sous lesquels la progression du CE2 est enregistrée depuis l'origine.
     {grade: 'CE2', label: 'CE2', twin: 'Class 4', engine: 'lessons', format: 'ce2', dir: '', catalog: 'data/catalog.json', group: 'units',
-      progressKey: 'klassia_progress', status: {A: 'MAITRISEE', EC: 'EN_COURS', R: 'A_REVOIR'}, home: ['', '#home'], overview: '#units', week: true, revise: true, review: true}
-  ];
-  // Classes en préparation (piste anglophone, ADR-013) : servies à leur adresse pour la relecture, mais pas encore proposées aux
-  // familles (accueil, sélecteur de classe, hors connexion, recherche). Une classe rejoint « classes » quand ses leçons existent.
-  // language : langue de l'interface et de l'enseignement ; « en » traduit l'interface (shared/i18n.js).
-  // domains: false : le programme ne groupe pas les matières en domaines ; le parcours « Par domaine » n'est pas proposé.
-  const upcoming = [
+      progressKey: 'klassia_progress', status: {A: 'MAITRISEE', EC: 'EN_COURS', R: 'A_REVOIR'}, home: ['', '#home'], overview: '#units', week: true, revise: true, review: true},
+    // Piste anglophone (ADR-013, ADR-017) : language « en » traduit l'interface (shared/i18n.js) ; domains: false, le programme ne
+    // groupe pas les matières en domaines et le parcours « Par domaine » n'est pas proposé ; subsystem situe la classe pour l'accueil.
     {grade: 'CLASS1', label: 'Class 1', twin: 'SIL', engine: 'lessons', dir: 'class1/', catalog: 'class1/data/catalog.json', group: 'units',
       language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class1_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false}
   ];
+  // Classes servies à leur adresse pour la relecture mais pas encore proposées aux familles (accueil, sélecteur, hors connexion,
+  // recherche). Vide depuis ADR-018 : un contenu en relecture est proposé, avec une mention visible.
+  const upcoming = [];
   const all = [...classes, ...upcoming];
   const byGrade = Object.fromEntries(all.map(c => [c.grade, c]));
   const classInfo = grade => byGrade[grade] || null;

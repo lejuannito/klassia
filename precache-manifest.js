@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "89ef0dbfb434703a65ffc0cd433cbc9dd5f5ed0c1a6bd436c459232dcaa046f0",
+  "version": "9df809fc6f36b19747e746d6a20530a079c8d044725186e811b73ceca9f30141",
   "packs": {
     "CE1": {
       "files": 52,
@@ -23,7 +23,7 @@ self.KLASSIA_RELEASE = {
     },
     "common": {
       "files": 71,
-      "bytes": 582967
+      "bytes": 583373
     },
     "CLASS1": {
       "files": 8,
@@ -1709,8 +1709,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./service-worker.js",
-      "sha256": "8a6cdbb967ce4a90fd6522a0ecc7bd0aa48ee81616f0cb824c25536401115bde",
-      "size": 10702
+      "sha256": "266e0db8cfee2179fc9d275dcf3419a435b3c416d769a1e52c09592683721d38",
+      "size": 11095
     },
     {
       "url": "./shared/activity.js",
@@ -1884,8 +1884,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "e1913757ffa2b1cb2763cfd4ea2841811070093ff5a7e84a66fc0e78d82aefae",
-      "size": 43637
+      "sha256": "94d7ca6deabcf19d1b39764d6c92ec9b3e5dcfe538d20295c8f3003557044bf3",
+      "size": 43650
     },
     {
       "url": "./shared/ui.js",

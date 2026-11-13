@@ -37,7 +37,8 @@ function worker(fetchFile = async name => new Response(name), manifest = files, 
         return {
           put: async (url, value) => cache.set(String(url), value),
           match: async url => cache.get(String(url))?.clone(),
-          delete: async url => cache.delete(String(url))
+          delete: async url => cache.delete(String(url)),
+          keys: async () => [...cache.keys()].map(url => ({ url }))
         };
       },
       delete: async name => maps.delete(name),

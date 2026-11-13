@@ -93,6 +93,8 @@ async function testHomeLanguage(page, base) {
   }
   assert.match(await root.innerText(), /3 mots enregistrés sur 29/);
   assert.equal(await root.locator('[data-choice]').count(), 3);
+  // Le nom du mot garde la taille du bouton : seule l'image est agrandie (un long nom débordait sur le bouton voisin).
+  assert.ok(await root.locator('[data-choice] span[translate="no"]').first().evaluate(label => parseFloat(getComputedStyle(label).fontSize) < 24), 'word label keeps the button size');
   const result = root.locator('[data-home-result]');
   for (let i = 0; i < 3 && !/Bravo/.test(await result.innerText()); i++) await root.locator('[data-choice]').nth(i).click();
   await result.filter({ hasText: 'Bravo' }).waitFor();
@@ -684,6 +686,26 @@ async function testOfflineClasses(browser, base) {
   }
 }
 
+// En cas d'échec, l'état de la page aide à distinguer un rendu bloqué d'une assertion fausse.
+let diagnosed = null;
+const pageErrors = [];
+async function diagnose() {
+  if (!diagnosed || diagnosed.isClosed()) return;
+  try {
+    const state = await Promise.race([diagnosed.evaluate(() => ({
+      url: location.href, ready: document.readyState, online: navigator.onLine,
+      worker: navigator.serviceWorker?.controller?.state || 'none',
+      app: (document.querySelector('#app,main')?.innerText || '').slice(0, 300),
+      loaded: performance.getEntriesByType('resource').map(e => e.name.replace(location.origin, '') + ' ' + Math.round(e.duration) + 'ms').slice(-12)
+    })), new Promise(resolve => setTimeout(() => resolve('page did not answer within 5 s'), 5000))]);
+    console.error('Page state at failure:', state);
+    console.error('Last page errors:', pageErrors.slice(-14));
+    // Le service worker répond-il encore ? Une nouvelle requête montre s'il est bloqué ou seulement une requête perdue.
+    const probe = await Promise.race([diagnosed.evaluate(async () => { const t = performance.now(); const r = await fetch(new URL('index.html', document.baseURI).href); return r.status + ' in ' + Math.round(performance.now() - t) + ' ms'; }),
+      new Promise(resolve => setTimeout(() => resolve('no answer within 5 s'), 5000))]);
+    console.error('Fresh request through the service worker:', probe);
+  } catch (error) { console.error('Page state unavailable:', error.message); }
+}
 async function run() {
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
   const origin = 'http://127.0.0.1:' + server.address().port;
@@ -703,6 +725,9 @@ async function run() {
   await require('./offline-all.cjs')(context);
     const page = await context.newPage();
     page.setDefaultTimeout(20000);
+    diagnosed = page;
+    page.on('pageerror', error => pageErrors.push(page.url().replace(base, '') + ' · ' + error.message + ' · ' + String(error.stack || '').split('\n').slice(1, 3).join(' ')));
+    page.on('requestfailed', request => pageErrors.push('request failed · ' + request.url().replace(base, '') + ' · ' + request.failure()?.errorText + (request.serviceWorker() ? ' · from worker' : '')));
     const status = page.locator('#pwaTools');
     const check = status.getByRole('button', { name: /^(Vérifier les mises à jour|Réessayer)$/ });
     const apply = status.getByRole('button', { name: 'Recharger avec la nouvelle édition', exact: true });
@@ -1187,6 +1212,9 @@ async function run() {
     await context.close();
     // Last, in its own context: a device that installs one class at a time.
     await testOfflineClasses(browser, base);
+  } catch (error) {
+    await diagnose();
+    throw error;
   } finally {
     await browser?.close();
     server.close();

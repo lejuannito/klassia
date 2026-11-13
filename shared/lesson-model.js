@@ -36,7 +36,7 @@
       review: {help: text(l.teacher_guide?.remediation || ''), transfer: '', materials: '', source: l.source || null, editorial: l.editorial || null}
     };
   }
-  // Activité de maternelle (ms/app-ui-v13.js) ; « en » choisit la langue de la consigne.
+  // Activité de maternelle (shared/nursery.js) ; « en » choisit la langue de la consigne.
   function fromActivity(a, en = false) {
     const pick = k => text(en ? a[k + '_en'] : a[k + '_fr']) || text(a[k + '_fr']);
     const steps = list(en ? a.steps_en : a.steps_fr), questions = list(a.questions);

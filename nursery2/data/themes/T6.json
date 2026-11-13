@@ -1,0 +1,530 @@
+{
+ "id": "T6",
+ "grade": "NURSERY2",
+ "title_en": "Plants",
+ "title_fr": "Le monde végétal",
+ "twin": "T6",
+ "curriculum_number": 5,
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Our school garden",
+  "description_en": "At the end of the theme, the child shows a planted tree or flower, explains how compost feeds the soil, recites a fruit poem, draws and colours a fruit and counts seeds up to 20."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "🗣️",
+   "activities": [
+    {
+     "id": "N2-T6-LC1",
+     "type": "rhyme",
+     "area": "Poetry and Rhymes",
+     "title_en": "Mango, mango",
+     "goal_en": "Recite a short fruit poem with expression.",
+     "prompt_en": "Listen to the mango poem and say it with me.",
+     "steps_en": [
+      "Say the poem with gestures.",
+      "Repeat line by line.",
+      "Say it together.",
+      "Ask: which fruit is it? what colour?"
+     ],
+     "observe_en": [
+      "Recites the poem.",
+      "Uses gestures.",
+      "Names the fruit and its colour."
+     ],
+     "materials_en": [
+      "a mango or a picture"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery Two, table 34 (Poetry and Rhymes: Poems), p. 61; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "story_en": "Mango, mango, on the tree,\nGreen today, but wait and see,\nYellow, sweet and soft one day,\nWe will share it, hip hooray!"
+    },
+    {
+     "id": "N2-T6-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "Blending sounds: c-o-rn, m-a-ngo",
+     "goal_en": "Blend sounds to read simple words.",
+     "prompt_en": "Listen: m – a – n. Put the sounds together: man! Now try with the cards.",
+     "steps_en": [
+      "Say three sounds slowly.",
+      "Blend them together to make a word.",
+      "Show letter cards for simple words (sun, pot, bag).",
+      "The child blends and reads."
+     ],
+     "observe_en": [
+      "Says each sound.",
+      "Blends the sounds into a word.",
+      "Reads two simple words."
+     ],
+     "materials_en": [
+      "letter cards"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 36 (Reading: Letters of the alphabet), p. 63; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "s",
+       "u",
+       "n",
+       "→ sun ☀️"
+      ]
+     }
+    },
+    {
+     "id": "N2-T6-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "Zigzag letters and numbers: v, w, x, z, 1, 4, 7",
+     "goal_en": "Write letters and numbers made of straight slanted lines.",
+     "prompt_en": "Zig and zag! These letters have straight slanted lines: v, w, x, z. And the numbers 1, 4, 7.",
+     "steps_en": [
+      "Draw the letters in the air.",
+      "Trace them in sand.",
+      "Trace them on dotted lines.",
+      "Write a row of each."
+     ],
+     "observe_en": [
+      "Makes sharp points.",
+      "Starts at the top.",
+      "Keeps the letters on the line."
+     ],
+     "materials_en": [
+      "pencil",
+      "tracing paper"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 37 (Writing: Pre-letter formation), p. 64; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N2-T6-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "Counting fruits to ten in French",
+     "goal_en": "Count objects from 1 to 10 in French.",
+     "prompt_en": "Let us count the oranges in French: un, deux, trois… dix!",
+     "steps_en": [
+      "Count 10 fruits in English.",
+      "Count them again in French.",
+      "The child counts alone, pointing.",
+      "Play shop: “Trois mangues, s’il vous plaît !”"
+     ],
+     "observe_en": [
+      "Counts to 10 in French.",
+      "Points to each fruit.",
+      "Uses a number in a sentence."
+     ],
+     "materials_en": [
+      "10 fruits or pictures"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 38 (French: Compter), p. 65; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔎",
+   "activities": [
+    {
+     "id": "N2-T6-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Counting seeds up to 20",
+     "goal_en": "Count seeds up to 20 and make groups of 10.",
+     "prompt_en": "How many seeds? Make a group of 10 first, then count the rest.",
+     "steps_en": [
+      "Put 13 to 20 seeds on the table.",
+      "Make a group of 10 in a cup.",
+      "Count on with the others.",
+      "Write the number with help."
+     ],
+     "observe_en": [
+      "Makes a group of 10.",
+      "Counts on.",
+      "Says the total."
+     ],
+     "materials_en": [
+      "20 seeds",
+      "a cup"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Counting), p. 66–67; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰",
+       "🌰"
+      ]
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "How many seeds can you see?",
+      "answer": 16,
+      "explanation_en": "Count 10, then count on: eleven… sixteen. There are 16 seeds."
+     }
+    },
+    {
+     "id": "N2-T6-ST2",
+     "type": "agriculture",
+     "area": "Agriculture",
+     "title_en": "Making compost",
+     "goal_en": "Identify sources of manure and make compost.",
+     "prompt_en": "Peels, leaves and grass can become food for the soil. This is compost.",
+     "steps_en": [
+      "Show kitchen peels, dry leaves and grass.",
+      "Put them in a hole or a box in layers with a little soil.",
+      "Add a little water and cover.",
+      "Check it every week with gloves."
+     ],
+     "observe_en": [
+      "Names things that go into compost.",
+      "Helps to make the layers.",
+      "Says that compost feeds plants."
+     ],
+     "materials_en": [
+      "peels",
+      "leaves",
+      "soil",
+      "a box or a hole",
+      "gloves"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 43 (Agriculture: Sources of manure), p. 76; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T6-ST3",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "Making dough and paste",
+     "goal_en": "Mix water and powders to make a paste or a dough.",
+     "prompt_en": "Flour and water make dough. Soil and water make mud paste. Let us try!",
+     "steps_en": [
+      "Put some flour in a bowl, add water little by little.",
+      "Mix and knead to make dough.",
+      "Do the same with soil.",
+      "Compare: what happens with too much water?"
+     ],
+     "observe_en": [
+      "Adds water little by little.",
+      "Mixes to make a paste.",
+      "Explains what changed."
+     ],
+     "materials_en": [
+      "flour",
+      "soil",
+      "water",
+      "bowls"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 42 (Science and Technology: Experiments), p. 73–75; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🤝",
+   "activities": [
+    {
+     "id": "N2-T6-PV1",
+     "type": "environment",
+     "area": "Environmental Education",
+     "title_en": "Planting a tree",
+     "goal_en": "Practise love and care for the environment by planting a tree or flowers.",
+     "prompt_en": "Trees give shade and clean air. Let us plant a seedling and look after it.",
+     "steps_en": [
+      "Choose a place with an adult.",
+      "Dig a hole and put the seedling in.",
+      "Fill with soil and compost, then water.",
+      "Make a sign with the child’s name."
+     ],
+     "observe_en": [
+      "Helps to plant.",
+      "Waters the plant.",
+      "Says why trees are important."
+     ],
+     "materials_en": [
+      "a seedling",
+      "a hoe or trowel",
+      "water"
+     ],
+     "duration_minutes": 20,
+     "source_refs": [
+      "Nursery Two, table 46 (Environmental Education: Climate change), p. 79; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T6-PV2",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "A balanced plate",
+     "goal_en": "Choose a balanced diet with fruit and vegetables.",
+     "prompt_en": "A good plate has food for energy, food for growing and fruit or vegetables.",
+     "steps_en": [
+      "Show pictures of foods.",
+      "Build a plate together: plantain or rice, beans or fish, vegetables.",
+      "Add a fruit for dessert.",
+      "Ask what the child ate yesterday."
+     ],
+     "observe_en": [
+      "Builds a plate with three kinds of food.",
+      "Adds fruit or vegetables.",
+      "Names a healthy meal from home."
+     ],
+     "materials_en": [
+      "pictures of foods",
+      "paper plates"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 48 (Health Education and Nutrition: Good health habits), p. 81; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T6-PV3",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "Our public garden",
+     "goal_en": "Recognise the common good and use public places with care.",
+     "prompt_en": "The public garden is for everyone. We do not pick the flowers or break the branches.",
+     "steps_en": [
+      "Show a picture of a public garden or the school garden.",
+      "Ask: who does it belong to? (everyone)",
+      "List good and bad actions there.",
+      "Take care of a part of the school garden."
+     ],
+     "observe_en": [
+      "Says that it belongs to everyone.",
+      "Gives a good action.",
+      "Helps to care for the garden."
+     ],
+     "materials_en": [
+      "pictures",
+      "a watering can"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 44 (Citizenship: Common good), p. 77; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N2-T6-AC1",
+     "type": "drawing",
+     "area": "Drawing and Colouring",
+     "title_en": "Drawing a fruit and a plant",
+     "goal_en": "Draw and colour fruits and plants using at least two colours.",
+     "prompt_en": "Look at the pineapple. Draw it and colour it with yellow and green.",
+     "steps_en": [
+      "Observe a real fruit or plant.",
+      "Draw the main shape.",
+      "Add details (leaves, spots).",
+      "Colour with at least two colours."
+     ],
+     "observe_en": [
+      "Draws a recognisable fruit.",
+      "Uses two or more colours.",
+      "Colours carefully."
+     ],
+     "materials_en": [
+      "a fruit",
+      "paper",
+      "crayons"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 50 (Drawing and Colouring: Drawing and colouring diverse objects), p. 83; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "libre"
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N2-T6-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Passing the ball with the feet",
+     "goal_en": "Practise football passes and play with others fairly.",
+     "prompt_en": "Pass the ball to your friend with the inside of your foot. Then stop the ball!",
+     "steps_en": [
+      "Show a pass with the inside of the foot.",
+      "Pass in pairs, a few steps apart.",
+      "Stop the ball with the foot.",
+      "Play a small game, passing to every player."
+     ],
+     "observe_en": [
+      "Passes with the inside of the foot.",
+      "Stops the ball.",
+      "Passes to every player."
+     ],
+     "materials_en": [
+      "a soft ball",
+      "cones"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 53 (Physical Education and Sports: Team sports), p. 86; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Recites a fruit poem.",
+   "Reads simple blended words.",
+   "Writes v, w, x, z and 1, 4, 7.",
+   "Counts seeds up to 20.",
+   "Explains compost.",
+   "Makes dough or paste.",
+   "Plants a tree or a flower.",
+   "Draws and colours a fruit with two colours."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery Two tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

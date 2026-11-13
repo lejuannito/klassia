@@ -1,0 +1,512 @@
+{
+ "id": "T3",
+ "grade": "NURSERY2",
+ "title_en": "The family and home",
+ "title_fr": "La famille et la maison",
+ "twin": "T3",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "My family tree",
+  "description_en": "At the end of the theme, the child shows a family tree with names, threads a small necklace for a family member, shows how to call home on a toy phone and says how they reuse bottles or bags at home."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "🗣️",
+   "activities": [
+    {
+     "id": "N2-T3-LC1",
+     "type": "story",
+     "area": "Storytelling",
+     "title_en": "What we did on Sunday",
+     "goal_en": "Narrate a real-life story from home in the right order.",
+     "prompt_en": "Tell us what your family did on Sunday. What happened first? Then?",
+     "steps_en": [
+      "Tell your own short story as a model, using first, then, at the end.",
+      "Ask the child to tell their story.",
+      "Help with questions: who was there? where?",
+      "The child draws one moment of the story."
+     ],
+     "observe_en": [
+      "Tells two or three events in order.",
+      "Uses first, then, at the end.",
+      "Speaks to the group with confidence."
+     ],
+     "materials_en": [
+      "paper",
+      "crayons"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 33 (Storytelling: Narrating a story), p. 60; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T3-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "Pots, plates and spoons",
+     "goal_en": "Read pictures of kitchen utensils and say what they are used for.",
+     "prompt_en": "Look at the picture. What is this? What do we do with it?",
+     "steps_en": [
+      "Show pictures or real utensils: pot, plate, cup, spoon, knife, mortar.",
+      "Name each one together.",
+      "Say what we use it for.",
+      "Make a picture album of the kitchen."
+     ],
+     "observe_en": [
+      "Names five utensils.",
+      "Says the use of each.",
+      "Says that knives are for adults."
+     ],
+     "materials_en": [
+      "kitchen utensils or pictures"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 36 (Reading: Picture reading), p. 63; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🍲 pot",
+       "🍽️ plate",
+       "🥄 spoon",
+       "🔪 knife (adults)"
+      ]
+     }
+    },
+    {
+     "id": "N2-T3-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "Writing my name",
+     "goal_en": "Write one’s own name with a capital first letter.",
+     "prompt_en": "Your name starts with a capital letter. Let us write it together.",
+     "steps_en": [
+      "Write the child’s name on a card as a model.",
+      "Trace it with a finger.",
+      "Trace it with a pencil on dotted letters.",
+      "Write it alone under the model."
+     ],
+     "observe_en": [
+      "Writes the first letter as a capital.",
+      "Writes all the letters in order.",
+      "Leaves no big gaps."
+     ],
+     "materials_en": [
+      "name card",
+      "pencil",
+      "paper"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 37 (Writing: Letters and numbers), p. 64; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N2-T3-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "« J’habite à… »",
+     "goal_en": "Say in French one’s name and where one lives.",
+     "prompt_en": "In French: “Je m’appelle Fon. J’habite à Bamenda.” Where do you live?",
+     "steps_en": [
+      "Say the two sentences with your name and town.",
+      "The child repeats with their own.",
+      "Practise with a puppet.",
+      "Add: “Ma maman s’appelle…”."
+     ],
+     "observe_en": [
+      "Says their name in French.",
+      "Says “J’habite à” and the town.",
+      "Adds a family member’s name."
+     ],
+     "materials_en": [
+      "a puppet"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 38 (French: Se présenter), p. 65; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔎",
+   "activities": [
+    {
+     "id": "N2-T3-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Sharing equally between two",
+     "goal_en": "Share objects equally (division up to 10).",
+     "prompt_en": "Mummy has 8 groundnut balls for two children. Give one to each child until there are none left.",
+     "steps_en": [
+      "Put 8 objects on the table and two plates.",
+      "Give one to each plate in turn.",
+      "Count what each plate has.",
+      "Try with 6 and 10 objects."
+     ],
+     "observe_en": [
+      "Gives one at a time to each plate.",
+      "Checks that both plates have the same.",
+      "Says how many each."
+     ],
+     "materials_en": [
+      "10 objects",
+      "two plates"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Mathematical operations), p. 66–67; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "8 groundnut balls shared equally by 2 children. How many for each child?",
+      "answer": 4,
+      "explanation_en": "Give one to each child in turn: each child gets 4."
+     }
+    },
+    {
+     "id": "N2-T3-ST2",
+     "type": "digital",
+     "area": "Information and Communication Technologies",
+     "title_en": "Calling home on the phone",
+     "goal_en": "Simulate the use of a phone keypad to call someone.",
+     "prompt_en": "With a phone, we can talk to someone far away. Let us press the numbers to call Grandma.",
+     "steps_en": [
+      "Show a phone keypad (a toy or a drawing).",
+      "Find and press the numbers of a written number.",
+      "Act the call: “Hello, Grandma! It is Ngum.”",
+      "Say: we use the phone with an adult’s permission."
+     ],
+     "observe_en": [
+      "Presses the numbers in order.",
+      "Starts the call politely.",
+      "Says that phones are used with permission."
+     ],
+     "materials_en": [
+      "a toy phone or a keypad drawing"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 40 (Information and Communication Technologies: The keypad of a communication device), p. 68–70; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "📱",
+       "1 2 3",
+       "4 5 6",
+       "7 8 9",
+       "0"
+      ]
+     }
+    },
+    {
+     "id": "N2-T3-ST3",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "Where does the tap water come from?",
+     "goal_en": "Identify plumbing materials and build a small water channel.",
+     "prompt_en": "The plumber brings water to our house with pipes. Let us make a little pipe with bamboo or bottles.",
+     "steps_en": [
+      "Show a tap and talk about the pipes behind it.",
+      "Name the plumber’s tools.",
+      "Make a channel with cut bottles or bamboo.",
+      "Pour water and watch it flow."
+     ],
+     "observe_en": [
+      "Names the plumber.",
+      "Builds a channel that carries water.",
+      "Says that water must not be wasted."
+     ],
+     "materials_en": [
+      "cut plastic bottles or bamboo",
+      "water",
+      "a basin"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 42 (Science and Technology: Plumbing), p. 73–75; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🤝",
+   "activities": [
+    {
+     "id": "N2-T3-PV1",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "My family tree",
+     "goal_en": "Present the family: parents, grandparents, brothers and sisters.",
+     "prompt_en": "Here is a tree. On the branches, let us put Grandma, Grandpa, Mummy, Daddy, and you!",
+     "steps_en": [
+      "Draw a big tree.",
+      "Stick or draw the family members on it.",
+      "Name each person and say how they are related.",
+      "Present the tree to friends."
+     ],
+     "observe_en": [
+      "Names their family members.",
+      "Places parents and grandparents correctly.",
+      "Presents with confidence."
+     ],
+     "materials_en": [
+      "paper",
+      "crayons",
+      "photos if possible"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 44 (Citizenship: Self-introduction), p. 77; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T3-PV2",
+     "type": "safety",
+     "area": "Safety Education",
+     "title_en": "Fire and matches",
+     "goal_en": "Follow fire safety rules at home.",
+     "prompt_en": "Matches and fire are for adults. If you see fire, shout for help and go out.",
+     "steps_en": [
+      "Show matches and a lighter (adult keeps them).",
+      "Say: we never play with matches.",
+      "Practise: shout “Fire!” and go outside to an adult.",
+      "Show where matches are kept, out of reach."
+     ],
+     "observe_en": [
+      "Says matches are for adults.",
+      "Shouts for help in the drill.",
+      "Goes out quickly and calmly."
+     ],
+     "materials_en": [
+      "a box of matches (adult only)"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 47 (Safety Education: Home safety), p. 80; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T3-PV3",
+     "type": "environment",
+     "area": "Environmental Education",
+     "title_en": "Reduce, reuse, recycle at home",
+     "goal_en": "Recycle and reuse waste with creativity.",
+     "prompt_en": "An empty bottle can become a pencil holder! Let us reuse things instead of throwing them away.",
+     "steps_en": [
+      "Show clean empty bottles, tins and boxes.",
+      "Ask: what can we make with them?",
+      "Make a pencil holder from a bottle.",
+      "Sort what can be reused and what goes to the bin."
+     ],
+     "observe_en": [
+      "Proposes a new use for an object.",
+      "Makes a simple object.",
+      "Sorts waste."
+     ],
+     "materials_en": [
+      "clean bottles and tins",
+      "scissors for the adult",
+      "paint or paper"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 46 (Environmental Education: Recycling waste), p. 79; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N2-T3-AC1",
+     "type": "craft",
+     "area": "Handwork",
+     "title_en": "A bead necklace for Mummy",
+     "goal_en": "Thread beads to make a necklace.",
+     "prompt_en": "Thread the beads one by one: red, yellow, red, yellow…",
+     "steps_en": [
+      "Give a string with a knot at one end.",
+      "Thread big beads, following a colour pattern.",
+      "Tie the ends (adult).",
+      "Offer the necklace to a family member."
+     ],
+     "observe_en": [
+      "Threads the beads alone.",
+      "Follows a pattern.",
+      "Finishes the necklace."
+     ],
+     "materials_en": [
+      "big beads or dried seeds with holes",
+      "string"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 52 (Handwork: Practice sessions), p. 85; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N2-T3-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Hopping game",
+     "goal_en": "Hop on one foot and on two feet with control.",
+     "prompt_en": "Hop on one foot to the line, then hop back on the other foot!",
+     "steps_en": [
+      "Show hopping on one foot.",
+      "Hop on two feet into circles drawn on the ground.",
+      "Play a hopping game in turns.",
+      "Rest and shake the legs."
+     ],
+     "observe_en": [
+      "Hops on one foot a few times.",
+      "Lands in the circles.",
+      "Waits for their turn."
+     ],
+     "materials_en": [
+      "chalk",
+      "a safe space"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 53 (Physical Education and Sports: Athletics), p. 86; theme 3: The family and home (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Tells a real-life story from home.",
+   "Names kitchen utensils.",
+   "Writes their own name.",
+   "Shares objects equally between 2.",
+   "Simulates a phone call.",
+   "Names family members on a tree.",
+   "Says one fire safety rule.",
+   "Reuses an object at home."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery Two tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

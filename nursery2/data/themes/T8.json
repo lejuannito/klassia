@@ -1,0 +1,512 @@
+{
+ "id": "T8",
+ "grade": "NURSERY2",
+ "title_en": "Travelling",
+ "title_fr": "Les moyens de transport",
+ "twin": "T8",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Our travel game",
+  "description_en": "At the end of the theme, the child plays a journey game: reads the departure time, crosses the road safely, gives a robot car instructions, draws a vehicle with the flag on it and says what to do in a storm."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "🗣️",
+   "activities": [
+    {
+     "id": "N2-T8-LC1",
+     "type": "rhyme",
+     "area": "Poetry and Rhymes",
+     "title_en": "Vroom, toot, choo-choo",
+     "goal_en": "Recite a sound rhyme about vehicles.",
+     "prompt_en": "Say the rhyme and make the sounds of the vehicles!",
+     "steps_en": [
+      "Say the rhyme with the sounds.",
+      "Repeat line by line.",
+      "Say it together, moving like each vehicle.",
+      "Ask: which vehicle goes on water?"
+     ],
+     "observe_en": [
+      "Says the rhyme.",
+      "Makes the sounds.",
+      "Answers the question."
+     ],
+     "materials_en": [
+      "pictures of vehicles"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery Two, table 34 (Poetry and Rhymes: Rhymes), p. 61; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "story_en": "Vroom goes the car on the long, long road,\nToot goes the truck with a heavy load,\nChoo-choo goes the train, swish goes the boat,\nAnd up in the sky the planes all float!"
+    },
+    {
+     "id": "N2-T8-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "The bus is red",
+     "goal_en": "Read short sentences about transport.",
+     "prompt_en": "Read: “The bus is red.” “The canoe is on the river.”",
+     "steps_en": [
+      "Show sentence cards with pictures.",
+      "Read each sentence pointing to the words.",
+      "The child reads with you, then alone.",
+      "Ask a question about each sentence."
+     ],
+     "observe_en": [
+      "Reads the sentences with help.",
+      "Answers the question.",
+      "Matches sentences and pictures."
+     ],
+     "materials_en": [
+      "sentence cards",
+      "pictures"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 36 (Reading: Short sentences and texts), p. 63; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🚌 The bus is red.",
+       "🛶 The canoe is on the river."
+      ]
+     }
+    },
+    {
+     "id": "N2-T8-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "Writing travel words: bus, car, taxi",
+     "goal_en": "Write common words correctly.",
+     "prompt_en": "Let us write the words of our journey: bus, car, taxi.",
+     "steps_en": [
+      "Show the word cards with pictures.",
+      "Say each letter while tracing.",
+      "Copy each word.",
+      "Read the words aloud."
+     ],
+     "observe_en": [
+      "Copies the letters in order.",
+      "Leaves the right spaces.",
+      "Reads the words."
+     ],
+     "materials_en": [
+      "word cards",
+      "pencil",
+      "paper"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 37 (Writing: Letters and numbers), p. 64; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N2-T8-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "« Samedi, on voyage ! »",
+     "goal_en": "Say the days of the week in French and use one in a sentence.",
+     "prompt_en": "In French: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche. “Samedi, on voyage !”",
+     "steps_en": [
+      "Say the days, clapping.",
+      "The child repeats.",
+      "Find today’s day in French.",
+      "Say a sentence: “… , on voyage !”"
+     ],
+     "observe_en": [
+      "Says the days with help.",
+      "Names today in French.",
+      "Uses a day in a sentence."
+     ],
+     "materials_en": [
+      "a calendar"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 38 (French: Les jours de la semaine), p. 65; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔎",
+   "activities": [
+    {
+     "id": "N2-T8-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "The bus leaves at 8 o’clock",
+     "goal_en": "Read the time in hours and be punctual.",
+     "prompt_en": "The bus leaves at 8 o’clock. Show 8 o’clock on the clock.",
+     "steps_en": [
+      "Show a clock face.",
+      "Place the hands for 8 o’clock.",
+      "Read a simple timetable with three o’clock times.",
+      "Say what we must do to be on time."
+     ],
+     "observe_en": [
+      "Shows 8 o’clock.",
+      "Reads an o’clock time.",
+      "Says why we must be on time."
+     ],
+     "materials_en": [
+      "a clock face",
+      "a simple timetable"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Time), p. 66–67; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🕗"
+      ]
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "The short hand is on 8 and the long hand is on 12. What time is it? (Write the hour)",
+      "answer": 8,
+      "explanation_en": "The short hand shows the hour: it is 8 o’clock."
+     }
+    },
+    {
+     "id": "N2-T8-ST2",
+     "type": "digital",
+     "area": "Information and Communication Technologies",
+     "title_en": "Instructions for a robot car",
+     "goal_en": "Give a series of instructions to a toy and see that computers need instructions.",
+     "prompt_en": "A robot only does what we tell it. Tell the robot car: forward, forward, turn right!",
+     "steps_en": [
+      "One child is the “robot car”; the others give instructions.",
+      "Use only: forward, back, turn left, turn right, stop.",
+      "Guide the robot to a target (the garage).",
+      "Talk: what happens if an instruction is wrong?"
+     ],
+     "observe_en": [
+      "Gives clear instructions in order.",
+      "Corrects a wrong instruction.",
+      "Says that computers need instructions."
+     ],
+     "materials_en": [
+      "a toy car or a child as the robot",
+      "chalk for a grid"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 40 (Information and Communication Technologies: Basic notions of programming), p. 68–70; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T8-ST3",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "Thunder, lightning and floods",
+     "goal_en": "Recognise natural phenomena and protect oneself.",
+     "prompt_en": "When there is thunder and lightning, we go inside a house. We do not play in flood water.",
+     "steps_en": [
+      "Show pictures of a storm and a flood.",
+      "Talk about what we see and hear.",
+      "Say the safety rules.",
+      "Act: a storm comes; the children go inside calmly."
+     ],
+     "observe_en": [
+      "Names thunder, lightning and flood.",
+      "Says a safety rule.",
+      "Acts calmly in the drill."
+     ],
+     "materials_en": [
+      "pictures"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 42 (Science and Technology: Natural phenomena), p. 73–75; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🤝",
+   "activities": [
+    {
+     "id": "N2-T8-PV1",
+     "type": "safety",
+     "area": "Safety Education",
+     "title_en": "The traffic light game",
+     "goal_en": "Follow road safety rules and the traffic lights.",
+     "prompt_en": "Red: stop! Yellow: wait! Green: go, but look first!",
+     "steps_en": [
+      "Make a traffic light with red, yellow and green papers.",
+      "Children walk or “drive”; change the light.",
+      "They stop, wait or go.",
+      "Practise crossing with an adult at a zebra crossing drawn on the ground."
+     ],
+     "observe_en": [
+      "Stops on red.",
+      "Waits on yellow.",
+      "Looks before going on green."
+     ],
+     "materials_en": [
+      "red, yellow and green paper",
+      "chalk"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 47 (Safety Education: Road safety), p. 80; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🔴 stop",
+       "🟡 wait",
+       "🟢 go"
+      ]
+     }
+    },
+    {
+     "id": "N2-T8-PV2",
+     "type": "environment",
+     "area": "Environmental Education",
+     "title_en": "Smoke and noise",
+     "goal_en": "Identify air and noise pollution and stay away from them.",
+     "prompt_en": "Old cars make black smoke and lots of horns make noise. Both are bad for our health.",
+     "steps_en": [
+      "Show pictures of smoke and of a noisy road.",
+      "Ask: how do we feel with smoke? with noise?",
+      "Talk about walking, cycling and keeping cars in good condition.",
+      "Practise a quiet voice and covering the nose near smoke."
+     ],
+     "observe_en": [
+      "Names smoke and noise as pollution.",
+      "Says one way to reduce them.",
+      "Stays away from smoke."
+     ],
+     "materials_en": [
+      "pictures"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 46 (Environmental Education: Pollution), p. 79; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T8-PV3",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "Roads and buses belong to everyone",
+     "goal_en": "Use community property appropriately.",
+     "prompt_en": "Roads, buses and bus stops are for everybody. We keep them clean and do not damage them.",
+     "steps_en": [
+      "Show pictures of a bus stop and a road.",
+      "Ask: who uses them?",
+      "List good actions (keep clean, give a seat to an old person).",
+      "Act a bus trip with good manners."
+     ],
+     "observe_en": [
+      "Says they belong to everyone.",
+      "Gives a good action.",
+      "Gives a seat in the role play."
+     ],
+     "materials_en": [
+      "chairs as bus seats"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 44 (Citizenship: Common good), p. 77; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N2-T8-AC1",
+     "type": "drawing",
+     "area": "Drawing and Colouring",
+     "title_en": "A bus with the flag of Cameroon",
+     "goal_en": "Draw with shapes and colour the flag of Cameroon.",
+     "prompt_en": "Draw a bus with a rectangle and circles. Put a little flag on it: green, red with a yellow star, yellow.",
+     "steps_en": [
+      "Draw a big rectangle and two circles.",
+      "Add windows with squares.",
+      "Draw a small rectangle for the flag and divide it in three.",
+      "Colour the flag: green, red, yellow, and the star."
+     ],
+     "observe_en": [
+      "Draws the shapes.",
+      "Colours the flag in the right order.",
+      "Places the star on the red band."
+     ],
+     "materials_en": [
+      "paper",
+      "crayons"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 50 (Drawing and Colouring: Shapes and colouring), p. 83; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "libre"
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N2-T8-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Carrying a load on a line",
+     "goal_en": "Keep balance while carrying an object along a line.",
+     "prompt_en": "Walk along the line carrying a bag in each hand, like a traveller.",
+     "steps_en": [
+      "Draw a straight line.",
+      "Walk along it with one light bag.",
+      "Then with two bags.",
+      "Then carrying a small basket on the head with one hand."
+     ],
+     "observe_en": [
+      "Walks on the line.",
+      "Keeps the balance.",
+      "Does not drop the bag."
+     ],
+     "materials_en": [
+      "light bags",
+      "chalk"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 53 (Physical Education and Sports: Gymnastics), p. 86; theme 8: Travelling (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Recites a sound rhyme about vehicles.",
+   "Reads a short sentence about transport.",
+   "Writes transport words.",
+   "Reads an o’clock time on a timetable.",
+   "Gives step-by-step instructions to a toy.",
+   "Says what to do in a storm.",
+   "Follows the traffic light rules.",
+   "Draws and colours the flag of Cameroon."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery Two tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

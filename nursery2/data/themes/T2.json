@@ -1,0 +1,495 @@
+{
+ "id": "T2",
+ "grade": "NURSERY2",
+ "title_en": "The body",
+ "title_fr": "Le corps humain",
+ "twin": "T2",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Taking care of my body",
+  "description_en": "At the end of the theme, the child shows how to sit and stand well, signs “please”, “thank you” and “sorry”, names a sour, a sweet and a bitter food and explains why alcohol, cigarettes and blades are not for children."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "🗣️",
+   "activities": [
+    {
+     "id": "N2-T2-LC1",
+     "type": "rhyme",
+     "area": "Poetry and Rhymes",
+     "title_en": "Ten fingers, ten toes",
+     "goal_en": "Recite a mathematical rhyme about the body.",
+     "prompt_en": "Say the rhyme and show your fingers and toes.",
+     "steps_en": [
+      "Say the rhyme once with gestures.",
+      "Say it line by line.",
+      "Say it together.",
+      "Count fingers and toes at the end."
+     ],
+     "observe_en": [
+      "Says the rhyme.",
+      "Shows the right number of fingers.",
+      "Counts to 20 with fingers and toes."
+     ],
+     "materials_en": [
+      "none"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery Two, table 34 (Poetry and Rhymes: Rhymes), p. 61; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "story_en": "Ten little fingers to hold my spoon,\nTen little toes to dance to the tune,\nTen and ten, let us count them, friends:\nTwenty little helpers at my ends!"
+    },
+    {
+     "id": "N2-T2-LC2",
+     "type": "mime",
+     "area": "Sign Language and Gestures",
+     "title_en": "Signing please, thank you, sorry",
+     "goal_en": "Use simple signs for polite words and welcome people with special needs.",
+     "prompt_en": "Some friends cannot hear. We can speak with our hands too. This is “please”.",
+     "steps_en": [
+      "Show “please”: a flat hand moving in a circle on the chest.",
+      "Show “sorry”: a fist moving in a circle on the chest.",
+      "Show “thank you”: fingertips from the chin moving forward.",
+      "Practise in pairs without speaking."
+     ],
+     "observe_en": [
+      "Makes the three signs.",
+      "Uses a sign at the right moment.",
+      "Shows respect for friends who are different."
+     ],
+     "materials_en": [
+      "pictures of the signs"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 35 (Sign Language and Gestures: Manners), p. 62; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T2-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "One-armed robot letters: r, i, n",
+     "goal_en": "Write letters that go down and back up: r, i, n.",
+     "prompt_en": "Like a robot arm: go down, come back up and go over. Let us write r, i and n.",
+     "steps_en": [
+      "Show the movement in the air: down, back up, over.",
+      "Trace r, i and n in sand.",
+      "Trace them on dotted lines.",
+      "Write a row of each letter."
+     ],
+     "observe_en": [
+      "Goes down then back up without lifting.",
+      "Places the dot on i.",
+      "Keeps the letters on the line."
+     ],
+     "materials_en": [
+      "pencil",
+      "tracing paper",
+      "a sand tray"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 37 (Writing: Pre-letter formation), p. 64; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N2-T2-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "A French song for washing hands",
+     "goal_en": "Sing a short French song for pleasure.",
+     "prompt_en": "Sing with me in French while we wash our hands: “Je lave, je lave mes mains, avec du savon, c’est bien !”",
+     "steps_en": [
+      "Sing the line slowly.",
+      "The child repeats while miming the hand washing.",
+      "Sing it while really washing hands.",
+      "Ask: what is “savon” in English? (soap)"
+     ],
+     "observe_en": [
+      "Sings the line.",
+      "Mimes while singing.",
+      "Gives the meaning of one French word."
+     ],
+     "materials_en": [
+      "water",
+      "soap"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery Two, table 38 (French: Chants), p. 65; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔎",
+   "activities": [
+    {
+     "id": "N2-T2-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Fingers and toes: adding up to 20",
+     "goal_en": "Add two numbers up to 20 with fingers, toes or objects.",
+     "prompt_en": "You have 10 fingers. Add 5 toes. How many in all?",
+     "steps_en": [
+      "Show 10 fingers.",
+      "Add 5 toes, counting on: eleven, twelve…",
+      "Say the total.",
+      "Try other sums with sticks."
+     ],
+     "observe_en": [
+      "Counts on from 10.",
+      "Says the total.",
+      "Uses objects to check."
+     ],
+     "materials_en": [
+      "counting sticks"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Mathematical operations), p. 66–67; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "10 fingers and 5 toes. How many in all?",
+      "answer": 15,
+      "explanation_en": "Start at 10 and count on five: eleven, twelve, thirteen, fourteen, fifteen. There are 15."
+     }
+    },
+    {
+     "id": "N2-T2-ST2",
+     "type": "sensory",
+     "area": "Sensory and Perceptive Education",
+     "title_en": "Gentle touch, rough touch",
+     "goal_en": "Tell a gentle touch from a rough touch and choose to touch gently.",
+     "prompt_en": "A good friend touches gently. A rough touch can hurt. Show me a gentle touch on your arm.",
+     "steps_en": [
+      "Touch a doll gently, then show (without hurting) what rough means.",
+      "Ask: which one feels good?",
+      "Practise gentle touches: a high five, a soft tap on the shoulder.",
+      "Say: if someone touches you roughly or in a way you do not like, say “Stop!” and tell an adult."
+     ],
+     "observe_en": [
+      "Tells gentle from rough.",
+      "Uses gentle touches with friends.",
+      "Knows to say “Stop!” and tell an adult."
+     ],
+     "materials_en": [
+      "a doll"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 41 (Sensory and Perceptive Education: The sense of touch), p. 71–72; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T2-ST3",
+     "type": "sensory",
+     "area": "Sensory and Perceptive Education",
+     "title_en": "Sweet, bitter, sour",
+     "goal_en": "Distinguish sweet, bitter and sour tastes.",
+     "prompt_en": "Taste a little: is it sweet like a pawpaw, bitter like bitter leaf or sour like a lime?",
+     "steps_en": [
+      "Prepare small pieces: pawpaw, a drop of lime juice, cooked bitter leaf.",
+      "Taste one at a time and make the face.",
+      "Name the taste.",
+      "Sort pictures of food by taste."
+     ],
+     "observe_en": [
+      "Names the three tastes.",
+      "Sorts foods by taste.",
+      "Tastes only what the adult gives."
+     ],
+     "materials_en": [
+      "pawpaw",
+      "lime",
+      "cooked bitter leaf",
+      "spoons"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 41 (Sensory and Perceptive Education: The sense of taste), p. 71–72; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🤝",
+   "activities": [
+    {
+     "id": "N2-T2-PV1",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "Not for children: alcohol, cigarettes, blades",
+     "goal_en": "Stay away from alcohol, cigarettes and dangerous sharp objects.",
+     "prompt_en": "Alcohol and cigarettes make the body sick. Razor blades and broken glass cut. We do not touch them; we call an adult.",
+     "steps_en": [
+      "Show pictures: a bottle of beer, a cigarette, a razor blade, broken glass.",
+      "Say why each one is dangerous for children.",
+      "Act: a child finds a blade and calls an adult.",
+      "Make a “Not for me!” poster."
+     ],
+     "observe_en": [
+      "Names the dangerous things.",
+      "Says they will not touch them.",
+      "Calls an adult in the role play."
+     ],
+     "materials_en": [
+      "pictures"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 48 (Health Education and Nutrition: Good health habits), p. 81; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T2-PV2",
+     "type": "character",
+     "area": "Character Education",
+     "title_en": "Clean and neat",
+     "goal_en": "Practise neatness: clean nails, tidy clothes, a clean face.",
+     "prompt_en": "A neat child has clean hands and nails, a clean face and tidy clothes.",
+     "steps_en": [
+      "Look at the hands and nails together.",
+      "Wash the face and hands.",
+      "Tuck in the shirt and button it well.",
+      "Look in a mirror and smile."
+     ],
+     "observe_en": [
+      "Washes hands and face.",
+      "Puts clothes in order.",
+      "Notices when something is not neat."
+     ],
+     "materials_en": [
+      "water",
+      "soap",
+      "a towel",
+      "a mirror"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 45 (Character Education: Simple etiquette), p. 78; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T2-PV3",
+     "type": "safety",
+     "area": "Safety Education",
+     "title_en": "Hot water and hot oil",
+     "goal_en": "Protect oneself from burns by hot water and hot oil at home.",
+     "prompt_en": "Hot water and hot oil burn the skin. We stay away from the stove and we never pull a pot handle.",
+     "steps_en": [
+      "Show a picture of a kitchen with a pot on the fire.",
+      "Point to hot things.",
+      "Act: the child stays one big step away from the stove.",
+      "Say what to do after a small burn: cool water and call an adult."
+     ],
+     "observe_en": [
+      "Names hot water and oil as dangers.",
+      "Keeps away from the stove.",
+      "Says “cool water and call an adult”."
+     ],
+     "materials_en": [
+      "a picture of a kitchen"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 47 (Safety Education: Home safety), p. 80; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N2-T2-AC1",
+     "type": "painting",
+     "area": "Painting",
+     "title_en": "Hand and finger prints",
+     "goal_en": "Paint by stamping with the hands and fingers.",
+     "prompt_en": "Put your hand in the paint and press it on the paper. Now make little dots with your finger!",
+     "steps_en": [
+      "Prepare washable paint in plates.",
+      "Press the whole hand on paper.",
+      "Add finger prints to make a pattern or a picture.",
+      "Describe the picture to a friend."
+     ],
+     "observe_en": [
+      "Stamps carefully.",
+      "Uses two colours.",
+      "Describes the artwork."
+     ],
+     "materials_en": [
+      "washable paint",
+      "plates",
+      "paper",
+      "an apron",
+      "water"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 51 (Painting: Practice), p. 84; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N2-T2-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Walking on hands and feet",
+     "goal_en": "Build balance by walking on hands and feet and stretching.",
+     "prompt_en": "Walk like a bear on your hands and feet! Now stretch up tall like a tree.",
+     "steps_en": [
+      "Warm up: stretch arms and legs.",
+      "Walk on hands and feet across a mat or grass.",
+      "Walk backwards slowly.",
+      "Finish by stretching and breathing calmly."
+     ],
+     "observe_en": [
+      "Moves with hands and feet in coordination.",
+      "Keeps balance.",
+      "Stretches at the end."
+     ],
+     "materials_en": [
+      "soft ground or a mat"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 53 (Physical Education and Sports: Gymnastics), p. 86; theme 2: The body (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Recites a body rhyme.",
+   "Signs “please”, “thank you” and “sorry”.",
+   "Writes r, i, n correctly.",
+   "Adds fingers and toes up to 20.",
+   "Tells a gentle touch from a rough touch.",
+   "Names sweet, bitter and sour foods.",
+   "Keeps away from alcohol, cigarettes and blades.",
+   "Walks on hands and feet."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery Two tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

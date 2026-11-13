@@ -1,0 +1,497 @@
+{
+ "id": "T4",
+ "grade": "NURSERY2",
+ "title_en": "Festivities and celebrations",
+ "title_fr": "Les fêtes",
+ "twin": "T4",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Our festival day",
+  "description_en": "At the end of the theme, the child helps prepare a class festival: makes a card with a word written on it, says their birthday month in French, mixes colours for the decorations, dances and thanks the guests."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "🗣️",
+   "activities": [
+    {
+     "id": "N2-T4-LC1",
+     "type": "rhyme",
+     "area": "Poetry and Rhymes",
+     "title_en": "Twenty balloons",
+     "goal_en": "Recite a mathematical rhyme counting in twos.",
+     "prompt_en": "Count the balloons with the rhyme: two, four, six…",
+     "steps_en": [
+      "Say the rhyme with gestures, showing two balloons each time.",
+      "Repeat it line by line.",
+      "Say it together.",
+      "Count to 20 in twos with real balloons or circles."
+     ],
+     "observe_en": [
+      "Says the rhyme.",
+      "Counts in twos with help.",
+      "Enjoys the rhyme."
+     ],
+     "materials_en": [
+      "balloons or paper circles"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery Two, table 34 (Poetry and Rhymes: Rhymes), p. 61; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "story_en": "Two red balloons, four, six, eight,\nTen at the door, we cannot wait!\nTwelve, fourteen, sixteen in the air,\nEighteen, twenty, balloons everywhere!"
+    },
+    {
+     "id": "N2-T4-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "Our festivals",
+     "goal_en": "Read pictures of festivals and share information.",
+     "prompt_en": "Look at these pictures. Which festival is it? What do people do?",
+     "steps_en": [
+      "Show pictures: a birthday, a wedding, a harvest festival, the national day, a religious feast.",
+      "Name each one together.",
+      "Ask what people do, wear and eat.",
+      "Make a festival album."
+     ],
+     "observe_en": [
+      "Names three festivals.",
+      "Says what people do.",
+      "Shares a festival of their family."
+     ],
+     "materials_en": [
+      "pictures of festivals"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 36 (Reading: Picture reading), p. 63; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T4-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "A card for the party",
+     "goal_en": "Write a short word with upper case and lowercase letters on a card.",
+     "prompt_en": "Let us write “Happy day” on the card for our friend.",
+     "steps_en": [
+      "Show the model with a capital H.",
+      "Trace the letters with a finger.",
+      "Copy the words on the card.",
+      "Decorate the card."
+     ],
+     "observe_en": [
+      "Copies the letters in order.",
+      "Writes the capital letter.",
+      "Leaves a space between the words."
+     ],
+     "materials_en": [
+      "card",
+      "pencil",
+      "crayons"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 37 (Writing: Letters and numbers), p. 64; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N2-T4-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "« Mon anniversaire, c’est en mai »",
+     "goal_en": "Say the months of the year in French with help and one’s birthday month.",
+     "prompt_en": "In French: janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre.",
+     "steps_en": [
+      "Say the months slowly, clapping once for each.",
+      "The child repeats.",
+      "Find the birthday month on a calendar.",
+      "Say: “Mon anniversaire, c’est en …”."
+     ],
+     "observe_en": [
+      "Repeats the months with help.",
+      "Finds their month on the calendar.",
+      "Says the birthday sentence."
+     ],
+     "materials_en": [
+      "a calendar"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 38 (French: Les mois de l’année), p. 65; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔎",
+   "activities": [
+    {
+     "id": "N2-T4-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Balloons fly away: subtracting within 20",
+     "goal_en": "Take away and say how many are left, within 20.",
+     "prompt_en": "We have 15 balloons. 5 fly away. How many are left?",
+     "steps_en": [
+      "Put 15 circles or sticks on the table.",
+      "Take 5 away.",
+      "Count what is left.",
+      "Try other numbers."
+     ],
+     "observe_en": [
+      "Takes away the right number.",
+      "Counts what is left.",
+      "Says the answer."
+     ],
+     "materials_en": [
+      "20 sticks or paper circles"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Mathematical operations), p. 66–67; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T4-ST2",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "The party starts at 3 o’clock",
+     "goal_en": "Read o’clock times and name the parts of the day.",
+     "prompt_en": "Look at the clock: the short hand is on 3, the long hand is on 12. It is 3 o’clock.",
+     "steps_en": [
+      "Show a clock face.",
+      "Place the hands for 3 o’clock and read it.",
+      "Talk about morning, afternoon, evening and night.",
+      "Set the clock for other times of the day."
+     ],
+     "observe_en": [
+      "Reads an o’clock time.",
+      "Places the hands with help.",
+      "Names the parts of the day."
+     ],
+     "materials_en": [
+      "a clock face (real or cardboard)"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Time), p. 66–67; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🕒"
+      ]
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "The short hand is on 3 and the long hand is on 12. What time is it? (Write the hour)",
+      "answer": 3,
+      "explanation_en": "The short hand shows the hour: it is 3 o’clock."
+     }
+    },
+    {
+     "id": "N2-T4-ST3",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "Mixing colours for decorations",
+     "goal_en": "Mix colours to make new ones.",
+     "prompt_en": "Red and yellow make… orange! Blue and yellow make… green! Let us try.",
+     "steps_en": [
+      "Put a drop of red and a drop of yellow paint in a cup.",
+      "Mix and see the new colour.",
+      "Try blue and yellow, red and blue.",
+      "Paint decorations with the new colours."
+     ],
+     "observe_en": [
+      "Makes a guess before mixing.",
+      "Names the new colour.",
+      "Uses it in a decoration."
+     ],
+     "materials_en": [
+      "washable paint",
+      "cups",
+      "brushes"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 42 (Science and Technology: Experiments), p. 73–75; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🤝",
+   "activities": [
+    {
+     "id": "N2-T4-PV1",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "The national day and our leaders",
+     "goal_en": "Recognise the flag, know that the national day is celebrated and name some leaders.",
+     "prompt_en": "On 20 May, Cameroon celebrates its national day: people march with the flag. The President leads the country.",
+     "steps_en": [
+      "Show the flag and name its colours.",
+      "Show a picture of the national day parade.",
+      "Name some leaders: the President, the Governor, the Mayor, the chief or Fon.",
+      "March in class with a paper flag."
+     ],
+     "observe_en": [
+      "Recognises the flag.",
+      "Says that we celebrate the national day.",
+      "Names one leader."
+     ],
+     "materials_en": [
+      "a small flag or a picture",
+      "paper flags"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 44 (Citizenship: National emblems and officials), p. 77; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T4-PV2",
+     "type": "character",
+     "area": "Character Education",
+     "title_en": "Solidarity: everyone at the party",
+     "goal_en": "Share and show solidarity so that everyone takes part.",
+     "prompt_en": "At our party, everybody gets a part of the cake, even the friend who forgot to bring something.",
+     "steps_en": [
+      "Tell a short story: one child has nothing to share.",
+      "Ask: what can we do?",
+      "Share food or decorations so that everyone has some.",
+      "Say thank you to each other."
+     ],
+     "observe_en": [
+      "Shares spontaneously.",
+      "Includes a friend.",
+      "Says thank you."
+     ],
+     "materials_en": [
+      "biscuits or fruit",
+      "decorations"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 45 (Character Education: Good behaviour), p. 78; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T4-PV3",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "Party plate: what and how much",
+     "goal_en": "Choose healthy food and drinks at a party and eat only what is needed.",
+     "prompt_en": "At a party we choose fruit and water, we eat a little cake, and we stop when we are full.",
+     "steps_en": [
+      "Show pictures of party food and drinks.",
+      "Make a healthy plate together.",
+      "Talk about stopping when full.",
+      "Wash hands before eating."
+     ],
+     "observe_en": [
+      "Chooses water and fruit.",
+      "Takes a small portion of sweet food.",
+      "Washes hands before eating."
+     ],
+     "materials_en": [
+      "pictures of food",
+      "paper plates"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 48 (Health Education and Nutrition: Good health habits), p. 81; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N2-T4-AC1",
+     "type": "music",
+     "area": "Music and Dance",
+     "title_en": "A dance from another country",
+     "goal_en": "Discover music from other parts of Africa and dance with respect.",
+     "prompt_en": "Listen to this music from another African country. Let us move to it!",
+     "steps_en": [
+      "Play a piece of music from another African region (for example a Lingala or a Swahili song).",
+      "Say where it comes from on a map of Africa.",
+      "Find the beat by clapping.",
+      "Dance freely, then copy a step."
+     ],
+     "observe_en": [
+      "Claps the beat.",
+      "Dances freely.",
+      "Says that music comes from many countries."
+     ],
+     "materials_en": [
+      "recorded music",
+      "a map of Africa"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 49 (Music and Dance: Non-Cameroonian music), p. 82; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N2-T4-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Dancing on tiptoe",
+     "goal_en": "Move with rhythm and balance on tiptoe, like in ballet.",
+     "prompt_en": "Stand on your toes, arms up like a crown, and turn slowly to the music.",
+     "steps_en": [
+      "Stand on tiptoe for five seconds.",
+      "Walk on tiptoe to the music.",
+      "Turn slowly with arms up.",
+      "Stop when the music stops."
+     ],
+     "observe_en": [
+      "Keeps balance on tiptoe.",
+      "Moves with the music.",
+      "Stops on the signal."
+     ],
+     "materials_en": [
+      "music",
+      "open space"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 53 (Physical Education and Sports: Gymnastics), p. 86; theme 4: Festivities/Celebrations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Recites a counting rhyme.",
+   "Names festivals from pictures.",
+   "Writes a short word on a card.",
+   "Says the months in French with help.",
+   "Takes away within 20.",
+   "Reads o’clock times.",
+   "Mixes two colours to make a third.",
+   "Recognises the flag and says why we celebrate the national day."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery Two tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

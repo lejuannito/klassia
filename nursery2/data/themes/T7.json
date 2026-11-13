@@ -1,0 +1,510 @@
+{
+ "id": "T7",
+ "grade": "NURSERY2",
+ "title_en": "Occupations",
+ "title_fr": "Les métiers",
+ "twin": "T7",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "A day at work",
+  "description_en": "At the end of the theme, the child acts a job, writes a short sentence about it, lists the steps of a task in order, builds a miniature bridge or kite and explains why medicines are bought at the pharmacy."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "🗣️",
+   "activities": [
+    {
+     "id": "N2-T7-LC1",
+     "type": "story",
+     "area": "Storytelling",
+     "title_en": "The tailor’s big order",
+     "goal_en": "Listen to a story about a job and guess the ending.",
+     "prompt_en": "Listen. The tailor has a big problem. What will she do?",
+     "steps_en": [
+      "Tell the beginning of the story.",
+      "Stop and ask for endings.",
+      "Tell the real ending.",
+      "Talk: how do people help each other at work?"
+     ],
+     "observe_en": [
+      "Proposes an ending.",
+      "Listens to others.",
+      "Says how people helped."
+     ],
+     "materials_en": [
+      "a piece of cloth",
+      "a needle (adult)"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 33 (Storytelling: Guessing story endings), p. 60; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "story_en": "Madam Ebude, the tailor, had to sew ten school uniforms for Monday. On Saturday her sewing machine broke! She sat down and was very worried… (stop and ask) …Her neighbour, the mechanic, came with his tools and repaired the machine. Madam Ebude worked all Sunday, and on Monday the children were proud of their new uniforms."
+    },
+    {
+     "id": "N2-T7-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "The farmer has a hoe",
+     "goal_en": "Read short sentences about jobs and answer a question.",
+     "prompt_en": "Read with me: “The farmer has a hoe.” Who has a hoe?",
+     "steps_en": [
+      "Write three short sentences about jobs with pictures.",
+      "Read each sentence, pointing to the words.",
+      "The child reads with you.",
+      "Ask a question about each sentence."
+     ],
+     "observe_en": [
+      "Reads known words.",
+      "Answers the question.",
+      "Matches the sentence to the picture."
+     ],
+     "materials_en": [
+      "sentence cards",
+      "pictures of jobs"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 36 (Reading: Short sentences and texts), p. 63; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "👨‍🌾 The farmer has a hoe.",
+       "👩‍⚕️ The nurse has a bandage."
+      ]
+     }
+    },
+    {
+     "id": "N2-T7-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "I am a baker",
+     "goal_en": "Write a simple sentence (subject, verb, object) neatly.",
+     "prompt_en": "Let us write a sentence about a job: “I am a baker.” Start with a capital letter and end with a full stop.",
+     "steps_en": [
+      "Say the sentence and count its words.",
+      "Write it as a model.",
+      "The child copies it.",
+      "Change the job: I am a driver, I am a nurse."
+     ],
+     "observe_en": [
+      "Starts with a capital letter.",
+      "Leaves spaces between the words.",
+      "Ends with a full stop."
+     ],
+     "materials_en": [
+      "pencil",
+      "lined paper"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 37 (Writing: Handwriting), p. 64; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N2-T7-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "At the shop: « Deux pains, s’il vous plaît ! »",
+     "goal_en": "Count objects in French in a shop role play.",
+     "prompt_en": "At the shop, ask in French: “Deux pains, s’il vous plaît !” and say “Merci !”",
+     "steps_en": [
+      "Set up a small shop.",
+      "Practise numbers 1 to 10 in French.",
+      "Buy with a French number and “s’il vous plaît”.",
+      "Swap roles."
+     ],
+     "observe_en": [
+      "Uses a French number.",
+      "Says “s’il vous plaît” and “merci”.",
+      "Counts the items in French."
+     ],
+     "materials_en": [
+      "toy goods",
+      "a table"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 38 (French: Compter), p. 65; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔎",
+   "activities": [
+    {
+     "id": "N2-T7-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "At the market: adding up to 20",
+     "goal_en": "Add two quantities up to 20 in a market game.",
+     "prompt_en": "The seller has 12 tomatoes. She buys 6 more. How many tomatoes now?",
+     "steps_en": [
+      "Put 12 objects in a basket.",
+      "Add 6, counting on from 12.",
+      "Count again to check.",
+      "Play seller and customer."
+     ],
+     "observe_en": [
+      "Counts on from 12.",
+      "Says the total.",
+      "Checks by counting again."
+     ],
+     "materials_en": [
+      "20 objects",
+      "a basket"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Mathematical operations), p. 66–67; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "12 tomatoes and 6 more tomatoes. How many tomatoes?",
+      "answer": 18,
+      "explanation_en": "Start at 12 and count on six: thirteen… eighteen. There are 18 tomatoes."
+     }
+    },
+    {
+     "id": "N2-T7-ST2",
+     "type": "digital",
+     "area": "Information and Communication Technologies",
+     "title_en": "Steps to make tea",
+     "goal_en": "Identify the steps of a task in order, as a computer does.",
+     "prompt_en": "A computer follows steps in order. Let us put the steps for making tea in order.",
+     "steps_en": [
+      "Show picture cards: boil water, put tea in a cup, pour water, add sugar, drink.",
+      "Mix them up.",
+      "The child puts them in order.",
+      "Talk: what happens if the order is wrong?"
+     ],
+     "observe_en": [
+      "Puts the steps in order.",
+      "Explains the order.",
+      "Finds a mistake in a wrong order."
+     ],
+     "materials_en": [
+      "picture cards of steps"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 40 (Information and Communication Technologies: Basic concepts of algorithm), p. 68–70; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "1 boil water",
+       "2 tea in cup",
+       "3 pour water",
+       "4 drink"
+      ]
+     }
+    },
+    {
+     "id": "N2-T7-ST3",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "A miniature bridge",
+     "goal_en": "Use local materials to build a miniature bridge or tunnel.",
+     "prompt_en": "Builders make bridges over rivers. Let us build one with sticks, cartons and stones.",
+     "steps_en": [
+      "Show pictures of bridges.",
+      "Put two piles of stones as banks.",
+      "Lay sticks or a carton across.",
+      "Test with a small toy car."
+     ],
+     "observe_en": [
+      "Builds a bridge that holds.",
+      "Tests and improves it.",
+      "Works with others."
+     ],
+     "materials_en": [
+      "sticks",
+      "stones",
+      "cartons",
+      "a toy car"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 42 (Science and Technology: Construction), p. 73–75; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🤝",
+   "activities": [
+    {
+     "id": "N2-T7-PV1",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "Leaders who help us",
+     "goal_en": "Identify key state and local officials and their roles.",
+     "prompt_en": "The Minister of Health looks after hospitals. The Minister of Basic Education looks after schools. The Mayor looks after the town.",
+     "steps_en": [
+      "Show pictures of officials at work.",
+      "Say one role for each.",
+      "Act: the child is the Mayor and says what they will do for the town.",
+      "Talk about good leaders: they listen and help."
+     ],
+     "observe_en": [
+      "Names two officials.",
+      "Says one role.",
+      "Gives one quality of a good leader."
+     ],
+     "materials_en": [
+      "pictures"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 44 (Citizenship: National emblems and officials), p. 77; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T7-PV2",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "Medicines from the pharmacy only",
+     "goal_en": "Differentiate medicines and discourage roadside medication.",
+     "prompt_en": "Medicines sold on the roadside can be fake or bad. We buy medicines at the pharmacy, with the nurse’s or doctor’s advice.",
+     "steps_en": [
+      "Show a picture of a pharmacy and of medicines sold on a table in the street.",
+      "Ask: where should we buy medicines?",
+      "Act: a child tells the parent “Let us go to the pharmacy”.",
+      "Repeat: no medicine without an adult."
+     ],
+     "observe_en": [
+      "Says where to buy medicines.",
+      "Says not to take medicine alone.",
+      "Shares the message in the role play."
+     ],
+     "materials_en": [
+      "pictures",
+      "an empty medicine box"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 48 (Health Education and Nutrition: Treatment), p. 81; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T7-PV3",
+     "type": "character",
+     "area": "Character Education",
+     "title_en": "Obedience and punctuality at work",
+     "goal_en": "Practise obedience and punctuality.",
+     "prompt_en": "At work, people arrive on time and follow instructions. At school, we do the same.",
+     "steps_en": [
+      "Tell a short story of a worker who is always late.",
+      "Ask: what happens?",
+      "Play “The teacher says”: follow the instructions quickly.",
+      "Praise children who are on time."
+     ],
+     "observe_en": [
+      "Says why being on time matters.",
+      "Follows instructions.",
+      "Arrives on time."
+     ],
+     "materials_en": [
+      "none"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 45 (Character Education: Simple etiquette), p. 78; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N2-T7-AC1",
+     "type": "craft",
+     "area": "Handwork",
+     "title_en": "Making a kite",
+     "goal_en": "Produce a design of one’s choice: a simple kite.",
+     "prompt_en": "Let us make a kite with paper, two sticks and string.",
+     "steps_en": [
+      "Cross two light sticks and tie them (adult).",
+      "Stick paper on the frame.",
+      "Add a tail of paper strips.",
+      "Attach a string and fly it far from wires."
+     ],
+     "observe_en": [
+      "Helps to build the kite.",
+      "Decorates it.",
+      "Flies it far from electric wires."
+     ],
+     "materials_en": [
+      "paper",
+      "two light sticks",
+      "string",
+      "glue"
+     ],
+     "duration_minutes": 20,
+     "source_refs": [
+      "Nursery Two, table 52 (Handwork: Practice sessions), p. 85; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N2-T7-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "The forward roll",
+     "goal_en": "Build body movement and balance with a forward roll on a soft surface.",
+     "prompt_en": "Squat, hands on the mat, chin on your chest, and roll!",
+     "steps_en": [
+      "Show the movement slowly.",
+      "The child rolls with an adult’s help.",
+      "Roll alone on the mat.",
+      "Say: we roll only on a mat or soft grass."
+     ],
+     "observe_en": [
+      "Tucks the chin.",
+      "Rolls in a straight line.",
+      "Rolls only on a soft surface."
+     ],
+     "materials_en": [
+      "a mat or soft grass"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 53 (Physical Education and Sports: Gymnastics), p. 86; theme 7: Occupations (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Guesses the ending of a job story.",
+   "Reads a short sentence about a job.",
+   "Writes a short sentence (I am a…).",
+   "Adds and shares within 20.",
+   "Puts the steps of a task in order.",
+   "Builds a miniature construction.",
+   "Names some ministers and leaders.",
+   "Says why roadside medicines are dangerous."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery Two tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

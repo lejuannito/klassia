@@ -1,0 +1,539 @@
+{
+ "id": "T1",
+ "grade": "NURSERY2",
+ "title_en": "The school",
+ "title_fr": "L’école",
+ "twin": "T1",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "A guided tour of our school",
+  "description_en": "At the end of the theme, the child guides a visitor round the school, names the places and the people, reads two short sentences, counts objects up to 20 and names three parts of a computer."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "🗣️",
+   "activities": [
+    {
+     "id": "N2-T1-LC1",
+     "type": "story",
+     "area": "Storytelling",
+     "title_en": "The lost lunch box",
+     "goal_en": "Listen to a story and guess a good ending.",
+     "prompt_en": "Listen to the story. Stop! What do you think happens next?",
+     "steps_en": [
+      "Tell the beginning of the story with gestures.",
+      "Stop before the end and ask: what will Eno do?",
+      "Listen to two or three ideas and praise each one.",
+      "Tell the real ending and compare."
+     ],
+     "observe_en": [
+      "Listens to the beginning carefully.",
+      "Proposes an ending that fits the story.",
+      "Listens to the ideas of friends."
+     ],
+     "materials_en": [
+      "a lunch box",
+      "a puppet"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 33 (Storytelling: Guessing story endings), p. 60; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "story_en": "At break time, Eno looked for his lunch box. It was not in his bag! He looked under the bench, near the door, behind the cupboard. His friend Mbong saw that he was sad… (stop and ask) …Mbong said: “Come, we can share my sandwich.” After break, the teacher found the lunch box on the windowsill. The next day, Eno brought two bananas: one for him and one for Mbong."
+    },
+    {
+     "id": "N2-T1-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "Reading a short sentence: “I go to school.”",
+     "goal_en": "Read a short sentence of known words aloud, pointing to each word.",
+     "prompt_en": "Let us read together. Point to each word: I – go – to – school.",
+     "steps_en": [
+      "Write the sentence in big letters on a card.",
+      "Read it slowly, pointing to each word.",
+      "The child reads it with you, then alone.",
+      "Change one word with a picture card: “I go to the market.”"
+     ],
+     "observe_en": [
+      "Points to each word from left to right.",
+      "Reads the known words.",
+      "Reads a new sentence with a picture word."
+     ],
+     "materials_en": [
+      "sentence cards",
+      "picture cards"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 36 (Reading: Short sentences and texts), p. 63; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "I",
+       "go",
+       "to",
+       "school",
+       "🏫"
+      ]
+     }
+    },
+    {
+     "id": "N2-T1-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "Long rabbit letters: l, h, t",
+     "goal_en": "Write tall letters starting at the top: l, h, t.",
+     "prompt_en": "These letters are tall like a rabbit’s ears. Start at the top and go down.",
+     "steps_en": [
+      "Show the letters l, h and t on a card.",
+      "Write each one in the air, then in the sand tray.",
+      "Trace them on dotted lines.",
+      "Write a row of each letter."
+     ],
+     "observe_en": [
+      "Starts at the top.",
+      "Makes the letters taller than the small letters.",
+      "Holds the pencil correctly."
+     ],
+     "materials_en": [
+      "pencil",
+      "tracing paper",
+      "a sand tray"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 37 (Writing: Pre-letter formation), p. 64; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N2-T1-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "« Je m’appelle… J’ai cinq ans. »",
+     "goal_en": "Introduce oneself in French: name and age.",
+     "prompt_en": "In French: “Je m’appelle Manka. J’ai cinq ans.” Show five fingers for “cinq”.",
+     "steps_en": [
+      "Introduce yourself in French with your name.",
+      "The child says “Je m’appelle…”.",
+      "Add the age with fingers: “J’ai cinq ans.”",
+      "Play in pairs: one asks “Comment tu t’appelles ?”, the other answers."
+     ],
+     "observe_en": [
+      "Says their name in French.",
+      "Says their age with “J’ai … ans”.",
+      "Asks the question to a friend."
+     ],
+     "materials_en": [
+      "a puppet"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 38 (French: Se présenter), p. 65; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔎",
+   "activities": [
+    {
+     "id": "N2-T1-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Counting up to 20 in the classroom",
+     "goal_en": "Count objects up to 20 and say how many.",
+     "prompt_en": "Let us count the chairs of our class. One, two, three… how many?",
+     "steps_en": [
+      "Count 12 to 20 objects (chairs, crayons, books), touching each one.",
+      "Make groups of 10 to help.",
+      "Say the total.",
+      "Count again starting from 10: eleven, twelve…"
+     ],
+     "observe_en": [
+      "Counts in order beyond 10.",
+      "Touches each object once.",
+      "Uses a group of 10 to count faster."
+     ],
+     "materials_en": [
+      "20 crayons or sticks",
+      "two boxes"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Counting), p. 66–67; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️"
+      ]
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "How many crayons can you see?",
+      "answer": 12,
+      "explanation_en": "Make a group of 10, then count on: eleven, twelve. There are 12 crayons."
+     }
+    },
+    {
+     "id": "N2-T1-ST2",
+     "type": "digital",
+     "area": "Information and Communication Technologies",
+     "title_en": "The parts of a computer",
+     "goal_en": "Identify the parts of a computer system.",
+     "prompt_en": "This is a computer. Here is the screen, the keyboard, the mouse and the system unit.",
+     "steps_en": [
+      "Show a real computer or a picture.",
+      "Point to each part and name it.",
+      "The child points to the part you name.",
+      "Make a computer with cardboard boxes and label the parts."
+     ],
+     "observe_en": [
+      "Names the screen, the keyboard and the mouse.",
+      "Points to the right part.",
+      "Says that the parts work together."
+     ],
+     "materials_en": [
+      "a computer or pictures",
+      "cardboard boxes"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 40 (Information and Communication Technologies: The computer system), p. 68–70; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🖥️ screen",
+       "⌨️ keyboard",
+       "🖱️ mouse",
+       "🖨️ printer"
+      ]
+     }
+    },
+    {
+     "id": "N2-T1-ST3",
+     "type": "sensory",
+     "area": "Sensory and Perceptive Education",
+     "title_en": "Purple, pink and brown",
+     "goal_en": "Identify more colours and sort objects by colour.",
+     "prompt_en": "We know red, yellow and blue. Today: purple, pink and brown. Find something brown in the class!",
+     "steps_en": [
+      "Show objects of each colour.",
+      "Name the colours together.",
+      "Hide coloured items in the classroom.",
+      "The child finds an item of the colour you say."
+     ],
+     "observe_en": [
+      "Names purple, pink and brown.",
+      "Finds an object of the right colour.",
+      "Sorts objects by colour."
+     ],
+     "materials_en": [
+      "coloured objects, cloth scraps"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 41 (Sensory and Perceptive Education: The sense of sight), p. 71–72; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🟣 purple",
+       "🩷 pink",
+       "🟤 brown"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🤝",
+   "activities": [
+    {
+     "id": "N2-T1-PV1",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "A tour of our school",
+     "goal_en": "Locate oneself in the school and name its places and people.",
+     "prompt_en": "Let us visit our school: the classrooms, the head teacher’s office, the toilets, the playground.",
+     "steps_en": [
+      "Walk round the school with the child.",
+      "At each place, name it and say who works there.",
+      "Back in class, draw a small map with the places.",
+      "The child guides a friend to one place."
+     ],
+     "observe_en": [
+      "Names four places of the school.",
+      "Says who works there.",
+      "Finds their way to one place."
+     ],
+     "materials_en": [
+      "the school",
+      "paper and crayons"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 44 (Citizenship: Self-introduction), p. 77; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T1-PV2",
+     "type": "safety",
+     "area": "Safety Education",
+     "title_en": "Safe toilets, safe yard",
+     "goal_en": "Follow safety rules in the toilets and the school yard and report incidents.",
+     "prompt_en": "In the toilets we do not play or run; in the yard we stay away from the gate and the road.",
+     "steps_en": [
+      "Visit the toilets and say the rules (walk, flush, wash hands).",
+      "Visit the yard and show safe and dangerous places.",
+      "Act: a friend falls; the child tells the teacher.",
+      "Make a poster with smileys for the rules."
+     ],
+     "observe_en": [
+      "Says two safety rules.",
+      "Tells the teacher in the role play.",
+      "Points to a dangerous place."
+     ],
+     "materials_en": [
+      "the school toilets and yard",
+      "paper"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 47 (Safety Education: School safety), p. 80; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T1-PV3",
+     "type": "character",
+     "area": "Character Education",
+     "title_en": "Do not interrupt, ask before taking",
+     "goal_en": "Follow simple rules of good behaviour at school.",
+     "prompt_en": "We do not interrupt when someone speaks, and we ask before taking someone’s things: “May I…?”",
+     "steps_en": [
+      "Act with a puppet that interrupts and takes a pencil.",
+      "Ask: what did the puppet do wrong?",
+      "Practise: wait, then say “Excuse me”; ask “May I borrow your pencil?”",
+      "Praise good behaviour during the day."
+     ],
+     "observe_en": [
+      "Waits until the other has finished.",
+      "Says “Excuse me”.",
+      "Asks before taking."
+     ],
+     "materials_en": [
+      "a puppet",
+      "a pencil"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 45 (Character Education: Simple etiquette), p. 78; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N2-T1-AC1",
+     "type": "drawing",
+     "area": "Drawing and Colouring",
+     "title_en": "Drawing my classroom things",
+     "goal_en": "Draw and colour classroom objects using at least two colours.",
+     "prompt_en": "Draw your school bag, your book or your chair. Use at least two colours.",
+     "steps_en": [
+      "Look at the object carefully: its shape and its colours.",
+      "Draw its main shape.",
+      "Add details.",
+      "Colour with at least two colours."
+     ],
+     "observe_en": [
+      "Draws a recognisable object.",
+      "Uses at least two colours.",
+      "Talks about the drawing."
+     ],
+     "materials_en": [
+      "paper",
+      "crayons",
+      "classroom objects"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 50 (Drawing and Colouring: Drawing and colouring diverse objects), p. 83; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "libre"
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N2-T1-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Jumping and sliding",
+     "goal_en": "Reproduce different movements: jumping with two feet and sliding sideways.",
+     "prompt_en": "Jump with two feet together! Now slide sideways like a crab!",
+     "steps_en": [
+      "Show a two-footed jump, landing softly.",
+      "Show side steps (sliding).",
+      "Make a course: jump over a rope, slide to a cone.",
+      "Do the course in turns."
+     ],
+     "observe_en": [
+      "Jumps with two feet and lands softly.",
+      "Slides sideways without crossing the feet.",
+      "Waits for their turn."
+     ],
+     "materials_en": [
+      "a rope",
+      "cones or stones"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 53 (Physical Education and Sports: Athletics), p. 86; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Guesses a possible ending for a story.",
+   "Reads a short sentence with help.",
+   "Writes l, h and t correctly.",
+   "Counts objects up to 20.",
+   "Names the screen, the keyboard and the mouse.",
+   "Names purple, pink and brown.",
+   "Says two school rules (“do not interrupt”, “ask before taking”).",
+   "Jumps and slides with control."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery Two tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

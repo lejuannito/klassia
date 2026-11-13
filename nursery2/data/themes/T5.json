@@ -1,0 +1,496 @@
+{
+ "id": "T5",
+ "grade": "NURSERY2",
+ "title_en": "Animals",
+ "title_fr": "Le monde animal",
+ "twin": "T5",
+ "curriculum_number": 6,
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Our little farm",
+  "description_en": "At the end of the theme, the child presents a model farm with animals, says which animals are farmed and what they give us, imitates animal sounds in a story and explains why we must not throw rubbish in rivers."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "🗣️",
+   "activities": [
+    {
+     "id": "N2-T5-LC1",
+     "type": "story",
+     "area": "Storytelling",
+     "title_en": "The noisy farm",
+     "goal_en": "Listen to a story and make the sounds of the animal characters.",
+     "prompt_en": "Listen to the story. When you hear an animal, make its sound!",
+     "steps_en": [
+      "Tell the story slowly.",
+      "Stop at each animal so that the child makes its sound.",
+      "Ask: which animal woke up first?",
+      "Act the story in groups."
+     ],
+     "observe_en": [
+      "Makes the right animal sounds.",
+      "Follows the story.",
+      "Answers the question."
+     ],
+     "materials_en": [
+      "pictures of farm animals"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 33 (Storytelling: Sounds of animal characters), p. 60; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "story_en": "Early in the morning, the cock said: “Cock-a-doodle-doo!” The goat woke up: “Meh, meh!” The cow mooed: “Moo!” The dog barked: “Woof, woof!” But the little pig was still sleeping. All the animals called together, very loudly. The little pig opened one eye and said: “Oink! Is it already morning?” And everybody laughed."
+    },
+    {
+     "id": "N2-T5-LC2",
+     "type": "mime",
+     "area": "Sign Language and Gestures",
+     "title_en": "Guess the animal",
+     "goal_en": "Mime animal behaviour and movement without speaking.",
+     "prompt_en": "Without a sound, move like an animal. Your friends guess which one!",
+     "steps_en": [
+      "Mime an animal yourself (a snake, a bird, a tortoise).",
+      "The child guesses.",
+      "The child mimes an animal from a card.",
+      "Talk about how each animal moves."
+     ],
+     "observe_en": [
+      "Mimes clearly without speaking.",
+      "Guesses others’ mimes.",
+      "Describes the movement."
+     ],
+     "materials_en": [
+      "animal picture cards"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 35 (Sign Language and Gestures: Mimes and mimics), p. 62; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T5-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "Curly caterpillar letters: c, a, d, e, g, o",
+     "goal_en": "Write round letters that start like a c, turning anticlockwise.",
+     "prompt_en": "Like a curly caterpillar, these letters start with a c: c, a, d, o, g, e.",
+     "steps_en": [
+      "Draw a c in the air, turning the right way.",
+      "Show how a, d, o and g start with c.",
+      "Trace them in sand.",
+      "Write a row of each."
+     ],
+     "observe_en": [
+      "Starts each letter like a c.",
+      "Turns in the right direction.",
+      "Closes a, d, o, g."
+     ],
+     "materials_en": [
+      "pencil",
+      "tracing paper",
+      "a sand tray"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 37 (Writing: Pre-letter formation), p. 64; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N2-T5-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "« Cocorico, dit le coq »",
+     "goal_en": "Recite a short French rhyme about farm animals.",
+     "prompt_en": "A little rhyme in French: “Cocorico, dit le coq. Meuh, dit la vache. Coin-coin, dit le canard.”",
+     "steps_en": [
+      "Say the rhyme with the animal sounds.",
+      "The child repeats line by line.",
+      "Say it together with gestures.",
+      "Ask: what is “le coq”? (the cock)"
+     ],
+     "observe_en": [
+      "Repeats the rhyme.",
+      "Makes the sounds.",
+      "Gives the English for one animal."
+     ],
+     "materials_en": [
+      "pictures of a cock, a cow, a duck"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery Two, table 38 (French: Poésie et comptines), p. 65; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔎",
+   "activities": [
+    {
+     "id": "N2-T5-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Animals: sets and subsets",
+     "goal_en": "Sort animals into a set and find subsets.",
+     "prompt_en": "All these are animals. In this set, let us find a smaller group: the birds.",
+     "steps_en": [
+      "Put animal pictures in a big circle (the set).",
+      "Find the birds and put them in a small circle inside (a subset).",
+      "Count the animals in the set and in the subset.",
+      "Find another subset: animals with four legs."
+     ],
+     "observe_en": [
+      "Puts all the animals in the set.",
+      "Makes a subset.",
+      "Counts each group."
+     ],
+     "materials_en": [
+      "animal pictures",
+      "two ropes or chalk circles"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 39 (Mathematics: Classifying sets and subsets), p. 66–67; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "In the set there are 9 animals. 3 are birds. How many are not birds?",
+      "answer": 6,
+      "explanation_en": "Take away the 3 birds from 9 animals: 6 animals are not birds."
+     }
+    },
+    {
+     "id": "N2-T5-ST2",
+     "type": "agriculture",
+     "area": "Agriculture",
+     "title_en": "Farm animals and what they give",
+     "goal_en": "Identify agricultural activities with animals.",
+     "prompt_en": "Farmers rear hens for eggs, cows for milk, fish in ponds, pigs, rabbits and snails.",
+     "steps_en": [
+      "Show pictures of a poultry farm, a fish pond, a piggery, a rabbit hutch, snails.",
+      "Name each farm and what it gives.",
+      "Visit a farm or a hen house nearby if possible.",
+      "Make a model farm with clay animals."
+     ],
+     "observe_en": [
+      "Names three farm animals.",
+      "Says what they give.",
+      "Says how farmers care for them."
+     ],
+     "materials_en": [
+      "pictures",
+      "clay"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 43 (Agriculture: Agricultural activities), p. 76; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T5-ST3",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "Birds and insects in our compound",
+     "goal_en": "Observe nature and identify living things.",
+     "prompt_en": "Let us walk round the compound and look for birds and insects. We look, we do not catch.",
+     "steps_en": [
+      "Walk quietly round the compound.",
+      "Look for birds, ants, butterflies, bees.",
+      "Count and draw what you see.",
+      "Talk: living things eat, grow and move."
+     ],
+     "observe_en": [
+      "Observes without hurting the animals.",
+      "Names two birds or insects.",
+      "Says one sign of life."
+     ],
+     "materials_en": [
+      "caps",
+      "paper and pencils"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 42 (Science and Technology: Nature study), p. 73–75; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🤝",
+   "activities": [
+    {
+     "id": "N2-T5-PV1",
+     "type": "environment",
+     "area": "Environmental Education",
+     "title_en": "Clean water for fish",
+     "goal_en": "Identify water pollution and stay away from practices that cause it.",
+     "prompt_en": "When people throw rubbish and oil in the river, the fish die. Let us keep our rivers clean.",
+     "steps_en": [
+      "Show a jar of clean water and a jar with rubbish and oil drops.",
+      "Ask: where would a fish like to live?",
+      "Talk about where rubbish should go.",
+      "Make a poster: “Rubbish in the bin, not in the river!”"
+     ],
+     "observe_en": [
+      "Says what pollutes water.",
+      "Chooses the clean water for fish.",
+      "Gives one rule."
+     ],
+     "materials_en": [
+      "two jars",
+      "water",
+      "clean rubbish"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery Two, table 46 (Environmental Education: Pollution), p. 79; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T5-PV2",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "Dirty water makes us sick",
+     "goal_en": "Know that some illnesses come from dirty water and how to stay healthy.",
+     "prompt_en": "Dirty water can give diarrhoea or cholera. We drink clean water and wash our hands.",
+     "steps_en": [
+      "Show clean water and muddy water.",
+      "Ask: which one can we drink?",
+      "Say: drink boiled or treated water; wash hands with soap.",
+      "If you are sick, tell an adult."
+     ],
+     "observe_en": [
+      "Chooses clean water.",
+      "Says to wash hands.",
+      "Says they will tell an adult when sick."
+     ],
+     "materials_en": [
+      "clean water",
+      "muddy water in a closed jar"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 48 (Health Education and Nutrition: Treatment), p. 81; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N2-T5-PV3",
+     "type": "character",
+     "area": "Character Education",
+     "title_en": "Kind to animals and to people",
+     "goal_en": "Show love, respect and empathy to animals and people.",
+     "prompt_en": "We are kind to animals: we do not throw stones at them. And we are kind to every friend, even when they are different.",
+     "steps_en": [
+      "Tell a short story of a child who protects a kitten.",
+      "Ask how the kitten felt.",
+      "Talk about friends who are different (who cannot walk well, who speak another language).",
+      "Say kind words to a friend."
+     ],
+     "observe_en": [
+      "Says one kind act for animals.",
+      "Shows empathy in the discussion.",
+      "Says kind words."
+     ],
+     "materials_en": [
+      "pictures"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery Two, table 45 (Character Education: Good behaviour), p. 78; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N2-T5-AC1",
+     "type": "painting",
+     "area": "Painting",
+     "title_en": "Prints with natural paint",
+     "goal_en": "Use natural painting materials to stamp a pattern.",
+     "prompt_en": "Leaves, flowers and avocado seeds can make colours. Let us print animal tracks!",
+     "steps_en": [
+      "Prepare natural colours (crushed leaves, flowers, coloured earth) or washable paint.",
+      "Dip a stick, a leaf or a cork in the colour.",
+      "Stamp a pattern of tracks on paper.",
+      "Describe the pattern."
+     ],
+     "observe_en": [
+      "Uses a painting tool.",
+      "Makes a regular pattern.",
+      "Describes the artwork."
+     ],
+     "materials_en": [
+      "leaves",
+      "flowers",
+      "corks",
+      "paper",
+      "water"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery Two, table 51 (Painting: Painting materials), p. 84; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N2-T5-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "The animal relay",
+     "goal_en": "Run a relay with animal movements: jumping like a frog, sliding like a snake.",
+     "prompt_en": "Jump like a frog to the line, slide back like a snake, then touch your friend’s hand!",
+     "steps_en": [
+      "Make two teams.",
+      "Show the movements: frog jumps, snake slide on the grass.",
+      "Each child goes and comes back, then touches the next friend.",
+      "Cheer for both teams."
+     ],
+     "observe_en": [
+      "Does the movements.",
+      "Waits for the touch.",
+      "Cheers for the team."
+     ],
+     "materials_en": [
+      "soft grass",
+      "cones"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery Two, table 53 (Physical Education and Sports: Athletics), p. 86; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery Two contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery Two teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Makes animal sounds in a story.",
+   "Mimes animal movements.",
+   "Writes c, a, d, e, g, o correctly.",
+   "Sorts animals into sets and subsets.",
+   "Names farm animals and what they give.",
+   "Observes and names birds and insects.",
+   "Says why rivers must stay clean.",
+   "Prints a pattern with natural paint."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery Two tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

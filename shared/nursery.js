@@ -38,7 +38,7 @@ function shell(body){
 }
 K.paint=shell;
 function curriculumThemeNote(t){
- return t.curriculum_number?`<small>Code Klassia ${esc(t.id)} · thème ${esc(t.curriculum_number)} du programme francophone</small>`:'';
+ return t.curriculum_number?(EN?`<small>Klassia code ${esc(t.id)} · theme ${esc(t.curriculum_number)} of the English-subsystem curriculum</small>`:`<small>Code Klassia ${esc(t.id)} · thème ${esc(t.curriculum_number)} du programme francophone</small>`):'';
 }
 function home(){
  const total=allActivities().length,acquired=acquiredCount();
@@ -56,7 +56,7 @@ function home(){
  shell(body);
  document.getElementById('printTheme14').onclick=()=>openPrint('theme');
 }
-function themeIcon(id){if(NURSERY.grade==='GS'&&id==='T5')return '🐾';if(NURSERY.grade==='GS'&&id==='T6')return '🌱';return ({T1:'🏫',T2:'🧍',T3:'🏠',T4:'🎉',T5:'🌱',T6:'🐾',T7:'🧑‍🔧',T8:'🚌'})[id]||'📘'}
+function themeIcon(id){const gs=['GS','NURSERY2'].includes(NURSERY.grade);if(gs&&id==='T5')return '🐾';if(gs&&id==='T6')return '🌱';return ({T1:'🏫',T2:'🧍',T3:'🏠',T4:'🎉',T5:'🌱',T6:'🐾',T7:'🧑‍🔧',T8:'🚌'})[id]||'📘'}
 function renderList(title,arr){
  return arr?.length?`<div class="lang"><b>${esc(title)}</b><ol class="steps">${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ol></div>`:'';
 }
@@ -125,7 +125,7 @@ function domainPage(id,index=0){
 function themesPage(){
  const cards = catalog.themes.map(theme => ({
   href: '?theme=' + theme.id + '#home', title: L(theme,'title'), translation: EN ? '' : theme.title_en, code: theme.id,
-  detail: theme.curriculum_number ? 'Code Klassia ' + theme.id + ' · thème ' + theme.curriculum_number + ' du programme francophone' : ''
+  detail: theme.curriculum_number ? (EN ? 'Klassia code ' + theme.id + ' · theme ' + theme.curriculum_number + ' of the English-subsystem curriculum' : 'Code Klassia ' + theme.id + ' · thème ' + theme.curriculum_number + ' du programme francophone') : ''
  }));
  shell(K.catalogue('Parcourir les thèmes', NURSERY.label + ' · Choisis un thème pour ouvrir ses activités.', cards));
 }

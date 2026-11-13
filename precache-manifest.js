@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "e70c19ece12cfc6b71a65ebcee42f02ffea14597044259d6f7e8fd4436ab74ac",
+  "version": "89ef0dbfb434703a65ffc0cd433cbc9dd5f5ed0c1a6bd436c459232dcaa046f0",
   "packs": {
     "CE1": {
       "files": 52,
@@ -22,8 +22,8 @@ self.KLASSIA_RELEASE = {
       "bytes": 3010158
     },
     "common": {
-      "files": 69,
-      "bytes": 578606
+      "files": 71,
+      "bytes": 582967
     },
     "CLASS1": {
       "files": 8,
@@ -39,11 +39,15 @@ self.KLASSIA_RELEASE = {
     },
     "ATELIER": {
       "files": 1,
-      "bytes": 1059874
+      "bytes": 1122507
     },
     "NURSERY1": {
       "files": 8,
       "bytes": 143240
+    },
+    "NURSERY2": {
+      "files": 8,
+      "bytes": 140808
     }
   },
   "files": [
@@ -1344,8 +1348,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "d8887f13945504cfcc4a8efc0bf2cca1b2dafee6323797ef1f80d64c8b6299d6",
-      "size": 1059874,
+      "sha256": "a143a4dc02a0fce96223901146d46b1f95e05c2954eda386d70cf7c2538a4e93",
+      "size": 1122507,
       "pack": "ATELIER"
     },
     {
@@ -1415,8 +1419,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./gs/data/catalog-v13.json",
-      "sha256": "c5aa3885061cf93910db8f0d2cd12a8a38edd6c736293068f189feb8fd375469",
-      "size": 1971
+      "sha256": "7a8f29d31ecf9fb4ad893f91c3e4d6da998e90b725577fb98848abd70f24d296",
+      "size": 1973
     },
     {
       "url": "./gs/data/curriculum-map.json",
@@ -1626,6 +1630,64 @@ self.KLASSIA_RELEASE = {
       "size": 1297
     },
     {
+      "url": "./nursery2/data/catalog.json",
+      "sha256": "fbf9df06411c3775917cbed303dc0ef4f1dda29f2c8825bd8d907713ca13b354",
+      "size": 2305
+    },
+    {
+      "url": "./nursery2/data/themes/T1.json",
+      "sha256": "2ba3cf18ed268fed3219a10af51945922a1bbadef61256f13b943e1380889e9a",
+      "size": 18691,
+      "pack": "NURSERY2"
+    },
+    {
+      "url": "./nursery2/data/themes/T2.json",
+      "sha256": "a4d38040e4242d2288dd6fcfa974c9594e5df9f2ce3405a98fb3de81c93a6800",
+      "size": 17455,
+      "pack": "NURSERY2"
+    },
+    {
+      "url": "./nursery2/data/themes/T3.json",
+      "sha256": "b2ffded8e01ae1f6deefe154c75679fe4c1a8ee72f5e3ce64071cdbcce1c225d",
+      "size": 17456,
+      "pack": "NURSERY2"
+    },
+    {
+      "url": "./nursery2/data/themes/T4.json",
+      "sha256": "68c862b213b79725b5e64b51f3e5d0d11523a6d424b4ce7bad77dc928b51c21c",
+      "size": 17391,
+      "pack": "NURSERY2"
+    },
+    {
+      "url": "./nursery2/data/themes/T5.json",
+      "sha256": "90ef9ff6d826122cff9dc20dfd1abfbc0440adff2158fed2b2817da444461573",
+      "size": 17634,
+      "pack": "NURSERY2"
+    },
+    {
+      "url": "./nursery2/data/themes/T6.json",
+      "sha256": "ec4540ba57d0bada4a2dd475c8c5855a9d883082ea3812443689f43b2a681679",
+      "size": 17102,
+      "pack": "NURSERY2"
+    },
+    {
+      "url": "./nursery2/data/themes/T7.json",
+      "sha256": "b85304080b514208984f84490e0c29d597df943b6d299200e76d094e513eb9a9",
+      "size": 17619,
+      "pack": "NURSERY2"
+    },
+    {
+      "url": "./nursery2/data/themes/T8.json",
+      "sha256": "930b6c5dbd4d8e3eb12f87cac1b49f843af2b3544a8f3652bc8a28db6371018c",
+      "size": 17460,
+      "pack": "NURSERY2"
+    },
+    {
+      "url": "./nursery2/index.html",
+      "sha256": "7f58b1d3e5834a30321df278a59a4a190d51fead9cc64e2eb7fc0264a8361b99",
+      "size": 1297
+    },
+    {
       "url": "./outils.html",
       "sha256": "4be4bdc161861ae95ecaee5a15463fbec5f55b8edddfd77d2c33e05a67880aa4",
       "size": 4283
@@ -1637,13 +1699,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./pwa.js",
-      "sha256": "8f5454efb6ff8ed900206d9b2eef5ef61e0275bc33667b9992f0edca199df05c",
-      "size": 14558
+      "sha256": "d5f507ca699dd2b1d9948d888ca1269aee296bec56ff1ca736a2065b6a932abc",
+      "size": 14623
     },
     {
       "url": "./search.html",
-      "sha256": "1ef48c51f87916834a513edcbd172c51e988c70b8836d6bc74a00e203d3f6056",
-      "size": 1926
+      "sha256": "75f9f60432c20e57e1e9680fe4ff98493e7c61ca52f87dcab1a7dcc95491c4a6",
+      "size": 1971
     },
     {
       "url": "./service-worker.js",
@@ -1667,8 +1729,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/classes.js",
-      "sha256": "691eb9836fdbc1f92b1245eeda5a76e7aebd97b84d48ae085979b2699ab000a3",
-      "size": 5914
+      "sha256": "5ceb440c91cf9949a1abed3f6260cde76ab0c3341fe387c734d8e5987da3cc19",
+      "size": 6262
     },
     {
       "url": "./shared/core.js",
@@ -1747,8 +1809,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/nursery.js",
-      "sha256": "edf84fc03dfb3fbe8c864658a2cae9f5581507a8313ecac4a277f7079d940c54",
-      "size": 27758
+      "sha256": "f87fd57b78d7b45e1dc6e631dcc06983eef6f63b0ca30d26b439482a0d46b20e",
+      "size": 28012
     },
     {
       "url": "./shared/pilot.css",
@@ -1837,8 +1899,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/workshop.js",
-      "sha256": "fec789058efd03bcbbb8d4ffe6c0d0adc41af766f63f07576495b610265e5ddd",
-      "size": 13431
+      "sha256": "c031f95a9da78ea18c433eda1263400fdaa28d0d7cf6fd6a06936655088e4b5d",
+      "size": 13476
     },
     {
       "url": "./sil/data/curriculum.json",

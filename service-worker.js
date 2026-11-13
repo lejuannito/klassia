@@ -126,11 +126,18 @@ self.addEventListener('message', event => {
   }
 });
 
+// Adresses présentes dans l'édition installée, en une seule lecture du cache. Interroger le cache fichier par fichier
+// (plus de trois cents lectures à chaque page ouverte) faisait attendre les pages derrière ces lectures.
+async function cachedUrls(cache) {
+  return new Set((await cache.keys()).map(request => request.url));
+}
+
 // État par paquet : la page affiche les classes disponibles et la taille de celles qu'on peut ajouter.
 async function status() {
   const selection = await readSelection();
   const cache = await caches.open(CACHE_NAME);
-  const present = await Promise.all(files.map(file => cache.match(file.url).then(Boolean)));
+  const urls = await cachedUrls(cache);
+  const present = files.map(file => urls.has(file.url));
   const packs = {};
   files.forEach((file, i) => {
     const key = file.pack || 'common';
@@ -148,9 +155,10 @@ async function applySelection() {
   const cache = await caches.open(CACHE_NAME);
   const editions = await Promise.all((await caches.keys())
     .filter(key => key.startsWith('klassia-') && key !== CACHE_NAME).map(key => caches.open(key)));
+  const urls = await cachedUrls(cache);
   for (const file of files) {
-    if (!wanted(file, selection)) { if (file.pack) await cache.delete(file.url); continue; }
-    if (await cache.match(file.url)) continue;
+    if (!wanted(file, selection)) { if (file.pack && urls.has(file.url)) await cache.delete(file.url); continue; }
+    if (urls.has(file.url)) continue;
     await cache.put(file.url, await installedCopy(file, editions) || await verifiedResponse(file));
   }
 }

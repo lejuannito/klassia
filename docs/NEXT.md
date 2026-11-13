@@ -126,6 +126,15 @@ Les trois correctifs sont fusionnés. Les essais Android et iPhone se comparent 
 - Vérifier dans les cinq classes que le corrigé s’ouvre après une tentative, puis vérifier l’accès direct dans un espace adulte. [Corrigés](https://github.com/lejuannito/klassia/issues/36)
 - Comparer les extraits fixes et les voix de l’appareil sur la tablette qui a posé problème, sur Android et sur iPhone. Relever la compréhension et les mots mal prononcés. [Voix FR/EN](https://github.com/lejuannito/klassia/issues/37) · [Carnet du pilote](GUIDE_PILOTE.md)
 
+## Stabilité de la suite hors connexion (13 novembre 2026)
+
+La suite `tests/pwa-browser.cjs` échouait de temps en temps, à une étape chaque fois différente. Deux causes réelles sont corrigées :
+
+- **Lecture du cache à chaque page** — pour afficher l’état « disponible hors connexion », le service worker interrogeait le cache fichier par fichier (330 lectures à chaque page ouverte). Ces lectures passaient devant les requêtes de la page, qui pouvait attendre ses données au-delà du délai du test. Le service worker lit maintenant la liste du cache en une seule fois (`cache.keys()`), aussi pour l’ajout ou le retrait d’une classe. Les pages s’ouvrent plus vite pour les familles, et la suite passe de 85 à 70 secondes.
+- **Régression du lot A8 dans « Langue de la maison »** — le nom du mot, mis dans une `<span>` pour ne pas être traduit, prenait la taille de l’image (2,4 rem) ; un nom long (« L’école maternelle ») débordait sur le bouton voisin et l’enfant pouvait toucher le mauvais mot. Seule l’image est agrandie ; le test le vérifie.
+
+En cas d’échec, la suite affiche maintenant l’état de la page (adresse, contenu, service worker), ses dernières erreurs et requêtes perdues, et vérifie si le service worker répond encore. Un cas reste à expliquer : deux fois sur une trentaine de passages locaux, une page s’est ouverte sans le module de stockage (`K.read is not a function`) ; le prochain échec en CI dira quelle requête a manqué. Après les corrections : 23 passages locaux de suite sans échec.
+
 ## Recherche et mises à jour hors connexion
 
 La recherche des 844 ressources a été fusionnée le 4 novembre 2026. Le guide de vérification mobile figure dans [RECHERCHE.md](RECHERCHE.md).

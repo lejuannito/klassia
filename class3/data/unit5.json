@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 3 are written (lots A5a and A5b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–91; Class 3 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -565,6 +565,553 @@
    },
    "competencies": [
     "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-S",
+   "domain": "Science and Technology",
+   "title": "Safety on the road and protective equipment",
+   "objective": "Apply safety rules on the road and use appropriate protective equipment.",
+   "course": "On a journey, we stay safe: we wear the seat belt in a car, a helmet on a motorbike, we do not put our head or arms out of the window, we cross at safe places and look both ways.\nWorkers use protective equipment: helmets, gloves, boots, masks, reflective jackets.",
+   "model": "Before the motorbike leaves, the driver gives Bih a helmet and checks that it is fastened.",
+   "guided": "Match pictures of workers with their protective equipment. Act a safe journey by bus.",
+   "exercise": "What must you wear on a motorbike?",
+   "answer": "A helmet.",
+   "accept": [
+    "a helmet",
+    "helmet",
+    "A helmet"
+   ],
+   "remediation": "Learn two rules first: helmet on a motorbike, seat belt in a car.",
+   "transfer": "Remind your family to wear seat belts or helmets on the next trip.",
+   "materials": "Pictures of road scenes and protective equipment.",
+   "practice": [
+    {
+     "prompt": "Match each worker with his protective equipment.",
+     "type": "match",
+     "pairs": [
+      [
+       "a builder",
+       "a helmet"
+      ],
+      [
+       "a welder",
+       "a face shield"
+      ],
+      [
+       "a road worker",
+       "a reflective jacket"
+      ]
+     ],
+     "answer": "builder: helmet; welder: face shield; road worker: reflective jacket.",
+     "explanation": "Equipment protects from danger."
+    },
+    {
+     "prompt": "Which behaviour is safe in a bus?",
+     "type": "mcq",
+     "choices": [
+      "keep arms inside",
+      "put the head out of the window",
+      "stand near the door while moving"
+     ],
+     "correct": 0,
+     "answer": "keep arms inside",
+     "explanation": "Arms and head stay inside."
+    },
+    {
+     "prompt": "What do we wear in a car?",
+     "answer": "A seat belt.",
+     "accept": [
+      "a seat belt",
+      "seat belt",
+      "the seat belt",
+      "A seat belt"
+     ],
+     "explanation": "The seat belt protects in an accident."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Technology and Engineering: safety and security), p. 59, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Technology and Engineering: safety and security"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-F",
+   "domain": "Français",
+   "title": "Je vais au marché, je viens de l’école",
+   "objective": "Dire où l’on va et d’où l’on vient, et indiquer un chemin (à gauche, à droite, tout droit).",
+   "course": "Pour dire où on va : « Je vais à Douala. Je vais au marché. Je vais à l’école. »\nPour dire d’où on vient : « Je viens de Yaoundé. Je viens du marché. Je viens de l’hôpital. »\nPour indiquer un chemin : à gauche, à droite, tout droit.",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "Je vais au marché.\nJe viens de l’école.\nTourne à gauche, puis va tout droit."
+   },
+   "model": "Un voyageur demande : « Où est la gare routière ? » Bih répond : « Va tout droit, puis tourne à droite. »",
+   "guided": "Dessine un petit plan de ton quartier. Explique en français le chemin de ta maison à l’école.",
+   "exercise": "Complète : Je vais … marché.",
+   "answer": "au",
+   "accept": [
+    "au",
+    "Je vais au marché"
+   ],
+   "remediation": "Travaille « à gauche » et « à droite » avec les bras.",
+   "transfer": "Explique en français le chemin vers la boutique la plus proche.",
+   "materials": "Un plan simple, papier.",
+   "practice": [
+    {
+     "prompt": "Complète avec au, à l’ ou à.",
+     "type": "gaps",
+     "text": "Je vais [[au]] marché. Je vais [[à l’]]école. Je vais [[à]] Kribi.",
+     "answer": "au marché ; à l’école ; à Kribi.",
+     "explanation": "au + nom masculin ; à l’ + voyelle ; à + ville."
+    },
+    {
+     "prompt": "« Tourne à droite » veut dire…",
+     "type": "mcq",
+     "choices": [
+      "turn right",
+      "turn left",
+      "go straight"
+     ],
+     "correct": 0,
+     "answer": "turn right",
+     "explanation": "à droite = right."
+    },
+    {
+     "prompt": "Écoute et suis le chemin.",
+     "listen": "Va tout droit. Tourne à gauche. La pharmacie est à côté de l’église.",
+     "answer": "Tout droit, à gauche, la pharmacie est à côté de l’église.",
+     "explanation": "Écoute chaque indication."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : localisation), p. 63, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : localisation"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-C",
+   "domain": "Social Studies",
+   "title": "Mountains, rivers and maps",
+   "objective": "Identify physical features of Cameroon and read a simple map with a key.",
+   "course": "Physical features are natural forms of the land: mountains (Mount Cameroon), hills, plains, plateaus, rivers (Sanaga, Wouri), lakes and the sea (Atlantic Ocean).\nA map is a drawing of a place seen from above. It has a title, a key (symbols) and directions (North, South, East, West).",
+   "model": "The adult shows a map of Cameroon: “This triangle in the key is a mountain. Mount Cameroon is near Buea.”",
+   "guided": "Draw a map of your quarter with a title, a key and four directions.",
+   "exercise": "What is the highest mountain in Cameroon?",
+   "answer": "Mount Cameroon.",
+   "accept": [
+    "Mount Cameroon",
+    "mount cameroon",
+    "Mt Cameroon"
+   ],
+   "remediation": "Use a map with three symbols only.",
+   "transfer": "Find the river nearest to your town on a map.",
+   "materials": "A map of Cameroon, paper.",
+   "practice": [
+    {
+     "prompt": "Match each feature with an example.",
+     "type": "match",
+     "pairs": [
+      [
+       "a mountain",
+       "Mount Cameroon"
+      ],
+      [
+       "a river",
+       "the Sanaga"
+      ],
+      [
+       "an ocean",
+       "the Atlantic"
+      ]
+     ],
+     "answer": "mountain: Mount Cameroon; river: Sanaga; ocean: Atlantic.",
+     "explanation": "These are physical features of Cameroon."
+    },
+    {
+     "prompt": "What explains the symbols of a map?",
+     "type": "mcq",
+     "choices": [
+      "the key",
+      "the title",
+      "the scale only"
+     ],
+     "correct": 0,
+     "answer": "the key",
+     "explanation": "The key explains the symbols."
+    },
+    {
+     "prompt": "Draw a map of your quarter with a key.",
+     "answer": "A map with a title, a key and directions.",
+     "explanation": "Use simple symbols.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Physical Geography: features and maps), p. 71, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Physical Geography: features and maps"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-V",
+   "domain": "Vocational Studies",
+   "title": "Folding and cutting: a paper boat",
+   "objective": "Fold and cut paper following given dimensions to make an object.",
+   "course": "To make a good object, we follow the dimensions: we measure with a ruler, we mark with a pencil, we fold on the line and we cut carefully with scissors.\nA paper boat is folded from a rectangle (for example 20 cm × 30 cm).",
+   "model": "The adult measures a rectangle of 20 cm by 30 cm, cuts it and folds a boat step by step.",
+   "guided": "Measure and cut a rectangle of 20 cm × 30 cm. Fold a boat following the adult. Float it on water.",
+   "exercise": "Which tool do we use to measure the paper?",
+   "answer": "A ruler.",
+   "accept": [
+    "a ruler",
+    "ruler",
+    "A ruler"
+   ],
+   "remediation": "Fold with a ready-cut rectangle first.",
+   "transfer": "Make a boat for a younger child and explain the steps.",
+   "materials": "Paper, ruler, pencil, scissors (with an adult).",
+   "practice": [
+    {
+     "prompt": "Put the steps in order.",
+     "type": "order",
+     "items": [
+      "Measure.",
+      "Mark with a pencil.",
+      "Cut.",
+      "Fold."
+     ],
+     "answer": "measure, mark, cut, fold.",
+     "explanation": "Measure before cutting."
+    },
+    {
+     "prompt": "A rectangle of 20 cm × 30 cm. What is the longer side, in cm?",
+     "type": "number",
+     "answer": 30,
+     "explanation": "30 cm is longer than 20 cm."
+    },
+    {
+     "prompt": "Draw your boat.",
+     "answer": "A drawing of the paper boat.",
+     "explanation": "Show its shape.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: folding and cutting to given dimensions), p. 79, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: folding and cutting to given dimensions"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-A",
+   "domain": "Arts",
+   "title": "Musical instruments and the sol-fa scale",
+   "objective": "Name musical instruments, keep a rhythm and sing the sol-fa scale with correct pitch.",
+   "course": "Instruments: drums and tom-toms (percussion), the balafon, the flute, the guitar, rattles. Each makes a different sound.\nThe sol-fa scale goes up: do, re, mi, fa, sol, la, ti, do. We sing it slowly, listening to rise in pitch, then down again.",
+   "model": "The adult claps a rhythm (long, short, short) and sings the scale up and down.",
+   "guided": "Repeat a clapped rhythm. Sing the sol-fa scale up and down with the adult. Make a rattle with a tin and seeds.",
+   "exercise": "Which note comes after “mi” in the sol-fa scale?",
+   "answer": "Fa.",
+   "accept": [
+    "fa",
+    "Fa"
+   ],
+   "remediation": "Sing the first three notes: do, re, mi.",
+   "transfer": "Play a rhythm on a homemade instrument for your family.",
+   "materials": "A drum or a tin, seeds, a bottle.",
+   "practice": [
+    {
+     "prompt": "Put the notes of the scale in order.",
+     "type": "order",
+     "items": [
+      "do",
+      "re",
+      "mi",
+      "fa",
+      "sol"
+     ],
+     "answer": "do, re, mi, fa, sol.",
+     "explanation": "The scale goes up step by step."
+    },
+    {
+     "prompt": "Which instrument do we play by hitting it?",
+     "type": "mcq",
+     "choices": [
+      "a drum",
+      "a flute",
+      "a guitar"
+     ],
+     "correct": 0,
+     "answer": "a drum",
+     "explanation": "A drum is a percussion instrument."
+    },
+    {
+     "prompt": "Listen and repeat the scale.",
+     "listen": "do, re, mi, fa, sol, la, ti, do",
+     "answer": "The scale sung up.",
+     "explanation": "Each note is a little higher."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: music, instruments and sol-fa), p. 82, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: music, instruments and sol-fa"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-P",
+   "domain": "Physical Education and Sports",
+   "title": "Throwing safely: shot put and javelin with soft objects",
+   "objective": "Throw a light object far using the correct movement, following safety rules.",
+   "course": "In throwing events, we throw an object as far as possible: the shot (push from the neck), the javelin (throw over the shoulder), the discus (turn and throw). At school we use soft or light objects: a bean bag, a ball, a stick of foam.\nSafety: everyone stands behind the thrower; we collect the objects only when the teacher says so.",
+   "model": "The adult pushes a bean bag from the neck (shot), then throws a light stick over the shoulder (javelin).",
+   "guided": "Throw a bean bag with the shot movement and a light stick with the javelin movement. Measure with steps.",
+   "exercise": "Where do others stand during throws?",
+   "answer": "Behind the thrower.",
+   "accept": [
+    "behind the thrower",
+    "behind",
+    "Behind the thrower"
+   ],
+   "remediation": "Practise the movement without the object first.",
+   "transfer": "Explain the safety rule to a younger child.",
+   "materials": "Bean bags, light sticks or balls, open space.",
+   "practice": [
+    {
+     "prompt": "Match each event with its movement.",
+     "type": "match",
+     "pairs": [
+      [
+       "shot put",
+       "push from the neck"
+      ],
+      [
+       "javelin",
+       "throw over the shoulder"
+      ],
+      [
+       "discus",
+       "turn and throw"
+      ]
+     ],
+     "answer": "shot: push; javelin: over the shoulder; discus: turn.",
+     "explanation": "Each throw has its movement."
+    },
+    {
+     "prompt": "When do we collect the objects?",
+     "type": "mcq",
+     "choices": [
+      "when the teacher says so",
+      "while others are throwing",
+      "never"
+     ],
+     "correct": 0,
+     "answer": "when the teacher says so",
+     "explanation": "This keeps everyone safe."
+    },
+    {
+     "prompt": "Tabi throws 6 steps, Ekane 8 steps. Who throws further?",
+     "answer": "Ekane.",
+     "accept": [
+      "Ekane"
+     ],
+     "explanation": "8 is more than 6."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Athletics: throws), p. 84, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Athletics: throws"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-N",
+   "domain": "National Languages and Cultures",
+   "title": "Celebrating a birth in our culture",
+   "objective": "Describe a significant life event of the community and draw lessons from it.",
+   "course": "Communities celebrate important events: the birth of a child (naming ceremony, visits, gifts), marriage (meeting of families, gifts, celebration), enthronement of a ruler.\nEach event has customs, songs, dances and food. These events show solidarity and joy.",
+   "model": "The adult tells how a recent birth was celebrated in the family: visitors, gifts, the choice of the name.",
+   "guided": "Ask an elder how births are celebrated in your culture. Tell it in a few sentences, using some words of the family language.",
+   "exercise": "Name one significant life event.",
+   "answer": "For example: a birth, a marriage or an enthronement.",
+   "remediation": "Look at photos of a family event with an adult.",
+   "transfer": "Ask your parents the meaning of your own name.",
+   "materials": "Family photos (with permission), an elder.",
+   "practice": [
+    {
+     "prompt": "Which event celebrates a new baby?",
+     "type": "mcq",
+     "choices": [
+      "a naming ceremony",
+      "an enthronement",
+      "a football match"
+     ],
+     "correct": 0,
+     "answer": "a naming ceremony",
+     "explanation": "We celebrate a birth."
+    },
+    {
+     "prompt": "Write three sentences about a family celebration.",
+     "answer": "Three sentences about a celebration.",
+     "explanation": "Say what happened and how people felt.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "What do these events show?",
+     "type": "mcq",
+     "choices": [
+      "solidarity and joy",
+      "anger",
+      "fear"
+     ],
+     "correct": 0,
+     "answer": "solidarity and joy",
+     "explanation": "Families come together."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Descriptions of significant life events: birth, marriage, enthronement), p. 86, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Descriptions of significant life events: birth, marriage, enthronement"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-I",
+   "domain": "ICTs",
+   "title": "Typing in Notepad: space bar, backspace, capital letters",
+   "objective": "Use the keyboard to type letters and figures, with the space bar, backspace and capital letters.",
+   "course": "On the keyboard: the space bar puts a space between words; backspace deletes the letter on the left; Shift + a letter gives a capital letter; Caps Lock writes all in capitals; Enter goes to a new line.\nNotepad is a simple program to type text.",
+   "model": "The adult opens Notepad and types: “My name is Bih.” using Shift for M and B, and the space bar between words.",
+   "guided": "With an adult, type your name and a sentence in Notepad. Correct a mistake with backspace. If there is no computer, practise on a paper keyboard.",
+   "exercise": "Which key deletes the letter on the left?",
+   "answer": "Backspace.",
+   "accept": [
+    "backspace",
+    "the backspace key",
+    "the backspace",
+    "Backspace"
+   ],
+   "remediation": "Practise only the space bar and backspace first.",
+   "transfer": "Type a short message to a family member with an adult.",
+   "materials": "A computer with Notepad, or a paper keyboard.",
+   "practice": [
+    {
+     "prompt": "Match each key with its role.",
+     "type": "match",
+     "pairs": [
+      [
+       "space bar",
+       "space between words"
+      ],
+      [
+       "Shift",
+       "capital letter"
+      ],
+      [
+       "Enter",
+       "new line"
+      ]
+     ],
+     "answer": "space bar: space; Shift: capital; Enter: new line.",
+     "explanation": "Each key has a role."
+    },
+    {
+     "prompt": "How do we type a capital B?",
+     "type": "mcq",
+     "choices": [
+      "Shift + b",
+      "Enter + b",
+      "backspace + b"
+     ],
+     "correct": 0,
+     "answer": "Shift + b",
+     "explanation": "Shift gives a capital letter."
+    },
+    {
+     "prompt": "Write the sentence you would type, with capitals and spaces.",
+     "answer": "A sentence with a capital letter and spaces.",
+     "explanation": "Start with a capital letter.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Uses of the keyboard: space bar, backspace, upper and lower case in Notepad), p. 90, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Uses of the keyboard: space bar, backspace, upper and lower case in Notepad"
    ]
   }
  ]

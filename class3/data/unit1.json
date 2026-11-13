@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 3 are written (lots A5a and A5b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–91; Class 3 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -539,6 +539,560 @@
    },
    "competencies": [
     "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-S",
+   "domain": "Science and Technology",
+   "title": "Our skeleton and our bones",
+   "objective": "Identify the main bones of the human skeleton, say what the skeleton does and how to keep bones healthy.",
+   "course": "The skeleton is the frame of the body. It holds us up, protects soft organs and helps us move with the muscles. The skull protects the brain; the ribs protect the heart and lungs; the backbone (spine) holds us upright; the long bones of the arms and legs help us move.\nTo keep bones strong: eat foods with calcium (milk, fish with bones, green leaves), play and exercise, sit and carry loads correctly.",
+   "model": "The adult touches parts of the body: “Here is the skull. Here are the ribs. Feel the backbone down your back.”",
+   "guided": "Feel your own bones: skull, jaw, ribs, backbone, knee. Draw a simple skeleton and label five bones.",
+   "exercise": "Which bones protect the heart and the lungs?",
+   "answer": "The ribs.",
+   "accept": [
+    "the ribs",
+    "ribs",
+    "The ribs"
+   ],
+   "remediation": "Work with three bones first: skull, ribs, backbone.",
+   "transfer": "Show your family how to sit straight and carry a bag on both shoulders.",
+   "materials": "A picture of the skeleton, paper, pencils.",
+   "practice": [
+    {
+     "prompt": "Match each bone with what it protects or does.",
+     "type": "match",
+     "pairs": [
+      [
+       "the skull",
+       "protects the brain"
+      ],
+      [
+       "the ribs",
+       "protect the heart and lungs"
+      ],
+      [
+       "the backbone",
+       "holds us upright"
+      ]
+     ],
+     "answer": "skull: brain; ribs: heart and lungs; backbone: upright.",
+     "explanation": "Bones protect and support."
+    },
+    {
+     "prompt": "Which food helps build strong bones?",
+     "type": "mcq",
+     "choices": [
+      "milk",
+      "sweets",
+      "soft drinks"
+     ],
+     "correct": 0,
+     "answer": "milk",
+     "explanation": "Milk contains calcium."
+    },
+    {
+     "prompt": "Draw a simple skeleton and label five bones.",
+     "answer": "A skeleton with five labelled bones.",
+     "explanation": "Skull, ribs, backbone, arm bone, leg bone.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: the human skeleton and care of the body), p. 53, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: the human skeleton and care of the body"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-F",
+   "domain": "Français",
+   "title": "J’habite à… Il s’appelle…",
+   "objective": "Se présenter et présenter quelqu’un : nom, lieu d’habitation, profession.",
+   "course": "Pour se présenter : « Je m’appelle Ayuk. J’habite à Kumba. » (I live in Kumba.)\nPour présenter quelqu’un : « Il s’appelle Ndi. Il habite à Bafoussam. Il est menuisier. » / « Elle s’appelle Bih. Elle est infirmière. »",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "Je m’appelle … J’habite à …\nIl s’appelle … Il est cultivateur.\nElle s’appelle … Elle est commerçante."
+   },
+   "model": "Ngum présente sa famille : « Voici mon père. Il s’appelle Fon. Il habite à Bamenda. Il est chauffeur. »",
+   "guided": "Présente-toi, puis présente deux membres de ta famille avec leur ville et leur métier.",
+   "exercise": "Complète : Il … Neba. (to be called)",
+   "answer": "Il s’appelle Neba.",
+   "accept": [
+    "s’appelle",
+    "s'appelle",
+    "Il s’appelle Neba",
+    "Il s'appelle Neba"
+   ],
+   "remediation": "Commence par « Je m’appelle » et « J’habite à », puis passe à « il » et « elle ».",
+   "transfer": "Présente un voisin en français à ta famille.",
+   "materials": "Photos ou dessins de personnes.",
+   "practice": [
+    {
+     "prompt": "Complète.",
+     "type": "gaps",
+     "text": "Je m’[[appelle]] Bih. J’[[habite]] à Limbé.",
+     "answer": "Je m’appelle Bih. J’habite à Limbé.",
+     "explanation": "appeler, habiter."
+    },
+    {
+     "prompt": "Relie la personne à la bonne phrase.",
+     "type": "match",
+     "pairs": [
+      [
+       "un garçon",
+       "Il s’appelle Tabi."
+      ],
+      [
+       "une fille",
+       "Elle s’appelle Manka."
+      ]
+     ],
+     "answer": "Il pour un garçon ; Elle pour une fille.",
+     "explanation": "il = he ; elle = she."
+    },
+    {
+     "prompt": "Écoute et répète.",
+     "listen": "Je m’appelle Enow. J’habite à Buea. Mon père est infirmier.",
+     "answer": "Je m’appelle Enow. J’habite à Buea. Mon père est infirmier.",
+     "explanation": "Prononce bien « j’habite »."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : présentations), p. 60, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : présentations"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-C",
+   "domain": "Social Studies",
+   "title": "Our family history: time and sources",
+   "objective": "Use the notion of time (past, present, future) and identify sources of history in the family.",
+   "course": "History studies the past. We place events in time: long ago, last year, today, next year. A timeline shows events in order.\nSources of history tell us about the past: elders’ stories (oral sources), old photos and letters (written and picture sources), old objects (a grinding stone, a calabash).",
+   "model": "Grandfather shows an old photo of the family compound and tells how it looked when he was young.",
+   "guided": "Ask an elder three questions about the past. Make a family timeline with five events (births, moves, school).",
+   "exercise": "Name one source of history in a family.",
+   "answer": "For example: an old photo or an elder’s story.",
+   "remediation": "Order three events of your own life first.",
+   "transfer": "Keep an old object or photo with its story written on a card.",
+   "materials": "Old photos or objects (with permission), paper.",
+   "practice": [
+    {
+     "prompt": "Put the events of Ayuk’s life in order.",
+     "type": "order",
+     "items": [
+      "Ayuk is born.",
+      "He starts nursery school.",
+      "He enters Class 1.",
+      "He is now in Class 3."
+     ],
+     "answer": "born, nursery, Class 1, Class 3.",
+     "explanation": "A timeline shows the order of events."
+    },
+    {
+     "prompt": "An elder tells about the old market. What kind of source is it?",
+     "type": "mcq",
+     "choices": [
+      "oral source",
+      "written source",
+      "no source"
+     ],
+     "correct": 0,
+     "answer": "oral source",
+     "explanation": "Spoken stories are oral sources."
+    },
+    {
+     "prompt": "Draw your family timeline with five events.",
+     "answer": "A timeline with five events in order.",
+     "explanation": "Put the oldest event on the left.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (History: notion of time and sources of history), p. 71, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "History: notion of time and sources of history"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-V",
+   "domain": "Vocational Studies",
+   "title": "Keeping the house clean: rooms and tools",
+   "objective": "Name the sections of the house, the cleaning equipment and keep the house clean.",
+   "course": "A house has sections: the sitting room (parlour), the kitchen, the bedrooms, the veranda and the toilet. Each has its furniture and its equipment.\nCleaning equipment: broom, mop, bucket, dustpan, duster, brush. We sweep, dust, wash and air the rooms, and we put things back in their place.",
+   "model": "On Saturday morning, the family cleans: Ayuk sweeps the veranda, Bih dusts the parlour, Papa washes the toilet.",
+   "guided": "Make a cleaning rota for the family. Do one task and say which tools you used.",
+   "exercise": "Which tool do we use to sweep?",
+   "answer": "A broom.",
+   "accept": [
+    "a broom",
+    "broom",
+    "the broom",
+    "A broom"
+   ],
+   "remediation": "Match three rooms with their furniture first.",
+   "transfer": "Keep your own room tidy for a week.",
+   "materials": "Broom, duster, bucket.",
+   "practice": [
+    {
+     "prompt": "Match each room with something we find in it.",
+     "type": "match",
+     "pairs": [
+      [
+       "the kitchen",
+       "a stove"
+      ],
+      [
+       "the bedroom",
+       "a bed"
+      ],
+      [
+       "the parlour",
+       "chairs"
+      ]
+     ],
+     "answer": "kitchen: stove; bedroom: bed; parlour: chairs.",
+     "explanation": "Each room has its furniture."
+    },
+    {
+     "prompt": "Put the cleaning in a good order.",
+     "type": "order",
+     "items": [
+      "Open the windows.",
+      "Dust the furniture.",
+      "Sweep the floor.",
+      "Put things back."
+     ],
+     "answer": "open, dust, sweep, put back.",
+     "explanation": "We dust before sweeping."
+    },
+    {
+     "prompt": "Which tool picks up dirt after sweeping?",
+     "type": "mcq",
+     "choices": [
+      "a dustpan",
+      "a spoon",
+      "a needle"
+     ],
+     "correct": 0,
+     "answer": "a dustpan",
+     "explanation": "The dustpan collects the dirt."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Home Economics: housecraft, sections of the house and equipment), p. 78, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Home Economics: housecraft, sections of the house and equipment"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-A",
+   "domain": "Arts",
+   "title": "Painting my body: colour combinations",
+   "objective": "Identify painting materials and paint using appropriate colour combinations.",
+   "course": "Painting materials: brushes, paints, water, a palette, paper or cloth, a rag.\nThe primary colours are red, yellow and blue. When we mix two of them we get a new colour: red + yellow = orange; yellow + blue = green; blue + red = purple. To paint skin tones we can mix brown with a little white or yellow.",
+   "model": "The adult mixes yellow and blue on a palette: “Look, it becomes green.”",
+   "guided": "Mix the three secondary colours on a palette. Paint a portrait of yourself with colours you mixed.",
+   "exercise": "Which colour do we get with yellow and blue?",
+   "answer": "Green.",
+   "accept": [
+    "green",
+    "Green"
+   ],
+   "remediation": "Mix only two colours at a time with a little paint.",
+   "transfer": "Show your family how to make orange from two colours.",
+   "materials": "Paints (or coloured chalk), brushes, palette, water, paper.",
+   "practice": [
+    {
+     "prompt": "Match each mix with its colour.",
+     "type": "match",
+     "pairs": [
+      [
+       "red + yellow",
+       "orange"
+      ],
+      [
+       "yellow + blue",
+       "green"
+      ],
+      [
+       "blue + red",
+       "purple"
+      ]
+     ],
+     "answer": "orange; green; purple.",
+     "explanation": "Two primary colours make a secondary colour."
+    },
+    {
+     "prompt": "Which one is a primary colour?",
+     "type": "mcq",
+     "choices": [
+      "red",
+      "green",
+      "orange"
+     ],
+     "correct": 0,
+     "answer": "red",
+     "explanation": "The primary colours are red, yellow and blue."
+    },
+    {
+     "prompt": "Paint or draw your portrait with mixed colours.",
+     "answer": "A portrait in colour.",
+     "explanation": "Use the colours you mixed.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: painting, materials and colour combinations), p. 81, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: painting, materials and colour combinations"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-P",
+   "domain": "Physical Education and Sports",
+   "title": "Balancing and warm-up exercises",
+   "objective": "Balance on one foot and do simple calisthenics safely.",
+   "course": "Before sport, we warm up: we walk, jog slowly, turn the arms and the neck gently. Calisthenics are exercises with our own body: jumping jacks, squats, arm circles.\nTo balance: fix your eyes on a point, keep your arms open, lift one foot and count slowly to ten.",
+   "model": "The adult shows ten jumping jacks, then stands on one foot with open arms for ten seconds.",
+   "guided": "Warm up for three minutes. Do ten jumping jacks and ten squats. Balance on each foot for ten seconds.",
+   "exercise": "What do we do before sport?",
+   "answer": "We warm up.",
+   "accept": [
+    "warm up",
+    "we warm up",
+    "a warm-up",
+    "We warm up"
+   ],
+   "remediation": "Balance with one hand on a wall first.",
+   "transfer": "Do the warm-up with your family every morning for a week.",
+   "materials": "Open space, a watch or counting.",
+   "practice": [
+    {
+     "prompt": "Put the warm-up in order.",
+     "type": "order",
+     "items": [
+      "Walk.",
+      "Jog slowly.",
+      "Turn the arms.",
+      "Stretch gently."
+     ],
+     "answer": "walk, jog, arms, stretch.",
+     "explanation": "We start slowly."
+    },
+    {
+     "prompt": "How many seconds do you count when balancing on one foot?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "Count slowly to ten."
+    },
+    {
+     "prompt": "What helps us balance?",
+     "type": "mcq",
+     "choices": [
+      "fixing the eyes on a point",
+      "closing the eyes and running",
+      "shouting"
+     ],
+     "correct": 0,
+     "answer": "fixing the eyes on a point",
+     "explanation": "A fixed point helps balance."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Gymnastics and fitness: balancing and calisthenics), p. 83, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Gymnastics and fitness: balancing and calisthenics"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-N",
+   "domain": "National Languages and Cultures",
+   "title": "My language and the languages around me",
+   "objective": "Name your language and identify other languages spoken in the community.",
+   "course": "Each family has one or more languages. Cameroon has more than two hundred national languages, plus English and French. In one town or subdivision, several languages are spoken.\nWe respect all languages and can learn greetings in many of them.",
+   "model": "The adult says: “At home we speak our language. Our neighbours speak another one. At school we speak English and French.”",
+   "guided": "Ask three people the name of their language. Make a list of the languages of your quarter.",
+   "exercise": "Name the language of your family.",
+   "answer": "For example: the name of your family language.",
+   "remediation": "Ask a parent or an elder the name of the language.",
+   "transfer": "Learn to say “good morning” in a language of a neighbour.",
+   "materials": "Paper, a family member.",
+   "practice": [
+    {
+     "prompt": "Which languages are official in Cameroon?",
+     "type": "mcq",
+     "choices": [
+      "English and French",
+      "only English",
+      "only French"
+     ],
+     "correct": 0,
+     "answer": "English and French",
+     "explanation": "Cameroon has two official languages."
+    },
+    {
+     "prompt": "Write the names of the languages spoken in your quarter.",
+     "answer": "A list of local languages.",
+     "explanation": "Ask your neighbours.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "How should we treat other languages?",
+     "type": "mcq",
+     "choices": [
+      "with respect",
+      "with mockery",
+      "we ignore them"
+     ],
+     "correct": 0,
+     "answer": "with respect",
+     "explanation": "All languages deserve respect."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Generalities on NLC: my language and other languages of the community), p. 85, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Generalities on NLC: my language and other languages of the community"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-I",
+   "domain": "ICTs",
+   "title": "Parts of a computer and what they do",
+   "objective": "Describe the role of each component of a computer: keyboard, mouse, monitor, printer, scanner, speakers, microphone.",
+   "course": "A computer has input devices (we put information in): keyboard, mouse, microphone, scanner. It has output devices (information comes out): monitor (screen), printer, speakers. The system unit is the “brain” that works on the information. External drives (USB keys) keep files.",
+   "model": "The adult points: “I type on the keyboard (input). The text appears on the monitor (output). The printer gives it on paper.”",
+   "guided": "Sort pictures of devices into input and output. Draw a computer and label five parts.",
+   "exercise": "Is the printer an input or an output device?",
+   "answer": "An output device.",
+   "accept": [
+    "output",
+    "an output device",
+    "output device",
+    "An output device"
+   ],
+   "remediation": "Learn two input and two output devices first.",
+   "transfer": "Name the computer parts you see in a cyber café or an office.",
+   "materials": "Pictures of computer parts, or a real computer with an adult.",
+   "practice": [
+    {
+     "prompt": "Match each device with its role.",
+     "type": "match",
+     "pairs": [
+      [
+       "the keyboard",
+       "type letters"
+      ],
+      [
+       "the monitor",
+       "show pictures and text"
+      ],
+      [
+       "the speakers",
+       "give sound"
+      ]
+     ],
+     "answer": "keyboard: type; monitor: show; speakers: sound.",
+     "explanation": "Each part has a role."
+    },
+    {
+     "prompt": "Which one is an input device?",
+     "type": "mcq",
+     "choices": [
+      "the microphone",
+      "the printer",
+      "the speakers"
+     ],
+     "correct": 0,
+     "answer": "the microphone",
+     "explanation": "The microphone puts sound in."
+    },
+    {
+     "prompt": "Draw a computer and label five parts.",
+     "answer": "A labelled drawing of a computer.",
+     "explanation": "Monitor, keyboard, mouse, system unit, speakers.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Components of a computer system unit), p. 89, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Components of a computer system unit"
    ]
   }
  ]

@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 3 are written (lots A5a and A5b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–91; Class 3 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -527,6 +527,565 @@
    },
    "competencies": [
     "Statistics and Graphs"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-S",
+   "domain": "Science and Technology",
+   "title": "Toilets at school: types and care",
+   "objective": "Identify types of toilets and care for the school toilet appropriately.",
+   "course": "There are different toilets: the pit latrine, the ventilated improved pit latrine (VIP) with a pipe that takes out bad smells, and the water-flush toilet.\nWe keep toilets clean: we use them correctly, we flush or cover the hole, we do not throw objects inside, we wash our hands with soap after.",
+   "model": "The adult explains the school toilet: “This is a VIP latrine. The pipe takes the smell away. We cover the hole after use.”",
+   "guided": "Visit the school toilet with the teacher. Make a class rota to keep it clean and a poster of the rules.",
+   "exercise": "What do we do after using the toilet?",
+   "answer": "We wash our hands with soap.",
+   "accept": [
+    "wash our hands",
+    "wash hands with soap",
+    "we wash our hands with soap",
+    "We wash our hands with soap"
+   ],
+   "remediation": "Learn the three rules: use correctly, keep clean, wash hands.",
+   "transfer": "Help to keep the toilet at home clean this week.",
+   "materials": "Pictures of toilets, poster paper.",
+   "practice": [
+    {
+     "prompt": "Match each toilet with its feature.",
+     "type": "match",
+     "pairs": [
+      [
+       "pit latrine",
+       "a hole in the ground"
+      ],
+      [
+       "VIP latrine",
+       "a vent pipe for smells"
+      ],
+      [
+       "water-flush toilet",
+       "water carries the waste"
+      ]
+     ],
+     "answer": "pit: hole; VIP: vent pipe; flush: water.",
+     "explanation": "Each type works differently."
+    },
+    {
+     "prompt": "Which one should NOT go into a toilet?",
+     "type": "mcq",
+     "choices": [
+      "plastic bags",
+      "water"
+     ],
+     "correct": 0,
+     "answer": "plastic bags",
+     "explanation": "Objects block the toilet."
+    },
+    {
+     "prompt": "Why must toilets be kept clean?",
+     "answer": "To prevent diseases and bad smells.",
+     "explanation": "Dirty toilets spread germs."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: types of toilets and their care), p. 54, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: types of toilets and their care"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-F",
+   "domain": "Français",
+   "title": "Lire un petit texte : à l’école",
+   "objective": "Lire à haute voix un texte simple de quatre phrases et répondre à des questions sur ce texte.",
+   "course": "On lit d’abord le titre, puis le texte, phrase par phrase. On s’arrête au point. On cherche les réponses dans le texte.",
+   "support": {
+    "title": "Lis le texte",
+    "text": "À l’école\nLa classe de Manka est grande. Le maître écrit au tableau. Les élèves lisent en silence. À la récréation, ils jouent au ballon."
+   },
+   "model": "L’adulte lit le texte à haute voix, puis demande : « Qui écrit au tableau ? »",
+   "guided": "Lis le texte à haute voix deux fois. Réponds aux questions en recopiant les mots du texte.",
+   "exercise": "Qui écrit au tableau ?",
+   "answer": "Le maître.",
+   "accept": [
+    "le maître",
+    "le maitre",
+    "maître",
+    "maitre",
+    "Le maître"
+   ],
+   "remediation": "Lis une phrase à la fois avec l’adulte.",
+   "transfer": "Lis à ta famille une petite phrase en français que tu as écrite.",
+   "materials": "Le texte.",
+   "practice": [
+    {
+     "prompt": "Que font les élèves à la récréation ?",
+     "type": "mcq",
+     "choices": [
+      "Ils jouent au ballon.",
+      "Ils dorment.",
+      "Ils mangent au tableau."
+     ],
+     "correct": 0,
+     "answer": "Ils jouent au ballon.",
+     "explanation": "Le texte dit : ils jouent au ballon."
+    },
+    {
+     "prompt": "Remets les phrases dans l’ordre du texte.",
+     "type": "order",
+     "items": [
+      "La classe de Manka est grande.",
+      "Le maître écrit au tableau.",
+      "Les élèves lisent en silence.",
+      "À la récréation, ils jouent au ballon."
+     ],
+     "answer": "Les quatre phrases dans l’ordre.",
+     "explanation": "Suis l’ordre du texte."
+    },
+    {
+     "prompt": "Écoute le texte et lis-le à haute voix.",
+     "listen": "La classe de Manka est grande. Le maître écrit au tableau. Les élèves lisent en silence. À la récréation, ils jouent au ballon.",
+     "answer": "Le texte lu à haute voix.",
+     "explanation": "Arrête-toi à chaque point."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension écrite : lecture de textes simples), p. 64, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension écrite : lecture de textes simples"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-C",
+   "domain": "Social Studies",
+   "title": "Children’s rights and duties at school",
+   "objective": "Identify children’s rights and duties and say what to do in case of abuse.",
+   "course": "Children have rights: education, health, a name, protection, play, to be heard. They also have duties: to respect others, to work at school, to follow rules, to help at home.\nNo adult or child may hurt a child. If someone hurts you or touches you in a way you do not like, say no, go away and tell a trusted adult.",
+   "model": "The teacher explains: “You have the right to learn. You have the duty to come on time and to respect your classmates.”",
+   "guided": "Make two lists: my rights / my duties. Name three trusted adults you can tell if something is wrong.",
+   "exercise": "Name one duty of a pupil.",
+   "answer": "For example: to come to school on time.",
+   "remediation": "Match each right with its duty: right to learn — duty to work.",
+   "transfer": "Talk with your parents about your rights and your duties at home.",
+   "materials": "Paper, pictures.",
+   "practice": [
+    {
+     "prompt": "Match each right with a duty that goes with it.",
+     "type": "match",
+     "pairs": [
+      [
+       "the right to learn",
+       "work at school"
+      ],
+      [
+       "the right to play",
+       "play fairly"
+      ],
+      [
+       "the right to be heard",
+       "listen to others"
+      ]
+     ],
+     "answer": "learn–work; play–fairly; be heard–listen.",
+     "explanation": "Rights come with duties."
+    },
+    {
+     "prompt": "Someone hurts you. What do you do?",
+     "type": "mcq",
+     "choices": [
+      "say no, go away and tell a trusted adult",
+      "keep it secret",
+      "hurt someone else"
+     ],
+     "correct": 0,
+     "answer": "say no, go away and tell a trusted adult",
+     "explanation": "Tell a trusted adult."
+    },
+    {
+     "prompt": "Name one trusted adult at school.",
+     "answer": "For example: the teacher or the head teacher.",
+     "explanation": "A trusted adult protects you."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Human Rights: children’s rights and duties), p. 75, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Human Rights: children’s rights and duties"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-V",
+   "domain": "Vocational Studies",
+   "title": "Stitches and sewing on a button",
+   "objective": "Make simple stitches (running stitch) and sew on a button safely.",
+   "course": "Needlework tools: needle, thread, thimble, scissors, pins. A running stitch goes in and out of the cloth in a straight line. To sew a button: thread the needle, tie a knot, pass the needle through the holes several times, then tie the thread under the cloth.\nWe keep needles and pins in a pin cushion and work carefully.",
+   "model": "The adult shows a running stitch on a piece of cloth, then sews a button on a school shirt.",
+   "guided": "Practise a row of running stitches on a piece of cloth. Then sew a big button with the adult.",
+   "exercise": "Where do we keep needles and pins?",
+   "answer": "In a pin cushion.",
+   "accept": [
+    "in a pin cushion",
+    "pin cushion",
+    "a pin cushion",
+    "In a pin cushion"
+   ],
+   "remediation": "Practise with a big needle and thick thread on paper with holes.",
+   "transfer": "Sew back a button on a piece of clothing at home with an adult.",
+   "materials": "Needle, thread, cloth, buttons, scissors (with an adult).",
+   "practice": [
+    {
+     "prompt": "Put the steps for sewing a button in order.",
+     "type": "order",
+     "items": [
+      "Thread the needle.",
+      "Tie a knot.",
+      "Pass the needle through the holes.",
+      "Tie the thread under the cloth."
+     ],
+     "answer": "thread, knot, pass through the holes, tie.",
+     "explanation": "Follow the steps."
+    },
+    {
+     "prompt": "Which fastening has teeth that close?",
+     "type": "mcq",
+     "choices": [
+      "a zip",
+      "a button",
+      "a hook and eye"
+     ],
+     "correct": 0,
+     "answer": "a zip",
+     "explanation": "A zip has teeth."
+    },
+    {
+     "prompt": "Draw a row of running stitches.",
+     "answer": "A dashed line of stitches.",
+     "explanation": "In and out, in a straight line.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Home Economics: needlework, stitches and fastenings), p. 77, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Home Economics: needlework, stitches and fastenings"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-A",
+   "domain": "Arts",
+   "title": "Acting a sketch about school life",
+   "objective": "Act roles following a short script and perform with expression.",
+   "course": "A sketch is a short play. Each actor has a role and says his lines in turn. We speak loudly and clearly, we face the audience, we use gestures and facial expressions. Some scenes are silent (mime): the body tells the story.",
+   "support": {
+    "title": "Short script",
+    "text": "TEACHER: Good morning, class. Where is your homework, Tabi?\nTABI (looking in his bag): I am sorry, madam. I left it at home.\nTEACHER: Bring it tomorrow, please.\nTABI: Yes, madam. Thank you."
+   },
+   "model": "Two adults act the script: one is the teacher, one is Tabi. They show the feelings with the face.",
+   "guided": "Learn one role, act the sketch with a partner, then act a silent version with mime only.",
+   "exercise": "What is a short play called?",
+   "answer": "A sketch.",
+   "accept": [
+    "a sketch",
+    "sketch",
+    "A sketch"
+   ],
+   "remediation": "Say only one line, with a gesture.",
+   "transfer": "Act the sketch for your family.",
+   "materials": "The script, a few simple props.",
+   "practice": [
+    {
+     "prompt": "Which behaviour helps an actor?",
+     "type": "mcq",
+     "choices": [
+      "speak loudly and face the audience",
+      "turn his back to the audience",
+      "whisper"
+     ],
+     "correct": 0,
+     "answer": "speak loudly and face the audience",
+     "explanation": "The audience must see and hear."
+    },
+    {
+     "prompt": "Put the lines of the script in order.",
+     "type": "order",
+     "items": [
+      "Good morning, class. Where is your homework, Tabi?",
+      "I am sorry, madam. I left it at home.",
+      "Bring it tomorrow, please.",
+      "Yes, madam. Thank you."
+     ],
+     "answer": "The four lines in order.",
+     "explanation": "Actors speak in turn."
+    },
+    {
+     "prompt": "Act the sketch with a partner.",
+     "answer": "The sketch acted with expression.",
+     "explanation": "Speak clearly and use gestures."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: theatre, sketches and poems), p. 82, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: theatre, sketches and poems"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-P",
+   "domain": "Physical Education and Sports",
+   "title": "Relay races: touch and run, zigzag, shuttle",
+   "objective": "Take part in relay races and pass the baton correctly.",
+   "course": "In a relay, a team runs in turns. In “touch and run” the next runner leaves when touched. In a zigzag relay we run around cones. In a shuttle relay we run to a line and back.\nTo pass the baton: the runner holds it out; the next runner takes it without stopping.",
+   "model": "The adult and a child show a baton pass: “Hand out, take it, run!”",
+   "guided": "Make teams of four. Run a zigzag relay and a shuttle relay; practise passing the baton.",
+   "exercise": "In a relay, who runs?",
+   "answer": "All the team, in turns.",
+   "accept": [
+    "all the team in turns",
+    "the team in turns",
+    "in turns",
+    "all the team",
+    "All the team, in turns"
+   ],
+   "remediation": "Practise the baton pass while walking.",
+   "transfer": "Play a relay game with friends.",
+   "materials": "A baton (stick), cones or stones.",
+   "practice": [
+    {
+     "prompt": "Match each relay with its rule.",
+     "type": "match",
+     "pairs": [
+      [
+       "touch and run",
+       "leave when touched"
+      ],
+      [
+       "zigzag relay",
+       "run around cones"
+      ],
+      [
+       "shuttle relay",
+       "run to a line and back"
+      ]
+     ],
+     "answer": "touch: leave; zigzag: cones; shuttle: back and forth.",
+     "explanation": "Each relay has its rule."
+    },
+    {
+     "prompt": "Four runners each run 25 m. How many metres for the team?",
+     "type": "number",
+     "answer": 100,
+     "explanation": "4 × 25 = 100."
+    },
+    {
+     "prompt": "How do we pass the baton?",
+     "type": "mcq",
+     "choices": [
+      "hold it out and the next runner takes it running",
+      "throw it far",
+      "drop it on the ground"
+     ],
+     "correct": 0,
+     "answer": "hold it out and the next runner takes it running",
+     "explanation": "A good pass saves time."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Athletics: relays), p. 83, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Athletics: relays"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-N",
+   "domain": "National Languages and Cultures",
+   "title": "Family words and the letters of our alphabet",
+   "objective": "Say the words for members of a nuclear family in the family language and recognise letters of the General Alphabet of Cameroonian Languages.",
+   "course": "A nuclear family is the father, the mother and the children. Each language has its words for them.\nThe General Alphabet of Cameroonian Languages (GACL) gives letters to write our languages; some letters are not in the English alphabet, such as ɛ, ɔ and ŋ.\nKlassia does not give the family words here: say them with your family, who know the language.",
+   "model": "The adult says each family word in the family language and writes it, showing the special letters if there are any.",
+   "guided": "Ask an adult the words for father, mother, brother and sister in the family language. Write them with the adult. Find special letters (ɛ, ɔ, ŋ).",
+   "exercise": "Who are the members of a nuclear family?",
+   "answer": "The father, the mother and the children.",
+   "accept": [
+    "father mother and children",
+    "the father, the mother and the children",
+    "father, mother, children",
+    "parents and children",
+    "The father, the mother and the children"
+   ],
+   "remediation": "Start with two words: father and mother.",
+   "transfer": "Make a family tree with the words in the family language.",
+   "materials": "Paper, an adult who speaks the language.",
+   "practice": [
+    {
+     "prompt": "Which letter is NOT in the English alphabet?",
+     "type": "mcq",
+     "choices": [
+      "ŋ",
+      "b",
+      "m"
+     ],
+     "correct": 0,
+     "answer": "ŋ",
+     "explanation": "ŋ is a letter of the General Alphabet."
+    },
+    {
+     "prompt": "Write the family words in the family language with an adult.",
+     "answer": "Family words written with the adult.",
+     "explanation": "Ask the adult to check the spelling.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Draw your nuclear family and label each person.",
+     "answer": "A family drawing with labels.",
+     "explanation": "Father, mother and children.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (The family: members and letters of the General Alphabet of Cameroonian Languages), p. 85, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "The family: members and letters of the General Alphabet of Cameroonian Languages"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-I",
+   "domain": "ICTs",
+   "title": "Devices that need software",
+   "objective": "Identify ICT devices that need software and explain simply how they function.",
+   "course": "Software is the set of programs that tell a device what to do. Computers, mobile telephones and tablets need software: an operating system to start, and applications (apps) to write, calculate, take photos or call.\nWithout software, the device is like a book with no words.",
+   "model": "The adult switches on a phone: “The operating system starts. Then I open the calculator app.”",
+   "guided": "With an adult, find three apps on a phone or a computer and say what each does.",
+   "exercise": "What tells a device what to do?",
+   "answer": "Software.",
+   "accept": [
+    "software",
+    "the software",
+    "programs",
+    "programmes",
+    "Software"
+   ],
+   "remediation": "Compare: a phone switched off and a phone with an app open.",
+   "transfer": "Ask an adult which apps they use for work.",
+   "materials": "A phone or a computer (with an adult).",
+   "practice": [
+    {
+     "prompt": "Match each app with what it does.",
+     "type": "match",
+     "pairs": [
+      [
+       "a calculator",
+       "counts"
+      ],
+      [
+       "a camera app",
+       "takes photos"
+      ],
+      [
+       "a word processor",
+       "writes texts"
+      ]
+     ],
+     "answer": "calculator: counts; camera: photos; word processor: texts.",
+     "explanation": "Apps do different jobs."
+    },
+    {
+     "prompt": "Which device needs software?",
+     "type": "mcq",
+     "choices": [
+      "a mobile phone",
+      "a hoe",
+      "a chair"
+     ],
+     "correct": 0,
+     "answer": "a mobile phone",
+     "explanation": "Phones need software."
+    },
+    {
+     "prompt": "What starts first when a computer is switched on?",
+     "answer": "The operating system.",
+     "accept": [
+      "the operating system",
+      "operating system",
+      "The operating system"
+     ],
+     "explanation": "It prepares the computer for apps."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (ICT devices that require software to function), p. 90, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "ICT devices that require software to function"
    ]
   }
  ]

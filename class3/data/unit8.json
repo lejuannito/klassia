@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 3 are written (lots A5a and A5b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–91; Class 3 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -554,6 +554,584 @@
    },
    "competencies": [
     "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-S",
+   "domain": "Science and Technology",
+   "title": "Telephones, radio, television and cameras",
+   "objective": "Identify telecommunication tools, make a model and use devices responsibly.",
+   "course": "Telecommunication tools send sounds, pictures and words far away: the telephone, the radio, the television, the camera, the fax machine and the computer.\nWe use them responsibly: we ask permission, we respect privacy, we do not share other people’s photos without their agreement, and we keep devices dry and charged safely.",
+   "model": "The adult makes a “string phone” with two tins and a string: the sound travels along the string.",
+   "guided": "Make a string phone and talk with a friend. Then sort pictures: tools that send sound, pictures, or both.",
+   "exercise": "Which tool sends both sound and pictures?",
+   "answer": "The television.",
+   "accept": [
+    "the television",
+    "television",
+    "a television",
+    "TV",
+    "a phone",
+    "The television"
+   ],
+   "remediation": "Work with the radio (sound) and the camera (pictures) first.",
+   "transfer": "Ask permission before taking a photo of someone.",
+   "materials": "Two tins, string, pictures of devices.",
+   "practice": [
+    {
+     "prompt": "Match each device with what it sends or records.",
+     "type": "match",
+     "pairs": [
+      [
+       "a radio",
+       "sound"
+      ],
+      [
+       "a camera",
+       "pictures"
+      ],
+      [
+       "a television",
+       "sound and pictures"
+      ]
+     ],
+     "answer": "radio: sound; camera: pictures; television: sound and pictures.",
+     "explanation": "Devices carry different things."
+    },
+    {
+     "prompt": "Before taking a photo of a friend, what do we do?",
+     "type": "mcq",
+     "choices": [
+      "ask permission",
+      "take it secretly",
+      "post it at once"
+     ],
+     "correct": 0,
+     "answer": "ask permission",
+     "explanation": "We respect privacy."
+    },
+    {
+     "prompt": "In a string phone, what carries the sound?",
+     "answer": "The string.",
+     "accept": [
+      "the string",
+      "string",
+      "The string"
+     ],
+     "explanation": "The sound travels along the tight string."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Technology and Engineering: telecommunications), p. 59, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Technology and Engineering: telecommunications"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-F",
+   "domain": "Français",
+   "title": "Quel temps fait-il ? Quelle heure est-il ?",
+   "objective": "Parler de la météo et de l’heure, et utiliser aujourd’hui, hier et demain.",
+   "course": "Pour la météo : « Quel temps fait-il ? » — « Il pleut. » « Il fait beau. » « Il fait chaud. » « Il fait froid. »\nPour l’heure : « Quelle heure est-il ? » — « Il est huit heures. » « Il est midi. »\nLes moments : hier, aujourd’hui, demain.",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "Aujourd’hui, il fait beau.\nHier, il a plu.\nIl est huit heures."
+   },
+   "model": "Au téléphone, Grand-mère demande : « Quel temps fait-il à Buea ? » Ayuk répond : « Il pleut, et il fait froid. »",
+   "guided": "Regarde le ciel et dis le temps qu’il fait. Lis l’heure sur une horloge en français.",
+   "exercise": "Il y a beaucoup de soleil. Quel temps fait-il ?",
+   "answer": "Il fait beau.",
+   "accept": [
+    "Il fait beau",
+    "il fait chaud",
+    "beau"
+   ],
+   "remediation": "Travaille deux expressions : il pleut, il fait beau.",
+   "transfer": "Chaque matin, dis en français le temps qu’il fait.",
+   "materials": "Une horloge, des images de météo.",
+   "practice": [
+    {
+     "prompt": "Relie l’image et la phrase.",
+     "type": "match",
+     "pairs": [
+      [
+       "la pluie",
+       "Il pleut."
+      ],
+      [
+       "le soleil",
+       "Il fait beau."
+      ],
+      [
+       "le froid",
+       "Il fait froid."
+      ]
+     ],
+     "answer": "pluie : il pleut ; soleil : il fait beau ; froid : il fait froid.",
+     "explanation": "Pour la météo, on dit souvent « il fait »."
+    },
+    {
+     "prompt": "Complète.",
+     "type": "gaps",
+     "text": "[[Hier]], il a plu. [[Aujourd’hui]], il fait beau. [[Demain]], il fera chaud.",
+     "answer": "Hier ; Aujourd’hui ; Demain.",
+     "explanation": "hier = yesterday ; aujourd’hui = today ; demain = tomorrow."
+    },
+    {
+     "prompt": "« Il est midi » veut dire…",
+     "type": "mcq",
+     "choices": [
+      "It is twelve noon.",
+      "It is midnight.",
+      "It is eight."
+     ],
+     "correct": 0,
+     "answer": "It is twelve noon.",
+     "explanation": "midi = 12 h dans la journée."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : le temps qu’il fait et l’heure), p. 60, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : le temps qu’il fait et l’heure"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-C",
+   "domain": "Social Studies",
+   "title": "Electing a class prefect fairly",
+   "objective": "Describe how an election works and take part in a fair class election, counting the votes.",
+   "course": "An election lets people choose a leader. In Cameroon there are municipal, legislative and presidential elections. Voters choose freely and secretly; the votes are counted openly and the result is respected.\nIn class, we can elect a prefect the same way: candidates speak, pupils vote secretly, votes are counted in front of everyone.",
+   "model": "The teacher organises an election: three candidates, a box, secret ballots, then counting on the board.",
+   "guided": "Organise a class or family election for a small role. Tally the votes and announce the result.",
+   "exercise": "Why is the vote secret?",
+   "answer": "So that each person chooses freely.",
+   "accept": [
+    "to choose freely",
+    "so that each person chooses freely",
+    "choose freely",
+    "So that each person chooses freely"
+   ],
+   "remediation": "Do a show-of-hands vote first, then a secret vote.",
+   "transfer": "Ask an adult how elections are organised in your municipality.",
+   "materials": "Paper ballots, a box.",
+   "practice": [
+    {
+     "prompt": "Put the steps of an election in order.",
+     "type": "order",
+     "items": [
+      "Candidates present themselves.",
+      "Voters vote secretly.",
+      "Votes are counted openly.",
+      "The result is announced."
+     ],
+     "answer": "present, vote, count, announce.",
+     "explanation": "These are the steps of a fair election."
+    },
+    {
+     "prompt": "Bih has 12 votes, Tabi 9, Ngum 7. How many votes in all?",
+     "type": "number",
+     "answer": 28,
+     "explanation": "12 + 9 + 7 = 28."
+    },
+    {
+     "prompt": "Which election chooses the mayor’s council?",
+     "type": "mcq",
+     "choices": [
+      "municipal",
+      "presidential",
+      "class"
+     ],
+     "correct": 0,
+     "answer": "municipal",
+     "explanation": "Municipal elections choose councillors."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Citizenship: elections), p. 73, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Citizenship: elections"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-V",
+   "domain": "Vocational Studies",
+   "title": "Compost and seed germination",
+   "objective": "Make compost to enrich the soil and observe the conditions needed for seeds to germinate.",
+   "course": "Compost is natural manure made from kitchen and garden waste (peels, leaves, grass) that rots in a pit or a heap. It makes the soil rich.\nA seed needs water, air and warmth to germinate. We can test it: one seed with water, one without water. Only the one with water germinates.",
+   "model": "The adult starts a compost heap with peels and leaves, and plants beans on wet cotton in a tin.",
+   "guided": "Put beans on wet cotton and on dry cotton. Observe them each day for a week and write what you see.",
+   "exercise": "What does a seed need to germinate?",
+   "answer": "Water, air and warmth.",
+   "accept": [
+    "water, air and warmth",
+    "water air warmth",
+    "water and air and warmth",
+    "water",
+    "Water, air and warmth"
+   ],
+   "remediation": "Observe only the wet cotton first.",
+   "transfer": "Start a small compost heap at home with your family.",
+   "materials": "Beans, cotton, two tins, water, a notebook.",
+   "practice": [
+    {
+     "prompt": "Which waste can go into compost?",
+     "type": "mcq",
+     "choices": [
+      "banana peels",
+      "plastic bags",
+      "broken glass"
+     ],
+     "correct": 0,
+     "answer": "banana peels",
+     "explanation": "Plant waste rots and makes compost."
+    },
+    {
+     "prompt": "Put the germination in order.",
+     "type": "order",
+     "items": [
+      "The seed swells.",
+      "A root comes out.",
+      "A shoot grows up.",
+      "Leaves open."
+     ],
+     "answer": "swells, root, shoot, leaves.",
+     "explanation": "The root comes first."
+    },
+    {
+     "prompt": "Write what you saw on day 3 of your experiment.",
+     "answer": "An observation note.",
+     "explanation": "Write what changed.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Agro-Pastoral Farming: soil enrichment and seed germination), p. 80, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Agro-Pastoral Farming: soil enrichment and seed germination"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-A",
+   "domain": "Arts",
+   "title": "Reciting a poem on stage",
+   "objective": "Recite a short poem with expression and perform on stage.",
+   "course": "To recite a poem: learn it line by line, breathe at the end of each line, speak clearly, look at the audience and use gestures that show the meaning.",
+   "support": {
+    "title": "A short original poem",
+    "text": "Our river runs from the hills,\nIt sings over the stones,\nIt gives water to the fields,\nPlease keep it clean, it is our own."
+   },
+   "model": "The adult recites the poem slowly with gestures: hands like water, a finger for “please”.",
+   "guided": "Learn the poem line by line and recite it to the class or family with gestures.",
+   "exercise": "What do we do at the end of each line when reciting?",
+   "answer": "We breathe.",
+   "accept": [
+    "breathe",
+    "we breathe",
+    "take a breath",
+    "pause",
+    "We breathe"
+   ],
+   "remediation": "Learn two lines first, then add the others.",
+   "transfer": "Recite the poem at a family gathering.",
+   "materials": "The poem.",
+   "practice": [
+    {
+     "prompt": "Put the lines of the poem in order.",
+     "type": "order",
+     "items": [
+      "Our river runs from the hills,",
+      "It sings over the stones,",
+      "It gives water to the fields,",
+      "Please keep it clean, it is our own."
+     ],
+     "answer": "The four lines in order.",
+     "explanation": "Follow the poem."
+    },
+    {
+     "prompt": "Listen and recite.",
+     "listen": "Our river runs from the hills, it sings over the stones, it gives water to the fields, please keep it clean, it is our own.",
+     "answer": "The poem recited with expression.",
+     "explanation": "Speak clearly and slowly."
+    },
+    {
+     "prompt": "What message does the poem give?",
+     "type": "mcq",
+     "choices": [
+      "Keep the river clean.",
+      "Throw rubbish in the river.",
+      "Rivers are useless."
+     ],
+     "correct": 0,
+     "answer": "Keep the river clean.",
+     "explanation": "The last line gives the message."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: stage plays and poems), p. 82, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: stage plays and poems"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-P",
+   "domain": "Physical Education and Sports",
+   "title": "Forward roll on a soft mat",
+   "objective": "Perform a forward roll safely on a soft surface.",
+   "course": "Forward roll: squat, hands flat on the mat, tuck the chin to the chest, push with the feet, roll on the back (not on the head), stand up.\nSafety: we roll only on a mat, sand or soft grass, with an adult near; one child at a time.",
+   "model": "The adult shows each step slowly, saying “chin to chest!”",
+   "guided": "Practise the forward roll on a mat with an adult beside you, three times.",
+   "exercise": "Where must the chin be in a forward roll?",
+   "answer": "On the chest.",
+   "accept": [
+    "on the chest",
+    "to the chest",
+    "chest",
+    "chin to chest",
+    "On the chest"
+   ],
+   "remediation": "Roll down a small slope of soft grass first.",
+   "transfer": "Show the safety rules of gymnastics to your family.",
+   "materials": "A mat or soft grass, an adult.",
+   "practice": [
+    {
+     "prompt": "Put the forward roll in order.",
+     "type": "order",
+     "items": [
+      "Squat.",
+      "Put the hands flat.",
+      "Tuck the chin.",
+      "Roll and stand up."
+     ],
+     "answer": "squat, hands, chin, roll.",
+     "explanation": "Follow the steps."
+    },
+    {
+     "prompt": "Where do we practise rolls?",
+     "type": "mcq",
+     "choices": [
+      "on a mat or soft grass",
+      "on a cement floor",
+      "on a table"
+     ],
+     "correct": 0,
+     "answer": "on a mat or soft grass",
+     "explanation": "A soft surface protects us."
+    },
+    {
+     "prompt": "How many children roll at a time?",
+     "answer": "One.",
+     "accept": [
+      "one",
+      "1",
+      "one child",
+      "One"
+     ],
+     "explanation": "One at a time for safety."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Gymnastics: rolls and cartwheels), p. 84, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Gymnastics: rolls and cartwheels"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-N",
+   "domain": "National Languages and Cultures",
+   "title": "Nouns, verbs and adjectives in a conversation",
+   "objective": "Use nouns, verbs and adjectives in short sentences and hold a short conversation in the family language.",
+   "course": "In every language, sentences have parts: nouns name people and things (mother, house), verbs show actions (eat, go), adjectives describe (big, red).\nIn a short conversation we greet, ask a question, answer and say goodbye.",
+   "model": "The adult and the child have a short dialogue in the family language: greet, ask “How are you?”, answer, say goodbye.",
+   "guided": "With an adult, make three sentences in the family language with a noun, a verb and an adjective. Act a short dialogue.",
+   "exercise": "Which word is a verb: house, run, red?",
+   "answer": "Run.",
+   "accept": [
+    "run",
+    "Run"
+   ],
+   "remediation": "Find nouns first: things you can touch.",
+   "transfer": "Have a short conversation in the family language every evening.",
+   "materials": "An adult who speaks the language.",
+   "practice": [
+    {
+     "prompt": "Match each word with its part of speech.",
+     "type": "match",
+     "pairs": [
+      [
+       "mother",
+       "noun"
+      ],
+      [
+       "eat",
+       "verb"
+      ],
+      [
+       "big",
+       "adjective"
+      ]
+     ],
+     "answer": "mother: noun; eat: verb; big: adjective.",
+     "explanation": "Every language has these parts."
+    },
+    {
+     "prompt": "Put the conversation in order.",
+     "type": "order",
+     "items": [
+      "Greet.",
+      "Ask a question.",
+      "Answer.",
+      "Say goodbye."
+     ],
+     "answer": "greet, ask, answer, goodbye.",
+     "explanation": "A conversation has steps."
+    },
+    {
+     "prompt": "Say a sentence in the family language with an adjective.",
+     "answer": "A sentence with an adjective, said with an adult.",
+     "explanation": "Ask an adult to listen."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Grammar and conversation: parts of speech and dialogue), p. 88, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar and conversation: parts of speech and dialogue"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-I",
+   "domain": "ICTs",
+   "title": "The internet: communicating safely",
+   "objective": "Say what the internet is used for and follow safety rules online.",
+   "course": "The internet connects computers and phones of the whole world. We use it to send messages, look for information, learn, watch videos.\nSafety rules: use it with an adult, never give your address, school or password to strangers, do not open messages from unknown people, tell an adult if something makes you uncomfortable.",
+   "model": "The adult searches for information about Mount Cameroon with the child and talks about safety rules.",
+   "guided": "With an adult, look for one piece of information for a school lesson. Make a poster of four safety rules.",
+   "exercise": "Should you give your password to a stranger online?",
+   "answer": "No.",
+   "accept": [
+    "no",
+    "never",
+    "No"
+   ],
+   "remediation": "Learn two rules first: use it with an adult; keep personal information secret.",
+   "transfer": "Explain the safety rules to a younger brother or sister.",
+   "materials": "A connected device (with an adult), poster paper.",
+   "practice": [
+    {
+     "prompt": "Which one is safe online?",
+     "type": "mcq",
+     "choices": [
+      "telling an adult about a strange message",
+      "giving your address to a stranger",
+      "opening every message"
+     ],
+     "correct": 0,
+     "answer": "telling an adult about a strange message",
+     "explanation": "Adults help us stay safe."
+    },
+    {
+     "prompt": "Match each use with an example.",
+     "type": "match",
+     "pairs": [
+      [
+       "communicate",
+       "send a message"
+      ],
+      [
+       "learn",
+       "read about a topic"
+      ],
+      [
+       "have fun",
+       "watch a video"
+      ]
+     ],
+     "answer": "communicate: message; learn: read; fun: video.",
+     "explanation": "The internet has many uses."
+    },
+    {
+     "prompt": "Write two safety rules for the internet.",
+     "answer": "Two safety rules written.",
+     "explanation": "Keep personal information secret; use it with an adult.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (The internet and communication), p. 91, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "The internet and communication"
    ]
   }
  ]

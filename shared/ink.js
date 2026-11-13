@@ -2,6 +2,8 @@
 (() => {
  'use strict';
  const K = Klassia;
+ // Libellés de l'outil traduits dans une classe anglophone, y compris dans une leçon de Français marquée translate="no".
+ const tr = s => (K.t ? K.t(s) : s);
  const svgNS = 'http://www.w3.org/2000/svg';
  const colors = { noir: '#16213a', bleu: '#205bc8', rouge: '#c6333d', jaune: '#e6ad16', vert: '#16834a' };
  const editors = new WeakMap();
@@ -28,13 +30,13 @@
  }
 
  function sheet(key, model, preview) {
-  return '<div class="ink-editor" lang="fr" data-ink-key="'+K.escape(key)+'">'+
-   '<button class="ink-toggle" type="button" data-ink-toggle aria-expanded="false">Écrire ou dessiner au doigt</button>'+
+  return '<div class="ink-editor" lang="'+(K.lang?.() === 'en' ? 'en' : 'fr')+'" data-ink-key="'+K.escape(key)+'">'+
+   '<button class="ink-toggle" type="button" data-ink-toggle aria-expanded="false">'+tr('Écrire ou dessiner au doigt')+'</button>'+
    '<div class="ink-tools" data-ink-tools hidden>'+
-   '<label>Couleur <select data-ink-color><option value="noir">Noir</option><option value="bleu">Bleu</option>'+
-   '<option value="rouge">Rouge</option><option value="jaune">Jaune</option><option value="vert">Vert</option></select></label>'+
-   '<label>Trait <select data-ink-width><option value="fin">Fin</option><option value="large">Large</option></select></label>'+
-   '<button type="button" data-ink-undo>Annuler le dernier trait</button><button type="button" data-ink-clear>Tout effacer</button>'+
+   '<label>'+tr('Couleur')+' <select data-ink-color><option value="noir">'+tr('Noir')+'</option><option value="bleu">'+tr('Bleu')+'</option>'+
+   '<option value="rouge">'+tr('Rouge')+'</option><option value="jaune">'+tr('Jaune')+'</option><option value="vert">'+tr('Vert')+'</option></select></label>'+
+   '<label>'+tr('Trait')+' <select data-ink-width><option value="fin">'+tr('Fin')+'</option><option value="large">'+tr('Large')+'</option></select></label>'+
+   '<button type="button" data-ink-undo>'+tr('Annuler le dernier trait')+'</button><button type="button" data-ink-clear>'+tr('Tout effacer')+'</button>'+
    '</div><p class="ink-status" data-ink-status role="status"></p>'+
    '<div class="ink-surfaces" data-ink-surfaces'+(preview?'':' hidden')+'>'+model+'</div></div>';
  }
@@ -49,7 +51,7 @@
   } else if (layout === 'maison') {
    guide = '<path d="M125 115L300 25L475 115Z M155 115H445V225H155Z M266 225V153H334V225 M363 141H420V184H363Z" fill="none" stroke="#223453" stroke-width="5" stroke-linejoin="round"/>';
   }
-  const label = layout === 'maison' ? 'Maison à colorier avec un toit, une porte et une fenêtre' : 'Surface pour écrire ou dessiner';
+  const label = layout === 'maison' ? tr('Maison à colorier avec un toit, une porte et une fenêtre') : tr('Surface pour écrire ou dessiner');
   return '<svg class="ink-pad" viewBox="0 0 600 240" role="img" aria-label="'+label+'">'+guide+'</svg>';
  }
  const pad = (key, layout='lignes') => sheet(key, surface(layout), false);
@@ -100,13 +102,13 @@
    });
    if (previous?.revision !== state.revision) {
     state.conflicted = true;
-    setStatus(state, 'Le cahier a changé dans une autre fenêtre. Rouvrez la fiche pour retrouver les traits conservés.');
+    setStatus(state, tr('Le cahier a changé dans une autre fenêtre. Rouvrez la fiche pour retrouver les traits conservés.'));
     return;
    }
    state.revision = revision;
-   setStatus(state, 'Tracés conservés dans ce profil.');
+   setStatus(state, tr('Tracés conservés dans ce profil.'));
   }).catch(() => {
-   setStatus(state, 'Le stockage du tracé est indisponible. Les traits restent visibles pendant cette séance.');
+   setStatus(state, tr('Le stockage du tracé est indisponible. Les traits restent visibles pendant cette séance.'));
   });
   writes.set(state.queueKey, operation);
   operation.then(() => { if (writes.get(state.queueKey) === operation) writes.delete(state.queueKey); });
@@ -175,7 +177,7 @@
    state.strokes = current?.strokes || [];
    setStatus(state, 'Choisis une couleur. Trace avec le doigt, le stylet ou la souris.');
   } catch {
-   setStatus(state, 'Tu peux tracer pendant cette séance. Le stockage local est indisponible.');
+   setStatus(state, tr('Tu peux tracer pendant cette séance. Le stockage local est indisponible.'));
   }
   state.ready = true;
   draw(state);
@@ -191,7 +193,7 @@
    state.layers.push(layer);
    bindSurface(state,svg,state.layers.length-1);
   }
-  setStatus(state, 'Préparation de la fiche…');
+  setStatus(state, tr('Préparation de la fiche…'));
   buttons(state);
   load(state);
   return state;
@@ -204,7 +206,7 @@
   if (action.hasAttribute('data-ink-toggle')) {
    const active = root.classList.toggle('ink-active');
    action.setAttribute('aria-expanded',String(active));
-   action.textContent = active ? 'Terminer le tracé' : 'Écrire ou dessiner au doigt';
+   action.textContent = active ? tr('Terminer le tracé') : tr('Écrire ou dessiner au doigt');
    root.querySelector('[data-ink-tools]').hidden = !active;
    root.querySelector('[data-ink-surfaces]').hidden = false;
    root.querySelector('[data-ink-extra]')?.removeAttribute('hidden');

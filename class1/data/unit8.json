@@ -8,11 +8,11 @@
   "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 1 are written (lots A3 and A4). Original examples; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–77; Class 1 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
   }
  ],
@@ -530,6 +530,558 @@
    },
    "competencies": [
     "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-S",
+   "domain": "Science and Technology",
+   "title": "Electrical devices and their dangers",
+   "objective": "Identify some electrical devices and the dangers of using them wrongly; ask an adult for help.",
+   "course": "Electrical devices work with electricity: the radio, the television, the phone charger, the fridge, the bulb.\nElectricity can hurt us. We never touch a socket, a broken wire or a device with wet hands. We ask an adult to plug or unplug a device.",
+   "model": "Enow wants to charge the phone. He calls his father, who plugs the charger into the socket.",
+   "guided": "Look at pictures of devices. Sort them: works with electricity or not. Then say the safety rules together.",
+   "exercise": "Who should plug a device into the socket?",
+   "answer": "An adult.",
+   "accept": [
+    "an adult",
+    "adult",
+    "my father",
+    "my mother",
+    "a grown-up",
+    "An adult"
+   ],
+   "remediation": "Use two pictures: a radio (electricity) and a book (no electricity).",
+   "transfer": "Show an adult the sockets in your house and say the safety rule.",
+   "materials": "Pictures of electrical devices and of things without electricity.",
+   "practice": [
+    {
+     "prompt": "Which one works with electricity?",
+     "type": "mcq",
+     "choices": [
+      "a television",
+      "a spoon",
+      "a ball"
+     ],
+     "correct": 0,
+     "answer": "a television",
+     "explanation": "A television needs electricity to work."
+    },
+    {
+     "prompt": "Is it safe to touch a socket with wet hands? Answer yes or no.",
+     "answer": "No.",
+     "accept": [
+      "no",
+      "No"
+     ],
+     "reject": [
+      "yes"
+     ],
+     "explanation": "Water and electricity together are very dangerous."
+    },
+    {
+     "prompt": "Match each device with what it does.",
+     "type": "match",
+     "pairs": [
+      [
+       "a radio",
+       "plays sound"
+      ],
+      [
+       "a bulb",
+       "gives light"
+      ],
+      [
+       "a fridge",
+       "keeps food cold"
+      ]
+     ],
+     "answer": "radio: sound; bulb: light; fridge: cold.",
+     "explanation": "Electrical devices help us in many ways."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Technology and Engineering: electrical devices and their dangers), p. 56, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Technology and Engineering: electrical devices and their dangers"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-F",
+   "domain": "Français",
+   "title": "J’écris une petite phrase",
+   "objective": "Tenir correctement le crayon, recopier des mots et remettre des mots dans l’ordre pour faire une phrase avec une majuscule et un point.",
+   "course": "Une phrase commence par une majuscule et finit par un point.\n« papa / lit / Le / journal » devient : « Le papa lit le journal. »\nOn tient le crayon entre le pouce et l’index, posé sur le majeur.",
+   "support": {
+    "title": "Recopie avec l’adulte",
+    "text": "Maman appelle papa.\nJe lis."
+   },
+   "model": "L’adulte écrit « Maman appelle papa. » et montre : « M majuscule au début, un point à la fin. »",
+   "guided": "Avec des étiquettes, remets les mots dans l’ordre, lis la phrase, puis recopie-la.",
+   "exercise": "Remets dans l’ordre : lis / Je .",
+   "answer": "Je lis.",
+   "accept": [
+    "Je lis",
+    "Je lis."
+   ],
+   "remediation": "Recopie d’abord un seul mot, puis une phrase de deux mots.",
+   "transfer": "Écris « Bonjour maman » sur une carte.",
+   "materials": "Étiquettes-mots, crayon, ardoise ou cahier.",
+   "practice": [
+    {
+     "prompt": "Remets les mots dans l’ordre.",
+     "type": "order",
+     "items": [
+      "Maman",
+      "appelle",
+      "papa."
+     ],
+     "answer": "Maman appelle papa.",
+     "explanation": "La majuscule est au début, le point à la fin."
+    },
+    {
+     "prompt": "Recopie la phrase : Je lis.",
+     "answer": "Je lis.",
+     "explanation": "J majuscule, point à la fin.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Qu’est-ce qu’on met à la fin d’une phrase ?",
+     "type": "mcq",
+     "choices": [
+      "un point",
+      "une majuscule",
+      "un chiffre"
+     ],
+     "correct": 0,
+     "answer": "un point",
+     "explanation": "Une phrase finit par un point."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Français, table 23 (Production d’écrits : lettres, mots et phrases), p. 60, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Production d’écrits : lettres, mots et phrases"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-C",
+   "domain": "Citizenship",
+   "title": "The flag, the anthem and the motto of Cameroon",
+   "objective": "Identify the national emblems of Cameroon and show respect during the anthem and the hoisting of the flag.",
+   "course": "Cameroon has national emblems. The flag has three vertical colours: green, red and yellow, with a yellow star in the middle of the red. The motto is “Peace – Work – Fatherland”. The national anthem is sung on important days and at school.\nWhen the flag is hoisted or the anthem is sung, we stand still, we stop talking and we look at the flag.",
+   "model": "On Monday morning, the pupils line up. The flag goes up. Everyone stands still and quiet while the anthem is sung.",
+   "guided": "Colour the flag: green, red with a yellow star, yellow. Practise standing still and quiet during a song.",
+   "exercise": "What are the three colours of the flag of Cameroon?",
+   "answer": "Green, red and yellow.",
+   "accept": [
+    "green, red and yellow",
+    "green red yellow",
+    "green, red, yellow",
+    "Green, red and yellow"
+   ],
+   "remediation": "Colour the three bands one by one with the adult.",
+   "transfer": "Show the flag to someone at home and say the motto.",
+   "materials": "Coloured pencils, a drawing of the flag to colour.",
+   "practice": [
+    {
+     "prompt": "Put the colours of the flag in order, from left to right.",
+     "type": "order",
+     "items": [
+      "green",
+      "red",
+      "yellow"
+     ],
+     "answer": "green, red, yellow.",
+     "explanation": "The star is in the red band."
+    },
+    {
+     "prompt": "What do we do when the anthem is sung?",
+     "type": "mcq",
+     "choices": [
+      "we run",
+      "we stand still and quiet",
+      "we talk"
+     ],
+     "correct": 1,
+     "answer": "we stand still and quiet",
+     "explanation": "We show respect to the nation."
+    },
+    {
+     "prompt": "Complete the motto.",
+     "type": "gaps",
+     "text": "Peace – [[Work]] – Fatherland",
+     "answer": "Peace – Work – Fatherland",
+     "explanation": "This is the motto of Cameroon."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Citizenship, table 24 (Civics: national emblems), p. 63, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Civics: national emblems"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-V",
+   "domain": "Vocational Studies",
+   "title": "A greeting card to send",
+   "objective": "Produce a decoration item with materials from the environment: a greeting card.",
+   "course": "We decorate to make things beautiful. A greeting card is a folded paper with a drawing and a short message. We can decorate it with seeds, small leaves, colours or paper flowers.",
+   "model": "Ayuk folds a paper in two, draws a flower, sticks small seeds around it and writes: “Happy birthday, Mama.”",
+   "guided": "Fold a paper in two. Decorate the front with materials. Ask the adult to help you write a short message inside.",
+   "exercise": "What is inside a greeting card?",
+   "answer": "A short message.",
+   "accept": [
+    "a message",
+    "a short message",
+    "message",
+    "A short message"
+   ],
+   "remediation": "Decorate with colours only, then add one material.",
+   "transfer": "Give your card to someone you love.",
+   "materials": "Paper, coloured pencils, glue, seeds, small dry leaves.",
+   "practice": [
+    {
+     "prompt": "Put the steps in order.",
+     "type": "order",
+     "items": [
+      "Fold the paper in two.",
+      "Decorate the front.",
+      "Write a message inside.",
+      "Give the card."
+     ],
+     "answer": "fold, decorate, write, give.",
+     "explanation": "Follow the steps to make a card."
+    },
+    {
+     "prompt": "Which material can decorate a card?",
+     "type": "mcq",
+     "choices": [
+      "small seeds",
+      "a stone",
+      "water"
+     ],
+     "correct": 0,
+     "answer": "small seeds",
+     "explanation": "Seeds can be glued on paper."
+    },
+    {
+     "prompt": "Draw the front of your card.",
+     "answer": "A decorated card.",
+     "explanation": "Use bright colours.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: decoration), p. 67, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: decoration"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-A",
+   "domain": "Arts",
+   "title": "Drums and other instruments that speak",
+   "objective": "Identify traditional musical instruments and say how they were used to send messages.",
+   "course": "Cameroon has many traditional instruments: the drum, the talking drum, the balafon (a wooden xylophone), the rattle, the flute.\nLong ago, some drums sent messages from village to village: a meeting, a birth, danger.",
+   "model": "The adult beats a tin like a drum: two slow beats, three fast beats: “This could call the village to a meeting.”",
+   "guided": "Look at pictures of instruments. Make a rattle with a bottle and seeds. Play a beat to send a “message” to the others.",
+   "exercise": "Which instrument was used to send messages between villages?",
+   "answer": "The talking drum.",
+   "accept": [
+    "the talking drum",
+    "talking drum",
+    "the drum",
+    "drum",
+    "The talking drum"
+   ],
+   "remediation": "Name two instruments with pictures: the drum and the rattle.",
+   "transfer": "Ask an elder about an instrument played in your village.",
+   "materials": "Pictures of instruments, a plastic bottle, seeds, a tin.",
+   "practice": [
+    {
+     "prompt": "Match each instrument with how we play it.",
+     "type": "match",
+     "pairs": [
+      [
+       "a drum",
+       "we beat it"
+      ],
+      [
+       "a rattle",
+       "we shake it"
+      ],
+      [
+       "a flute",
+       "we blow it"
+      ]
+     ],
+     "answer": "drum: beat; rattle: shake; flute: blow.",
+     "explanation": "Instruments are played in different ways."
+    },
+    {
+     "prompt": "What is a balafon made of?",
+     "type": "mcq",
+     "choices": [
+      "wood",
+      "glass",
+      "paper"
+     ],
+     "correct": 0,
+     "answer": "wood",
+     "explanation": "The balafon has wooden keys."
+    },
+    {
+     "prompt": "Name one traditional instrument.",
+     "answer": "For example: the drum, the balafon, the rattle.",
+     "explanation": "Cameroon has many traditional instruments."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: traditional musical instruments), p. 69, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: traditional musical instruments"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-P",
+   "domain": "Physical Education and Sports",
+   "title": "Jumping the rope",
+   "objective": "Jump over a turning rope and count the jumps.",
+   "course": "Two children turn a long rope. The jumper waits, enters when the rope goes up, jumps with two feet together each time the rope touches the ground, and counts.\nWe jump on soft ground and land on the front of the feet.",
+   "model": "Manka enters and jumps: “One, two, three, four…” Her friends count with her.",
+   "guided": "Turn the rope with a friend and take turns to jump. Count the jumps aloud.",
+   "exercise": "When do we enter to jump the rope?",
+   "answer": "When the rope goes up.",
+   "accept": [
+    "when the rope goes up",
+    "when the rope is up",
+    "When the rope goes up"
+   ],
+   "remediation": "Jump over a rope lying still on the ground first, then a rope moving slowly.",
+   "transfer": "Play rope jumping with friends and count your best score.",
+   "materials": "A long rope, soft ground.",
+   "practice": [
+    {
+     "prompt": "Tabi jumps 7 times, then 5 times. How many jumps in all?",
+     "type": "number",
+     "answer": 12,
+     "explanation": "7 + 5 = 12."
+    },
+    {
+     "prompt": "How do we land?",
+     "type": "mcq",
+     "choices": [
+      "on the front of the feet",
+      "on the head",
+      "on one hand"
+     ],
+     "correct": 0,
+     "answer": "on the front of the feet",
+     "explanation": "Landing softly protects the legs."
+    },
+    {
+     "prompt": "How many children turn the long rope?",
+     "type": "number",
+     "answer": 2,
+     "explanation": "One at each end."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Jumps: rope jump), p. 70, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Jumps: rope jump"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-N",
+   "domain": "National Languages and Cultures",
+   "title": "A tale from the elders",
+   "objective": "Listen to a short tale or song from the family, retell it and name the members of the nuclear family in the home language.",
+   "course": "Elders keep stories, tales, songs and proverbs. They tell them in the evening, often in the family language. Tales teach lessons: be kind, be patient, do not be greedy.\nThe nuclear family is father, mother and children. We learn to name them in our language.",
+   "model": "In the evening, Grandmother tells a short tale about the tortoise in her language. Then Enow retells it in English.",
+   "guided": "Ask an elder to tell you a short tale or a song in the family language. Retell it in a few sentences. Learn the words for father, mother, brother and sister.",
+   "exercise": "Who keeps the tales of the family?",
+   "answer": "The elders.",
+   "accept": [
+    "the elders",
+    "elders",
+    "grandparents",
+    "my grandmother",
+    "my grandfather",
+    "The elders"
+   ],
+   "remediation": "Listen to a very short tale twice before retelling it.",
+   "transfer": "Record a family word or a short song in Klassia’s “Home language” page, with an adult.",
+   "materials": "“Home language” page (optional).",
+   "practice": [
+    {
+     "prompt": "Retell the tale you heard in three sentences.",
+     "answer": "The tale retold in three sentences.",
+     "explanation": "Say the beginning, the middle and the end."
+    },
+    {
+     "prompt": "Match each member of the family with the English word.",
+     "type": "match",
+     "pairs": [
+      [
+       "the man who is your parent",
+       "father"
+      ],
+      [
+       "the woman who is your parent",
+       "mother"
+      ],
+      [
+       "a boy with the same parents",
+       "brother"
+      ]
+     ],
+     "answer": "father; mother; brother.",
+     "explanation": "These are members of the nuclear family."
+    },
+    {
+     "prompt": "What do tales teach us?",
+     "type": "mcq",
+     "choices": [
+      "lessons for life",
+      "nothing",
+      "only numbers"
+     ],
+     "correct": 0,
+     "answer": "lessons for life",
+     "explanation": "Tales teach kindness, patience and wisdom."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Listening and Speaking: oral traditions and the family), p. 73, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking: oral traditions and the family"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-I",
+   "domain": "ICTs",
+   "title": "A polite phone call and private messages",
+   "objective": "Use a phone (pretend) to communicate at a distance politely and respect other people’s privacy.",
+   "course": "With a phone we can talk to people far away. We greet, say who we are, speak clearly and say goodbye.\nMessages and photos on another person’s phone are private: we do not read them without permission.",
+   "model": "Bih borrows her aunt’s phone to call her father. She does not open the aunt’s messages. She gives the phone back and says thank you.",
+   "guided": "Play a call with a toy phone. Then discuss: may we look at the messages on someone else’s phone?",
+   "exercise": "May we read the messages on someone else’s phone without permission?",
+   "answer": "No.",
+   "accept": [
+    "no",
+    "No"
+   ],
+   "remediation": "Practise only greeting and goodbye on the phone.",
+   "transfer": "Ask permission before using a phone at home.",
+   "materials": "A toy phone.",
+   "practice": [
+    {
+     "prompt": "Put the call in order.",
+     "type": "order",
+     "items": [
+      "Hello!",
+      "This is Bih.",
+      "I am fine, thank you.",
+      "Goodbye!"
+     ],
+     "answer": "Hello! This is Bih. I am fine, thank you. Goodbye!",
+     "explanation": "Greet, say who you are, talk, say goodbye."
+    },
+    {
+     "prompt": "What do we say when we give back a phone we borrowed?",
+     "type": "mcq",
+     "choices": [
+      "Thank you",
+      "Nothing",
+      "Go away"
+     ],
+     "correct": 0,
+     "answer": "Thank you",
+     "explanation": "We thank the person."
+    },
+    {
+     "prompt": "What does “private” mean?",
+     "answer": "It belongs to one person; others do not look without permission.",
+     "explanation": "We respect other people’s privacy."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Devices for distance communication), p. 77, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Devices for distance communication"
    ]
   }
  ]

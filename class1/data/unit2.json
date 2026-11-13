@@ -8,11 +8,11 @@
   "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 1 are written (lots A3 and A4). Original examples; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–77; Class 1 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
   }
  ],
@@ -553,6 +553,544 @@
    },
    "competencies": [
     "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-S",
+   "domain": "Science and Technology",
+   "title": "Animals of the village and their homes",
+   "objective": "Identify domestic animals of the village, say where each one lives and how we care for it.",
+   "course": "Domestic animals live with people: the goat, the sheep, the pig, the dog, the cat, the hen.\nEach one has a home: the hen sleeps in a coop, the goat in a pen, the pig in a sty, the dog in a kennel.\nWe give them food and clean water, and we keep their homes clean. We do not go near an animal we do not know.",
+   "model": "In Nfor’s compound, the hens sleep in the coop at night. In the morning he gives them maize and clean water.",
+   "guided": "Look at pictures of animals and their homes. Put each animal next to its home and say: “The hen lives in a coop.”",
+   "exercise": "Where does a hen sleep?",
+   "answer": "In a coop.",
+   "accept": [
+    "in a coop",
+    "coop",
+    "a coop",
+    "in the coop",
+    "In a coop"
+   ],
+   "remediation": "Start with two animals the child sees every day.",
+   "transfer": "Find out which animals live in your compound or your street and where they sleep.",
+   "materials": "Pictures of domestic animals and of their homes.",
+   "practice": [
+    {
+     "prompt": "Match each animal with its home.",
+     "type": "match",
+     "pairs": [
+      [
+       "a hen",
+       "a coop"
+      ],
+      [
+       "a pig",
+       "a sty"
+      ],
+      [
+       "a dog",
+       "a kennel"
+      ]
+     ],
+     "answer": "hen: coop; pig: sty; dog: kennel.",
+     "explanation": "Each domestic animal has its own home."
+    },
+    {
+     "prompt": "Which one is a domestic animal?",
+     "type": "mcq",
+     "choices": [
+      "a lion",
+      "a goat",
+      "an elephant"
+     ],
+     "correct": 1,
+     "answer": "a goat",
+     "explanation": "A goat lives with people; lions and elephants are wild."
+    },
+    {
+     "prompt": "Say one way to care for a domestic animal.",
+     "answer": "Give it food and clean water, keep its home clean.",
+     "explanation": "Animals need food, water and a clean home."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Environmental Science: domestic animals and their habitats), p. 54, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Environmental Science: domestic animals and their habitats"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-F",
+   "domain": "Français",
+   "title": "Je m’appelle…",
+   "objective": "Se présenter en français : dire son nom et son âge.",
+   "course": "Pour me présenter, je dis : « Je m’appelle Bih. » (My name is Bih.) « J’ai six ans. » (I am six years old.)\nPour présenter un ami : « Voici Neba. » (This is Neba.)",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "Je m’appelle …\nJ’ai six ans.\nVoici mon ami."
+   },
+   "model": "Manka se lève et dit : « Bonjour ! Je m’appelle Manka. J’ai six ans. » Puis elle montre son ami : « Voici Tabi. »",
+   "guided": "Fais un cercle avec la famille. Chacun dit : « Je m’appelle … » puis présente son voisin : « Voici … ».",
+   "exercise": "Présente-toi en français.",
+   "answer": "Je m’appelle … J’ai … ans.",
+   "remediation": "Dis seulement « Je m’appelle … » plusieurs fois, puis ajoute l’âge.",
+   "transfer": "Présente un membre de ta famille en français : « Voici ma maman. »",
+   "materials": "Une balle à se passer pour donner la parole.",
+   "practice": [
+    {
+     "prompt": "Remets les mots dans l’ordre.",
+     "type": "order",
+     "items": [
+      "Je",
+      "m’appelle",
+      "Ayuk."
+     ],
+     "answer": "Je m’appelle Ayuk.",
+     "explanation": "On commence par « Je »."
+    },
+    {
+     "prompt": "Complète.",
+     "type": "gaps",
+     "text": "J’ai six [[ans]].",
+     "answer": "J’ai six ans.",
+     "explanation": "Pour l’âge, on dit « ans »."
+    },
+    {
+     "prompt": "Écoute et répète.",
+     "listen": "Je m’appelle Neba. J’ai six ans.",
+     "answer": "Je m’appelle Neba. J’ai six ans.",
+     "explanation": "Parle lentement et clairement."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : présentations), p. 57, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : présentations"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-C",
+   "domain": "Citizenship",
+   "title": "People who lead our village or town",
+   "objective": "Identify some authorities of the community and show them respect.",
+   "course": "Some people lead and serve the community: the chief, the quarter head, the mayor, the head teacher, the religious leaders.\nWe respect them: we greet them politely and we listen when they speak.",
+   "model": "The quarter head visits Nfor’s compound. Nfor greets him: “Good morning, sir,” and brings him a chair.",
+   "guided": "Name the leaders you know in your village or town. Play a visit: greet a leader politely.",
+   "exercise": "Who leads a town council?",
+   "answer": "The mayor.",
+   "accept": [
+    "the mayor",
+    "mayor",
+    "a mayor",
+    "The mayor"
+   ],
+   "remediation": "Start with leaders the child knows: the head teacher, the chief.",
+   "transfer": "Find out the name of the chief or quarter head of your area.",
+   "materials": "Pictures of community places (palace, town hall, school).",
+   "practice": [
+    {
+     "prompt": "Match each leader with the place.",
+     "type": "match",
+     "pairs": [
+      [
+       "the chief",
+       "the palace"
+      ],
+      [
+       "the mayor",
+       "the town hall"
+      ],
+      [
+       "the head teacher",
+       "the school"
+      ]
+     ],
+     "answer": "chief: palace; mayor: town hall; head teacher: school.",
+     "explanation": "Each leader serves in a place."
+    },
+    {
+     "prompt": "How do we show respect to a leader?",
+     "type": "mcq",
+     "choices": [
+      "greet him politely",
+      "run away",
+      "shout"
+     ],
+     "correct": 0,
+     "answer": "greet him politely",
+     "explanation": "We greet leaders and listen to them."
+    },
+    {
+     "prompt": "Say the name of one leader of your school.",
+     "answer": "For example: the head teacher.",
+     "explanation": "The head teacher leads the school."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Citizenship, table 24 (Civics: personalities and authorities in the community), p. 63, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Civics: personalities and authorities in the community"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-V",
+   "domain": "Vocational Studies",
+   "title": "Folding a paper fan",
+   "objective": "Fold paper to produce a simple object: a fan.",
+   "course": "Folding means bending paper along a line. To make a fan, we fold the paper forward, then backward, again and again, like steps. Then we pinch one end.\nWe fold slowly and press each fold well.",
+   "model": "The adult folds a sheet: “Forward, backward, forward, backward.” Then pinches the bottom: “Here is a fan for the hot afternoon.”",
+   "guided": "Take a sheet of paper. Fold it forward and backward together with the adult. Decorate the fan.",
+   "exercise": "How do we fold a fan?",
+   "answer": "Forward, backward, forward, backward, then we pinch one end.",
+   "remediation": "Fold big strips first, then smaller ones.",
+   "transfer": "Make a fan for someone at home.",
+   "materials": "Sheets of paper or old newspaper, coloured pencils, a rubber band.",
+   "practice": [
+    {
+     "prompt": "Put the steps in order.",
+     "type": "order",
+     "items": [
+      "Take a sheet of paper.",
+      "Fold forward and backward.",
+      "Pinch one end.",
+      "Decorate your fan."
+     ],
+     "answer": "Take, fold, pinch, decorate.",
+     "explanation": "Follow the steps one by one."
+    },
+    {
+     "prompt": "What do we use a fan for?",
+     "type": "mcq",
+     "choices": [
+      "to keep cool",
+      "to cook",
+      "to write"
+     ],
+     "correct": 0,
+     "answer": "to keep cool",
+     "explanation": "A fan moves air when it is hot."
+    },
+    {
+     "prompt": "Draw the fan you made.",
+     "answer": "A drawing of a fan.",
+     "explanation": "Draw the folds.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: folding), p. 65, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: folding"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-A",
+   "domain": "Arts",
+   "title": "Colours of the market",
+   "objective": "Colour objects with appropriate colours and name the colours.",
+   "course": "Things have colours: a ripe banana is yellow, a pear (avocado) is green, a tomato is red, an orange is orange, plantain leaves are green.\nWe choose the right colour to colour a drawing.",
+   "model": "The adult shows a basket of fruits: “The tomato is red. The banana is yellow. The avocado is green.”",
+   "guided": "Colour a drawing of a market stall with the right colours. Say each colour aloud.",
+   "exercise": "What colour is a ripe tomato?",
+   "answer": "Red.",
+   "accept": [
+    "red",
+    "Red"
+   ],
+   "remediation": "Match real fruits with crayons of the same colour.",
+   "transfer": "At the market, name the colours of five things you see.",
+   "materials": "Drawing of fruits, coloured pencils, real fruits.",
+   "practice": [
+    {
+     "prompt": "Match each fruit with its colour.",
+     "type": "match",
+     "pairs": [
+      [
+       "a ripe banana",
+       "yellow"
+      ],
+      [
+       "an avocado",
+       "green"
+      ],
+      [
+       "a tomato",
+       "red"
+      ]
+     ],
+     "answer": "banana: yellow; avocado: green; tomato: red.",
+     "explanation": "Each fruit has its colour."
+    },
+    {
+     "prompt": "Colour a fruit with the right colour.",
+     "answer": "A fruit coloured with its real colour.",
+     "explanation": "Look at a real fruit to choose the colour.",
+     "ink": "libre"
+    },
+    {
+     "prompt": "Which colour is a ripe mango?",
+     "type": "mcq",
+     "choices": [
+      "blue",
+      "yellow or orange",
+      "black"
+     ],
+     "correct": 1,
+     "answer": "yellow or orange",
+     "explanation": "Ripe mangoes are yellow or orange."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: colouring with appropriate colours), p. 69, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: colouring with appropriate colours"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-P",
+   "domain": "Physical Education and Sports",
+   "title": "Skipping and galloping",
+   "objective": "Skip and gallop with rhythm.",
+   "course": "To skip, we step and hop on one foot, then step and hop on the other foot. To gallop, one foot stays in front and the other foot chases it, like a horse.\nWe move in a free space and look where we go.",
+   "model": "The adult skips across the yard: step-hop, step-hop. Then gallops like a horse.",
+   "guided": "Skip from one line to another, then gallop back. Try to the rhythm of claps.",
+   "exercise": "Which animal do we copy when we gallop?",
+   "answer": "A horse.",
+   "accept": [
+    "a horse",
+    "horse",
+    "A horse"
+   ],
+   "remediation": "Practise the hop on one foot first.",
+   "transfer": "Skip to the beat of a song at home.",
+   "materials": "An open space, two lines.",
+   "practice": [
+    {
+     "prompt": "Which movement is “step-hop, step-hop”?",
+     "type": "mcq",
+     "choices": [
+      "skipping",
+      "sleeping",
+      "swimming"
+     ],
+     "correct": 0,
+     "answer": "skipping",
+     "explanation": "Skipping is step and hop."
+    },
+    {
+     "prompt": "Put in order: how to skip.",
+     "type": "order",
+     "items": [
+      "Step on one foot.",
+      "Hop on the same foot.",
+      "Step on the other foot.",
+      "Hop again."
+     ],
+     "answer": "step, hop, step, hop.",
+     "explanation": "Skipping repeats step and hop."
+    },
+    {
+     "prompt": "Where do we move when we skip and gallop?",
+     "answer": "In a free space, looking where we go.",
+     "explanation": "We avoid bumping into others."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Movement: skipping and galloping), p. 70, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Movement: skipping and galloping"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-N",
+   "domain": "National Languages and Cultures",
+   "title": "Greetings in our language",
+   "objective": "Greet people in the home language at different periods of the day and answer politely.",
+   "course": "In every language, we greet people in the morning, in the afternoon, in the evening and at night, and we answer politely.\nIn many cultures, children greet elders first and with respect: a bow, both hands, or kneeling, depending on the family.",
+   "model": "The family says the morning greeting in its language. The child repeats it and greets his grandmother with respect.",
+   "guided": "Ask the adult the greetings of the morning and the night in the family language. Practise them with gestures of respect.",
+   "exercise": "Say the morning greeting in your family language.",
+   "answer": "The morning greeting said in the family language.",
+   "remediation": "Learn one greeting a day.",
+   "transfer": "Greet an elder in the family language tomorrow morning.",
+   "materials": "“Home language” page (optional).",
+   "practice": [
+    {
+     "prompt": "Say the night greeting in your family language.",
+     "answer": "The night greeting in the family language.",
+     "explanation": "Ask an adult to help you."
+    },
+    {
+     "prompt": "Whom do children greet first in many cultures?",
+     "type": "mcq",
+     "choices": [
+      "the elders",
+      "the youngest",
+      "nobody"
+     ],
+     "correct": 0,
+     "answer": "the elders",
+     "explanation": "Greeting the elders first shows respect."
+    },
+    {
+     "prompt": "Match each greeting with its time.",
+     "type": "match",
+     "pairs": [
+      [
+       "morning greeting",
+       "when the sun rises"
+      ],
+      [
+       "night greeting",
+       "before sleeping"
+      ]
+     ],
+     "answer": "morning: sunrise; night: before sleeping.",
+     "explanation": "Greetings change with the time of day."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Listening and Speaking: greetings and polite forms), p. 72, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking: greetings and polite forms"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-I",
+   "domain": "ICTs",
+   "title": "Messages in the village: the drum, the town crier and the phone",
+   "objective": "Identify traditional and modern tools for communication and say how they help people.",
+   "course": "Long ago in villages, people sent messages with the talking drum, the town crier who walked and announced the news, or a messenger. Today we also use the phone, the radio and the television.\nAll of them help people share news.",
+   "model": "In Nfor’s village, the town crier announces a meeting with a bell. Nfor’s uncle in the town learns the news by phone.",
+   "guided": "Sort pictures: traditional tools (drum, town crier, messenger) and modern tools (phone, radio, TV).",
+   "exercise": "Name one traditional tool for sending messages.",
+   "answer": "For example: the talking drum or the town crier.",
+   "remediation": "Compare two tools only: the drum and the phone.",
+   "transfer": "Ask an elder how news was sent when he was a child.",
+   "materials": "Pictures of communication tools.",
+   "practice": [
+    {
+     "prompt": "Match each tool with its group.",
+     "type": "match",
+     "pairs": [
+      [
+       "the talking drum",
+       "traditional"
+      ],
+      [
+       "the town crier",
+       "traditional"
+      ],
+      [
+       "the mobile phone",
+       "modern"
+      ]
+     ],
+     "answer": "drum: traditional; town crier: traditional; phone: modern.",
+     "explanation": "Some tools are old, some are new."
+    },
+    {
+     "prompt": "Which is the fastest way to send news to a far town today?",
+     "type": "mcq",
+     "choices": [
+      "a phone call",
+      "walking",
+      "a letter carried on foot"
+     ],
+     "correct": 0,
+     "answer": "a phone call",
+     "explanation": "A phone call reaches far quickly."
+    },
+    {
+     "prompt": "What do all these tools help people to do?",
+     "answer": "To share news.",
+     "accept": [
+      "share news",
+      "to share news",
+      "send messages",
+      "communicate",
+      "To share news"
+     ],
+     "explanation": "They are tools for communication."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Traditional and modern tools for communication), p. 76, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Traditional and modern tools for communication"
    ]
   }
  ]

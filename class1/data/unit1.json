@@ -8,11 +8,11 @@
   "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 1 are written (lots A3 and A4). Original examples; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–77; Class 1 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
   }
  ],
@@ -580,6 +580,571 @@
    },
    "competencies": [
     "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-S",
+   "domain": "Science and Technology",
+   "title": "My body and keeping it clean",
+   "objective": "Name the main parts of the body and say how to keep each one clean every day.",
+   "course": "Our body has many parts: the head, the hair, the eyes, the ears, the nose, the mouth, the arms, the hands, the legs and the feet.\nWe keep our body clean every day: we bathe with soap and water, we brush our teeth, we comb our hair, we cut our nails and we wear clean clothes.",
+   "model": "Before school, Bih bathes with soap, brushes her teeth, combs her hair and puts on a clean uniform. She is ready and fresh.",
+   "guided": "Touch each part of your body when the adult names it. Then mime how you clean it: wash, brush, comb.",
+   "exercise": "What do we use to brush our teeth?",
+   "answer": "A toothbrush (and toothpaste).",
+   "accept": [
+    "toothbrush",
+    "a toothbrush",
+    "toothbrush and toothpaste",
+    "A toothbrush (and toothpaste)"
+   ],
+   "remediation": "Work with five parts only (head, eyes, mouth, hands, feet), then add the others.",
+   "transfer": "Tonight, show an adult how you wash your hands and your feet.",
+   "materials": "Soap, a towel, a toothbrush, a comb, a drawing of the body.",
+   "practice": [
+    {
+     "prompt": "Match each part of the body with what we use to clean it.",
+     "type": "match",
+     "pairs": [
+      [
+       "teeth",
+       "a toothbrush"
+      ],
+      [
+       "hair",
+       "a comb"
+      ],
+      [
+       "hands",
+       "soap and water"
+      ]
+     ],
+     "answer": "teeth: toothbrush; hair: comb; hands: soap and water.",
+     "explanation": "Each part of the body needs its own care."
+    },
+    {
+     "prompt": "How often should we bathe?",
+     "type": "mcq",
+     "choices": [
+      "every day",
+      "once a month",
+      "never"
+     ],
+     "correct": 0,
+     "answer": "every day",
+     "explanation": "We bathe every day to stay clean and healthy."
+    },
+    {
+     "prompt": "Name three parts of your face.",
+     "answer": "For example: the eyes, the nose and the mouth.",
+     "explanation": "The face has the eyes, the nose, the mouth, the cheeks and the forehead."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: human body and personal hygiene), p. 51, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: human body and personal hygiene"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-F",
+   "domain": "Français",
+   "title": "Bonjour, au revoir, merci",
+   "objective": "Saluer poliment, prendre congé et remercier en français.",
+   "course": "En français, on dit « Bonjour » le matin et la journée (Good morning / Hello), « Bonsoir » le soir (Good evening).\nPour partir, on dit « Au revoir » (Goodbye) ou « À demain » (See you tomorrow).\nOn dit « Merci » (Thank you) quand on reçoit quelque chose.",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "Bonjour, maman !\nAu revoir, papa !\nMerci !"
+   },
+   "model": "Le matin, Ayuk arrive à l’école et dit : « Bonjour, madame ! » Le soir, il dit : « Au revoir, madame ! À demain ! »",
+   "guided": "Joue avec une marionnette : elle arrive, on dit « Bonjour » ; elle part, on dit « Au revoir ». Elle donne un fruit, on dit « Merci ».",
+   "exercise": "Tu arrives à l’école le matin. Que dis-tu à la maîtresse ?",
+   "answer": "Bonjour, madame !",
+   "accept": [
+    "Bonjour",
+    "Bonjour madame",
+    "Bonjour maîtresse",
+    "Bonjour, madame "
+   ],
+   "remediation": "Travaille d’abord « Bonjour » et « Au revoir » avec des gestes (main qui salue).",
+   "transfer": "Dis « Bonjour » et « Au revoir » en français à une personne de la maison.",
+   "materials": "Une marionnette ou une poupée.",
+   "practice": [
+    {
+     "prompt": "Relie chaque moment à la bonne formule.",
+     "type": "match",
+     "pairs": [
+      [
+       "Tu arrives.",
+       "Bonjour"
+      ],
+      [
+       "Tu pars.",
+       "Au revoir"
+      ],
+      [
+       "On te donne un cadeau.",
+       "Merci"
+      ]
+     ],
+     "answer": "arriver : Bonjour ; partir : Au revoir ; recevoir : Merci.",
+     "explanation": "Chaque moment a sa formule de politesse."
+    },
+    {
+     "prompt": "Écoute et répète.",
+     "listen": "Bonjour ! Au revoir ! Merci !",
+     "answer": "Bonjour ! Au revoir ! Merci !",
+     "explanation": "Dis les mots avec un sourire."
+    },
+    {
+     "prompt": "Quel mot dit-on pour remercier ?",
+     "type": "mcq",
+     "choices": [
+      "Bonjour",
+      "Merci",
+      "Bonsoir"
+     ],
+     "correct": 1,
+     "answer": "Merci",
+     "explanation": "« Merci » veut dire thank you."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : salutations), p. 57, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : salutations"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-C",
+   "domain": "Citizenship",
+   "title": "Rules at home",
+   "objective": "Discuss the rules of the home and apply them in daily life.",
+   "course": "Every home has rules. We greet the elders. We help with small tasks. We keep our things tidy. We ask before we take something. We come home on time.\nRules help everybody to live together in peace.",
+   "model": "At Ashu’s house, the rule is: after eating, each child takes his plate to the kitchen. Ashu does it without being told.",
+   "guided": "Make a list of three home rules with the family. Draw one rule and say why it is important.",
+   "exercise": "Say one rule of your home.",
+   "answer": "For example: we greet the elders; we keep our things tidy.",
+   "remediation": "Start with one rule that the child already follows and praise it.",
+   "transfer": "Follow one home rule every day this week.",
+   "materials": "Paper and coloured pencils.",
+   "practice": [
+    {
+     "prompt": "Which one is a good home rule?",
+     "type": "mcq",
+     "choices": [
+      "Greet the elders.",
+      "Shout at night.",
+      "Take things without asking."
+     ],
+     "correct": 0,
+     "answer": "Greet the elders.",
+     "explanation": "Greeting the elders shows respect."
+    },
+    {
+     "prompt": "Why do we have rules at home?",
+     "answer": "To live together in peace and help each other.",
+     "explanation": "Rules help everybody in the family."
+    },
+    {
+     "prompt": "Match each situation with the right action.",
+     "type": "match",
+     "pairs": [
+      [
+       "You finish eating.",
+       "take your plate to the kitchen"
+      ],
+      [
+       "You want a toy of your brother.",
+       "ask him first"
+      ],
+      [
+       "A visitor arrives.",
+       "greet him"
+      ]
+     ],
+     "answer": "plate to the kitchen; ask first; greet.",
+     "explanation": "Good actions follow the home rules."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Citizenship, table 24 (Civics: rules and regulations at home), p. 63, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Civics: rules and regulations at home"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-V",
+   "domain": "Vocational Studies",
+   "title": "Materials for crafts at home",
+   "objective": "Identify natural, found and recyclable materials used for crafts, and follow good environmental rules.",
+   "course": "We can make things with many materials. Natural materials come from nature: leaves, seeds, sticks, clay. Found and recyclable materials are things people throw away: bottle tops, old newspapers, cartons, plastic bottles.\nWe collect clean materials and we never take dirty or sharp things.",
+   "model": "Bih collects bottle tops, a carton and some dry leaves. She will use them to make a picture.",
+   "guided": "Collect five clean materials around the house. Sort them: natural or recyclable.",
+   "exercise": "Name one natural material we can use for crafts.",
+   "answer": "For example: leaves, seeds, sticks or clay.",
+   "remediation": "Sort only two kinds: things from nature and things from the dustbin (clean).",
+   "transfer": "Keep a box at home for clean recyclable materials.",
+   "materials": "Clean bottle tops, cartons, dry leaves, seeds, a box.",
+   "practice": [
+    {
+     "prompt": "Match each material with its group.",
+     "type": "match",
+     "pairs": [
+      [
+       "dry leaves",
+       "natural"
+      ],
+      [
+       "bottle tops",
+       "recyclable"
+      ],
+      [
+       "clay",
+       "natural"
+      ]
+     ],
+     "answer": "leaves: natural; bottle tops: recyclable; clay: natural.",
+     "explanation": "Natural materials come from nature."
+    },
+    {
+     "prompt": "Which material should we NOT collect?",
+     "type": "mcq",
+     "choices": [
+      "clean cartons",
+      "broken glass",
+      "dry seeds"
+     ],
+     "correct": 1,
+     "answer": "broken glass",
+     "explanation": "Broken glass can cut us."
+    },
+    {
+     "prompt": "Draw two materials you collected.",
+     "answer": "A drawing of two materials.",
+     "explanation": "Draw and name each material.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: materials used for crafts), p. 65, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: materials used for crafts"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-A",
+   "domain": "Arts",
+   "title": "Drawing my house with shapes",
+   "objective": "Draw plain shapes and use them to draw a house; colour it with appropriate colours.",
+   "course": "We can draw many things with simple shapes. A house: a square for the walls, a triangle for the roof, a rectangle for the door, small squares for the windows.\nWe colour slowly, without going out of the lines.",
+   "model": "The adult draws a square, puts a triangle on top, then a rectangle at the bottom: “Here is a house.”",
+   "guided": "Draw your house with shapes. Colour the roof, the walls and the door.",
+   "exercise": "Which shape can be the roof of a house?",
+   "answer": "A triangle.",
+   "accept": [
+    "a triangle",
+    "triangle",
+    "A triangle"
+   ],
+   "remediation": "Trace the shapes on a model before drawing them alone.",
+   "transfer": "Draw the house of a member of your family.",
+   "materials": "Paper, pencil, coloured pencils or crayons.",
+   "practice": [
+    {
+     "prompt": "Draw a house with a square, a triangle and a rectangle.",
+     "answer": "A house drawn with shapes.",
+     "explanation": "Square: walls; triangle: roof; rectangle: door.",
+     "ink": "maison"
+    },
+    {
+     "prompt": "Match each part of the house with its shape.",
+     "type": "match",
+     "pairs": [
+      [
+       "the roof",
+       "a triangle"
+      ],
+      [
+       "the walls",
+       "a square"
+      ],
+      [
+       "the door",
+       "a rectangle"
+      ]
+     ],
+     "answer": "roof: triangle; walls: square; door: rectangle.",
+     "explanation": "Shapes help us draw."
+    },
+    {
+     "prompt": "How do we colour well?",
+     "type": "mcq",
+     "choices": [
+      "slowly, inside the lines",
+      "very fast, everywhere",
+      "with our eyes closed"
+     ],
+     "correct": 0,
+     "answer": "slowly, inside the lines",
+     "explanation": "Careful colouring is beautiful."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: drawing and colouring), p. 69, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: drawing and colouring"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-P",
+   "domain": "Physical Education and Sports",
+   "title": "Walking and balancing",
+   "objective": "Walk in different ways and keep balance on one foot and on a line.",
+   "course": "We can walk fast, slowly, on tiptoe, on our heels, backwards. To keep balance, we look in front of us and open our arms.\nWe always warm up before and we drink water after.",
+   "model": "The adult walks on a line drawn on the ground, arms open, looking straight ahead.",
+   "guided": "Walk on a line, then stand on one foot and count to five. Change foot.",
+   "exercise": "What helps us keep our balance?",
+   "answer": "Looking in front and opening our arms.",
+   "accept": [
+    "open our arms",
+    "opening our arms",
+    "look in front",
+    "Looking in front and opening our arms"
+   ],
+   "remediation": "Hold the adult’s hand on the line first.",
+   "transfer": "Play “walk on the line” with your brothers and sisters.",
+   "materials": "Chalk or a rope on the ground, an open space.",
+   "practice": [
+    {
+     "prompt": "Stand on one foot and count to five. Which number do you stop at?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "One, two, three, four, five: then change foot."
+    },
+    {
+     "prompt": "Match each walk with how we do it.",
+     "type": "match",
+     "pairs": [
+      [
+       "on tiptoe",
+       "on the front of the feet"
+      ],
+      [
+       "on the heels",
+       "on the back of the feet"
+      ],
+      [
+       "backwards",
+       "going back"
+      ]
+     ],
+     "answer": "tiptoe: front; heels: back; backwards: going back.",
+     "explanation": "There are many ways to walk."
+    },
+    {
+     "prompt": "What do we do before exercise?",
+     "type": "mcq",
+     "choices": [
+      "warm up",
+      "sleep",
+      "eat a lot"
+     ],
+     "correct": 0,
+     "answer": "warm up",
+     "explanation": "Warming up prepares the body."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Movement (rhythmic activities): walking and balancing), p. 70, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Movement (rhythmic activities): walking and balancing"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-N",
+   "domain": "National Languages and Cultures",
+   "title": "My language and the languages around me",
+   "objective": "Name the language of the family and recognise that many languages are spoken in the community.",
+   "course": "Cameroon has many national languages. Each family has its language, for example Bassa, Ewondo, Duala, Fulfulde, Mungaka, Bakweri or Kom. English and French are the official languages.\nWe are proud of our language and we respect the languages of others.",
+   "model": "Ayuk says: “At home we speak Kenyang. My friend Bih speaks Lamnso. At school we speak English.”",
+   "guided": "Ask an adult at home: “What is our language?” Then find out the language of two friends.",
+   "exercise": "What is the language of your family?",
+   "answer": "The child names the family language.",
+   "remediation": "Start with the language of one person the child knows well (a grandparent).",
+   "transfer": "Learn to say “hello” in the language of a friend.",
+   "materials": "Klassia’s “Home language” page to record family words, if the family wishes.",
+   "practice": [
+    {
+     "prompt": "Which ones are the official languages of Cameroon?",
+     "type": "mcq",
+     "choices": [
+      "English and French",
+      "Bassa and Duala",
+      "Ewondo and Fulfulde"
+     ],
+     "correct": 0,
+     "answer": "English and French",
+     "explanation": "Cameroon has two official languages and many national languages."
+    },
+    {
+     "prompt": "Ask your family how to say “hello” in your language. Say it aloud.",
+     "answer": "The word for “hello” in the family language.",
+     "explanation": "Every language has its greetings."
+    },
+    {
+     "prompt": "Name one language spoken by a friend or a neighbour.",
+     "answer": "For example: Bassa, Duala, Fulfulde, Mungaka.",
+     "explanation": "Many languages live together in Cameroon."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Listening and Speaking: generalities, my language), p. 72, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking: generalities, my language"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-I",
+   "domain": "ICTs",
+   "title": "Devices at home: radio, television, phone",
+   "objective": "Identify common ICT devices at home and say what they are used for.",
+   "course": "ICT devices help us to receive and send information. At home we can find a radio (we listen), a television (we watch and listen), a phone (we call and send messages), sometimes a computer.\nWe use them with an adult and we take care of them.",
+   "model": "In the evening, the family listens to the news on the radio. Papa calls Grandma on the phone.",
+   "guided": "Look around the house and find the ICT devices. Say what each one does.",
+   "exercise": "Which device do we use to call someone?",
+   "answer": "A phone.",
+   "accept": [
+    "a phone",
+    "phone",
+    "the phone",
+    "a mobile phone",
+    "a telephone",
+    "A phone"
+   ],
+   "remediation": "Use pictures of three devices first.",
+   "transfer": "Watch or listen to a children’s programme with an adult.",
+   "materials": "Pictures of ICT devices; the devices of the house (with an adult).",
+   "practice": [
+    {
+     "prompt": "Match each device with what it does.",
+     "type": "match",
+     "pairs": [
+      [
+       "a radio",
+       "we listen"
+      ],
+      [
+       "a television",
+       "we watch and listen"
+      ],
+      [
+       "a phone",
+       "we call"
+      ]
+     ],
+     "answer": "radio: listen; television: watch and listen; phone: call.",
+     "explanation": "Each device has its use."
+    },
+    {
+     "prompt": "Which one is an ICT device?",
+     "type": "mcq",
+     "choices": [
+      "a radio",
+      "a broom",
+      "a pot"
+     ],
+     "correct": 0,
+     "answer": "a radio",
+     "explanation": "A radio receives information."
+    },
+    {
+     "prompt": "With whom do we use devices?",
+     "answer": "With an adult.",
+     "accept": [
+      "with an adult",
+      "an adult",
+      "With an adult"
+     ],
+     "explanation": "An adult helps us use devices safely."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Basic knowledge: ICT devices), p. 76, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Basic knowledge: ICT devices"
    ]
   }
  ]

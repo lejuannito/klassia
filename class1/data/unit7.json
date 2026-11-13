@@ -8,11 +8,11 @@
   "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 1 are written (lots A3 and A4). Original examples; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–77; Class 1 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
   }
  ],
@@ -526,6 +526,549 @@
    },
    "competencies": [
     "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-S",
+   "domain": "Science and Technology",
+   "title": "The five senses game",
+   "objective": "Relate each sense to its organ and use the senses to recognise things.",
+   "course": "We have five senses. We see with our eyes. We hear with our ears. We smell with our nose. We taste with our tongue. We touch with our skin.\nWe protect our sense organs: we do not put objects in our ears or our nose, and we do not look at the sun.",
+   "model": "With closed eyes, Tabi smells an orange and says: “It is an orange!” He used his nose.",
+   "guided": "Play the senses game: with eyes closed, touch, smell or taste (with an adult) a safe thing and guess what it is. Say which sense you used.",
+   "exercise": "Which organ do we use to hear?",
+   "answer": "The ears.",
+   "accept": [
+    "the ears",
+    "ears",
+    "our ears",
+    "the ear",
+    "The ears"
+   ],
+   "remediation": "Point to each organ and say its sense with the adult.",
+   "transfer": "Close your eyes at home and name three sounds you hear.",
+   "materials": "Safe objects to touch, smell and taste (fruits, cloth, a bell).",
+   "practice": [
+    {
+     "prompt": "Match each sense with its organ.",
+     "type": "match",
+     "pairs": [
+      [
+       "seeing",
+       "the eyes"
+      ],
+      [
+       "smelling",
+       "the nose"
+      ],
+      [
+       "tasting",
+       "the tongue"
+      ]
+     ],
+     "answer": "seeing: eyes; smelling: nose; tasting: tongue.",
+     "explanation": "Each sense has its organ."
+    },
+    {
+     "prompt": "How many senses do we have?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "Sight, hearing, smell, taste and touch."
+    },
+    {
+     "prompt": "Which is a good way to protect our eyes?",
+     "type": "mcq",
+     "choices": [
+      "look at the sun",
+      "not rub them with dirty hands",
+      "put sand in them"
+     ],
+     "correct": 1,
+     "answer": "not rub them with dirty hands",
+     "explanation": "Dirty hands can make our eyes sick."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: the five senses and their organs), p. 51, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: the five senses and their organs"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-F",
+   "domain": "Français",
+   "title": "Sur, sous, devant, derrière",
+   "objective": "Dire une comptine en français et situer un objet avec sur, sous, devant et derrière.",
+   "course": "Pour dire où est un objet : « Le ballon est sur la table. » (on) « Le chat est sous la chaise. » (under) « Bih est devant Neba. » (in front of) « Neba est derrière Bih. » (behind)",
+   "support": {
+    "title": "Comptine Klassia",
+    "text": "Le ballon saute, saute, saute,\nsur la table, sous la chaise,\ndevant moi, derrière toi,\net hop, il revient à moi !"
+   },
+   "model": "L’adulte pose un ballon sur la table : « Le ballon est sur la table. » Puis sous la chaise : « Le ballon est sous la chaise. »",
+   "guided": "Dis la comptine avec des gestes. Puis l’adulte cache un objet ; l’enfant le trouve et dit où il était.",
+   "exercise": "Le chat est en dessous de la chaise. Où est le chat ?",
+   "answer": "Le chat est sous la chaise.",
+   "accept": [
+    "sous la chaise",
+    "sous",
+    "Le chat est sous la chaise"
+   ],
+   "remediation": "Travaille d’abord sur et sous avec une boîte et un jouet.",
+   "transfer": "Dis la comptine à quelqu’un de ta maison.",
+   "materials": "Un ballon, une chaise, une boîte.",
+   "practice": [
+    {
+     "prompt": "Complète avec sur ou sous.",
+     "type": "gaps",
+     "text": "Le livre est [[sur]] la table. Le chien est [[sous]] la table.",
+     "answer": "sur ; sous.",
+     "explanation": "Sur = on ; sous = under."
+    },
+    {
+     "prompt": "Neba est derrière Bih. Qui est devant ?",
+     "type": "mcq",
+     "choices": [
+      "Bih",
+      "Neba"
+     ],
+     "correct": 0,
+     "answer": "Bih",
+     "explanation": "Si Neba est derrière Bih, Bih est devant Neba."
+    },
+    {
+     "prompt": "Écoute et répète la comptine.",
+     "listen": "Le ballon saute, saute, saute, sur la table, sous la chaise, devant moi, derrière toi, et hop, il revient à moi !",
+     "answer": "La comptine dite avec les gestes.",
+     "explanation": "Fais les gestes en même temps."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : comptines et localisation dans l’espace), p. 57, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : comptines et localisation dans l’espace"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-C",
+   "domain": "Citizenship",
+   "title": "Fair play: respect and tolerance in games",
+   "objective": "Show respect and tolerance when playing with others.",
+   "course": "When we play, we respect the rules, we wait for our turn and we accept to lose. We play with every child, even if he is different from us. This is tolerance.\nWhen we win, we do not laugh at the others. When we lose, we say “Well done” to the winner.",
+   "model": "Ekane’s team loses the football match. He shakes hands with the winners and says: “Well done!”",
+   "guided": "Play a short game. Before, say the rules together. After, say “Well done” to the winner.",
+   "exercise": "Your team loses a game. What do you say to the winners?",
+   "answer": "Well done!",
+   "accept": [
+    "well done",
+    "Well done!",
+    "congratulations",
+    "Well done"
+   ],
+   "remediation": "Practise waiting for your turn with a ball game in a circle.",
+   "transfer": "Invite a child who plays alone to join your game.",
+   "materials": "A ball or a game everyone knows.",
+   "practice": [
+    {
+     "prompt": "Which one shows respect in a game?",
+     "type": "mcq",
+     "choices": [
+      "wait for your turn",
+      "push the others",
+      "change the rules alone"
+     ],
+     "correct": 0,
+     "answer": "wait for your turn",
+     "explanation": "Respect means following the rules."
+    },
+    {
+     "prompt": "A new child wants to play with you. What do you do?",
+     "answer": "I invite him or her to play.",
+     "accept": [
+      "invite him",
+      "invite her",
+      "let him play",
+      "let her play",
+      "I invite him or her to play"
+     ],
+     "explanation": "Tolerance means playing with everyone."
+    },
+    {
+     "prompt": "Match the action with the value.",
+     "type": "match",
+     "pairs": [
+      [
+       "waiting for your turn",
+       "respect"
+      ],
+      [
+       "playing with everyone",
+       "tolerance"
+      ],
+      [
+       "saying well done to the winner",
+       "fair play"
+      ]
+     ],
+     "answer": "respect; tolerance; fair play.",
+     "explanation": "Values help us play together."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Citizenship, table 24 (Civics: universal values (respect and tolerance)), p. 63, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Civics: universal values (respect and tolerance)"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-V",
+   "domain": "Vocational Studies",
+   "title": "Weaving a paper mat",
+   "objective": "Weave strips of paper over and under to make a small mat.",
+   "course": "Weaving means passing strips over and under other strips. People weave mats, baskets and caps with raffia or palm leaves.\nWith paper strips, we can weave a small mat: over, under, over, under.",
+   "model": "The adult cuts strips in a sheet and passes a strip of another colour: “Over, under, over, under.”",
+   "guided": "Weave four strips of paper into a sheet cut in strips. Change the colour each time.",
+   "exercise": "What words help us to weave?",
+   "answer": "Over, under.",
+   "accept": [
+    "over under",
+    "over, under",
+    "over and under",
+    "Over, under"
+   ],
+   "remediation": "Use wide strips and only three of them.",
+   "transfer": "Look at a mat or a basket at home and find the over-under pattern.",
+   "materials": "Coloured paper, rounded scissors (used with an adult), glue.",
+   "practice": [
+    {
+     "prompt": "Put the moves in order for one strip.",
+     "type": "order",
+     "items": [
+      "over",
+      "under",
+      "over",
+      "under"
+     ],
+     "answer": "over, under, over, under.",
+     "explanation": "Weaving alternates over and under."
+    },
+    {
+     "prompt": "Which object is woven?",
+     "type": "mcq",
+     "choices": [
+      "a raffia mat",
+      "a clay pot",
+      "a metal spoon"
+     ],
+     "correct": 0,
+     "answer": "a raffia mat",
+     "explanation": "Mats are woven with raffia or palm leaves."
+    },
+    {
+     "prompt": "Draw your mat with its colours.",
+     "answer": "A drawing of a woven mat.",
+     "explanation": "Show the over and under pattern.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: weaving), p. 67, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: weaving"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-A",
+   "domain": "Arts",
+   "title": "Simple dance steps",
+   "objective": "Identify and practise simple dance steps and dance gracefully with others.",
+   "course": "Dancing is moving to music. Simple steps: step to the right, step to the left, clap; turn around; bend and stand up.\nWe dance in a circle or in pairs, and we follow the rhythm.",
+   "model": "The adult shows: right, together; left, together; clap, clap; turn around.",
+   "guided": "Learn the steps one by one, then dance them to a song in a circle.",
+   "exercise": "Say the steps of the dance in order.",
+   "answer": "Step right, step left, clap, turn around.",
+   "remediation": "Practise only right and left steps with clapping.",
+   "transfer": "Teach your dance to a friend.",
+   "materials": "Music (a song or a drum), an open space.",
+   "practice": [
+    {
+     "prompt": "Put the dance steps in order.",
+     "type": "order",
+     "items": [
+      "Step to the right.",
+      "Step to the left.",
+      "Clap twice.",
+      "Turn around."
+     ],
+     "answer": "right, left, clap twice, turn around.",
+     "explanation": "Follow the order of the dance."
+    },
+    {
+     "prompt": "How do we dance gracefully?",
+     "type": "mcq",
+     "choices": [
+      "we follow the rhythm",
+      "we push the others",
+      "we stand still"
+     ],
+     "correct": 0,
+     "answer": "we follow the rhythm",
+     "explanation": "Graceful dancers follow the music."
+    },
+    {
+     "prompt": "How many claps in “Clap twice”?",
+     "type": "number",
+     "answer": 2,
+     "explanation": "Twice means two times."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: dance), p. 69, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: dance"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-P",
+   "domain": "Physical Education and Sports",
+   "title": "Hopscotch",
+   "objective": "Play hopscotch: hop on one foot and land on two feet, following the rules.",
+   "course": "Hopscotch is drawn on the ground with numbered squares. We throw a stone into a square, then hop on one foot in the single squares and land on two feet in the double squares, without stepping on the lines or in the square with the stone.",
+   "model": "Bih throws her stone into square 3. She hops: 1, 2, jumps over 3, lands on 4 and 5 with two feet.",
+   "guided": "Draw a hopscotch with numbers 1 to 8. Take turns to play.",
+   "exercise": "Can we step on the lines in hopscotch?",
+   "answer": "No.",
+   "accept": [
+    "no",
+    "No"
+   ],
+   "remediation": "Hop on two feet in all squares first.",
+   "transfer": "Teach hopscotch to a younger child.",
+   "materials": "Chalk, a flat stone, an open space.",
+   "practice": [
+    {
+     "prompt": "How many squares are in our hopscotch (1 to 8)?",
+     "type": "number",
+     "answer": 8,
+     "explanation": "Squares 1 to 8: 8 squares."
+    },
+    {
+     "prompt": "How do we land in a double square?",
+     "type": "mcq",
+     "choices": [
+      "on two feet",
+      "on one hand",
+      "sitting down"
+     ],
+     "correct": 0,
+     "answer": "on two feet",
+     "explanation": "Double squares: one foot in each."
+    },
+    {
+     "prompt": "Put the turn in order.",
+     "type": "order",
+     "items": [
+      "Throw the stone.",
+      "Hop through the squares.",
+      "Pick up the stone on the way back."
+     ],
+     "answer": "throw, hop, pick up.",
+     "explanation": "These are the rules of a turn."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Movement: hopscotch and dodging), p. 70, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Movement: hopscotch and dodging"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-N",
+   "domain": "National Languages and Cultures",
+   "title": "A traditional game of our community",
+   "objective": "Describe a traditional game, play it with others and learn from it.",
+   "course": "Children in Cameroon play traditional games: songo (a game with seeds and holes), hiding games, circle games with songs, games with stones.\nGames teach us to count, to wait our turn and to play together.",
+   "model": "Grandmother teaches Neba a circle game with a song in her language. Everybody holds hands and turns.",
+   "guided": "Ask an elder to teach you a traditional game. Play it with the family and say its name in the family language.",
+   "exercise": "What does a traditional game teach us?",
+   "answer": "To count, to wait our turn and to play together.",
+   "accept": [
+    "to play together",
+    "to wait our turn",
+    "to count",
+    "To count, to wait our turn and to play together"
+   ],
+   "remediation": "Play a simple circle game first.",
+   "transfer": "Teach the game to friends at school.",
+   "materials": "Seeds or stones for a game; an open space.",
+   "practice": [
+    {
+     "prompt": "Which game is played with seeds and holes?",
+     "type": "mcq",
+     "choices": [
+      "songo",
+      "football",
+      "tennis"
+     ],
+     "correct": 0,
+     "answer": "songo",
+     "explanation": "Songo is played with seeds and holes."
+    },
+    {
+     "prompt": "Say the name of a game in your family language.",
+     "answer": "The name of a game in the family language.",
+     "explanation": "Ask an elder."
+    },
+    {
+     "prompt": "Put in order how we play a circle game.",
+     "type": "order",
+     "items": [
+      "Hold hands in a circle.",
+      "Sing the song.",
+      "Turn and do the movements."
+     ],
+     "answer": "hold hands, sing, turn.",
+     "explanation": "Circle games begin by holding hands."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Listening and Speaking: traditional games), p. 73, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking: traditional games"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-I",
+   "domain": "ICTs",
+   "title": "The remote control",
+   "objective": "Describe the use of a remote control for a radio or a television.",
+   "course": "A remote control lets us use a television or a radio from far. It has buttons: on/off, volume up and down, channel up and down.\nWe point it at the device and press one button gently. We keep it in its place.",
+   "model": "Papa points the remote control at the television, presses on/off, then volume down because the baby is sleeping.",
+   "guided": "Look at a remote control with an adult. Find the on/off button and the volume buttons.",
+   "exercise": "Which button makes the sound lower?",
+   "answer": "Volume down.",
+   "accept": [
+    "volume down",
+    "the volume down button",
+    "Volume down"
+   ],
+   "remediation": "Find the on/off button only.",
+   "transfer": "Ask permission before using the remote control at home.",
+   "materials": "A remote control (used with an adult) or a drawing.",
+   "practice": [
+    {
+     "prompt": "Match each button with what it does.",
+     "type": "match",
+     "pairs": [
+      [
+       "on/off",
+       "starts or stops the device"
+      ],
+      [
+       "volume up",
+       "makes the sound louder"
+      ],
+      [
+       "channel",
+       "changes the programme"
+      ]
+     ],
+     "answer": "on/off: start/stop; volume up: louder; channel: change programme.",
+     "explanation": "Each button has a job."
+    },
+    {
+     "prompt": "Where do we point the remote control?",
+     "type": "mcq",
+     "choices": [
+      "at the device",
+      "at the ceiling",
+      "at a friend"
+     ],
+     "correct": 0,
+     "answer": "at the device",
+     "explanation": "The device receives the signal."
+    },
+    {
+     "prompt": "Why do we keep the remote control in its place?",
+     "answer": "So that we can find it and it does not break.",
+     "explanation": "Taking care of devices is good."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Remote control of ICT devices), p. 77, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Remote control of ICT devices"
    ]
   }
  ]

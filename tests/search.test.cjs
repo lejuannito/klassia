@@ -2,9 +2,9 @@ const {test,before}=require('node:test'),assert=require('node:assert/strict'),fs
 const S=require('../shared/search.js'),root=path.resolve(__dirname,'..');
 let records;
 before(async()=>{records=await S.load(async p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')));});
-test('all 1081 public resources from the six classes have unique, valid direct routes',()=>{
- assert.deepEqual(Object.fromEntries(['MS','GS','SIL','CE1','CE2','CLASS1'].map(g=>[g,records.filter(r=>r.grade===g).length])),{MS:168,GS:167,SIL:144,CE1:191,CE2:347,CLASS1:64});
- assert.equal(new Set(records.map(r=>r.href)).size,1081);
+test('all 1145 public resources from the six classes have unique, valid direct routes',()=>{
+ assert.deepEqual(Object.fromEntries(['MS','GS','SIL','CE1','CE2','CLASS1'].map(g=>[g,records.filter(r=>r.grade===g).length])),{MS:168,GS:167,SIL:144,CE1:191,CE2:347,CLASS1:128});
+ assert.equal(new Set(records.map(r=>r.href)).size,1145);
  for(const r of records){const u=new URL(r.href,'https://example.org/klassia/');
   if(['MS','GS'].includes(r.grade)){
    const t=JSON.parse(fs.readFileSync(path.join(root,r.grade.toLowerCase(),'data/themes',u.searchParams.get('theme')+'.json')));
@@ -18,7 +18,7 @@ test('exact title, accent/case folding, apostrophes, plurals and multiple terms 
  assert.deepEqual(S.search(records,"LES ETATS DE L'EAU").map(r=>r.href),hits.map(r=>r.href));
  assert.ok(S.search(records,'état eau').some(r=>r.id==='SC-U2-L5'));
  assert.equal(S.search(records,'L’eau : vases communicants et changements d’état')[0].id,'SC-U2-L5');
- assert.deepEqual(new Set(S.search(records,'école').map(r=>r.grade)),new Set(['MS','GS','SIL','CE1','CE2']));
+ assert.deepEqual(new Set(S.search(records,'école').map(r=>r.grade)),new Set(['MS','GS','SIL','CE1','CE2','CLASS1']));
 });
 test('all significant query terms are required and filters restrict grade and subject',()=>{
  assert.deepEqual(S.search(records,'eau zzzintrouvable'),[]);assert.deepEqual(S.search(records,'le de et'),[]);

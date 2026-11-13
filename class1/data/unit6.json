@@ -8,11 +8,11 @@
   "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 1 are written (lots A3 and A4). Original examples; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–77; Class 1 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
   }
  ],
@@ -529,6 +529,525 @@
    },
    "competencies": [
     "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-S",
+   "domain": "Science and Technology",
+   "title": "Malaria and the mosquito net",
+   "objective": "Name common diseases of the locality, say how malaria is caught and why we sleep under a mosquito net.",
+   "course": "Some common diseases are malaria, cough and diarrhoea.\nMalaria comes from the bite of a mosquito. To avoid it, we sleep under a mosquito net every night and we remove dirty water around the house.\nGood habits also protect us: wash hands before eating, drink clean water, eat fruits.",
+   "model": "Every night, Manka’s mother tucks the mosquito net under the mattress so that mosquitoes cannot enter.",
+   "guided": "Look at a mosquito net. Practise tucking it under a mattress or a mat. Say: “I sleep under a mosquito net.”",
+   "exercise": "Which insect gives us malaria?",
+   "answer": "The mosquito.",
+   "accept": [
+    "the mosquito",
+    "mosquito",
+    "a mosquito",
+    "The mosquito"
+   ],
+   "remediation": "Use a picture of a mosquito and a net; repeat one sentence: “The net stops the mosquito.”",
+   "transfer": "Check tonight that your mosquito net has no holes.",
+   "materials": "A mosquito net or a picture of one.",
+   "practice": [
+    {
+     "prompt": "Where do we sleep to avoid malaria?",
+     "type": "mcq",
+     "choices": [
+      "under a mosquito net",
+      "outside",
+      "near dirty water"
+     ],
+     "correct": 0,
+     "answer": "under a mosquito net",
+     "explanation": "The net stops mosquitoes."
+    },
+    {
+     "prompt": "Match each good habit with what it prevents.",
+     "type": "match",
+     "pairs": [
+      [
+       "sleeping under a net",
+       "malaria"
+      ],
+      [
+       "washing hands before eating",
+       "diarrhoea"
+      ],
+      [
+       "drinking clean water",
+       "stomach ache"
+      ]
+     ],
+     "answer": "net: malaria; washing hands: diarrhoea; clean water: stomach ache.",
+     "explanation": "Good habits keep diseases away."
+    },
+    {
+     "prompt": "Say one thing we do around the house to have fewer mosquitoes.",
+     "answer": "Remove dirty water, empty old tins and bottles.",
+     "explanation": "Mosquitoes lay eggs in still water."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: common diseases and good health habits), p. 52, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: common diseases and good health habits"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-F",
+   "domain": "Français",
+   "title": "J’aime, je n’aime pas",
+   "objective": "Dire ce qu’on aime et ce qu’on n’aime pas, et réagir à des instructions simples.",
+   "course": "Pour dire ses goûts : « J’aime les mangues. » (I like mangoes.) « Je n’aime pas le bruit. » (I do not like noise.)\nDes instructions simples : « Lève-toi. » (Stand up.) « Assieds-toi. » (Sit down.) « Lave-toi les mains. » (Wash your hands.) « Bois de l’eau. » (Drink some water.)",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "J’aime les fruits.\nJe n’aime pas être malade.\nLave-toi les mains !"
+   },
+   "model": "L’adulte dit : « Lève-toi ! » et Bih se lève. « Lave-toi les mains ! » et Bih mime le lavage des mains. Puis elle dit : « J’aime les oranges. »",
+   "guided": "Jeu « Jacques a dit » en français : l’adulte donne une instruction, l’enfant l’exécute. Puis l’enfant dit un aliment qu’il aime.",
+   "exercise": "Dis un fruit que tu aimes en français.",
+   "answer": "Par exemple : J’aime les mangues.",
+   "remediation": "Commence par « J’aime … » avec des images de fruits.",
+   "transfer": "Au repas, dis en français ce que tu aimes.",
+   "materials": "Images de fruits et d’aliments.",
+   "practice": [
+    {
+     "prompt": "Relie l’instruction à son geste.",
+     "type": "match",
+     "pairs": [
+      [
+       "Lève-toi.",
+       "stand up"
+      ],
+      [
+       "Assieds-toi.",
+       "sit down"
+      ],
+      [
+       "Lave-toi les mains.",
+       "wash your hands"
+      ]
+     ],
+     "answer": "Lève-toi : stand up ; Assieds-toi : sit down ; Lave-toi les mains : wash your hands.",
+     "explanation": "Chaque instruction demande un geste."
+    },
+    {
+     "prompt": "Complète.",
+     "type": "gaps",
+     "text": "J’[[aime]] les mangues.",
+     "answer": "J’aime les mangues.",
+     "explanation": "« J’aime » veut dire I like."
+    },
+    {
+     "prompt": "Écoute et fais le geste.",
+     "listen": "Lève-toi. Assieds-toi. Bois de l’eau.",
+     "answer": "Se lever, s’asseoir, boire.",
+     "explanation": "Écoute bien avant de bouger."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : sentiments et instructions de base), p. 57–58, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : sentiments et instructions de base"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-C",
+   "domain": "Citizenship",
+   "title": "My rights and my duties",
+   "objective": "Identify some rights of the child (education, identity, health) and the duties that go with them.",
+   "course": "Every child has rights: a name and a birth certificate (identity), to go to school (education), to be cared for when sick (health), to play and to be protected.\nWe also have duties: to respect others, to work at school, to help at home.",
+   "model": "Enow is sick. His parents take him to the health centre: he has the right to health. When he is well, he does his homework: it is his duty.",
+   "guided": "Sort picture cards: a right or a duty. Explain one of each.",
+   "exercise": "Name one right of the child.",
+   "answer": "For example: to go to school.",
+   "remediation": "Start with two rights the child knows: going to school and having a name.",
+   "transfer": "Ask your parents where your birth certificate is kept.",
+   "materials": "Picture cards of rights and duties.",
+   "practice": [
+    {
+     "prompt": "Match each right with what it gives.",
+     "type": "match",
+     "pairs": [
+      [
+       "education",
+       "going to school"
+      ],
+      [
+       "health",
+       "care when sick"
+      ],
+      [
+       "identity",
+       "a name and a birth certificate"
+      ]
+     ],
+     "answer": "education: school; health: care; identity: name.",
+     "explanation": "Rights protect children."
+    },
+    {
+     "prompt": "Which one is a duty?",
+     "type": "mcq",
+     "choices": [
+      "respecting others",
+      "going to school",
+      "having a name"
+     ],
+     "correct": 0,
+     "answer": "respecting others",
+     "explanation": "Respecting others is something we must do: a duty."
+    },
+    {
+     "prompt": "Say one duty you have at home.",
+     "answer": "For example: help to clean the house.",
+     "explanation": "Duties are things we do to help others."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Citizenship, table 24 (Human Rights Education: rights of the child), p. 64, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Human Rights Education: rights of the child"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-V",
+   "domain": "Vocational Studies",
+   "title": "Our little garden: watering and weeding",
+   "objective": "Use simple garden tools safely and care for plants by watering and weeding.",
+   "course": "In a garden we grow vegetables: tomatoes, okra, green beans, huckleberry (njama njama).\nWe care for plants: we water them in the morning or the evening, we pull out the weeds, we use manure to feed the soil.\nWe use small tools carefully and we wear shoes in the garden.",
+   "model": "Every evening, Enow waters the okra plants with a watering can. On Saturday he pulls out the weeds.",
+   "guided": "Plant a seed in a tin or a corner of the yard. Water it and watch it grow each day.",
+   "exercise": "When do we water plants?",
+   "answer": "In the morning or in the evening.",
+   "accept": [
+    "in the morning",
+    "in the evening",
+    "morning",
+    "evening",
+    "in the morning or in the evening",
+    "In the morning or in the evening"
+   ],
+   "remediation": "Water one plant every day with the adult and look at it.",
+   "transfer": "Keep your plant alive for two weeks and tell the class how it grew.",
+   "materials": "Seeds, a tin with soil, water, a small watering can.",
+   "practice": [
+    {
+     "prompt": "Match each tool with its use.",
+     "type": "match",
+     "pairs": [
+      [
+       "a watering can",
+       "water plants"
+      ],
+      [
+       "a hoe",
+       "dig the soil"
+      ],
+      [
+       "manure",
+       "feed the soil"
+      ]
+     ],
+     "answer": "watering can: water; hoe: dig; manure: feed the soil.",
+     "explanation": "Each thing helps the garden."
+    },
+    {
+     "prompt": "What are weeds?",
+     "type": "mcq",
+     "choices": [
+      "plants we did not plant that we pull out",
+      "vegetables we eat",
+      "garden tools"
+     ],
+     "correct": 0,
+     "answer": "plants we did not plant that we pull out",
+     "explanation": "Weeds take water and food from our plants."
+    },
+    {
+     "prompt": "Put in order how a plant grows.",
+     "type": "order",
+     "items": [
+      "seed",
+      "small plant",
+      "big plant",
+      "fruit"
+     ],
+     "answer": "seed, small plant, big plant, fruit.",
+     "explanation": "A plant grows step by step."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Agro Pastoral Farming: gardening and tools), p. 68, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Agro Pastoral Farming: gardening and tools"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-A",
+   "domain": "Arts",
+   "title": "A poster: wash your hands",
+   "objective": "Draw and colour a simple poster to give a health message.",
+   "course": "A poster gives a message with a drawing and a few words. It must be clear and easy to see from far: big drawing, bright colours, few words.\nOur message: “Wash your hands.”",
+   "model": "The adult draws two big hands under a tap with soap bubbles and writes: “Wash your hands.”",
+   "guided": "Draw a big picture of hands being washed. Colour it with bright colours. Copy the message with the adult.",
+   "exercise": "What does a poster need to be seen from far?",
+   "answer": "A big drawing and bright colours.",
+   "accept": [
+    "a big drawing",
+    "big drawing and bright colours",
+    "bright colours",
+    "A big drawing and bright colours"
+   ],
+   "remediation": "Draw the hands first, then add the tap and the soap.",
+   "transfer": "Put your poster near the place where your family washes hands.",
+   "materials": "Large paper, coloured pencils or paint.",
+   "practice": [
+    {
+     "prompt": "Draw your poster.",
+     "answer": "A poster with hands, soap and water.",
+     "explanation": "Make the drawing big and clear.",
+     "ink": "libre"
+    },
+    {
+     "prompt": "Which poster is easier to read from far?",
+     "type": "mcq",
+     "choices": [
+      "big drawing, few words",
+      "tiny drawing, many words"
+     ],
+     "correct": 0,
+     "answer": "big drawing, few words",
+     "explanation": "Big and simple is easier to see."
+    },
+    {
+     "prompt": "Write the message of your poster.",
+     "answer": "Wash your hands.",
+     "explanation": "Copy the words carefully.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: drawing and colouring a health poster), p. 69, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: drawing and colouring a health poster"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-P",
+   "domain": "Physical Education and Sports",
+   "title": "Keep-fit exercises for a healthy body",
+   "objective": "Perform simple keep-fit exercises to stay healthy.",
+   "course": "Exercise keeps the body strong and healthy. Simple exercises: arm circles, jumping jacks, touching the toes, running on the spot.\nWe breathe well, we drink water and we stop if we feel pain.",
+   "model": "The adult counts: “Arm circles, 1 to 10. Jumping jacks, 1 to 10. Touch your toes, 1 to 10.”",
+   "guided": "Do each exercise ten times while counting aloud. Then rest and breathe slowly.",
+   "exercise": "Name one keep-fit exercise.",
+   "answer": "For example: jumping jacks or arm circles.",
+   "remediation": "Do each exercise five times only.",
+   "transfer": "Do your keep-fit exercises every morning for a week.",
+   "materials": "An open space.",
+   "practice": [
+    {
+     "prompt": "Do 10 jumping jacks and 10 arm circles. How many movements in all?",
+     "type": "number",
+     "answer": 20,
+     "explanation": "10 + 10 = 20."
+    },
+    {
+     "prompt": "What do we do if we feel pain?",
+     "type": "mcq",
+     "choices": [
+      "we stop and tell an adult",
+      "we go faster",
+      "we hide it"
+     ],
+     "correct": 0,
+     "answer": "we stop and tell an adult",
+     "explanation": "Pain is a signal to stop."
+    },
+    {
+     "prompt": "Why do we exercise?",
+     "answer": "To keep the body strong and healthy.",
+     "explanation": "Exercise is good for the heart and the muscles."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Movement: keep-fit exercises), p. 70, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Movement: keep-fit exercises"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-N",
+   "domain": "National Languages and Cultures",
+   "title": "Traditional meals of my family",
+   "objective": "Use appropriate words to describe a traditional meal of the locality.",
+   "course": "Every region has traditional meals: achu and yellow soup, ndolé, eru, koki, kwacoco, fufu and njama njama, mbongo tchobi, and many more. Many are made with local vegetables that are good for health.\nWe name the meal and its ingredients in our language.",
+   "model": "Manka’s mother prepares eru with waterleaf. Manka learns the names of the vegetables in her mother’s language.",
+   "guided": "Ask the adult the name of a family meal and two ingredients in the family language.",
+   "exercise": "Name a traditional meal of your family.",
+   "answer": "The child names a traditional meal.",
+   "remediation": "Look at one meal on the table and name it.",
+   "transfer": "Help to prepare a simple traditional meal with an adult.",
+   "materials": "Pictures of meals or real ingredients.",
+   "practice": [
+    {
+     "prompt": "Which traditional meals are made with green leaves?",
+     "type": "mcq",
+     "choices": [
+      "ndolé and eru",
+      "bread and butter",
+      "sweets"
+     ],
+     "correct": 0,
+     "answer": "ndolé and eru",
+     "explanation": "Ndolé and eru are made with leaves."
+    },
+    {
+     "prompt": "Say the name of a vegetable in your family language.",
+     "answer": "A vegetable name in the family language.",
+     "explanation": "Ask an adult to help you."
+    },
+    {
+     "prompt": "Draw your favourite traditional meal.",
+     "answer": "A drawing of a meal.",
+     "explanation": "Show the ingredients.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Listening and Speaking: traditional meals and drinks), p. 73, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking: traditional meals and drinks"
+   ]
+  },
+  {
+   "id": "CLASS1-T6-I",
+   "domain": "ICTs",
+   "title": "Screens and my health",
+   "objective": "Use screens safely: not too long, not too close, and with an adult.",
+   "course": "Screens are useful but we use them wisely. We sit far from the television, we do not watch for a long time, we stop before sleeping and we rest our eyes. We do not touch a device with wet hands.\nPlaying outside and sleeping well are good for health.",
+   "model": "After watching a cartoon, Tabi turns off the television and goes to play outside.",
+   "guided": "Make a family rule for screens: how long, where to sit, when to stop. Draw it.",
+   "exercise": "Do we sit close to or far from the television?",
+   "answer": "Far from the television.",
+   "accept": [
+    "far",
+    "far from the television",
+    "far from it",
+    "Far from the television"
+   ],
+   "remediation": "Practise one rule: turn off the screen when the adult says so.",
+   "transfer": "Follow your family screen rule for a week.",
+   "materials": "Paper and coloured pencils.",
+   "practice": [
+    {
+     "prompt": "Which one is a good screen habit?",
+     "type": "mcq",
+     "choices": [
+      "stop before sleeping",
+      "watch all night",
+      "sit very close"
+     ],
+     "correct": 0,
+     "answer": "stop before sleeping",
+     "explanation": "We need good sleep."
+    },
+    {
+     "prompt": "Is it safe to touch a phone with wet hands? Answer yes or no.",
+     "answer": "No.",
+     "accept": [
+      "no",
+      "No"
+     ],
+     "reject": [
+      "yes"
+     ],
+     "explanation": "Water and electricity are dangerous together."
+    },
+    {
+     "prompt": "Say one thing you can do instead of watching a screen.",
+     "answer": "For example: play outside, read, draw.",
+     "explanation": "Other activities are good for health."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (ICT devices: safe and healthy use), p. 76, Class 1 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "ICT devices: safe and healthy use"
    ]
   }
  ]

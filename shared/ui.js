@@ -78,7 +78,7 @@ K.catalogue = catalogue;
 function lessonList(items) {
  return `<ol class="klassia-lessons">${items.map((x, i) => `<li><${x.href ? 'a' : 'span'} class="klassia-lesson-item"${x.href ? ` href="${esc(x.href)}"` : ''} data-status="${esc(x.status?.kind || 'todo')}">
   <span class="klassia-lesson-no" aria-hidden="true">${i + 1}</span>
-  <span class="klassia-lesson-text">${x.eyebrow ? `<span class="klassia-lesson-eyebrow">${esc(x.eyebrow)}</span>` : ''}<b>${esc(x.title)}</b>${x.detail ? `<span class="klassia-lesson-detail">${esc(x.detail)}</span>` : ''}</span>
+  <span class="klassia-lesson-text"${x.lang ? ` lang="${esc(x.lang)}" translate="no"` : ''}>${x.eyebrow ? `<span class="klassia-lesson-eyebrow">${esc(x.eyebrow)}</span>` : ''}<b>${esc(x.title)}</b>${x.detail ? `<span class="klassia-lesson-detail">${esc(x.detail)}</span>` : ''}</span>
   ${x.status ? `<span class="klassia-lesson-status">${esc(x.status.label)}</span>` : ''}${x.href ? '<span class="klassia-lesson-go" aria-hidden="true">›</span>' : ''}</${x.href ? 'a' : 'span'}></li>`).join('')}</ol>`;
 }
 K.lessonList = lessonList;

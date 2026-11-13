@@ -18,3 +18,13 @@ test('reference fields accept grouped integers within their range', () => {
  for (const input of ['4 08', '4.081', '-2000', '3,50', '10 001', '9e3', '']) assert.equal(parseNumber(input, 10000), null);
  assert.equal(parseNumber('34 527', 99999), 34527);
 });
+
+test('English cardinal spelling for the anglophone classes uses “and” and hyphens', () => {
+ const { numberInWordsEn } = require('../shared/reference.js');
+ for (const [value, expected] of [
+  [0, 'zero'], [15, 'fifteen'], [75, 'seventy-five'], [101, 'one hundred and one'], [2075, 'two thousand and seventy-five'],
+  [2200, 'two thousand two hundred'], [2201, 'two thousand two hundred and one'], [10000, 'ten thousand'],
+  [99999, 'ninety-nine thousand nine hundred and ninety-nine']
+ ]) assert.equal(numberInWordsEn(value), expected, String(value));
+ assert.throws(() => numberInWordsEn(100000), RangeError);
+});

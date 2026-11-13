@@ -40,13 +40,16 @@
  }
  const langName = () => K.read(LANG_KEY, {}).name || '';
  const written = () => K.read(TEXT_KEY, {});
+ // Classe anglophone (shared/i18n.js) : le mot de référence est donné d'abord en anglais.
+ const en = () => K.lang?.() === 'en';
+ const label = w => en() ? w.en : w.fr;
  const status = text => { const el = document.querySelector('[data-home-status]'); if (el) el.textContent = text; };
 
  function wordCard(w) {
   const has = takes.has(w.id), text = written()[w.id] || '';
   return `<li class="home-word" data-word="${w.id}"><span class="home-word-icon" aria-hidden="true">${w.icon}</span>
-   <span class="home-word-name"><strong>${E(w.fr)}</strong> <span lang="en">${E(w.en)}</span></span>
-   <span class="home-word-actions">${has ? `<audio controls preload="none" src="${urls[w.id]}" aria-label="Écouter « ${E(w.fr)} »"></audio>` : ''}
+   <span class="home-word-name" translate="no">${en() ? `<strong lang="en">${E(w.en)}</strong> <span lang="fr">${E(w.fr)}</span>` : `<strong>${E(w.fr)}</strong> <span lang="en">${E(w.en)}</span>`}</span>
+   <span class="home-word-actions">${has ? `<audio controls preload="none" src="${urls[w.id]}" aria-label="Écouter « ${E(label(w))} »"></audio>` : ''}
     <button type="button" data-record="${w.id}">${has ? '🎙️ Refaire' : '🎙️ Enregistrer'}</button>${has ? `<button type="button" data-delete="${w.id}">Effacer</button>` : ''}</span>
    <label class="home-word-written">Écrit dans la langue (facultatif) <input data-written="${w.id}" value="${E(text)}" maxlength="60" autocomplete="off"></label></li>`;
  }
@@ -54,10 +57,10 @@
   const main = document.querySelector('[data-home-language]'); if (!main) return;
   const name = langName(), count = daily().filter(w => takes.has(w.id)).length, extra = lessonWords().filter(w => takes.has(w.id)).length;
   const groups = list => THEMES.map(t => [t, list.filter(w => w.theme === t.id)]).filter(([, words]) => words.length)
-   .map(([t, words]) => `<h3>${E(t.fr)} <span lang="en">· ${E(t.en)}</span></h3><ul class="home-words">${words.map(wordCard).join('')}</ul>`).join('');
+   .map(([t, words]) => `<h3 translate="no">${en() ? `${E(t.en)} <span lang="fr">· ${E(t.fr)}</span>` : `${E(t.fr)} <span lang="en">· ${E(t.en)}</span>`}</h3><ul class="home-words">${words.map(wordCard).join('')}</ul>`).join('');
   main.innerHTML = `<section class="gs-card"><h2>La langue de la famille</h2>
    <form data-home-name class="home-name"><label>Nom de la langue parlée à la maison <input name="name" value="${E(name)}" placeholder="par exemple : bassa, ewondo, duala, fulfulde…" maxlength="40" required></label> <button type="submit">Enregistrer le nom</button></form>
-   <p>${name ? `Langue choisie : <strong>${E(name)}</strong>. ` : ''}${count} mot${count > 1 ? 's' : ''} enregistré${count > 1 ? 's' : ''} sur ${daily().length} mots du quotidien${extra ? `, et ${extra} sur ${lessonWords().length} mots des leçons` : ''}.</p>
+   <p>${name ? `<span>Langue choisie :</span> <strong translate="no">${E(name)}</strong>. ` : ''}<span>${count} mot${count > 1 ? 's' : ''} enregistré${count > 1 ? 's' : ''} sur ${daily().length} mots du quotidien${extra ? `, et ${extra} sur ${lessonWords().length} mots des leçons` : ''}.</span></p>
    <p class="home-privacy">Les enregistrements restent sur cet appareil, dans le profil de l’enfant. Ils ne sont ni envoyés, ni inclus dans la sauvegarde.</p>
    ${supported() ? '' : '<p class="home-warning">L’enregistrement n’est pas possible dans ce navigateur : essayez Chrome à jour.</p>'}
    <p role="status" data-home-status></p></section>
@@ -77,7 +80,7 @@
   round = { answer: answer.id };
   return `<p>Écoute le mot dans la langue de la maison, puis touche la bonne image.</p>
    <p><button type="button" data-play-round>▶ Écouter le mot</button></p>
-   <div class="home-choices">${choices.map(w => `<button type="button" class="home-choice" data-choice="${w.id}"><span aria-hidden="true">${w.icon}</span>${E(w.fr)}</button>`).join('')}</div>
+   <div class="home-choices">${choices.map(w => `<button type="button" class="home-choice" data-choice="${w.id}"><span aria-hidden="true">${w.icon}</span><span translate="no">${E(label(w))}</span></button>`).join('')}</div>
    <p role="status" data-home-result></p>`;
  }
  function playRound() { const url = round && urls[round.answer]; if (url) new Audio(url).play().catch(() => {}); }
@@ -95,7 +98,7 @@
     const blob = new Blob(chunks, { type: chunks[0]?.type || recorder.mimeType });
     if (!blob.size) { status('Aucun son enregistré. Réessayez plus près du micro.'); return render(); }
     await tx('readwrite', s => s.put(blob, keyOf(id)));
-    await load(); render(); status(`« ${WORDS.find(w => w.id === id).fr} » est enregistré.`);
+    await load(); render(); status(`« ${label(WORDS.find(w => w.id === id))} » est enregistré.`);
    };
    recorder.start();
    const button = document.querySelector(`[data-record="${id}"]`); if (button) button.textContent = '⏹ Arrêter';

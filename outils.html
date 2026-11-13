@@ -41,11 +41,17 @@
   <section id="montants" class="gs-card" hidden>
    <h2>Écrire un montant en lettres</h2>
    <p>Décompose le montant, écris chaque groupe et ajoute l’unité monétaire. Essaie d’abord seul, puis compare avec le résultat.</p>
-   <ul>
+   <ul data-lang="fr">
     <li>2 075 F CFA → deux mille soixante-quinze francs CFA</li>
     <li>2 200 F CFA → deux mille deux cents francs CFA</li>
     <li>2 201 F CFA → deux mille deux cent un francs CFA</li>
     <li>10 000 F CFA → dix mille francs CFA</li>
+   </ul>
+   <ul data-lang="en" hidden lang="en">
+    <li>2 075 F CFA → two thousand and seventy-five CFA francs</li>
+    <li>2 200 F CFA → two thousand two hundred CFA francs</li>
+    <li>2 201 F CFA → two thousand two hundred and one CFA francs</li>
+    <li>10 000 F CFA → ten thousand CFA francs</li>
    </ul>
    <form data-number-form data-currency>
     <label>Montant entier en F CFA, de 0 à 10 000 <input name="amount" value="2 480" inputmode="numeric" maxlength="10" required></label>
@@ -53,11 +59,18 @@
    </form>
    <p data-number-result role="status"></p>
    <p data-number-breakdown></p>
-   <p><strong>Mille</strong> est invariable. <strong>Cent</strong> et <strong>vingt</strong> prennent un <em>s</em> lorsqu’ils sont multipliés et terminent le nombre. Les exemples suivent la graphie traditionnelle.</p>
-   <p><a href="./?unit=U8#lesson:MA-U8-L4">S’exercer dans la leçon CE2 sur la monnaie</a></p>
+   <div data-lang="fr">
+    <p><strong>Mille</strong> est invariable. <strong>Cent</strong> et <strong>vingt</strong> prennent un <em>s</em> lorsqu’ils sont multipliés et terminent le nombre. Les exemples suivent la graphie traditionnelle.</p>
+    <p><a href="./?unit=U8#lesson:MA-U8-L4">S’exercer dans la leçon CE2 sur la monnaie</a></p>
+   </div>
+   <div data-lang="en" hidden lang="en">
+    <p><strong>Hundred</strong> and <strong>thousand</strong> never take an <em>s</em> after a number. Put <strong>and</strong> before the last part of the number (two hundred <strong>and</strong> one) and a hyphen between tens and units (seventy-five).</p>
+    <p><a href="./class4/#lesson:CLASS4-T4-M3">Practise in the Class 4 lesson on shopping bills</a></p>
+   </div>
   </section>
  </main>
  <div id="pwaTools" aria-live="polite"></div>
+ <script src="./shared/core.js"></script><script src="./shared/classes.js"></script><script src="./shared/i18n.js"></script>
  <script src="./shared/navigation.js"></script>
  <script src="./shared/reference.js"></script>
  <script src="./pwa.js"></script>

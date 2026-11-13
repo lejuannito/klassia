@@ -5,7 +5,18 @@
    Le contenu pédagogique n'est jamais traduit : une zone marquée translate="no" est laissée intacte. */
 (function (K) {
 'use strict';
-const lang = () => K.currentClass?.()?.language || 'fr';
+// Pages communes (recherche, outils, langue de la maison, impression) : elles ne sont dans aucun dossier de classe.
+// Leur langue vient de la classe de la fiche (?classe=), sinon du lien suivi depuis une classe anglophone (?lang=en),
+// sinon de la classe choisie par la famille à l'accueil (klassia_family). Par défaut, le français.
+const COMMON = /\/(?:search|outils|maison|imprimer)(?:\.html)?$/;
+const isCommon = () => typeof location === 'object' && COMMON.test(location.pathname);
+function lang() {
+ if (!isCommon()) return K.currentClass?.()?.language || 'fr';
+ const q = new URLSearchParams(location.search), sheet = K.classInfo?.(q.get('classe'))?.language;
+ if (sheet) return sheet;
+ if (q.get('lang') === 'en' || q.get('lang') === 'fr') return q.get('lang');
+ return K.classInfo?.(K.read?.('klassia_family', null)?.grade)?.language || 'fr';
+}
 K.lang = lang;
 
 // Libellés exacts (texte d'un nœud, sans les espaces autour).
@@ -97,6 +108,52 @@ const EN = {
  // Mention des contenus en relecture (ADR-018)
  'En relecture pédagogique': 'Under teaching review', '· contenu proposé par Klassia, pas encore validé par un enseignant.': '· content proposed by Klassia, not yet validated by a teacher.',
  'Pour utiliser Klassia sans connexion, choisissez la classe de votre enfant à l’accueil, ou installez tout.': 'To use Klassia offline, choose your child’s class on the welcome screen, or install everything.',
+ // Pages communes (recherche, outils, langue de la maison, impression), en anglais quand on y arrive depuis une classe anglophone
+ '← Accueil Klassia': '← Klassia home', 'Klassia · Accueil': 'Klassia · Home',
+ 'Rechercher une notion': 'Search for a topic', 'Notion à rechercher': 'Topic to search for',
+ 'Retrouvez les cours et activités de toutes les classes, de la moyenne section au CE2 et de la Class 1 à la Class 4. Édition pilote accompagnée.': 'Find the lessons and activities of every class, from the nursery classes (MS, GS) to CE2 and from Class 1 to Class 4. Supported pilot edition.',
+ 'Toutes les classes': 'All the classes', 'Matière ou domaine': 'Subject or domain', 'Toutes les matières': 'All the subjects',
+ 'Afficher les résultats suivants': 'Show the next results', 'Les états de l’eau': 'States of water', 'Résultats de recherche': 'Search results',
+ 'Saisissez une notion, par exemple : les états de l’eau.': 'Type a topic, for example: states of water.',
+ 'Recherche dans toutes les classes…': 'Searching all the classes…', 'les titres et objectifs sont prioritaires.': 'titles and objectives come first.',
+ 'Aucun résultat. Essayez moins de mots ou une autre notion, ou retirez les filtres.': 'No result. Try fewer words or another topic, or remove the filters.',
+ 'Recherche indisponible : vérifiez la connexion ou attendez le téléchargement complet de toutes les classes, puis réessayez.': 'Search is not available: check the connection or wait until all the classes are downloaded, then try again.',
+ 'Outils de référence': 'Reference tools', 'Nombres': 'Numbers', 'Tables de multiplication': 'Multiplication tables', 'Montants en lettres': 'Amounts in words',
+ 'Alphabet français': 'The alphabet', 'Chaque carte associe une majuscule et sa minuscule. Suis l’ordre de A à Z.': 'Each card shows a capital letter and its small letter. Follow the order from A to Z.',
+ 'Lire et décomposer un nombre': 'Read and break down a number',
+ 'Choisis un nombre entier de 0 à 99 999. Les rangs se lisent de gauche à droite, des dizaines de milliers aux unités.': 'Choose a whole number from 0 to 99 999. The places are read from left to right, from ten thousands to units.',
+ 'Nombre': 'Number', 'Lire le nombre': 'Read the number', 'Choisis une table. Lis d’abord les deux facteurs, puis le produit.': 'Choose a table. Read the two factors first, then the product.',
+ 'Table de': 'Times table', 'Calcul': 'Calculation', 'Produit': 'Product', 'Écrire un montant en lettres': 'Writing an amount in words',
+ 'Décompose le montant, écris chaque groupe et ajoute l’unité monétaire. Essaie d’abord seul, puis compare avec le résultat.': 'Break the amount down, write each group and add the currency. Try on your own first, then compare with the result.',
+ 'Montant entier en F CFA, de 0 à 10 000': 'Whole amount in CFA francs, from 0 to 10 000', 'Voir le montant en lettres': 'See the amount in words',
+ 'Enregistrez quelques mots de la langue que vous parlez en famille. L’enfant les écoute, puis retrouve l’image qui va avec.': 'Record a few words of the language you speak at home. The child listens to them, then finds the matching picture.',
+ 'Écouter et trouver': 'Listen and find', 'Enregistrer les mots': 'Record the words', 'Chargement…': 'Loading…',
+ 'La langue de la famille': 'The family language', 'Nom de la langue parlée à la maison': 'Name of the language spoken at home',
+ 'par exemple : bassa, ewondo, duala, fulfulde…': 'for example: Bassa, Ewondo, Duala, Fulfulde…', 'Enregistrer le nom': 'Save the name', 'Langue choisie :': 'Chosen language:',
+ 'Les enregistrements restent sur cet appareil, dans le profil de l’enfant. Ils ne sont ni envoyés, ni inclus dans la sauvegarde.': 'The recordings stay on this device, in the child’s profile. They are neither sent nor included in the backup.',
+ 'L’enregistrement n’est pas possible dans ce navigateur : essayez Chrome à jour.': 'Recording is not possible in this browser: try an up-to-date Chrome.',
+ 'Pour l’adulte : enregistrer les mots': 'For the adult: record the words',
+ 'Dites le mot une fois, clairement, comme vous le dites à la maison. L’enregistrement s’arrête seul après 6 secondes.': 'Say the word once, clearly, as you say it at home. The recording stops by itself after 6 seconds.',
+ 'Ces mots reviennent dans les leçons de langue nationale de la classe. Enregistrés ici, ils apparaissent dans la leçon, sous les formes bassa proposées.': 'These words come back in the national language lessons of the class. Recorded here, they appear in the lesson, next to the proposed Bassa forms.',
+ '🎙️ Refaire': '🎙️ Record again', '🎙️ Enregistrer': '🎙️ Record', 'Effacer': 'Delete', 'Écrit dans la langue (facultatif)': 'Written in the language (optional)',
+ 'Il faut au moins trois mots enregistrés pour jouer.': 'At least three recorded words are needed to play.', 'Commencez par l’enregistrement ci-dessous.': 'Start with the recording below.',
+ 'Écoute le mot dans la langue de la maison, puis touche la bonne image.': 'Listen to the word in the home language, then touch the right picture.',
+ '▶ Écouter le mot': '▶ Listen to the word', 'Le micro est indisponible dans ce navigateur.': 'The microphone is not available in this browser.',
+ 'Aucun son enregistré.': 'No sound recorded.', 'Réessayez plus près du micro.': 'Try again closer to the microphone.', '⏹ Arrêter': '⏹ Stop',
+ 'Enregistrement en cours… parlez maintenant.': 'Recording… speak now.',
+ 'Accès au micro refusé : autorisez le micro pour ce site dans le navigateur.': 'Microphone access refused: allow the microphone for this site in the browser.',
+ 'Le micro n’a pas pu démarrer.': 'The microphone could not start.', 'Enregistrement effacé.': 'Recording deleted.', 'Bravo !': 'Well done!', 'Mot suivant': 'Next word',
+ 'Écoute encore et essaie une autre image.': 'Listen again and try another picture.', 'Nom de la langue enregistré.': 'Language name saved.', 'Mot écrit enregistré.': 'Written word saved.',
+ 'La liste des mots n’a pas pu être chargée.': 'The list of words could not be loaded.', 'Rechargez la page avec la connexion.': 'Reload the page with the connection.',
+ 'Fiche imprimable': 'Printable sheet', '← Retour à Klassia': '← Back to Klassia', 'Imprimer / PDF': 'Print / PDF', 'Imprimer depuis le navigateur': 'Print from the browser',
+ 'Si l’aperçu reste blanc dans l’application, ouvrez cette fiche dans Chrome ou Safari.': 'If the preview stays blank in the app, open this sheet in Chrome or Safari.',
+ 'Ouvrir dans le navigateur': 'Open in the browser', 'Lien à copier si la fiche reste dans l’application': 'Link to copy if the sheet stays in the app',
+ 'Commandes d’impression': 'Print controls', 'Fiche élève': 'Pupil’s sheet', 'Guide et corrigé adulte': 'Adult guide and answers',
+ 'Ouvrir la fiche élève': 'Open the pupil’s sheet', 'Ouvrir le corrigé adulte': 'Open the adult answers',
+ 'Une image est indisponible.': 'A picture is not available.', 'Rechargez la fiche avant d’imprimer si l’image est nécessaire.': 'Reload the sheet before printing if the picture is needed.',
+ 'Fiche prête.': 'Sheet ready.', 'Dans la fenêtre d’impression, vous pouvez aussi choisir « Enregistrer en PDF ».': 'In the print window, you can also choose “Save as PDF”.',
+ 'Leçon introuvable.': 'Lesson not found.', 'Lien de fiche incomplet.': 'Incomplete sheet link.', 'Ressource indisponible.': 'Resource not available.',
+ 'Revenez à Klassia et rouvrez la fiche.': 'Go back to Klassia and open the sheet again.',
 };
 
 // Le profil créé d'office s'appelle « Mon enfant » ; un prénom choisi par la famille reste tel quel.
@@ -127,6 +184,12 @@ const PATTERNS = [
  [/^Ajouter (?:la )?(.+) \((.+) Mo\)$/, 'Add $1 ($2 MB)'], [/^Préparation de (.+) hors connexion…$/, 'Preparing $1 for offline use…'],
  [/^La base commune \((.+) Mo\) est toujours installée\.$/, 'The common base ($1 MB) is always installed.'],
  [/^(.+) Mo$/, '$1 MB'], [/^(\d+) à revoir$/, '$1 to look at again'],
+ [/^(\d+) résultats?$/, (m, n) => n + (n === '1' ? ' result' : ' results')],
+ [/^Hors connexion, la recherche ne couvre pas (.+) : (?:ces classes ne sont pas installées|cette classe n’est pas installée) sur cet appareil\.$/, (m, list) => 'Offline, the search does not cover ' + list + ': ' + (list.includes(',') ? 'these classes are' : 'this class is') + ' not installed on this device.'],
+ [/^Table de (\d+)$/, 'The $1 times table'], [/^Saisis un entier de 0 à ([\d\s]+)\.$/, 'Enter a whole number from 0 to $1.'],
+ [/^(\d+) mots? enregistrés? sur (\d+) mots du quotidien(?:, et (\d+) sur (\d+) mots des leçons)?\.$/, (m, a, b, c, d) => a + ' of ' + b + ' everyday words recorded' + (c ? ', and ' + c + ' of ' + d + ' lesson words' : '') + '.'],
+ [/^Mots des leçons de l’école \((\d+)\)$/, 'Words from the school lessons ($1)'], [/^Encore (\d+)\.$/, '$1 more.'],
+ [/^Écouter « (.+) »$/, 'Listen to “$1”'], [/^« (.+) » est enregistré\.$/, '“$1” is recorded.'],
  [/^moyenne des évaluations ([\d.,]+)\/20$/, 'assessment average $1/20'], [/^Unité (\d+) · (.+)$/, 'Theme $1 · $2'],
 ];
 
@@ -165,12 +228,16 @@ function translateNode(node) {
   if (skip(el)) continue;
   for (const a of ATTRS) if (el.hasAttribute(a)) { const v = el.getAttribute(a), next = translate(v); if (next !== v) el.setAttribute(a, next); }
   if (el.matches('input[type="submit"], input[type="button"]')) { const next = translate(el.value); if (next !== el.value) el.value = next; }
+  // Depuis une classe anglophone, un lien vers une page commune garde l'anglais.
+  if (!isCommon() && el.matches('a[href]')) { const url = new URL(el.href, location.href); if (url.origin === location.origin && COMMON.test(url.pathname) && !url.searchParams.has('lang') && !url.searchParams.has('classe')) { url.searchParams.set('lang', 'en'); el.href = url.href; } }
  }
  const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT);
  for (let t = walker.nextNode(); t; t = walker.nextNode()) translateNode(t);
 }
 function start() {
  document.documentElement.lang = 'en';
+ // Un passage écrit pour chaque langue (data-lang) : on montre celui de l'anglais.
+ for (const el of document.querySelectorAll('[data-lang]')) el.hidden = el.dataset.lang !== 'en';
  translateNode(document.body);
  document.title = translate(document.title);
  new MutationObserver(list => {

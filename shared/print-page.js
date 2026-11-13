@@ -24,7 +24,8 @@ async function printPrimary({grade,kind,unit,id,adult,get,asset}) {
  const data = selected?.lessons ? selected : selected && await get(directory+'data/'+selected.path);
  const l = kind==='lecon' && data?.lessons.find(item=>item.id===id);
  if (!l) throw Error('Leçon introuvable.');
- const en = l.domain.startsWith('English');
+ // Dans une classe anglophone, seules les leçons de Français sont en français.
+ const en = Klassia.classInfo(grade).language==='en' ? l.domain!=='Français' : l.domain.startsWith('English');
  const paragraph = text => `<p class="preserve-lines">${E(text)}</p>`;
  const section = (title,text) => `<section><h2>${title}</h2>${paragraph(text)}</section>`;
  const correction = (answer,explanation) => adult
@@ -51,7 +52,7 @@ async function printPrimary({grade,kind,unit,id,adult,get,asset}) {
 
 async function prepare() {
  const nursery = Klassia.isNurseryClass(grade);
- if (!Object.hasOwn(grades,grade) || !(nursery?/^T[1-8]$/:grade==='CE2'?/^U[1-8]$/:new RegExp('^'+grade+'-U[1-8]$')).test(unit)) {
+ if (!Object.hasOwn(grades,grade) || !(nursery?/^T[1-8]$/:grade==='CE2'?/^U[1-8]$/:new RegExp('^'+grade+(Klassia.classInfo(grade).subsystem==='anglophone'?'-T':'-U')+'[1-8]$')).test(unit)) {
   throw Error('Lien de fiche incomplet.');
  }
  const asset = src => new URL(src, new URL(grade==='CE2'?'./':grade.toLowerCase()+'/',base)).href;

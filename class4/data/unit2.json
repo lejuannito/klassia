@@ -1,0 +1,554 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS4",
+ "classTitle": "Class 4",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS4-T2",
+ "title_en": "The village/town",
+ "title_fr": "Le village et la ville",
+ "lessons": [
+  {
+   "id": "CLASS4-T2-E1",
+   "domain": "English Language and Literature",
+   "title": "A debate: town life or village life?",
+   "objective": "Argue for or against town or village life and defend one’s point of view politely.",
+   "course": "In a debate, two teams give reasons for and against an idea. We start with “I think…”, “In my opinion…”, we give reasons with “because”, and we answer the other team politely: “I agree with you, but…”, “I don’t agree because…”.\nWe speak in turns, we listen, and the chairperson gives the floor.",
+   "support": {
+    "title": "Useful phrases",
+    "text": "In my opinion, village life is better because the air is clean.\nI don’t agree, because in town there are hospitals and good roads.\nI agree with you, but…"
+   },
+   "model": "Two adults debate: one says town life is better (electricity, hospitals, jobs), the other says village life is better (clean air, fresh food, family close by).",
+   "guided": "Prepare three reasons for your side. Hold a short debate at home or in class with a chairperson.",
+   "exercise": "Give one reason why village life can be good.",
+   "answer": "For example: the air is clean and the food is fresh.",
+   "remediation": "Give one reason with “because” before debating.",
+   "transfer": "Ask two adults which they prefer, town or village, and why.",
+   "materials": "Cards with useful phrases.",
+   "practice": [
+    {
+     "prompt": "Which phrase disagrees politely?",
+     "type": "mcq",
+     "choices": [
+      "I don’t agree, because…",
+      "You are stupid.",
+      "Keep quiet!"
+     ],
+     "correct": 0,
+     "answer": "I don’t agree, because…",
+     "explanation": "We disagree with reasons, politely."
+    },
+    {
+     "prompt": "Match each reason with the side it supports.",
+     "type": "match",
+     "pairs": [
+      [
+       "There are big hospitals.",
+       "town life"
+      ],
+      [
+       "The air is fresh and clean.",
+       "village life"
+      ]
+     ],
+     "answer": "hospitals: town; clean air: village.",
+     "explanation": "Each reason supports one side."
+    },
+    {
+     "prompt": "Say your opinion with a reason.",
+     "answer": "An opinion with “because”.",
+     "explanation": "Start with “In my opinion…”."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading silently: market day in Kumba",
+   "objective": "Read a text silently and answer questions; find synonyms and opposites.",
+   "course": "When we read silently, we read with our eyes, without moving our lips. We read the questions first, then look for the answers in the text.\nSynonyms have almost the same meaning (big – large); opposites have contrary meanings (cheap – expensive).",
+   "support": {
+    "title": "Read silently",
+    "text": "Wednesday is market day in Kumba. Very early, traders arrive from the villages with plantains, cocoyams and palm oil. The market becomes noisy and crowded. Mrs Mbah sells fresh fish at a fair price, but the imported shoes in the next stall are expensive. By evening, the market is quiet again and the cleaners sweep the alleys."
+   },
+   "model": "The adult reads the questions, then reads silently and points to each answer in the text.",
+   "guided": "Read the questions, read the text silently and write the answers. Find one synonym and one opposite pair.",
+   "exercise": "Which day is market day in Kumba?",
+   "answer": "Wednesday.",
+   "accept": [
+    "wednesday",
+    "on wednesday",
+    "Wednesday"
+   ],
+   "remediation": "Read one sentence at a time and ask: who? what? when?",
+   "transfer": "Describe your local market day to your family.",
+   "materials": "The text.",
+   "practice": [
+    {
+     "prompt": "Match each word with its opposite.",
+     "type": "match",
+     "pairs": [
+      [
+       "noisy",
+       "quiet"
+      ],
+      [
+       "cheap",
+       "expensive"
+      ],
+      [
+       "early",
+       "late"
+      ]
+     ],
+     "answer": "noisy–quiet; cheap–expensive; early–late.",
+     "explanation": "Opposites have contrary meanings."
+    },
+    {
+     "prompt": "What does Mrs Mbah sell?",
+     "type": "mcq",
+     "choices": [
+      "fresh fish",
+      "shoes",
+      "palm oil"
+     ],
+     "correct": 0,
+     "answer": "fresh fish",
+     "explanation": "The text says she sells fresh fish."
+    },
+    {
+     "prompt": "Find a synonym of “crowded” in the list: full, empty, small.",
+     "answer": "full",
+     "accept": [
+      "full"
+     ],
+     "explanation": "Crowded means full of people."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-E3",
+   "domain": "English Language and Literature",
+   "title": "A persuasive essay: why our town needs a park",
+   "objective": "Write a short persuasive essay giving reasons and examples to convince the reader.",
+   "course": "A persuasive essay tries to convince. Plan it:\n• Introduction: give your opinion (“Our town needs a public park.”).\n• Body: give two or three reasons with examples (“Children need a safe place to play.”).\n• Conclusion: repeat your opinion and ask for action (“Let us ask the mayor to build one.”).\nUseful words: firstly, secondly, moreover, finally, therefore.",
+   "model": "The adult writes the opinion and two reasons on the board, linking them with “Firstly” and “Secondly”.",
+   "guided": "Choose a topic (a park, a library, a clean market). Write the opinion, two reasons and a conclusion.",
+   "exercise": "Which word can introduce your second reason?",
+   "answer": "Secondly.",
+   "accept": [
+    "secondly",
+    "moreover",
+    "also",
+    "Secondly"
+   ],
+   "remediation": "Write one opinion sentence and one reason with “because”.",
+   "transfer": "Read your essay to an adult and ask whether it convinced them.",
+   "materials": "Paper, word list.",
+   "practice": [
+    {
+     "prompt": "Put the parts of the persuasive essay in order.",
+     "type": "order",
+     "items": [
+      "Our town needs a park.",
+      "Firstly, children need a safe place to play.",
+      "Secondly, adults can rest there.",
+      "Therefore, let us ask the mayor to build one."
+     ],
+     "answer": "opinion, reason 1, reason 2, conclusion.",
+     "explanation": "Opinion, reasons, conclusion."
+    },
+    {
+     "prompt": "Which sentence gives a reason?",
+     "type": "mcq",
+     "choices": [
+      "Children need a safe place to play.",
+      "Our town needs a park.",
+      "Thank you for reading."
+     ],
+     "correct": 0,
+     "answer": "Children need a safe place to play.",
+     "explanation": "A reason explains the opinion."
+    },
+    {
+     "prompt": "Write your persuasive essay (about 60 words).",
+     "answer": "A persuasive essay with an opinion, reasons and a conclusion.",
+     "explanation": "Use firstly, secondly, therefore.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-E4",
+   "domain": "English Language and Literature",
+   "title": "Adjectives: proper adjectives, comparatives and superlatives",
+   "objective": "Identify common and proper adjectives and use comparative and superlative forms.",
+   "course": "Common adjectives describe: tall, busy, beautiful. Proper adjectives come from proper nouns and take a capital letter: Cameroon → Cameroonian, Africa → African, England → English.\nComparatives compare two: tall → taller (than), busy → busier, beautiful → more beautiful. Superlatives compare three or more: the tallest, the busiest, the most beautiful.\nIrregular: good – better – the best; bad – worse – the worst.",
+   "model": "The adult compares: “Douala is bigger than Buea. Douala is the biggest town in the Littoral region.”",
+   "guided": "Compare three towns or three buildings with comparatives and superlatives. Write five proper adjectives.",
+   "exercise": "Complete: Limbe is … than Tiko. (big)",
+   "answer": "bigger",
+   "accept": [
+    "bigger",
+    "Limbe is bigger than Tiko"
+   ],
+   "remediation": "Start with short adjectives (tall, small) before longer ones.",
+   "transfer": "Compare three things in your village with “-er” and “the -est”.",
+   "materials": "Pictures of towns, word cards.",
+   "practice": [
+    {
+     "prompt": "Complete the table.",
+     "type": "gaps",
+     "text": "busy – [[busier]] – the [[busiest]]; good – [[better]] – the [[best]]",
+     "answer": "busier, busiest; better, best.",
+     "explanation": "y → ier/iest; good is irregular."
+    },
+    {
+     "prompt": "Which one is a proper adjective?",
+     "type": "mcq",
+     "choices": [
+      "Cameroonian",
+      "beautiful",
+      "noisy"
+     ],
+     "correct": 0,
+     "answer": "Cameroonian",
+     "explanation": "It comes from Cameroon and takes a capital letter."
+    },
+    {
+     "prompt": "Match each adjective with its superlative.",
+     "type": "match",
+     "pairs": [
+      [
+       "bad",
+       "the worst"
+      ],
+      [
+       "beautiful",
+       "the most beautiful"
+      ],
+      [
+       "tall",
+       "the tallest"
+      ]
+     ],
+     "answer": "worst; most beautiful; tallest.",
+     "explanation": "Long adjectives use “most”."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-M1",
+   "domain": "Mathematics",
+   "title": "Intersection and union of sets in the village",
+   "objective": "Find the intersection and the union of two sets and use the symbols ∩, ∪ and ∉.",
+   "course": "A = {children who go to the market} = {Ali, Bih, Che}; B = {children who go to the stream} = {Bih, Che, Dzeke}.\nIntersection A ∩ B = elements in both sets = {Bih, Che}. Union A ∪ B = all elements of A and B, written once = {Ali, Bih, Che, Dzeke}.\n∉ means “is not an element of”: Dzeke ∉ A.",
+   "model": "The adult draws two overlapping circles and places the names: the middle part is the intersection.",
+   "guided": "Make two sets about activities in your village. Draw them in a Venn diagram and write A ∩ B and A ∪ B.",
+   "exercise": "A = {1, 2, 3, 4} and B = {3, 4, 5}. What is A ∩ B?",
+   "answer": "{3, 4}",
+   "accept": [
+    "{3, 4}",
+    "{3,4}",
+    "3, 4",
+    "3 and 4",
+    "3 4"
+   ],
+   "remediation": "Colour the elements that are in both lists first.",
+   "transfer": "Make a Venn diagram of the foods two family members like.",
+   "materials": "Two hoops or circles drawn on paper.",
+   "practice": [
+    {
+     "prompt": "A = {a, b, c}, B = {c, d}. How many elements are in A ∪ B?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "{a, b, c, d}: c is written once."
+    },
+    {
+     "prompt": "Match each symbol with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       "∩",
+       "intersection"
+      ],
+      [
+       "∪",
+       "union"
+      ],
+      [
+       "∉",
+       "is not an element of"
+      ]
+     ],
+     "answer": "∩ intersection; ∪ union; ∉ not an element of.",
+     "explanation": "These are set symbols."
+    },
+    {
+     "prompt": "Draw a Venn diagram of A = {goat, hen, dog} and B = {dog, cat}.",
+     "answer": "Two circles with “dog” in the middle.",
+     "explanation": "The common element goes in the intersection.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Sets and Logic), p. 50, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sets and Logic"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-M2",
+   "domain": "Mathematics",
+   "title": "Adding and subtracting up to 5 000 at the market",
+   "objective": "Add and subtract four-digit numbers with carrying and borrowing and solve market problems.",
+   "course": "We write numbers in columns (Th H T U) and start with the units. Carry when a column makes 10 or more; borrow when the top digit is smaller.\n2 750 + 1 380 = 4 130. 4 000 − 1 275 = 2 725. Check a subtraction with an addition: 2 725 + 1 275 = 4 000.",
+   "model": "The adult solves: “Mama sold plantains for 2 350 frs and oranges for 1 475 frs. Total?” in columns: 3 825 frs.",
+   "guided": "Solve six market problems in columns. Check each subtraction with an addition.",
+   "exercise": "Calculate 3 600 − 1 250.",
+   "answer": "2 350",
+   "accept": [
+    "2350",
+    "2 350"
+   ],
+   "remediation": "Use bundles and coins to show carrying and borrowing.",
+   "transfer": "Add up the cost of three items your family bought at the market.",
+   "materials": "Play money, squared paper.",
+   "practice": [
+    {
+     "prompt": "1 875 + 2 460 = ?",
+     "type": "number",
+     "answer": 4335,
+     "explanation": "Carry in the units, tens and hundreds."
+    },
+    {
+     "prompt": "A trader had 5 000 frs. He spent 2 780 frs. How much is left?",
+     "type": "number",
+     "answer": 2220,
+     "explanation": "5 000 − 2 780 = 2 220."
+    },
+    {
+     "prompt": "How do we check 4 000 − 1 300 = 2 700?",
+     "type": "mcq",
+     "choices": [
+      "2 700 + 1 300 = 4 000",
+      "2 700 − 1 300",
+      "4 000 + 2 700"
+     ],
+     "correct": 0,
+     "answer": "2 700 + 1 300 = 4 000",
+     "explanation": "Addition checks subtraction."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-M3",
+   "domain": "Mathematics",
+   "title": "Perimeter of a rectangle and a square: fencing a garden",
+   "objective": "Calculate the perimeter of rectangles and squares.",
+   "course": "The perimeter is the distance all round a shape. Rectangle: P = (length + width) × 2. Square: P = side × 4.\nA garden 12 m long and 8 m wide needs (12 + 8) × 2 = 40 m of fence.",
+   "model": "The adult walks round a rectangle drawn on the ground and adds the four sides.",
+   "guided": "Measure the perimeter of a book, a table and a room. Use the formulas and check by adding the four sides.",
+   "exercise": "A square field has sides of 15 m. What is its perimeter?",
+   "answer": "60 m",
+   "accept": [
+    "60",
+    "60 m",
+    "60m"
+   ],
+   "remediation": "Add the four sides one by one before using the formula.",
+   "transfer": "Calculate how much rope is needed to go round your compound’s garden.",
+   "materials": "Tape measure, chalk.",
+   "practice": [
+    {
+     "prompt": "A rectangle is 9 cm long and 5 cm wide. Perimeter in cm?",
+     "type": "number",
+     "answer": 28,
+     "explanation": "(9 + 5) × 2 = 28."
+    },
+    {
+     "prompt": "Which formula gives the perimeter of a square?",
+     "type": "mcq",
+     "choices": [
+      "side × 4",
+      "side × side",
+      "length + width"
+     ],
+     "correct": 0,
+     "answer": "side × 4",
+     "explanation": "A square has four equal sides."
+    },
+    {
+     "prompt": "A fence of 40 m goes round a square pen. How long is one side, in m?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "40 ÷ 4 = 10."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-M4",
+   "domain": "Mathematics",
+   "title": "Grid references and coordinates on a village map",
+   "objective": "Locate places on a map using a grid and coordinates.",
+   "course": "A grid divides a map into squares. Columns have letters (A, B, C…) and rows have numbers (1, 2, 3…). The school is in square C2: column C, row 2.\nOn a coordinate grid, we read across first, then up: the point (3, 4) is 3 across and 4 up.",
+   "model": "The adult draws a village map on a 5 × 5 grid and finds the church at B4 and the well at (2, 1).",
+   "guided": "Draw a grid map of your quarter with five places. Write their grid references.",
+   "exercise": "On a coordinate grid, how do we read (5, 2)?",
+   "answer": "5 across and 2 up.",
+   "accept": [
+    "5 across and 2 up",
+    "5 across, 2 up",
+    "across 5 up 2"
+   ],
+   "remediation": "Use a grid on the floor and walk across, then up.",
+   "transfer": "Make a treasure map with grid references for a friend.",
+   "materials": "Squared paper, coloured pencils.",
+   "practice": [
+    {
+     "prompt": "We read coordinates…",
+     "type": "mcq",
+     "choices": [
+      "across first, then up",
+      "up first, then across",
+      "in any order"
+     ],
+     "correct": 0,
+     "answer": "across first, then up",
+     "explanation": "Along the corridor, then up the stairs."
+    },
+    {
+     "prompt": "The point (4, 3) moves 2 squares up. What is its new second number?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "3 + 2 = 5: the point is (4, 5)."
+    },
+    {
+     "prompt": "Draw a grid map of your quarter with five places.",
+     "answer": "A map with grid letters and numbers.",
+     "explanation": "Write the reference of each place.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 52, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  }
+ ]
+}

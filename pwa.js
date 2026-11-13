@@ -20,9 +20,9 @@
   // Téléchargement par classe (lot 9c). Le choix vaut pour l'appareil (clé brute, hors profils et hors sauvegarde). Le service
   // worker le reçoit dans son adresse d'inscription, puis par message ; la page ne touche jamais au cache elle-même.
   const OFFLINE_KEY = 'klassia_offline_classes_v1';
-  const ORDER = ['CE2', 'MS', 'GS', 'SIL', 'CE1', 'CLASS1', 'CLASS3'];
-  const NAMES = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', CLASS1: 'Class 1', CLASS3: 'Class 3', ATELIER: 'Revue éditoriale (atelier pédagogique)' };
-  const LONG = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', CLASS1: 'la Class 1', CLASS3: 'la Class 3' };
+  const ORDER = ['CE2', 'MS', 'GS', 'SIL', 'CE1', 'CLASS1', 'CLASS3', 'CLASS4'];
+  const NAMES = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', CLASS1: 'Class 1', CLASS3: 'Class 3', CLASS4: 'Class 4', ATELIER: 'Revue éditoriale (atelier pédagogique)' };
+  const LONG = { CE2: 'CE2', MS: 'Moyenne section', GS: 'Grande section', SIL: 'SIL', CE1: 'CE1', CLASS1: 'la Class 1', CLASS3: 'la Class 3', CLASS4: 'la Class 4' };
   const panel = document.createElement('details');
   panel.className = 'offline-classes';
   panel.hidden = true;

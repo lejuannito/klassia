@@ -28,7 +28,9 @@
     {grade: 'CLASS1', label: 'Class 1', twin: 'SIL', engine: 'lessons', dir: 'class1/', catalog: 'class1/data/catalog.json', group: 'units',
       language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class1_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false},
     {grade: 'CLASS3', label: 'Class 3', twin: 'CE1', engine: 'lessons', dir: 'class3/', catalog: 'class3/data/catalog.json', group: 'units',
-      language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class3_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false}
+      language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class3_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false},
+    {grade: 'CLASS4', label: 'Class 4', twin: 'CE2', engine: 'lessons', dir: 'class4/', catalog: 'class4/data/catalog.json', group: 'units',
+      language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class4_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false}
   ];
   // Classes servies à leur adresse pour la relecture mais pas encore proposées aux familles (accueil, sélecteur, hors connexion,
   // recherche). Vide depuis ADR-018 : un contenu en relecture est proposé, avec une mention visible.

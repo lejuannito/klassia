@@ -1,0 +1,563 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS4",
+ "classTitle": "Class 4",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS4-T1",
+ "title_en": "The home",
+ "title_fr": "La maison",
+ "lessons": [
+  {
+   "id": "CLASS4-T1-E1",
+   "domain": "English Language and Literature",
+   "title": "Polite requests and responses at home",
+   "objective": "Make polite requests, respond politely and address family members and visitors appropriately.",
+   "course": "Polite requests use soft words: “Could you pass me the salt, please?” “May I go out to play?” “Would you like some water?”\nPolite responses: “Yes, of course.” “Here you are.” “No, thank you.” “I’m sorry, I can’t.”\nWe address people with the right title (Papa, Mama, Uncle, Auntie, Sir, Madam), we listen attentively and speak in turns.",
+   "support": {
+    "title": "Practise with the adult",
+    "text": "Could you help me carry the bucket, please?\nYes, of course. Here you are.\nThank you very much."
+   },
+   "model": "At dinner, Enow says: “Mama, could you pass me the plantains, please?” Mama answers: “Here you are, Enow.” Enow says: “Thank you, Mama.”",
+   "guided": "Act five situations at home (asking for water, permission to go out, help with homework, offering a seat, refusing a second plate politely).",
+   "exercise": "You want to go out to play. How do you ask Papa politely?",
+   "answer": "May I go out to play, please?",
+   "accept": [
+    "May I go out to play, please",
+    "May I go out to play",
+    "Can I go out to play, please",
+    "Could I go out to play, please",
+    "May I go out to play, please?"
+   ],
+   "remediation": "Learn two magic words first: “please” and “thank you”, then add “May I…?”.",
+   "transfer": "Use “Could you…, please?” and “May I…?” at home all week.",
+   "materials": "Real objects for role play.",
+   "practice": [
+    {
+     "prompt": "Match each request with a polite response.",
+     "type": "match",
+     "pairs": [
+      [
+       "Would you like some water?",
+       "Yes, please."
+      ],
+      [
+       "Could you pass the salt?",
+       "Here you are."
+      ],
+      [
+       "Can you come with us?",
+       "I’m sorry, I can’t."
+      ]
+     ],
+     "answer": "water: Yes, please; salt: Here you are; come: I’m sorry, I can’t.",
+     "explanation": "Polite answers match the request."
+    },
+    {
+     "prompt": "Which request is the most polite?",
+     "type": "mcq",
+     "choices": [
+      "Could you help me, please?",
+      "Help me!",
+      "You, help me."
+     ],
+     "correct": 0,
+     "answer": "Could you help me, please?",
+     "explanation": "“Could you…, please?” is polite."
+    },
+    {
+     "prompt": "Listen and answer politely.",
+     "listen": "Would you like some more rice?",
+     "answer": "Yes, please. / No, thank you.",
+     "explanation": "Accept or refuse politely."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading aloud: a description of our compound",
+   "objective": "Read a short descriptive text aloud with correct intonation, reading sight words and multisyllabic words fluently.",
+   "course": "Before reading aloud, we look at long words and cut them into syllables: com-pound, ve-ran-dah, a-vo-ca-do, com-fort-a-ble.\nWe read groups of words together, we stop at full stops and pause at commas, and we read at a speed people can follow.",
+   "support": {
+    "title": "Read aloud",
+    "text": "Our compound is quiet and comfortable. In front of the house there is a wide verandah where Grandpa rests in the afternoon. Behind the kitchen, an avocado tree gives us shade. Every Saturday, the children sweep the yard and water the flowers."
+   },
+   "model": "The adult reads the text, pausing at commas and stopping at full stops, then reads the long words syllable by syllable.",
+   "guided": "Clap the syllables of five long words in the text. Read the text aloud three times, a little faster each time.",
+   "exercise": "How many syllables are there in “avocado”?",
+   "answer": "4",
+   "accept": [
+    "4",
+    "four"
+   ],
+   "remediation": "Read one sentence at a time with the adult before reading the whole text.",
+   "transfer": "Read a description of your own compound aloud to your family.",
+   "materials": "The text.",
+   "practice": [
+    {
+     "prompt": "Put the syllables in order.",
+     "type": "order",
+     "items": [
+      "com",
+      "fort",
+      "a",
+      "ble"
+     ],
+     "answer": "comfortable",
+     "explanation": "com-fort-a-ble."
+    },
+    {
+     "prompt": "Where does Grandpa rest in the afternoon?",
+     "type": "mcq",
+     "choices": [
+      "on the verandah",
+      "in the kitchen",
+      "under the bed"
+     ],
+     "correct": 0,
+     "answer": "on the verandah",
+     "explanation": "The text says he rests on the verandah."
+    },
+    {
+     "prompt": "Listen to the text and read it aloud.",
+     "listen": "Our compound is quiet and comfortable. In front of the house there is a wide verandah where Grandpa rests in the afternoon.",
+     "answer": "The text read aloud with good pauses.",
+     "explanation": "Pause at commas, stop at full stops."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-E3",
+   "domain": "English Language and Literature",
+   "title": "A descriptive essay: my home",
+   "objective": "Write a descriptive essay of about 60 words about one’s home, with an introduction, a body and a conclusion.",
+   "course": "A descriptive essay paints a picture with words. Plan it in three parts:\n• Introduction: say what you will describe (“I live in a small house in Mutengene.”).\n• Body: describe the rooms, the colours, the people, the sounds and the smells.\n• Conclusion: say how you feel about it (“I love my home because…”).\nUse adjectives (bright, narrow, cosy) and connecting words (first, next, also).",
+   "model": "The adult writes an introduction aloud: “My home is a brown house with a red roof near the main road.” Then adds two describing sentences.",
+   "guided": "Make a plan with three boxes. Write the introduction, three sentences for the body, and one conclusion. Count your words.",
+   "exercise": "Which part of an essay says how you feel about the subject at the end?",
+   "answer": "The conclusion.",
+   "accept": [
+    "the conclusion",
+    "conclusion",
+    "The conclusion"
+   ],
+   "remediation": "Write three sentences first: one for each part.",
+   "transfer": "Read your essay to your family and ask them to add one detail.",
+   "materials": "Paper, pencil, a plan with three boxes.",
+   "practice": [
+    {
+     "prompt": "Put the parts of an essay in order.",
+     "type": "order",
+     "items": [
+      "Introduction",
+      "Body",
+      "Conclusion"
+     ],
+     "answer": "Introduction, body, conclusion.",
+     "explanation": "An essay has three parts."
+    },
+    {
+     "prompt": "Which sentence is the best introduction?",
+     "type": "mcq",
+     "choices": [
+      "I live in a blue house near the market.",
+      "That is why I love it.",
+      "There are also two chairs."
+     ],
+     "correct": 0,
+     "answer": "I live in a blue house near the market.",
+     "explanation": "The introduction says what you will describe."
+    },
+    {
+     "prompt": "Write your descriptive essay: my home (about 60 words).",
+     "answer": "A descriptive essay of about 60 words with three parts.",
+     "explanation": "Use adjectives and connecting words.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-E4",
+   "domain": "English Language and Literature",
+   "title": "Nouns: common, concrete and abstract; countable and uncountable",
+   "objective": "Identify common, concrete and abstract nouns and use countable and uncountable nouns correctly.",
+   "course": "A concrete noun names something we can see or touch: table, mother, rice. An abstract noun names an idea or a feeling we cannot touch: love, joy, peace, honesty.\nCountable nouns can be counted: one chair, two chairs. Uncountable nouns cannot be counted with numbers: water, rice, sugar, furniture. We say “much water, some rice, a cup of sugar”.\nPlurals: add s (books), es (boxes, dishes), y → ies (baby → babies).",
+   "model": "The adult points: “This cup is concrete. The love in our family is abstract.” Then: “one spoon, two spoons, but some salt.”",
+   "guided": "Sort twelve words into concrete and abstract. Then put “a”, “an” or “some” before eight nouns.",
+   "exercise": "Is “happiness” a concrete or an abstract noun?",
+   "answer": "Abstract.",
+   "accept": [
+    "abstract",
+    "an abstract noun",
+    "abstract noun",
+    "Abstract"
+   ],
+   "remediation": "Ask: Can I touch it? If yes, it is concrete.",
+   "transfer": "Find five concrete nouns and two abstract nouns in a conversation at home.",
+   "materials": "Word cards.",
+   "practice": [
+    {
+     "prompt": "Match each noun with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "chair",
+       "concrete"
+      ],
+      [
+       "kindness",
+       "abstract"
+      ]
+     ],
+     "answer": "chair: concrete; kindness: abstract.",
+     "explanation": "We can touch a chair, not kindness."
+    },
+    {
+     "prompt": "Complete with the plural.",
+     "type": "gaps",
+     "text": "one box, two [[boxes]]; one baby, three [[babies]]; one dish, four [[dishes]]",
+     "answer": "boxes, babies, dishes.",
+     "explanation": "es after x and sh; y → ies."
+    },
+    {
+     "prompt": "Which one is uncountable?",
+     "type": "mcq",
+     "choices": [
+      "water",
+      "bucket",
+      "cup"
+     ],
+     "correct": 0,
+     "answer": "water",
+     "explanation": "We say “some water”, not “two waters”."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-M1",
+   "domain": "Mathematics",
+   "title": "Equal and equivalent sets at home",
+   "objective": "Distinguish equal sets from equivalent sets and use the symbols = and ↔.",
+   "course": "Two sets are equal when they have exactly the same elements: {cup, plate} = {plate, cup}.\nTwo sets are equivalent when they have the same number of elements, even if the elements are different: {cup, plate, spoon} ↔ {mother, father, baby} (3 elements each).\nAll equal sets are equivalent, but equivalent sets are not always equal.",
+   "model": "The adult places 3 spoons and 3 forks: “Same number: equivalent. Not the same things: not equal.”",
+   "guided": "Make pairs of sets with objects from home. Say whether they are equal, equivalent or neither.",
+   "exercise": "A = {bed, chair, table} and B = {pot, cup, plate}. Are A and B equal or equivalent?",
+   "answer": "Equivalent.",
+   "accept": [
+    "equivalent",
+    "they are equivalent",
+    "Equivalent"
+   ],
+   "remediation": "Count the elements of each set first, then compare the elements themselves.",
+   "transfer": "Find two equivalent sets in your kitchen.",
+   "materials": "Household objects.",
+   "practice": [
+    {
+     "prompt": "{3, 5, 7} and {7, 3, 5}: what are these sets?",
+     "type": "mcq",
+     "choices": [
+      "equal",
+      "only equivalent",
+      "neither"
+     ],
+     "correct": 0,
+     "answer": "equal",
+     "explanation": "Same elements, in any order."
+    },
+    {
+     "prompt": "A set has 6 elements. How many elements must an equivalent set have?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "Equivalent sets have the same number of elements."
+    },
+    {
+     "prompt": "Match each pair with its relation.",
+     "type": "match",
+     "pairs": [
+      [
+       "{a, b} and {b, a}",
+       "equal"
+      ],
+      [
+       "{a, b} and {x, y}",
+       "equivalent"
+      ],
+      [
+       "{a} and {x, y}",
+       "neither"
+      ]
+     ],
+     "answer": "equal; equivalent; neither.",
+     "explanation": "Compare elements, then the number of elements."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Sets and Logic), p. 50, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sets and Logic"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-M2",
+   "domain": "Mathematics",
+   "title": "Numbers up to 5 000: reading, writing and place value",
+   "objective": "Read, write and decompose four-digit numbers up to 5 000 using thousands, hundreds, tens and units.",
+   "course": "In 3 472: 3 thousands, 4 hundreds, 7 tens, 2 units. 3 472 = 3 000 + 400 + 70 + 2. We read: three thousand, four hundred and seventy-two.\nTo compare, look at the thousands first, then the hundreds: 3 472 > 3 427.",
+   "model": "The adult writes 2 506 in a place-value table (Th H T U) and reads it: two thousand, five hundred and six.",
+   "guided": "Write ten numbers in a place-value table. Decompose them and compare pairs with < or >.",
+   "exercise": "What is the value of the digit 4 in 4 316?",
+   "answer": "4 000",
+   "accept": [
+    "4000",
+    "4 000",
+    "four thousand",
+    "4 thousands"
+   ],
+   "remediation": "Build numbers with bundles: 1 thousand = 10 hundreds.",
+   "transfer": "Read the price of a bag of rice or of school fees in thousands.",
+   "materials": "Place-value table, number cards.",
+   "practice": [
+    {
+     "prompt": "Write 2 000 + 300 + 50 + 9 as one number.",
+     "type": "number",
+     "answer": 2359,
+     "explanation": "2 thousands, 3 hundreds, 5 tens, 9 units."
+    },
+    {
+     "prompt": "Which number is the greatest?",
+     "type": "mcq",
+     "choices": [
+      "4 120",
+      "4 012",
+      "3 999"
+     ],
+     "correct": 0,
+     "answer": "4 120",
+     "explanation": "Same thousands; 1 hundred > 0 hundreds."
+    },
+    {
+     "prompt": "How many hundreds are there in 1 000?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "10 hundreds = 1 thousand."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-M3",
+   "domain": "Mathematics",
+   "title": "The metric system: mm, cm, dm, m and km",
+   "objective": "Establish the relationship between metric units of length and convert from one unit to another.",
+   "course": "1 cm = 10 mm; 1 dm = 10 cm; 1 m = 10 dm = 100 cm; 1 km = 1 000 m.\nTo change a big unit into a smaller one, multiply: 3 m = 300 cm. To change a small unit into a bigger one, divide: 4 000 m = 4 km.",
+   "model": "The adult measures a table: “It is 1 m 20 cm long, that is 120 cm.”",
+   "guided": "Measure five objects at home in cm, then write their length in m and cm, or in mm.",
+   "exercise": "How many centimetres are there in 2 m?",
+   "answer": "200",
+   "accept": [
+    "200",
+    "200 cm"
+   ],
+   "remediation": "Use a ruler to see 10 mm in 1 cm before converting.",
+   "transfer": "Measure the length of your room in metres and centimetres.",
+   "materials": "Ruler, tape measure.",
+   "practice": [
+    {
+     "prompt": "Convert 5 km into metres.",
+     "type": "number",
+     "answer": 5000,
+     "explanation": "1 km = 1 000 m, so 5 × 1 000 = 5 000."
+    },
+    {
+     "prompt": "Match the equal lengths.",
+     "type": "match",
+     "pairs": [
+      [
+       "1 cm",
+       "10 mm"
+      ],
+      [
+       "1 m",
+       "100 cm"
+      ],
+      [
+       "1 km",
+       "1 000 m"
+      ]
+     ],
+     "answer": "10 mm; 100 cm; 1 000 m.",
+     "explanation": "These are the metric relations."
+    },
+    {
+     "prompt": "The door is 2 m 10 cm high. How many cm is that?",
+     "type": "number",
+     "answer": 210,
+     "explanation": "200 cm + 10 cm = 210 cm."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T1-M4",
+   "domain": "Mathematics",
+   "title": "Tallying household items in 10s and 20s",
+   "objective": "Collect data, tally in groups and represent the totals in a table.",
+   "course": "To count many things quickly, we tally: four strokes and a fifth across make a group of 5. Two groups make 10; four groups make 20.\nWe write the totals in a table with a title and two columns (item, number).",
+   "model": "The adult tallies the cups, plates and spoons of the kitchen and counts the groups of 5.",
+   "guided": "Tally three kinds of objects at home. Make a table of totals and say which is the most numerous.",
+   "exercise": "How many is four complete groups of five tally marks?",
+   "answer": "20",
+   "accept": [
+    "20",
+    "twenty"
+   ],
+   "remediation": "Tally up to 10 first.",
+   "transfer": "Tally the visitors to your home during one week.",
+   "materials": "Paper, pencil, household objects.",
+   "practice": [
+    {
+     "prompt": "How many tally marks show 35 in groups of 5? How many groups?",
+     "type": "number",
+     "answer": 7,
+     "explanation": "35 ÷ 5 = 7 groups."
+    },
+    {
+     "prompt": "Which group of tally marks shows 5?",
+     "type": "mcq",
+     "choices": [
+      "four strokes and one across",
+      "five strokes side by side",
+      "one circle"
+     ],
+     "correct": 0,
+     "answer": "four strokes and one across",
+     "explanation": "The fifth stroke crosses the four."
+    },
+    {
+     "prompt": "Draw your tally table of three household items.",
+     "answer": "A table with tallies and totals.",
+     "explanation": "Give it a title.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 52, Class 4 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  }
+ ]
+}

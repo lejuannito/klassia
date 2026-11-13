@@ -1,0 +1,544 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS4",
+ "classTitle": "Class 4",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS4-T8",
+ "title_en": "Communication",
+ "title_fr": "Les communications",
+ "lessons": [
+  {
+   "id": "CLASS4-T8-E1",
+   "domain": "English Language and Literature",
+   "title": "Listening to a radio announcement",
+   "objective": "Listen to a text, carry out specific tasks and answer questions about it.",
+   "course": "Radio announcements give important information: who, what, where, when. We listen for key words and write short notes, not full sentences.",
+   "support": {
+    "title": "Radio announcement",
+    "text": "Attention, please! The vaccination campaign against polio will take place in Mamfe from Monday 10th to Friday 14th. All children under five should be taken to the nearest health centre between 8 a.m. and 3 p.m. Vaccination is free. Bring your child’s health card."
+   },
+   "model": "The adult listens to the announcement and writes notes in a table: what, where, when, who, cost.",
+   "guided": "Listen to the announcement twice. Fill a table with notes. Then tell the message to someone in your own words.",
+   "exercise": "How much does the vaccination cost?",
+   "answer": "It is free.",
+   "accept": [
+    "free",
+    "it is free",
+    "nothing",
+    "it’s free",
+    "it's free",
+    "It is free"
+   ],
+   "remediation": "Listen for one piece of information at a time.",
+   "transfer": "Listen to a radio news item at home and tell your family two pieces of information.",
+   "materials": "The announcement, a notes table.",
+   "practice": [
+    {
+     "prompt": "Who should be vaccinated?",
+     "type": "mcq",
+     "choices": [
+      "children under five",
+      "all adults",
+      "only teachers"
+     ],
+     "correct": 0,
+     "answer": "children under five",
+     "explanation": "The announcement says under five."
+    },
+    {
+     "prompt": "Listen and write the town.",
+     "listen": "Attention, please! The vaccination campaign against polio will take place in Mamfe from Monday to Friday.",
+     "answer": "Mamfe",
+     "accept": [
+      "Mamfe"
+     ],
+     "explanation": "The campaign is in Mamfe."
+    },
+    {
+     "prompt": "What must parents bring?",
+     "answer": "The child’s health card.",
+     "accept": [
+      "health card",
+      "the health card",
+      "the child’s health card",
+      "the child's health card",
+      "The child’s health card"
+     ],
+     "explanation": "Bring the health card."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading meaning from pictures and signs",
+   "objective": "Read the meaning expressed by pictures, symbols and signs and explain them in sentences.",
+   "course": "Pictures and signs give messages without many words: a red circle with a line means “not allowed”; a battery symbol shows the charge of a phone; a green arrow shows the way out. Road signs, phone icons and posters use pictures so that everyone understands quickly.",
+   "model": "The adult shows a phone screen: “This envelope means a new message. This bar shows the network.”",
+   "guided": "Look at six signs and symbols (no phones in class, exit, message, low battery, no smoking, hospital). Write what each means.",
+   "exercise": "What does a red circle with a line across a phone mean?",
+   "answer": "Phones are not allowed.",
+   "accept": [
+    "no phones",
+    "phones are not allowed",
+    "no phones allowed",
+    "do not use phones",
+    "Phones are not allowed"
+   ],
+   "remediation": "Start with signs you see every day at school.",
+   "transfer": "Find three signs in your town and explain them to your family.",
+   "materials": "Pictures of signs.",
+   "practice": [
+    {
+     "prompt": "Match each symbol with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       "an envelope on a phone",
+       "a new message"
+      ],
+      [
+       "a green arrow over a door",
+       "the way out"
+      ],
+      [
+       "a red cross",
+       "health / first aid"
+      ]
+     ],
+     "answer": "envelope: message; arrow: exit; red cross: health.",
+     "explanation": "Symbols carry messages."
+    },
+    {
+     "prompt": "Why do signs use pictures?",
+     "type": "mcq",
+     "choices": [
+      "so that everyone understands quickly",
+      "to look old",
+      "to hide the message"
+     ],
+     "correct": 0,
+     "answer": "so that everyone understands quickly",
+     "explanation": "Pictures are quick to understand."
+    },
+    {
+     "prompt": "Draw a sign for your classroom and write its meaning.",
+     "answer": "A sign with a sentence.",
+     "explanation": "Use a picture and few words.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-E3",
+   "domain": "English Language and Literature",
+   "title": "Writing a short letter with correct punctuation",
+   "objective": "Write a short friendly letter using paragraphs, capital letters and punctuation correctly.",
+   "course": "A friendly letter has: the address and the date (top right), the greeting (Dear Bih,), paragraphs (news, questions), the closing (Your friend, / Yours lovingly,) and the name.\nPunctuation: capital letters for names, towns, days and the start of sentences; full stops, question marks, commas after the greeting and the closing.",
+   "model": "The adult writes a letter to a cousin on the board, pointing to each part and each capital letter.",
+   "guided": "Write a letter of two short paragraphs to a friend in another town. Check capitals and punctuation.",
+   "exercise": "What punctuation comes after “Dear Bih”?",
+   "answer": "A comma.",
+   "accept": [
+    "a comma",
+    "comma",
+    "A comma"
+   ],
+   "remediation": "Fill in a letter template first.",
+   "transfer": "Write a letter to a relative and post or send it with an adult.",
+   "materials": "Paper, an envelope, a template.",
+   "practice": [
+    {
+     "prompt": "Put the parts of the letter in order.",
+     "type": "order",
+     "items": [
+      "Address and date",
+      "Dear Bih,",
+      "Paragraphs with news",
+      "Your friend, Ayuk"
+     ],
+     "answer": "address and date, greeting, paragraphs, closing.",
+     "explanation": "A letter has a fixed order."
+    },
+    {
+     "prompt": "Which word needs a capital letter?",
+     "type": "mcq",
+     "choices": [
+      "monday",
+      "table",
+      "happy"
+     ],
+     "correct": 0,
+     "answer": "monday",
+     "explanation": "Days take a capital letter: Monday."
+    },
+    {
+     "prompt": "Write your letter to a friend.",
+     "answer": "A letter with greeting, paragraphs and closing.",
+     "explanation": "Check capitals and punctuation.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-E4",
+   "domain": "English Language and Literature",
+   "title": "Conditional sentences: if it rains, if I had a phone",
+   "objective": "Use the first and second conditional to talk about possible and imaginary situations.",
+   "course": "First conditional — a real possibility: If + present, will + verb. “If you call me, I will answer.” “If it rains, the network will be weak.”\nSecond conditional — an imaginary situation: If + past, would + verb. “If I had a phone, I would call my grandmother every day.” “If I were a journalist, I would interview the mayor.”",
+   "model": "The adult says: “If the battery is low, I will charge the phone. If I had a computer, I would write stories.”",
+   "guided": "Complete five first-conditional sentences and write three second-conditional dreams.",
+   "exercise": "Complete: If you send me a message, I … (answer).",
+   "answer": "will answer",
+   "accept": [
+    "will answer",
+    "I'll answer",
+    "I’ll answer",
+    "I will answer"
+   ],
+   "remediation": "Start with the first conditional only.",
+   "transfer": "Tell your family three things you would do if you had a phone.",
+   "materials": "Sentence strips.",
+   "practice": [
+    {
+     "prompt": "Complete with the first conditional.",
+     "type": "gaps",
+     "text": "If it [[rains]], we [[will]] stay at home.",
+     "answer": "rains, will.",
+     "explanation": "If + present, will + verb."
+    },
+    {
+     "prompt": "Which sentence is a second conditional?",
+     "type": "mcq",
+     "choices": [
+      "If I had a radio, I would listen to the news.",
+      "If you call, I will come.",
+      "I call every day."
+     ],
+     "correct": 0,
+     "answer": "If I had a radio, I would listen to the news.",
+     "explanation": "If + past, would + verb."
+    },
+    {
+     "prompt": "Write: If I had a phone, I would…",
+     "answer": "A second-conditional sentence.",
+     "explanation": "Use “would” + verb.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-M1",
+   "domain": "Mathematics",
+   "title": "Perimeter and area of a triangle: a road sign",
+   "objective": "Calculate the perimeter of a triangle and its area using base and height.",
+   "course": "Perimeter of a triangle = side 1 + side 2 + side 3. A triangular road sign with sides of 60 cm has a perimeter of 180 cm.\nArea of a triangle = base × height ÷ 2. A triangle with base 8 cm and height 5 cm: 8 × 5 ÷ 2 = 20 cm². (It is half of a rectangle.)",
+   "model": "The adult cuts a rectangle along its diagonal: two equal triangles, each half the area.",
+   "guided": "Draw three triangles on squared paper. Measure the base and the height and calculate the area. Calculate the perimeter.",
+   "exercise": "A triangle has a base of 10 cm and a height of 6 cm. What is its area?",
+   "answer": "30 cm²",
+   "accept": [
+    "30",
+    "30 cm²",
+    "30 cm2",
+    "30 square centimetres"
+   ],
+   "remediation": "Draw the rectangle around the triangle and take half.",
+   "transfer": "Find triangles in signs and roofs and estimate their perimeter.",
+   "materials": "Squared paper, ruler, scissors.",
+   "practice": [
+    {
+     "prompt": "A triangle has sides of 5 cm, 7 cm and 8 cm. Perimeter in cm?",
+     "type": "number",
+     "answer": 20,
+     "explanation": "5 + 7 + 8 = 20."
+    },
+    {
+     "prompt": "Base 12 m, height 4 m. Area in m²?",
+     "type": "number",
+     "answer": 24,
+     "explanation": "12 × 4 ÷ 2 = 24."
+    },
+    {
+     "prompt": "A triangle is … of a rectangle with the same base and height.",
+     "type": "mcq",
+     "choices": [
+      "half",
+      "double",
+      "a quarter"
+     ],
+     "correct": 0,
+     "answer": "half",
+     "explanation": "The diagonal cuts the rectangle in two."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-M2",
+   "domain": "Mathematics",
+   "title": "The circle: radius, diameter and circumference",
+   "objective": "Identify the radius and diameter of a circle and calculate its circumference.",
+   "course": "The radius goes from the centre to the edge. The diameter crosses the circle through the centre: diameter = 2 × radius.\nThe circumference is the distance round the circle: C = π × diameter, with π ≈ 3.14. A satellite dish with a diameter of 2 m has a circumference of about 3.14 × 2 = 6.28 m.",
+   "model": "The adult wraps a string round a tin, unrolls it and compares it with the diameter: a little more than 3 times.",
+   "guided": "Measure the diameter and the circumference of three round objects with a string. Divide C by d each time.",
+   "exercise": "A circle has a radius of 5 cm. What is its diameter?",
+   "answer": "10 cm",
+   "accept": [
+    "10",
+    "10 cm",
+    "10cm"
+   ],
+   "remediation": "Draw circles with a compass or a string and a pencil.",
+   "transfer": "Measure the circumference of a bucket or a tyre at home.",
+   "materials": "String, ruler, round objects.",
+   "practice": [
+    {
+     "prompt": "A circle has a diameter of 10 cm. Circumference in cm (π ≈ 3.14)?",
+     "type": "number",
+     "answer": 31.4,
+     "explanation": "3.14 × 10 = 31.4."
+    },
+    {
+     "prompt": "Match each word with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       "radius",
+       "centre to edge"
+      ],
+      [
+       "diameter",
+       "edge to edge through the centre"
+      ],
+      [
+       "circumference",
+       "distance round the circle"
+      ]
+     ],
+     "answer": "radius, diameter, circumference.",
+     "explanation": "These are parts of a circle."
+    },
+    {
+     "prompt": "The diameter is … the radius.",
+     "type": "mcq",
+     "choices": [
+      "twice",
+      "half",
+      "equal to"
+     ],
+     "correct": 0,
+     "answer": "twice",
+     "explanation": "d = 2 × r."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-M3",
+   "domain": "Mathematics",
+   "title": "Problems in several steps: phone credit and messages",
+   "objective": "Solve problems that need more than one operation.",
+   "course": "To solve a problem: read it twice, find what is asked, choose the operations, calculate step by step, and check the answer makes sense.\nExample: Papa buys 2 phone cards of 1 000 frs and 1 card of 500 frs. He pays with a 5 000 frs note. Step 1: 2 × 1 000 + 500 = 2 500 frs. Step 2: 5 000 − 2 500 = 2 500 frs change.",
+   "model": "The adult solves the example aloud, writing each step on a separate line.",
+   "guided": "Solve four problems with two or three steps about phone credit, letters and parcels.",
+   "exercise": "A message costs 25 frs. Ayuk sends 12 messages and pays with 500 frs. What is his change?",
+   "answer": "200 frs",
+   "accept": [
+    "200",
+    "200 frs",
+    "200 francs"
+   ],
+   "remediation": "Write “Step 1” and “Step 2” and solve one at a time.",
+   "transfer": "Make up a two-step problem about your family’s shopping and solve it.",
+   "materials": "Paper.",
+   "practice": [
+    {
+     "prompt": "3 envelopes at 150 frs and 2 stamps at 300 frs. Total in francs?",
+     "type": "number",
+     "answer": 1050,
+     "explanation": "450 + 600 = 1 050."
+    },
+    {
+     "prompt": "A parcel costs 2 400 frs. Four friends share the cost equally and each also pays 100 frs for the bag. How much does each pay?",
+     "type": "number",
+     "answer": 700,
+     "explanation": "2 400 ÷ 4 = 600; 600 + 100 = 700."
+    },
+    {
+     "prompt": "What do we do first in a problem?",
+     "type": "mcq",
+     "choices": [
+      "read it carefully and find what is asked",
+      "write any number",
+      "guess"
+     ],
+     "correct": 0,
+     "answer": "read it carefully and find what is asked",
+     "explanation": "Understand before calculating."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-M4",
+   "domain": "Mathematics",
+   "title": "Reading and interpreting a table and a pictogram",
+   "objective": "Read and interpret data in a table and a pictogram and solve problems with them.",
+   "course": "A pictogram uses a picture to stand for a number of things: one envelope = 10 letters. Half a picture = 5 letters.\nTo read it: count the pictures, multiply by the key, and compare rows.",
+   "model": "The adult reads a pictogram of letters posted each day at the post office: Monday 4 envelopes = 40 letters.",
+   "guided": "Read a pictogram of messages sent in a week. Answer five questions and draw your own pictogram.",
+   "exercise": "One envelope = 10 letters. How many letters do 3½ envelopes show?",
+   "answer": "35",
+   "accept": [
+    "35",
+    "35 letters"
+   ],
+   "remediation": "Count in tens with the envelopes.",
+   "transfer": "Make a pictogram of the calls or messages your family receives in a week.",
+   "materials": "Squared paper, coloured pencils.",
+   "practice": [
+    {
+     "prompt": "Monday 40 letters, Tuesday 25, Wednesday 30. How many letters in the three days?",
+     "type": "number",
+     "answer": 95,
+     "explanation": "40 + 25 + 30 = 95."
+    },
+    {
+     "prompt": "One picture = 10 letters. How many pictures for 60 letters?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "60 ÷ 10 = 6."
+    },
+    {
+     "prompt": "Draw a pictogram with a key for a week of messages.",
+     "answer": "A pictogram with a key and seven rows.",
+     "explanation": "Do not forget the key.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 52, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  }
+ ]
+}

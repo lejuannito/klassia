@@ -1,0 +1,559 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS4",
+ "classTitle": "Class 4",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS4-T6",
+ "title_en": "Health",
+ "title_fr": "La santé",
+ "lessons": [
+  {
+   "id": "CLASS4-T6-E1",
+   "domain": "English Language and Literature",
+   "title": "Sound recognition: consonant clusters and contracted forms",
+   "objective": "Pronounce consonant clusters, distinguish sounds and use contracted forms in rapid speech.",
+   "course": "Consonant clusters are two or three consonants together: str (street, strong), spr (spray), pl (plate), cl (clinic), tr (treat), sk (skin). We pronounce every consonant without adding a vowel: “street”, not “sitreet”.\nContracted forms join two words with an apostrophe: I am → I’m, do not → don’t, it is → it’s, we will → we’ll, he has not → he hasn’t.",
+   "model": "The adult says slowly, then fast: “The strong nurse sprays the clinic.” “I’m fine, but I don’t feel strong.”",
+   "guided": "Say ten words with clusters, slowly then quickly. Turn five sentences into contracted forms.",
+   "exercise": "What is the contracted form of “do not”?",
+   "answer": "don’t",
+   "accept": [
+    "don’t",
+    "don't",
+    "dont"
+   ],
+   "remediation": "Tap the consonants on the table as you say them.",
+   "transfer": "Use three contracted forms when you talk at home.",
+   "materials": "Word cards.",
+   "practice": [
+    {
+     "prompt": "Match the full form and the contracted form.",
+     "type": "match",
+     "pairs": [
+      [
+       "I am",
+       "I’m"
+      ],
+      [
+       "it is",
+       "it’s"
+      ],
+      [
+       "we will",
+       "we’ll"
+      ]
+     ],
+     "answer": "I’m, it’s, we’ll.",
+     "explanation": "The apostrophe replaces letters."
+    },
+    {
+     "prompt": "Which word begins with a three-consonant cluster?",
+     "type": "mcq",
+     "choices": [
+      "street",
+      "sit",
+      "ten"
+     ],
+     "correct": 0,
+     "answer": "street",
+     "explanation": "s-t-r."
+    },
+    {
+     "prompt": "Listen and repeat quickly.",
+     "listen": "The strong nurse sprays the clinic. I’m fine, but I don’t feel strong.",
+     "answer": "The sentences repeated clearly.",
+     "explanation": "Say every consonant."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading silently: a visit to the district hospital",
+   "objective": "Read a text silently and answer questions about it.",
+   "course": "Before reading, look at the title and guess what the text is about. Read the questions, then read silently. Find the sentence that answers each question.",
+   "support": {
+    "title": "Read silently",
+    "text": "On Monday, Bih had a high fever. Her mother took her to the district hospital. They waited in the queue until a nurse called them. The nurse took Bih’s temperature: 39 °C. The doctor examined her and asked for a blood test. It was malaria. Bih received tablets and was told to sleep under a treated net. Three days later, she was back at school."
+   },
+   "model": "The adult reads the title, guesses aloud, then reads the questions and finds the first answer.",
+   "guided": "Read the questions, then the text silently. Answer in full sentences.",
+   "exercise": "What illness did Bih have?",
+   "answer": "Malaria.",
+   "accept": [
+    "malaria",
+    "she had malaria",
+    "Malaria"
+   ],
+   "remediation": "Find the answers by underlining key words in the text.",
+   "transfer": "Tell your family what to do when someone has a fever.",
+   "materials": "The text.",
+   "practice": [
+    {
+     "prompt": "What was Bih’s temperature?",
+     "type": "mcq",
+     "choices": [
+      "39 °C",
+      "37 °C",
+      "30 °C"
+     ],
+     "correct": 0,
+     "answer": "39 °C",
+     "explanation": "The nurse found 39 °C."
+    },
+    {
+     "prompt": "Put the events in order.",
+     "type": "order",
+     "items": [
+      "Bih had a fever.",
+      "They waited in the queue.",
+      "The doctor asked for a blood test.",
+      "She went back to school."
+     ],
+     "answer": "fever, queue, test, school.",
+     "explanation": "Follow the text."
+    },
+    {
+     "prompt": "After how many days was Bih back at school?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "“Three days later”."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-E3",
+   "domain": "English Language and Literature",
+   "title": "Dictation: the apostrophe s’ for many owners",
+   "objective": "Use s’ for plural owners and write dictated sentences and a paragraph correctly.",
+   "course": "When the owners are plural and end in s, we add only an apostrophe: the nurses’ room (the room of the nurses), the doctors’ meeting, the patients’ beds. Irregular plurals take ’s: the children’s ward, the women’s clinic.\nIn a dictation: listen to the whole sentence first, write, then reread to check spelling and punctuation.",
+   "model": "The adult dictates: “The nurses’ room is next to the children’s ward.” and shows the two apostrophes.",
+   "guided": "Write a dictation of four sentences about a health centre. Check each apostrophe.",
+   "exercise": "Rewrite: the room of the nurses.",
+   "answer": "the nurses’ room",
+   "accept": [
+    "the nurses’ room",
+    "the nurses' room",
+    "nurses’ room",
+    "nurses' room"
+   ],
+   "remediation": "First decide: one owner (’s) or many owners (s’)?",
+   "transfer": "Write three phrases about your family with s’ or ’s.",
+   "materials": "Paper, pencil.",
+   "practice": [
+    {
+     "prompt": "One owner or many? Choose.",
+     "type": "mcq",
+     "choices": [
+      "the patients’ beds (many patients)",
+      "the patients’ beds (one patient)"
+     ],
+     "correct": 0,
+     "answer": "the patients’ beds (many patients)",
+     "explanation": "s’ shows many owners."
+    },
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "the doctors[[’|']] cars; the children[[’s|'s]] toys",
+     "answer": "doctors’, children’s.",
+     "explanation": "doctors ends in s: ’; children: ’s."
+    },
+    {
+     "prompt": "Listen and write the dictation.",
+     "listen": "The nurses’ room is clean. The children’s ward is on the left. Visitors wash their hands at the door.",
+     "answer": "The three sentences written correctly.",
+     "explanation": "Check apostrophes and full stops.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-E4",
+   "domain": "English Language and Literature",
+   "title": "Pronouns: subject, object, possessive and relative",
+   "objective": "Identify and use subject, object, possessive and relative pronouns in sentences.",
+   "course": "Subject pronouns: I, you, he, she, it, we, they. Object pronouns: me, you, him, her, it, us, them. Possessive pronouns: mine, yours, his, hers, ours, theirs.\nRelative pronouns join two ideas: who (people), which (things), that (people or things), whose (owner). “The nurse who helped me is kind.” “The tablets which I took were bitter.”",
+   "model": "The adult says: “This is the doctor. He treated me.” → “This is the doctor who treated me.”",
+   "guided": "Replace nouns with pronouns in five sentences. Join four pairs of sentences with who or which.",
+   "exercise": "Join: I saw the nurse. She vaccinated the baby.",
+   "answer": "I saw the nurse who vaccinated the baby.",
+   "accept": [
+    "I saw the nurse who vaccinated the baby",
+    "I saw the nurse that vaccinated the baby"
+   ],
+   "remediation": "Use who for people and which for things.",
+   "transfer": "Describe three people you know using “who”.",
+   "materials": "Sentence cards.",
+   "practice": [
+    {
+     "prompt": "Match each subject pronoun with its object pronoun.",
+     "type": "match",
+     "pairs": [
+      [
+       "he",
+       "him"
+      ],
+      [
+       "she",
+       "her"
+      ],
+      [
+       "we",
+       "us"
+      ]
+     ],
+     "answer": "him, her, us.",
+     "explanation": "Object pronouns come after the verb."
+    },
+    {
+     "prompt": "Complete with who or which.",
+     "type": "gaps",
+     "text": "The boy [[who]] fell is better. The medicine [[which]] he took is strong.",
+     "answer": "who, which.",
+     "explanation": "who for people; which for things."
+    },
+    {
+     "prompt": "This bag is my bag. It is …",
+     "type": "mcq",
+     "choices": [
+      "mine",
+      "me",
+      "my"
+     ],
+     "correct": 0,
+     "answer": "mine",
+     "explanation": "Possessive pronoun: mine."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-M1",
+   "domain": "Mathematics",
+   "title": "Proper, improper and mixed fractions: sharing medicine and food",
+   "objective": "Identify proper and improper fractions and mixed numbers and convert between them.",
+   "course": "Proper fraction: the numerator is smaller than the denominator: ¾, 2/5. Improper fraction: the numerator is bigger or equal: 7/4, 5/5.\nMixed number: a whole number and a fraction: 1¾. 7/4 = 1¾ because 4/4 = 1 whole and ¾ is left. 2½ = 5/2.",
+   "model": "The adult cuts 2 loaves into quarters and gives 7 quarters: 7/4 = 1 whole loaf and ¾.",
+   "guided": "Use paper circles to show 5/3, 9/4 and 3/2. Write each as a mixed number.",
+   "exercise": "Write 9/4 as a mixed number.",
+   "answer": "2 1/4",
+   "accept": [
+    "2 1/4",
+    "2¼",
+    "2 and 1/4",
+    "2 and a quarter"
+   ],
+   "remediation": "Shade the shapes, count the wholes, then the parts left.",
+   "transfer": "Describe a meal shared in your family with fractions.",
+   "materials": "Paper circles, scissors.",
+   "practice": [
+    {
+     "prompt": "Which fraction is improper?",
+     "type": "mcq",
+     "choices": [
+      "8/5",
+      "3/5",
+      "1/2"
+     ],
+     "correct": 0,
+     "answer": "8/5",
+     "explanation": "8 is bigger than 5."
+    },
+    {
+     "prompt": "3½ = ?/2. Write the numerator.",
+     "type": "number",
+     "answer": 7,
+     "explanation": "3 wholes = 6/2, plus 1/2 = 7/2."
+    },
+    {
+     "prompt": "Match each fraction with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "2/3",
+       "proper"
+      ],
+      [
+       "7/3",
+       "improper"
+      ],
+      [
+       "2⅓",
+       "mixed number"
+      ]
+     ],
+     "answer": "proper; improper; mixed number.",
+     "explanation": "Compare numerator and denominator."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-M2",
+   "domain": "Mathematics",
+   "title": "Mass: grams and kilograms at the health centre",
+   "objective": "Establish the relationship between g and kg and convert and compare masses.",
+   "course": "1 kg = 1 000 g. Half a kilogram = 500 g; a quarter = 250 g.\nAt the health centre, babies are weighed in kg: 4 kg 300 g = 4 300 g. To compare masses, write them in the same unit.",
+   "model": "The adult reads a baby scale: “The baby weighs 5 kg 200 g, that is 5 200 g.”",
+   "guided": "Read the mass on five food packets. Convert each into g or kg and g. Order them from lightest to heaviest.",
+   "exercise": "How many grams are there in 3 kg?",
+   "answer": "3 000",
+   "accept": [
+    "3000",
+    "3 000",
+    "3000 g",
+    "3 000 g"
+   ],
+   "remediation": "Use a scale and 1 kg packets to compare.",
+   "transfer": "Read the mass on packets in your kitchen.",
+   "materials": "A scale, food packets.",
+   "practice": [
+    {
+     "prompt": "A baby weighed 3 kg 500 g at birth and 5 kg 100 g at two months. How many grams did the baby gain?",
+     "type": "number",
+     "answer": 1600,
+     "explanation": "5 100 − 3 500 = 1 600 g."
+    },
+    {
+     "prompt": "Which is heavier?",
+     "type": "mcq",
+     "choices": [
+      "2 kg",
+      "1 900 g",
+      "1 kg 950 g"
+     ],
+     "correct": 0,
+     "answer": "2 kg",
+     "explanation": "2 kg = 2 000 g."
+    },
+    {
+     "prompt": "How many 250 g packets make 1 kg?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "1 000 ÷ 250 = 4."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-M3",
+   "domain": "Mathematics",
+   "title": "Area of rectangles and squares: the floor of a clinic room",
+   "objective": "Calculate the area of rectangles and squares in square units.",
+   "course": "The area is the space covered by a shape. We count squares or use a formula. Rectangle: A = length × width. Square: A = side × side.\nA room 5 m long and 4 m wide has an area of 20 m² (square metres).",
+   "model": "The adult draws a rectangle on squared paper, counts the squares, then multiplies length × width.",
+   "guided": "Draw five rectangles on squared paper and find their area by counting, then with the formula.",
+   "exercise": "A rectangle is 7 cm long and 3 cm wide. What is its area?",
+   "answer": "21 cm²",
+   "accept": [
+    "21",
+    "21 cm²",
+    "21 cm2",
+    "21 square centimetres"
+   ],
+   "remediation": "Count the squares row by row.",
+   "transfer": "Estimate the area of your bedroom floor in square metres.",
+   "materials": "Squared paper, ruler.",
+   "practice": [
+    {
+     "prompt": "A square tile has sides of 6 cm. Area in cm²?",
+     "type": "number",
+     "answer": 36,
+     "explanation": "6 × 6 = 36."
+    },
+    {
+     "prompt": "Which unit measures area?",
+     "type": "mcq",
+     "choices": [
+      "m²",
+      "m",
+      "kg"
+     ],
+     "correct": 0,
+     "answer": "m²",
+     "explanation": "Area is in square units."
+    },
+    {
+     "prompt": "A room has an area of 24 m² and a width of 4 m. What is its length, in m?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "24 ÷ 4 = 6."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-M4",
+   "domain": "Mathematics",
+   "title": "Ranking data: heights and masses of pupils",
+   "objective": "Arrange data in ascending and descending order and find the greatest and the smallest.",
+   "course": "Ascending order goes from the smallest to the greatest; descending order goes from the greatest to the smallest.\nHeights in cm: 128, 135, 122, 140 → ascending: 122, 128, 135, 140. The range is greatest − smallest = 18 cm.",
+   "model": "The adult measures four children and writes their heights, then ranks them.",
+   "guided": "Measure the heights of five family members. Rank them in ascending and descending order. Find the difference between the tallest and the shortest.",
+   "exercise": "Rank in ascending order: 31, 27, 34, 29.",
+   "answer": "27, 29, 31, 34",
+   "accept": [
+    "27, 29, 31, 34",
+    "27 29 31 34",
+    "27,29,31,34"
+   ],
+   "remediation": "Find the smallest first, cross it out, then find the next.",
+   "transfer": "Rank your family members by age.",
+   "materials": "Tape measure.",
+   "practice": [
+    {
+     "prompt": "Put the masses in descending order.",
+     "type": "order",
+     "items": [
+      "42 kg",
+      "38 kg",
+      "35 kg",
+      "30 kg"
+     ],
+     "answer": "42, 38, 35, 30 kg.",
+     "explanation": "From the greatest to the smallest."
+    },
+    {
+     "prompt": "Heights: 140, 122, 135 cm. Difference between the tallest and the shortest, in cm?",
+     "type": "number",
+     "answer": 18,
+     "explanation": "140 − 122 = 18."
+    },
+    {
+     "prompt": "Ascending order means…",
+     "type": "mcq",
+     "choices": [
+      "from smallest to greatest",
+      "from greatest to smallest",
+      "in any order"
+     ],
+     "correct": 0,
+     "answer": "from smallest to greatest",
+     "explanation": "Ascending = going up."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 52, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  }
+ ]
+}

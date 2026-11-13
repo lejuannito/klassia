@@ -1,0 +1,553 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS4",
+ "classTitle": "Class 4",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS4-T7",
+ "title_en": "Games",
+ "title_fr": "Les jeux",
+ "lessons": [
+  {
+   "id": "CLASS4-T7-E1",
+   "domain": "English Language and Literature",
+   "title": "Acting a sketch: a quarrel during a game",
+   "objective": "Act a sketch built on a familiar scene and show willingness to perform.",
+   "course": "A sketch is a short scene acted by a few people. Actors learn their lines, speak loudly, face the audience and show feelings with the face and body. A good sketch on a familiar scene has a problem and a solution.",
+   "support": {
+    "title": "Short script",
+    "text": "NEBA: That was out! The ball went out!\nEKANE: No, it was in! You always cheat!\nREFEREE (whistles): Stop! I saw it. The ball was in. Neba, accept it.\nNEBA (calmer): All right. Sorry, Ekane. Let’s play.\nEKANE: Thank you. Well played!"
+   },
+   "model": "Three adults act the scene: angry voices, the whistle, then calm voices.",
+   "guided": "Learn one role and act the sketch. Then change the ending and act it again.",
+   "exercise": "Who solves the problem in the sketch?",
+   "answer": "The referee.",
+   "accept": [
+    "the referee",
+    "referee",
+    "The referee"
+   ],
+   "remediation": "Act the sketch reading the script first.",
+   "transfer": "Act the sketch for your family and ask what they learnt.",
+   "materials": "The script, a whistle.",
+   "practice": [
+    {
+     "prompt": "Put the lines in order.",
+     "type": "order",
+     "items": [
+      "That was out!",
+      "No, it was in!",
+      "Stop! The ball was in.",
+      "Sorry, Ekane. Let’s play."
+     ],
+     "answer": "The four lines in order.",
+     "explanation": "Follow the script."
+    },
+    {
+     "prompt": "What does an actor do to be understood?",
+     "type": "mcq",
+     "choices": [
+      "speak loudly and face the audience",
+      "whisper with his back turned",
+      "hide behind a curtain"
+     ],
+     "correct": 0,
+     "answer": "speak loudly and face the audience",
+     "explanation": "The audience must see and hear."
+    },
+    {
+     "prompt": "Act the sketch with two partners.",
+     "answer": "The sketch acted with feeling.",
+     "explanation": "Show anger, then calm."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-E2",
+   "domain": "English Language and Literature",
+   "title": "A cartoon strip: the borrowed ball",
+   "objective": "Read a cartoon strip, explain the feelings of characters and deduce the moral lesson.",
+   "course": "A cartoon strip tells a story in boxes (panels). Speech bubbles show what characters say; thought bubbles show what they think. We read panels from left to right and top to bottom.",
+   "support": {
+    "title": "Cartoon strip (four panels described)",
+    "text": "Panel 1: Tabi borrows Ayuk’s new ball. Bubble: “I’ll bring it back tomorrow.”\nPanel 2: Tabi plays near the road and the ball is crushed by a car.\nPanel 3: Thought bubble: “Should I hide it?”\nPanel 4: Tabi gives Ayuk his savings. Bubble: “I’m sorry. I will buy you another one.”"
+   },
+   "model": "The adult reads each panel and asks: “What is Tabi thinking? What would you do?”",
+   "guided": "Read the strip. Say how Ayuk and Tabi feel in each panel. Draw a fifth panel.",
+   "exercise": "What does a thought bubble show?",
+   "answer": "What a character thinks.",
+   "accept": [
+    "what a character thinks",
+    "thoughts",
+    "what he thinks",
+    "What a character thinks"
+   ],
+   "remediation": "Read only the speech bubbles first.",
+   "transfer": "Draw a four-panel cartoon about a game.",
+   "materials": "The strip, paper.",
+   "practice": [
+    {
+     "prompt": "What is the moral of the strip?",
+     "type": "mcq",
+     "choices": [
+      "Be honest and take care of borrowed things.",
+      "Hide your mistakes.",
+      "Never lend anything."
+     ],
+     "correct": 0,
+     "answer": "Be honest and take care of borrowed things.",
+     "explanation": "Tabi told the truth and repaired the damage."
+    },
+    {
+     "prompt": "Put the panels in order.",
+     "type": "order",
+     "items": [
+      "Tabi borrows the ball.",
+      "The ball is crushed.",
+      "Tabi wonders if he should hide it.",
+      "Tabi apologises."
+     ],
+     "answer": "borrow, crushed, wonder, apologise.",
+     "explanation": "Read panels in order."
+    },
+    {
+     "prompt": "Draw panel 5: what happens next?",
+     "answer": "A fifth panel with a speech bubble.",
+     "explanation": "Continue the story.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Literature), p. 44, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Literature"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-E3",
+   "domain": "English Language and Literature",
+   "title": "Building a paragraph: compound sentences with and, but, so",
+   "objective": "Combine simple sentences into compound sentences and build a paragraph about a game.",
+   "course": "A simple sentence has one idea: “We played football.” A compound sentence joins two ideas with a coordinating conjunction: and, but, or, so. “We played football and we won.” “It rained, but we continued.” “I was tired, so I rested.”\nA paragraph is a group of sentences about one idea. It starts with a topic sentence and ends with a concluding sentence.",
+   "model": "The adult joins two sentences with “but” on the board, then writes a five-sentence paragraph about a match.",
+   "guided": "Join six pairs of sentences. Then write a paragraph of five sentences about your favourite game.",
+   "exercise": "Join with “so”: It was dark. We went home.",
+   "answer": "It was dark, so we went home.",
+   "accept": [
+    "It was dark, so we went home",
+    "It was dark so we went home"
+   ],
+   "remediation": "Use “and” only first, then add “but” and “so”.",
+   "transfer": "Write a paragraph about a game you played this week.",
+   "materials": "Sentence cards, paper.",
+   "practice": [
+    {
+     "prompt": "Choose the right conjunction.",
+     "type": "gaps",
+     "text": "I wanted to play, [[but]] it was raining. Bih kicked the ball [[and]] scored.",
+     "answer": "but, and.",
+     "explanation": "but = contrast; and = addition."
+    },
+    {
+     "prompt": "Which sentence is compound?",
+     "type": "mcq",
+     "choices": [
+      "We ran fast, but we lost.",
+      "We ran fast.",
+      "Fast running."
+     ],
+     "correct": 0,
+     "answer": "We ran fast, but we lost.",
+     "explanation": "Two ideas joined by “but”."
+    },
+    {
+     "prompt": "Write a paragraph of five sentences about your favourite game.",
+     "answer": "A paragraph with a topic sentence and a concluding sentence.",
+     "explanation": "Use and, but, so.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-E4",
+   "domain": "English Language and Literature",
+   "title": "Adverbs of manner, place and time; interjections",
+   "objective": "Use adverbs of manner, place and time, adverbs that modify verbs and other adverbs, and interjections.",
+   "course": "Adverbs tell us how, where or when: manner (quickly, carefully, well), place (here, outside, everywhere), time (now, yesterday, soon). They modify verbs (“She runs quickly”) and other adverbs (“She runs very quickly”).\nInterjections express feelings and take an exclamation mark: Hurray! Bravo! Hey! Oh! Hello!",
+   "model": "The adult commentates a race: “Ngum runs fast! She runs very fast! Hurray, she wins! Bravo!”",
+   "guided": "Commentate a game with five adverbs and two interjections. Sort adverbs into manner, place and time.",
+   "exercise": "Which word is an adverb in: “Neba played well.”?",
+   "answer": "well",
+   "accept": [
+    "well"
+   ],
+   "remediation": "Ask “how?” after the verb to find adverbs of manner.",
+   "transfer": "Commentate a family game with adverbs and interjections.",
+   "materials": "Word cards.",
+   "practice": [
+    {
+     "prompt": "Match each adverb with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "quickly",
+       "manner"
+      ],
+      [
+       "outside",
+       "place"
+      ],
+      [
+       "yesterday",
+       "time"
+      ]
+     ],
+     "answer": "quickly: manner; outside: place; yesterday: time.",
+     "explanation": "How, where, when."
+    },
+    {
+     "prompt": "Which interjection shows joy after a goal?",
+     "type": "mcq",
+     "choices": [
+      "Hurray!",
+      "Ouch!",
+      "Shh!"
+     ],
+     "correct": 0,
+     "answer": "Hurray!",
+     "explanation": "Hurray shows joy."
+    },
+    {
+     "prompt": "Complete with an adverb that modifies another adverb.",
+     "type": "gaps",
+     "text": "The goalkeeper jumped [[very|really|so]] high.",
+     "answer": "very",
+     "explanation": "“very” modifies “high”."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-M1",
+   "domain": "Mathematics",
+   "title": "Adding and subtracting fractions in a game",
+   "objective": "Add and subtract fractions with the same denominator and with related denominators.",
+   "course": "Same denominator: add or subtract the numerators: 2/8 + 3/8 = 5/8; 7/10 − 4/10 = 3/10.\nRelated denominators: change one fraction first: 1/2 + 1/4 = 2/4 + 1/4 = 3/4; 2/3 − 1/6 = 4/6 − 1/6 = 3/6 = 1/2.",
+   "model": "The adult shares a skipping rope game: Bih jumps for ½ of the time, Ngum for ¼. Together: ¾.",
+   "guided": "Use fraction strips to solve six additions and subtractions. Write each answer in its simplest form.",
+   "exercise": "Calculate 3/8 + 4/8.",
+   "answer": "7/8",
+   "accept": [
+    "7/8"
+   ],
+   "remediation": "Use fraction strips with the same denominator first.",
+   "transfer": "Describe a game time with fractions: ½ hour of football, ¼ hour of rest.",
+   "materials": "Fraction strips.",
+   "practice": [
+    {
+     "prompt": "1/2 + 1/4 = ?/4. Write the numerator.",
+     "type": "number",
+     "answer": 3,
+     "explanation": "2/4 + 1/4 = 3/4."
+    },
+    {
+     "prompt": "9/10 − 3/10 = ?/10. Write the numerator.",
+     "type": "number",
+     "answer": 6,
+     "explanation": "9 − 3 = 6."
+    },
+    {
+     "prompt": "Which is equal to 1/2?",
+     "type": "mcq",
+     "choices": [
+      "4/8",
+      "3/8",
+      "2/8"
+     ],
+     "correct": 0,
+     "answer": "4/8",
+     "explanation": "4 is half of 8."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-M2",
+   "domain": "Mathematics",
+   "title": "Measuring angles with a protractor",
+   "objective": "Identify right, acute and obtuse angles and measure angles with a protractor.",
+   "course": "An angle is the turn between two lines that meet. A right angle measures 90° (the corner of a book). An acute angle is less than 90°; an obtuse angle is between 90° and 180°. A straight angle is 180°.\nWith a protractor: put the centre on the vertex, the 0° line on one arm, then read where the other arm crosses the scale.",
+   "model": "The adult measures the angle of an open door and of the hands of a clock at 3 o’clock (90°).",
+   "guided": "Draw five angles and measure them with a protractor. Name each one: acute, right or obtuse.",
+   "exercise": "An angle measures 120°. Is it acute, right or obtuse?",
+   "answer": "Obtuse.",
+   "accept": [
+    "obtuse",
+    "an obtuse angle",
+    "obtuse angle",
+    "Obtuse"
+   ],
+   "remediation": "Compare each angle with the corner of a book first.",
+   "transfer": "Find right angles at home and measure two other angles.",
+   "materials": "Protractor, ruler.",
+   "practice": [
+    {
+     "prompt": "Match each angle with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "45°",
+       "acute"
+      ],
+      [
+       "90°",
+       "right"
+      ],
+      [
+       "150°",
+       "obtuse"
+      ]
+     ],
+     "answer": "acute, right, obtuse.",
+     "explanation": "Compare with 90°."
+    },
+    {
+     "prompt": "How many degrees in a straight angle?",
+     "type": "number",
+     "answer": 180,
+     "explanation": "A straight line makes 180°."
+    },
+    {
+     "prompt": "Where do we put the centre of the protractor?",
+     "type": "mcq",
+     "choices": [
+      "on the vertex",
+      "at the end of an arm",
+      "anywhere"
+     ],
+     "correct": 0,
+     "answer": "on the vertex",
+     "explanation": "The vertex is the point where the arms meet."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-M3",
+   "domain": "Mathematics",
+   "title": "Quadrilaterals, pentagons and hexagons on the playground",
+   "objective": "Differentiate quadrilaterals and identify pentagons and hexagons; construct shapes with local materials.",
+   "course": "A quadrilateral has 4 sides: square, rectangle, parallelogram (two pairs of parallel sides), trapezium (one pair of parallel sides), rhombus (4 equal sides).\nA pentagon has 5 sides; a hexagon has 6 sides (like the cells of a honeycomb).",
+   "model": "The adult makes shapes with sticks: 4 sticks for a square, 5 for a pentagon, 6 for a hexagon.",
+   "guided": "Construct a square, a trapezium, a pentagon and a hexagon with sticks or straws. Count sides and corners.",
+   "exercise": "How many sides does a hexagon have?",
+   "answer": "6",
+   "accept": [
+    "6",
+    "six"
+   ],
+   "remediation": "Count the sides by touching them one by one.",
+   "transfer": "Find quadrilaterals and hexagons in your environment (tiles, a football).",
+   "materials": "Sticks or straws, string or clay.",
+   "practice": [
+    {
+     "prompt": "Match each shape with its number of sides.",
+     "type": "match",
+     "pairs": [
+      [
+       "trapezium",
+       "4"
+      ],
+      [
+       "pentagon",
+       "5"
+      ],
+      [
+       "hexagon",
+       "6"
+      ]
+     ],
+     "answer": "4, 5, 6.",
+     "explanation": "Count the sides."
+    },
+    {
+     "prompt": "Which quadrilateral has only one pair of parallel sides?",
+     "type": "mcq",
+     "choices": [
+      "a trapezium",
+      "a square",
+      "a rectangle"
+     ],
+     "correct": 0,
+     "answer": "a trapezium",
+     "explanation": "A trapezium has one pair."
+    },
+    {
+     "prompt": "Draw a pentagon and a hexagon.",
+     "answer": "A five-sided and a six-sided shape.",
+     "explanation": "Count the sides.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-M4",
+   "domain": "Mathematics",
+   "title": "Order of operations (BODMAS) in game scores",
+   "objective": "Carry out calculations involving more than one operation following BODMAS.",
+   "course": "BODMAS gives the order: Brackets first, then Of, Division and Multiplication (from left to right), then Addition and Subtraction (from left to right).\n3 + 4 × 2 = 3 + 8 = 11 (not 14). (3 + 4) × 2 = 7 × 2 = 14.",
+   "model": "The adult calculates a score: 3 goals of 2 points plus 5 bonus points: 3 × 2 + 5 = 11.",
+   "guided": "Solve eight calculations using BODMAS. Explain each step to a partner.",
+   "exercise": "Calculate 10 − 2 × 3.",
+   "answer": "4",
+   "accept": [
+    "4"
+   ],
+   "remediation": "Underline the operation to do first in each line.",
+   "transfer": "Invent a scoring game with points that need BODMAS.",
+   "materials": "Paper.",
+   "practice": [
+    {
+     "prompt": "(6 + 4) × 5 = ?",
+     "type": "number",
+     "answer": 50,
+     "explanation": "Brackets first: 10 × 5."
+    },
+    {
+     "prompt": "20 ÷ 4 + 3 = ?",
+     "type": "number",
+     "answer": 8,
+     "explanation": "Division first: 5 + 3."
+    },
+    {
+     "prompt": "What do we calculate first in 8 + 6 ÷ 2?",
+     "type": "mcq",
+     "choices": [
+      "6 ÷ 2",
+      "8 + 6",
+      "nothing"
+     ],
+     "correct": 0,
+     "answer": "6 ÷ 2",
+     "explanation": "Division before addition."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  }
+ ]
+}

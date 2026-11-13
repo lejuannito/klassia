@@ -1,0 +1,583 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS4",
+ "classTitle": "Class 4",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS4-T5",
+ "title_en": "Travelling",
+ "title_fr": "Les voyages",
+ "lessons": [
+  {
+   "id": "CLASS4-T5-E1",
+   "domain": "English Language and Literature",
+   "title": "A telephone conversation: booking a bus seat",
+   "objective": "Carry out a telephone conversation and carry out tasks on a text listened to.",
+   "course": "On the telephone we greet, say who we are, say why we call, listen carefully, repeat important information (time, price, place) and say goodbye.\n“Hello, good morning. This is Ayuk. I would like to book a seat to Bamenda for Saturday.” “The bus leaves at 7 a.m. The ticket costs 4 500 francs.” “So, 7 a.m. and 4 500 francs. Thank you. Goodbye.”",
+   "support": {
+    "title": "Telephone dialogue",
+    "text": "AGENT: Hello, Mbengwi Express. Can I help you?\nAYUK: Good morning. I would like a seat to Bamenda on Saturday, please.\nAGENT: The bus leaves at 7 a.m. The ticket is 4 500 francs.\nAYUK: 7 a.m., 4 500 francs. Thank you. Goodbye."
+   },
+   "model": "Two adults act the call; one writes the time and the price while listening.",
+   "guided": "Act the call with a partner. Then listen to a new call and write the destination, time and price.",
+   "exercise": "At what time does the bus leave?",
+   "answer": "At 7 a.m.",
+   "accept": [
+    "7 a.m.",
+    "at 7 a.m.",
+    "7 am",
+    "seven a.m.",
+    "at seven",
+    "7",
+    "At 7 a.m"
+   ],
+   "remediation": "Listen for one piece of information at a time: first the time, then the price.",
+   "transfer": "With an adult, take a telephone message and write it down.",
+   "materials": "Two toy phones or cups, paper.",
+   "practice": [
+    {
+     "prompt": "Put the telephone call in order.",
+     "type": "order",
+     "items": [
+      "Hello, good morning.",
+      "I would like a seat to Bamenda.",
+      "The bus leaves at 7 a.m.",
+      "Thank you. Goodbye."
+     ],
+     "answer": "greet, ask, information, goodbye.",
+     "explanation": "A call has steps."
+    },
+    {
+     "prompt": "Why do we repeat the time and the price?",
+     "type": "mcq",
+     "choices": [
+      "to check we heard well",
+      "to waste time",
+      "to annoy the agent"
+     ],
+     "correct": 0,
+     "answer": "to check we heard well",
+     "explanation": "Repeating avoids mistakes."
+    },
+    {
+     "prompt": "Listen and write the destination.",
+     "listen": "Good afternoon. The bus to Ebolowa leaves at three p.m. The ticket costs three thousand francs.",
+     "answer": "Ebolowa",
+     "accept": [
+      "Ebolowa"
+     ],
+     "explanation": "The destination is Ebolowa."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-E2",
+   "domain": "English Language and Literature",
+   "title": "An adventure story: the canoe on the Sanaga",
+   "objective": "Read a picture adventure story, put oneself in the place of a character and deduce the lesson.",
+   "course": "An adventure story has exciting events: a problem, danger, courage and a solution. We follow the events, imagine how the characters feel and look for the lesson.",
+   "support": {
+    "title": "An original adventure story",
+    "text": "Ngum and her cousin Etah crossed the Sanaga by canoe to visit their grandmother. Halfway, the wind became strong and water entered the canoe. Etah wanted to stand up, but Ngum said: “Sit down and keep calm!” The boatman gave them a bowl to remove the water. Together they reached the other bank safely. Grandmother hugged them and said: “Calm heads save lives.”"
+   },
+   "model": "The adult reads the story and stops at the problem: “What would you do?”",
+   "guided": "Read the story. Draw three pictures (the start, the danger, the end). Say how Ngum felt and what you would have done.",
+   "exercise": "What did the boatman give the children?",
+   "answer": "A bowl.",
+   "accept": [
+    "a bowl",
+    "bowl",
+    "A bowl"
+   ],
+   "remediation": "Retell the story with three pictures.",
+   "transfer": "Tell the story to a younger child and ask what the lesson is.",
+   "materials": "The story, paper for drawings.",
+   "practice": [
+    {
+     "prompt": "Put the events in order.",
+     "type": "order",
+     "items": [
+      "The children got into the canoe.",
+      "The wind became strong.",
+      "They removed the water with a bowl.",
+      "They reached the other bank."
+     ],
+     "answer": "canoe, wind, bowl, bank.",
+     "explanation": "Follow the story."
+    },
+    {
+     "prompt": "What is the lesson of the story?",
+     "type": "mcq",
+     "choices": [
+      "Keep calm in danger.",
+      "Never visit grandmother.",
+      "Stand up in a canoe."
+     ],
+     "correct": 0,
+     "answer": "Keep calm in danger.",
+     "explanation": "“Calm heads save lives.”"
+    },
+    {
+     "prompt": "Draw the most exciting moment of the story.",
+     "answer": "A drawing of the danger on the river.",
+     "explanation": "Show the wind and the water.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Literature), p. 44, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Literature"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-E3",
+   "domain": "English Language and Literature",
+   "title": "A narrative essay: a journey I made",
+   "objective": "Write a narrative essay of about 60 words telling events in order.",
+   "course": "A narrative tells a story in the past. Plan it:\n• Introduction: when, where, who (“Last holiday, I travelled to Ebolowa with my uncle.”).\n• Body: events in order with first, then, after that, suddenly.\n• Conclusion: how it ended and how you felt.\nUse past verbs: travelled, saw, arrived, ate.",
+   "model": "The adult tells a short journey aloud, raising a finger for each event, then writes the introduction.",
+   "guided": "Plan your story with four boxes (when/where/who, event 1, event 2, the end). Write it in about 60 words.",
+   "exercise": "Which tense do we mostly use in a narrative?",
+   "answer": "The past tense.",
+   "accept": [
+    "the past",
+    "past",
+    "past tense",
+    "the past tense",
+    "simple past",
+    "The past tense"
+   ],
+   "remediation": "Tell the story orally first, then write one sentence per box.",
+   "transfer": "Write about a journey of a family member after asking him or her about it.",
+   "materials": "Paper, a plan with four boxes.",
+   "practice": [
+    {
+     "prompt": "Put the connecting words in a logical order.",
+     "type": "order",
+     "items": [
+      "First",
+      "Then",
+      "After that",
+      "Finally"
+     ],
+     "answer": "First, Then, After that, Finally.",
+     "explanation": "These words show the order of events."
+    },
+    {
+     "prompt": "Complete with the past.",
+     "type": "gaps",
+     "text": "We [[arrived]] at noon and we [[ate]] rice.",
+     "answer": "arrived, ate.",
+     "explanation": "arrive → arrived; eat → ate."
+    },
+    {
+     "prompt": "Write your narrative essay: a journey I made.",
+     "answer": "A narrative of about 60 words with events in order.",
+     "explanation": "Use past verbs and connecting words.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-E4",
+   "domain": "English Language and Literature",
+   "title": "Prepositions of location, direction, time and relationship",
+   "objective": "Use prepositions of location, direction, time and relationship correctly in sentences.",
+   "course": "Location: in, on, under, beside, between, behind, in front of. Direction: to, from, into, out of, across, along, towards. Time: at (7 o’clock), on (Monday), in (May, the morning), before, after, during. Relationship: with, without, for, about.\n“The bus left from Yaoundé at 6 a.m. and drove along the highway towards Douala with forty passengers.”",
+   "model": "The adult describes a trip with gestures: “We walked across the bridge, towards the market, after breakfast.”",
+   "guided": "Describe a picture of a motor park using five prepositions. Complete sentences with at, on and in.",
+   "exercise": "Complete: The bus leaves … Monday.",
+   "answer": "on",
+   "accept": [
+    "on",
+    "The bus leaves on Monday"
+   ],
+   "remediation": "Learn at/on/in with clock, days and months first.",
+   "transfer": "Explain the way from your house to school using direction prepositions.",
+   "materials": "Picture of a motor park.",
+   "practice": [
+    {
+     "prompt": "Complete with at, on or in.",
+     "type": "gaps",
+     "text": "We travel [[on]] Friday [[at]] 6 a.m. [[in]] December.",
+     "answer": "on, at, in.",
+     "explanation": "on + day; at + clock time; in + month."
+    },
+    {
+     "prompt": "Match each preposition with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "across",
+       "direction"
+      ],
+      [
+       "under",
+       "location"
+      ],
+      [
+       "during",
+       "time"
+      ]
+     ],
+     "answer": "across: direction; under: location; during: time.",
+     "explanation": "Prepositions show different relations."
+    },
+    {
+     "prompt": "Which preposition fits: She travelled … her brother.",
+     "type": "mcq",
+     "choices": [
+      "with",
+      "under",
+      "at"
+     ],
+     "correct": 0,
+     "answer": "with",
+     "explanation": "“with” shows relationship."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-M1",
+   "domain": "Mathematics",
+   "title": "The number line: positive and negative numbers",
+   "objective": "Locate positive and negative numbers on a number line and solve simple problems.",
+   "course": "Numbers below zero are negative: −1, −2, −3. They are on the left of 0 on the number line. Positive numbers are on the right.\nWe use negative numbers for floors under the ground (−1 = basement), temperatures below zero, or a debt.\nOn the line, the number on the right is always greater: −2 > −5.",
+   "model": "The adult draws a number line from −10 to 40 and shows a lift going from floor 3 down to floor −1: 4 floors.",
+   "guided": "Draw a number line from −10 to 40. Place ten numbers. Solve lift and temperature problems by counting jumps.",
+   "exercise": "Which is greater: −3 or −7?",
+   "answer": "−3",
+   "accept": [
+    "-3",
+    "−3",
+    "minus 3",
+    "negative 3"
+   ],
+   "remediation": "Use a thermometer picture to see numbers below zero.",
+   "transfer": "Look for negative numbers in a building lift or on a weather map.",
+   "materials": "Number line drawn on the floor.",
+   "practice": [
+    {
+     "prompt": "A bus station has a car park on floor −2. You go up 5 floors. Which floor?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "−2 + 5 = 3."
+    },
+    {
+     "prompt": "On the number line, where are negative numbers?",
+     "type": "mcq",
+     "choices": [
+      "on the left of 0",
+      "on the right of 0",
+      "above 40"
+     ],
+     "correct": 0,
+     "answer": "on the left of 0",
+     "explanation": "They are smaller than 0."
+    },
+    {
+     "prompt": "How many jumps from −4 to 6?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "4 jumps to 0, then 6 more."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-M2",
+   "domain": "Mathematics",
+   "title": "Time: a.m., p.m. and a bus timetable",
+   "objective": "Tell time using a.m. and p.m., quarter to, quarter past and half past, and use a timetable.",
+   "course": "a.m. = from midnight to midday; p.m. = from midday to midnight. 7:00 a.m. is in the morning; 7:00 p.m. is in the evening.\n7:15 = quarter past seven; 7:30 = half past seven; 7:45 = quarter to eight.\nDuration: a bus leaving at 8:30 a.m. and arriving at 11:00 a.m. travels for 2 hours 30 minutes.",
+   "model": "The adult reads a bus timetable: “Buea 6:45 a.m., Kumba 8:15 a.m.” and calculates the journey: 1 h 30 min.",
+   "guided": "Read a timetable of four buses. Write departure, arrival and duration. Set times on a clock face.",
+   "exercise": "A bus leaves at 9:15 a.m. and arrives at 11:45 a.m. How long is the journey?",
+   "answer": "2 hours 30 minutes",
+   "accept": [
+    "2 h 30 min",
+    "2 hours 30 minutes",
+    "2h30",
+    "two and a half hours",
+    "2 and a half hours",
+    "2.5 hours"
+   ],
+   "remediation": "Count the hours first, then the minutes.",
+   "transfer": "Note the times of your family’s activities with a.m. and p.m.",
+   "materials": "Clock face, a timetable.",
+   "practice": [
+    {
+     "prompt": "Quarter to five is the same as…",
+     "type": "mcq",
+     "choices": [
+      "4:45",
+      "5:15",
+      "5:45"
+     ],
+     "correct": 0,
+     "answer": "4:45",
+     "explanation": "15 minutes before 5:00."
+    },
+    {
+     "prompt": "How many minutes from 10:20 to 11:00?",
+     "type": "number",
+     "answer": 40,
+     "explanation": "60 − 20 = 40."
+    },
+    {
+     "prompt": "Match each activity with a.m. or p.m.",
+     "type": "match",
+     "pairs": [
+      [
+       "breakfast at 7:00",
+       "a.m."
+      ],
+      [
+       "supper at 7:00",
+       "p.m."
+      ]
+     ],
+     "answer": "breakfast: a.m.; supper: p.m.",
+     "explanation": "a.m. before midday; p.m. after."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-M3",
+   "domain": "Mathematics",
+   "title": "Capacity: ml, cl, dl and litres for the journey",
+   "objective": "Establish the relationship between ml, cl, dl and l and convert between them.",
+   "course": "1 l = 10 dl = 100 cl = 1 000 ml. A small water bottle often holds 50 cl = 500 ml; a big one 1.5 l = 150 cl.\nTo convert l into ml, multiply by 1 000; ml into l, divide by 1 000.",
+   "model": "The adult pours a 1 l bottle into 4 glasses of 25 cl each.",
+   "guided": "Read the capacity on five bottles and containers. Convert each into ml and cl.",
+   "exercise": "How many millilitres are there in 2 l?",
+   "answer": "2 000",
+   "accept": [
+    "2000",
+    "2 000",
+    "2000 ml",
+    "2 000 ml"
+   ],
+   "remediation": "Fill a 1 l bottle with 10 cups of 10 cl.",
+   "transfer": "Calculate how much water your family needs for a trip.",
+   "materials": "Bottles and containers with labels.",
+   "practice": [
+    {
+     "prompt": "How many 50 cl bottles fill 3 l?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "3 l = 300 cl; 300 ÷ 50 = 6."
+    },
+    {
+     "prompt": "Match the equal capacities.",
+     "type": "match",
+     "pairs": [
+      [
+       "1 l",
+       "100 cl"
+      ],
+      [
+       "1 dl",
+       "10 cl"
+      ],
+      [
+       "1 cl",
+       "10 ml"
+      ]
+     ],
+     "answer": "100 cl; 10 cl; 10 ml.",
+     "explanation": "These are capacity relations."
+    },
+    {
+     "prompt": "Which holds more?",
+     "type": "mcq",
+     "choices": [
+      "1.5 l",
+      "100 cl",
+      "900 ml"
+     ],
+     "correct": 0,
+     "answer": "1.5 l",
+     "explanation": "1.5 l = 150 cl, more than 100 cl or 90 cl."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-M4",
+   "domain": "Mathematics",
+   "title": "3-D shapes: faces, edges and vertices of luggage and buildings",
+   "objective": "Identify 3-D shapes and count their faces, edges and vertices.",
+   "course": "Cube: 6 square faces, 12 edges, 8 vertices (a die). Cuboid: 6 rectangular faces, 12 edges, 8 vertices (a suitcase, a box). Cylinder: 2 circular faces and 1 curved face (a tin). Cone: 1 circular face, 1 vertex. Sphere: 1 curved face (a ball). Square-based pyramid: 5 faces, 8 edges, 5 vertices.",
+   "model": "The adult holds a suitcase and counts its faces, edges and vertices with the children.",
+   "guided": "Collect five objects with different shapes. Count faces, edges and vertices and fill a table.",
+   "exercise": "How many vertices does a cuboid have?",
+   "answer": "8",
+   "accept": [
+    "8",
+    "eight"
+   ],
+   "remediation": "Mark each counted edge with a small piece of tape.",
+   "transfer": "Find a cylinder, a cuboid and a sphere at home.",
+   "materials": "Boxes, tins, a ball, a die.",
+   "practice": [
+    {
+     "prompt": "Match each object with its shape.",
+     "type": "match",
+     "pairs": [
+      [
+       "a tin of milk",
+       "cylinder"
+      ],
+      [
+       "a suitcase",
+       "cuboid"
+      ],
+      [
+       "a football",
+       "sphere"
+      ]
+     ],
+     "answer": "tin: cylinder; suitcase: cuboid; ball: sphere.",
+     "explanation": "Objects have shapes."
+    },
+    {
+     "prompt": "How many faces does a cube have?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "6 square faces."
+    },
+    {
+     "prompt": "Which shape has one vertex and one circular face?",
+     "type": "mcq",
+     "choices": [
+      "a cone",
+      "a cube",
+      "a sphere"
+     ],
+     "correct": 0,
+     "answer": "a cone",
+     "explanation": "A cone has a point and a circle."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  }
+ ]
+}

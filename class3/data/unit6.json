@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 3 are written (lots A5a and A5b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–91; Class 3 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -546,6 +546,579 @@
    },
    "competencies": [
     "Statistics and Graphs"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-S",
+   "domain": "Science and Technology",
+   "title": "Water-borne, insect-borne and air-borne diseases",
+   "objective": "Relate symptoms to some common diseases, say how they spread and how to prevent them, including by vaccination.",
+   "course": "Some diseases spread through dirty water or food (cholera, typhoid, diarrhoea), through insects (malaria by mosquitoes), or through the air (tuberculosis, measles, colds).\nWe prevent them: drink clean water, wash hands, cook food well, sleep under a treated net, cover the mouth when coughing, and get vaccinated. Vaccines protect the body before the disease comes.",
+   "model": "The adult reads a child health card: “Vaccinated against measles and polio. Next appointment: …”",
+   "guided": "Make a table with three columns (water, insects, air) and place diseases and prevention measures in it.",
+   "exercise": "How does malaria spread?",
+   "answer": "Through the bite of a mosquito.",
+   "accept": [
+    "mosquito",
+    "by mosquitoes",
+    "through mosquitoes",
+    "mosquito bite",
+    "Through the bite of a mosquito"
+   ],
+   "remediation": "Start with one disease for each column.",
+   "transfer": "Check your health card with your parents and see which vaccines you received.",
+   "materials": "Pictures, a child health card (with an adult).",
+   "practice": [
+    {
+     "prompt": "Match each disease with how it spreads.",
+     "type": "match",
+     "pairs": [
+      [
+       "cholera",
+       "dirty water"
+      ],
+      [
+       "malaria",
+       "mosquitoes"
+      ],
+      [
+       "tuberculosis",
+       "air"
+      ]
+     ],
+     "answer": "cholera: water; malaria: mosquitoes; tuberculosis: air.",
+     "explanation": "Diseases spread in different ways."
+    },
+    {
+     "prompt": "What does a vaccine do?",
+     "type": "mcq",
+     "choices": [
+      "protects the body before the disease comes",
+      "cures a broken leg",
+      "makes us taller"
+     ],
+     "correct": 0,
+     "answer": "protects the body before the disease comes",
+     "explanation": "Vaccines prepare the body to fight a disease."
+    },
+    {
+     "prompt": "Name one way to prevent water-borne diseases.",
+     "answer": "Drink clean (boiled or treated) water.",
+     "accept": [
+      "drink clean water",
+      "boil water",
+      "wash hands",
+      "Drink clean (boiled or treated) water"
+     ],
+     "explanation": "Clean water and hygiene prevent them."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: diseases, prevention and vaccination), p. 55, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: diseases, prevention and vaccination"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-F",
+   "domain": "Français",
+   "title": "J’ai mal à la tête, j’ai froid",
+   "objective": "Exprimer une sensation, un sentiment ou une douleur.",
+   "course": "Pour dire une douleur : « J’ai mal à la tête. » « J’ai mal au ventre. » « J’ai mal aux dents. »\nPour dire une sensation : « J’ai froid. » « J’ai chaud. » « J’ai faim. » « J’ai soif. »\nPour dire un sentiment : « Je suis content. » « Je suis triste. » « Je suis fâché. »",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "J’ai mal à la tête.\nJ’ai soif.\nJe suis content."
+   },
+   "model": "Chez l’infirmière, Enow dit : « Bonjour, madame. J’ai mal au ventre et j’ai chaud. »",
+   "guided": "Jeu de rôle : l’un est l’infirmier, l’autre le malade. Le malade dit où il a mal.",
+   "exercise": "Tu veux boire de l’eau. Que dis-tu ?",
+   "answer": "J’ai soif.",
+   "accept": [
+    "J’ai soif",
+    "J'ai soif",
+    "soif"
+   ],
+   "remediation": "Montre une partie du corps et dis « J’ai mal à… ».",
+   "transfer": "Dis en français comment tu te sens ce soir.",
+   "materials": "Images de visages et du corps.",
+   "practice": [
+    {
+     "prompt": "Relie la phrase et sa traduction.",
+     "type": "match",
+     "pairs": [
+      [
+       "J’ai faim.",
+       "I am hungry."
+      ],
+      [
+       "J’ai froid.",
+       "I am cold."
+      ],
+      [
+       "Je suis triste.",
+       "I am sad."
+      ]
+     ],
+     "answer": "faim : hungry ; froid : cold ; triste : sad.",
+     "explanation": "Avec faim, soif, froid, chaud, on dit « j’ai »."
+    },
+    {
+     "prompt": "Complète.",
+     "type": "gaps",
+     "text": "J’ai mal [[à la]] tête. J’ai mal [[au]] ventre.",
+     "answer": "à la tête ; au ventre.",
+     "explanation": "à la + nom féminin ; au + nom masculin."
+    },
+    {
+     "prompt": "Quelle phrase dit un sentiment ?",
+     "type": "mcq",
+     "choices": [
+      "Je suis content.",
+      "J’ai mal aux dents.",
+      "J’ai soif."
+     ],
+     "correct": 0,
+     "answer": "Je suis content.",
+     "explanation": "« content » est un sentiment."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : expression des sensations), p. 62, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : expression des sensations"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-C",
+   "domain": "Social Studies",
+   "title": "WHO, UNICEF and WFP: who helps our health?",
+   "objective": "Identify some international institutions and their work for children and health.",
+   "course": "Some international organisations help countries: WHO (World Health Organization) works for health and vaccination; UNICEF helps children (health, education, protection); WFP (World Food Programme) gives food in hard times; UNESCO works for education and culture. Local NGOs also help communities.",
+   "model": "At the health centre, a poster says that the vaccination campaign is supported by WHO and UNICEF.",
+   "guided": "Match each organisation with its work. Find a poster or a sign with one of these names in your town.",
+   "exercise": "Which organisation works mainly for health?",
+   "answer": "WHO.",
+   "accept": [
+    "WHO",
+    "the WHO",
+    "World Health Organization"
+   ],
+   "remediation": "Learn two names first: WHO for health, UNICEF for children.",
+   "transfer": "Look for the logo of an organisation on a health card or a poster.",
+   "materials": "Posters or pictures (logos described by the adult).",
+   "practice": [
+    {
+     "prompt": "Match each organisation with its work.",
+     "type": "match",
+     "pairs": [
+      [
+       "WHO",
+       "health"
+      ],
+      [
+       "UNICEF",
+       "children"
+      ],
+      [
+       "WFP",
+       "food"
+      ]
+     ],
+     "answer": "WHO: health; UNICEF: children; WFP: food.",
+     "explanation": "Each organisation has its field."
+    },
+    {
+     "prompt": "Which organisation works for education and culture?",
+     "type": "mcq",
+     "choices": [
+      "UNESCO",
+      "WFP",
+      "WHO"
+     ],
+     "correct": 0,
+     "answer": "UNESCO",
+     "explanation": "UNESCO works for education, science and culture."
+    },
+    {
+     "prompt": "What does WFP give in hard times?",
+     "answer": "Food.",
+     "accept": [
+      "food",
+      "Food"
+     ],
+     "explanation": "WFP is the World Food Programme."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Citizenship: national and international institutions), p. 73, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Citizenship: national and international institutions"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-V",
+   "domain": "Vocational Studies",
+   "title": "Keeping food and making fruit juice hygienically",
+   "objective": "Describe ways of conserving food and prepare a fruit juice hygienically.",
+   "course": "We conserve food so that it lasts longer: drying (maize, fish), smoking (fish, meat), frying, keeping cool. Spoiled food can make us sick.\nTo make a juice: wash hands, wash the fruits, use clean tools, squeeze or blend, add clean water, cover and drink it quickly.",
+   "model": "The adult prepares orange juice: washes hands and oranges, squeezes them into a clean jug and covers it.",
+   "guided": "Prepare a fruit juice with the adult following the hygiene rules. Name one food your family dries or smokes.",
+   "exercise": "Name one way to conserve fish.",
+   "answer": "Smoking or drying.",
+   "accept": [
+    "smoking",
+    "drying",
+    "smoke it",
+    "dry it",
+    "smoking or drying",
+    "Smoking or drying"
+   ],
+   "remediation": "Learn two ways of conserving food first: drying and smoking.",
+   "transfer": "Make a juice for your family and explain the hygiene rules.",
+   "materials": "Fruits, a clean jug, a squeezer, clean water.",
+   "practice": [
+    {
+     "prompt": "Put the steps of making a juice in order.",
+     "type": "order",
+     "items": [
+      "Wash your hands.",
+      "Wash the fruits.",
+      "Squeeze the fruits.",
+      "Cover the jug."
+     ],
+     "answer": "hands, fruits, squeeze, cover.",
+     "explanation": "Hygiene comes first."
+    },
+    {
+     "prompt": "Which food is often dried in the sun?",
+     "type": "mcq",
+     "choices": [
+      "maize",
+      "ice cream",
+      "fresh milk"
+     ],
+     "correct": 0,
+     "answer": "maize",
+     "explanation": "Maize is dried to keep it."
+    },
+    {
+     "prompt": "Why must we conserve food well?",
+     "answer": "So that it does not spoil and make us sick.",
+     "explanation": "Spoiled food is dangerous."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Home Economics: food conservation and fruit juice), p. 78, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Home Economics: food conservation and fruit juice"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-A",
+   "domain": "Arts",
+   "title": "Traditional and modern dance steps",
+   "objective": "Identify dance steps, dance following a rhythm and appreciate the dances of different peoples.",
+   "course": "Each people has traditional dances for ceremonies (birth, harvest, enthronement) with costumes and instruments. Modern dances are danced at parties and on radio or TV music.\nTo dance well: listen to the rhythm, start with simple steps (step-together, side-to-side), then add arm movements. We respect the meaning of traditional dances.",
+   "model": "The adult shows a step-together to the right and to the left, following a drum beat.",
+   "guided": "Learn four steps following a drum. Ask an elder about one traditional dance of your area and when it is danced.",
+   "exercise": "When are traditional dances often danced?",
+   "answer": "During ceremonies.",
+   "accept": [
+    "during ceremonies",
+    "ceremonies",
+    "at ceremonies",
+    "at festivals",
+    "During ceremonies"
+   ],
+   "remediation": "Clap the rhythm before moving the feet.",
+   "transfer": "Dance the steps with your family at home.",
+   "materials": "A drum or recorded music, open space.",
+   "practice": [
+    {
+     "prompt": "Put the dance steps in order.",
+     "type": "order",
+     "items": [
+      "Step right.",
+      "Bring the left foot.",
+      "Step left.",
+      "Bring the right foot."
+     ],
+     "answer": "right, bring left, left, bring right.",
+     "explanation": "This is a step-together."
+    },
+    {
+     "prompt": "What do we listen to before dancing?",
+     "type": "mcq",
+     "choices": [
+      "the rhythm",
+      "the wind",
+      "nothing"
+     ],
+     "correct": 0,
+     "answer": "the rhythm",
+     "explanation": "Steps follow the rhythm."
+    },
+    {
+     "prompt": "Name a ceremony with traditional dance in your area.",
+     "answer": "For example: a harvest festival or an enthronement.",
+     "explanation": "Many ceremonies have dances."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: traditional and modern dance), p. 82, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: traditional and modern dance"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-P",
+   "domain": "Physical Education and Sports",
+   "title": "Hopscotch and galloping games",
+   "objective": "Hop, gallop and play hopscotch following the rules.",
+   "course": "Hopscotch: draw squares numbered 1 to 8 on the ground. Throw a stone into square 1, hop over it on one foot, go to the end and come back, pick up the stone without putting the other foot down.\nGalloping: one foot leads, the other follows, like a horse.",
+   "model": "The adult draws the hopscotch and plays one turn while counting the squares.",
+   "guided": "Draw a hopscotch and play with friends, taking turns. Gallop around a circle.",
+   "exercise": "On how many feet do we hop?",
+   "answer": "One.",
+   "accept": [
+    "one",
+    "1",
+    "one foot",
+    "One"
+   ],
+   "remediation": "Hop on one foot five times before playing.",
+   "transfer": "Teach the hopscotch game to a younger child.",
+   "materials": "Chalk or a stick, a flat stone.",
+   "practice": [
+    {
+     "prompt": "The stone is in square 5. How many squares before it?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "Squares 1, 2, 3 and 4."
+    },
+    {
+     "prompt": "Draw a hopscotch with eight numbered squares.",
+     "answer": "A hopscotch with squares 1 to 8.",
+     "explanation": "Number the squares in order.",
+     "ink": "libre"
+    },
+    {
+     "prompt": "What do we do when it is not our turn?",
+     "type": "mcq",
+     "choices": [
+      "wait and watch",
+      "push the player",
+      "take the stone"
+     ],
+     "correct": 0,
+     "answer": "wait and watch",
+     "explanation": "We take turns."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Sports: games and hopscotch), p. 83, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sports: games and hopscotch"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-N",
+   "domain": "National Languages and Cultures",
+   "title": "Telling a folktale",
+   "objective": "Listen to and retell a short folktale and draw its lesson.",
+   "course": "Folktales are old stories told by elders, often at night. Animals talk and act like people. Each tale has a lesson.\nTo tell a tale: begin with a traditional opening, tell the events in order, use your voice and gestures, end with the lesson.",
+   "support": {
+    "title": "A short original tale",
+    "text": "Tortoise wanted all the groundnuts of the village. At night, he took them and hid them in his shell. But the shell was too full, and he could not walk. In the morning, the villagers found him on the road. Tortoise was ashamed and gave back the groundnuts."
+   },
+   "model": "The adult tells the tale with a big voice for Tortoise and a sad voice at the end.",
+   "guided": "Retell the tale in your own words. Then ask an elder for a tale in the family language and retell it.",
+   "exercise": "What is the lesson of the tale?",
+   "answer": "For example: greed brings shame.",
+   "remediation": "Retell the tale with three pictures: taking, hiding, being found.",
+   "transfer": "Ask an elder for a tale of your people and tell it to a friend.",
+   "materials": "The tale, an elder.",
+   "practice": [
+    {
+     "prompt": "Put the events of the tale in order.",
+     "type": "order",
+     "items": [
+      "Tortoise took the groundnuts.",
+      "He hid them in his shell.",
+      "He could not walk.",
+      "He gave back the groundnuts."
+     ],
+     "answer": "took, hid, could not walk, gave back.",
+     "explanation": "Tell events in order."
+    },
+    {
+     "prompt": "Why could Tortoise not walk?",
+     "type": "mcq",
+     "choices": [
+      "His shell was too full.",
+      "He was tired.",
+      "It was raining."
+     ],
+     "correct": 0,
+     "answer": "His shell was too full.",
+     "explanation": "He took too much."
+    },
+    {
+     "prompt": "Listen to the tale.",
+     "listen": "Tortoise wanted all the groundnuts of the village. At night, he took them and hid them in his shell. But the shell was too full, and he could not walk. In the morning, the villagers found him on the road. Tortoise was ashamed and gave back the groundnuts.",
+     "answer": "The tale heard and retold.",
+     "explanation": "Retell it in your own words."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Oral traditions: stories, folktales and songs), p. 86, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Oral traditions: stories, folktales and songs"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-I",
+   "domain": "ICTs",
+   "title": "Using the mouse: click, double-click, drag",
+   "objective": "Describe the functions of the mouse and select and drag objects on the desktop.",
+   "course": "The mouse moves the pointer on the screen. Click (left button once) selects. Double-click opens. Right-click shows a menu. Drag: hold the left button, move, release.\nThe Start menu (bottom of the screen) opens programs; the desktop shows icons.",
+   "model": "The adult clicks the Start menu, double-clicks an icon to open it, then drags a file icon to a new place.",
+   "guided": "With an adult, open the Start menu, open Notepad with a double-click, then drag an icon on the desktop.",
+   "exercise": "What does a double-click do?",
+   "answer": "It opens a program or a file.",
+   "accept": [
+    "opens",
+    "it opens",
+    "open",
+    "it opens a program",
+    "opens a file",
+    "It opens a program or a file"
+   ],
+   "remediation": "Practise clicking on large icons first.",
+   "transfer": "Show an adult how to drag an icon.",
+   "materials": "A computer with a mouse (with an adult).",
+   "practice": [
+    {
+     "prompt": "Match each action with its result.",
+     "type": "match",
+     "pairs": [
+      [
+       "click",
+       "select"
+      ],
+      [
+       "double-click",
+       "open"
+      ],
+      [
+       "right-click",
+       "show a menu"
+      ]
+     ],
+     "answer": "click: select; double-click: open; right-click: menu.",
+     "explanation": "Mouse actions do different things."
+    },
+    {
+     "prompt": "Put the drag in order.",
+     "type": "order",
+     "items": [
+      "Point at the icon.",
+      "Hold the left button.",
+      "Move the mouse.",
+      "Release the button."
+     ],
+     "answer": "point, hold, move, release.",
+     "explanation": "This is how we drag."
+    },
+    {
+     "prompt": "Where is the Start menu usually?",
+     "type": "mcq",
+     "choices": [
+      "at the bottom of the screen",
+      "inside the keyboard",
+      "on the printer"
+     ],
+     "correct": 0,
+     "answer": "at the bottom of the screen",
+     "explanation": "It opens programs."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Functions of the mouse: start menu, desktop, select and drag), p. 91, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Functions of the mouse: start menu, desktop, select and drag"
    ]
   }
  ]

@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 3 are written (lots A5a and A5b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–91; Class 3 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -564,6 +564,579 @@
    },
    "competencies": [
     "Statistics and Graphs"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-S",
+   "domain": "Science and Technology",
+   "title": "Living and non-living things in the village",
+   "objective": "Compare living and non-living things using the characteristics of living things.",
+   "course": "Living things grow, feed, breathe, move, reproduce, respond to their surroundings and die: people, animals, plants.\nNon-living things do not do all of these: stones, water, a house, a car. Some non-living things move (a car) but they do not grow or reproduce.",
+   "model": "The adult compares a goat and a bicycle: “The goat eats, grows and has kids. The bicycle moves, but it does not eat or grow.”",
+   "guided": "Walk around the compound. List ten things and sort them into living and non-living, giving one reason each time.",
+   "exercise": "Is a tree living or non-living?",
+   "answer": "Living.",
+   "accept": [
+    "living",
+    "a living thing",
+    "Living"
+   ],
+   "remediation": "Use the questions: Does it grow? Does it feed? Does it reproduce?",
+   "transfer": "Care for one living thing at home (a plant or an animal) for a week.",
+   "materials": "A walk in the compound, paper.",
+   "practice": [
+    {
+     "prompt": "Which one is a living thing?",
+     "type": "mcq",
+     "choices": [
+      "a maize plant",
+      "a stone",
+      "a bucket"
+     ],
+     "correct": 0,
+     "answer": "a maize plant",
+     "explanation": "A maize plant grows, feeds and reproduces."
+    },
+    {
+     "prompt": "A car moves. Why is it non-living?",
+     "type": "mcq",
+     "choices": [
+      "It does not grow, feed or reproduce.",
+      "It is red.",
+      "It is big."
+     ],
+     "correct": 0,
+     "answer": "It does not grow, feed or reproduce.",
+     "explanation": "Moving is not enough to be alive."
+    },
+    {
+     "prompt": "Name two characteristics of living things.",
+     "answer": "For example: they grow and they feed.",
+     "explanation": "Grow, feed, breathe, move, reproduce, respond, die."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Environmental Science: living and non-living things in the community), p. 56, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Environmental Science: living and non-living things in the community"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-F",
+   "domain": "Français",
+   "title": "Décrire un lieu : le marché du village",
+   "objective": "Décrire un lieu, des objets et des personnes avec des adjectifs, des prépositions et les verbes être et avoir.",
+   "course": "Pour décrire : « Le marché est grand. Il y a beaucoup de monde. La vendeuse a un panier rouge. Les tomates sont sur la table. »\nAdjectifs : grand / petit, beau, propre / sale, rouge, vert. Prépositions : sur, sous, devant, derrière, à côté de.",
+   "support": {
+    "title": "Mots utiles",
+    "text": "grand, petit, beau, propre, rouge, vert\nsur, sous, devant, derrière, à côté de\nêtre : il est ; avoir : il a"
+   },
+   "model": "L’adulte décrit une image : « Devant le marché, il y a un taxi jaune. La vendeuse est souriante. Elle a des oranges. »",
+   "guided": "Décris une image du marché en quatre phrases avec un adjectif et une préposition dans chaque phrase.",
+   "exercise": "Complète : La vendeuse … un panier. (avoir)",
+   "answer": "a",
+   "accept": [
+    "a",
+    "La vendeuse a un panier"
+   ],
+   "remediation": "Commence par « Il y a… » avec des objets réels.",
+   "transfer": "Décris ta chambre en français en trois phrases.",
+   "materials": "Images d’un marché.",
+   "practice": [
+    {
+     "prompt": "Complète avec est ou a.",
+     "type": "gaps",
+     "text": "Le marché [[est]] grand. Le vendeur [[a]] des mangues.",
+     "answer": "est ; a.",
+     "explanation": "être : est ; avoir : a."
+    },
+    {
+     "prompt": "Les tomates sont … la table (on).",
+     "type": "mcq",
+     "choices": [
+      "sur",
+      "sous",
+      "derrière"
+     ],
+     "correct": 0,
+     "answer": "sur",
+     "explanation": "sur = on."
+    },
+    {
+     "prompt": "Relie les contraires.",
+     "type": "match",
+     "pairs": [
+      [
+       "grand",
+       "petit"
+      ],
+      [
+       "propre",
+       "sale"
+      ]
+     ],
+     "answer": "grand–petit ; propre–sale.",
+     "explanation": "Ce sont des contraires."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : descriptions), p. 61, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : descriptions"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-C",
+   "domain": "Social Studies",
+   "title": "Many peoples, one country",
+   "objective": "Name some ethnic groups of Cameroon and value living together in respect.",
+   "course": "Cameroon has more than two hundred ethnic groups, for example the Bamileke, Tikar, Ngemba, Beti, Bassa, Fulbe, Duala and many others. Each group has its language, its music, its food and its traditions.\nLiving together means respecting every group, never mocking someone’s language or origin, and learning from one another.",
+   "model": "In Manka’s class, there are pupils from many groups. On Culture Day, each one shows a dance, a dish or a song.",
+   "guided": "Find out the group of your family. Share one tradition (a dish, a song, a greeting) with the class.",
+   "exercise": "How many ethnic groups does Cameroon have, about?",
+   "answer": "More than two hundred.",
+   "accept": [
+    "more than two hundred",
+    "more than 200",
+    "over 200",
+    "200",
+    "More than two hundred"
+   ],
+   "remediation": "Talk about two groups that live in your area.",
+   "transfer": "Learn a greeting from a group different from yours.",
+   "materials": "A map of Cameroon, pictures of cultural events.",
+   "practice": [
+    {
+     "prompt": "Which attitude helps us live together?",
+     "type": "mcq",
+     "choices": [
+      "respecting every group",
+      "mocking other languages",
+      "refusing to play with others"
+     ],
+     "correct": 0,
+     "answer": "respecting every group",
+     "explanation": "Respect builds peace."
+    },
+    {
+     "prompt": "Match each part of culture with an example.",
+     "type": "match",
+     "pairs": [
+      [
+       "a language",
+       "a greeting"
+      ],
+      [
+       "food",
+       "a local dish"
+      ],
+      [
+       "music",
+       "a traditional dance"
+      ]
+     ],
+     "answer": "language: greeting; food: local dish; music: dance.",
+     "explanation": "Culture includes language, food, music and dance."
+    },
+    {
+     "prompt": "Name one ethnic group of Cameroon.",
+     "answer": "For example: Bassa, Beti, Fulbe, Tikar, Bamileke.",
+     "explanation": "There are many groups."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Human Geography: peoples of Cameroon), p. 72, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Human Geography: peoples of Cameroon"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-V",
+   "domain": "Vocational Studies",
+   "title": "Rearing poultry and pigs",
+   "objective": "Describe how to care for poultry and pigs: housing, feeding, water and cleanliness.",
+   "course": "Livestock farming means rearing animals. Poultry (hens, ducks) need a clean, dry coop, food (maize, bran) and clean water. Pigs need a sty with a dry floor, food and water, and shade.\nWe clean the houses of animals regularly, we separate sick animals and we wash our hands after touching animals.",
+   "model": "Nfor’s uncle shows his poultry: he changes the water every morning and cleans the coop on Saturdays.",
+   "guided": "Visit a farm or a compound with animals (with an adult). Write a care plan: food, water, cleaning.",
+   "exercise": "What do hens need every day?",
+   "answer": "Food and clean water.",
+   "accept": [
+    "food and water",
+    "food and clean water",
+    "water and food",
+    "Food and clean water"
+   ],
+   "remediation": "Start with one animal you know well.",
+   "transfer": "Help to feed an animal at home and wash your hands afterwards.",
+   "materials": "Pictures of a coop and a sty.",
+   "practice": [
+    {
+     "prompt": "Match each animal with its house.",
+     "type": "match",
+     "pairs": [
+      [
+       "hens",
+       "a coop"
+      ],
+      [
+       "pigs",
+       "a sty"
+      ],
+      [
+       "goats",
+       "a pen"
+      ]
+     ],
+     "answer": "hens: coop; pigs: sty; goats: pen.",
+     "explanation": "Each animal has its shelter."
+    },
+    {
+     "prompt": "What do we do with a sick animal?",
+     "type": "mcq",
+     "choices": [
+      "separate it from the others",
+      "leave it with the others",
+      "nothing"
+     ],
+     "correct": 0,
+     "answer": "separate it from the others",
+     "explanation": "Separation prevents the disease from spreading."
+    },
+    {
+     "prompt": "What do we do after touching animals?",
+     "answer": "Wash our hands with soap.",
+     "accept": [
+      "wash our hands",
+      "wash hands",
+      "wash our hands with soap",
+      "Wash our hands with soap"
+     ],
+     "explanation": "Hands can carry germs."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Agro-Pastoral Farming: livestock farming), p. 80, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Agro-Pastoral Farming: livestock farming"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-A",
+   "domain": "Arts",
+   "title": "Drawing the plan of our compound",
+   "objective": "Say what an architect does and draw a miniature house plan.",
+   "course": "An architect designs buildings. He draws plans before builders start. A plan shows a building seen from above: walls are lines, doors are gaps, rooms have names.\nArchitects use a ruler, a pencil, an eraser, squared paper and a measuring tape.",
+   "model": "The adult draws a plan of a two-room house on squared paper: “This is the parlour, this is the bedroom, here is the door.”",
+   "guided": "Draw the plan of your house or compound seen from above. Name each room.",
+   "exercise": "What does an architect draw before builders start?",
+   "answer": "The plan of the building.",
+   "accept": [
+    "the plan",
+    "a plan",
+    "plans",
+    "house plans",
+    "the plan of the building",
+    "The plan of the building"
+   ],
+   "remediation": "Draw the plan of your classroom first: four walls and a door.",
+   "transfer": "Show your plan to your family and ask them to find each room.",
+   "materials": "Squared paper, ruler, pencil, eraser.",
+   "practice": [
+    {
+     "prompt": "Draw the plan of a house with two rooms and a door.",
+     "answer": "A simple plan seen from above.",
+     "explanation": "Walls are lines; the door is a gap.",
+     "ink": "maison"
+    },
+    {
+     "prompt": "A plan shows a building seen from…",
+     "type": "mcq",
+     "choices": [
+      "above",
+      "below",
+      "inside a cupboard"
+     ],
+     "correct": 0,
+     "answer": "above",
+     "explanation": "A plan is a view from above."
+    },
+    {
+     "prompt": "Match each tool with its use.",
+     "type": "match",
+     "pairs": [
+      [
+       "a ruler",
+       "draw straight lines"
+      ],
+      [
+       "an eraser",
+       "remove mistakes"
+      ],
+      [
+       "a measuring tape",
+       "measure the land"
+      ]
+     ],
+     "answer": "ruler: lines; eraser: mistakes; tape: measuring.",
+     "explanation": "The architect uses these tools."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: architecture and house plans), p. 81, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: architecture and house plans"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-P",
+   "domain": "Physical Education and Sports",
+   "title": "Sprinting 30 metres",
+   "objective": "Start, run and finish a sprint of 20 to 40 metres with correct posture.",
+   "course": "A sprint is a short, fast race. Start: “On your marks, set, go!” Run on the front of the feet, move the arms forward and back, look straight ahead. Run past the finish line before slowing down.",
+   "model": "The adult shows the start position and runs 30 m, moving the arms strongly.",
+   "guided": "Mark 30 m with stones. Do three sprints with rest between them. A partner times you by counting.",
+   "exercise": "What does the starter say before “go”?",
+   "answer": "On your marks, set.",
+   "accept": [
+    "on your marks, set",
+    "on your marks set",
+    "set",
+    "on your marks",
+    "On your marks, set"
+   ],
+   "remediation": "Run 20 m first, focusing on the arms.",
+   "transfer": "Organise a fair sprint race with friends.",
+   "materials": "Stones or sticks to mark the track.",
+   "practice": [
+    {
+     "prompt": "Put the start in order.",
+     "type": "order",
+     "items": [
+      "On your marks.",
+      "Set.",
+      "Go!"
+     ],
+     "answer": "On your marks, set, go!",
+     "explanation": "This is the start of a race."
+    },
+    {
+     "prompt": "Where do we look while sprinting?",
+     "type": "mcq",
+     "choices": [
+      "straight ahead",
+      "behind us",
+      "at the sky"
+     ],
+     "correct": 0,
+     "answer": "straight ahead",
+     "explanation": "Looking ahead keeps us straight."
+    },
+    {
+     "prompt": "A track has 40 m. You ran 30 m. How many metres are left?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "40 − 30 = 10."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Athletics: sprints of 20 to 40 metres), p. 83, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Athletics: sprints of 20 to 40 metres"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-N",
+   "domain": "National Languages and Cultures",
+   "title": "The palace and the traditional ruler",
+   "objective": "Identify elements of culture related to the palace, the traditional ruler and traditional dressing.",
+   "course": "In many communities, the traditional ruler (Fon, Chief, Lamido…) lives in a palace. He has notables and guards. He keeps traditions, settles disputes and leads ceremonies.\nTraditional dressing differs from people to people: special cloths, caps, beads. We greet the ruler with respect, following local customs.",
+   "model": "An elder describes the palace of the area: the entrance, the meeting place, the traditional dress of the ruler.",
+   "guided": "Ask an elder about the traditional ruler of your area. Draw a traditional dress of your people.",
+   "exercise": "Name one role of a traditional ruler.",
+   "answer": "For example: he settles disputes or leads ceremonies.",
+   "remediation": "Look at pictures of a palace and a ruler with an adult.",
+   "transfer": "Describe your traditional dress in the family language.",
+   "materials": "Pictures, an elder.",
+   "practice": [
+    {
+     "prompt": "Match the words.",
+     "type": "match",
+     "pairs": [
+      [
+       "the palace",
+       "where the ruler lives"
+      ],
+      [
+       "notables",
+       "help the ruler"
+      ],
+      [
+       "traditional dress",
+       "clothes for ceremonies"
+      ]
+     ],
+     "answer": "palace: home of the ruler; notables: helpers; dress: ceremonies.",
+     "explanation": "These are elements of culture."
+    },
+    {
+     "prompt": "Draw a traditional dress of your people.",
+     "answer": "A drawing of a traditional dress.",
+     "explanation": "Show the colours and decorations.",
+     "ink": "libre"
+    },
+    {
+     "prompt": "How do we greet a traditional ruler?",
+     "type": "mcq",
+     "choices": [
+      "with respect, following local customs",
+      "by shouting his name",
+      "by turning our back"
+     ],
+     "correct": 0,
+     "answer": "with respect, following local customs",
+     "explanation": "Customs show respect."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Elements of culture: palace, traditional ruler, dressing, marriage), p. 85, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Elements of culture: palace, traditional ruler, dressing, marriage"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-I",
+   "domain": "ICTs",
+   "title": "Desktop, laptop and tablet",
+   "objective": "Distinguish a desktop computer, a laptop and a tablet and say which suits a need.",
+   "course": "A desktop computer has separate parts: monitor, keyboard, mouse, system unit. A laptop has all its parts in one folding case and a battery. A tablet is a flat screen we touch, with the keyboard on the screen. A phone is a very small computer too.\nTo choose: a laptop for typing on the move, a tablet for reading and photos, a desktop for an office.",
+   "model": "The adult shows pictures of the three: “The laptop folds; the tablet has a touch screen.”",
+   "guided": "Compare the three devices in a table: parts, weight, battery, use. Advise a teacher which one to buy for typing reports.",
+   "exercise": "Which device has a touch screen and no separate keyboard?",
+   "answer": "A tablet.",
+   "accept": [
+    "a tablet",
+    "tablet",
+    "the tablet",
+    "A tablet"
+   ],
+   "remediation": "Compare only laptop and desktop first.",
+   "transfer": "Find out which type of computer is used in your school or family.",
+   "materials": "Pictures of devices.",
+   "practice": [
+    {
+     "prompt": "Match each device with its feature.",
+     "type": "match",
+     "pairs": [
+      [
+       "a laptop",
+       "folds and has a battery"
+      ],
+      [
+       "a tablet",
+       "touch screen"
+      ],
+      [
+       "a desktop",
+       "separate parts on a table"
+      ]
+     ],
+     "answer": "laptop: folds; tablet: touch; desktop: separate parts.",
+     "explanation": "Each device is different."
+    },
+    {
+     "prompt": "A trader travels and types a lot. Which device fits best?",
+     "type": "mcq",
+     "choices": [
+      "a laptop",
+      "a desktop",
+      "a printer"
+     ],
+     "correct": 0,
+     "answer": "a laptop",
+     "explanation": "A laptop is portable and has a keyboard."
+    },
+    {
+     "prompt": "Name one device with in-built components.",
+     "answer": "For example: a laptop or a tablet.",
+     "explanation": "All parts are in one case."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Computers with in-built components: tablets, laptops, PDAs), p. 89, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Computers with in-built components: tablets, laptops, PDAs"
    ]
   }
  ]

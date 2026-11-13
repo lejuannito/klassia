@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 3 are written (lots A5a and A5b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–91; Class 3 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -524,6 +524,585 @@
    },
    "competencies": [
     "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-S",
+   "domain": "Science and Technology",
+   "title": "Tools, machines and building a house",
+   "objective": "Identify tools and machines of local trades and the main materials and steps of building a house.",
+   "course": "Each trade has tools: farming (hoe, cutlass, wheelbarrow), carpentry (saw, plane, hammer), tailoring (sewing machine, scissors), bricklaying (trowel, spirit level), fishing (net, hook, canoe).\nTo build a house: choose the site, dig the foundation, lay blocks or bricks, put the roof, then doors, windows and plastering. Materials: sand, cement, gravel, blocks, wood, iron rods, roofing sheets.",
+   "model": "The adult describes a building site: “The mason lays the blocks with a trowel and checks with a spirit level that the wall is straight.”",
+   "guided": "Make a list of tools you can see in your quarter and the trade of each. Put the steps of building a house in order.",
+   "exercise": "Which tool checks that a wall is straight?",
+   "answer": "A spirit level.",
+   "accept": [
+    "a spirit level",
+    "spirit level",
+    "the spirit level",
+    "A spirit level"
+   ],
+   "remediation": "Match three tools with three trades first.",
+   "transfer": "Visit a building site with an adult (from a safe distance) and name three materials.",
+   "materials": "Pictures of tools and building sites.",
+   "practice": [
+    {
+     "prompt": "Put the steps of building a house in order.",
+     "type": "order",
+     "items": [
+      "Dig the foundation.",
+      "Lay the blocks.",
+      "Put the roof.",
+      "Fix doors and windows."
+     ],
+     "answer": "foundation, blocks, roof, doors and windows.",
+     "explanation": "We build from the ground up."
+    },
+    {
+     "prompt": "Match each tool with its trade.",
+     "type": "match",
+     "pairs": [
+      [
+       "trowel",
+       "bricklaying"
+      ],
+      [
+       "plane",
+       "carpentry"
+      ],
+      [
+       "net",
+       "fishing"
+      ]
+     ],
+     "answer": "trowel: bricklaying; plane: carpentry; net: fishing.",
+     "explanation": "Each trade has its tools."
+    },
+    {
+     "prompt": "Which material do we mix with sand and water to make mortar?",
+     "type": "mcq",
+     "choices": [
+      "cement",
+      "sugar",
+      "salt"
+     ],
+     "correct": 0,
+     "answer": "cement",
+     "explanation": "Cement, sand and water make mortar."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Technology and Engineering: tools, machines and construction), p. 58, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Technology and Engineering: tools, machines and construction"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-F",
+   "domain": "Français",
+   "title": "Les métiers : on coupe l’herbe avec une machette",
+   "objective": "Nommer des métiers et dire avec quel outil on travaille.",
+   "course": "Des métiers : le cultivateur, le commerçant, le forgeron, le couturier, le pêcheur, le menuisier.\nPour dire l’outil : « On coupe l’herbe avec une machette. » « Le couturier coud avec une machine à coudre. » « Le pêcheur attrape les poissons avec un filet. »",
+   "support": {
+    "title": "Mots utiles",
+    "text": "le cultivateur — la houe, la machette\nle couturier — la machine à coudre\nle pêcheur — le filet"
+   },
+   "model": "L’adulte mime : « Je suis cultivateur. Je laboure avec une houe. »",
+   "guided": "Mime un métier ; ton partenaire devine et dit l’outil avec « avec ».",
+   "exercise": "Avec quoi le pêcheur attrape-t-il les poissons ?",
+   "answer": "Avec un filet.",
+   "accept": [
+    "avec un filet",
+    "un filet",
+    "filet",
+    "Avec un filet"
+   ],
+   "remediation": "Travaille trois métiers avec des images.",
+   "transfer": "Dis en français le métier d’une personne de ta famille.",
+   "materials": "Images de métiers et d’outils.",
+   "practice": [
+    {
+     "prompt": "Relie le métier et l’outil.",
+     "type": "match",
+     "pairs": [
+      [
+       "le cultivateur",
+       "la houe"
+      ],
+      [
+       "le couturier",
+       "la machine à coudre"
+      ],
+      [
+       "le menuisier",
+       "la scie"
+      ]
+     ],
+     "answer": "cultivateur : houe ; couturier : machine à coudre ; menuisier : scie.",
+     "explanation": "Chaque métier a ses outils."
+    },
+    {
+     "prompt": "Complète.",
+     "type": "gaps",
+     "text": "On coupe l’herbe [[avec]] une machette.",
+     "answer": "avec",
+     "explanation": "« avec » = with."
+    },
+    {
+     "prompt": "Qui vend au marché ?",
+     "type": "mcq",
+     "choices": [
+      "le commerçant",
+      "le forgeron",
+      "le pêcheur"
+     ],
+     "correct": 0,
+     "answer": "le commerçant",
+     "explanation": "Le commerçant achète et vend."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : activités des hommes), p. 63, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : activités des hommes"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-C",
+   "domain": "Social Studies",
+   "title": "How people earn a living: farming, trading, fishing",
+   "objective": "Describe the main economic activities of the locality and their importance.",
+   "course": "Farming: people grow food crops (maize, cassava, plantain, beans) and cash crops (cocoa, coffee, tea, cotton), and rear animals (poultry, pigs, cattle).\nTrading: people buy and sell in markets and shops.\nFishing: people catch fish in the sea, rivers and lakes.\nThese activities feed the population and bring money to families and to the country.",
+   "model": "The adult explains: “In the West region, many farmers grow coffee. In Limbe, many people fish.”",
+   "guided": "Interview a family member about his or her work. Sort activities into farming, trading and fishing.",
+   "exercise": "Is cocoa a food crop or a cash crop?",
+   "answer": "A cash crop.",
+   "accept": [
+    "cash crop",
+    "a cash crop",
+    "A cash crop"
+   ],
+   "remediation": "Use pictures of crops and activities.",
+   "transfer": "At the market, find three products of farming and one of fishing.",
+   "materials": "Pictures of crops, markets and fishing.",
+   "practice": [
+    {
+     "prompt": "Match each product with its activity.",
+     "type": "match",
+     "pairs": [
+      [
+       "coffee",
+       "farming"
+      ],
+      [
+       "fish",
+       "fishing"
+      ],
+      [
+       "buying and selling",
+       "trading"
+      ]
+     ],
+     "answer": "coffee: farming; fish: fishing; buying and selling: trading.",
+     "explanation": "Each activity produces something."
+    },
+    {
+     "prompt": "Which is a food crop?",
+     "type": "mcq",
+     "choices": [
+      "cassava",
+      "cotton",
+      "cocoa"
+     ],
+     "correct": 0,
+     "answer": "cassava",
+     "explanation": "We eat cassava."
+    },
+    {
+     "prompt": "Why are these activities important?",
+     "answer": "They feed people and bring money.",
+     "explanation": "They feed the population and bring income."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Economic Geography: farming, trading and fishing), p. 72, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Economic Geography: farming, trading and fishing"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-V",
+   "domain": "Vocational Studies",
+   "title": "The toolbox of five craftsmen",
+   "objective": "Identify the tools of the moulder, carpenter, weaver, sculptor and painter, and use simple tools safely.",
+   "course": "The moulder uses clay, water and a board. The carpenter uses a saw, a hammer, a plane and sandpaper. The weaver uses raffia, a frame and a needle. The sculptor uses a chisel, a mallet and wood. The painter uses brushes, paints and a palette.\nCraftsmen keep their tools clean, sharp and in a box.",
+   "model": "The adult opens a toolbox and names each tool and its craftsman.",
+   "guided": "Sort pictures of tools into the five toolboxes. Sand a small piece of wood with sandpaper.",
+   "exercise": "Which craftsman uses a chisel and a mallet?",
+   "answer": "The sculptor.",
+   "accept": [
+    "the sculptor",
+    "sculptor",
+    "a sculptor",
+    "The sculptor"
+   ],
+   "remediation": "Start with the carpenter and the painter.",
+   "transfer": "Visit a craftsman with an adult and ask about his tools.",
+   "materials": "Pictures of tools; sandpaper and wood.",
+   "practice": [
+    {
+     "prompt": "Match each tool with its craftsman.",
+     "type": "match",
+     "pairs": [
+      [
+       "a brush",
+       "the painter"
+      ],
+      [
+       "raffia",
+       "the weaver"
+      ],
+      [
+       "a plane",
+       "the carpenter"
+      ]
+     ],
+     "answer": "brush: painter; raffia: weaver; plane: carpenter.",
+     "explanation": "Each craftsman has his tools."
+    },
+    {
+     "prompt": "What does sandpaper do?",
+     "type": "mcq",
+     "choices": [
+      "makes wood smooth",
+      "cuts metal",
+      "paints"
+     ],
+     "correct": 0,
+     "answer": "makes wood smooth",
+     "explanation": "Sandpaper smooths the wood."
+    },
+    {
+     "prompt": "Why do craftsmen keep tools in a box?",
+     "answer": "To keep them safe and find them easily.",
+     "explanation": "Tools stay clean and safe."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: the craftsman’s toolbox), p. 79, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: the craftsman’s toolbox"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-A",
+   "domain": "Arts",
+   "title": "Photography: recording events",
+   "objective": "Identify devices used in photography and take photos respectfully to record an event.",
+   "course": "We take photos with a camera, a mobile phone or a tablet. Photos record events: a birthday, a school day, a harvest.\nA good photo: the light comes from behind the photographer, the person or object is in the middle, we hold the device still. We always ask permission before taking a photo of someone.",
+   "model": "The adult takes a photo of a plant: the sun is behind, the plant is in the middle, the phone is still.",
+   "guided": "With an adult’s device, take three photos of an event at home (with permission). Choose the best one and say why.",
+   "exercise": "What do we do before taking a photo of someone?",
+   "answer": "Ask permission.",
+   "accept": [
+    "ask permission",
+    "we ask permission",
+    "ask for permission",
+    "Ask permission"
+   ],
+   "remediation": "Practise holding the device still with both hands.",
+   "transfer": "Make a small photo record of a family event with an adult.",
+   "materials": "A camera or phone (with an adult).",
+   "practice": [
+    {
+     "prompt": "Which device can take photos?",
+     "type": "mcq",
+     "choices": [
+      "a mobile phone",
+      "a radio",
+      "a calculator"
+     ],
+     "correct": 0,
+     "answer": "a mobile phone",
+     "explanation": "Phones have cameras."
+    },
+    {
+     "prompt": "Where should the light be for a good photo?",
+     "type": "mcq",
+     "choices": [
+      "behind the photographer",
+      "behind the person in the photo",
+      "nowhere"
+     ],
+     "correct": 0,
+     "answer": "behind the photographer",
+     "explanation": "The light must fall on the subject."
+    },
+    {
+     "prompt": "Draw the photo you would take of your school.",
+     "answer": "A drawing framed like a photo.",
+     "explanation": "Put the main subject in the middle.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: photography), p. 81, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: photography"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-P",
+   "domain": "Physical Education and Sports",
+   "title": "Long jump and rope jumping",
+   "objective": "Jump with a run-up, take off on one foot and land safely; jump rope in rhythm.",
+   "course": "Long jump: run up, take off on one foot, swing the arms forward, land on both feet in the sand and bend the knees.\nRope jumping: turn the rope, jump with both feet together, keep a regular rhythm.",
+   "model": "The adult runs, takes off from a line and lands in sand with bent knees.",
+   "guided": "Do five long jumps; a partner measures with steps. Jump rope ten times without stopping.",
+   "exercise": "How do we land in long jump?",
+   "answer": "On both feet with bent knees.",
+   "accept": [
+    "on both feet",
+    "both feet",
+    "with bent knees",
+    "on both feet with bent knees",
+    "On both feet with bent knees"
+   ],
+   "remediation": "Jump from standing before adding the run-up.",
+   "transfer": "Play rope jumping with friends and count together.",
+   "materials": "A sand pit or soft ground, a rope.",
+   "practice": [
+    {
+     "prompt": "Put the long jump in order.",
+     "type": "order",
+     "items": [
+      "Run up.",
+      "Take off on one foot.",
+      "Swing the arms.",
+      "Land on both feet."
+     ],
+     "answer": "run, take off, swing, land.",
+     "explanation": "These are the phases of the long jump."
+    },
+    {
+     "prompt": "Bih jumps 2 m, then 3 m. How many metres in all?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "2 + 3 = 5."
+    },
+    {
+     "prompt": "Why do we bend the knees when landing?",
+     "type": "mcq",
+     "choices": [
+      "to land softly and safely",
+      "to look tall",
+      "to stop breathing"
+     ],
+     "correct": 0,
+     "answer": "to land softly and safely",
+     "explanation": "Bent knees absorb the shock."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Athletics: jumps), p. 83, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Athletics: jumps"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-N",
+   "domain": "National Languages and Cultures",
+   "title": "Polite requests and responses in the family language",
+   "objective": "Use polite requests and responses, speak in turns and listen attentively in the family language.",
+   "course": "Every language has polite forms: to greet, to ask, to thank, to apologise, to answer an elder. In many cultures, we lower the voice, use a title (uncle, mama, papa) or bow slightly to show respect.\nWe listen attentively and do not interrupt.",
+   "model": "The adult shows how to ask an elder for water politely in the family language, and how to thank him.",
+   "guided": "With an adult, learn three polite forms in the family language: please, thank you, sorry. Use them during a role play.",
+   "exercise": "What do we do when an elder is speaking?",
+   "answer": "We listen and do not interrupt.",
+   "accept": [
+    "listen",
+    "we listen",
+    "listen and do not interrupt",
+    "we listen and do not interrupt",
+    "We listen and do not interrupt"
+   ],
+   "remediation": "Practise one polite form at a time.",
+   "transfer": "Use the polite forms with your elders all week.",
+   "materials": "An adult who speaks the language.",
+   "practice": [
+    {
+     "prompt": "Match the situation with the polite form.",
+     "type": "match",
+     "pairs": [
+      [
+       "You receive a gift.",
+       "thank you"
+      ],
+      [
+       "You ask for something.",
+       "please"
+      ],
+      [
+       "You make a mistake.",
+       "sorry"
+      ]
+     ],
+     "answer": "gift: thank you; asking: please; mistake: sorry.",
+     "explanation": "Say them in the family language with an adult."
+    },
+    {
+     "prompt": "Which behaviour is polite?",
+     "type": "mcq",
+     "choices": [
+      "speaking in turns",
+      "interrupting",
+      "shouting"
+     ],
+     "correct": 0,
+     "answer": "speaking in turns",
+     "explanation": "We speak one at a time."
+    },
+    {
+     "prompt": "Say “thank you” in the family language to someone at home.",
+     "answer": "Thank you said in the family language.",
+     "explanation": "Ask an adult to listen."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Polite forms: responses and requests), p. 86, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Polite forms: responses and requests"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-I",
+   "domain": "ICTs",
+   "title": "Computers at school, at the hospital and at the bank",
+   "objective": "Explain the uses of computers in school and in society and use them responsibly.",
+   "course": "At school, computers keep pupils’ marks, type examinations and help to learn. At the hospital they keep patients’ records. At the bank and the market they count money and print receipts. At home, they help to communicate.\nWe use computers responsibly: we ask permission, we do not break settings, we do not stay too long in front of the screen.",
+   "model": "The adult tells how the school secretary uses a computer to print report cards.",
+   "guided": "Make a poster: “Where are computers used?” with four places and one use for each.",
+   "exercise": "Name one use of a computer at school.",
+   "answer": "For example: typing examinations or keeping marks.",
+   "remediation": "Think of one place first: the school office.",
+   "transfer": "Ask a worker in your town how he or she uses a computer.",
+   "materials": "Poster paper, pencils.",
+   "practice": [
+    {
+     "prompt": "Match each place with a use of computers.",
+     "type": "match",
+     "pairs": [
+      [
+       "the hospital",
+       "keep patients’ records"
+      ],
+      [
+       "the bank",
+       "count money"
+      ],
+      [
+       "the school",
+       "type examinations"
+      ]
+     ],
+     "answer": "hospital: records; bank: money; school: examinations.",
+     "explanation": "Computers help many workers."
+    },
+    {
+     "prompt": "Which behaviour is responsible?",
+     "type": "mcq",
+     "choices": [
+      "ask permission before using a computer",
+      "change the settings without asking",
+      "play for hours"
+     ],
+     "correct": 0,
+     "answer": "ask permission before using a computer",
+     "explanation": "Use computers with care."
+    },
+    {
+     "prompt": "Write two uses of computers in your town.",
+     "answer": "Two uses written.",
+     "explanation": "Think of shops, offices, schools.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Importance of a computer in school and beyond), p. 90, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Importance of a computer in school and beyond"
    ]
   }
  ]

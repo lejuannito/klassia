@@ -2,7 +2,7 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const registry=require('../shared/classes.js'),cheer=require('../shared/encouragement.js');
 
 test('the class registry resolves each class page and local paths',()=>{
- assert.deepEqual(registry.classes.map(c=>c.grade),['MS','GS','SIL','CE1','CE2','CLASS1','CLASS3']);
+ assert.deepEqual(registry.classes.map(c=>c.grade),['MS','GS','SIL','CE1','CE2','CLASS1','CLASS3','CLASS4']);
  assert.equal(registry.currentClass('/klassia/').grade,'CE2');assert.equal(registry.currentClass('/klassia/imprimer.html').grade,'CE2');
  assert.equal(registry.currentClass('/klassia/ce1/').grade,'CE1');assert.equal(registry.currentClass('/klassia/gs/index.html').grade,'GS');
  assert.equal(registry.classLocalPath(registry.classInfo('SIL'),'sil/data/curriculum.json'),'./data/curriculum.json');

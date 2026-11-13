@@ -265,6 +265,7 @@ const FAMILY_KEY='klassia_family';
 // existe dans Klassia (Class 1 pour la SIL) y est conduite, sinon vers la classe francophone équivalente.
 const familyClasses=K.classes.filter(x=>x.subsystem!=='anglophone').map(x=>[x.grade,x.label,x.twin]);
 const anglophoneTwin=grade=>K.classes.find(x=>x.subsystem==='anglophone'&&x.twin===grade);
+const englishLabels=K.classes.filter(x=>x.subsystem==='anglophone').map(x=>x.label).join(', ').replace(/, ([^,]*)$/,' et $1');
 function isLanding(c){return c.grade==='CE2'&&!location.search&&['','#home'].includes(location.hash);}
 function cameFromKlassia(base){try{const r=new URL(document.referrer);return r.origin===location.origin&&r.pathname.startsWith(base.pathname);}catch{return false;}}
 function welcome(c){
@@ -272,7 +273,7 @@ function welcome(c){
  const name=K.profile().name;
  s.innerHTML=`<h2 id="klassiaWelcomeTitle">Bienvenue sur Klassia</h2><p>Trois réponses pour ouvrir directement la classe de votre enfant. Vous pourrez les changer plus tard.</p><form data-welcome><label>Prénom ou pseudonyme de l’enfant <input name="name" maxlength="40" autocomplete="off" value="${name==='Mon enfant'?'':esc(name)}" placeholder="Mon enfant"></label><fieldset><legend>École de l’enfant</legend><label><input type="radio" name="school" value="fr" checked> Francophone</label><label><input type="radio" name="school" value="en"> Anglophone</label><label><input type="radio" name="school" value="both"> Bilingue (les deux)</label></fieldset><p data-welcome-note role="status"></p><fieldset><legend>Classe</legend>${familyClasses.map(([g,fr,en])=>`<label><input type="radio" name="grade" value="${g}" required> ${fr} · ${en}</label>`).join('')}<p class="klassia-welcome-hint">Le CP et la Class 2 ne sont pas encore disponibles.</p></fieldset><div class="klassia-welcome-actions"><button type="submit" class="btn primary">Commencer</button><button type="button" data-welcome-later>Plus tard</button></div></form>`;
  const form=s.querySelector('form'), note=s.querySelector('[data-welcome-note]');
- form.addEventListener('change',e=>{if(e.target.name==='school')note.textContent=e.target.value==='fr'?'':e.target.value==='en'?'La Class 1 est disponible en anglais, en relecture pédagogique. Pour les autres classes anglophones, en préparation, Klassia ouvre la classe francophone équivalente, où l’anglais est une matière.':'Pour une école bilingue, Klassia ouvre la classe francophone, où l’anglais est une matière.';});
+ form.addEventListener('change',e=>{if(e.target.name==='school')note.textContent=e.target.value==='fr'?'':e.target.value==='en'?englishLabels+' : en anglais, en relecture pédagogique. Pour les autres classes anglophones, en préparation, Klassia ouvre la classe francophone équivalente, où l’anglais est une matière.':'Pour une école bilingue, Klassia ouvre la classe francophone, où l’anglais est une matière.';});
  form.onsubmit=e=>{
   e.preventDefault();
   const school=form.elements.school.value, chosen=form.elements.grade.value, grade=school==='en'&&anglophoneTwin(chosen)?anglophoneTwin(chosen).grade:chosen, child=form.elements.name.value.trim();

@@ -1,0 +1,180 @@
+{
+  "format": "klassia-grade-catalog",
+  "schemaVersion": 1,
+  "grade": "CLASS4",
+  "subsystem": "anglophone",
+  "language": "en",
+  "twin": {
+    "subsystem": "francophone",
+    "grade": "CE2",
+    "status": "available"
+  },
+  "releaseStatus": "in_review",
+  "title": "Class 4",
+  "scope": "Catalogue of the eight integrated themes of Class 4 (Level II). English Language and Literature and Mathematics: four lessons per theme (lot A6a), under teaching review. The other eight subjects are in preparation (lot A6b).",
+  "sources": [
+    {
+      "title": "Cameroon Primary School Curriculum, English Subsystem, Level II, MINEDUB, 2018",
+      "reference": "table 18 (integrated themes, shared with Level I); tables 20 to 29 (subject contents, Class 4 column)",
+      "note": "The curriculum is not reproduced; Klassia cites the table and the class."
+    }
+  ],
+  "subjects": [
+    {
+      "name": "English Language and Literature",
+      "hours_per_week": 7.5,
+      "curriculum_table": 20
+    },
+    {
+      "name": "Mathematics",
+      "hours_per_week": 3,
+      "curriculum_table": 21
+    },
+    {
+      "name": "Science and Technology",
+      "hours_per_week": 3,
+      "curriculum_table": 22
+    },
+    {
+      "name": "Français",
+      "hours_per_week": 4.5,
+      "curriculum_table": 23
+    },
+    {
+      "name": "Social Studies",
+      "hours_per_week": 1.5,
+      "curriculum_table": 24
+    },
+    {
+      "name": "Vocational Studies",
+      "hours_per_week": 3,
+      "curriculum_table": 25
+    },
+    {
+      "name": "Arts",
+      "hours_per_week": 1.5,
+      "curriculum_table": 26
+    },
+    {
+      "name": "Physical Education and Sports",
+      "hours_per_week": 1.5,
+      "curriculum_table": 27
+    },
+    {
+      "name": "National Languages and Cultures",
+      "hours_per_week": 1.5,
+      "curriculum_table": 28
+    },
+    {
+      "name": "ICTs",
+      "hours_per_week": 3,
+      "curriculum_table": 29
+    }
+  ],
+  "units": [
+    {
+      "id": "CLASS4-T1",
+      "number": 1,
+      "title_en": "The home",
+      "title_fr": "La maison",
+      "twin": "U1",
+      "month": 1,
+      "source_refs": [
+        "Level II, table 18, theme 1"
+      ],
+      "path": "unit1.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CLASS4-T2",
+      "number": 2,
+      "title_en": "The village/town",
+      "title_fr": "Le village et la ville",
+      "twin": "U2",
+      "month": 2,
+      "source_refs": [
+        "Level II, table 18, theme 2"
+      ],
+      "path": "unit2.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CLASS4-T3",
+      "number": 3,
+      "title_en": "The school",
+      "title_fr": "L’école",
+      "twin": "U3",
+      "month": 3,
+      "source_refs": [
+        "Level II, table 18, theme 3"
+      ],
+      "path": "unit3.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CLASS4-T4",
+      "number": 4,
+      "title_en": "Occupations",
+      "title_fr": "Les métiers",
+      "twin": "U4",
+      "month": 4,
+      "source_refs": [
+        "Level II, table 18, theme 4"
+      ],
+      "path": "unit4.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CLASS4-T5",
+      "number": 5,
+      "title_en": "Travelling",
+      "title_fr": "Les voyages",
+      "twin": "U5",
+      "month": 5,
+      "source_refs": [
+        "Level II, table 18, theme 5"
+      ],
+      "path": "unit5.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CLASS4-T6",
+      "number": 6,
+      "title_en": "Health",
+      "title_fr": "La santé",
+      "twin": "U6",
+      "month": 6,
+      "source_refs": [
+        "Level II, table 18, theme 6"
+      ],
+      "path": "unit6.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CLASS4-T7",
+      "number": 7,
+      "title_en": "Games",
+      "title_fr": "Les jeux",
+      "twin": "U7",
+      "month": 7,
+      "source_refs": [
+        "Level II, table 18, theme 7"
+      ],
+      "path": "unit7.json",
+      "status": "in_review"
+    },
+    {
+      "id": "CLASS4-T8",
+      "number": 8,
+      "title_en": "Communication",
+      "title_fr": "Les communications",
+      "twin": "U8",
+      "month": 8,
+      "source_refs": [
+        "Level II, table 18, theme 8"
+      ],
+      "path": "unit8.json",
+      "status": "in_review"
+    }
+  ]
+}

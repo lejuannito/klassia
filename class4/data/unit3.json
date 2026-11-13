@@ -1,0 +1,549 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS4",
+ "classTitle": "Class 4",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS4-T3",
+ "title_en": "The school",
+ "title_fr": "L’école",
+ "lessons": [
+  {
+   "id": "CLASS4-T3-E1",
+   "domain": "English Language and Literature",
+   "title": "Following instructions and respecting school rules",
+   "objective": "Follow a sequence of instructions and explain school rules and why they matter.",
+   "course": "Instructions tell us what to do, often in order: “First, take out your exercise book. Then, write the date. Finally, copy the exercise.” We listen to the end before acting.\nSchool rules keep everyone safe and help us learn: come on time, wear the uniform, keep the classroom clean, raise your hand to speak, do not fight.",
+   "model": "The teacher gives three instructions in a row; the pupils do them in the right order.",
+   "guided": "Play “Simon says” with three-step instructions. Then list five school rules and say why each one matters.",
+   "exercise": "Why must we raise our hand before speaking in class?",
+   "answer": "So that everyone can speak in turn.",
+   "accept": [
+    "to speak in turn",
+    "so that everyone can speak in turn",
+    "so we speak in turn",
+    "So that everyone can speak in turn"
+   ],
+   "remediation": "Follow two-step instructions first.",
+   "transfer": "Give three instructions to a younger child to tidy a room.",
+   "materials": "Classroom objects.",
+   "practice": [
+    {
+     "prompt": "Put the instructions in order.",
+     "type": "order",
+     "items": [
+      "First, take out your book.",
+      "Then, open it at page 10.",
+      "Finally, read the first line."
+     ],
+     "answer": "first, then, finally.",
+     "explanation": "Order words help us follow instructions."
+    },
+    {
+     "prompt": "Which one is a school rule?",
+     "type": "mcq",
+     "choices": [
+      "Come to school on time.",
+      "Shout in class.",
+      "Throw papers on the floor."
+     ],
+     "correct": 0,
+     "answer": "Come to school on time.",
+     "explanation": "Rules help us learn."
+    },
+    {
+     "prompt": "Listen and do.",
+     "listen": "First, stand up. Then, touch your nose. Finally, sit down.",
+     "answer": "The three actions in order.",
+     "explanation": "Listen to the end before acting."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-E2",
+   "domain": "English Language and Literature",
+   "title": "A school rhyme and its moral lesson",
+   "objective": "Read a rhyme, put oneself in the place of the character and deduce its moral lesson.",
+   "course": "A rhyme is a short poem whose lines end with the same sound (late – gate). Many rhymes teach a lesson. To find the lesson, ask: What happened? Why? What should we do?",
+   "support": {
+    "title": "An original rhyme",
+    "text": "Little Tabi woke up late,\nRan and ran but missed the gate.\nNow he sets his clock at six,\nHe is never late — that’s the fix!"
+   },
+   "model": "The adult reads the rhyme with rhythm, claps the beat and underlines the rhyming words.",
+   "guided": "Read the rhyme aloud. Find the rhyming pairs. Say how Tabi felt and what he learnt.",
+   "exercise": "Which word rhymes with “late”?",
+   "answer": "gate",
+   "accept": [
+    "gate"
+   ],
+   "remediation": "Find rhymes with your name or simple words (cat – hat).",
+   "transfer": "Write two lines that rhyme about your school.",
+   "materials": "The rhyme.",
+   "practice": [
+    {
+     "prompt": "What is the moral of the rhyme?",
+     "type": "mcq",
+     "choices": [
+      "Wake up early to be on time.",
+      "Run very fast.",
+      "Gates are bad."
+     ],
+     "correct": 0,
+     "answer": "Wake up early to be on time.",
+     "explanation": "Tabi learnt to wake up early."
+    },
+    {
+     "prompt": "Match the rhyming words.",
+     "type": "match",
+     "pairs": [
+      [
+       "late",
+       "gate"
+      ],
+      [
+       "six",
+       "fix"
+      ]
+     ],
+     "answer": "late–gate; six–fix.",
+     "explanation": "They end with the same sound."
+    },
+    {
+     "prompt": "Listen to the rhyme and say it.",
+     "listen": "Little Tabi woke up late, ran and ran but missed the gate. Now he sets his clock at six, he is never late, that is the fix!",
+     "answer": "The rhyme said with rhythm.",
+     "explanation": "Clap the beat."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Literature), p. 44, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Literature"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-E3",
+   "domain": "English Language and Literature",
+   "title": "Handwriting: seven sentences in joint script",
+   "objective": "Copy a text of at least seven sentences legibly in upright joint script.",
+   "course": "Good handwriting is neat and easy to read: letters sit on the line, tall letters (b, d, h, k, l, t) go up, tail letters (g, j, p, q, y) go down, words have equal spaces. In joint script, letters are joined.\nWe sit straight, hold the pencil lightly and copy word by word, not letter by letter.",
+   "support": {
+    "title": "Copy this text",
+    "text": "Our school is on a hill. Every morning we line up in the yard. The head teacher greets us. We sing and pray together. Then we march to our classrooms. Our teacher checks our homework. We begin with mental arithmetic."
+   },
+   "model": "The adult copies the first sentence slowly, showing joins between letters.",
+   "guided": "Copy the seven sentences in joint script. Check: letters on the line, equal spaces, capital letters and full stops.",
+   "exercise": "Which letters go below the line?",
+   "answer": "g, j, p, q, y",
+   "accept": [
+    "g j p q y",
+    "g, j, p, q, y",
+    "gjpqy",
+    "g, j, p, q and y"
+   ],
+   "remediation": "Practise joining two letters at a time (an, in, on).",
+   "transfer": "Copy a short text for a family member in your best handwriting.",
+   "materials": "Lined paper, pencil.",
+   "practice": [
+    {
+     "prompt": "Copy the text in joint script.",
+     "answer": "Seven sentences copied neatly.",
+     "explanation": "Letters on the line, equal spaces.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "How many sentences must you copy?",
+     "type": "number",
+     "answer": 7,
+     "explanation": "At least seven sentences."
+    },
+    {
+     "prompt": "Which one helps good handwriting?",
+     "type": "mcq",
+     "choices": [
+      "copying word by word",
+      "pressing very hard",
+      "writing in the dark"
+     ],
+     "correct": 0,
+     "answer": "copying word by word",
+     "explanation": "We remember whole words."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-E4",
+   "domain": "English Language and Literature",
+   "title": "Verbs: regular and irregular, simple tenses",
+   "objective": "Use regular and irregular verbs in the simple present, simple past and simple future.",
+   "course": "Simple present: habits and facts — “I walk to school every day.” (he/she walks)\nSimple past: finished actions — regular verbs add -ed (walked, played); irregular verbs change (go → went, write → wrote, come → came, see → saw).\nSimple future: will + verb — “I will walk to school tomorrow.”",
+   "model": "The adult says: “Every day I go to school. Yesterday I went to school. Tomorrow I will go to school.”",
+   "guided": "Make a table of ten verbs (present, past, future). Say three sentences about your school day with yesterday, every day and tomorrow.",
+   "exercise": "What is the past of “write”?",
+   "answer": "wrote",
+   "accept": [
+    "wrote"
+   ],
+   "remediation": "Learn five irregular verbs first: go, come, see, eat, write.",
+   "transfer": "Tell your family what you did yesterday at school using past verbs.",
+   "materials": "Verb cards.",
+   "practice": [
+    {
+     "prompt": "Complete with the simple past.",
+     "type": "gaps",
+     "text": "Yesterday, we [[played]] football and Bih [[went]] to the library.",
+     "answer": "played, went.",
+     "explanation": "play → played (regular); go → went (irregular)."
+    },
+    {
+     "prompt": "Match each verb with its past form.",
+     "type": "match",
+     "pairs": [
+      [
+       "come",
+       "came"
+      ],
+      [
+       "see",
+       "saw"
+      ],
+      [
+       "eat",
+       "ate"
+      ]
+     ],
+     "answer": "came, saw, ate.",
+     "explanation": "These are irregular verbs."
+    },
+    {
+     "prompt": "Which sentence is in the future?",
+     "type": "mcq",
+     "choices": [
+      "I will read a book tomorrow.",
+      "I read a book every day.",
+      "I read a book yesterday."
+     ],
+     "correct": 0,
+     "answer": "I will read a book tomorrow.",
+     "explanation": "will + verb = future."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-M1",
+   "domain": "Mathematics",
+   "title": "Odd, even and prime numbers",
+   "objective": "Identify odd, even and prime numbers and solve problems involving them.",
+   "course": "Even numbers can be divided by 2 exactly: 2, 4, 6, 18, 100. They end in 0, 2, 4, 6 or 8. Odd numbers cannot: 1, 3, 15, 27.\nA prime number has exactly two factors: 1 and itself: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29… 1 is not prime. 2 is the only even prime.",
+   "model": "The adult pairs pupils in a line: “With 24 pupils, everyone has a partner: even. With 25, one is alone: odd.”",
+   "guided": "Sort the numbers 1 to 30 into odd and even. Circle the prime numbers.",
+   "exercise": "Is 21 a prime number?",
+   "answer": "No.",
+   "accept": [
+    "no",
+    "no, 21 = 3 × 7",
+    "not prime",
+    "No"
+   ],
+   "remediation": "Use counters to make pairs and to make rectangles.",
+   "transfer": "Check if your house number is odd, even or prime.",
+   "materials": "Counters, a 1–30 number chart.",
+   "practice": [
+    {
+     "prompt": "How many prime numbers are there between 1 and 10?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "2, 3, 5, 7."
+    },
+    {
+     "prompt": "Which number is odd?",
+     "type": "mcq",
+     "choices": [
+      "37",
+      "42",
+      "100"
+     ],
+     "correct": 0,
+     "answer": "37",
+     "explanation": "37 ends in 7."
+    },
+    {
+     "prompt": "Match each number with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "13",
+       "prime"
+      ],
+      [
+       "16",
+       "even, not prime"
+      ],
+      [
+       "15",
+       "odd, not prime"
+      ]
+     ],
+     "answer": "13 prime; 16 even; 15 odd.",
+     "explanation": "15 = 3 × 5, so it is not prime."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-M2",
+   "domain": "Mathematics",
+   "title": "Multiplication: by 10, by 100 and three-digit numbers",
+   "objective": "Multiply numbers by 10 and 100 and multiply three-digit numbers by one-digit numbers.",
+   "course": "× 10: add one zero: 45 × 10 = 450. × 100: add two zeros: 38 × 100 = 3 800.\n245 × 3: multiply the units, then the tens, then the hundreds, carrying when needed: 245 × 3 = 735.",
+   "model": "The adult calculates the cost of 4 exercise books at 325 frs: 325 × 4 = 1 300 frs.",
+   "guided": "Do ten multiplications in columns about school supplies. Check with repeated addition.",
+   "exercise": "Calculate 136 × 4.",
+   "answer": "544",
+   "accept": [
+    "544"
+   ],
+   "remediation": "Use repeated addition: 136 + 136 + 136 + 136.",
+   "transfer": "Calculate the cost of your school supplies for the term.",
+   "materials": "Squared paper.",
+   "practice": [
+    {
+     "prompt": "47 × 100 = ?",
+     "type": "number",
+     "answer": 4700,
+     "explanation": "Add two zeros."
+    },
+    {
+     "prompt": "A class has 6 rows of 8 desks. How many desks?",
+     "type": "number",
+     "answer": 48,
+     "explanation": "6 × 8 = 48."
+    },
+    {
+     "prompt": "One pen costs 150 frs. What is the price of 5 pens?",
+     "type": "number",
+     "answer": 750,
+     "explanation": "150 × 5 = 750."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-M3",
+   "domain": "Mathematics",
+   "title": "The calendar: ordinary and leap years, lunar months",
+   "objective": "Relate days, weeks, months and years and distinguish ordinary and leap years and the solar and lunar calendars.",
+   "course": "1 week = 7 days; 1 year = 12 months. An ordinary year has 365 days; a leap year has 366 days (29 days in February) and comes every 4 years: 2024, 2028.\nMonths with 31 days: January, March, May, July, August, October, December. April, June, September and November have 30.\nThe lunar calendar follows the moon: a lunar month is about 29 or 30 days, so there are about 13 new moons in some years.",
+   "model": "The adult shows a calendar and counts the days of February in 2028: 29, a leap year.",
+   "guided": "Mark school events on a calendar. Count the days between two events.",
+   "exercise": "How many days are there in a leap year?",
+   "answer": "366",
+   "accept": [
+    "366",
+    "366 days"
+   ],
+   "remediation": "Use the knuckles of your hand to remember months with 31 days.",
+   "transfer": "Mark your family’s birthdays on a calendar.",
+   "materials": "A calendar.",
+   "practice": [
+    {
+     "prompt": "How many days are there in 3 weeks?",
+     "type": "number",
+     "answer": 21,
+     "explanation": "3 × 7 = 21."
+    },
+    {
+     "prompt": "Which month has 30 days?",
+     "type": "mcq",
+     "choices": [
+      "September",
+      "August",
+      "December"
+     ],
+     "correct": 0,
+     "answer": "September",
+     "explanation": "April, June, September and November have 30 days."
+    },
+    {
+     "prompt": "2024 was a leap year. Which is the next one?",
+     "type": "number",
+     "answer": 2028,
+     "explanation": "Every 4 years: 2024 + 4."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T3-M4",
+   "domain": "Mathematics",
+   "title": "Parallel and intersecting lines in the classroom",
+   "objective": "Differentiate between parallel and intersecting lines and find them around us.",
+   "course": "Parallel lines are always the same distance apart and never meet: the two edges of a ruler, the rails of a railway, the lines of an exercise book.\nIntersecting lines cross at a point: the hands of a clock, a cross, the edges of a table at a corner. When they cross at a right angle, they are perpendicular.",
+   "model": "The adult shows the lines of an exercise book (parallel) and the corner of the blackboard (intersecting, perpendicular).",
+   "guided": "Find five pairs of parallel lines and five pairs of intersecting lines in the classroom. Draw them with a ruler.",
+   "exercise": "Do parallel lines ever meet?",
+   "answer": "No.",
+   "accept": [
+    "no",
+    "never",
+    "no, never",
+    "No"
+   ],
+   "remediation": "Trace along the lines of your exercise book with your finger.",
+   "transfer": "Find parallel and intersecting lines on a road or in your house.",
+   "materials": "Ruler, exercise book.",
+   "practice": [
+    {
+     "prompt": "Match each example with the kind of lines.",
+     "type": "match",
+     "pairs": [
+      [
+       "railway lines",
+       "parallel"
+      ],
+      [
+       "the letter X",
+       "intersecting"
+      ]
+     ],
+     "answer": "railway: parallel; X: intersecting.",
+     "explanation": "Parallel lines never meet; intersecting lines cross."
+    },
+    {
+     "prompt": "Which letter has two parallel lines?",
+     "type": "mcq",
+     "choices": [
+      "H",
+      "X",
+      "V"
+     ],
+     "correct": 0,
+     "answer": "H",
+     "explanation": "The two sides of H are parallel."
+    },
+    {
+     "prompt": "Draw two parallel lines and two intersecting lines with a ruler.",
+     "answer": "Two pairs of lines drawn correctly.",
+     "explanation": "Keep the same distance for parallel lines.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 4 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  }
+ ]
+}

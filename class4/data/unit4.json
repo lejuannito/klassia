@@ -1,0 +1,524 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS4",
+ "classTitle": "Class 4",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS4-T4",
+ "title_en": "Occupations",
+ "title_fr": "Les métiers",
+ "lessons": [
+  {
+   "id": "CLASS4-T4-E1",
+   "domain": "English Language and Literature",
+   "title": "Discussing the work of family members",
+   "objective": "Discuss the occupations of family members, respecting turns and listening to others.",
+   "course": "In a discussion we share ideas: “My mother is a nurse. She works at the district hospital. She looks after sick people.” We ask questions: “Where does your father work?” “What does he use?”\nRules: wait for your turn, look at the speaker, do not interrupt, say “Excuse me” to speak.",
+   "model": "Two adults discuss their jobs: what they do, where, which tools they use and why they like their work.",
+   "guided": "In a group of four, each pupil presents one family member’s job in three sentences; the others ask one question.",
+   "exercise": "What do we say before speaking when someone has just finished?",
+   "answer": "Excuse me.",
+   "accept": [
+    "excuse me",
+    "Excuse me"
+   ],
+   "remediation": "Prepare one sentence: “My … is a … .”",
+   "transfer": "Interview a family member about his or her job.",
+   "materials": "Pictures of occupations.",
+   "practice": [
+    {
+     "prompt": "Match each worker with his or her work.",
+     "type": "match",
+     "pairs": [
+      [
+       "a nurse",
+       "looks after sick people"
+      ],
+      [
+       "a mechanic",
+       "repairs cars"
+      ],
+      [
+       "a tailor",
+       "sews clothes"
+      ]
+     ],
+     "answer": "nurse: sick people; mechanic: cars; tailor: clothes.",
+     "explanation": "Each job has its work."
+    },
+    {
+     "prompt": "Which behaviour is good in a discussion?",
+     "type": "mcq",
+     "choices": [
+      "wait for your turn",
+      "interrupt others",
+      "talk all the time"
+     ],
+     "correct": 0,
+     "answer": "wait for your turn",
+     "explanation": "We speak in turns."
+    },
+    {
+     "prompt": "Ask a question about a job.",
+     "answer": "For example: Where does your mother work?",
+     "explanation": "Use where, what, which, why."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading numbers from 501 to 1000 in words",
+   "objective": "Read numbers from 501 to 1000 written in figures and in words.",
+   "course": "We read hundreds, then tens and units: 534 = five hundred and thirty-four; 708 = seven hundred and eight; 960 = nine hundred and sixty; 1000 = one thousand.\nIn British English we say “and” after the hundreds. We put a hyphen between tens and units: forty-two.",
+   "model": "The adult reads prices in a carpenter’s workshop: “The stool costs six hundred and fifty francs.”",
+   "guided": "Read ten number cards in words. Match figures and words.",
+   "exercise": "Write 805 in words.",
+   "answer": "eight hundred and five",
+   "accept": [
+    "eight hundred and five",
+    "eight hundred five"
+   ],
+   "remediation": "Read the hundreds first, then the rest.",
+   "transfer": "Read the prices of five items in a shop in words.",
+   "materials": "Number cards.",
+   "practice": [
+    {
+     "prompt": "Match the figures and the words.",
+     "type": "match",
+     "pairs": [
+      [
+       "512",
+       "five hundred and twelve"
+      ],
+      [
+       "690",
+       "six hundred and ninety"
+      ],
+      [
+       "1000",
+       "one thousand"
+      ]
+     ],
+     "answer": "512, 690, 1000.",
+     "explanation": "Hundreds, then tens and units."
+    },
+    {
+     "prompt": "Which number is “seven hundred and forty-three”?",
+     "type": "number",
+     "answer": 743,
+     "explanation": "7 hundreds, 4 tens, 3 units."
+    },
+    {
+     "prompt": "Listen and write the number in figures.",
+     "listen": "nine hundred and seventy-six",
+     "answer": "976",
+     "accept": [
+      "976"
+     ],
+     "explanation": "9 hundreds, 7 tens, 6 units."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-E3",
+   "domain": "English Language and Literature",
+   "title": "Spelling: the apostrophe ’s for one owner",
+   "objective": "Use the apostrophe ’s to show that something belongs to one person, and look up spellings in a dictionary.",
+   "course": "To show who owns something, we add ’s to the owner: the carpenter’s saw (the saw of the carpenter), the doctor’s bag, Mama’s shop.\nDo not confuse with “its” (no apostrophe for ownership) and “it’s” (= it is).\nWhen we are not sure of a spelling, we look it up in a dictionary in alphabetical order.",
+   "model": "The adult writes: “This is the tailor’s machine. That is Ngwa’s scissors.”",
+   "guided": "Rewrite ten phrases with ’s (the hammer of the builder → the builder’s hammer). Look up three words in a dictionary.",
+   "exercise": "Rewrite with ’s: the car of the driver.",
+   "answer": "the driver’s car",
+   "accept": [
+    "the driver’s car",
+    "the driver's car",
+    "driver’s car",
+    "driver's car"
+   ],
+   "remediation": "Start with names: Bih’s book, Tabi’s pen.",
+   "transfer": "Label five things at home with the owner’s name and ’s.",
+   "materials": "Dictionary, paper.",
+   "practice": [
+    {
+     "prompt": "Complete with ’s.",
+     "type": "gaps",
+     "text": "the [[farmer’s|farmer's]] hoe; the [[teacher’s|teacher's]] chalk",
+     "answer": "farmer’s, teacher’s.",
+     "explanation": "Add ’s to one owner."
+    },
+    {
+     "prompt": "Which one is correct?",
+     "type": "mcq",
+     "choices": [
+      "the nurse’s uniform",
+      "the nurses uniform’",
+      "the nurse uniform’s"
+     ],
+     "correct": 0,
+     "answer": "the nurse’s uniform",
+     "explanation": "One owner: ’s."
+    },
+    {
+     "prompt": "Write three phrases with ’s about jobs.",
+     "answer": "Three phrases such as the baker’s bread.",
+     "explanation": "Owner + ’s + thing.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-E4",
+   "domain": "English Language and Literature",
+   "title": "Perfective tenses: has finished, had finished",
+   "objective": "Use the present perfect and the past perfect to talk about completed actions.",
+   "course": "Present perfect: has/have + past participle — an action finished with a link to now: “The baker has baked the bread.” “I have finished my work.”\nPast perfect: had + past participle — an action finished before another past action: “When we arrived, the shop had closed.”\nSome past participles: done, gone, seen, written, eaten, made, taken.",
+   "model": "The adult says: “The mechanic has repaired the car; you can take it now.” “When Papa came, the mechanic had already repaired it.”",
+   "guided": "Make five sentences with “has/have” and two with “had”, about people at work.",
+   "exercise": "Complete: The tailor … (finish) my dress. It is ready.",
+   "answer": "has finished",
+   "accept": [
+    "has finished",
+    "The tailor has finished my dress"
+   ],
+   "remediation": "Learn the past participles of five verbs first.",
+   "transfer": "Say three things you have done today.",
+   "materials": "Verb cards.",
+   "practice": [
+    {
+     "prompt": "Match each verb with its past participle.",
+     "type": "match",
+     "pairs": [
+      [
+       "write",
+       "written"
+      ],
+      [
+       "go",
+       "gone"
+      ],
+      [
+       "take",
+       "taken"
+      ]
+     ],
+     "answer": "written, gone, taken.",
+     "explanation": "These are irregular participles."
+    },
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "I [[have]] eaten. She [[has]] gone to the farm.",
+     "answer": "have, has.",
+     "explanation": "I/you/we/they have; he/she/it has."
+    },
+    {
+     "prompt": "Which sentence uses the past perfect?",
+     "type": "mcq",
+     "choices": [
+      "The bus had left when we arrived.",
+      "The bus leaves at six.",
+      "The bus will leave soon."
+     ],
+     "correct": 0,
+     "answer": "The bus had left when we arrived.",
+     "explanation": "had + past participle."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-M1",
+   "domain": "Mathematics",
+   "title": "Factors of a number: making equal teams of workers",
+   "objective": "Find the factors of numbers and solve problems involving factors.",
+   "course": "A factor divides a number exactly. Factors of 12: 1, 2, 3, 4, 6, 12 (1 × 12, 2 × 6, 3 × 4).\nA foreman with 12 workers can make teams of 1, 2, 3, 4, 6 or 12, with no one left over.",
+   "model": "The adult arranges 12 counters in rows: 2 rows of 6, 3 rows of 4… each arrangement gives a pair of factors.",
+   "guided": "Find all the factors of 18, 20 and 24 with counters or multiplication facts.",
+   "exercise": "List the factors of 10.",
+   "answer": "1, 2, 5, 10",
+   "accept": [
+    "1, 2, 5, 10",
+    "1 2 5 10",
+    "1,2,5,10",
+    "1, 2, 5 and 10"
+   ],
+   "remediation": "Start from 1 and test each number up to half of the number.",
+   "transfer": "Find in how many equal groups your family could share 24 oranges.",
+   "materials": "Counters.",
+   "practice": [
+    {
+     "prompt": "How many factors does 16 have?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "1, 2, 4, 8, 16."
+    },
+    {
+     "prompt": "Which number is a factor of 15?",
+     "type": "mcq",
+     "choices": [
+      "5",
+      "4",
+      "6"
+     ],
+     "correct": 0,
+     "answer": "5",
+     "explanation": "15 ÷ 5 = 3 exactly."
+    },
+    {
+     "prompt": "A carpenter has 20 planks to share equally among 4 workers. How many planks each?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "20 ÷ 4 = 5."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-M2",
+   "domain": "Mathematics",
+   "title": "Multiples and division: sharing the harvest",
+   "objective": "Find multiples of numbers and divide by one-digit numbers, with and without remainders.",
+   "course": "Multiples of 6: 6, 12, 18, 24, 30… (6 × 1, 6 × 2…). The multiples of a number are in its times table.\nDivision shares equally: 84 ÷ 4 = 21. Sometimes something is left: 50 ÷ 8 = 6 remainder 2. Check: 8 × 6 + 2 = 50.",
+   "model": "The adult shares 96 cocoa pods equally among 3 baskets: 32 in each.",
+   "guided": "Write the first ten multiples of 4 and of 7. Solve five sharing problems with remainders.",
+   "exercise": "Calculate 75 ÷ 5.",
+   "answer": "15",
+   "accept": [
+    "15"
+   ],
+   "remediation": "Use counters to share, then write the division.",
+   "transfer": "Share a packet of biscuits fairly in your family and say the remainder.",
+   "materials": "Counters or seeds.",
+   "practice": [
+    {
+     "prompt": "What is the 8th multiple of 9?",
+     "type": "number",
+     "answer": 72,
+     "explanation": "9 × 8 = 72."
+    },
+    {
+     "prompt": "47 ÷ 5 = 9 remainder ?",
+     "type": "number",
+     "answer": 2,
+     "explanation": "5 × 9 = 45; 47 − 45 = 2."
+    },
+    {
+     "prompt": "Which number is a multiple of 7?",
+     "type": "mcq",
+     "choices": [
+      "35",
+      "36",
+      "45"
+     ],
+     "correct": 0,
+     "answer": "35",
+     "explanation": "7 × 5 = 35."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-M3",
+   "domain": "Mathematics",
+   "title": "Money: shopping bills up to 5 000 francs",
+   "objective": "Read and make shopping bills and calculate the total and the change up to 5 000 frs.",
+   "course": "A bill lists items, quantities, unit prices and totals. Line total = quantity × unit price. The bill total is the sum of the lines. Change = money given − total.\n3 loaves at 200 frs = 600 frs; 2 tins of milk at 450 frs = 900 frs; total 1 500 frs. With a 2 000 frs note, change = 500 frs.",
+   "model": "The adult acts a shopkeeper and writes a bill for three items, then gives the change.",
+   "guided": "Make a bill for a family shopping list of four items. Calculate the total and the change from 5 000 frs.",
+   "exercise": "Total 3 250 frs. You give 5 000 frs. What is the change?",
+   "answer": "1 750 frs",
+   "accept": [
+    "1750",
+    "1 750",
+    "1 750 frs",
+    "1750 frs",
+    "1 750 francs"
+   ],
+   "remediation": "Use play money to count the change from the total up to the note.",
+   "transfer": "Check a real shopping bill with an adult.",
+   "materials": "Play money, paper.",
+   "practice": [
+    {
+     "prompt": "4 bars of soap at 350 frs. Total in francs?",
+     "type": "number",
+     "answer": 1400,
+     "explanation": "4 × 350 = 1 400."
+    },
+    {
+     "prompt": "Bill: 1 200 + 850 + 1 450. Total in francs?",
+     "type": "number",
+     "answer": 3500,
+     "explanation": "1 200 + 850 + 1 450 = 3 500."
+    },
+    {
+     "prompt": "Write a bill with three items and its total.",
+     "answer": "A bill with lines and a total.",
+     "explanation": "Quantity × unit price for each line.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS4-T4-M4",
+   "domain": "Mathematics",
+   "title": "Bar graphs: the occupations of our parents",
+   "objective": "Represent data on a bar graph and interpret it.",
+   "course": "A bar graph shows data with bars of different heights. It has a title, two axes with labels and a scale (for example 1 square = 2 people).\nTo read it: find the tallest bar (the most), the shortest (the least) and compare.",
+   "model": "The adult draws a bar graph of the jobs of 20 parents: farmers 8, traders 6, teachers 4, drivers 2.",
+   "guided": "Collect the occupations of the parents of ten classmates or neighbours. Draw a bar graph and write three sentences about it.",
+   "exercise": "In the graph, which job has the tallest bar?",
+   "answer": "Farmers.",
+   "accept": [
+    "farmers",
+    "farmer",
+    "farming",
+    "Farmers"
+   ],
+   "remediation": "Make a table before drawing the bars.",
+   "transfer": "Make a bar graph of the fruits your family eats in a week.",
+   "materials": "Squared paper, ruler, coloured pencils.",
+   "practice": [
+    {
+     "prompt": "Farmers 8, traders 6, teachers 4, drivers 2. How many parents in all?",
+     "type": "number",
+     "answer": 20,
+     "explanation": "8 + 6 + 4 + 2 = 20."
+    },
+    {
+     "prompt": "How many more farmers than teachers?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "8 − 4 = 4."
+    },
+    {
+     "prompt": "Draw the bar graph of the four occupations.",
+     "answer": "A bar graph with a title, labels and a scale.",
+     "explanation": "Each bar matches a number.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 52, Class 4 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  }
+ ]
+}

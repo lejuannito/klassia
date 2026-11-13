@@ -9,8 +9,7 @@ const root = path.resolve(import.meta.dirname, '..');
 const dist = path.join(root, 'dist');
 const rootFiles = [
   'index.html', 'search.html', 'pilote.html', 'imprimer.html', 'outils.html', 'maison.html', 
-  'manual-v11.css',
-  'class-switch-v12.js', 'pwa.js', 'service-worker.js',
+  'pwa.js', 'service-worker.js',
   'precache-manifest.js', 'manifest.webmanifest'
 ];
 const publicDirectories = [

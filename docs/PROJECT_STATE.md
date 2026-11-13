@@ -38,7 +38,7 @@ L’inventaire consolidé compte 974 ressources. La matrice suit 70 repères exa
 
 - application web statique ;
 - contenus pédagogiques principalement en JSON ;
-- `shared/core.js`, `shared/ui.js` et `shared/learning-app.js` portent les mécanismes partagés ;
+- `shared/core.js`, `shared/ui.js` et `shared/learning-app.js` portent les mécanismes partagés ; `shared/learning-app.js` est le seul moteur de rendu des cinq classes (ADR-014), avec deux habillages : `shared/primary.css` pour le primaire, `shared/nursery.js` et `shared/nursery.css` pour la maternelle ;
 - stockage local dans le navigateur ;
 - service worker et manifeste de précache généré ;
 - Node.js >= 22 pour les scripts de validation, catalogage, build et tests ;

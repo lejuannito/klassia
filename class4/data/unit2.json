@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 4 are written (lots A6a and A6b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–95; Class 4 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -548,6 +548,557 @@
    },
    "competencies": [
     "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-S",
+   "domain": "Science and Technology",
+   "title": "Domestic and wild animals around the village",
+   "objective": "Differentiate domestic from wild animals, describe their habitats and practise their care and conservation.",
+   "course": "Domestic animals live with people and depend on them: goats, sheep, cattle, pigs, dogs, cats, hens. Wild animals live freely in nature: monkeys, antelopes, elephants, crocodiles, porcupines.\nA habitat is the place where an animal lives and finds food, water and shelter: forest, savannah, river, swamp, a farm.\nWe care for domestic animals (food, water, shelter, vaccination) and protect wild animals (no hunting of protected species, no burning of their forests).",
+   "model": "The adult shows two pictures: a goat in a pen and a monkey in the forest, and asks where each finds food.",
+   "guided": "Make a table of ten animals: domestic or wild, habitat, food. Name one animal protected in Cameroon’s parks (for example the elephant or the gorilla).",
+   "exercise": "Is a porcupine domestic or wild?",
+   "answer": "Wild.",
+   "accept": [
+    "wild",
+    "a wild animal",
+    "wild animal",
+    "Wild"
+   ],
+   "remediation": "Ask: Does it live with people? Who gives it food?",
+   "transfer": "Observe a domestic animal at home and say how it is cared for.",
+   "materials": "Pictures of animals and habitats.",
+   "practice": [
+    {
+     "prompt": "Match each animal with its habitat.",
+     "type": "match",
+     "pairs": [
+      [
+       "a crocodile",
+       "river"
+      ],
+      [
+       "a monkey",
+       "forest"
+      ],
+      [
+       "a goat",
+       "farm"
+      ]
+     ],
+     "answer": "crocodile: river; monkey: forest; goat: farm.",
+     "explanation": "Each animal has its habitat."
+    },
+    {
+     "prompt": "Which one is a domestic animal?",
+     "type": "mcq",
+     "choices": [
+      "a sheep",
+      "an elephant",
+      "an antelope"
+     ],
+     "correct": 0,
+     "answer": "a sheep",
+     "explanation": "Sheep live with people."
+    },
+    {
+     "prompt": "Give one way to protect wild animals.",
+     "answer": "For example: do not burn the forest.",
+     "explanation": "Protect their habitats."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Environmental Science: domestic and wild animals and their habitats), p. 56, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Environmental Science: domestic and wild animals and their habitats"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-F",
+   "domain": "Français",
+   "title": "Décrire une personne : il est grand, elle est gentille",
+   "objective": "Décrire une personne : son aspect physique et son caractère.",
+   "course": "Pour l’aspect physique : « Il est grand / petit. Elle est mince. Il a les cheveux courts. Elle a des tresses. »\nPour le caractère (aspect moral) : « Il est gentil / sympa. Elle est joyeuse. Il est timide. Elle est courageuse. »\nAttention : un garçon gentil, une fille gentille ; un homme courageux, une femme courageuse.",
+   "support": {
+    "title": "Mots utiles",
+    "text": "grand(e), petit(e), mince, fort(e)\ngentil / gentille, sympa, joyeux / joyeuse, timide, courageux / courageuse"
+   },
+   "model": "L’adulte décrit le chef du quartier : « Il est grand et fort. Il a une barbe blanche. Il est sage et gentil. »",
+   "guided": "Décris une personne de ton village en quatre phrases : deux sur le physique, deux sur le caractère. Ton partenaire devine qui c’est.",
+   "exercise": "Complète : Ma sœur est très … (gentil).",
+   "answer": "gentille",
+   "accept": [
+    "gentille",
+    "Ma sœur est très gentille"
+   ],
+   "remediation": "Travaille deux adjectifs au masculin et au féminin.",
+   "transfer": "Décris un ami en français à ta famille.",
+   "materials": "Images de personnes.",
+   "practice": [
+    {
+     "prompt": "Relie le masculin et le féminin.",
+     "type": "match",
+     "pairs": [
+      [
+       "gentil",
+       "gentille"
+      ],
+      [
+       "joyeux",
+       "joyeuse"
+      ],
+      [
+       "grand",
+       "grande"
+      ]
+     ],
+     "answer": "gentille, joyeuse, grande.",
+     "explanation": "Au féminin, l’adjectif change."
+    },
+    {
+     "prompt": "Quelle phrase décrit le caractère ?",
+     "type": "mcq",
+     "choices": [
+      "Elle est courageuse.",
+      "Elle a des tresses.",
+      "Elle est mince."
+     ],
+     "correct": 0,
+     "answer": "Elle est courageuse.",
+     "explanation": "Courageuse dit le caractère."
+    },
+    {
+     "prompt": "Complète avec est ou a.",
+     "type": "gaps",
+     "text": "Il [[est]] grand. Il [[a]] les cheveux courts.",
+     "answer": "est ; a.",
+     "explanation": "être pour l’adjectif ; avoir pour les cheveux."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : descriptions), p. 62, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : descriptions"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-C",
+   "domain": "Social Studies",
+   "title": "Authorities of our region",
+   "objective": "Identify state, traditional and religious authorities, explain the administrative structure of a region and respect each authority.",
+   "course": "Cameroon is divided into 10 regions. A region is divided into divisions, and divisions into subdivisions.\nState authorities: the Governor (region), the Senior Divisional Officer (division), the Divisional Officer (subdivision), the mayor (council). Traditional authorities: Fons, chiefs, Lamibé, quarter heads. Religious authorities: bishops, pastors, imams, priests.\nEach authority has a role: maintain order, settle disputes, organise development, guide believers.",
+   "model": "The adult draws a chart: Region → Division → Subdivision, with the authority of each level.",
+   "guided": "Find the name of your region, division and subdivision, and of one traditional authority of your area.",
+   "exercise": "Who heads a region?",
+   "answer": "The Governor.",
+   "accept": [
+    "the governor",
+    "governor",
+    "a governor",
+    "The Governor"
+   ],
+   "remediation": "Learn the three levels first: region, division, subdivision.",
+   "transfer": "Ask an adult the name of your mayor and your quarter head.",
+   "materials": "A map of the regions of Cameroon.",
+   "practice": [
+    {
+     "prompt": "Match each unit with its authority.",
+     "type": "match",
+     "pairs": [
+      [
+       "region",
+       "Governor"
+      ],
+      [
+       "division",
+       "Senior Divisional Officer"
+      ],
+      [
+       "subdivision",
+       "Divisional Officer"
+      ]
+     ],
+     "answer": "Governor; SDO; DO.",
+     "explanation": "Each level has its authority."
+    },
+    {
+     "prompt": "How many regions does Cameroon have?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "Cameroon has 10 regions."
+    },
+    {
+     "prompt": "Which one is a traditional authority?",
+     "type": "mcq",
+     "choices": [
+      "a Fon",
+      "a Governor",
+      "a mayor"
+     ],
+     "correct": 0,
+     "answer": "a Fon",
+     "explanation": "Fons and chiefs are traditional authorities."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Citizenship: state, traditional and religious authorities), p. 74, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Citizenship: state, traditional and religious authorities"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-V",
+   "domain": "Vocational Studies",
+   "title": "Rearing snails and rabbits",
+   "objective": "Feed and care for small livestock such as snails and rabbits and keep their cages clean.",
+   "course": "Snails need a shady, humid pen with soft soil, fresh leaves (cassava, pawpaw), fruit peels and a little calcium (crushed eggshells) for their shells. They must not dry out.\nRabbits need a dry, clean hutch raised from the ground, fresh grass and leaves, clean water every day, and a quiet place. We clean cages regularly and wash our hands after.",
+   "model": "The adult visits a small snail pen and a rabbit hutch and explains feeding and cleaning.",
+   "guided": "Draw a snail pen and a rabbit hutch and label food, water and shelter. Write a weekly care plan.",
+   "exercise": "What do snails need for their shells?",
+   "answer": "Calcium.",
+   "accept": [
+    "calcium",
+    "crushed eggshells",
+    "eggshells",
+    "Calcium"
+   ],
+   "remediation": "Compare one need at a time: food, water, shelter.",
+   "transfer": "Visit someone who rears small animals and ask two questions.",
+   "materials": "Pictures of a snail pen and a hutch.",
+   "practice": [
+    {
+     "prompt": "Match each animal with its shelter.",
+     "type": "match",
+     "pairs": [
+      [
+       "snails",
+       "a shady humid pen"
+      ],
+      [
+       "rabbits",
+       "a dry hutch"
+      ],
+      [
+       "poultry",
+       "a coop"
+      ]
+     ],
+     "answer": "snails: pen; rabbits: hutch; poultry: coop.",
+     "explanation": "Each animal has its shelter."
+    },
+    {
+     "prompt": "What do rabbits need every day?",
+     "type": "mcq",
+     "choices": [
+      "clean water and fresh grass",
+      "salt and sugar",
+      "nothing"
+     ],
+     "correct": 0,
+     "answer": "clean water and fresh grass",
+     "explanation": "Rabbits need water and fresh food."
+    },
+    {
+     "prompt": "Write a weekly care plan for rabbits.",
+     "answer": "A plan with feeding, water and cleaning.",
+     "explanation": "Say what to do each day.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Agro-Pastoral Farming: livestock, snail and rabbit rearing), p. 80, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Agro-Pastoral Farming: livestock, snail and rabbit rearing"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-A",
+   "domain": "Arts",
+   "title": "Traditional and modern instruments of our village and town",
+   "objective": "Distinguish traditional musical instruments from modern ones and play an instrument of one’s choice.",
+   "course": "Traditional instruments are made from local materials: the balafon (wooden keys and gourds), the tom-tom and the slit drum (wood and skin), the mvet (a stringed instrument of the South), rattles and bells.\nModern instruments are made in factories: the guitar, the keyboard, the trumpet, the drum kit. Many bands mix both.",
+   "model": "The adult plays a rhythm on a tom-tom, then on a plastic bucket, and compares the sounds.",
+   "guided": "Sort pictures of instruments into traditional and modern. Make a rattle or a simple drum and play a rhythm.",
+   "exercise": "Is the balafon traditional or modern?",
+   "answer": "Traditional.",
+   "accept": [
+    "traditional",
+    "a traditional instrument",
+    "Traditional"
+   ],
+   "remediation": "Ask: Is it made from local materials?",
+   "transfer": "Ask an elder which instruments are played at ceremonies in your village.",
+   "materials": "Pictures, tins, seeds, a bucket, sticks.",
+   "practice": [
+    {
+     "prompt": "Match each instrument with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "mvet",
+       "traditional"
+      ],
+      [
+       "electric keyboard",
+       "modern"
+      ]
+     ],
+     "answer": "mvet: traditional; keyboard: modern.",
+     "explanation": "Look at the materials."
+    },
+    {
+     "prompt": "What is a balafon made of?",
+     "type": "mcq",
+     "choices": [
+      "wooden keys and gourds",
+      "plastic and wires",
+      "glass"
+     ],
+     "correct": 0,
+     "answer": "wooden keys and gourds",
+     "explanation": "The balafon is a wooden xylophone."
+    },
+    {
+     "prompt": "Play a rhythm: long, short, short, long.",
+     "answer": "The rhythm played.",
+     "explanation": "Keep a steady beat."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: traditional and modern musical instruments), p. 82, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: traditional and modern musical instruments"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-P",
+   "domain": "Physical Education and Sports",
+   "title": "Sprinting 50 metres and keeping speed",
+   "objective": "Run faster over a given distance and maintain speed to the finish.",
+   "course": "For a 40–60 m sprint: a quick start (crouch or standing), drive with the arms, run on the balls of the feet, look straight ahead, keep the speed and run through the finish line.\nWe time races in seconds. Rest between sprints.",
+   "model": "The adult runs 50 m while a partner times with a watch or by counting.",
+   "guided": "Mark 50 m. Run three sprints with rest. Note your times and see if you improve.",
+   "exercise": "Where must you slow down: before or after the finish line?",
+   "answer": "After the finish line.",
+   "accept": [
+    "after",
+    "after the finish line",
+    "after the line",
+    "After the finish line"
+   ],
+   "remediation": "Run 30 m first, then increase.",
+   "transfer": "Time a sprint with friends and encourage each other.",
+   "materials": "Stones to mark the track, a watch.",
+   "practice": [
+    {
+     "prompt": "Bih ran 50 m in 10 s, 9 s and 8 s. What was her best time in seconds?",
+     "type": "number",
+     "answer": 8,
+     "explanation": "The smallest time is the best."
+    },
+    {
+     "prompt": "Which part of the foot do we run on?",
+     "type": "mcq",
+     "choices": [
+      "the balls of the feet",
+      "the heels",
+      "the sides"
+     ],
+     "correct": 0,
+     "answer": "the balls of the feet",
+     "explanation": "This gives speed."
+    },
+    {
+     "prompt": "How many metres from 40 m to 60 m?",
+     "type": "number",
+     "answer": 20,
+     "explanation": "60 − 40 = 20."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Athletics: sprints of 40 to 60 metres), p. 83, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Athletics: sprints of 40 to 60 metres"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-N",
+   "domain": "National Languages and Cultures",
+   "title": "A traditional marriage ceremony",
+   "objective": "Identify elements of culture related to marriage and traditional dressing and dramatise a traditional marriage.",
+   "course": "In many cultures, a traditional marriage brings two families together: the visit of the groom’s family, the presentation of gifts (often called the bride price or dowry, depending on the culture), speeches by elders, the blessing, songs, dances and a meal. Special clothes are worn.\nCustoms differ from one people to another: we learn them from elders and respect them.",
+   "model": "An elder describes a traditional marriage in your culture: who speaks, what is offered, what is worn.",
+   "guided": "Ask an elder about a marriage ceremony in your culture. Dramatise a short scene of the meeting of the two families.",
+   "exercise": "What does a traditional marriage bring together?",
+   "answer": "Two families.",
+   "accept": [
+    "two families",
+    "the two families",
+    "families",
+    "Two families"
+   ],
+   "remediation": "Describe one element: the clothes or the gifts.",
+   "transfer": "Tell your family what you learnt and ask about their own wedding.",
+   "materials": "Pictures, simple costumes, an elder.",
+   "practice": [
+    {
+     "prompt": "Which one is often part of a traditional marriage?",
+     "type": "mcq",
+     "choices": [
+      "speeches by elders",
+      "a football match",
+      "an examination"
+     ],
+     "correct": 0,
+     "answer": "speeches by elders",
+     "explanation": "Elders speak for the families."
+    },
+    {
+     "prompt": "Draw the traditional dress worn at a marriage in your culture.",
+     "answer": "A drawing of a ceremonial dress.",
+     "explanation": "Show colours and ornaments.",
+     "ink": "libre"
+    },
+    {
+     "prompt": "Act the meeting of two families with greetings in the family language.",
+     "answer": "A short scene acted.",
+     "explanation": "Use polite forms."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Elements of culture: marriage and dressing), p. 85, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Elements of culture: marriage and dressing"
+   ]
+  },
+  {
+   "id": "CLASS4-T2-I",
+   "domain": "ICTs",
+   "title": "Switching devices on and off correctly",
+   "objective": "Demonstrate the process of powering on and off a computer, a tablet and a phone.",
+   "course": "To switch on a computer: check the cables, press the power button once, wait for the operating system to load. To switch off: save your work, close the programs, click Start then Shut down, wait until the screen is black, then switch off the socket if needed.\nNever pull the plug while the computer is on: files can be lost or damaged. On a phone or tablet, hold the power button and choose “Power off”.",
+   "model": "The adult shows the correct shutdown of a computer step by step.",
+   "guided": "With an adult, switch on and shut down a computer or tablet correctly, saying each step aloud.",
+   "exercise": "What must you do before shutting down?",
+   "answer": "Save your work.",
+   "accept": [
+    "save your work",
+    "save",
+    "save the work",
+    "save my work",
+    "Save your work"
+   ],
+   "remediation": "Learn three steps: save, close, shut down.",
+   "transfer": "Show a family member how to shut down a device correctly.",
+   "materials": "A computer or tablet (with an adult).",
+   "practice": [
+    {
+     "prompt": "Put the shutdown steps in order.",
+     "type": "order",
+     "items": [
+      "Save your work.",
+      "Close the programs.",
+      "Click Start, then Shut down.",
+      "Wait for the black screen."
+     ],
+     "answer": "save, close, shut down, wait.",
+     "explanation": "Follow the steps."
+    },
+    {
+     "prompt": "Why must we not pull the plug while the computer is on?",
+     "type": "mcq",
+     "choices": [
+      "files can be lost or damaged",
+      "it saves electricity",
+      "it is faster"
+     ],
+     "correct": 0,
+     "answer": "files can be lost or damaged",
+     "explanation": "Always shut down properly."
+    },
+    {
+     "prompt": "How do we switch off a phone?",
+     "answer": "Hold the power button and choose Power off.",
+     "explanation": "Phones have a menu to power off."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (ICT devices: powering on and off), p. 90, Class 4 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "ICT devices: powering on and off"
    ]
   }
  ]

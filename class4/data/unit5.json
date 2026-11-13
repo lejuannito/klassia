@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 4 are written (lots A6a and A6b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–95; Class 4 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -577,6 +577,549 @@
    },
    "competencies": [
     "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-S",
+   "domain": "Science and Technology",
+   "title": "How a road is built and maintained",
+   "objective": "Describe the steps of building a good road and ways of maintaining it.",
+   "course": "Steps to build a road: survey and plan the route, clear the land, level and compact the ground, lay layers of stones and gravel, dig gutters (drains) on both sides, cover with tar (asphalt) or laterite, paint lines and put signs.\nMaintenance: clean the gutters so water flows, fill potholes quickly, do not overload trucks, do not dump rubbish on the road.",
+   "model": "The adult describes a road under construction: the bulldozer, the roller, the gutters.",
+   "guided": "Put the steps of road construction in order. Build a small model road in sand with gutters, then pour water to test it.",
+   "exercise": "Why do roads need gutters?",
+   "answer": "To carry rain water away.",
+   "accept": [
+    "to carry water away",
+    "to carry rain water away",
+    "to drain water",
+    "so water flows away",
+    "To carry rain water away"
+   ],
+   "remediation": "Use pictures of the five main steps.",
+   "transfer": "Observe a road near your home and note one problem and one solution.",
+   "materials": "Sand, stones, water, a ruler.",
+   "practice": [
+    {
+     "prompt": "Put the steps in order.",
+     "type": "order",
+     "items": [
+      "Plan the route.",
+      "Clear the land.",
+      "Lay stones and gravel.",
+      "Cover with tar."
+     ],
+     "answer": "plan, clear, stones, tar.",
+     "explanation": "A road is built in layers."
+    },
+    {
+     "prompt": "Which machine flattens the ground?",
+     "type": "mcq",
+     "choices": [
+      "a roller",
+      "a crane",
+      "a fork"
+     ],
+     "correct": 0,
+     "answer": "a roller",
+     "explanation": "The roller compacts the ground."
+    },
+    {
+     "prompt": "Name one way to maintain a road.",
+     "answer": "For example: clean the gutters.",
+     "explanation": "Fill potholes, clean gutters."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Technology and Engineering: road construction and maintenance), p. 58, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Technology and Engineering: road construction and maintenance"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-F",
+   "domain": "Français",
+   "title": "Comment aller à la gare routière ?",
+   "objective": "Demander et décrire un itinéraire.",
+   "course": "Pour demander : « Pardon, monsieur, où est la gare routière ? » « Comment aller à l’hôpital, s’il vous plaît ? »\nPour répondre : « Allez tout droit. Prenez la deuxième rue à gauche. Traversez le pont. Continuez jusqu’au carrefour. La gare est à droite, en face de la station-service. »",
+   "support": {
+    "title": "Dialogue",
+    "text": "— Pardon, madame, comment aller à la gare routière ?\n— Allez tout droit, puis prenez la première rue à droite. La gare est en face de la pharmacie.\n— Merci beaucoup !"
+   },
+   "model": "L’adulte trace un plan simple et décrit le chemin de l’école à la gare en suivant avec le doigt.",
+   "guided": "Sur un plan, décris trois itinéraires. Ton partenaire suit avec le doigt.",
+   "exercise": "Quelle phrase demande le chemin ?",
+   "answer": "Comment aller à la gare, s’il vous plaît ?",
+   "accept": [
+    "Comment aller à la gare",
+    "Comment aller à la gare, s'il vous plaît",
+    "Comment aller à la gare, s’il vous plaît",
+    "Où est la gare",
+    "Comment aller à la gare, s’il vous plaît ?"
+   ],
+   "remediation": "Travaille quatre mots : tout droit, à gauche, à droite, en face de.",
+   "transfer": "Explique en français le chemin de ta maison au marché.",
+   "materials": "Un plan simple.",
+   "practice": [
+    {
+     "prompt": "Relie l’expression et sa traduction.",
+     "type": "match",
+     "pairs": [
+      [
+       "tout droit",
+       "straight on"
+      ],
+      [
+       "en face de",
+       "opposite"
+      ],
+      [
+       "le carrefour",
+       "the crossroads"
+      ]
+     ],
+     "answer": "straight on ; opposite ; crossroads.",
+     "explanation": "Mots de l’itinéraire."
+    },
+    {
+     "prompt": "Écoute et suis le chemin sur ton plan.",
+     "listen": "Allez tout droit. Prenez la deuxième rue à gauche. Traversez le pont. La gare est à droite.",
+     "answer": "Tout droit, deuxième à gauche, le pont, la gare à droite.",
+     "explanation": "Écoute chaque indication."
+    },
+    {
+     "prompt": "Dessine ton itinéraire de la maison à l’école et écris deux indications.",
+     "answer": "Un plan avec deux indications.",
+     "explanation": "Utilise tout droit, à gauche, à droite.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : situation dans l’espace), p. 64, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : situation dans l’espace"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-C",
+   "domain": "Social Studies",
+   "title": "Finding our way: cardinal points and the compass",
+   "objective": "Use orientation instruments and the sun to position things and places.",
+   "course": "The four cardinal points are North, South, East and West. The sun rises in the East and sets in the West. At midday, if you stand with your right arm to the East, you face North.\nA compass has a needle that always points North. Maps usually have North at the top.\nIn Cameroon, Garoua is north of Yaoundé; Douala is west of Yaoundé.",
+   "model": "In the morning, the adult points to the rising sun: “That is East.” Then shows North with a compass or a phone.",
+   "guided": "In the school yard, find the four cardinal points with the sun. Say where the classroom, the gate and the toilets are.",
+   "exercise": "Where does the sun rise?",
+   "answer": "In the East.",
+   "accept": [
+    "East",
+    "the East",
+    "in the East",
+    "east",
+    "In the East"
+   ],
+   "remediation": "Learn the order: North, East, South, West, clockwise.",
+   "transfer": "Find which direction your house door faces.",
+   "materials": "A compass or a phone, a map of Cameroon.",
+   "practice": [
+    {
+     "prompt": "Where does the needle of a compass point?",
+     "type": "mcq",
+     "choices": [
+      "North",
+      "South",
+      "down"
+     ],
+     "correct": 0,
+     "answer": "North",
+     "explanation": "The needle points North."
+    },
+    {
+     "prompt": "Match each town with its position from Yaoundé.",
+     "type": "match",
+     "pairs": [
+      [
+       "Garoua",
+       "North"
+      ],
+      [
+       "Douala",
+       "West"
+      ]
+     ],
+     "answer": "Garoua: North; Douala: West.",
+     "explanation": "Look at a map of Cameroon."
+    },
+    {
+     "prompt": "Draw a compass rose with the four cardinal points.",
+     "answer": "A compass rose with N, E, S, W.",
+     "explanation": "North at the top.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Physical Geography: orientation, cardinal points and the compass), p. 72, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Physical Geography: orientation, cardinal points and the compass"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-V",
+   "domain": "Vocational Studies",
+   "title": "Food for the journey: salting, drying and smoking",
+   "objective": "Conserve different types of food and prepare food hygienically for a journey.",
+   "course": "Food spoils because of germs, heat and humidity. We conserve it by drying (removing water: maize, fish, cassava), salting (salt draws water out: fish, meat), smoking (fish, meat over a fire) and frying.\nFor a journey: choose dry or well-cooked food, wrap it in clean leaves or containers, keep it in the shade, carry clean water.",
+   "model": "The adult shows dried fish and smoked fish and explains why they last longer than fresh fish.",
+   "guided": "Prepare a list of food for a two-day journey and explain how each one is kept safe.",
+   "exercise": "Name one way to conserve fish.",
+   "answer": "For example: smoking, drying or salting.",
+   "remediation": "Learn two ways first: drying and smoking.",
+   "transfer": "Help to prepare food for a family trip hygienically.",
+   "materials": "Pictures, examples of dried food.",
+   "practice": [
+    {
+     "prompt": "Match each method with what it removes or adds.",
+     "type": "match",
+     "pairs": [
+      [
+       "drying",
+       "removes water"
+      ],
+      [
+       "salting",
+       "draws water out with salt"
+      ],
+      [
+       "smoking",
+       "dries with smoke"
+      ]
+     ],
+     "answer": "drying; salting; smoking.",
+     "explanation": "Less water means fewer germs."
+    },
+    {
+     "prompt": "Which food is best for a long journey?",
+     "type": "mcq",
+     "choices": [
+      "dried and well-cooked food",
+      "fresh milk in the sun",
+      "raw meat"
+     ],
+     "correct": 0,
+     "answer": "dried and well-cooked food",
+     "explanation": "It spoils less quickly."
+    },
+    {
+     "prompt": "Why does food spoil?",
+     "answer": "Because of germs, heat and humidity.",
+     "explanation": "Germs grow in warm, wet food."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Home Economics: food conservation), p. 77, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Home Economics: food conservation"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-A",
+   "domain": "Arts",
+   "title": "Dances from the regions of Cameroon",
+   "objective": "Reproduce dance steps from various parts of the country and perform at least one dance step.",
+   "course": "Each region has dances: the bikutsi of the Centre (fast steps and shoulder movements), the makossa of the Littoral, the assiko of the Bassa people, the ben skin of the West, the njang of the North West, and many traditional dances in the North.\nWhen we learn a dance, we follow the rhythm, start slowly and respect its meaning.",
+   "model": "The adult shows two simple steps of a regional dance with a clapped rhythm.",
+   "guided": "Learn one step from two different regions. Present them to the class and say where they come from.",
+   "exercise": "Which region does the bikutsi come from?",
+   "answer": "The Centre.",
+   "accept": [
+    "the Centre",
+    "Centre",
+    "the Center",
+    "Center",
+    "Centre region",
+    "The Centre"
+   ],
+   "remediation": "Learn one step with clapping only.",
+   "transfer": "Ask a family member to teach you a dance from your region.",
+   "materials": "Drum or recorded music, open space.",
+   "practice": [
+    {
+     "prompt": "Match each dance with its region.",
+     "type": "match",
+     "pairs": [
+      [
+       "bikutsi",
+       "Centre"
+      ],
+      [
+       "makossa",
+       "Littoral"
+      ],
+      [
+       "njang",
+       "North West"
+      ]
+     ],
+     "answer": "Centre; Littoral; North West.",
+     "explanation": "Dances come from regions."
+    },
+    {
+     "prompt": "How do we start learning a new dance?",
+     "type": "mcq",
+     "choices": [
+      "slowly, following the rhythm",
+      "very fast without music",
+      "with our eyes closed"
+     ],
+     "correct": 0,
+     "answer": "slowly, following the rhythm",
+     "explanation": "Speed comes later."
+    },
+    {
+     "prompt": "Show one dance step and say its region.",
+     "answer": "A step performed with its region named.",
+     "explanation": "Respect its meaning."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: dance steps from various parts of the country), p. 82, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: dance steps from various parts of the country"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-P",
+   "domain": "Physical Education and Sports",
+   "title": "Throwing a disc safely",
+   "objective": "Combine actions to throw a light disc and choose a good position for throwing.",
+   "course": "For the discus, we hold the disc flat with the fingers over the edge, swing the arm back, turn the body and release the disc from the index finger so it spins forward. At school we use a light plastic disc or a flying disc.\nSafety: one thrower at a time, others behind, collect only on the signal.",
+   "model": "The adult shows the grip, a standing throw and the release with spin.",
+   "guided": "Throw a light disc five times from standing. Mark the best throw with a stick and measure with steps.",
+   "exercise": "Where do the others stand during a throw?",
+   "answer": "Behind the thrower.",
+   "accept": [
+    "behind the thrower",
+    "behind",
+    "Behind the thrower"
+   ],
+   "remediation": "Practise the swing without releasing the disc.",
+   "transfer": "Play a disc game with friends following the safety rule.",
+   "materials": "Light plastic disc or flying disc, sticks.",
+   "practice": [
+    {
+     "prompt": "Throws: 9 m, 12 m, 10 m. What is the best throw in metres?",
+     "type": "number",
+     "answer": 12,
+     "explanation": "The longest throw counts."
+    },
+    {
+     "prompt": "When do we collect the discs?",
+     "type": "mcq",
+     "choices": [
+      "on the signal",
+      "during the throws",
+      "whenever we want"
+     ],
+     "correct": 0,
+     "answer": "on the signal",
+     "explanation": "Safety first."
+    },
+    {
+     "prompt": "How do we hold the disc?",
+     "answer": "Flat, with the fingers over the edge.",
+     "explanation": "The grip helps the spin."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Athletics: throws, discus), p. 84, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Athletics: throws, discus"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-N",
+   "domain": "National Languages and Cultures",
+   "title": "Describing an enthronement",
+   "objective": "Use appropriate words to describe a significant life event such as the enthronement of a traditional ruler and draw lessons from it.",
+   "course": "An enthronement is the ceremony where a new traditional ruler (Fon, chief, Lamido…) takes his place. It may include rites by notables, the presentation of the new ruler to the people, dances, music, gifts and a feast. It shows the continuity of the community and respect for its traditions.",
+   "model": "An elder describes an enthronement he attended: the rites, the dances, the clothes.",
+   "guided": "Ask an elder about an enthronement. Describe it in four sentences using some words of the family language.",
+   "exercise": "What is an enthronement?",
+   "answer": "The ceremony where a new traditional ruler takes his place.",
+   "accept": [
+    "a ceremony for a new ruler",
+    "the ceremony where a new traditional ruler takes his place",
+    "when a new chief is installed",
+    "The ceremony where a new traditional ruler takes his place"
+   ],
+   "remediation": "Describe one part of the ceremony: the dances or the clothes.",
+   "transfer": "Share what you learnt with your class.",
+   "materials": "Pictures, an elder.",
+   "practice": [
+    {
+     "prompt": "What does an enthronement show?",
+     "type": "mcq",
+     "choices": [
+      "the continuity of the community",
+      "the end of traditions",
+      "a football victory"
+     ],
+     "correct": 0,
+     "answer": "the continuity of the community",
+     "explanation": "A new ruler continues the line."
+    },
+    {
+     "prompt": "Write four sentences about an enthronement.",
+     "answer": "Four sentences describing the ceremony.",
+     "explanation": "Say who, what, how people felt.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Name one element of an enthronement.",
+     "answer": "For example: dances, gifts or the presentation of the ruler.",
+     "explanation": "Many elements make the ceremony."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Descriptions of significant life events: enthronement), p. 86, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Descriptions of significant life events: enthronement"
+   ]
+  },
+  {
+   "id": "CLASS4-T5-I",
+   "domain": "ICTs",
+   "title": "Using a web browser: addresses and links",
+   "objective": "Open a web browser, key in a web address and navigate with hyperlinks to obtain useful information.",
+   "course": "A web browser is a program to visit websites: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari. The address bar is where we type a web address (for example www.example.org). A hyperlink is a word or picture we click to go to another page; the pointer often becomes a small hand. The Back button returns to the previous page.\nWe use the internet with an adult, for useful information.",
+   "model": "The adult opens a browser, types an address, clicks a link and uses the Back button.",
+   "guided": "With an adult, open a browser, find information for a school topic (for example Mount Cameroon) and note the website’s name.",
+   "exercise": "Where do we type a web address?",
+   "answer": "In the address bar.",
+   "accept": [
+    "in the address bar",
+    "the address bar",
+    "address bar",
+    "In the address bar"
+   ],
+   "remediation": "Practise only the Back button and one link first.",
+   "transfer": "With an adult, find the weather for your town on the internet.",
+   "materials": "A connected device (with an adult).",
+   "practice": [
+    {
+     "prompt": "Match each word with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       "browser",
+       "program to visit websites"
+      ],
+      [
+       "hyperlink",
+       "click to go to another page"
+      ],
+      [
+       "Back button",
+       "return to the previous page"
+      ]
+     ],
+     "answer": "browser; hyperlink; Back.",
+     "explanation": "Words of the web."
+    },
+    {
+     "prompt": "Which one is a web browser?",
+     "type": "mcq",
+     "choices": [
+      "Mozilla Firefox",
+      "Notepad",
+      "Paint"
+     ],
+     "correct": 0,
+     "answer": "Mozilla Firefox",
+     "explanation": "Firefox visits websites."
+    },
+    {
+     "prompt": "Write the name of a useful website you visited with an adult.",
+     "answer": "A website name.",
+     "explanation": "Note where information comes from.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Internet: web browsers and hyperlinks), p. 92, Class 4 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Internet: web browsers and hyperlinks"
    ]
   }
  ]

@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 4 are written (lots A6a and A6b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–95; Class 4 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -547,6 +547,541 @@
    },
    "competencies": [
     "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-S",
+   "domain": "Science and Technology",
+   "title": "Electricity: conductors, insulators and safety in play",
+   "objective": "Identify conductors and insulators, describe how electrical devices should be used and the dangers of electricity.",
+   "course": "Conductors let electricity pass: metals (copper, iron, aluminium), water. Insulators stop electricity: plastic, rubber, dry wood, glass. Electric wires are copper covered with plastic.\nSafety: never touch a socket or a fallen wire, do not use devices with wet hands, do not fly kites near power lines, do not climb electric poles, unplug by holding the plug, not the cable.",
+   "model": "The adult shows a cable: “The copper inside carries electricity; the plastic around it protects us.”",
+   "guided": "Sort objects into conductors and insulators (spoon, ruler, key, rubber, nail). With a torch battery, a bulb and wires, test which objects light the bulb (with an adult).",
+   "exercise": "Is plastic a conductor or an insulator?",
+   "answer": "An insulator.",
+   "accept": [
+    "insulator",
+    "an insulator",
+    "An insulator"
+   ],
+   "remediation": "Remember: metals conduct, plastics protect.",
+   "transfer": "Check at home with an adult that no cable is damaged.",
+   "materials": "Battery, bulb, wires, objects (with an adult).",
+   "practice": [
+    {
+     "prompt": "Match each object with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "an iron nail",
+       "conductor"
+      ],
+      [
+       "a rubber band",
+       "insulator"
+      ]
+     ],
+     "answer": "nail: conductor; rubber: insulator.",
+     "explanation": "Metals conduct; rubber does not."
+    },
+    {
+     "prompt": "Where is it dangerous to fly a kite?",
+     "type": "mcq",
+     "choices": [
+      "near power lines",
+      "in an open field far from wires",
+      "on the beach far from wires"
+     ],
+     "correct": 0,
+     "answer": "near power lines",
+     "explanation": "The kite can touch the wires."
+    },
+    {
+     "prompt": "Why must we not touch devices with wet hands?",
+     "answer": "Water conducts electricity.",
+     "explanation": "Wet hands can get a shock."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Technology and Engineering: electricity, conductors and insulators), p. 60, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Technology and Engineering: electricity, conductors and insulators"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-F",
+   "domain": "Français",
+   "title": "Je joue au football, j’aime faire du vélo",
+   "objective": "Parler de ses sports et de ses loisirs.",
+   "course": "Pour les jeux et les sports : « Je joue au football / au ballon. Je joue à la corde. Je joue aux billes. » (au + masculin, à la + féminin, aux + pluriel)\nPour les goûts : « J’aime nager. J’aime faire du vélo. Je n’aime pas courir. Mon loisir préféré, c’est la danse. »",
+   "support": {
+    "title": "Dis avec l’adulte",
+    "text": "Je joue au handball.\nJe joue à la marelle.\nJ’aime faire du vélo, mais je n’aime pas nager."
+   },
+   "model": "Ekane dit : « Le samedi, je joue au football avec mes amis. J’aime aussi dessiner. Je n’aime pas regarder la télévision longtemps. »",
+   "guided": "Fais une enquête dans la classe : « Tu joues à quoi ? Qu’est-ce que tu aimes faire ? » Note trois réponses.",
+   "exercise": "Complète : Je joue … corde. ",
+   "answer": "à la",
+   "accept": [
+    "à la",
+    "a la",
+    "Je joue à la corde"
+   ],
+   "remediation": "Travaille d’abord « au football » et « à la corde ».",
+   "transfer": "Dis en français ton loisir préféré à ta famille.",
+   "materials": "Images de sports.",
+   "practice": [
+    {
+     "prompt": "Complète avec au, à la ou aux.",
+     "type": "gaps",
+     "text": "Je joue [[au]] basket. Elle joue [[à la]] marelle. Ils jouent [[aux]] billes.",
+     "answer": "au ; à la ; aux.",
+     "explanation": "au + masculin ; à la + féminin ; aux + pluriel."
+    },
+    {
+     "prompt": "« J’aime faire du vélo » veut dire…",
+     "type": "mcq",
+     "choices": [
+      "I like cycling.",
+      "I play football.",
+      "I do not like swimming."
+     ],
+     "correct": 0,
+     "answer": "I like cycling.",
+     "explanation": "faire du vélo = cycling."
+    },
+    {
+     "prompt": "Écoute et réponds : Tu joues à quoi ?",
+     "listen": "Tu joues à quoi pendant la récréation ?",
+     "answer": "Par exemple : Je joue au ballon.",
+     "explanation": "Réponds avec « Je joue à/au… »."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension et expression orales : sports et loisirs), p. 63, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension et expression orales : sports et loisirs"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-C",
+   "domain": "Social Studies",
+   "title": "Solving conflicts in games and staying safe",
+   "objective": "Resolve conflicts peacefully, practise safety measures and report suspected people and objects.",
+   "course": "A conflict is a disagreement. To solve it peacefully: stop and calm down, listen to each side, say how you feel without insulting, look for a solution together, ask a mediator (a teacher, a prefect) if needed.\nSecurity: do not touch unknown objects or bags left alone, do not follow strangers, report anything suspicious to an adult at once.",
+   "model": "Two pupils argue about a ball. A prefect asks each one to explain, then they agree to take turns.",
+   "guided": "Act three conflicts from games and solve them with the steps. Make a poster “If you see a suspicious object…”.",
+   "exercise": "What should you do if you see a bag left alone near the school?",
+   "answer": "Do not touch it and tell an adult.",
+   "accept": [
+    "tell an adult",
+    "do not touch it and tell an adult",
+    "report it to an adult",
+    "do not touch it",
+    "Do not touch it and tell an adult"
+   ],
+   "remediation": "Learn the first two steps: stop, listen.",
+   "transfer": "Use the steps to solve a disagreement at home.",
+   "materials": "Poster paper.",
+   "practice": [
+    {
+     "prompt": "Put the steps of solving a conflict in order.",
+     "type": "order",
+     "items": [
+      "Stop and calm down.",
+      "Listen to each side.",
+      "Look for a solution together.",
+      "Agree and shake hands."
+     ],
+     "answer": "calm, listen, solution, agree.",
+     "explanation": "Peaceful steps."
+    },
+    {
+     "prompt": "Who can be a mediator at school?",
+     "type": "mcq",
+     "choices": [
+      "a teacher",
+      "a stranger",
+      "nobody"
+     ],
+     "correct": 0,
+     "answer": "a teacher",
+     "explanation": "A mediator helps both sides."
+    },
+    {
+     "prompt": "Say what you feel without insulting: complete “I feel… because…”.",
+     "answer": "A sentence with I feel… because…",
+     "explanation": "Talk about feelings, not insults."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Peace and Security: conflict resolution and reporting), p. 76, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Peace and Security: conflict resolution and reporting"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-V",
+   "domain": "Vocational Studies",
+   "title": "Making a ball from local materials",
+   "objective": "Fabricate objects such as a ball and a rope from local materials following given dimensions.",
+   "course": "Local materials: plastic bags, old cloth, banana fibres, raffia, string. To make a ball: roll plastic bags or cloth tightly into a ball, tie it with string in many directions, cover with another layer and tie again until it is round and firm (for example about 20 cm across).\nA rope: twist three strands of fibre together.",
+   "model": "The adult rolls plastic bags into a ball, ties it and measures it with a tape.",
+   "guided": "Make a ball about 20 cm across. Play a passing game with it. Twist three strands into a short rope.",
+   "exercise": "About how wide should your ball be?",
+   "answer": "About 20 cm.",
+   "accept": [
+    "20 cm",
+    "about 20 cm",
+    "20",
+    "20cm",
+    "About 20 cm"
+   ],
+   "remediation": "Make a small ball (10 cm) first.",
+   "transfer": "Make a ball for a younger child.",
+   "materials": "Plastic bags, old cloth, string, tape measure.",
+   "practice": [
+    {
+     "prompt": "Put the steps in order.",
+     "type": "order",
+     "items": [
+      "Roll the bags tightly.",
+      "Tie with string.",
+      "Add another layer.",
+      "Tie again until it is round."
+     ],
+     "answer": "roll, tie, layer, tie.",
+     "explanation": "Layers make the ball firm."
+    },
+    {
+     "prompt": "How many strands do we twist for a strong rope?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "Three strands twisted together."
+    },
+    {
+     "prompt": "Which material can we use?",
+     "type": "mcq",
+     "choices": [
+      "old plastic bags",
+      "broken glass",
+      "nails"
+     ],
+     "correct": 0,
+     "answer": "old plastic bags",
+     "explanation": "Recycle soft materials safely."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: fabricating objects, ropes and balls), p. 79, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: fabricating objects, ropes and balls"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-A",
+   "domain": "Arts",
+   "title": "Singing in two parts: a sol-fa round",
+   "objective": "Sing following parts with correct pitch and produce music to entertain.",
+   "course": "In a round, groups sing the same tune but start one after the other, so the parts overlap. Each group must keep its own part and listen to the others.\nWe can practise with sol-fa notes: do – re – mi – do, do – re – mi – do, mi – fa – sol, mi – fa – sol. Group 1 starts; group 2 starts when group 1 reaches the third line.",
+   "model": "The adult sings the sol-fa line, then a second adult starts later, showing how the parts overlap.",
+   "guided": "Learn the sol-fa round in two groups. Then add a clapped rhythm and perform it.",
+   "exercise": "In a round, do all groups start at the same time?",
+   "answer": "No.",
+   "accept": [
+    "no",
+    "no, they start one after the other",
+    "No"
+   ],
+   "remediation": "Sing the tune all together many times before splitting into groups.",
+   "transfer": "Sing the round with your family in two groups.",
+   "materials": "None, or a small drum for the beat.",
+   "practice": [
+    {
+     "prompt": "Put the notes in order: do, …",
+     "type": "order",
+     "items": [
+      "do",
+      "re",
+      "mi",
+      "fa",
+      "sol"
+     ],
+     "answer": "do, re, mi, fa, sol.",
+     "explanation": "The notes go up."
+    },
+    {
+     "prompt": "What must each group do in a round?",
+     "type": "mcq",
+     "choices": [
+      "keep its own part and listen",
+      "sing louder than the others",
+      "stop when the others start"
+     ],
+     "correct": 0,
+     "answer": "keep its own part and listen",
+     "explanation": "Parts overlap."
+    },
+    {
+     "prompt": "Listen and repeat the line.",
+     "listen": "do, re, mi, do. do, re, mi, do. mi, fa, sol. mi, fa, sol.",
+     "answer": "The line sung with correct pitch.",
+     "explanation": "Each note is a step up."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: music, singing in parts), p. 82, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: music, singing in parts"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-P",
+   "domain": "Physical Education and Sports",
+   "title": "Volleyball: the dig and the set",
+   "objective": "Handle a ball in volleyball, follow the basic rules and identify the roles of the players.",
+   "course": "Volleyball: two teams of six players separated by a net. The ball must go over the net; each team can touch it at most three times before sending it back. It must not touch the ground.\nThe dig (forearm pass): join the hands, arms straight, hit the ball with the forearms. The set: hands above the forehead, push the ball up with the fingers.",
+   "model": "The adult shows the dig and the set, then passes the ball to a child.",
+   "guided": "Practise the dig and the set in pairs ten times. Play a small game three against three over a rope.",
+   "exercise": "How many times can a team touch the ball before sending it over?",
+   "answer": "Three times.",
+   "accept": [
+    "3",
+    "three",
+    "three times",
+    "3 times",
+    "Three times"
+   ],
+   "remediation": "Throw and catch over the net first.",
+   "transfer": "Play a small volleyball game with friends.",
+   "materials": "A light ball, a rope or net.",
+   "practice": [
+    {
+     "prompt": "How many players are on a volleyball team on the court?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "Six players."
+    },
+    {
+     "prompt": "Match each skill with how we do it.",
+     "type": "match",
+     "pairs": [
+      [
+       "dig",
+       "forearms, arms straight"
+      ],
+      [
+       "set",
+       "fingers above the forehead"
+      ]
+     ],
+     "answer": "dig: forearms; set: fingers.",
+     "explanation": "Two basic skills."
+    },
+    {
+     "prompt": "What happens if the ball touches the ground?",
+     "type": "mcq",
+     "choices": [
+      "the other team wins the point",
+      "the game continues",
+      "the ball is changed"
+     ],
+     "correct": 0,
+     "answer": "the other team wins the point",
+     "explanation": "The ball must not touch the ground."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Team sports: volleyball), p. 84, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Team sports: volleyball"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-N",
+   "domain": "National Languages and Cultures",
+   "title": "A sketch about a traditional game",
+   "objective": "Act roles in a sketch based on games and show love for acting.",
+   "course": "Many communities have traditional games: songo (a board game with seeds), hide-and-seek games, wrestling, games with rhythm and clapping. A sketch can show children playing, a disagreement and how an elder helps them.\nWe act in the family language for some lines, with the help of an adult.",
+   "model": "The adult and two children act children playing a seed board game; an elder explains a rule.",
+   "guided": "Ask an elder about a traditional game. Act a short sketch about it with some lines in the family language.",
+   "exercise": "Name one traditional game.",
+   "answer": "For example: songo, a seed board game.",
+   "remediation": "Act the sketch without words first, then add lines.",
+   "transfer": "Teach a traditional game to friends.",
+   "materials": "Seeds, a board or holes in the ground.",
+   "practice": [
+    {
+     "prompt": "What can a sketch show?",
+     "type": "mcq",
+     "choices": [
+      "children playing, a problem and a solution",
+      "only a list of words",
+      "nothing"
+     ],
+     "correct": 0,
+     "answer": "children playing, a problem and a solution",
+     "explanation": "A sketch tells a short story."
+    },
+    {
+     "prompt": "Write three lines of your sketch.",
+     "answer": "Three lines of dialogue.",
+     "explanation": "Some lines can be in the family language.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Act your sketch with partners.",
+     "answer": "The sketch acted.",
+     "explanation": "Speak clearly."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Sketches based on the integrated learning themes), p. 86, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sketches based on the integrated learning themes"
+   ]
+  },
+  {
+   "id": "CLASS4-T7-I",
+   "domain": "ICTs",
+   "title": "Programming a sprite with Scratch",
+   "objective": "Change costumes, backdrops and the size of a sprite and make a sprite say something with Scratch.",
+   "course": "Scratch is a free program to create stories and games by joining blocks. A sprite is a character; a costume is one of its looks; the backdrop is the background. Blocks give instructions in order: “when green flag clicked”, “say Hello! for 2 seconds”, “next costume”, “change size by 10”.\nA program is a sequence of instructions that the computer follows exactly in order.",
+   "model": "The adult builds a short program: when the green flag is clicked, the cat says “Hello!”, changes costume and grows.",
+   "guided": "With an adult, make a sprite greet, change costume twice and change the backdrop. Without a computer, write the blocks on cards and act them.",
+   "exercise": "In Scratch, what is a sprite?",
+   "answer": "A character.",
+   "accept": [
+    "a character",
+    "character",
+    "a character or object",
+    "A character"
+   ],
+   "remediation": "Use only two blocks: the green flag and “say”.",
+   "transfer": "Write the steps of a morning routine as a program of instructions.",
+   "materials": "A computer with Scratch (with an adult) or block cards.",
+   "practice": [
+    {
+     "prompt": "Put the blocks in order.",
+     "type": "order",
+     "items": [
+      "when green flag clicked",
+      "say Hello! for 2 seconds",
+      "next costume",
+      "change size by 10"
+     ],
+     "answer": "flag, say, costume, size.",
+     "explanation": "A program starts with an event."
+    },
+    {
+     "prompt": "Match each word with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       "sprite",
+       "a character"
+      ],
+      [
+       "costume",
+       "a look of the sprite"
+      ],
+      [
+       "backdrop",
+       "the background"
+      ]
+     ],
+     "answer": "character; look; background.",
+     "explanation": "Scratch words."
+    },
+    {
+     "prompt": "What does a computer do with a program?",
+     "type": "mcq",
+     "choices": [
+      "follows the instructions exactly in order",
+      "guesses what we want",
+      "ignores the order"
+     ],
+     "correct": 0,
+     "answer": "follows the instructions exactly in order",
+     "explanation": "Order matters."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Computational thinking: programming with Scratch), p. 94, Class 4 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Computational thinking: programming with Scratch"
    ]
   }
  ]

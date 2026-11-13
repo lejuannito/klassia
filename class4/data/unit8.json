@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 4 are written (lots A6a and A6b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–95; Class 4 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -538,6 +538,536 @@
    },
    "competencies": [
     "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-S",
+   "domain": "Science and Technology",
+   "title": "Sources of energy and saving energy",
+   "objective": "Describe sources and forms of energy, their uses and how to use energy appropriately.",
+   "course": "Energy makes things work. Sources: the sun, wind, flowing water (dams such as Song Loulou or Edéa), wood and charcoal, fuel (petrol, gas), food for our body, batteries.\nForms: heat, light, movement, sound, electricity. Solar panels change sunlight into electricity to charge phones and lamps.\nWe save energy: switch off lights and devices, unplug chargers, use improved cookstoves that need less wood.",
+   "model": "The adult shows a small solar lamp charging in the sun, then lighting at night.",
+   "guided": "List five devices at home and their energy source. Make a poster “Save energy” with three actions.",
+   "exercise": "What changes sunlight into electricity?",
+   "answer": "A solar panel.",
+   "accept": [
+    "a solar panel",
+    "solar panel",
+    "solar panels",
+    "A solar panel"
+   ],
+   "remediation": "Match three sources with what they give: the sun (light and heat), wood (heat), a battery (electricity).",
+   "transfer": "Switch off lights and unplug chargers at home every day this week.",
+   "materials": "Pictures, a solar lamp if available.",
+   "practice": [
+    {
+     "prompt": "Match each source with an example of use.",
+     "type": "match",
+     "pairs": [
+      [
+       "wood",
+       "cooking"
+      ],
+      [
+       "the sun",
+       "drying cocoa"
+      ],
+      [
+       "a dam",
+       "producing electricity"
+      ]
+     ],
+     "answer": "wood: cooking; sun: drying; dam: electricity.",
+     "explanation": "Energy has many uses."
+    },
+    {
+     "prompt": "Which action saves energy?",
+     "type": "mcq",
+     "choices": [
+      "unplug the charger when the phone is full",
+      "leave all lights on",
+      "leave the radio on all night"
+     ],
+     "correct": 0,
+     "answer": "unplug the charger when the phone is full",
+     "explanation": "Unused devices waste energy."
+    },
+    {
+     "prompt": "Name one form of energy.",
+     "answer": "For example: heat, light or movement.",
+     "explanation": "Energy takes many forms."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Technology and Engineering: energy, sources and uses), p. 60, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Technology and Engineering: energy, sources and uses"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-F",
+   "domain": "Français",
+   "title": "Écrire une carte postale ou un message",
+   "objective": "Écrire un court message ou une carte postale en respectant la structure.",
+   "course": "Une carte postale ou un message a : le lieu et la date, une formule d’appel (Chère Manka, / Cher Tabi,), le message (où je suis, ce que je fais, une question), une formule finale (Bisous, / À bientôt, / Amitiés,) et la signature.",
+   "support": {
+    "title": "Modèle",
+    "text": "Kribi, le 10 août\nChère Manka,\nJe suis en vacances chez ma tante. La mer est belle et je nage tous les jours. Et toi, que fais-tu ?\nÀ bientôt,\nAyuk"
+   },
+   "model": "L’adulte écrit une carte postale au tableau et montre chaque partie.",
+   "guided": "Écris une carte postale de quatre lignes à un ami, depuis un lieu de vacances.",
+   "exercise": "Quelle formule commence une lettre à une fille ?",
+   "answer": "Chère",
+   "accept": [
+    "Chère",
+    "chère",
+    "Chère …",
+    "Chère Manka"
+   ],
+   "remediation": "Complète un modèle de carte avec des étiquettes.",
+   "transfer": "Écris un petit message en français à un membre de ta famille.",
+   "materials": "Papier ou carte, crayon.",
+   "practice": [
+    {
+     "prompt": "Remets les parties dans l’ordre.",
+     "type": "order",
+     "items": [
+      "Kribi, le 10 août",
+      "Chère Manka,",
+      "Je suis en vacances chez ma tante.",
+      "À bientôt, Ayuk"
+     ],
+     "answer": "lieu et date, appel, message, fin.",
+     "explanation": "Une carte a un ordre."
+    },
+    {
+     "prompt": "Cher ou Chère ?",
+     "type": "gaps",
+     "text": "[[Cher]] Tabi, … [[Chère]] maman, …",
+     "answer": "Cher ; Chère.",
+     "explanation": "Cher pour un garçon ; Chère pour une fille ou une femme."
+    },
+    {
+     "prompt": "Écris ta carte postale.",
+     "answer": "Une carte postale complète.",
+     "explanation": "Lieu, date, appel, message, fin, signature.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Production écrite : lettres, courriels et messages), p. 66, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Production écrite : lettres, courriels et messages"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-C",
+   "domain": "Social Studies",
+   "title": "Our national emblems: flag, seal, motto and anthem",
+   "objective": "Identify the national emblems, explain their importance and show respect for them.",
+   "course": "National emblems represent the country and unite its people. The flag of Cameroon has three vertical stripes: green, red and yellow, with a yellow star in the middle of the red stripe. The motto is “Peace – Work – Fatherland”. The seal is used on official documents. The national anthem is sung at official ceremonies and at school; we stand still and attentive when it is sung.\nWe respect the emblems: we do not tear or misuse the flag, and we stand for the anthem.",
+   "model": "At the flag-raising ceremony, the pupils stand still, the flag goes up, and everyone sings the anthem together.",
+   "guided": "Draw and colour the flag of Cameroon. Write the motto. Explain how to behave during the flag ceremony.",
+   "exercise": "What is the motto of Cameroon?",
+   "answer": "Peace – Work – Fatherland.",
+   "accept": [
+    "Peace Work Fatherland",
+    "Peace, Work, Fatherland",
+    "Peace – Work – Fatherland",
+    "peace work fatherland"
+   ],
+   "remediation": "Learn the colours of the flag in order: green, red, yellow.",
+   "transfer": "Explain the flag and the motto to a younger child.",
+   "materials": "Coloured pencils, a picture of the flag.",
+   "practice": [
+    {
+     "prompt": "Put the colours of the flag in order from left to right.",
+     "type": "order",
+     "items": [
+      "green",
+      "red",
+      "yellow"
+     ],
+     "answer": "green, red, yellow.",
+     "explanation": "The star is on the red stripe."
+    },
+    {
+     "prompt": "What do we do when the national anthem is sung?",
+     "type": "mcq",
+     "choices": [
+      "stand still and attentive",
+      "run around",
+      "talk with friends"
+     ],
+     "correct": 0,
+     "answer": "stand still and attentive",
+     "explanation": "This shows respect."
+    },
+    {
+     "prompt": "Draw and colour the flag of Cameroon.",
+     "answer": "The flag with three stripes and a star.",
+     "explanation": "Green, red with a yellow star, yellow.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Civics: national emblems), p. 73, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Civics: national emblems"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-V",
+   "domain": "Vocational Studies",
+   "title": "Weaving a paper mat to decorate the classroom",
+   "objective": "Gather and treat materials and weave a mat to decorate the classroom.",
+   "course": "Weaving crosses strips over and under each other. The strips that stay fixed are the warp; the strips we pass over and under are the weft.\nWith paper: cut slits in a sheet (the warp), then pass coloured strips over and under. Each new strip starts the opposite way (under, then over). The same method is used with raffia or palm leaves.",
+   "model": "The adult weaves three strips into a paper mat, saying “over, under, over, under”.",
+   "guided": "Weave a paper mat with two colours. Display the class mats as a decoration.",
+   "exercise": "What do we call the strips we pass over and under?",
+   "answer": "The weft.",
+   "accept": [
+    "weft",
+    "the weft",
+    "The weft"
+   ],
+   "remediation": "Weave with wide strips first.",
+   "transfer": "Ask an adult who weaves baskets or mats to show you.",
+   "materials": "Coloured paper, scissors, glue, ruler.",
+   "practice": [
+    {
+     "prompt": "Complete the pattern: over, under, over, …",
+     "type": "mcq",
+     "choices": [
+      "under",
+      "over",
+      "stop"
+     ],
+     "correct": 0,
+     "answer": "under",
+     "explanation": "Weaving alternates over and under."
+    },
+    {
+     "prompt": "Match each word with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       "warp",
+       "the fixed strips"
+      ],
+      [
+       "weft",
+       "the strips passed over and under"
+      ]
+     ],
+     "answer": "warp: fixed; weft: passed through.",
+     "explanation": "Two kinds of strips."
+    },
+    {
+     "prompt": "Draw your woven mat pattern.",
+     "answer": "A checked pattern in two colours.",
+     "explanation": "Show over and under.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Arts and Crafts: crafts, weaving and decoration), p. 79, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Arts and Crafts: crafts, weaving and decoration"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-A",
+   "domain": "Arts",
+   "title": "Performing on stage with prompts",
+   "objective": "Perform on stage following different prompts and show interest in taking roles.",
+   "course": "On stage, actors follow prompts: a word, a sound, a gesture or a light that tells them when to speak or move. A narrator can give prompts. Actors stay in role, speak to the audience and do not turn their backs.\nIn mime, the body and face tell the message without words.",
+   "model": "The adult plays narrator: “The phone rings…” — an actor answers a pretend phone; “A letter arrives…” — another reads a pretend letter.",
+   "guided": "Perform a short play about messages (phone call, letter, town crier) with prompts given by a narrator. Then perform one scene in mime.",
+   "exercise": "What is a prompt?",
+   "answer": "A signal that tells an actor when to speak or move.",
+   "accept": [
+    "a signal",
+    "a signal to speak or move",
+    "a signal that tells an actor when to speak or move",
+    "A signal that tells an actor when to speak or move"
+   ],
+   "remediation": "Practise one prompt and one action at a time.",
+   "transfer": "Play a prompt game at home: one person gives prompts, others act.",
+   "materials": "Simple props, open space.",
+   "practice": [
+    {
+     "prompt": "Match each prompt with an action.",
+     "type": "match",
+     "pairs": [
+      [
+       "The phone rings.",
+       "answer the phone"
+      ],
+      [
+       "A letter arrives.",
+       "open the letter"
+      ],
+      [
+       "The town crier beats his gong.",
+       "listen to the news"
+      ]
+     ],
+     "answer": "answer; open; listen.",
+     "explanation": "Prompts tell actors what to do."
+    },
+    {
+     "prompt": "In mime, what tells the message?",
+     "type": "mcq",
+     "choices": [
+      "the body and the face",
+      "loud words",
+      "a microphone"
+     ],
+     "correct": 0,
+     "answer": "the body and the face",
+     "explanation": "Mime has no words."
+    },
+    {
+     "prompt": "Perform a scene with a prompt from a partner.",
+     "answer": "A scene performed following prompts.",
+     "explanation": "Stay in role."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Performing Arts: stage plays and prompts), p. 82, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Performing Arts: stage plays and prompts"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-P",
+   "domain": "Physical Education and Sports",
+   "title": "Basketball: dribbling, passing and shooting",
+   "objective": "Dribble, pass and shoot in basketball, following the basic rules and playing with teammates.",
+   "course": "Basketball: two teams of five players. We move with the ball by dribbling (bouncing it with one hand); we may not walk with the ball in our hands. We pass to teammates (chest pass, bounce pass) and shoot at the basket. A normal basket gives 2 points; a shot from far (behind the three-point line) gives 3.",
+   "model": "The adult dribbles with the fingertips, looking up, then makes a chest pass.",
+   "guided": "Dribble round cones with each hand. Practise chest and bounce passes. Shoot at a basket or a target.",
+   "exercise": "How many points does a normal basket give?",
+   "answer": "2 points.",
+   "accept": [
+    "2",
+    "two",
+    "2 points",
+    "two points"
+   ],
+   "remediation": "Dribble standing still first.",
+   "transfer": "Play a passing game with friends without walking with the ball.",
+   "materials": "A ball, cones or stones, a basket or target.",
+   "practice": [
+    {
+     "prompt": "A team scores 4 baskets of 2 points and 1 basket of 3 points. Total points?",
+     "type": "number",
+     "answer": 11,
+     "explanation": "8 + 3 = 11."
+    },
+    {
+     "prompt": "How do we move with the ball?",
+     "type": "mcq",
+     "choices": [
+      "by dribbling",
+      "by walking with it in our hands",
+      "by kicking it"
+     ],
+     "correct": 0,
+     "answer": "by dribbling",
+     "explanation": "Walking with the ball is not allowed."
+    },
+    {
+     "prompt": "How many players per team on the court?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "Five players."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Team sports: basketball), p. 84, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Team sports: basketball"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-N",
+   "domain": "National Languages and Cultures",
+   "title": "A conversation in the family language",
+   "objective": "Handle a short conversation in the family language and read simple words with special letters.",
+   "course": "A conversation has steps: greet, ask how the other person is, talk about a subject (the market, the weather, school), answer questions and say goodbye.\nSome Cameroonian languages use letters of the General Alphabet such as ɛ, ɔ, ŋ and tone marks. We learn to read simple words with them with an adult.",
+   "model": "The adult and the child have a short conversation in the family language about the day.",
+   "guided": "Prepare and act a conversation of six exchanges in the family language with an adult. Read three words with special letters.",
+   "exercise": "What is the last step of a conversation?",
+   "answer": "Say goodbye.",
+   "accept": [
+    "say goodbye",
+    "goodbye",
+    "saying goodbye",
+    "Say goodbye"
+   ],
+   "remediation": "Practise the greeting and the goodbye first.",
+   "transfer": "Have a conversation in the family language with a grandparent.",
+   "materials": "An adult who speaks the language.",
+   "practice": [
+    {
+     "prompt": "Put the conversation in order.",
+     "type": "order",
+     "items": [
+      "Greet.",
+      "Ask how the person is.",
+      "Talk about a subject.",
+      "Say goodbye."
+     ],
+     "answer": "greet, ask, talk, goodbye.",
+     "explanation": "A conversation has steps."
+    },
+    {
+     "prompt": "Which letter belongs to the General Alphabet of Cameroonian Languages but not to the English alphabet?",
+     "type": "mcq",
+     "choices": [
+      "ɔ",
+      "o",
+      "a"
+     ],
+     "correct": 0,
+     "answer": "ɔ",
+     "explanation": "ɔ is an open o."
+    },
+    {
+     "prompt": "Act your conversation with an adult.",
+     "answer": "A conversation of six exchanges.",
+     "explanation": "Listen and answer in turn."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Dialogue and conversation; symbols of phonemes), p. 88, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Dialogue and conversation; symbols of phonemes"
+   ]
+  },
+  {
+   "id": "CLASS4-T8-I",
+   "domain": "ICTs",
+   "title": "Credible information and responsible social media",
+   "objective": "Select credible sources of information, cite them, and use social media responsibly while respecting privacy.",
+   "course": "Not all information on the internet is true. A credible source is known and serious: an official website, a school book, a recognised newspaper, a health ministry. Check: Who wrote it? Is it recent? Do other serious sources say the same? Write the name of the source when you use information.\nSocial media connect people, but many platforms are only for users of 13 years or more. With an adult: never share your address, school or photos with strangers, do not share false news, be kind, and tell an adult if something worries you.",
+   "model": "The adult compares two messages about a disease: one from the health ministry, one from an unknown forwarded message.",
+   "guided": "Look at three pieces of information with an adult and decide which is credible and why. Make a list of four rules for social media.",
+   "exercise": "Name one question to check if information is credible.",
+   "answer": "For example: Who wrote it?",
+   "remediation": "Learn one question first: Who wrote it?",
+   "transfer": "Before sharing a message, check it with an adult.",
+   "materials": "Printed examples of messages and websites.",
+   "practice": [
+    {
+     "prompt": "Which source is the most credible about vaccines?",
+     "type": "mcq",
+     "choices": [
+      "the Ministry of Public Health",
+      "an unknown forwarded message",
+      "a rumour at the market"
+     ],
+     "correct": 0,
+     "answer": "the Ministry of Public Health",
+     "explanation": "Official health sources are credible."
+    },
+    {
+     "prompt": "Which behaviour respects privacy?",
+     "type": "mcq",
+     "choices": [
+      "not sharing a friend’s photo without permission",
+      "posting your address",
+      "sharing your password"
+     ],
+     "correct": 0,
+     "answer": "not sharing a friend’s photo without permission",
+     "explanation": "Respect privacy."
+    },
+    {
+     "prompt": "Write four rules for using social media safely.",
+     "answer": "Four safety rules.",
+     "explanation": "Privacy, kindness, truth, ask an adult.",
+     "ink": "lignes"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Internet and communication: credible information and social media), p. 92, Class 4 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Internet and communication: credible information and social media"
    ]
   }
  ]

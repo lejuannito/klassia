@@ -8,11 +8,11 @@
   "en": "English Subsystem Level II; Class 4 column only. Class 4 contents are excluded."
  },
  "releaseStatus": "in_review",
- "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A6a); the other subjects follow (lot A6b). Original texts; not an official validation.",
+ "statusNote": "Theme for teaching review: the ten subjects of Class 4 are written (lots A6a and A6b). Original texts; not an official validation.",
  "sources": [
   {
    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
-   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 4 column only",
+   "pages": "Table 18 (themes), p. 40; tables 20 to 29 (the ten subjects), p. 41–95; Class 4 column only",
    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
   }
  ],
@@ -553,6 +553,579 @@
    },
    "competencies": [
     "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-S",
+   "domain": "Science and Technology",
+   "title": "Drugs: good use, dangerous drugs and self-medication",
+   "objective": "Classify drugs, detect dangerous drugs and question self-medication.",
+   "course": "Medicines (drugs) treat illnesses when a health worker prescribes them. Dangerous drugs harm the body and the mind: tobacco, alcohol for children, cannabis, “tramadol” taken without prescription, street drugs.\nSelf-medication means taking medicine without advice. It is dangerous: wrong medicine, wrong dose, fake medicines sold in the street, hidden illness. We take medicine only with an adult and a health worker’s advice, we follow the dose and we keep medicines out of reach of small children.",
+   "model": "The adult reads a medicine box with the child: name, dose, expiry date, and explains why we do not buy medicines in the street.",
+   "guided": "Sort situations into safe and unsafe. Role play: a friend offers you pills; you say no and tell an adult.",
+   "exercise": "Who should advise us before we take a medicine?",
+   "answer": "A health worker.",
+   "accept": [
+    "a health worker",
+    "a doctor",
+    "a nurse",
+    "a pharmacist",
+    "health worker",
+    "doctor",
+    "A health worker"
+   ],
+   "remediation": "Learn one rule: no medicine without an adult and a health worker.",
+   "transfer": "Help an adult put medicines out of reach of small children.",
+   "materials": "An empty medicine box.",
+   "practice": [
+    {
+     "prompt": "A friend offers you pills to “feel strong”. What do you do?",
+     "type": "mcq",
+     "choices": [
+      "say no and tell a trusted adult",
+      "take them",
+      "hide them"
+     ],
+     "correct": 0,
+     "answer": "say no and tell a trusted adult",
+     "explanation": "Unknown pills can be very dangerous."
+    },
+    {
+     "prompt": "Match each word with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       "dose",
+       "how much to take"
+      ],
+      [
+       "expiry date",
+       "last day to use it"
+      ],
+      [
+       "prescription",
+       "the health worker’s order"
+      ]
+     ],
+     "answer": "dose; expiry date; prescription.",
+     "explanation": "Read the box with an adult."
+    },
+    {
+     "prompt": "Why are street medicines dangerous?",
+     "answer": "They may be fake or badly kept.",
+     "explanation": "Buy medicines in a pharmacy."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Science and Technology, table 22 (Health Education: drugs and self-medication), p. 55, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health Education: drugs and self-medication"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-F",
+   "domain": "Français",
+   "title": "Lire un texte : chez le médecin",
+   "objective": "Lire à haute voix un texte de six phrases, trouver l’idée générale et répondre à des questions.",
+   "course": "Pour comprendre un texte : lis le titre, lis le texte une fois en entier, puis cherche qui, où, quand, quoi. L’idée générale dit en une phrase de quoi parle le texte.",
+   "support": {
+    "title": "Lis le texte",
+    "text": "Chez le médecin\nCe matin, Bih a de la fièvre et elle tousse. Sa mère l’emmène au centre de santé. Le médecin écoute sa respiration et regarde sa gorge. Il dit que Bih a une angine. Il lui donne un médicament à prendre trois fois par jour. Bih doit aussi boire beaucoup d’eau et se reposer."
+   },
+   "model": "L’adulte lit le texte, puis dit l’idée générale : « Bih est malade et va chez le médecin. »",
+   "guided": "Lis le texte à haute voix. Réponds aux questions. Dis l’idée générale en une phrase.",
+   "exercise": "Combien de fois par jour Bih prend-elle son médicament ?",
+   "answer": "Trois fois.",
+   "accept": [
+    "trois fois",
+    "3 fois",
+    "trois",
+    "3",
+    "trois fois par jour",
+    "Trois fois"
+   ],
+   "remediation": "Lis une phrase, puis pose une question sur cette phrase.",
+   "transfer": "Lis le texte à ta famille et explique-le en anglais.",
+   "materials": "Le texte.",
+   "practice": [
+    {
+     "prompt": "Quelle est l’idée générale du texte ?",
+     "type": "mcq",
+     "choices": [
+      "Bih est malade et va chez le médecin.",
+      "Bih joue au ballon.",
+      "Bih va au marché."
+     ],
+     "correct": 0,
+     "answer": "Bih est malade et va chez le médecin.",
+     "explanation": "Le texte parle de la visite au médecin."
+    },
+    {
+     "prompt": "Remets les phrases dans l’ordre du texte.",
+     "type": "order",
+     "items": [
+      "Bih a de la fièvre.",
+      "Sa mère l’emmène au centre de santé.",
+      "Le médecin regarde sa gorge.",
+      "Bih doit se reposer."
+     ],
+     "answer": "Les quatre phrases dans l’ordre.",
+     "explanation": "Suis le texte."
+    },
+    {
+     "prompt": "Écoute le texte.",
+     "listen": "Ce matin, Bih a de la fièvre et elle tousse. Sa mère l’emmène au centre de santé. Le médecin écoute sa respiration et regarde sa gorge.",
+     "answer": "Le texte écouté et relu.",
+     "explanation": "Relis-le à haute voix."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Français, table 23 (Compréhension écrite : lecture d’un texte de six phrases), p. 65, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum (French for anglophone pupils); original examples and English glosses for the family. To be reviewed by a teacher of French in the English subsystem."
+   },
+   "competencies": [
+    "Compréhension écrite : lecture d’un texte de six phrases"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-C",
+   "domain": "Social Studies",
+   "title": "Rights of children and women",
+   "objective": "Identify the rights of children and women, explain the duties that go with them and denounce acts of abuse.",
+   "course": "Every person has human rights: life, dignity, health, education, protection, freedom of expression. Children have the right to go to school, to be protected from violence, early marriage and hard labour. Women have the same rights as men: to study, work, own property, vote and be safe.\nWe all have duties: respect others’ rights. If a child or a woman is abused, tell a trusted adult, the head teacher, a social worker or the police.",
+   "model": "The teacher reads a story: a girl kept at home to sell in the market; her neighbour talks to the parents and she goes back to school.",
+   "guided": "Make two lists: rights of children, rights of women. Act a scene where a pupil reports a problem to a trusted adult.",
+   "exercise": "Name one right of every child.",
+   "answer": "For example: the right to go to school.",
+   "remediation": "Start with three rights: school, health, protection.",
+   "transfer": "Talk with your family about equal rights for girls and boys at home.",
+   "materials": "Pictures, paper.",
+   "practice": [
+    {
+     "prompt": "Which situation respects children’s rights?",
+     "type": "mcq",
+     "choices": [
+      "a girl and a boy both go to school",
+      "a child works all day in a quarry",
+      "a child is beaten every day"
+     ],
+     "correct": 0,
+     "answer": "a girl and a boy both go to school",
+     "explanation": "All children have the right to education."
+    },
+    {
+     "prompt": "Match each right with an example.",
+     "type": "match",
+     "pairs": [
+      [
+       "education",
+       "going to school"
+      ],
+      [
+       "health",
+       "being vaccinated"
+      ],
+      [
+       "protection",
+       "living without violence"
+      ]
+     ],
+     "answer": "education: school; health: vaccination; protection: no violence.",
+     "explanation": "Rights have concrete examples."
+    },
+    {
+     "prompt": "To whom can you report abuse?",
+     "answer": "For example: a trusted adult or the head teacher.",
+     "explanation": "Tell someone who can help."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Social Studies, table 24 (Human Rights: rights of children and women, reporting abuse), p. 76, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Human Rights: rights of children and women, reporting abuse"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-V",
+   "domain": "Vocational Studies",
+   "title": "Laying the table and meals for different people",
+   "objective": "Lay the table appropriately, differentiate meals for different people and show good table manners.",
+   "course": "To lay the table: a clean cloth or mat, the plate in the middle, the fork on the left, the knife on the right (blade towards the plate), the spoon on the right of the knife, the glass above the knife.\nMeals differ: a baby needs soft food (pap, mashed food); a sick person needs light food and plenty of water; a worker needs energy foods; everyone needs a balanced diet.\nTable manners: wash hands, wait for everyone, chew with the mouth closed, say thank you.",
+   "model": "The adult lays one place at the table and names each item and its position.",
+   "guided": "Lay the table for four people. Plan a meal for a baby, a sick person and a farmer.",
+   "exercise": "On which side do we put the fork?",
+   "answer": "On the left.",
+   "accept": [
+    "left",
+    "on the left",
+    "the left",
+    "On the left"
+   ],
+   "remediation": "Remember: fork and left both have four letters.",
+   "transfer": "Lay the table for your family this week.",
+   "materials": "Plates, cutlery, glasses, a cloth.",
+   "practice": [
+    {
+     "prompt": "Match each person with a suitable meal.",
+     "type": "match",
+     "pairs": [
+      [
+       "a baby",
+       "soft pap"
+      ],
+      [
+       "a sick person",
+       "light soup and water"
+      ],
+      [
+       "a farmer",
+       "energy food like plantains and beans"
+      ]
+     ],
+     "answer": "baby: pap; sick person: light soup; farmer: energy food.",
+     "explanation": "Meals depend on needs."
+    },
+    {
+     "prompt": "Where is the glass placed?",
+     "type": "mcq",
+     "choices": [
+      "above the knife",
+      "under the plate",
+      "on the chair"
+     ],
+     "correct": 0,
+     "answer": "above the knife",
+     "explanation": "The glass is above the knife."
+    },
+    {
+     "prompt": "Draw one place laid on the table.",
+     "answer": "A plate with fork, knife, spoon and glass.",
+     "explanation": "Fork left, knife and spoon right.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Vocational Studies, table 25 (Home Economics: laying the table and types of meals), p. 77, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Home Economics: laying the table and types of meals"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-A",
+   "domain": "Arts",
+   "title": "Painting a health poster",
+   "objective": "Paint an artwork using appropriate colour combinations to send a clear message.",
+   "course": "Colours can work together. Complementary colours make each other stronger: red and green, blue and orange, yellow and purple. Warm colours (red, orange, yellow) attract attention; cool colours (blue, green) calm.\nA poster needs a short message in big letters, a clear picture and strong contrasts so that people read it from far.",
+   "model": "The adult sketches a poster “Wash your hands!” with dark blue letters on a yellow background and a picture of hands.",
+   "guided": "Paint a poster on a health message (hand washing, mosquito nets, clean water). Use two complementary colours.",
+   "exercise": "Which colour is complementary to red?",
+   "answer": "Green.",
+   "accept": [
+    "green",
+    "Green"
+   ],
+   "remediation": "Use a colour wheel to find opposite colours.",
+   "transfer": "Display your poster at home or at school.",
+   "materials": "Paints or crayons, large paper, a colour wheel.",
+   "practice": [
+    {
+     "prompt": "Match each colour with its complementary colour.",
+     "type": "match",
+     "pairs": [
+      [
+       "red",
+       "green"
+      ],
+      [
+       "blue",
+       "orange"
+      ],
+      [
+       "yellow",
+       "purple"
+      ]
+     ],
+     "answer": "green; orange; purple.",
+     "explanation": "Complementary colours are opposite on the wheel."
+    },
+    {
+     "prompt": "Which poster is easiest to read from far?",
+     "type": "mcq",
+     "choices": [
+      "big dark letters on a light background",
+      "tiny yellow letters on white",
+      "no letters"
+     ],
+     "correct": 0,
+     "answer": "big dark letters on a light background",
+     "explanation": "Contrast helps reading."
+    },
+    {
+     "prompt": "Paint or draw your health poster.",
+     "answer": "A poster with a short message and a picture.",
+     "explanation": "Use strong contrasts.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Arts, table 26 (Visual Arts: painting and colour combinations), p. 81, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Visual Arts: painting and colour combinations"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-P",
+   "domain": "Physical Education and Sports",
+   "title": "The cartwheel, step by step",
+   "objective": "Use different postures to keep stability and move using hands and legs: the cartwheel.",
+   "course": "Cartwheel: stand facing forward, arms up; step forward with one leg, place one hand then the other on the ground in a line, kick the legs over one after the other, land one foot then the other, arms up.\nPractise on soft ground with an adult, first with bent legs, then straighter. One child at a time.",
+   "model": "The adult draws a line and hand marks on the ground and shows a slow cartwheel.",
+   "guided": "Practise “bunny hops” sideways over a line, then a low cartwheel with an adult nearby.",
+   "exercise": "What do we place on the ground first: the hands or the feet?",
+   "answer": "The hands.",
+   "accept": [
+    "the hands",
+    "hands",
+    "one hand then the other",
+    "The hands"
+   ],
+   "remediation": "Practise putting the hands on the line and kicking the legs up a little.",
+   "transfer": "Show the safety rules of gymnastics to your family.",
+   "materials": "Soft grass or mat, chalk.",
+   "practice": [
+    {
+     "prompt": "Put the cartwheel in order.",
+     "type": "order",
+     "items": [
+      "Arms up.",
+      "Step forward.",
+      "Hand, hand on the line.",
+      "Foot, foot, arms up."
+     ],
+     "answer": "arms up, step, hands, feet.",
+     "explanation": "Hand, hand, foot, foot."
+    },
+    {
+     "prompt": "Where do we practise?",
+     "type": "mcq",
+     "choices": [
+      "on soft ground with an adult",
+      "on a hard road",
+      "on a table"
+     ],
+     "correct": 0,
+     "answer": "on soft ground with an adult",
+     "explanation": "Safety first."
+    },
+    {
+     "prompt": "How many children practise at a time?",
+     "answer": "One.",
+     "accept": [
+      "one",
+      "1",
+      "one child",
+      "One"
+     ],
+     "explanation": "One at a time."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Physical Education and Sports, table 27 (Gymnastics: cartwheel and backward roll), p. 84, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Gymnastics: cartwheel and backward roll"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-N",
+   "domain": "National Languages and Cultures",
+   "title": "Entertaining with a tale: the art of eloquence",
+   "objective": "Narrate a tale with eloquence to entertain people and draw its lesson.",
+   "course": "A good storyteller uses a traditional opening that asks for attention, changes the voice for each character, uses gestures, asks the audience to answer (call and response), keeps the events in order and ends with the lesson.",
+   "support": {
+    "title": "A short original tale",
+    "text": "Hare boasted that he was the fastest animal and laughed at Snail. Snail said: “Let us race to the river.” Hare ran and stopped to sleep under a tree. Snail kept moving, slowly but without stopping. When Hare woke up, Snail was already drinking at the river. All the animals laughed at Hare."
+   },
+   "model": "The adult tells the tale with different voices and asks the listeners: “Who will win?”",
+   "guided": "Retell the tale with eloquence. Then ask an elder for a tale in the family language and tell it to the class.",
+   "exercise": "What is the lesson of the tale?",
+   "answer": "For example: slow and steady wins; do not boast.",
+   "remediation": "Retell with three pictures: the boast, the race, the end.",
+   "transfer": "Tell a tale at a family gathering.",
+   "materials": "The tale, an elder.",
+   "practice": [
+    {
+     "prompt": "Put the events in order.",
+     "type": "order",
+     "items": [
+      "Hare laughed at Snail.",
+      "They raced to the river.",
+      "Hare slept under a tree.",
+      "Snail arrived first."
+     ],
+     "answer": "laughed, race, sleep, Snail first.",
+     "explanation": "Follow the tale."
+    },
+    {
+     "prompt": "What helps a storyteller entertain?",
+     "type": "mcq",
+     "choices": [
+      "different voices and gestures",
+      "reading very fast",
+      "whispering"
+     ],
+     "correct": 0,
+     "answer": "different voices and gestures",
+     "explanation": "Eloquence keeps the audience listening."
+    },
+    {
+     "prompt": "Listen to the tale.",
+     "listen": "Hare boasted that he was the fastest animal and laughed at Snail. Snail said: let us race to the river. Hare ran and stopped to sleep under a tree. Snail kept moving, slowly but without stopping.",
+     "answer": "The tale heard and retold.",
+     "explanation": "Retell it with expression."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "National Languages and Cultures, table 28 (Oral traditions: stories, folktales and eloquence), p. 86, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum. It works with the family language; documented Bassa forms will be added after linguistic review, without validating any form here. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Oral traditions: stories, folktales and eloquence"
+   ]
+  },
+  {
+   "id": "CLASS4-T6-I",
+   "domain": "ICTs",
+   "title": "Sitting well in front of a screen",
+   "objective": "Adopt a good sitting position, position the screen and keyboard properly and prevent health problems.",
+   "course": "Good posture: sit straight with the back supported, feet flat on the floor, the top of the screen at eye level and an arm’s length away, the keyboard close with wrists straight.\nProblems from bad habits: back and neck pain, tired or dry eyes, sore wrists. Rule of 20: every 20 minutes, look at something far away for 20 seconds; take breaks and move.",
+   "model": "The adult shows a bad posture (bent, too close) and a good posture, and adjusts the screen.",
+   "guided": "Check the posture of a partner with a checklist of five points. Make a poster of good habits.",
+   "exercise": "How far should the screen be from your eyes?",
+   "answer": "About an arm’s length.",
+   "accept": [
+    "an arm’s length",
+    "an arm's length",
+    "arm’s length",
+    "arm's length",
+    "about an arm’s length",
+    "about an arm's length",
+    "About an arm’s length"
+   ],
+   "remediation": "Learn three points: back straight, feet flat, screen far enough.",
+   "transfer": "Check how your family members sit in front of phones or TV.",
+   "materials": "A chair, a table, a checklist.",
+   "practice": [
+    {
+     "prompt": "Match each problem with a prevention.",
+     "type": "match",
+     "pairs": [
+      [
+       "tired eyes",
+       "look far away every 20 minutes"
+      ],
+      [
+       "back pain",
+       "sit straight with the back supported"
+      ],
+      [
+       "sore wrists",
+       "keep wrists straight"
+      ]
+     ],
+     "answer": "eyes; back; wrists.",
+     "explanation": "Good habits prevent problems."
+    },
+    {
+     "prompt": "Where should the top of the screen be?",
+     "type": "mcq",
+     "choices": [
+      "at eye level",
+      "on the floor",
+      "above the head"
+     ],
+     "correct": 0,
+     "answer": "at eye level",
+     "explanation": "This keeps the neck straight."
+    },
+    {
+     "prompt": "Every how many minutes do we look far away?",
+     "type": "number",
+     "answer": 20,
+     "explanation": "The rule of 20."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "ICTs, table 29 (Health, safety and ethics: sitting position and health problems), p. 93, Class 4 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Health, safety and ethics: sitting position and health problems"
    ]
   }
  ]

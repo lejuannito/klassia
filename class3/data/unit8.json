@@ -1,0 +1,560 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS3",
+ "classTitle": "Class 3",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS3-T8",
+ "title_en": "Communication",
+ "title_fr": "Les communications",
+ "lessons": [
+  {
+   "id": "CLASS3-T8-E1",
+   "domain": "English Language and Literature",
+   "title": "A dialogue about a message",
+   "objective": "Carry out a dialogue on a familiar theme: passing on a message.",
+   "course": "In a dialogue, two people speak in turn. They ask questions, answer, check that they understood and close politely.\nUseful phrases: “Can I take a message?”, “Could you repeat, please?”, “I will tell her.”, “Thank you for calling.”",
+   "support": {
+    "title": "Dialogue",
+    "text": "Tabi: Hello, this is Tabi. Can I speak to Mrs Ngwa?\nNgum: She is not at home. Can I take a message?\nTabi: Yes, please. Tell her the meeting is on Friday at four.\nNgum: Friday at four. I will tell her.\nTabi: Thank you. Goodbye!"
+   },
+   "model": "Two adults act the dialogue with toy phones; the child notes the message.",
+   "guided": "Act the dialogue in pairs, then change the day and time of the meeting.",
+   "exercise": "What do we say when we did not hear well?",
+   "answer": "Could you repeat, please?",
+   "accept": [
+    "could you repeat please",
+    "Could you repeat, please?",
+    "pardon",
+    "please repeat"
+   ],
+   "remediation": "Act only the first two lines, then add the others.",
+   "transfer": "Take a real message for someone at home and pass it on.",
+   "materials": "Two toy phones, paper for the message.",
+   "practice": [
+    {
+     "prompt": "Put the dialogue in order.",
+     "type": "order",
+     "items": [
+      "Can I speak to Mrs Ngwa?",
+      "She is not at home. Can I take a message?",
+      "Tell her the meeting is on Friday at four.",
+      "I will tell her."
+     ],
+     "answer": "ask, take a message, give the message, promise.",
+     "explanation": "A dialogue has turns."
+    },
+    {
+     "prompt": "What is the message?",
+     "type": "mcq",
+     "choices": [
+      "The meeting is on Friday at four.",
+      "The bus leaves at nine.",
+      "Come to the market."
+     ],
+     "correct": 0,
+     "answer": "The meeting is on Friday at four.",
+     "explanation": "Tabi gives this message."
+    },
+    {
+     "prompt": "Listen and say the message you have to pass on.",
+     "listen": "Please tell Papa that the mechanic will bring the car back on Saturday morning.",
+     "answer": "The mechanic will bring the car back on Saturday morning.",
+     "explanation": "Repeat who, what and when."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-E2",
+   "domain": "English Language and Literature",
+   "title": "A prose passage: the tortoise and the message",
+   "objective": "Read a short prose passage, put oneself in the place of a character and deduce the moral.",
+   "course": "A prose passage is written in ordinary sentences and paragraphs, not in lines like a poem. Tales often have animal characters who teach a lesson.",
+   "support": {
+    "title": "Klassia tale",
+    "text": "Long ago, the king of the animals had to send an important message to the next village. The proud hare said, “I am the fastest. I will carry it.” He ran off, but he stopped to eat sweet berries, then he slept under a tree. The tortoise also set off, slowly but without stopping. When the hare woke up, it was night. The tortoise had already delivered the message, and the villages came to the meeting on time."
+   },
+   "model": "The adult reads the tale aloud with expression and asks: “Who was faster? Who arrived first? Why?”",
+   "guided": "Read the tale silently. Say how the hare felt at the beginning and at the end. Find the moral.",
+   "exercise": "Who delivered the message?",
+   "answer": "The tortoise.",
+   "accept": [
+    "the tortoise",
+    "tortoise",
+    "The tortoise"
+   ],
+   "remediation": "Read the tale paragraph by paragraph with the adult.",
+   "transfer": "Ask an elder for a tale with a moral and retell it.",
+   "materials": "The tale.",
+   "practice": [
+    {
+     "prompt": "What is the moral of the tale?",
+     "type": "mcq",
+     "choices": [
+      "Steady effort wins; pride can make us fail.",
+      "The fastest always wins.",
+      "Never carry messages."
+     ],
+     "correct": 0,
+     "answer": "Steady effort wins; pride can make us fail.",
+     "explanation": "The tortoise never stopped; the hare was proud."
+    },
+    {
+     "prompt": "Put the events in order.",
+     "type": "order",
+     "items": [
+      "The king needs a messenger.",
+      "The hare runs off.",
+      "The hare eats and sleeps.",
+      "The tortoise delivers the message."
+     ],
+     "answer": "king, hare runs, hare sleeps, tortoise delivers.",
+     "explanation": "Follow the tale."
+    },
+    {
+     "prompt": "Why did the hare not deliver the message?",
+     "answer": "Because he stopped to eat and slept.",
+     "accept": [
+      "he slept",
+      "because he slept",
+      "he stopped to eat and slept",
+      "Because he stopped to eat and slept"
+     ],
+     "explanation": "He stopped on the way."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Literature), p. 44, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Literature"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-E3",
+   "domain": "English Language and Literature",
+   "title": "Writing a paragraph",
+   "objective": "Write a paragraph with a topic sentence and supporting sentences.",
+   "course": "A paragraph is a group of sentences about one idea. The topic sentence gives the idea. The supporting sentences give details or examples. The paragraph starts on a new line, a little to the right (indentation).\nExample of topic sentence: “The telephone is very useful in my family.”",
+   "model": "The adult writes: “The telephone is very useful in my family. My father calls his customers. My mother sends money to Grandma. I call my aunt on her birthday.”",
+   "guided": "Choose a topic sentence about communication. Add three supporting sentences. Indent the first line.",
+   "exercise": "What is the first sentence of a paragraph called?",
+   "answer": "The topic sentence.",
+   "accept": [
+    "topic sentence",
+    "the topic sentence",
+    "The topic sentence"
+   ],
+   "remediation": "Start from a given topic sentence and add one detail at a time.",
+   "transfer": "Write a paragraph about the radio or the television at home.",
+   "materials": "Paper, pencil.",
+   "practice": [
+    {
+     "prompt": "Write a paragraph of four sentences about the telephone.",
+     "answer": "A topic sentence and three supporting sentences.",
+     "explanation": "Indent the first line.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Which sentence could be a topic sentence?",
+     "type": "mcq",
+     "choices": [
+      "Radios bring news to every village.",
+      "My uncle listens at 7 p.m.",
+      "He turns it on."
+     ],
+     "correct": 0,
+     "answer": "Radios bring news to every village.",
+     "explanation": "A topic sentence gives the main idea."
+    },
+    {
+     "prompt": "Put the paragraph in order.",
+     "type": "order",
+     "items": [
+      "The telephone is very useful in my family.",
+      "My father calls his customers.",
+      "My mother sends money to Grandma."
+     ],
+     "answer": "topic sentence, then details.",
+     "explanation": "The topic sentence comes first."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-E4",
+   "domain": "English Language and Literature",
+   "title": "Kinds of sentences, conjunctions and punctuation",
+   "objective": "Build declarative, interrogative and exclamatory sentences, join ideas with conjunctions and punctuate correctly.",
+   "course": "A declarative sentence gives information and ends with a full stop: The letter arrived. An interrogative sentence asks a question and ends with a question mark: Did the letter arrive? An exclamatory sentence shows strong feeling and ends with an exclamation mark: What good news!\nConjunctions join words or sentences: and, but, or, so, because. We use a capital letter at the start of a sentence and for names.",
+   "model": "The adult writes three sentences about a letter and points to the three end marks.",
+   "guided": "Change a declarative sentence into a question and an exclamation. Join two short sentences with a conjunction.",
+   "exercise": "Which mark ends a question?",
+   "answer": "A question mark.",
+   "accept": [
+    "a question mark",
+    "question mark",
+    "A question mark"
+   ],
+   "remediation": "Sort sentence cards by their end mark.",
+   "transfer": "Write one sentence of each kind about a phone call.",
+   "materials": "Sentence cards.",
+   "practice": [
+    {
+     "prompt": "Complete with the right conjunction.",
+     "type": "gaps",
+     "text": "I called Grandma [[but]] she did not answer, [[so]] I sent a message.",
+     "answer": "but; so.",
+     "explanation": "but shows a contrast; so shows a result."
+    },
+    {
+     "prompt": "Which sentence is exclamatory?",
+     "type": "mcq",
+     "choices": [
+      "What a long letter!",
+      "Is the letter long?",
+      "The letter is long."
+     ],
+     "correct": 0,
+     "answer": "What a long letter!",
+     "explanation": "It shows strong feeling and ends with !"
+    },
+    {
+     "prompt": "Match each sentence with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "Where is the phone?",
+       "interrogative"
+      ],
+      [
+       "The phone is on the table.",
+       "declarative"
+      ],
+      [
+       "What a loud ring!",
+       "exclamatory"
+      ]
+     ],
+     "answer": "interrogative; declarative; exclamatory.",
+     "explanation": "The end mark helps."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-M1",
+   "domain": "Mathematics",
+   "title": "The 13 lunar months and the 12 calendar months",
+   "objective": "Compare the lunar months and the calendar months and use both to place events.",
+   "course": "A lunar month is the time from one new moon to the next: about 29 or 30 days. There are about 13 lunar months in a year. Many traditional and religious calendars use the moon.\nThe calendar we use at school has 12 months of 28 to 31 days.",
+   "model": "The adult shows the moon over a month: new moon, half moon, full moon, then new moon again after about 29 days.",
+   "guided": "Observe the moon for a few evenings and draw its shape. Compare: how many lunar months, how many calendar months?",
+   "exercise": "About how many days is a lunar month?",
+   "answer": "29 or 30 days.",
+   "accept": [
+    "29",
+    "30",
+    "29 or 30",
+    "about 29 days",
+    "29 or 30 days"
+   ],
+   "remediation": "Use a calendar with moon pictures.",
+   "transfer": "Ask an elder how the moon was used to mark time.",
+   "materials": "Calendar with moon phases, drawings.",
+   "practice": [
+    {
+     "prompt": "How many calendar months are in a year?",
+     "type": "number",
+     "answer": 12,
+     "explanation": "January to December."
+    },
+    {
+     "prompt": "About how many lunar months are in a year?",
+     "type": "number",
+     "answer": 13,
+     "explanation": "About 13 moons in a year."
+    },
+    {
+     "prompt": "Which one marks a lunar month?",
+     "type": "mcq",
+     "choices": [
+      "from one new moon to the next",
+      "from Monday to Sunday",
+      "from morning to night"
+     ],
+     "correct": 0,
+     "answer": "from one new moon to the next",
+     "explanation": "The moon’s cycle is about 29 days."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-M2",
+   "domain": "Mathematics",
+   "title": "Coordinates on a grid",
+   "objective": "Locate and plot points on a grid using coordinates (across, then up).",
+   "course": "On a grid, a point is given by two numbers in brackets: (across, up). (3, 2) means 3 squares across, then 2 squares up. We always go across first.\nCoordinates help to send exact positions, for example on a map or in a message.",
+   "model": "The adult places a dot at (4, 1) on squared paper: “four across, one up.”",
+   "guided": "Plot five points and join them to make a shape. Send the coordinates of your shape to a friend who draws it.",
+   "exercise": "Which number do we read first in (5, 2)?",
+   "answer": "5, the number across.",
+   "accept": [
+    "5",
+    "the number across",
+    "across",
+    "5, the number across"
+   ],
+   "remediation": "Use a 5 × 5 grid and say “across, then up”.",
+   "transfer": "Make a treasure map with coordinates.",
+   "materials": "Squared paper, pencil.",
+   "practice": [
+    {
+     "prompt": "A point is 2 across and 4 up. Write its coordinates.",
+     "answer": "(2, 4)",
+     "accept": [
+      "(2, 4)",
+      "(2,4)",
+      "2, 4",
+      "2,4"
+     ],
+     "explanation": "Across first, then up."
+    },
+    {
+     "prompt": "Is (3, 1) the same point as (1, 3)?",
+     "type": "mcq",
+     "choices": [
+      "No",
+      "Yes"
+     ],
+     "correct": 0,
+     "answer": "No",
+     "explanation": "Across and up are different."
+    },
+    {
+     "prompt": "Plot the points (1, 1), (4, 1), (4, 3), (1, 3) and join them. What shape is it?",
+     "answer": "A rectangle.",
+     "accept": [
+      "rectangle",
+      "a rectangle",
+      "A rectangle"
+     ],
+     "explanation": "4 points with right angles: a rectangle.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Statistics and Graphs), p. 52, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Statistics and Graphs"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-M3",
+   "domain": "Mathematics",
+   "title": "Factors and multiples up to 50",
+   "objective": "Find the factors of numbers up to 50 and recognise multiples.",
+   "course": "A factor divides a number exactly. The factors of 12 are 1, 2, 3, 4, 6 and 12 (1 × 12, 2 × 6, 3 × 4).\nA multiple is the result of multiplying: 24 is a multiple of 6 because 6 × 4 = 24.",
+   "model": "The adult arranges 18 phone cards in equal rows: 1 × 18, 2 × 9, 3 × 6. Factors of 18: 1, 2, 3, 6, 9, 18.",
+   "guided": "Arrange counters in rectangles to find all the factors of 16 and 20.",
+   "exercise": "List the factors of 10.",
+   "answer": "1, 2, 5, 10",
+   "accept": [
+    "1, 2, 5, 10",
+    "1 2 5 10",
+    "1,2,5,10"
+   ],
+   "remediation": "Use the multiplication table to find pairs.",
+   "transfer": "Find all the ways to arrange 24 chairs in equal rows.",
+   "materials": "Counters.",
+   "practice": [
+    {
+     "prompt": "How many factors does 12 have?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "1, 2, 3, 4, 6, 12."
+    },
+    {
+     "prompt": "Which number is a factor of 20?",
+     "type": "mcq",
+     "choices": [
+      "4",
+      "3",
+      "6"
+     ],
+     "correct": 0,
+     "answer": "4",
+     "explanation": "20 ÷ 4 = 5 exactly."
+    },
+    {
+     "prompt": "Is 35 a multiple of 7? Answer yes or no.",
+     "answer": "Yes.",
+     "accept": [
+      "yes",
+      "Yes"
+     ],
+     "reject": [
+      "no"
+     ],
+     "explanation": "7 × 5 = 35."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T8-M4",
+   "domain": "Mathematics",
+   "title": "A shopping bill up to 1 000 francs",
+   "objective": "Prepare and check a shopping bill and manage a budget up to 1 000 frs.",
+   "course": "A bill lists each item, its quantity, its price and the total. Quantity × price = cost of the item. We add the costs to get the total, then compare with the money we have.\nBeing honest with money means checking bills and giving back extra change.",
+   "model": "Bill: 2 exercise books × 150 frs = 300 frs; 1 pen × 100 frs = 100 frs; 1 phone credit card = 500 frs. Total: 900 frs. Money: 1 000 frs. Change: 100 frs.",
+   "guided": "Prepare a bill for three school items. Check the total and the change.",
+   "exercise": "3 pencils at 50 frs each. What is the cost?",
+   "answer": "150 frs.",
+   "accept": [
+    "150",
+    "150 frs",
+    "150 francs"
+   ],
+   "remediation": "Use one item per line with quantity 1 first.",
+   "transfer": "With an adult, check a real receipt.",
+   "materials": "Price list, play money.",
+   "practice": [
+    {
+     "prompt": "4 exercise books at 125 frs each. Cost in frs?",
+     "type": "number",
+     "answer": 500,
+     "explanation": "4 × 125 = 500."
+    },
+    {
+     "prompt": "Total of 300 frs + 100 frs + 500 frs?",
+     "type": "number",
+     "answer": 900,
+     "explanation": "300 + 100 + 500 = 900."
+    },
+    {
+     "prompt": "The seller gives you 200 frs change instead of 100 frs. What do you do?",
+     "type": "mcq",
+     "choices": [
+      "give back the extra 100 frs",
+      "keep it",
+      "hide it"
+     ],
+     "correct": 0,
+     "answer": "give back the extra 100 frs",
+     "explanation": "Honesty with money."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  }
+ ]
+}

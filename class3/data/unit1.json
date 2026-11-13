@@ -1,0 +1,545 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS3",
+ "classTitle": "Class 3",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS3-T1",
+ "title_en": "The home",
+ "title_fr": "La maison",
+ "lessons": [
+  {
+   "id": "CLASS3-T1-E1",
+   "domain": "English Language and Literature",
+   "title": "Greeting and addressing people politely",
+   "objective": "Greet people at different periods of the day, answer greetings and address adults politely.",
+   "course": "We greet with the right words for the time: Good morning (until midday), Good afternoon (after midday), Good evening (when night falls) and Good night (when we go to bed or leave at night).\nWe address adults politely: Mr Ndi, Mrs Ewane, Uncle, Auntie, Sir, Madam. We answer a greeting with the same greeting and a question: “Good morning, Mrs Ewane. How are you?”",
+   "support": {
+    "title": "Practise with the adult",
+    "text": "Good evening, Uncle Fon. How are you?\nI am fine, thank you. And you?"
+   },
+   "model": "At 7 p.m., Ngum visits her neighbour. She says: “Good evening, Mrs Ewane. How are you?” Mrs Ewane answers: “Good evening, Ngum. I am well, thank you.”",
+   "guided": "Look at four clock faces (7 a.m., 2 p.m., 7 p.m., 10 p.m.). For each one, greet an adult with the right greeting and a polite title.",
+   "exercise": "It is 3 p.m. You meet your teacher, Mr Tanyi. What do you say?",
+   "answer": "Good afternoon, Mr Tanyi.",
+   "accept": [
+    "Good afternoon",
+    "Good afternoon, Mr Tanyi",
+    "Good afternoon, sir"
+   ],
+   "remediation": "Work first with morning and night, then add afternoon and evening.",
+   "transfer": "Greet three adults today with the right greeting and their title.",
+   "materials": "Clock faces or pictures of the sun and the moon.",
+   "practice": [
+    {
+     "prompt": "Match each time with the greeting.",
+     "type": "match",
+     "pairs": [
+      [
+       "8 a.m.",
+       "Good morning"
+      ],
+      [
+       "2 p.m.",
+       "Good afternoon"
+      ],
+      [
+       "7 p.m.",
+       "Good evening"
+      ]
+     ],
+     "answer": "8 a.m.: Good morning; 2 p.m.: Good afternoon; 7 p.m.: Good evening.",
+     "explanation": "The greeting changes with the time of day."
+    },
+    {
+     "prompt": "Which greeting do we say when we leave at night to go to bed?",
+     "type": "mcq",
+     "choices": [
+      "Good evening",
+      "Good night",
+      "Good morning"
+     ],
+     "correct": 1,
+     "answer": "Good night",
+     "explanation": "“Good night” is said when leaving at night or going to bed."
+    },
+    {
+     "prompt": "Listen and answer the greeting politely.",
+     "listen": "Good morning, Ayuk. How are you?",
+     "answer": "Good morning, sir. I am fine, thank you. And you?",
+     "explanation": "Answer the greeting and ask back."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading aloud: sight words and long words",
+   "objective": "Read sight words and multisyllabic words quickly, then read a short text aloud with good intonation.",
+   "course": "Sight words are words we see very often: the, was, said, they, because, where. We learn to read them at once, without sounding each letter.\nLong words can be cut into syllables: ba-ske-ball, bed-room, kit-chen, re-mem-ber. We read each part, then the whole word.\nWhen we read aloud, we stop at full stops and our voice goes up at the end of a question.",
+   "support": {
+    "title": "Read aloud",
+    "text": "Our house has a parlour, a kitchen and two bedrooms.\nWhere is my brother? He said he was in the garden."
+   },
+   "model": "The adult reads the text slowly, stops at each full stop and raises the voice at the question.",
+   "guided": "Read the sight words on cards as fast as you can. Clap the syllables of the long words. Then read the short text aloud twice.",
+   "exercise": "How many syllables are there in “remember”?",
+   "answer": "3",
+   "accept": [
+    "3",
+    "three"
+   ],
+   "remediation": "Practise five sight words a day; clap long words before reading them.",
+   "transfer": "Read a short text from a newspaper, a label or a book aloud to someone at home.",
+   "materials": "Sight word cards, a short text.",
+   "practice": [
+    {
+     "prompt": "Put the syllables in order.",
+     "type": "order",
+     "items": [
+      "kit",
+      "chen"
+     ],
+     "answer": "kitchen",
+     "explanation": "kit-chen."
+    },
+    {
+     "prompt": "Which word is a sight word we read at once?",
+     "type": "mcq",
+     "choices": [
+      "because",
+      "xylophone",
+      "hippopotamus"
+     ],
+     "correct": 0,
+     "answer": "because",
+     "explanation": "“Because” is a very common word."
+    },
+    {
+     "prompt": "How many syllables in “basketball”?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "bas-ket-ball: 3 syllables."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-E3",
+   "domain": "English Language and Literature",
+   "title": "Handwriting: copying a short text in joint script",
+   "objective": "Copy a short text of at least five sentences legibly in upright joint script.",
+   "course": "In joint script, the letters of a word are joined by small strokes. We keep letters the same height, we write upright and we leave a space between words.\nWe copy a whole sentence at a time: we read it, we remember it, we write it, then we check.",
+   "support": {
+    "title": "Copy this text",
+    "text": "Our home is small and clean. Mama cooks in the kitchen. Papa repairs the door. My sister sweeps the yard. I water the flowers."
+   },
+   "model": "The adult copies the first sentence slowly, joining the letters, and checks each word against the model.",
+   "guided": "Copy the five sentences. After each sentence, check: capital letter, spaces, full stop.",
+   "exercise": "Copy the first sentence in joint script.",
+   "answer": "Our home is small and clean.",
+   "remediation": "Copy one sentence a day, joining two letters at a time (ou, me, ll).",
+   "transfer": "Copy a short message for your family on a card.",
+   "materials": "Lined paper, pencil or pen.",
+   "practice": [
+    {
+     "prompt": "Copy the five sentences in joint script.",
+     "answer": "The five sentences copied legibly.",
+     "explanation": "Check capitals, spaces and full stops.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "What do we leave between two words?",
+     "type": "mcq",
+     "choices": [
+      "a space",
+      "a full stop",
+      "a capital letter"
+     ],
+     "correct": 0,
+     "answer": "a space",
+     "explanation": "Spaces make the text easy to read."
+    },
+    {
+     "prompt": "Put the steps of copying in order.",
+     "type": "order",
+     "items": [
+      "Read the sentence.",
+      "Remember it.",
+      "Write it.",
+      "Check it."
+     ],
+     "answer": "read, remember, write, check.",
+     "explanation": "Copy a whole sentence at a time."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-E4",
+   "domain": "English Language and Literature",
+   "title": "Kinds of nouns, plurals and articles",
+   "objective": "Identify common, proper and concrete nouns, form plurals with s, es and ies, and use a, an and the.",
+   "course": "A common noun names any person, place or thing: house, mother, town. A proper noun names a particular one and starts with a capital letter: Bamenda, Mrs Ewane, River Sanaga. A concrete noun names something we can see or touch: a chair, a pot.\nPlurals: most nouns add s (room → rooms); nouns ending in s, sh, ch, x add es (box → boxes, dish → dishes); a consonant + y becomes ies (baby → babies).\nArticles are noun signals: a before a consonant sound (a bed), an before a vowel sound (an orange), the for a particular thing (the kitchen).",
+   "model": "The adult sorts word cards: “Kumba” is proper (capital K); “pot” is common and concrete; “dish” becomes “dishes”.",
+   "guided": "Sort ten nouns from the home into common or proper. Then write the plural of each common noun.",
+   "exercise": "Write the plural of “family”.",
+   "answer": "families",
+   "accept": [
+    "families"
+   ],
+   "reject": [
+    "familys"
+   ],
+   "remediation": "Practise s plurals first, then es, then ies.",
+   "transfer": "Write five things in your home with a or an.",
+   "materials": "Word cards.",
+   "practice": [
+    {
+     "prompt": "Complete with the plural.",
+     "type": "gaps",
+     "text": "one box, two [[boxes]]; one baby, three [[babies]]; one room, four [[rooms]]",
+     "answer": "boxes; babies; rooms.",
+     "explanation": "es after x; y becomes ies; s for most nouns."
+    },
+    {
+     "prompt": "Which one is a proper noun?",
+     "type": "mcq",
+     "choices": [
+      "town",
+      "Limbe",
+      "river"
+     ],
+     "correct": 1,
+     "answer": "Limbe",
+     "explanation": "Limbe is the name of a particular town: it starts with a capital letter."
+    },
+    {
+     "prompt": "Complete with a or an.",
+     "type": "gaps",
+     "text": "[[an]] orange, [[a]] mat, [[an]] umbrella",
+     "answer": "an orange, a mat, an umbrella.",
+     "explanation": "an before a vowel sound."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-M1",
+   "domain": "Mathematics",
+   "title": "The universal set and subsets at home",
+   "objective": "Describe a universal set and its subsets, and use the symbols { } and ⊂.",
+   "course": "The universal set (U) contains all the things we are talking about. U = {things in our kitchen}.\nA subset is a smaller set inside it: {pots} ⊂ U, {spoons} ⊂ U. We list elements between curly brackets and separate them with commas: {pot, plate, cup}.",
+   "model": "The adult says: U = {Mama, Papa, Bih, Ayuk, Grandma}. The subset of children is {Bih, Ayuk}.",
+   "guided": "Make a universal set with ten objects from the house. Form two subsets and write them with curly brackets.",
+   "exercise": "U = {1, 2, 3, 4, 5, 6}. Write the subset of even numbers.",
+   "answer": "{2, 4, 6}",
+   "accept": [
+    "{2, 4, 6}",
+    "2, 4, 6",
+    "{2,4,6}",
+    "2 4 6"
+   ],
+   "remediation": "Use real objects in a big ring and small rings inside it.",
+   "transfer": "Arrange your belongings in subsets: books, clothes, shoes.",
+   "materials": "Objects from the house, strings to make rings.",
+   "practice": [
+    {
+     "prompt": "U = {mango, orange, carrot, banana, cabbage}. How many elements are in the subset of fruits?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "Fruits: mango, orange, banana: 3 elements."
+    },
+    {
+     "prompt": "Which symbol means “is a subset of”?",
+     "type": "mcq",
+     "choices": [
+      "⊂",
+      "=",
+      "+"
+     ],
+     "correct": 0,
+     "answer": "⊂",
+     "explanation": "{pots} ⊂ U means the set of pots is inside U."
+    },
+    {
+     "prompt": "Match each element with its subset.",
+     "type": "match",
+     "pairs": [
+      [
+       "a bed",
+       "bedroom things"
+      ],
+      [
+       "a pot",
+       "kitchen things"
+      ],
+      [
+       "a sofa",
+       "parlour things"
+      ]
+     ],
+     "answer": "bed: bedroom; pot: kitchen; sofa: parlour.",
+     "explanation": "Each element belongs to a subset."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Sets and Logic), p. 50, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sets and Logic"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-M2",
+   "domain": "Mathematics",
+   "title": "Numbers up to 500: reading, writing, counting",
+   "objective": "Count, read and write numbers up to 500, forward and backward.",
+   "course": "We count in ones, tens and hundreds: 198, 199, 200, 201… or 250, 260, 270… or 100, 200, 300, 400, 500.\nA number up to 500 has hundreds, tens and units: 384 = 3 hundreds, 8 tens, 4 units.",
+   "model": "The adult counts the bags of cement in a store by hundreds and tens: “Three hundred and forty bags.”",
+   "guided": "Count on and back from a given number: from 296 to 305, from 480 back to 470.",
+   "exercise": "Which number comes just after 399?",
+   "answer": "400",
+   "accept": [
+    "400",
+    "four hundred"
+   ],
+   "remediation": "Count in tens up to 100, then in hundreds up to 500.",
+   "transfer": "Count the pages of a big book in tens.",
+   "materials": "Number cards, bundles of sticks (hundreds, tens, units).",
+   "practice": [
+    {
+     "prompt": "Which number comes just before 300?",
+     "type": "number",
+     "answer": 299,
+     "explanation": "One less than 300 is 299."
+    },
+    {
+     "prompt": "Complete the count in tens.",
+     "type": "gaps",
+     "text": "440, 450, [[460]], 470, [[480]]",
+     "answer": "460; 480.",
+     "explanation": "Add 10 each time."
+    },
+    {
+     "prompt": "Put the numbers in order from smallest to biggest.",
+     "type": "order",
+     "items": [
+      "105",
+      "150",
+      "415",
+      "451"
+     ],
+     "answer": "105, 150, 415, 451.",
+     "explanation": "Compare hundreds, then tens."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-M3",
+   "domain": "Mathematics",
+   "title": "Place value: thousands, hundreds, tens and units",
+   "objective": "Give the place value of each digit in a number and partition numbers.",
+   "course": "In 4 372: 4 is in the thousands place (4 000), 3 in the hundreds place (300), 7 in the tens place (70), 2 in the units place (2).\nWe can partition: 372 = 300 + 70 + 2.",
+   "model": "The adult writes 265 in a table Th | H | T | U and says the value of each digit.",
+   "guided": "Write five numbers in the place value table and partition each one.",
+   "exercise": "What is the value of 6 in 462?",
+   "answer": "60",
+   "accept": [
+    "60",
+    "sixty",
+    "6 tens"
+   ],
+   "remediation": "Use bundles of 100, 10 and single sticks.",
+   "transfer": "Look at a price (for example 350 frs) and say the value of each digit.",
+   "materials": "Place value table, bundles of sticks.",
+   "practice": [
+    {
+     "prompt": "What is the value of 3 in 3 418?",
+     "type": "number",
+     "answer": 3000,
+     "explanation": "3 is in the thousands place."
+    },
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "487 = [[400]] + [[80]] + 7",
+     "answer": "400 + 80 + 7.",
+     "explanation": "Hundreds + tens + units."
+    },
+    {
+     "prompt": "Which number has 2 hundreds, 0 tens and 9 units?",
+     "type": "mcq",
+     "choices": [
+      "209",
+      "290",
+      "29"
+     ],
+     "correct": 0,
+     "answer": "209",
+     "explanation": "2 hundreds, 0 tens, 9 units: 209."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T1-M4",
+   "domain": "Mathematics",
+   "title": "Measuring length: mm, cm, dm, m",
+   "objective": "Measure and compare lengths using mm, cm, dm and m, and convert between them.",
+   "course": "We measure length with a ruler or a tape measure. 1 cm = 10 mm; 1 dm = 10 cm; 1 m = 100 cm.\nSmall things: in mm or cm (a pencil: 15 cm). Big things: in m (a room: 4 m).",
+   "model": "The adult measures a table: 1 m and 20 cm, that is 120 cm.",
+   "guided": "Measure five objects at home with a ruler or a tape. Write each length in cm, then in m and cm when it is longer than 1 m.",
+   "exercise": "How many centimetres are in 1 metre?",
+   "answer": "100",
+   "accept": [
+    "100",
+    "one hundred",
+    "100 cm"
+   ],
+   "remediation": "Measure with a ruler only, in cm.",
+   "transfer": "Measure the length of your bed with a tape measure.",
+   "materials": "Ruler, tape measure.",
+   "practice": [
+    {
+     "prompt": "2 m = ? cm",
+     "type": "number",
+     "answer": 200,
+     "explanation": "1 m = 100 cm, so 2 m = 200 cm."
+    },
+    {
+     "prompt": "3 cm = ? mm",
+     "type": "number",
+     "answer": 30,
+     "explanation": "1 cm = 10 mm."
+    },
+    {
+     "prompt": "Which unit is best to measure the length of a classroom?",
+     "type": "mcq",
+     "choices": [
+      "metres",
+      "millimetres",
+      "grams"
+     ],
+     "correct": 0,
+     "answer": "metres",
+     "explanation": "A classroom is long: we use metres."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  }
+ ]
+}

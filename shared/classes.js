@@ -26,7 +26,9 @@
     // Piste anglophone (ADR-013, ADR-017) : language « en » traduit l'interface (shared/i18n.js) ; domains: false, le programme ne
     // groupe pas les matières en domaines et le parcours « Par domaine » n'est pas proposé ; subsystem situe la classe pour l'accueil.
     {grade: 'CLASS1', label: 'Class 1', twin: 'SIL', engine: 'lessons', dir: 'class1/', catalog: 'class1/data/catalog.json', group: 'units',
-      language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class1_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false}
+      language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class1_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false},
+    {grade: 'CLASS3', label: 'Class 3', twin: 'CE1', engine: 'lessons', dir: 'class3/', catalog: 'class3/data/catalog.json', group: 'units',
+      language: 'en', subsystem: 'anglophone', progressKey: 'klassia_class3_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, domains: false}
   ];
   // Classes servies à leur adresse pour la relecture mais pas encore proposées aux familles (accueil, sélecteur, hors connexion,
   // recherche). Vide depuis ADR-018 : un contenu en relecture est proposé, avec une mention visible.

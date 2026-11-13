@@ -1,0 +1,554 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS3",
+ "classTitle": "Class 3",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS3-T7",
+ "title_en": "Games",
+ "title_fr": "Les jeux",
+ "lessons": [
+  {
+   "id": "CLASS3-T7-E1",
+   "domain": "English Language and Literature",
+   "title": "Singing a song with the right tune",
+   "objective": "Sing songs with correct tones and melody, and show respect when the national anthem is sung.",
+   "course": "To sing well, we listen to the tune, we breathe at the end of a line and we pronounce each word clearly.\nThe national anthem is sung on important occasions. We stand still, we sing it with pride and we do not talk or move. (The words are learnt with the teacher from the official text.)",
+   "support": {
+    "title": "Klassia playground song",
+    "text": "Come and play, come and play,\nskip the rope and run away,\nwhen the bell rings, line up straight,\nnever push and never wait!"
+   },
+   "model": "The adult sings the song slowly, breathing at the end of each line.",
+   "guided": "Learn the song line by line. Sing it in two groups: one sings a line, the other answers with the next.",
+   "exercise": "What do we do when the national anthem is sung?",
+   "answer": "We stand still and sing with pride.",
+   "accept": [
+    "stand still",
+    "we stand still",
+    "stand still and sing",
+    "We stand still and sing with pride"
+   ],
+   "remediation": "Sing the first two lines several times before the rest.",
+   "transfer": "Teach the song to a younger child.",
+   "materials": "Your voice; the official text of the anthem from the teacher.",
+   "practice": [
+    {
+     "prompt": "Listen to the song and sing it after the voice.",
+     "listen": "Come and play, come and play, skip the rope and run away, when the bell rings, line up straight, never push and never wait!",
+     "answer": "The song sung with the tune.",
+     "explanation": "Breathe at the end of each line."
+    },
+    {
+     "prompt": "Which word rhymes with “play”?",
+     "type": "mcq",
+     "choices": [
+      "away",
+      "straight",
+      "rope"
+     ],
+     "correct": 0,
+     "answer": "away",
+     "explanation": "play – away."
+    },
+    {
+     "prompt": "When do we breathe while singing?",
+     "answer": "At the end of a line.",
+     "accept": [
+      "at the end of a line",
+      "end of a line",
+      "at the end of each line",
+      "At the end of a line"
+     ],
+     "explanation": "Breathing at the end of a line keeps the tune."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 3 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS3-T7-E2",
+   "domain": "English Language and Literature",
+   "title": "A cartoon strip and its moral",
+   "objective": "Read a cartoon strip, put oneself in the place of a character and deduce the moral.",
+   "course": "A cartoon tells a story in boxes with drawings and speech bubbles. We read the boxes from left to right, top to bottom, and we look at the faces to understand feelings.",
+   "support": {
+    "title": "Klassia cartoon (four boxes)",
+    "text": "Box 1: Ekane: “I am the best footballer! Nobody can take the ball from me!”\nBox 2: Ekane dribbles alone and refuses to pass the ball to his team.\nBox 3: Three players from the other team surround him and take the ball. They score.\nBox 4: Ekane, sad: “Next time, I will pass the ball. A team wins together.”"
+   },
+   "model": "The adult reads box 1 with a proud voice and box 4 with a sad voice, then asks how Ekane changed.",
+   "guided": "Read the four boxes. Act them in a group. Say what Ekane learnt.",
+   "exercise": "What does Ekane learn at the end?",
+   "answer": "A team wins together, so he must pass the ball.",
+   "accept": [
+    "a team wins together",
+    "to pass the ball",
+    "pass the ball",
+    "A team wins together, so he must pass the ball"
+   ],
+   "remediation": "Read box by box with the adult and describe each face.",
+   "transfer": "Draw a four-box cartoon about a game you play.",
+   "materials": "The cartoon (text version); paper to draw.",
+   "practice": [
+    {
+     "prompt": "Put the boxes in order.",
+     "type": "order",
+     "items": [
+      "Ekane says he is the best.",
+      "He refuses to pass.",
+      "The other team takes the ball.",
+      "He decides to pass next time."
+     ],
+     "answer": "best, refuses, loses the ball, decides to pass.",
+     "explanation": "Read the boxes in order."
+    },
+    {
+     "prompt": "How does Ekane feel in box 4?",
+     "type": "mcq",
+     "choices": [
+      "sad",
+      "proud",
+      "angry with the referee"
+     ],
+     "correct": 0,
+     "answer": "sad",
+     "explanation": "The text says: Ekane, sad."
+    },
+    {
+     "prompt": "Draw a four-box cartoon about a game.",
+     "answer": "A cartoon in four boxes.",
+     "explanation": "Use speech bubbles.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Literature), p. 44, Class 3 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Literature"
+   ]
+  },
+  {
+   "id": "CLASS3-T7-E3",
+   "domain": "English Language and Literature",
+   "title": "Spelling: the apostrophe s’ for plural owners",
+   "objective": "Use the apostrophe after s (s’) to show that something belongs to several people.",
+   "course": "When a plural noun ends in s, we add only an apostrophe to show owning: the boys’ ball (the ball of the boys), the players’ shirts, my parents’ room.\nCompare: the girl’s skipping rope (one girl) — the girls’ skipping rope (many girls).",
+   "model": "The adult writes: “the ball of the boys” → “the boys’ ball”; “the whistle of the referee” → “the referee’s whistle”.",
+   "guided": "Sort phrases: one owner (’s) or many owners (s’). Then rewrite them.",
+   "exercise": "Write with an apostrophe: the shirts of the players.",
+   "answer": "the players’ shirts",
+   "accept": [
+    "the players’ shirts",
+    "the players' shirts",
+    "players’ shirts"
+   ],
+   "remediation": "Draw one owner and many owners to see the difference.",
+   "transfer": "Write three phrases about your family with s’ (my parents’ house, my sisters’ room).",
+   "materials": "Phrase cards.",
+   "practice": [
+    {
+     "prompt": "Complete with ’s or s’.",
+     "type": "gaps",
+     "text": "the girl[[’s]] rope (one girl); the team[[s’]] flags (two teams)",
+     "answer": "the girl’s rope; the teams’ flags.",
+     "explanation": "One owner: ’s. Many owners ending in s: s’."
+    },
+    {
+     "prompt": "Which one means “the ball of the boys”?",
+     "type": "mcq",
+     "choices": [
+      "the boy’s ball",
+      "the boys’ ball",
+      "the boys ball"
+     ],
+     "correct": 1,
+     "answer": "the boys’ ball",
+     "explanation": "Many boys: s’."
+    },
+    {
+     "prompt": "Write: the house of my parents.",
+     "answer": "my parents’ house",
+     "accept": [
+      "my parents’ house",
+      "my parents' house"
+     ],
+     "explanation": "parents is plural: s’."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 3 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS3-T7-E4",
+   "domain": "English Language and Literature",
+   "title": "Adverbs and interjections in games",
+   "objective": "Use adverbs of manner, place and time, and interjections to express feelings.",
+   "course": "Adverbs tell more about a verb. Manner (how): quickly, slowly, carefully, well. Place (where): here, there, outside, everywhere. Time (when): now, today, yesterday, soon.\nInterjections express feelings and are followed by an exclamation mark: Hurray! Bravo! Hey! Oh!",
+   "model": "The adult commentates a race: “Tabi runs quickly! He is there now! Hurray! He wins! Bravo, Tabi!”",
+   "guided": "Commentate a game in pairs using three adverbs and two interjections.",
+   "exercise": "Complete with an adverb of manner: Manka skips ___ (in a careful way).",
+   "answer": "carefully",
+   "accept": [
+    "carefully",
+    "Manka skips carefully"
+   ],
+   "remediation": "Practise adverbs of manner with -ly first (slow → slowly).",
+   "transfer": "Describe how your friends play, using adverbs.",
+   "materials": "A ball or a rope for the game.",
+   "practice": [
+    {
+     "prompt": "Match each adverb with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "quickly",
+       "manner"
+      ],
+      [
+       "outside",
+       "place"
+      ],
+      [
+       "yesterday",
+       "time"
+      ]
+     ],
+     "answer": "quickly: manner; outside: place; yesterday: time.",
+     "explanation": "Adverbs tell how, where or when."
+    },
+    {
+     "prompt": "Which interjection shows joy for a winner?",
+     "type": "mcq",
+     "choices": [
+      "Hurray!",
+      "Oh no!",
+      "Ouch!"
+     ],
+     "correct": 0,
+     "answer": "Hurray!",
+     "explanation": "Hurray! shows joy."
+    },
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "The players ran [[slowly]] (slow) because they were tired.",
+     "answer": "slowly",
+     "explanation": "slow + ly = slowly."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 3 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS3-T7-M1",
+   "domain": "Mathematics",
+   "title": "The circle: centre, radius and diameter",
+   "objective": "Describe the centre, radius and diameter of a circle and draw circles.",
+   "course": "Every point of a circle is at the same distance from the centre. The radius goes from the centre to the circle. The diameter crosses the circle through the centre: it is twice the radius.\nWe can draw a circle with a string fixed at the centre, or with a compass.",
+   "model": "On the playground, the adult draws a big circle for a game with a stick tied to a rope of 2 m: radius 2 m, diameter 4 m.",
+   "guided": "Draw a circle with a string and a pencil. Mark the centre, draw a radius and a diameter, and measure them.",
+   "exercise": "The radius of a circle is 6 cm. What is the diameter?",
+   "answer": "12 cm.",
+   "accept": [
+    "12",
+    "12 cm"
+   ],
+   "remediation": "Fold a paper circle in two to see the diameter.",
+   "transfer": "Find circles in games and objects at home (a ball, a plate, a tyre).",
+   "materials": "String, pencil, compass (with an adult), ruler.",
+   "practice": [
+    {
+     "prompt": "The diameter is 10 cm. What is the radius in cm?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "The radius is half the diameter."
+    },
+    {
+     "prompt": "Which line goes through the centre from one side to the other?",
+     "type": "mcq",
+     "choices": [
+      "the diameter",
+      "the radius",
+      "the side"
+     ],
+     "correct": 0,
+     "answer": "the diameter",
+     "explanation": "The diameter crosses through the centre."
+    },
+    {
+     "prompt": "Draw a circle and mark its centre, a radius and a diameter.",
+     "answer": "A circle with centre, radius and diameter.",
+     "explanation": "Label each part.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 3 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS3-T7-M2",
+   "domain": "Mathematics",
+   "title": "Solid shapes in games",
+   "objective": "Recognise and describe solid (3D) shapes: cube, cuboid, cylinder, sphere, cone and pyramid.",
+   "course": "Solid shapes have faces, edges and corners (vertices). A cube has 6 square faces. A cuboid has 6 rectangular faces. A cylinder has 2 circular faces (a tin). A sphere is round (a ball). A cone has 1 circular face and a point.",
+   "model": "The adult shows game objects: a dice (cube), a ball (sphere), a tin used as a drum (cylinder).",
+   "guided": "Collect objects at home and sort them by shape. Count the faces of a box.",
+   "exercise": "How many faces has a cube?",
+   "answer": "6",
+   "accept": [
+    "6",
+    "six"
+   ],
+   "remediation": "Work with three shapes first: cube, sphere, cylinder.",
+   "transfer": "Make a cone with paper for a party hat.",
+   "materials": "Boxes, tins, balls, a dice.",
+   "practice": [
+    {
+     "prompt": "Match each object with its shape.",
+     "type": "match",
+     "pairs": [
+      [
+       "a dice",
+       "cube"
+      ],
+      [
+       "a football",
+       "sphere"
+      ],
+      [
+       "a tin of milk",
+       "cylinder"
+      ]
+     ],
+     "answer": "dice: cube; football: sphere; tin: cylinder.",
+     "explanation": "Look at the faces."
+    },
+    {
+     "prompt": "Which shape has a point and one circular face?",
+     "type": "mcq",
+     "choices": [
+      "cone",
+      "cube",
+      "cuboid"
+     ],
+     "correct": 0,
+     "answer": "cone",
+     "explanation": "A cone has a point."
+    },
+    {
+     "prompt": "How many edges does a cube have?",
+     "type": "number",
+     "answer": 12,
+     "explanation": "A cube has 12 edges."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 3 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS3-T7-M3",
+   "domain": "Mathematics",
+   "title": "Building shapes with local materials",
+   "objective": "Construct shapes using natural and recycled materials and solve shape puzzles.",
+   "course": "We can build shapes with sticks, straws, bottle tops and cartons: a triangle with 3 sticks, a square with 4 equal sticks, a cube with 12 sticks and clay balls at the corners.\nA tangram is a puzzle of 7 pieces that make many figures.",
+   "model": "The adult makes a cube frame with 12 sticks and 8 small balls of clay.",
+   "guided": "Build a triangle, a square and a cube frame. Then make a figure with paper tangram pieces.",
+   "exercise": "How many sticks are needed for a cube frame?",
+   "answer": "12",
+   "accept": [
+    "12",
+    "twelve"
+   ],
+   "remediation": "Build flat shapes before solid ones.",
+   "transfer": "Build a small house frame with sticks and show your family.",
+   "materials": "Sticks or straws, clay, paper for a tangram.",
+   "practice": [
+    {
+     "prompt": "How many corners (vertices) does a cube have?",
+     "type": "number",
+     "answer": 8,
+     "explanation": "8 clay balls for 8 corners."
+    },
+    {
+     "prompt": "Which shape can we make with 3 sticks?",
+     "type": "mcq",
+     "choices": [
+      "triangle",
+      "square",
+      "cube"
+     ],
+     "correct": 0,
+     "answer": "triangle",
+     "explanation": "3 sides: triangle."
+    },
+    {
+     "prompt": "Draw the figure you made with the tangram.",
+     "answer": "A drawing of the tangram figure.",
+     "explanation": "Show the pieces.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 3 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS3-T7-M4",
+   "domain": "Mathematics",
+   "title": "Number bonds of 5, 6 and 7 in games",
+   "objective": "Make number bonds of 5, 6 and 7 quickly and use them in mental calculation.",
+   "course": "Number bonds are pairs of numbers that make a total. Bonds of 7: 0 + 7, 1 + 6, 2 + 5, 3 + 4.\nThey help us calculate fast: 37 + 3 → think 7 + 3 = 10, so 40.",
+   "model": "In a game of songo, the adult splits 7 seeds into two holes in all possible ways: 1 and 6, 2 and 5, 3 and 4.",
+   "guided": "Play “hidden hand”: hide some of 6 seeds in one hand, the friend says how many are hidden.",
+   "exercise": "5 + ? = 7",
+   "answer": "2",
+   "accept": [
+    "2",
+    "two"
+   ],
+   "remediation": "Use seeds to make each bond.",
+   "transfer": "Play the hidden hand game with a friend.",
+   "materials": "Seeds or bottle tops.",
+   "practice": [
+    {
+     "prompt": "Match the pairs that make 6.",
+     "type": "match",
+     "pairs": [
+      [
+       "1",
+       "5"
+      ],
+      [
+       "2",
+       "4"
+      ],
+      [
+       "3",
+       "3"
+      ]
+     ],
+     "answer": "1+5; 2+4; 3+3.",
+     "explanation": "Each pair makes 6."
+    },
+    {
+     "prompt": "4 + ? = 7",
+     "type": "number",
+     "answer": 3,
+     "explanation": "4 and 3 make 7."
+    },
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "2 + [[3]] = 5 ; [[1]] + 5 = 6",
+     "answer": "3; 1.",
+     "explanation": "Think of the bonds."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  }
+ ]
+}

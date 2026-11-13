@@ -1,0 +1,550 @@
+{
+ "id": "T1",
+ "grade": "NURSERY1",
+ "title_en": "The school",
+ "title_fr": "L’école",
+ "twin": "T1",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Our class corner",
+  "description_en": "At the end of the theme, the child shows a corner of the classroom made with the group, says the names of two classmates and the teacher, greets in English and in French, and shows one school rule."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "💬",
+   "activities": [
+    {
+     "id": "N1-T1-LC1",
+     "type": "story",
+     "area": "Storytelling",
+     "title_en": "Tani’s first day at school",
+     "goal_en": "Listen to a short story and say how the character feels.",
+     "prompt_en": "Listen to the story of Tani. How does Tani feel in the morning? And at the end of the day?",
+     "steps_en": [
+      "Show the picture of a school and ask what happens there.",
+      "Tell the story slowly, with your hands and your face.",
+      "Ask: How did Tani feel? Who helped her?",
+      "Let the child tell the story again with you."
+     ],
+     "observe_en": [
+      "Listens until the end of the story.",
+      "Says one feeling of the character (sad, afraid, happy).",
+      "Names who helped Tani."
+     ],
+     "materials_en": [
+      "a picture of a school",
+      "a doll or a puppet"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 14 (Storytelling: Short stories), p. 39; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "story_en": "On her first day at school, Tani held her mother’s hand very tight. The classroom was big and noisy. Tani wanted to cry. Then a girl with red ribbons came and said: “Hello! I am Ewi. Do you want to play with the blocks?” Tani built a tall tower with Ewi. When her mother came back, Tani said: “Mummy, tomorrow I am coming back to play with Ewi!”",
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🏫 school",
+       "😟 afraid",
+       "🧱 blocks",
+       "😊 happy"
+      ]
+     }
+    },
+    {
+     "id": "N1-T1-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "My name card",
+     "goal_en": "Recognise one’s own name written on a card.",
+     "prompt_en": "Here are some name cards. Can you find the card with your name?",
+     "steps_en": [
+      "Write the child’s name on a card in clear lowercase letters, with a capital first letter.",
+      "Read it aloud, pointing to each letter from left to right.",
+      "Mix it with two other name cards.",
+      "Ask the child to find their card, then to put it on their peg or chair."
+     ],
+     "observe_en": [
+      "Finds their own name card among three.",
+      "Says the first letter of their name.",
+      "Follows the letters from left to right with a finger."
+     ],
+     "materials_en": [
+      "name cards",
+      "a marker"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 17 (Reading: Listening and reading words), p. 42; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T1-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "Rain falls: vertical lines",
+     "goal_en": "Hold the crayon correctly and draw vertical lines from top to bottom.",
+     "prompt_en": "The rain falls from the sky to the ground. Draw the rain: from the top, down!",
+     "steps_en": [
+      "Show how to hold the crayon between the thumb and two fingers.",
+      "Draw a line in the air from top to bottom, saying “down”.",
+      "Draw lines in sand or on a slate.",
+      "Draw lines on paper, from the top line to the bottom line."
+     ],
+     "observe_en": [
+      "Holds the crayon with three fingers.",
+      "Starts each line at the top.",
+      "Draws lines that go down without stopping."
+     ],
+     "materials_en": [
+      "crayons",
+      "paper",
+      "a sand tray or a slate"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 18 (Writing: Pre-letter formation), p. 43; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "☁️",
+       "| | | |",
+       "🌱"
+      ]
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N1-T1-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "« Bonjour ! » in the morning",
+     "goal_en": "Greet the teacher and friends in French in the morning.",
+     "prompt_en": "In French, we say “Bonjour !” in the morning. Say “Bonjour, Madame !” to your teacher.",
+     "steps_en": [
+      "Say “Bonjour !” with a smile and a wave.",
+      "The child repeats “Bonjour !”.",
+      "Practise “Bonjour, Madame !” and “Bonjour, Monsieur !”.",
+      "Greet a puppet, then a real person."
+     ],
+     "observe_en": [
+      "Says “Bonjour” clearly.",
+      "Uses “Madame” or “Monsieur”.",
+      "Greets with a smile and looks at the person."
+     ],
+     "materials_en": [
+      "a puppet"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery One, table 19 (French: Salutations), p. 44; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "👋 Bonjour !",
+       "👩‍🏫 Bonjour, Madame !",
+       "👨‍🏫 Bonjour, Monsieur !"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔢",
+   "activities": [
+    {
+     "id": "N1-T1-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Counting our crayons",
+     "goal_en": "Count objects from 1 to 5 and say how many there are.",
+     "prompt_en": "How many crayons are in the box? Let us touch each one and count.",
+     "steps_en": [
+      "Put 3 to 5 crayons on the table.",
+      "Touch each crayon and say one number: one, two, three…",
+      "Say the last number again: “There are four crayons.”",
+      "Change the number of crayons and count again."
+     ],
+     "observe_en": [
+      "Touches one object for each number.",
+      "Says the numbers in order up to 5.",
+      "Repeats the last number to say how many."
+     ],
+     "materials_en": [
+      "5 crayons",
+      "a small box"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 20 (Mathematics: Counting), p. 45; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "✏️",
+       "✏️",
+       "✏️",
+       "✏️"
+      ]
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "How many crayons can you see?",
+      "answer": 4,
+      "explanation_en": "Touch each crayon: one, two, three, four. There are 4 crayons."
+     }
+    },
+    {
+     "id": "N1-T1-ST2",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Red, blue, yellow: sorting our things",
+     "goal_en": "Sort classroom objects by colour.",
+     "prompt_en": "Put all the red things here, the blue things there and the yellow things here.",
+     "steps_en": [
+      "Show three baskets with a red, a blue and a yellow paper.",
+      "Name the colour of one object and put it in the right basket.",
+      "Give the child objects one by one to sort.",
+      "Count the objects in each basket together."
+     ],
+     "observe_en": [
+      "Names the three colours.",
+      "Puts each object in the basket of its colour.",
+      "Says which basket has the most."
+     ],
+     "materials_en": [
+      "three baskets",
+      "red, blue and yellow objects"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 20 (Mathematics: Classifying elements), p. 45; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🔴 red",
+       "🔵 blue",
+       "🟡 yellow"
+      ]
+     }
+    },
+    {
+     "id": "N1-T1-ST3",
+     "type": "sensory",
+     "area": "Sensory and Perceptive Education",
+     "title_en": "Soft voice, loud voice",
+     "goal_en": "Hear the difference between a soft voice and a loud voice and choose the right one.",
+     "prompt_en": "Listen: is my voice soft or loud? In the classroom, we use a soft voice.",
+     "steps_en": [
+      "Say a word softly, then loudly.",
+      "The child shows a small hand for soft and a big hand for loud.",
+      "Ask: where do we use a soft voice? (classroom, a baby sleeping)",
+      "Play: whisper a word, the child repeats it softly."
+     ],
+     "observe_en": [
+      "Hears the difference between soft and loud.",
+      "Uses a soft voice when asked.",
+      "Gives one place where we speak softly."
+     ],
+     "materials_en": [
+      "none"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery One, table 21 (Sensory and Perceptive Education: The sense of hearing), p. 46; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🧼",
+   "activities": [
+    {
+     "id": "N1-T1-PV1",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "My name, my teacher, my school",
+     "goal_en": "Introduce oneself and name the teacher and the school.",
+     "prompt_en": "Tell me: what is your name? What is your teacher’s name? What is the name of your school?",
+     "steps_en": [
+      "Introduce yourself first: “My name is…”.",
+      "The child says “My name is…”.",
+      "Show the teacher and say their name together.",
+      "Walk to the school gate or sign and read the school name."
+     ],
+     "observe_en": [
+      "Says “My name is…” clearly.",
+      "Names the teacher.",
+      "Recognises the school name or sign."
+     ],
+     "materials_en": [
+      "a photo of the class or the school sign"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 24 (Citizenship: Self-introduction), p. 50; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T1-PV2",
+     "type": "safety",
+     "area": "Safety Education",
+     "title_en": "Safe play in the playground",
+     "goal_en": "Follow simple safety rules in the playground and tell the teacher when something happens.",
+     "prompt_en": "In the playground, we wait our turn on the slide, we do not push and we tell the teacher if someone is hurt.",
+     "steps_en": [
+      "Walk round the playground and point to the swings, the slide or the open space.",
+      "Say one rule for each place.",
+      "Act: one child falls; another runs to tell the teacher.",
+      "Repeat the rules with gestures."
+     ],
+     "observe_en": [
+      "Waits for their turn.",
+      "Says one rule (do not push, wait your turn).",
+      "Knows to tell the teacher."
+     ],
+     "materials_en": [
+      "the playground"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 27 (Safety Education: School safety), p. 53; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T1-PV3",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "Washing my hands step by step",
+     "goal_en": "Wash hands with soap and water in the right order.",
+     "prompt_en": "Before eating and after the toilet, we wash our hands: water, soap, rub, rinse, dry.",
+     "steps_en": [
+      "Wet the hands with clean water.",
+      "Put soap and rub the palms, the backs and between the fingers.",
+      "Rinse with clean water.",
+      "Dry with a clean towel or in the air."
+     ],
+     "observe_en": [
+      "Uses soap.",
+      "Rubs between the fingers.",
+      "Rinses and dries the hands."
+     ],
+     "materials_en": [
+      "water",
+      "soap",
+      "a basin or a tap",
+      "a clean towel"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 28 (Health Education and Nutrition: Good health habits), p. 54; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "💧 water",
+       "🧼 soap",
+       "👐 rub",
+       "💧 rinse",
+       "🧻 dry"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N1-T1-AC1",
+     "type": "music",
+     "area": "Music and Dance",
+     "title_en": "Doh, reh, mih: climbing the stairs",
+     "goal_en": "Use the voice to make the sounds doh, reh, mih going up.",
+     "prompt_en": "Our voice can climb stairs: doh, reh, mih! And come down: mih, reh, doh!",
+     "steps_en": [
+      "Show three steps with your hand at three heights.",
+      "Sing “doh” low, “reh” a little higher, “mih” higher.",
+      "The child sings and moves the hand with you.",
+      "Sing up and down slowly, then a little faster."
+     ],
+     "observe_en": [
+      "Sings the three sounds.",
+      "Moves the hand up and down with the voice.",
+      "Enjoys singing with the group."
+     ],
+     "materials_en": [
+      "none, or a xylophone"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery One, table 29 (Music and Dance: Sol-fa notations), p. 55; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🎵 doh",
+       "🎵 reh",
+       "🎵 mih"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N1-T1-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Walking and running in a line",
+     "goal_en": "Walk and run in a line, starting and stopping on a signal.",
+     "prompt_en": "When I clap once, walk. When I clap twice, run. When I raise my hand, stop!",
+     "steps_en": [
+      "Make a line of children, one behind the other.",
+      "Clap once: everyone walks.",
+      "Clap twice: everyone runs slowly in the line.",
+      "Raise your hand: everyone stops and stands still."
+     ],
+     "observe_en": [
+      "Stays in the line.",
+      "Changes from walking to running on the signal.",
+      "Stops on the signal."
+     ],
+     "materials_en": [
+      "a safe open space"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 32 (Physical Education and Sports: Athletics), p. 58; theme 1: The school (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Greets the teacher and classmates in English and says “Bonjour”.",
+   "Says their own name and the teacher’s name.",
+   "Counts classroom objects up to 5.",
+   "Sorts objects by colour.",
+   "Washes hands in the right order.",
+   "Follows one playground safety rule.",
+   "Walks and runs in a line on a signal."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery One tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

@@ -1,0 +1,519 @@
+{
+ "id": "T6",
+ "grade": "NURSERY1",
+ "title_en": "Animals",
+ "title_fr": "Les animaux",
+ "twin": "T6",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Our animal parade",
+  "description_en": "At the end of the theme, the child wears an animal mask, moves like the animal, names it, says what it eats and recites a short animal rhyme in English or in French."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "💬",
+   "activities": [
+    {
+     "id": "N1-T6-LC1",
+     "type": "rhyme",
+     "area": "Poetry and Rhymes",
+     "title_en": "The little goat",
+     "goal_en": "Recite a short animal poem with gestures.",
+     "prompt_en": "Listen and do like the little goat.",
+     "steps_en": [
+      "Say the poem once with gestures.",
+      "Say it line by line; the child repeats.",
+      "Say it together with the actions.",
+      "Ask: what does the goat eat?"
+     ],
+     "observe_en": [
+      "Repeats the lines.",
+      "Does the gestures.",
+      "Answers the question."
+     ],
+     "materials_en": [
+      "a picture of a goat"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery One, table 15 (Poetry and Rhymes: Poems), p. 40; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "story_en": "Little goat, little goat, with a bell on your coat,\nYou eat green grass and you jump on a rock,\nMeh, meh, little goat, it is time to go home,\nTo sleep near the house when the night has come."
+    },
+    {
+     "id": "N1-T6-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "c for cat, d for dog",
+     "goal_en": "Recognise the first sound of simple animal words.",
+     "prompt_en": "Listen: c-c-cat. What sound does cat begin with?",
+     "steps_en": [
+      "Show the picture of a cat and say the word slowly.",
+      "Say the first sound alone: /k/.",
+      "Show the letter c.",
+      "Do the same with dog and the letter d."
+     ],
+     "observe_en": [
+      "Repeats the first sound.",
+      "Matches cat with c and dog with d.",
+      "Finds another word with the same sound."
+     ],
+     "materials_en": [
+      "pictures of a cat and a dog",
+      "letter cards c and d"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 17 (Reading: Letter-sounds), p. 42; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🐱 c – cat",
+       "🐶 d – dog"
+      ]
+     }
+    },
+    {
+     "id": "N1-T6-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "Round letters: c and o",
+     "goal_en": "Write the lowercase letters c and o in the right direction.",
+     "prompt_en": "The letter c is like a cat’s back: start at the top and go round. The o closes the circle.",
+     "steps_en": [
+      "Trace c in the air, starting at the top.",
+      "Trace o, closing the circle.",
+      "Trace them in sand.",
+      "Write a row of c and a row of o."
+     ],
+     "observe_en": [
+      "Starts at the top.",
+      "Goes round in the right direction.",
+      "Closes the o."
+     ],
+     "materials_en": [
+      "paper",
+      "crayons",
+      "a sand tray"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery One, table 18 (Writing: Letters and numbers), p. 43; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N1-T6-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "La petite poule",
+     "goal_en": "Recite a short French rhyme about a hen.",
+     "prompt_en": "Listen to a little French rhyme: “Une poule, deux poussins, trois grains de maïs dans ma main.”",
+     "steps_en": [
+      "Say the rhyme slowly with fingers: 1, 2, 3.",
+      "The child repeats each part.",
+      "Say it together.",
+      "Ask: what is “une poule” in English? (a hen)"
+     ],
+     "observe_en": [
+      "Repeats the rhyme.",
+      "Shows 1, 2, 3 with the fingers.",
+      "Says one French word and its meaning."
+     ],
+     "materials_en": [
+      "a picture of a hen and chicks"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery One, table 19 (French: Poésie et comptines), p. 44; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔢",
+   "activities": [
+    {
+     "id": "N1-T6-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Counting legs",
+     "goal_en": "Count the legs of animals and compare.",
+     "prompt_en": "How many legs has the hen? And the goat?",
+     "steps_en": [
+      "Show pictures of a hen and a goat.",
+      "Count the legs of the hen together.",
+      "Count the legs of the goat.",
+      "Ask: who has more legs?"
+     ],
+     "observe_en": [
+      "Counts the legs correctly.",
+      "Says which animal has more legs.",
+      "Uses the words more and less."
+     ],
+     "materials_en": [
+      "pictures of animals"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 20 (Mathematics: Counting), p. 45; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🐔 hen",
+       "🐐 goat"
+      ]
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "How many legs has a goat?",
+      "answer": 4,
+      "explanation_en": "Count the legs of the goat: one, two, three, four. A goat has 4 legs."
+     }
+    },
+    {
+     "id": "N1-T6-ST2",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Big animals, small animals",
+     "goal_en": "Sort animals into big and small.",
+     "prompt_en": "Is the elephant big or small? And the ant?",
+     "steps_en": [
+      "Show pictures of animals.",
+      "Hold up each one and ask big or small.",
+      "Put the pictures into two groups.",
+      "Count each group."
+     ],
+     "observe_en": [
+      "Sorts animals by size.",
+      "Explains one choice.",
+      "Counts each group."
+     ],
+     "materials_en": [
+      "pictures of animals"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 20 (Mathematics: Classifying elements), p. 45; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🐘 big",
+       "🐜 small"
+      ]
+     }
+    },
+    {
+     "id": "N1-T6-ST3",
+     "type": "science",
+     "area": "Science and Technology",
+     "title_en": "Floating and sinking",
+     "goal_en": "See which things float and which sink in water.",
+     "prompt_en": "Will the stone float or sink? And the plastic duck?",
+     "steps_en": [
+      "Fill a basin with water.",
+      "Ask the child to guess: float or sink?",
+      "Put the object in the water and watch.",
+      "Sort the objects into two groups."
+     ],
+     "observe_en": [
+      "Makes a guess before testing.",
+      "Says float or sink after watching.",
+      "Sorts the objects."
+     ],
+     "materials_en": [
+      "a basin of water",
+      "a stone",
+      "a plastic toy",
+      "a leaf",
+      "a spoon"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 22 (Science and Technology: Gravity), p. 47–48; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🧼",
+   "activities": [
+    {
+     "id": "N1-T6-PV1",
+     "type": "character",
+     "area": "Character Education",
+     "title_en": "Caring for animals",
+     "goal_en": "Show love and empathy for animals.",
+     "prompt_en": "Animals feel pain like us. We do not beat them, we give them water and we are gentle.",
+     "steps_en": [
+      "Show pictures of children caring for animals and a child hurting an animal.",
+      "Ask: which child is kind?",
+      "Talk about what animals need (food, water, shelter).",
+      "Act: give water to a toy animal gently."
+     ],
+     "observe_en": [
+      "Chooses the kind behaviour.",
+      "Says one need of animals.",
+      "Acts gently."
+     ],
+     "materials_en": [
+      "pictures",
+      "a toy animal",
+      "a bowl"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 25 (Character Education: Good behaviour), p. 51; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T6-PV2",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "If an animal scratches me",
+     "goal_en": "Report an injury to an adult at once.",
+     "prompt_en": "If a dog or a cat scratches or bites you, run to an adult and show the wound.",
+     "steps_en": [
+      "Explain that some animals can scratch or bite.",
+      "Act: a child is scratched and tells the teacher.",
+      "Show how an adult washes the wound with clean water and soap.",
+      "Remind: do not touch unknown dogs."
+     ],
+     "observe_en": [
+      "Says they will tell an adult.",
+      "Shows the wound to the adult in the role play.",
+      "Says not to touch unknown animals."
+     ],
+     "materials_en": [
+      "a doll",
+      "a plaster",
+      "water and soap"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 28 (Health Education and Nutrition: Treatment), p. 54; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T6-PV3",
+     "type": "environment",
+     "area": "Environmental Education",
+     "title_en": "A clean yard: no flies",
+     "goal_en": "Keep the yard clean so that flies and rats do not come.",
+     "prompt_en": "When food and rubbish stay on the ground, flies and rats come. Let us keep the yard clean.",
+     "steps_en": [
+      "Walk round the yard and find rubbish.",
+      "With gloves or a stick, put it in the bin.",
+      "Cover the food and the bin.",
+      "Wash hands after."
+     ],
+     "observe_en": [
+      "Picks up rubbish with care.",
+      "Puts it in the bin.",
+      "Washes hands after."
+     ],
+     "materials_en": [
+      "a bin with a lid",
+      "gloves or sticks"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 26 (Environmental Education: The environment), p. 52; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N1-T6-AC1",
+     "type": "craft",
+     "area": "Handwork",
+     "title_en": "My animal mask",
+     "goal_en": "Make an animal mask with paper and decorate it.",
+     "prompt_en": "Choose an animal. Let us make its mask!",
+     "steps_en": [
+      "Cut a paper plate or card with holes for the eyes (adult).",
+      "Draw the animal’s ears and nose.",
+      "Colour and stick the ears.",
+      "Add a string and wear the mask."
+     ],
+     "observe_en": [
+      "Chooses an animal.",
+      "Decorates the mask.",
+      "Names the animal when wearing it."
+     ],
+     "materials_en": [
+      "paper plates or card",
+      "crayons",
+      "glue",
+      "string",
+      "scissors for the adult"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery One, table 31 (Handwork: Practice sessions), p. 57; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N1-T6-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "Gallop like a horse, hop like a frog",
+     "goal_en": "Reproduce different animal movements: galloping and hopping.",
+     "prompt_en": "Gallop like a horse! Now hop like a frog! Now walk slowly like a tortoise.",
+     "steps_en": [
+      "Show galloping: one foot leads, the other follows.",
+      "Show hopping on two feet like a frog.",
+      "Call out an animal; the children move like it.",
+      "Finish slowly like a tortoise."
+     ],
+     "observe_en": [
+      "Gallops with one foot leading.",
+      "Hops on two feet.",
+      "Changes movement on the signal."
+     ],
+     "materials_en": [
+      "a safe open space"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 32 (Physical Education and Sports: Athletics), p. 58; theme 6: Animals (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Names five animals.",
+   "Counts legs up to 4.",
+   "Sorts animals into big and small.",
+   "Recognises the first sound of cat and dog.",
+   "Writes the letters c and o with help.",
+   "Says what floats and what sinks.",
+   "Washes hands after touching animals.",
+   "Makes an animal mask."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery One tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

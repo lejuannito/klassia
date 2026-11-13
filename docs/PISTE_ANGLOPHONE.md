@@ -8,7 +8,7 @@ _Établie le 11 novembre 2026 à partir des programmes reçus. Sert de base aux 
 |---|---|---|
 | Cameroon Primary School Curriculum, English Subsystem, Level I, MINEDUB, 2018 | Class 1, Class 2 | Reçu, lisible (86 pages) |
 | Cameroon Primary School Curriculum, English Subsystem, Level II, MINEDUB, 2018 | Class 3, Class 4 | Reçu, lisible (99 pages) |
-| Cameroon Nursery School Curriculum, English Subsystem, 2018 | Nursery One, Nursery Two | Transcription partielle seulement : insuffisante pour construire les deux classes |
+| Cameroon Nursery School Curriculum, English Subsystem, 2018 | Nursery One, Nursery Two | Transcription documentaire complète reçue le 13 novembre 2026 (100 pages ; texte et tableaux, sans les schémas), hors dépôt ; Nursery One : tableaux 14 à 32, p. 38–58 ; Nursery Two : tableaux 33 à 53, p. 59–86 |
 
 Les PDF restent hors du dépôt ; Klassia cite le tableau, la classe et la page, sans reproduire le texte.
 
@@ -57,7 +57,7 @@ Chaque classe jumelle reprend le moteur de la SIL et du CE1 (`shared/learning-ap
 | A4 | Class 1 : les huit autres matières, une leçon par thème | **fait** : 64 leçons en relecture, d’après les colonnes Class 1 des tableaux 22 à 29 (p. 51–77) ; Français en français avec gloses anglaises ; langues nationales par notions, dans la langue de la famille |
 | A5 | Class 3 (jumelle du CE1), même découpage, avec la littérature | **fait** : classe proposée, 128 leçons en relecture ; A5a : 64 leçons d’English Language and Literature et de Mathematics (colonnes Class 3 des tableaux 20, p. 41–49, et 21, p. 50–52) ; A5b : une leçon par thème dans les huit autres matières, Social Studies à la place de Citizenship (colonnes Class 3 des tableaux 22 à 29, p. 53–91) |
 | A6 | Class 4 (jumelle du CE2) | **fait** : classe proposée, 128 leçons en relecture ; A6a : 64 leçons d’English Language and Literature et de Mathematics (colonnes Class 4 des tableaux 20, p. 41–49, et 21, p. 50–52) ; A6b : une leçon par thème dans les huit autres matières (colonnes Class 4 des tableaux 22 à 29, p. 53–95) |
-| A7 | Nursery One et Two | bloqué : programme complet manquant |
+| A7 | Nursery One et Two (jumelles de la MS et de la GS) | **A7a fait** : Nursery One proposée, 96 activités en relecture, douze par thème dans les cinq domaines (tableaux 14 à 32) ; **A7b** : Nursery Two (tableaux 33 à 53) |
 | A8 | Pages communes en anglais (recherche, outils, langue de la maison, impression) | **fait** (ADR-019) |
 | — | Class 2 | attend sa jumelle, le CP : une classe anglophone n’entre qu’avec sa jumelle francophone (ADR-019) |
 

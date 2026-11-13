@@ -154,6 +154,23 @@ const EN = {
  'Fiche prête.': 'Sheet ready.', 'Dans la fenêtre d’impression, vous pouvez aussi choisir « Enregistrer en PDF ».': 'In the print window, you can also choose “Save as PDF”.',
  'Leçon introuvable.': 'Lesson not found.', 'Lien de fiche incomplet.': 'Incomplete sheet link.', 'Ressource indisponible.': 'Resource not available.',
  'Revenez à Klassia et rouvrez la fiche.': 'Go back to Klassia and open the sheet again.',
+ // Maternelle anglophone (Nursery One, lot A7) : interface de shared/nursery.js
+ 'Thème': 'Theme', 'Par thème': 'By theme', 'L’activité du jour': 'Today’s activity', '🖨 Thème / PDF': '🖨 Theme / PDF',
+ 'Les 5 domaines': 'The 5 domains', 'Les activités mêlent oral, manipulation, visuel, autonomie, création et motricité.': 'The activities mix speaking, handling, looking, independence, creating and moving.',
+ 'Projet du thème': 'Theme project', 'À la fin du thème, utilisez la grille d’observation pour faire le point sans transformer la maternelle en examen.': 'At the end of the theme, use the observation grid to take stock without turning nursery school into an exam.',
+ 'Ouvrir la grille d’observation': 'Open the observation grid', 'Les 8 thèmes': 'The 8 themes', 'Voir le parcours complet': 'See the whole pathway', 'Repères documentaires :': 'Documentary references:',
+ '← Retour au thème': '← Back to the theme', '🖨 Domaine / PDF': '🖨 Domain / PDF', '🖨 Activité / PDF': '🖨 Activity / PDF',
+ 'Guide adulte de l’activité / PDF': 'Adult guide to the activity / PDF', 'Guide adulte du domaine / PDF': 'Adult guide to the domain / PDF',
+ 'Repères du curriculum': 'Curriculum references', 'Activité originale Klassia; correspondance proposée à relire.': 'Original Klassia activity; proposed match, to be reviewed.',
+ 'Activités': 'Activities', 'Préparer et adapter l’activité': 'Prepare and adapt the activity', 'Parcourir les thèmes': 'Browse the themes',
+ 'Choisis un thème pour ouvrir ses activités.': 'Choose a theme to open its activities.', 'SUIVI PAR OBSERVATION': 'FOLLOW-UP BY OBSERVATION', '← Retour': '← Back',
+ 'Évaluer ici signifie observer pour mieux accompagner. On ne cherche ni classement ni note.': 'Assessing here means observing to support the child better. There is no ranking and no mark.',
+ 'Échelle': 'Scale', 'Indicateurs': 'Indicators', 'Observations enregistrées': 'Saved observations', 'Aucune observation enregistrée pour ce thème.': 'No observation saved for this theme yet.',
+ 'Seul': 'On their own', 'Avec aide': 'With help', 'Pas encore': 'Not yet',
+ 'Parcourir les matières et activités': 'Browse the subjects and activities', 'Les activités sont regroupées sur les huit thèmes.': 'The activities are grouped across the eight themes.',
+ 'Choisir d’abord un domaine': 'Choose a domain first', 'Parcours ensuite les huit thèmes pour ce même domaine.': 'Then go through the eight themes for this domain.',
+ '8 thèmes': '8 themes', '← Domaines': '← Domains', '8 THÈMES': '8 THEMES', '🖨 Domaine complet / PDF': '🖨 Whole domain / PDF', 'Ouvrir': 'Open',
+ 'étoiles': 'stars', 'étoile': 'star', 'une par leçon réalisée': 'one per lesson done', 'une par activité réalisée': 'one per activity done', 'jours de suite': 'days in a row',
 };
 
 // Le profil créé d'office s'appelle « Mon enfant » ; un prénom choisi par la famille reste tel quel.
@@ -190,6 +207,10 @@ const PATTERNS = [
  [/^(\d+) mots? enregistrés? sur (\d+) mots du quotidien(?:, et (\d+) sur (\d+) mots des leçons)?\.$/, (m, a, b, c, d) => a + ' of ' + b + ' everyday words recorded' + (c ? ', and ' + c + ' of ' + d + ' lesson words' : '') + '.'],
  [/^Mots des leçons de l’école \((\d+)\)$/, 'Words from the school lessons ($1)'], [/^Encore (\d+)\.$/, '$1 more.'],
  [/^Écouter « (.+) »$/, 'Listen to “$1”'], [/^« (.+) » est enregistré\.$/, '“$1” is recorded.'],
+ [/^(.+) · THÈME (\d+)$/, '$1 · THEME $2'], [/^(.+) · PAR DOMAINE$/, '$1 · BY DOMAIN'],
+ [/^(\d+) activités?$/, (m, n) => n + (n === '1' ? ' activity' : ' activities')], [/^(\d+) acquises?$/, '$1 achieved'],
+ [/^(\d+) activités? · (\d+)% acquis$/, (m, n, p) => n + (n === '1' ? ' activity' : ' activities') + ' · ' + p + '% achieved'],
+ [/^(\d+) min avec un adulte$/, '$1 min with an adult'], [/^Commencer ›$/, 'Start ›'], [/^Continuer ›$/, 'Continue ›'],
  [/^moyenne des évaluations ([\d.,]+)\/20$/, 'assessment average $1/20'], [/^Unité (\d+) · (.+)$/, 'Theme $1 · $2'],
 ];
 

@@ -1,0 +1,525 @@
+{
+ "id": "T5",
+ "grade": "NURSERY1",
+ "title_en": "Plants",
+ "title_fr": "Les plantes",
+ "twin": "T5",
+ "duration_en": "4 weeks",
+ "project": {
+  "title_en": "Our little garden",
+  "description_en": "At the end of the theme, the child shows a seed planted in a bag or a pot, says what it needs, names three fruits or vegetables and counts to 10 in French."
+ },
+ "domains": [
+  {
+   "id": "LC",
+   "name_en": "Literacy and Communication",
+   "weight": "35%",
+   "icon": "💬",
+   "activities": [
+    {
+     "id": "N1-T5-LC1",
+     "type": "story",
+     "area": "Storytelling",
+     "title_en": "The little seed that waited",
+     "goal_en": "Listen to a story about a seed and say what a plant needs.",
+     "prompt_en": "Listen to the story of the little seed. What did it need to grow?",
+     "steps_en": [
+      "Show a seed and a small plant.",
+      "Tell the story slowly, with gestures for the sun and the rain.",
+      "Ask: what did the seed need?",
+      "Act the story: the child grows like the seed."
+     ],
+     "observe_en": [
+      "Listens to the end.",
+      "Names water and sun.",
+      "Acts the growing seed."
+     ],
+     "materials_en": [
+      "a seed",
+      "a small plant"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 14 (Storytelling: Short stories), p. 39; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "story_en": "A little seed slept under the soil. “Wake up!” said the rain, and gave it water. “Wake up!” said the sun, and gave it warmth. The seed stretched a tiny root down and a little green shoot up. Every day Ngwa watered it. One morning, there was a beautiful yellow flower, and Ngwa danced with joy."
+    },
+    {
+     "id": "N1-T5-LC2",
+     "type": "reading",
+     "area": "Reading",
+     "title_en": "Fruits and vegetables at the market",
+     "goal_en": "Read pictures of fruits and vegetables and name them.",
+     "prompt_en": "Look at the market pictures. What is this fruit? What is this vegetable?",
+     "steps_en": [
+      "Show pictures or real fruits and vegetables.",
+      "Name each one together.",
+      "Ask the child to find “the banana”, “the tomato”.",
+      "Make a picture chart: fruits on one side, vegetables on the other."
+     ],
+     "observe_en": [
+      "Names fruits and vegetables.",
+      "Points to the right picture.",
+      "Shares what they like to eat."
+     ],
+     "materials_en": [
+      "pictures or real fruits and vegetables"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 17 (Reading: Picture reading), p. 42; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🍌 banana",
+       "🥭 mango",
+       "🍅 tomato",
+       "🥕 carrot"
+      ]
+     }
+    },
+    {
+     "id": "N1-T5-LC3",
+     "type": "prewriting",
+     "area": "Writing",
+     "title_en": "Writing 1, 2, 3",
+     "goal_en": "Write the numbers 1, 2 and 3 in the right direction.",
+     "prompt_en": "Let us write 1: from the top, down. Now 2 and 3.",
+     "steps_en": [
+      "Show each number and count objects for it.",
+      "Trace the number in the air.",
+      "Trace it in sand or on a slate.",
+      "Write it on paper, following the model."
+     ],
+     "observe_en": [
+      "Starts each number at the top.",
+      "Writes 1, 2, 3 in order.",
+      "Links the number to the objects."
+     ],
+     "materials_en": [
+      "paper",
+      "crayons",
+      "a sand tray"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery One, table 18 (Writing: Letters and numbers), p. 43; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "ink": "lignes"
+    },
+    {
+     "id": "N1-T5-LC4",
+     "type": "french",
+     "area": "French",
+     "title_en": "Un, deux, trois… jusqu’à dix",
+     "goal_en": "Count from 1 to 10 in French.",
+     "prompt_en": "In French: un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix!",
+     "steps_en": [
+      "Count 10 seeds in English.",
+      "Count them again in French, slowly.",
+      "The child repeats each number.",
+      "Play: show fingers, the child says the number in French."
+     ],
+     "observe_en": [
+      "Repeats the numbers in French.",
+      "Counts to 5 alone.",
+      "Counts to 10 with help."
+     ],
+     "materials_en": [
+      "10 seeds or stones"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 19 (French: Compter), p. 44; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "ST",
+   "name_en": "Science and Technological Skills Development",
+   "weight": "25%",
+   "icon": "🔢",
+   "activities": [
+    {
+     "id": "N1-T5-ST1",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Sorting fruits",
+     "goal_en": "Sort fruits by colour and by size and count each group.",
+     "prompt_en": "Put the yellow fruits together and the green fruits together. Which group has more?",
+     "steps_en": [
+      "Put fruits on the table.",
+      "Sort by colour together.",
+      "Count each group.",
+      "Now sort the same fruits by size."
+     ],
+     "observe_en": [
+      "Sorts by colour.",
+      "Sorts by size.",
+      "Says which group has more."
+     ],
+     "materials_en": [
+      "bananas, oranges, limes, avocados"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 20 (Mathematics: Classifying elements), p. 45; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T5-ST2",
+     "type": "agriculture",
+     "area": "Agriculture",
+     "title_en": "Planting a seed in a bag",
+     "goal_en": "Plant a seed, water it and watch it grow.",
+     "prompt_en": "Let us plant a maize seed in this bag of soil and give it water.",
+     "steps_en": [
+      "Fill a planting bag with soil.",
+      "Make a small hole with a finger.",
+      "Put the seed in and cover it with soil.",
+      "Water a little and put the bag in the light; water every day."
+     ],
+     "observe_en": [
+      "Puts the seed in the hole and covers it.",
+      "Waters gently.",
+      "Checks the plant each day."
+     ],
+     "materials_en": [
+      "a planting bag or pot",
+      "soil",
+      "maize or bean seeds",
+      "a small watering can"
+     ],
+     "duration_minutes": 15,
+     "source_refs": [
+      "Nursery One, table 23 (Agriculture: Gardening), p. 49; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🌱 seed",
+       "💧 water",
+       "☀️ sun"
+      ]
+     }
+    },
+    {
+     "id": "N1-T5-ST3",
+     "type": "math",
+     "area": "Mathematics",
+     "title_en": "Counting seeds",
+     "goal_en": "Count seeds up to 10 and make groups.",
+     "prompt_en": "How many beans are in my hand? Let us count them on the table.",
+     "steps_en": [
+      "Put 6 to 10 beans on the table.",
+      "Count them, moving each bean aside.",
+      "Make groups of 2.",
+      "Count the groups."
+     ],
+     "observe_en": [
+      "Moves each bean while counting.",
+      "Says the total.",
+      "Makes groups of 2."
+     ],
+     "materials_en": [
+      "10 beans"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 20 (Mathematics: Counting), p. 45; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "visual": {
+      "kind": "items",
+      "items": [
+       "🫘",
+       "🫘",
+       "🫘",
+       "🫘",
+       "🫘",
+       "🫘",
+       "🫘",
+       "🫘"
+      ]
+     },
+     "interactive": {
+      "type": "number",
+      "prompt_en": "How many beans can you see?",
+      "answer": 8,
+      "explanation_en": "Touch each bean while you count: there are 8 beans."
+     }
+    }
+   ]
+  },
+  {
+   "id": "PV",
+   "name_en": "Practical Life Skills",
+   "weight": "25%",
+   "icon": "🧼",
+   "activities": [
+    {
+     "id": "N1-T5-PV1",
+     "type": "environment",
+     "area": "Environmental Education",
+     "title_en": "Sunny day, rainy day",
+     "goal_en": "Recognise sunny and rainy weather and play at the right time and place.",
+     "prompt_en": "Look at the sky. Is it sunny or rainy? Can we play outside?",
+     "steps_en": [
+      "Look at the sky with the child.",
+      "Show weather pictures: sun, clouds, rain.",
+      "Choose the picture for today.",
+      "Talk: when it rains, we play inside; when it is very hot, we play in the shade."
+     ],
+     "observe_en": [
+      "Names the weather of the day.",
+      "Chooses the right picture.",
+      "Says where to play."
+     ],
+     "materials_en": [
+      "weather pictures"
+     ],
+     "duration_minutes": 6,
+     "source_refs": [
+      "Nursery One, table 26 (Environmental Education: Climate change), p. 52; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T5-PV2",
+     "type": "health",
+     "area": "Health Education and Nutrition",
+     "title_en": "Fruits and vegetables every day",
+     "goal_en": "Know that fruits and vegetables help us stay healthy.",
+     "prompt_en": "Fruits and vegetables help our body to grow strong. Which one will you eat today?",
+     "steps_en": [
+      "Show a plate with rice and a plate with rice and vegetables.",
+      "Ask: which plate is better for the body?",
+      "Wash a fruit together before eating.",
+      "Share the fruit."
+     ],
+     "observe_en": [
+      "Chooses the plate with vegetables.",
+      "Washes the fruit before eating.",
+      "Names a fruit they eat at home."
+     ],
+     "materials_en": [
+      "fruit",
+      "water",
+      "pictures of meals"
+     ],
+     "duration_minutes": 8,
+     "source_refs": [
+      "Nursery One, table 28 (Health Education and Nutrition: Good health habits), p. 54; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    },
+    {
+     "id": "N1-T5-PV3",
+     "type": "citizenship",
+     "area": "Citizenship",
+     "title_en": "Helping in the school garden",
+     "goal_en": "Volunteer to care for the school garden with others.",
+     "prompt_en": "Who wants to help water the school flowers today? Helpers make our school beautiful.",
+     "steps_en": [
+      "Show the school garden or flower pots.",
+      "Ask for volunteers.",
+      "Water the plants together and remove some dry leaves.",
+      "Thank the helpers."
+     ],
+     "observe_en": [
+      "Volunteers to help.",
+      "Works with others.",
+      "Takes care of the plants."
+     ],
+     "materials_en": [
+      "a watering can",
+      "flower pots"
+     ],
+     "duration_minutes": 10,
+     "source_refs": [
+      "Nursery One, table 24 (Citizenship: Self-introduction), p. 50; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  },
+  {
+   "id": "AC",
+   "name_en": "Arts and Crafts",
+   "weight": "10%",
+   "icon": "🎨",
+   "activities": [
+    {
+     "id": "N1-T5-AC1",
+     "type": "drawing",
+     "area": "Drawing and Colouring",
+     "title_en": "A flower in primary colours",
+     "goal_en": "Colour a flower with the three primary colours.",
+     "prompt_en": "Colour the petals red and yellow and the sky blue.",
+     "steps_en": [
+      "Show the three primary colours: red, blue, yellow.",
+      "Draw a flower with a circle and petals.",
+      "Colour the petals red or yellow.",
+      "Colour the sky blue."
+     ],
+     "observe_en": [
+      "Names the three primary colours.",
+      "Colours inside the shapes.",
+      "Uses the three colours."
+     ],
+     "materials_en": [
+      "crayons",
+      "paper with a flower outline"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery One, table 30 (Drawing and Colouring: Colours), p. 56; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     },
+     "ink": "libre"
+    }
+   ]
+  },
+  {
+   "id": "MO",
+   "name_en": "Motor Skills",
+   "weight": "5%",
+   "icon": "🏃",
+   "activities": [
+    {
+     "id": "N1-T5-MO1",
+     "type": "motor",
+     "area": "Physical Education and Sports",
+     "title_en": "The watering race",
+     "goal_en": "Carry water carefully in a team race.",
+     "prompt_en": "Carry the cup of water to the plant without spilling, then come back. Which team waters all its plants?",
+     "steps_en": [
+      "Make two teams with a cup each.",
+      "Each child carries water to a plant and pours it.",
+      "Walk carefully, do not run with water.",
+      "Count the watered plants."
+     ],
+     "observe_en": [
+      "Walks carefully with the cup.",
+      "Waits for their turn.",
+      "Encourages the team."
+     ],
+     "materials_en": [
+      "cups",
+      "water",
+      "plants or a garden bed"
+     ],
+     "duration_minutes": 12,
+     "source_refs": [
+      "Nursery One, table 32 (Physical Education and Sports: Team sports), p. 58; theme 5: Plants (table 13, p. 37)"
+     ],
+     "editorial": {
+      "status": "in_review",
+      "reviewer": null,
+      "validated_at": null,
+      "notes": "Activity written for Klassia from the Nursery One contents of the English-subsystem nursery curriculum; original texts. To be reviewed by a Nursery One teacher of the English subsystem."
+     }
+    }
+   ]
+  }
+ ],
+ "assessment": {
+  "title_en": "End-of-theme observation",
+  "scale": [
+   {
+    "code": "D",
+    "label_en": "Discovering",
+    "description": "Succeeds mostly with a model or help."
+   },
+   {
+    "code": "EC",
+    "label_en": "Developing",
+    "description": "Sometimes succeeds alone, sometimes with a reminder."
+   },
+   {
+    "code": "A",
+    "label_en": "Achieved",
+    "description": "Succeeds on their own in a familiar situation."
+   }
+  ],
+  "indicators": [
+   "Names three fruits and three vegetables.",
+   "Sorts fruits by colour or size.",
+   "Plants a seed and waters it.",
+   "Says what a plant needs.",
+   "Writes the numbers 1, 2 and 3 with help.",
+   "Counts to 10 in French with help.",
+   "Chooses clothes for the weather.",
+   "Colours a flower with primary colours."
+  ]
+ },
+ "sources": [
+  "Cameroon Nursery School Curriculum, English Subsystem, MINEDUB, 2018: table 13 (integrated learning themes), p. 37; Nursery One tables, cited and not reproduced."
+ ],
+ "editorial": {
+  "status": "in_review"
+ }
+}

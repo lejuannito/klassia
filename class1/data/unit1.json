@@ -1,0 +1,586 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS1",
+ "classTitle": "Class 1",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+  }
+ ],
+ "id": "CLASS1-T1",
+ "title_en": "The home",
+ "title_fr": "La maison",
+ "lessons": [
+  {
+   "id": "CLASS1-T1-E1",
+   "domain": "English Language",
+   "title": "Listen and speak: greetings at home",
+   "objective": "Greet people correctly in the morning, in the afternoon and at night, and answer a greeting.",
+   "course": "We greet people with the right words for the time of day.\nIn the morning we say: Good morning. In the afternoon we say: Good afternoon. At night, before we sleep, we say: Good night.\nWhen someone greets us, we answer with the same words and a smile: Good morning, Mama!",
+   "support": {
+    "title": "Say with the adult",
+    "text": "Good morning, Papa!\nGood afternoon, Auntie!\nGood night, Mama!"
+   },
+   "model": "Bih wakes up and sees her father. She says: “Good morning, Papa!” He answers: “Good morning, Bih!” In the evening, before bed, she says: “Good night, Mama!”",
+   "guided": "The adult shows three drawings: the sun rising, the sun high in the sky, the moon. For each drawing, say the greeting together, then play it: one person greets, the other answers.",
+   "exercise": "It is the morning. You see your grandmother. What do you say?",
+   "answer": "Good morning, Grandma!",
+   "accept": [
+    "Good morning",
+    "Good morning Grandma",
+    "Good morning, Grandmother"
+   ],
+   "remediation": "Use only two drawings first (sun and moon): Good morning, Good night. Add Good afternoon when the two are well known.",
+   "transfer": "Tomorrow, greet each person at home with the right words for the time of day.",
+   "materials": "Three drawings (sunrise, midday sun, moon).",
+   "practice": [
+    {
+     "prompt": "Match each moment of the day with its greeting.",
+     "type": "match",
+     "pairs": [
+      [
+       "when the sun rises",
+       "Good morning"
+      ],
+      [
+       "after lunch",
+       "Good afternoon"
+      ],
+      [
+       "before going to bed",
+       "Good night"
+      ]
+     ],
+     "answer": "sunrise: Good morning; after lunch: Good afternoon; before bed: Good night.",
+     "explanation": "Each greeting goes with a time of day."
+    },
+    {
+     "prompt": "Listen and say each greeting after the voice.",
+     "listen": "Good morning. Good afternoon. Good night.",
+     "answer": "Good morning. Good afternoon. Good night.",
+     "explanation": "Say the whole greeting, then smile."
+    },
+    {
+     "prompt": "Your uncle says: “Good afternoon!” What do you answer?",
+     "answer": "Good afternoon, Uncle!",
+     "accept": [
+      "Good afternoon",
+      "Good afternoon Uncle"
+     ],
+     "reject": [
+      "Good night",
+      "Good morning"
+     ],
+     "explanation": "We answer with the same greeting."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Listening and Speaking), p. 41–43, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-E2",
+   "domain": "English Language",
+   "title": "Read: the sounds s, a, t, p",
+   "objective": "Say and read the letter sounds s, a, t, p and blend them into short words.",
+   "course": "Each letter has a sound. s sounds like a snake: sss. a sounds like in apple. t sounds like a clock: t, t, t. p sounds like a puff of air: p, p.\nWe put the sounds together to read a word: s-a-t gives sat; p-a-t gives pat; t-a-p gives tap.",
+   "support": {
+    "title": "Read with the adult",
+    "text": "s  a  t  p\nsat  pat  tap  at"
+   },
+   "model": "The adult points to each letter and says its sound, then slides a finger under the word: “t… a… p… tap!” The tap at home gives water.",
+   "guided": "Make the words with letter cards: put s, a, t in a row. Say each sound, then say them faster until you hear the word. Do the same with p-a-t and t-a-p.",
+   "exercise": "Blend the sounds and read the word: t – a – p.",
+   "answer": "tap",
+   "accept": [
+    "tap"
+   ],
+   "remediation": "Say only two sounds first (a-t: at), then add one sound in front (s-at: sat).",
+   "transfer": "Find something at home that starts with the sound p or s and say the sound.",
+   "materials": "Letter cards s, a, t, p.",
+   "practice": [
+    {
+     "prompt": "Put the letters in order to make the word “pat”.",
+     "type": "order",
+     "items": [
+      "p",
+      "a",
+      "t"
+     ],
+     "answer": "p, a, t: pat.",
+     "explanation": "We read from left to right."
+    },
+    {
+     "prompt": "Which word do the sounds s – a – t make?",
+     "type": "mcq",
+     "choices": [
+      "tap",
+      "sat",
+      "pat"
+     ],
+     "correct": 1,
+     "answer": "sat",
+     "explanation": "s, then a, then t: sat."
+    },
+    {
+     "prompt": "Listen and say the sounds after the voice, then the word.",
+     "listen": "s. a. t. sat.",
+     "answer": "s, a, t: sat.",
+     "explanation": "Say each sound, then blend them."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Reading), p. 43–44, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-E3",
+   "domain": "English Language",
+   "title": "Write: strokes, curves and my name",
+   "objective": "Draw straight strokes, curves, zigzags and waves from left to right, then copy one’s own name.",
+   "course": "Before writing letters, the hand learns lines. A stroke goes straight down. A curve goes round like a smile. A zigzag goes up and down like a roof. A wave goes like water.\nWe always write from left to right. Our name starts with a capital letter: Bih, Ayuk, Nfor.",
+   "support": {
+    "title": "Trace with the adult",
+    "text": "| | |   ( ( (   /\\/\\/\\   ~~~\nBih"
+   },
+   "model": "The adult draws a row of zigzags slowly from left to right and says: “Up, down, up, down.” Then writes the child’s name in large letters with a capital letter at the start.",
+   "guided": "Trace each line in the air with your arm, then in sand or on a slate, then with a pencil. Copy your name under the model, letter by letter.",
+   "exercise": "Draw a row of waves from left to right, then copy your name.",
+   "answer": "A row of waves drawn from left to right, and the name copied with a capital letter.",
+   "remediation": "Trace the lines on a model with a finger first. Copy only the first letter of the name, then add one letter each day.",
+   "transfer": "Write your name on a drawing you made at home.",
+   "materials": "Slate or tray of sand, pencil, a card with the child’s name.",
+   "practice": [
+    {
+     "prompt": "Trace a zigzag like a roof, from left to right.",
+     "answer": "A zigzag that goes up and down, from left to right.",
+     "explanation": "Start on the left side of the page.",
+     "ink": "libre"
+    },
+    {
+     "prompt": "Copy your name. Start with a capital letter.",
+     "answer": "The name copied with a capital letter at the start.",
+     "explanation": "A name always starts with a capital letter.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Which way do we write?",
+     "type": "mcq",
+     "choices": [
+      "from right to left",
+      "from left to right",
+      "from bottom to top"
+     ],
+     "correct": 1,
+     "answer": "from left to right",
+     "explanation": "In English, we write and read from left to right."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Writing), p. 44, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-E4",
+   "domain": "English Language",
+   "title": "Words for things at home: nouns, hi and hello",
+   "objective": "Name things at home with common nouns and use hi and hello to greet a friend.",
+   "course": "A noun is a word for a person, an animal, a place or a thing. At home we find: a bed, a chair, a pot, a mat, a door.\nWe say hi or hello to greet a friend: Hello, Tabi! Hi, Enow!",
+   "support": {
+    "title": "Say with the adult",
+    "text": "bed  chair  pot  mat  door\nHello, Tabi!"
+   },
+   "model": "The adult touches things in the room and names them: “This is a chair. This is a door. This is a pot.” Then greets a friend: “Hello, Ashu!”",
+   "guided": "Play “touch and say”: the adult names a thing, the child touches it and repeats the noun. Then swap roles.",
+   "exercise": "Name two things you can find in a kitchen.",
+   "answer": "For example: a pot and a plate.",
+   "remediation": "Work with three real objects only and say their names several times before adding new ones.",
+   "transfer": "At home, name five things in your room and say them to an adult.",
+   "materials": "Real objects from the home (a cup, a spoon, a mat).",
+   "practice": [
+    {
+     "prompt": "Match each thing with the room where we use it.",
+     "type": "match",
+     "pairs": [
+      [
+       "a bed",
+       "the bedroom"
+      ],
+      [
+       "a pot",
+       "the kitchen"
+      ],
+      [
+       "a chair",
+       "the parlour"
+      ]
+     ],
+     "answer": "bed: bedroom; pot: kitchen; chair: parlour.",
+     "explanation": "Each thing has its place in the home."
+    },
+    {
+     "prompt": "Complete the greeting.",
+     "type": "gaps",
+     "text": "[[Hello|Hi]], Tabi!",
+     "answer": "Hello, Tabi! (or Hi, Tabi!)",
+     "explanation": "Hello and hi are used to greet a friend."
+    },
+    {
+     "prompt": "Is “chair” a noun? Answer yes or no.",
+     "answer": "Yes.",
+     "accept": [
+      "yes"
+     ],
+     "reject": [
+      "no"
+     ],
+     "explanation": "A chair is a thing, so “chair” is a noun."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Grammar, vocabulary and pronunciation), p. 44–47, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-M1",
+   "domain": "Mathematics",
+   "title": "Sets of things at home",
+   "objective": "Make sets of objects that go together and say why they go together.",
+   "course": "A set is a group of things that go together. A set of spoons. A set of cups. A set of red things.\nWe draw a ring around the things of the same set. A thing that does not belong stays outside the ring.",
+   "model": "On the table there are three spoons, two cups and a plate. The adult puts a rope around the spoons: “This is a set of spoons.”",
+   "guided": "Sort real objects from the kitchen into sets. Say the name of each set: a set of cups, a set of spoons.",
+   "exercise": "Here are: a cup, a cup, a spoon, a cup. Which thing is not in the set of cups?",
+   "answer": "The spoon.",
+   "accept": [
+    "the spoon",
+    "spoon"
+   ],
+   "remediation": "Sort only two kinds of objects at first (cups and spoons).",
+   "transfer": "At home, help to put the plates in one set and the cups in another set.",
+   "materials": "Cups, spoons, plates, a rope or a string to make a ring.",
+   "practice": [
+    {
+     "prompt": "Match each thing with its set.",
+     "type": "match",
+     "pairs": [
+      [
+       "a mango",
+       "fruits"
+      ],
+      [
+       "a shirt",
+       "clothes"
+      ],
+      [
+       "a pot",
+       "kitchen things"
+      ]
+     ],
+     "answer": "mango: fruits; shirt: clothes; pot: kitchen things.",
+     "explanation": "Things that go together make a set."
+    },
+    {
+     "prompt": "Which one does not belong in the set of fruits?",
+     "type": "mcq",
+     "choices": [
+      "banana",
+      "orange",
+      "chair"
+     ],
+     "correct": 2,
+     "answer": "chair",
+     "explanation": "A chair is not a fruit."
+    },
+    {
+     "prompt": "Draw a ring around a set of three spoons.",
+     "answer": "Three spoons inside one ring.",
+     "explanation": "The ring shows the set.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Sets and Logic), p. 48, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sets and Logic"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-M2",
+   "domain": "Mathematics",
+   "title": "Numbers 0 to 10: how many?",
+   "objective": "Count objects up to 10 and match each quantity with its number.",
+   "course": "We count each object once: one, two, three… The last number we say tells how many.\nZero (0) means none: there is nothing.\n5 stones: ● ● ● ● ●",
+   "model": "The adult counts the plates on the shelf, touching each one: “One, two, three, four. There are 4 plates.”",
+   "guided": "Count stones and put the right number card next to each group. Make a group of 0: an empty plate.",
+   "exercise": "How many legs does a chair have?",
+   "answer": "4",
+   "accept": [
+    "4",
+    "four"
+   ],
+   "remediation": "Count up to 5 with objects you can touch, then go on to 10.",
+   "transfer": "Count the people who eat with you tonight.",
+   "materials": "Stones or bottle tops, number cards 0 to 10.",
+   "practice": [
+    {
+     "prompt": "Count: ● ● ● ● ● ● ●. How many?",
+     "type": "number",
+     "answer": 7,
+     "explanation": "Touch each dot once: 7."
+    },
+    {
+     "prompt": "Match each group with its number.",
+     "type": "match",
+     "pairs": [
+      [
+       "● ●",
+       "2"
+      ],
+      [
+       "● ● ● ● ●",
+       "5"
+      ],
+      [
+       "(nothing)",
+       "0"
+      ]
+     ],
+     "answer": "2; 5; 0.",
+     "explanation": "Zero means none."
+    },
+    {
+     "prompt": "Put the numbers in order from 0 to 5.",
+     "type": "order",
+     "items": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ],
+     "answer": "0, 1, 2, 3, 4, 5.",
+     "explanation": "Each number is one more."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-M3",
+   "domain": "Mathematics",
+   "title": "Patterns with shapes",
+   "objective": "Recognise circles, squares, triangles and rectangles and continue a pattern made with them.",
+   "course": "Four shapes: a circle is round. A square has 4 equal sides. A triangle has 3 sides. A rectangle has 4 sides, two long and two short.\nA pattern repeats: circle, square, circle, square… What comes next? A circle.",
+   "model": "The adult shows a mat with a pattern: triangle, circle, triangle, circle. “The pattern repeats. Next comes a triangle.”",
+   "guided": "Cut shapes from cardboard. Make a pattern with two shapes, then ask someone to continue it.",
+   "exercise": "Continue the pattern: circle, triangle, circle, triangle, …",
+   "answer": "circle",
+   "accept": [
+    "circle",
+    "a circle"
+   ],
+   "remediation": "Use patterns of two shapes of different colours before adding a third shape.",
+   "transfer": "Find a pattern on a cloth or a basket at home.",
+   "materials": "Cardboard shapes (circles, squares, triangles, rectangles).",
+   "practice": [
+    {
+     "prompt": "How many sides does a triangle have?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "A triangle has 3 sides."
+    },
+    {
+     "prompt": "Put the shapes in order to repeat the pattern: square, circle, square, circle.",
+     "type": "order",
+     "items": [
+      "square",
+      "circle",
+      "square",
+      "circle"
+     ],
+     "answer": "square, circle, square, circle.",
+     "explanation": "The pattern repeats two shapes."
+    },
+    {
+     "prompt": "Which shape is round?",
+     "type": "mcq",
+     "choices": [
+      "square",
+      "circle",
+      "triangle"
+     ],
+     "correct": 1,
+     "answer": "circle",
+     "explanation": "A circle has no corners."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 49, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS1-T1-M4",
+   "domain": "Mathematics",
+   "title": "Morning, afternoon, night",
+   "objective": "Associate daily activities with the periods of the day and respect a simple schedule.",
+   "course": "A day has periods. In the morning we wake up, wash and go to school. In the afternoon we come back, eat and play. At night we eat supper and sleep.\nThings happen in order: first we wash, then we eat breakfast.",
+   "model": "The adult tells Bih’s day: “In the morning she fetches water. In the afternoon she does her homework. At night she sleeps.”",
+   "guided": "Sort pictures of daily activities into three columns: morning, afternoon, night.",
+   "exercise": "When do we sleep?",
+   "answer": "At night.",
+   "accept": [
+    "at night",
+    "night"
+   ],
+   "remediation": "Use two periods only (day and night), then divide the day into morning and afternoon.",
+   "transfer": "Tell an adult three things you do in the morning, in order.",
+   "materials": "Pictures of daily activities.",
+   "practice": [
+    {
+     "prompt": "Match each activity with its period.",
+     "type": "match",
+     "pairs": [
+      [
+       "waking up",
+       "morning"
+      ],
+      [
+       "coming back from school",
+       "afternoon"
+      ],
+      [
+       "sleeping",
+       "night"
+      ]
+     ],
+     "answer": "waking up: morning; coming back: afternoon; sleeping: night.",
+     "explanation": "Each activity has its time."
+    },
+    {
+     "prompt": "Put Bih’s morning in order.",
+     "type": "order",
+     "items": [
+      "She wakes up.",
+      "She washes.",
+      "She eats breakfast.",
+      "She goes to school."
+     ],
+     "answer": "wakes up, washes, eats breakfast, goes to school.",
+     "explanation": "Things happen one after the other."
+    },
+    {
+     "prompt": "When do we eat breakfast?",
+     "type": "mcq",
+     "choices": [
+      "in the morning",
+      "at night",
+      "in the afternoon"
+     ],
+     "correct": 0,
+     "answer": "in the morning",
+     "explanation": "Breakfast is the first meal of the day."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 49, Class 1 column; theme 1: The home (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  }
+ ]
+}

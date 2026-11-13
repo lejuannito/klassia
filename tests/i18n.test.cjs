@@ -31,3 +31,9 @@ test('every translation is filled and no label is listed twice', () => {
   const keys = [...source.matchAll(/^\s*'([^']+)':/gm)].map(m => m[1]).concat([...source.matchAll(/, '([^']+)': '/g)].map(m => m[1]));
   assert.equal(new Set(keys).size, keys.length, 'duplicate keys: ' + keys.filter((k, i) => keys.indexOf(k) !== i).join(', '));
 });
+
+test('a label made of parts separated by « · » is translated part by part', () => {
+  const K = load('en');
+  assert.equal(K.t('0/32 · réalisées · 1 en cours'), '0/32 · done · 1 in progress');
+  assert.equal(K.t('The home · La maison'), 'The home · La maison', 'nothing to translate: unchanged');
+});

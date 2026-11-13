@@ -148,7 +148,20 @@ assert.equal(ce1Lessons, 191);
  // francophone thème par thème (même rang, même titre français) ; sa page charge la traduction de l'interface après le registre.
  assert.deepEqual(registry.upcoming.map(c=>c.grade),['CLASS1']);
  for(const c of registry.upcoming){const cat=read(c.catalog),twin=registry.classInfo(c.twin),tw=read(twin.catalog);assert.equal(c.language,'en');assert.equal(cat.grade,c.grade);assert.equal(cat.subsystem,'anglophone');assert.equal(cat.language,'en');assert.deepEqual(cat.twin,{subsystem:'francophone',grade:c.twin,status:'available'});
-  assert.equal(tw.twin.grade,c.label,'Twin of '+c.twin);assert.equal(cat.units.length,8);cat.units.forEach((u,i)=>{assert.equal(u.id,c.grade+'-T'+(i+1));assert.ok(u.title_en&&Array.isArray(u.lessons)&&u.source_refs?.length,u.id);assert.equal(u.twin,tw.units[i].id);assert.equal(u.title_fr,tw.units[i].title_fr,u.id);});
+  assert.equal(tw.twin.grade,c.label,'Twin of '+c.twin);assert.equal(cat.units.length,8);cat.units.forEach((u,i)=>{assert.equal(u.id,c.grade+'-T'+(i+1));assert.ok(u.title_en&&(Array.isArray(u.lessons)||u.path)&&u.source_refs?.length,u.id);assert.equal(u.twin,tw.units[i].id);assert.equal(u.title_fr,tw.units[i].title_fr,u.id);});
+  // Lot A3 : quatre leçons d'English Language et quatre de Mathematics par thème, d'après les colonnes Class 1 des tableaux 20 et 21 ;
+  // chaque leçon remplit les quatre étapes, ses exercices typés sont complets et ses réponses courtes reconnues.
+  {const M=createRequire(import.meta.url)('../shared/lesson-model.js'),seen=new Set(),names=cat.subjects.map(s=>s.name);let n=0;
+   for(const u of cat.units){const data=u.lessons?u:read(c.dir+'data/'+u.path);assert.equal(data.id,u.id);assert.equal(data.title_en,u.title_en);
+    for(const l of data.lessons){n++;assert.ok(!seen.has(l.id)&&new RegExp('^'+u.id+'-(E|M)[1-4]$').test(l.id),'Class 1 lesson id '+l.id);seen.add(l.id);assert.ok(names.includes(l.domain),l.id);editorial(l);
+     assert.ok(/Level I/.test(l.source?.title)&&/Class 1 column/.test(l.source.pages)&&/table (20|21) /.test(l.source.pages)&&l.source.url,'Class 1 source '+l.id);assert.equal(l.domain==='Mathematics',/-M\d$/.test(l.id),l.id);
+     const f=M.filled(M.fromLesson(l));for(const k of ['decouvrir','retenir','exercer','point'])assert.ok(f[k],l.id+' '+k);
+     for(const [j,p] of (l.practice||[]).entries()){const id=l.id+':'+j;assert.ok(p.prompt&&p.answer!==undefined&&p.explanation,id);
+      if(p.type==='order')assert.ok(p.items?.length>=2,id);if(p.type==='match')assert.ok(p.pairs?.length>=2&&new Set(p.pairs.map(x=>x[1])).size>=2,id);if(p.type==='gaps')assert.ok(/\[\[[^\]]+\]\]/.test(p.text),id);
+      if(p.type==='mcq')assert.ok(p.choices?.length>=2&&Number.isInteger(p.correct)&&p.choices[p.correct]===p.answer,id);if(p.type==='number')assert.ok(Number.isFinite(p.answer),id);
+      if(p.accept){for(const v of [p.answer,...p.accept])assert.equal(answers.matchAnswer(v,p),'correct',id+' '+v);for(const v of p.reject||[])assert.equal(answers.matchAnswer(v,p),'wrong',id+' '+v);}}
+     if(l.accept)for(const v of [l.answer,...l.accept])assert.equal(answers.matchAnswer(v,{accept:l.accept,prompt:l.exercise}),'correct',l.id+' '+v);}}
+   assert.equal(n,64,'Class 1: 64 lessons (English Language and Mathematics)');}
   assert.ok(cat.subjects?.length===10&&cat.subjects.every(s=>s.name&&s.hours_per_week&&s.curriculum_table),'Subjects '+c.grade);
   const page=fs.readFileSync(path.join(root,c.dir,'index.html'),'utf8');assert.ok(page.includes('<html lang="en">'));assert.ok(page.indexOf('shared/i18n.js')>page.indexOf('shared/classes.js')&&page.indexOf('shared/i18n.js')<page.indexOf('shared/ui.js'),'Interface translation order '+c.grade);assert.equal(registry.currentClass('/klassia/'+c.dir).grade,c.grade);}
  // M2 : chaque ressource des cinq classes se range dans le modèle commun et remplit Je découvre, Je retiens et Je m'exerce.

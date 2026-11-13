@@ -1,0 +1,559 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS1",
+ "classTitle": "Class 1",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+  }
+ ],
+ "id": "CLASS1-T2",
+ "title_en": "The village/town",
+ "title_fr": "Le village et la ville",
+ "lessons": [
+  {
+   "id": "CLASS1-T2-E1",
+   "domain": "English Language",
+   "title": "Listen and speak: polite words in the town",
+   "objective": "Use polite words in daily situations: please, thank you, you are welcome, sorry, sir and madam.",
+   "course": "Polite words make people happy.\nWe say “Please” when we ask for something. We say “Thank you” when we receive something. The other person answers: “You are welcome.”\nWe say “Sorry” when we make a mistake. We call a man “sir” and a woman “madam”.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "Please, madam.\nThank you, sir.\nYou are welcome.\nSorry!"
+   },
+   "model": "At the market, Nfor buys two oranges. He says: “Two oranges, please, madam.” The seller gives them. Nfor says: “Thank you, madam.” She answers: “You are welcome.”",
+   "guided": "Play the market: one person sells fruits, the other buys. Use please, thank you and you are welcome. Then the buyer drops a fruit by mistake and says sorry.",
+   "exercise": "The shopkeeper gives you bread. What do you say?",
+   "answer": "Thank you, sir.",
+   "accept": [
+    "Thank you",
+    "Thank you sir",
+    "Thank you madam",
+    "Thank you, madam",
+    "Thank you, sir"
+   ],
+   "remediation": "Practise one polite word at a time with real gestures: give and receive a cup while saying thank you.",
+   "transfer": "Use please and thank you at every meal today.",
+   "materials": "A few fruits or pictures of fruits, a small basket.",
+   "practice": [
+    {
+     "prompt": "Match each situation with the polite word.",
+     "type": "match",
+     "pairs": [
+      [
+       "You ask for water.",
+       "Please"
+      ],
+      [
+       "You receive a gift.",
+       "Thank you"
+      ],
+      [
+       "You step on a foot.",
+       "Sorry"
+      ]
+     ],
+     "answer": "asking: Please; receiving: Thank you; mistake: Sorry.",
+     "explanation": "Each situation has its polite word."
+    },
+    {
+     "prompt": "Someone says “Thank you” to you. What do you answer?",
+     "answer": "You are welcome.",
+     "accept": [
+      "You are welcome",
+      "You’re welcome",
+      "You're welcome"
+     ],
+     "explanation": "“You are welcome” is the answer to “Thank you”."
+    },
+    {
+     "prompt": "Listen and say after the voice.",
+     "listen": "Please, madam. Thank you, sir. You are welcome.",
+     "answer": "Please, madam. Thank you, sir. You are welcome.",
+     "explanation": "Speak clearly and kindly."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Listening and Speaking), p. 41–43, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-E2",
+   "domain": "English Language",
+   "title": "Read: short words with i, n, m, d",
+   "objective": "Read the letter sounds i, n, m, d and short words of three sounds made with them.",
+   "course": "Four new sounds: i as in ink, n as in net, m as in mat, d as in dog.\nWith the sounds we know, we read short words: pin, tin, man, mat, dip, sit, map.\nWe point under each sound and read from left to right.",
+   "support": {
+    "title": "Read with the adult",
+    "text": "i  n  m  d\npin  man  map  dip  sit"
+   },
+   "model": "The adult reads slowly: “m… a… p… map. There is a map of the town on the wall.”",
+   "guided": "Change one letter to make a new word: man → mat → map. Read each new word aloud together.",
+   "exercise": "Read the word: m – a – n.",
+   "answer": "man",
+   "accept": [
+    "man"
+   ],
+   "remediation": "Go back to two sounds (in, an), then add the first sound.",
+   "transfer": "Look for the letters m and n on a sign or a box at home.",
+   "materials": "Letter cards i, n, m, d, s, a, t, p.",
+   "practice": [
+    {
+     "prompt": "Put the letters in order to make “map”.",
+     "type": "order",
+     "items": [
+      "m",
+      "a",
+      "p"
+     ],
+     "answer": "m, a, p: map.",
+     "explanation": "Read the sounds from left to right."
+    },
+    {
+     "prompt": "Which word starts with the sound d?",
+     "type": "mcq",
+     "choices": [
+      "dip",
+      "tip",
+      "sip"
+     ],
+     "correct": 0,
+     "answer": "dip",
+     "explanation": "d-i-p starts with d."
+    },
+    {
+     "prompt": "Complete the word with the missing sound: m _ n (a grown-up boy).",
+     "type": "gaps",
+     "text": "m[[a]]n",
+     "answer": "man",
+     "explanation": "m-a-n: man."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Reading), p. 43–44, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-E3",
+   "domain": "English Language",
+   "title": "Write: letters a to m",
+   "objective": "Form the small letters a to m from left to right, on the line.",
+   "course": "Letters sit on the line. Some letters are short: a, c, e, i, m. Some letters are tall: b, d, f, h, k, l. The letter g goes below the line.\nWe start each letter at the right place and write from left to right.",
+   "support": {
+    "title": "Trace with the adult",
+    "text": "a b c d e f g\nh i j k l m"
+   },
+   "model": "The adult writes a slowly: “Round like a c, then a stick down.” Then d: “Round, then a tall stick.”",
+   "guided": "Trace each letter on the model with a finger, then write it three times on the line. Say its sound each time.",
+   "exercise": "Write the letters a, b, c on the line.",
+   "answer": "a b c, written on the line from left to right.",
+   "remediation": "Trace the letter in sand or with a finger on the table before using the pencil.",
+   "transfer": "Write the first letter of the name of a shop or a place in your town.",
+   "materials": "Pencil, lined paper or slate.",
+   "practice": [
+    {
+     "prompt": "Write the letters d, e, f.",
+     "answer": "d e f, on the line.",
+     "explanation": "d is tall, e is short, f is tall.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Put the letters in alphabet order.",
+     "type": "order",
+     "items": [
+      "h",
+      "i",
+      "j",
+      "k"
+     ],
+     "answer": "h, i, j, k.",
+     "explanation": "The alphabet has a fixed order."
+    },
+    {
+     "prompt": "Which letter goes below the line?",
+     "type": "mcq",
+     "choices": [
+      "a",
+      "g",
+      "m"
+     ],
+     "correct": 1,
+     "answer": "g",
+     "explanation": "The tail of g goes below the line."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Writing), p. 44, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-E4",
+   "domain": "English Language",
+   "title": "One and many: plurals with s",
+   "objective": "Make the plural of countable nouns by adding s, and use them in short sentences.",
+   "course": "One thing is singular: one house, one car. More than one is plural. To make the plural, we often add s: two houses, three cars.\nIn the town we see: a shop, two shops; a road, many roads.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "one shop → two shops\none car → three cars"
+   },
+   "model": "The adult counts pictures: “One bus. Two buses… no, here is an easy one: one car, two cars, three cars.”",
+   "guided": "Use objects or drawings: show one, then two. Say the noun, then the plural with s. Listen to the s at the end.",
+   "exercise": "One house, two …",
+   "answer": "two houses",
+   "accept": [
+    "houses",
+    "two houses"
+   ],
+   "remediation": "Work only with nouns that add s without a change of sound (car, cup, book) before others.",
+   "transfer": "Count things on the road: “three cars, two bikes”.",
+   "materials": "Small objects or pictures in groups of one and more.",
+   "practice": [
+    {
+     "prompt": "Add s to make the plural.",
+     "type": "gaps",
+     "text": "one shop, two shop[[s]]; one road, four road[[s]]",
+     "answer": "two shops; four roads.",
+     "explanation": "Add s for more than one."
+    },
+    {
+     "prompt": "Which one is plural?",
+     "type": "mcq",
+     "choices": [
+      "a market",
+      "markets",
+      "one market"
+     ],
+     "correct": 1,
+     "answer": "markets",
+     "explanation": "Markets ends with s: more than one."
+    },
+    {
+     "prompt": "Write the plural of “car”.",
+     "answer": "cars",
+     "accept": [
+      "cars"
+     ],
+     "reject": [
+      "car"
+     ],
+     "explanation": "car + s = cars."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Grammar, vocabulary and pronunciation), p. 44–47, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-M1",
+   "domain": "Mathematics",
+   "title": "Sorting by colour, shape and size",
+   "objective": "Differentiate objects by their attributes (colour, shape, size) and sort them.",
+   "course": "We can sort the same objects in different ways: by colour (red, blue), by shape (round, square), by size (big, small).\nWe say the rule: “I sorted by colour.”",
+   "model": "At the market, the adult sorts fruits: “Big oranges here, small oranges there. I sorted by size.”",
+   "guided": "Sort buttons or bottle tops by colour, then mix them and sort them by size. Say the rule each time.",
+   "exercise": "Ayuk puts the big balls in one basket and the small balls in another. How did he sort?",
+   "answer": "By size.",
+   "accept": [
+    "by size",
+    "size"
+   ],
+   "remediation": "Sort by colour only, with two colours.",
+   "transfer": "Sort the shoes at home: big ones and small ones.",
+   "materials": "Bottle tops or buttons of different colours and sizes.",
+   "practice": [
+    {
+     "prompt": "How are these sorted? red cup, red ball, red hat.",
+     "type": "mcq",
+     "choices": [
+      "by colour",
+      "by size",
+      "by shape"
+     ],
+     "correct": 0,
+     "answer": "by colour",
+     "explanation": "They are all red."
+    },
+    {
+     "prompt": "Match each object with its group.",
+     "type": "match",
+     "pairs": [
+      [
+       "a big lorry",
+       "big things"
+      ],
+      [
+       "a small ant",
+       "small things"
+      ],
+      [
+       "a big tree",
+       "big things"
+      ]
+     ],
+     "answer": "lorry: big; ant: small; tree: big.",
+     "explanation": "We sorted by size."
+    },
+    {
+     "prompt": "Say one way to sort fruits at the market.",
+     "answer": "By colour, by size or by kind.",
+     "explanation": "There are many ways to sort."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Sets and Logic), p. 48, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sets and Logic"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-M2",
+   "domain": "Mathematics",
+   "title": "Numbers 11 to 20 in figures and in words",
+   "objective": "Count, read and write numbers from 11 to 20 in figures and in words.",
+   "course": "After ten come: eleven (11), twelve (12), thirteen (13), fourteen (14), fifteen (15), sixteen (16), seventeen (17), eighteen (18), nineteen (19), twenty (20).\n14 is one ten and four units.",
+   "model": "The adult shows a bundle of ten sticks and four loose sticks: “Ten and four make fourteen: 14.”",
+   "guided": "Make numbers with a bundle of ten and loose sticks. Read the number, then write it in figures.",
+   "exercise": "Write in figures: sixteen.",
+   "answer": "16",
+   "accept": [
+    "16"
+   ],
+   "remediation": "Count objects from 10 to 15 first, one by one.",
+   "transfer": "Count the houses in your street up to 20.",
+   "materials": "Sticks, rubber bands, number cards.",
+   "practice": [
+    {
+     "prompt": "One ten and three units. Which number?",
+     "type": "number",
+     "answer": 13,
+     "explanation": "10 + 3 = 13."
+    },
+    {
+     "prompt": "Match the number with its word.",
+     "type": "match",
+     "pairs": [
+      [
+       "11",
+       "eleven"
+      ],
+      [
+       "15",
+       "fifteen"
+      ],
+      [
+       "20",
+       "twenty"
+      ]
+     ],
+     "answer": "11: eleven; 15: fifteen; 20: twenty.",
+     "explanation": "Read the figure, then the word."
+    },
+    {
+     "prompt": "Put the numbers in order.",
+     "type": "order",
+     "items": [
+      "17",
+      "18",
+      "19",
+      "20"
+     ],
+     "answer": "17, 18, 19, 20.",
+     "explanation": "Each number is one more."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-M3",
+   "domain": "Mathematics",
+   "title": "Adding within 20",
+   "objective": "Add two small numbers within 20 using objects and the signs + and =.",
+   "course": "To add is to put together. 3 mangoes and 2 mangoes make 5 mangoes.\nWe write: 3 + 2 = 5. The sign + means “and”, the sign = means “makes”.",
+   "model": "The adult puts 6 oranges in a basket, then 3 more: “6 and 3 more: 7, 8, 9. 6 + 3 = 9.”",
+   "guided": "Make the two groups with stones, put them together and count. Write the addition.",
+   "exercise": "A seller has 8 tomatoes. She gets 4 more. How many tomatoes now?",
+   "answer": "12 tomatoes.",
+   "accept": [
+    "12",
+    "12 tomatoes"
+   ],
+   "remediation": "Count on from the bigger number with your fingers: 8… 9, 10, 11, 12.",
+   "transfer": "At home, add the people sitting at the table with those who come later.",
+   "materials": "Stones, fruits or bottle tops.",
+   "practice": [
+    {
+     "prompt": "5 + 4 = ?",
+     "type": "number",
+     "answer": 9,
+     "explanation": "Count on from 5: 6, 7, 8, 9."
+    },
+    {
+     "prompt": "Complete the additions.",
+     "type": "gaps",
+     "text": "7 + 3 = [[10]] ; 10 + 6 = [[16]]",
+     "answer": "10; 16.",
+     "explanation": "Count on from the first number."
+    },
+    {
+     "prompt": "What does the sign + mean?",
+     "type": "mcq",
+     "choices": [
+      "take away",
+      "put together",
+      "share"
+     ],
+     "correct": 1,
+     "answer": "put together",
+     "explanation": "+ means we add."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T2-M4",
+   "domain": "Mathematics",
+   "title": "The number line up to 20",
+   "objective": "Locate numbers on a number line up to 20 and move forward on it.",
+   "course": "A number line shows numbers in order, with the same space between them: 0, 1, 2, … 20.\nTo add, we jump forward. From 5, two jumps forward land on 7.",
+   "model": "The adult draws a line on the ground with chalk, numbers 0 to 20. A child stands on 4 and jumps 3 times: “5, 6, 7. I am on 7.”",
+   "guided": "Walk on a number line drawn on the ground. Find a number, then jump forward to add.",
+   "exercise": "On the number line, start at 10 and jump 5 times forward. Where are you?",
+   "answer": "15",
+   "accept": [
+    "15",
+    "fifteen"
+   ],
+   "remediation": "Use a line from 0 to 10 first.",
+   "transfer": "Draw a number line in the yard and play with a brother or a sister.",
+   "materials": "Chalk, an open space, a stone to mark the place.",
+   "practice": [
+    {
+     "prompt": "Which number comes just after 12 on the number line?",
+     "type": "number",
+     "answer": 13,
+     "explanation": "One step forward from 12 is 13."
+    },
+    {
+     "prompt": "Start at 6 and jump 4 times forward. Where do you land?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "7, 8, 9, 10."
+    },
+    {
+     "prompt": "Put these numbers in their place on the line, from left to right.",
+     "type": "order",
+     "items": [
+      "3",
+      "8",
+      "14",
+      "19"
+     ],
+     "answer": "3, 8, 14, 19.",
+     "explanation": "Smaller numbers are on the left."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 49, Class 1 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  }
+ ]
+}

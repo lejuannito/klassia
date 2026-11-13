@@ -1,0 +1,562 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS1",
+ "classTitle": "Class 1",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+  }
+ ],
+ "id": "CLASS1-T5",
+ "title_en": "Travelling",
+ "title_fr": "Les voyages",
+ "lessons": [
+  {
+   "id": "CLASS1-T5-E1",
+   "domain": "English Language",
+   "title": "Listen and speak: numbers 0 to 50",
+   "objective": "Listen to and say numbers from 0 to 50, and count objects aloud.",
+   "course": "We count in English: zero, one, two, three… ten. Then eleven, twelve, thirteen… twenty.\nAfter twenty: twenty-one, twenty-two… thirty, forty, fifty.\nWhen we count objects, we touch each one and say one number.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "10 ten   20 twenty   30 thirty\n40 forty   50 fifty"
+   },
+   "model": "At the bus station, the adult counts the buses: “One, two, three buses.” Then counts in tens: “Ten, twenty, thirty, forty, fifty.”",
+   "guided": "Count bottle tops aloud, touching each one. Then count in tens with bundles of ten sticks.",
+   "exercise": "Say the number that comes after twenty-nine.",
+   "answer": "thirty",
+   "accept": [
+    "thirty",
+    "30"
+   ],
+   "remediation": "Count up to ten with objects, then from ten to twenty. Add the tens later.",
+   "transfer": "Count the cars or motorbikes you see on the way home.",
+   "materials": "Bottle tops, sticks tied in bundles of ten.",
+   "practice": [
+    {
+     "prompt": "Listen and say the numbers after the voice.",
+     "listen": "ten. twenty. thirty. forty. fifty.",
+     "answer": "ten, twenty, thirty, forty, fifty.",
+     "explanation": "These are the tens up to fifty."
+    },
+    {
+     "prompt": "Put the numbers in order.",
+     "type": "order",
+     "items": [
+      "twelve",
+      "thirteen",
+      "fourteen",
+      "fifteen"
+     ],
+     "answer": "twelve, thirteen, fourteen, fifteen.",
+     "explanation": "Count one more each time."
+    },
+    {
+     "prompt": "How do we say 17?",
+     "type": "mcq",
+     "choices": [
+      "seventy",
+      "seventeen",
+      "seven"
+     ],
+     "correct": 1,
+     "answer": "seventeen",
+     "explanation": "17 is seventeen; 70 is seventy."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Listening and Speaking), p. 41–43, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-E2",
+   "domain": "English Language",
+   "title": "Read: numbers 0 to 50 in words",
+   "objective": "Read numbers from 0 to 50 written in figures and in words.",
+   "course": "A number can be written in figures (12) or in words (twelve).\nWords to learn: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, twenty, thirty, forty, fifty.\nTwenty-four is twenty and four: 24.",
+   "support": {
+    "title": "Read with the adult",
+    "text": "3 three   8 eight   11 eleven\n24 twenty-four   50 fifty"
+   },
+   "model": "The adult shows a bus ticket with “Seat 24” and reads: “twenty-four”. Then writes 24 and reads it again.",
+   "guided": "Match number cards in figures with cards in words. Read each pair aloud.",
+   "exercise": "Read the number: forty.",
+   "answer": "40",
+   "accept": [
+    "40",
+    "forty"
+   ],
+   "remediation": "Match figures and words from 1 to 10 first, then the tens.",
+   "transfer": "Read the numbers on a calendar or on a bus.",
+   "materials": "Number cards in figures and in words.",
+   "practice": [
+    {
+     "prompt": "Match each number with its word.",
+     "type": "match",
+     "pairs": [
+      [
+       "8",
+       "eight"
+      ],
+      [
+       "12",
+       "twelve"
+      ],
+      [
+       "30",
+       "thirty"
+      ]
+     ],
+     "answer": "8: eight; 12: twelve; 30: thirty.",
+     "explanation": "Read the figure, then find its word."
+    },
+    {
+     "prompt": "Write the number “twenty-five” in figures.",
+     "type": "number",
+     "answer": 25,
+     "explanation": "Twenty is 20, five is 5: 25."
+    },
+    {
+     "prompt": "Which word is 50?",
+     "type": "mcq",
+     "choices": [
+      "fifteen",
+      "fifty",
+      "five"
+     ],
+     "correct": 1,
+     "answer": "fifty",
+     "explanation": "50 is fifty."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Reading), p. 43–44, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-E3",
+   "domain": "English Language",
+   "title": "Write: digits 0 to 50",
+   "objective": "Write the digits and the numbers from 0 to 50 neatly, from left to right.",
+   "course": "We write the ten digits: 0 1 2 3 4 5 6 7 8 9. With them we write every number.\nIn 35, we write 3 first, then 5, from left to right.",
+   "support": {
+    "title": "Trace with the adult",
+    "text": "0 1 2 3 4 5 6 7 8 9\n10 20 30 40 50"
+   },
+   "model": "The adult writes 7 slowly: “A line across, then a line down.” Then writes 47: “4 first, then 7.”",
+   "guided": "Trace each digit, then write the numbers from 20 to 30 in a row.",
+   "exercise": "Write the numbers 40, 45 and 50.",
+   "answer": "40 45 50, written from left to right.",
+   "remediation": "Write each digit in sand or with a finger before using the pencil.",
+   "transfer": "Write the number of your house or your age.",
+   "materials": "Pencil, squared or lined paper.",
+   "practice": [
+    {
+     "prompt": "Write the numbers from 31 to 35.",
+     "answer": "31 32 33 34 35.",
+     "explanation": "Write the tens digit first.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Write in figures: thirty-eight.",
+     "type": "number",
+     "answer": 38,
+     "explanation": "Thirty is 3 tens, eight is 8: 38."
+    },
+    {
+     "prompt": "Which number is written correctly for “twenty-one”?",
+     "type": "mcq",
+     "choices": [
+      "12",
+      "21",
+      "201"
+     ],
+     "correct": 1,
+     "answer": "21",
+     "explanation": "Twenty first (2), then one (1): 21."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Writing), p. 44, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-E4",
+   "domain": "English Language",
+   "title": "In, on, under, next to",
+   "objective": "Use prepositions of location to say where things and people are.",
+   "course": "Prepositions tell us where something is.\nThe bag is in the car. The box is on the bus. The cat is under the bench. The driver is next to the car.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "in  on  under  next to\nThe bag is in the car."
+   },
+   "model": "The adult places a toy car and a ball: “The ball is on the car. Now the ball is under the car. Now it is next to the car.”",
+   "guided": "The adult gives an instruction (Put the pen under the book), the child does it and says the sentence.",
+   "exercise": "Where is the ball? (It is below the table.)",
+   "answer": "The ball is under the table.",
+   "accept": [
+    "under the table",
+    "under"
+   ],
+   "remediation": "Practise in and on only, with a box and a toy.",
+   "transfer": "Say where three things are in your house.",
+   "materials": "A box, a toy car, a ball.",
+   "practice": [
+    {
+     "prompt": "Complete with in, on or under.",
+     "type": "gaps",
+     "text": "The fish is [[in]] the water. The hat is [[on]] his head.",
+     "answer": "in the water; on his head.",
+     "explanation": "In: inside. On: on top of."
+    },
+    {
+     "prompt": "The goat is beside the bus. Which preposition?",
+     "type": "mcq",
+     "choices": [
+      "in",
+      "next to",
+      "on"
+     ],
+     "correct": 1,
+     "answer": "next to",
+     "explanation": "Beside means next to."
+    },
+    {
+     "prompt": "Match each sentence with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       "The cat is under the chair.",
+       "below the chair"
+      ],
+      [
+       "The cup is on the table.",
+       "on top of the table"
+      ],
+      [
+       "The shoes are in the box.",
+       "inside the box"
+      ]
+     ],
+     "answer": "under: below; on: on top of; in: inside.",
+     "explanation": "Each preposition shows a place."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Grammar, vocabulary and pronunciation), p. 44–47, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-M1",
+   "domain": "Mathematics",
+   "title": "The months of the year",
+   "objective": "Name the months of the year in order and relate them to events.",
+   "course": "A year has 12 months: January, February, March, April, May, June, July, August, September, October, November, December.\nSchool starts in September. The year ends in December.",
+   "model": "The adult shows a calendar: “This month is November. Next month is December. My birthday is in March.”",
+   "guided": "Say the months in order with a clap. Put an event on some months: school starts, holidays, a birthday.",
+   "exercise": "Which month comes after June?",
+   "answer": "July.",
+   "accept": [
+    "July"
+   ],
+   "remediation": "Learn the months in groups of three.",
+   "transfer": "Find the month of your birthday on a calendar.",
+   "materials": "A calendar, twelve month cards.",
+   "practice": [
+    {
+     "prompt": "How many months are there in a year?",
+     "type": "number",
+     "answer": 12,
+     "explanation": "January to December: 12 months."
+    },
+    {
+     "prompt": "Put these months in order.",
+     "type": "order",
+     "items": [
+      "January",
+      "February",
+      "March",
+      "April"
+     ],
+     "answer": "January, February, March, April.",
+     "explanation": "These are the first four months."
+    },
+    {
+     "prompt": "Which is the last month of the year?",
+     "type": "mcq",
+     "choices": [
+      "January",
+      "December",
+      "September"
+     ],
+     "correct": 1,
+     "answer": "December",
+     "explanation": "The year ends in December."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 49, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-M2",
+   "domain": "Mathematics",
+   "title": "Numbers up to 100",
+   "objective": "Count, read and write numbers up to 100, in figures and in words.",
+   "course": "We count in tens: ten, twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety, one hundred.\n100 is ten tens. 63 is sixty-three: 6 tens and 3 units.",
+   "model": "The adult counts the seats in a bus park in tens: “Ten, twenty, … ninety, one hundred seats.”",
+   "guided": "Count to 100 in tens with ten bundles of ten sticks. Then make and read numbers like 72 or 85.",
+   "exercise": "Write in figures: seventy-four.",
+   "answer": "74",
+   "accept": [
+    "74"
+   ],
+   "remediation": "Count in tens up to 100 before reading numbers with units.",
+   "transfer": "Read the numbers on cars or motorbikes (number plates) with an adult.",
+   "materials": "Ten bundles of ten sticks, number cards.",
+   "practice": [
+    {
+     "prompt": "9 tens and 0 units. Which number?",
+     "type": "number",
+     "answer": 90,
+     "explanation": "9 tens = 90."
+    },
+    {
+     "prompt": "Match each number with its word.",
+     "type": "match",
+     "pairs": [
+      [
+       "60",
+       "sixty"
+      ],
+      [
+       "80",
+       "eighty"
+      ],
+      [
+       "100",
+       "one hundred"
+      ]
+     ],
+     "answer": "60: sixty; 80: eighty; 100: one hundred.",
+     "explanation": "These are tens."
+    },
+    {
+     "prompt": "Complete the count in tens.",
+     "type": "gaps",
+     "text": "50, 60, [[70]], 80, [[90]], 100",
+     "answer": "70; 90.",
+     "explanation": "Add one ten each time."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-M3",
+   "domain": "Mathematics",
+   "title": "Biggest to smallest, smallest to biggest",
+   "objective": "Arrange numbers in ascending and descending order.",
+   "course": "Ascending order goes up: from the smallest to the biggest: 3, 9, 15, 40.\nDescending order goes down: from the biggest to the smallest: 40, 15, 9, 3.\nTo compare, look at the tens first.",
+   "model": "Four buses carry 25, 40, 18 and 33 people. The adult orders them: “18, 25, 33, 40: smallest to biggest.”",
+   "guided": "Pick four number cards and line them up in ascending order, then in descending order.",
+   "exercise": "Put in ascending order: 31, 13, 22.",
+   "answer": "13, 22, 31.",
+   "accept": [
+    "13, 22, 31",
+    "13 22 31"
+   ],
+   "remediation": "Compare two numbers at a time first.",
+   "transfer": "Order the ages of the people in your family.",
+   "materials": "Number cards.",
+   "practice": [
+    {
+     "prompt": "Put the numbers in ascending order (smallest first).",
+     "type": "order",
+     "items": [
+      "8",
+      "19",
+      "27",
+      "45"
+     ],
+     "answer": "8, 19, 27, 45.",
+     "explanation": "Look at the tens first."
+    },
+    {
+     "prompt": "Which number is the biggest?",
+     "type": "mcq",
+     "choices": [
+      "58",
+      "85",
+      "75"
+     ],
+     "correct": 1,
+     "answer": "85",
+     "explanation": "8 tens is more than 7 or 5 tens."
+    },
+    {
+     "prompt": "Put in descending order (biggest first).",
+     "type": "order",
+     "items": [
+      "90",
+      "64",
+      "46",
+      "9"
+     ],
+     "answer": "90, 64, 46, 9.",
+     "explanation": "Descending goes down."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 50, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS1-T5-M4",
+   "domain": "Mathematics",
+   "title": "Place value up to 100",
+   "objective": "Say the value of each digit in a number up to 100.",
+   "course": "In 57, the 5 is in the tens place: its value is 50. The 7 is in the units place: its value is 7.\n57 = 50 + 7.",
+   "model": "The adult writes 68 in a T | U table: “The 6 is worth 60. The 8 is worth 8. 60 + 8 = 68.”",
+   "guided": "Write numbers in a T | U table and say the value of each digit.",
+   "exercise": "What is the value of 4 in 46?",
+   "answer": "40",
+   "accept": [
+    "40",
+    "forty",
+    "4 tens"
+   ],
+   "remediation": "Use bundles and sticks to show what each digit means.",
+   "transfer": "Look at a price and say the value of the tens digit.",
+   "materials": "T | U table, bundles and sticks.",
+   "practice": [
+    {
+     "prompt": "What is the value of the digit 3 in 83?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "3 is in the units place: 3."
+    },
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "72 = [[70]] + [[2]]",
+     "answer": "70 + 2.",
+     "explanation": "7 tens and 2 units."
+    },
+    {
+     "prompt": "In 29, which digit is in the tens place?",
+     "type": "mcq",
+     "choices": [
+      "2",
+      "9",
+      "29"
+     ],
+     "correct": 0,
+     "answer": "2",
+     "explanation": "The tens digit is on the left."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  }
+ ]
+}

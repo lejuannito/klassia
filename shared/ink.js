@@ -213,7 +213,7 @@
   }
   if (!state.ready || !state.strokes.length) return;
   if (action.hasAttribute('data-ink-clear')) {
-   if (!confirm('Effacer tous les tracés de cette fiche ?')) return;
+   if (!confirm(K.t ? K.t('Effacer tous les tracés de cette fiche ?') : 'Effacer tous les tracés de cette fiche ?')) return;
    state.strokes = [];
   } else state.strokes.pop();
   cancel(state);

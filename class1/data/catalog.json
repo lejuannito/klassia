@@ -9,9 +9,9 @@
     "grade": "SIL",
     "status": "available"
   },
-  "releaseStatus": "planned",
+  "releaseStatus": "in_review",
   "title": "Class 1",
-  "scope": "Catalogue of the eight integrated themes of Class 1 (Level I). Lessons are in preparation: English Language and Mathematics first (lot A3), then the other subjects (lot A4).",
+  "scope": "Catalogue of the eight integrated themes of Class 1 (Level I). English Language and Mathematics: four lessons per theme (lot A3), under teaching review. The other eight subjects are in preparation (lot A4).",
   "sources": [
     {
       "title": "Cameroon Primary School Curriculum, English Subsystem, Level I, MINEDUB, 2018",
@@ -82,7 +82,8 @@
       "source_refs": [
         "Level I, table 18, theme 1"
       ],
-      "lessons": []
+      "path": "unit1.json",
+      "status": "in_review"
     },
     {
       "id": "CLASS1-T2",
@@ -94,7 +95,8 @@
       "source_refs": [
         "Level I, table 18, theme 2"
       ],
-      "lessons": []
+      "path": "unit2.json",
+      "status": "in_review"
     },
     {
       "id": "CLASS1-T3",
@@ -106,7 +108,8 @@
       "source_refs": [
         "Level I, table 18, theme 3"
       ],
-      "lessons": []
+      "path": "unit3.json",
+      "status": "in_review"
     },
     {
       "id": "CLASS1-T4",
@@ -118,7 +121,8 @@
       "source_refs": [
         "Level I, table 18, theme 4"
       ],
-      "lessons": []
+      "path": "unit4.json",
+      "status": "in_review"
     },
     {
       "id": "CLASS1-T5",
@@ -130,7 +134,8 @@
       "source_refs": [
         "Level I, table 18, theme 5"
       ],
-      "lessons": []
+      "path": "unit5.json",
+      "status": "in_review"
     },
     {
       "id": "CLASS1-T6",
@@ -142,7 +147,8 @@
       "source_refs": [
         "Level I, table 18, theme 6"
       ],
-      "lessons": []
+      "path": "unit6.json",
+      "status": "in_review"
     },
     {
       "id": "CLASS1-T7",
@@ -154,7 +160,8 @@
       "source_refs": [
         "Level I, table 18, theme 7"
       ],
-      "lessons": []
+      "path": "unit7.json",
+      "status": "in_review"
     },
     {
       "id": "CLASS1-T8",
@@ -166,7 +173,8 @@
       "source_refs": [
         "Level I, table 18, theme 8"
       ],
-      "lessons": []
+      "path": "unit8.json",
+      "status": "in_review"
     }
   ]
 }

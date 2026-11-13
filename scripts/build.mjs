@@ -6,7 +6,7 @@ const root=path.resolve(import.meta.dirname,'..');const sha=b=>crypto.createHash
 if(process.argv.includes('--public'))execFileSync(process.execPath,[path.join(root,'scripts/validate.mjs'),'--public'],{stdio:'inherit'});
 const bassaLexicon='data/bassa-lexicon-variants.json';
 validateBassaRecordings(root,JSON.parse(fs.readFileSync(path.join(root,bassaLexicon),'utf8')).entries);
-const names=['search.html','shared/search.js','shared/classes.js','shared/encouragement.js','shared/lesson-model.js','shared/lesson-steps.js','shared/qcm.js','shared/workshop.js','shared/activity.js','shared/nursery.js','shared/i18n.js','class1/index.html','class1/data/catalog.json','shared/primary.css','shared/nursery.css','shared/search.css','index.html','service-worker.js','pwa.js','manifest.webmanifest','shared/core.js','shared/navigation.js','shared/ui.js','shared/style.css','shared/learning-app.js','data/catalog.json','data/coverage.json',bassaLexicon,'data/ce2-practice-v14.json','ms/index.html','ms/practice-v14.json','ms/data/catalog-v13.json','sil/index.html','sil/data/curriculum.json','ce1/index.html','ce1/data/catalog.json','ce1/data/qcm.json',...JSON.parse(fs.readFileSync(path.join(root,'ce1/data/catalog.json'),'utf8')).units.map(u=>'ce1/data/'+u.path)];
+const names=['search.html','shared/search.js','shared/classes.js','shared/encouragement.js','shared/lesson-model.js','shared/lesson-steps.js','shared/qcm.js','shared/workshop.js','shared/activity.js','shared/nursery.js','shared/i18n.js','class1/index.html','class1/data/catalog.json','shared/primary.css','shared/nursery.css','shared/search.css','index.html','service-worker.js','pwa.js','manifest.webmanifest','shared/core.js','shared/navigation.js','shared/ui.js','shared/style.css','shared/learning-app.js','data/catalog.json','data/coverage.json',bassaLexicon,'data/ce2-practice-v14.json','ms/index.html','ms/practice-v14.json','ms/data/catalog-v13.json','sil/index.html','sil/data/curriculum.json','ce1/index.html','ce1/data/catalog.json','ce1/data/qcm.json',...JSON.parse(fs.readFileSync(path.join(root,'ce1/data/catalog.json'),'utf8')).units.map(u=>'ce1/data/'+u.path),...JSON.parse(fs.readFileSync(path.join(root,'class1/data/catalog.json'),'utf8')).units.filter(u=>u.path).map(u=>'class1/data/'+u.path)];
 for(let i=1;i<=8;i++)names.push(`data/content-u${i}.json`,`data/qcm-u${i}.json`,`ms/data/themes/T${i}.json`,`sil/data/sil-u${i}.json`);
 names.push('shared/speech.js','shared/bassa.js','shared/bassa-recorder.js','data/bassa-lessons.json','data/bassa-ecriture.json','gs/index.html','gs/practice-v14.json','gs/data/catalog-v13.json','gs/data/curriculum-map.json');
 names.push('pilote.html','shared/pilot.js','shared/pilot.css');
@@ -20,7 +20,8 @@ const assets=path.join(root,'assets');if(fs.existsSync(assets))for(const f of fs
 // Téléchargement par classe (lot 9c) : les données et les sons propres à une classe forment son paquet ; le code, les pages,
 // les catalogues et les ressources partagées forment le paquet commun. Un son appartient à une classe s'il n'est cité que par
 // les données de cette classe.
-const {classes}=createRequire(import.meta.url)('../shared/classes.js');
+// Une classe en préparation (« upcoming ») a déjà son paquet : il n'est installé que si la famille installe tout.
+const registry=createRequire(import.meta.url)('../shared/classes.js'),classes=[...registry.classes,...registry.upcoming];
 function dataPack(url){
  if(!url.endsWith('.json'))return null;
  if(url==='data/coverage.json')return 'ATELIER'; // inventaire de la revue éditoriale, pour l'atelier pédagogique seulement

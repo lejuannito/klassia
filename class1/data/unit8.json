@@ -1,0 +1,536 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS1",
+ "classTitle": "Class 1",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+  }
+ ],
+ "id": "CLASS1-T8",
+ "title_en": "Communication",
+ "title_fr": "Les communications",
+ "lessons": [
+  {
+   "id": "CLASS1-T8-E1",
+   "domain": "English Language",
+   "title": "Listen and speak: a telephone call",
+   "objective": "Hold a short telephone conversation politely: greet, say who is speaking, ask and answer, say goodbye.",
+   "course": "On the telephone, we greet, we say who we are, we speak clearly and we say goodbye.\nHello! This is Manka. May I speak to Auntie, please? … Thank you. Goodbye!",
+   "support": {
+    "title": "Play with the adult",
+    "text": "Hello! This is Manka.\nHow are you?\nI am fine, thank you.\nGoodbye!"
+   },
+   "model": "The adult takes a toy phone: “Hello! This is Mama Ngum. How are you, Bih?” The child answers: “I am fine, thank you.”",
+   "guided": "Play a call with two toy phones: greet, give your name, ask how the other person is, say goodbye.",
+   "exercise": "Someone calls you. What do you say first?",
+   "answer": "Hello! This is (your name).",
+   "remediation": "Practise only the start (Hello! This is …) and the end (Goodbye!).",
+   "transfer": "With an adult, call a member of the family and greet them politely.",
+   "materials": "Two toy phones or two cups and a string.",
+   "practice": [
+    {
+     "prompt": "Put the telephone call in order.",
+     "type": "order",
+     "items": [
+      "Hello! This is Manka.",
+      "How are you?",
+      "I am fine, thank you.",
+      "Goodbye!"
+     ],
+     "answer": "Hello! This is Manka. How are you? I am fine, thank you. Goodbye!",
+     "explanation": "We greet first and say goodbye at the end."
+    },
+    {
+     "prompt": "Listen and answer like in a call.",
+     "listen": "Hello! How are you?",
+     "answer": "I am fine, thank you.",
+     "explanation": "Answer politely."
+    },
+    {
+     "prompt": "How do we end a call?",
+     "type": "mcq",
+     "choices": [
+      "Good morning",
+      "Goodbye",
+      "Please"
+     ],
+     "correct": 1,
+     "answer": "Goodbye",
+     "explanation": "We say goodbye at the end of a call."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Listening and Speaking), p. 41–43, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-E2",
+   "domain": "English Language",
+   "title": "Read a short message silently",
+   "objective": "Read a short message silently and answer questions about it.",
+   "course": "A message gives news to someone. It says who writes, to whom, and what the news is.\nWe read it silently, with our eyes, then we answer questions.",
+   "support": {
+    "title": "Read silently",
+    "text": "Dear Grandma,\nWe have a new baby goat. It is white and small.\nCome and see it on Sunday.\nLove, Ayuk"
+   },
+   "model": "The adult reads a message silently, then says: “Ayuk writes to Grandma. The news is about a baby goat.”",
+   "guided": "Read the message silently. Then find: Who writes? To whom? What is the news? When should Grandma come?",
+   "exercise": "Who wrote the message?",
+   "answer": "Ayuk.",
+   "accept": [
+    "Ayuk"
+   ],
+   "remediation": "Read the message aloud together first, then answer.",
+   "transfer": "Read a short message on a card or a phone with an adult.",
+   "materials": "The message written on a card.",
+   "practice": [
+    {
+     "prompt": "What colour is the baby goat?",
+     "type": "mcq",
+     "choices": [
+      "black",
+      "white",
+      "brown"
+     ],
+     "correct": 1,
+     "answer": "white",
+     "explanation": "The message says: It is white and small."
+    },
+    {
+     "prompt": "When should Grandma come?",
+     "answer": "On Sunday.",
+     "accept": [
+      "Sunday",
+      "on Sunday"
+     ],
+     "explanation": "The message says: Come and see it on Sunday."
+    },
+    {
+     "prompt": "Match the question with its answer.",
+     "type": "match",
+     "pairs": [
+      [
+       "Who writes?",
+       "Ayuk"
+      ],
+      [
+       "To whom?",
+       "Grandma"
+      ],
+      [
+       "What is new?",
+       "a baby goat"
+      ]
+     ],
+     "answer": "Ayuk; Grandma; a baby goat.",
+     "explanation": "All the answers are in the message."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Reading), p. 43–44, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-E3",
+   "domain": "English Language",
+   "title": "Write a short message",
+   "objective": "Write a message of one or two short sentences with one’s name.",
+   "course": "A message has three parts: to whom (Dear Papa,), the news in one or two short sentences, and our name at the end.\nEach sentence starts with a capital letter and ends with a full stop.",
+   "support": {
+    "title": "Copy with the adult",
+    "text": "Dear Papa,\nI can read. I love you.\nBih"
+   },
+   "model": "The adult writes a short card: “Dear Mama, I am at school. See you soon. Neba”.",
+   "guided": "Choose a person. Say your news aloud, then write it in one sentence. Sign with your name.",
+   "exercise": "Write a message to a friend: say “Come and play.” and sign your name.",
+   "answer": "For example: Dear Tabi, Come and play. Ayuk",
+   "remediation": "Copy the model message and change only the name of the person.",
+   "transfer": "Write a small card for someone in your family.",
+   "materials": "Small cards, pencil, coloured pencils.",
+   "practice": [
+    {
+     "prompt": "Write your message on the lines.",
+     "answer": "A message with a greeting, a short sentence and the name.",
+     "explanation": "Start with Dear …, end with your name.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Put the parts of the message in order.",
+     "type": "order",
+     "items": [
+      "Dear Mama,",
+      "I am at school.",
+      "Neba"
+     ],
+     "answer": "Dear Mama, / I am at school. / Neba",
+     "explanation": "Greeting first, name last."
+    },
+    {
+     "prompt": "Where do we write our name in a message?",
+     "type": "mcq",
+     "choices": [
+      "at the start",
+      "at the end",
+      "in the middle"
+     ],
+     "correct": 1,
+     "answer": "at the end",
+     "explanation": "We sign at the end."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Writing), p. 44, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-E4",
+   "domain": "English Language",
+   "title": "And, but, and the future with will",
+   "objective": "Link words and sentences with and or but, and talk about tomorrow with will.",
+   "course": "And joins two things: Bih and Tabi. I read and I write.\nBut shows a difference: I can read, but I cannot drive.\nFor tomorrow, we use will + verb: Tomorrow I will call Grandma.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "Bih and Tabi\nI can sing, but I cannot fly.\nTomorrow I will write."
+   },
+   "model": "The adult says: “I have a phone and a radio. The radio is old, but it works. Tomorrow I will call Papa.”",
+   "guided": "Join two picture cards with and. Then say something you will do tomorrow with will.",
+   "exercise": "Join with and: Manka sings. Manka dances.",
+   "answer": "Manka sings and dances.",
+   "accept": [
+    "Manka sings and dances",
+    "Manka sings and Manka dances"
+   ],
+   "remediation": "Practise with and only, using two objects.",
+   "transfer": "Tell an adult two things you will do tomorrow.",
+   "materials": "Picture cards.",
+   "practice": [
+    {
+     "prompt": "Complete with and or but.",
+     "type": "gaps",
+     "text": "I have a pen [[and]] a book. The phone is small [[but]] it is loud.",
+     "answer": "and; but.",
+     "explanation": "And adds; but shows a difference."
+    },
+    {
+     "prompt": "Which sentence is about tomorrow?",
+     "type": "mcq",
+     "choices": [
+      "I called Papa.",
+      "I will call Papa.",
+      "I call Papa now."
+     ],
+     "correct": 1,
+     "answer": "I will call Papa.",
+     "explanation": "Will + verb tells about the future."
+    },
+    {
+     "prompt": "Complete: Tomorrow I ___ write a letter.",
+     "answer": "will",
+     "accept": [
+      "will",
+      "Tomorrow I will write a letter"
+     ],
+     "explanation": "will + write: future."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Grammar, vocabulary and pronunciation), p. 44–47, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-M1",
+   "domain": "Mathematics",
+   "title": "A timetable: what happens when",
+   "objective": "Read a simple daily timetable and respect a schedule.",
+   "course": "A timetable tells what happens and when. At school: Monday, English; Tuesday, Mathematics… At home: morning, wash; afternoon, homework; night, sleep.\nWe follow the timetable to be on time.",
+   "model": "The adult shows a family timetable for the radio programme: “On Saturday morning we listen to the children’s programme.”",
+   "guided": "Make a timetable of your day with pictures: morning, afternoon, night. Read it aloud.",
+   "exercise": "In your timetable, when do you do your homework?",
+   "answer": "For example: in the afternoon.",
+   "remediation": "Use three pictures only, one for each period.",
+   "transfer": "Put your timetable on the wall at home and follow it.",
+   "materials": "Paper, pictures or drawings of activities.",
+   "practice": [
+    {
+     "prompt": "Put Neba’s Saturday in order.",
+     "type": "order",
+     "items": [
+      "morning: sweep the compound",
+      "afternoon: play football",
+      "night: sleep"
+     ],
+     "answer": "morning, afternoon, night.",
+     "explanation": "Follow the periods of the day."
+    },
+    {
+     "prompt": "Why do we follow a timetable?",
+     "type": "mcq",
+     "choices": [
+      "to be on time",
+      "to sleep more",
+      "to forget"
+     ],
+     "correct": 0,
+     "answer": "to be on time",
+     "explanation": "A timetable helps us to do things at the right time."
+    },
+    {
+     "prompt": "How many days of school are there in a week?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "Monday to Friday: 5 days."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 49, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-M2",
+   "domain": "Mathematics",
+   "title": "Shopping problems up to 100 francs",
+   "objective": "Pay, add prices and give change with amounts up to 100 francs.",
+   "course": "To know how much to pay, we add the prices. A pen costs 50 francs, an eraser 25 francs: 50 + 25 = 75 francs.\nTo know the change, we take away: we pay 100 francs for 75 francs, the change is 25 francs.",
+   "model": "The adult buys a phone card for 100 francs with two coins of 50 francs: “50 and 50 make 100. No change.”",
+   "guided": "Play shop with price labels and coins. Add two prices, pay, and count the change.",
+   "exercise": "A notebook costs 60 francs. You pay 100 francs. What is the change?",
+   "answer": "40 francs.",
+   "accept": [
+    "40",
+    "40 francs"
+   ],
+   "remediation": "Use prices that are tens (20, 30, 50) first.",
+   "transfer": "With an adult, check the change after buying bread.",
+   "materials": "Paper coins and price labels.",
+   "practice": [
+    {
+     "prompt": "A pencil costs 25 francs and a ruler costs 50 francs. Total in francs?",
+     "type": "number",
+     "answer": 75,
+     "explanation": "25 + 50 = 75."
+    },
+    {
+     "prompt": "You pay 100 francs for something that costs 90 francs. Change in francs?",
+     "type": "number",
+     "answer": 10,
+     "explanation": "100 − 90 = 10."
+    },
+    {
+     "prompt": "Which coins make 75 francs?",
+     "type": "mcq",
+     "choices": [
+      "50 + 25",
+      "50 + 50",
+      "25 + 25"
+     ],
+     "correct": 0,
+     "answer": "50 + 25",
+     "explanation": "50 + 25 = 75."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 49, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-M3",
+   "domain": "Mathematics",
+   "title": "A bar graph of messages",
+   "objective": "Represent data with a simple bar graph and answer questions about it.",
+   "course": "A bar graph uses bars to show how many. The taller the bar, the more there are.\nWe count the squares in each bar to read the number.",
+   "model": "The adult counts the messages received by the family in one week: Monday 2, Tuesday 4, Wednesday 1. Then colours one square per message.",
+   "guided": "Collect a small set of data (letters, calls or visitors in a week). Colour one square for each and compare the bars.",
+   "exercise": "Monday: 2 squares, Tuesday: 4 squares, Wednesday: 1 square. Which day had the most messages?",
+   "answer": "Tuesday.",
+   "accept": [
+    "Tuesday"
+   ],
+   "remediation": "Build each bar with real blocks before colouring squares.",
+   "transfer": "Make a bar graph of the weather for one week (sun, rain).",
+   "materials": "Squared paper, coloured pencils, blocks.",
+   "practice": [
+    {
+     "prompt": "How many messages on Tuesday?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "The Tuesday bar has 4 squares."
+    },
+    {
+     "prompt": "Which day had the fewest messages?",
+     "type": "mcq",
+     "choices": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+     ],
+     "correct": 2,
+     "answer": "Wednesday",
+     "explanation": "The Wednesday bar is the shortest."
+    },
+    {
+     "prompt": "How many messages in all on the three days?",
+     "type": "number",
+     "answer": 7,
+     "explanation": "2 + 4 + 1 = 7."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 50, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS1-T8-M4",
+   "domain": "Mathematics",
+   "title": "Numbers to 100 in words: review",
+   "objective": "Read and write numbers up to 100 in figures and in words, and use them in sentences.",
+   "course": "We write numbers in words with the tens and the units: 46 → forty-six; 99 → ninety-nine.\nA hyphen joins the tens and the units: twenty-one, eighty-five.",
+   "model": "The adult writes a telephone message: “Call me at 5 o’clock. My number ends with 48: forty-eight.”",
+   "guided": "Write numbers in words on cards, then match them with figure cards.",
+   "exercise": "Write in words: 53.",
+   "answer": "fifty-three",
+   "accept": [
+    "fifty-three",
+    "fifty three"
+   ],
+   "remediation": "Write the tens in words first (fifty), then add the units.",
+   "transfer": "Read the numbers of a calendar or a telephone aloud in English.",
+   "materials": "Number cards in figures and in words.",
+   "practice": [
+    {
+     "prompt": "Write in figures: eighty-two.",
+     "type": "number",
+     "answer": 82,
+     "explanation": "Eighty is 80, two is 2: 82."
+    },
+    {
+     "prompt": "Match each number with its words.",
+     "type": "match",
+     "pairs": [
+      [
+       "46",
+       "forty-six"
+      ],
+      [
+       "64",
+       "sixty-four"
+      ],
+      [
+       "99",
+       "ninety-nine"
+      ]
+     ],
+     "answer": "46: forty-six; 64: sixty-four; 99: ninety-nine.",
+     "explanation": "Read the tens, then the units."
+    },
+    {
+     "prompt": "Complete in words.",
+     "type": "gaps",
+     "text": "71 = seventy-[[one]] ; 30 = [[thirty]]",
+     "answer": "seventy-one; thirty.",
+     "explanation": "Tens word, hyphen, units word."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 8: Communication (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,532 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS1",
+ "classTitle": "Class 1",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level I; Class 1 column only. Class 2 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme in preparation for teaching review: English Language and Mathematics written; the other subjects follow (lot A4). Original examples; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language), p. 41–47; table 21 (Mathematics), p. 48–50",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+  }
+ ],
+ "id": "CLASS1-T7",
+ "title_en": "Games",
+ "title_fr": "Les jeux",
+ "lessons": [
+  {
+   "id": "CLASS1-T7-E1",
+   "domain": "English Language",
+   "title": "Listen and speak: a counting rhyme",
+   "objective": "Listen to, say and act a short rhyme, and retell a little story with gestures.",
+   "course": "A rhyme is a short poem with words that sound the same at the end: ball – wall, hop – stop.\nWe say it with rhythm and gestures, and we listen to our friends.",
+   "support": {
+    "title": "Say the Klassia rhyme",
+    "text": "One, two, kick the ball,\nThree, four, by the wall,\nFive, six, hop, hop, hop,\nSeven, eight, now we stop!"
+   },
+   "model": "The adult says the rhyme with gestures: kick, point to the wall, hop, then stop with arms open.",
+   "guided": "Say the rhyme line by line after the adult, then all together with the gestures. Find the words that sound the same.",
+   "exercise": "Which word sounds like “ball” in the rhyme?",
+   "answer": "wall",
+   "accept": [
+    "wall"
+   ],
+   "remediation": "Say the first two lines only, with the gestures.",
+   "transfer": "Teach the rhyme to a brother, a sister or a friend.",
+   "materials": "A ball, an open space.",
+   "practice": [
+    {
+     "prompt": "Listen to the rhyme and say it after the voice.",
+     "listen": "One, two, kick the ball. Three, four, by the wall. Five, six, hop, hop, hop. Seven, eight, now we stop!",
+     "answer": "The rhyme said with rhythm.",
+     "explanation": "Say each line with its gesture."
+    },
+    {
+     "prompt": "Match the words that sound the same.",
+     "type": "match",
+     "pairs": [
+      [
+       "ball",
+       "wall"
+      ],
+      [
+       "hop",
+       "stop"
+      ],
+      [
+       "fun",
+       "run"
+      ]
+     ],
+     "answer": "ball–wall; hop–stop; fun–run.",
+     "explanation": "Rhyming words end with the same sound."
+    },
+    {
+     "prompt": "Put the lines of the rhyme in order.",
+     "type": "order",
+     "items": [
+      "One, two, kick the ball,",
+      "Three, four, by the wall,",
+      "Five, six, hop, hop, hop,",
+      "Seven, eight, now we stop!"
+     ],
+     "answer": "The four lines in order.",
+     "explanation": "The numbers help you find the order."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Listening and Speaking), p. 41–43, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-E2",
+   "domain": "English Language",
+   "title": "Read: longer words in parts",
+   "objective": "Read words of two and three syllables by cutting them into parts.",
+   "course": "Long words have parts called syllables. We clap for each part: foot-ball (2), skip-ping (2), bi-cy-cle (3).\nWe read each part, then the whole word.",
+   "support": {
+    "title": "Read with the adult",
+    "text": "foot-ball   hop-scotch\nbi-cy-cle   ba-na-na"
+   },
+   "model": "The adult claps and reads: “hop… scotch: hopscotch. We play hopscotch in the school yard.”",
+   "guided": "Clap the parts of each word, then read it. Sort the words: two claps or three claps.",
+   "exercise": "How many claps in “banana”?",
+   "answer": "three",
+   "accept": [
+    "3",
+    "three"
+   ],
+   "remediation": "Clap two-part words only (football, skipping) before three-part words.",
+   "transfer": "Clap the parts of the names of your friends.",
+   "materials": "Word cards cut into syllables.",
+   "practice": [
+    {
+     "prompt": "Put the parts in order to read the word.",
+     "type": "order",
+     "items": [
+      "bi",
+      "cy",
+      "cle"
+     ],
+     "answer": "bicycle",
+     "explanation": "bi-cy-cle: three parts."
+    },
+    {
+     "prompt": "How many parts in “football”?",
+     "type": "number",
+     "answer": 2,
+     "explanation": "foot-ball: two parts."
+    },
+    {
+     "prompt": "Which word has three parts?",
+     "type": "mcq",
+     "choices": [
+      "ball",
+      "skipping",
+      "banana"
+     ],
+     "correct": 2,
+     "answer": "banana",
+     "explanation": "ba-na-na: three claps."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Reading), p. 43–44, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-E3",
+   "domain": "English Language",
+   "title": "Write: short sentences (who does what)",
+   "objective": "Write a short sentence with a subject, a verb and an object, starting with a capital letter and ending with a full stop.",
+   "course": "A short sentence says who does what: Tabi kicks the ball. Bih skips the rope.\nIt starts with a capital letter and ends with a full stop.",
+   "support": {
+    "title": "Copy with the adult",
+    "text": "Tabi kicks the ball.\nBih skips the rope."
+   },
+   "model": "The adult writes: “Neba throws the ball.” and points: “Who? Neba. Does what? throws. What? the ball.”",
+   "guided": "Choose a name, an action and a thing from three boxes of cards. Build the sentence, read it, then write it.",
+   "exercise": "Write a sentence: Ashu / plays / football.",
+   "answer": "Ashu plays football.",
+   "remediation": "Copy a model sentence first, then change only the name.",
+   "transfer": "Write one sentence about the game you like.",
+   "materials": "Cards with names, actions and things; pencil.",
+   "practice": [
+    {
+     "prompt": "Put the words in order to make a sentence.",
+     "type": "order",
+     "items": [
+      "Bih",
+      "skips",
+      "the",
+      "rope."
+     ],
+     "answer": "Bih skips the rope.",
+     "explanation": "Who? Bih. Does what? skips. What? the rope."
+    },
+    {
+     "prompt": "Write the sentence: Tabi kicks the ball.",
+     "answer": "Tabi kicks the ball.",
+     "explanation": "Capital letter at the start, full stop at the end.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "What do we put at the end of a sentence?",
+     "type": "mcq",
+     "choices": [
+      "a full stop",
+      "a capital letter",
+      "a number"
+     ],
+     "correct": 0,
+     "answer": "a full stop",
+     "explanation": "A sentence ends with a full stop."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Writing), p. 44, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-E4",
+   "domain": "English Language",
+   "title": "Yesterday and today: here, there, now",
+   "objective": "Say what happened yesterday with regular verbs in the simple past, and use adverbs of time and place.",
+   "course": "Today we play. Yesterday we played. For many verbs, we add ed to talk about the past: jump → jumped, kick → kicked.\nAdverbs of time: now, today, yesterday. Adverbs of place: here, there.",
+   "support": {
+    "title": "Say with the adult",
+    "text": "Today I jump. Yesterday I jumped.\nCome here! The ball is there."
+   },
+   "model": "The adult says: “Now I kick the ball. Yesterday I kicked the ball too.” Then points: “The ball is there. Bring it here.”",
+   "guided": "Say what you do today, then what you did yesterday, adding ed. Play “here and there” with a ball.",
+   "exercise": "Yesterday, Neba ___ (play) football.",
+   "answer": "Yesterday, Neba played football.",
+   "accept": [
+    "played",
+    "Neba played football"
+   ],
+   "remediation": "Practise with three verbs only: play, jump, kick.",
+   "transfer": "Tell an adult what you played yesterday.",
+   "materials": "A ball.",
+   "practice": [
+    {
+     "prompt": "Add ed to talk about yesterday.",
+     "type": "gaps",
+     "text": "Yesterday we jump[[ed]] and kick[[ed]] the ball.",
+     "answer": "jumped; kicked.",
+     "explanation": "Add ed for the past."
+    },
+    {
+     "prompt": "Which word tells about the past?",
+     "type": "mcq",
+     "choices": [
+      "now",
+      "today",
+      "yesterday"
+     ],
+     "correct": 2,
+     "answer": "yesterday",
+     "explanation": "Yesterday is the day before today."
+    },
+    {
+     "prompt": "Complete: Come ___! (to the place where I am)",
+     "answer": "here",
+     "accept": [
+      "here",
+      "Come here"
+     ],
+     "reject": [
+      "there"
+     ],
+     "explanation": "Here is where I am; there is another place."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "English Language, table 20 (Grammar, vocabulary and pronunciation), p. 44–47, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-M1",
+   "domain": "Mathematics",
+   "title": "The table of 3",
+   "objective": "Build the multiplication table of 3 and use it in games.",
+   "course": "Table of 3: 1 × 3 = 3, 2 × 3 = 6, 3 × 3 = 9, 4 × 3 = 12, 5 × 3 = 15.\nWe add 3 each time.",
+   "model": "In a game, each team has 3 players. The adult counts: “1 team: 3 players. 2 teams: 6 players. 4 teams: 12 players.”",
+   "guided": "Make groups of 3 stones. Say the table as you add a group each time.",
+   "exercise": "5 × 3 = ?",
+   "answer": "15",
+   "accept": [
+    "15",
+    "fifteen"
+   ],
+   "remediation": "Count in 3s with groups of objects: 3, 6, 9.",
+   "transfer": "Count the legs of 3-legged stools in 3s.",
+   "materials": "Stones in groups of three.",
+   "practice": [
+    {
+     "prompt": "2 × 3 = ?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "3 + 3 = 6."
+    },
+    {
+     "prompt": "Complete the count in 3s.",
+     "type": "gaps",
+     "text": "3, 6, [[9]], 12, [[15]]",
+     "answer": "9; 15.",
+     "explanation": "Add 3 each time."
+    },
+    {
+     "prompt": "4 teams of 3 players. How many players?",
+     "type": "number",
+     "answer": 12,
+     "explanation": "4 × 3 = 12."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-M2",
+   "domain": "Mathematics",
+   "title": "Tallies in 3s and telling the results",
+   "objective": "Tally in 3s, collect the results of a game and present them orally.",
+   "course": "We can count tallies in 3s: 3, 6, 9, 12.\nAfter a game, we collect the results in a table and say them: “Team A scored 9, team B scored 6. Team A won.”",
+   "model": "The adult tallies points in a game of marbles in groups of 3 and announces the results aloud.",
+   "guided": "Play a short game. Make a tally for each point. Count in 3s and say the results to the group.",
+   "exercise": "Count in 3s: 3, 6, 9, __.",
+   "answer": "12",
+   "accept": [
+    "12",
+    "twelve"
+   ],
+   "remediation": "Group the tally marks in 3s with a circle before counting.",
+   "transfer": "Keep the score of a game with your friends using tallies.",
+   "materials": "Marbles or bottle tops, chalk.",
+   "practice": [
+    {
+     "prompt": "Team A has 3 groups of 3 points. How many points?",
+     "type": "number",
+     "answer": 9,
+     "explanation": "3, 6, 9."
+    },
+    {
+     "prompt": "Team A: 9 points. Team B: 6 points. Which team won?",
+     "type": "mcq",
+     "choices": [
+      "Team A",
+      "Team B"
+     ],
+     "correct": 0,
+     "answer": "Team A",
+     "explanation": "9 is more than 6."
+    },
+    {
+     "prompt": "Say the results of the game in one sentence.",
+     "answer": "Team A scored 9 points and won.",
+     "explanation": "Say who scored the most."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Graphs and Statistics), p. 50, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Graphs and Statistics"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-M3",
+   "domain": "Mathematics",
+   "title": "Making shapes",
+   "objective": "Construct triangles, squares, rectangles and circles with sticks, string and paper.",
+   "course": "We can make shapes: a triangle with 3 sticks, a square with 4 equal sticks, a rectangle with 2 long and 2 short sticks. A circle is made with a string around a can.",
+   "model": "The adult places 4 equal sticks: “4 equal sides: a square.” Then 2 long and 2 short: “a rectangle.”",
+   "guided": "Use sticks of the same and different lengths to make each shape. Name each shape.",
+   "exercise": "How many sticks do you need for a triangle?",
+   "answer": "3",
+   "accept": [
+    "3",
+    "three"
+   ],
+   "remediation": "Copy a shape drawn on paper by putting sticks on top of it.",
+   "transfer": "Draw the shape of a hopscotch game on the ground.",
+   "materials": "Sticks or straws, string, a tin.",
+   "practice": [
+    {
+     "prompt": "How many sides does a square have?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "A square has 4 equal sides."
+    },
+    {
+     "prompt": "Match each shape with how we make it.",
+     "type": "match",
+     "pairs": [
+      [
+       "triangle",
+       "3 sticks"
+      ],
+      [
+       "square",
+       "4 equal sticks"
+      ],
+      [
+       "rectangle",
+       "2 long and 2 short sticks"
+      ]
+     ],
+     "answer": "triangle: 3; square: 4 equal; rectangle: 2 long, 2 short.",
+     "explanation": "Count and compare the sides."
+    },
+    {
+     "prompt": "Draw a rectangle.",
+     "answer": "A shape with 2 long sides and 2 short sides.",
+     "explanation": "Opposite sides are the same length.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 49, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS1-T7-M4",
+   "domain": "Mathematics",
+   "title": "Problems about games",
+   "objective": "Choose to add, take away or share to solve a simple problem.",
+   "course": "To solve a problem, read it, find what we know and what we look for, then choose: add (more), take away (less), share (equal parts).\nNeba has 12 marbles. He wins 5. More marbles: we add. 12 + 5 = 17.",
+   "model": "The adult reads a problem and thinks aloud: “She loses some: that is less. I take away.”",
+   "guided": "Act out each problem with marbles, then write the operation.",
+   "exercise": "Bih has 18 marbles. She loses 6. How many does she have now?",
+   "answer": "12 marbles.",
+   "accept": [
+    "12",
+    "12 marbles"
+   ],
+   "remediation": "Act out the problem with objects before writing the numbers.",
+   "transfer": "Make up a problem about a game you play.",
+   "materials": "Marbles or bottle tops.",
+   "practice": [
+    {
+     "prompt": "Tabi has 10 marbles. He wins 7 more. How many marbles now?",
+     "type": "number",
+     "answer": 17,
+     "explanation": "More: we add. 10 + 7 = 17."
+    },
+    {
+     "prompt": "12 marbles shared equally between 2 friends. How many each?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "Share: 12 shared by 2 = 6."
+    },
+    {
+     "prompt": "Ekane had 9 balls and gave away 4. What do we do?",
+     "type": "mcq",
+     "choices": [
+      "add",
+      "take away",
+      "share"
+     ],
+     "correct": 1,
+     "answer": "take away",
+     "explanation": "He has less: we take away. 9 − 4 = 5."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level I (Class 1 & Class 2), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 48, Class 1 column; theme 7: Games (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/Cameroon-Primary-School-_Level_One.pdf?v=1744208110"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 1 contents of the Level I curriculum; original examples. To be reviewed by a Class 1 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  }
+ ]
+}

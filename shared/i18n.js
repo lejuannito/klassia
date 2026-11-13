@@ -34,7 +34,7 @@ const EN = {
  'Parcourir les matières': 'Browse the subjects', 'Les matières du programme, en préparation.': 'The subjects of the curriculum, being prepared.',
  'Les leçons de chaque matière sont réunies sur les huit unités.': 'The lessons of each subject, across the eight themes.',
  'Les leçons de ce thème sont en préparation.': 'The lessons of this theme are being prepared.',
- 'En préparation': 'Being prepared', '← Page précédente': '← Previous page',
+ 'En préparation': 'Being prepared', 'Autres matières, en préparation': 'Other subjects, being prepared', '← Page précédente': '← Previous page',
  'Ce lien ne correspond pas à une leçon de cette classe.': 'This link does not match a lesson of this class.', 'Revenir aux unités': 'Back to the themes',
  'Fil d’Ariane': 'Breadcrumb',
  // Semaine à l'école (shared/week.js)
@@ -43,6 +43,19 @@ const EN = {
  'Klassia répartit les leçons de chaque matière sur les trois semaines de l’unité, dans leur ordre. C’est une proposition : l’ordre suivi par l’école peut être différent.': 'Klassia spreads the lessons of each subject over the three weeks of the theme, in order. This is a suggestion: the school may follow a different order.',
  'Bilan, révisions et projet de l’unité': 'Review, revision and project of the theme', 'Dans Klassia : bilan de l’unité': 'In Klassia: theme review',
  'Toutes les leçons de l’unité sont réalisées. Bravo !': 'All the lessons of the theme are done. Well done!',
+ // Leçon : état, navigation entre leçons, tracé au doigt, lecture à voix haute
+ 'À découvrir': 'To discover', 'Réalisé': 'Done', 'En cours': 'In progress', 'À faire': 'To do', 'À revoir': 'To look at again', 'Je me sens prêt': 'I feel ready',
+ '← Toutes les matières': '← All the subjects', 'Choisissez une leçon.': 'Choose a lesson.', 'Leçons de cette unité': 'Lessons of this theme',
+ '← Précédente': '← Previous', 'Suivante →': 'Next →',
+ 'Écrire ou dessiner au doigt': 'Write or draw with a finger', 'Couleur': 'Colour', 'Trait': 'Line', 'Noir': 'Black', 'Bleu': 'Blue', 'Rouge': 'Red', 'Jaune': 'Yellow', 'Vert': 'Green',
+ 'Fin': 'Thin', 'Large': 'Thick', 'Annuler le dernier trait': 'Undo the last line', 'Tout effacer': 'Clear everything', 'Terminer le tracé': 'Finish drawing',
+ 'Surface pour écrire ou dessiner': 'Space to write or draw', 'Maison à colorier avec un toit, une porte et une fenêtre': 'House to colour with a roof, a door and a window',
+ 'Préparation de la fiche…': 'Preparing the sheet…', 'Tracés conservés dans ce profil.': 'Drawings kept in this profile.',
+ 'Tu peux tracer pendant cette séance. Le stockage local est indisponible.': 'You can draw during this session. Local storage is not available.',
+ 'Le stockage du tracé est indisponible. Les traits restent visibles pendant cette séance.': 'Drawing storage is not available. The lines stay visible during this session.',
+ 'Le cahier a changé dans une autre fenêtre. Rouvrez la fiche pour retrouver les traits conservés.': 'The workbook changed in another window. Open the sheet again to find the saved lines.',
+ 'Effacer tous les tracés de cette fiche ?': 'Clear all the drawings on this sheet?',
+ '■ Arrêter / Stop': '■ Stop', 'Lecture arrêtée / Reading stopped.': 'Reading stopped.',
  // Suivi
  'Suivi de progression': 'Progress', 'leçons réalisées': 'lessons done', 'leçon réalisée': 'lesson done', 'unités commencées': 'themes started', 'unité commencée': 'theme started',
  'Activité récente': 'Recent activity', 'Aucune activité enregistrée pour le moment.': 'No activity recorded yet.',
@@ -89,16 +102,30 @@ const PATTERNS = [
  [/^Espace : Enfant · changer$/, 'Space: Child · change'], [/^Espace : Parent · changer$/, 'Space: Parent · change'], [/^Espace : Enseignant · changer$/, 'Space: Teacher · change'],
  [/^Semaine (\d)$/, 'Week $1'],
  [/^Semaine 4 \(bilan\)$/, 'Week 4 (review)'],
+ [/^Leçon consultée : (.+)$/, 'Lesson opened: $1'], [/^Leçon réalisée : (.+)$/, 'Lesson done: $1'], [/^Leçon à revoir : (.+)$/, 'Lesson to look at again: $1'],
+ [/^Série QCM : (\d+)\/(\d+)$/, 'Question set: $1/$2'],
+ [/^Édition en préparation : (.+) sont en relecture ; les autres matières suivent\.$/, 'Edition in preparation: $1 are under review; the other subjects will follow.'],
  [/^Suivi de (.+)$/, (m, n) => 'Progress of ' + name(n)],
  [/^(\d+) \/ (\d+) activités ou leçons réalisées$/, '$1 / $2 activities or lessons done'],
- [/^(\d+)\/(\d+) · réalisées$/, '$1/$2 · done'], [/^Unité (\d+) · (.+)$/, 'Theme $1 · $2'],
+ [/^(\d+)\/(\d+) · réalisées$/, '$1/$2 · done'],
+ [/^(\d+) en cours$/, '$1 in progress'], [/^(\d+) à revoir$/, '$1 to look at again'],
+ [/^moyenne des évaluations ([\d.,]+)\/20$/, 'assessment average $1/20'], [/^Unité (\d+) · (.+)$/, 'Theme $1 · $2'],
 ];
 
+function whole(core) {
+ if (EN[core] !== undefined) return EN[core];
+ for (const [re, to] of PATTERNS) if (re.test(core)) return core.replace(re, to);
+ return undefined;
+}
+// Un libellé fait de morceaux séparés par « · » (« 0/32 · réalisées · 1 en cours ») se traduit morceau par morceau.
 function translate(text) {
  const core = text.trim();
  if (!core) return text;
- let out = EN[core];
- if (out === undefined) for (const [re, to] of PATTERNS) if (re.test(core)) { out = core.replace(re, to); break; }
+ let out = whole(core);
+ if (out === undefined && core.includes(' · ')) {
+  const parts = core.split(' · '), done = parts.map(x => whole(x) ?? x);
+  if (done.some((x, i) => x !== parts[i])) out = done.join(' · ');
+ }
  return out === undefined ? text : text.replace(core, out);
 }
 K.t = text => (lang() === 'en' ? translate(String(text)) : String(text));

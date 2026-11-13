@@ -1,0 +1,570 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS3",
+ "classTitle": "Class 3",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS3-T2",
+ "title_en": "The village/town",
+ "title_fr": "Le village et la ville",
+ "lessons": [
+  {
+   "id": "CLASS3-T2-E1",
+   "domain": "English Language and Literature",
+   "title": "Describing village life",
+   "objective": "Describe life in the village with clear, connected sentences.",
+   "course": "To describe, we say what we see, hear and do. We use describing words and linking words: first, then, also, in the evening.\nVillage life: people farm, fetch water from the stream, meet at the market on market day, sit together in the evening and tell stories.",
+   "support": {
+    "title": "Useful words",
+    "text": "farm, stream, market day, compound, palm trees, quiet, busy, in the evening"
+   },
+   "model": "“In my grandfather’s village, people wake up early and go to the farm. In the afternoon, children fetch water from the stream. On market day, the village is busy and noisy.”",
+   "guided": "Look at a picture of a village. Say four sentences about it using first, then, also and in the evening.",
+   "exercise": "Say one thing people do in the village in the morning.",
+   "answer": "For example: they go to the farm.",
+   "remediation": "Describe a picture with “I see …” sentences before linking them.",
+   "transfer": "Describe your village or your quarter to someone in four sentences.",
+   "materials": "Pictures of village life.",
+   "practice": [
+    {
+     "prompt": "Put the sentences in a good order.",
+     "type": "order",
+     "items": [
+      "Early in the morning, people go to the farm.",
+      "Then the children fetch water.",
+      "In the evening, families sit together."
+     ],
+     "answer": "morning, then, evening.",
+     "explanation": "Linking words show the order."
+    },
+    {
+     "prompt": "Which linking word shows that something comes after?",
+     "type": "mcq",
+     "choices": [
+      "then",
+      "because",
+      "but"
+     ],
+     "correct": 0,
+     "answer": "then",
+     "explanation": "“Then” shows what comes next."
+    },
+    {
+     "prompt": "Listen to the description and say what happens on market day.",
+     "listen": "On market day, the village is busy. Women sell vegetables and men sell goats.",
+     "answer": "The village is busy; women sell vegetables and men sell goats.",
+     "explanation": "Listen for the words after “market day”."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading a description: the town market",
+   "objective": "Read a short description silently and answer questions about it.",
+   "course": "A description tells what a place or a person is like. We read it silently, picture it in our mind, then answer questions using words from the text.",
+   "support": {
+    "title": "Read silently",
+    "text": "The market of Mbouda is big and colourful. At the entrance, a woman sells ripe pineapples. Further in, tailors sit at their sewing machines. Behind them, butchers cut meat on wooden tables. Everybody talks loudly, and motorbikes hoot outside."
+   },
+   "model": "The adult reads the text silently, then says: “I can see the pineapples at the entrance and the tailors further in.”",
+   "guided": "Read the text silently. Draw a quick plan of the market: entrance, tailors, butchers.",
+   "exercise": "What is sold at the entrance of the market?",
+   "answer": "Ripe pineapples.",
+   "accept": [
+    "pineapples",
+    "ripe pineapples",
+    "pineapple",
+    "Ripe pineapples"
+   ],
+   "remediation": "Read the text aloud with the adult first, sentence by sentence.",
+   "transfer": "Describe the market of your town in three sentences.",
+   "materials": "The text; paper for the plan.",
+   "practice": [
+    {
+     "prompt": "Who sits at sewing machines?",
+     "type": "mcq",
+     "choices": [
+      "the tailors",
+      "the butchers",
+      "the women selling pineapples"
+     ],
+     "correct": 0,
+     "answer": "the tailors",
+     "explanation": "The text says tailors sit at their sewing machines."
+    },
+    {
+     "prompt": "Put the places in the order of the text.",
+     "type": "order",
+     "items": [
+      "the entrance",
+      "the tailors",
+      "the butchers"
+     ],
+     "answer": "entrance, tailors, butchers.",
+     "explanation": "The text goes from the entrance to the back."
+    },
+    {
+     "prompt": "Find two words in the text that describe the market.",
+     "answer": "big, colourful.",
+     "accept": [
+      "big and colourful",
+      "big, colourful",
+      "big colourful"
+     ],
+     "explanation": "Describing words tell what the market is like."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-E3",
+   "domain": "English Language and Literature",
+   "title": "Spelling: the apostrophe ’s",
+   "objective": "Use the apostrophe ’s to show that something belongs to one person.",
+   "course": "To show that something belongs to a person, we add ’s to the name or the noun: the chief’s palace, Mama’s pot, the teacher’s bag.\nWe write ’s only for owning, not for plurals: “two goats” has no apostrophe.",
+   "model": "The adult writes: “the palace of the chief” → “the chief’s palace”; “the stall of Mrs Ewane” → “Mrs Ewane’s stall”.",
+   "guided": "Turn five “of” phrases into ’s phrases. Check that no plural has an apostrophe.",
+   "exercise": "Write with ’s: the house of Fon.",
+   "answer": "Fon’s house",
+   "accept": [
+    "Fon’s house",
+    "Fon's house"
+   ],
+   "remediation": "Use real objects: “This is Bih’s pen.”",
+   "transfer": "Write three things that belong to people in your family with ’s.",
+   "materials": "Word cards, pencil.",
+   "practice": [
+    {
+     "prompt": "Complete with ’s.",
+     "type": "gaps",
+     "text": "the chief[[’s]] palace; Mama[[’s]] pot",
+     "answer": "the chief’s palace; Mama’s pot.",
+     "explanation": "’s shows that it belongs to one person."
+    },
+    {
+     "prompt": "Which one is correct?",
+     "type": "mcq",
+     "choices": [
+      "two goat’s",
+      "two goats",
+      "two goats’s"
+     ],
+     "correct": 1,
+     "answer": "two goats",
+     "explanation": "A simple plural has no apostrophe."
+    },
+    {
+     "prompt": "Write: the bicycle of my brother.",
+     "answer": "my brother’s bicycle",
+     "accept": [
+      "my brother’s bicycle",
+      "my brother's bicycle"
+     ],
+     "explanation": "brother + ’s."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-E4",
+   "domain": "English Language and Literature",
+   "title": "Adjectives: common, proper and comparative",
+   "objective": "Use common and proper adjectives and compare things with comparative adjectives.",
+   "course": "Adjectives describe nouns. Common adjectives: big, busy, old, quiet. Proper adjectives come from proper nouns and start with a capital letter: Cameroonian music, English books.\nTo compare two things we use the comparative: big → bigger, busy → busier, quiet → quieter. Long adjectives use more: more beautiful, more expensive. We add than: The town is busier than the village.",
+   "model": "The adult compares two markets: “Douala market is bigger than Bafia market. The village is quieter than the town.”",
+   "guided": "Compare pairs of pictures with comparative adjectives and than.",
+   "exercise": "Complete: The town is ___ (noisy) than the village.",
+   "answer": "noisier",
+   "accept": [
+    "noisier",
+    "The town is noisier than the village"
+   ],
+   "remediation": "Practise short adjectives with -er first (tall, small, big).",
+   "transfer": "Compare two places you know in three sentences.",
+   "materials": "Pairs of pictures (town and village, big and small objects).",
+   "practice": [
+    {
+     "prompt": "Complete with the comparative.",
+     "type": "gaps",
+     "text": "A lorry is [[bigger]] (big) than a car. A city is [[busier]] (busy) than a village.",
+     "answer": "bigger; busier.",
+     "explanation": "big → bigger; busy → busier."
+    },
+    {
+     "prompt": "Which one is a proper adjective?",
+     "type": "mcq",
+     "choices": [
+      "Cameroonian",
+      "quiet",
+      "old"
+     ],
+     "correct": 0,
+     "answer": "Cameroonian",
+     "explanation": "It comes from “Cameroon” and starts with a capital letter."
+    },
+    {
+     "prompt": "Match each adjective with its opposite.",
+     "type": "match",
+     "pairs": [
+      [
+       "busy",
+       "quiet"
+      ],
+      [
+       "old",
+       "new"
+      ],
+      [
+       "clean",
+       "dirty"
+      ]
+     ],
+     "answer": "busy–quiet; old–new; clean–dirty.",
+     "explanation": "Opposites help us describe and compare."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-M1",
+   "domain": "Mathematics",
+   "title": "Comparing numbers: >, <, ≥ and ≤",
+   "objective": "Compare numbers up to 500 with the symbols >, <, =, ≥ and ≤.",
+   "course": "> means “is greater than”: 340 > 290. < means “is less than”: 125 < 152. = means “is equal to”.\n≥ means “is greater than or equal to”; ≤ means “is less than or equal to”. If a bus can carry at most 70 people, the number of passengers must be ≤ 70.",
+   "model": "The adult compares the populations of two quarters: 425 > 398, because 4 hundreds is more than 3 hundreds.",
+   "guided": "Compare pairs of number cards and place the right symbol between them.",
+   "exercise": "Complete with > or <: 287 … 278",
+   "answer": ">",
+   "accept": [
+    ">",
+    "greater than"
+   ],
+   "remediation": "Compare the hundreds first, then the tens.",
+   "transfer": "Compare the prices of two things at the market.",
+   "materials": "Number cards, symbol cards.",
+   "practice": [
+    {
+     "prompt": "Which statement is true?",
+     "type": "mcq",
+     "choices": [
+      "305 > 350",
+      "305 < 350",
+      "305 = 350"
+     ],
+     "correct": 1,
+     "answer": "305 < 350",
+     "explanation": "Same hundreds; 0 tens is less than 5 tens."
+    },
+    {
+     "prompt": "A taxi takes at most 5 passengers. Which numbers of passengers are allowed?",
+     "type": "mcq",
+     "choices": [
+      "numbers ≤ 5",
+      "numbers ≥ 5",
+      "only 6"
+     ],
+     "correct": 0,
+     "answer": "numbers ≤ 5",
+     "explanation": "At most 5 means less than or equal to 5."
+    },
+    {
+     "prompt": "Match each symbol with its meaning.",
+     "type": "match",
+     "pairs": [
+      [
+       ">",
+       "is greater than"
+      ],
+      [
+       "<",
+       "is less than"
+      ],
+      [
+       "≤",
+       "is less than or equal to"
+      ]
+     ],
+     "answer": "> greater; < less; ≤ less or equal.",
+     "explanation": "The open side faces the bigger number."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-M2",
+   "domain": "Mathematics",
+   "title": "Adding numbers up to 500",
+   "objective": "Add numbers up to 500 with and without carrying, and solve problems about the town.",
+   "course": "We write the numbers in columns: units under units, tens under tens, hundreds under hundreds. We add the units first. If the total is 10 or more, we carry 1 ten to the tens column.\n  246\n+ 138\n= 384",
+   "model": "The adult adds the passengers of two buses: 146 + 138. Units: 6 + 8 = 14, write 4, carry 1. Tens: 4 + 3 + 1 = 8. Hundreds: 1 + 1 = 2. Total: 284.",
+   "guided": "Add three pairs of numbers in columns, saying aloud when you carry.",
+   "exercise": "A shop sold 235 loaves on Monday and 148 on Tuesday. How many loaves in all?",
+   "answer": "383 loaves.",
+   "accept": [
+    "383",
+    "383 loaves"
+   ],
+   "remediation": "Add without carrying first.",
+   "transfer": "Add the prices of two things you buy at the market.",
+   "materials": "Squared paper, bundles of sticks.",
+   "practice": [
+    {
+     "prompt": "167 + 225 = ?",
+     "type": "number",
+     "answer": 392,
+     "explanation": "7 + 5 = 12, carry 1; 6 + 2 + 1 = 9; 1 + 2 = 3: 392."
+    },
+    {
+     "prompt": "308 + 145 = ?",
+     "type": "number",
+     "answer": 453,
+     "explanation": "8 + 5 = 13, carry 1; 0 + 4 + 1 = 5; 3 + 1 = 4: 453."
+    },
+    {
+     "prompt": "When do we carry?",
+     "type": "mcq",
+     "choices": [
+      "when a column adds up to 10 or more",
+      "always",
+      "never"
+     ],
+     "correct": 0,
+     "answer": "when a column adds up to 10 or more",
+     "explanation": "10 units make 1 ten."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-M3",
+   "domain": "Mathematics",
+   "title": "Money: shopping up to 1 000 francs",
+   "objective": "Recognise coins and notes up to 1 000 francs, pay and give change.",
+   "course": "We use coins of 5, 10, 25, 50, 100 and 500 francs, and notes of 500 and 1 000 francs.\nTo pay, we add the prices. To find the change, we subtract the bill from the money given: 1 000 − 650 = 350 francs change.",
+   "model": "At the market, a bunch of plantains costs 600 frs and tomatoes cost 250 frs. Total: 850 frs. The adult pays 1 000 frs and gets 150 frs change.",
+   "guided": "Play market with price labels and play money. Pay, then calculate the change.",
+   "exercise": "You buy a book at 450 frs and pay with 500 frs. What is the change?",
+   "answer": "50 frs.",
+   "accept": [
+    "50",
+    "50 frs",
+    "50 francs"
+   ],
+   "remediation": "Use prices in hundreds only first.",
+   "transfer": "Check the change when you buy something with an adult.",
+   "materials": "Play money, price labels.",
+   "practice": [
+    {
+     "prompt": "Total of 350 frs and 425 frs?",
+     "type": "number",
+     "answer": 775,
+     "explanation": "350 + 425 = 775."
+    },
+    {
+     "prompt": "Change from 1 000 frs for a bill of 725 frs?",
+     "type": "number",
+     "answer": 275,
+     "explanation": "1 000 − 725 = 275."
+    },
+    {
+     "prompt": "Which coins make 600 frs?",
+     "type": "mcq",
+     "choices": [
+      "500 + 100",
+      "500 + 50",
+      "100 + 100"
+     ],
+     "correct": 0,
+     "answer": "500 + 100",
+     "explanation": "500 + 100 = 600."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T2-M4",
+   "domain": "Mathematics",
+   "title": "Grid references on a town map",
+   "objective": "Locate places on a simple map using grid references.",
+   "course": "A map can be divided into squares. Letters go across (A, B, C…) and numbers go up or down (1, 2, 3…). A grid reference gives the letter first, then the number: B3.\nWe use grid references to find places quickly.",
+   "support": {
+    "title": "Klassia town map (description)",
+    "text": "A 3 × 3 grid. A1: market. B1: church. C1: bus station. A2: school. B2: town hall. C2: hospital. A3: football field. B3: post office. C3: police station."
+   },
+   "model": "The adult traces with a finger: “Go across to B, then down to 2: the town hall is in B2.”",
+   "guided": "Draw a 3 × 3 grid of your quarter. Put five places in it and give their grid references.",
+   "exercise": "Which place is in C1?",
+   "answer": "The bus station.",
+   "accept": [
+    "the bus station",
+    "bus station",
+    "The bus station"
+   ],
+   "remediation": "Use a 2 × 2 grid first.",
+   "transfer": "Make a grid map of your house and its rooms.",
+   "materials": "Squared paper, the map description.",
+   "practice": [
+    {
+     "prompt": "What is the grid reference of the hospital?",
+     "answer": "C2",
+     "accept": [
+      "C2",
+      "c2"
+     ],
+     "explanation": "Across to C, then to 2."
+    },
+    {
+     "prompt": "Which place is in A3?",
+     "type": "mcq",
+     "choices": [
+      "the football field",
+      "the market",
+      "the post office"
+     ],
+     "correct": 0,
+     "answer": "the football field",
+     "explanation": "A across, 3 down."
+    },
+    {
+     "prompt": "Match each place with its grid reference.",
+     "type": "match",
+     "pairs": [
+      [
+       "market",
+       "A1"
+      ],
+      [
+       "town hall",
+       "B2"
+      ],
+      [
+       "post office",
+       "B3"
+      ]
+     ],
+     "answer": "market A1; town hall B2; post office B3.",
+     "explanation": "Letter first, then number."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Statistics and Graphs), p. 52, Class 3 column; theme 2: The village/town (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Statistics and Graphs"
+   ]
+  }
+ ]
+}

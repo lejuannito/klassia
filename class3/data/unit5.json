@@ -1,0 +1,571 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS3",
+ "classTitle": "Class 3",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS3-T5",
+ "title_en": "Travelling",
+ "title_fr": "Les voyages",
+ "lessons": [
+  {
+   "id": "CLASS3-T5-E1",
+   "domain": "English Language and Literature",
+   "title": "Listening to a story and a telephone call",
+   "objective": "Listen to a short story and a telephone call, carry out tasks and answer questions.",
+   "course": "When we listen, we look for who, where, when, what and why. We can take short notes with one or two words.\nOn the telephone, we greet, say who is speaking, give the message clearly and repeat important information (time, place, number).",
+   "model": "The adult tells a short story about a journey and then asks: “Who travelled? Where to? Why?”",
+   "guided": "Listen to the call below twice. Write the time and the place of the meeting. Then answer the questions.",
+   "exercise": "In a telephone call, what should we repeat?",
+   "answer": "Important information like the time, the place or a number.",
+   "accept": [
+    "the time",
+    "the place",
+    "important information",
+    "Important information like the time, the place or a number"
+   ],
+   "remediation": "Listen to one sentence at a time and answer one question.",
+   "transfer": "Take a short telephone message for an adult at home and write it down.",
+   "materials": "Paper and pencil for notes.",
+   "practice": [
+    {
+     "prompt": "Listen to the call and answer: at what time will the bus leave?",
+     "listen": "Hello, this is Uncle Fon. The bus to Kumba will leave the station at nine o’clock. Please be there at half past eight. Goodbye!",
+     "answer": "At nine o’clock.",
+     "accept": [
+      "nine o’clock",
+      "nine o'clock",
+      "at nine",
+      "9",
+      "at nine o’clock",
+      "At nine o’clock"
+     ],
+     "explanation": "Listen for the time after “will leave”."
+    },
+    {
+     "prompt": "Where must we be at half past eight?",
+     "type": "mcq",
+     "choices": [
+      "at the bus station",
+      "at school",
+      "at the market"
+     ],
+     "correct": 0,
+     "answer": "at the bus station",
+     "explanation": "The bus leaves the station."
+    },
+    {
+     "prompt": "Which question words help us listen?",
+     "type": "mcq",
+     "choices": [
+      "who, where, when, what, why",
+      "big, small, red",
+      "and, but, or"
+     ],
+     "correct": 0,
+     "answer": "who, where, when, what, why",
+     "explanation": "These words help us find the information."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-E2",
+   "domain": "English Language and Literature",
+   "title": "A picture adventure story: lost at the bus station",
+   "objective": "Read a short adventure story in pictures and short texts, put oneself in the place of a character and find the lesson.",
+   "course": "An adventure story has a character, a problem, actions and an ending. In a picture story, each picture has a short text.\nWe imagine how the character feels and what we would do in his place.",
+   "support": {
+    "title": "Klassia picture story",
+    "text": "Picture 1: Neba and his aunt arrive at the busy bus station in Bafoussam.\nPicture 2: Neba stops to watch a man selling roasted corn. His aunt walks on.\nPicture 3: Neba looks around. He cannot see his aunt. He is afraid.\nPicture 4: He remembers what his mother said: “If you are lost, stay where you are and ask a person in uniform.”\nPicture 5: A ticket officer calls his aunt’s name on the loudspeaker. His aunt runs back and hugs him."
+   },
+   "model": "The adult reads picture 3 and asks: “How does Neba feel? What would you do?”",
+   "guided": "Read the five pictures. Say the problem and the solution. Act the story in a group.",
+   "exercise": "What is Neba’s problem?",
+   "answer": "He is lost at the bus station.",
+   "accept": [
+    "he is lost",
+    "he lost his aunt",
+    "lost",
+    "He is lost at the bus station"
+   ],
+   "remediation": "Read the story with the adult picture by picture.",
+   "transfer": "Discuss with your family what to do if you get lost.",
+   "materials": "The picture story (text version), drawings if possible.",
+   "practice": [
+    {
+     "prompt": "Put the pictures in order.",
+     "type": "order",
+     "items": [
+      "They arrive at the bus station.",
+      "Neba watches the corn seller.",
+      "Neba cannot see his aunt.",
+      "He asks a person in uniform.",
+      "His aunt comes back."
+     ],
+     "answer": "arrive, corn seller, lost, ask, aunt comes back.",
+     "explanation": "Follow the story."
+    },
+    {
+     "prompt": "What lesson does the story teach?",
+     "type": "mcq",
+     "choices": [
+      "If you are lost, stay where you are and ask a person in uniform.",
+      "Run away when you are lost.",
+      "Buy roasted corn."
+     ],
+     "correct": 0,
+     "answer": "If you are lost, stay where you are and ask a person in uniform.",
+     "explanation": "Neba remembered his mother’s advice."
+    },
+    {
+     "prompt": "How does Neba feel in picture 3?",
+     "answer": "He is afraid.",
+     "accept": [
+      "afraid",
+      "he is afraid",
+      "scared",
+      "frightened",
+      "He is afraid"
+     ],
+     "explanation": "The text says: He is afraid."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Literature), p. 44, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Literature"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-E3",
+   "domain": "English Language and Literature",
+   "title": "A narrative text: my journey",
+   "objective": "Write a narrative text of about 80 words about a journey, in the right order.",
+   "course": "A narrative tells a story in order: beginning (when, who, where), middle (what happened), end (how it finished, how we felt). We use the past tense and time words: one day, first, then, after that, finally.",
+   "support": {
+    "title": "Useful words",
+    "text": "last holidays, bus station, ticket, luggage, road, bridge, arrived, tired, happy"
+   },
+   "model": "“Last holidays, I travelled to Buea with my father. First, we bought our tickets at the station. Then the bus left at seven o’clock. On the way, I saw tea plantations and Mount Cameroon. After four hours, we arrived. My grandmother was waiting for us. I was tired but very happy.”",
+   "guided": "Plan your story: beginning, middle, end. Write one sentence for each part, then add details to reach about 80 words.",
+   "exercise": "Which tense do we use to tell a past journey?",
+   "answer": "The past tense.",
+   "accept": [
+    "past",
+    "the past tense",
+    "simple past",
+    "past tense",
+    "The past tense"
+   ],
+   "remediation": "Tell the story orally first, then write it.",
+   "transfer": "Write about a visit to a relative.",
+   "materials": "Paper, a story plan.",
+   "practice": [
+    {
+     "prompt": "Write your journey in about 80 words.",
+     "answer": "A narrative with a beginning, a middle and an end, in the past tense.",
+     "explanation": "Use time words: first, then, after that, finally.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Put the time words in a good order.",
+     "type": "order",
+     "items": [
+      "First",
+      "Then",
+      "After that",
+      "Finally"
+     ],
+     "answer": "First, then, after that, finally.",
+     "explanation": "Time words show the order of events."
+    },
+    {
+     "prompt": "Which sentence is a good ending?",
+     "type": "mcq",
+     "choices": [
+      "I was tired but very happy.",
+      "First, we bought tickets.",
+      "Last holidays, I travelled."
+     ],
+     "correct": 0,
+     "answer": "I was tired but very happy.",
+     "explanation": "An ending says how the story finished or how we felt."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-E4",
+   "domain": "English Language and Literature",
+   "title": "Prepositions of location, direction and time",
+   "objective": "Use prepositions of location, direction and time in sentences.",
+   "course": "Location (where): in, on, under, beside, between, behind, in front of. The bag is under the seat.\nDirection (where to): to, from, into, out of, across, along. The bus goes from Bamenda to Yaoundé. We walk across the bridge.\nTime (when): at 8 o’clock, on Monday, in June, in the morning.",
+   "model": "The adult describes a trip: “We left from Kumba on Monday at six o’clock. The car drove along the coast and across a bridge.”",
+   "guided": "Describe a picture of a road trip using three prepositions of each kind.",
+   "exercise": "The bus travels ___ Douala ___ Kribi. (from / to)",
+   "answer": "from Douala to Kribi",
+   "accept": [
+    "from, to",
+    "from Douala to Kribi",
+    "from to"
+   ],
+   "remediation": "Use toys to act “across”, “along”, “into”.",
+   "transfer": "Describe the way from your house to school with prepositions.",
+   "materials": "Toy car, picture of a road.",
+   "practice": [
+    {
+     "prompt": "Complete with at, on or in.",
+     "type": "gaps",
+     "text": "We travel [[on]] Monday, [[at]] six o’clock, [[in]] the morning.",
+     "answer": "on Monday, at six o’clock, in the morning.",
+     "explanation": "on + day, at + hour, in + part of the day."
+    },
+    {
+     "prompt": "Which preposition shows direction?",
+     "type": "mcq",
+     "choices": [
+      "across",
+      "under",
+      "beside"
+     ],
+     "correct": 0,
+     "answer": "across",
+     "explanation": "Across tells where we go."
+    },
+    {
+     "prompt": "Match each preposition with its kind.",
+     "type": "match",
+     "pairs": [
+      [
+       "between",
+       "location"
+      ],
+      [
+       "along",
+       "direction"
+      ],
+      [
+       "in June",
+       "time"
+      ]
+     ],
+     "answer": "between: location; along: direction; in June: time.",
+     "explanation": "Prepositions show place, direction or time."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-M1",
+   "domain": "Mathematics",
+   "title": "Telling the time: past and to",
+   "objective": "Read the time on a clock face using o’clock, half past, quarter past, quarter to, past and to.",
+   "course": "The short hand shows the hours; the long hand shows the minutes. When the long hand is on 12: o’clock. On 6: half past. On 3: quarter past. On 9: quarter to.\nPast: minutes after the hour (ten past seven = 7:10). To: minutes before the next hour (twenty to eight = 7:40).",
+   "model": "The bus leaves at quarter past six (6:15) and arrives at half past nine (9:30).",
+   "guided": "Set times on a paper clock and read them. Then read times written in figures.",
+   "exercise": "The long hand is on 6 and the short hand is between 4 and 5. What time is it?",
+   "answer": "Half past four.",
+   "accept": [
+    "half past four",
+    "4:30",
+    "4.30",
+    "four thirty",
+    "Half past four"
+   ],
+   "remediation": "Practise o’clock and half past first.",
+   "transfer": "Read the time at home when you wake up and when you go to school.",
+   "materials": "A paper clock with moving hands.",
+   "practice": [
+    {
+     "prompt": "Match the times.",
+     "type": "match",
+     "pairs": [
+      [
+       "quarter past seven",
+       "7:15"
+      ],
+      [
+       "quarter to eight",
+       "7:45"
+      ],
+      [
+       "ten past three",
+       "3:10"
+      ]
+     ],
+     "answer": "7:15; 7:45; 3:10.",
+     "explanation": "Past: after the hour; to: before the next hour."
+    },
+    {
+     "prompt": "How many minutes are in an hour?",
+     "type": "number",
+     "answer": 60,
+     "explanation": "One hour = 60 minutes."
+    },
+    {
+     "prompt": "Which time is “twenty to nine”?",
+     "type": "mcq",
+     "choices": [
+      "8:40",
+      "9:20",
+      "8:20"
+     ],
+     "correct": 0,
+     "answer": "8:40",
+     "explanation": "Twenty minutes before nine o’clock."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-M2",
+   "domain": "Mathematics",
+   "title": "Distances: metres and kilometres",
+   "objective": "Use km and m to talk about distances and convert between them.",
+   "course": "Long distances are measured in kilometres: 1 km = 1 000 m. From Douala to Yaoundé is about 240 km. A football field is about 100 m long.\nWe add or subtract distances of a journey.",
+   "model": "The adult reads road signs: “Limbe 25 km. Buea 15 km.” The bus travels 15 km, then 10 km more: 25 km.",
+   "guided": "Read distances on a simple route. Add the parts of a journey.",
+   "exercise": "How many metres are in 2 km?",
+   "answer": "2 000",
+   "accept": [
+    "2000",
+    "2 000",
+    "2000 m"
+   ],
+   "remediation": "Use 1 km = 1 000 m with whole kilometres only.",
+   "transfer": "Ask an adult how far your school or the market is.",
+   "materials": "A simple route drawing with distances.",
+   "practice": [
+    {
+     "prompt": "A bus goes 45 km, then 38 km. How many km in all?",
+     "type": "number",
+     "answer": 83,
+     "explanation": "45 + 38 = 83."
+    },
+    {
+     "prompt": "3 km = ? m",
+     "type": "number",
+     "answer": 3000,
+     "explanation": "1 km = 1 000 m."
+    },
+    {
+     "prompt": "Which unit for the distance between two towns?",
+     "type": "mcq",
+     "choices": [
+      "km",
+      "cm",
+      "mm"
+     ],
+     "correct": 0,
+     "answer": "km",
+     "explanation": "Towns are far apart: kilometres."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-M3",
+   "domain": "Mathematics",
+   "title": "The number line up to 30",
+   "objective": "Locate and order numbers on a number line up to 30 and count in steps.",
+   "course": "A number line has equally spaced marks. We locate numbers and jump in steps: from 6, jumps of 4: 10, 14, 18…\nThe number line helps us add (jump right) and subtract (jump left).",
+   "model": "The adult draws a line from 0 to 30 and jumps in 5s: 5, 10, 15, 20, 25, 30.",
+   "guided": "Draw a number line from 0 to 30 on the ground. Place cards on it and jump in steps of 3 and 5.",
+   "exercise": "Start at 12 and jump 3 steps of 4 to the right. Where do you land?",
+   "answer": "24",
+   "accept": [
+    "24",
+    "twenty-four"
+   ],
+   "remediation": "Use a line from 0 to 20 first.",
+   "transfer": "Use a number line to count kilometres on a journey.",
+   "materials": "Chalk, number cards 0 to 30.",
+   "practice": [
+    {
+     "prompt": "Start at 27 and jump 9 to the left. Where are you?",
+     "type": "number",
+     "answer": 18,
+     "explanation": "27 − 9 = 18."
+    },
+    {
+     "prompt": "Complete the jumps of 3.",
+     "type": "gaps",
+     "text": "0, 3, 6, [[9]], 12, [[15]]",
+     "answer": "9; 15.",
+     "explanation": "Add 3 each time."
+    },
+    {
+     "prompt": "Put the numbers in their place from left to right.",
+     "type": "order",
+     "items": [
+      "4",
+      "11",
+      "19",
+      "28"
+     ],
+     "answer": "4, 11, 19, 28.",
+     "explanation": "Smaller numbers are on the left."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Geometry and Space), p. 52, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Geometry and Space"
+   ]
+  },
+  {
+   "id": "CLASS3-T5-M4",
+   "domain": "Mathematics",
+   "title": "Problems with the four operations: the journey",
+   "objective": "Choose the right operation(s) to solve problems about a journey.",
+   "course": "To solve a problem: read it, find the question, find the numbers, choose the operation, calculate, check and answer in a sentence.\n+ : putting together; − : taking away or difference; × : equal groups; ÷ : sharing or grouping.",
+   "model": "A taxi ticket costs 300 frs. A family of 4 travels: 4 × 300 = 1 200 frs. The adult explains each step aloud.",
+   "guided": "Solve three problems. For each one, underline the question and write the operation before calculating.",
+   "exercise": "A bus has 70 seats. 48 passengers are on board. How many seats are free?",
+   "answer": "22 seats.",
+   "accept": [
+    "22",
+    "22 seats"
+   ],
+   "remediation": "Act the problem with objects before calculating.",
+   "transfer": "Make up a journey problem for a friend.",
+   "materials": "Problem cards.",
+   "practice": [
+    {
+     "prompt": "5 children each pay 200 frs for a taxi. Total paid?",
+     "type": "number",
+     "answer": 1000,
+     "explanation": "5 × 200 = 1 000 frs."
+    },
+    {
+     "prompt": "48 passengers share 6 taxis equally. How many in each taxi?",
+     "type": "number",
+     "answer": 8,
+     "explanation": "48 ÷ 6 = 8."
+    },
+    {
+     "prompt": "“How many more km?” Which operation?",
+     "type": "mcq",
+     "choices": [
+      "subtraction",
+      "multiplication",
+      "division"
+     ],
+     "correct": 0,
+     "answer": "subtraction",
+     "explanation": "“How many more” asks for a difference."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 5: Travelling (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  }
+ ]
+}

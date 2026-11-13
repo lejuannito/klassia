@@ -1,0 +1,530 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS3",
+ "classTitle": "Class 3",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS3-T4",
+ "title_en": "Occupations",
+ "title_fr": "Les métiers",
+ "lessons": [
+  {
+   "id": "CLASS3-T4-E1",
+   "domain": "English Language and Literature",
+   "title": "Discussing the work of family members",
+   "objective": "Take part in a discussion about family occupations, waiting for one’s turn and listening to others.",
+   "course": "In a discussion, each person speaks in turn. We listen when others speak, we do not interrupt, and we can agree or disagree politely: “I agree with Ngum because…”, “I think differently: …”.\nFamily occupations: farmer, trader, teacher, nurse, mechanic, driver, carpenter, civil servant.",
+   "model": "In a group, Tabi says: “My mother is a nurse. She helps sick people.” Manka answers: “I agree that nurses are important, because they save lives.”",
+   "guided": "In a group of three, each person presents the work of a family member. Then discuss: which job would you like to do, and why?",
+   "exercise": "How do we disagree politely?",
+   "answer": "We say: I think differently, because…",
+   "accept": [
+    "I think differently",
+    "I disagree because",
+    "We say: I think differently, because…"
+   ],
+   "remediation": "Use a talking object: only the person holding it speaks.",
+   "transfer": "Ask a family member about his or her work and report it to the class.",
+   "materials": "A talking object (a small ball).",
+   "practice": [
+    {
+     "prompt": "Which rule is good for a discussion?",
+     "type": "mcq",
+     "choices": [
+      "Wait for your turn.",
+      "Speak while others speak.",
+      "Laugh at others."
+     ],
+     "correct": 0,
+     "answer": "Wait for your turn.",
+     "explanation": "We listen and speak in turns."
+    },
+    {
+     "prompt": "Match each worker with his or her work.",
+     "type": "match",
+     "pairs": [
+      [
+       "a mechanic",
+       "repairs cars"
+      ],
+      [
+       "a trader",
+       "buys and sells goods"
+      ],
+      [
+       "a nurse",
+       "cares for sick people"
+      ]
+     ],
+     "answer": "mechanic: cars; trader: goods; nurse: sick people.",
+     "explanation": "Each occupation has its work."
+    },
+    {
+     "prompt": "Listen and say what the speaker thinks.",
+     "listen": "I agree with Tabi, because farmers feed the whole country.",
+     "answer": "The speaker agrees that farmers are important because they feed the country.",
+     "explanation": "Listen for “agree” and “because”."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading numbers from 101 to 500 in words",
+   "objective": "Read numbers from 101 to 500 written in words and match them with figures.",
+   "course": "We read numbers in hundreds, tens and units. 245 is two hundred and forty-five. 308 is three hundred and eight. 460 is four hundred and sixty.\nIn British English we say “and” after the hundreds.",
+   "support": {
+    "title": "Read aloud",
+    "text": "125 one hundred and twenty-five\n300 three hundred\n407 four hundred and seven\n500 five hundred"
+   },
+   "model": "A tailor’s receipt says “three hundred and fifty francs”. The adult reads it and writes 350.",
+   "guided": "Match number cards in words and in figures. Read each pair aloud.",
+   "exercise": "Write in figures: two hundred and nine.",
+   "answer": "209",
+   "accept": [
+    "209"
+   ],
+   "remediation": "Read hundreds only first (100, 200, 300), then add tens and units.",
+   "transfer": "Read prices written in words on receipts or in a newspaper.",
+   "materials": "Number cards in figures and in words.",
+   "practice": [
+    {
+     "prompt": "Write in figures: four hundred and seventy-three.",
+     "type": "number",
+     "answer": 473,
+     "explanation": "4 hundreds, 7 tens, 3 units."
+    },
+    {
+     "prompt": "Match the words with the figures.",
+     "type": "match",
+     "pairs": [
+      [
+       "one hundred and twelve",
+       "112"
+      ],
+      [
+       "three hundred",
+       "300"
+      ],
+      [
+       "four hundred and five",
+       "405"
+      ]
+     ],
+     "answer": "112; 300; 405.",
+     "explanation": "Read hundreds, then tens and units."
+    },
+    {
+     "prompt": "Which one is “two hundred and fifty”?",
+     "type": "mcq",
+     "choices": [
+      "205",
+      "250",
+      "215"
+     ],
+     "correct": 1,
+     "answer": "250",
+     "explanation": "2 hundreds and 5 tens: 250."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-E3",
+   "domain": "English Language and Literature",
+   "title": "Writing numbers from 101 to 500 in words",
+   "objective": "Write numbers from 101 to 500 in words correctly.",
+   "course": "To write a number in words: write the hundreds (three hundred), then “and”, then the tens and units with a hyphen (forty-two): 342 → three hundred and forty-two.\nCareful with spelling: forty (not fourty), eight, eleven, twelve, fifteen.",
+   "model": "The adult writes a cheque-like note: “Pay four hundred and fifteen francs (415 frs) to the carpenter.”",
+   "guided": "Write five numbers in words. Check the spelling of forty, fifteen and twelve.",
+   "exercise": "Write in words: 140.",
+   "answer": "one hundred and forty",
+   "accept": [
+    "one hundred and forty",
+    "a hundred and forty"
+   ],
+   "remediation": "Write the hundreds word first, then add the rest.",
+   "transfer": "Write the price of three things at the market in words.",
+   "materials": "Paper, number cards.",
+   "practice": [
+    {
+     "prompt": "Write 325 in words.",
+     "answer": "three hundred and twenty-five",
+     "accept": [
+      "three hundred and twenty-five",
+      "three hundred and twenty five"
+     ],
+     "explanation": "hundreds, and, tens-units."
+    },
+    {
+     "prompt": "Which spelling is correct?",
+     "type": "mcq",
+     "choices": [
+      "fourty",
+      "forty",
+      "fortie"
+     ],
+     "correct": 1,
+     "answer": "forty",
+     "explanation": "Forty has no u."
+    },
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "418 = four hundred and [[eighteen]]",
+     "answer": "eighteen",
+     "explanation": "18 is eighteen."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-E4",
+   "domain": "English Language and Literature",
+   "title": "Helping verbs and continuous tenses",
+   "objective": "Use helping verbs (am, is, are, was, were, will be) to form the present, past and future continuous.",
+   "course": "A helping verb helps the main verb. Continuous tenses show an action in progress: helping verb + verb-ing.\nPresent continuous: I am working. She is selling. They are building.\nPast continuous: He was driving. We were sewing.\nFuture continuous: She will be teaching.",
+   "model": "The adult describes a picture of a building site: “The mason is building a wall. The carpenters are making the roof. Yesterday, they were carrying blocks.”",
+   "guided": "Describe what each worker in a picture is doing now, then what he was doing yesterday at the same time.",
+   "exercise": "Complete: The tailor ___ sewing a dress now.",
+   "answer": "is",
+   "accept": [
+    "is",
+    "The tailor is sewing a dress now"
+   ],
+   "remediation": "Practise the present continuous with I am, then with he / she is.",
+   "transfer": "Say what three people at home are doing right now.",
+   "materials": "Pictures of people working.",
+   "practice": [
+    {
+     "prompt": "Complete with am, is or are.",
+     "type": "gaps",
+     "text": "I [[am]] reading. The farmers [[are]] planting. Mama [[is]] cooking.",
+     "answer": "am; are; is.",
+     "explanation": "am with I, is with one person, are with many."
+    },
+    {
+     "prompt": "Which sentence is in the past continuous?",
+     "type": "mcq",
+     "choices": [
+      "He was driving.",
+      "He drives.",
+      "He will drive."
+     ],
+     "correct": 0,
+     "answer": "He was driving.",
+     "explanation": "was + verb-ing: past continuous."
+    },
+    {
+     "prompt": "Complete: Tomorrow at 8 a.m., the teacher ___ teaching.",
+     "answer": "will be",
+     "accept": [
+      "will be",
+      "Tomorrow at 8 a.m., the teacher will be teaching"
+     ],
+     "explanation": "will be + verb-ing: future continuous."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-M1",
+   "domain": "Mathematics",
+   "title": "Multiplying and multiples",
+   "objective": "Multiply using the tables up to 10 and find multiples of a number.",
+   "course": "Multiplying is adding equal groups: 4 groups of 6 = 4 × 6 = 24.\nThe multiples of 5 are the numbers in the table of 5: 5, 10, 15, 20, 25… A number times 10 gets a zero at the end: 23 × 10 = 230.",
+   "model": "A tailor sews 6 shirts a day. In 5 days: 5 × 6 = 30 shirts.",
+   "guided": "Say the tables of 6 and 7. Find the first five multiples of 4.",
+   "exercise": "A carpenter makes 8 chairs a week. How many in 6 weeks?",
+   "answer": "48 chairs.",
+   "accept": [
+    "48",
+    "48 chairs"
+   ],
+   "remediation": "Use arrays of dots to see the groups.",
+   "transfer": "Find a situation of equal groups at home (plates, eggs in a tray).",
+   "materials": "Multiplication table, counters.",
+   "practice": [
+    {
+     "prompt": "7 × 8 = ?",
+     "type": "number",
+     "answer": 56,
+     "explanation": "7 × 8 = 56."
+    },
+    {
+     "prompt": "Which number is a multiple of 6?",
+     "type": "mcq",
+     "choices": [
+      "36",
+      "32",
+      "25"
+     ],
+     "correct": 0,
+     "answer": "36",
+     "explanation": "6 × 6 = 36."
+    },
+    {
+     "prompt": "Complete the multiples of 4.",
+     "type": "gaps",
+     "text": "4, 8, [[12]], 16, [[20]]",
+     "answer": "12; 20.",
+     "explanation": "Add 4 each time."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-M2",
+   "domain": "Mathematics",
+   "title": "Sharing and grouping: division with remainders",
+   "objective": "Divide by sharing or grouping, with and without a remainder, and check with multiplication.",
+   "course": "Division shares equally or makes equal groups. 30 ÷ 5 = 6 because 5 × 6 = 30.\nSometimes something is left over: 23 ÷ 4 = 5 remainder 3, because 4 × 5 = 20 and 3 are left.\nWe share fairly: each person gets the same.",
+   "model": "A baker shares 27 loaves among 4 shops: each shop gets 6 and 3 loaves remain.",
+   "guided": "Share counters into equal groups. Write the division and the remainder, then check.",
+   "exercise": "36 ÷ 6 = ?",
+   "answer": "6",
+   "accept": [
+    "6",
+    "six"
+   ],
+   "remediation": "Use counters and share one by one.",
+   "transfer": "Share sweets equally among friends and say the remainder.",
+   "materials": "Counters or seeds.",
+   "practice": [
+    {
+     "prompt": "45 ÷ 5 = ?",
+     "type": "number",
+     "answer": 9,
+     "explanation": "5 × 9 = 45."
+    },
+    {
+     "prompt": "29 ÷ 4 gives 7 remainder …?",
+     "type": "number",
+     "answer": 1,
+     "explanation": "4 × 7 = 28; 29 − 28 = 1."
+    },
+    {
+     "prompt": "How do we check a division?",
+     "type": "mcq",
+     "choices": [
+      "multiply the answer by the divisor and add the remainder",
+      "add the numbers",
+      "we cannot"
+     ],
+     "correct": 0,
+     "answer": "multiply the answer by the divisor and add the remainder",
+     "explanation": "4 × 7 + 1 = 29."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-M3",
+   "domain": "Mathematics",
+   "title": "Capacity: l, dl, cl and ml",
+   "objective": "Measure and compare capacities using l, dl, cl and ml, and convert between them.",
+   "course": "Capacity is how much a container can hold. 1 l = 10 dl = 100 cl = 1 000 ml.\nA bottle of oil: 1 l. A glass: 25 cl. A spoon of medicine: 5 ml.",
+   "model": "The palm oil seller fills bottles of 1 l. Four glasses of 25 cl make 1 l.",
+   "guided": "Fill a 1 l bottle with glasses or cups and count. Read the capacity labels of containers at home.",
+   "exercise": "How many ml are in 1 l?",
+   "answer": "1 000",
+   "accept": [
+    "1000",
+    "1 000",
+    "1000 ml"
+   ],
+   "remediation": "Compare containers by pouring water from one to another.",
+   "transfer": "Read the capacity on three bottles at home.",
+   "materials": "Bottles, glasses, a measuring jug.",
+   "practice": [
+    {
+     "prompt": "2 l = ? cl",
+     "type": "number",
+     "answer": 200,
+     "explanation": "1 l = 100 cl."
+    },
+    {
+     "prompt": "How many glasses of 25 cl fill a 1 l bottle?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "4 × 25 cl = 100 cl = 1 l."
+    },
+    {
+     "prompt": "Which unit for a spoon of medicine?",
+     "type": "mcq",
+     "choices": [
+      "ml",
+      "l",
+      "km"
+     ],
+     "correct": 0,
+     "answer": "ml",
+     "explanation": "A spoon holds a few millilitres."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T4-M4",
+   "domain": "Mathematics",
+   "title": "Mass: grams and kilograms",
+   "objective": "Weigh objects and compare masses using g and kg.",
+   "course": "Mass tells how heavy something is. 1 kg = 1 000 g. A bag of rice: 5 kg. A tin of tomato paste: 70 g.\nAt the market, sellers use scales. We read the scale to know the mass.",
+   "model": "The seller puts beans on the scale: 2 kg. Half a kilogram is 500 g.",
+   "guided": "Compare objects by holding them, then weigh them with a kitchen scale. Order them from lightest to heaviest.",
+   "exercise": "How many grams are in 1 kg?",
+   "answer": "1 000",
+   "accept": [
+    "1000",
+    "1 000",
+    "1000 g"
+   ],
+   "remediation": "Compare two objects by holding them first.",
+   "transfer": "Read the mass on packets of food at home.",
+   "materials": "Kitchen scale, packets of food.",
+   "practice": [
+    {
+     "prompt": "3 kg = ? g",
+     "type": "number",
+     "answer": 3000,
+     "explanation": "1 kg = 1 000 g."
+    },
+    {
+     "prompt": "Which is heavier?",
+     "type": "mcq",
+     "choices": [
+      "2 kg of beans",
+      "500 g of beans"
+     ],
+     "correct": 0,
+     "answer": "2 kg of beans",
+     "explanation": "2 kg = 2 000 g, more than 500 g."
+    },
+    {
+     "prompt": "Half a kilogram is how many grams?",
+     "type": "number",
+     "answer": 500,
+     "explanation": "1 000 ÷ 2 = 500."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 4: Occupations (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  }
+ ]
+}

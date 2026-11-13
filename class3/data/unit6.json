@@ -1,0 +1,552 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS3",
+ "classTitle": "Class 3",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS3-T6",
+ "title_en": "Health",
+ "title_fr": "La santé",
+ "lessons": [
+  {
+   "id": "CLASS3-T6-E1",
+   "domain": "English Language and Literature",
+   "title": "Sound recognition: vowel sounds",
+   "objective": "Distinguish single vowel sounds (monophthongs), double vowel sounds (diphthongs) and triple vowel sounds (triphthongs) and pronounce them well.",
+   "course": "Some vowel sounds are single: the sound in “sit”, “bed”, “cup”, “food”. Some glide from one sound to another (diphthongs): “day”, “eye”, “boy”, “go”, “cow”. A few glide through three sounds (triphthongs): “fire”, “hour”, “player”.\nGood pronunciation helps people understand us, for example at the clinic: “pain”, “cough”, “fever”.",
+   "model": "The adult says “bed” (one sound) and “day” (the voice glides). The children feel the difference with a hand under the chin.",
+   "guided": "Listen to pairs of words and say whether the vowel sound is single or gliding: bed/day, cup/cow, sit/sight.",
+   "exercise": "Is the vowel sound in “boy” single or gliding?",
+   "answer": "Gliding (a diphthong).",
+   "accept": [
+    "gliding",
+    "diphthong",
+    "a diphthong",
+    "Gliding (a diphthong)"
+   ],
+   "remediation": "Work with three diphthongs only: day, eye, boy.",
+   "transfer": "Find three health words with a gliding vowel sound (pain, eye, nose).",
+   "materials": "Word cards.",
+   "practice": [
+    {
+     "prompt": "Listen and repeat the words. Which one has a gliding sound?",
+     "listen": "bed. day. cup.",
+     "answer": "day",
+     "accept": [
+      "day"
+     ],
+     "explanation": "In “day” the voice glides."
+    },
+    {
+     "prompt": "Which word has a triphthong (three sounds)?",
+     "type": "mcq",
+     "choices": [
+      "fire",
+      "sit",
+      "cup"
+     ],
+     "correct": 0,
+     "answer": "fire",
+     "explanation": "fire: the voice glides through three sounds."
+    },
+    {
+     "prompt": "Sort: single or gliding?",
+     "type": "match",
+     "pairs": [
+      [
+       "sit",
+       "single"
+      ],
+      [
+       "go",
+       "gliding"
+      ],
+      [
+       "cup",
+       "single"
+      ]
+     ],
+     "answer": "sit: single; go: gliding; cup: single.",
+     "explanation": "Listen to the vowel."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-E2",
+   "domain": "English Language and Literature",
+   "title": "Reading a short story silently: at the health centre",
+   "objective": "Read a short story silently and answer literal and inference questions.",
+   "course": "Some answers are written in the text (literal questions). Others must be guessed from clues (inference questions): “Why was Enow sad?” We look for clues and explain with “because”.",
+   "support": {
+    "title": "Read silently",
+    "text": "Enow woke up with a high fever and a headache. His mother touched his forehead and took him to the health centre. The nurse tested his blood and said, “It is malaria.” She gave him tablets and told him to sleep under a mosquito net every night. After three days, Enow went back to school, but he kept the net over his bed."
+   },
+   "model": "The adult reads silently, then says: “The text says he had a fever — that is literal. He kept the net — I guess he did not want to be sick again — that is inference.”",
+   "guided": "Read silently. Answer two literal questions and one inference question.",
+   "exercise": "What did the nurse say Enow had?",
+   "answer": "Malaria.",
+   "accept": [
+    "malaria",
+    "It is malaria",
+    "Malaria"
+   ],
+   "remediation": "Underline the answers in the text before saying them.",
+   "transfer": "Read a health leaflet with an adult and say one thing you learnt.",
+   "materials": "The text.",
+   "practice": [
+    {
+     "prompt": "What two symptoms did Enow have?",
+     "answer": "A high fever and a headache.",
+     "accept": [
+      "fever and headache",
+      "a high fever and a headache",
+      "fever, headache",
+      "A high fever and a headache"
+     ],
+     "explanation": "It is written in the first sentence."
+    },
+    {
+     "prompt": "Why did Enow keep the net over his bed?",
+     "type": "mcq",
+     "choices": [
+      "so that he would not get malaria again",
+      "because it was beautiful",
+      "because he was cold"
+     ],
+     "correct": 0,
+     "answer": "so that he would not get malaria again",
+     "explanation": "Inference: the net protects from mosquitoes."
+    },
+    {
+     "prompt": "How many days later did Enow go back to school?",
+     "type": "number",
+     "answer": 3,
+     "explanation": "The text says: After three days."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Reading), p. 44, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Reading"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-E3",
+   "domain": "English Language and Literature",
+   "title": "Dictation: sentences and a short paragraph",
+   "objective": "Write dictated sentences and a short paragraph with correct spelling and punctuation.",
+   "course": "During a dictation, we listen to the whole sentence first, then write group of words by group of words. We check capital letters, full stops and difficult words.\nBefore the dictation, we study the difficult words: healthy, vegetables, every, enough, water.",
+   "support": {
+    "title": "Words to study",
+    "text": "healthy  vegetables  every  enough  water  fruit"
+   },
+   "model": "The adult reads a sentence once, then in groups of words, then once more to check.",
+   "guided": "Study the words, then listen to the dictation and write. Check with the text.",
+   "exercise": "Spell the word we study: v-e-g-…",
+   "answer": "vegetables",
+   "accept": [
+    "vegetables"
+   ],
+   "remediation": "Do the dictation one sentence at a time, checking after each one.",
+   "transfer": "Ask an adult to dictate two sentences to you each day.",
+   "materials": "Paper, pencil.",
+   "practice": [
+    {
+     "prompt": "Listen to the dictation and write it.",
+     "listen": "To stay healthy, we eat fruit and vegetables every day. We drink enough clean water.",
+     "answer": "To stay healthy, we eat fruit and vegetables every day. We drink enough clean water.",
+     "explanation": "Check capitals, commas and full stops.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Which word is spelt correctly?",
+     "type": "mcq",
+     "choices": [
+      "helthy",
+      "healthy",
+      "healty"
+     ],
+     "correct": 1,
+     "answer": "healthy",
+     "explanation": "h-e-a-l-t-h-y."
+    },
+    {
+     "prompt": "Put the steps of a dictation in order.",
+     "type": "order",
+     "items": [
+      "Listen to the whole sentence.",
+      "Write group by group.",
+      "Listen again and check."
+     ],
+     "answer": "listen, write, check.",
+     "explanation": "Always check at the end."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-E4",
+   "domain": "English Language and Literature",
+   "title": "Pronouns: subject, object and possessive",
+   "objective": "Use subject, object and possessive pronouns correctly.",
+   "course": "Subject pronouns do the action: I, you, he, she, it, we, they. She helps the nurse.\nObject pronouns receive the action: me, you, him, her, it, us, them. The nurse helps her.\nPossessive pronouns show who owns: mine, yours, his, hers, ours, theirs. This net is mine.",
+   "model": "The adult points: “He gives the tablets to her. The tablets are hers now.”",
+   "guided": "Replace nouns with pronouns in five sentences about a visit to the clinic.",
+   "exercise": "Replace the words: The doctor examined Enow. → The doctor examined ___.",
+   "answer": "him",
+   "accept": [
+    "him",
+    "The doctor examined him"
+   ],
+   "remediation": "Practise subject pronouns, then object pronouns, before possessives.",
+   "transfer": "Tell a short story about your family using he, she, him, her.",
+   "materials": "Sentence cards.",
+   "practice": [
+    {
+     "prompt": "Complete with the right pronoun.",
+     "type": "gaps",
+     "text": "Mama gave the medicine to [[us]]. [[We]] took it after the meal.",
+     "answer": "us; We.",
+     "explanation": "us is an object; we is a subject."
+    },
+    {
+     "prompt": "Which word is a possessive pronoun?",
+     "type": "mcq",
+     "choices": [
+      "mine",
+      "me",
+      "I"
+     ],
+     "correct": 0,
+     "answer": "mine",
+     "explanation": "Mine shows who owns."
+    },
+    {
+     "prompt": "Match the subject pronoun with its object pronoun.",
+     "type": "match",
+     "pairs": [
+      [
+       "I",
+       "me"
+      ],
+      [
+       "he",
+       "him"
+      ],
+      [
+       "they",
+       "them"
+      ]
+     ],
+     "answer": "I–me; he–him; they–them.",
+     "explanation": "Each subject pronoun has an object form."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-M1",
+   "domain": "Mathematics",
+   "title": "Proper fractions",
+   "objective": "Read, write and represent proper fractions of a whole.",
+   "course": "A fraction is a part of a whole divided into equal parts. In ¾, the denominator (4) is the number of equal parts; the numerator (3) is the number of parts taken.\nIn a proper fraction, the numerator is smaller than the denominator: ½, ⅓, ¾, ⅖.",
+   "model": "The adult cuts a pawpaw into 4 equal parts and takes 3: “three quarters, ¾”.",
+   "guided": "Fold paper into 2, 4 and 8 equal parts. Shade parts and write the fraction.",
+   "exercise": "A cake is cut into 8 equal pieces. Bih eats 3. What fraction did she eat?",
+   "answer": "3/8",
+   "accept": [
+    "3/8",
+    "three eighths"
+   ],
+   "remediation": "Use halves and quarters with real fruit first.",
+   "transfer": "Find fractions at home: half a loaf, a quarter of an orange.",
+   "materials": "Paper strips, fruit.",
+   "practice": [
+    {
+     "prompt": "In ⅗, what is the denominator?",
+     "type": "number",
+     "answer": 5,
+     "explanation": "The denominator is the bottom number."
+    },
+    {
+     "prompt": "Which one is a proper fraction?",
+     "type": "mcq",
+     "choices": [
+      "2/5",
+      "5/2",
+      "7/7"
+     ],
+     "correct": 0,
+     "answer": "2/5",
+     "explanation": "2 is smaller than 5."
+    },
+    {
+     "prompt": "Shade 3/4 of a rectangle cut into 4 equal parts.",
+     "answer": "3 of the 4 parts shaded.",
+     "explanation": "Shade three equal parts.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-M2",
+   "domain": "Mathematics",
+   "title": "Adding and subtracting fractions with the same denominator",
+   "objective": "Add and subtract fractions that have the same denominator.",
+   "course": "When the denominators are the same, we add or subtract the numerators and keep the denominator: 2/7 + 3/7 = 5/7; 5/8 − 2/8 = 3/8.\nIf the result equals the denominator, we have one whole: 3/5 + 2/5 = 5/5 = 1.",
+   "model": "A nurse gives 1/4 of a bottle of syrup in the morning and 2/4 in the evening: 3/4 of the bottle.",
+   "guided": "Use paper strips divided into eighths to add and subtract fractions.",
+   "exercise": "2/9 + 5/9 = ?",
+   "answer": "7/9",
+   "accept": [
+    "7/9",
+    "seven ninths"
+   ],
+   "remediation": "Shade the parts on a strip before calculating.",
+   "transfer": "Share a fruit and say what fraction was eaten and what is left.",
+   "materials": "Paper strips.",
+   "practice": [
+    {
+     "prompt": "Complete.",
+     "type": "gaps",
+     "text": "3/10 + 4/10 = [[7]]/10 ; 6/8 − 1/8 = [[5]]/8",
+     "answer": "7/10; 5/8.",
+     "explanation": "Add or subtract the numerators."
+    },
+    {
+     "prompt": "4/6 + 2/6 = ?",
+     "type": "mcq",
+     "choices": [
+      "1",
+      "6/12",
+      "2/6"
+     ],
+     "correct": 0,
+     "answer": "1",
+     "explanation": "6/6 is one whole."
+    },
+    {
+     "prompt": "Manka drinks 2/5 of her water. What fraction is left?",
+     "answer": "3/5",
+     "accept": [
+      "3/5",
+      "three fifths"
+     ],
+     "explanation": "5/5 − 2/5 = 3/5."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-M3",
+   "domain": "Mathematics",
+   "title": "Finite and infinite sets; elements and symbols",
+   "objective": "Distinguish finite and infinite sets and use the symbols ∈, ∉ and Ø.",
+   "course": "A finite set has a number of elements we can count: {days of the week} has 7 elements. An infinite set never ends: {1, 2, 3, 4, …}.\n∈ means “is an element of”: Monday ∈ {days of the week}. ∉ means “is not an element of”. Ø or { } is the empty set: {children in our class older than 50 years} = Ø.",
+   "model": "The adult writes: malaria ∈ {diseases}; mango ∉ {diseases}.",
+   "guided": "Sort sets into finite or infinite. Write three sentences with ∈ and ∉.",
+   "exercise": "Is the set of even numbers finite or infinite?",
+   "answer": "Infinite.",
+   "accept": [
+    "infinite",
+    "Infinite"
+   ],
+   "remediation": "Count the elements of small sets to see that they end.",
+   "transfer": "Give an example of an empty set in your home.",
+   "materials": "Set cards.",
+   "practice": [
+    {
+     "prompt": "Which set is finite?",
+     "type": "mcq",
+     "choices": [
+      "{months of the year}",
+      "{all numbers}",
+      "{multiples of 2}"
+     ],
+     "correct": 0,
+     "answer": "{months of the year}",
+     "explanation": "There are 12 months: we can count them."
+    },
+    {
+     "prompt": "Complete with ∈ or ∉.",
+     "type": "gaps",
+     "text": "cough [[∈]] {symptoms}; banana [[∉]] {symptoms}",
+     "answer": "∈; ∉.",
+     "explanation": "∈ is an element; ∉ is not."
+    },
+    {
+     "prompt": "How many elements does the empty set have?",
+     "type": "number",
+     "answer": 0,
+     "explanation": "The empty set has no element."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Sets and Logic), p. 50, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sets and Logic"
+   ]
+  },
+  {
+   "id": "CLASS3-T6-M4",
+   "domain": "Mathematics",
+   "title": "Ranking data in ascending and descending order",
+   "objective": "Rank data in ascending and descending order and read a table.",
+   "course": "Ascending order goes from the smallest to the biggest; descending order from the biggest to the smallest.\nA table of data: children vaccinated at the health centre — Monday 34, Tuesday 52, Wednesday 27, Thursday 45. In descending order: 52, 45, 34, 27.",
+   "model": "The adult ranks the days from the busiest to the quietest at the health centre.",
+   "guided": "Rank the heights or ages of family members in both orders.",
+   "exercise": "Rank in ascending order: 52, 27, 45, 34.",
+   "answer": "27, 34, 45, 52",
+   "accept": [
+    "27, 34, 45, 52",
+    "27 34 45 52"
+   ],
+   "remediation": "Compare two numbers at a time.",
+   "transfer": "Rank the prices of five things in a shop.",
+   "materials": "A data table.",
+   "practice": [
+    {
+     "prompt": "Put in descending order.",
+     "type": "order",
+     "items": [
+      "52",
+      "45",
+      "34",
+      "27"
+     ],
+     "answer": "52, 45, 34, 27.",
+     "explanation": "Biggest first."
+    },
+    {
+     "prompt": "Which day had the fewest vaccinations?",
+     "type": "mcq",
+     "choices": [
+      "Wednesday",
+      "Tuesday",
+      "Monday"
+     ],
+     "correct": 0,
+     "answer": "Wednesday",
+     "explanation": "27 is the smallest number."
+    },
+    {
+     "prompt": "How many more children on Tuesday than on Monday?",
+     "type": "number",
+     "answer": 18,
+     "explanation": "52 − 34 = 18."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Statistics and Graphs), p. 52, Class 3 column; theme 6: Health (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Statistics and Graphs"
+   ]
+  }
+ ]
+}

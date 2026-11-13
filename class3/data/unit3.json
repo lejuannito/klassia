@@ -1,0 +1,533 @@
+{
+ "format": "klassia-grade-unit",
+ "schemaVersion": 1,
+ "grade": "CLASS3",
+ "classTitle": "Class 3",
+ "language": "en",
+ "sourceLevel": {
+  "en": "English Subsystem Level II; Class 3 column only. Class 4 contents are excluded."
+ },
+ "releaseStatus": "in_review",
+ "statusNote": "Theme for teaching review: English Language and Literature and Mathematics written (lot A5a); the other subjects follow (lot A5b). Original texts; not an official validation.",
+ "sources": [
+  {
+   "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+   "pages": "Table 18 (themes), p. 40; table 20 (English Language and Literature), p. 41–49; table 21 (Mathematics), p. 50–52; Class 3 column only",
+   "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+  }
+ ],
+ "id": "CLASS3-T3",
+ "title_en": "The school",
+ "title_fr": "L’école",
+ "lessons": [
+  {
+   "id": "CLASS3-T3-E1",
+   "domain": "English Language and Literature",
+   "title": "Following instructions and school rules",
+   "objective": "Listen to and follow instructions in order, and explain why school rules matter.",
+   "course": "Instructions tell us what to do, often in order: First, take out your book. Next, open it at page 10. Then, read the title. Finally, close the book.\nSchool rules help everybody learn safely: come on time, respect others, keep the school clean, do not fight.",
+   "model": "The teacher gives three instructions; Bih repeats them in order before doing them.",
+   "guided": "Listen to a set of four instructions, repeat them, then do them. Discuss: which school rule do you find most useful, and why?",
+   "exercise": "What word starts the last instruction?",
+   "answer": "Finally.",
+   "accept": [
+    "finally",
+    "Finally"
+   ],
+   "remediation": "Give two instructions at a time.",
+   "transfer": "Give three instructions to a younger child and check that they are followed.",
+   "materials": "Books, objects of the classroom.",
+   "practice": [
+    {
+     "prompt": "Put the instructions in order.",
+     "type": "order",
+     "items": [
+      "First, take out your book.",
+      "Next, open it at page 10.",
+      "Then, read the title.",
+      "Finally, close the book."
+     ],
+     "answer": "First, next, then, finally.",
+     "explanation": "The order words help us."
+    },
+    {
+     "prompt": "Listen and do the instructions in order.",
+     "listen": "First, stand up. Next, touch your nose. Then, turn around. Finally, sit down.",
+     "answer": "Stand up, touch your nose, turn around, sit down.",
+     "explanation": "Follow the order you hear."
+    },
+    {
+     "prompt": "Why do schools have rules?",
+     "type": "mcq",
+     "choices": [
+      "so that everybody can learn safely",
+      "to make children sad",
+      "for no reason"
+     ],
+     "correct": 0,
+     "answer": "so that everybody can learn safely",
+     "explanation": "Rules protect everybody."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Listening and Speaking), p. 41–43, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Listening and Speaking"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-E2",
+   "domain": "English Language and Literature",
+   "title": "A rhyme about school and its lesson",
+   "objective": "Read and say a rhyme, find the rhyming words, put oneself in the place of the speaker and deduce the lesson.",
+   "course": "A rhyme has lines that end with the same sound. It often teaches a lesson. We read it with rhythm, then we ask: Who speaks? How does he feel? What does the rhyme teach?",
+   "support": {
+    "title": "Klassia rhyme",
+    "text": "I was late, I ran too fast,\nI fell and came to school the last.\nNow I wake when the cock crows loud,\nI walk with care and join the crowd."
+   },
+   "model": "The adult reads the rhyme with rhythm and stresses the rhyming words: fast – last, loud – crowd.",
+   "guided": "Read the rhyme together. Find the rhyming pairs. Imagine you are the child in the rhyme: what will you do tomorrow?",
+   "exercise": "Which word rhymes with “fast”?",
+   "answer": "last",
+   "accept": [
+    "last"
+   ],
+   "remediation": "Read two lines at a time and clap the rhythm.",
+   "transfer": "Say the rhyme to your family and explain its lesson.",
+   "materials": "The rhyme on a chart.",
+   "practice": [
+    {
+     "prompt": "Match the rhyming words.",
+     "type": "match",
+     "pairs": [
+      [
+       "fast",
+       "last"
+      ],
+      [
+       "loud",
+       "crowd"
+      ]
+     ],
+     "answer": "fast–last; loud–crowd.",
+     "explanation": "Rhyming words end with the same sound."
+    },
+    {
+     "prompt": "What lesson does the rhyme teach?",
+     "type": "mcq",
+     "choices": [
+      "Wake up early so you are not late.",
+      "Run as fast as you can.",
+      "Stay at home."
+     ],
+     "correct": 0,
+     "answer": "Wake up early so you are not late.",
+     "explanation": "The child now wakes up early and walks with care."
+    },
+    {
+     "prompt": "Listen to the rhyme and say it after the voice.",
+     "listen": "I was late, I ran too fast, I fell and came to school the last. Now I wake when the cock crows loud, I walk with care and join the crowd.",
+     "answer": "The rhyme said with rhythm.",
+     "explanation": "Stress the rhyming words."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Literature), p. 44, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Literature"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-E3",
+   "domain": "English Language and Literature",
+   "title": "A descriptive paragraph: my school",
+   "objective": "Write a descriptive text of about 60 words about one’s school.",
+   "course": "A description has an opening sentence (what we describe), some sentences with details (what we see, how many, what colour, where), and a closing sentence (what we feel).\nWe use adjectives and linking words. About 60 words is five or six short sentences.",
+   "support": {
+    "title": "Useful words",
+    "text": "classrooms, playground, flag, trees, headmaster’s office, clean, large, noisy, friendly"
+   },
+   "model": "“My school is in Nkwen. It has six classrooms painted blue. In front of the office, the flag flies every morning. Mango trees give shade in the playground. During break, the pupils play football and skip. I love my school because my teachers are kind.”",
+   "guided": "Plan with three boxes: opening, details, closing. Write a sentence in each box, then add details.",
+   "exercise": "Write the opening sentence of your description.",
+   "answer": "For example: My school is in Nkwen.",
+   "remediation": "Complete a gapped model text before writing your own.",
+   "transfer": "Describe your house in about 60 words.",
+   "materials": "Paper, a plan with three boxes.",
+   "practice": [
+    {
+     "prompt": "Write your description of about 60 words.",
+     "answer": "A description with an opening, details and a closing sentence.",
+     "explanation": "Use adjectives and linking words.",
+     "ink": "lignes"
+    },
+    {
+     "prompt": "Put the parts of a description in order.",
+     "type": "order",
+     "items": [
+      "opening sentence",
+      "details",
+      "closing sentence"
+     ],
+     "answer": "opening, details, closing.",
+     "explanation": "This is the plan of a description."
+    },
+    {
+     "prompt": "Which sentence is a good closing sentence?",
+     "type": "mcq",
+     "choices": [
+      "I love my school because my teachers are kind.",
+      "It has six classrooms.",
+      "My school is in Nkwen."
+     ],
+     "correct": 0,
+     "answer": "I love my school because my teachers are kind.",
+     "explanation": "A closing sentence says what we feel."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Writing), p. 45, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Writing"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-E4",
+   "domain": "English Language and Literature",
+   "title": "Verbs: present, past and future",
+   "objective": "Use regular and irregular verbs in the simple present, simple past and simple future.",
+   "course": "Simple present (every day): I walk to school. She walks to school.\nSimple past (yesterday): regular verbs add -ed: walk → walked, play → played. Irregular verbs change: go → went, eat → ate, write → wrote, come → came.\nSimple future (tomorrow): will + verb: I will walk. They will write.",
+   "model": "The adult says: “Every day I go to school. Yesterday I went to school. Tomorrow I will go to school.”",
+   "guided": "Make a table with three columns: today, yesterday, tomorrow. Put five verbs in each tense.",
+   "exercise": "Yesterday we ___ (write) a dictation.",
+   "answer": "wrote",
+   "accept": [
+    "wrote",
+    "Yesterday we wrote a dictation"
+   ],
+   "reject": [
+    "writed"
+   ],
+   "remediation": "Practise regular verbs first, then learn three irregular verbs a day.",
+   "transfer": "Tell what you did yesterday and what you will do tomorrow in two sentences.",
+   "materials": "Verb cards.",
+   "practice": [
+    {
+     "prompt": "Complete with the past tense.",
+     "type": "gaps",
+     "text": "Yesterday Bih [[went]] (go) to school and [[played]] (play) football.",
+     "answer": "went; played.",
+     "explanation": "go is irregular (went); play is regular (played)."
+    },
+    {
+     "prompt": "Which one is in the future?",
+     "type": "mcq",
+     "choices": [
+      "I will read.",
+      "I read.",
+      "I was reading."
+     ],
+     "correct": 0,
+     "answer": "I will read.",
+     "explanation": "will + verb shows the future."
+    },
+    {
+     "prompt": "Match each verb with its past form.",
+     "type": "match",
+     "pairs": [
+      [
+       "eat",
+       "ate"
+      ],
+      [
+       "come",
+       "came"
+      ],
+      [
+       "walk",
+       "walked"
+      ]
+     ],
+     "answer": "eat–ate; come–came; walk–walked.",
+     "explanation": "Some verbs are irregular."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "English Language and Literature, table 20 (Grammar, vocabulary and pronunciation), p. 46–49, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Grammar, vocabulary and pronunciation"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-M1",
+   "domain": "Mathematics",
+   "title": "Equal and equivalent sets",
+   "objective": "Distinguish equal sets (same elements) from equivalent sets (same number of elements).",
+   "course": "Two sets are equal if they have exactly the same elements: {pen, ruler} = {ruler, pen}.\nTwo sets are equivalent if they have the same number of elements, even if the elements are different: {pen, ruler} and {Bih, Tabi} are equivalent (2 elements each). We write ↔ or say “equivalent”.",
+   "model": "The adult shows {chalk, duster} and {duster, chalk}: equal. Then {chalk, duster} and {teacher, pupil}: equivalent, not equal.",
+   "guided": "Make pairs of sets with school objects. Decide: equal, equivalent, or neither.",
+   "exercise": "A = {a, b, c} and B = {x, y, z}. Are they equal or equivalent?",
+   "answer": "Equivalent.",
+   "accept": [
+    "equivalent",
+    "Equivalent"
+   ],
+   "remediation": "Count the elements of each set first.",
+   "transfer": "Find two equivalent sets at home (for example 4 chairs and 4 people).",
+   "materials": "School objects, rings.",
+   "practice": [
+    {
+     "prompt": "{1, 2, 3} and {3, 2, 1}: equal or equivalent only?",
+     "type": "mcq",
+     "choices": [
+      "equal",
+      "equivalent only",
+      "neither"
+     ],
+     "correct": 0,
+     "answer": "equal",
+     "explanation": "Same elements, so equal (and also equivalent)."
+    },
+    {
+     "prompt": "How many elements must B have to be equivalent to {red, blue, green, yellow}?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "Equivalent sets have the same number of elements."
+    },
+    {
+     "prompt": "Complete: equal sets have the same ___.",
+     "answer": "elements",
+     "accept": [
+      "elements",
+      "the same elements"
+     ],
+     "explanation": "Equal sets have exactly the same elements."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Sets and Logic), p. 50, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Sets and Logic"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-M2",
+   "domain": "Mathematics",
+   "title": "Subtracting numbers up to 500",
+   "objective": "Subtract numbers up to 500 with and without borrowing, and check with addition.",
+   "course": "We subtract in columns, starting with the units. If the top digit is smaller, we borrow 1 ten (or 1 hundred) from the next column.\n  352\n− 127\n= 225\nWe check: 225 + 127 = 352.",
+   "model": "The school has 352 pupils; 127 are in the lower classes. The adult subtracts: units 2 − 7 cannot, borrow: 12 − 7 = 5; tens 4 − 2 = 2; hundreds 3 − 1 = 2. Answer: 225.",
+   "guided": "Do three subtractions in columns, then check each one with an addition.",
+   "exercise": "A library has 420 books. 185 are borrowed. How many books are left?",
+   "answer": "235 books.",
+   "accept": [
+    "235",
+    "235 books"
+   ],
+   "remediation": "Subtract without borrowing first.",
+   "transfer": "Find how much money is left after a purchase.",
+   "materials": "Squared paper, bundles of sticks.",
+   "practice": [
+    {
+     "prompt": "463 − 128 = ?",
+     "type": "number",
+     "answer": 335,
+     "explanation": "13 − 8 = 5; 5 − 2 = 3; 4 − 1 = 3: 335."
+    },
+    {
+     "prompt": "500 − 275 = ?",
+     "type": "number",
+     "answer": 225,
+     "explanation": "Borrow from the hundreds: 225."
+    },
+    {
+     "prompt": "How can we check a subtraction?",
+     "type": "mcq",
+     "choices": [
+      "by adding the answer and the number taken away",
+      "by multiplying",
+      "we cannot check"
+     ],
+     "correct": 0,
+     "answer": "by adding the answer and the number taken away",
+     "explanation": "225 + 275 = 500."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Numbers and Operations), p. 50, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Numbers and Operations"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-M3",
+   "domain": "Mathematics",
+   "title": "The calendar: months, ordinary and leap years",
+   "objective": "Name the 12 months, know their number of days and distinguish ordinary and leap years.",
+   "course": "A year has 12 months. Some have 31 days (January, March, May, July, August, October, December), some have 30 (April, June, September, November). February has 28 days in an ordinary year and 29 in a leap year.\nAn ordinary year has 365 days; a leap year has 366 days and comes every four years (2024, 2028).",
+   "model": "The adult shows the school calendar: “School resumes in September, which has 30 days.”",
+   "guided": "Use your knuckles to remember the months of 31 days. Find the dates of school holidays on a calendar.",
+   "exercise": "How many days are in a leap year?",
+   "answer": "366",
+   "accept": [
+    "366",
+    "366 days"
+   ],
+   "remediation": "Learn the months in order, then their days.",
+   "transfer": "Find your birthday on the calendar and count the days until it comes.",
+   "materials": "A calendar of the year.",
+   "practice": [
+    {
+     "prompt": "How many days does April have?",
+     "type": "number",
+     "answer": 30,
+     "explanation": "April has 30 days."
+    },
+    {
+     "prompt": "Which year is a leap year?",
+     "type": "mcq",
+     "choices": [
+      "2028",
+      "2027",
+      "2026"
+     ],
+     "correct": 0,
+     "answer": "2028",
+     "explanation": "Leap years come every 4 years: 2024, 2028."
+    },
+    {
+     "prompt": "How many days in February in an ordinary year?",
+     "type": "number",
+     "answer": 28,
+     "explanation": "29 only in a leap year."
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Measurement and Size), p. 51, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Measurement and Size"
+   ]
+  },
+  {
+   "id": "CLASS3-T3-M4",
+   "domain": "Mathematics",
+   "title": "Tallying in 5s and a bar graph of the class",
+   "objective": "Collect data, tally in groups of 5 and represent the data on a bar graph.",
+   "course": "To tally, we draw one stroke for each thing and cross every group of four with a fifth stroke: |||| crossed = 5. We count in 5s.\nA bar graph shows the totals with bars of different heights. It has a title, labels and a scale.",
+   "model": "The adult tallies how pupils come to school: walking 23, motorbike 8, car 4, bicycle 5.",
+   "guided": "Ask 20 people a question (favourite subject). Tally the answers, then draw a bar graph.",
+   "exercise": "How many strokes are in one tally group?",
+   "answer": "5",
+   "accept": [
+    "5",
+    "five"
+   ],
+   "remediation": "Tally with real objects in groups of five before drawing.",
+   "transfer": "Make a bar graph of the fruits your family eats in a week.",
+   "materials": "Squared paper, coloured pencils.",
+   "practice": [
+    {
+     "prompt": "Four full tally groups and 3 strokes. How many?",
+     "type": "number",
+     "answer": 23,
+     "explanation": "4 × 5 + 3 = 23."
+    },
+    {
+     "prompt": "Walking 23, motorbike 8, car 4, bicycle 5. Which is the most common way to come to school?",
+     "type": "mcq",
+     "choices": [
+      "walking",
+      "motorbike",
+      "car"
+     ],
+     "correct": 0,
+     "answer": "walking",
+     "explanation": "23 is the biggest number."
+    },
+    {
+     "prompt": "Draw the bar graph of how pupils come to school.",
+     "answer": "A bar graph with four bars and a title.",
+     "explanation": "Label each bar.",
+     "ink": "libre"
+    }
+   ],
+   "source": {
+    "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
+    "pages": "Mathematics, table 21 (Statistics and Graphs), p. 52, Class 3 column; theme 3: The school (table 18, p. 40)",
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+   },
+   "editorial": {
+    "status": "in_review",
+    "reviewer": null,
+    "validated_at": null,
+    "notes": "Lesson written for Klassia from the Class 3 contents of the Level II curriculum; original texts and examples. To be reviewed by a Class 3 teacher of the English subsystem."
+   },
+   "competencies": [
+    "Statistics and Graphs"
+   ]
+  }
+ ]
+}

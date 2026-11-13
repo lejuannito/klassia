@@ -37,7 +37,7 @@
    const data=await get(`data/content-u${u.number}.json`);
    for(const s of data.subjects)for(const l of s.lessons)records.push(record('CE2',s.name,l,`./?unit=${u.id}#lesson:${encodeURIComponent(l.id)}`));
   });
-  for(const {grade,dir} of C.classes.filter(c=>c.engine==='activities'))for(const t of catalogs[grade].themes)jobs.push(grade,async()=>{
+  for(const {grade,dir} of C.classes.filter(c=>c.format==='nursery'))for(const t of catalogs[grade].themes)jobs.push(grade,async()=>{
    const data=await get(`${dir}data/themes/${t.id}.json`);
    for(const d of data.domains)d.activities.forEach((l,i)=>records.push(record(grade,d.name_fr,l,`${dir}?theme=${t.id}#domain:${d.id}:${i}`)));
   });

@@ -20,7 +20,7 @@
   // Étoiles : ressources déclarées réalisées dans la classe (une clé de progression, ou une par thème en maternelle).
   function stars(info, read, groups = []) {
     const done = v => v === 'A' || v === 'MAITRISEE', count = key => Object.values(read(key, {}) || {}).filter(done).length;
-    return info.engine === 'activities' ? groups.reduce((n, id) => n + count(info.progressKey + ':' + id), 0) : count(info.progressKey);
+    return info.format === 'nursery' ? groups.reduce((n, id) => n + count(info.progressKey + ':' + id), 0) : count(info.progressKey);
   }
   // Seuls les journaux de travail comptent (réponses, observations) ; ouvrir une page ne suffit pas.
   const logs = ['klassia_attempts', 'klassia_observations'];

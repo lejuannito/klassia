@@ -7,13 +7,14 @@
   else root.Klassia = Object.assign(root.Klassia || {}, api);
 })(typeof window === 'object' ? window : globalThis, function () {
   'use strict';
-  // engine : rendu actuel de la classe ; les deux valeurs convergent vers « lessons » (voir docs/MOTEUR_UNIQUE.md).
-  // format : forme des données quand elle diffère de celle du moteur (CE2 : unités par matière, lues par un adaptateur).
+  // engine : moteur de rendu, le même pour toutes les classes (« lessons », shared/learning-app.js ; voir docs/MOTEUR_UNIQUE.md).
+  // format : forme des données quand elle diffère de celle du moteur (CE2 : unités par matière, lues par un adaptateur ;
+  // maternelle : thèmes et activités, rendus par shared/nursery.js avec leur habillage propre).
   // dir : dossier servi ; catalog : chemin depuis la racine ; group : nom de la liste du catalogue (unités ou thèmes).
   const classes = [
-    {grade: 'MS', label: 'Moyenne section', twin: 'Nursery One', engine: 'activities', dir: 'ms/', catalog: 'ms/data/catalog-v13.json', group: 'themes',
+    {grade: 'MS', label: 'Moyenne section', twin: 'Nursery One', engine: 'lessons', format: 'nursery', dir: 'ms/', catalog: 'ms/data/catalog-v13.json', group: 'themes',
       progressKey: 'klassia_ms_progress_v2', home: ['', '#home'], overview: '#themes', week: false, revise: false, review: false},
-    {grade: 'GS', label: 'Grande section', twin: 'Nursery Two', engine: 'activities', dir: 'gs/', catalog: 'gs/data/catalog-v13.json', group: 'themes',
+    {grade: 'GS', label: 'Grande section', twin: 'Nursery Two', engine: 'lessons', format: 'nursery', dir: 'gs/', catalog: 'gs/data/catalog-v13.json', group: 'themes',
       progressKey: 'klassia_gs_progress_v2', home: ['', '#home'], overview: '#themes', week: false, revise: false, review: false},
     {grade: 'SIL', label: 'SIL', twin: 'Class 1', engine: 'lessons', dir: 'sil/', catalog: 'sil/data/curriculum.json', group: 'units',
       progressKey: 'klassia_sil_progress_v1', home: ['', '#home'], overview: '#units', week: true, revise: false, review: true, guided: true},
@@ -25,7 +26,7 @@
   ];
   const byGrade = Object.fromEntries(classes.map(c => [c.grade, c]));
   const classInfo = grade => byGrade[grade] || null;
-  const nursery = grade => byGrade[grade]?.engine === 'activities';
+  const nursery = grade => byGrade[grade]?.format === 'nursery';
   // Classe de la page ouverte, d'après son dossier ; la racine est la classe sans dossier (CE2).
   function currentClass(pathname) {
     const path = pathname ?? (typeof location === 'object' ? location.pathname : '/');

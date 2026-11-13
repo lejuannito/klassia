@@ -101,12 +101,11 @@ function progressRows(rows) {
 K.progressSummary = progressSummary;
 K.progressRows = progressRows;
 function classNavigation(grade){
- const info=K.classInfo(grade),nursery=K.isNurseryClass(grade), older=info.engine!=='lessons';
+ const nursery=K.isNurseryClass(grade), older=nursery;
  const routes=[['unit',nursery?'#themes':'#units',nursery?'Par thème':'Par unité'],
   ['subject',older?'#subjects-all':'#subjects','Par matière'],
   ['domain',older?'#domains-all':'#domains','Par domaine']];
- // Avec la barre d'onglets (moteur des leçons), Semaine et Réviser sont des onglets ; cette rangée ne garde que les trois parcours.
- if(info.engine!=='lessons'){if(info.week)routes.push(['week','#semaine','Cette semaine']);if(info.revise)routes.push(['revise','#reviser','Réviser']);}
+ // Semaine et Réviser sont des onglets de la barre du primaire ; cette rangée ne garde que les trois parcours.
  const hash=location.hash;
  const mode=/^#(?:subjects?|subject-all|subjects-all|activity-subject)(?::|$)/.test(hash)?'subject':
   /^#(?:domains?|domain-all|domains-all)(?::|$)/.test(hash)?'domain':

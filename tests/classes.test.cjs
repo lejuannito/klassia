@@ -40,6 +40,6 @@ test('a CE2 unit reads as a unit of the common engine, with the same lesson ids'
  const l=u.lessons.find(x=>x.id==='FR-U1-L1');assert.equal(l.subject,'FR');assert.ok(l.course&&l.model&&l.takeaway&&l.objective);
  assert.equal(l.practice[1].type,'mcq');assert.ok(Array.isArray(l.practice[1].choices));assert.equal(l.practice[0].type,undefined,'open questions become prompt and answer');
  for(const x of u.lessons)assert.deepEqual(M.filled(M.fromLesson(x)),{decouvrir:true,retenir:true,exercer:true,point:true},x.id);
- assert.equal(registry.currentClass('/klassia/ce2/').grade,'CE2');assert.ok(registry.inClassFolder('/klassia/ce2/index.html')&&registry.inClassFolder('/klassia/sil/')&&!registry.inClassFolder('/klassia/'));
+ assert.equal(registry.currentClass('/klassia/').grade,'CE2');assert.equal(registry.classInfo('CE2').engine,'lessons');assert.ok(registry.inClassFolder('/klassia/sil/index.html')&&registry.inClassFolder('/klassia/sil/')&&!registry.inClassFolder('/klassia/'));
  assert.deepEqual(registry.classInfo('CE2').status,{A:'MAITRISEE',EC:'EN_COURS',R:'A_REVOIR'});
 });

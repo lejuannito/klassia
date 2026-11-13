@@ -390,3 +390,18 @@ body > .sil-child .reading-support th { color: #46526b; font-size: 1.2rem; }
 .klassia-ex-status { margin: 0; font-weight: 700; }
 .klassia-ex-status[data-verdict="correct"] { color: #1f6f3f; }
 .klassia-ex-status[data-verdict="wrong"] { color: #9a3412; }
+/* Atelier pédagogique (revue éditoriale, atelier Bassa, prises de voix) : mêmes règles quel que soit le moteur. */
+.gs-wrap .btn { border: 0; border-radius: 11px; padding: 11px 15px; cursor: pointer; font-weight: 750; min-height: 44px; }
+.gs-wrap .btn.primary { background: #3157d5; color: #fff; }
+.gs-wrap .btn.soft { background: #eef2ff; color: #3157d5; }
+.tableWrap { overflow-x: auto; }
+.bassa-recorder { margin: 16px 0; overflow-wrap: anywhere; }
+.bassa-recorder h2 { margin-top: 0; }
+.bassa-recorder-fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 10px; }
+.bassa-recorder select { display: block; width: 100%; max-width: 100%; font: inherit; min-height: 44px; }
+.bassa-recorder-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
+.bassa-recorder-actions .btn { max-width: 100%; white-space: normal; }
+.bassa-recorder audio { display: block; width: min(100%, 320px); }
+.bassa-recorder [hidden] { display: none; }
+.bassa-recorder fieldset { min-inline-size: 0; margin: 0; padding: 0; border: 0; }
+.bassa-recorder input, .bassa-recorder textarea { display: block; box-sizing: border-box; width: 100%; min-width: 0; font: inherit; }

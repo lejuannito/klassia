@@ -41,7 +41,7 @@
    const data=await get(`${dir}data/themes/${t.id}.json`);
    for(const d of data.domains)d.activities.forEach((l,i)=>records.push(record(grade,d.name_fr,l,`${dir}?theme=${t.id}#domain:${d.id}:${i}`)));
   });
-  for(const {grade,dir} of C.classes.filter(c=>c.engine==='lessons'))for(const u of catalogs[grade].units)jobs.push(grade,async()=>{
+  for(const {grade,dir} of C.classes.filter(c=>c.engine==='lessons'&&!c.format))for(const u of catalogs[grade].units)jobs.push(grade,async()=>{
    const data=u.lessons?u:await get(`${dir}data/${u.path}`);
    for(const l of data.lessons)records.push(record(grade,l.domain,l,`${dir}#lesson:${encodeURIComponent(l.id)}`));
   });

@@ -17,7 +17,7 @@ const server=http.createServer((req,res)=>{
  await p.goto(base+'search.html');await query('les états de l’eau');
  assert.match(await p.locator('#searchResults h2').first().innerText(),/changements d’état/);
  const exact=await p.locator('#searchResults h2').allTextContents();await query("LES ETATS DE L'EAU");assert.deepEqual(await p.locator('#searchResults h2').allTextContents(),exact);
- await p.locator('#searchResults h2 a').first().click();await p.locator('.lesson-header h1').waitFor();
+ await p.locator('#searchResults h2 a').first().click();await p.locator('.lesson-card h1').waitFor();
  assert.match(p.url(),/unit=U2/);assert.match(p.url(),/#lesson:SC-U2-L5/);
  await p.locator('[data-search-return]').click();await p.locator('#searchResults li').first().waitFor();assert.equal(await p.locator('[name=q]').inputValue(),"LES ETATS DE L'EAU");
  await query('école');
@@ -28,7 +28,7 @@ const server=http.createServer((req,res)=>{
   assert.equal(new URL(p.url()).hash,target.hash);assert.equal(new URL(p.url()).searchParams.get('theme'),target.searchParams.get('theme'));
   if(['MS','GS'].includes(grade))assert.equal(await p.locator('.activityCard').count(),1);
   else if(['SIL','CE1'].includes(grade))assert.equal(await p.locator('[data-lesson]').getAttribute('data-lesson'),decodeURIComponent(target.hash.slice(8)));
-  else await p.locator('.lesson-header h1').waitFor();
+  else await p.locator('.lesson-card h1').waitFor();
   assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,grade+' mobile overflow');
   await p.locator('[data-search-return]').click();await p.locator('#searchResults li').first().waitFor();assert.equal(await p.locator('[name=grade]').inputValue(),grade);
  }
@@ -42,11 +42,11 @@ const server=http.createServer((req,res)=>{
  await p.evaluate(()=>localStorage.setItem('klassia_private_test','privéuniquexyz'));await query('privéuniquexyz');assert.equal(await p.locator('#searchResults li').count(),0);
  // A parent can open a CE2 result without the role guard redirecting to the dashboard.
  await p.goto(base);await p.locator('[data-profiles]').waitFor({state:'attached'});await p.evaluate(()=>Klassia.write('klassia_user',{role:'PARENT'}));
- await p.goto(base+'search.html?q=les+états+de+l’eau');await p.locator('#searchResults h2 a').first().click();await p.locator('.lesson-header h1').waitFor();
+ await p.goto(base+'search.html?q=les+états+de+l’eau');await p.locator('#searchResults h2 a').first().click();await p.locator('.lesson-card h1').waitFor();
  await p.locator('[data-search-return]').click();await p.locator('#searchResults li').first().waitFor();
  await p.locator('#pwaTools').filter({hasText:'disponibles hors connexion'}).waitFor();
  await ctx.setOffline(true);await p.reload();await p.locator('#searchResults li').first().waitFor();
- await p.locator('#searchResults h2 a').first().click();await p.locator('.lesson-header h1').waitFor();
+ await p.locator('#searchResults h2 a').first().click();await p.locator('.lesson-card h1').waitFor();
  await p.locator('[data-search-return]').click();await p.locator('#searchResults li').first().waitFor();
  await p.locator('[name=grade]').selectOption('');await query('école');
  for(const grade of ['MS','GS','SIL','CE1','CE2']){

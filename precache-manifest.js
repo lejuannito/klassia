@@ -1,10 +1,6 @@
 self.KLASSIA_RELEASE = {
-  "version": "e339f2e31e1a5bd12c424976f9e24979f61f3e90d784bdeed218c75692748b9c",
+  "version": "7e2b65d72777a8458f43ad40b069aa126bc5a6165b15771b4ed7af28075e7471",
   "packs": {
-    "common": {
-      "files": 71,
-      "bytes": 604690
-    },
     "CE1": {
       "files": 52,
       "bytes": 1187312
@@ -25,17 +21,16 @@ self.KLASSIA_RELEASE = {
       "files": 94,
       "bytes": 3010158
     },
+    "common": {
+      "files": 65,
+      "bytes": 517585
+    },
     "ATELIER": {
       "files": 1,
       "bytes": 714929
     }
   },
   "files": [
-    {
-      "url": "./app.js",
-      "sha256": "c13990cd6640931ba075f48e95ed449d1f02e6af9a0b68ccf19c460e215d6779",
-      "size": 47835
-    },
     {
       "url": "./assets/ce1-bandes-regle.svg",
       "sha256": "f97b4fdfe6634edc0b727600f46317a4a3df4802f65f86ac83ecd79afc799c0b",
@@ -1310,8 +1305,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./index.html",
-      "sha256": "b5bab8ee6de2ba922d441a3decac53c21764d487a392e95731ddcc4dfcfafbe3",
-      "size": 2249
+      "sha256": "fcf613d4a3b333ec4086755edb402d2731159767c9fc3098d6873ed426fce858",
+      "size": 2029
     },
     {
       "url": "./maison.html",
@@ -1464,8 +1459,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/classes.js",
-      "sha256": "966bd97493d77c706addc20eadb7e1de08052587ec5cbb77ab385aecbd589c41",
-      "size": 3754
+      "sha256": "709dbdc7b827e3e995580ea04aacdd8ade43eb4e045d21eafa5d0cfbb79eca4d",
+      "size": 3737
     },
     {
       "url": "./shared/core.js",
@@ -1504,13 +1499,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "d7f754f1add5ce8533707fb28db042390de19c5be4dd271a94935edb0236ea31",
-      "size": 41153
+      "sha256": "a3492daf7ec16e33fff2d79d4164402c0e47b9a4c47b2c924650a88121d54f27",
+      "size": 43286
     },
     {
       "url": "./shared/lesson-model.js",
-      "sha256": "f366985c2c71cd67b20128bfed6636c98b3202f45d70489b6c6889ddb08d7948",
-      "size": 7199
+      "sha256": "4c7dc61a3686a89336d464c9837e40aae72496fa263a4b4313241b5a23f821c4",
+      "size": 7279
     },
     {
       "url": "./shared/lesson-steps.js",
@@ -1584,8 +1579,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/search.js",
-      "sha256": "eabdc71c46869c2b640d9e6ef24f983a0bae7f6bb1dd2e0ec6b24eea39a1c512",
-      "size": 8690
+      "sha256": "8c2665f83334b3ba02b0982c831ba2cac2e45b52a3c3ebadf49be49cdba31705",
+      "size": 8701
     },
     {
       "url": "./shared/speech.js",
@@ -1594,8 +1589,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/style.css",
-      "sha256": "e78f425d4f0857a7fec5fbbd83ae5fe4f2878e2bfae22a9efde621ec5dafa836",
-      "size": 43890
+      "sha256": "52b8ea6857817cc27e00df1bfd315db4d02779fedd3f139fd1abfe060bb055cd",
+      "size": 45124
     },
     {
       "url": "./shared/ui.js",
@@ -1674,31 +1669,6 @@ self.KLASSIA_RELEASE = {
       "url": "./sil/style.css",
       "sha256": "7a5bd15e68d985bbe5d8d616fa9cd82dbe3d0df90bb38a42bfeb13a5aa96e3b3",
       "size": 1951
-    },
-    {
-      "url": "./style.css",
-      "sha256": "30fdda0bd20df1c6cd7146b91a23c371b332e08182693e6ec16dbd52972d46a8",
-      "size": 22353
-    },
-    {
-      "url": "./v14.css",
-      "sha256": "79f2154c4c8a504f49dc5c4d163c2f72dd55a5dfa04a1ef6b29fc5c8d14bb6ba",
-      "size": 2871
-    },
-    {
-      "url": "./v14.js",
-      "sha256": "e4a1acb8e57e7767c5fc90be0938619b1308cd086f4ad36edb6ce1463aed072f",
-      "size": 8617
-    },
-    {
-      "url": "./v9.css",
-      "sha256": "97a3814a8c821b1b5d857b3c8edc171a66d14f1471886bb82574b7ad15c4972b",
-      "size": 3496
-    },
-    {
-      "url": "./v9.js",
-      "sha256": "56f91f94af5541678d1f3d4b7b717688ab27b61d45a0e35f678d5a4c747a39eb",
-      "size": 5154
     }
   ]
 };

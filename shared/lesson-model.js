@@ -80,7 +80,7 @@
       guided: list(l.practical).map(text).filter(Boolean).join('\n'), exercise: '', answer: '',
       remediation: text(l.teacher_guide?.remediation || ''), transfer: '', materials: '',
       practice: list(l.exercises).map(e => (e.type === 'number' || (e.type === 'mcq' && e.choices)) ? e
-        : {prompt: e.prompt, answer: text(e.answer), explanation: text(e.explanation), ...(e.accept ? {accept: e.accept, reject: e.reject || []} : {})}),
+        : {id: e.id, prompt: e.prompt, answer: text(e.answer), explanation: text(e.explanation), ...(e.audio ? {audio: e.audio} : {}), ...(e.ink ? {ink: e.ink} : {}), ...(e.accept ? {accept: e.accept, reject: e.reject || []} : {})}),
       source: {title: text(l.source)}, editorial: l.editorial || {notes: ''}, manual_sections: l.manual_sections || null, figure: l.figure || null, teacher_guide: l.teacher_guide || null
     });
     return {id: entry.id, number: entry.number, title_fr: entry.title, title_en: '', subcentres: entry.subcentres, project: text(content.integration_project?.title),

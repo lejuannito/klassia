@@ -42,6 +42,7 @@ test('offline messages are translated sentence by sentence, with the names of th
   const K = load('en');
   assert.equal(K.t('La mise à jour a été interrompue. Le téléchargement de Class 1 est incomplet.'), 'The update was interrupted. The download of Class 1 is incomplete.');
   assert.equal(K.t('SIL et Class 1 disponibles hors connexion · édition 1a2b3c4d.'), 'SIL and Class 1 available offline · edition 1a2b3c4d.');
+  assert.equal(K.t('Nursery Two disponible hors connexion · édition c804776f. la Nursery One n’est pas installée hors connexion sur cet appareil.'), 'Nursery Two available offline · edition c804776f. Nursery One is not installed offline on this device.');
   assert.equal(K.t('Ajouter la Class 1 (0,2 Mo)'), 'Add Class 1 (0,2 MB)');
   assert.equal(K.t('En relecture pédagogique'), 'Under teaching review');
 });

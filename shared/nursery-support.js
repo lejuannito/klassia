@@ -50,10 +50,22 @@ function graphismSvg(themeId){
 }
 function worksheetsForTheme(p,grade,themeId){
  if(!p)return [];
- const fullSeries=grade==='GS'&&themeId==='T8';
+ const fullSeries=(grade==='GS'||grade==='NURSERY2')&&themeId==='T8';
  const numberRows=fullSeries?[p.numbers.slice(0,5),p.numbers.slice(5)]:[p.numbers.slice(-6)];
+ // Classe anglophone (Nursery One, Nursery Two) : fiches en anglais seulement, d’après les unités d’écriture du curriculum.
+ if(!p.title_fr){
+  const list=a=>a.length>2?a.slice(0,-1).join(', ')+' and '+a[a.length-1]:a.join(' and ');
+  return [
+   {id:'color',title:'🎨 I colour',instruction_en:`Colour the ${p.title_en.replace(/^the /i,'').toLowerCase()} picture. Try to stay inside the lines.`,html:drawingSvg(p.drawing)},
+   {id:'letters',title:'✍️ I form letters',instruction_en:`Trace the ${p.family_en||'letters'} ${list(p.letters)} with your finger, then with a pencil.${p.letters.some(l=>l!==l.toLowerCase())?' Small letter first, then capital letter.':''}`,html:traceLettersSvg(p.letters)},
+   {id:'numbers',title:fullSeries?'🔢 I write the numbers from 1 to 10':'🔢 I form numbers',
+    instruction_en:fullSeries?'Trace the numbers from 1 to 5, then 6 to 10. Then write the whole sequence on an empty line.':'Trace the numbers. Then say how many objects each number can show.',
+    html:numberRows.map(traceNumbersSvg).join('')},
+   {id:'graph',title:'➰ I trace patterns',instruction_en:`Trace the ${p.trace_en}. Start slowly and keep the same direction.`,html:graphismSvg(themeId)}
+  ];
+ }
  return [
-  {id:'color',title:'🎨 Je colorie',instruction_fr:`Colorie le dessin du thème « ${p.title_fr} ». Essaie de rester à l’intérieur des contours.`,instruction_en:`Colour the ${p.title_en.toLowerCase()} picture. Try to stay inside the lines.`,html:drawingSvg(p.drawing)},
+  {id:'color',title:'🎨 Je colorie',instruction_fr:`Colorie le dessin du thème « ${p.title_fr} ». Essaie de rester à l’intérieur des contours.`,instruction_en:`Colour the ${p.title_en.replace(/^the /i,'').toLowerCase()} picture. Try to stay inside the lines.`,html:drawingSvg(p.drawing)},
   {id:'letters',title:'✍️ Je forme les lettres',instruction_fr:`Repasse les lettres ${p.letters.join(' et ')} avec le doigt, puis avec un crayon.`,instruction_en:`Trace the letters ${p.letters.join(' and ')} with your finger, then with a pencil.`,html:traceLettersSvg(p.letters)},
   {id:'numbers',title:fullSeries?'🔢 J’écris les nombres de 1 à 10':'🔢 Je forme les chiffres',
    instruction_fr:fullSeries?'Repasse les modèles de 1 à 5, puis de 6 à 10. Écris ensuite toute la suite sur une ligne libre.':'Repasse les chiffres proposés. Dis ensuite combien d’objets chaque chiffre peut représenter.',

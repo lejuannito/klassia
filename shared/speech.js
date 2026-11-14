@@ -40,8 +40,27 @@
    done:'Reading finished.',
    error:'Reading unavailable. Enable or download an English text-to-speech voice in your device settings, then try again.',
    clip:'Offline Klassia clip · synthetic voice'
+  },
+  // Classe anglophone, leçon de Français : voix française, commandes en anglais (interface de la classe).
+  'fr@en': {
+   play:'🔊 Listen in French', device:'Device voice', settings:'Choose and try a voice',
+   choice:'French voice', missingShort:'no voices listed', offlineShort:'no local voices', automatic:'Automatic choice', preview:'Play a sample',
+   sample:'Bonjour. Choisis la voix que tu comprends le mieux.',
+   missing:'No French voice is listed. Enable or download a French text-to-speech voice in your device settings.',
+   missingSelection:'Your saved voice is unavailable. An available voice will be selected.',
+   offline:'No local French voice is listed for offline use.',
+   unavailable:'Device speech unavailable in this browser.',
+   searching:'Looking for a French voice…',
+   local:'on device', network:'may require a connection',
+   requested:'Reading requested in French · device voice.',
+   done:'Reading finished.',
+   error:'French reading unavailable. Enable or download a French text-to-speech voice in your device settings, then try again.',
+   clip:'Offline Klassia clip · synthetic voice', stop:'■ Stop', stopped:'Reading stopped.'
   }
  };
+ // Libellés : ceux de la langue de la voix, ou, quand l'interface de la classe est dans une autre langue, la variante voix@interface.
+ const ui = () => env?.Klassia?.lang?.();
+ const copyKey = (lang, face = ui()) => { const base = language(lang), key = face && face !== base ? base + '@' + face : base; return copy[key] ? key : base; };
  function orderedVoices(voices,lang) {
   const target=tag(lang), base=language(lang);
   const score=voice=>(tag(voice.lang)===target?4:0)+(voice.localService?2:0)+(voice.default?1:0);
@@ -60,7 +79,7 @@
   return env.navigator.onLine===false ? voices.filter(voice=>voice.localService) : voices;
  }
  function refreshPicker(picker) {
-  const lang = picker.dataset.voicePicker, t = copy[language(lang)];
+  const lang = picker.dataset.voicePicker, t = copy[picker.dataset.copy || language(lang)];
   const voices = orderedVoices(synth.getVoices(),lang);
   const usable = available(voices);
   const pref = preferences[language(lang)];
@@ -83,7 +102,7 @@
   doc.querySelectorAll('[data-voice-picker]').forEach(refreshPicker);
  }
 
- let generation=0,activeStatus=null,releaseWait=null,clearStart=null,activeClip=null;
+ let generation=0,activeStatus=null,activeCopy=null,releaseWait=null,clearStart=null,activeClip=null;
  function pauseClip() {
   activeClip?.pause();
   activeClip = null;
@@ -91,8 +110,8 @@
  function stop() {
   generation++;releaseWait?.();releaseWait=null;clearStart?.();clearStart=null;
   synth?.cancel();
-  if(activeStatus?.isConnected)activeStatus.textContent='Lecture arrêtée / Reading stopped.';
-  activeStatus=null;
+  if(activeStatus?.isConnected)activeStatus.textContent=activeCopy?.stopped||'Lecture arrêtée / Reading stopped.';
+  activeStatus=null;activeCopy=null;
  }
  function stopAll() {
   pauseClip();
@@ -110,8 +129,8 @@
  }
  async function speak(wrap,status,text,lang) {
   stopAll();
-  const token=generation, t=copy[language(lang)];
-  activeStatus=status;
+  const token=generation, t=copy[wrap.dataset.copy||language(lang)];
+  activeStatus=status;activeCopy=t;
   status.textContent=t.searching;
   await waitForVoices(lang);
   if(token!==generation||!wrap.isConnected)return;
@@ -142,11 +161,11 @@
 
  function add(container,text,lang) {
   if(!container||!text)return;
-  const base=language(lang),t=copy[base];
+  const base=language(lang),key=copyKey(lang),t=copy[key];
   if(!t)return;
   const wrap=doc.createElement('div');
   wrap.className='speech-tools';
-  wrap.lang=base;
+  wrap.lang=key.split('@')[1]||base;wrap.dataset.copy=key;
   const title=doc.createElement('p');
   title.className='speech-source';
   title.textContent=t.device;
@@ -154,7 +173,7 @@
   button.type=cancel.type='button';
   button.className='classBtn speech-control';button.dataset.speechLang=lang;
   button.textContent=t.play;
-  cancel.textContent='■ Arrêter / Stop';cancel.className='classBtn speech-stop';
+  cancel.textContent=t.stop||'■ Arrêter / Stop';cancel.className='classBtn speech-stop';
   status.className='speech-status';status.setAttribute('role','status');
   wrap.append(title,button,cancel,status);
   container.prepend(wrap);
@@ -164,7 +183,7 @@
   }
 
   const picker=doc.createElement('details');
-  picker.className='speech-picker';picker.dataset.voicePicker=lang;
+  picker.className='speech-picker';picker.dataset.voicePicker=lang;picker.dataset.copy=key;
   const summary=doc.createElement('summary'),label=doc.createElement('label'),select=doc.createElement('select');
   const preview=doc.createElement('button'),availability=doc.createElement('p');
   summary.textContent=t.settings;
@@ -185,8 +204,8 @@
 
  function clip(src,lang) {
   if(!src)return '';
-  const base=language(lang), E=env.Klassia.escape, label=copy[base].clip;
-  return '<div class="lesson-audio" lang="'+base+'"><p>'+label+'</p>'+
+  const base=language(lang), key=copyKey(lang), E=env.Klassia.escape, label=copy[key].clip;
+  return '<div class="lesson-audio" lang="'+(key.split('@')[1]||base)+'"><p>'+label+'</p>'+
    '<audio aria-label="'+label+'" controls preload="none" crossorigin="anonymous" src="'+E(src)+'"></audio></div>';
  }
  if(env) {

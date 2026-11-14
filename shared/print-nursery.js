@@ -40,16 +40,15 @@ export async function printNursery({grade,kind,unit,id,adult,get,asset}){
  const themeName=t=>EN?esc14(t.title_en):`${esc14(t.title_fr)} · <span lang="en">${esc14(t.title_en)}</span>`;
  const back='./'+directory+'?theme='+theme.id;
  const activities=d=>d.activities.map(a=>activityPrintHtml(a,d,adult,asset)).join('');
- const renderSheet=w=>`<section class="print-chapter worksheet"><h2>${esc14(w.title)}</h2><p>${esc14(w.instruction_fr)}</p><p lang="en">${esc14(w.instruction_en)}</p>${w.html}<div class="answer-lines"></div></section>`;
+ const renderSheet=w=>`<section class="print-chapter worksheet"><h2>${esc14(w.title)}</h2>${EN?'':`<p>${esc14(w.instruction_fr)}</p>`}<p lang="en">${esc14(w.instruction_en)}</p>${w.html}<div class="answer-lines"></div></section>`;
  const worksheetSet=async()=>{
-  if(EN)return [];
   const {themes}=await get(directory+'practice-v14.json');
   return worksheetsForTheme(themes[theme.id],grade,theme.id);
  };
  if(kind==='graphisme'){
   const sheets=(await worksheetSet()).filter(w=>!id||w.id===id);
-  if(!sheets.length)throw Error('Fiche de graphisme introuvable.');
-  return {title:sheets.length===1?sheets[0].title:'Cahier de graphisme',back:back+'#worksheets',adultVariant:false,body:sheets.map(renderSheet).join('')};
+  if(!sheets.length)throw Error(EN?'Workbook sheet not found.':'Fiche de graphisme introuvable.');
+  return {title:sheets.length===1?sheets[0].title:(EN?'Writing workbook':'Cahier de graphisme'),back:back+'#worksheets',adultVariant:false,body:sheets.map(renderSheet).join('')};
  }
  if(kind==='theme'){
   const sheets=await worksheetSet();

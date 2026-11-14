@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "03b8ef65fcb4193c77c5a93477ffe3e08d9f94720fee660d69ab76e88cb17d1c",
+  "version": "3c54c49c66b8aaecbe2d547509ca4b03f5968549b438c3b4a5f84d84a592b4a7",
   "packs": {
     "CE1": {
       "files": 52,
@@ -23,7 +23,7 @@ self.KLASSIA_RELEASE = {
     },
     "common": {
       "files": 71,
-      "bytes": 585200
+      "bytes": 587117
     },
     "CLASS1": {
       "files": 8,
@@ -42,12 +42,12 @@ self.KLASSIA_RELEASE = {
       "bytes": 1122507
     },
     "NURSERY1": {
-      "files": 8,
-      "bytes": 143240
+      "files": 9,
+      "bytes": 145125
     },
     "NURSERY2": {
-      "files": 8,
-      "bytes": 140808
+      "files": 9,
+      "bytes": 143253
     }
   },
   "files": [
@@ -1630,6 +1630,12 @@ self.KLASSIA_RELEASE = {
       "size": 1297
     },
     {
+      "url": "./nursery1/practice-v14.json",
+      "sha256": "73fa0450084645f7ade043c702cd0fc1e59198979a3d99e401e79a3aebfe0fa6",
+      "size": 1885,
+      "pack": "NURSERY1"
+    },
+    {
       "url": "./nursery2/data/catalog.json",
       "sha256": "fbf9df06411c3775917cbed303dc0ef4f1dda29f2c8825bd8d907713ca13b354",
       "size": 2305
@@ -1686,6 +1692,12 @@ self.KLASSIA_RELEASE = {
       "url": "./nursery2/index.html",
       "sha256": "7f58b1d3e5834a30321df278a59a4a190d51fead9cc64e2eb7fc0264a8361b99",
       "size": 1297
+    },
+    {
+      "url": "./nursery2/practice-v14.json",
+      "sha256": "b3868952962273df71328e1141ecc48a42e30e91be4cd80c3d83953d0443e952",
+      "size": 2445,
+      "pack": "NURSERY2"
     },
     {
       "url": "./outils.html",
@@ -1759,8 +1771,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/i18n.js",
-      "sha256": "cc09ea5e0af809cabb5eec475a3da834c44b101ac7ef644c9fc7e6b425eb76aa",
-      "size": 30894
+      "sha256": "4b0bf809da195074d2d6d5729f7fac334a917ec7863bbd1c18e23ce8d34dde46",
+      "size": 30897
     },
     {
       "url": "./shared/ink.js",
@@ -1799,8 +1811,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/nursery-support.js",
-      "sha256": "0f646429b34dab1583333ee543c9290c348272258f8fea94a0202ea825a59761",
-      "size": 7607
+      "sha256": "6cc5bf6df9f85e6214938f717630e19e0d0ff73559d6bc72207125fe530972b5",
+      "size": 8870
     },
     {
       "url": "./shared/nursery.css",
@@ -1809,8 +1821,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/nursery.js",
-      "sha256": "f87fd57b78d7b45e1dc6e631dcc06983eef6f63b0ca30d26b439482a0d46b20e",
-      "size": 28012
+      "sha256": "8ecc134e7ff9a2e10d91121fc5c6b4a7e1f8495b28eee1a484f5549f4e3c4197",
+      "size": 28616
     },
     {
       "url": "./shared/pilot.css",
@@ -1834,8 +1846,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/print-nursery.js",
-      "sha256": "c9549a8de4b9474ea9ad3d3527473735a0815330e76b2c3afd07aabd248a6b02",
-      "size": 6508
+      "sha256": "85ddbbc1c10984989820147a60cb272c2d218e2e9af80af6a5b6ebaecedcb6fa",
+      "size": 6555
     },
     {
       "url": "./shared/print-page.js",

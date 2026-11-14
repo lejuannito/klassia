@@ -197,7 +197,7 @@ const PATTERNS = [
  [/^(\d+) en cours$/, '$1 in progress'],
  [/^(.+) disponibles? hors connexion · édition (\w+)\.$/, (m, list, code) => list.replace(/ et /g, ' and ') + ' available offline · edition ' + code + '.'],
  [/^Le téléchargement de (.+) est incomplet\.$/, (m, list) => 'The download of ' + list.replace(/ et /g, ' and ') + ' is incomplete.'],
- [/^(?:la )?(.+) n’est pas installée hors connexion sur cet appareil\.$/, '$1 is not installed offline on this device.'],
+ [/^(?:la )?([^.]+) n’est pas installée hors connexion sur cet appareil\.$/, '$1 is not installed offline on this device.'],
  [/^Ajouter (?:la )?(.+) \((.+) Mo\)$/, 'Add $1 ($2 MB)'], [/^Préparation de (.+) hors connexion…$/, 'Preparing $1 for offline use…'],
  [/^La base commune \((.+) Mo\) est toujours installée\.$/, 'The common base ($1 MB) is always installed.'],
  [/^(.+) Mo$/, '$1 MB'], [/^(\d+) à revoir$/, '$1 to look at again'],

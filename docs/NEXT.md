@@ -1,6 +1,6 @@
 # Klassia — prochain travail
 
-_Mise à jour le 13 novembre 2026_
+_Mise à jour le 14 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
 
@@ -125,6 +125,10 @@ Les trois correctifs sont fusionnés. Les essais Android et iPhone se comparent 
 - Ouvrir une fiche A4 depuis l’icône et essayer l’impression ou l’export PDF. En cas de difficulté, essayer la même fiche dans Chrome ou Safari. [Impression](https://github.com/lejuannito/klassia/issues/35)
 - Vérifier dans les cinq classes que le corrigé s’ouvre après une tentative, puis vérifier l’accès direct dans un espace adulte. [Corrigés](https://github.com/lejuannito/klassia/issues/36)
 - Comparer les extraits fixes et les voix de l’appareil sur la tablette qui a posé problème, sur Android et sur iPhone. Relever la compréhension et les mots mal prononcés. [Voix FR/EN](https://github.com/lejuannito/klassia/issues/37) · [Carnet du pilote](GUIDE_PILOTE.md)
+
+## Cahier d’écriture de Nursery One et Nursery Two (14 novembre 2026)
+
+Les deux classes de maternelle anglophones ont maintenant leur cahier tactile et imprimable, comme la MS et la GS : par thème, coloriage, lettres, nombres et graphisme, en anglais seulement (`nursery1/practice-v14.json`, `nursery2/practice-v14.json`). Les fiches sont originales et suivent les unités d’écriture du curriculum de 2018 (cités, non reproduits) : en Nursery One, graphismes, lettres minuscules et nombres de 1 à 5 (tableau 18, p. 43 ; tableau 20, p. 45) ; en Nursery Two, familles de lettres (long rabbit, one-armed robot, zigzag, curly caterpillar, long ladder), minuscules et capitales, et nombres de 1 à 10 avec la suite complète au thème 8 (tableau 37, p. 64 ; tableau 39, p. 66). La page du cahier rappelle ces références et que les fiches sont à relire par des enseignants de maternelle. `scripts/validate.mjs` vérifie les deux cahiers (thèmes, anglais seul, lettres, plage des nombres, références). Au passage : la consigne anglaise du coloriage de la MS et de la GS ne dit plus « Colour the the school picture », et le bandeau hors connexion d’une classe anglophone ne garde plus « la » devant le nom d’une classe non installée.
 
 ## Commandes de lecture des leçons de Français en classe anglophone (14 novembre 2026)
 

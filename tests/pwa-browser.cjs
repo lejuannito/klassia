@@ -646,7 +646,7 @@ async function testOfflineClasses(browser, base) {
     await page.goto(base);
     // On language-first entry, offline controls are prepared but shown after the welcome.
     await status.getByText(/choisissez la classe de votre enfant/).waitFor({state:'attached'});
-    await status.getByRole('button', { name: 'Installer toutes les classes' }).waitFor({state:'attached'});
+    await status.getByRole('button', { name: 'Installer toutes les classes', includeHidden:true }).waitFor({state:'attached'});
     assert.equal(await page.evaluate(async () => Boolean(await navigator.serviceWorker.getRegistration())), false);
 
     // A class page installs the common files and that class.

@@ -15,14 +15,16 @@ Le porteur a autorisé la poursuite et la publication sur le dépôt public jusq
 | R5 — écriture | 80 modèles courts originaux ; script/cursive FR/EN embarquée ; lignages, dictée masquée et impression sans réponse pour la fiche dictée |
 | R6 — audio | longues lectures segmentées sans perte de mots ; 95 scripts de prise avec empreintes ; enregistreur et publication Bassa existants conservés |
 | R7 — revue | décision locale liée à la version du contenu de l’unité ; modification ou ancien avis sans empreinte = à relire ; export version 2 |
-| R8 — candidate | version 15.1.0-rc.1 ; diagnostic navigateur exportable ; information sur les données ; paquet statique Cloudflare ; recette automatisée en cours |
+| R8 — candidate | version 15.1.0-rc.1 ; diagnostic navigateur exportable ; information sur les données ; paquet statique Cloudflare ; recette automatisée par GitHub Actions |
 
 Il s’agit d’une **candidate technique pour la revue et le pilote**, pas d’une édition scolaire homologuée. Les 1 593 ressources demeurent en relecture. Aucun avis nominatif ni enregistrement humain n’a été fabriqué.
 
-## À terminer dans la séquence technique
+## Critères de livraison de la candidate
 
-1. Obtenir l’ensemble des contrôles GitHub verts et vérifier le paquet de publication.
-2. Finaliser la PR et publier la candidate, avec ses limites et la procédure de retour.
+1. Ensemble des contrôles GitHub verts et paquet de publication vérifié.
+2. PR #125 fusionnée et candidate publiée, avec ses limites et la procédure de retour.
+
+Une fois ces critères satisfaits, le lot autonome R1–R8 est clos. Le prochain lot porte sur le passage en privé, puis sur la revue et le pilote ; ne pas inventer d’avis pédagogique pour clore la candidate technique.
 
 ## Après la candidate
 

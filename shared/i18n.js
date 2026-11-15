@@ -21,6 +21,9 @@ K.lang = lang;
 
 // Libellés exacts (texte d'un nœud, sans les espaces autour).
 const EN = {
+ 'Données et confidentialité / Data information':'Data information',
+ 'Diagnostic navigateur / Browser diagnostics':'Browser diagnostics',
+ '✍️ Copie et dictée / Copying and dictation':'✍️ Copying and dictation',
  // En-tête, navigation de la classe, barre d'onglets
  'Accueil': 'Home', 'Apprendre': 'Learn', 'Semaine': 'Week', 'Réviser': 'Revise', 'Suivi': 'Progress',
  'Revue': 'Review', 'Bassa': 'Bassa',

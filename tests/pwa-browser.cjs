@@ -57,7 +57,7 @@ const server = http.createServer((request, response) => {
       ? pathname.slice(0, -'index.html'.length)
       : name.endsWith('.html') ? pathname.slice(0, -'.html'.length) : '';
     if (canonical) return response.writeHead(308, { Location: canonical + url.search }).end();
-    if (['pilote', 'search', 'imprimer', 'outils', 'maison'].includes(name)) name += '.html';
+    if (['pilote', 'search', 'imprimer', 'outils', 'maison', 'ecriture', 'diagnostic', 'confidentialite'].includes(name)) name += '.html';
   }
   if (name === '' || name.endsWith('/')) name += 'index.html';
   const file = path.resolve(root, name);
@@ -641,8 +641,9 @@ async function testOfflineClasses(browser, base) {
 
     // Entry page, class still unknown: nothing is downloaded until the family chooses.
     await page.goto(base);
-    await status.getByText(/choisissez la classe de votre enfant/).waitFor();
-    await status.getByRole('button', { name: 'Installer toutes les classes' }).waitFor();
+    // On language-first entry, offline controls are prepared but shown after the welcome.
+    await status.getByText(/choisissez la classe de votre enfant/).waitFor({state:'attached'});
+    await status.getByRole('button', { name: 'Installer toutes les classes' }).waitFor({state:'attached'});
     assert.equal(await page.evaluate(async () => Boolean(await navigator.serviceWorker.getRegistration())), false);
 
     // A class page installs the common files and that class.

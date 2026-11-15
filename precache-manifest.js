@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "1c0415d45c5f8171a61d69a35c39b4d8bf4d8720f2a3d88d75001da8909efd87",
+  "version": "941d4ac89ca4abdea8e9bb4f8b7146389cf55d6f2f2d83d918bf340c474e9620",
   "packs": {
     "common": {
       "files": 81,
-      "bytes": 1336279
+      "bytes": 1336503
     },
     "CE1": {
       "files": 52,
@@ -1821,8 +1821,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/i18n.js",
-      "sha256": "a832bd9866dc0c6f52d697478823486a0fa68ebb46045fc165eeed42236ec215",
-      "size": 32894
+      "sha256": "3b21b7bf7bbb16bd8877e6df3505ac824fbb7e9961fc37ae1edd38e81b0c9252",
+      "size": 33118
     },
     {
       "url": "./shared/ink.js",

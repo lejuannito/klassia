@@ -16,7 +16,7 @@ try{
  document.getElementById('writingGuides').onchange=e=>{guides=e.target.checked;root.querySelector('.writing-lines').dataset.guides=String(guides);};
  document.getElementById('writingPrint').onclick=async()=>{await document.fonts.ready;window.print();};
  if(mode==='dictation'){
- K.addSpeech(document.getElementById('dictationAudio'),m.dictation,en?'en-GB':'fr-FR');
+ K.speech.add(document.getElementById('dictationAudio'),m.dictation,en?'en-GB':'fr-FR');
  document.getElementById('writingReveal').onclick=()=>{root.querySelector('.writing-model').hidden=false;document.getElementById('writingStatus').textContent=en?'Compare words, capitals, spacing and punctuation with an adult. This is not automatic handwriting assessment.':'Compare les mots, les majuscules, les espaces et la ponctuation avec un adulte. L’écriture manuscrite n’est pas évaluée automatiquement.';};
  }
  }

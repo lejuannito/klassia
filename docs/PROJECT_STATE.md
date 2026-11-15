@@ -18,7 +18,7 @@ Klassia est un manuel interactif camerounais en **édition pilote accompagnée**
 - Nursery One et Nursery Two : 96 activités chacune, avec cahier tactile et imprimable.
 - Class 1, Class 3 et Class 4 : 128 leçons chacune ; parcours anglophones distincts, encore en relecture.
 
-L’inventaire consolidé compte 1 593 ressources. Les statuts éditoriaux ne constituent pas une validation nominative. La matrice historique suit 70 repères examinés ; son approfondissement anglophone fait partie du lot R3. [Matrice des repères](MATRICE_CURRICULUM.csv)
+L’inventaire consolidé compte 1 593 ressources. Les statuts éditoriaux ne constituent pas une validation nominative. La matrice historique suit 70 repères examinés ; la matrice anglophone recense les 576 ressources et leurs objectifs/références proposés, sans certifier une couverture exhaustive. [Matrice des repères](MATRICE_CURRICULUM.csv)
 
 ## État fonctionnel notable
 
@@ -27,8 +27,13 @@ L’inventaire consolidé compte 1 593 ressources. Les statuts éditoriaux ne co
 - sauvegarde JSON du profil actif pour les dix classes, réglages et mots écrits de la langue de la maison ; import dans un nouveau profil (choix initial), complément des entrées distinctes ou remplacement explicite, avec annulation ; dessins, prises audio et relevés éditoriaux/pilote exclus de ce JSON ;
 - demande de persistance dans l’espace des profils, avec état accordé/refusé/indisponible et sauvegarde manuelle toujours disponible ;
 - exercices à étiquettes identiques corrigés par leur libellé, QCM mélangés sans changer l’identité des réponses ; signes conservés et séparateurs numériques adaptés à la langue ;
-- revue éditoriale accessible et exportable ;
-- fonctionnement hors connexion avec contrôle d’intégrité du précache, téléchargeable classe par classe (base commune 0,5 Mo, puis 0,4 à 3 Mo par classe) ;
+- revue éditoriale accessible et exportable, décisions rattachées à une empreinte de l’unité, à renouveler après modification ;
+- accueil de première visite FR/EN avant chargement des leçons ;
+- 24 projets d’intégration anglophones et 16 projets Nursery avec déroulement et observations ; 34 séquences MS explicitées en français et en anglais ;
+- 80 modèles courts de copie/dictée avec polices cursives intégrées, lignages et impression ;
+- longues lectures FR/EN segmentées, 95 scripts de prise préparés, sans avis vocal fictif ;
+- diagnostic technique exportable et information sur les données accessibles depuis les outils ;
+- fonctionnement hors connexion avec contrôle d’intégrité du précache, téléchargeable classe par classe (base commune environ 1,35 Mo, puis 0,4 à 3 Mo par classe) ;
 - lecture optionnelle FR/EN via les voix disponibles sur l’appareil et 126 extraits MP3, principalement pour la SIL et le CE1 ;
 - absence volontaire de synthèse vocale bassa avec voix FR/EN ;
 - 45 panneaux de traductions bassa dans les cinq classes ;

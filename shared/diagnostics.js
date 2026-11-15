@@ -1,0 +1,13 @@
+(()=>{'use strict';let report=null;const $=id=>document.getElementById(id);
+async function collect(){
+ $('diagnosticStatus').textContent='Collecte locale… / Collecting locally…';$('exportDiagnostics').disabled=true;
+ const safely=async fn=>{try{return await fn();}catch(e){return {unavailable:e.name};}};
+ const registration=await safely(()=>navigator.serviceWorker?.getRegistration(new URL('./',location.href).href));
+ const storage=await safely(()=>navigator.storage?.estimate()),persisted=await safely(()=>navigator.storage?.persisted());
+ let worker=null;
+ if(registration?.active)worker=await new Promise(resolve=>{const channel=new MessageChannel();const timeout=setTimeout(()=>{channel.port1.close();resolve(null);},2500);channel.port1.onmessage=e=>{clearTimeout(timeout);channel.port1.close();resolve(e.data);};registration.active.postMessage({type:'OFFLINE_STATUS'},[channel.port2]);});
+ const probe=await safely(async()=>{const start=performance.now(),r=await fetch('./manifest.webmanifest',{cache:'no-store',signal:AbortSignal.timeout(5000)});return {status:r.status,elapsed_ms:Math.round(performance.now()-start),note:'May be served by the service worker; not proof of origin reachability.'};});
+ report={format:'klassia-technical-diagnostics',version:1,at:new Date().toISOString(),origin:location.origin,browser:navigator.userAgent,language:navigator.language,online_hint:navigator.onLine,secure_context:isSecureContext,display_mode:matchMedia('(display-mode: standalone)').matches?'standalone':'browser',viewport:{width:innerWidth,height:innerHeight},capabilities:{service_worker:'serviceWorker'in navigator,indexed_db:'indexedDB'in window,media_recorder:'MediaRecorder'in window,speech:'speechSynthesis'in window},voices:(window.speechSynthesis?.getVoices()||[]).map(v=>({language:v.lang,local:v.localService})),storage:{usage:storage?.usage??null,quota:storage?.quota??null,persisted:persisted??null},worker:registration?.active?{state:registration.active.state,controlled:Boolean(navigator.serviceWorker?.controller),release:worker?.version||worker?.release||null,ready:worker?.ready??null}:null,manifest_response:probe};
+ $('diagnosticOutput').textContent=JSON.stringify(report,null,2);$('exportDiagnostics').disabled=false;$('diagnosticStatus').textContent='Relevé prêt, conservé dans cette page. / Report ready, kept on this page.';
+}
+$('refreshDiagnostics').onclick=collect;$('exportDiagnostics').onclick=()=>{if(!report)return;const url=URL.createObjectURL(new Blob([JSON.stringify(report,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='Klassia-diagnostic-'+new Date().toISOString().slice(0,10)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};collect();})();

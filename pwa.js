@@ -16,6 +16,7 @@
   installButton.hidden = true;
   bar.append(description, button, installButton);
   root.append(bar);
+  const help=document.createElement('a');help.href=new URL('diagnostic.html',base).href;help.textContent='Diagnostic / Help';help.className='offline-help';root.append(help);
 
   // Téléchargement par classe (lot 9c). Le choix vaut pour l'appareil (clé brute, hors profils et hors sauvegarde). Le service
   // worker le reçoit dans son adresse d'inscription, puis par message ; la page ne touche jamais au cache elle-même.

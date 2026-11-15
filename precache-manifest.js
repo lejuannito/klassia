@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "af6baae167e0817c6630980a4fafda3c6b40b6872b9534442cd3086d4b882c8d",
+  "version": "1c0415d45c5f8171a61d69a35c39b4d8bf4d8720f2a3d88d75001da8909efd87",
   "packs": {
     "common": {
-      "files": 78,
-      "bytes": 1327361
+      "files": 81,
+      "bytes": 1336279
     },
     "CE1": {
       "files": 52,
@@ -15,7 +15,7 @@ self.KLASSIA_RELEASE = {
     },
     "MS": {
       "files": 14,
-      "bytes": 419804
+      "bytes": 440631
     },
     "GS": {
       "files": 17,
@@ -1288,6 +1288,11 @@ self.KLASSIA_RELEASE = {
       "size": 1551
     },
     {
+      "url": "./confidentialite.html",
+      "sha256": "2475b71b6244d72da42f0cf64a3bab0f3a235881351a64769b14134e6872b2ac",
+      "size": 3772
+    },
+    {
       "url": "./data/bassa-ecriture.json",
       "sha256": "de4628dd5ef8e3d104b4b70c3f8104dc234d2f2fe4ce7c8b0bd870516497323b",
       "size": 3845
@@ -1363,7 +1368,7 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "d9fb4a4789a9463bf6784bde445253af8ecdf86a5dc87e25a3d96535e87fbda4",
+      "sha256": "cdead8c2916b854e2a27bd1c053cb089865ac40bb01deeb196ec63f57f7215b4",
       "size": 1281959,
       "pack": "ATELIER"
     },
@@ -1436,6 +1441,11 @@ self.KLASSIA_RELEASE = {
       "url": "./data/writing-models.json",
       "sha256": "272176e9bb602be15bc77f32fcb30d14dbbb2d71ec68d1e615fed777990c7246",
       "size": 26170
+    },
+    {
+      "url": "./diagnostic.html",
+      "sha256": "70e1d4b45f05806ef36d08c1e7d77aea7619bd2d7c720a8da2614f0ae0e9d180",
+      "size": 2041
     },
     {
       "url": "./ecriture.html",
@@ -1529,8 +1539,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./manifest.webmanifest",
-      "sha256": "1b1a31cfbbd1c26b10aee96b37fb43a5f6b6fb5f458c90c74364177c860a523c",
-      "size": 1672
+      "sha256": "b16d8dae353ebabc9ce06707aa108a2a630534271a08be5e5a6b6ab635b35ead",
+      "size": 1684
     },
     {
       "url": "./ms/data/catalog-v13.json",
@@ -1539,50 +1549,50 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ms/data/themes/T1.json",
-      "sha256": "48eb633e81162687c6ebe262a2c1f39658e8a429e565a928a2e1d114fd87a246",
-      "size": 69179,
+      "sha256": "e53a8a42c6b198ef1511e2b96be6272b4c46d3d6e05956f36498b1c4ae4a53c6",
+      "size": 71026,
       "pack": "MS"
     },
     {
       "url": "./ms/data/themes/T2.json",
-      "sha256": "e75d2dd0b7ddbd17d1ba86bee033899c553cb8b0ae659d57263a0760326d474b",
-      "size": 46676,
+      "sha256": "ff72781fec614af0ef18f171930a2ffefdf0ad02296c8c40bfaa3cfde9e900ad",
+      "size": 47936,
       "pack": "MS"
     },
     {
       "url": "./ms/data/themes/T3.json",
-      "sha256": "e37c4a26fc6350f778e15d56f23c78ddc5fe9be1c7726e6715f36519bc3e464c",
-      "size": 44661,
+      "sha256": "6bb4d28e96fa257ef583e2b947b98fd9a9a4ca56d2f1d363f84a0bde3eee81cc",
+      "size": 47692,
       "pack": "MS"
     },
     {
       "url": "./ms/data/themes/T4.json",
-      "sha256": "02c9905109aea22e53224d0930f6643312365cf06c4b2043c889b6d213ad619d",
-      "size": 48947,
+      "sha256": "0dbc8b4b21911312e087dba6346f09789b3d18f38cb1db3bf69b13d2e7b2a192",
+      "size": 50837,
       "pack": "MS"
     },
     {
       "url": "./ms/data/themes/T5.json",
-      "sha256": "dd8ad9d23fd771ec3c10d31c5a3cb06d73ed4cc357d0812fefb35de8c1665d17",
-      "size": 44407,
+      "sha256": "904dc07caf7e13fe57fa8ba57104a3aaa6d76b7bc33e54df8590b0d62b30177f",
+      "size": 47390,
       "pack": "MS"
     },
     {
       "url": "./ms/data/themes/T6.json",
-      "sha256": "78b26cf6bd5aa8e2c4fca53bed2dc85ef4539b06cd9c168468abf2404de1a2f7",
-      "size": 43490,
+      "sha256": "46e4a248d96c45e7a8d40075ad404cc6d848d280f0162a5abe9991d6bf218565",
+      "size": 47826,
       "pack": "MS"
     },
     {
       "url": "./ms/data/themes/T7.json",
-      "sha256": "9f93da232c822f70e00b43b2f628379e8416d731e68b882447268817ccabb89e",
-      "size": 45141,
+      "sha256": "3f1a42cca0f1773f1c16aef4b292f93fc4371ed92371b6429cd5cf930c1ee6a9",
+      "size": 48090,
       "pack": "MS"
     },
     {
       "url": "./ms/data/themes/T8.json",
-      "sha256": "09edcdcb55479f9b2096043eab5cc1020d5d1005e464d5d2b3baae3d7b390f17",
-      "size": 45166,
+      "sha256": "0e34e550bf53dfceb6601ac7abae2f8715cc9b371794e0a891a55a98771da7df",
+      "size": 47697,
       "pack": "MS"
     },
     {
@@ -1726,8 +1736,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./outils.html",
-      "sha256": "f473fcdc557b59814014165e1cb5c1d9d26ad0c7d818f0a6fc335a09e7965404",
-      "size": 4384
+      "sha256": "b5966444b3c1fcc83fd7fe3bd7107b5316fe476973ebb64f51e5a425badaa45b",
+      "size": 4554
     },
     {
       "url": "./pilote.html",
@@ -1736,8 +1746,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./pwa.js",
-      "sha256": "d5f507ca699dd2b1d9948d888ca1269aee296bec56ff1ca736a2065b6a932abc",
-      "size": 14623
+      "sha256": "38340c58b8db27a7da3bd2f8658c1192ba65cca716468a22a52d6a05b8345207",
+      "size": 14797
     },
     {
       "url": "./search.html",
@@ -1780,6 +1790,11 @@ self.KLASSIA_RELEASE = {
       "size": 7037
     },
     {
+      "url": "./shared/diagnostics.js",
+      "sha256": "f90522e1e1334b4efce40eb2ec00befdcdf7ec7ecd72b769afac1386bf72f7e2",
+      "size": 2748
+    },
+    {
       "url": "./shared/encouragement.js",
       "sha256": "b36313abe36c23075f4a552ab58248743da85b16fc8da8fab0b09438a0eeae3d",
       "size": 2191
@@ -1796,8 +1811,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/handwriting.js",
-      "sha256": "273dd2a7fd39d737ac2f8fe74f9c47df37ef33b88cee046c54cfc39d516da4a7",
-      "size": 5604
+      "sha256": "af241e26e0bdd6513e3f3d9e8781ae753e2d0663b0975e10dd54051b8f9582c6",
+      "size": 5605
     },
     {
       "url": "./shared/home-language.js",

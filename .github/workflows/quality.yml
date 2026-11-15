@@ -24,6 +24,22 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('package.json') }}
       - run: npx playwright install chromium
-      - run: npm run test:browser
-      - run: npm run test:gs && npm run test:speech
+      - run: npm run test:reliability
+      - run: node tests/candidate-browser.cjs
+        if: ${{ !cancelled() }}
+      - run: node tests/browser.cjs
+        if: ${{ !cancelled() }}
+      - run: node tests/pwa-browser.cjs
+        if: ${{ !cancelled() }}
+      - run: npm run test:gs
+        if: ${{ !cancelled() }}
+      - run: npm run test:speech
+        if: ${{ !cancelled() }}
       - run: npm run test:search
+        if: ${{ !cancelled() }}
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: candidate-browser-previews
+          path: test-results/
+          if-no-files-found: ignore

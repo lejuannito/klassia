@@ -1,8 +1,25 @@
 # Klassia — prochain travail
 
-_Mise à jour le 14 novembre 2026_
+_Mise à jour le 15 novembre 2026_
 
 Ce fichier sert de **file d’attente courte** pour les prochaines sessions. Il ne remplace pas `docs/TRAJECTOIRE.md`.
+
+## Priorités après l’analyse du 15 novembre
+
+La préparation des contenus et les développements autonomes avancent avant la mobilisation des relecteurs. La validation pédagogique reste distincte de la recette technique et conditionne la présentation d’un contenu comme validé.
+
+1. **R1 — exercices et sauvegardes** : étiquettes identiques interchangeables, QCM mélangés avec réponses stables, signes numériques et milliers selon la langue ; sauvegarde des dix classes et réglages ; import dans un nouveau profil, complément ou remplacement explicite ; demande de persistance, refus géré et sauvegarde manuelle maintenue. Les dessins, prises sonores, décisions éditoriales et relevés du pilote restent hors de ce JSON ; les exports spécialisés sont conservés.
+2. **R2 — affichage et navigation** : cohérence des dix classes, entrée FR/EN, vues enfant/adulte et défauts mobiles. Diagnostic des incidents Chrome et d’impression sur appareils réels.
+3. **R3 — contenus anglophones** : matrice des attendus de Nursery One/Two et Class 1/3/4, lacunes par unité, exemples, exercices, remédiations et activités d’intégration préparés pour la revue.
+4. **R4 — corrections éditoriales transversales** : contenus génériques ou incomplets, consignes, explications et corrigés des dix classes.
+5. **R5 — copie et dictée** : prototype de modèles d’écriture scolaire, lignages et impression ; modèles et progression à confirmer par les enseignants des deux sous-systèmes.
+6. **R6 — audio** : segmentation et outils de prise/publication, échantillons ; enregistrements définitifs après stabilisation des textes et relecture des prononciations.
+7. **R7 — préparation de la revue** : atelier existant, unités complètes, décisions rattachées aux versions ; aucune validation nominative fictive.
+8. **R8 — version candidate** : recette technique, puis premier parcours relu et pilote familles ; diffusion Android ensuite. Compte adulte facultatif et synchronisation restent séparés de cette première édition.
+
+R1 est implémenté sur la branche `codex/fiabilite-exercices-sauvegardes` : 66 tests Node réussis, validation et build exécutés. La suite `npm run test:reliability`, ajoutée au parcours navigateur, doit être exécutée par la CI puisque Chromium ne démarre pas dans l’environnement local. Le 15 novembre, le porteur autorise explicitement la poursuite et la publication sur le dépôt public jusqu’à la version candidate ; la bascule en privé viendra ensuite. Les lots suivants avancent sans attendre une relecture externe, en conservant leur statut éditorial.
+
+Le code propriétaire et le dépôt privé sont les orientations retenues par le porteur. Leur mise en place doit préserver le déploiement et les accès autorisés ; ce lot ne change pas la visibilité du dépôt. Le portage personnel ou par la SARL reste à formaliser. CP et Class 2 ne dépendent pas du lancement iOS ; leur ouverture suivra la capacité éditoriale.
 
 ## État des lots
 

@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "3c54c49c66b8aaecbe2d547509ca4b03f5968549b438c3b4a5f84d84a592b4a7",
+  "version": "663295e84d8c3ad59bb8579937b8c0244e8ec4376844745b7ff23f5ca12c29e8",
   "packs": {
     "CE1": {
       "files": 52,
@@ -23,7 +23,7 @@ self.KLASSIA_RELEASE = {
     },
     "common": {
       "files": 71,
-      "bytes": 587117
+      "bytes": 595832
     },
     "CLASS1": {
       "files": 8,
@@ -1746,13 +1746,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/core.js",
-      "sha256": "c6fcce0c257d06fb47a48a74b1d43b3e3ce86708ef6f0e0886227f045d4f6f37",
-      "size": 11754
+      "sha256": "59c3e5ef287a63e8a3690da9080395c97005814f610c742aef39fe2cefbacfd3",
+      "size": 15395
     },
     {
       "url": "./shared/correction.js",
-      "sha256": "40d5f3b4507de366121f02c7d2865df98e4c978fd841cb051133545a4b58eb82",
-      "size": 7001
+      "sha256": "7055c0e39833684ab1dd5860ae4c10d3a6f8e001a5e1c145af050b8b5738215b",
+      "size": 7037
     },
     {
       "url": "./shared/encouragement.js",
@@ -1761,8 +1761,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/exercises.js",
-      "sha256": "9f90615e376658594aa06c595227ba09769e1aeae2320fdee326e940e1b5c8a7",
-      "size": 8301
+      "sha256": "59409228de709d815a287dca0f03d42398ce6847ebdf2e93b9e59b74b959dcbb",
+      "size": 8431
     },
     {
       "url": "./shared/home-language.js",
@@ -1771,8 +1771,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/i18n.js",
-      "sha256": "4b0bf809da195074d2d6d5729f7fac334a917ec7863bbd1c18e23ce8d34dde46",
-      "size": 30897
+      "sha256": "a832bd9866dc0c6f52d697478823486a0fa68ebb46045fc165eeed42236ec215",
+      "size": 32894
     },
     {
       "url": "./shared/ink.js",
@@ -1901,8 +1901,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/ui.js",
-      "sha256": "01fc9a91280851d961a81f2e7ab55f29396c59f2dd90c97250ffab843854f780",
-      "size": 35457
+      "sha256": "20d668d43e36f92735eaffe52418e7cbeeeaf65903c7bc210c69b8aabb8529c7",
+      "size": 38368
     },
     {
       "url": "./shared/week.js",

@@ -48,7 +48,7 @@ function accept(panel, verdict = '') {
 function check(panel, text) {
  let rule;
  try { rule = JSON.parse(panel.dataset.check); } catch { return ''; }
- const verdict = K.matchAnswer(text, rule);
+ const verdict = K.matchAnswer(text, {...rule, lang:panel.dataset.correction});
  panel.dispatchEvent(new CustomEvent('klassia:answer-checked', {bubbles:true, detail:{record:panel.dataset.record, verdict}}));
  return verdict;
 }

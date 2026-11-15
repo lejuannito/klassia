@@ -8,7 +8,7 @@
 // Pages communes (recherche, outils, langue de la maison, impression) : elles ne sont dans aucun dossier de classe.
 // Leur langue vient de la classe de la fiche (?classe=), sinon du lien suivi depuis une classe anglophone (?lang=en),
 // sinon de la classe choisie par la famille à l'accueil (klassia_family). Par défaut, le français.
-const COMMON = /\/(?:search|outils|maison|imprimer)(?:\.html)?$/;
+const COMMON = /\/(?:search|outils|maison|imprimer|ecriture)(?:\.html)?$/;
 const isCommon = () => typeof location === 'object' && COMMON.test(location.pathname);
 function lang() {
  if (!isCommon()) return K.currentClass?.()?.language || 'fr';
@@ -21,6 +21,7 @@ K.lang = lang;
 
 // Libellés exacts (texte d'un nœud, sans les espaces autour).
 const EN = {
+ 'Diagnostic / Help':'Browser diagnostics',
  'Données et confidentialité / Data information':'Data information',
  'Diagnostic navigateur / Browser diagnostics':'Browser diagnostics',
  '✍️ Copie et dictée / Copying and dictation':'✍️ Copying and dictation',

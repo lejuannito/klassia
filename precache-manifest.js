@@ -1,9 +1,9 @@
 self.KLASSIA_RELEASE = {
-  "version": "941d4ac89ca4abdea8e9bb4f8b7146389cf55d6f2f2d83d918bf340c474e9620",
+  "version": "a886c64d1e398849056104ec63cc662f88410467279067042c18125323be3a24",
   "packs": {
     "common": {
       "files": 81,
-      "bytes": 1336503
+      "bytes": 1337592
     },
     "CE1": {
       "files": 52,
@@ -1449,8 +1449,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./ecriture.html",
-      "sha256": "4bdcb17bdafaa71964cfcdaad0b828f30f62b92e7244a2858e6685b83687ba72",
-      "size": 944
+      "sha256": "109808d217ac1e6f395b2108b13dc7c2fb24cbfda809be3cf11afcb8298cd4ef",
+      "size": 984
     },
     {
       "url": "./gs/data/catalog-v13.json",
@@ -1811,8 +1811,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/handwriting.js",
-      "sha256": "af241e26e0bdd6513e3f3d9e8781ae753e2d0663b0975e10dd54051b8f9582c6",
-      "size": 5605
+      "sha256": "7951cacf712f7816f2d7fa06a6ed24c454d6af3e4be1d985c202bf0ab3ff6dd9",
+      "size": 6130
     },
     {
       "url": "./shared/home-language.js",
@@ -1821,8 +1821,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/i18n.js",
-      "sha256": "3b21b7bf7bbb16bd8877e6df3505ac824fbb7e9961fc37ae1edd38e81b0c9252",
-      "size": 33118
+      "sha256": "6cc3b974da7aef6f9cf317221afb05cd4fd34413f73a17831f18f0f02692f460",
+      "size": 33171
     },
     {
       "url": "./shared/ink.js",
@@ -1926,8 +1926,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/reference.js",
-      "sha256": "42740fbdebb710b65902a432bd9446afce8a5efe1415ff2f2d4133952aabdbe3",
-      "size": 5770
+      "sha256": "aa24e8a2269fe6979baaf668c9e3384c6487560b2b7fb6bc8acad7087deb7b7f",
+      "size": 6241
     },
     {
       "url": "./shared/search.css",

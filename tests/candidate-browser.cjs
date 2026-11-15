@@ -9,7 +9,7 @@ try{
  const p=await ctx.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
  await p.goto(base+'/ecriture.html?classe=SIL');await p.locator('#writingFont').selectOption('cursive');
  assert.equal(await p.evaluate(async()=>{await document.fonts.load('24px KlassiaFR');return document.fonts.check('24px KlassiaFR');}),true);
- assert.equal(await p.locator('.writing-model').getAttribute('data-font'),'fr');
+ assert.equal(await p.locator('.writing-model').getAttribute('data-font'),'fr');fs.mkdirSync(path.join(root,'test-results'),{recursive:true});await p.screenshot({path:path.join(root,'test-results/candidate-writing-fr-320.png'),fullPage:true});
  await p.locator('#writingMode').selectOption('dictation');assert.equal(await p.locator('.writing-model').isHidden(),true);
  await p.locator('#writingReveal').click();assert.equal(await p.locator('.writing-model').isVisible(),true);
  await p.emulateMedia({media:'print'});assert.equal(await p.locator('.writing-model').isHidden(),true,'dictation worksheet never prints its answer');await p.emulateMedia({media:'screen'});

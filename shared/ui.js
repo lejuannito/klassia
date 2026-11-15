@@ -224,7 +224,7 @@ function decorate(){
   profiles:`<button data-profiles>Profil : ${esc(K.profile().name)}</button>`,
   overview:`<button data-overview>Suivi des classes</button>`,
   homeLanguage:`<a data-home-language-link href="${new URL('maison.html',c.base)}">Langue de la maison</a>`,
-  recommend:`<a data-recommend href="https://wa.me/?text=${encodeURIComponent('Je te conseille Klassia, un manuel interactif pour les enfants de la maternelle au CE2, qui marche aussi sans connexion : '+new URL('./',c.base).href)}" target="_blank" rel="noopener">Recommander Klassia (WhatsApp)</a>`,
+  recommend:`<a data-recommend href="https://wa.me/?text=${encodeURIComponent((K.lang?.()==='en'?'Try Klassia, a pilot learning companion for nursery and primary school, with French-speaking and English-speaking classes and offline access: ':'Découvre Klassia, une édition pilote pour la maternelle et le primaire, avec des classes francophones et anglophones et un accès hors connexion : ')+new URL('./',c.base).href)}" target="_blank" rel="noopener">Recommander Klassia (WhatsApp)</a>`,
   review:`<a data-review href="${new URL('#coverage',c.base)}">Validation pédagogique</a>`,
   child:role!=='ELEVE'?'<button data-child>Retour à la vue enfant</button>':'',
   back2:['#coverage','#bassa'].includes(location.hash)?'<button data-return>Retour à ma classe</button>':''
@@ -277,22 +277,34 @@ const englishLabels=K.classes.filter(x=>x.subsystem==='anglophone').map(x=>x.lab
 function isLanding(c){return c.grade==='CE2'&&!location.search&&['','#home'].includes(location.hash);}
 function cameFromKlassia(base){try{const r=new URL(document.referrer);return r.origin===location.origin&&r.pathname.startsWith(base.pathname);}catch{return false;}}
 function welcome(c){
- const s=document.createElement('section');s.className='klassia-welcome';s.setAttribute('aria-labelledby','klassiaWelcomeTitle');
+ const en=K.read('klassia_entry_lang_v1','fr')==='en';
+ const w=en?{title:'Welcome to Klassia',intro:'Choose the interface language, then your child’s school and class. You can change these choices later.',name:'Child’s first name or nickname',school:'Child’s school',fr:'French-speaking',en:'English-speaking',both:'Bilingual school',grade:'Class',hint:'CP and Class 2 are not available yet.',go:'Start',later:'Later',bothNote:'For a bilingual school, Klassia opens the French-speaking class, with English as a subject.',enNote:'English-speaking classes are available as pilot content under teaching review.'}:{title:'Bienvenue sur Klassia',intro:'Choisissez la langue de l’interface, puis l’école et la classe de votre enfant. Vous pourrez les changer plus tard.',name:'Prénom ou pseudonyme de l’enfant',school:'École de l’enfant',fr:'Francophone',en:'Anglophone',both:'Bilingue (les deux)',grade:'Classe',hint:'Le CP et la Class 2 ne sont pas encore disponibles.',go:'Commencer',later:'Plus tard',bothNote:'Pour une école bilingue, Klassia ouvre la classe francophone, où l’anglais est une matière.',enNote:'Les classes anglophones sont disponibles en édition pilote, en relecture pédagogique.'};
+ const section=document.createElement('section');section.className='klassia-welcome';section.lang=en?'en':'fr';section.setAttribute('translate','no');section.setAttribute('aria-labelledby','klassiaWelcomeTitle');
  const name=K.profile().name;
- s.innerHTML=`<h2 id="klassiaWelcomeTitle">Bienvenue sur Klassia</h2><p>Trois réponses pour ouvrir directement la classe de votre enfant. Vous pourrez les changer plus tard.</p><form data-welcome><label>Prénom ou pseudonyme de l’enfant <input name="name" maxlength="40" autocomplete="off" value="${name==='Mon enfant'?'':esc(name)}" placeholder="Mon enfant"></label><fieldset><legend>École de l’enfant</legend><label><input type="radio" name="school" value="fr" checked> Francophone</label><label><input type="radio" name="school" value="en"> Anglophone</label><label><input type="radio" name="school" value="both"> Bilingue (les deux)</label></fieldset><p data-welcome-note role="status"></p><fieldset><legend>Classe</legend>${familyClasses.map(([g,fr,en])=>`<label><input type="radio" name="grade" value="${g}" required> ${fr} · ${en}</label>`).join('')}<p class="klassia-welcome-hint">Le CP et la Class 2 ne sont pas encore disponibles.</p></fieldset><div class="klassia-welcome-actions"><button type="submit" class="btn primary">Commencer</button><button type="button" data-welcome-later>Plus tard</button></div></form>`;
- const form=s.querySelector('form'), note=s.querySelector('[data-welcome-note]');
- form.addEventListener('change',e=>{if(e.target.name==='school')note.textContent=e.target.value==='fr'?'':e.target.value==='en'?englishLabels+' : en anglais, en relecture pédagogique. Pour les autres classes anglophones, en préparation, Klassia ouvre la classe francophone équivalente, où l’anglais est une matière.':'Pour une école bilingue, Klassia ouvre la classe francophone, où l’anglais est une matière.';});
+ section.innerHTML=`<div class="klassia-entry-language" aria-label="Language / Langue"><button type="button" data-entry-lang="fr" aria-pressed="${!en}" lang="fr">Français</button><button type="button" data-entry-lang="en" aria-pressed="${en}" lang="en">English</button></div><h2 id="klassiaWelcomeTitle">${w.title}</h2><p>${w.intro}</p><form data-welcome><label>${w.name} <input name="name" maxlength="40" autocomplete="off" value="${name==='Mon enfant'?'':esc(name)}" placeholder="${en?'My child':'Mon enfant'}"></label><fieldset><legend>${w.school}</legend><label><input type="radio" name="school" value="fr" ${en?'':'checked'}> ${w.fr}</label><label><input type="radio" name="school" value="en" ${en?'checked':''}> ${w.en}</label><label><input type="radio" name="school" value="both"> ${w.both}</label></fieldset><p data-welcome-note role="status"></p><fieldset><legend>${w.grade}</legend>${familyClasses.map(([g,fr,twin])=>`<label><input type="radio" name="grade" value="${g}" required> ${en?esc(twin)+' · '+esc(fr):esc(fr)+' · '+esc(twin)}</label>`).join('')}<p class="klassia-welcome-hint">${w.hint}</p></fieldset><div class="klassia-welcome-actions"><button type="submit" class="btn primary">${w.go}</button><button type="button" data-welcome-later>${w.later}</button></div></form>`;
+ const form=section.querySelector('form'),note=section.querySelector('[data-welcome-note]');let schoolChosen=false;
+ form.addEventListener('change',e=>{if(e.target.name==='school'){schoolChosen=true;note.textContent=e.target.value==='both'?w.bothNote:e.target.value==='en'?w.enNote:'';}});
+ section.querySelectorAll('[data-entry-lang]').forEach(button=>button.onclick=()=>{
+  const saved={name:form.elements.name.value,grade:form.elements.grade.value,school:schoolChosen?form.elements.school.value:button.dataset.entryLang};
+  K.write('klassia_entry_lang_v1',button.dataset.entryLang);document.documentElement.lang=button.dataset.entryLang;
+  const next=welcome(c);section.replaceWith(next);const f=next.querySelector('form');f.elements.name.value=saved.name;f.elements.school.value=saved.school;if(saved.grade)f.elements.grade.value=saved.grade;f.querySelector('[name="school"]:checked')?.dispatchEvent(new Event('change',{bubbles:true}));
+ });
  form.onsubmit=e=>{
-  e.preventDefault();
-  const school=form.elements.school.value, chosen=form.elements.grade.value, grade=school==='en'&&anglophoneTwin(chosen)?anglophoneTwin(chosen).grade:chosen, child=form.elements.name.value.trim();
-  if(!chosen)return;
+  e.preventDefault();const school=form.elements.school.value,chosen=form.elements.grade.value,grade=school==='en'&&anglophoneTwin(chosen)?anglophoneTwin(chosen).grade:chosen,child=form.elements.name.value.trim();if(!chosen)return;
   if(child&&child!==K.profile().name){try{K.renameProfile(child);}catch(error){note.textContent=error.message;return;}}
-  K.write(FAMILY_KEY,{school,grade,at:new Date().toISOString()});
-  if(grade==='CE2')location.reload();else location.href=new URL(gradePaths[grade],c.base).href;
+  K.write(FAMILY_KEY,{school,grade,at:new Date().toISOString()});location.href=new URL(gradePaths[grade]||'./',c.base).href;
  };
- s.querySelector('[data-welcome-later]').onclick=()=>{K.write(FAMILY_KEY,{dismissed:true,at:new Date().toISOString()});s.remove();};
- return s;
+ section.querySelector('[data-welcome-later]').onclick=()=>{K.write(FAMILY_KEY,{dismissed:true,at:new Date().toISOString()});location.reload();};
+ return section;
 }
+K.startWelcome=()=>{
+ const c=context(),role=K.read('klassia_user',{})?.role||'ELEVE';
+ if(!isLanding(c)||!['ELEVE','PARENT'].includes(role)||K.read(FAMILY_KEY,null))return false;
+ const root=document.getElementById('app');if(!root)return false;
+ document.documentElement.lang=K.read('klassia_entry_lang_v1','fr');document.documentElement.classList.add('klassia-entry-pending');
+ root.innerHTML='<header class="gs-top"><a href="./">K Klassia</a></header><main class="gs-wrap"></main>';root.querySelector('main').append(welcome(c));
+ window.addEventListener('hashchange',()=>location.reload(),{once:true});return true;
+};
 // Opening Klassia from its icon, a bookmark or a typed address lands on the
 // remembered class. Moving to CE2 from inside Klassia is left untouched.
 (()=>{const c=context(),family=K.read(FAMILY_KEY,null);if(isLanding(c)&&family?.grade&&family.grade!=='CE2'&&gradePaths[family.grade]!==undefined&&!cameFromKlassia(c.base))location.replace(new URL(gradePaths[family.grade],c.base).href);})();

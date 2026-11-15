@@ -17,8 +17,8 @@ const repeated=lessons.flatMap(l=>l.practice.map((p,j)=>({l,p,j}))).filter(({p})
  return new Set(values).size<values.length;
 });
 async function openProfiles(p){
- await p.evaluate(()=>Klassia.write('klassia_user',{role:'PARENT'}));
- await p.locator('[data-profiles]').first().evaluate(el=>el.click());
+ await p.evaluate(()=>{Klassia.write('klassia_user',{role:'PARENT'});Klassia.rendered();});
+ await p.locator('[data-profiles]').first().click();
  await p.locator('#profilesDialog').waitFor();
 }
 (async()=>{
@@ -70,8 +70,18 @@ async function openProfiles(p){
   console.log('PASS English profile dialog: persistence denied/granted, new-profile import, other child preserved and undo');
   assert.deepEqual(errors,[]);await ctx.close();
   const unavailable=await browser.newContext({serviceWorkers:'block'});await unavailable.addInitScript(()=>Object.defineProperty(navigator,'storage',{value:undefined}));
-  const f=await unavailable.newPage();await f.goto(base+'/sil/');await f.locator('[data-profiles]').first().waitFor();await openProfiles(f);
+  const f=await unavailable.newPage();await f.goto(base+'/sil/');await f.locator('[data-profiles]').first().waitFor({state:'attached'});await openProfiles(f);
   assert.equal(await f.locator('#requestPersistence').isDisabled(),true);assert.equal(await f.locator('#exportProfile').isEnabled(),true);await unavailable.close();
   console.log('PASS unsupported persistence leaves manual backup available');
+  const first=await browser.newContext({serviceWorkers:'block',viewport:{width:320,height:740}}),entry=await first.newPage(),lessonRequests=[];
+  entry.on('request',r=>{if(/\/data\/content-u\d/.test(r.url()))lessonRequests.push(r.url());});
+  await entry.goto(base+'/');await entry.locator('[data-entry-lang="en"]').click();
+  await entry.getByRole('heading',{name:'Welcome to Klassia'}).waitFor();assert.equal(await entry.locator('.gs-hero').count(),0);
+  assert.equal(lessonRequests.length,0,'CE2 lesson data is not requested before a class is chosen');
+  await entry.getByLabel('Child’s first name or nickname').fill('Awa');await entry.locator('[name="grade"][value="SIL"]').check();
+  await entry.getByRole('button',{name:'Start',exact:true}).click();await entry.waitForURL(/\/class1\/$/);await entry.getByRole('heading',{name:'Hello Awa'}).waitFor();
+  assert.equal(await entry.evaluate(()=>Klassia.read('klassia_entry_lang_v1','fr')),'en');
+  assert.equal(await entry.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'320px English class has no horizontal overflow');
+  await first.close();console.log('PASS language-first entry, deferred CE2 data, English class selection and 320px layout');
  }finally{if(browser)await browser.close();await new Promise(resolve=>server.close(resolve));}
 })().catch(e=>{console.error(e);process.exitCode=1;});

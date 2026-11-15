@@ -16,7 +16,7 @@
     }
   }
   const GRADES = ['CE2','MS','GS','SIL','CE1','NURSERY1','NURSERY2','CLASS1','CLASS3','CLASS4'];
-  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_(ms|gs|nursery[12])_theme_v2|klassia_(ms|gs)_progress_v2:T[1-8]|klassia_nursery[12]_progress_v1:T[1-8]|klassia_(sil|ce1|class[134])_progress_v1|klassia_ce1_qcm_v1|klassia_(ms|gs|sil|ce1|ce2|nursery[12]|class[134])_recent_v1|klassia_(sil|ce1|ce2|class[134])_week_v1|klassia_(answers_v1|family|home_language_v1|home_words_v1|nursery_lang_v1|lesson_view_v1))$/.test(k);
+  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_(ms|gs|nursery[12])_theme_v2|klassia_(ms|gs)_progress_v2:T[1-8]|klassia_nursery[12]_progress_v1:T[1-8]|klassia_(sil|ce1|class[134])_progress_v1|klassia_ce1_qcm_v1|klassia_(ms|gs|sil|ce1|ce2|nursery[12]|class[134])_recent_v1|klassia_(sil|ce1|ce2|class[134])_week_v1|klassia_(answers_v1|family|home_language_v1|home_words_v1|nursery_lang_v1|entry_lang_v1|lesson_view_v1))$/.test(k);
   function validate(k, raw) {
     if (!known(k) || typeof raw !== 'string' || raw.length > 2000000) throw Error('Donnée de sauvegarde non reconnue : ' + k);
     if (k === 'klassia_unit') { if (!/^U[1-8]$/.test(raw)) throw Error('Unité invalide.'); return; }
@@ -24,8 +24,8 @@
     if (k === 'klassia_last_backup_v9') { if (!Number.isFinite(Date.parse(raw))) throw Error('Date invalide.'); return; }
     let v; try { v = JSON.parse(raw); } catch { throw Error('Donnée JSON invalide : ' + k); }
     safeTree(v);
-    if (k === 'klassia_nursery_lang_v1' || k === 'klassia_lesson_view_v1') {
-      if (!(k === 'klassia_nursery_lang_v1' ? ['fr','en'] : ['all','one']).includes(v)) throw Error('Préférence invalide.');
+    if (['klassia_nursery_lang_v1','klassia_entry_lang_v1','klassia_lesson_view_v1'].includes(k)) {
+      if (!(k === 'klassia_lesson_view_v1' ? ['all','one'] : ['fr','en']).includes(v)) throw Error('Préférence invalide.');
       return;
     }
     if (/_recent_v1$/.test(k) && v === null) return;

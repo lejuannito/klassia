@@ -3,5 +3,5 @@
 // dans un contexte sans ce réglage (tests/browser.cjs, « lesson steps »).
 module.exports=async ctx=>ctx.addInitScript(()=>{
  let value;
- Object.defineProperty(window,'Klassia',{configurable:true,get:()=>value,set(v){value=v;try{if(v&&typeof v.write==='function'&&typeof v.read==='function'&&v.read('klassia_lesson_view_v1',null)===null)v.write('klassia_lesson_view_v1','all');}catch{}}});
+  Object.defineProperty(window,'Klassia',{configurable:true,get:()=>value,set(v){value=v;try{if(v&&typeof v.write==='function'&&typeof v.read==='function'){if(v.read('klassia_lesson_view_v1',null)===null)v.write('klassia_lesson_view_v1','all');if(v.read('klassia_family',null)===null)v.write('klassia_family',{dismissed:true});}}catch{}}});
 });

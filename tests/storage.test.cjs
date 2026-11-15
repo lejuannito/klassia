@@ -17,7 +17,7 @@ test('ten registered classes and family preferences travel between devices and c
   a.write('klassia_'+c.grade.toLowerCase()+'_recent_v1',{lessonId:c.grade+'-lesson'});
   if(c.week)a.write('klassia_'+c.grade.toLowerCase()+'_week_v1',{unit:'U1',week:2});
  }
- a.write('klassia_family',{school:'en',grade:'CLASS1'});a.write('klassia_home_language_v1',{name:'bassa'});a.write('klassia_home_words_v1',{mother:'mot'});a.write('klassia_nursery_lang_v1','en');a.write('klassia_lesson_view_v1','all');a.write('klassia_user',{role:'ADMIN'});
+ a.write('klassia_family',{school:'en',grade:'CLASS1'});a.write('klassia_home_language_v1',{name:'bassa'});a.write('klassia_home_words_v1',{mother:'mot'});a.write('klassia_nursery_lang_v1','en');a.write('klassia_entry_lang_v1','en');a.write('klassia_lesson_view_v1','all');a.write('klassia_user',{role:'ADMIN'});
  const backup=a.exportBackup();assert.deepEqual(new Set(backup.scope),new Set(registry.classes.map(c=>c.grade)));assert.ok(!('klassia_user' in backup.data));
  b.renameProfile('Bobo');b.write('klassia_progress',{'MA-U1-L1':'EN_COURS'});b.restore(backup,{mode:'new'});
  assert.equal(b.profile().name,'Awa');assert.deepEqual(b.exportBackup().data,backup.data);

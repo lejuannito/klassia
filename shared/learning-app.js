@@ -2,6 +2,8 @@
 'use strict';
 const K=Klassia,E=K.escape,info=K.currentClass(),legacy=info.format==='ce2',EN=info.language==='en',home=K.inClassFolder()?'../':'./',c={grade:info.grade,catalog:K.classLocalPath(info,info.catalog),progressKey:info.progressKey,qcm:legacy?'legacy':info.qcm&&K.classLocalPath(info,info.qcm),back:home},root=document.getElementById('app');
 const get=async url=>{const r=await fetch(url);if(!r.ok)throw Error('Ressource indisponible : '+url);return r.json();};
+// A new family chooses its language and class before the CE2 lesson data is loaded.
+if(K.startWelcome?.())return;
 // Maternelle : même moteur, habillage par thèmes et fiche parent (ADR-016) fourni par shared/nursery.js.
 if(info.format==='nursery')return K.nursery.start({info,root,get});
 let catalog,units,lessons,progress;

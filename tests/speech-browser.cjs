@@ -20,7 +20,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
   async function visit(route){await p.goto('http://localhost:8768'+route);await p.locator('.speech-control').first().waitFor();}
   // Nursery activities show one language at a time (lot 4a): switch before listening.
   async function nurseryLang(name,lang){await p.getByRole('button',{name,exact:true}).click();await p.locator(`.activityCard[lang="${lang}"] .speech-control`).first().waitFor();}
-  async function say(lang,index=0){const btn=p.locator(`[data-speech-lang="${lang}"]`).nth(index);await btn.click();await p.waitForFunction(()=>spoken.length>0);const u=await p.evaluate(()=>spoken.at(-1));assert.equal(u.lang.split('-')[0],lang.split('-')[0]);assert.equal(u.voice,u.lang);await p.evaluate(()=>spoken=[]);return u;}
+  async function say(lang,index=0){const btn=p.locator(`[data-speech-lang="${lang}"]`).nth(index);await btn.click();await p.waitForFunction(()=>spoken.length>0);const u=await p.evaluate(()=>{let guard=0;while(lastUtterance&&guard++<100){const before=lastUtterance;before.onend?.();if(lastUtterance===before)break;}return {...spoken[0],text:spoken.map(x=>x.text).join(' ')};});assert.equal(u.lang.split('-')[0],lang.split('-')[0]);assert.equal(u.voice,u.lang);await p.evaluate(()=>spoken=[]);return u;}
   for(const route of ['/?unit=U4#lesson:FR-U4-L1','/?unit=U1#lesson:MA-U1-L2','/sil/#lesson:SIL-U1-L03']){await visit(route);await say('fr-FR');}
   await visit('/ce1/#lesson:CE1-U1-L01');
   const ce1Story = await say('fr-FR');
@@ -87,7 +87,7 @@ const server=http.createServer((req,res)=>{let p=path.join(root,decodeURICompone
    await p.evaluate(v=>{testVoices=v;spoken=[];},voices);await p.locator('.speech-control').first().click();
    await p.waitForFunction(()=>spoken.length===1);
    assert.deepEqual(await p.evaluate(()=>({lang:spoken[0].lang,voice:spoken[0].voice??null})),{lang:'fr-FR',voice:null});
-   await p.evaluate(()=>lastUtterance.onend());await p.locator('.speech-status').first().filter({hasText:'Lecture terminée'}).waitFor();
+   await p.evaluate(()=>{let guard=0;while(guard++<100){const before=lastUtterance;before.onend();if(lastUtterance===before)break;}});await p.locator('.speech-status').first().filter({hasText:'Lecture terminée'}).waitFor();
   }
   // Engine errors and synchronous failures must provide actionable French settings guidance.
   for(const mode of ['error','throw']){

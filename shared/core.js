@@ -35,7 +35,7 @@
     if (k === 'klassia_progress' && Object.entries(v).some(([id,s])=>! /^[A-Z]{2}-U[1-8]-L\d+$/.test(id) || !['MAITRISEE','A_REVOIR','EN_COURS'].includes(s))) throw Error('Progression CE2 invalide.');
     if (/^klassia_(?:(?:ms|gs)_progress_v2:|nursery[12]_progress_v1:|(?:sil|ce1|class[134])_progress_v1$)/.test(k) && Object.values(v).some(s=>!['D','EC','A'].includes(s))) throw Error('Progression invalide.');
     if (k === 'klassia_family' && !(v.dismissed === true || (['fr','en','both'].includes(v.school) && GRADES.includes(v.grade)))) throw Error('Réglage de la famille invalide.');
-    if (k === 'klassia_home_language_v1' && (typeof v.name !== 'string' || v.name.length > 40)) throw Error('Langue de la maison invalide.');
+    if (k === 'klassia_home_language_v1' && Object.keys(v).length && (typeof v.name !== 'string' || v.name.length > 40)) throw Error('Langue de la maison invalide.');
     if (k === 'klassia_home_words_v1' && Object.values(v).some(x=>typeof x !== 'string' || x.length > 160)) throw Error('Mot de la maison invalide.');
     if (/_week_v1$/.test(k) && (!/^(?:U[1-8]|(?:SIL|CE1)-U[1-8]|CLASS[134]-T[1-8])$/.test(v.unit) || !Number.isInteger(v.week) || v.week < 1 || v.week > 4)) throw Error('Semaine invalide.');
     if (k.startsWith('klassia_evals') && Object.values(v).some(e=>!object(e)||!Number.isFinite(e.score)||e.score<0||e.score>20)) throw Error('Évaluation invalide.');

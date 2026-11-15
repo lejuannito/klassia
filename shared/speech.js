@@ -127,36 +127,39 @@
    timer=setTimeout(done,1800);changed();
   });
  }
+ // Bounded utterances avoid long readings being cut off by mobile speech engines.
+ function segments(text,max=600){
+  const words=String(text||'').trim().split(/\s+/u).filter(Boolean),out=[];let part='';
+  for(let word of words){
+   if(part&&part.length+word.length+1>max){out.push(part);part='';}
+   while(word.length>max){out.push(word.slice(0,max));word=word.slice(max);}
+   if(word)part+=(part?' ':'')+word;
+   if(part.length>=max*.65&&/[.!?…][”»"')]*$/.test(part)){out.push(part);part='';}
+  }
+  if(part)out.push(part);return out;
+ }
  async function speak(wrap,status,text,lang) {
   stopAll();
-  const token=generation, t=copy[wrap.dataset.copy||language(lang)];
-  activeStatus=status;activeCopy=t;
-  status.textContent=t.searching;
+  const token=generation,t=copy[wrap.dataset.copy||language(lang)],parts=segments(text);let index=0,finished=false;
+  activeStatus=status;activeCopy=t;status.textContent=t.searching;
   await waitForVoices(lang);
   if(token!==generation||!wrap.isConnected)return;
   const voices=available(orderedVoices(synth.getVoices(),lang));
-  const voice=voices.find(candidate=>voiceId(candidate)===preferences[language(lang)]) || voices[0];
-  const utterance=new env.SpeechSynthesisUtterance(text);
-  // Some mobile engines report an incomplete list. Request the language without assigning an unrelated voice.
-  if(voice)utterance.voice=voice;
-  utterance.lang=voice?.lang||lang;
-  utterance.rate=.85;
-  let finished=false;
-  const timer=setTimeout(()=>{if(token===generation){utterance.onerror();synth.cancel();}},10000);
-  clearStart=()=>clearTimeout(timer);
-  function finish(message) {
-   if(token!==generation||finished)return;
-   finished=true;clearStart?.();clearStart=null;activeStatus=null;
-   status.textContent=message;
+  const voice=voices.find(candidate=>voiceId(candidate)===preferences[language(lang)])||voices[0];
+  function finish(message){if(token!==generation||finished)return;finished=true;clearStart?.();clearStart=null;activeStatus=null;status.textContent=message;}
+  function next(){
+   if(token!==generation||finished||!wrap.isConnected)return;
+   const utterance=new env.SpeechSynthesisUtterance(parts[index]);
+   if(voice)utterance.voice=voice;
+   utterance.lang=voice?.lang||lang;utterance.rate=.85;
+   const timer=setTimeout(()=>{if(token===generation){finish(t.error);synth.cancel();}},10000);
+   clearStart=()=>clearTimeout(timer);
+   utterance.onstart=()=>{if(token!==generation||finished)return;clearStart?.();clearStart=null;status.textContent=(voice?t.choice+' · '+voice.name+' · '+(voice.localService?t.local:t.network):t.requested)+(parts.length>1?' · '+(index+1)+' / '+parts.length:'');};
+   utterance.onend=()=>{if(token!==generation||finished)return;clearStart?.();clearStart=null;if(++index<parts.length)next();else finish(t.done);};
+   utterance.onerror=()=>finish(t.error);
+   try{synth.speak(utterance);}catch{utterance.onerror();}
   }
-  utterance.onstart=()=>{
-   if(token!==generation||finished)return;
-   clearStart?.();clearStart=null;
-   status.textContent=voice?t.choice+' · '+voice.name+' · '+(voice.localService?t.local:t.network):t.requested;
-  };
-  utterance.onend=()=>finish(t.done);
-  utterance.onerror=()=>finish(t.error);
-  try{synth.speak(utterance);}catch{utterance.onerror();}
+  if(parts.length)next();else finish(t.done);
  }
 
  function add(container,text,lang) {
@@ -223,5 +226,5 @@
    stop();
   },true);
  }
- return {selectVoice,add,stop,clip};
+ return {selectVoice,segments,add,stop,clip};
 });

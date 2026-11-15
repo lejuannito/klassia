@@ -25,3 +25,9 @@ Les 39 leçons françaises U4–U8 gardent leurs identifiants et références cu
 - `npm run test:speech` : moteur vocal simulé avec anglais par défaut, français disponible/différé, liste vide ou uniquement anglaise, repli par langue, erreurs et absence de démarrage, arrêt, navigation, parcours des cinq classes, exclusion de synthèse bassa et affichage des 39 leçons réécrites.
 
 Les tests de sélection utilisent des voix simulées. Ils ne certifient pas la qualité sonore d’un téléphone physique ni la justesse d’une prononciation bassa.
+
+## Candidate du 15 novembre 2026
+
+Les longs textes sont désormais découpés en segments de 600 caractères au plus, en conservant tous les mots. La voix et la langue restent identiques pendant la séquence ; l’arrêt et la navigation annulent aussi les segments suivants. Cela réduit le risque de coupure des moteurs mobiles sans garantir la qualité acoustique de chaque appareil. Le compteur indique le segment en cours.
+
+`node scripts/audio-preparation.mjs` prépare 95 scripts de prise (80 modèles de copie/dictée et 15 récits Nursery), avec empreinte du texte et segments. Aucun son humain, consentement ou avis linguistique n’est inventé. Après stabilisation des textes, les référents pourront enregistrer et vérifier les prises. L’atelier Bassa conserve son enregistreur, les exports et le service partagé optionnel ; son activation et les accords de diffusion restent à vérifier.

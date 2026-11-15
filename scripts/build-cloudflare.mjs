@@ -8,7 +8,7 @@ import path from 'node:path';
 const root = path.resolve(import.meta.dirname, '..');
 const dist = path.join(root, 'dist');
 const rootFiles = [
-  'index.html', 'search.html', 'pilote.html', 'imprimer.html', 'outils.html', 'maison.html', 
+  'ecriture.html', 'index.html', 'search.html', 'pilote.html', 'imprimer.html', 'outils.html', 'maison.html', 
   'pwa.js', 'service-worker.js',
   'precache-manifest.js', 'manifest.webmanifest'
 ];
@@ -18,7 +18,7 @@ const publicDirectories = [
 const extensions = new Set([
   '.html', '.css', '.js', '.json', '.webmanifest', '.svg',
   '.png', '.jpg', '.jpeg', '.webp', '.avif', '.gif', '.ico',
-  '.mp3', '.ogg', '.wav', '.mp4', '.webm', '.woff', '.woff2', '.pdf'
+  '.mp3', '.ogg', '.wav', '.mp4', '.webm', '.ttf', '.txt', '.woff', '.woff2', '.pdf'
 ]);
 
 // Rebuild the integrity manifest before taking a snapshot of the served files.
@@ -66,7 +66,7 @@ for (const file of release.files) {
   assert.equal(hash, file.sha256, 'Invalid offline asset hash: ' + relative);
 }
 
-for (const mandatory of ['index.html', 'search.html', 'pilote.html', 'imprimer.html', 'outils.html', 'maison.html', 'service-worker.js',
+for (const mandatory of ['ecriture.html', 'index.html', 'search.html', 'pilote.html', 'imprimer.html', 'outils.html', 'maison.html', 'service-worker.js',
   'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png',
   'ms/index.html', 'gs/index.html', 'sil/index.html', 'ce1/index.html']) {
   assert.ok(published.has(mandatory), 'Missing application entry point: ' + mandatory);

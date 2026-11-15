@@ -17,3 +17,9 @@ Comparer les contenus aux colonnes de leur classe dans les référentiels MINEDU
 En Nursery, observer les objectifs en situation avec les échelles « seul / avec aide / pas encore ». Les barèmes des projets du primaire sont proposés aux adultes ; les cases cochées par l’enfant mesurent l’avancement, pas sa compétence. Les modèles cursifs des deux sous-systèmes doivent être confirmés localement avant leur adoption par défaut.
 
 L’atelier permet de consulter puis d’enregistrer des décisions locales et de les exporter. La publication d’une décision dans les données du produit reste une opération éditoriale distincte. Ne pas ajouter de nom de validateur ou de date de validation sans son avis réel.
+
+## Écriture, audio et versions
+
+80 modèles courts originaux sont disponibles dans `ecriture.html`, avec script ou cursive Playwrite FR Trad / GB J, interlignes réglables, guides et impression. Les dictées du primaire sont masquées jusqu’à la déclaration d’une tentative et restent absentes de la fiche dictée imprimée. Les polices sont intégrées pour le hors-ligne, leurs licences OFL sont conservées ; elles ne certifient ni le ductus ni le modèle scolaire camerounais.
+
+L’atelier lie chaque décision à une empreinte SHA-256 du contenu pédagogique de l’unité (hors tampons éditoriaux). Si l’unité change ou si une ancienne décision ne possède pas d’empreinte, la ressource revient à relire dans l’atelier, avec conservation des annotations antérieures. L’export version 2 indique `needs_review`. Cette empreinte est un contrôle de version, pas une signature ni une validation.

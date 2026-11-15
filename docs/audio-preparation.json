@@ -1,0 +1,1432 @@
+{
+ "format": "klassia-audio-preparation",
+ "version": 1,
+ "notice": "Textes de travail à relire avant enregistrement. Aucun fichier sonore ni accord de diffusion n’est créé par ce script. Voix humaines, prononciation, identité du lecteur, accord et écoute finale doivent être consignés avant publication. Pour le bassa, utiliser l’atelier et ses prises déjà référencées ; aucune synthèse FR/EN.",
+ "takes": [
+  {
+   "id": "MS-W1",
+   "grade": "MS",
+   "language": "fr",
+   "text": "maman",
+   "role": "copy_model",
+   "content_version": "sha256:d271a04383cac9099854a4bff976358684182abd960f879485de7e8abc7f43de",
+   "segments": [
+    "maman"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "MS-W2",
+   "grade": "MS",
+   "language": "fr",
+   "text": "marché",
+   "role": "copy_model",
+   "content_version": "sha256:4b83139deff2099b81739d693f6f64ea027ad2b01283f0ba9014765f893f1ae1",
+   "segments": [
+    "marché"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "MS-W3",
+   "grade": "MS",
+   "language": "fr",
+   "text": "livre",
+   "role": "copy_model",
+   "content_version": "sha256:c8f071fcb45fc339fd31b5f26c93c26dbc0d0351b61df339aa94a046a5384931",
+   "segments": [
+    "livre"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "MS-W4",
+   "grade": "MS",
+   "language": "fr",
+   "text": "bois",
+   "role": "copy_model",
+   "content_version": "sha256:51eb76423aa25fb5b7c5d5e3b90535e3eccf110c6b7c611d7fd85c0b8e0a74d1",
+   "segments": [
+    "bois"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "MS-W5",
+   "grade": "MS",
+   "language": "fr",
+   "text": "vélo",
+   "role": "copy_model",
+   "content_version": "sha256:e95f68f399bfc31de8058f73d158a79a265b08d382e4bdc64063404f07ea358d",
+   "segments": [
+    "vélo"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "MS-W6",
+   "grade": "MS",
+   "language": "fr",
+   "text": "savon",
+   "role": "copy_model",
+   "content_version": "sha256:fc15a3914aab69449e245b5b8e48dbbe3d5ce4f8714e968021d4a3a1734178e9",
+   "segments": [
+    "savon"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "MS-W7",
+   "grade": "MS",
+   "language": "fr",
+   "text": "balle",
+   "role": "copy_model",
+   "content_version": "sha256:a89481fe84845e9dc7c8632201705788ca56d2ea1d9e04c3c4e1ffffaca0f127",
+   "segments": [
+    "balle"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "MS-W8",
+   "grade": "MS",
+   "language": "fr",
+   "text": "mot",
+   "role": "copy_model",
+   "content_version": "sha256:01459f1a01f08e6e86474d76f4240d2089cfe4f1bd30be9eb8f88247d7b54015",
+   "segments": [
+    "mot"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "GS-W1",
+   "grade": "GS",
+   "language": "fr",
+   "text": "maman",
+   "role": "copy_model",
+   "content_version": "sha256:d271a04383cac9099854a4bff976358684182abd960f879485de7e8abc7f43de",
+   "segments": [
+    "maman"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "GS-W2",
+   "grade": "GS",
+   "language": "fr",
+   "text": "marché",
+   "role": "copy_model",
+   "content_version": "sha256:4b83139deff2099b81739d693f6f64ea027ad2b01283f0ba9014765f893f1ae1",
+   "segments": [
+    "marché"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "GS-W3",
+   "grade": "GS",
+   "language": "fr",
+   "text": "livre",
+   "role": "copy_model",
+   "content_version": "sha256:c8f071fcb45fc339fd31b5f26c93c26dbc0d0351b61df339aa94a046a5384931",
+   "segments": [
+    "livre"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "GS-W4",
+   "grade": "GS",
+   "language": "fr",
+   "text": "bois",
+   "role": "copy_model",
+   "content_version": "sha256:51eb76423aa25fb5b7c5d5e3b90535e3eccf110c6b7c611d7fd85c0b8e0a74d1",
+   "segments": [
+    "bois"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "GS-W5",
+   "grade": "GS",
+   "language": "fr",
+   "text": "vélo",
+   "role": "copy_model",
+   "content_version": "sha256:e95f68f399bfc31de8058f73d158a79a265b08d382e4bdc64063404f07ea358d",
+   "segments": [
+    "vélo"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "GS-W6",
+   "grade": "GS",
+   "language": "fr",
+   "text": "savon",
+   "role": "copy_model",
+   "content_version": "sha256:fc15a3914aab69449e245b5b8e48dbbe3d5ce4f8714e968021d4a3a1734178e9",
+   "segments": [
+    "savon"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "GS-W7",
+   "grade": "GS",
+   "language": "fr",
+   "text": "balle",
+   "role": "copy_model",
+   "content_version": "sha256:a89481fe84845e9dc7c8632201705788ca56d2ea1d9e04c3c4e1ffffaca0f127",
+   "segments": [
+    "balle"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "GS-W8",
+   "grade": "GS",
+   "language": "fr",
+   "text": "mot",
+   "role": "copy_model",
+   "content_version": "sha256:01459f1a01f08e6e86474d76f4240d2089cfe4f1bd30be9eb8f88247d7b54015",
+   "segments": [
+    "mot"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "SIL-W1",
+   "grade": "SIL",
+   "language": "fr",
+   "text": "La famille est à la maison.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:92fb24b13702e8d3edc1e0713327dc348f699c05969cc65c91751b331aa8381a",
+   "segments": [
+    "La famille est à la maison."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "SIL-W2",
+   "grade": "SIL",
+   "language": "fr",
+   "text": "Maman va au marché.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:ea959b06528f48646a945ec8601517b32ca4055072415b8a1051c881b93edf98",
+   "segments": [
+    "Maman va au marché."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "SIL-W3",
+   "grade": "SIL",
+   "language": "fr",
+   "text": "Je range mon livre.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:c49da10db2ef8fa23dbd8222e8bde343264b9e940b5c14799cf15fce56bca66b",
+   "segments": [
+    "Je range mon livre."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "SIL-W4",
+   "grade": "SIL",
+   "language": "fr",
+   "text": "Le menuisier travaille le bois.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:14c91157319cb0b1ac82c1c60d3564f50658ec1ad9a9d15942cccd25506b7741",
+   "segments": [
+    "Le menuisier travaille le bois."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "SIL-W5",
+   "grade": "SIL",
+   "language": "fr",
+   "text": "Nous allons chez grand-mère.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:5e1ab48f15a3a52b4b3c3fc7f5339a0c6c39b577b2412231e2cefa850f653c74",
+   "segments": [
+    "Nous allons chez grand-mère."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "SIL-W6",
+   "grade": "SIL",
+   "language": "fr",
+   "text": "Je lave mes mains avec du savon.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:4a6aae14c220a0d2cf883504dab6da3492d0ed5e2c9152f7fefeac005611f05b",
+   "segments": [
+    "Je lave mes mains avec du savon."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "SIL-W7",
+   "grade": "SIL",
+   "language": "fr",
+   "text": "Nous jouons ensemble.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:93e1d5f35d9cb6f29a30104c878ab3059d3094f6b19b32809f1356dc7cfb6ac1",
+   "segments": [
+    "Nous jouons ensemble."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "SIL-W8",
+   "grade": "SIL",
+   "language": "fr",
+   "text": "Je lis un petit message.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:e2e7766f078fc286b29a281416a6142f46632d2413f8dd7c2620777bf569d376",
+   "segments": [
+    "Je lis un petit message."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE1-W1",
+   "grade": "CE1",
+   "language": "fr",
+   "text": "La famille est à la maison. Chacun peut aider à ranger.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:a56e1df4a2a00c630f8ac077ca8930554f53ed4caaf04a270cc83e775e63de10",
+   "segments": [
+    "La famille est à la maison. Chacun peut aider à ranger."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE1-W2",
+   "grade": "CE1",
+   "language": "fr",
+   "text": "Maman va au marché. Les vendeurs préparent leurs étals.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:dc58f9f766d4980c5fa243e149edc1775bf0b070a6b6b96148d2cd6a219b857c",
+   "segments": [
+    "Maman va au marché. Les vendeurs préparent leurs étals."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE1-W3",
+   "grade": "CE1",
+   "language": "fr",
+   "text": "Je range mon livre. Nous prenons soin du matériel.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:4fee01c9cefda129ad7ba6b9a800c1ca6e4ec86f5cf70eea7dfc1152007144f2",
+   "segments": [
+    "Je range mon livre. Nous prenons soin du matériel."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE1-W4",
+   "grade": "CE1",
+   "language": "fr",
+   "text": "Le menuisier travaille le bois. Ses gestes sont précis et patients.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:9926c07033523418d4c3f50ca65697bf8ba1683e5ecb4bc7b6799ae56a49a5ab",
+   "segments": [
+    "Le menuisier travaille le bois. Ses gestes sont précis et patients."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE1-W5",
+   "grade": "CE1",
+   "language": "fr",
+   "text": "Nous allons chez grand-mère. Nous regardons le paysage en chemin.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:ebd290e1fd89eee028ea7a1225cabfe8fd1ae356bf9fd34695f10b3c347b3f11",
+   "segments": [
+    "Nous allons chez grand-mère. Nous regardons le paysage en chemin."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE1-W6",
+   "grade": "CE1",
+   "language": "fr",
+   "text": "Je lave mes mains avec du savon. Ensuite, je les rince et je les sèche.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:c4e06e6b5f91040cea7373d7db3203dbe0dac40073005a91148104c0ae25ae05",
+   "segments": [
+    "Je lave mes mains avec du savon. Ensuite, je les rince et je les sèche."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE1-W7",
+   "grade": "CE1",
+   "language": "fr",
+   "text": "Nous jouons ensemble. Chaque joueur respecte les règles.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:1d4ba536b5fb807e0f23f4c9d303731bf3bbf6c147ce60ae478a2b249bd9fca4",
+   "segments": [
+    "Nous jouons ensemble. Chaque joueur respecte les règles."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE1-W8",
+   "grade": "CE1",
+   "language": "fr",
+   "text": "Je lis un petit message. Je vérifie le nom du destinataire.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:87764b091661c96cd4052de39e77ccf42ce6440e29f20f6ce0c5bdd17b004def",
+   "segments": [
+    "Je lis un petit message. Je vérifie le nom du destinataire."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE2-W1",
+   "grade": "CE2",
+   "language": "fr",
+   "text": "La famille est à la maison. Chacun peut aider à ranger.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:a56e1df4a2a00c630f8ac077ca8930554f53ed4caaf04a270cc83e775e63de10",
+   "segments": [
+    "La famille est à la maison. Chacun peut aider à ranger."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE2-W2",
+   "grade": "CE2",
+   "language": "fr",
+   "text": "Maman va au marché. Les vendeurs préparent leurs étals.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:dc58f9f766d4980c5fa243e149edc1775bf0b070a6b6b96148d2cd6a219b857c",
+   "segments": [
+    "Maman va au marché. Les vendeurs préparent leurs étals."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE2-W3",
+   "grade": "CE2",
+   "language": "fr",
+   "text": "Je range mon livre. Nous prenons soin du matériel.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:4fee01c9cefda129ad7ba6b9a800c1ca6e4ec86f5cf70eea7dfc1152007144f2",
+   "segments": [
+    "Je range mon livre. Nous prenons soin du matériel."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE2-W4",
+   "grade": "CE2",
+   "language": "fr",
+   "text": "Le menuisier travaille le bois. Ses gestes sont précis et patients.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:9926c07033523418d4c3f50ca65697bf8ba1683e5ecb4bc7b6799ae56a49a5ab",
+   "segments": [
+    "Le menuisier travaille le bois. Ses gestes sont précis et patients."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE2-W5",
+   "grade": "CE2",
+   "language": "fr",
+   "text": "Nous allons chez grand-mère. Nous regardons le paysage en chemin.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:ebd290e1fd89eee028ea7a1225cabfe8fd1ae356bf9fd34695f10b3c347b3f11",
+   "segments": [
+    "Nous allons chez grand-mère. Nous regardons le paysage en chemin."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE2-W6",
+   "grade": "CE2",
+   "language": "fr",
+   "text": "Je lave mes mains avec du savon. Ensuite, je les rince et je les sèche.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:c4e06e6b5f91040cea7373d7db3203dbe0dac40073005a91148104c0ae25ae05",
+   "segments": [
+    "Je lave mes mains avec du savon. Ensuite, je les rince et je les sèche."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE2-W7",
+   "grade": "CE2",
+   "language": "fr",
+   "text": "Nous jouons ensemble. Chaque joueur respecte les règles.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:1d4ba536b5fb807e0f23f4c9d303731bf3bbf6c147ce60ae478a2b249bd9fca4",
+   "segments": [
+    "Nous jouons ensemble. Chaque joueur respecte les règles."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CE2-W8",
+   "grade": "CE2",
+   "language": "fr",
+   "text": "Je lis un petit message. Je vérifie le nom du destinataire.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:87764b091661c96cd4052de39e77ccf42ce6440e29f20f6ce0c5bdd17b004def",
+   "segments": [
+    "Je lis un petit message. Je vérifie le nom du destinataire."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY1-W1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "home",
+   "role": "copy_model",
+   "content_version": "sha256:4ea140588150773ce3aace786aeef7f4049ce100fa649c94fbbddb960f1da942",
+   "segments": [
+    "home"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY1-W2",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "market",
+   "role": "copy_model",
+   "content_version": "sha256:e4d693d24e646cb7878426225d90d2607fd40e2e7c82f4cf8246b2cc3e0decb8",
+   "segments": [
+    "market"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY1-W3",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "book",
+   "role": "copy_model",
+   "content_version": "sha256:92719fe0cf8cd51592af31ee8a5736d79f7273777fa3f7b70bfe993a4cd32180",
+   "segments": [
+    "book"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY1-W4",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "farmer",
+   "role": "copy_model",
+   "content_version": "sha256:51bf5502a7102c96f3ffb54d6d8762c0077dd473aa673701e233e4f3f989a149",
+   "segments": [
+    "farmer"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY1-W5",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "bus",
+   "role": "copy_model",
+   "content_version": "sha256:04e027e4990a203f4899f7e87c2d5ff6b9019e9565795619a59ce06c099560d4",
+   "segments": [
+    "bus"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY1-W6",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "soap",
+   "role": "copy_model",
+   "content_version": "sha256:736bc2d4e0945110e88f7808a4a4d38d3479a0122de1de7ac84c920121928480",
+   "segments": [
+    "soap"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY1-W7",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "ball",
+   "role": "copy_model",
+   "content_version": "sha256:e9de08263f4ad49131d3dd1dc28694d26baa1e9c3033f39a4885d7690b06d5b3",
+   "segments": [
+    "ball"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY1-W8",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "message",
+   "role": "copy_model",
+   "content_version": "sha256:ab530a13e45914982b79f9b7e3fba994cfd1f3fb22f71cea1afbf02b460c6d1d",
+   "segments": [
+    "message"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY2-W1",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "home",
+   "role": "copy_model",
+   "content_version": "sha256:4ea140588150773ce3aace786aeef7f4049ce100fa649c94fbbddb960f1da942",
+   "segments": [
+    "home"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY2-W2",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "market",
+   "role": "copy_model",
+   "content_version": "sha256:e4d693d24e646cb7878426225d90d2607fd40e2e7c82f4cf8246b2cc3e0decb8",
+   "segments": [
+    "market"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY2-W3",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "book",
+   "role": "copy_model",
+   "content_version": "sha256:92719fe0cf8cd51592af31ee8a5736d79f7273777fa3f7b70bfe993a4cd32180",
+   "segments": [
+    "book"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY2-W4",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "farmer",
+   "role": "copy_model",
+   "content_version": "sha256:51bf5502a7102c96f3ffb54d6d8762c0077dd473aa673701e233e4f3f989a149",
+   "segments": [
+    "farmer"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY2-W5",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "bus",
+   "role": "copy_model",
+   "content_version": "sha256:04e027e4990a203f4899f7e87c2d5ff6b9019e9565795619a59ce06c099560d4",
+   "segments": [
+    "bus"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY2-W6",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "soap",
+   "role": "copy_model",
+   "content_version": "sha256:736bc2d4e0945110e88f7808a4a4d38d3479a0122de1de7ac84c920121928480",
+   "segments": [
+    "soap"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY2-W7",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "ball",
+   "role": "copy_model",
+   "content_version": "sha256:e9de08263f4ad49131d3dd1dc28694d26baa1e9c3033f39a4885d7690b06d5b3",
+   "segments": [
+    "ball"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "NURSERY2-W8",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "message",
+   "role": "copy_model",
+   "content_version": "sha256:ab530a13e45914982b79f9b7e3fba994cfd1f3fb22f71cea1afbf02b460c6d1d",
+   "segments": [
+    "message"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS1-W1",
+   "grade": "CLASS1",
+   "language": "en",
+   "text": "My family is at home.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:71018bf4df678685e454bd686c157a3647378a7137796cb3001d115cdde0ddc0",
+   "segments": [
+    "My family is at home."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS1-W2",
+   "grade": "CLASS1",
+   "language": "en",
+   "text": "We go to the market.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:2b3bd80b10a92c632c6d9ddd0ebbf0e341a58f5f59c151d4df8d282745d842f7",
+   "segments": [
+    "We go to the market."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS1-W3",
+   "grade": "CLASS1",
+   "language": "en",
+   "text": "I put my book away.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:c5cd9289f30f8d2672f71527e79edca333da85ccc2b154dbdc30616682364826",
+   "segments": [
+    "I put my book away."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS1-W4",
+   "grade": "CLASS1",
+   "language": "en",
+   "text": "The farmer plants seeds.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:7752a9772089c359db69a468759c62c8700e8eaf1a0e1e45c5df4239403b9060",
+   "segments": [
+    "The farmer plants seeds."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS1-W5",
+   "grade": "CLASS1",
+   "language": "en",
+   "text": "We travel with an adult.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:10081157853c7dc0ae85011ebde9ca51bf7fe8dc2a81b944d72716a7909a7de6",
+   "segments": [
+    "We travel with an adult."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS1-W6",
+   "grade": "CLASS1",
+   "language": "en",
+   "text": "I wash my hands with soap.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:84a53cfed35b8752679666348b92071ad256a9bacefa3f4a7c20fb4d1f6c7537",
+   "segments": [
+    "I wash my hands with soap."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS1-W7",
+   "grade": "CLASS1",
+   "language": "en",
+   "text": "We take turns in our game.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:4ed76d67c6d34aa0d200c1fc6d26e01ac8fed65edf9c6706fcc413c104de77a9",
+   "segments": [
+    "We take turns in our game."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS1-W8",
+   "grade": "CLASS1",
+   "language": "en",
+   "text": "I read a short message.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:46e43211fe381d8066d864b4a5b7648980211a5417de9c9e44163c818a371994",
+   "segments": [
+    "I read a short message."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS3-W1",
+   "grade": "CLASS3",
+   "language": "en",
+   "text": "My family is at home. Everyone can help to tidy up.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:eed9d011c190024dc20265ee2bc0045dcb78e048a87060f356766bab907556e9",
+   "segments": [
+    "My family is at home. Everyone can help to tidy up."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS3-W2",
+   "grade": "CLASS3",
+   "language": "en",
+   "text": "We go to the market. The sellers arrange their goods.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:3191bf56869915e3efa2d49a35d312f3ae924d314e6073569edc25ca83d89792",
+   "segments": [
+    "We go to the market. The sellers arrange their goods."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS3-W3",
+   "grade": "CLASS3",
+   "language": "en",
+   "text": "I put my book away. We look after our classroom materials.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:656e34b94f57fa7af4ed68e84596ecd5916fdf0e9f9a4d4dcaf27f06cf2a4993",
+   "segments": [
+    "I put my book away. We look after our classroom materials."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS3-W4",
+   "grade": "CLASS3",
+   "language": "en",
+   "text": "The farmer plants seeds. The work takes care and patience.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:fa2989fac42a826f7f98a2220506b0972166e8608cecb908d85b786c61a7d8f3",
+   "segments": [
+    "The farmer plants seeds. The work takes care and patience."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS3-W5",
+   "grade": "CLASS3",
+   "language": "en",
+   "text": "We travel with an adult. We watch the landscape along the way.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:f6c343ac0f5180e8c17b658d7760e3bebf732a5c8dcbdfe791c42f29cd58e311",
+   "segments": [
+    "We travel with an adult. We watch the landscape along the way."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS3-W6",
+   "grade": "CLASS3",
+   "language": "en",
+   "text": "I wash my hands with soap. Then I rinse and dry them carefully.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:1582f80cabc34aea448b62eab7f6cc405b70e9cb98becf92357738bf770e4899",
+   "segments": [
+    "I wash my hands with soap. Then I rinse and dry them carefully."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS3-W7",
+   "grade": "CLASS3",
+   "language": "en",
+   "text": "We take turns in our game. Every player respects the rules.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:9d2dff92a1bf2139c6bbe8d087f3e01ed2f83dadacc3f6ba1db4d31cb59a25af",
+   "segments": [
+    "We take turns in our game. Every player respects the rules."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS3-W8",
+   "grade": "CLASS3",
+   "language": "en",
+   "text": "I read a short message. I check the name of the person who will receive it.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:8a0303fb43612517f29f12da474fb2fa1c382b6a96dc697be09862ff554964e6",
+   "segments": [
+    "I read a short message. I check the name of the person who will receive it."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS4-W1",
+   "grade": "CLASS4",
+   "language": "en",
+   "text": "My family is at home. Everyone can help to tidy up.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:eed9d011c190024dc20265ee2bc0045dcb78e048a87060f356766bab907556e9",
+   "segments": [
+    "My family is at home. Everyone can help to tidy up."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS4-W2",
+   "grade": "CLASS4",
+   "language": "en",
+   "text": "We go to the market. The sellers arrange their goods.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:3191bf56869915e3efa2d49a35d312f3ae924d314e6073569edc25ca83d89792",
+   "segments": [
+    "We go to the market. The sellers arrange their goods."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS4-W3",
+   "grade": "CLASS4",
+   "language": "en",
+   "text": "I put my book away. We look after our classroom materials.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:656e34b94f57fa7af4ed68e84596ecd5916fdf0e9f9a4d4dcaf27f06cf2a4993",
+   "segments": [
+    "I put my book away. We look after our classroom materials."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS4-W4",
+   "grade": "CLASS4",
+   "language": "en",
+   "text": "The farmer plants seeds. The work takes care and patience.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:fa2989fac42a826f7f98a2220506b0972166e8608cecb908d85b786c61a7d8f3",
+   "segments": [
+    "The farmer plants seeds. The work takes care and patience."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS4-W5",
+   "grade": "CLASS4",
+   "language": "en",
+   "text": "We travel with an adult. We watch the landscape along the way.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:f6c343ac0f5180e8c17b658d7760e3bebf732a5c8dcbdfe791c42f29cd58e311",
+   "segments": [
+    "We travel with an adult. We watch the landscape along the way."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS4-W6",
+   "grade": "CLASS4",
+   "language": "en",
+   "text": "I wash my hands with soap. Then I rinse and dry them carefully.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:1582f80cabc34aea448b62eab7f6cc405b70e9cb98becf92357738bf770e4899",
+   "segments": [
+    "I wash my hands with soap. Then I rinse and dry them carefully."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS4-W7",
+   "grade": "CLASS4",
+   "language": "en",
+   "text": "We take turns in our game. Every player respects the rules.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:9d2dff92a1bf2139c6bbe8d087f3e01ed2f83dadacc3f6ba1db4d31cb59a25af",
+   "segments": [
+    "We take turns in our game. Every player respects the rules."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "CLASS4-W8",
+   "grade": "CLASS4",
+   "language": "en",
+   "text": "I read a short message. I check the name of the person who will receive it.",
+   "role": "copy_and_dictation",
+   "content_version": "sha256:8a0303fb43612517f29f12da474fb2fa1c382b6a96dc697be09862ff554964e6",
+   "segments": [
+    "I read a short message. I check the name of the person who will receive it."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N1-T1-LC1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "On her first day at school, Tani held her mother’s hand very tight. The classroom was big and noisy. Tani wanted to cry. Then a girl with red ribbons came and said: “Hello! I am Ewi. Do you want to play with the blocks?” Tani built a tall tower with Ewi. When her mother came back, Tani said: “Mummy, tomorrow I am coming back to play with Ewi!”",
+   "role": "story",
+   "content_version": "sha256:634fd36db56bf96f346737880f8dfe68bcba20a9001c3c9320c22fc21a73a940",
+   "segments": [
+    "On her first day at school, Tani held her mother’s hand very tight. The classroom was big and noisy. Tani wanted to cry. Then a girl with red ribbons came and said: “Hello! I am Ewi. Do you want to play with the blocks?” Tani built a tall tower with Ewi. When her mother came back, Tani said: “Mummy, tomorrow I am coming back to play with Ewi!”"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N1-T2-LC1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "Two little hands go clap, clap, clap,\nTwo little feet go tap, tap, tap,\nTwo little eyes can see, see, see,\nOne little nose, and that is me!",
+   "role": "story",
+   "content_version": "sha256:f9de9d05f9ecdd5e8f067dcda793f0802e9eb79134d8c7e273669188dd54338b",
+   "segments": [
+    "Two little hands go clap, clap, clap, Two little feet go tap, tap, tap, Two little eyes can see, see, see, One little nose, and that is me!"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N1-T3-LC1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "Grandmother was cooking a big pot of rice for the whole family. “Who will help me?” she asked. “Not me, I am playing,” said Fon. “I will!” said little Bih, and she brought water and washed the plates. When the food was ready, everybody came to eat. Grandmother smiled at Bih: “Thank you for helping. A family is strong when everyone helps.” The next day, Fon came first to bring the water.",
+   "role": "story",
+   "content_version": "sha256:378c398396aee73bd987bbbe3d83a1d48d632db4ef438327902e14e61e6f5d75",
+   "segments": [
+    "Grandmother was cooking a big pot of rice for the whole family. “Who will help me?” she asked. “Not me, I am playing,” said Fon. “I will!” said little Bih, and she brought water and washed the plates. When the food was ready, everybody came to eat. Grandmother smiled at Bih: “Thank you for helping. A family is strong when everyone helps.” The next day, Fon came first to bring the water."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N1-T4-LC1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "Ten little candles on a birthday cake,\nBlow, blow, blow, one goes out, for goodness’ sake!\nNine little candles… (go on to one)\nNo more candles, let us eat the cake!",
+   "role": "story",
+   "content_version": "sha256:b3f615a59842eb9295482cc6cab6480106f3f312994e0cbe18d1437f88f114bd",
+   "segments": [
+    "Ten little candles on a birthday cake, Blow, blow, blow, one goes out, for goodness’ sake! Nine little candles… (go on to one) No more candles, let us eat the cake!"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N1-T5-LC1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "A little seed slept under the soil. “Wake up!” said the rain, and gave it water. “Wake up!” said the sun, and gave it warmth. The seed stretched a tiny root down and a little green shoot up. Every day Ngwa watered it. One morning, there was a beautiful yellow flower, and Ngwa danced with joy.",
+   "role": "story",
+   "content_version": "sha256:6265be04e719d57c7a47a905e86417cde669f30665f2e83e44c1716f09c56158",
+   "segments": [
+    "A little seed slept under the soil. “Wake up!” said the rain, and gave it water. “Wake up!” said the sun, and gave it warmth. The seed stretched a tiny root down and a little green shoot up. Every day Ngwa watered it. One morning, there was a beautiful yellow flower, and Ngwa danced with joy."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N1-T6-LC1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "Little goat, little goat, with a bell on your coat,\nYou eat green grass and you jump on a rock,\nMeh, meh, little goat, it is time to go home,\nTo sleep near the house when the night has come.",
+   "role": "story",
+   "content_version": "sha256:ae9b6e28c8800acf8287afaa3754e3be9878aaabeaf6ce56ef456e05b0d78281",
+   "segments": [
+    "Little goat, little goat, with a bell on your coat, You eat green grass and you jump on a rock, Meh, meh, little goat, it is time to go home, To sleep near the house when the night has come."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N1-T7-LC1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "Every night, while the town sleeps, Ewane the baker wakes up. He mixes flour, water and salt in a big bowl. He kneads the dough, push and fold, push and fold. He puts the bread in the hot oven. In the morning, the whole street smells good, and the children say: “Thank you, Ewane, for our bread!”",
+   "role": "story",
+   "content_version": "sha256:4c9d3b5ca28d1e430104fe4c12307e27e9db3c27f6a2941113c2c35796450937",
+   "segments": [
+    "Every night, while the town sleeps, Ewane the baker wakes up. He mixes flour, water and salt in a big bowl. He kneads the dough, push and fold, push and fold. He puts the bread in the hot oven. In the morning, the whole street smells good, and the children say: “Thank you, Ewane, for our bread!”"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N1-T8-LC1",
+   "grade": "NURSERY1",
+   "language": "en",
+   "text": "Beep, beep, says the little bus,\nThe wheels go round, there is room for us,\nStop at the market, stop at the school,\nSit down quietly, that is the rule!",
+   "role": "story",
+   "content_version": "sha256:390bd64dbac5735adb26d2073281cd56722653e93e28a1ef3aacd16e6ce3f23f",
+   "segments": [
+    "Beep, beep, says the little bus, The wheels go round, there is room for us, Stop at the market, stop at the school, Sit down quietly, that is the rule!"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N2-T1-LC1",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "At break time, Eno looked for his lunch box. It was not in his bag! He looked under the bench, near the door, behind the cupboard. His friend Mbong saw that he was sad… (stop and ask) …Mbong said: “Come, we can share my sandwich.” After break, the teacher found the lunch box on the windowsill. The next day, Eno brought two bananas: one for him and one for Mbong.",
+   "role": "story",
+   "content_version": "sha256:d779e3d313ba311fa75e34ab2d0313799f3094b75ee29430c436c391adf53a0d",
+   "segments": [
+    "At break time, Eno looked for his lunch box. It was not in his bag! He looked under the bench, near the door, behind the cupboard. His friend Mbong saw that he was sad… (stop and ask) …Mbong said: “Come, we can share my sandwich.” After break, the teacher found the lunch box on the windowsill. The next day, Eno brought two bananas: one for him and one for Mbong."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N2-T2-LC1",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "Ten little fingers to hold my spoon,\nTen little toes to dance to the tune,\nTen and ten, let us count them, friends:\nTwenty little helpers at my ends!",
+   "role": "story",
+   "content_version": "sha256:24b8eecb0eb4fba95bac058d39898c4b9eb012831d372cee978dac17a6cbbe46",
+   "segments": [
+    "Ten little fingers to hold my spoon, Ten little toes to dance to the tune, Ten and ten, let us count them, friends: Twenty little helpers at my ends!"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N2-T4-LC1",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "Two red balloons, four, six, eight,\nTen at the door, we cannot wait!\nTwelve, fourteen, sixteen in the air,\nEighteen, twenty, balloons everywhere!",
+   "role": "story",
+   "content_version": "sha256:fafbe3c3f4486e073a8eed16541e320dab4aec6156fc68c4d6325b5cc0c94cfd",
+   "segments": [
+    "Two red balloons, four, six, eight, Ten at the door, we cannot wait! Twelve, fourteen, sixteen in the air, Eighteen, twenty, balloons everywhere!"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N2-T5-LC1",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "Early in the morning, the cock said: “Cock-a-doodle-doo!” The goat woke up: “Meh, meh!” The cow mooed: “Moo!” The dog barked: “Woof, woof!” But the little pig was still sleeping. All the animals called together, very loudly. The little pig opened one eye and said: “Oink! Is it already morning?” And everybody laughed.",
+   "role": "story",
+   "content_version": "sha256:d149597451453e5818aa86bf74d6e4bfae0bbb76ba0fda1f3af5faafce1180c7",
+   "segments": [
+    "Early in the morning, the cock said: “Cock-a-doodle-doo!” The goat woke up: “Meh, meh!” The cow mooed: “Moo!” The dog barked: “Woof, woof!” But the little pig was still sleeping. All the animals called together, very loudly. The little pig opened one eye and said: “Oink! Is it already morning?” And everybody laughed."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N2-T6-LC1",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "Mango, mango, on the tree,\nGreen today, but wait and see,\nYellow, sweet and soft one day,\nWe will share it, hip hooray!",
+   "role": "story",
+   "content_version": "sha256:8b62d6d83d2413c10f64677591552b1e68e61106ac6bb95762c6d50b3d9c0a4c",
+   "segments": [
+    "Mango, mango, on the tree, Green today, but wait and see, Yellow, sweet and soft one day, We will share it, hip hooray!"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N2-T7-LC1",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "Madam Ebude, the tailor, had to sew ten school uniforms for Monday. On Saturday her sewing machine broke! She sat down and was very worried… (stop and ask) …Her neighbour, the mechanic, came with his tools and repaired the machine. Madam Ebude worked all Sunday, and on Monday the children were proud of their new uniforms.",
+   "role": "story",
+   "content_version": "sha256:04911cecd4caa34f6e3398ae57a6c30a6236b32357539214762d43656b7568c8",
+   "segments": [
+    "Madam Ebude, the tailor, had to sew ten school uniforms for Monday. On Saturday her sewing machine broke! She sat down and was very worried… (stop and ask) …Her neighbour, the mechanic, came with his tools and repaired the machine. Madam Ebude worked all Sunday, and on Monday the children were proud of their new uniforms."
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  },
+  {
+   "id": "N2-T8-LC1",
+   "grade": "NURSERY2",
+   "language": "en",
+   "text": "Vroom goes the car on the long, long road,\nToot goes the truck with a heavy load,\nChoo-choo goes the train, swish goes the boat,\nAnd up in the sky the planes all float!",
+   "role": "story",
+   "content_version": "sha256:16dd853127a14b6c83e37d5366bcdad77c49e277e164304a87075eb16298bd76",
+   "segments": [
+    "Vroom goes the car on the long, long road, Toot goes the truck with a heavy load, Choo-choo goes the train, swish goes the boat, And up in the sky the planes all float!"
+   ],
+   "status": "text_in_review",
+   "recording": null,
+   "reviewer": null,
+   "consent_reference": null
+  }
+ ]
+}

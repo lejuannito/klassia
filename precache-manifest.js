@@ -1,6 +1,10 @@
 self.KLASSIA_RELEASE = {
-  "version": "ce5f7a239171ba82e76d4d298eea8483d17739bde6d13e3d8ee525c407c53df1",
+  "version": "af6baae167e0817c6630980a4fafda3c6b40b6872b9534442cd3086d4b882c8d",
   "packs": {
+    "common": {
+      "files": 78,
+      "bytes": 1327361
+    },
     "CE1": {
       "files": 52,
       "bytes": 1187312
@@ -21,10 +25,6 @@ self.KLASSIA_RELEASE = {
       "files": 94,
       "bytes": 3010158
     },
-    "common": {
-      "files": 71,
-      "bytes": 600229
-    },
     "CLASS1": {
       "files": 8,
       "bytes": 348219
@@ -39,7 +39,7 @@ self.KLASSIA_RELEASE = {
     },
     "ATELIER": {
       "files": 1,
-      "bytes": 1122659
+      "bytes": 1281959
     },
     "NURSERY1": {
       "files": 9,
@@ -51,6 +51,21 @@ self.KLASSIA_RELEASE = {
     }
   },
   "files": [
+    {
+      "url": "./assets/Playwrite-OFL.txt",
+      "sha256": "0370f5946020846b0ca65e44950d11411ea3bd3c4c0d755916470f9f96cd8cb8",
+      "size": 4393
+    },
+    {
+      "url": "./assets/PlaywriteFRTrad.ttf",
+      "sha256": "0f20dd00ba639dc19e9095e8239a7667d92922c2fd6b69bd3ffb600b90ae4845",
+      "size": 345452
+    },
+    {
+      "url": "./assets/PlaywriteGBJ.ttf",
+      "sha256": "75263adf472a717edc4d7d10ea28016591928c98f2cd5da93b0269ef4a919fc9",
+      "size": 340536
+    },
     {
       "url": "./assets/ce1-bandes-regle.svg",
       "sha256": "f97b4fdfe6634edc0b727600f46317a4a3df4802f65f86ac83ecd79afc799c0b",
@@ -1348,8 +1363,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "4c08c3cc302d37ec9e68f0beb73a063657186472deb358e5ea8d2d3ab1cac82b",
-      "size": 1122659,
+      "sha256": "d9fb4a4789a9463bf6784bde445253af8ecdf86a5dc87e25a3d96535e87fbda4",
+      "size": 1281959,
       "pack": "ATELIER"
     },
     {
@@ -1416,6 +1431,16 @@ self.KLASSIA_RELEASE = {
       "sha256": "1f18856cfc634320f4d1c0fb777fde8e9f282abe437c8612f5517fffdb4d7379",
       "size": 94589,
       "pack": "CE2"
+    },
+    {
+      "url": "./data/writing-models.json",
+      "sha256": "272176e9bb602be15bc77f32fcb30d14dbbb2d71ec68d1e615fed777990c7246",
+      "size": 26170
+    },
+    {
+      "url": "./ecriture.html",
+      "sha256": "4bdcb17bdafaa71964cfcdaad0b828f30f62b92e7244a2858e6685b83687ba72",
+      "size": 944
     },
     {
       "url": "./gs/data/catalog-v13.json",
@@ -1701,8 +1726,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./outils.html",
-      "sha256": "4be4bdc161861ae95ecaee5a15463fbec5f55b8edddfd77d2c33e05a67880aa4",
-      "size": 4283
+      "sha256": "f473fcdc557b59814014165e1cb5c1d9d26ad0c7d818f0a6fc335a09e7965404",
+      "size": 4384
     },
     {
       "url": "./pilote.html",
@@ -1746,8 +1771,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/core.js",
-      "sha256": "89d01c9662512ba65d8e6218d5eb09ab7a872205d5797b9cd5d5826e3d6f7bc1",
-      "size": 15503
+      "sha256": "7a8408fe7d0e75f9d234ce02f7f3de0437733b2b54f845887e67346f20be0c63",
+      "size": 15528
     },
     {
       "url": "./shared/correction.js",
@@ -1763,6 +1788,16 @@ self.KLASSIA_RELEASE = {
       "url": "./shared/exercises.js",
       "sha256": "59409228de709d815a287dca0f03d42398ce6847ebdf2e93b9e59b74b959dcbb",
       "size": 8431
+    },
+    {
+      "url": "./shared/handwriting.css",
+      "sha256": "953dd69e230c51407ffe1607e6ac1abbcdbae4510b6672d4e1b156d7527069ea",
+      "size": 2168
+    },
+    {
+      "url": "./shared/handwriting.js",
+      "sha256": "273dd2a7fd39d737ac2f8fe74f9c47df37ef33b88cee046c54cfc39d516da4a7",
+      "size": 5604
     },
     {
       "url": "./shared/home-language.js",
@@ -1786,8 +1821,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "1b4ea9012857c25c45f011a66e18363250addc84395c42f9e4de9cfce13cee8a",
-      "size": 47097
+      "sha256": "bf3bab89898547ceae848c0bd0b0ecb5b91dd99cf14b614574820b8d8e38afb6",
+      "size": 47259
     },
     {
       "url": "./shared/lesson-model.js",
@@ -1891,8 +1926,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/speech.js",
-      "sha256": "0f8178d6eb32016c7ee2ca11419350ae7d0326ba017993c45d99c410f953d6d7",
-      "size": 11769
+      "sha256": "2decc1ad836377286435568f8222221c5d61e97582bf269ce6621469a61ad270",
+      "size": 12509
     },
     {
       "url": "./shared/style.css",
@@ -1911,8 +1946,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/workshop.js",
-      "sha256": "c031f95a9da78ea18c433eda1263400fdaa28d0d7cf6fd6a06936655088e4b5d",
-      "size": 13476
+      "sha256": "e7a994ad7f4cee78ddf6cd79ff866f8fca8a8ca8d3df3c31a1940bd88fb2c264",
+      "size": 14313
     },
     {
       "url": "./sil/data/curriculum.json",

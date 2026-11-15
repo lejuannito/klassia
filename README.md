@@ -1,91 +1,24 @@
-# Klassia — manuel interactif CE2, MS, SIL et CE1
+# Klassia — candidate technique 15.1.0-rc.1
 
-Manuel interactif camerounais pour un usage **accompagné**. Cette branche consolide la v14 ; elle ne constitue pas une édition scolaire validée.
+Ressources scolaires camerounaises en **édition pilote accompagnée**, pour dix classes des sous-systèmes francophone et anglophone. Les contenus restent en relecture pédagogique et linguistique ; leur nombre ne prouve pas une couverture annuelle exhaustive.
 
 ## Utiliser
 
-Ouvrir la racine du site pour le CE2, `ms/` pour la moyenne section, `gs/` pour la grande section bilingue, `sil/` pour la SIL ou `ce1/` pour le CE1. Le bouton « Changer d’espace » permet de passer aux vues enfant, parent, enseignant ou administration locale. Le lien « Validation pédagogique » reste visible dans toutes les classes. Ces espaces sont des vues locales sans compte sécurisé; les décisions de revue restent sur l’appareil et sont exportables. Aucun téléphone ni mot de passe n’est demandé ; il ne s’agit pas de comptes sécurisés.
+L’accueil propose Français / English, puis la classe. MS, GS, SIL, CE1 et CE2 ont leurs parcours ; Nursery One, Nursery Two, Class 1, Class 3 et Class 4 sont des parcours anglophones distincts. Le prénom et les progressions restent dans un profil local, sans compte sécurisé. Les vues Enfant, Parent et Enseignant ne constituent pas une authentification.
 
-Attendre le message **« CE2, MS, GS, SIL et CE1 disponibles hors connexion »** avant de couper la connexion. « Vérifier les mises à jour » indique si l’édition est à jour ou si le téléchargement doit être repris. En cas d’interruption, les fichiers déjà installés restent accessibles. Pour appliquer une édition téléchargée et vérifiée, fermer les autres fenêtres Klassia puis choisir « Recharger avec la nouvelle édition ». Exporter sa sauvegarde avant de changer d’appareil ou de vider les données du navigateur.
+Choisir les classes à télécharger et attendre la confirmation hors connexion avant de couper le réseau. Exporter les sauvegardes utiles avant de changer d’appareil ou d’effacer les données. Le JSON du profil ne comprend pas les dessins, les prises sonores et les relevés éditoriaux ; leurs outils d’export restent distincts.
 
-## Ce qui change
+- `ecriture.html` : 80 modèles de copie/dictée, script ou cursive FR/EN, lignages et impression ; graphies locales à confirmer.
+- `diagnostic.html` : relevé technique exportable pour les incidents navigateur et PWA, sans lecture des données enfant ni envoi automatique.
+- `confidentialite.html` : fonctionnement des données de l’édition pilote.
+- atelier pédagogique : consulter les ressources, enregistrer et exporter des décisions rattachées à la version du contenu. Une décision locale ne publie pas une validation sur le site.
 
-- Rendus explicites : suppression des boucles `MutationObserver` des écrans CE2/MS.
-- Exercice FR-U1-L1 corrigé ; choix QCM mélangés sans perdre l’identité de la bonne réponse.
-- Profils locaux séparés, migration conservant les anciennes clés, sauvegarde version 2, import validé, fusion des seules rubriques présentes et annulation de restauration.
-- Mise en cache atomique avec SHA-256 ; accès direct aux classes et contenus disponibles vérifiés hors connexion.
-- Contenus du manuel en JSON lisible, sans découpage gzip/base64 ni dépendance à `DecompressionStream`.
-- Une activité MS à la fois, observations datées et imprimables bilingues enrichis.
-- 27 leçons de mathématiques et 20 d’anglais U4–U8 réécrites avec des situations spécifiques, toujours en attente de relecture.
-- Guide adulte pour l’unité CE2 U1 et le thème MS T1 ; deux supports visuels et exercices numériques démontrant le moteur d’interaction.
-- Lecture optionnelle FR/EN par la voix de l’appareil. Ce n’est pas un pack audio validé ; disponibilité et fonctionnement hors ligne dépendent de l’appareil. Aucun audio Bassa synthétique n’est proposé.
-- Inventaire de 605 ressources et correspondances proposées ; consultation via l’affichage « Revue éditoriale » puis « Couverture ».
+## État et suite
 
-## Volumes et limites
+Voir [les lots et prochaines étapes](docs/NEXT.md), [la préparation de la revue](docs/REVUE_CANDIDATE.md), [la matrice anglophone](docs/matrice-anglophone.csv) et [le dossier de candidate](docs/CANDIDATE_15_1.md).
 
-347 leçons CE2, 160 activités MS, 80 évaluations CE2. La banque contient 1 323 questions après remplacement de 225 questions essentielles génériques par des questions concrètes déjà présentes dans les compléments, dont les copies ont été retirées. **1 187 questions sont accessibles ; 136 QCM Bassa sont suspendus** jusqu’à validation linguistique. Les anciens contenus restent dans l’historique Git.
+Le dépôt reste public jusqu’à la candidate, selon l’autorisation du porteur. Le passage en privé viendra ensuite, en préservant déploiement et accès autorisés. Le choix propriétaire n’écarte pas les licences tierces : [notices](NOTICES.md).
 
-Les contenus SIL (8 centres d’intérêt) et CE1 (8 unités) sont des propositions éditoriales en attente de revue; ils ne sont pas déclarés validés par un enseignant ou un linguiste. Le CE1 suit les objectifs CE1 de Niveau 2 en français et la colonne Class 3 en anglais. Le CP reste une étape entre la SIL et le CE1. Les propositions de langues nationales restent visibles et provisoires jusqu’à arbitrage linguistique.
+## Développer
 
-## Développer et vérifier
-
-Node.js 22 ou ultérieur. Pas de compilation requise pour consulter le site ; servir les fichiers en HTTP local (par exemple `python -m http.server 8000`).
-
-```sh
-npm install --ignore-scripts
-npm run catalog
-npm run validate
-npm test
-npm run build
-npx playwright install chromium
-npm run test:browser
-```
-
-`catalog` régénère les compteurs, la matrice et les métriques. `build` doit être exécuté après chaque modification des fichiers servis : les empreintes de `precache-manifest.js` doivent correspondre exactement aux fichiers publiés. Copier une partie d’une nouvelle édition rend volontairement son installation hors ligne invalide.
-
-`npm run build:public` échoue tant que les ressources ne possèdent pas de validation nominative et de statut publié. Cette barrière de construction n’empêche pas quelqu’un de publier manuellement un pilote : les mentions de pilote doivent donc rester visibles et une diffusion grand public ne doit pas être présentée comme certifiée.
-
-La CI vérifie structure, stockage, service worker, navigation mobile, impression bilingue et accès hors connexion. Les fichiers `tests/browser.cjs` peuvent utiliser `KLASSIA_CHROMIUM=/chemin/vers/chromium` pour un navigateur déjà installé.
-
-## Documentation
-
-- [Bilan par constat d’audit](docs/BILAN_V15.md)
-- [Architecture et contrats](docs/ARCHITECTURE.md)
-- [Guide parents et enseignants](docs/GUIDE_PILOTE.md)
-- [Processus de relecture et publication](docs/VALIDATION_PEDAGOGIQUE.md)
-- [Feuille de route des cinq classes](docs/TRAJECTOIRE.md)
-- [Couverture du curriculum et progression](docs/COUVERTURE_PROGRESSION.md)
-- [Inventaire des ressources CSV](docs/couverture.csv)
-- [Métriques calculées](docs/metrics.json)
-
-Le dépôt ne comporte aucun serveur de comptes, paiement, synchronisation ou télémétrie. Les données d’apprentissage restent sur l’appareil ; les sauvegardes téléchargées contiennent les observations saisies par l’adulte et les réponses écrites de l’enfant, et doivent être conservées avec soin.
-
-### SIL bilingue
-
-Huit centres d’intérêt sont accessibles à `/sil/`, de la maison aux communications. Les 89 leçons comprennent les séquences de chaque centre, une leçon de reproduction sur quadrillage et les huit compléments pilotes. La progression française SIL suit sa colonne propre (alphabet, sons, syllabes, phrases, texte). L’anglais suit séparément les attendus Class 1 de lecture débutante, copie de noms ou de phrases, numéraux de 0 à 50 et communication orale. Les séquences contiennent exemples, activités guidées, exercices, corrections, remédiations et prolongements. La navigation propose **Par unité**, **Par matière** et **Par domaine**.
-
-Les propositions de mots bassa proviennent du lexique documentaire du dépôt. Les variantes et notes restent consultables et explicitement non validées ; aucun score officiel de langue n’est attribué.
-
-### CE1 bilingue
-
-Le CE1 propose à `/ce1/` 88 leçons réparties dans huit unités, avec les mêmes choix de navigation. Le français s’appuie sur les objectifs CE1 du curriculum Niveau 2. L’anglais suit les attendus distincts de Class 3. La couverture exhaustive des objectifs reste à vérifier dans la matrice.
-
-### Navigation des profils et des classes
-
-Le bouton **Profil : …** ouvre le choix de l’enfant et de l’espace affiché (Enfant, Parent, Enseignant ou Administration). Le menu **Classe : …**, présent dans les espaces CE2, MS, GS, SIL et CE1, permet de passer d’un parcours à l’autre. Depuis un affichage Enseignant/Administration, il propose aussi les accès à la revue éditoriale et à l’atelier Bassa. Klassia ne possède pas de connexion à un compte ni de déconnexion serveur : les profils et rôles sont locaux à l’appareil.
-
-Dans l’espace Enseignant, la page Revue éditoriale permet désormais de consigner les décisions directement depuis l’interface, puis d’exporter un relevé JSON. Les décisions restent enregistrées dans le navigateur utilisé et doivent être reprises par l’équipe éditoriale pour rejoindre les sources du dépôt.
-
-## Revue d’ensemble et grande section
-
-Voir le [bilan de revue](docs/REVUE_ENSEMBLE.md), les [curricula retrouvés pour la grande section](docs/GRANDE_SECTION_CURRICULUM.md) et l’[audit reproductible](docs/content-audit.json). Exécuter `npm run audit:content` après `npm run catalog`. Huit unités structurées ne prouvent pas une couverture annuelle exhaustive.
-
-## Grande section bilingue et bassa
-
-La grande section propose désormais 162 activités originales dans huit thèmes et cinq domaines : `gs/`. Le même moteur maternel sert MS et GS, avec des progrès distincts. Les correspondances de curriculum sont fournies par activité. Voir [le guide GS et Bassa](docs/GS_BASSA.md).
-
-Les 45 leçons de langues nationales des cinq classes ouvrent un panneau **Bassa · traductions et entraînement**, avec propositions sourcées et caractères sélectionnables. Toutes les formes affichées pour le sens demandé sont acceptées, même signalées à revoir. L’arbitrage reste une annotation, sans pénalité automatique. `npm run test:gs` vérifie les parcours GS et les panneaux Bassa.
-
-## Audio, français CE2 et enrichissement pédagogique
-
-Le [guide audio](docs/AUDIO_FR_CE2.md) explique le choix des voix FR/EN et l’aide en cas de voix manquante. Les 39 leçons de français CE2 U4–U8 ont des supports originaux et 78 exercices corrigés. La [trajectoire actualisée](docs/TRAJECTOIRE.md) recense les travaux restants ; les [principes d’enrichissement](docs/ENRICHISSEMENT.md) guident les prochains lots.
+Node >= 22. Les contrôles, le paquet statique Cloudflare, les limites de test et la procédure de retour sont décrits dans [CANDIDATE_15_1.md](docs/CANDIDATE_15_1.md). Pour reprendre un lot, lire `AGENTS.md` puis `docs/NEXT.md`.

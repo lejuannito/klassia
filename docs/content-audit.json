@@ -1,1693 +1,1602 @@
 {
-  "notice": "Indicateurs structurels et alertes heuristiques, pas une validation pédagogique. Les alertes ne recensent pas tous les défauts de contenu.",
+  "notice": "Audit structurel des dix classes, pas une validation pédagogique. Un thème pourvu, un projet et un nombre de ressources ne prouvent pas la couverture exhaustive des attendus. Les correspondances au programme et la répartition mensuelle sont proposées, à comparer colonne par colonne aux référentiels par les relecteurs.",
   "grades": [
     {
       "grade": "MS",
-      "resources": 160,
+      "resources": 168,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 160
+      "unverifiedCurriculumMappings": 168
     },
     {
       "grade": "GS",
-      "resources": 162,
+      "resources": 167,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 162
+      "unverifiedCurriculumMappings": 167
     },
     {
       "grade": "SIL",
-      "resources": 122,
+      "resources": 144,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 122
+      "unverifiedCurriculumMappings": 144
     },
     {
       "grade": "CE1",
-      "resources": 183,
+      "resources": 191,
       "genericDiscoveries": [],
-      "unverifiedCurriculumMappings": 183
+      "unverifiedCurriculumMappings": 191
     },
     {
       "grade": "CE2",
       "resources": 347,
       "genericDiscoveries": [],
       "unverifiedCurriculumMappings": 347
+    },
+    {
+      "grade": "NURSERY1",
+      "resources": 96,
+      "genericDiscoveries": [],
+      "unverifiedCurriculumMappings": 96
+    },
+    {
+      "grade": "NURSERY2",
+      "resources": 96,
+      "genericDiscoveries": [],
+      "unverifiedCurriculumMappings": 96
+    },
+    {
+      "grade": "CLASS1",
+      "resources": 128,
+      "genericDiscoveries": [],
+      "unverifiedCurriculumMappings": 128
+    },
+    {
+      "grade": "CLASS3",
+      "resources": 128,
+      "genericDiscoveries": [],
+      "unverifiedCurriculumMappings": 128
+    },
+    {
+      "grade": "CLASS4",
+      "resources": 128,
+      "genericDiscoveries": [],
+      "unverifiedCurriculumMappings": 128
     }
   ],
-  "supportLessons": [
-    "SIL-U1-R1",
-    "SIL-U1-R2",
-    "SIL-U1-R3",
-    "SIL-U1-L05",
-    "SIL-U1-L07",
-    "SIL-U1-L08",
-    "SIL-U1-L11",
-    "SIL-U1-R4",
-    "SIL-U2-R1",
-    "SIL-U2-R2",
-    "SIL-U2-R3",
-    "SIL-U2-R4",
-    "SIL-U3-R1",
-    "SIL-U3-R2",
-    "SIL-U3-R3",
-    "SIL-U3-L07",
-    "SIL-U3-R4",
-    "SIL-U4-R1",
-    "SIL-U4-R2",
-    "SIL-U4-R3",
-    "SIL-U4-L01",
-    "SIL-U4-L11",
-    "SIL-U4-R4",
-    "SIL-U5-R1",
-    "SIL-U5-R2",
-    "SIL-U5-R3",
-    "SIL-U5-R4",
-    "SIL-U6-R1",
-    "SIL-U6-R2",
-    "SIL-U6-R3",
-    "SIL-U6-R4",
-    "SIL-U7-R1",
-    "SIL-U7-R2",
-    "SIL-U7-R3",
-    "SIL-U7-R4",
-    "SIL-U8-R1",
-    "SIL-U8-R2",
-    "SIL-U8-R3",
-    "SIL-U8-L01",
-    "SIL-U8-R4",
-    "CE1-U1-L01",
-    "CE1-U1-G1",
-    "CE1-U1-V1",
-    "CE1-U1-O1",
-    "CE1-U1-C1",
-    "CE1-U1-E1",
-    "CE1-U1-E2",
-    "CE1-U1-E3",
-    "CE1-U1-E4",
-    "CE1-U1-MC",
-    "CE1-U1-MM",
-    "CE1-U1-MG",
-    "CE1-U1-L11",
-    "CE1-U2-G1",
-    "CE1-U2-G2",
-    "CE1-U2-V1",
-    "CE1-U2-O1",
-    "CE1-U2-C1",
-    "CE1-U2-E1",
-    "CE1-U2-E2",
-    "CE1-U2-E3",
-    "CE1-U2-E4",
-    "CE1-U2-MN",
-    "CE1-U2-MC",
-    "CE1-U2-MM",
-    "CE1-U2-MG",
-    "CE1-U3-G1",
-    "CE1-U3-G2",
-    "CE1-U3-V1",
-    "CE1-U3-O1",
-    "CE1-U3-C1",
-    "CE1-U3-E1",
-    "CE1-U3-E2",
-    "CE1-U3-E3",
-    "CE1-U3-E4",
-    "CE1-U3-MC",
-    "CE1-U3-MM",
-    "CE1-U3-MG",
-    "CE1-U3-L06",
-    "CE1-U4-G1",
-    "CE1-U4-V1",
-    "CE1-U4-O1",
-    "CE1-U4-O2",
-    "CE1-U4-C1",
-    "CE1-U4-E1",
-    "CE1-U4-E2",
-    "CE1-U4-E3",
-    "CE1-U4-E4",
-    "CE1-U4-MC",
-    "CE1-U4-MM",
-    "CE1-U4-MG",
-    "CE1-U4-L09",
-    "CE1-U5-G1",
-    "CE1-U5-V1",
-    "CE1-U5-O1",
-    "CE1-U5-C1",
-    "CE1-U5-L03",
-    "CE1-U5-E1",
-    "CE1-U5-E2",
-    "CE1-U5-E3",
-    "CE1-U5-E4",
-    "CE1-U5-MN",
-    "CE1-U5-MC",
-    "CE1-U5-MM",
-    "CE1-U5-MG",
-    "CE1-U5-L08",
-    "CE1-U6-L01",
-    "CE1-U6-G1",
-    "CE1-U6-V1",
-    "CE1-U6-O1",
-    "CE1-U6-C1",
-    "CE1-U6-E1",
-    "CE1-U6-E2",
-    "CE1-U6-E3",
-    "CE1-U6-E4",
-    "CE1-U6-MN",
-    "CE1-U6-MC",
-    "CE1-U6-MM",
-    "CE1-U6-L12",
-    "CE1-U6-L08",
-    "CE1-U7-L01",
-    "CE1-U7-G1",
-    "CE1-U7-G2",
-    "CE1-U7-V1",
-    "CE1-U7-O1",
-    "CE1-U7-C1",
-    "CE1-U7-E1",
-    "CE1-U7-E2",
-    "CE1-U7-E3",
-    "CE1-U7-E4",
-    "CE1-U7-L04",
-    "CE1-U7-MN",
-    "CE1-U7-MC",
-    "CE1-U7-MM",
-    "CE1-U7-L08",
-    "CE1-U8-L01",
-    "CE1-U8-G1",
-    "CE1-U8-V1",
-    "CE1-U8-O1",
-    "CE1-U8-C1",
-    "CE1-U8-E1",
-    "CE1-U8-E2",
-    "CE1-U8-E3",
-    "CE1-U8-E4",
-    "CE1-U8-L04",
-    "CE1-U8-MN",
-    "CE1-U8-MC",
-    "CE1-U8-MM",
-    "CE1-U8-L09"
-  ],
-  "additionalPractice": [
-    {
-      "lesson": "SIL-U1-R1",
-      "index": 1,
-      "prompt": "Dans ton prénom écrit par l’adulte, montre les voyelles et dis leur nom."
-    },
-    {
-      "lesson": "SIL-U1-R1",
-      "index": 2,
-      "prompt": "Écoute les voyelles. Écris-les sur les lignes ou montre les cartes, dans l’ordre."
-    },
-    {
-      "lesson": "SIL-U1-R2",
-      "index": 1,
-      "prompt": "Quelle lettre vient juste après d dans l’alphabet ? Et juste avant k ?"
-    },
-    {
-      "lesson": "SIL-U1-R2",
-      "index": 2,
-      "prompt": "Associe chaque majuscule à sa minuscule : A, D, G, M."
-    },
-    {
-      "lesson": "SIL-U1-R3",
-      "index": 1,
-      "prompt": "Quelle lettre manque ? n o … q r"
-    },
-    {
-      "lesson": "SIL-U1-R3",
-      "index": 2,
-      "prompt": "Écoute le nom des lettres. Écris-les ou montre-les, dans l’ordre."
-    },
-    {
-      "lesson": "SIL-U1-L03",
-      "index": 1,
-      "prompt": "Tu as 2 jetons. Ajoute 1 jeton. Combien en as-tu ?"
-    },
-    {
-      "lesson": "SIL-U1-L05",
-      "index": 1,
-      "prompt": "Montre A, B et C et nomme chaque partie. Avec l’adulte, allume puis éteins un appareil préparé pour la séance."
-    },
-    {
-      "lesson": "SIL-U1-L08",
-      "index": 1,
-      "prompt": "L’adulte dit « stop » avant l’arrivée. Montre où tu t’arrêtes et explique quand tu peux repartir."
-    },
-    {
-      "lesson": "SIL-U1-L11",
-      "index": 1,
-      "prompt": "Tu as laissé un espace entre deux reports. Que faut-il faire avant de compter ?"
-    },
-    {
-      "lesson": "SIL-U1-L11",
-      "index": 2,
-      "prompt": "Nina compte 5 petites bandes. Sami compte 4 grandes bandes. Peut-on choisir le chemin le plus long avec ces deux nombres ?"
-    },
-    {
-      "lesson": "SIL-U1-R4",
-      "index": 1,
-      "prompt": "Montre les majuscules dans cette ligne : a B c D e."
-    },
-    {
-      "lesson": "SIL-U1-R4",
-      "index": 2,
-      "prompt": "Écoute et écris les lettres, ou montre-les, dans l’ordre."
-    },
-    {
-      "lesson": "SIL-U2-R1",
-      "index": 1,
-      "prompt": "Dans « banane », combien de fois entends-tu [a] ?"
-    },
-    {
-      "lesson": "SIL-U2-R1",
-      "index": 2,
-      "prompt": "Écoute les mots. Écris a si tu entends [a], sinon fais un petit trait."
-    },
-    {
-      "lesson": "SIL-U2-R2",
-      "index": 1,
-      "prompt": "Où entends-tu [o] : au début, au milieu ou à la fin ? « olive », « vélo », « école »."
-    },
-    {
-      "lesson": "SIL-U2-R2",
-      "index": 2,
-      "prompt": "Écoute les mots. Écris o si tu entends [o], a si tu entends [a]."
-    },
-    {
-      "lesson": "SIL-U2-R3",
-      "index": 1,
-      "prompt": "Dans « ici », combien de fois entends-tu [i] ?"
-    },
-    {
-      "lesson": "SIL-U2-R3",
-      "index": 2,
-      "prompt": "Écoute et écris les voyelles dans l’ordre."
-    },
-    {
-      "lesson": "SIL-U2-L03",
-      "index": 1,
-      "prompt": "Sépare 8 jetons en deux groupes : 5 et combien ?"
-    },
-    {
-      "lesson": "SIL-U2-L09",
-      "index": 1,
-      "prompt": "Awa se savonne les mains. Le robinet coule encore. Que peut-elle faire maintenant et quand rouvrira-t-elle le robinet ?"
-    },
-    {
-      "lesson": "SIL-U2-R4",
-      "index": 1,
-      "prompt": "Quelle voyelle entends-tu dans « riz » ? dans « pot » ? dans « chat » ?"
-    },
-    {
-      "lesson": "SIL-U2-R4",
-      "index": 2,
-      "prompt": "Écoute et écris les voyelles dans l’ordre."
-    },
-    {
-      "lesson": "SIL-U3-R1",
-      "index": 1,
-      "prompt": "Montre les lettres u dans la dernière ligne. Combien y en a-t-il ?"
-    },
-    {
-      "lesson": "SIL-U3-R1",
-      "index": 2,
-      "prompt": "Écoute et écris les voyelles dans l’ordre."
-    },
-    {
-      "lesson": "SIL-U3-R2",
-      "index": 1,
-      "prompt": "Combien de lettres portent un accent dans cette ligne : e é e é E ?"
-    },
-    {
-      "lesson": "SIL-U3-R2",
-      "index": 2,
-      "prompt": "Écoute les mots. Pour chacun, écris é ou e selon le son que tu entends à la fin."
-    },
-    {
-      "lesson": "SIL-U3-R3",
-      "index": 1,
-      "prompt": "Parmi é, è, ê, lesquelles se lisent « è » ?"
-    },
-    {
-      "lesson": "SIL-U3-R3",
-      "index": 2,
-      "prompt": "Écoute les mots. Écris é ou è selon le son que tu entends."
-    },
-    {
-      "lesson": "SIL-U3-L03",
-      "index": 1,
-      "prompt": "Il y a 3 jetons. Tu les retires tous. Combien en reste-t-il ?"
-    },
-    {
-      "lesson": "SIL-U3-L07",
-      "index": 1,
-      "prompt": "Joue la scène. Où places-tu la pause et quel geste annonce ton envie de parler ?"
-    },
-    {
-      "lesson": "SIL-U3-R4",
-      "index": 1,
-      "prompt": "Quelle voyelle entends-tu dans « jus » ? dans « lit » ? dans « tête » ?"
-    },
-    {
-      "lesson": "SIL-U3-R4",
-      "index": 2,
-      "prompt": "Écoute les mots. Écris la voyelle que tu entends : u, é ou è."
-    },
-    {
-      "lesson": "SIL-U4-R1",
-      "index": 1,
-      "prompt": "Combien de lettres faut-il pour écrire le son « ou » ?"
-    },
-    {
-      "lesson": "SIL-U4-R1",
-      "index": 2,
-      "prompt": "Écoute les mots. Écris ou si tu entends « ou », u si tu entends « u »."
-    },
-    {
-      "lesson": "SIL-U4-R2",
-      "index": 1,
-      "prompt": "Lis : la, al, lou, ul. Lesquelles commencent par une voyelle ?"
-    },
-    {
-      "lesson": "SIL-U4-R2",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U4-R3",
-      "index": 1,
-      "prompt": "Avec les syllabes mi, a et la, fabrique deux mots : a + mi, et mi + la."
-    },
-    {
-      "lesson": "SIL-U4-R3",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U4-L01",
-      "index": 1,
-      "prompt": "Lis « Il a lu. ». Qu’a fait la personne dont parle la phrase ?"
-    },
-    {
-      "lesson": "SIL-U4-L03",
-      "index": 1,
-      "prompt": "Regroupe 10 bâtonnets. Combien de dizaines as-tu ?"
-    },
-    {
-      "lesson": "SIL-U4-R4",
-      "index": 1,
-      "prompt": "Lis « mou » et « mu ». Quelle est la différence ?"
-    },
-    {
-      "lesson": "SIL-U4-R4",
-      "index": 2,
-      "prompt": "Écoute les mots et écris-les."
-    },
-    {
-      "lesson": "SIL-U5-R1",
-      "index": 1,
-      "prompt": "Lis : ra, ar, rou, our. Lesquelles se terminent par r ?"
-    },
-    {
-      "lesson": "SIL-U5-R1",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U5-R2",
-      "index": 1,
-      "prompt": "Lis : to, ot, tou, ti. Lesquelles commencent par t ?"
-    },
-    {
-      "lesson": "SIL-U5-R2",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U5-R3",
-      "index": 1,
-      "prompt": "Montre les p dans cette ligne : q p d b p."
-    },
-    {
-      "lesson": "SIL-U5-R3",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U5-L02",
-      "index": 1,
-      "prompt": "Listen. Point to the matching transport card and say where the child is going."
-    },
-    {
-      "lesson": "SIL-U5-L03",
-      "index": 1,
-      "prompt": "Tu as 10 jetons groupés et 3 jetons seuls. Quel nombre cela représente-t-il ?"
-    },
-    {
-      "lesson": "SIL-U5-R4",
-      "index": 1,
-      "prompt": "Lis : ra, ar, tou, out, pi, ip. Dans lesquelles lit-on d’abord la voyelle ?"
-    },
-    {
-      "lesson": "SIL-U5-R4",
-      "index": 2,
-      "prompt": "Écoute les mots et écris-les."
-    },
-    {
-      "lesson": "SIL-U6-R1",
-      "index": 1,
-      "prompt": "Lis : sa, as, sou, os. Lesquelles se terminent par s ?"
-    },
-    {
-      "lesson": "SIL-U6-R1",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U6-R2",
-      "index": 1,
-      "prompt": "Montre les b dans cette ligne : b d b p d."
-    },
-    {
-      "lesson": "SIL-U6-R2",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U6-R3",
-      "index": 1,
-      "prompt": "Lis : da, ta, do, to. Lesquelles commencent par d ?"
-    },
-    {
-      "lesson": "SIL-U6-R3",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U6-L03",
-      "index": 1,
-      "prompt": "Calcule 12 + 3 avec des bâtonnets."
-    },
-    {
-      "lesson": "SIL-U6-L03",
-      "index": 2,
-      "prompt": "Pour repérer le matériel de la classe, on a préparé 12 étiquettes le matin et 5 de plus l’après-midi. Dessine une dizaine et les unités isolées. Combien d’étiquettes a-t-on préparées ? Écris le total en chiffres et en lettres."
-    },
-    {
-      "lesson": "SIL-U6-R4",
-      "index": 1,
-      "prompt": "Lis « bébé » et « dodo ». Dans quel mot le rond de la lettre est-il à droite ?"
-    },
-    {
-      "lesson": "SIL-U6-R4",
-      "index": 2,
-      "prompt": "Écoute les mots et écris-les."
-    },
-    {
-      "lesson": "SIL-U7-R1",
-      "index": 1,
-      "prompt": "Dans cette ligne, combien vois-tu de n et de m : n m n m m ?"
-    },
-    {
-      "lesson": "SIL-U7-R1",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U7-R2",
-      "index": 1,
-      "prompt": "Lis « banane » et « ruban ». Dans lequel entends-tu « an » ?"
-    },
-    {
-      "lesson": "SIL-U7-R2",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U7-R3",
-      "index": 1,
-      "prompt": "Lis : va, av, vou, ov. Lesquelles commencent par v ?"
-    },
-    {
-      "lesson": "SIL-U7-R3",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U7-L03",
-      "index": 1,
-      "prompt": "Trois groupes contiennent chacun 2 jetons. Combien de jetons en tout ?"
-    },
-    {
-      "lesson": "SIL-U7-R4",
-      "index": 1,
-      "prompt": "Dans « maman », combien de fois entends-tu « an » ?"
-    },
-    {
-      "lesson": "SIL-U7-R4",
-      "index": 2,
-      "prompt": "Écoute les mots et écris-les."
-    },
-    {
-      "lesson": "SIL-U8-R1",
-      "index": 1,
-      "prompt": "Pourquoi écrit-on qui et pas ci pour dire « ki » ?"
-    },
-    {
-      "lesson": "SIL-U8-R1",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U8-R2",
-      "index": 1,
-      "prompt": "Lis « case » et « sac ». Dans quel mot s se lit-il [z] ?"
-    },
-    {
-      "lesson": "SIL-U8-R2",
-      "index": 2,
-      "prompt": "Écoute les syllabes et écris-les."
-    },
-    {
-      "lesson": "SIL-U8-R3",
-      "index": 1,
-      "prompt": "Lis « feu » et « fou ». Quelle est la différence ?"
-    },
-    {
-      "lesson": "SIL-U8-R3",
-      "index": 2,
-      "prompt": "Écoute les mots et écris-les."
-    },
-    {
-      "lesson": "SIL-U8-L01",
-      "index": 1,
-      "prompt": "Le sac a changé de place. Complète « Le sac est … » pour dire qu’il est sur la table. Écris la phrase, puis relis-la."
-    },
-    {
-      "lesson": "SIL-U8-L01",
-      "index": 2,
-      "prompt": "Invente un message d’une phrase pour dire où est le fil. Choisis un lieu et fais lire la phrase à quelqu’un."
-    },
-    {
-      "lesson": "SIL-U8-L03",
-      "index": 1,
-      "prompt": "Plie un carré de papier en deux parts égales, puis encore en deux. Combien de parts égales vois-tu en le dépliant ?"
-    },
-    {
-      "lesson": "SIL-U8-R4",
-      "index": 1,
-      "prompt": "Dans « rose » et « café », quel son fait la lettre s ? Et la lettre c ?"
-    },
-    {
-      "lesson": "SIL-U8-R4",
-      "index": 2,
-      "prompt": "Écoute les mots et écris-les."
-    },
-    {
-      "lesson": "CE1-U1-L01",
-      "index": 1,
-      "prompt": "Écris les lettres des trois cartes dans l’ordre de l’histoire. Raconte une action pour chaque carte."
-    },
-    {
-      "lesson": "CE1-U1-L01",
-      "index": 2,
-      "prompt": "Comment Moussa aide-t-il Aïcha ? Relis les épisodes 2 et 3 et donne un détail."
-    },
-    {
-      "lesson": "CE1-U1-L01",
-      "index": 3,
-      "prompt": "Écoute le passage. Quel indice permet à Aïcha de repérer l’album ? Où voit-elle cet indice ?"
-    },
-    {
-      "lesson": "CE1-U1-G1",
-      "index": 1,
-      "prompt": "Classe ces noms : Paul, maison, Yaoundé, lit."
-    },
-    {
-      "lesson": "CE1-U1-G1",
-      "index": 2,
-      "prompt": "Écris au pluriel : un lit, une porte."
-    },
-    {
-      "lesson": "CE1-U1-V1",
-      "index": 1,
-      "prompt": "Quel mot précis peut remplacer « la chose pour faire cuire le repas » ?"
-    },
-    {
-      "lesson": "CE1-U1-V1",
-      "index": 2,
-      "prompt": "Trouve l’intrus : lit, natte, armoire, marmite."
-    },
-    {
-      "lesson": "CE1-U1-O1",
-      "index": 1,
-      "prompt": "Écris au féminin : un cousin, un grand frère → une … sœur."
-    },
-    {
-      "lesson": "CE1-U1-O1",
-      "index": 2,
-      "prompt": "Écoute et écris au pluriel."
-    },
-    {
-      "lesson": "CE1-U1-C1",
-      "index": 1,
-      "prompt": "Trouve le mot qui indique le temps : « Maintenant, je lave les assiettes. »"
-    },
-    {
-      "lesson": "CE1-U1-C1",
-      "index": 2,
-      "prompt": "Mets cette phrase au futur en commençant par « Demain » : « Je range mon lit. »"
-    },
-    {
-      "lesson": "CE1-U1-E1",
-      "index": 1,
-      "prompt": "Who is the father’s son?"
-    },
-    {
-      "lesson": "CE1-U1-E1",
-      "index": 2,
-      "prompt": "Listen and say each word after the voice. Then point to the person in the drawing."
-    },
-    {
-      "lesson": "CE1-U1-E2",
-      "index": 1,
-      "prompt": "Which word does not belong: mother, father, table, sister?"
-    },
-    {
-      "lesson": "CE1-U1-E2",
-      "index": 2,
-      "prompt": "Read the words aloud: baby, sister, father. Which word has “th”?"
-    },
-    {
-      "lesson": "CE1-U1-E3",
-      "index": 1,
-      "prompt": "Which word is a thing in the home: brother or chair?"
-    },
-    {
-      "lesson": "CE1-U1-E3",
-      "index": 2,
-      "prompt": "Listen and write the words."
-    },
-    {
-      "lesson": "CE1-U1-E4",
-      "index": 1,
-      "prompt": "What is the opposite of clean?"
-    },
-    {
-      "lesson": "CE1-U1-E4",
-      "index": 2,
-      "prompt": "Write the plural: one box, one family."
-    },
-    {
-      "lesson": "CE1-U1-L03",
-      "index": 1,
-      "prompt": "Décompose 172 en centaines, dizaines et unités."
-    },
-    {
-      "lesson": "CE1-U1-L03",
-      "index": 2,
-      "prompt": "Une collection a 5 bouchons et une autre 5 crayons. Ont-elles le même nombre d’objets ?"
-    },
-    {
-      "lesson": "CE1-U1-MC",
-      "index": 1,
-      "prompt": "Calcule de tête : 68 + 9."
-    },
-    {
-      "lesson": "CE1-U1-MC",
-      "index": 2,
-      "prompt": "Problème : maman a 150 F. Elle achète du pain à 100 F, puis reçoit 25 F. Combien a-t-elle ?"
-    },
-    {
-      "lesson": "CE1-U1-MM",
-      "index": 1,
-      "prompt": "Range du plus court au plus long : 1 m, 80 cm, 12 dm."
-    },
-    {
-      "lesson": "CE1-U1-MM",
-      "index": 2,
-      "prompt": "Problème : un tissu mesure 2 m. La couturière en coupe 50 cm. Combien reste-t-il ?"
-    },
-    {
-      "lesson": "CE1-U1-MG",
-      "index": 1,
-      "prompt": "Quelle est la différence entre un segment et une droite ?"
-    },
-    {
-      "lesson": "CE1-U1-MG",
-      "index": 2,
-      "prompt": "Comment vérifier que deux droites sont perpendiculaires ?"
-    },
-    {
-      "lesson": "CE1-U1-L11",
-      "index": 1,
-      "prompt": "Une étiquette part de 1 cm et arrive à 7 cm. Quelle est sa longueur ?"
-    },
-    {
-      "lesson": "CE1-U1-L11",
-      "index": 2,
-      "prompt": "Il faut une bande d’un décimètre. La bande du tiroir mesure 9 cm. Combien de centimètres lui manque-t-il ?"
-    },
-    {
-      "lesson": "CE1-U2-G1",
-      "index": 1,
-      "prompt": "Quel est le nom dans le groupe « les petites cases » ?"
-    },
-    {
-      "lesson": "CE1-U2-G1",
-      "index": 2,
-      "prompt": "Souligne le verbe : « Les femmes vendent des légumes. »"
-    },
-    {
-      "lesson": "CE1-U2-G2",
-      "index": 1,
-      "prompt": "Quel signe termine cette phrase ? « Où se trouve la chefferie »"
-    },
-    {
-      "lesson": "CE1-U2-G2",
-      "index": 2,
-      "prompt": "Transforme en question avec « Est-ce que » : « Le pont est solide. »"
-    },
-    {
-      "lesson": "CE1-U2-V1",
-      "index": 1,
-      "prompt": "Explique le mot « puits »."
-    },
-    {
-      "lesson": "CE1-U2-V1",
-      "index": 2,
-      "prompt": "Quel animal bêle ?"
-    },
-    {
-      "lesson": "CE1-U2-O1",
-      "index": 1,
-      "prompt": "Corrige : « Les enfants joue sur la place. »"
-    },
-    {
-      "lesson": "CE1-U2-O1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U2-C1",
-      "index": 1,
-      "prompt": "À quel temps est « tu chanteras » ?"
-    },
-    {
-      "lesson": "CE1-U2-C1",
-      "index": 2,
-      "prompt": "Quel est l’infinitif de « nous visitons » ?"
-    },
-    {
-      "lesson": "CE1-U2-E1",
-      "index": 1,
-      "prompt": "What do old people do at night in the text?"
-    },
-    {
-      "lesson": "CE1-U2-E1",
-      "index": 2,
-      "prompt": "Listen and repeat the sentence."
-    },
-    {
-      "lesson": "CE1-U2-E2",
-      "index": 1,
-      "prompt": "Spell the word “dance” with English letter names."
-    },
-    {
-      "lesson": "CE1-U2-E2",
-      "index": 2,
-      "prompt": "Which sight words are in “We dance and sing”?"
-    },
-    {
-      "lesson": "CE1-U2-E3",
-      "index": 1,
-      "prompt": "Where do we put the capital letter in a sentence?"
-    },
-    {
-      "lesson": "CE1-U2-E3",
-      "index": 2,
-      "prompt": "Listen and write the sentence."
-    },
-    {
-      "lesson": "CE1-U2-E4",
-      "index": 1,
-      "prompt": "What is the opposite of near?"
-    },
-    {
-      "lesson": "CE1-U2-E4",
-      "index": 2,
-      "prompt": "Write the past of: play, walk."
-    },
-    {
-      "lesson": "CE1-U2-L04",
-      "index": 1,
-      "prompt": "Compare 239 et 293."
-    },
-    {
-      "lesson": "CE1-U2-L04",
-      "index": 2,
-      "prompt": "Complète : 248, 249, …, …"
-    },
-    {
-      "lesson": "CE1-U2-MN",
-      "index": 1,
-      "prompt": "A = {a ; b ; c}. Complète avec ∈ ou ∉ : b … A ; d … A."
-    },
-    {
-      "lesson": "CE1-U2-MN",
-      "index": 2,
-      "prompt": "Dans un village, l’ensemble des enfants qui jouent au football est {Ali ; Ben ; Céline} et celui de ceux qui jouent au handball est {Céline ; Dora}. Qui joue aux deux ?"
-    },
-    {
-      "lesson": "CE1-U2-MC",
-      "index": 1,
-      "prompt": "Vérifie 304 − 157 = 147 avec une addition."
-    },
-    {
-      "lesson": "CE1-U2-MC",
-      "index": 2,
-      "prompt": "Problème : un car transporte 125 passagers le matin et 168 le soir. Combien en tout ?"
-    },
-    {
-      "lesson": "CE1-U2-MM",
-      "index": 1,
-      "prompt": "Range du plus léger au plus lourd : 1 kg, 800 g, 12 hg."
-    },
-    {
-      "lesson": "CE1-U2-MM",
-      "index": 2,
-      "prompt": "Problème : un régime de plantain pèse 4 kg. On en vend 1 500 g. Quelle masse reste-t-il ?"
-    },
-    {
-      "lesson": "CE1-U2-MG",
-      "index": 1,
-      "prompt": "Combien de sommets a un cube ?"
-    },
-    {
-      "lesson": "CE1-U2-MG",
-      "index": 2,
-      "prompt": "Une boîte de lait en poudre roule sur la table. Quel solide est-ce ?"
-    },
-    {
-      "lesson": "CE1-U3-G1",
-      "index": 1,
-      "prompt": "Remplace « à le » par l’article contracté : « Je parle à le maître. »"
-    },
-    {
-      "lesson": "CE1-U3-G1",
-      "index": 2,
-      "prompt": "Complète avec un adjectif possessif : « Nous rangeons … livres. »"
-    },
-    {
-      "lesson": "CE1-U3-G2",
-      "index": 1,
-      "prompt": "Le mot « avec » change-t-il au pluriel ?"
-    },
-    {
-      "lesson": "CE1-U3-G2",
-      "index": 2,
-      "prompt": "Souligne le sujet : « Au tableau, Fanta écrit la date. »"
-    },
-    {
-      "lesson": "CE1-U3-V1",
-      "index": 1,
-      "prompt": "Explique le mot « pupitre »."
-    },
-    {
-      "lesson": "CE1-U3-V1",
-      "index": 2,
-      "prompt": "Remplace le mot souligné par un synonyme : « Le maître est fâché. »"
-    },
-    {
-      "lesson": "CE1-U3-O1",
-      "index": 1,
-      "prompt": "Le mot « beaucoup » prend-il un -s au pluriel ?"
-    },
-    {
-      "lesson": "CE1-U3-O1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U3-C1",
-      "index": 1,
-      "prompt": "Complète avec être : « Vous … dans la cour. »"
-    },
-    {
-      "lesson": "CE1-U3-C1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U3-E1",
-      "index": 1,
-      "prompt": "Which months are in the school year?"
-    },
-    {
-      "lesson": "CE1-U3-E1",
-      "index": 2,
-      "prompt": "Listen and do the action, then write the instruction."
-    },
-    {
-      "lesson": "CE1-U3-E2",
-      "index": 1,
-      "prompt": "Which month comes after October?"
-    },
-    {
-      "lesson": "CE1-U3-E2",
-      "index": 2,
-      "prompt": "Which word is not a classroom item: pen, desk, goat, bag?"
-    },
-    {
-      "lesson": "CE1-U3-E3",
-      "index": 1,
-      "prompt": "Write the names of two things in your schoolbag."
-    },
-    {
-      "lesson": "CE1-U3-E3",
-      "index": 2,
-      "prompt": "Listen and write the instruction."
-    },
-    {
-      "lesson": "CE1-U3-E4",
-      "index": 1,
-      "prompt": "What is the opposite of full?"
-    },
-    {
-      "lesson": "CE1-U3-E4",
-      "index": 2,
-      "prompt": "Complete: The cat is … the chair. (It is below the chair.)"
-    },
-    {
-      "lesson": "CE1-U3-L04",
-      "index": 1,
-      "prompt": "Écris le nombre formé de 4 centaines, 0 dizaine et 6 unités."
-    },
-    {
-      "lesson": "CE1-U3-L04",
-      "index": 2,
-      "prompt": "Range 430, 403 et 340 dans l’ordre croissant."
-    },
-    {
-      "lesson": "CE1-U3-MC",
-      "index": 1,
-      "prompt": "Vrai ou faux : 15 − 6 = 6 − 15."
-    },
-    {
-      "lesson": "CE1-U3-MC",
-      "index": 2,
-      "prompt": "Problème : chaque élève reçoit 12 crayons ; ils sont 4. Combien de crayons en tout ?"
-    },
-    {
-      "lesson": "CE1-U3-MM",
-      "index": 1,
-      "prompt": "Combien de verres de 25 cL peut-on remplir avec 1 L ?"
-    },
-    {
-      "lesson": "CE1-U3-MM",
-      "index": 2,
-      "prompt": "Problème : un bidon contient 5 L d’huile. On en utilise 2 L. Combien en reste-t-il en centilitres ?"
-    },
-    {
-      "lesson": "CE1-U3-MG",
-      "index": 1,
-      "prompt": "Quelle empreinte laisse une face de cube ?"
-    },
-    {
-      "lesson": "CE1-U3-MG",
-      "index": 2,
-      "prompt": "Un rectangle mesure 7 cm sur 4 cm. Combien mesurent ses quatre côtés ?"
-    },
-    {
-      "lesson": "CE1-U3-L06",
-      "index": 1,
-      "prompt": "Avec la souris, remonte jusqu’à l’image puis redescends vers cette question. Vise le bouton de correction, puis clique une fois."
-    },
-    {
-      "lesson": "CE1-U4-G1",
-      "index": 1,
-      "prompt": "Trouve l’adjectif : « Le boulanger prépare du pain chaud. »"
-    },
-    {
-      "lesson": "CE1-U4-G1",
-      "index": 2,
-      "prompt": "Écris au pluriel : « le grand atelier »."
-    },
-    {
-      "lesson": "CE1-U4-V1",
-      "index": 1,
-      "prompt": "Qui répare les chaussures ?"
-    },
-    {
-      "lesson": "CE1-U4-V1",
-      "index": 2,
-      "prompt": "Complète avec pain ou pin : « Le boulanger cuit le … . »"
-    },
-    {
-      "lesson": "CE1-U4-O1",
-      "index": 1,
-      "prompt": "Corrige : « Les tailleurs coud des habits. »"
-    },
-    {
-      "lesson": "CE1-U4-O1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U4-O2",
-      "index": 1,
-      "prompt": "Complète avec et ou est : « La couturière … patiente … habile. »"
-    },
-    {
-      "lesson": "CE1-U4-O2",
-      "index": 2,
-      "prompt": "Complète avec son ou sont : « Les ouvriers … arrivés. Le chef prend … casque. »"
-    },
-    {
-      "lesson": "CE1-U4-C1",
-      "index": 1,
-      "prompt": "Mets au futur : « Tu portes la caisse. »"
-    },
-    {
-      "lesson": "CE1-U4-C1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U4-E1",
-      "index": 1,
-      "prompt": "Where does a farmer work?"
-    },
-    {
-      "lesson": "CE1-U4-E1",
-      "index": 2,
-      "prompt": "Listen and repeat."
-    },
-    {
-      "lesson": "CE1-U4-E2",
-      "index": 1,
-      "prompt": "“I drive a taxi. I take people to town.” Who am I?"
-    },
-    {
-      "lesson": "CE1-U4-E2",
-      "index": 2,
-      "prompt": "Which word is a clue for a nurse: hospital or bakery?"
-    },
-    {
-      "lesson": "CE1-U4-E3",
-      "index": 1,
-      "prompt": "Which word in the text is an occupation?"
-    },
-    {
-      "lesson": "CE1-U4-E3",
-      "index": 2,
-      "prompt": "Listen and write."
-    },
-    {
-      "lesson": "CE1-U4-E4",
-      "index": 1,
-      "prompt": "What is the opposite of fast?"
-    },
-    {
-      "lesson": "CE1-U4-E4",
-      "index": 2,
-      "prompt": "Write the adverb: quiet, sad."
-    },
-    {
-      "lesson": "CE1-U4-L04",
-      "index": 1,
-      "prompt": "Encadre 643 entre deux dizaines consécutives."
-    },
-    {
-      "lesson": "CE1-U4-L04",
-      "index": 2,
-      "prompt": "Quatre sacs contiennent chacun 3 mangues. Combien de mangues au total ?"
-    },
-    {
-      "lesson": "CE1-U4-MC",
-      "index": 1,
-      "prompt": "Complète la table de 4 : 4, 8, 12, …, …, 24."
-    },
-    {
-      "lesson": "CE1-U4-MC",
-      "index": 2,
-      "prompt": "Problème : un menuisier fabrique 5 chaises par jour. Combien en 6 jours ?"
-    },
-    {
-      "lesson": "CE1-U4-MM",
-      "index": 1,
-      "prompt": "Pour mettre une bordure autour d’un tableau, a-t-on besoin du périmètre ou de l’aire ?"
-    },
-    {
-      "lesson": "CE1-U4-MM",
-      "index": 2,
-      "prompt": "Pour peindre un mur, a-t-on besoin du périmètre ou de l’aire ?"
-    },
-    {
-      "lesson": "CE1-U4-MG",
-      "index": 1,
-      "prompt": "Combien de sommets a un triangle ?"
-    },
-    {
-      "lesson": "CE1-U4-MG",
-      "index": 2,
-      "prompt": "Un carré a-t-il un axe de symétrie ?"
-    },
-    {
-      "lesson": "CE1-U5-G1",
-      "index": 1,
-      "prompt": "Donne la nature de « nous » dans « Nous partons demain »."
-    },
-    {
-      "lesson": "CE1-U5-G1",
-      "index": 2,
-      "prompt": "Trouve l’adjectif épithète : « Le chauffeur prudent ralentit. »"
-    },
-    {
-      "lesson": "CE1-U5-V1",
-      "index": 1,
-      "prompt": "Explique le mot « passager »."
-    },
-    {
-      "lesson": "CE1-U5-V1",
-      "index": 2,
-      "prompt": "Trouve le contraire de « long »."
-    },
-    {
-      "lesson": "CE1-U5-O1",
-      "index": 1,
-      "prompt": "Complète avec s ou ss : une vali…e, une cai…e."
-    },
-    {
-      "lesson": "CE1-U5-O1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U5-C1",
-      "index": 1,
-      "prompt": "Quel est l’infinitif de « tu descends » ?"
-    },
-    {
-      "lesson": "CE1-U5-C1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U5-L03",
-      "index": 1,
-      "prompt": "Listen to the directions. Where do you start? Which place do you reach just after crossing the street?"
-    },
-    {
-      "lesson": "CE1-U5-E1",
-      "index": 1,
-      "prompt": "Say this number in words: 140."
-    },
-    {
-      "lesson": "CE1-U5-E1",
-      "index": 2,
-      "prompt": "Listen and repeat the rhyme."
-    },
-    {
-      "lesson": "CE1-U5-E2",
-      "index": 1,
-      "prompt": "Read the number: 149."
-    },
-    {
-      "lesson": "CE1-U5-E2",
-      "index": 2,
-      "prompt": "Which word is something you use to know the way: map or bag?"
-    },
-    {
-      "lesson": "CE1-U5-E3",
-      "index": 1,
-      "prompt": "Write in figures: one hundred and seven."
-    },
-    {
-      "lesson": "CE1-U5-E3",
-      "index": 2,
-      "prompt": "Listen and write the words."
-    },
-    {
-      "lesson": "CE1-U5-E4",
-      "index": 1,
-      "prompt": "What is the opposite of arrive?"
-    },
-    {
-      "lesson": "CE1-U5-E4",
-      "index": 2,
-      "prompt": "Complete: He washes … ."
-    },
-    {
-      "lesson": "CE1-U5-L04",
-      "index": 1,
-      "prompt": "Partage 12 jetons également entre 3 joueurs. Combien chacun reçoit-il ?"
-    },
-    {
-      "lesson": "CE1-U5-L04",
-      "index": 2,
-      "prompt": "Peut-on partager 13 jetons entre 3 joueurs en donnant 4 à chacun sans reste ?"
-    },
-    {
-      "lesson": "CE1-U5-L04",
-      "index": 3,
-      "prompt": "Pour un voyage fictif, on répartit 36 cartes entre deux équipes. Chaque équipe doit recevoir le même nombre de cartes. Combien de cartes reçoit-elle ? Retrouve 36 en calculant le double de ta réponse."
-    },
-    {
-      "lesson": "CE1-U5-MN",
-      "index": 1,
-      "prompt": "Quel nombre vient juste après 799 ?"
-    },
-    {
-      "lesson": "CE1-U5-MN",
-      "index": 2,
-      "prompt": "Écoute et écris le nombre en chiffres."
-    },
-    {
-      "lesson": "CE1-U5-MC",
-      "index": 1,
-      "prompt": "Entoure les nombres pairs : 23, 46, 51, 70, 88."
-    },
-    {
-      "lesson": "CE1-U5-MC",
-      "index": 2,
-      "prompt": "Problème : un billet aller coûte 1 500 F. Quel est le prix de l’aller-retour au même prix ?"
-    },
-    {
-      "lesson": "CE1-U5-MM",
-      "index": 1,
-      "prompt": "Le 3 mai est un lundi. Quel jour est le 10 mai ?"
-    },
-    {
-      "lesson": "CE1-U5-MM",
-      "index": 2,
-      "prompt": "Problème : on pose une clôture autour d’un enclos carré de 12 m de côté. Quelle longueur de clôture faut-il ?"
-    },
-    {
-      "lesson": "CE1-U5-MG",
-      "index": 1,
-      "prompt": "Un angle plus grand qu’un angle droit est…"
-    },
-    {
-      "lesson": "CE1-U5-MG",
-      "index": 2,
-      "prompt": "Comment s’appelle le point où se rejoignent les deux côtés d’un angle ?"
-    },
-    {
-      "lesson": "CE1-U6-L01",
-      "index": 1,
-      "prompt": "Quelle fin répond au problème du début ? Cite l’action qui te permet de choisir."
-    },
-    {
-      "lesson": "CE1-U6-G1",
-      "index": 1,
-      "prompt": "Quel nom remplace « ils » dans « Les malades attendent. Ils sont patients. » ?"
-    },
-    {
-      "lesson": "CE1-U6-G1",
-      "index": 2,
-      "prompt": "Trouve les pronoms personnels : « Nous lavons nos mains, puis vous les séchez. »"
-    },
-    {
-      "lesson": "CE1-U6-V1",
-      "index": 1,
-      "prompt": "Explique le mot « ordonnance »."
-    },
-    {
-      "lesson": "CE1-U6-V1",
-      "index": 2,
-      "prompt": "Quel mot n’est pas de la même famille : dent, dentiste, dentifrice, danse ?"
-    },
-    {
-      "lesson": "CE1-U6-O1",
-      "index": 1,
-      "prompt": "Pourquoi écrit-on « lavent » avec -ent ?"
-    },
-    {
-      "lesson": "CE1-U6-O1",
-      "index": 2,
-      "prompt": "Écoute et écris la phrase."
-    },
-    {
-      "lesson": "CE1-U6-C1",
-      "index": 1,
-      "prompt": "Quel est le participe passé de « laver » ?"
-    },
-    {
-      "lesson": "CE1-U6-C1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U6-E1",
-      "index": 1,
-      "prompt": "Say this number in words: 180."
-    },
-    {
-      "lesson": "CE1-U6-E1",
-      "index": 2,
-      "prompt": "Listen and repeat."
-    },
-    {
-      "lesson": "CE1-U6-E2",
-      "index": 1,
-      "prompt": "What gives malaria in the text?"
-    },
-    {
-      "lesson": "CE1-U6-E2",
-      "index": 2,
-      "prompt": "Read the number: 188."
-    },
-    {
-      "lesson": "CE1-U6-E3",
-      "index": 1,
-      "prompt": "Write in figures: one hundred and ninety-four."
-    },
-    {
-      "lesson": "CE1-U6-E3",
-      "index": 2,
-      "prompt": "Listen and write the sentence."
-    },
-    {
-      "lesson": "CE1-U6-E4",
-      "index": 1,
-      "prompt": "What is the opposite of weak?"
-    },
-    {
-      "lesson": "CE1-U6-E4",
-      "index": 2,
-      "prompt": "Complete: Do you want an orange … a banana?"
-    },
-    {
-      "lesson": "CE1-U6-L04",
-      "index": 1,
-      "prompt": "Un carré a quatre côtés de 3 unités. Quel est son périmètre ?"
-    },
-    {
-      "lesson": "CE1-U6-L04",
-      "index": 2,
-      "prompt": "Un rectangle mesure 4 unités sur 1 unité. Quel est son périmètre ?"
-    },
-    {
-      "lesson": "CE1-U6-MN",
-      "index": 1,
-      "prompt": "Dans la fraction 2/5, quel est le numérateur ?"
-    },
-    {
-      "lesson": "CE1-U6-MN",
-      "index": 2,
-      "prompt": "Écoute et écris le nombre en chiffres."
-    },
-    {
-      "lesson": "CE1-U6-MC",
-      "index": 1,
-      "prompt": "Estime : 61 ÷ 3 est-il plus proche de 2, de 20 ou de 200 ?"
-    },
-    {
-      "lesson": "CE1-U6-MC",
-      "index": 2,
-      "prompt": "Problème : un centre de santé reçoit 96 moustiquaires pour 8 familles. Combien chaque famille en reçoit-elle ?"
-    },
-    {
-      "lesson": "CE1-U6-MM",
-      "index": 1,
-      "prompt": "Le thermomètre indique 39 °C pour un enfant. Que faut-il faire ?"
-    },
-    {
-      "lesson": "CE1-U6-MM",
-      "index": 2,
-      "prompt": "Problème : on entoure un jardin rectangulaire de 10 m sur 7 m. Quelle longueur de grillage faut-il ?"
-    },
-    {
-      "lesson": "CE1-U7-G1",
-      "index": 1,
-      "prompt": "Le verbe « sembler » dit-il une action ou un état ?"
-    },
-    {
-      "lesson": "CE1-U7-G1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U7-G2",
-      "index": 1,
-      "prompt": "Trouve le COI : « Fanta pense à la partie. »"
-    },
-    {
-      "lesson": "CE1-U7-G2",
-      "index": 2,
-      "prompt": "Complète avec une préposition : « Le ballon roule … la table. »"
-    },
-    {
-      "lesson": "CE1-U7-V1",
-      "index": 1,
-      "prompt": "Range : bille, balle, bâton."
-    },
-    {
-      "lesson": "CE1-U7-V1",
-      "index": 2,
-      "prompt": "Explique le mot « arbitre »."
-    },
-    {
-      "lesson": "CE1-U7-O1",
-      "index": 1,
-      "prompt": "Pourquoi écrit-on « à » avec un accent dans « à la corde » ?"
-    },
-    {
-      "lesson": "CE1-U7-O1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U7-C1",
-      "index": 1,
-      "prompt": "Choisis : « Nous avons (jouer / joué). »"
-    },
-    {
-      "lesson": "CE1-U7-C1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U7-E1",
-      "index": 1,
-      "prompt": "Say this number in words: 233."
-    },
-    {
-      "lesson": "CE1-U7-E1",
-      "index": 2,
-      "prompt": "Listen and repeat."
-    },
-    {
-      "lesson": "CE1-U7-E2",
-      "index": 1,
-      "prompt": "Who wins the game?"
-    },
-    {
-      "lesson": "CE1-U7-E2",
-      "index": 2,
-      "prompt": "Read the number: 236."
-    },
-    {
-      "lesson": "CE1-U7-E3",
-      "index": 1,
-      "prompt": "Write in figures: two hundred and six."
-    },
-    {
-      "lesson": "CE1-U7-E3",
-      "index": 2,
-      "prompt": "Listen and write the games."
-    },
-    {
-      "lesson": "CE1-U7-E4",
-      "index": 1,
-      "prompt": "What is the opposite of win?"
-    },
-    {
-      "lesson": "CE1-U7-E4",
-      "index": 2,
-      "prompt": "You meet a friend in the street. What do you say?"
-    },
-    {
-      "lesson": "CE1-U7-L04",
-      "index": 1,
-      "prompt": "Au jeu B, quelle équipe gagne le plus de points et de combien ?"
-    },
-    {
-      "lesson": "CE1-U7-L04",
-      "index": 2,
-      "prompt": "Quel est le total des points de l’équipe rouge ?"
-    },
-    {
-      "lesson": "CE1-U7-MN",
-      "index": 1,
-      "prompt": "Range dans l’ordre croissant : 990, 909, 999, 919."
-    },
-    {
-      "lesson": "CE1-U7-MN",
-      "index": 2,
-      "prompt": "Écoute et écris le nombre en chiffres."
-    },
-    {
-      "lesson": "CE1-U7-MC",
-      "index": 1,
-      "prompt": "Le tiers de 27, c’est…"
-    },
-    {
-      "lesson": "CE1-U7-MC",
-      "index": 2,
-      "prompt": "Problème : au jeu, Moussa marque 40 points et Fanta le triple. Combien Fanta en marque-t-elle ?"
-    },
-    {
-      "lesson": "CE1-U7-MM",
-      "index": 1,
-      "prompt": "Combien de minutes dure une demi-heure ?"
-    },
-    {
-      "lesson": "CE1-U7-MM",
-      "index": 2,
-      "prompt": "Un match commence à 15 h et dure 1 h 30. À quelle heure finit-il ?"
-    },
-    {
-      "lesson": "CE1-U7-L08",
-      "index": 1,
-      "prompt": "Joue A deux fois puis B deux fois. Dans B, à quel temps frappes-tu ? Dessine ou dis ta variante à un camarade."
-    },
-    {
-      "lesson": "CE1-U8-L01",
-      "index": 1,
-      "prompt": "Lis « À la classe. La lecture a lieu jeudi. » Quelle information manque pour savoir où aller ?"
-    },
-    {
-      "lesson": "CE1-U8-L01",
-      "index": 2,
-      "prompt": "L’activité de Rami se fera finalement au coin lecture. Réécris son message en changeant seulement l’information nécessaire."
-    },
-    {
-      "lesson": "CE1-U8-G1",
-      "index": 1,
-      "prompt": "Quelle conjonction propose un choix ?"
-    },
-    {
-      "lesson": "CE1-U8-G1",
-      "index": 2,
-      "prompt": "Complète : « La radio est allumée … on entend la musique. »"
-    },
-    {
-      "lesson": "CE1-U8-V1",
-      "index": 1,
-      "prompt": "Explique le mot « facteur »."
-    },
-    {
-      "lesson": "CE1-U8-V1",
-      "index": 2,
-      "prompt": "Range : message, médecin, maison."
-    },
-    {
-      "lesson": "CE1-U8-O1",
-      "index": 1,
-      "prompt": "Pourquoi écrit-on « est » dans « Elle est contente » ?"
-    },
-    {
-      "lesson": "CE1-U8-O1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U8-C1",
-      "index": 1,
-      "prompt": "Conjugue « parler » à l’imparfait avec nous et ils."
-    },
-    {
-      "lesson": "CE1-U8-C1",
-      "index": 2,
-      "prompt": "Écoute et écris."
-    },
-    {
-      "lesson": "CE1-U8-L03",
-      "index": 1,
-      "prompt": "Listen to the new message. Who is it for? On what day should they come? Give a short spoken reply to the message."
-    },
-    {
-      "lesson": "CE1-U8-E1",
-      "index": 1,
-      "prompt": "Say this number in words: 290."
-    },
-    {
-      "lesson": "CE1-U8-E1",
-      "index": 2,
-      "prompt": "Listen and repeat."
-    },
-    {
-      "lesson": "CE1-U8-E2",
-      "index": 1,
-      "prompt": "What do we watch on television in the text?"
-    },
-    {
-      "lesson": "CE1-U8-E2",
-      "index": 2,
-      "prompt": "Read the number: 281."
-    },
-    {
-      "lesson": "CE1-U8-E3",
-      "index": 1,
-      "prompt": "Write in figures: two hundred and seventy-six."
-    },
-    {
-      "lesson": "CE1-U8-E3",
-      "index": 2,
-      "prompt": "Listen and write the sentence."
-    },
-    {
-      "lesson": "CE1-U8-E4",
-      "index": 1,
-      "prompt": "What is the opposite of ask?"
-    },
-    {
-      "lesson": "CE1-U8-E4",
-      "index": 2,
-      "prompt": "Which mark ends this sentence: “Do you have a radio”?"
-    },
-    {
-      "lesson": "CE1-U8-L04",
-      "index": 1,
-      "prompt": "Combien de messages sont transmis dans les trois lieux réunis ?"
-    },
-    {
-      "lesson": "CE1-U8-L04",
-      "index": 2,
-      "prompt": "Quel lieu transmet le plus de messages ?"
-    },
-    {
-      "lesson": "CE1-U8-MN",
-      "index": 1,
-      "prompt": "Décompose 5 307."
-    },
-    {
-      "lesson": "CE1-U8-MN",
-      "index": 2,
-      "prompt": "Écoute et écris le nombre en chiffres."
-    },
-    {
-      "lesson": "CE1-U8-MC",
-      "index": 1,
-      "prompt": "Complète la suite : 230, 330, 430, …, …"
-    },
-    {
-      "lesson": "CE1-U8-MC",
-      "index": 2,
-      "prompt": "À quoi sert la touche C de la calculatrice ?"
-    },
-    {
-      "lesson": "CE1-U8-MM",
-      "index": 1,
-      "prompt": "Combien de pièces de 25 F faut-il pour faire 100 F ?"
-    },
-    {
-      "lesson": "CE1-U8-MM",
-      "index": 2,
-      "prompt": "Problème : un timbre coûte 400 F. On paie avec 1 000 F. Combien rend le vendeur ?"
-    },
-    {
-      "lesson": "CE1-U8-L09",
-      "index": 1,
-      "prompt": "Ton partenaire se tourne pour regarder ailleurs. Que lui dis-tu et à quel moment fais-tu la passe ?"
+  "units": [
+    {
+      "grade": "MS",
+      "unit": "T1",
+      "resources": 21,
+      "subjects": [
+        "Literacy & communication",
+        "Science, maths & perception",
+        "Practical life, autonomy & safety",
+        "Arts & crafts",
+        "Motor activities"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "MS",
+      "unit": "T2",
+      "resources": 20,
+      "subjects": [
+        "Literacy & communication",
+        "Science, maths & perception",
+        "Practical life, autonomy & safety",
+        "Creative arts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "MS",
+      "unit": "T3",
+      "resources": 20,
+      "subjects": [
+        "Literacy & communication",
+        "Science, maths & perception",
+        "Practical life, autonomy & safety",
+        "Creative arts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "MS",
+      "unit": "T4",
+      "resources": 22,
+      "subjects": [
+        "Literacy & communication",
+        "Science, maths & perception",
+        "Practical life, autonomy & safety",
+        "Creative arts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "MS",
+      "unit": "T5",
+      "resources": 21,
+      "subjects": [
+        "Literacy & communication",
+        "Science, maths & perception",
+        "Practical life, autonomy & safety",
+        "Creative arts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "MS",
+      "unit": "T6",
+      "resources": 21,
+      "subjects": [
+        "Literacy & communication",
+        "Science, maths & perception",
+        "Practical life, autonomy & safety",
+        "Creative arts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "MS",
+      "unit": "T7",
+      "resources": 22,
+      "subjects": [
+        "Literacy & communication",
+        "Science, maths & perception",
+        "Practical life, autonomy & safety",
+        "Creative arts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "MS",
+      "unit": "T8",
+      "resources": 21,
+      "subjects": [
+        "Literacy & communication",
+        "Science, maths & perception",
+        "Practical life, autonomy & safety",
+        "Creative arts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "GS",
+      "unit": "T1",
+      "resources": 21,
+      "subjects": [
+        "Literacy and communication",
+        "Science, mathematics and technology",
+        "Practical and social life",
+        "Arts and crafts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "GS",
+      "unit": "T2",
+      "resources": 20,
+      "subjects": [
+        "Literacy and communication",
+        "Science, mathematics and technology",
+        "Practical and social life",
+        "Arts and crafts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "GS",
+      "unit": "T3",
+      "resources": 20,
+      "subjects": [
+        "Literacy and communication",
+        "Science, mathematics and technology",
+        "Practical and social life",
+        "Arts and crafts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "GS",
+      "unit": "T4",
+      "resources": 22,
+      "subjects": [
+        "Literacy and communication",
+        "Science, mathematics and technology",
+        "Practical and social life",
+        "Arts and crafts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "GS",
+      "unit": "T5",
+      "resources": 21,
+      "subjects": [
+        "Literacy and communication",
+        "Science, mathematics and technology",
+        "Practical and social life",
+        "Arts and crafts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "GS",
+      "unit": "T6",
+      "resources": 21,
+      "subjects": [
+        "Literacy and communication",
+        "Science, mathematics and technology",
+        "Practical and social life",
+        "Arts and crafts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "GS",
+      "unit": "T7",
+      "resources": 21,
+      "subjects": [
+        "Literacy and communication",
+        "Science, mathematics and technology",
+        "Practical and social life",
+        "Arts and crafts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "GS",
+      "unit": "T8",
+      "resources": 21,
+      "subjects": [
+        "Literacy and communication",
+        "Science, mathematics and technology",
+        "Practical and social life",
+        "Arts and crafts",
+        "Motor skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "SIL",
+      "unit": "SIL-U1",
+      "resources": 25,
+      "subjects": [
+        "Français · lecture",
+        "Français",
+        "English",
+        "Mathématiques",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales",
+        "Mathématiques · géométrie",
+        "Français · oral",
+        "Français · écriture",
+        "Mathématiques · nombres",
+        "English · oral communication",
+        "English · listening and speaking",
+        "Sciences · observation",
+        "Vie courante et citoyenneté"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "SIL",
+      "unit": "SIL-U2",
+      "resources": 17,
+      "subjects": [
+        "Français · lecture",
+        "Français",
+        "English",
+        "Mathématiques",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "SIL",
+      "unit": "SIL-U3",
+      "resources": 17,
+      "subjects": [
+        "Français · lecture",
+        "Français",
+        "English",
+        "Mathématiques",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "SIL",
+      "unit": "SIL-U4",
+      "resources": 17,
+      "subjects": [
+        "Français · lecture",
+        "Français",
+        "English",
+        "Mathématiques",
+        "Mathématiques · mesures",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "SIL",
+      "unit": "SIL-U5",
+      "resources": 17,
+      "subjects": [
+        "Français · lecture",
+        "Français",
+        "English",
+        "Mathématiques",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "SIL",
+      "unit": "SIL-U6",
+      "resources": 17,
+      "subjects": [
+        "Français · lecture",
+        "Français",
+        "English",
+        "Mathématiques",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "SIL",
+      "unit": "SIL-U7",
+      "resources": 17,
+      "subjects": [
+        "Français · lecture",
+        "Français",
+        "English",
+        "Mathématiques",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "SIL",
+      "unit": "SIL-U8",
+      "resources": 17,
+      "subjects": [
+        "Français · lecture",
+        "Français",
+        "English",
+        "Mathématiques",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE1",
+      "unit": "CE1-U1",
+      "resources": 23,
+      "subjects": [
+        "Français",
+        "Français · grammaire",
+        "Français · vocabulaire",
+        "Français · orthographe",
+        "Français · conjugaison",
+        "Français · littérature",
+        "English",
+        "Mathématiques",
+        "Mathématiques · calcul",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE1",
+      "unit": "CE1-U2",
+      "resources": 25,
+      "subjects": [
+        "Français",
+        "Français · littérature",
+        "Français · grammaire",
+        "Français · vocabulaire",
+        "Français · orthographe",
+        "Français · conjugaison",
+        "English",
+        "Mathématiques",
+        "Mathématiques · nombres",
+        "Mathématiques · calcul",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE1",
+      "unit": "CE1-U3",
+      "resources": 24,
+      "subjects": [
+        "Français",
+        "Français · littérature",
+        "Français · grammaire",
+        "Français · vocabulaire",
+        "Français · orthographe",
+        "Français · conjugaison",
+        "English",
+        "Mathématiques",
+        "Mathématiques · calcul",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE1",
+      "unit": "CE1-U4",
+      "resources": 24,
+      "subjects": [
+        "Français",
+        "Français · littérature",
+        "Français · grammaire",
+        "Français · vocabulaire",
+        "Français · orthographe",
+        "Français · conjugaison",
+        "English",
+        "Mathématiques",
+        "Mathématiques · calcul",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE1",
+      "unit": "CE1-U5",
+      "resources": 24,
+      "subjects": [
+        "Français",
+        "Français · littérature",
+        "Français · grammaire",
+        "Français · vocabulaire",
+        "Français · orthographe",
+        "Français · conjugaison",
+        "English",
+        "Mathématiques",
+        "Mathématiques · nombres",
+        "Mathématiques · calcul",
+        "Mathématiques · mesures",
+        "Mathématiques · géométrie",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE1",
+      "unit": "CE1-U6",
+      "resources": 24,
+      "subjects": [
+        "Français",
+        "Français · littérature",
+        "Français · grammaire",
+        "Français · vocabulaire",
+        "Français · orthographe",
+        "Français · conjugaison",
+        "English",
+        "Mathématiques",
+        "Mathématiques · nombres",
+        "Mathématiques · calcul",
+        "Mathématiques · mesures",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE1",
+      "unit": "CE1-U7",
+      "resources": 24,
+      "subjects": [
+        "Français",
+        "Français · littérature",
+        "Français · grammaire",
+        "Français · vocabulaire",
+        "Français · orthographe",
+        "Français · conjugaison",
+        "English",
+        "Mathématiques",
+        "Mathématiques · nombres",
+        "Mathématiques · calcul",
+        "Mathématiques · mesures",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE1",
+      "unit": "CE1-U8",
+      "resources": 23,
+      "subjects": [
+        "Français",
+        "Français · littérature",
+        "Français · grammaire",
+        "Français · vocabulaire",
+        "Français · orthographe",
+        "Français · conjugaison",
+        "English",
+        "Mathématiques",
+        "Mathématiques · nombres",
+        "Mathématiques · calcul",
+        "Mathématiques · mesures",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel",
+        "Langues et cultures nationales"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE2",
+      "unit": "U1",
+      "resources": 46,
+      "subjects": [
+        "Français et littérature",
+        "English Language",
+        "Langues et cultures nationales – Bassa",
+        "Mathématiques",
+        "Sciences et technologies",
+        "Technologies de l’information et de la communication (TIC)",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE2",
+      "unit": "U2",
+      "resources": 50,
+      "subjects": [
+        "Français et littérature",
+        "English Language",
+        "Langues et cultures nationales – Bassa",
+        "Mathématiques",
+        "Sciences et technologies",
+        "Technologies de l’information et de la communication (TIC)",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE2",
+      "unit": "U3",
+      "resources": 46,
+      "subjects": [
+        "Français et littérature",
+        "English Language",
+        "Langues et cultures nationales – Bassa",
+        "Mathématiques",
+        "Sciences et technologies",
+        "Technologies de l’information et de la communication",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE2",
+      "unit": "U4",
+      "resources": 51,
+      "subjects": [
+        "Français et littérature",
+        "English Language",
+        "Langues et cultures nationales — parcours Bassa",
+        "Mathématiques",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE2",
+      "unit": "U5",
+      "resources": 41,
+      "subjects": [
+        "Français et littérature",
+        "English Language",
+        "Langues et cultures nationales — parcours Bassa",
+        "Mathématiques",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE2",
+      "unit": "U6",
+      "resources": 42,
+      "subjects": [
+        "Français et littérature",
+        "English Language",
+        "Langues et cultures nationales — parcours Bassa",
+        "Mathématiques",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE2",
+      "unit": "U7",
+      "resources": 39,
+      "subjects": [
+        "Français et littérature",
+        "English Language",
+        "Langues et cultures nationales — parcours Bassa",
+        "Mathématiques",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CE2",
+      "unit": "U8",
+      "resources": 32,
+      "subjects": [
+        "Français et littérature",
+        "English Language",
+        "Langues et cultures nationales — parcours Bassa",
+        "Mathématiques",
+        "Sciences et technologies",
+        "TIC",
+        "Sciences humaines et sociales",
+        "Éducation artistique",
+        "Éducation physique et sportive",
+        "Développement personnel"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY1",
+      "unit": "T1",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY1",
+      "unit": "T2",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY1",
+      "unit": "T3",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY1",
+      "unit": "T4",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY1",
+      "unit": "T5",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY1",
+      "unit": "T6",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY1",
+      "unit": "T7",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY1",
+      "unit": "T8",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY2",
+      "unit": "T1",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY2",
+      "unit": "T2",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY2",
+      "unit": "T3",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY2",
+      "unit": "T4",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY2",
+      "unit": "T5",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY2",
+      "unit": "T6",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY2",
+      "unit": "T7",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "NURSERY2",
+      "unit": "T8",
+      "resources": 12,
+      "subjects": [
+        "Literacy and Communication",
+        "Science and Technological Skills Development",
+        "Practical Life Skills",
+        "Arts and Crafts",
+        "Motor Skills"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS1",
+      "unit": "CLASS1-T1",
+      "resources": 16,
+      "subjects": [
+        "English Language",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Citizenship",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS1",
+      "unit": "CLASS1-T2",
+      "resources": 16,
+      "subjects": [
+        "English Language",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Citizenship",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS1",
+      "unit": "CLASS1-T3",
+      "resources": 16,
+      "subjects": [
+        "English Language",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Citizenship",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS1",
+      "unit": "CLASS1-T4",
+      "resources": 16,
+      "subjects": [
+        "English Language",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Citizenship",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS1",
+      "unit": "CLASS1-T5",
+      "resources": 16,
+      "subjects": [
+        "English Language",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Citizenship",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS1",
+      "unit": "CLASS1-T6",
+      "resources": 16,
+      "subjects": [
+        "English Language",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Citizenship",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS1",
+      "unit": "CLASS1-T7",
+      "resources": 16,
+      "subjects": [
+        "English Language",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Citizenship",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS1",
+      "unit": "CLASS1-T8",
+      "resources": 16,
+      "subjects": [
+        "English Language",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Citizenship",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS3",
+      "unit": "CLASS3-T1",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS3",
+      "unit": "CLASS3-T2",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS3",
+      "unit": "CLASS3-T3",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS3",
+      "unit": "CLASS3-T4",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS3",
+      "unit": "CLASS3-T5",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS3",
+      "unit": "CLASS3-T6",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS3",
+      "unit": "CLASS3-T7",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS3",
+      "unit": "CLASS3-T8",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS4",
+      "unit": "CLASS4-T1",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS4",
+      "unit": "CLASS4-T2",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS4",
+      "unit": "CLASS4-T3",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS4",
+      "unit": "CLASS4-T4",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS4",
+      "unit": "CLASS4-T5",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS4",
+      "unit": "CLASS4-T6",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS4",
+      "unit": "CLASS4-T7",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
+    },
+    {
+      "grade": "CLASS4",
+      "unit": "CLASS4-T8",
+      "resources": 16,
+      "subjects": [
+        "English Language and Literature",
+        "Mathematics",
+        "Science and Technology",
+        "Français",
+        "Social Studies",
+        "Vocational Studies",
+        "Arts",
+        "Physical Education and Sports",
+        "National Languages and Cultures",
+        "ICTs"
+      ],
+      "integration_project": true,
+      "status": "prepared_for_review",
+      "curriculum_completeness": "not_established"
     }
   ],
   "warnings": []

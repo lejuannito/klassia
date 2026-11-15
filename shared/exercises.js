@@ -35,12 +35,12 @@ function html(p, key, en) {
   body = `<p class="klassia-gaps">${parts(p.text).map(x => x.gap ? `<input data-gap="${g++}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="${t.gap} ${g}" size="${Math.max(3, ...x.gap.map(a => a.length + 1))}">` : E(x.text)).join('')}</p>`;
  } else if (p.type === 'mcq') {
   const name = 'mcq_' + String(key).replace(/\W/g, '_');
-  body = `<div class="klassia-mcq" role="radiogroup">${p.choices.map((c, j) => `<label class="choice"><input type="radio" name="${name}" value="${j}"><span>${E(c)}</span></label>`).join('')}</div>`;
+  body = `<div class="klassia-mcq" role="radiogroup">${K.shuffleOptions({choix:p.choices}).map(c => `<label class="choice"><input type="radio" name="${name}" value="${c.id}"><span>${E(c.text)}</span></label>`).join('')}</div>`;
  } else if (p.type === 'number') {
   body = `<label class="klassia-number"><span>${t.answerLabel}</span> <input data-number inputmode="decimal" autocomplete="off" size="8"></label>`;
  }
  const adult = K.isAdultSpace(), simple = SIMPLE.includes(p.type);
- const solution = p.type === 'gaps' ? parts(p.text).filter(x => x.gap).map(x => x.gap) : p.type === 'mcq' ? {choice:Number(p.correct_choice ?? p.correct)} : p.type === 'number' ? {number:Number(p.answer), why:p.explanation || ''} : null;
+ const solution = p.type === 'order' ? p.items.map(norm) : p.type === 'match' ? p.pairs.map(x=>norm(x[1])) : p.type === 'gaps' ? parts(p.text).filter(x => x.gap).map(x => x.gap) : p.type === 'mcq' ? {choice:Number(p.correct_choice ?? p.correct)} : p.type === 'number' ? {number:Number(p.answer), why:p.explanation || ''} : null;
  return `<div class="klassia-ex" data-ex="${E(p.type)}" data-key="${E(key)}" data-solution="${E(JSON.stringify(solution))}" lang="${en ? 'en' : 'fr'}">${body}`
   + `<div class="klassia-ex-actions"><button type="button" data-ex-check>${p.type === 'mcq' ? t.checkMcq : p.type === 'number' ? t.checkNumber : t.check}</button></div><p class="klassia-ex-status" role="status"></p>`
   + (simple && !adult ? '' : `<details class="klassia-ex-answer"${adult ? ' open' : ' hidden'}><summary>${t.show}</summary><p class="preserve-lines">${E(p.answer)}</p>${p.explanation ? `<p>${E(p.explanation)}</p>` : ''}</details>`) + '</div>';
@@ -49,19 +49,19 @@ function html(p, key, en) {
 function check(box) {
  const type = box.dataset.ex;
  let fields = [], wrong = 0;
+ let solution = [];
+ try { solution = JSON.parse(box.dataset.solution) || []; } catch {}
  if (type === 'order') {
   const placed = [...box.querySelectorAll('[data-order-answer] [data-item]')];
   if (box.querySelector('[data-order-pool] [data-item]')) return null;
-  placed.forEach((b, i) => { const ok = Number(b.dataset.item) === i; b.dataset.ok = String(ok); if (!ok) wrong++; });
+  placed.forEach((b, i) => { const ok = norm(b.textContent) === solution[i]; b.dataset.ok = String(ok); if (!ok) wrong++; });
   return wrong;
  }
  if (type === 'match') fields = [...box.querySelectorAll('select[data-slot]')];
  if (type === 'gaps') fields = [...box.querySelectorAll('input[data-gap]')];
  if (fields.some(f => !f.value.trim())) return null;
- let solution = [];
- try { solution = JSON.parse(box.dataset.solution) || []; } catch {}
  for (const f of fields) {
-  const ok = type === 'match' ? f.value === f.dataset.slot : solution[Number(f.dataset.gap)].some(a => norm(a) === norm(f.value));
+  const ok = type === 'match' ? norm(f.selectedOptions[0].textContent) === solution[Number(f.dataset.slot)] : solution[Number(f.dataset.gap)].some(a => norm(a) === norm(f.value));
   (type === 'match' ? f.closest('label') : f).dataset.ok = String(ok);
   if (!ok) wrong++;
  }
@@ -89,9 +89,9 @@ document.addEventListener('click', event => {
    ok = Number(picked.value) === sol.choice;
    text = ok ? t.good + t.right : t.expected + (box.querySelector(`input[value="${sol.choice}"]`)?.nextElementSibling?.textContent || '') + '.' + t.reread;
   } else {
-   const raw = box.querySelector('[data-number]').value.trim().replace(/\s/g, '').replace(',', '.');
-   if (raw === '' || !/^[-+]?\d+(\.\d+)?$/.test(raw)) { status.textContent = t.number; delete status.dataset.verdict; return; }
-   ok = Number(raw) === sol.number;
+   const value = K.parseNumber(box.querySelector('[data-number]').value,box.lang);
+   if (!Number.isFinite(value)) { status.textContent = t.number; delete status.dataset.verdict; return; }
+   ok = value === sol.number;
    text = (ok ? t.good : t.retry) + (sol.why || '');
   }
   status.textContent = text;

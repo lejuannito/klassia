@@ -8,7 +8,7 @@
 // Pages communes (recherche, outils, langue de la maison, impression) : elles ne sont dans aucun dossier de classe.
 // Leur langue vient de la classe de la fiche (?classe=), sinon du lien suivi depuis une classe anglophone (?lang=en),
 // sinon de la classe choisie par la famille à l'accueil (klassia_family). Par défaut, le français.
-const COMMON = /\/(?:search|outils|maison|imprimer)(?:\.html)?$/;
+const COMMON = /\/(?:search|outils|maison|imprimer|ecriture)(?:\.html)?$/;
 const isCommon = () => typeof location === 'object' && COMMON.test(location.pathname);
 function lang() {
  if (!isCommon()) return K.currentClass?.()?.language || 'fr';
@@ -21,6 +21,10 @@ K.lang = lang;
 
 // Libellés exacts (texte d'un nœud, sans les espaces autour).
 const EN = {
+ 'Diagnostic / Help':'Browser diagnostics',
+ 'Données et confidentialité / Data information':'Data information',
+ 'Diagnostic navigateur / Browser diagnostics':'Browser diagnostics',
+ '✍️ Copie et dictée / Copying and dictation':'✍️ Copying and dictation',
  // En-tête, navigation de la classe, barre d'onglets
  'Accueil': 'Home', 'Apprendre': 'Learn', 'Semaine': 'Week', 'Réviser': 'Revise', 'Suivi': 'Progress',
  'Revue': 'Review', 'Bassa': 'Bassa',
@@ -86,6 +90,18 @@ const EN = {
  'Changer d’espace ne crée pas de session sécurisée et ne modifie pas les données de l’enfant.': 'Changing space does not create a secure session and does not change the child’s data.',
  'Exporter régulièrement les progrès avant de changer d’appareil.': 'Export progress regularly before changing device.', 'Télécharger la sauvegarde': 'Download the backup',
  'Restaurer dans ce profil': 'Restore into this profile', 'Annuler la dernière restauration': 'Undo the last restore',
+ 'La sauvegarde contient les progrès des dix classes, les réponses et les réglages du profil actif.': 'The backup contains progress in all ten classes, answers and settings for the active profile.',
+ 'Les dessins, enregistrements, décisions de relecture et relevés du Carnet du pilote ne sont pas inclus. Le Carnet et la revue proposent leur propre export.': 'Drawings, recordings, editorial decisions and Pilot notebook records are not included. The notebook and editorial review have their own exports.',
+ 'Destination de l’import': 'Import destination', 'Créer un nouveau profil depuis la sauvegarde': 'Create a new profile from the backup', 'Compléter le profil actif': 'Complete the active profile',
+ 'Remplacer les rubriques importées du profil actif': 'Replace imported sections in the active profile', 'Importer une sauvegarde': 'Import a backup',
+ 'En complétant le profil, les entrées distinctes sont conservées. Pour une même entrée, la valeur de la sauvegarde est retenue.': 'When completing a profile, separate entries are kept. For a matching entry, the value from the backup is used.',
+ 'Conservation sur cet appareil': 'Keeping data on this device', 'Demander la conservation durable': 'Request persistent storage',
+ 'Même si la persistance est accordée, conservez une sauvegarde hors de cet appareil.': 'Even when persistence is granted, keep a backup outside this device.',
+ 'Sur iPhone, utilisez Partager puis Sur l’écran d’accueil pour installer Klassia.': 'On iPhone, use Share then Add to Home Screen to install Klassia.',
+ 'Persistance accordée sur ce navigateur.': 'Persistent storage granted in this browser.',
+ 'Persistance non accordée. Gardez une copie de vos progrès.': 'Persistent storage not granted. Keep a copy of your progress.',
+ 'La demande de persistance est indisponible sur ce navigateur.': 'Requesting persistent storage is not available in this browser.',
+ 'Vérification de la conservation…': 'Checking storage persistence…',
  'Retour à la vue enfant': 'Back to the child view',
  // Suivi des classes (vue d'ensemble) et espace adulte
  'Avancement déclaré sur cet appareil. Réaliser une activité ne vaut pas validation pédagogique.': 'Progress reported on this device. Doing an activity is not a teaching validation.',

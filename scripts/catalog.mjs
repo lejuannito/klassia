@@ -1,3 +1,5 @@
+import crypto from 'node:crypto';
+import {createRequire} from 'node:module';
 import fs from 'node:fs';import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8')),write=(p,x)=>fs.writeFileSync(path.join(root,p),JSON.stringify(x,null,2)+'\n');
 const catalog=read('data/catalog.json'),mapping=[];let stored=0,available=0;
@@ -12,6 +14,15 @@ for(const [grade,dir] of [['CLASS1','class1'],['CLASS3','class3'],['CLASS4','cla
 // Maternelle anglophone (lot A7) : activités en anglais, dans l'inventaire de la revue éditoriale.
 for(const [grade,dir] of [['NURSERY1','nursery1'],['NURSERY2','nursery2']])for(const ref of read(`${dir}/data/catalog.json`).themes){const t=read(`${dir}/data/themes/${ref.id}.json`);for(const d of t.domains)for(const a of d.activities)mapping.push({grade,unit:t.id,subject:d.id,id:a.id,title:a.title_en,objectives:[a.goal_en],source:a.source_refs.join(' · '),official_competency_id:null,mapping_status:'proposed_from_curriculum_tables',status:a.editorial.status,reviewer:null,generic_discovery:false,exercise_ids:a.interactive?[a.id+'-interactive']:[],assessment_id:t.id+'-observation',revision:null});}
 const gs=read('gs/data/catalog-v13.json');for(const ref of gs.themes){const t=read(`gs/data/themes/${ref.id}.json`);for(const d of t.domains)for(const a of d.activities)mapping.push({grade:'GS',unit:t.id,subject:d.id,id:a.id,title:a.title_fr,objectives:[a.goal_fr],source:a.source_refs.join(' · '),official_competency_id:null,mapping_status:'proposed_from_curriculum_tables',status:a.editorial.status,reviewer:null,generic_discovery:false,exercise_ids:a.questions.map((q,i)=>a.id+'-Q'+(i+1)),assessment_id:t.id+'-observation',revision:null});}
-write('data/coverage.json',{version:2,notice:'Inventaire et correspondances proposées ; ne constitue pas une certification de conformité au programme.',items:mapping});
+// A review is bound to the teaching content of its unit; editorial stamps are excluded.
+const strip=x=>Array.isArray(x)?x.map(strip):x&&typeof x==='object'?Object.fromEntries(Object.keys(x).sort().filter(k=>k!=='editorial').map(k=>[k,strip(x[k])])):x;
+const versions=new Map(),registry=createRequire(import.meta.url)('../shared/classes.js');
+for(const c of registry.classes)for(const ref of read(c.catalog)[c.group]){
+ const file=c.format==='ce2'?ref.content:c.format==='nursery'?`${c.dir}data/themes/${ref.id}.json`:`${c.dir}data/${ref.path}`;
+ const hash='sha256:'+crypto.createHash('sha256').update(JSON.stringify(strip(read(file)))).digest('hex');
+ versions.set(c.grade+':'+ref.id,hash);
+}
+for(const row of mapping)row.content_version=versions.get(row.grade+':'+row.unit);
+write('data/coverage.json',{version:3,notice:'Inventaire et correspondances proposées ; ne constitue pas une certification de conformité au programme.',items:mapping});
 const headers=['grade','unit','subject','id','title','source','mapping_status','status','generic_discovery','reviewer'];const csv=v=>'"'+String(v??'').replaceAll('"','""')+'"';fs.writeFileSync(path.join(root,'docs/couverture.csv'),'\uFEFF'+headers.map(csv).join(';')+'\n'+mapping.map(row=>headers.map(k=>csv(row[k])).join(';')).join('\n')+'\n');
 const stats={lessons:347,msActivities:mapping.filter(x=>x.grade==='MS').length,gsActivities:mapping.filter(x=>x.grade==='GS').length,silLessons:sil.units.reduce((n,u)=>n+read(`sil/data/${u.path}`).lessons.length,0),ce1Lessons:ce1Catalog.units.reduce((n,u)=>n+read(`ce1/data/${u.path}`).lessons.length,0),totalLearningLessons:347+sil.units.reduce((n,u)=>n+read(`sil/data/${u.path}`).lessons.length,0)+ce1Catalog.units.reduce((n,u)=>n+read(`ce1/data/${u.path}`).lessons.length,0),class1Lessons:mapping.filter(x=>x.grade==='CLASS1').length,class3Lessons:mapping.filter(x=>x.grade==='CLASS3').length,class4Lessons:mapping.filter(x=>x.grade==='CLASS4').length,nursery1Activities:mapping.filter(x=>x.grade==='NURSERY1').length,nursery2Activities:mapping.filter(x=>x.grade==='NURSERY2').length,coverageItems:mapping.length,storedQuestions:stored,availableQuestions:available,suspendedQuestions:stored-available,remainingGenericDiscoveries:mapping.filter(x=>x.generic_discovery).length,specificRevisions:mapping.filter(x=>x.revision).length,validated:0};write('docs/metrics.json',stats);console.log(stats);

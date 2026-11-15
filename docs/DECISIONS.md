@@ -114,3 +114,9 @@ Ce fichier conserve uniquement les décisions structurantes utiles aux prochaine
 **Décision (porteur de projet, 13 novembre 2026) :** une classe anglophone n’est ajoutée à Klassia qu’en même temps que sa jumelle francophone. La Class 2 attend donc le CP. La règle vaut pour les autres classes : une jumelle manquante se construit avec sa jumelle, pas avant.
 
 **Conséquence :** les classes anglophones présentes (Class 1, Class 3, Class 4) restent reliées thème par thème à la SIL, au CE1 et au CE2, et la validation l’exige (ADR-013). Les pages communes (recherche, outils, langue de la maison, impression) s’affichent en anglais avec le même dictionnaire que les classes (ADR-017). Leur langue vient de la classe de la fiche imprimée (`?classe=`), sinon du lien suivi depuis une classe anglophone (`?lang=en`, ajouté par `shared/i18n.js`), sinon de la classe choisie par la famille à l’accueil. Un passage dont la forme diffère d’une langue à l’autre (montants en lettres) est écrit dans chaque langue (`data-lang`). Restent en français, pour l’équipe du pilote et les enseignants francophones : le carnet du pilote et l’atelier pédagogique.
+
+## Candidate du 15 novembre 2026 — décisions de préparation
+
+Le porteur autorise explicitement la publication sur le dépôt public jusqu’à la candidate, puis prévoit le dépôt privé et le code propriétaire. Le titulaire personne physique/SARL n’est pas arbitré par le développement.
+
+Les modèles cursifs FR/EN sont facultatifs et embarqués avec leurs licences ; aucun modèle camerounais officiel n’est prétendu validé. La lecture et la copie restent disponibles en script. Les avis de revue portent sur une empreinte du contenu pédagogique de l’unité, excluant les tampons éditoriaux : un changement appelle une nouvelle lecture. La candidate demeure une livraison technique destinée à la revue et au pilote, distincte d’une édition pédagogique validée ou d’un paquet accepté en boutique.

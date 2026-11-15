@@ -1,6 +1,6 @@
 # Klassia — état synthétique du projet
 
-_Mise à jour le 8 novembre 2026_
+_Mise à jour le 15 novembre 2026_
 
 Ce document donne uniquement le contexte nécessaire pour reprendre rapidement le développement. Pour les détails, consulter les documents spécialisés.
 
@@ -12,20 +12,29 @@ Klassia est un manuel interactif camerounais en **édition pilote accompagnée**
 
 - Moyenne Section bilingue : 168 activités / 8 thèmes ; parcours « programme » et « pour aller plus loin » (`docs/MATERNELLE_PROGRAMME.md`).
 - Grande Section bilingue : 167 activités / 8 thèmes / 5 domaines.
-- SIL bilingue : 122 leçons, dont 32 leçons de lecture (un son par semaine et un bilan par unité).
+- SIL : 144 leçons, dont 32 leçons de lecture (un son par semaine et un bilan par unité).
 - CE1 bilingue : 191 leçons / 8 unités, dont 8 leçons de littérature autour de l’œuvre au programme (`docs/CE1_LITTERATURE.md`), dont 32 leçons d’anglais d’après le programme francophone (quatre par unité) et 36 leçons d’étude de la langue (grammaire, vocabulaire, orthographe, conjugaison), 26 leçons de mathématiques par savoir (nombres, calcul, mesures, géométrie).
 - CE2 : 347 leçons / 8 unités.
+- Nursery One et Nursery Two : 96 activités chacune, avec cahier tactile et imprimable.
+- Class 1, Class 3 et Class 4 : 128 leçons chacune ; parcours anglophones distincts, encore en relecture.
 
-L’inventaire consolidé compte 974 ressources. La matrice suit 70 repères examinés. [Matrice des repères](MATRICE_CURRICULUM.csv)
+L’inventaire consolidé compte 1 593 ressources. Les statuts éditoriaux ne constituent pas une validation nominative. La matrice historique suit 70 repères examinés ; la matrice anglophone recense les 576 ressources et leurs objectifs/références proposés, sans certifier une couverture exhaustive. [Matrice des repères](MATRICE_CURRICULUM.csv)
 
 ## État fonctionnel notable
 
 - navigation commune par classe, unité ou thème, matière et domaine, avec retour à la page précédente ;
 - profils et rôles locaux : Enfant, Parent, Enseignant, Administration ;
-- sauvegarde/restauration locale avec profils séparés ;
-- revue éditoriale accessible et exportable ;
-- fonctionnement hors connexion avec contrôle d’intégrité du précache, téléchargeable classe par classe (base commune 0,5 Mo, puis 0,4 à 3 Mo par classe) ;
-- lecture optionnelle FR/EN via les voix disponibles sur l’appareil et six extraits intégrés pour la SIL et le CE1 ;
+- sauvegarde JSON du profil actif pour les dix classes, réglages et mots écrits de la langue de la maison ; import dans un nouveau profil (choix initial), complément des entrées distinctes ou remplacement explicite, avec annulation ; dessins, prises audio et relevés éditoriaux/pilote exclus de ce JSON ;
+- demande de persistance dans l’espace des profils, avec état accordé/refusé/indisponible et sauvegarde manuelle toujours disponible ;
+- exercices à étiquettes identiques corrigés par leur libellé, QCM mélangés sans changer l’identité des réponses ; signes conservés et séparateurs numériques adaptés à la langue ;
+- revue éditoriale accessible et exportable, décisions rattachées à une empreinte de l’unité, à renouveler après modification ;
+- accueil de première visite FR/EN avant chargement des leçons ;
+- 24 projets d’intégration anglophones et 16 projets Nursery avec déroulement et observations ; 34 séquences MS explicitées en français et en anglais ;
+- 80 modèles courts de copie/dictée avec polices cursives intégrées, lignages et impression ;
+- longues lectures FR/EN segmentées, 95 scripts de prise préparés, sans avis vocal fictif ;
+- diagnostic technique exportable et information sur les données accessibles depuis les outils ;
+- fonctionnement hors connexion avec contrôle d’intégrité du précache, téléchargeable classe par classe (base commune environ 1,35 Mo, puis 0,4 à 3 Mo par classe) ;
+- lecture optionnelle FR/EN via les voix disponibles sur l’appareil et 126 extraits MP3, principalement pour la SIL et le CE1 ;
 - absence volontaire de synthèse vocale bassa avec voix FR/EN ;
 - 45 panneaux de traductions bassa dans les cinq classes ;
 - capture et réécoute des quatre premières entrées bassa dans l’atelier Enseignant, avec avis du référent associé à la prise conservée sur l’appareil ;

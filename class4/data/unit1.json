@@ -564,8 +564,8 @@
    "domain": "Science and Technology",
    "title": "Burns and scalds at home: first aid",
    "objective": "Differentiate burns from scalds, prevent them at home and associate the items of a first-aid box with simple treatments.",
-   "course": "A burn is caused by dry heat: fire, a hot iron, a hot pot. A scald is caused by a hot liquid or steam: boiling water, hot oil, hot tea.\nFirst aid for a small burn or scald: cool the place under clean running water for about 10 to 20 minutes, remove rings or tight clothes nearby, cover loosely with a clean cloth. Do not put oil, toothpaste, palm oil or salt on it. Large burns, burns on the face and burns in young children need a health worker at once.\nA first-aid box contains: clean gauze, bandages, plasters, scissors, gloves, an antiseptic, a list of emergency numbers.",
-   "model": "The adult shows how to cool a pretend burn on the arm under running water and how to cover it loosely.",
+   "course": "A burn may be caused by dry heat such as a flame or a hot iron. A scald is caused by a hot liquid or steam.\nIf a child is burned, call a trusted adult immediately. Move away from the heat only if it is safe. An adult should promptly cool the burned area with cool running water for 20 minutes, while keeping the rest of the child warm and arranging medical advice. Do not delay urgent care for a serious burn.\nRemove nearby jewellery or loose clothing only if it is not stuck to the skin. Never pull off stuck clothing. After cooling, an adult can cover the area loosely with a clean, non-fluffy, non-stick cloth or dressing. Do not use ice, oil, toothpaste, salt or other household pastes, and do not burst blisters.\nA health worker should assess a child’s burn. Deep, large, electrical or chemical burns, burns on the face, hands, feet or genitals, and breathing difficulties require urgent medical care. Children should not try to treat a burn alone.\nA first-aid box contains clean dressings, bandages, gloves and locally verified emergency contacts. Only an adult handles its medicines or sharp tools.",
+   "model": "With a doll and no hot object, the adult acts out calling for help, cooling only the pretend burned area, keeping the rest of the body warm and seeking medical advice.",
    "guided": "Make a list of five dangers in the kitchen and how to avoid them (pot handles turned inward, children away from the fire…). Check what is in your school’s or family’s first-aid box.",
    "exercise": "Boiling water falls on Nfor’s foot. Is it a burn or a scald?",
    "answer": "A scald.",
@@ -580,7 +580,7 @@
    "materials": "Pictures, a first-aid box, water.",
    "practice": [
     {
-     "prompt": "What do we put on a small burn first?",
+     "prompt": "What should an adult use to cool a burn promptly?",
      "type": "mcq",
      "choices": [
       "clean running water",
@@ -589,7 +589,7 @@
      ],
      "correct": 0,
      "answer": "clean running water",
-     "explanation": "Cool water reduces the damage; oil and toothpaste do not."
+     "explanation": "Use cool running water for 20 minutes while arranging help and keeping the rest of the child warm. Do not use ice or household pastes."
     },
     {
      "prompt": "Match each item of the first-aid box with its use.",
@@ -620,13 +620,25 @@
    "source": {
     "title": "Cameroon Primary School Curriculum, English Subsystem, Level II (Class 3 & Class 4), MINEDUB, 2018",
     "pages": "Science and Technology, table 22 (Health Education: minor accidents, burns, scalds and first aid), p. 55, Class 4 column; theme 1: The home (table 18, p. 40)",
-    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191"
+    "url": "https://s3.eu-west-2.amazonaws.com/ebase-bucket/branding/pages/Cameroon-Primary-School_English-Subsystem_Level2_class3-4.pdf?v=1744208191",
+    "additional": [
+     {
+      "title": "WHO — Burns, First aid",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/burns/",
+      "checked": "2026-11-15"
+     },
+     {
+      "title": "NHS — Burns and scalds",
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "checked": "2026-11-15"
+     }
+    ]
    },
    "editorial": {
     "status": "in_review",
     "reviewer": null,
     "validated_at": null,
-    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem."
+    "notes": "Lesson written for Klassia from the Class 4 contents of the Level II curriculum; original examples. To be reviewed by a Class 4 teacher of the English subsystem. First-aid wording checked against WHO Burns fact sheet and NHS Burns and scalds on 15 November 2026; local professional review remains required. No real burn should be created for an activity."
    },
    "competencies": [
     "Health Education: minor accidents, burns, scalds and first aid"
@@ -1112,5 +1124,39 @@
     "Computer system: input and output devices and operating systems"
    ]
   }
- ]
+ ],
+ "integration_project": {
+  "title": "A place for every object",
+  "context": "Prepare a corner of a home with safe classroom objects.",
+  "tasks": [
+   "Write a description using concrete nouns and one abstract noun such as kindness.",
+   "Make two different groups with the same number of objects and explain equal versus equivalent sets.",
+   "Record a household count with tallies and explain the total."
+  ],
+  "rubric": [
+   [
+    "Communicates the message clearly",
+    6
+   ],
+   [
+    "Shows a correct mathematical method",
+    8
+   ],
+   [
+    "Explains or checks the result",
+    4
+   ],
+   [
+    "Works carefully and includes others",
+    2
+   ]
+  ],
+  "total": 20,
+  "teacher_note": "Original cross-subject situation proposed by Klassia. Reuse the unit lessons before assessing. Adapt materials and oral/written expectations; a tick records completion, not competence. Review the rubric locally before assigning marks.",
+  "editorial": {
+   "status": "in_review",
+   "reviewer": null,
+   "validated_at": null
+  }
+ }
 }

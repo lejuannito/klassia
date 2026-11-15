@@ -117,6 +117,15 @@
 .klassia-welcome [data-welcome-note]:empty { display: none; }
 .klassia-welcome-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
 .klassia-welcome-actions button { min-height: 44px; padding: .5rem 1.1rem; }
+.klassia-entry-language{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin-bottom:1rem}
+.klassia-entry-language button{min-height:44px;padding:.5rem 1rem;border:1px solid #3157d5;border-radius:8px;background:white;color:#24345e;font:inherit}
+.klassia-entry-language button[aria-pressed="true"]{background:#3157d5;color:white}
+.klassia-entry-pending #pwaTools{display:none}
+.gs-top{gap:.5rem;flex-wrap:wrap}.gs-top>*{min-width:0;overflow-wrap:anywhere}
+.klassia-global-nav>*{min-width:0;max-width:100%}.klassia-global-nav select{max-width:100%}
+.klassia-catalogue-card h2,.klassia-catalogue-heading h1,.lesson-card h1{overflow-wrap:anywhere}
+.profiles-dialog{max-width:min(94vw,700px);max-height:88dvh;overflow:auto}
+.profiles-dialog select,.profiles-dialog input,.profiles-dialog button{max-width:100%}
 
 /* « Continuer » card on the class home (child view). */
 .klassia-continue { display: grid; gap: .35rem; margin: 0 0 1.1rem; padding: 1rem 1.1rem; border-radius: 14px; background: #243f83; color: #fff; }

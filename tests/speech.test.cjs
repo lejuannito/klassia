@@ -5,3 +5,14 @@ const fr={name:'Français',lang:'fr-FR',default:false,localService:true};
 test('French never uses the English device default',()=>{assert.equal(selectVoice([en,fr],'fr-FR'),fr);assert.equal(selectVoice([en],'fr-FR'),null);assert.equal(selectVoice([],'fr-FR'),null);});
 test('regional fallback remains in requested language and exact locale takes priority',()=>{const ca={name:'Canada',lang:'fr_CA',localService:true};assert.equal(selectVoice([en,ca],'fr-FR'),ca);assert.equal(selectVoice([en,ca,fr],'fr-FR'),fr);assert.equal(selectVoice([fr,en],'en-GB'),en);});
 test('local voice is preferred among matching locales without mutating the voice list',()=>{const remote={...fr,localService:false,default:true},voices=[remote,fr];assert.equal(selectVoice(voices,'fr-FR'),fr);assert.equal(voices[0],remote);assert.equal(selectVoice([en,fr],'bas'),null);});
+
+test('long speech is segmented without dropping words, with bounded utterances',()=>{
+ const {segments}=require('../shared/speech.js');
+ const text=('Une phrase avec des accents, des nombres 1 000 et des mots anglais.\n').repeat(50);
+ const parts=segments(text);
+ assert.ok(parts.length>3);
+ assert.ok(parts.every(s=>s.length<=600));
+ assert.equal(parts.join(' '),text.trim().replace(/\s+/gu,' '));
+ assert.deepEqual(segments(''),[]);
+ assert.equal(segments('x'.repeat(1300)).join(''),'x'.repeat(1300));
+});

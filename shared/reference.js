@@ -64,6 +64,8 @@
  }
 
  const en = window.Klassia?.lang?.() === 'en';
+ const writing=document.querySelector('a[href*="ecriture.html"]');
+ if(writing){let grade=Klassia.read('klassia_family',{}).grade;try{const ref=new URL(document.referrer);if(ref.origin===location.origin&&Klassia.inClassFolder(ref.pathname))grade=Klassia.currentClass(ref.pathname).grade;}catch{}const u=new URL(writing.href);u.searchParams.set('classe',grade&&Klassia.classInfo(grade)?.language===(en?'en':undefined)?grade:en?'CLASS1':grade||'SIL');writing.href=u.href;}
  const alphabet = document.getElementById('alphabetLetters');
  for (const letter of 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
   const item = document.createElement('li');

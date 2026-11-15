@@ -1,5 +1,5 @@
 self.KLASSIA_RELEASE = {
-  "version": "73a04aa733dd25e3d4cad8e69539562930b9534c56c8e4d45f79cae1e1d8c731",
+  "version": "ce5f7a239171ba82e76d4d298eea8483d17739bde6d13e3d8ee525c407c53df1",
   "packs": {
     "CE1": {
       "files": 52,
@@ -23,31 +23,31 @@ self.KLASSIA_RELEASE = {
     },
     "common": {
       "files": 71,
-      "bytes": 599489
+      "bytes": 600229
     },
     "CLASS1": {
       "files": 8,
-      "bytes": 340143
+      "bytes": 348219
     },
     "CLASS3": {
       "files": 8,
-      "bytes": 362666
+      "bytes": 370614
     },
     "CLASS4": {
       "files": 8,
-      "bytes": 369757
+      "bytes": 380861
     },
     "ATELIER": {
       "files": 1,
-      "bytes": 1122507
+      "bytes": 1122659
     },
     "NURSERY1": {
       "files": 9,
-      "bytes": 145125
+      "bytes": 152274
     },
     "NURSERY2": {
       "files": 9,
-      "bytes": 143253
+      "bytes": 150712
     }
   },
   "files": [
@@ -1105,50 +1105,50 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./class1/data/unit1.json",
-      "sha256": "7097b4472f80ec1e32efbb55961c82ca05305e02aa7c0e5f494246d1a25803dd",
-      "size": 45434,
+      "sha256": "fa10ad2655e26b93fa3ddfdf448eb6e72e50125a1612623e081e977e57ae1300",
+      "size": 46814,
       "pack": "CLASS1"
     },
     {
       "url": "./class1/data/unit2.json",
-      "sha256": "b54f50aedede39efdddf18633117d59838e0b4f6e0e43a0579b2ba3233f4988a",
-      "size": 42600,
+      "sha256": "60932ea9b95d792f2cf6f1434ba4ca7aeafd0e76cce5f1c9efee226c6aa43c55",
+      "size": 43553,
       "pack": "CLASS1"
     },
     {
       "url": "./class1/data/unit3.json",
-      "sha256": "5076568010cec6ff7d5429dc371fdbeb5c034b2ea114283c50b164082b4ee820",
-      "size": 41600,
+      "sha256": "e677925b520c4c8ad65d50c9d0b535a9c0212acc7d0db6269579d73e24cafcb7",
+      "size": 42528,
       "pack": "CLASS1"
     },
     {
       "url": "./class1/data/unit4.json",
-      "sha256": "5617c62dce09bcfa433d7ae58665709aaf93254b8e5eadb0e8d1804cf31731e7",
-      "size": 41916,
+      "sha256": "4072f54bb9c10b9f6f3c61fcb98d8c0640b3115ac0b7f400b3064ccf7e30a85f",
+      "size": 42880,
       "pack": "CLASS1"
     },
     {
       "url": "./class1/data/unit5.json",
-      "sha256": "4dcaa87ea9fa5b583575bf845e53bc463bbae72e0868b36a7fd61193b9a990ea",
-      "size": 41731,
+      "sha256": "07302df999930b4f471653c8f09c6743447f64dd0d6f447d9d59df7db5299098",
+      "size": 42659,
       "pack": "CLASS1"
     },
     {
       "url": "./class1/data/unit6.json",
-      "sha256": "538bd6407bbf8ae1ac82631df47aa65010079cfa3f981faebd64b7a21912f11c",
-      "size": 42411,
+      "sha256": "a118621e0d6b1236ac3a28e822528804514e8f73b0e28d02b3107bfaeaf9e76a",
+      "size": 43409,
       "pack": "CLASS1"
     },
     {
       "url": "./class1/data/unit7.json",
-      "sha256": "2e3691d15e0dbe4c849f61a2c6510f0d822ab3789eee9066020468b0013d2b6b",
-      "size": 41561,
+      "sha256": "1ee9f88cf00e795103702948648293ef5b78dbc7ff7e8a4c840712a1eb140449",
+      "size": 42507,
       "pack": "CLASS1"
     },
     {
       "url": "./class1/data/unit8.json",
-      "sha256": "77995ecf5c9bc2ea122636a982da5fdede2e26d94b2031e238afcf72bf65c282",
-      "size": 42890,
+      "sha256": "60c5dfd6bb6c4baa3331de6c8bf5d5281d0f46cac6227e6a04ffeaeaadfe5856",
+      "size": 43869,
       "pack": "CLASS1"
     },
     {
@@ -1163,50 +1163,50 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./class3/data/unit1.json",
-      "sha256": "f84958793c529cf6f80b84d10e77dabaa1fbf493ce09efae16fb43baac53d897",
-      "size": 45430,
+      "sha256": "062083dc1e904cdf24f43b9a3e33ab6922dcbee24b81394503152a9599a78530",
+      "size": 46415,
       "pack": "CLASS3"
     },
     {
       "url": "./class3/data/unit2.json",
-      "sha256": "509aa5399499c464dc03a603fed15409b9a4f7ed0bd99ce81e474c5e536c0eef",
-      "size": 45936,
+      "sha256": "0981739fe7b9e7273f79fec998feb357eb757115d16e2cc0798ddf333da5975a",
+      "size": 46939,
       "pack": "CLASS3"
     },
     {
       "url": "./class3/data/unit3.json",
-      "sha256": "394db50e2dfce963bde97245761c8c2fe19b6c520087be372cf371859356fdaa",
-      "size": 45848,
+      "sha256": "e0e26df89101e97c2445c1579e932c5ad8b06d894a78ec08d1fa78b0fa3e886f",
+      "size": 46845,
       "pack": "CLASS3"
     },
     {
       "url": "./class3/data/unit4.json",
-      "sha256": "1c953be082654cdc6aa509e9aec9a887c8e6ca47764522270cc7074042e96845",
-      "size": 44089,
+      "sha256": "2716d9015b37d698dfc401947d8fd8bc0fc9defabe201b45aa114d86c0fa74c3",
+      "size": 45102,
       "pack": "CLASS3"
     },
     {
       "url": "./class3/data/unit5.json",
-      "sha256": "524b072074ef83ffe1dbf7b6aeaf9d2044a0fb7fc82b02cbbc2b667f4d747adc",
-      "size": 45493,
+      "sha256": "b58bb7e71d133e4bfca32fd7987013e6a1b7ffda8407d80a7dc90beda497d81d",
+      "size": 46445,
       "pack": "CLASS3"
     },
     {
       "url": "./class3/data/unit6.json",
-      "sha256": "c99204ca08cd0af7e0bc43614530d6d8ad2f5d7088c8be309b9b1ddfa8c41f23",
-      "size": 45411,
+      "sha256": "cc33ff355f6ed8a4aa859fc8077c382902afa2916431b40a0b4d7c3a434ba733",
+      "size": 46456,
       "pack": "CLASS3"
     },
     {
       "url": "./class3/data/unit7.json",
-      "sha256": "dd97224c86557db7736dde69e64c0f42ac8ccfc3c1b0a2fd9f66cbc1b729cb21",
-      "size": 44184,
+      "sha256": "d462fcbc13f6b1075137cb5bd96ef260d7c28a63ecbc2d73e430a72829dd08ee",
+      "size": 45157,
       "pack": "CLASS3"
     },
     {
       "url": "./class3/data/unit8.json",
-      "sha256": "8eec1dc4f86e994ea61f3a228f27e15b76e657056d62534ca7e6f6f9bc48bda8",
-      "size": 46275,
+      "sha256": "7b1f9c0882951e3d100377736e0b21df61b4b313b8bba74eae2bd624f194f894",
+      "size": 47255,
       "pack": "CLASS3"
     },
     {
@@ -1221,50 +1221,50 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./class4/data/unit1.json",
-      "sha256": "a580fb99310353efd3839803c4b3fc9ab13b4bf8c799f63cd5a434f038dba2f0",
-      "size": 47822,
+      "sha256": "ca0d18d38ca7f5e84e01d5b26d306d4c75c87e9092e4cae62459adcbdca495da",
+      "size": 50071,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit2.json",
-      "sha256": "300029989d3b581e0a727a760e43a944b20e4494c64671e1706aacaa0738895d",
-      "size": 46625,
+      "sha256": "9e4cc64d0b71e4d9abaa0a00e5a99a709eb2da60d7524b0f89f7cd517e430d36",
+      "size": 47607,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit3.json",
-      "sha256": "8862e9f1fbfdf2f0f7533faefea2b3368e2f0315e42b58f16705c7509409e424",
-      "size": 45883,
+      "sha256": "baa5b50bfd3325c50d2d8da12141546999f6ce9981790b95644d0674675ddcc9",
+      "size": 46857,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit4.json",
-      "sha256": "e14a9865f6c1832ddb3d103040217441d3b510766a49c30b7d892c8651cb5044",
-      "size": 44857,
+      "sha256": "a9a757a41e35290df56e9c954f96501634e547f0303df5bedcb7d8f3f808ab19",
+      "size": 47810,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit5.json",
-      "sha256": "c6873f1fc0bea0ab933368a20942646b5126a106e14d69f19afff0fd9eab62f3",
-      "size": 46437,
+      "sha256": "13988bdc60f2a9851ac91f3b9e51f22083f5983d3b89696ec3258ee1f8b5d6f2",
+      "size": 47419,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit6.json",
-      "sha256": "21f344629dff4a8e44fc233f3bca4f0eed08af521f9f8d61455362579c88d21a",
-      "size": 46784,
+      "sha256": "2f9eb7aa5fb2ba038a4f6a6eae4a350463bc81aa185eb20fc91aa5927e807ef9",
+      "size": 47799,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit7.json",
-      "sha256": "3a23dae85b53d6c2d8e954c93b082fdc9df41bb59002e4cf79b70ff569e92d22",
-      "size": 45290,
+      "sha256": "eed502fe77a6e91cc9f8742ecebdd10e2e3114421d2cfc894377b1b78b8364b1",
+      "size": 46245,
       "pack": "CLASS4"
     },
     {
       "url": "./class4/data/unit8.json",
-      "sha256": "fe32aa54c5cf9871ac6f85009367e8e568a7367f76e7c3be738eb87d500ecbca",
-      "size": 46059,
+      "sha256": "ad42195ba8d318619519c57bfa9b838fc1608d32ca339dd6d20503f98bd586aa",
+      "size": 47053,
       "pack": "CLASS4"
     },
     {
@@ -1348,8 +1348,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./data/coverage.json",
-      "sha256": "a143a4dc02a0fce96223901146d46b1f95e05c2954eda386d70cf7c2538a4e93",
-      "size": 1122507,
+      "sha256": "4c08c3cc302d37ec9e68f0beb73a063657186472deb358e5ea8d2d3ab1cac82b",
+      "size": 1122659,
       "pack": "ATELIER"
     },
     {
@@ -1578,50 +1578,50 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./nursery1/data/themes/T1.json",
-      "sha256": "91648026756bce52d32bf7afb51975766eed3ff165f20c00813f6fe2eb0d844e",
-      "size": 19251,
+      "sha256": "f1927e2c7129f6508792629d1439ab6bf7f171edb9f07bcdcc784bd5bbfb1155",
+      "size": 20174,
       "pack": "NURSERY1"
     },
     {
       "url": "./nursery1/data/themes/T2.json",
-      "sha256": "5ca0becb8aa04ec2a67bc79af375a9223038a5e544e5cb13908dc83ab64add1b",
-      "size": 18110,
+      "sha256": "ab8003c3fd1d1808023a78aeea3ef088d4a8cf560b20592b1e78bb9e1de8fe71",
+      "size": 19033,
       "pack": "NURSERY1"
     },
     {
       "url": "./nursery1/data/themes/T3.json",
-      "sha256": "226269f6d85ce168d7b024e083c0aec888317ff81505fe1e3d3fc49835b61d3e",
-      "size": 18368,
+      "sha256": "ff8e6491feae38d77876cb7daef84d421799304c64bbabf9e36b049a2d9fcebb",
+      "size": 19277,
       "pack": "NURSERY1"
     },
     {
       "url": "./nursery1/data/themes/T4.json",
-      "sha256": "65c0c3516602da2215f5f2754956570b7a09eba20eb1fd0a404975f578599d46",
-      "size": 17734,
+      "sha256": "081685429693d185dce2e565c8469d1f0c126479a66fb6e3598f0a35a488357e",
+      "size": 18621,
       "pack": "NURSERY1"
     },
     {
       "url": "./nursery1/data/themes/T5.json",
-      "sha256": "87fe6b06b23d05db1671b841a6ecb789b76d6d24375a0f588307c2900b9facc6",
-      "size": 17430,
+      "sha256": "cd0fcf1f4fd51c129067799dbb57c66cbacdac44cefa121c2cab8701313a4b72",
+      "size": 18299,
       "pack": "NURSERY1"
     },
     {
       "url": "./nursery1/data/themes/T6.json",
-      "sha256": "06912c4e19f7464bf6bbe0a5ad311300a47773c6c1129fafa5492bc2452c9b2f",
-      "size": 17098,
+      "sha256": "9fa455cf90cc93966acda6851842e5d6eddcb4ca3c803baa09ceb456cab508b1",
+      "size": 17980,
       "pack": "NURSERY1"
     },
     {
       "url": "./nursery1/data/themes/T7.json",
-      "sha256": "aeb898467cc15306690cba0c7aaba5da8f24ab49615c8b25fab8bbfe192990e8",
-      "size": 17459,
+      "sha256": "05a209f3d6695e2057fdc3e5148d2ced662d04d8928966549b17fa9f9c196cd5",
+      "size": 18369,
       "pack": "NURSERY1"
     },
     {
       "url": "./nursery1/data/themes/T8.json",
-      "sha256": "f222ff624df6331f8e999534fc2b8b43806fe6483ba13e629d2f3ec22cca32d4",
-      "size": 17790,
+      "sha256": "5925a66b19bbd4d171e021591363abaa2a71b22c04a056bb556d8ce6f392f7df",
+      "size": 18636,
       "pack": "NURSERY1"
     },
     {
@@ -1642,50 +1642,50 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./nursery2/data/themes/T1.json",
-      "sha256": "2ba3cf18ed268fed3219a10af51945922a1bbadef61256f13b943e1380889e9a",
-      "size": 18691,
+      "sha256": "38e9dfdfaa506a4a4843b58206d90648d4a8ef67fb9f11428eb70f053f99fa37",
+      "size": 19630,
       "pack": "NURSERY2"
     },
     {
       "url": "./nursery2/data/themes/T2.json",
-      "sha256": "a4d38040e4242d2288dd6fcfa974c9594e5df9f2ce3405a98fb3de81c93a6800",
-      "size": 17455,
+      "sha256": "f02c84e135ec1fd751e7ae69ddd6a96d302fa001ec6a48a6c188bf1680ebc3f5",
+      "size": 18408,
       "pack": "NURSERY2"
     },
     {
       "url": "./nursery2/data/themes/T3.json",
-      "sha256": "b2ffded8e01ae1f6deefe154c75679fe4c1a8ee72f5e3ce64071cdbcce1c225d",
-      "size": 17456,
+      "sha256": "37c128930d412261345b106d7f63aaa7d3647e317778b3d84b76f2627ab6fa73",
+      "size": 18387,
       "pack": "NURSERY2"
     },
     {
       "url": "./nursery2/data/themes/T4.json",
-      "sha256": "68c862b213b79725b5e64b51f3e5d0d11523a6d424b4ce7bad77dc928b51c21c",
-      "size": 17391,
+      "sha256": "909e9e5181be99309ba49bdda5926528ce3eaef961b1bdbdad9030e32a803226",
+      "size": 18315,
       "pack": "NURSERY2"
     },
     {
       "url": "./nursery2/data/themes/T5.json",
-      "sha256": "90ef9ff6d826122cff9dc20dfd1abfbc0440adff2158fed2b2817da444461573",
-      "size": 17634,
+      "sha256": "93fce8ed52a9901be80936f17d48c02615f32fe672734f52acd1ab9d7e04f20d",
+      "size": 18604,
       "pack": "NURSERY2"
     },
     {
       "url": "./nursery2/data/themes/T6.json",
-      "sha256": "ec4540ba57d0bada4a2dd475c8c5855a9d883082ea3812443689f43b2a681679",
-      "size": 17102,
+      "sha256": "8b3080b64db1df94c721a6e157eabd53bce85602d3f8abeeba6b372efc60c583",
+      "size": 17999,
       "pack": "NURSERY2"
     },
     {
       "url": "./nursery2/data/themes/T7.json",
-      "sha256": "b85304080b514208984f84490e0c29d597df943b6d299200e76d094e513eb9a9",
-      "size": 17619,
+      "sha256": "81457c71715fec59726138d92ca330443f72710a6b65ee87aba7863159340fb2",
+      "size": 18566,
       "pack": "NURSERY2"
     },
     {
       "url": "./nursery2/data/themes/T8.json",
-      "sha256": "930b6c5dbd4d8e3eb12f87cac1b49f843af2b3544a8f3652bc8a28db6371018c",
-      "size": 17460,
+      "sha256": "bfe64c0e5cbb827834757aa8353a096086c44a1a8071235d566ade6bc9182d3f",
+      "size": 18358,
       "pack": "NURSERY2"
     },
     {
@@ -1741,13 +1741,13 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/classes.js",
-      "sha256": "5ceb440c91cf9949a1abed3f6260cde76ab0c3341fe387c734d8e5987da3cc19",
-      "size": 6262
+      "sha256": "5d7456e7b6fa6ebfac78d2fb6990e019d12c012c0b92937916b9af76983312b2",
+      "size": 6276
     },
     {
       "url": "./shared/core.js",
-      "sha256": "9679f4878c1b3dab89ac843d60ee322ac4697714de6e484b0dbdc06bda6076fd",
-      "size": 15431
+      "sha256": "89d01c9662512ba65d8e6218d5eb09ab7a872205d5797b9cd5d5826e3d6f7bc1",
+      "size": 15503
     },
     {
       "url": "./shared/correction.js",
@@ -1786,8 +1786,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/learning-app.js",
-      "sha256": "4ca92161faa8082a8332df48a7c3c4a38e6c82ca711f1f899e255cc63166889a",
-      "size": 46626
+      "sha256": "1b4ea9012857c25c45f011a66e18363250addc84395c42f9e4de9cfce13cee8a",
+      "size": 47097
     },
     {
       "url": "./shared/lesson-model.js",
@@ -1821,8 +1821,8 @@ self.KLASSIA_RELEASE = {
     },
     {
       "url": "./shared/nursery.js",
-      "sha256": "8ecc134e7ff9a2e10d91121fc5c6b4a7e1f8495b28eee1a484f5549f4e3c4197",
-      "size": 28616
+      "sha256": "adaa55c992e92a515e4e862da708c84d5133bdfca0558544d9cb47db68d31748",
+      "size": 28799
     },
     {
       "url": "./shared/pilot.css",

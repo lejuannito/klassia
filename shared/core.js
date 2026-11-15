@@ -16,7 +16,7 @@
     }
   }
   const GRADES = ['CE2','MS','GS','SIL','CE1','NURSERY1','NURSERY2','CLASS1','CLASS3','CLASS4'];
-  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_(ms|gs|nursery[12])_theme_v2|klassia_(ms|gs)_progress_v2:T[1-8]|klassia_nursery[12]_progress_v1:T[1-8]|klassia_(sil|ce1|class[134])_progress_v1|klassia_ce1_qcm_v1|klassia_(ms|gs|sil|ce1|ce2|nursery[12]|class[134])_recent_v1|klassia_(sil|ce1|ce2|class[134])_week_v1|klassia_(answers_v1|family|home_language_v1|home_words_v1|nursery_lang_v1|entry_lang_v1|lesson_view_v1))$/.test(k);
+  const known = k => /^(klassia_(progress|exercises|recent|unit|activity_v9|last_backup_v9|review_dates|attempts|observations)|klassia_(evals|project|qcm_scores)(:U[1-8])?|klassia_project:CLASS[134]-T[1-8]|klassia_(ms|gs|nursery[12])_theme_v2|klassia_(ms|gs)_progress_v2:T[1-8]|klassia_nursery[12]_progress_v1:T[1-8]|klassia_(sil|ce1|class[134])_progress_v1|klassia_ce1_qcm_v1|klassia_(ms|gs|sil|ce1|ce2|nursery[12]|class[134])_recent_v1|klassia_(sil|ce1|ce2|class[134])_week_v1|klassia_(answers_v1|family|home_language_v1|home_words_v1|nursery_lang_v1|entry_lang_v1|lesson_view_v1))$/.test(k);
   function validate(k, raw) {
     if (!known(k) || typeof raw !== 'string' || raw.length > 2000000) throw Error('Donnée de sauvegarde non reconnue : ' + k);
     if (k === 'klassia_unit') { if (!/^U[1-8]$/.test(raw)) throw Error('Unité invalide.'); return; }
@@ -37,7 +37,7 @@
     if (k === 'klassia_family' && !(v.dismissed === true || (['fr','en','both'].includes(v.school) && GRADES.includes(v.grade)))) throw Error('Réglage de la famille invalide.');
     if (k === 'klassia_home_language_v1' && (typeof v.name !== 'string' || v.name.length > 40)) throw Error('Langue de la maison invalide.');
     if (k === 'klassia_home_words_v1' && Object.values(v).some(x=>typeof x !== 'string' || x.length > 160)) throw Error('Mot de la maison invalide.');
-    if (/_week_v1$/.test(k) && (!/^[UT][1-8]$/.test(v.unit) || !Number.isInteger(v.week) || v.week < 1 || v.week > 4)) throw Error('Semaine invalide.');
+    if (/_week_v1$/.test(k) && (!/^(?:U[1-8]|(?:SIL|CE1)-U[1-8]|CLASS[134]-T[1-8])$/.test(v.unit) || !Number.isInteger(v.week) || v.week < 1 || v.week > 4)) throw Error('Semaine invalide.');
     if (k.startsWith('klassia_evals') && Object.values(v).some(e=>!object(e)||!Number.isFinite(e.score)||e.score<0||e.score>20)) throw Error('Évaluation invalide.');
     if (k.startsWith('klassia_qcm_scores') && Object.values(v).some(e=>!object(e)||!Number.isFinite(e.score)||!Number.isFinite(e.total)||e.total<=0||e.score<0||e.score>e.total)) throw Error('Score QCM invalide.');
     if (k === 'klassia_exercises' && Object.values(v).some(e=>!object(e)||typeof e.ok!=='boolean')) throw Error('Exercice invalide.');

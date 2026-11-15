@@ -24,14 +24,14 @@
    "id": "CLASS1-T1-E1",
    "domain": "English Language",
    "title": "Listen and speak: greetings at home",
-   "objective": "Greet people correctly in the morning, in the afternoon and at night, and answer a greeting.",
-   "course": "We greet people with the right words for the time of day.\nIn the morning we say: Good morning. In the afternoon we say: Good afternoon. At night, before we sleep, we say: Good night.\nWhen someone greets us, we answer with the same words and a smile: Good morning, Mama!",
+   "objective": "Greet people in the morning, afternoon and evening, respond politely, and say good night before leaving for bed.",
+   "course": "When we meet someone, we can say Good morning before noon, Good afternoon after noon, or Good evening in the evening.\nGood night is usually a goodbye before leaving for bed, not a greeting when we arrive. Hi and Hello can be used at different times of day.\nWe can answer with the same greeting and the person’s name: Good morning, Mama!",
    "support": {
     "title": "Say with the adult",
-    "text": "Good morning, Papa!\nGood afternoon, Auntie!\nGood night, Mama!"
+    "text": "Good morning, Papa!\nGood afternoon, Auntie!\nGood evening, Grandma!\nGood night, Mama! I am going to bed."
    },
    "model": "Bih wakes up and sees her father. She says: “Good morning, Papa!” He answers: “Good morning, Bih!” In the evening, before bed, she says: “Good night, Mama!”",
-   "guided": "The adult shows three drawings: the sun rising, the sun high in the sky, the moon. For each drawing, say the greeting together, then play it: one person greets, the other answers.",
+   "guided": "Show four situations: arriving after waking up, meeting after lunch, arriving in the evening, leaving for bed. Say the words together, then exchange roles. Distinguish arriving in the evening from leaving for bed.",
    "exercise": "It is the morning. You see your grandmother. What do you say?",
    "answer": "Good morning, Grandma!",
    "accept": [
@@ -39,9 +39,9 @@
     "Good morning Grandma",
     "Good morning, Grandmother"
    ],
-   "remediation": "Use only two drawings first (sun and moon): Good morning, Good night. Add Good afternoon when the two are well known.",
+   "remediation": "Act out only morning arrival and bedtime goodbye first. Add afternoon and evening arrivals when the difference is clear.",
    "transfer": "Tomorrow, greet each person at home with the right words for the time of day.",
-   "materials": "Three drawings (sunrise, midday sun, moon).",
+   "materials": "Four drawings or acted situations: morning, afternoon, evening arrival, bedtime goodbye.",
    "practice": [
     {
      "prompt": "Match each moment of the day with its greeting.",
@@ -56,18 +56,22 @@
        "Good afternoon"
       ],
       [
+       "arriving in the evening",
+       "Good evening"
+      ],
+      [
        "before going to bed",
        "Good night"
       ]
      ],
-     "answer": "sunrise: Good morning; after lunch: Good afternoon; before bed: Good night.",
+     "answer": "sunrise: Good morning; after lunch: Good afternoon; arriving in the evening: Good evening; before bed: Good night.",
      "explanation": "Each greeting goes with a time of day."
     },
     {
      "prompt": "Listen and say each greeting after the voice.",
-     "listen": "Good morning. Good afternoon. Good night.",
-     "answer": "Good morning. Good afternoon. Good night.",
-     "explanation": "Say the whole greeting, then smile."
+     "listen": "Good morning. Good afternoon. Good evening. Good night. I am going to bed.",
+     "answer": "Good morning. Good afternoon. Good evening. Good night. I am going to bed.",
+     "explanation": "The first three expressions greet someone; the final expression says goodbye before bed."
     },
     {
      "prompt": "Your uncle says: “Good afternoon!” What do you answer?",
@@ -1147,5 +1151,39 @@
     "Basic knowledge: ICT devices"
    ]
   }
- ]
+ ],
+ "integration_project": {
+  "title": "A place for every object",
+  "context": "Prepare a corner of a home with safe classroom objects.",
+  "tasks": [
+   "Name three objects and greet the visitor.",
+   "Sort the objects into two groups and count each group.",
+   "Draw the corner and say where one object belongs."
+  ],
+  "rubric": [
+   [
+    "Communicates the message clearly",
+    6
+   ],
+   [
+    "Shows a correct mathematical method",
+    8
+   ],
+   [
+    "Explains or checks the result",
+    4
+   ],
+   [
+    "Works carefully and includes others",
+    2
+   ]
+  ],
+  "total": 20,
+  "teacher_note": "Original cross-subject situation proposed by Klassia. Reuse the unit lessons before assessing. Adapt materials and oral/written expectations; a tick records completion, not competence. Review the rubric locally before assigning marks.",
+  "editorial": {
+   "status": "in_review",
+   "reviewer": null,
+   "validated_at": null
+  }
+ }
 }

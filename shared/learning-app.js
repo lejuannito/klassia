@@ -21,12 +21,14 @@ K.nextStep=()=>{if(!lessons)return null;const p=loadProgress(),r=K.read(recentKe
 const status=s=>EN?(s==='A'?'Done':s==='EC'?'In progress':'To discover'):codes?(s==='A'?'Je me sens prêt':s==='R'?'À revoir':s==='EC'?'En cours':'À faire'):(s==='A'?'Réalisé':s==='EC'?'En cours':'À découvrir');
 // « Cette semaine à l'école » (shared/week.js) and « Dans ton manuel » when the French textbook's table of contents is recorded.
 const manualUrl={SIL:home+'data/manuels/champions-francais-sil.json',CE2:home+'data/manuels/champions-francais-ce2.json'}[c.grade];
+let weekRequest=0;
 async function showWeek(){
+ const request=++weekRequest;
  const saved=K.week.read(c.grade);let current=null;
  try{const s=K.nextStep();const id=s&&decodeURIComponent(s.href.slice(8));current=lessons.find(x=>x.l.id===id)?.u.id;}catch{}
  const sel=saved&&units.some(u=>u.id===saved.unit)?saved:{unit:current||units[0].id,week:1};
  const u=units.find(x=>x.id===sel.unit),book=await K.week.manual(manualUrl);
- if(location.hash!=='#semaine')return;
+ if(location.hash!=='#semaine'||request!==weekRequest)return;
  const groups=new Map();for(const l of u.lessons){const d=l.domain.split(' · ')[0];if(!groups.has(d))groups.set(d,[]);groups.get(d).push(l);}
  const item=l=>({title:l.title,href:'#lesson:'+encodeURIComponent(l.id),status:progress[l.id]?status(progress[l.id]):'',...langOf(l)});
  // A lesson may name its week (SIL reading, one sound a week); the others are spread over weeks 1 to 3 in their order.
@@ -149,7 +151,7 @@ async function fillPracticeBook(u){const box=root.querySelector('[data-practice-
 const evalKey=u=>'klassia_evals:'+u.id,evalsOf=u=>{const v=K.read(evalKey(u),null);return v!==null?v:(u.id==='U1'?K.read('klassia_evals',{}):{});};
 function unitExtras(u){const withEval=(u.subjects||[]).filter(s=>s.assessment),ev=evalsOf(u);
  return (withEval.length?`<section class="gs-card"><h2>Évaluations de l’unité</h2><div class="gs-actions">${withEval.map(s=>`<a href="#eval:${E(u.id)}:${encodeURIComponent(s.id)}">${E(s.name)}${ev[s.id]?` · ${E(ev[s.id].score)}/20`:''}</a>`).join('')}</div></section>`:'')
-  +(legacy?`<section class="gs-card" data-practice-book hidden></section><section class="gs-card"><h2>Imprimer</h2><div class="gs-actions"><button type="button" data-print-unit="theme">Le thème entier / PDF</button>${(u.subjects||[]).map(s=>`<button type="button" data-print-unit="matiere" data-subject="${E(s.id)}">${E(s.name)}</button>`).join('')}</div></section>`:'')+(u.integration_project?`<section class="gs-card"><h2>Projet d’intégration</h2><p>${E(u.integration_project.title)}</p><div class="gs-actions"><a href="#project:${E(u.id)}">Ouvrir le projet</a></div></section>`:'');}
+  +(legacy?`<section class="gs-card" data-practice-book hidden></section><section class="gs-card"><h2>Imprimer</h2><div class="gs-actions"><button type="button" data-print-unit="theme">Le thème entier / PDF</button>${(u.subjects||[]).map(s=>`<button type="button" data-print-unit="matiere" data-subject="${E(s.id)}">${E(s.name)}</button>`).join('')}</div></section>`:'')+(u.integration_project?`<section class="gs-card"><h2>${EN?'Integration project':'Projet d’intégration'}</h2><p>${E(u.integration_project.title)}</p><div class="gs-actions"><a href="#project:${E(u.id)}">${EN?'Open the project':'Ouvrir le projet'}</a></div></section>`:'');}
 const evalFeedback=score=>score>=15?`<strong>Très bien — ${score}/20.</strong> Tu peux poursuivre tout en révisant ponctuellement les erreurs.`:score>=10?`<strong>${score}/20.</strong> Les bases sont présentes ; reprends les leçons liées aux erreurs avant de poursuivre.`:`<strong>${score}/20.</strong> Klassia recommande une remédiation ciblée et une nouvelle tentative.`;
 function showEval(unitId,subjectId){const u=units.find(x=>x.id===unitId),sj=u?.subjects?.find(x=>x.id===subjectId),a=sj?.assessment;if(!a)return notFound();const e=evalsOf(u)[subjectId],en=EN||subjectId==='EN';
  frame(`<a href="#unit:${E(u.id)}">← ${E(u.title)}</a>`+hero(a.title,`${sj.name} · évaluation accompagnée · total ${a.total||20} points`)
@@ -158,9 +160,9 @@ function showEval(unitId,subjectId){const u=units.find(x=>x.id===unitId),sj=u?.s
   +(sj.remediation?.length?`<section class="gs-card"><h2>Si certaines notions restent fragiles</h2><ul>${sj.remediation.map(x=>`<li>${E(x)}</li>`).join('')}</ul></section>`:''));
  root.querySelector('#evalSave').onclick=()=>{const input=root.querySelector('#evalScore'),v=input.value.trim()===''?NaN:Number(input.value),msg=root.querySelector('#evalMsg');if(!Number.isFinite(v)||v<0||v>20){msg.textContent='Entre un score compris entre 0 et 20.';return;}const all=evalsOf(u);all[subjectId]={score:v,date:new Date().toISOString()};K.write(evalKey(u),all);msg.innerHTML=evalFeedback(v);K.activity.log('evaluation',`Évaluation enregistrée : ${v}/20`,u.id);};}
 function showProject(unitId){const u=units.find(x=>x.id===unitId),p=u?.integration_project;if(!p)return notFound();const key='klassia_project:'+u.id,state=K.read(key,{}),pct=()=>Math.round(p.tasks.filter((_,i)=>K.read(key,{})[i]).length*100/p.tasks.length);
- frame(`<a href="#unit:${E(u.id)}">← ${E(u.title)}</a>`+hero(p.title,'Projet d’intégration : plusieurs matières autour d’une situation concrète.')
-  +`<section class="gs-card"><h2>Mission</h2><p>${E(p.context)}</p></section><section class="gs-card"><h2>Travail à réaliser</h2><ul class="klassia-project-tasks">${p.tasks.map((x,i)=>`<li><label><input type="checkbox" data-project="${i}" ${state[i]?'checked':''}> ${E(x)}</label></li>`).join('')}</ul><p>Projet réalisé : <strong id="projectPct">${pct()} %</strong></p><progress id="projectBar" max="100" value="${pct()}"></progress></section>`
-  +`<section class="gs-card"><h2>Barème</h2><ul>${p.rubric.map(x=>`<li>${E(x[0])} — <b>${x[1]} pt${x[1]>1?'s':''}</b></li>`).join('')}</ul><p><b>Total : ${p.total}/20</b></p></section>`);
+ frame(`<a href="#unit:${E(u.id)}">← ${E(u.title)}</a>`+hero(p.title,EN?'Integration project: use several subjects in a practical situation.':'Projet d’intégration : plusieurs matières autour d’une situation concrète.')
+ +`<section class="gs-card"><h2>${EN?'Mission':'Mission'}</h2><p>${E(p.context)}</p></section><section class="gs-card"><h2>${EN?'What to do':'Travail à réaliser'}</h2><ul class="klassia-project-tasks">${p.tasks.map((x,i)=>`<li><label><input type="checkbox" data-project="${i}" ${state[i]?'checked':''}> ${E(x)}</label></li>`).join('')}</ul><p>${EN?'Tasks completed':'Projet réalisé'} : <strong id="projectPct">${pct()} %</strong></p><progress id="projectBar" max="100" value="${pct()}"></progress><p>${EN?'A completed task is not a confirmed learning outcome.':'Une tâche cochée ne vaut pas validation d’un acquis.'}</p></section>`
+ +(K.isAdultSpace()?`<section class="gs-card"><h2>${EN?'Proposed rubric':'Barème'}</h2><ul>${p.rubric.map(x=>`<li>${E(x[0])} — <b>${x[1]} pt${x[1]>1?'s':''}</b></li>`).join('')}</ul><p><b>Total : ${p.total}/20</b></p><p>${E(p.teacher_note||'')}</p></section>`:''));
  root.querySelectorAll('[data-project]').forEach(box=>box.onchange=()=>{const d=K.read(key,{});d[box.dataset.project]=box.checked;K.write(key,d);root.querySelector('#projectPct').textContent=pct()+' %';root.querySelector('#projectBar').value=pct();});}
 // Classe en préparation (piste anglophone) : les matières du programme, avec leur horaire et leur tableau, avant les leçons.
 // Avec une unité, seules les matières qui n'y ont pas encore de leçon sont listées.

@@ -41,3 +41,16 @@ test('an interrupted import keeps both the current data and the previous undo sn
  n.fail=true;assert.throws(()=>k.restore(backup,{mode:'new'}));assert.equal(n.getItem('klassia_profiles_v15'),before);assert.equal(n.getItem('klassia_restore_undo_v15'),previous);
  n.fail=false;k.undoRestore();assert.equal(k.read('klassia_progress',{})['FR-U1-L1'],'MAITRISEE');
 });
+
+test('weekly settings retain real unit identifiers and English projects travel in backups',()=>{
+ const K=factory(new Memory());
+ for(const [grade,unit] of [['SIL','SIL-U3'],['CE1','CE1-U5'],['CE2','U2'],['CLASS1','CLASS1-T1'],['CLASS3','CLASS3-T4'],['CLASS4','CLASS4-T8']]){
+  K.write('klassia_'+grade.toLowerCase()+'_week_v1',{unit,week:3});
+ }
+ K.write('klassia_project:CLASS4-T8',{'0':true});
+ const backup=K.exportBackup();
+ K.restore(backup,{mode:'new'});
+ assert.equal(K.read('klassia_sil_week_v1',{}).unit,'SIL-U3');
+ assert.equal(K.read('klassia_class4_week_v1',{}).unit,'CLASS4-T8');
+ assert.equal(K.read('klassia_project:CLASS4-T8',{})['0'],true);
+});

@@ -298,8 +298,8 @@
    "id": "CLASS4-T4-M1",
    "domain": "Mathematics",
    "title": "Factors of a number: making equal teams of workers",
-   "objective": "Find the factors of numbers and solve problems involving factors.",
-   "course": "A factor divides a number exactly. Factors of 12: 1, 2, 3, 4, 6, 12 (1 × 12, 2 × 6, 3 × 4).\nA foreman with 12 workers can make teams of 1, 2, 3, 4, 6 or 12, with no one left over.",
+   "objective": "Find the factors of numbers and solve problems involving factors. Identify common factors and find the GCD/HCF of two small numbers.",
+   "course": "A factor divides a number exactly. Factors of 12: 1, 2, 3, 4, 6, 12 (1 × 12, 2 × 6, 3 × 4).\nA foreman with 12 workers can make teams of 1, 2, 3, 4, 6 or 12, with no one left over.\nCommon factors divide both numbers exactly. Factors of 12: 1, 2, 3, 4, 6, 12. Factors of 18: 1, 2, 3, 6, 9, 18. Their common factors are 1, 2, 3 and 6. The greatest common divisor (GCD), also called the highest common factor (HCF), is 6.\nFor 12 red counters and 18 blue counters, 6 is the greatest number of identical groups with no counters left: each group has 2 red and 3 blue counters.",
    "model": "The adult arranges 12 counters in rows: 2 rows of 6, 3 rows of 4… each arrangement gives a pair of factors.",
    "guided": "Find all the factors of 18, 20 and 24 with counters or multiplication facts.",
    "exercise": "List the factors of 10.",
@@ -337,6 +337,18 @@
      "type": "number",
      "answer": 5,
      "explanation": "20 ÷ 4 = 5."
+    },
+    {
+     "prompt": "What is the GCD (HCF) of 8 and 12?",
+     "type": "number",
+     "answer": 4,
+     "explanation": "Factors of 8: 1, 2, 4, 8. Factors of 12: 1, 2, 3, 4, 6, 12. The largest common factor is 4."
+    },
+    {
+     "prompt": "You have 12 red and 18 blue counters. What is the greatest number of identical groups you can make, using all the counters?",
+     "type": "number",
+     "answer": 6,
+     "explanation": "The GCD of 12 and 18 is 6. Each of the 6 groups has 2 red and 3 blue counters."
     }
    ],
    "source": {
@@ -358,8 +370,8 @@
    "id": "CLASS4-T4-M2",
    "domain": "Mathematics",
    "title": "Multiples and division: sharing the harvest",
-   "objective": "Find multiples of numbers and divide by one-digit numbers, with and without remainders.",
-   "course": "Multiples of 6: 6, 12, 18, 24, 30… (6 × 1, 6 × 2…). The multiples of a number are in its times table.\nDivision shares equally: 84 ÷ 4 = 21. Sometimes something is left: 50 ÷ 8 = 6 remainder 2. Check: 8 × 6 + 2 = 50.",
+   "objective": "Find multiples of numbers and divide by one-digit numbers, with and without remainders. Find common multiples and the LCM of two small positive numbers.",
+   "course": "Multiples of 6: 6, 12, 18, 24, 30… (6 × 1, 6 × 2…). The multiples of a number are in its times table.\nDivision shares equally: 84 ÷ 4 = 21. Sometimes something is left: 50 ÷ 8 = 6 remainder 2. Check: 8 × 6 + 2 = 50.\nA common multiple belongs to both times tables. Positive multiples of 4: 4, 8, 12, 16, 20, 24… Positive multiples of 6: 6, 12, 18, 24… The least common multiple (LCM) is the smallest positive number in both lists: 12. Do not choose 0 for the LCM.\nA bell rings every 4 minutes and another every 6 minutes. If they ring together now, they first ring together again after 12 minutes.",
    "model": "The adult shares 96 cocoa pods equally among 3 baskets: 32 in each.",
    "guided": "Write the first ten multiples of 4 and of 7. Solve five sharing problems with remainders.",
    "exercise": "Calculate 75 ÷ 5.",
@@ -394,6 +406,18 @@
      "correct": 0,
      "answer": "35",
      "explanation": "7 × 5 = 35."
+    },
+    {
+     "prompt": "What is the LCM of 3 and 5?",
+     "type": "number",
+     "answer": 15,
+     "explanation": "Multiples of 3 begin 3, 6, 9, 12, 15; multiples of 5 begin 5, 10, 15. The first positive shared value is 15."
+    },
+    {
+     "prompt": "One bell rings every 4 minutes and another every 6 minutes. They ring together now. In how many minutes will they first ring together again?",
+     "type": "number",
+     "answer": 12,
+     "explanation": "The LCM of 4 and 6 is 12. Both times tables reach 12 for the first time."
     }
    ],
    "source": {
@@ -1103,5 +1127,39 @@
     "Uses of the keyboard: special keys and shortcuts"
    ]
   }
- ]
+ ],
+ "integration_project": {
+  "title": "Meet a local worker",
+  "context": "Use a pretend interview to learn about one familiar occupation.",
+  "tasks": [
+   "Describe work that someone has finished using has or have.",
+   "Find two ways to arrange 24 items into equal groups and list the factors used.",
+   "Prepare a small bill and check it by a second method."
+  ],
+  "rubric": [
+   [
+    "Communicates the message clearly",
+    6
+   ],
+   [
+    "Shows a correct mathematical method",
+    8
+   ],
+   [
+    "Explains or checks the result",
+    4
+   ],
+   [
+    "Works carefully and includes others",
+    2
+   ]
+  ],
+  "total": 20,
+  "teacher_note": "Original cross-subject situation proposed by Klassia. Reuse the unit lessons before assessing. Adapt materials and oral/written expectations; a tick records completion, not competence. Review the rubric locally before assigning marks.",
+  "editorial": {
+   "status": "in_review",
+   "reviewer": null,
+   "validated_at": null
+  }
+ }
 }

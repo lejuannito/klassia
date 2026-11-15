@@ -109,8 +109,11 @@ async function testHomeLanguage(page, base) {
   assert.match(await root.innerText(), /2 mots enregistrés sur 29/);
   assert.equal(await root.locator('[data-written="hello"]').inputValue(), 'essai');
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
-  assert.ok(!JSON.stringify(await page.evaluate(() => Klassia.exportBackup())).includes('klassia_home_'), 'Home language data stays out of the backup');
-  console.log('PASS home language: name, three recordings, listening game, written word, deletion, reload, kept out of the backup');
+  const backup=await page.evaluate(()=>Klassia.exportBackup());
+  assert.equal(JSON.parse(backup.data.klassia_home_language_v1).name,'bassa');
+  assert.equal(JSON.parse(backup.data.klassia_home_words_v1).hello,'essai');
+  assert.deepEqual(Object.keys(backup.data).filter(k=>k.startsWith('klassia_home_')).sort(),['klassia_home_language_v1','klassia_home_words_v1'],'Only written home-language settings travel; recordings stay in IndexedDB');
+  console.log('PASS home language: name, three recordings, listening game, written word, deletion, reload, written words exported and recordings excluded');
 }
 
 async function testBassaMicrophone(context, page, base) {
